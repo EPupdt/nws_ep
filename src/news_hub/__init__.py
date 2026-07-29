@@ -1,0 +1,1 @@
+"""Europe Pulse News Agent."""

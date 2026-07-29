@@ -1,0 +1,38 @@
+# Verify feed availability and publisher terms before adding a source.
+# Source titles/excerpts are shown with publisher attribution and a canonical link.
+sources:
+  - id: dw_europe
+    name: Deutsche Welle
+    kind: rss
+    tier: reporting
+    critical: false
+    feed_url: https://rss.dw.com/rdf/rss-en-eu
+    topics: [politics, society, security]
+  - id: bbc_europe
+    name: BBC News Europe
+    kind: rss
+    tier: reporting
+    critical: false
+    feed_url: https://feeds.bbci.co.uk/news/world/europe/rss.xml
+    topics: [breaking, politics, society]
+  - id: france24
+    name: France 24 English
+    kind: rss
+    tier: reporting
+    critical: false
+    feed_url: https://www.france24.com/en/rss
+    topics: [politics, security, society]
+  - id: euractiv
+    name: Euractiv
+    kind: rss
+    tier: reporting
+    critical: false
+    feed_url: https://www.euractiv.com/feed/
+    topics: [institutions, policy, economy, climate]
+  - id: politico_europe
+    name: POLITICO Europe
+    kind: rss
+    tier: reporting
+    critical: false
+    feed_url: https://www.politico.eu/feed/
+    topics: [institutions, politics, policy]

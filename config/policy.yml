@@ -1,0 +1,17 @@
+version: "1.0"
+timezone: Europe/Bratislava
+seen_window_hours: 48
+radar_window_hours: 24
+synthesis_window_hours: 6
+recent_theme_window_hours: 4
+max_radar_items: 180
+max_llm_items: 45
+top_story_count: 5
+active_hours:
+  weekday: ["06:00", "23:45"]
+  weekend: ["06:00", "23:45"]
+models:
+  gemini: gemini-2.5-flash-lite
+  openrouter:
+    - google/gemini-2.5-flash-lite
+    - google/gemma-3-27b-it:free
