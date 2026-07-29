@@ -146,6 +146,8 @@ def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent
         attempts.append(("gemini", policy["models"]["gemini"], os.environ["GEMINI_API_KEY"]))
     if os.getenv("OR_API_KEY"):
         for model in policy["models"]["openrouter"]:
+            if model != "openrouter/free" and not model.endswith(":free"):
+                continue
             attempts.append(("openrouter", model, os.environ["OR_API_KEY"]))
     for provider, model, key in attempts:
         try:
