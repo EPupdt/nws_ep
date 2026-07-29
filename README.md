@@ -11,6 +11,7 @@ The agent collects public RSS feeds, normalises and de-duplicates items, publish
 - The LLM may only use supplied titles, excerpts, links, timestamps and recent-topic context.
 - Invalid model output never stops collection or publishing.
 - API keys belong only in GitHub Actions secrets: `GEMINI_API_KEY` and `OR_API_KEY`.
+- Editorial publishers are `title_link_only` by default; see [SOURCES.md](SOURCES.md).
 
 ## Run locally
 

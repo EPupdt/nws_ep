@@ -6,6 +6,7 @@ sources:
     kind: rss
     tier: reporting
     critical: false
+    publication_mode: title_link_only
     feed_url: https://rss.dw.com/rdf/rss-en-eu
     topics: [politics, society, security]
   - id: bbc_europe
@@ -13,6 +14,7 @@ sources:
     kind: rss
     tier: reporting
     critical: false
+    publication_mode: title_link_only
     feed_url: https://feeds.bbci.co.uk/news/world/europe/rss.xml
     topics: [breaking, politics, society]
   - id: france24
@@ -20,6 +22,7 @@ sources:
     kind: rss
     tier: reporting
     critical: false
+    publication_mode: title_link_only
     feed_url: https://www.france24.com/en/rss
     topics: [politics, security, society]
   - id: euractiv
@@ -27,6 +30,7 @@ sources:
     kind: rss
     tier: reporting
     critical: false
+    publication_mode: title_link_only
     feed_url: https://www.euractiv.com/feed/
     topics: [institutions, policy, economy, climate]
   - id: politico_europe
@@ -34,5 +38,6 @@ sources:
     kind: rss
     tier: reporting
     critical: false
+    publication_mode: title_link_only
     feed_url: https://www.politico.eu/feed/
     topics: [institutions, politics, policy]

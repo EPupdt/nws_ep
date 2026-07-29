@@ -77,6 +77,13 @@ def write_json(path: Path, content: Any) -> None:
     path.write_text(json.dumps(content, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def public_article(article: Article | dict[str, Any]) -> dict[str, Any]:
+    """Keep publishers' excerpts in memory only; never persist or publish them."""
+    value = asdict(article) if isinstance(article, Article) else dict(article)
+    value.pop("excerpt", None)
+    return value
+
+
 def parse_entry_date(entry: Any, fallback: datetime) -> datetime:
     parsed = entry.get("published_parsed") or entry.get("updated_parsed")
     if parsed:
@@ -134,7 +141,7 @@ def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent
         "task": "Select Europe Pulse news. Return JSON only.",
         "policy": {
             "europe_now": f"Return at most {policy['max_europe_now']} alerts. Require Europe relevance >=2/3 and urgency, broad public impact, or systemic/security significance. Exclude routine statements, isolated local crime, opinion, unverified claims and stories that are merely important. Do not select two alerts for the same developing event.",
-            "top_stories": "Create distinct themes. Each summary must be exactly two factual sentences using only supplied data. Do not invent facts or claim corroboration not present.",
+            "top_stories": "Create distinct themes. Each summary must be exactly two factual sentences using only supplied data. Write in original, neutral language: do not quote or closely reproduce a source headline or excerpt. Do not invent facts or claim corroboration not present.",
         },
         "schema": {"europe_now": [{"title": "string", "summary": "string", "article_ids": ["string"]}],
                    "top_stories": [{"title": "string", "summary": "string", "article_ids": ["string"]}]},
@@ -191,6 +198,8 @@ def enrich_selection(selection: dict[str, Any], articles: list[dict[str, Any]]) 
 def main() -> None:
     policy, source_config, now = read_yaml("policy.yml"), read_yaml("sources.yml"), utcnow()
     state = load_state()
+    # The repository is public: remove legacy excerpts created by earlier runs.
+    state["radar"] = [public_article(item) for item in state.get("radar", [])]
     all_articles: list[Article] = []
     health: list[dict[str, str]] = []
     for source in source_config["sources"]:
@@ -203,7 +212,7 @@ def main() -> None:
     for article in new_articles:
         state["seen"][article.id] = article.collected_at
     combined = {item["id"]: item for item in state.get("radar", [])}
-    combined.update({article.id: asdict(article) for article in new_articles})
+    combined.update({article.id: public_article(article) for article in new_articles})
     radar_cutoff = now - timedelta(hours=policy["radar_window_hours"])
     radar = [item for item in combined.values() if datetime.fromisoformat(item["collected_at"].replace("Z", "+00:00")) >= radar_cutoff]
     radar.sort(key=lambda item: item["published_at"], reverse=True)
