@@ -18,7 +18,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
 STATE_PATH = ROOT / "data" / "state.json"
-PUBLIC_PATH = ROOT / "public" / "data" / "news-hub.json"
+PUBLIC_PATH = ROOT / "docs" / "data" / "news-hub.json"
 LOG_DIR = ROOT / "data" / "selection_logs"
 
 

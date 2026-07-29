@@ -22,10 +22,10 @@ $env:PYTHONPATH = "src"
 py -m news_hub.main
 ```
 
-The runnable result is written to `public/data/news-hub.json` and the local preview to `public/index.html`.
+The runnable result is written to `docs/data/news-hub.json`; the static dashboard is in `docs/index.html`.
 
 ## GitHub Actions
 
 The workflow in `.github/workflows/news-hub.yml` runs every 15 minutes, prevents overlapping runs, and commits only operational state, audit logs and generated public output. The first run can be started from **Actions → Europe Pulse News Hub → Run workflow**.
 
-Before using GitHub Pages, configure the repository's Pages source as **Deploy from a branch → main → /public**. This makes the preview available at `https://epupdt.github.io/nws_ep/`; it is not yet the EuropePulse.eu integration.
+Before using GitHub Pages, configure the repository's Pages source as **Deploy from a branch → main → /docs**. This makes the preview available at `https://epupdt.github.io/nws_ep/`; it is not yet the EuropePulse.eu integration.
