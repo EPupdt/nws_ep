@@ -1,90 +1,80 @@
 {
-  "generated_at": "2026-07-29T12:49:42Z",
-  "last_successful_collection_at": "2026-07-29T12:49:42Z",
+  "generated_at": "2026-07-29T13:44:28Z",
+  "last_successful_collection_at": "2026-07-29T13:44:28Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-29T12:49:42Z"
+      "at": "2026-07-29T13:44:28Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-07-29T12:49:42Z"
+      "at": "2026-07-29T13:44:28Z"
     },
     {
       "id": "france24",
       "status": "ok",
-      "count": "23",
-      "at": "2026-07-29T12:49:42Z"
+      "count": "24",
+      "at": "2026-07-29T13:44:28Z"
     },
     {
       "id": "euractiv",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-29T12:49:42Z"
+      "status": "disabled",
+      "detail": "No verified feed URL configured."
     },
     {
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-29T12:49:42Z"
+      "at": "2026-07-29T13:44:28Z"
+    },
+    {
+      "id": "euobserver",
+      "status": "ok",
+      "count": "20",
+      "at": "2026-07-29T13:44:28Z"
+    },
+    {
+      "id": "el_pais_english",
+      "status": "ok",
+      "count": "59",
+      "at": "2026-07-29T13:44:28Z"
+    },
+    {
+      "id": "notes_from_poland",
+      "status": "ok",
+      "count": "12",
+      "at": "2026-07-29T13:44:28Z"
+    },
+    {
+      "id": "ecfr",
+      "status": "ok",
+      "count": "25",
+      "at": "2026-07-29T13:44:28Z"
+    },
+    {
+      "id": "bruegel",
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-07-29T13:44:28Z"
     }
   ],
   "europe_now": [
     {
-      "title": "France Battles Fourth Heatwave Amidst Worsening Wildfire Conditions",
-      "summary": "France is experiencing its fourth heatwave of the year, with temperatures expected to exceed 40 degrees Celsius in the southwest. Firefighters are concerned that strengthening winds and the incoming heatwave could reignite embers and make it harder to battle existing blazes.",
+      "title": "France expels Russian journalist over alleged Kremlin propaganda",
+      "summary": "France orders Russian journalist Xenia Fedorova to leave the country due to alleged Kremlin propaganda, escalating geopolitical tensions. The decision highlights ongoing security concerns in Europe.",
       "article_ids": [
-        "e36c314a28af5a7867568ad1",
-        "36b46f3f2c2b2b69bc119eeb",
-        "69987d6e22cf16814b649a9f",
-        "2525fcd17bf65071dc6c44db",
-        "ad94703378f0d2672e26571f",
-        "5c66c761898cd3a02b1f2984",
-        "38e40d55f4e142bb3cd4380b"
+        "c485ede810c746c227cb809a",
+        "4f43dbb101e701c7b67ef276"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260729-what-to-know-about-france-s-fourth-heatwave-of-the-year"
+          "url": "https://www.france24.com/en/france/20260729-france-expels-russian-journalist-xenia-fedorova-over-alleged-kremlin-propaganda"
         },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/firefighter-morale-remains-high-as-heatwave-comes-to-france-s-blazing-southwest"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Spain Braces for New Heatwave Amidst Ongoing Wildfire Concerns",
-      "summary": "Spain, like France, is preparing for its fourth heatwave of the summer, with some fires continuing to burn. Tens of thousands of people have begun returning to their homes near Madrid as firefighters work to contain some of the country's worst fires.",
-      "article_ids": [
-        "f68bf888eb8ab83442ca9d58",
-        "938fd667db2188d2599ab384",
-        "ad94703378f0d2672e26571f"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "France Expels Russian Journalist Over Alleged Kremlin Propaganda",
-      "summary": "France has ordered Russian journalist Xenia Fedorova to leave the country, citing accusations of spreading Kremlin propaganda. This action comes ahead of next year's presidential election.",
-      "article_ids": [
-        "c485ede810c746c227cb809a"
-      ],
-      "sources": [
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/france/20260729-france-expels-russian-journalist-xenia-fedorova-over-alleged-kremlin-propaganda"
@@ -93,34 +83,20 @@
       "source_count": 1
     },
     {
-      "title": "Russia Charges Telegram Founder with Facilitating Terrorism",
-      "summary": "Moscow has issued an international wanted notice for Telegram CEO Pavel Durov, accusing him of complicity in terrorism. Russian security services claim the platform is used by Ukraine for sabotage operations.",
+      "title": "European wildfires and heatwave intensify",
+      "summary": "France experiences a fourth heatwave of the year, exacerbating wildfire conditions in the southwest. Firefighters continue to combat blazes despite high morale.",
       "article_ids": [
-        "ea254d270edf7a1455f5ac27",
-        "6b611bc5eac4d5c37a13c9e4"
+        "652f98eeba0bdd418aa7b332",
+        "e36c314a28af5a7867568ad1"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russia-charges-telegram-founder-durov-terrorism-allegations"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/as-fires-still-blaze-france-thinks-about-how-to-rebuild-its-forests"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260729-russia-issues-international-wanted-notice-against-telegram-founder-pavel-durov-for-aiding-terrorism"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Climate Scientist Warns of Exceptional Urgency Amidst European Heatwave",
-      "summary": "A climate scientist warns that Europe's latest heatwave signifies a structural transformation of the continent's climate, emphasizing a period of exceptional urgency. While not yet at the \"point of no return,\" the costs of delaying climate action are escalating rapidly.",
-      "article_ids": [
-        "a3942b07b408fd94b1ce53ba"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/climate-change-is-really-here-we-should-seize-this-crisis-moment-to-create-a-new-momentum"
+          "url": "https://www.france24.com/en/video/20260729-what-to-know-about-france-s-fourth-heatwave-of-the-year"
         }
       ],
       "source_count": 1
@@ -128,100 +104,152 @@
   ],
   "top_stories": [
     {
-      "title": "Japan Earthquake Aftermath",
-      "summary": "A magnitude 7.1 earthquake struck Japan, resulting in at least 13 deaths and numerous injuries. Rescue efforts are ongoing to find missing individuals amidst widespread damage including ruptured roads and power outages.",
+      "title": "European wildfires and heatwave",
+      "summary": "France faces a fourth heatwave of the year, worsening wildfire risks in the southwest. Firefighters are battling blazes despite high morale.",
       "article_ids": [
-        "bbf6ea3f02087a0266277350",
-        "d36a49c4e3e0d277c51250ba",
-        "c082e8522f81d2a2af06fd0d"
+        "652f98eeba0bdd418aa7b332",
+        "e36c314a28af5a7867568ad1"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/japan-searches-for-earthquake-survivors-as-thousands-evacuate"
+          "url": "https://www.france24.com/en/as-fires-still-blaze-france-thinks-about-how-to-rebuild-its-forests"
         },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/what-to-know-about-the-earthquake-s-aftermath-in-japan"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "European Wildfires and Heatwave",
-      "summary": "France and Spain are battling severe wildfires exacerbated by a prolonged heatwave, with temperatures soaring and winds threatening to reignite blazes. Firefighters are working to contain the fires, which have led to significant evacuations.",
-      "article_ids": [
-        "e36c314a28af5a7867568ad1",
-        "36b46f3f2c2b2b69bc119eeb",
-        "f68bf888eb8ab83442ca9d58",
-        "938fd667db2188d2599ab384",
-        "69987d6e22cf16814b649a9f",
-        "2525fcd17bf65071dc6c44db",
-        "ad94703378f0d2672e26571f",
-        "5c66c761898cd3a02b1f2984",
-        "38e40d55f4e142bb3cd4380b"
-      ],
-      "sources": [
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/video/20260729-what-to-know-about-france-s-fourth-heatwave-of-the-year"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/firefighter-morale-remains-high-as-heatwave-comes-to-france-s-blazing-southwest"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Russia-Ukraine Conflict and Geopolitical Tensions",
-      "summary": "The US and Saudi Arabia have conducted strikes against Iran-allied groups in Iraq, escalating regional tensions. Meanwhile, Russia has issued an international wanted notice for Telegram founder Pavel Durov, accusing him of aiding terrorism.",
+      "title": "Russia-Ukraine conflict and geopolitical tensions",
+      "summary": "Russia accuses Telegram founder of facilitating terrorism, escalating geopolitical tensions. The case highlights ongoing security concerns in the region.",
       "article_ids": [
-        "c485ede810c746c227cb809a",
-        "b5bfa9db3f05731886a41e64",
-        "d8dfe55938ded01793602656",
-        "4c0316ac64b73757a27ffb30",
-        "6b611bc5eac4d5c37a13c9e4",
-        "1270bc8ce5d0ee4b4bcfed8f",
-        "8459256059a494e3f1f63843",
-        "670953e821f5ab837da842f6"
+        "ea254d270edf7a1455f5ac27"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260729-france-expels-russian-journalist-xenia-fedorova-over-alleged-kremlin-propaganda"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/uk-looks-to-build-naval-coalition-to-secure-shipping-in-strait-of-hormuz"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "French Politics and Society",
-      "summary": "Zinédine Zidane has been appointed as the new manager of the French men's national football team, aiming for Euro 2028 and the 2030 World Cup. In politics, France has expelled a Russian journalist over alleged Kremlin propaganda.",
-      "article_ids": [
-        "c485ede810c746c227cb809a",
-        "f95a4ccaaa221a18fb79ac85",
-        "49e778239de5b3931eec09b6",
-        "3f8e9897b79753e18d505377",
-        "b62d4a261ceeb3f6634bda39"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260729-france-expels-russian-journalist-xenia-fedorova-over-alleged-kremlin-propaganda"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/sports/20260729-new-era-for-france-as-zin%C3%A9dine-zidane-takes-charge-of-national-team"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/russia-charges-telegram-founder-durov-terrorism-allegations"
         }
       ],
       "source_count": 1
     }
   ],
   "radar": [
+    {
+      "id": "3f51b4dda72a65304f98b155",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Brussels rises against FIFA President Infantino’s plan to bring in private investors",
+      "url": "https://www.politico.eu/article/fifa-world-cup-privatization-plan-faces-brussels-scrutiny",
+      "published_at": "2026-07-29T13:29:06Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "8be44210e49ca930fabf4f98",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Comoros welcomes addition of centuries-old medinas to Unesco list",
+      "url": "https://www.france24.com/en/video/20260729-comoros-welcomes-addition-of-centuries-old-medinas-to-unesco-list",
+      "published_at": "2026-07-29T13:14:08Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "24f2069d07316978912ee185",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Madagascar struggles to deal with wave of kidnappings hitting capital city",
+      "url": "https://www.france24.com/en/madagascar-struggles-to-deal-with-wave-of-kidnappings-hitting-capital-city",
+      "published_at": "2026-07-29T13:08:56Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "fb70b90ce4cd832772b4acee",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Despite praise, Chad to withdraw from the International Criminal Court",
+      "url": "https://www.france24.com/en/despite-praise-chad-to-withdraw-from-the-international-criminal-court",
+      "published_at": "2026-07-29T13:04:34Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "874647930bcfc105aa78d0ff",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Living through a World Cup with a gambling disorder: ‘Winning is the worst thing that can happen to you’",
+      "url": "https://english.elpais.com/society/2026-07-29/living-through-a-world-cup-with-a-gambling-disorder-winning-is-the-worst-thing-that-can-happen-to-you.html",
+      "published_at": "2026-07-29T12:51:21Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "99af9f6582ff18829a26abb4",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Newly sworn-in judge of Poland’s constitutional court stages boycott over blocked colleagues",
+      "url": "https://notesfrompoland.com/2026/07/29/newly-sworn-in-judge-of-polands-constitutional-court-stages-boycott-over-blocked-colleagues",
+      "published_at": "2026-07-29T12:46:54Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "995c193f51efd105941598b8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "FIFA private investor plans spark backlash, UEFA fury",
+      "url": "https://www.france24.com/en/video/20260729-fifa-private-investor-plans-spark-backlash-uefa-fury",
+      "published_at": "2026-07-29T12:43:40Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "652f98eeba0bdd418aa7b332",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "As fires still blaze, France thinks about how to rebuild its forests",
+      "url": "https://www.france24.com/en/as-fires-still-blaze-france-thinks-about-how-to-rebuild-its-forests",
+      "published_at": "2026-07-29T12:42:49Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "bbf6ea3f02087a0266277350",
       "source_id": "france24",
@@ -244,6 +272,20 @@
       "url": "https://www.france24.com/en/france/20260729-france-expels-russian-journalist-xenia-fedorova-over-alleged-kremlin-propaganda",
       "published_at": "2026-07-29T12:37:10Z",
       "collected_at": "2026-07-29T12:42:30Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "4f43dbb101e701c7b67ef276",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France orders Russian journalist Xenia Fedorova to leave country over alleged Kremlin propaganda",
+      "url": "https://www.france24.com/en/france/20260729-france-expels-russian-journalist-xenia-fedorova-over-alleged-kremlin-propaganda",
+      "published_at": "2026-07-29T12:37:10Z",
+      "collected_at": "2026-07-29T13:44:28Z",
       "topics": [
         "politics",
         "security",
@@ -307,6 +349,20 @@
       ]
     },
     {
+      "id": "7ee55393c3062abd032ece05",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Nayib Bukele’s route to erasing limits on power in El Salvador",
+      "url": "https://english.elpais.com/international/2026-07-29/nayib-bukeles-route-to-erasing-limits-on-power-in-el-salvador.html",
+      "published_at": "2026-07-29T12:03:15Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "938fd667db2188d2599ab384",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -318,6 +374,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "a8ee70c897117935a82e5fc9",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "With twice the arable land of France, Ukraine’s vast farms spooks European counterparts amid looming fight over market access and EU subsidies",
+      "url": "https://euobserver.com/227918/with-twice-the-arable-land-of-france-ukraines-vast-farms-spooks-european-counterparts-amid-looming-fight-over-market-access-and-eu-subsidies",
+      "published_at": "2026-07-29T11:30:17Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -335,6 +405,34 @@
       ]
     },
     {
+      "id": "6ab5c50542acdf6e86d4557f",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Former Polish PM Morawiecki forms parliamentary caucus rival to PiS, deepening opposition split",
+      "url": "https://notesfrompoland.com/2026/07/29/former-polish-pm-morawiecki-forms-rival-parliamentary-caucus-deepening-opposition-split",
+      "published_at": "2026-07-29T11:06:23Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "0497d3cc6c9682673c761e07",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Florida carries out its first double execution in more than 60 years",
+      "url": "https://english.elpais.com/usa/2026-07-29/florida-carries-out-its-first-double-execution-in-more-than-60-years.html",
+      "published_at": "2026-07-29T10:46:13Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "7dc95dd4584438ce266396c8",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -346,6 +444,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "2267e129132ca81bc03a60d5",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Two of a kind: How France and Italy can show the way for Europe’s Africa policy",
+      "url": "https://ecfr.eu/article/two-of-a-kind-how-france-and-italy-can-show-the-way-for-europes-africa-policy",
+      "published_at": "2026-07-29T10:42:02Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
@@ -405,6 +517,34 @@
       ]
     },
     {
+      "id": "2c66b8d555c4a906b44830f0",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "French DJ ​and electronic ‌musician Kavinsky dies aged 50",
+      "url": "https://www.bbc.co.uk/news/articles/c204n74xyv3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-07-29T10:35:13Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "df6d53c368d317540455e113",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Europe’s queer ‘conversion’ therapy crisis is an invisible trauma for victims, but a difficult practice to ban",
+      "url": "https://euobserver.com/227265/europes-queer-conversion-therapy-crisis-is-an-invisible-trauma-for-victims-but-a-difficult-practice-to-ban",
+      "published_at": "2026-07-29T10:34:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "69987d6e22cf16814b649a9f",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -416,6 +556,34 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "823d4dd8eec64787050ab7dc",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "A 9/11 firefighter in the Mediterranean: The volunteer brigade on the front line of Spain’s wildfires",
+      "url": "https://english.elpais.com/spain/2026-07-29/a-911-firefighter-in-the-mediterranean-the-volunteer-brigade-on-the-front-line-of-spains-wildfires.html",
+      "published_at": "2026-07-29T10:32:13Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "047660cc136f4d8a070ca486",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The cocktail behind the wildfires ravaging Spain: Unprecedented heat waves and a changing relationship with the countryside",
+      "url": "https://english.elpais.com/spain/2026-07-29/the-cocktail-behind-the-wildfires-ravaging-spain-unprecedented-heat-waves-and-a-changing-relationship-with-the-countryside.html",
+      "published_at": "2026-07-29T10:31:58Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -475,6 +643,20 @@
       ]
     },
     {
+      "id": "13c6123775ff3f28be9aff23",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Is the next EU budget about to torpedo social care in Europe?",
+      "url": "https://euobserver.com/229833/is-the-next-eu-budget-about-to-torpedo-social-care-in-europe",
+      "published_at": "2026-07-29T09:17:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "4eacd82e6d618cbf784d8658",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -514,6 +696,34 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "1eae3662c9c901d5f6ef432e",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Mamdani’s plan for public supermarkets outrages New York merchants",
+      "url": "https://english.elpais.com/usa/2026-07-29/mamdanis-plan-for-public-supermarkets-outrages-new-york-merchants.html",
+      "published_at": "2026-07-29T08:56:45Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "b58fca640abea8fdb3d82ca9",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘I’m pretty sure he’s a wetback’: Lawsuit attributes racist slurs to immigration agents in Los Angeles",
+      "url": "https://english.elpais.com/usa/2026-07-29/im-pretty-sure-hes-a-wetback-lawsuit-attributes-racist-slurs-to-immigration-agents-in-los-angeles.html",
+      "published_at": "2026-07-29T08:55:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -559,6 +769,20 @@
       ]
     },
     {
+      "id": "a17c441023ca200e6d00ea33",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Kavinsky, French DJ and composer of 'Nightcall', found dead in Paris home",
+      "url": "https://www.france24.com/en/france/20260729-french-dj-kavinsky-found-dead-in-paris-home",
+      "published_at": "2026-07-29T08:46:56Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "6b611bc5eac4d5c37a13c9e4",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -573,6 +797,20 @@
       ]
     },
     {
+      "id": "5a01a6be1ae9df29721d78d1",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "'Hukou,' the invisible border that follows China's internal migrants",
+      "url": "https://english.elpais.com/international/2026-07-29/hukou-the-invisible-border-that-follows-chinas-internal-migrants.html",
+      "published_at": "2026-07-29T08:44:01Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "6f98e658573ff0b8636fd0a6",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -584,6 +822,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "2fd9e388d206037d9f14a974",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Three Israeli farm companies advertise exports from occupied West Bank to Spain, defying settlement products ban",
+      "url": "https://euobserver.com/230314/three-israeli-farm-companies-advertise-exports-from-occupied-west-bank-to-spain-defying-settlement-products-ban",
+      "published_at": "2026-07-29T08:12:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -612,6 +864,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "9da414ec51a560fe6905c150",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Brussels is not pulling Armenia away from Russia – it is pushing Yerevan into autocracy",
+      "url": "https://euobserver.com/230243/brussels-isnot-pulling-armenia-away-from-russia-it-is-pushing-yerevan-into-autocracy",
+      "published_at": "2026-07-29T07:09:44Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -741,6 +1007,34 @@
       ]
     },
     {
+      "id": "de201fab068d62d03e61d447",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Keiko Fujimori takes office as president of Peru with the promise of a ‘safe, prosperous, and united’ country",
+      "url": "https://english.elpais.com/international/2026-07-28/keiko-fujimori-takes-office-as-president-of-peru-with-the-promise-of-a-safe-prosperous-and-united-country.html",
+      "published_at": "2026-07-28T19:15:38Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "082a4b471319f21c33b72e1c",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "US recalls over 19 million eggs due to salmonella outbreak that has caused illness in nearly 100 people",
+      "url": "https://english.elpais.com/usa/2026-07-28/us-recalls-over-19-million-eggs-due-to-salmonella-outbreak-that-has-caused-illness-in-nearly-100-people.html",
+      "published_at": "2026-07-28T17:31:10Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "5c66c761898cd3a02b1f2984",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -750,6 +1044,48 @@
       "collected_at": "2026-07-29T12:42:30Z",
       "topics": [
         "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "f19ce1fcc34021280c9805e8",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Were the dinosaurs incinerated in a matter of hours? The meteorite created a layer of dust that turned the planet into a grill",
+      "url": "https://english.elpais.com/science-tech/2026-07-28/were-the-dinosaurs-incinerated-in-a-matter-of-hours-the-meteorite-created-a-layer-of-dust-that-turned-the-planet-into-a-grill.html",
+      "published_at": "2026-07-28T16:59:44Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "d4b1433ebac561b28c458055",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Trump’s US troop cuts in Europe envisage ‘Nato 3.0’ – but also leave a risky ‘transition gap’",
+      "url": "https://euobserver.com/230557/trumps-us-troops-cut-in-europe-envisages-nato-3-0-but-also-leaves-a-risky-transition-gap",
+      "published_at": "2026-07-28T16:54:07Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "66b9e9a80cf0d6ad81fe364f",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Polish court finds regulation allowing foreign same-sex marriage registration unconstitutional",
+      "url": "https://notesfrompoland.com/2026/07/28/polish-court-finds-regulation-allowing-foreign-same-sex-marriage-registration-unconstitutional",
+      "published_at": "2026-07-28T16:32:34Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "central_europe",
         "politics",
         "society"
       ]
@@ -783,6 +1119,34 @@
       ]
     },
     {
+      "id": "2b2da431c645eba4b4e6aebc",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "The threat of ‘total economic war’ looms. And July sees highest civilian deaths since 2022 (Ukraine Battlefield update, Day 1,616)",
+      "url": "https://euobserver.com/230541/the-threat-of-total-economic-war-looms-and-july-sees-highest-civilian-deaths-since-2022-ukraine-battlefield-update-day-1616",
+      "published_at": "2026-07-28T15:20:05Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "0b4019a93f8bac7aaa5598e6",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The Saudi dilemma: How Yemen could shape the next phase of the Iran war",
+      "url": "https://ecfr.eu/article/the-saudi-dilemma-how-yemen-could-shape-the-next-phase-of-the-iran-war",
+      "published_at": "2026-07-28T14:57:48Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
       "id": "38e40d55f4e142bb3cd4380b",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -811,6 +1175,20 @@
       ]
     },
     {
+      "id": "2288d560068ec8f2e58e70dd",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Europe’s wildfires surge 57% as France and Spain call in EU help",
+      "url": "https://euobserver.com/230539/europes-wildfires-surge-57-as-france-and-spain-call-in-eu-help",
+      "published_at": "2026-07-28T14:31:51Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "bef0d29dc6e672ba6cb985f7",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -825,6 +1203,62 @@
       ]
     },
     {
+      "id": "7d43a97ec39de5f1475349cb",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Toni Kurz’s agony on the north face of the Eiger: 90 years since mountaineering’s greatest tragedy",
+      "url": "https://english.elpais.com/sports/2026-07-28/toni-kurzs-agony-on-the-north-face-of-the-eiger-90-years-since-mountaineerings-greatest-tragedy.html",
+      "published_at": "2026-07-28T13:38:16Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "69747d6365039bedc4eb2434",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The telescope that could reveal the missing half of the universe",
+      "url": "https://english.elpais.com/science-tech/2026-07-28/the-telescope-that-could-reveal-the-missing-half-of-the-universe.html",
+      "published_at": "2026-07-28T13:36:23Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "c518959bae312ff6bbe8d418",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Hungary’s media reckoning: how Péter Magyar is tearing down Orbán’s propaganda empire",
+      "url": "https://euobserver.com/226786/hungarys-media-reckoning-how-peter-magyar-is-tearing-down-orbans-propaganda-empire",
+      "published_at": "2026-07-28T13:35:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "aa7816638b69535bb7a47657",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Carlo Maley, evolutionary biologist: ‘We have become so obsessed with curing cancer that we haven’t thought about how to extend life without a cure’",
+      "url": "https://english.elpais.com/science-tech/2026-07-28/carlo-maley-evolutionary-biologist-we-have-become-so-obsessed-with-curing-cancer-that-we-havent-thought-about-how-to-extend-life-without-a-cure.html",
+      "published_at": "2026-07-28T11:25:04Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "670953e821f5ab837da842f6",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -836,6 +1270,48 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "e71bd82ae0f80031192d418d",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Residents oppose move to add Polish village to list of protected monuments",
+      "url": "https://notesfrompoland.com/2026/07/28/residents-oppose-move-to-add-polish-village-to-list-of-protected-monuments",
+      "published_at": "2026-07-28T10:37:39Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "bf4627f9133c08c7352fdda4",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland enters race to host EU-backed AI gigafactory",
+      "url": "https://notesfrompoland.com/2026/07/28/poland-enters-race-to-host-eu-backed-ai-gigafactory",
+      "published_at": "2026-07-28T10:30:19Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "bff07abcf19cc3964f5d5935",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Berna León, a Harvard researcher in Spain’s Socialist ranks: ‘Entering politics today is like throwing yourself to the wolves’",
+      "url": "https://english.elpais.com/spain/2026-07-28/berna-leon-a-harvard-researcher-in-spains-socialist-ranks-entering-politics-today-is-like-throwing-yourself-to-the-wolves.html",
+      "published_at": "2026-07-28T09:57:08Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -864,6 +1340,90 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "4425403e009bf8db8f612f65",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Freed dissident artist Luis Manuel Otero Alcántara: ‘Cubans are desperate for something to happen, anything’",
+      "url": "https://english.elpais.com/international/2026-07-28/freed-dissident-artist-luis-manuel-otero-alcantara-cubans-are-desperate-for-something-to-happen-anything.html",
+      "published_at": "2026-07-28T08:42:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "8b7c38e7b88d3dd0326269b3",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "AI-powered digital friends, the new threat to teenagers’ mental health",
+      "url": "https://english.elpais.com/technology/2026-07-28/ai-powered-digital-friends-the-new-threat-to-teenagers-mental-health.html",
+      "published_at": "2026-07-28T08:13:56Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "0438c35e0e56da69e0f0be4b",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Stop letting the ‘liberals vs populists’ story turn the far-right into the only alternative",
+      "url": "https://euobserver.com/230414/stop-letting-the-liberals-vs-populists-story-turn-the-far-right-into-the-only-alternative",
+      "published_at": "2026-07-28T07:59:33Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "92ed84c73463a77875cc5943",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trump administration steps up fight to block undocumented students from attending college",
+      "url": "https://english.elpais.com/usa/2026-07-28/trump-administration-steps-up-fight-to-block-undocumented-students-from-attending-college.html",
+      "published_at": "2026-07-28T07:43:37Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "89646e0119c5675c5cde9a39",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Shoring up the Red Sea: Why the next crisis may begin in the Horn of Africa",
+      "url": "https://ecfr.eu/article/shoring-up-the-red-sea-why-the-next-crisis-may-begin-in-the-horn-of-africa",
+      "published_at": "2026-07-28T07:00:23Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "f115475201ccf0a9d7547a64",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Heat pumps, solar and wind could cut EU gas use by a quarter and blunt next energy shock, study finds",
+      "url": "https://euobserver.com/230284/europes-renewable-push-can-shield-europe-from-next-energy-crisis-report-finds",
+      "published_at": "2026-07-28T04:00:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -909,6 +1469,104 @@
       ]
     },
     {
+      "id": "da5b18215e57c152e492e832",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "What went wrong? Russian missile attack on open-air weapons exhibition exposes catalogue of errors (Ukraine Battlefield update, Day 1,615)",
+      "url": "https://euobserver.com/230310/what-went-wrong-russian-missile-attack-on-open-air-weapons-exhibition-exposes-catalogue-of-errorsukraine-battlefield-update-day-1615",
+      "published_at": "2026-07-27T16:22:54Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "8a5332c2271e446a0c85c6a1",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Firefighters facing a major crisis: ‘I’ve never seen a fire burn with such intensity’",
+      "url": "https://english.elpais.com/spain/2026-07-27/firefighters-facing-a-major-crisis-ive-never-seen-a-fire-burn-with-such-intensity.html",
+      "published_at": "2026-07-27T14:49:55Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "665dd44e3e64a0dc156f29f9",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland asks US to extradite former minister Ziobro over criminal charges",
+      "url": "https://notesfrompoland.com/2026/07/27/poland-asks-us-to-extradite-former-minister-ziobro-over-criminal-charges",
+      "published_at": "2026-07-27T14:40:24Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "898886fbb93215c80be7757a",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Chip shortages forced China to find way to make cheaper AI models than US",
+      "url": "https://euobserver.com/230235/chip-shortages-forced-china-to-find-way-to-make-cheaper-ai-models-than-us",
+      "published_at": "2026-07-27T14:08:34Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "2a38d59bb0a417768401353f",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "US faces the challenge of turning soccer into a mass sport following the success of the World Cup",
+      "url": "https://english.elpais.com/sports/2026-07-27/us-faces-the-challenge-of-turning-soccer-into-a-mass-sport-following-the-success-of-the-world-cup.html",
+      "published_at": "2026-07-27T13:31:58Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "93400b03c65ad7ebd773b5d8",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The incredible story of the man who built a fake Roman theater in Italy and sold tickets to visit it",
+      "url": "https://english.elpais.com/international/2026-07-27/the-incredible-story-of-the-man-who-built-a-fake-roman-theater-in-italy-and-sold-tickets-to-visit-it.html",
+      "published_at": "2026-07-27T13:31:11Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "116dc635ff8e6539adc8b08d",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Brussels found Russia’s LNG weak spot — then carved out an exception for a Greek billionaire",
+      "url": "https://euobserver.com/230246/brussels-found-russias-lng-weak-spot-then-carved-out-an-exception-for-a-greek-billionaire",
+      "published_at": "2026-07-27T13:01:19Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "8ad0fd0501d988a31d3a3476",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -920,6 +1578,48 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "0f354f4fcc0c7875421e885d",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘The largest frying pan in Europe’ ignites tempers in Brussels",
+      "url": "https://english.elpais.com/international/2026-07-27/the-largest-frying-pan-in-europe-ignites-tempers-in-brussels.html",
+      "published_at": "2026-07-27T11:42:26Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "b277047f5f4938863d65e4dc",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "UNESCO adds Poland’s modernist port city of Gdynia to World Heritage List",
+      "url": "https://notesfrompoland.com/2026/07/27/unesco-adds-polands-modernist-port-city-of-gdynia-to-world-heritage-list",
+      "published_at": "2026-07-27T11:23:58Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "fc1f68606fe91af0bb295e52",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Berlin Pride van attack tests EU vows to protect LGBTQ+ people as far-right parties court queer voters",
+      "url": "https://euobserver.com/230250/berlin-pride-van-attack-tests-eu-vows-to-protect-lgbtq-people-as-far-right-parties-court-queer-voters",
+      "published_at": "2026-07-27T11:17:39Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -937,6 +1637,20 @@
       ]
     },
     {
+      "id": "c7b5a6efb183653cc2cad301",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Polish president obstructs windfall tax on fuel firms’ excess profits, prompting government criticism",
+      "url": "https://notesfrompoland.com/2026/07/27/polish-president-obstructs-windfall-tax-on-fuel-firms-excess-profits-prompting-government-criticism",
+      "published_at": "2026-07-27T10:18:44Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "c02421cb914b80449f1b1b54",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -948,6 +1662,76 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "3d4402404008627f844dd167",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘Only America was rich enough to satisfy my hypertrophied self’: Florida exhibition explores how Salvador Dalí transformed US culture",
+      "url": "https://english.elpais.com/culture/2026-07-27/only-america-was-rich-enough-to-satisfy-my-hypertrophied-self-florida-exhibition-explores-how-salvador-dali-transformed-us-culture.html",
+      "published_at": "2026-07-27T09:34:42Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "5388290709ee3b28a871f2c9",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Neither blonde nor dumb: Marilyn Monroe against Hollywood’s wolves",
+      "url": "https://english.elpais.com/culture/2026-07-27/neither-blonde-nor-dumb-marilyn-monroe-against-hollywoods-wolves.html",
+      "published_at": "2026-07-27T09:23:18Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "f290ec7e0991b782b08a5a24",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "From Mar‑a‑Lago to Moscow: how Trump’s FBI chief is shredding allies’ faith in US intelligence",
+      "url": "https://euobserver.com/230216/from-maralago-to-moscow-how-trumps-fbi-chief-is-shredding-allies-faith-in-us-intelligence",
+      "published_at": "2026-07-27T09:17:43Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "295037d4a2ab35ad733e8c9a",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "[Interview] French-Palestinian MEP Rima Hassan: ‘Nobody believes in the two-state solution’",
+      "url": "https://euobserver.com/229037/interview-french-palestinian-mep-rima-hassans-reflects-on-her-legal-battles-and-why-nobody-believes-in-the-two-state-solution",
+      "published_at": "2026-07-27T09:10:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "b6091c0c805ed354de9fb359",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Helena Moreno, mayor of New Orleans: ‘Being Latina and bilingual allows me to defend my community’",
+      "url": "https://english.elpais.com/usa/2026-07-27/helena-moreno-mayor-of-new-orleans-being-latina-and-bilingual-allows-me-to-defend-my-community.html",
+      "published_at": "2026-07-27T08:20:26Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -993,6 +1777,90 @@
       ]
     },
     {
+      "id": "f32351178c4b86c886b26db2",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "US and Israeli pressure over Karim Khan could rewrite the rules and weaken the International Criminal Court",
+      "url": "https://euobserver.com/229054/us-and-israeli-pressure-over-karim-khan-could-rewrite-the-rules-and-weaken-the-international-criminal-court",
+      "published_at": "2026-07-26T07:56:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "4f9a164a3bbbd28f995f9cdd",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Fatboy Slim and his disperse dance floor memories: ‘I had to Google myself so many times to check if something happened’",
+      "url": "https://english.elpais.com/culture/2026-07-26/fatboy-slim-and-his-disperse-dance-floor-memories-i-had-to-google-myself-so-many-times-to-check-if-something-happened.html",
+      "published_at": "2026-07-26T04:00:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "eb24542023674628dd7bed20",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Peter Singer, philosopher: ‘People still think the animals we eat live out in the fields, outdoors’",
+      "url": "https://english.elpais.com/culture/2026-07-26/peter-singer-philosopher-people-still-think-the-animals-we-eat-live-out-in-the-fields-outdoors.html",
+      "published_at": "2026-07-26T04:00:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "1d7a60be5d8d70b13b4d5f36",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The castle, the cable car and the Nazis: Returning to Schlöss Adler and ‘Where Eagles Dare’",
+      "url": "https://english.elpais.com/culture/2026-07-26/the-castle-the-cable-car-and-the-nazis-returning-to-schloss-adler-and-where-eagles-dare.html",
+      "published_at": "2026-07-26T04:00:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "58a4272f8fb50bbccbc4c659",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Pierpaolo Piccioli, Balenciaga’s creative director: ‘I don’t want to revive the house’s archives; I want to revive its values’",
+      "url": "https://english.elpais.com/culture/2026-07-26/pierpaolo-piccioli-balenciagas-creative-director-i-dont-want-to-revive-the-houses-archives-i-want-to-revive-its-values.html",
+      "published_at": "2026-07-26T04:00:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "665639dcf21d292f09251566",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Fire Island, the ‘hottest’ beach in the world: 100 years of art, parties and wild sex",
+      "url": "https://english.elpais.com/culture/2026-07-26/fire-island-the-hottest-beach-in-the-world-100-years-of-art-parties-and-wild-sex.html",
+      "published_at": "2026-07-26T04:00:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "2f6722296250f1db4d9b2df5",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1021,6 +1889,34 @@
       ]
     },
     {
+      "id": "a20b78fd15b7d1c9f061691b",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland identifies remains of legendary anti-communist resistance fighter",
+      "url": "https://notesfrompoland.com/2026/07/25/poland-identifies-remains-of-legendary-anti-communist-resistance-fighter",
+      "published_at": "2026-07-25T14:49:38Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "154f3d5eb1a5df405149b0da",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Death of French Epstein pimp Daniel Siad ends judicial case, leaving victims searching for justice",
+      "url": "https://euobserver.com/230009/death-of-french-epstein-pimp-daniel-siad-ends-judicial-case-leaving-victims-searching-for-justice",
+      "published_at": "2026-07-25T13:06:36Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "f18abed5c3eb58d214e03b64",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1032,6 +1928,118 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "e6d387f117c6e438df21c7bb",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Three quarters of Poles support cooperation with Ukraine against Russia despite historical dispute",
+      "url": "https://notesfrompoland.com/2026/07/25/three-quarters-of-poles-support-cooperation-with-ukraine-against-russia-despite-historical-dispute",
+      "published_at": "2026-07-25T09:52:25Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "dca70b9b82445daf38106a2d",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "How people are deceiving the justice system with AI: ‘It’s an invisible fraud’",
+      "url": "https://english.elpais.com/technology/2026-07-25/how-people-are-deceiving-the-justice-system-with-ai-its-an-invisible-fraud.html",
+      "published_at": "2026-07-25T04:00:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "4feed252f59665434919d21c",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Extreme heat is scorching our health: increased irritability, poorer sleep and more cardiovascular problems",
+      "url": "https://english.elpais.com/health/2026-07-25/extreme-heat-is-scorching-our-health-increased-irritability-poorer-sleep-and-more-cardiovascular-problems.html",
+      "published_at": "2026-07-25T04:00:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "9d639f92d9ad32e25b79c7c6",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Jamie Dimon, the most powerful banker in the world: ‘I know Europe doesn’t see the US as a friend, but it is’",
+      "url": "https://english.elpais.com/economy-and-business/2026-07-25/jamie-dimon-the-most-powerful-banker-in-the-world-i-know-europe-doesnt-see-the-us-as-a-friend-but-it-is.html",
+      "published_at": "2026-07-25T04:00:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "3f2d2e69335e706572972c63",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Zendaya, the actress who defied the Disney child-star curse to become a global star",
+      "url": "https://english.elpais.com/culture/2026-07-25/zendaya-the-actress-who-defied-the-disney-child-star-curse-to-become-a-global-star.html",
+      "published_at": "2026-07-25T04:00:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "1365c06584a6a6b1a0466d85",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Yuval Noah Harari: 'AI could be a great manipulative psychopath'",
+      "url": "https://english.elpais.com/culture/2026-07-25/yuval-noah-harari-ai-could-be-a-great-manipulative-psychopath.html",
+      "published_at": "2026-07-25T04:00:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "76254274fb8ec303424cf372",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘We’re surviving’: raids deliver a heavy and lasting blow to Hispanic businesses in L.A.",
+      "url": "https://english.elpais.com/usa/2026-07-25/were-surviving-raids-deliver-a-heavy-and-lasting-blow-to-hispanic-businesses-in-la.html",
+      "published_at": "2026-07-25T04:00:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "1696c4549833dc0ea3a257b7",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "An underwater window on World War I",
+      "url": "https://english.elpais.com/international/2026-07-25/an-underwater-window-on-world-war-i.html",
+      "published_at": "2026-07-25T00:13:36Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -1091,6 +2099,62 @@
       ]
     },
     {
+      "id": "c390f4ce3f2beec5394ae40e",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland bans chaining of dogs and cats",
+      "url": "https://notesfrompoland.com/2026/07/24/poland-bans-chaining-of-dogs-and-cats",
+      "published_at": "2026-07-24T14:55:09Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "e0c82f0898234e8527c892a3",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Sweden moves to ban ‘forever chemicals’ in consumer products from 2028 as EU-wide ban remains in limbo",
+      "url": "https://euobserver.com/230085/sweden-moves-to-ban-forever-chemicals-in-consumer-products-from-2028-as-eu-wide-ban-remains-in-limbo",
+      "published_at": "2026-07-24T13:51:47Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "0b0c74453e3a0d720f0d5a40",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Serbia: Inside the leaderless movement",
+      "url": "https://ecfr.eu/podcasts/episode/inside-the-leaderless-movement",
+      "published_at": "2026-07-24T12:35:30Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "aac900955cc3f9de1796786f",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Police and park rangers step up joint patrols in Poland’s Tatras after series of tourist offences",
+      "url": "https://notesfrompoland.com/2026/07/24/police-and-park-rangers-step-up-joint-patrols-in-polands-tatras-after-series-of-tourist-offences",
+      "published_at": "2026-07-24T12:34:39Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "e2e860a513bf777565a0a868",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1102,6 +2166,62 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "eec6f8ba9156cc671478aecd",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "One month after the earthquakes in Venezuela: ‘People aren’t going to leave their dead there’",
+      "url": "https://english.elpais.com/international/2026-07-24/one-month-after-the-earthquakes-in-venezuela-people-arent-going-to-leave-their-dead-there.html",
+      "published_at": "2026-07-24T07:57:48Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "075cb1effd9fa29754fc0c87",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Donna Haraway, philosopher: ‘We live in a pro-natalist, anti-child world. Babies should be rare and precious’",
+      "url": "https://english.elpais.com/culture/2026-07-24/donna-haraway-philosopher-we-live-in-a-pro-natalist-anti-child-world-babies-should-be-rare-and-precious.html",
+      "published_at": "2026-07-24T07:53:02Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "642722bf431a8a897fbb68c6",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trump imposes chaotic trade system in his third round of tariffs",
+      "url": "https://english.elpais.com/economy-and-business/2026-07-24/trump-imposes-chaotic-trade-system-in-his-third-round-of-tariffs.html",
+      "published_at": "2026-07-24T06:00:54Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "66029b24ac577f1e07324141",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The China-native generation",
+      "url": "https://ecfr.eu/podcasts/episode/the-china-native-generation",
+      "published_at": "2026-07-24T05:00:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
@@ -1119,6 +2239,34 @@
       ]
     },
     {
+      "id": "3d1fa7462cca7bc1479cf4b5",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Javier Bardem addresses controversy around the World Cup final: ‘Milei is not all of the Argentine population’",
+      "url": "https://english.elpais.com/culture/2026-07-23/javier-bardem-addresses-controversy-around-the-world-cup-final-milei-is-not-all-of-the-argentine-population.html",
+      "published_at": "2026-07-23T14:19:57Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "8966f5926726e7b6481172c9",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The magnificent ten: A coalition of the willing to drive the EU’s next enlargement",
+      "url": "https://ecfr.eu/publication/the-magnificent-ten-a-coalition-of-the-willing-to-drive-the-eus-next-enlargement",
+      "published_at": "2026-07-23T14:16:18Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
       "id": "eb0e45dd1ae7aedf89293219",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1129,6 +2277,20 @@
       "topics": [
         "politics",
         "society",
+        "security"
+      ]
+    },
+    {
+      "id": "2c956b13fa6c84b7b8d93f9a",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "One foot out: Understanding Bulgaria’s geopolitical shift under Radev",
+      "url": "https://ecfr.eu/article/one-foot-out-understanding-bulgarias-geopolitical-shift-under-radev",
+      "published_at": "2026-07-23T13:51:12Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
         "security"
       ]
     },
@@ -1161,6 +2323,20 @@
       ]
     },
     {
+      "id": "9c58e1ce965160e3b6d64aa9",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Don Omar, reggaeton pioneer: ‘What’s happening with Bad Bunny is the result of 30 years of urban music’",
+      "url": "https://english.elpais.com/culture/2026-07-23/don-omar-reggaeton-pioneer-whats-happening-with-bad-bunny-is-the-result-of-30-years-of-urban-music.html",
+      "published_at": "2026-07-23T09:58:24Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "f04b2051549a7f21e55ca3e8",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1186,6 +2362,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "e93a2af35c277b98224ca08a",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Food-related scams are flooding social media with hyper-realistic AI-generated videos",
+      "url": "https://english.elpais.com/health/2026-07-22/food-related-scams-are-flooding-social-media-with-hyper-realistic-ai-generated-videos.html",
+      "published_at": "2026-07-22T19:32:40Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -1217,6 +2407,34 @@
       ]
     },
     {
+      "id": "60cac99c9e46dc0a881e8d1e",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "How better climate diplomacy can save Europe’s green ambitions",
+      "url": "https://ecfr.eu/article/how-better-climate-diplomacy-can-save-europes-green-ambitions",
+      "published_at": "2026-07-22T16:02:40Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "c65541a5bcbf36b6a15a0192",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Federal judge blocks revocation of asylum applications and work permits for thousands of immigrants",
+      "url": "https://english.elpais.com/usa/2026-07-22/federal-judge-blocks-revocation-of-asylum-applications-and-work-permits-for-thousands-of-immigrants.html",
+      "published_at": "2026-07-22T08:22:41Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "4f2033e7e8a1309012f3cbc9",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1227,6 +2445,34 @@
       "topics": [
         "politics",
         "society",
+        "security"
+      ]
+    },
+    {
+      "id": "73800233224c41d78576b7b1",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "ECFR’s summer entertainment list 2026",
+      "url": "https://ecfr.eu/article/ecfrs-summer-entertainment-list-2026",
+      "published_at": "2026-07-21T15:05:36Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "104f9a5cf2a8ac274a43db41",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Managed disorder: The hard road to a modest peace with Russia after Ukraine",
+      "url": "https://ecfr.eu/publication/managed-disorder-the-hard-road-to-a-modest-peace-with-russia-after-ukraine",
+      "published_at": "2026-07-21T08:00:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
         "security"
       ]
     },
@@ -1284,6 +2530,132 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "0d0c26c2e74c0ff976413188",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "From Justin Bieber to Gracie Abrams: How ‘American English’ is changing despite Trump",
+      "url": "https://english.elpais.com/culture/2026-07-18/from-justin-bieber-to-gracie-abrams-how-american-english-is-changing-despite-trump.html",
+      "published_at": "2026-07-18T04:00:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "8af51fe44039d01b246893e8",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Two asteroids receive unprecedented visits from space probes in a single week",
+      "url": "https://english.elpais.com/science-tech/2026-07-17/two-asteroids-receive-unprecedented-visits-from-space-probes-in-a-single-week.html",
+      "published_at": "2026-07-17T17:56:59Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "c3d7ef0ac30592409cc1a61d",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The fallout of the fallout: Zelensky’s reshuffle and protests in Ukraine",
+      "url": "https://ecfr.eu/article/the-fallout-of-the-fallout-zelenskys-reshuffle-and-protests-in-ukraine",
+      "published_at": "2026-07-17T16:28:53Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "5e8aeddbe0ad848134c88f0c",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Lebanon: On the brink of war or peace?",
+      "url": "https://ecfr.eu/podcasts/episode/lebanon-on-the-brink-of-war-or-peace",
+      "published_at": "2026-07-17T08:47:40Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "3b1d7f0a02d88b0c53544377",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "BlackRock warns annual USMCA reviews will cloud investment prospects in Mexico",
+      "url": "https://english.elpais.com/economy-and-business/2026-07-17/blackrock-warns-annual-usmca-reviews-will-cloud-investment-prospects-in-mexico.html",
+      "published_at": "2026-07-17T07:02:15Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "0976be26b42c8d55d3bf699d",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "European defence after the NATO summit",
+      "url": "https://ecfr.eu/podcasts/episode/european-defence-after-the-nato-summit",
+      "published_at": "2026-07-17T05:00:00Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "e14fcd15de4ed3e7a78dcea1",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The tragedy of “Westalgia”",
+      "url": "https://ecfr.eu/article/the-tragedy-of-westalgia",
+      "published_at": "2026-07-16T11:18:43Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "2e29bd01e248d42ac018c10b",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Europe’s problem in Italy: How to resist the rise of Roberto Vannacci",
+      "url": "https://ecfr.eu/article/europes-problem-in-italy-how-to-resist-the-rise-of-roberto-vannacci",
+      "published_at": "2026-07-16T11:18:05Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "54fe479ddff36f609c89425c",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Down and out from Rabat to Cairo: The Iran war and North African instability",
+      "url": "https://ecfr.eu/article/down-and-out-from-rabat-to-cairo-the-iran-war-and-north-african-instability",
+      "published_at": "2026-07-15T15:48:56Z",
+      "collected_at": "2026-07-29T13:44:28Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     }
   ]
