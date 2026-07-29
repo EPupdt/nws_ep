@@ -27,11 +27,11 @@ sources:
     topics: [politics, security, society]
   - id: euractiv
     name: Euractiv
-    kind: rss
+    kind: disabled
     tier: reporting
     critical: false
     publication_mode: title_link_only
-    feed_url: https://www.euractiv.com/feed/
+    feed_url: null # Direct RSS and sitemap currently return 403 to cloud collectors.
     topics: [institutions, policy, economy, climate]
   - id: politico_europe
     name: POLITICO Europe
@@ -41,3 +41,43 @@ sources:
     publication_mode: title_link_only
     feed_url: https://www.politico.eu/feed/
     topics: [institutions, politics, policy]
+  - id: euobserver
+    name: EUobserver
+    kind: rss
+    tier: reporting
+    critical: false
+    publication_mode: title_link_only
+    feed_url: https://euobserver.com/feed/
+    topics: [institutions, policy, rights]
+  - id: el_pais_english
+    name: EL PAÍS English
+    kind: rss
+    tier: reporting
+    critical: false
+    publication_mode: title_link_only
+    feed_url: https://feeds.elpais.com/mrss-s/pages/ep/site/english.elpais.com/portada
+    topics: [politics, society, economy]
+  - id: notes_from_poland
+    name: Notes from Poland
+    kind: rss
+    tier: reporting
+    critical: false
+    publication_mode: title_link_only
+    feed_url: https://notesfrompoland.com/feed/
+    topics: [central_europe, politics, society]
+  - id: ecfr
+    name: European Council on Foreign Relations
+    kind: rss
+    tier: analysis
+    critical: false
+    publication_mode: title_link_only
+    feed_url: https://ecfr.eu/feed/
+    topics: [analysis, foreign_policy, security]
+  - id: bruegel
+    name: Bruegel
+    kind: rss
+    tier: analysis
+    critical: false
+    publication_mode: title_link_only
+    feed_url: https://www.bruegel.org/rss.xml
+    topics: [analysis, economy, energy, climate]

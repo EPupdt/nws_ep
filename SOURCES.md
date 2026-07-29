@@ -27,6 +27,10 @@ Publisher-provided summaries, images, video, full text and paid content are not 
 
 Each source is reviewed for technical availability, terms of use, attribution requirements and whether its role is live news or analysis. A source can be disabled at any time.
 
+## Current exception: Euractiv
+
+Euractiv is a valuable Brussels-policy source, but its direct RSS and sitemap endpoints currently return HTTP 403 to cloud collectors. It remains configured as disabled rather than being scraped around that protection. It can be restored when Euractiv provides a compatible feed, API or written permission.
+
 ## Corrections and removal
 
 Europe Pulse will remove or change a source integration on a substantiated rights-holder request. Contact details and the public editorial policy will be added before the production EuropePulse.eu launch.

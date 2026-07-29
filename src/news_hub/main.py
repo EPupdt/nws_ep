@@ -250,7 +250,8 @@ def main() -> None:
     radar = [item for item in combined.values() if datetime.fromisoformat(item["collected_at"].replace("Z", "+00:00")) >= radar_cutoff]
     radar.sort(key=lambda item: item["published_at"], reverse=True)
     state["radar"] = radar[:policy["max_radar_items"]]
-    candidates = state["radar"][:policy["max_llm_items"]]
+    # Think-tank material is useful context in the Radar, but not breaking-news input.
+    candidates = [item for item in state["radar"] if "analysis" not in item.get("topics", [])][:policy["max_llm_items"]]
     if new_articles:
         selection, model = llm_selection(candidates, policy, state.get("recent_topics", []))
         selection = enrich_selection(selection, state["radar"])
