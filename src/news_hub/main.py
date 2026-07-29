@@ -12,6 +12,7 @@ from typing import Any
 from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
+from zoneinfo import ZoneInfo
 
 import feedparser
 import yaml
@@ -41,6 +42,22 @@ def utcnow() -> datetime:
 
 def iso(value: datetime) -> str:
     return value.isoformat().replace("+00:00", "Z")
+
+
+def due_to_collect(now: datetime, policy: dict[str, Any], force: bool) -> bool:
+    """Use local editorial hours; GitHub's cron itself only understands UTC."""
+    if force:
+        return True
+    local = now.astimezone(ZoneInfo(policy["timezone"]))
+    bands = policy["schedule_bands"]["weekday" if local.weekday() < 5 else "weekend"]
+    for band in bands:
+        start_hour, start_minute = map(int, band["start"].split(":"))
+        end_hour, end_minute = map(int, band["end"].split(":"))
+        start = local.replace(hour=start_hour, minute=start_minute, second=0, microsecond=0)
+        end = local.replace(hour=end_hour, minute=end_minute, second=0, microsecond=0)
+        if start <= local <= end and int((local - start).total_seconds() // 60) % band["every_minutes"] == 0:
+            return True
+    return False
 
 
 def canonical_url(url: str) -> str:
@@ -197,6 +214,10 @@ def enrich_selection(selection: dict[str, Any], articles: list[dict[str, Any]]) 
 
 def main() -> None:
     policy, source_config, now = read_yaml("policy.yml"), read_yaml("sources.yml"), utcnow()
+    force = os.getenv("FORCE_RUN", "").lower() == "true"
+    if not due_to_collect(now, policy, force):
+        print("Outside the scheduled collection band; no action taken.")
+        return
     state = load_state()
     # The repository is public: remove legacy excerpts created by earlier runs.
     state["radar"] = [public_article(item) for item in state.get("radar", [])]
@@ -218,9 +239,13 @@ def main() -> None:
     radar.sort(key=lambda item: item["published_at"], reverse=True)
     state["radar"] = radar[:policy["max_radar_items"]]
     candidates = state["radar"][:policy["max_llm_items"]]
-    selection, model = llm_selection(candidates, policy, state.get("recent_topics", []))
-    selection = enrich_selection(selection, state["radar"])
-    state["recent_topics"] = (state.get("recent_topics", []) + [{"at": iso(now), "title": item["title"]} for item in selection["top_stories"]])[-80:]
+    if new_articles:
+        selection, model = llm_selection(candidates, policy, state.get("recent_topics", []))
+        selection = enrich_selection(selection, state["radar"])
+        state["last_selection"] = selection
+        state["recent_topics"] = (state.get("recent_topics", []) + [{"at": iso(now), "title": item["title"]} for item in selection["top_stories"]])[-80:]
+    else:
+        selection, model = state.get("last_selection", {"europe_now": [], "top_stories": []}), "not-run-no-new-items"
     payload = {"generated_at": iso(now), "last_successful_collection_at": iso(now), "source_health": health,
                "europe_now": selection["europe_now"], "top_stories": selection["top_stories"], "radar": state["radar"]}
     write_json(STATE_PATH, state)

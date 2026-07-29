@@ -8,9 +8,21 @@ max_radar_items: 180
 max_llm_items: 45
 top_story_count: 5
 max_europe_now: 2
-active_hours:
-  weekday: ["06:00", "23:45"]
-  weekend: ["06:00", "23:45"]
+schedule_bands:
+  weekday:
+    - start: "05:30"
+      end: "08:30"
+      every_minutes: 20
+    - start: "08:30"
+      end: "18:00"
+      every_minutes: 10
+    - start: "18:00"
+      end: "23:50"
+      every_minutes: 20
+  weekend:
+    - start: "05:30"
+      end: "22:00"
+      every_minutes: 20
 models:
   gemini: gemini-2.5-flash-lite
   openrouter:
