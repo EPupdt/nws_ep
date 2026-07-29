@@ -117,12 +117,14 @@ def collect_source(source: dict[str, Any], collected: datetime) -> tuple[list[Ar
         return [], {"id": source["id"], "status": "error", "detail": str(error)[:220], "at": iso(collected)}
 
 
-def valid_selection(value: Any, max_count: int) -> bool:
-    if not isinstance(value, dict) or not isinstance(value.get("top_stories"), list):
+def valid_selection(value: Any, max_top_stories: int, max_europe_now: int) -> bool:
+    if not isinstance(value, dict) or not isinstance(value.get("top_stories"), list) or not isinstance(value.get("europe_now"), list):
         return False
-    return len(value["top_stories"]) <= max_count and all(
+    if len(value["top_stories"]) > max_top_stories or len(value["europe_now"]) > max_europe_now:
+        return False
+    return all(
         isinstance(item, dict) and isinstance(item.get("title"), str) and isinstance(item.get("summary"), str)
-        for item in value["top_stories"]
+        for item in value["top_stories"] + value["europe_now"]
     )
 
 
@@ -133,7 +135,7 @@ def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent
     prompt = {
         "task": "Select Europe Pulse news. Return JSON only.",
         "policy": {
-            "europe_now": "Require Europe relevance >=2/3 and urgency, broad public impact, or systemic/security significance. Exclude routine statements, isolated local crime, opinion and unverified claims.",
+            "europe_now": f"Return at most {policy['max_europe_now']} alerts. Require Europe relevance >=2/3 and urgency, broad public impact, or systemic/security significance. Exclude routine statements, isolated local crime, opinion, unverified claims and stories that are merely important. Do not select two alerts for the same developing event.",
             "top_stories": "Create distinct themes. Each summary must be exactly two factual sentences using only supplied data. Do not invent facts or claim corroboration not present.",
         },
         "schema": {"europe_now": [{"title": "string", "summary": "string", "article_ids": ["string"]}],
@@ -165,7 +167,7 @@ def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent
                     result = json.load(response)
                 text = result["choices"][0]["message"]["content"]
             selected = json.loads(text)
-            if valid_selection(selected, policy["top_story_count"]):
+            if valid_selection(selected, policy["top_story_count"], policy["max_europe_now"]):
                 return selected, f"{provider}:{model}"
         except (HTTPError, URLError, TimeoutError, ValueError, KeyError, IndexError, json.JSONDecodeError):
             continue
