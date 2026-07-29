@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import hashlib
-import html
 import json
 import os
 import re
@@ -20,7 +19,6 @@ import yaml
 ROOT = Path(__file__).resolve().parents[2]
 STATE_PATH = ROOT / "data" / "state.json"
 PUBLIC_PATH = ROOT / "public" / "data" / "news-hub.json"
-PREVIEW_PATH = ROOT / "public" / "index.html"
 LOG_DIR = ROOT / "data" / "selection_logs"
 
 
@@ -188,17 +186,6 @@ def enrich_selection(selection: dict[str, Any], articles: list[dict[str, Any]]) 
     return selection
 
 
-def write_preview(payload: dict[str, Any]) -> None:
-    cards = []
-    for story in payload["top_stories"]:
-        links = " · ".join(f'<a href="{html.escape(link["url"], quote=True)}">{html.escape(link["publisher"])}</a>' for link in story["sources"])
-        cards.append(f"<article><h2>{html.escape(story['title'])}</h2><p>{html.escape(story['summary'])}</p><small>{links}</small></article>")
-    radar = "".join(f'<li><a href="{html.escape(item["url"], quote=True)}">{html.escape(item["title"])}</a> <small>— {html.escape(item["source_name"])}</small></li>' for item in payload["radar"][:40])
-    page = f"""<!doctype html><html lang=\"en\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Europe Pulse News Agent</title><style>body{{max-width:820px;margin:3rem auto;padding:0 1rem;font:16px system-ui;color:#17212b}}article{{border-top:1px solid #d8dde2;padding:1rem 0}}a{{color:#045fa8}}small{{color:#62707d}}</style><main><h1>Europe Pulse · News Agent</h1><p>Automated source-attributed preview. Updated {html.escape(payload['generated_at'])}.</p><h2>Top stories</h2>{''.join(cards) or '<p>No editorial selection yet.</p>'}<h2>News Radar</h2><ul>{radar}</ul></main></html>"""
-    PREVIEW_PATH.parent.mkdir(parents=True, exist_ok=True)
-    PREVIEW_PATH.write_text(page, encoding="utf-8")
-
-
 def main() -> None:
     policy, source_config, now = read_yaml("policy.yml"), read_yaml("sources.yml"), utcnow()
     state = load_state()
@@ -227,7 +214,6 @@ def main() -> None:
                "europe_now": selection["europe_now"], "top_stories": selection["top_stories"], "radar": state["radar"]}
     write_json(STATE_PATH, state)
     write_json(PUBLIC_PATH, payload)
-    write_preview(payload)
     LOG_DIR.mkdir(parents=True, exist_ok=True)
     with (LOG_DIR / f"{now:%Y-%m}.jsonl").open("a", encoding="utf-8") as log:
         log.write(json.dumps({"at": iso(now), "model": model, "input_count": len(candidates), "new_items": len(new_articles),
