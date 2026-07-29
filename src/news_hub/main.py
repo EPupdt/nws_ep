@@ -89,6 +89,17 @@ def load_state() -> dict[str, Any]:
         return json.load(handle)
 
 
+def load_last_public_selection() -> dict[str, Any]:
+    if not PUBLIC_PATH.exists():
+        return {"europe_now": [], "top_stories": []}
+    try:
+        with PUBLIC_PATH.open(encoding="utf-8") as handle:
+            payload = json.load(handle)
+        return {"europe_now": payload.get("europe_now", []), "top_stories": payload.get("top_stories", [])}
+    except (OSError, json.JSONDecodeError):
+        return {"europe_now": [], "top_stories": []}
+
+
 def write_json(path: Path, content: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(content, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -221,6 +232,7 @@ def main() -> None:
     state = load_state()
     # The repository is public: remove legacy excerpts created by earlier runs.
     state["radar"] = [public_article(item) for item in state.get("radar", [])]
+    state.setdefault("last_selection", load_last_public_selection())
     all_articles: list[Article] = []
     health: list[dict[str, str]] = []
     for source in source_config["sources"]:
