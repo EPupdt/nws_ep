@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-30T15:00:46Z",
-  "last_successful_collection_at": "2026-07-30T15:00:46Z",
+  "generated_at": "2026-07-30T15:30:38Z",
+  "last_successful_collection_at": "2026-07-30T15:30:38Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-30T15:00:46Z"
+      "at": "2026-07-30T15:30:38Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-07-30T15:00:46Z"
+      "at": "2026-07-30T15:30:38Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-07-30T15:00:46Z"
+      "at": "2026-07-30T15:30:38Z"
     },
     {
       "id": "euractiv",
@@ -29,42 +29,125 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-30T15:00:46Z"
+      "at": "2026-07-30T15:30:38Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-30T15:00:46Z"
+      "at": "2026-07-30T15:30:38Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-07-30T15:00:46Z"
+      "at": "2026-07-30T15:30:38Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-07-30T15:00:46Z"
+      "at": "2026-07-30T15:30:38Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-07-30T15:00:46Z"
+      "at": "2026-07-30T15:30:38Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-30T15:00:46Z"
+      "at": "2026-07-30T15:30:38Z"
     }
   ],
-  "europe_now": [],
+  "europe_now": [
+    {
+      "title": "Russian Missile Attack in Poland",
+      "summary": "A missile attack in eastern Poland caused a large crater, with Poland attributing it to Russia. The incident has heightened security concerns across Europe.",
+      "article_ids": [
+        "73629d608e34a7b9d458ff8f",
+        "f871d8f0b1969345ec65d9ca",
+        "3330d4445687db46ab8548f9"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cy8mk59l5jzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ceuta-asks-spain-to-declare-emergency-over-morocco-migrants/a-78177638?maca=en-rss-en-eu-2092-rdf"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "European Wildfires and Climate Change Threats",
+      "summary": "Multiple countries in Europe are battling severe wildfires, with Spain, France, and the UK warning that climate change is threatening their way of life. Evacuations and firefighter deaths have occurred in Crete due to ongoing fires.",
+      "article_ids": [
+        "16a45218a3cd24c177eade59",
+        "6fe15bcc33cc41c03e14e545",
+        "d82024dd294c6e780daf5062"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/spain-france-uk-warn-megafires-show-climate-change-is-threatening-our-way-of-life"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/crete-wildfires-cause-evacuations-and-firefighter-deaths/a-78171093?maca=en-rss-en-eu-2092-rdf"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
   "top_stories": [],
   "radar": [
+    {
+      "id": "b8d4eb3d0bf186a47f9ae95d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "No, there's no proof sunscreen increases cancer risk",
+      "url": "https://www.france24.com/en/health/20260730-no-proof-sunscreen-increases-cancer-risk",
+      "published_at": "2026-07-30T15:28:32Z",
+      "collected_at": "2026-07-30T15:30:38Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "73629d608e34a7b9d458ff8f",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "At least five members of same family killed in Russian missile attack, Zelensky says",
+      "url": "https://www.bbc.co.uk/news/articles/cy8mk59l5jzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-07-30T15:20:19Z",
+      "collected_at": "2026-07-30T15:30:38Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "13ed70c004fd52844bb4706c",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Uefa to boycott World Cup if Fifa plans approved",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5y67zrrdddo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-07-30T15:19:54Z",
+      "collected_at": "2026-07-30T15:30:38Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "f959542152098ade139fd322",
       "source_id": "notes_from_poland",
