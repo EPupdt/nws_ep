@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-30T14:00:49Z",
-  "last_successful_collection_at": "2026-07-30T14:00:49Z",
+  "generated_at": "2026-07-30T14:30:40Z",
+  "last_successful_collection_at": "2026-07-30T14:30:40Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-30T14:00:49Z"
+      "at": "2026-07-30T14:30:40Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-07-30T14:00:49Z"
+      "at": "2026-07-30T14:30:40Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-07-30T14:00:49Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-07-30T14:30:40Z"
     },
     {
       "id": "euractiv",
@@ -29,85 +29,76 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-30T14:00:49Z"
+      "at": "2026-07-30T14:30:40Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-30T14:00:49Z"
+      "at": "2026-07-30T14:30:40Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-07-30T14:00:49Z"
+      "at": "2026-07-30T14:30:40Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-07-30T14:00:49Z"
+      "at": "2026-07-30T14:30:40Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-07-30T14:00:49Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-07-30T14:30:40Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-30T14:00:49Z"
+      "at": "2026-07-30T14:30:40Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Crete Wildfires Cause Evacuations and Firefighter Deaths",
-      "summary": "Multiple wildfires in Crete have led to mass evacuations and the death of firefighters. The situation remains critical with ongoing challenges in containment.",
+      "title": "Crete wildfires cause evacuations and firefighter deaths",
+      "summary": "Multiple wildfires in Crete have led to mass evacuations and the death of firefighters, highlighting the severity of the crisis. The situation remains critical with ongoing challenges in containment efforts.",
       "article_ids": [
-        "6fe15bcc33cc41c03e14e545",
-        "2e3d69d67116d81e1c222374"
+        "6fe15bcc33cc41c03e14e545"
       ],
       "sources": [
         {
           "publisher": "Deutsche Welle",
           "url": "https://www.dw.com/en/crete-wildfires-cause-evacuations-and-firefighter-deaths/a-78171093?maca=en-rss-en-eu-2092-rdf"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260730-ukraine-pounded-in-russian-attack-polish-airspace-violated-1"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "Russian Missile Attack Causes Crater in Poland",
-      "summary": "A missile attack attributed to Russia caused a large crater in eastern Poland. The incident has heightened security concerns across Europe due to its potential implications.",
+      "title": "Russian missile strike in Poland raises security concerns",
+      "summary": "A missile attack attributed to Russia caused a large crater in eastern Poland, escalating geopolitical tensions. Poland has confirmed the incident, though Russia denies responsibility.",
       "article_ids": [
-        "3ecdc820b8338c28cc4dc379",
-        "3330d4445687db46ab8548f9"
+        "8b854f3956da1a3296b17724"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260730-tens-of-thousands-of-french-wildfire-evacuees-allowed-to-return-home"
+          "url": "https://www.france24.com/en/live-news/20260730-russia-blamed-for-missile-that-blasted-crater-in-polish-field"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "European Wildfires and Climate Change",
-      "summary": "Multiple countries in Europe are experiencing severe wildfires, leading to evacuations and loss of life. Climate change is cited as a contributing factor by several governments.",
+      "title": "European wildfires escalate across multiple countries",
+      "summary": "Wildfires in Crete, France, and Spain have caused significant evacuations and property damage. Heatwave conditions are exacerbating the spread of fires in southern Europe.",
       "article_ids": [
         "6fe15bcc33cc41c03e14e545",
+        "f871d8f0b1969345ec65d9ca",
         "16a45218a3cd24c177eade59"
       ],
       "sources": [
@@ -116,37 +107,39 @@
           "url": "https://www.dw.com/en/crete-wildfires-cause-evacuations-and-firefighter-deaths/a-78171093?maca=en-rss-en-eu-2092-rdf"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/spain-france-uk-warn-megafires-show-climate-change-is-threatening-our-way-of-life"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ceuta-asks-spain-to-declare-emergency-over-morocco-migrants/a-78177638?maca=en-rss-en-eu-2092-rdf"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "Russian Missile Attack in Poland",
-      "summary": "A missile attack linked to Russia caused a significant crater in Poland. The incident has raised security concerns across Europe and led to increased military vigilance.",
+      "title": "Russia-Ukraine conflict intensifies with cross-border attacks",
+      "summary": "Russia launched missile strikes targeting Ukraine, including an attack that hit Poland. Ukraine retaliated with attacks on Russian infrastructure, including a bank.",
       "article_ids": [
-        "3ecdc820b8338c28cc4dc379",
-        "3330d4445687db46ab8548f9"
+        "8b854f3956da1a3296b17724",
+        "73bc248b8306e0cb4ed8fcfe",
+        "2ea613dd5e4f9a58bbf00382"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/live-news/20260730-russia-blamed-for-missile-that-blasted-crater-in-polish-field"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260730-tens-of-thousands-of-french-wildfire-evacuees-allowed-to-return-home"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/230794/ukraine-escalates-wildberries-attacks-to-hit-russias-second-biggest-bank-as-missile-crashes-in-poland-ukraine-battlefield-update-day-1618"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "EU Invests in AI Gigafactories for Tech Autonomy",
-      "summary": "The EU is funding seven AI gigafactories to enhance technological independence. This initiative aims to reduce reliance on foreign tech suppliers and boost domestic production.",
+      "title": "EU invests heavily in AI infrastructure for tech autonomy",
+      "summary": "The EU has committed €30 billion to build seven AI gigafactories to reduce dependency on foreign technology. The initiative aims to strengthen Europe's position in the global tech race.",
       "article_ids": [
         "8df45754cc9204bf50113ae2",
-        "bfd4f2abe3513df1fe336e71"
+        "bfd4f2abe3513df1fe336e71",
+        "3330d4445687db46ab8548f9"
       ],
       "sources": [
         {
@@ -162,6 +155,48 @@
     }
   ],
   "radar": [
+    {
+      "id": "1c5e732b6320f9174dcbf107",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France wildfires: Risk remains 'extremely high' despite slight weather improvement",
+      "url": "https://www.france24.com/en/video/20260730-france-wildfires-risk-remains-extremely-high-despite-slight-weather-improvement",
+      "published_at": "2026-07-30T14:18:42Z",
+      "collected_at": "2026-07-30T14:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f0e5947ef8ec0deb75dc8736",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "AI before AI: The forgotten Soviet programme (1/2)",
+      "url": "https://www.france24.com/en/technology/20260730-ai-before-ai-forgotten-soviet-programme",
+      "published_at": "2026-07-30T14:08:47Z",
+      "collected_at": "2026-07-30T14:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "8b854f3956da1a3296b17724",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russia blamed for missile that blasted crater in Polish field",
+      "url": "https://www.france24.com/en/live-news/20260730-russia-blamed-for-missile-that-blasted-crater-in-polish-field",
+      "published_at": "2026-07-30T14:03:12Z",
+      "collected_at": "2026-07-30T14:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "f871d8f0b1969345ec65d9ca",
       "source_id": "dw_europe",
