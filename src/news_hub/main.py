@@ -18,6 +18,8 @@ from zoneinfo import ZoneInfo
 import feedparser
 import yaml
 
+from news_hub.convergence import convergence_clusters
+
 ROOT = Path(__file__).resolve().parents[2]
 STATE_PATH = ROOT / "data" / "state.json"
 PUBLIC_PATH = ROOT / "docs" / "data" / "news-hub.json"
@@ -256,19 +258,33 @@ def main() -> None:
     if new_articles:
         selection, model = llm_selection(candidates, policy, state.get("recent_topics", []))
         selection = enrich_selection(selection, state["radar"])
-        state["last_selection"] = selection
-        state["recent_topics"] = (state.get("recent_topics", []) + [{"at": iso(now), "title": item["title"]} for item in selection["top_stories"]])[-80:]
+        if selection["europe_now"] or selection["top_stories"]:
+            state["last_selection"] = selection
+            state["recent_topics"] = (state.get("recent_topics", []) + [{"at": iso(now), "title": item["title"]} for item in selection["top_stories"]])[-80:]
+        else:
+            # The model failed, timed out, or judged nothing worthy. Publishing
+            # its empty result would blank Europe Now and Top stories on the
+            # site — which is exactly what happened on 30 July 2026. Keep the
+            # last good selection instead; it is stale, but it is not nothing.
+            selection = state.get("last_selection", {"europe_now": [], "top_stories": []})
+            model = f"{model}-kept-previous"
     else:
         selection, model = state.get("last_selection", {"europe_now": [], "top_stories": []}), "not-run-no-new-items"
+    # Independent of the model: what are several newsrooms converging on right
+    # now? This is computed from the radar alone, so the hub always has
+    # something to lead with even when the model contributes nothing.
+    developing = convergence_clusters(state["radar"], now)
     payload = {"generated_at": iso(now), "last_successful_collection_at": iso(now), "source_health": health,
-               "europe_now": selection["europe_now"], "top_stories": selection["top_stories"], "radar": state["radar"]}
+               "europe_now": selection["europe_now"], "top_stories": selection["top_stories"],
+               "developing": developing, "radar": state["radar"]}
     write_json(STATE_PATH, state)
     write_json(PUBLIC_PATH, payload)
     LOG_DIR.mkdir(parents=True, exist_ok=True)
     with (LOG_DIR / f"{now:%Y-%m}.jsonl").open("a", encoding="utf-8") as log:
         log.write(json.dumps({"at": iso(now), "model": model, "input_count": len(candidates), "new_items": len(new_articles),
-                              "top_story_count": len(selection["top_stories"]), "alert_count": len(selection["europe_now"])}, ensure_ascii=False) + "\n")
-    print(f"Collected {len(all_articles)} items; {len(new_articles)} new; model={model}")
+                              "top_story_count": len(selection["top_stories"]), "alert_count": len(selection["europe_now"]),
+                              "developing_count": len(developing)}, ensure_ascii=False) + "\n")
+    print(f"Collected {len(all_articles)} items; {len(new_articles)} new; model={model}; developing={len(developing)}")
 
 
 if __name__ == "__main__":

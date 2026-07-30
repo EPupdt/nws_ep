@@ -2,6 +2,12 @@ name: Europe Pulse News Hub
 
 on:
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Bypass the Europe/Bratislava collection schedule"
+        required: false
+        default: false
+        type: boolean
   schedule:
     - cron: "*/10 * * * *"
 
@@ -31,7 +37,9 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OR_API_KEY: ${{ secrets.OR_API_KEY }}
           PYTHONPATH: src
-          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
+          # External dispatches wake the workflow but retain the editorial schedule.
+          # Select "force" only for an intentional immediate manual refresh.
+          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force == 'true' }}
         run: python -m news_hub.main
       - name: Commit generated operational data
         run: |
