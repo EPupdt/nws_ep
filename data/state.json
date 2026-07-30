@@ -331,9 +331,25 @@
     "8e3141244b7cbcf460002dff": "2026-07-30T19:01:04Z",
     "172fea2d746861c828372ea1": "2026-07-30T19:01:04Z",
     "67c68feb8992b945562d5156": "2026-07-30T19:01:04Z",
-    "6040cfb8590e04b339304b0c": "2026-07-30T19:01:04Z"
+    "6040cfb8590e04b339304b0c": "2026-07-30T19:01:04Z",
+    "0298072c8e895e8b2fe1d1f4": "2026-07-30T20:00:42Z",
+    "179f536002ea6d038ba4b62e": "2026-07-30T20:00:42Z"
   },
   "radar": [
+    {
+      "id": "0298072c8e895e8b2fe1d1f4",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Spain to deploy military to restore order in Ceuta after thousands of people breach Morocco’s border",
+      "url": "https://www.france24.com/en/spain-to-deploy-military-to-restore-order-in-ceuta-after-thousands-of-people-breach-morocco-s-border",
+      "published_at": "2026-07-30T19:25:18Z",
+      "collected_at": "2026-07-30T20:00:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "a158884a10e87185b31739ea",
       "source_id": "france24",
@@ -342,6 +358,20 @@
       "url": "https://www.france24.com/en/europe/20260730-hundreds-of-migrants-enter-spain-north-african-territory-ceuta-from-morocco",
       "published_at": "2026-07-30T18:46:14Z",
       "collected_at": "2026-07-30T19:01:04Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "179f536002ea6d038ba4b62e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'Not an infringement on freedom of expression': French minister defends expulsion of Russian pundit",
+      "url": "https://www.france24.com/en/france/20260730-not-an-infringement-on-freedom-of-expression-french-minister-defends-expulsion-of-russian-commentator",
+      "published_at": "2026-07-30T18:21:11Z",
+      "collected_at": "2026-07-30T20:00:42Z",
       "topics": [
         "politics",
         "security",
@@ -2361,65 +2391,30 @@
     {
       "at": "2026-07-30T19:01:04Z",
       "title": "EU Technological Autonomy Initiatives"
+    },
+    {
+      "at": "2026-07-30T20:00:42Z",
+      "title": "European Wildfire Crisis"
+    },
+    {
+      "at": "2026-07-30T20:00:42Z",
+      "title": "Ceuta Migrant Crisis"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Russian missile strikes impact Polish airspace",
-        "summary": "A Russian missile reportedly crashed in eastern Poland. Polish authorities have blamed Moscow for the incident.",
+        "title": "European Wildfires Escalate Across Multiple Countries",
+        "summary": "Wildfires in Spain, France, and the UK have forced mass evacuations and disrupted communities, with authorities citing climate change as a key driver.",
         "article_ids": [
-          "7b254bafcdc01f6f4e0f249b",
-          "5d19d50b5bd53ee5074cfc04",
-          "8b854f3956da1a3296b17724"
+          "179f536002ea6d038ba4b62e",
+          "4081ae12d0c000246e93927b"
         ],
         "sources": [
           {
             "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/video/20260730-pm-tusk-says-russian-missile-appears-to-have-come-down-in-eastern-poland"
-          },
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20260730-warsaw-blames-moscow-after-a-missile-crashes-in-poland"
-          }
-        ],
-        "source_count": 1
-      },
-      {
-        "title": "Massive migrant influx in Ceuta",
-        "summary": "Hundreds of migrants have entered the Spanish territory of Ceuta from Morocco. Spanish authorities have deployed military personnel to manage the situation.",
-        "article_ids": [
-          "158884a10e87185b31739ea",
-          "9872bd6c9b81b5f5b14a676e",
-          "c48459f6d4acbf89032115de"
-        ],
-        "sources": [
-          {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/spain-migration-crisis-ceuta-morocco-border-crossings"
-          },
-          {
-            "publisher": "EL PAÍS English",
-            "url": "https://english.elpais.com/spain/2026-07-30/spanish-police-warn-of-collapse-in-ceuta-over-mass-migrant-influx-from-morocco-we-are-overwhelmed.html"
-          }
-        ],
-        "source_count": 2
-      }
-    ],
-    "top_stories": [
-      {
-        "title": "European Wildfire Crisis",
-        "summary": "Wildfires are causing mass evacuations across several European regions. Authorities in Spain, France, and the UK warn that these megafires threaten local ways of life.",
-        "article_ids": [
-          "16a45218a3cd24c177eade59",
-          "4350e5238b4d001b29793e77",
-          "dbba3f1fca762da2f84fe323"
-        ],
-        "sources": [
-          {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/spain-france-uk-warn-megafires-show-climate-change-is-threatening-our-way-of-life"
+            "url": "https://www.france24.com/en/france/20260730-not-an-infringement-on-freedom-of-expression-french-minister-defends-expulsion-of-russian-commentator"
           },
           {
             "publisher": "BBC News Europe",
@@ -2429,25 +2424,65 @@
         "source_count": 2
       },
       {
-        "title": "EU Technological Autonomy Initiatives",
-        "summary": "The European Union is moving to co-fund seven new AI gigafactories. This investment aims to boost the continent's technological autonomy.",
+        "title": "Russian Missile Attack in Poland Creates Security Crisis",
+        "summary": "A Russian missile strike in eastern Poland caused significant damage, escalating tensions in the Russia-Ukraine conflict and violating Polish airspace.",
         "article_ids": [
-          "8df45754cc9204bf50113ae2",
-          "172fea2d746861c828372ea1"
+          "8b854f3956da1a3296b17724",
+          "5d19d50b5bd53ee5074cfc04"
         ],
         "sources": [
           {
-            "publisher": "EUobserver",
-            "url": "https://euobserver.com/230786/eu-to-co-fund-seven-ai-gigafactories-in-race-for-tech-autonomy"
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/live-news/20260730-russia-blamed-for-missile-that-blasted-crater-in-polish-field"
           },
           {
             "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/france-s-unprecedented-wildfires-convergence-of-climate-change-and-historical-landscape-engineering"
+            "url": "https://www.france24.com/en/europe/20260730-warsaw-blames-moscow-after-a-missile-crashes-in-poland"
+          }
+        ],
+        "source_count": 1
+      }
+    ],
+    "top_stories": [
+      {
+        "title": "European Wildfire Crisis",
+        "summary": "Wildfires in Spain, France, and the UK have escalated due to extreme heat and climate change, prompting evacuations and straining emergency resources.",
+        "article_ids": [
+          "179f536002ea6d038ba4b62e",
+          "4081ae12d0c000246e93927b"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/france/20260730-not-an-infringement-on-freedom-of-expression-french-minister-defends-expulsion-of-russian-commentator"
+          },
+          {
+            "publisher": "BBC News Europe",
+            "url": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss"
           }
         ],
         "source_count": 2
+      },
+      {
+        "title": "Ceuta Migrant Crisis",
+        "summary": "Spain deployed military to Ceuta after thousands of migrants crossed from Morocco, highlighting border security challenges and EU crisis response gaps.",
+        "article_ids": [
+          "0298072c8e895e8b2fe1d1f4",
+          "a158884a10e87185b31739ea"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/spain-to-deploy-military-to-restore-order-in-ceuta-after-thousands-of-people-breach-morocco-s-border"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20260730-hundreds-of-migrants-enter-spain-north-african-territory-ceuta-from-morocco"
+          }
+        ],
+        "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-07-30T19:30:50Z"
+  "last_collection_at": "2026-07-30T20:00:42Z"
 }
