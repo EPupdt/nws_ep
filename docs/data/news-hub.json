@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-30T16:00:49Z",
-  "last_successful_collection_at": "2026-07-30T16:00:49Z",
+  "generated_at": "2026-07-30T16:30:37Z",
+  "last_successful_collection_at": "2026-07-30T16:30:37Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-30T16:00:49Z"
+      "at": "2026-07-30T16:30:37Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-07-30T16:00:49Z"
+      "at": "2026-07-30T16:30:37Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-07-30T16:00:49Z"
+      "at": "2026-07-30T16:30:37Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,57 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-30T16:00:49Z"
+      "at": "2026-07-30T16:30:37Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-30T16:00:49Z"
+      "at": "2026-07-30T16:30:37Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-07-30T16:00:49Z"
+      "at": "2026-07-30T16:30:37Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-07-30T16:00:49Z"
+      "at": "2026-07-30T16:30:37Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-07-30T16:00:49Z"
+      "at": "2026-07-30T16:30:37Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-30T16:00:49Z"
+      "at": "2026-07-30T16:30:37Z"
     }
   ],
   "europe_now": [
     {
+      "title": "Crete wildfires cause evacuations and firefighter deaths",
+      "summary": "Spanish police report being overwhelmed by mass migrant influx from Morocco in Ceuta, highlighting border security challenges. Greek firefighters battle deadly wildfires on Crete for a second day, with evacuations ongoing.",
+      "article_ids": [
+        "6fe15bcc33cc41c03e14e545"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/crete-wildfires-cause-evacuations-and-firefighter-deaths/a-78171093?maca=en-rss-en-eu-2092-rdf"
+        }
+      ],
+      "source_count": 1
+    },
+    {
       "title": "Russian missile attack in Poland",
-      "summary": "A missile attack in eastern Poland, likely Russian, caused a deep crater and casualties, escalating Russia-Ukraine tensions. Poland's PM confirmed the attack's origin, heightening security concerns across Europe.",
+      "summary": "Polish PM confirms a giant crater in eastern Poland was likely caused by a Russian missile, escalating security concerns. EU officials monitor cross-border attacks amid Russia-Ukraine conflict tensions.",
       "article_ids": [
         "3330d4445687db46ab8548f9"
       ],
@@ -76,40 +90,12 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Crete wildfires cause evacuations and firefighter deaths",
-      "summary": "Wildfires in Crete led to mass evacuations and firefighter fatalities, highlighting climate change impacts. Spain ended the emergency, but risks persist due to extreme weather conditions.",
-      "article_ids": [
-        "d82024dd294c6e780daf5062"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/as-france-battles-unprecedented-wildfires-caroit-urges-collective-global-action-on-climate-change"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "EU invests in AI gigafactories for tech autonomy",
-      "summary": "The EU announced funding for seven AI gigafactories to reduce reliance on foreign technology. This move aims to bolster Europe's strategic position in the global tech race.",
-      "article_ids": [
-        "8df45754cc9204bf50113ae2"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/230786/eu-to-co-fund-seven-ai-gigafactories-in-race-for-tech-autonomy"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "European wildfires and climate change threats",
-      "summary": "Megafires in Spain, France, and the UK are linked to climate change, threatening communities and ecosystems. Officials warn of recurring risks due to prolonged heatwaves and dry conditions.",
+      "title": "Wildfire escalations and climate impacts",
+      "summary": "Spain, France, and the UK warn that megafires demonstrate climate change is 'threatening our way of life.' French interior minister notes wildfire situations remain 'quite complicated' despite weather improvements.",
       "article_ids": [
         "16a45218a3cd24c177eade59"
       ],
@@ -120,9 +106,65 @@
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "Russia-Ukraine conflict escalation",
+      "summary": "A missile attack in Poland is attributed to Russia, raising fears of cross-border escalation. Ukraine escalates Wildberries attacks targeting Russia's second-largest bank amid ongoing conflict.",
+      "article_ids": [
+        "73bc248b8306e0cb4ed8fcfe"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/230794/ukraine-escalates-wildberries-attacks-to-hit-russias-second-biggest-bank-as-missile-crashes-in-poland-ukraine-battlefield-update-day-1618"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "radar": [
+    {
+      "id": "c48459f6d4acbf89032115de",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Spanish police warn of collapse in Ceuta over mass migrant influx from Morocco: ‘We are overwhelmed’",
+      "url": "https://english.elpais.com/spain/2026-07-30/spanish-police-warn-of-collapse-in-ceuta-over-mass-migrant-influx-from-morocco-we-are-overwhelmed.html",
+      "published_at": "2026-07-30T16:17:30Z",
+      "collected_at": "2026-07-30T16:30:37Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "6992bd5d04e5dfbc2762f7b5",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Europe threatens World Cup boycott over FIFA investment plan",
+      "url": "https://www.politico.eu/article/europe-threatens-world-cup-boycott-over-fifa-investment-plan",
+      "published_at": "2026-07-30T16:01:07Z",
+      "collected_at": "2026-07-30T16:30:37Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "e24d80b5de1bfeaea26fe481",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The Michoacán forest defender who never returned: Kidnapping of José Luis Silva Andrade rekindles fear among environmentalists",
+      "url": "https://english.elpais.com/international/2026-07-30/the-michoacan-forest-defender-who-never-returned-kidnapping-of-jose-luis-silva-andrade-rekindles-fear-among-environmentalists.html",
+      "published_at": "2026-07-30T15:59:12Z",
+      "collected_at": "2026-07-30T16:30:37Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "e53428755d2f3bcd55f975f6",
       "source_id": "bbc_europe",
