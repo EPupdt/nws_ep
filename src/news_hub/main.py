@@ -47,20 +47,50 @@ def iso(value: datetime) -> str:
     return value.isoformat().replace("+00:00", "Z")
 
 
-def due_to_collect(now: datetime, policy: dict[str, Any], force: bool) -> bool:
-    """Use local editorial hours; GitHub's cron itself only understands UTC."""
+def due_to_collect(now: datetime, policy: dict[str, Any], force: bool,
+                   last_at: str | None = None) -> bool:
+    """Use local editorial hours; GitHub's cron itself only understands UTC.
+
+    Cadence is measured as time elapsed since the last collection, not by exact
+    clock alignment. The previous rule required
+    ``(minutes since band start) % every_minutes == 0``, which only holds when a
+    run starts on the exact minute. GitHub Actions cron and external dispatchers
+    routinely arrive a minute or two late, and every late run was silently
+    dropped — a fault that stayed invisible only because the workflow was
+    forcing every dispatch and bypassing this function entirely.
+
+    Where bands overlap at a boundary minute, the tighter interval wins.
+    """
     if force:
         return True
+
     local = now.astimezone(ZoneInfo(policy["timezone"]))
     bands = policy["schedule_bands"]["weekday" if local.weekday() < 5 else "weekend"]
+
+    intervals: list[int] = []
     for band in bands:
         start_hour, start_minute = map(int, band["start"].split(":"))
         end_hour, end_minute = map(int, band["end"].split(":"))
         start = local.replace(hour=start_hour, minute=start_minute, second=0, microsecond=0)
         end = local.replace(hour=end_hour, minute=end_minute, second=0, microsecond=0)
-        if start <= local <= end and int((local - start).total_seconds() // 60) % band["every_minutes"] == 0:
-            return True
-    return False
+        if start <= local <= end:
+            intervals.append(int(band["every_minutes"]))
+
+    if not intervals:
+        return False
+
+    if not last_at:
+        return True
+
+    try:
+        previous = datetime.fromisoformat(str(last_at).replace("Z", "+00:00"))
+    except ValueError:
+        return True
+
+    # One minute of slack, so a dispatcher that fires a few seconds early is not
+    # pushed into waiting a whole extra interval.
+    elapsed_minutes = (now - previous).total_seconds() / 60
+    return elapsed_minutes >= min(intervals) - 1
 
 
 def canonical_url(url: str) -> str:
@@ -229,10 +259,12 @@ def enrich_selection(selection: dict[str, Any], articles: list[dict[str, Any]]) 
 def main() -> None:
     policy, source_config, now = read_yaml("policy.yml"), read_yaml("sources.yml"), utcnow()
     force = os.getenv("FORCE_RUN", "").lower() == "true"
-    if not due_to_collect(now, policy, force):
+    # State is loaded first because the cadence check now depends on when we
+    # last actually collected, rather than on the clock alone.
+    state = load_state()
+    if not due_to_collect(now, policy, force, state.get("last_collection_at")):
         print("Outside the scheduled collection band; no action taken.")
         return
-    state = load_state()
     # The repository is public: remove legacy excerpts created by earlier runs.
     state["radar"] = [public_article(item) for item in state.get("radar", [])]
     state.setdefault("last_selection", load_last_public_selection())
@@ -273,6 +305,7 @@ def main() -> None:
     # Independent of the model: what are several newsrooms converging on right
     # now? This is computed from the radar alone, so the hub always has
     # something to lead with even when the model contributes nothing.
+    state["last_collection_at"] = iso(now)
     developing = convergence_clusters(state["radar"], now)
     payload = {"generated_at": iso(now), "last_successful_collection_at": iso(now), "source_health": health,
                "europe_now": selection["europe_now"], "top_stories": selection["top_stories"],
