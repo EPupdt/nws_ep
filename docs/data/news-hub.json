@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-30T13:00:45Z",
-  "last_successful_collection_at": "2026-07-30T13:00:45Z",
+  "generated_at": "2026-07-30T13:30:37Z",
+  "last_successful_collection_at": "2026-07-30T13:30:37Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-30T13:00:45Z"
+      "at": "2026-07-30T13:30:37Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-07-30T13:00:45Z"
+      "at": "2026-07-30T13:30:37Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-07-30T13:00:45Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-07-30T13:30:37Z"
     },
     {
       "id": "euractiv",
@@ -29,73 +29,85 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-30T13:00:45Z"
+      "at": "2026-07-30T13:30:37Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-30T13:00:45Z"
+      "at": "2026-07-30T13:30:37Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-07-30T13:00:45Z"
+      "at": "2026-07-30T13:30:37Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-07-30T13:00:45Z"
+      "at": "2026-07-30T13:30:37Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-07-30T13:00:45Z"
+      "at": "2026-07-30T13:30:37Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-30T13:00:45Z"
+      "at": "2026-07-30T13:30:37Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Polish officials assess Russian missile crater in eastern Poland",
-      "summary": "Polish officials said a deep crater in eastern Poland was likely caused by a Russian missile. The assessment followed recent Russian attacks on Ukraine.",
+      "title": "Wildfires force thousands of evacuations across Crete, France, and Spain",
+      "summary": "Wildfires in Crete, France, and Spain have forced thousands of people to evacuate and caused significant damage. Authorities are coordinating firefighting efforts and assessing the impact on local communities.",
       "article_ids": [
+        "4081ae12d0c000246e93927b",
+        "6fe15bcc33cc41c03e14e545",
+        "7709f4c3a3ed0c73bbe62067",
+        "3330d4445687db46ab8548f9"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/crete-wildfires-cause-evacuations-and-firefighter-deaths/a-78171093?maca=en-rss-en-eu-2092-rdf"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Russian missile crash in eastern Poland raises security concerns",
+      "summary": "A Russian missile crashed in eastern Poland, creating a crater and raising security concerns. Polish officials report the incident and the potential violation of Polish airspace.",
+      "article_ids": [
+        "7b254bafcdc01f6f4e0f249b",
         "3ecdc820b8338c28cc4dc379"
       ],
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260730-pm-tusk-says-russian-missile-appears-to-have-come-down-in-eastern-poland"
+        },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "source_count": 1
-    },
-    {
-      "title": "French interior minister describes wildfire situation as complicated",
-      "summary": "France's interior minister said the wildfire situation remains quite complicated. He made the remark on July 30, 2026.",
-      "article_ids": [
-        "bd34142e696c3e21b7488ad9"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260730-french-interior-minister-says-wildfire-situation-still-quite-complicated"
-        }
-      ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "EU moves to fund seven AI gigafactories",
-      "summary": "The European Union plans to co-fund the construction of seven AI gigafactories. The initiative aims to strengthen the bloc's technological autonomy.",
+      "title": "EU to co‑fund seven AI gigafactories to boost tech autonomy",
+      "summary": "The European Union plans to co‑fund seven AI gigafactories as part of a €30 billion push to build large AI data centers across the bloc. The initiative aims to strengthen the EU’s technological independence.",
       "article_ids": [
         "8df45754cc9204bf50113ae2"
       ],
@@ -108,22 +120,22 @@
       "source_count": 1
     },
     {
-      "title": "EU crisis plan leaves urgent cases without support",
-      "summary": "Those who cannot wait 72 hours for help are left behind in the EU crisis plan. The shortfall was reported by EUobserver.",
+      "title": "US‑Iran conflict threatens UK economy",
+      "summary": "The United Kingdom’s economy faces potential disruption from a looming US‑Iran conflict. Analysts warn that heightened tensions could affect trade and energy markets.",
       "article_ids": [
-        "2ea613dd5e4f9a58bbf00382"
+        "0b7e897f6e9e104fa709f6a5"
       ],
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/230728/those-who-cant-wait-72-hours-for-help-left-behind-in-eu-crisis-plan"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/us-iran-war-looms-over-british-economy"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Spain, France, UK warn megafires threaten way of life",
-      "summary": "Spain, France and the United Kingdom warned that megafires demonstrate climate change threatens their way of life. The warning was issued on July 30, 2026.",
+      "title": "Megafires in Spain, France, and the UK threaten communities",
+      "summary": "Wildfires across Spain, France, and the UK have threatened communities and highlighted climate change risks. Governments warn that such megafires pose a threat to the way of life.",
       "article_ids": [
         "16a45218a3cd24c177eade59"
       ],
@@ -134,23 +146,51 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Russian strikes hit Ukraine as Polish airspace reported violated",
-      "summary": "Russian strikes hit Ukraine while Polish authorities reported a violation of their airspace. The incident occurred on July 30, 2026 incident was reported on July 30, 2026 was documented.",
-      "article_ids": [
-        "2e3d69d67116d81e1c222374"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260730-ukraine-pounded-in-russian-attack-polish-airspace-violated-1"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "radar": [
+    {
+      "id": "0b7e897f6e9e104fa709f6a5",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "US-Iran war looms over Britain’s economy",
+      "url": "https://www.politico.eu/article/us-iran-war-looms-over-british-economy",
+      "published_at": "2026-07-30T13:17:06Z",
+      "collected_at": "2026-07-30T13:30:37Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "9e4258ee4e89b41a350edbf4",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Burnham’s first 10 days in No. 10: popular tax breaks, but North Sea oil gambit risks backlash",
+      "url": "https://euobserver.com/230830/burnhams-first-10-days-in-no-10-popular-tax-breaks-but-north-sea-oil-gambit-risks-backlash",
+      "published_at": "2026-07-30T13:02:09Z",
+      "collected_at": "2026-07-30T13:30:37Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "73bc248b8306e0cb4ed8fcfe",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Ukraine escalates Wildberries attacks to hit Russia’s second-biggest bank as missile crashes in Poland (Ukraine Battlefield update, Day 1,618)",
+      "url": "https://euobserver.com/230794/ukraine-escalates-wildberries-attacks-to-hit-russias-second-biggest-bank-as-missile-crashes-in-poland-ukraine-battlefield-update-day-1618",
+      "published_at": "2026-07-30T12:59:08Z",
+      "collected_at": "2026-07-30T13:30:37Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "7b254bafcdc01f6f4e0f249b",
       "source_id": "france24",
@@ -187,6 +227,20 @@
       "url": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-07-30T12:46:16Z",
       "collected_at": "2026-07-30T13:00:45Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "4081ae12d0c000246e93927b",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Thousands evacuated in Crete as Europe battles wildfires",
+      "url": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-07-30T12:46:16Z",
+      "collected_at": "2026-07-30T13:30:37Z",
       "topics": [
         "breaking",
         "politics",
