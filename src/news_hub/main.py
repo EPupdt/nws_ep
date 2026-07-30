@@ -18,6 +18,7 @@ from zoneinfo import ZoneInfo
 import feedparser
 import yaml
 
+from news_hub import archive
 from news_hub.convergence import convergence_clusters
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -312,6 +313,10 @@ def main() -> None:
                "developing": developing, "radar": state["radar"]}
     write_json(STATE_PATH, state)
     write_json(PUBLIC_PATH, payload)
+    # The published file only ever holds the current briefing. This keeps the
+    # record of what it held before, and writes nothing when a run repeats the
+    # previous selection.
+    archive.record(ROOT, now, iso(now), model, selection, developing)
     LOG_DIR.mkdir(parents=True, exist_ok=True)
     with (LOG_DIR / f"{now:%Y-%m}.jsonl").open("a", encoding="utf-8") as log:
         log.write(json.dumps({"at": iso(now), "model": model, "input_count": len(candidates), "new_items": len(new_articles),

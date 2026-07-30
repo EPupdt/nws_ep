@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A record of what the Europe Pulse news agent published, and when.">
+    <meta name="robots" content="noindex,nofollow">
+    <title>History — Europe Pulse News Agent</title>
+    <style>
+      :root { --ink:#10212d; --muted:#667987; --line:#dce4e8; --paper:#f7f8f5; --white:#fff; --accent:#e4442d; --blue:#0b6078; --dark:#0b1b27; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--paper); color:var(--ink); font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.5; }
+      a { color:inherit; text-decoration:none; } a:hover { text-decoration:underline; }
+      .wrap { width:min(1160px,calc(100% - 40px)); margin:auto; }
+      header { background:var(--dark); color:white; border-bottom:4px solid var(--accent); }
+      .masthead { min-height:108px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+      .brand { font-size:1.35rem; font-weight:800; letter-spacing:-.04em; } .brand span { color:#ff755f; }
+      .nav { display:flex; gap:18px; font-size:.82rem; font-weight:650; letter-spacing:.05em; text-transform:uppercase; color:#b9c6ce; }
+      .nav a.on { color:#fff; border-bottom:2px solid var(--accent); padding-bottom:3px; }
+      main { padding:34px 0 60px; }
+      h1 { font-size:.75rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; color:var(--blue); margin:0 0 12px; }
+      .status { display:flex; flex-wrap:wrap; gap:10px 20px; align-items:center; border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:12px 0; font-size:.84rem; color:var(--muted); }
+      .day { margin-top:44px; }
+      .day > h2 { font-size:.75rem; letter-spacing:.12em; text-transform:uppercase; color:var(--blue); margin:0 0 14px; border-bottom:2px solid var(--ink); padding-bottom:9px; }
+      .entry { background:var(--white); border:1px solid var(--line); border-left:3px solid var(--line); padding:18px 20px; margin-bottom:12px; }
+      .entry.alerted { border-left-color:var(--accent); }
+      .stamp { display:flex; flex-wrap:wrap; gap:6px 14px; align-items:baseline; font-size:.8rem; color:var(--muted); margin-bottom:12px; }
+      .stamp b { color:var(--ink); font-size:.95rem; font-variant-numeric:tabular-nums; }
+      .lbl { font-size:.68rem; letter-spacing:.1em; text-transform:uppercase; font-weight:800; color:var(--accent); margin:14px 0 6px; }
+      .lbl.calm { color:var(--blue); }
+      .item { padding:9px 0; border-top:1px solid var(--line); }
+      .item:first-of-type { border-top:0; }
+      .item h3 { font-family:Georgia,"Times New Roman",serif; letter-spacing:-.02em; line-height:1.15; font-size:1.12rem; margin:0 0 5px; font-weight:700; }
+      .item p { margin:0; color:#415561; font-size:.92rem; }
+      .sources { display:flex; flex-wrap:wrap; gap:4px 12px; color:var(--blue); font-size:.76rem; font-weight:650; margin-top:7px; }
+      .cluster { font-size:.88rem; padding:8px 0; border-top:1px solid var(--line); }
+      .cluster:first-of-type { border-top:0; }
+      .cluster b { font-weight:700; }
+      .cluster small { color:var(--muted); font-weight:500; }
+      .empty { background:#eaf0f2; color:#50646f; padding:18px; font-size:.92rem; }
+      footer { border-top:1px solid #2c3e48; background:var(--dark); color:#b9c6ce; padding:25px 0; font-size:.8rem; }
+      @media (max-width:760px) { .wrap{width:min(100% - 28px,1160px)} .masthead{min-height:88px;gap:12px} .entry{padding:15px 15px} }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap masthead">
+        <a class="brand" href="./">EUROPE <span>PULSE</span></a>
+        <nav class="nav"><a href="./">Live briefing</a><a class="on" href="./history.html">History</a></nav>
+      </div>
+    </header>
+    <main class="wrap">
+      <h1>History</h1>
+      <div class="status" id="status"><span>Loading</span></div>
+      <div id="days"></div>
+    </main>
+    <footer><div class="wrap">Europe Pulse News Agent · <a href="./data/history/index.json">Open data</a> · <a href="./">Back to the live briefing</a></div></footer>
+    <script>
+      const esc = value => String(value ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+      const TZ = 'Europe/Bratislava';
+      const dayKey = value => new Intl.DateTimeFormat('en-CA', {dateStyle:'short', timeZone:TZ}).format(new Date(value));
+      const dayName = value => new Intl.DateTimeFormat('en-GB', {weekday:'long', day:'numeric', month:'long', timeZone:TZ}).format(new Date(value));
+      const clock = value => new Intl.DateTimeFormat('en-GB', {hour:'2-digit', minute:'2-digit', timeZone:TZ}).format(new Date(value));
+
+      const links = sources => (sources || []).map(s =>
+        `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer nofollow">${esc(s.publisher)}</a>`).join('');
+
+      const story = item => `<div class="item"><h3>${esc(item.title)}</h3>${
+        item.summary ? `<p>${esc(item.summary)}</p>` : ''}<div class="sources">${links(item.sources)}</div></div>`;
+
+      const cluster = item => `<div class="cluster"><b>${esc(item.label)}</b> <small>· ${
+        esc(item.source_count)} publishers</small><div class="sources">${
+        (item.sources || []).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer nofollow">${
+          esc(s.publisher)}: ${esc(s.headline)}</a>`).join('')}</div></div>`;
+
+      const entry = item => `<article class="entry ${item.europe_now.length ? 'alerted' : ''}">
+        <div class="stamp"><b>${esc(clock(item.at))}</b></div>
+        ${item.europe_now.length ? `<div class="lbl">Europe now</div>${item.europe_now.map(story).join('')}` : ''}
+        ${item.top_stories.length ? `<div class="lbl calm">Top stories</div>${item.top_stories.map(story).join('')}` : ''}
+        ${item.developing.length ? `<div class="lbl calm">Developing</div>${item.developing.map(cluster).join('')}` : ''}
+      </article>`;
+
+      // One file per day rather than one rolling file: a day that has passed is
+      // never rewritten, so the repository does not accumulate near-identical
+      // copies of the whole archive on every run.
+      async function render() {
+        const response = await fetch('./data/history/index.json', {cache:'no-store'});
+        if (!response.ok) throw new Error('History is unavailable');
+        const index = await response.json();
+        const days = index.days || [];
+
+        const loaded = (await Promise.all(days.map(day =>
+          fetch(`./data/history/${encodeURIComponent(day.day)}.json`, {cache:'no-store'})
+            .then(r => r.ok ? r.json() : null).catch(() => null)
+        ))).filter(file => file && (file.entries || []).length);
+
+        const total = loaded.reduce((sum, file) => sum + file.entries.length, 0);
+        document.getElementById('status').innerHTML =
+          `<span>${total} recorded change${total === 1 ? '' : 's'}</span><span>${loaded.length} day${loaded.length === 1 ? '' : 's'}</span>`;
+
+        if (!total) {
+          document.getElementById('days').innerHTML =
+            '<div class="empty">Nothing recorded yet. The first entry appears the next time the selection changes.</div>';
+          return;
+        }
+
+        document.getElementById('days').innerHTML = loaded.map(file =>
+          `<section class="day"><h2>${esc(dayName(file.entries[0].at))}</h2>${
+            file.entries.map(entry).join('')}</section>`).join('');
+      }
+
+      render().catch(error => {
+        document.getElementById('status').textContent = 'The record is temporarily unavailable.';
+        console.error(error);
+      });
+    </script>
+  </body>
+</html>

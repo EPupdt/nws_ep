@@ -16,6 +16,8 @@
       .masthead { min-height:108px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
       .brand { font-size:1.35rem; font-weight:800; letter-spacing:-.04em; } .brand span { color:#ff755f; }
       .tagline { color:#b9c6ce; font-size:.86rem; max-width:330px; text-align:right; }
+      .nav { display:flex; gap:18px; font-size:.82rem; font-weight:650; letter-spacing:.05em; text-transform:uppercase; color:#b9c6ce; }
+      .nav a.on { color:#fff; border-bottom:2px solid var(--accent); padding-bottom:3px; }
       main { padding:34px 0 60px; }
       .eyebrow { color:var(--accent); font-size:.72rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; margin:0 0 8px; }
       h1 { font-family:Georgia,"Times New Roman",serif; font-size:clamp(2rem,4vw,3.8rem); letter-spacing:-.055em; line-height:.96; max-width:760px; margin:0; }
@@ -43,7 +45,7 @@
     </style>
   </head>
   <body>
-    <header><div class="wrap masthead"><a class="brand" href="./">EUROPE <span>PULSE</span></a><div class="tagline">An automated, source-attributed briefing on the developments shaping Europe.</div></div></header>
+    <header><div class="wrap masthead"><a class="brand" href="./">EUROPE <span>PULSE</span></a><div class="tagline">An automated, source-attributed briefing on the developments shaping Europe.</div><nav class="nav"><a class="on" href="./">Live briefing</a><a href="./history.html">History</a></nav></div></header>
     <main class="wrap">
       <p class="eyebrow">Live Europe briefing</p>
       <h1>Europe, in focus.</h1>
