@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-30T18:00:43Z",
-  "last_successful_collection_at": "2026-07-30T18:00:43Z",
+  "generated_at": "2026-07-30T18:30:41Z",
+  "last_successful_collection_at": "2026-07-30T18:30:41Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-30T18:00:43Z"
+      "at": "2026-07-30T18:30:41Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-07-30T18:00:43Z"
+      "at": "2026-07-30T18:30:41Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-07-30T18:00:43Z"
+      "at": "2026-07-30T18:30:41Z"
     },
     {
       "id": "euractiv",
@@ -29,41 +29,113 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-30T18:00:43Z"
+      "at": "2026-07-30T18:30:41Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-30T18:00:43Z"
+      "at": "2026-07-30T18:30:41Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-07-30T18:00:43Z"
+      "at": "2026-07-30T18:30:41Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-07-30T18:00:43Z"
+      "at": "2026-07-30T18:30:41Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-07-30T18:00:43Z"
+      "at": "2026-07-30T18:30:41Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-30T18:00:43Z"
+      "at": "2026-07-30T18:30:41Z"
     }
   ],
-  "europe_now": [],
-  "top_stories": [],
+  "europe_now": [
+    {
+      "title": "Russian missile attack in Poland creates large crater",
+      "summary": "A missile struck a field in eastern Poland, creating a large crater. Polish officials have blamed Russia for the attack.",
+      "article_ids": [
+        "8b854f3956da1a3296b17724"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/live-news/20260730-russia-blamed-for-missile-that-blasted-crater-in-polish-field"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "European wildfires force mass evacuations",
+      "summary": "Wildfires have forced the evacuation of thousands of residents in Crete and other parts of Europe. Firefighters are battling the blazes amid high risk conditions.",
+      "article_ids": [
+        "4081ae12d0c000246e93927b"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Russian missile attack in Poland creates large crater",
+      "summary": "A missile struck a field in eastern Poland, creating a large crater. Polish officials have blamed Russia for the attack.",
+      "article_ids": [
+        "8b854f3956da1a3296b17724"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/live-news/20260730-russia-blamed-for-missile-that-blasted-crater-in-polish-field"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "European wildfires force mass evacuations",
+      "summary": "Wildfires have forced the evacuation of thousands of residents in Crete and other parts of Europe. Firefighters are battling the blazes amid high risk conditions.",
+      "article_ids": [
+        "4081ae12d0c000246e93927b"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "EU invests €30 billion in AI data centers",
+      "summary": "The European Union is investing €30 billion to build seven large AI data centers. The initiative aims to strengthen the EU's technological autonomy.",
+      "article_ids": [
+        "8df45754cc9204bf50113ae2"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/230786/eu-to-co-fund-seven-ai-gigafactories-in-race-for-tech-autonomy"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
   "radar": [
     {
       "id": "f940e9bbf6450d5a72a1c1f4",
@@ -353,6 +425,20 @@
       "url": "https://www.dw.com/en/ceuta-asks-spain-to-declare-emergency-over-morocco-migrants/a-78177638?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-07-30T13:21:00Z",
       "collected_at": "2026-07-30T14:00:49Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "116e72db8abc63b2207f0cd9",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Spain will send troops to Ceuta to help with border security",
+      "url": "https://www.dw.com/en/spain-will-send-troops-to-ceuta-to-help-with-border-security/a-78177638?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-07-30T13:21:00Z",
+      "collected_at": "2026-07-30T18:30:41Z",
       "topics": [
         "politics",
         "society",
