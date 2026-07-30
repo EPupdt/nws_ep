@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-30T11:40:05Z",
-  "last_successful_collection_at": "2026-07-30T11:40:05Z",
+  "generated_at": "2026-07-30T12:00:43Z",
+  "last_successful_collection_at": "2026-07-30T12:00:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-30T11:40:05Z"
+      "at": "2026-07-30T12:00:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-07-30T11:40:05Z"
+      "at": "2026-07-30T12:00:43Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-07-30T11:40:05Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-07-30T12:00:43Z"
     },
     {
       "id": "euractiv",
@@ -29,101 +29,102 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-30T11:40:05Z"
+      "at": "2026-07-30T12:00:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-30T11:40:05Z"
+      "at": "2026-07-30T12:00:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-07-30T11:40:05Z"
+      "at": "2026-07-30T12:00:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-07-30T11:40:05Z"
+      "at": "2026-07-30T12:00:43Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-07-30T11:40:05Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-07-30T12:00:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-30T11:40:05Z"
+      "at": "2026-07-30T12:00:43Z"
     }
   ],
   "europe_now": [
     {
       "title": "Crete wildfires cause evacuations and firefighter deaths",
-      "summary": "Wildfires on Crete have caused evacuations and the deaths of firefighters. The incident is reported by Deutsche Welle.",
+      "summary": "Crete has experienced severe wildfires that have forced thousands of residents to evacuate and resulted in firefighter casualties. The fires have continued to spread across the island, prompting ongoing emergency responses.",
       "article_ids": [
-        "6fe15bcc33cc41c03e14e545"
+        "6fe15bcc33cc41c03e14e545",
+        "7709f4c3a3ed0c73bbe62067",
+        "e6bdbbcf1072bf718fce5571"
       ],
       "sources": [
         {
           "publisher": "Deutsche Welle",
           "url": "https://www.dw.com/en/crete-wildfires-cause-evacuations-and-firefighter-deaths/a-78171093?maca=en-rss-en-eu-2092-rdf"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260730-greek-firefighters-battle-deadly-wildfires-on-crete-for-a-second-day"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
       "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
-      "summary": "A missile that left a crater deep inside Poland is believed to be Russian, according to the Polish Prime Minister. The story is reported by BBC News Europe.",
+      "summary": "A Russian missile strike in eastern Poland created a large crater and caused damage, with Polish officials indicating it was likely a Russian Kh-101 missile. The incident followed a broader pattern of Russian attacks on Ukraine and has raised concerns about airspace violations.",
       "article_ids": [
-        "3ecdc820b8338c28cc4dc379"
+        "3ecdc820b8338c28cc4dc379",
+        "df0ab33b386375e43ed68c60",
+        "2e3d69d67116d81e1c222374",
+        "0877eadcce9b863d35139290",
+        "dcab98b150fd797ee88b18e5",
+        "5408faf5a55d9912d9f72b29"
       ],
       "sources": [
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260730-poland-says-giant-crater-left-by-explosion-after-russia-attacks-on-ukraine"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "Crete wildfires cause evacuations and firefighter deaths",
-      "summary": "Wildfires on Crete have caused evacuations and the deaths of firefighters. The incident is reported by Deutsche Welle.",
+      "title": "Spain, France, UK warn megafires show climate change is ‘threatening our way of life’",
+      "summary": "Spain, France and the United Kingdom have warned that megafires are evidence of climate change threatening their societies. The governments are calling for stronger measures to address the increasing risk of large-scale wildfires.",
       "article_ids": [
-        "6fe15bcc33cc41c03e14e545"
+        "16a45218a3cd24c177eade59"
       ],
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/crete-wildfires-cause-evacuations-and-firefighter-deaths/a-78171093?maca=en-rss-en-eu-2092-rdf"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
-      "summary": "A missile that left a crater deep inside Poland is believed to be Russian, according to the Polish Prime Minister. The story is reported by BBC News Europe.",
-      "article_ids": [
-        "3ecdc820b8338c28cc4dc379"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/spain-france-uk-warn-megafires-show-climate-change-is-threatening-our-way-of-life"
         }
       ],
       "source_count": 1
     },
     {
       "title": "Those who can’t wait 72 hours for help left behind in EU crisis plan",
-      "summary": "The EU crisis plan leaves some people unable to wait 72 hours for help. The article is from EUobserver.",
+      "summary": "The EU crisis plan has been criticized for not providing assistance within 72 hours for those in need. The report highlights gaps in the plan that could leave vulnerable populations without timely support.",
       "article_ids": [
         "2ea613dd5e4f9a58bbf00382"
       ],
@@ -134,9 +135,65 @@
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "Thousands of migrant children risk being left without lawyers: ‘They want to put them into the deportation machinery’",
+      "summary": "Thousands of migrant children in the United States may be left without legal representation during deportation proceedings. The article argues that the current system could push them into a deportation process without adequate legal support.",
+      "article_ids": [
+        "7f5da5b4899e61bceb2e1d3b"
+      ],
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-07-30/thousands-of-migrant-children-risk-being-left-without-lawyers-they-want-to-put-them-into-the-deportation-machinery.html"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Middle East live: US air strikes on Iran's Qeshm island kill three people",
+      "summary": "The United States launched air strikes on Iran's Qeshm island, resulting in the deaths of three individuals. The attacks were part of a broader response to Iranian actions in the region.",
+      "article_ids": [
+        "0af1a31ef3b2a81a9aecdc61"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east/20260730-middle-east-live-us-air-strikes-on-iran-qeshm-island-kill-three-people"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "radar": [
+    {
+      "id": "2e3d69d67116d81e1c222374",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "#Ukraine pounded in Russian attack, Polish airspace 'violated'",
+      "url": "https://www.france24.com/en/video/20260730-ukraine-pounded-in-russian-attack-polish-airspace-violated-1",
+      "published_at": "2026-07-30T11:31:09Z",
+      "collected_at": "2026-07-30T12:00:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "cbdc6903bfa1de04f28fd0de",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "How native livestock is reducing the risk of wildfires in Spain's Galicia region",
+      "url": "https://www.france24.com/en/video/20260730-how-native-livestock-is-reducing-the-risk-of-wildfires-in-spain-s-galicia-region",
+      "published_at": "2026-07-30T11:10:06Z",
+      "collected_at": "2026-07-30T12:00:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "16a45218a3cd24c177eade59",
       "source_id": "politico_europe",
@@ -194,6 +251,48 @@
       ]
     },
     {
+      "id": "7709f4c3a3ed0c73bbe62067",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Greek firefighters battle deadly wildfires on Crete for a second day",
+      "url": "https://www.france24.com/en/video/20260730-greek-firefighters-battle-deadly-wildfires-on-crete-for-a-second-day",
+      "published_at": "2026-07-30T10:21:04Z",
+      "collected_at": "2026-07-30T12:00:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "3330d4445687db46ab8548f9",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Tens of thousands of French wildfire evacuees allowed to return home",
+      "url": "https://www.france24.com/en/video/20260730-tens-of-thousands-of-french-wildfire-evacuees-allowed-to-return-home",
+      "published_at": "2026-07-30T10:19:57Z",
+      "collected_at": "2026-07-30T12:00:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "df0ab33b386375e43ed68c60",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Poland says giant crater left by explosion after Russia attacks on Ukraine",
+      "url": "https://www.france24.com/en/video/20260730-poland-says-giant-crater-left-by-explosion-after-russia-attacks-on-ukraine",
+      "published_at": "2026-07-30T10:18:16Z",
+      "collected_at": "2026-07-30T12:00:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "2ea613dd5e4f9a58bbf00382",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -218,6 +317,48 @@
       "topics": [
         "breaking",
         "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "4d3200d7e84799f0ea6ff7e1",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "FIFA hit by furious backlash over plans to sell stake in competitions",
+      "url": "https://www.france24.com/en/video/20260730-fifa-hit-by-furious-backlash-over-plans-to-sell-stake-in-competitions",
+      "published_at": "2026-07-30T09:51:07Z",
+      "collected_at": "2026-07-30T12:00:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "92fd5dc76921369bf24566d1",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Drone reveals charred forest landscape after wildfires scorch France",
+      "url": "https://www.france24.com/en/video/20260730-drone-reveals-charred-forest-landscape-after-wildfires-scorch-france",
+      "published_at": "2026-07-30T09:49:50Z",
+      "collected_at": "2026-07-30T12:00:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "d7ec40100ba288efe887033f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US launches wave of strikes on Iran in response to Tehran missile attack in Jordan",
+      "url": "https://www.france24.com/en/video/20260730-us-launches-wave-of-strikes-on-iran-in-response-to-tehran-missile-attack-in-jordan",
+      "published_at": "2026-07-30T09:48:50Z",
+      "collected_at": "2026-07-30T12:00:43Z",
+      "topics": [
+        "politics",
+        "security",
         "society"
       ]
     },
@@ -292,6 +433,90 @@
       ]
     },
     {
+      "id": "e05e753db16e9cd9c2a87ff0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Japan quake toll hits 34 as survivors struggle in heat",
+      "url": "https://www.france24.com/en/video/20260730-japan-quake-toll-hits-34-as-survivors-struggle-in-heat",
+      "published_at": "2026-07-30T09:08:47Z",
+      "collected_at": "2026-07-30T12:00:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "75a2343634d46b5f78e92b1e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Cooler weather and potential rain move into the French region torched by wildfires",
+      "url": "https://www.france24.com/en/video/20260730-cooler-weather-and-potential-rain-move-into-the-french-region-torched-by-wildfires",
+      "published_at": "2026-07-30T09:07:15Z",
+      "collected_at": "2026-07-30T12:00:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "4627194fc377836687c77491",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US military launches 'powerful' retaliatory strikes on Iran",
+      "url": "https://www.france24.com/en/video/20260730-us-military-launches-powerful-retaliatory-strikes-on-iran",
+      "published_at": "2026-07-30T09:05:56Z",
+      "collected_at": "2026-07-30T12:00:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e1e3aec2da6a07531e7986b4",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russian strikes kill at least 8, wound dozens across Ukraine",
+      "url": "https://www.france24.com/en/video/20260730-russian-strikes-kill-at-least-8-wound-dozens-across-ukraine",
+      "published_at": "2026-07-30T09:04:19Z",
+      "collected_at": "2026-07-30T12:00:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c9cad38f0626c396b76535c0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Paris neighbourhoods: The charming 3rd arrondissement",
+      "url": "https://www.france24.com/en/tv-shows/french-connections/20260730-paris-neighbourhoods-the-charming-3rd-arrondissement",
+      "published_at": "2026-07-30T09:00:08Z",
+      "collected_at": "2026-07-30T12:00:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "4f992304019371666d7edf2f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Infantino and FIFA under fire for private investment plan",
+      "url": "https://www.france24.com/en/tv-shows/sports/20260730-gianni-infantino-and-fifa-under-fire-for-private-investment-plan",
+      "published_at": "2026-07-30T08:48:53Z",
+      "collected_at": "2026-07-30T12:00:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "20c9b98e846e3921fa3c9866",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -320,6 +545,20 @@
       ]
     },
     {
+      "id": "dcab98b150fd797ee88b18e5",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "PM Tusk says Russian Kh-101 missile likely crashed in eastern Poland",
+      "url": "https://notesfrompoland.com/2026/07/30/unidentified-object-crashes-in-poland-after-russian-attack-on-ukraine",
+      "published_at": "2026-07-30T08:23:39Z",
+      "collected_at": "2026-07-30T12:00:43Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "eeb0df1a00498a094c84a132",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -331,6 +570,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "f5a9048c98c3f679b8410c37",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "🔴 Fires in Europe live: France gives green light for 84,000 evacuees to return home",
+      "url": "https://www.france24.com/en/europe/20260730-live-fontainebleau-fire-contained-but-southern-europe-on-high-alert-as-wildfires-rage",
+      "published_at": "2026-07-30T08:18:38Z",
+      "collected_at": "2026-07-30T12:00:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -397,6 +650,20 @@
       "url": "https://www.france24.com/en/middle-east/20260730-middle-east-live-us-air-strikes-on-iran-qeshm-island-kill-three-people",
       "published_at": "2026-07-30T05:52:12Z",
       "collected_at": "2026-07-30T08:09:07Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "920c4f879228642c2da1dfe7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Middle East live: Tehran threatens to 'punish the aggressor today' after deadly US strikes on Iran",
+      "url": "https://www.france24.com/en/middle-east/20260730-middle-east-live-us-air-strikes-on-iran-qeshm-island-kill-three-people",
+      "published_at": "2026-07-30T05:52:12Z",
+      "collected_at": "2026-07-30T12:00:43Z",
       "topics": [
         "politics",
         "security",
@@ -495,6 +762,20 @@
       "url": "https://www.france24.com/en/europe/20260730-live-fontainebleau-fire-contained-but-southern-europe-on-high-alert-as-wildfires-rage",
       "published_at": "2026-07-30T02:59:15Z",
       "collected_at": "2026-07-30T08:09:07Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a5f21d833e332e83b6ac37a8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Fires in Europe live: France gives green light for 84,000 evacuees to return home",
+      "url": "https://www.france24.com/en/europe/20260730-live-fontainebleau-fire-contained-but-southern-europe-on-high-alert-as-wildfires-rage",
+      "published_at": "2026-07-30T02:59:15Z",
+      "collected_at": "2026-07-30T12:00:43Z",
       "topics": [
         "politics",
         "security",
@@ -649,6 +930,20 @@
       "url": "https://www.france24.com/en/europe/20260729-zelensky-warns-of-possible-major-russian-strike-overnight",
       "published_at": "2026-07-29T21:49:55Z",
       "collected_at": "2026-07-30T08:09:07Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "5d2b279cdcebee44d240aef5",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russian strikes across Ukraine kill at least 8, wound more than a dozen",
+      "url": "https://www.france24.com/en/europe/20260729-zelensky-warns-of-possible-major-russian-strike-overnight",
+      "published_at": "2026-07-29T21:49:55Z",
+      "collected_at": "2026-07-30T12:00:43Z",
       "topics": [
         "politics",
         "security",
@@ -2389,272 +2684,6 @@
         "analysis",
         "foreign_policy",
         "security"
-      ]
-    },
-    {
-      "id": "f115475201ccf0a9d7547a64",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Heat pumps, solar and wind could cut EU gas use by a quarter and blunt next energy shock, study finds",
-      "url": "https://euobserver.com/230284/europes-renewable-push-can-shield-europe-from-next-energy-crisis-report-finds",
-      "published_at": "2026-07-28T04:00:00Z",
-      "collected_at": "2026-07-29T13:44:28Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "4b7d049109d3443264b197bb",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "France and Spain wildfire witnesses describe 'wall of flames', fear and stress",
-      "url": "https://www.bbc.co.uk/news/articles/cly5qwwdvr1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-27T19:50:35Z",
-      "collected_at": "2026-07-29T12:42:30Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "6b768be43daaabc91f352fd2",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "What you need to know if you're travelling to France or Spain",
-      "url": "https://www.bbc.co.uk/news/videos/c89npw4q3g4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-27T17:20:27Z",
-      "collected_at": "2026-07-29T12:42:30Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "62fb6015560030ffb1e9282f",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Ukraine dismisses Iranian threats as Caspian Sea strike directly links wars",
-      "url": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-27T16:33:05Z",
-      "collected_at": "2026-07-29T12:42:30Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "da5b18215e57c152e492e832",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "What went wrong? Russian missile attack on open-air weapons exhibition exposes catalogue of errors (Ukraine Battlefield update, Day 1,615)",
-      "url": "https://euobserver.com/230310/what-went-wrong-russian-missile-attack-on-open-air-weapons-exhibition-exposes-catalogue-of-errorsukraine-battlefield-update-day-1615",
-      "published_at": "2026-07-27T16:22:54Z",
-      "collected_at": "2026-07-29T13:44:28Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "8a5332c2271e446a0c85c6a1",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Firefighters facing a major crisis: ‘I’ve never seen a fire burn with such intensity’",
-      "url": "https://english.elpais.com/spain/2026-07-27/firefighters-facing-a-major-crisis-ive-never-seen-a-fire-burn-with-such-intensity.html",
-      "published_at": "2026-07-27T14:49:55Z",
-      "collected_at": "2026-07-29T13:44:28Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "665dd44e3e64a0dc156f29f9",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland asks US to extradite former minister Ziobro over criminal charges",
-      "url": "https://notesfrompoland.com/2026/07/27/poland-asks-us-to-extradite-former-minister-ziobro-over-criminal-charges",
-      "published_at": "2026-07-27T14:40:24Z",
-      "collected_at": "2026-07-29T13:44:28Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "898886fbb93215c80be7757a",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Chip shortages forced China to find way to make cheaper AI models than US",
-      "url": "https://euobserver.com/230235/chip-shortages-forced-china-to-find-way-to-make-cheaper-ai-models-than-us",
-      "published_at": "2026-07-27T14:08:34Z",
-      "collected_at": "2026-07-29T13:44:28Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "2a38d59bb0a417768401353f",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "US faces the challenge of turning soccer into a mass sport following the success of the World Cup",
-      "url": "https://english.elpais.com/sports/2026-07-27/us-faces-the-challenge-of-turning-soccer-into-a-mass-sport-following-the-success-of-the-world-cup.html",
-      "published_at": "2026-07-27T13:31:58Z",
-      "collected_at": "2026-07-29T13:44:28Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "93400b03c65ad7ebd773b5d8",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The incredible story of the man who built a fake Roman theater in Italy and sold tickets to visit it",
-      "url": "https://english.elpais.com/international/2026-07-27/the-incredible-story-of-the-man-who-built-a-fake-roman-theater-in-italy-and-sold-tickets-to-visit-it.html",
-      "published_at": "2026-07-27T13:31:11Z",
-      "collected_at": "2026-07-29T13:44:28Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "116dc635ff8e6539adc8b08d",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Brussels found Russia’s LNG weak spot — then carved out an exception for a Greek billionaire",
-      "url": "https://euobserver.com/230246/brussels-found-russias-lng-weak-spot-then-carved-out-an-exception-for-a-greek-billionaire",
-      "published_at": "2026-07-27T13:01:19Z",
-      "collected_at": "2026-07-29T13:44:28Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "8ad0fd0501d988a31d3a3476",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Anger as Berlin Pride attacker revealed to have been freed weeks earlier",
-      "url": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-27T12:33:31Z",
-      "collected_at": "2026-07-29T12:42:30Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "0f354f4fcc0c7875421e885d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘The largest frying pan in Europe’ ignites tempers in Brussels",
-      "url": "https://english.elpais.com/international/2026-07-27/the-largest-frying-pan-in-europe-ignites-tempers-in-brussels.html",
-      "published_at": "2026-07-27T11:42:26Z",
-      "collected_at": "2026-07-29T13:44:28Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "b277047f5f4938863d65e4dc",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "UNESCO adds Poland’s modernist port city of Gdynia to World Heritage List",
-      "url": "https://notesfrompoland.com/2026/07/27/unesco-adds-polands-modernist-port-city-of-gdynia-to-world-heritage-list",
-      "published_at": "2026-07-27T11:23:58Z",
-      "collected_at": "2026-07-29T13:44:28Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "fc1f68606fe91af0bb295e52",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Berlin Pride van attack tests EU vows to protect LGBTQ+ people as far-right parties court queer voters",
-      "url": "https://euobserver.com/230250/berlin-pride-van-attack-tests-eu-vows-to-protect-lgbtq-people-as-far-right-parties-court-queer-voters",
-      "published_at": "2026-07-27T11:17:39Z",
-      "collected_at": "2026-07-29T13:44:28Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "61d63067af90dd2306844d58",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Bali bans Dutch expats whose run club allegedly excluded Indonesians",
-      "url": "https://www.bbc.co.uk/news/articles/c1l1m6e08e2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-27T10:59:13Z",
-      "collected_at": "2026-07-29T12:42:30Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "c7b5a6efb183653cc2cad301",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Polish president obstructs windfall tax on fuel firms’ excess profits, prompting government criticism",
-      "url": "https://notesfrompoland.com/2026/07/27/polish-president-obstructs-windfall-tax-on-fuel-firms-excess-profits-prompting-government-criticism",
-      "published_at": "2026-07-27T10:18:44Z",
-      "collected_at": "2026-07-29T13:44:28Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "c02421cb914b80449f1b1b54",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "'I can't take it anymore': Residents evacuated from town west of Madrid",
-      "url": "https://www.bbc.co.uk/news/videos/c1l1m66qdeyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-27T09:56:17Z",
-      "collected_at": "2026-07-29T12:42:30Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "3d4402404008627f844dd167",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘Only America was rich enough to satisfy my hypertrophied self’: Florida exhibition explores how Salvador Dalí transformed US culture",
-      "url": "https://english.elpais.com/culture/2026-07-27/only-america-was-rich-enough-to-satisfy-my-hypertrophied-self-florida-exhibition-explores-how-salvador-dali-transformed-us-culture.html",
-      "published_at": "2026-07-27T09:34:42Z",
-      "collected_at": "2026-07-29T13:44:28Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     }
   ]
