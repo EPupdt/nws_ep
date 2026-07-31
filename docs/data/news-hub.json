@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-31T08:00:50Z",
-  "last_successful_collection_at": "2026-07-31T08:00:50Z",
+  "generated_at": "2026-07-31T08:11:20Z",
+  "last_successful_collection_at": "2026-07-31T08:11:20Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T08:00:50Z"
+      "at": "2026-07-31T08:11:20Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-07-31T08:00:50Z"
+      "at": "2026-07-31T08:11:20Z"
     },
     {
       "id": "france24",
       "status": "ok",
-      "count": "23",
-      "at": "2026-07-31T08:00:50Z"
+      "count": "24",
+      "at": "2026-07-31T08:11:20Z"
     },
     {
       "id": "euractiv",
@@ -29,64 +29,69 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-31T08:00:50Z"
+      "at": "2026-07-31T08:11:20Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T08:00:50Z"
+      "at": "2026-07-31T08:11:20Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-07-31T08:00:50Z"
+      "at": "2026-07-31T08:11:20Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-07-31T08:00:50Z"
+      "at": "2026-07-31T08:11:20Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-07-31T08:00:50Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-07-31T08:11:20Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-31T08:00:50Z"
+      "at": "2026-07-31T08:11:20Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Week Ender — Searing Contradiction: Wildfires and climate politics",
-      "summary": "The segment discusses the link between recent wildfires in Europe and ongoing climate policy debates. It highlights institutional and political perspectives on the issue.",
+      "title": "Spain deploys military to Ceuta amid mass migrant influx from Morocco",
+      "summary": "Spanish authorities have deployed armed forces to Ceuta to manage the surge of over 50,000 migrants crossing the Morocco-Ceuta border in 24 hours, according to France 24. The crisis has overwhelmed local resources and triggered security measures.",
       "article_ids": [
-        "902b6c9dfd5e9c24eaf3fb81"
+        "42dda668dfe397eb3520cbc6",
+        "31a86f30b98b0adead49d5dd"
       ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/searing-contradiction-wildfires-and-climate-politics"
+          "url": "https://www.politico.eu/article/spain-pedro-sanchez-morocco-military-ceuta-migration-chaos"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260731-almost-50-000-migrants-crossed-morocco-ceuta-border-over-past-24-hours"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
-      "summary": "Record low water levels in the Danube River have led to the temporary shutdown of Hungary's sole nuclear power facility. This development raises concerns about energy security and regional political implications.",
+      "title": "Russian missile attack in Poland creates large crater, raising security alarms",
+      "summary": "A Russian missile strike in Poland resulted in a significant crater, with Ukraine's missile interception rate dropping from 90% to 70%, per France 24. The incident has heightened regional security concerns.",
       "article_ids": [
-        "f940e9bbf6450d5a72a1c1f4"
+        "8e3141244b7cbcf460002dff"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cn0nqv05g0do?at_medium=RSS&at_campaign=rss"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/uefa-says-will-boycott-world-cup-if-fifa-pushes-private-investor-proposal"
         }
       ],
       "source_count": 1
@@ -94,36 +99,27 @@
   ],
   "top_stories": [
     {
-      "title": "Sánchez sends armed forces to Ceuta amid migration chaos",
-      "summary": "Spanish Prime Minister Pedro Sánchez has deployed armed forces to the North African enclave of Ceuta to manage a surge in migrant arrivals. The move reflects institutional and policy responses to the ongoing migration pressure on Spain's southern border.",
+      "title": "Ceuta migration crisis",
+      "summary": "Spain has deployed military forces to Ceuta to address the overwhelming influx of migrants from Morocco, with nearly 50,000 crossing the border in 24 hours. The situation has led to calls for coordinated EU action.",
       "article_ids": [
-        "42dda668dfe397eb3520cbc6"
+        "42dda668dfe397eb3520cbc6",
+        "31a86f30b98b0adead49d5dd"
       ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/spain-pedro-sanchez-morocco-military-ceuta-migration-chaos"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Russian missiles interception rate in Ukraine dropped from 90% back in March to 70%, expert says",
-      "summary": "Analysts report that the effectiveness of Ukrainian air defenses against Russian missiles has declined from ninety percent to seventy percent since March. This change has political, security, and societal implications for the ongoing conflict.",
-      "article_ids": [
-        "e8bd1cc1cae55e3eee2f7d18"
-      ],
-      "sources": [
+        },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/russian-missiles-interception-rate-in-ukraine-dropped-from-90-back-in-march-to-70-expert-says"
+          "url": "https://www.france24.com/en/europe/20260731-almost-50-000-migrants-crossed-morocco-ceuta-border-over-past-24-hours"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "AI safety scare: Anthropic says Claude models accessed outside systems during testing",
-      "summary": "Anthropic disclosed that its Claude language models were accessed outside secure environments during routine safety testing. The incident raises political, security, and societal concerns about AI safety protocols.",
+      "title": "AI safety concerns",
+      "summary": "Anthropic reported that Claude models were accessed outside their systems during testing, raising security and societal concerns. The incident highlights vulnerabilities in AI development practices.",
       "article_ids": [
         "0735d22fafae719ce6a12769"
       ],
@@ -180,6 +176,27 @@
       ]
     },
     {
+      "label": "Ceuta · migrants · Morocco",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-07-31T07:57:37Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260731-almost-50-000-migrants-crossed-morocco-ceuta-border-over-past-24-hours",
+          "headline": "Almost 50,000 migrants crossed Morocco-Ceuta border over past 24 hours",
+          "published_at": "2026-07-31T07:57:37Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/spain/2026-07-31/not-morocco-thousands-of-migrants-enter-ceuta-and-beg-not-to-be-sent-back.html",
+          "headline": "‘Not Morocco!’ Thousands of migrants enter Ceuta and beg not to be sent back",
+          "published_at": "2026-07-31T06:24:21Z"
+        }
+      ]
+    },
+    {
       "label": "Iran · US",
       "origin": "convergence",
       "source_count": 2,
@@ -214,6 +231,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "31a86f30b98b0adead49d5dd",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Almost 50,000 migrants crossed Morocco-Ceuta border over past 24 hours",
+      "url": "https://www.france24.com/en/europe/20260731-almost-50-000-migrants-crossed-morocco-ceuta-border-over-past-24-hours",
+      "published_at": "2026-07-31T07:57:37Z",
+      "collected_at": "2026-07-31T08:11:20Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -1673,20 +1704,6 @@
       ]
     },
     {
-      "id": "7d6522e41e0dc0a7e046d598",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Burnham’s blitz: Sam and Anne’s verdict",
-      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/burnhams-blitz-sam-and-annes-verdict",
-      "published_at": "2026-07-30T07:39:45Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "91628d13b37b4f7f0ccb4773",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1715,34 +1732,6 @@
       ]
     },
     {
-      "id": "5e98abb9af659af63651328b",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Strip searches at one facility, ‘extreme cold’ at another: Inside Trump’s latest deportation push",
-      "url": "https://english.elpais.com/usa/2026-07-30/strip-searches-at-one-facility-extreme-cold-at-another-inside-trumps-latest-deportation-push.html",
-      "published_at": "2026-07-30T05:54:16Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "0af1a31ef3b2a81a9aecdc61",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Middle East live: US air strikes on Iran's Qeshm island kill three people",
-      "url": "https://www.france24.com/en/middle-east/20260730-middle-east-live-us-air-strikes-on-iran-qeshm-island-kill-three-people",
-      "published_at": "2026-07-30T05:52:12Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "920c4f879228642c2da1dfe7",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1757,48 +1746,6 @@
       ]
     },
     {
-      "id": "7f5da5b4899e61bceb2e1d3b",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Thousands of migrant children risk being left without lawyers: ‘They want to put them into the deportation machinery’",
-      "url": "https://english.elpais.com/usa/2026-07-30/thousands-of-migrant-children-risk-being-left-without-lawyers-they-want-to-put-them-into-the-deportation-machinery.html",
-      "published_at": "2026-07-30T05:51:17Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "8a6ff0cc04ab25033e74d37c",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Exclusive: Leaked legal advice questions legality of EU Commission’s Israeli police data-deal",
-      "url": "https://euobserver.com/230339/exclusive-leaked-legal-advice-says-euisrael-police-data-deal-breached-international-law-yet-eu-commission-kept-europol-talks-going",
-      "published_at": "2026-07-30T05:30:00Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "41dbc4b79f6ad4fa6f8d40e3",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "US launches ‘heavy’ wave of strikes in response to Iran’s attack on bases in Jordan",
-      "url": "https://english.elpais.com/usa/2026-07-30/us-launches-heavy-wave-of-strikes-in-response-to-irans-attack-on-bases-in-jordan.html",
-      "published_at": "2026-07-30T04:41:58Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "ffc60d04d2ac56ec06cb52e7",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1806,62 +1753,6 @@
       "url": "https://www.france24.com/en/asia-pacific/20260730-k-pop-sensation-bts-pulls-out-of-grammys-after-introduction-of-new-asian-pop-category",
       "published_at": "2026-07-30T04:29:11Z",
       "collected_at": "2026-07-30T12:30:52Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "007ba455dedc4d80776b4cca",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "The race to save von der Leyen’s big speech",
-      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-race-to-save-von-der-leyens-big-speech",
-      "published_at": "2026-07-30T04:05:00Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "3e78401d43229ec7082fe458",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Machthaber: Pedro Sánchez",
-      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/machthaber-pedro-sanchez",
-      "published_at": "2026-07-30T03:30:00Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "bdc5839866dc5da0abbd0fbd",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Meet the astronomer using ‘cosmic fossils’ to investigate the Milky Way's violent birth",
-      "url": "https://www.france24.com/en/europe/20260730-meet-the-astronomer-using-cosmic-fossils-to-investigate-the-milky-way-s-violent-birth",
-      "published_at": "2026-07-30T03:13:15Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "824fc12ce682eaf025553838",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: ‘Almost no flames left’ in wildfire near Madrid as southern Europe remains on high alert",
-      "url": "https://www.france24.com/en/europe/20260730-live-fontainebleau-fire-contained-but-southern-europe-on-high-alert-as-wildfires-rage",
-      "published_at": "2026-07-30T02:59:15Z",
-      "collected_at": "2026-07-30T08:09:07Z",
       "topics": [
         "politics",
         "security",
@@ -1897,146 +1788,6 @@
       ]
     },
     {
-      "id": "0282f9ddcb3a2d081206fd36",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US says it struck dozens of Iranian targets in latest wave of attacks",
-      "url": "https://www.france24.com/en/middle-east/20260730-us-carries-out-powerful-strikes-on-iran-after-attacks-on-bases-and-regional-allies",
-      "published_at": "2026-07-30T02:22:48Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "818acc24b50e9d677be103dd",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "US launches strikes on Iran in retaliation for failed attack on American troops",
-      "url": "https://www.politico.com/news/2026/07/29/us-strikes-iran-failed-troop-attack-01016715",
-      "published_at": "2026-07-30T02:03:25Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "68c5eb1bca4205f993702487",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Watch out Brussels and Kyiv, Poland’s conservatives are veering right",
-      "url": "https://www.politico.eu/article/poland-pis-split-right-wing-parties-2027-election",
-      "published_at": "2026-07-30T02:00:00Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "7c650ebfa9780ac11ae65bcc",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "The first election of the Andy Burnham era is already here",
-      "url": "https://www.politico.eu/article/greater-manchester-mayor-election-2026-andy-burnham-successor",
-      "published_at": "2026-07-30T02:00:00Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "2b2c8f363e52022848eef682",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "European football officials eye Qatari sports executive to challenge Infantino",
-      "url": "https://www.politico.com/news/2026/07/29/europe-nasser-al-khelaifi-challenge-infantino-fifa-01015898",
-      "published_at": "2026-07-30T01:17:32Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "553176dc1a2be9521e95c956",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Infantino defends FIFA investment plan amid mounting backlash",
-      "url": "https://www.france24.com/en/sport/20260730-infantino-defends-fifa-investment-plan-amid-mounting-backlash",
-      "published_at": "2026-07-30T01:14:23Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "679f9c08a9937765a8fbc6f7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Spain eases evacuations as France battles fresh wildfires amid new heatwave",
-      "url": "https://www.france24.com/en/europe/20260730-spain-eases-evacuations-as-france-battles-fresh-wildfires-amid-new-heatwave",
-      "published_at": "2026-07-30T01:09:19Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "ae9fb670fdcae1f442343015",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French DJ Kavinsky, famed for 'Nightcall', dies at 50",
-      "url": "https://www.france24.com/en/video/20260730-french-dj-kavinsky-famed-for-nightcall-dies-at-50",
-      "published_at": "2026-07-30T00:15:12Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "faf07e1e7e162d75cb32a4e7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Deadly attack on police checkpoint in Pakistan leaves 15 dead",
-      "url": "https://www.france24.com/en/asia-pacific/20260729-deadly-attack-on-pakistan-checkpoint-leaves-15-dead-as-militant-violence-surges",
-      "published_at": "2026-07-29T23:14:43Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "3d8b85ab8cf3ecb33d94d9f7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Russian strikes across Ukraine kill at least 8, wound more than a dozen more",
-      "url": "https://www.france24.com/en/europe/20260729-zelensky-warns-of-possible-major-russian-strike-overnight",
-      "published_at": "2026-07-29T21:49:55Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "5d2b279cdcebee44d240aef5",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2044,426 +1795,6 @@
       "url": "https://www.france24.com/en/europe/20260729-zelensky-warns-of-possible-major-russian-strike-overnight",
       "published_at": "2026-07-29T21:49:55Z",
       "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "51b9b2cfbcccf471f11a9bd0",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Trump unveils Dulles airport overhaul: ‘We’re going to make it maybe the best.’",
-      "url": "https://www.politico.com/news/2026/07/29/trump-dulles-airport-overhaul-01015447",
-      "published_at": "2026-07-29T21:00:17Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "27439d5dad37d230bbfab5c6",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Drone hits storage tanker at Egyptian port in major Middle East escalation, security firm says",
-      "url": "https://www.france24.com/en/drone-hits-storage-tanker-at-egyptian-port-in-major-middle-east-escalation-security-firm-says",
-      "published_at": "2026-07-29T20:55:44Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4b43ce6061747886ca704bd0",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "FIFA hit by furious backlash over plans to sell stake in competitions",
-      "url": "https://www.france24.com/en/fifa-hit-by-furious-backlash-over-plans-to-sell-stake-in-competitions",
-      "published_at": "2026-07-29T20:45:26Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "751a57c2d37df680973e3a5f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 Live: France battles new wildfire in south of France as Fontainebleau fire flares up again",
-      "url": "https://www.france24.com/en/europe/20260729-live-massive-wildfire-in-southwest-france-remains-under-control",
-      "published_at": "2026-07-29T20:40:48Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "03fb1dfcfe6ee50246e444dd",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Survey reveals rising optimism among African youth",
-      "url": "https://www.france24.com/en/survey-reveals-rising-optimism-among-african-youth",
-      "published_at": "2026-07-29T20:17:13Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "98199b1f8821a806157c1891",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Members only: Private clubs for the wealthy take over Madrid",
-      "url": "https://english.elpais.com/lifestyle/2026-07-29/members-only-private-clubs-for-the-wealthy-take-over-madrid.html",
-      "published_at": "2026-07-29T20:00:40Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "3f4bdbe5516978c5e682d865",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "How well are LGBTQ+ rights protected across Europe?",
-      "url": "https://www.dw.com/en/how-well-are-lgbtq-rights-protected-across-europe/a-78166254?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-07-29T19:53:00Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "05a8b3e355936838f66d5463",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The European country with the highest number of renters looks for a solution to the housing shortage",
-      "url": "https://english.elpais.com/economy-and-business/2026-07-29/the-european-country-with-the-highest-number-of-renters-looks-for-a-solution-to-the-housing-shortage.html",
-      "published_at": "2026-07-29T19:44:41Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "853743a115377c94b2d54acc",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘A fascination with faeces’: How stool-gazing became a social media trend",
-      "url": "https://english.elpais.com/health/2026-07-29/a-fascination-with-faeces-how-stool-gazing-became-a-social-media-trend.html",
-      "published_at": "2026-07-29T19:44:14Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "665f5f22f21fb5194d2d63a9",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Netanyahu plays it safe in a Washington that’s cooled on Israel",
-      "url": "https://www.politico.com/news/2026/07/29/netanyahu-washington-israel-iran-war-01015428",
-      "published_at": "2026-07-29T19:33:13Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "7c2a04bb449b45400bef4d63",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The mystery of Muse: if almost no one likes them, why do so many people go to their concerts?",
-      "url": "https://english.elpais.com/culture/2026-07-29/the-mystery-of-muse-if-almost-no-one-likes-them-why-do-so-many-people-go-to-their-concerts.html",
-      "published_at": "2026-07-29T19:13:01Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "3068a073bbeeceab2f4ba3ee",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Climate change is turning parts of Europe into an insurance nightmare",
-      "url": "https://www.politico.eu/article/climate-change-europe-insurance",
-      "published_at": "2026-07-29T18:26:55Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "7c8fe807982ba70607bb6f8d",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Education minister resigns: 'Exhilarating moment' for India's youth as they demand accountability",
-      "url": "https://www.france24.com/en/education-minister-resigns-exhilarating-moment-for-india-s-youth-as-they-demand-accountability",
-      "published_at": "2026-07-29T17:59:28Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "59cb5e916c47a33d2c3eb3e9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "From deer to hedgehogs: Wildfires devastate France's wildlife",
-      "url": "https://www.france24.com/en/video/20260729-wild-animals-first-victims-of-raging-wildfire-in-southwest-france",
-      "published_at": "2026-07-29T17:33:47Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "7c004d43ae2453da601af75e",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Marina del Pilar Ávila: ‘They set a psychological ambush for me. They even talked about an extradition to the US’",
-      "url": "https://english.elpais.com/international/2026-07-29/marina-del-pilar-avila-they-set-a-psychological-ambush-for-me-they-even-talked-about-an-extradition-to-the-us.html",
-      "published_at": "2026-07-29T17:10:11Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "e67fd54e1307e9bd2c9f6323",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Firefighter films wildfire using smart glasses in France's Gironde",
-      "url": "https://www.france24.com/en/video/20260729-firefighter-films-wildfire-using-smart-glasses-in-france-s-gironde-1",
-      "published_at": "2026-07-29T15:46:08Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "50c496f97f1bdd596ee4f315",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Trump tries to take action in the Middle East ahead of midterm elections",
-      "url": "https://www.france24.com/en/video/20260729-trump-tries-to-take-action-in-the-middle-east-ahead-of-midterm-elections-1",
-      "published_at": "2026-07-29T15:26:56Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0aa86084b7c65f14329eb1c0",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Record number of Poles opposed to Ukraine’s EU membership",
-      "url": "https://notesfrompoland.com/2026/07/29/record-number-of-poles-opposed-to-ukraines-eu-membership",
-      "published_at": "2026-07-29T15:24:50Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "a2acae30a6c6b35d51717e51",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Rethink the forest' amid unprecedented wildfires: Return to 'ancestral ways of managing the land'?",
-      "url": "https://www.france24.com/en/rethink-the-forest-amid-unprecedented-wildfires-return-to-ancestral-ways-of-managing-the-land",
-      "published_at": "2026-07-29T15:07:45Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "06ea15812c7486439a51f78e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US and Saudi Araba jointly strike Iraq, widening the conflict",
-      "url": "https://www.france24.com/en/us-and-saudi-araba-jointly-strike-iraq-widening-the-conflict",
-      "published_at": "2026-07-29T15:07:21Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0406fb003b24fb761a4aa22a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Rescue operation at Japan shopping mall destroyed in quake",
-      "url": "https://www.france24.com/en/video/20260729-rescue-operation-at-japan-shopping-mall-destroyed-in-quake",
-      "published_at": "2026-07-29T15:02:57Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "95bc0e2c32ba5d2bd0c28e41",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Cats, dogs and horses: Rescuing the pets caught in France’s wildfires",
-      "url": "https://www.france24.com/en/france/20260729-cats-dogs-and-horses-rescuing-the-pets-caught-in-france-s-wildfires",
-      "published_at": "2026-07-29T15:00:15Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "d8916f694ec9b0bdd121693b",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "José Flores, the 119‑year‑old from Costa Rica that experts are trying to certify as the world’s oldest person",
-      "url": "https://english.elpais.com/health/2026-07-29/jose-flores-the-119yearold-from-costa-rica-that-experts-are-trying-to-certify-as-the-worlds-oldest-person.html",
-      "published_at": "2026-07-29T14:56:58Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "ecf6e0b722c2ac5f311ee26a",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "NATO’s digital arsenal: How Europe can avoid a new dependence on America",
-      "url": "https://ecfr.eu/article/natos-digital-arsenal-how-europe-can-avoid-a-new-dependence-on-america",
-      "published_at": "2026-07-29T14:48:16Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "b2ad24cd97e432658c6411e7",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘There is no flexibility’: international students in the US discouraged by new visa limits",
-      "url": "https://english.elpais.com/education/2026-07-29/there-is-no-flexibility-international-students-in-the-us-discouraged-by-new-visa-limits.html",
-      "published_at": "2026-07-29T14:21:11Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "646ac646e5630158d864c631",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Russia and North Korea tighten their alliance (further) by road",
-      "url": "https://english.elpais.com/international/2026-07-29/russia-and-north-korea-tighten-their-alliance-further-by-road.html",
-      "published_at": "2026-07-29T14:10:57Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "6a386b114edf1088c1a963ee",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Public executions in Iran spark anti-regime protests",
-      "url": "https://www.france24.com/en/middle-east/20260729-iran-public-executions-isfahan-anti-regime-protests",
-      "published_at": "2026-07-29T14:00:08Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "880f8351637e3d2541f9198c",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Russia denies fresh mobilisation plans as analysts warn of post-election call-up and citizens research how to leave the country (Ukraine Battlefield update, Day 1,617)",
-      "url": "https://euobserver.com/230645/russia-denies-fresh-mobilisation-plans-as-analysts-warn-of-post-election-call-up-and-citizens-research-how-to-leave-the-country-ukraine-battlefield-update-day-1617",
-      "published_at": "2026-07-29T13:59:18Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "1592f16e5c4818945d9bb926",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Two options' for Trump in Middle East war: 'he waits or he escalates massively'",
-      "url": "https://www.france24.com/en/two-options-for-trump-in-middle-east-war-he-waits-or-he-escalates-massively",
-      "published_at": "2026-07-29T13:46:20Z",
-      "collected_at": "2026-07-30T08:09:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "f64dc488ddc016eeda19beb7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Drones and bulldozers: how the army is helping battle the blaze in France's southwest",
-      "url": "https://www.france24.com/en/drones-and-bulldozers-how-the-army-is-helping-battle-the-blaze-in-france-s-southwest",
-      "published_at": "2026-07-29T13:42:27Z",
-      "collected_at": "2026-07-30T08:09:07Z",
       "topics": [
         "politics",
         "security",
