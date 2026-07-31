@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-31T04:30:35Z",
-  "last_successful_collection_at": "2026-07-31T04:30:35Z",
+  "generated_at": "2026-07-31T05:00:47Z",
+  "last_successful_collection_at": "2026-07-31T05:00:47Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T04:30:35Z"
+      "at": "2026-07-31T05:00:47Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-07-31T04:30:35Z"
+      "at": "2026-07-31T05:00:47Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-07-31T04:30:35Z"
+      "status": "ok",
+      "count": "23",
+      "at": "2026-07-31T05:00:47Z"
     },
     {
       "id": "euractiv",
@@ -29,51 +29,51 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-31T04:30:35Z"
+      "at": "2026-07-31T05:00:47Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T04:30:35Z"
+      "at": "2026-07-31T05:00:47Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-07-31T04:30:35Z"
+      "at": "2026-07-31T05:00:47Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-07-31T04:30:35Z"
+      "at": "2026-07-31T05:00:47Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-07-31T04:30:35Z"
+      "at": "2026-07-31T05:00:47Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-31T04:30:35Z"
+      "at": "2026-07-31T05:00:47Z"
     }
   ],
   "europe_now": [
     {
-      "title": "European Wildfire Crisis",
-      "summary": "Mass evacuations are occurring in France, Spain, and the UK due to extreme wildfires exacerbated by climate change.",
+      "title": "European Wildfires Escalate Across Multiple Countries",
+      "summary": "Spain, France, and the UK are experiencing severe wildfires, with climate change increasing the likelihood of such events. Mass evacuations are underway as conditions remain critical.",
       "article_ids": [
-        "9eeb3089388b8a719280887c",
+        "c99fcfde6103b8dd66bb6cfd",
         "4fbaf373a5ed429990e89349"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/middle-east/20260730-middle-east-live-trump-says-board-of-peace-reaches-hamas-disarmament-deal"
+          "url": "https://www.france24.com/en/europe/20260730-climate-change-made-france-spain-wildfire-conditions-far-more-likely-scientists-say"
         },
         {
           "publisher": "POLITICO Europe",
@@ -83,12 +83,17 @@
       "source_count": 2
     },
     {
-      "title": "Russian Missile Attack in Poland",
-      "summary": "A Russian missile strike in Poland has created a large crater, indicating escalation in the Russia-Ukraine conflict.",
+      "title": "Russian Missile Attack in Poland Creates Security Crisis",
+      "summary": "A Russian missile strike in Poland resulted in a large crater, with Warsaw attributing the attack to Moscow. The incident escalates tensions in the Russia-Ukraine conflict.",
       "article_ids": [
+        "8e3141244b7cbcf460002dff",
         "5d19d50b5bd53ee5074cfc04"
       ],
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/uefa-says-will-boycott-world-cup-if-fifa-pushes-private-investor-proposal"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20260730-warsaw-blames-moscow-after-a-missile-crashes-in-poland"
@@ -99,26 +104,36 @@
   ],
   "top_stories": [
     {
-      "title": "European Wildfires and Climate Change",
-      "summary": "European wildfires have forced mass evacuations in multiple countries as climate change intensifies fire risks.",
+      "title": "Climate Change Amplifies Wildfire Risks in Europe",
+      "summary": "Scientific analyses confirm climate change has made wildfire conditions in Spain and France 20 times more likely. The EU is addressing the crisis through coordinated responses.",
       "article_ids": [
-        "9eeb3089388b8a719280887c"
+        "c99fcfde6103b8dd66bb6cfd",
+        "4fbaf373a5ed429990e89349"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/middle-east/20260730-middle-east-live-trump-says-board-of-peace-reaches-hamas-disarmament-deal"
+          "url": "https://www.france24.com/en/europe/20260730-climate-change-made-france-spain-wildfire-conditions-far-more-likely-scientists-say"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/climate-change-spain-france-fire-likely"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Russia-Ukraine Conflict Escalation",
-      "summary": "Russian missile attacks in Poland have resulted in significant damage, highlighting the intensifying conflict.",
+      "title": "Russia-Ukraine Conflict Intensifies with Cross-Border Attacks",
+      "summary": "Russia has launched missile strikes in Poland, violating airspace and escalating the conflict. The EU is monitoring the situation for potential security implications.",
       "article_ids": [
+        "8e3141244b7cbcf460002dff",
         "5d19d50b5bd53ee5074cfc04"
       ],
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/uefa-says-will-boycott-world-cup-if-fifa-pushes-private-investor-proposal"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20260730-warsaw-blames-moscow-after-a-missile-crashes-in-poland"
@@ -129,10 +144,10 @@
   ],
   "developing": [
     {
-      "label": "Climate · Wildfires · change · France",
+      "label": "Climate · Wildfires · change · likely",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
+      "item_count": 3,
       "latest_at": "2026-07-31T03:45:00Z",
       "sources": [
         {
@@ -193,6 +208,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "fb788af8b239d1f7cecb3b40",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Defining modernity in South-East Asia",
+      "url": "https://ecfr.eu/podcasts/episode/defining-modernity-in-south-east-asia",
+      "published_at": "2026-07-31T05:00:00Z",
+      "collected_at": "2026-07-31T05:00:47Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
     {
       "id": "902b6c9dfd5e9c24eaf3fb81",
       "source_id": "politico_europe",
