@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-31T19:34:35Z",
-  "last_successful_collection_at": "2026-07-31T19:34:35Z",
+  "generated_at": "2026-07-31T20:02:55Z",
+  "last_successful_collection_at": "2026-07-31T20:02:55Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T19:34:35Z"
+      "at": "2026-07-31T20:02:55Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-07-31T19:34:35Z"
+      "at": "2026-07-31T20:02:55Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-07-31T19:34:35Z"
+      "at": "2026-07-31T20:02:55Z"
     },
     {
       "id": "euractiv",
@@ -29,66 +29,106 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-31T19:34:35Z"
+      "at": "2026-07-31T20:02:55Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T19:34:35Z"
+      "at": "2026-07-31T20:02:55Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-07-31T19:34:35Z"
+      "at": "2026-07-31T20:02:55Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-07-31T19:34:35Z"
+      "at": "2026-07-31T20:02:55Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-07-31T19:34:35Z"
+      "at": "2026-07-31T20:02:55Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-31T19:34:35Z"
+      "at": "2026-07-31T20:02:55Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Mass migrant arrivals overwhelm Spain's Ceuta enclave",
-      "summary": "Around 60,000 migrants reached the Spanish enclave of Ceuta within a single day, according to local authorities. Spanish officials blame trafficking networks for the surge, while the EU mobilizes to manage the situation.",
+      "title": "Ceuta Migration Crisis",
+      "summary": "Spanish authorities report that tens of thousands of migrants have reached the Ceuta enclave from Morocco. The Spanish Prime Minister has attributed the surge in crossings to human trafficking networks.",
       "article_ids": [
+        "1d7a806a0fda6c6de1442675",
         "80e2f0b342b408568c99b888",
-        "0cf57b81cc1dffac96188b85",
-        "cf3847bb9b4f840dd9a6d5dc"
+        "00407a0b8f0eff9abcccc490"
       ],
       "sources": [
         {
           "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cr7k49p7enjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "European Wildfire Crisis",
+      "summary": "Wildfires are threatening the Bordeaux wine region in France. In Greece, authorities have ordered partial evacuations of an Athens suburb due to active fires.",
+      "article_ids": [
+        "f58f391534127ceeed32c011",
+        "0214c1ca8b84787442aff956"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260731-george-clooney-s-family-evacuates-their-home-in-france-amid-wildfires"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260731-eu-races-to-contain-new-migrant-crisis-as-thousands-cross-into-spanish-territory-of-ceuta"
+          "url": "https://www.france24.com/en/europe/20260731-greece-orders-partial-evacuation-of-athens-suburb-as-wildfire-burns"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Migration and Border Security",
+      "summary": "A massive influx of migrants into Ceuta has created a diplomatic challenge for Spain. Most of the individuals who crossed the border have since returned to Morocco.",
+      "article_ids": [
+        "1d7a806a0fda6c6de1442675",
+        "ed326cd9da1020a4a4ea1dc1"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cr7k49p7enjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/almost-all-ceuta-migrants-returned-morocco-spain-says"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "Wildfires threaten France's Bordeaux wine region",
-      "summary": "Wildfires have put the renowned Bordeaux wine-producing area in western France under threat. Authorities report evacuations and heightened firefighting efforts as flames approach vineyards.",
+      "title": "Environmental and Climate Risks",
+      "summary": "Wildfires are posing significant risks to various regions, including the Bordeaux wine area in France. Experts warn that El Nino is intensifying the impact of these fire risks.",
       "article_ids": [
         "698cb5889438fe31141415c1",
-        "f58f391534127ceeed32c011"
+        "0600c61d00f9a54cdf8219e2"
       ],
       "sources": [
         {
@@ -97,51 +137,7 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260731-george-clooney-s-family-evacuates-their-home-in-france-amid-wildfires"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Poland bans smartphones in primary schools and kindergartens",
-      "summary": "Poland has prohibited the use of smartphones by children attending primary schools. The prohibition also applies to children in kindergartens.",
-      "article_ids": [
-        "d7f0c7dc94d645b5e1892e8a"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/07/31/poland-bans-use-of-smartphones-by-children-in-primary-schools-and-kindergartens"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "UK Chancellor announces October budget date",
-      "summary": "The UK Chancellor has announced that the national budget will be held on October 28. The budget is scheduled for October 28.",
-      "article_ids": [
-        "311e3ada5422385e663e2cc8"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/uk-budget-october-28-chancellor-john-healey"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Romania defends NATO's Eastern flank despite government and budget issues",
-      "summary": "Romania states it is defending NATO's Eastern flank. It does so despite not having a functioning government and facing a budget shortfall.",
-      "article_ids": [
-        "0801fd59afc7e1c902f3af44"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/231000/romania-defends-natos-eastern-flank-even-without-a-working-government-and-a-busted-budget"
+          "url": "https://www.france24.com/en/live-news/20260731-strengthening-el-nino-adding-fuel-to-a-planet-already-on-fire-un-chief"
         }
       ],
       "source_count": 1
@@ -152,7 +148,7 @@
       "label": "Ceuta · migrants · Spain · Morocco",
       "origin": "convergence",
       "source_count": 5,
-      "item_count": 30,
+      "item_count": 26,
       "latest_at": "2026-07-31T19:17:09Z",
       "sources": [
         {
@@ -182,10 +178,10 @@
       ]
     },
     {
-      "label": "fire · fuel",
+      "label": "fire · fuel · adding · already",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 2,
+      "item_count": 3,
       "latest_at": "2026-07-31T16:41:11Z",
       "sources": [
         {
@@ -199,6 +195,27 @@
           "url": "https://english.elpais.com/climate/2026-07-31/climate-change-fuels-record-breaking-fires-in-spains-hottest-july-on-record.html",
           "headline": "Climate change fuels record-breaking fires in Spain’s hottest July on record",
           "published_at": "2026-07-31T09:44:40Z"
+        }
+      ]
+    },
+    {
+      "label": "government · opposition",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-07-31T19:29:49Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-07-31/rakshya-bam-leader-of-the-nepali-gen-z-movement-we-are-the-best-opposition-to-this-new-government.html",
+          "headline": "Rakshya Bam, leader of the Nepali Gen Z movement: ‘We are the best opposition to this new government’",
+          "published_at": "2026-07-31T19:29:49Z"
+        },
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/07/31/the-split-in-polands-opposition-could-help-them-unseat-tusks-government-opinion",
+          "headline": "The split in Poland’s opposition could help them unseat Tusk’s government [Opinion]",
+          "published_at": "2026-07-31T14:38:35Z"
         }
       ]
     },
@@ -222,30 +239,23 @@
           "published_at": "2026-07-31T10:42:46Z"
         }
       ]
-    },
-    {
-      "label": "European · World",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-07-31T09:43:54Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/european-football-vows-to-boycott-world-cups-if-fifa-brings-in-private-investors",
-          "headline": "European football vows to boycott World Cups if FIFA brings in private investors",
-          "published_at": "2026-07-31T09:43:54Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/science-tech/2026-07-31/two-500-year-old-mummies-confirm-europeans-brought-smallpox-to-the-americas-it-came-from-the-old-world.html",
-          "headline": "Two 500-year-old mummies confirm Europeans brought smallpox to the Americas: ‘It came from the Old World’",
-          "published_at": "2026-07-31T08:29:22Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "19b5e6f690d26f50d56be7cc",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Rakshya Bam, leader of the Nepali Gen Z movement: ‘We are the best opposition to this new government’",
+      "url": "https://english.elpais.com/international/2026-07-31/rakshya-bam-leader-of-the-nepali-gen-z-movement-we-are-the-best-opposition-to-this-new-government.html",
+      "published_at": "2026-07-31T19:29:49Z",
+      "collected_at": "2026-07-31T20:02:55Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "1d7a806a0fda6c6de1442675",
       "source_id": "bbc_europe",
@@ -352,6 +362,20 @@
       "url": "https://www.france24.com/en/live-news/20260731-strengthening-el-nino-adding-fuel-to-a-planet-already-on-fire-un-chief",
       "published_at": "2026-07-31T16:41:11Z",
       "collected_at": "2026-07-31T19:34:35Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "b08fe459b7f19abd6304c188",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Strong El Nino 'adding fuel to a planet already on fire', warns UN chief",
+      "url": "https://www.france24.com/en/americas/20260731-strong-el-nino-adding-fuel-to-a-planet-already-on-fire-warns-un-chief",
+      "published_at": "2026-07-31T16:41:11Z",
+      "collected_at": "2026-07-31T20:02:55Z",
       "topics": [
         "politics",
         "security",
@@ -1836,34 +1860,6 @@
       "url": "https://www.france24.com/en/russian-missiles-interception-rate-in-ukraine-dropped-from-90-back-in-march-to-70-expert-says",
       "published_at": "2026-07-30T19:58:00Z",
       "collected_at": "2026-07-30T20:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0298072c8e895e8b2fe1d1f4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Spain to deploy military to restore order in Ceuta after thousands of people breach Morocco’s border",
-      "url": "https://www.france24.com/en/spain-to-deploy-military-to-restore-order-in-ceuta-after-thousands-of-people-breach-morocco-s-border",
-      "published_at": "2026-07-30T19:25:18Z",
-      "collected_at": "2026-07-30T20:00:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "179f536002ea6d038ba4b62e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Not an infringement on freedom of expression': French minister defends expulsion of Russian pundit",
-      "url": "https://www.france24.com/en/france/20260730-not-an-infringement-on-freedom-of-expression-french-minister-defends-expulsion-of-russian-commentator",
-      "published_at": "2026-07-30T18:21:11Z",
-      "collected_at": "2026-07-30T20:00:42Z",
       "topics": [
         "politics",
         "security",
