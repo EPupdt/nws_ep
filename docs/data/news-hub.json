@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-31T10:00:42Z",
-  "last_successful_collection_at": "2026-07-31T10:00:42Z",
+  "generated_at": "2026-07-31T10:30:33Z",
+  "last_successful_collection_at": "2026-07-31T10:30:33Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T10:00:42Z"
+      "at": "2026-07-31T10:30:33Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-07-31T10:00:42Z"
+      "at": "2026-07-31T10:30:33Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-07-31T10:00:42Z"
+      "at": "2026-07-31T10:30:33Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-31T10:00:42Z"
+      "at": "2026-07-31T10:30:33Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T10:00:42Z"
+      "at": "2026-07-31T10:30:33Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-07-31T10:00:42Z"
+      "at": "2026-07-31T10:30:33Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-07-31T10:00:42Z"
+      "at": "2026-07-31T10:30:33Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-07-31T10:00:42Z"
+      "at": "2026-07-31T10:30:33Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-31T10:00:42Z"
+      "at": "2026-07-31T10:30:33Z"
     }
   ],
   "europe_now": [
@@ -196,33 +196,6 @@
       ]
     },
     {
-      "label": "change · Climate · wildfires · fuels",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 4,
-      "latest_at": "2026-07-31T09:44:40Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/climate/2026-07-31/climate-change-fuels-record-breaking-fires-in-spains-hottest-july-on-record.html",
-          "headline": "Climate change fuels record-breaking fires in Spain’s hottest July on record",
-          "published_at": "2026-07-31T09:44:40Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260731-how-did-climate-change-fuel-the-wildfires-ravaging-europe-this-summer",
-          "headline": "How did climate change fuel the wildfires ravaging Europe this summer?",
-          "published_at": "2026-07-31T09:34:15Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/climate-change-spain-france-fire-likely",
-          "headline": "Climate change made Spanish wildfires 20 times more likely",
-          "published_at": "2026-07-30T22:01:00Z"
-        }
-      ]
-    },
-    {
       "label": "Hamas · Trump · disarmament · deal",
       "origin": "convergence",
       "source_count": 2,
@@ -263,6 +236,27 @@
           "published_at": "2026-07-31T08:29:22Z"
         }
       ]
+    },
+    {
+      "label": "change · Climate · fuels · Spain",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-07-31T09:44:40Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/climate/2026-07-31/climate-change-fuels-record-breaking-fires-in-spains-hottest-july-on-record.html",
+          "headline": "Climate change fuels record-breaking fires in Spain’s hottest July on record",
+          "published_at": "2026-07-31T09:44:40Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260731-how-did-climate-change-fuel-the-wildfires-ravaging-europe-this-summer",
+          "headline": "How did climate change fuel the wildfires ravaging Europe this summer?",
+          "published_at": "2026-07-31T09:34:15Z"
+        }
+      ]
     }
   ],
   "radar": [
@@ -288,6 +282,20 @@
       "url": "https://www.politico.eu/article/ceuta-crisis-migration-france-spain-border-checks-schengen-unity-morocco",
       "published_at": "2026-07-31T09:49:15Z",
       "collected_at": "2026-07-31T10:00:42Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "bd269b6c57f6222b1e9549cb",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Commission launches major hiring push for AI Office",
+      "url": "https://www.politico.eu/article/commission-launches-major-hiring-push-for-ai-office",
+      "published_at": "2026-07-31T09:48:00Z",
+      "collected_at": "2026-07-31T10:30:33Z",
       "topics": [
         "institutions",
         "politics",
