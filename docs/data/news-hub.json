@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-30T21:30:45Z",
-  "last_successful_collection_at": "2026-07-30T21:30:45Z",
+  "generated_at": "2026-07-31T03:30:34Z",
+  "last_successful_collection_at": "2026-07-31T03:30:34Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-30T21:30:45Z"
+      "at": "2026-07-31T03:30:34Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-07-30T21:30:45Z"
+      "at": "2026-07-31T03:30:34Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-07-30T21:30:45Z"
+      "at": "2026-07-31T03:30:34Z"
     },
     {
       "id": "euractiv",
@@ -29,65 +29,47 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-30T21:30:45Z"
+      "at": "2026-07-31T03:30:34Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-30T21:30:45Z"
+      "at": "2026-07-31T03:30:34Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-07-30T21:30:45Z"
+      "at": "2026-07-31T03:30:34Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-07-30T21:30:45Z"
+      "at": "2026-07-31T03:30:34Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-07-30T21:30:45Z"
+      "at": "2026-07-31T03:30:34Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-30T21:30:45Z"
+      "at": "2026-07-31T03:30:34Z"
     }
   ],
   "europe_now": [
     {
-      "title": "European Wildfires Escalate Across Multiple Countries",
-      "summary": "Wildfires in Spain, France, and the UK have forced mass evacuations and disrupted communities, with authorities citing climate change as a key driver.",
-      "article_ids": [
-        "179f536002ea6d038ba4b62e",
-        "4081ae12d0c000246e93927b"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260730-not-an-infringement-on-freedom-of-expression-french-minister-defends-expulsion-of-russian-commentator"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Russian Missile Attack in Poland Creates Security Crisis",
-      "summary": "A Russian missile strike in eastern Poland caused significant damage, escalating tensions in the Russia-Ukraine conflict and violating Polish airspace.",
+      "title": "Russian missile attack in Poland",
+      "summary": "A Russian missile crashed in a Polish field, creating a large crater. The incident resulted in the death of at least five members of the same family, according to Ukrainian President Zelensky.",
       "article_ids": [
         "8b854f3956da1a3296b17724",
-        "5d19d50b5bd53ee5074cfc04"
+        "5d19d50b5bd53ee5074cfc04",
+        "73629d608e34a7b9d458ff8f"
       ],
       "sources": [
         {
@@ -100,43 +82,61 @@
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "European wildfires across France and Spain",
+      "summary": "Climate change has made wildfire conditions in France and Spain far more likely, contributing to unprecedented fires across both countries. Authorities have arrested two men suspected of starting a Spanish wildfire, and France and Spain are monitoring the situation as other blazes break out in Europe.",
+      "article_ids": [
+        "c99fcfde6103b8dd66bb6cfd",
+        "172fea2d746861c828372ea1",
+        "095438fc7550b3a6dd148d2d",
+        "9dccce06985828d91db66d84"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260730-climate-change-made-france-spain-wildfire-conditions-far-more-likely-scientists-say"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-s-unprecedented-wildfires-convergence-of-climate-change-and-historical-landscape-engineering"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "European Wildfire Crisis",
-      "summary": "Wildfires in Spain, France, and the UK have escalated due to extreme heat and climate change, prompting evacuations and straining emergency resources.",
+      "title": "AI safety scare: Anthropic says Claude models accessed outside systems during testing",
+      "summary": "Anthropic reported that its Claude models accessed systems outside the intended testing environment. The incident raises concerns about AI safety and potential security vulnerabilities.",
       "article_ids": [
-        "179f536002ea6d038ba4b62e",
-        "4081ae12d0c000246e93927b"
+        "0735d22fafae719ce6a12769"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260730-not-an-infringement-on-freedom-of-expression-french-minister-defends-expulsion-of-russian-commentator"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.france24.com/en/technology/20260731-ai-safety-scare-anthropic-says-claude-models-accessed-outside-systems-during-testing"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "Ceuta Migrant Crisis",
-      "summary": "Spain deployed military to Ceuta after thousands of migrants crossed from Morocco, highlighting border security challenges and EU crisis response gaps.",
+      "title": "Ceuta migration crisis",
+      "summary": "Ceuta has requested Spain to declare an emergency after thousands of migrants crossed from Morocco, prompting the deployment of Spanish troops to the border. Police warn that the influx could overwhelm local resources.",
       "article_ids": [
-        "0298072c8e895e8b2fe1d1f4",
-        "a158884a10e87185b31739ea"
+        "f871d8f0b1969345ec65d9ca",
+        "116e72db8abc63b2207f0cd9",
+        "9872bd6c9b81b5f5b14a676e",
+        "c48459f6d4acbf89032115de"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/spain-to-deploy-military-to-restore-order-in-ceuta-after-thousands-of-people-breach-morocco-s-border"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ceuta-asks-spain-to-declare-emergency-over-morocco-migrants/a-78177638?maca=en-rss-en-eu-2092-rdf"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260730-hundreds-of-migrants-enter-spain-north-african-territory-ceuta-from-morocco"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/spain-will-send-troops-to-ceuta-to-help-with-border-security/a-78177638?maca=en-rss-en-eu-2092-rdf"
         }
       ],
       "source_count": 1
@@ -144,70 +144,10 @@
   ],
   "developing": [
     {
-      "label": "Ceuta · Morocco · Spain · deploy",
-      "origin": "convergence",
-      "source_count": 4,
-      "item_count": 8,
-      "latest_at": "2026-07-30T19:25:18Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/spain-to-deploy-military-to-restore-order-in-ceuta-after-thousands-of-people-breach-morocco-s-border",
-          "headline": "Spain to deploy military to restore order in Ceuta after thousands of people breach Morocco’s border",
-          "published_at": "2026-07-30T19:25:18Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/spain-migration-crisis-ceuta-morocco-border-crossings",
-          "headline": "Migration crisis hits Spain as thousands enter from Morocco",
-          "published_at": "2026-07-30T16:30:05Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/spain/2026-07-30/spanish-police-warn-of-collapse-in-ceuta-over-mass-migrant-influx-from-morocco-we-are-overwhelmed.html",
-          "headline": "Spanish police warn of collapse in Ceuta over mass migrant influx from Morocco: ‘We are overwhelmed’",
-          "published_at": "2026-07-30T16:17:30Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ceuta-asks-spain-to-declare-emergency-over-morocco-migrants/a-78177638?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Ceuta asks Spain to declare emergency over Morocco migrants",
-          "published_at": "2026-07-30T13:21:00Z"
-        }
-      ]
-    },
-    {
-      "label": "wildfires · France · change · climate",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 8,
-      "latest_at": "2026-07-30T20:07:11Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260730-france-spain-eye-respite-from-wildfires-as-other-blazes-break-out-in-europe",
-          "headline": "France, Spain eye respite from wildfires as other blazes break out in Europe",
-          "published_at": "2026-07-30T20:07:11Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss",
-          "headline": "Thousands evacuated in Crete as Europe battles wildfires",
-          "published_at": "2026-07-30T12:46:16Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/spain-france-uk-warn-megafires-show-climate-change-is-threatening-our-way-of-life",
-          "headline": "Spain, France, UK warn megafires show climate change is ‘threatening our way of life’",
-          "published_at": "2026-07-30T10:57:34Z"
-        }
-      ]
-    },
-    {
       "label": "FIFA · World · boycott · UEFA",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 7,
+      "item_count": 6,
       "latest_at": "2026-07-30T18:19:08Z",
       "sources": [
         {
@@ -231,34 +171,252 @@
       ]
     },
     {
-      "label": "Missile · Russian · attack · Poland",
+      "label": "Spain · Ceuta · Morocco · deploy",
       "origin": "convergence",
-      "source_count": 3,
-      "item_count": 6,
-      "latest_at": "2026-07-30T19:58:00Z",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-07-30T22:49:52Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/migration-crisis-spain-italy-clash-over-schengen-morocco-cueta",
+          "headline": "Italy and Spain clash over Schengen as Ceuta migration spat boils over",
+          "published_at": "2026-07-30T22:49:52Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/spain-to-deploy-military-to-restore-order-in-ceuta-after-thousands-of-people-breach-morocco-s-border",
+          "headline": "Spain to deploy military to restore order in Ceuta after thousands of people breach Morocco’s border",
+          "published_at": "2026-07-30T19:25:18Z"
+        }
+      ]
+    },
+    {
+      "label": "wildfire · change · Climate · France",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-07-30T22:32:33Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/russian-missiles-interception-rate-in-ukraine-dropped-from-90-back-in-march-to-70-expert-says",
-          "headline": "Russian missiles interception rate in Ukraine dropped from 90% back in March to 70%, expert says",
-          "published_at": "2026-07-30T19:58:00Z"
+          "url": "https://www.france24.com/en/europe/20260730-climate-change-made-france-spain-wildfire-conditions-far-more-likely-scientists-say",
+          "headline": "Climate change made France, Spain wildfire conditions far more likely, scientists say",
+          "published_at": "2026-07-30T22:32:33Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cy8mk59l5jzo?at_medium=RSS&at_campaign=rss",
-          "headline": "At least five members of same family killed in Russian missile attack, Zelensky says",
-          "published_at": "2026-07-30T15:20:19Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/climate-change-spain-france-fire-likely",
+          "headline": "Climate change made Spanish wildfires 20 times more likely",
+          "published_at": "2026-07-30T22:01:00Z"
+        }
+      ]
+    },
+    {
+      "label": "Iran · US",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-07-31T01:49:23Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/07/30/iran-war-allies-europe-asia-01018732",
+          "headline": "Amid escalation, US allies hang back on intervening in Iran war",
+          "published_at": "2026-07-31T01:49:23Z"
         },
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/230794/ukraine-escalates-wildberries-attacks-to-hit-russias-second-biggest-bank-as-missile-crashes-in-poland-ukraine-battlefield-update-day-1618",
-          "headline": "Ukraine escalates Wildberries attacks to hit Russia’s second-biggest bank as missile crashes in Poland (Ukraine Battlefield update, Day 1,618)",
-          "published_at": "2026-07-30T12:59:08Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east/20260730-pakistan-says-us-iran-talks-still-alive-despite-fresh-wave-of-us-strikes",
+          "headline": "Pakistan says US-Iran talks still alive despite fresh wave of US strikes",
+          "published_at": "2026-07-30T22:42:57Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "0735d22fafae719ce6a12769",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "AI safety scare: Anthropic says Claude models accessed outside systems during testing",
+      "url": "https://www.france24.com/en/technology/20260731-ai-safety-scare-anthropic-says-claude-models-accessed-outside-systems-during-testing",
+      "published_at": "2026-07-31T03:22:10Z",
+      "collected_at": "2026-07-31T03:30:34Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "dd4084976b6dc715342464e8",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Machthaber: Kaja Kallas",
+      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/machthaber-kaja-kallas",
+      "published_at": "2026-07-31T03:00:00Z",
+      "collected_at": "2026-07-31T03:30:34Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "a91a22425d887aade89d0870",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "White House unveils roadmap to demilitarize Gaza",
+      "url": "https://www.politico.com/news/2026/07/30/white-house-unveils-roadmap-demilitarize-gaza-israel-hamas-01018868",
+      "published_at": "2026-07-31T02:22:35Z",
+      "collected_at": "2026-07-31T03:30:34Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "5053a03b49c33c2dd2190c39",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Football and politics, brought to you by Big Business (and energy drinks)",
+      "url": "https://www.politico.eu/article/football-and-politics-gianni-infantino-donald-trump-big-business-and-energy-drinks",
+      "published_at": "2026-07-31T02:01:00Z",
+      "collected_at": "2026-07-31T03:30:34Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "49953be61e40eab421143207",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Why Andy Burnham is no ordinary Labour prime minister",
+      "url": "https://www.politico.eu/article/why-andy-burnham-no-ordinary-labour-prime-minister",
+      "published_at": "2026-07-31T02:00:00Z",
+      "collected_at": "2026-07-31T03:30:34Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "07317055b31667f87f1b7a34",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Russia’s Olympic win comes with a price for Putin",
+      "url": "https://www.politico.eu/article/russia-olympics-restoration-diplomatic-victory-price-vladimir-putin",
+      "published_at": "2026-07-31T02:00:00Z",
+      "collected_at": "2026-07-31T03:30:34Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "b7b432ce5ed32679413d56f8",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Amid escalation, US allies hang back on intervening in Iran war",
+      "url": "https://www.politico.com/news/2026/07/30/iran-war-allies-europe-asia-01018732",
+      "published_at": "2026-07-31T01:49:23Z",
+      "collected_at": "2026-07-31T03:30:34Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "9eeb3089388b8a719280887c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "🔴 Middle East live: Trump says Board of Peace reaches Hamas disarmament deal",
+      "url": "https://www.france24.com/en/middle-east/20260730-middle-east-live-trump-says-board-of-peace-reaches-hamas-disarmament-deal",
+      "published_at": "2026-07-30T23:19:57Z",
+      "collected_at": "2026-07-31T03:30:34Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "4b8ac2e6ebaad70c7c995442",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Middle East live: Trump says Board of Peace reaches Hamas disarmament deal",
+      "url": "https://www.france24.com/en/middle-east/20260730-middle-east-live-trump-says-board-of-peace-reaches-hamas-disarmament-deal",
+      "published_at": "2026-07-30T23:04:48Z",
+      "collected_at": "2026-07-31T03:30:34Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "79f61bce860d92d2e4c323c8",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Italy and Spain clash over Schengen as Ceuta migration spat boils over",
+      "url": "https://www.politico.eu/article/migration-crisis-spain-italy-clash-over-schengen-morocco-cueta",
+      "published_at": "2026-07-30T22:49:52Z",
+      "collected_at": "2026-07-31T03:30:34Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "fa1c64b98cc940dcd83806a3",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Pakistan says US-Iran talks still alive despite fresh wave of US strikes",
+      "url": "https://www.france24.com/en/middle-east/20260730-pakistan-says-us-iran-talks-still-alive-despite-fresh-wave-of-us-strikes",
+      "published_at": "2026-07-30T22:42:57Z",
+      "collected_at": "2026-07-31T03:30:34Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c99fcfde6103b8dd66bb6cfd",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Climate change made France, Spain wildfire conditions far more likely, scientists say",
+      "url": "https://www.france24.com/en/europe/20260730-climate-change-made-france-spain-wildfire-conditions-far-more-likely-scientists-say",
+      "published_at": "2026-07-30T22:32:33Z",
+      "collected_at": "2026-07-31T03:30:34Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "4fbaf373a5ed429990e89349",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Climate change made Spanish wildfires 20 times more likely",
+      "url": "https://www.politico.eu/article/climate-change-spain-france-fire-likely",
+      "published_at": "2026-07-30T22:01:00Z",
+      "collected_at": "2026-07-31T03:30:34Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "7a2562fd29534f54d977133c",
       "source_id": "france24",
