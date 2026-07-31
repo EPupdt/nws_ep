@@ -370,9 +370,39 @@
     "47c1fe5346a9236374c05f41": "2026-07-31T09:00:43Z",
     "7283835e3efb81a9701e8767": "2026-07-31T09:00:43Z",
     "bfa2061dc3c2a645a1f15864": "2026-07-31T09:00:43Z",
-    "e1c3d669738e56e361a88fe7": "2026-07-31T09:00:43Z"
+    "e1c3d669738e56e361a88fe7": "2026-07-31T09:00:43Z",
+    "bc55b6853c1c404246be7752": "2026-07-31T09:30:39Z",
+    "33b151277d4da4a987d4dbd0": "2026-07-31T09:30:39Z"
   },
   "radar": [
+    {
+      "id": "bc55b6853c1c404246be7752",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'It took me two hours': 40,000 migrants swim from Morocco into Spain's Ceuta",
+      "url": "https://www.france24.com/en/it-took-me-two-hours-40-000-migrants-swim-from-morocco-into-spain-s-ceuta",
+      "published_at": "2026-07-31T09:21:53Z",
+      "collected_at": "2026-07-31T09:30:39Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "33b151277d4da4a987d4dbd0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "🔴 Spain says almost 50,000 migrants crossed Morocco-Ceuta border over past 24 hours",
+      "url": "https://www.france24.com/en/europe/20260731-almost-50-000-migrants-crossed-morocco-ceuta-border-over-past-24-hours",
+      "published_at": "2026-07-31T09:00:28Z",
+      "collected_at": "2026-07-31T09:30:39Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "47c1fe5346a9236374c05f41",
       "source_id": "dw_europe",
@@ -2334,6 +2364,14 @@
     {
       "at": "2026-07-31T08:11:20Z",
       "title": "AI safety concerns"
+    },
+    {
+      "at": "2026-07-31T09:30:39Z",
+      "title": "Ceuta Migration Crisis"
+    },
+    {
+      "at": "2026-07-31T09:30:39Z",
+      "title": "AI Safety Concerns"
     }
   ],
   "alerts": [],
@@ -2341,39 +2379,76 @@
     "europe_now": [
       {
         "title": "Ceuta Migration Crisis",
-        "summary": "Spain has deployed armed forces to Ceuta after thousands of migrants crossed from Morocco, prompting a security response. Reports indicate that nearly 50,000 migrants entered the Spanish enclave in a 24‑hour period, creating a significant humanitarian and border‑control challenge.",
+        "summary": "Spain deployed armed forces to Ceuta after thousands of migrants crossed from Morocco, with reports of nearly 50,000 migrants entering in 24 hours. The crisis has escalated to the point where security measures are being implemented to manage the influx and prevent further breaches.",
         "article_ids": [
+          "bc55b6853c1c404246be7752",
+          "33b151277d4da4a987d4dbd0",
           "42dda668dfe397eb3520cbc6",
-          "31a86f30b98b0adead49d5dd",
-          "7283835e3efb81a9701e8767",
-          "0298072c8e895e8b2fe1d1f4",
-          "a158884a10e87185b31739ea"
+          "47c1fe5346a9236374c05f41"
         ],
         "sources": [
           {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/spain-pedro-sanchez-morocco-military-ceuta-migration-chaos"
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/it-took-me-two-hours-40-000-migrants-swim-from-morocco-into-spain-s-ceuta"
           },
           {
             "publisher": "France 24 English",
             "url": "https://www.france24.com/en/europe/20260731-almost-50-000-migrants-crossed-morocco-ceuta-border-over-past-24-hours"
           }
         ],
-        "source_count": 2
+        "source_count": 1
       },
       {
-        "title": "European Wildfires Intensify",
-        "summary": "Wildfires across France and Spain have intensified due to climate change, with scientists noting a 20‑fold increase in likelihood. The European Union is monitoring the situation as the fires threaten large areas and pose risks to public safety and infrastructure.",
+        "title": "Russian Missile Attack in Poland",
+        "summary": "A Russian missile strike in Poland created a large crater, raising security alarms. Experts note a drop in missile interception rates from 90% to 70%, indicating heightened regional instability.",
         "article_ids": [
-          "172fea2d746861c828372ea1",
-          "095438fc7550b3a6dd148d2d",
-          "c99fcfde6103b8dd66bb6cfd",
-          "4fbaf373a5ed429990e89349"
+          "49bc01e75a8180cf0ba3d0e6",
+          "e8bd1cc1cae55e3eee2f7d18"
+        ],
+        "sources": [
+          {
+            "publisher": "EL PAÍS English",
+            "url": "https://english.elpais.com/spain/2026-07-31/not-morocco-thousands-of-migrants-enter-ceuta-and-beg-not-to-be-sent-back.html"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/russian-missiles-interception-rate-in-ukraine-dropped-from-90-back-in-march-to-70-expert-says"
+          }
+        ],
+        "source_count": 2
+      }
+    ],
+    "top_stories": [
+      {
+        "title": "Ceuta Migration Crisis",
+        "summary": "Spain deployed military forces to Ceuta following a surge in migrant crossings from Morocco, with reports of nearly 50,000 migrants entering the territory in 24 hours. The situation has prompted coordinated security responses to address the humanitarian and political challenges.",
+        "article_ids": [
+          "bc55b6853c1c404246be7752",
+          "33b151277d4da4a987d4dbd0"
         ],
         "sources": [
           {
             "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/france-s-unprecedented-wildfires-convergence-of-climate-change-and-historical-landscape-engineering"
+            "url": "https://www.france24.com/en/it-took-me-two-hours-40-000-migrants-swim-from-morocco-into-spain-s-ceuta"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20260731-almost-50-000-migrants-crossed-morocco-ceuta-border-over-past-24-hours"
+          }
+        ],
+        "source_count": 1
+      },
+      {
+        "title": "AI Safety Concerns",
+        "summary": "Anthropic reported that Claude models were accessed outside their systems during testing, raising security concerns. This incident highlights potential vulnerabilities in AI infrastructure and the need for enhanced safeguards.",
+        "article_ids": [
+          "0735d22fafae719ce6a12769",
+          "095438fc7550b3a6dd148d2d"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/technology/20260731-ai-safety-scare-anthropic-says-claude-models-accessed-outside-systems-during-testing"
           },
           {
             "publisher": "France 24 English",
@@ -2382,8 +2457,7 @@
         ],
         "source_count": 1
       }
-    ],
-    "top_stories": []
+    ]
   },
-  "last_collection_at": "2026-07-31T09:00:43Z"
+  "last_collection_at": "2026-07-31T09:30:39Z"
 }
