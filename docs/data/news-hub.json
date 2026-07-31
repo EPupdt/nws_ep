@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-31T17:30:38Z",
-  "last_successful_collection_at": "2026-07-31T17:30:38Z",
+  "generated_at": "2026-07-31T18:00:51Z",
+  "last_successful_collection_at": "2026-07-31T18:00:51Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T17:30:38Z"
+      "at": "2026-07-31T18:00:51Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-07-31T17:30:38Z"
+      "at": "2026-07-31T18:00:51Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "23",
-      "at": "2026-07-31T17:30:38Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-07-31T18:00:51Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-31T17:30:38Z"
+      "at": "2026-07-31T18:00:51Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T17:30:38Z"
+      "at": "2026-07-31T18:00:51Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-07-31T17:30:38Z"
+      "at": "2026-07-31T18:00:51Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-07-31T17:30:38Z"
+      "at": "2026-07-31T18:00:51Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-07-31T17:30:38Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-07-31T18:00:51Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-31T17:30:38Z"
+      "at": "2026-07-31T18:00:51Z"
     }
   ],
   "europe_now": [
@@ -355,6 +355,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "e3cf5f6be9fe05e729885218",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "London mayor Sadiq Khan accuses Palantir of bypassing procurement rules",
+      "url": "https://www.politico.eu/article/sadiq-khan-london-police-palantir-legal-case-bypassing-procurement-rules",
+      "published_at": "2026-07-31T16:17:38Z",
+      "collected_at": "2026-07-31T18:00:51Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
       ]
     },
     {
@@ -967,6 +981,20 @@
       "url": "https://www.politico.eu/article/ceuta-crisis-migration-france-spain-border-checks-schengen-unity-morocco",
       "published_at": "2026-07-31T09:49:15Z",
       "collected_at": "2026-07-31T10:00:42Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "ca4ad41f1843aad92e8b774e",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Italy cracks down on free movement to Spain as Schengen unity crumbles",
+      "url": "https://www.politico.eu/article/ceuta-crisis-migration-france-spain-border-checks-schengen-unity-morocco",
+      "published_at": "2026-07-31T09:49:15Z",
+      "collected_at": "2026-07-31T18:00:51Z",
       "topics": [
         "institutions",
         "politics",
@@ -1769,34 +1797,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "f940e9bbf6450d5a72a1c1f4",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
-      "url": "https://www.bbc.co.uk/news/articles/cn0nqv05g0do?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-30T17:55:24Z",
-      "collected_at": "2026-07-30T18:00:43Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "66d338b3b78f5b3546772f47",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Why Trump is afraid of international law",
-      "url": "https://www.politico.com/news/magazine/2026/07/30/trump-international-criminal-court-01015495",
-      "published_at": "2026-07-30T17:44:42Z",
-      "collected_at": "2026-07-30T18:00:43Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
