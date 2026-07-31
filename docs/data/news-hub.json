@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-31T04:00:44Z",
-  "last_successful_collection_at": "2026-07-31T04:00:44Z",
+  "generated_at": "2026-07-31T04:30:35Z",
+  "last_successful_collection_at": "2026-07-31T04:30:35Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T04:00:44Z"
+      "at": "2026-07-31T04:30:35Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-07-31T04:00:44Z"
+      "at": "2026-07-31T04:30:35Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "23",
-      "at": "2026-07-31T04:00:44Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-07-31T04:30:35Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-31T04:00:44Z"
+      "at": "2026-07-31T04:30:35Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T04:00:44Z"
+      "at": "2026-07-31T04:30:35Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-07-31T04:00:44Z"
+      "at": "2026-07-31T04:30:35Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-07-31T04:00:44Z"
+      "at": "2026-07-31T04:30:35Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-07-31T04:00:44Z"
+      "at": "2026-07-31T04:30:35Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-31T04:00:44Z"
+      "at": "2026-07-31T04:30:35Z"
     }
   ],
   "europe_now": [
@@ -150,10 +150,10 @@
       ]
     },
     {
-      "label": "Spain · Ceuta · Morocco · deploy",
+      "label": "Ceuta · Spain · deploy · military",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
+      "item_count": 3,
       "latest_at": "2026-07-30T22:49:52Z",
       "sources": [
         {
@@ -167,27 +167,6 @@
           "url": "https://www.france24.com/en/spain-to-deploy-military-to-restore-order-in-ceuta-after-thousands-of-people-breach-morocco-s-border",
           "headline": "Spain to deploy military to restore order in Ceuta after thousands of people breach Morocco’s border",
           "published_at": "2026-07-30T19:25:18Z"
-        }
-      ]
-    },
-    {
-      "label": "FIFA · World · boycott · Private",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-07-30T18:19:08Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/uefa-says-will-boycott-world-cup-if-fifa-pushes-private-investor-proposal",
-          "headline": "UEFA says will boycott World Cup if FIFA pushes private investor proposal",
-          "published_at": "2026-07-30T18:19:08Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/europe-threatens-world-cup-boycott-over-fifa-investment-plan",
-          "headline": "Europe threatens World Cup boycott over FIFA investment plan",
-          "published_at": "2026-07-30T16:01:07Z"
         }
       ]
     },
