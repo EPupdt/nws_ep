@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-31T06:30:43Z",
-  "last_successful_collection_at": "2026-07-31T06:30:43Z",
+  "generated_at": "2026-07-31T07:00:49Z",
+  "last_successful_collection_at": "2026-07-31T07:00:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T06:30:43Z"
+      "at": "2026-07-31T07:00:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-07-31T06:30:43Z"
+      "at": "2026-07-31T07:00:49Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-07-31T06:30:43Z"
+      "status": "ok",
+      "count": "23",
+      "at": "2026-07-31T07:00:49Z"
     },
     {
       "id": "euractiv",
@@ -29,51 +29,65 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-31T06:30:43Z"
+      "at": "2026-07-31T07:00:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T06:30:43Z"
+      "at": "2026-07-31T07:00:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-07-31T06:30:43Z"
+      "at": "2026-07-31T07:00:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-07-31T06:30:43Z"
+      "at": "2026-07-31T07:00:49Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-07-31T06:30:43Z"
+      "at": "2026-07-31T07:00:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-31T06:30:43Z"
+      "at": "2026-07-31T07:00:49Z"
     }
   ],
   "europe_now": [
     {
-      "title": "European Wildfires Escalate Across Multiple Countries",
-      "summary": "Severe wildfires are affecting Spain, France, and the UK, with mass evacuations and climate change exacerbating conditions. Spain's wildfires are 20 times more likely due to climate factors.",
+      "title": "Russian Missile Attack in Poland",
+      "summary": "A Russian missile strike in Poland created a large crater, raising security alarms and highlighting ongoing cross-border tensions. The attack occurred on July 31, 2026, amid intensified Russia-Ukraine conflict escalations.",
       "article_ids": [
-        "902b6c9dfd5e9c24eaf3fb81",
+        "a158884a10e87185b31739ea"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260730-hundreds-of-migrants-enter-spain-north-african-territory-ceuta-from-morocco"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "European Wildfires Escalate",
+      "summary": "Wildfires across multiple European countries are escalating due to climate change, forcing mass evacuations and straining resources. The crisis is linked to prolonged dry conditions and historical landscape vulnerabilities.",
+      "article_ids": [
+        "9872bd6c9b81b5f5b14a676e",
         "4fbaf373a5ed429990e89349"
       ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/searing-contradiction-wildfires-and-climate-politics"
+          "url": "https://www.politico.eu/article/spain-migration-crisis-ceuta-morocco-border-crossings"
         },
         {
           "publisher": "POLITICO Europe",
@@ -81,53 +95,53 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Ceuta Migrant Crisis Intensifies with Military Deployment",
-      "summary": "Thousands of migrants are entering Ceuta from Morocco, overwhelming Spanish authorities and prompting military intervention to restore order.",
-      "article_ids": [
-        "49bc01e75a8180cf0ba3d0e6",
-        "7a2562fd29534f54d977133c"
-      ],
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/spain/2026-07-31/not-morocco-thousands-of-migrants-enter-ceuta-and-beg-not-to-be-sent-back.html"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/netflix-drama-the-polygamist-ignites-global-debate-on-marriage-betrayal"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "Climate Change Drives Wildfire Surge in Europe",
-      "summary": "Wildfires in Spain, France, and the UK are linked to climate change, with conditions 20 times more likely in Spain. Evacuations and systemic risks are reported across multiple nations.",
+      "title": "EU Invests in AI Infrastructure",
+      "summary": "The EU is allocating significant funds to develop AI gigafactories to enhance technological autonomy and reduce reliance on foreign tech. This initiative aims to strengthen Europe's position in global AI competition.",
       "article_ids": [
-        "902b6c9dfd5e9c24eaf3fb81",
+        "6f60c4b5c3bc9eea9c653aed",
+        "49bc01e75a8180cf0ba3d0e6"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/230839/germany-has-lost-its-moral-compass-as-it-shields-israel-from-sanctions-and-legal-scrutiny"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/spain/2026-07-31/not-morocco-thousands-of-migrants-enter-ceuta-and-beg-not-to-be-sent-back.html"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Wildfire Crisis and Climate Impact",
+      "summary": "Climate change is exacerbating wildfire risks in Europe, with conditions in France and Spain becoming 20 times more likely. Scientists attribute the surge to historical landscape engineering combined with extreme weather patterns.",
+      "article_ids": [
+        "c99fcfde6103b8dd66bb6cfd",
         "4fbaf373a5ed429990e89349"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/searing-contradiction-wildfires-and-climate-politics"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260730-climate-change-made-france-spain-wildfire-conditions-far-more-likely-scientists-say"
         },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/climate-change-spain-france-fire-likely"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Ceuta Migration Crisis Triggers Security Measures",
-      "summary": "Spain deploys military forces to Ceuta after thousands of migrants breach Morocco's border, citing overwhelmed local resources and security concerns.",
+      "title": "Ceuta Migration Crisis",
+      "summary": "Thousands of migrants are entering Ceuta from Morocco, overwhelming Spanish authorities and prompting military deployment. The crisis has intensified political tensions between Spain and Morocco over border control.",
       "article_ids": [
         "49bc01e75a8180cf0ba3d0e6",
-        "7a2562fd29534f54d977133c"
+        "c48459f6d4acbf89032115de"
       ],
       "sources": [
         {
@@ -135,8 +149,27 @@
           "url": "https://english.elpais.com/spain/2026-07-31/not-morocco-thousands-of-migrants-enter-ceuta-and-beg-not-to-be-sent-back.html"
         },
         {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/spain/2026-07-30/spanish-police-warn-of-collapse-in-ceuta-over-mass-migrant-influx-from-morocco-we-are-overwhelmed.html"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Russia-Ukraine Conflict Escalation",
+      "summary": "Cross-border attacks between Russia and Ukraine are intensifying, with missile interception rates dropping from 90% to 70%. The conflict continues to destabilize regional security and international relations.",
+      "article_ids": [
+        "e8bd1cc1cae55e3eee2f7d18",
+        "73629d608e34a7b9d458ff8f"
+      ],
+      "sources": [
+        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/netflix-drama-the-polygamist-ignites-global-debate-on-marriage-betrayal"
+          "url": "https://www.france24.com/en/russian-missiles-interception-rate-in-ukraine-dropped-from-90-back-in-march-to-70-expert-says"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cy8mk59l5jzo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "source_count": 2
@@ -144,44 +177,23 @@
   ],
   "developing": [
     {
-      "label": "Ceuta · Morocco · deploy · military",
+      "label": "disarmament · Hamas · Trump · deal",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-07-31T06:24:21Z",
+      "item_count": 4,
+      "latest_at": "2026-07-31T06:31:26Z",
       "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/spain/2026-07-31/not-morocco-thousands-of-migrants-enter-ceuta-and-beg-not-to-be-sent-back.html",
-          "headline": "‘Not Morocco!’ Thousands of migrants enter Ceuta and beg not to be sent back",
-          "published_at": "2026-07-31T06:24:21Z"
-        },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/spain-to-deploy-military-to-restore-order-in-ceuta-after-thousands-of-people-breach-morocco-s-border",
-          "headline": "Spain to deploy military to restore order in Ceuta after thousands of people breach Morocco’s border",
-          "published_at": "2026-07-30T19:25:18Z"
-        }
-      ]
-    },
-    {
-      "label": "disarmament · Hamas · Trump · Board",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-07-31T06:08:08Z",
-      "sources": [
+          "url": "https://www.france24.com/en/middle-east/20260731-what-we-know-about-the-hamas-disarmament-deal-announced-by-trump",
+          "headline": "What we know about the Hamas disarmament deal announced by Trump",
+          "published_at": "2026-07-31T06:31:26Z"
+        },
         {
           "publisher": "EL PAÍS English",
           "url": "https://english.elpais.com/international/2026-07-31/trump-announces-agreement-for-the-complete-disarmament-of-hamas.html",
           "headline": "Trump announces agreement for ‘the complete disarmament’ of Hamas",
           "published_at": "2026-07-31T06:08:08Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/middle-east/20260730-middle-east-live-trump-says-board-of-peace-reaches-hamas-disarmament-deal",
-          "headline": "🔴 Middle East live: Trump says Board of Peace reaches Hamas disarmament deal",
-          "published_at": "2026-07-30T23:19:57Z"
         }
       ]
     },
@@ -203,6 +215,27 @@
           "url": "https://www.france24.com/en/europe/20260730-climate-change-made-france-spain-wildfire-conditions-far-more-likely-scientists-say",
           "headline": "Climate change made France, Spain wildfire conditions far more likely, scientists say",
           "published_at": "2026-07-30T22:32:33Z"
+        }
+      ]
+    },
+    {
+      "label": "Ceuta · Morocco · Thousands",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-07-31T06:24:21Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/spain/2026-07-31/not-morocco-thousands-of-migrants-enter-ceuta-and-beg-not-to-be-sent-back.html",
+          "headline": "‘Not Morocco!’ Thousands of migrants enter Ceuta and beg not to be sent back",
+          "published_at": "2026-07-31T06:24:21Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/spain-to-deploy-military-to-restore-order-in-ceuta-after-thousands-of-people-breach-morocco-s-border",
+          "headline": "Spain to deploy military to restore order in Ceuta after thousands of people breach Morocco’s border",
+          "published_at": "2026-07-30T19:25:18Z"
         }
       ]
     },
@@ -230,6 +263,48 @@
   ],
   "radar": [
     {
+      "id": "de6d1b5a3ddb6fe40e2072b9",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland to deport foreigner who performed Nazi salute at Auschwitz Museum",
+      "url": "https://notesfrompoland.com/2026/07/31/poland-to-deport-foreigner-who-performed-nazi-salute-at-auschwitz-museum",
+      "published_at": "2026-07-31T06:51:41Z",
+      "collected_at": "2026-07-31T07:00:49Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "6f60c4b5c3bc9eea9c653aed",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Germany has lost its moral compass, as it shields Israel from sanctions and legal scrutiny",
+      "url": "https://euobserver.com/230839/germany-has-lost-its-moral-compass-as-it-shields-israel-from-sanctions-and-legal-scrutiny",
+      "published_at": "2026-07-31T06:44:54Z",
+      "collected_at": "2026-07-31T07:00:49Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "135dfa90c83b9ae72f9f5805",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "What we know about the Hamas disarmament deal announced by Trump",
+      "url": "https://www.france24.com/en/middle-east/20260731-what-we-know-about-the-hamas-disarmament-deal-announced-by-trump",
+      "published_at": "2026-07-31T06:31:26Z",
+      "collected_at": "2026-07-31T07:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "d48fee5c407410128ba778f4",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -255,6 +330,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "de35e3ad818fe9b2bb638b58",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "UEFA vows FIFA World Cup boycott over private investor plan",
+      "url": "https://www.france24.com/en/tv-shows/sports/20260731-uefa-vows-fifa-world-cup-boycott-over-private-investor-plan",
+      "published_at": "2026-07-31T06:19:49Z",
+      "collected_at": "2026-07-31T07:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
