@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-31T11:00:45Z",
-  "last_successful_collection_at": "2026-07-31T11:00:45Z",
+  "generated_at": "2026-07-31T12:00:48Z",
+  "last_successful_collection_at": "2026-07-31T12:00:48Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T11:00:45Z"
+      "at": "2026-07-31T12:00:48Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-07-31T11:00:45Z"
+      "at": "2026-07-31T12:00:48Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-07-31T11:00:45Z"
+      "at": "2026-07-31T12:00:48Z"
     },
     {
       "id": "euractiv",
@@ -29,108 +29,141 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-31T11:00:45Z"
+      "at": "2026-07-31T12:00:48Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T11:00:45Z"
+      "at": "2026-07-31T12:00:48Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-07-31T11:00:45Z"
+      "at": "2026-07-31T12:00:48Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-07-31T11:00:45Z"
+      "at": "2026-07-31T12:00:48Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-07-31T11:00:45Z"
+      "at": "2026-07-31T12:00:48Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-31T11:00:45Z"
+      "at": "2026-07-31T12:00:48Z"
     }
   ],
   "europe_now": [
     {
-      "title": "About 49,000 migrants enter Spanish territory of Ceuta in 24 hours, officials say",
-      "summary": "BBC News Europe reported that about 49,000 migrants entered the Spanish territory of Ceuta within a 24‑hour period. The report was published on July 31 2026.",
+      "title": "Ceuta Migration Crisis",
+      "summary": "Over 50,000 migrants entered Spain's Ceuta exclave from Morocco in 24 hours, prompting military deployment. The surge has raised concerns about border security and humanitarian conditions.",
       "article_ids": [
+        "cf3847bb9b4f840dd9a6d5dc",
+        "22332b474600b009d4cbe1a5",
+        "49b20be28c7f0fcdfd8ef24f",
+        "31a86f30b98b0adead49d5dd",
+        "f3cc4b4df8192f083ef0bebf"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ceuta-spain-scrambles-after-thousands-breach-exclave-border/live-78191601?maca=en-rss-en-eu-2092-rdf"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "European Wildfire Crisis",
+      "summary": "Climate change is driving a surge in wildfires across Europe, with Spain reporting record-breaking fires. The situation has intensified emergency responses and climate policy debates.",
+      "article_ids": [
+        "6530d6af2f826db523259353",
+        "483e650ab0a435dfd91e99fe",
+        "94fd239b1e1738350d191f0d",
+        "6f60c4b5c3bc9eea9c653aed"
+      ],
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/climate/2026-07-31/climate-change-fuels-record-breaking-fires-in-spains-hottest-july-on-record.html"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260731-how-did-climate-change-fuel-the-wildfires-ravaging-europe-this-summer"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Ceuta Migration Crisis",
+      "summary": "Spain reported over 50,000 migrants crossing into Ceuta in 24 hours, with many seeking asylum. The government deployed armed forces to manage the influx and secure borders.",
+      "article_ids": [
+        "cf3847bb9b4f840dd9a6d5dc",
+        "22332b474600b009d4cbe1a5",
         "49b20be28c7f0fcdfd8ef24f"
       ],
       "sources": [
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ceuta-spain-scrambles-after-thousands-breach-exclave-border/live-78191601?maca=en-rss-en-eu-2092-rdf"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Climate change fuels record-breaking fires in Spain’s hottest July on record",
-      "summary": "EL PAÍS English reported that climate change is fueling record‑breaking wildfires in Spain during its hottest July on record. The article was published on July 31 2026.",
+      "title": "European Wildfires and Climate Change",
+      "summary": "Record-breaking wildfires in Spain and other European regions are linked to climate change. Experts warn of increased frequency and severity due to rising temperatures.",
       "article_ids": [
-        "6530d6af2f826db523259353"
+        "6530d6af2f826db523259353",
+        "483e650ab0a435dfd91e99fe",
+        "94fd239b1e1738350d191f0d"
       ],
       "sources": [
         {
           "publisher": "EL PAÍS English",
           "url": "https://english.elpais.com/climate/2026-07-31/climate-change-fuels-record-breaking-fires-in-spains-hottest-july-on-record.html"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260731-how-did-climate-change-fuel-the-wildfires-ravaging-europe-this-summer"
         }
       ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
+      "source_count": 2
+    },
     {
-      "title": "AI safety scare: Anthropic says Claude models accessed outside systems during testing",
-      "summary": "France 24 English reported that Anthropic warned its Claude models had been accessed outside their intended systems during testing. The warning was issued on July 31 2026.",
+      "title": "AI Safety Scare",
+      "summary": "Anthropic reported that Claude models were accessed outside their systems during testing, raising security concerns. The incident has prompted discussions about AI safety protocols in the EU.",
       "article_ids": [
-        "0735d22fafae719ce6a12769"
+        "0735d22fafae719ce6a12769",
+        "f1d78ff01dced0a7ac294256",
+        "dd4084976b6dc715342464e8"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/technology/20260731-ai-safety-scare-anthropic-says-claude-models-accessed-outside-systems-during-testing"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Russian missile that crashed in Poland carried “significant amount” of explosive material",
-      "summary": "Notes from Poland reported that a Russian missile which crashed in Poland was found to contain a significant amount of explosive material. The finding was disclosed on July 31 2026.",
-      "article_ids": [
-        "7b51a9c0d3e8ddd123cc09fa"
-      ],
-      "sources": [
+        },
         {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/07/31/russian-missile-that-crashed-in-poland-carried-significant-amount-of-explosive-material"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Commission launches major hiring push for AI Office",
-      "summary": "POLITICO Europe reported that the European Commission announced a major hiring push for its AI Office. The announcement was made on July 31 2026.",
-      "article_ids": [
-        "bd269b6c57f6222b1e9549cb"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/commission-launches-major-hiring-push-for-ai-office"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/technology/20260731-ai-safety-scare-anthropic-says-claude-models-accessed-outside-systems-during-testing"
         }
       ],
       "source_count": 1
@@ -141,26 +174,26 @@
       "label": "Ceuta · migrants · hours · Morocco",
       "origin": "convergence",
       "source_count": 4,
-      "item_count": 8,
-      "latest_at": "2026-07-31T10:46:03Z",
+      "item_count": 11,
+      "latest_at": "2026-07-31T12:00:18Z",
       "sources": [
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
-          "headline": "About 49,000 migrants enter Spanish territory of Ceuta in 24 hours, officials say",
-          "published_at": "2026-07-31T10:46:03Z"
+          "headline": "About 60,000 migrants Ceuta in 24 hours, Spanish territory's leader says",
+          "published_at": "2026-07-31T12:00:18Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/what-to-know-about-the-arrival-of-nearly-49-000-migrants-from-morocco-into-spain",
+          "headline": "What to know about the arrival of 49,000 migrants into Spain's Ceuta",
+          "published_at": "2026-07-31T10:38:49Z"
         },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/ceuta-crisis-migration-france-spain-border-checks-schengen-unity-morocco",
           "headline": "France ups Spanish border checks as Schengen unity wobbles over Ceuta crisis",
           "published_at": "2026-07-31T09:49:15Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/it-took-me-two-hours-40-000-migrants-swim-from-morocco-into-spain-s-ceuta",
-          "headline": "'It took me two hours': 40,000 migrants swim from Morocco into Spain's Ceuta",
-          "published_at": "2026-07-31T09:21:53Z"
         },
         {
           "publisher": "EL PAÍS English",
@@ -171,10 +204,10 @@
       ]
     },
     {
-      "label": "Hamas · Trump · disarmament · deal",
+      "label": "Hamas · Trump · disarmament",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 5,
+      "item_count": 3,
       "latest_at": "2026-07-31T09:28:21Z",
       "sources": [
         {
@@ -188,27 +221,6 @@
           "url": "https://english.elpais.com/international/2026-07-31/trump-announces-agreement-for-the-complete-disarmament-of-hamas.html",
           "headline": "Trump announces agreement for ‘the complete disarmament’ of Hamas",
           "published_at": "2026-07-31T06:08:08Z"
-        }
-      ]
-    },
-    {
-      "label": "FIFA · investors · private · vows",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-07-31T09:43:54Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/european-football-vows-to-boycott-world-cups-if-fifa-brings-in-private-investors",
-          "headline": "European football vows to boycott World Cups if FIFA brings in private investors",
-          "published_at": "2026-07-31T09:43:54Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/science-tech/2026-07-31/two-500-year-old-mummies-confirm-europeans-brought-smallpox-to-the-americas-it-came-from-the-old-world.html",
-          "headline": "Two 500-year-old mummies confirm Europeans brought smallpox to the Americas: ‘It came from the Old World’",
-          "published_at": "2026-07-31T08:29:22Z"
         }
       ]
     },
@@ -236,6 +248,76 @@
   ],
   "radar": [
     {
+      "id": "cf3847bb9b4f840dd9a6d5dc",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "About 60,000 migrants Ceuta in 24 hours, Spanish territory's leader says",
+      "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-07-31T12:00:18Z",
+      "collected_at": "2026-07-31T12:00:48Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "22332b474600b009d4cbe1a5",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Ceuta: Spain scrambles after thousands breach exclave border",
+      "url": "https://www.dw.com/en/ceuta-spain-scrambles-after-thousands-breach-exclave-border/live-78191601?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-07-31T11:47:00Z",
+      "collected_at": "2026-07-31T12:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "e27782301e1f7087596cf262",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "No country for old men: Music genre rejuvenates to fit the algorithm era",
+      "url": "https://english.elpais.com/culture/2026-07-31/no-country-for-old-men-music-genre-rejuvenates-to-fit-the-algorithm-era.html",
+      "published_at": "2026-07-31T11:36:38Z",
+      "collected_at": "2026-07-31T12:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "a0a0baf06436c095201ce976",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘Pervert glasses’: Meta struggles with mockery and misgivings toward its star product",
+      "url": "https://english.elpais.com/technology/2026-07-31/pervert-glasses-meta-struggles-with-mockery-and-misgivings-toward-its-star-product.html",
+      "published_at": "2026-07-31T11:35:52Z",
+      "collected_at": "2026-07-31T12:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "6f0de61c4c4a21f0ca1c5640",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Pro-Kremlin TV star decries ‘censorship’ after France orders expulsion",
+      "url": "https://www.politico.eu/article/xenia-fedorova-accuses-emmanuel-macron-censorship-france-expulsion-order",
+      "published_at": "2026-07-31T11:05:07Z",
+      "collected_at": "2026-07-31T12:00:48Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
       "id": "7b51a9c0d3e8ddd123cc09fa",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -260,6 +342,34 @@
       "topics": [
         "breaking",
         "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "28d0ad174ba26466be81a4b7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Infantino's senior advisor resigns amid outrage over FIFA's private investment plan",
+      "url": "https://www.france24.com/en/infantino-s-senior-advisor-resigns-amid-outrage-over-fifa-s-private-investment-plan",
+      "published_at": "2026-07-31T10:42:46Z",
+      "collected_at": "2026-07-31T12:00:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f9bd1773177e1f216f3f1321",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "What to know about the arrival of 49,000 migrants into Spain's Ceuta",
+      "url": "https://www.france24.com/en/what-to-know-about-the-arrival-of-nearly-49-000-migrants-from-morocco-into-spain",
+      "published_at": "2026-07-31T10:38:49Z",
+      "collected_at": "2026-07-31T12:00:48Z",
+      "topics": [
+        "politics",
+        "security",
         "society"
       ]
     },
@@ -537,6 +647,20 @@
       "url": "https://www.france24.com/en/europe/20260731-almost-50-000-migrants-crossed-morocco-ceuta-border-over-past-24-hours",
       "published_at": "2026-07-31T07:57:37Z",
       "collected_at": "2026-07-31T09:00:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f5cb7b0213cac0082be949aa",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Around 60,000 migrants crossed into Spain’s Ceuta exclave from Morocco",
+      "url": "https://www.france24.com/en/europe/20260731-almost-50-000-migrants-crossed-morocco-ceuta-border-over-past-24-hours",
+      "published_at": "2026-07-31T07:57:37Z",
+      "collected_at": "2026-07-31T12:00:48Z",
       "topics": [
         "politics",
         "security",
@@ -1580,104 +1704,6 @@
       ]
     },
     {
-      "id": "2e3d69d67116d81e1c222374",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "#Ukraine pounded in Russian attack, Polish airspace 'violated'",
-      "url": "https://www.france24.com/en/video/20260730-ukraine-pounded-in-russian-attack-polish-airspace-violated-1",
-      "published_at": "2026-07-30T11:31:09Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "cbdc6903bfa1de04f28fd0de",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "How native livestock is reducing the risk of wildfires in Spain's Galicia region",
-      "url": "https://www.france24.com/en/video/20260730-how-native-livestock-is-reducing-the-risk-of-wildfires-in-spain-s-galicia-region",
-      "published_at": "2026-07-30T11:10:06Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "16a45218a3cd24c177eade59",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Spain, France, UK warn megafires show climate change is ‘threatening our way of life’",
-      "url": "https://www.politico.eu/article/spain-france-uk-warn-megafires-show-climate-change-is-threatening-our-way-of-life",
-      "published_at": "2026-07-30T10:57:34Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "97463ed3efb5c548a0f27eae",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "A Spider-Man for every person and generation",
-      "url": "https://english.elpais.com/culture/2026-07-30/a-spider-man-for-every-person-and-generation.html",
-      "published_at": "2026-07-30T10:33:27Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "2a0c102d99f8aeb2b8484b34",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The secret weapon mosquitoes are using to win the war against humans: evading insecticides",
-      "url": "https://english.elpais.com/health/2026-07-30/the-secret-weapon-mosquitoes-are-using-to-win-the-war-against-humans-evading-insecticides.html",
-      "published_at": "2026-07-30T10:32:59Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "6fe15bcc33cc41c03e14e545",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Crete wildfires cause evacuations and firefighter deaths",
-      "url": "https://www.dw.com/en/crete-wildfires-cause-evacuations-and-firefighter-deaths/a-78171093?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-07-30T10:31:00Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "7709f4c3a3ed0c73bbe62067",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Greek firefighters battle deadly wildfires on Crete for a second day",
-      "url": "https://www.france24.com/en/video/20260730-greek-firefighters-battle-deadly-wildfires-on-crete-for-a-second-day",
-      "published_at": "2026-07-30T10:21:04Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "bfd4f2abe3513df1fe336e71",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1685,356 +1711,6 @@
       "url": "https://www.politico.eu/article/eu-launches-e30-billion-push-build-7-giga-ai-compute-hubs",
       "published_at": "2026-07-30T10:20:11Z",
       "collected_at": "2026-07-30T13:00:45Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "3330d4445687db46ab8548f9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Tens of thousands of French wildfire evacuees allowed to return home",
-      "url": "https://www.france24.com/en/video/20260730-tens-of-thousands-of-french-wildfire-evacuees-allowed-to-return-home",
-      "published_at": "2026-07-30T10:19:57Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "df0ab33b386375e43ed68c60",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Poland says giant crater left by explosion after Russia attacks on Ukraine",
-      "url": "https://www.france24.com/en/video/20260730-poland-says-giant-crater-left-by-explosion-after-russia-attacks-on-ukraine",
-      "published_at": "2026-07-30T10:18:16Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "2ea613dd5e4f9a58bbf00382",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Those who can’t wait 72 hours for help left behind in EU crisis plan",
-      "url": "https://euobserver.com/230728/those-who-cant-wait-72-hours-for-help-left-behind-in-eu-crisis-plan",
-      "published_at": "2026-07-30T10:06:47Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "3ecdc820b8338c28cc4dc379",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
-      "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-30T09:56:06Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "4d3200d7e84799f0ea6ff7e1",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "FIFA hit by furious backlash over plans to sell stake in competitions",
-      "url": "https://www.france24.com/en/video/20260730-fifa-hit-by-furious-backlash-over-plans-to-sell-stake-in-competitions",
-      "published_at": "2026-07-30T09:51:07Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "92fd5dc76921369bf24566d1",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Drone reveals charred forest landscape after wildfires scorch France",
-      "url": "https://www.france24.com/en/video/20260730-drone-reveals-charred-forest-landscape-after-wildfires-scorch-france",
-      "published_at": "2026-07-30T09:49:50Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "d7ec40100ba288efe887033f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US launches wave of strikes on Iran in response to Tehran missile attack in Jordan",
-      "url": "https://www.france24.com/en/video/20260730-us-launches-wave-of-strikes-on-iran-in-response-to-tehran-missile-attack-in-jordan",
-      "published_at": "2026-07-30T09:48:50Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0881dea98c43a3aba722ee37",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Fifa could receive first external money in October",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cz64gdj9e25o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-30T09:29:58Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "d07999fb3642a2627646083a",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Why hundreds of women dance to Kate Bush every year on Wuthering Heights Day",
-      "url": "https://english.elpais.com/international/2026-07-30/why-hundreds-of-women-dance-to-kate-bush-every-year-on-wuthering-heights-day.html",
-      "published_at": "2026-07-30T09:28:43Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "58bdbf368e2d635023ddb826",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Three children among eight dead in Russian strikes on Ukraine, officials say",
-      "url": "https://www.bbc.co.uk/news/articles/cy8mk59l5jzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-30T09:21:55Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "bb3875f43fb624b4efe338c5",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "‘It’s like returning to the Wild West’ – Moldova tries to lure back its lost citizens",
-      "url": "https://euobserver.com/228833/its-like-returning-to-the-wild-west-moldova-tries-to-lure-back-its-lost-citizens",
-      "published_at": "2026-07-30T09:12:04Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "e6bdbbcf1072bf718fce5571",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Thousands evacuated in Crete as European wildfires continue to rage",
-      "url": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-30T09:10:11Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "e05e753db16e9cd9c2a87ff0",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Japan quake toll hits 34 as survivors struggle in heat",
-      "url": "https://www.france24.com/en/video/20260730-japan-quake-toll-hits-34-as-survivors-struggle-in-heat",
-      "published_at": "2026-07-30T09:08:47Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "75a2343634d46b5f78e92b1e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Cooler weather and potential rain move into the French region torched by wildfires",
-      "url": "https://www.france24.com/en/video/20260730-cooler-weather-and-potential-rain-move-into-the-french-region-torched-by-wildfires",
-      "published_at": "2026-07-30T09:07:15Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4627194fc377836687c77491",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US military launches 'powerful' retaliatory strikes on Iran",
-      "url": "https://www.france24.com/en/video/20260730-us-military-launches-powerful-retaliatory-strikes-on-iran",
-      "published_at": "2026-07-30T09:05:56Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e1e3aec2da6a07531e7986b4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Russian strikes kill at least 8, wound dozens across Ukraine",
-      "url": "https://www.france24.com/en/video/20260730-russian-strikes-kill-at-least-8-wound-dozens-across-ukraine",
-      "published_at": "2026-07-30T09:04:19Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "c9cad38f0626c396b76535c0",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Paris neighbourhoods: The charming 3rd arrondissement",
-      "url": "https://www.france24.com/en/tv-shows/french-connections/20260730-paris-neighbourhoods-the-charming-3rd-arrondissement",
-      "published_at": "2026-07-30T09:00:08Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4f992304019371666d7edf2f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Infantino and FIFA under fire for private investment plan",
-      "url": "https://www.france24.com/en/tv-shows/sports/20260730-gianni-infantino-and-fifa-under-fire-for-private-investment-plan",
-      "published_at": "2026-07-30T08:48:53Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "20c9b98e846e3921fa3c9866",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "A day with a firefighting crew in Madrid: ‘The firefighters can’t keep up; last night there were three new fires’",
-      "url": "https://english.elpais.com/international/2026-07-30/a-day-with-a-firefighting-crew-in-madrid-the-firefighters-cant-keep-up-last-night-there-were-three-new-fires.html",
-      "published_at": "2026-07-30T08:32:58Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "0877eadcce9b863d35139290",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "PM Tusk says Russian Kh-101 likely crashed in eastern Poland",
-      "url": "https://notesfrompoland.com/2026/07/30/unidentified-object-crashes-in-poland-after-russian-attack-on-ukraine",
-      "published_at": "2026-07-30T08:23:39Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "dcab98b150fd797ee88b18e5",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "PM Tusk says Russian Kh-101 missile likely crashed in eastern Poland",
-      "url": "https://notesfrompoland.com/2026/07/30/unidentified-object-crashes-in-poland-after-russian-attack-on-ukraine",
-      "published_at": "2026-07-30T08:23:39Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "eeb0df1a00498a094c84a132",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The big problem with Meta glasses: Does recording and sharing everything put us at risk?",
-      "url": "https://english.elpais.com/technology/2026-07-30/the-big-problem-with-meta-glasses-does-recording-and-sharing-everything-put-us-at-risk.html",
-      "published_at": "2026-07-30T08:19:55Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "f5a9048c98c3f679b8410c37",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 Fires in Europe live: France gives green light for 84,000 evacuees to return home",
-      "url": "https://www.france24.com/en/europe/20260730-live-fontainebleau-fire-contained-but-southern-europe-on-high-alert-as-wildfires-rage",
-      "published_at": "2026-07-30T08:18:38Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "5408faf5a55d9912d9f72b29",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Tusk: ‘Everything indicates’ Russian cruise missile hit Poland",
-      "url": "https://www.politico.eu/article/unidentified-object-crashes-poland-russia-strikes-ukraine",
-      "published_at": "2026-07-30T08:10:15Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "91628d13b37b4f7f0ccb4773",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Potential roadblocks ahead for Washington’s Russia sanctions bill",
-      "url": "https://www.politico.com/news/2026/07/29/roadblocks-graham-russia-sanctions-bill-01015843",
-      "published_at": "2026-07-30T06:44:49Z",
-      "collected_at": "2026-07-30T11:40:05Z",
       "topics": [
         "institutions",
         "politics",
@@ -2056,20 +1732,6 @@
       ]
     },
     {
-      "id": "920c4f879228642c2da1dfe7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Middle East live: Tehran threatens to 'punish the aggressor today' after deadly US strikes on Iran",
-      "url": "https://www.france24.com/en/middle-east/20260730-middle-east-live-us-air-strikes-on-iran-qeshm-island-kill-three-people",
-      "published_at": "2026-07-30T05:52:12Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "ffc60d04d2ac56ec06cb52e7",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2080,90 +1742,6 @@
       "topics": [
         "politics",
         "security",
-        "society"
-      ]
-    },
-    {
-      "id": "a5f21d833e332e83b6ac37a8",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Fires in Europe live: France gives green light for 84,000 evacuees to return home",
-      "url": "https://www.france24.com/en/europe/20260730-live-fontainebleau-fire-contained-but-southern-europe-on-high-alert-as-wildfires-rage",
-      "published_at": "2026-07-30T02:59:15Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "8198484bd345ef042451d849",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Singapore fines French teen $465 for viral straw-licking stunt",
-      "url": "https://www.bbc.co.uk/news/articles/crrvqjw8epko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-30T02:54:54Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "5d2b279cdcebee44d240aef5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Russian strikes across Ukraine kill at least 8, wound more than a dozen",
-      "url": "https://www.france24.com/en/europe/20260729-zelensky-warns-of-possible-major-russian-strike-overnight",
-      "published_at": "2026-07-29T21:49:55Z",
-      "collected_at": "2026-07-30T12:00:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "256e0213f20d7b056751ebc3",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Zelensky and Netanyahu meet Trump as wars in Ukraine and Iran drag on",
-      "url": "https://www.bbc.co.uk/news/articles/cj4k2z8z45ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-29T12:17:42Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "97f4c25a162fc75bfee21030",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "DJ Guetta leads tributes to electronic ‌musician Kavinsky who has died",
-      "url": "https://www.bbc.co.uk/news/articles/c204n74xyv3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-29T10:35:13Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "c3f72dc2beb70573358d53ff",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Cucurella gets tattoo of Spain coach De la Fuente",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cdewdedl44go?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-29T07:42:52Z",
-      "collected_at": "2026-07-30T11:40:05Z",
-      "topics": [
-        "breaking",
-        "politics",
         "society"
       ]
     }
