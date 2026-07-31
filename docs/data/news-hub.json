@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-31T15:52:05Z",
-  "last_successful_collection_at": "2026-07-31T15:52:05Z",
+  "generated_at": "2026-07-31T16:30:36Z",
+  "last_successful_collection_at": "2026-07-31T16:30:36Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T15:52:05Z"
+      "at": "2026-07-31T16:30:36Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-07-31T15:52:05Z"
+      "at": "2026-07-31T16:30:36Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-07-31T15:52:05Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-07-31T16:30:36Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-31T15:52:05Z"
+      "at": "2026-07-31T16:30:36Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T15:52:05Z"
+      "at": "2026-07-31T16:30:36Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-07-31T15:52:05Z"
+      "at": "2026-07-31T16:30:36Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-07-31T15:52:05Z"
+      "at": "2026-07-31T16:30:36Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-07-31T15:52:05Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-07-31T16:30:36Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-31T15:52:05Z"
+      "at": "2026-07-31T16:30:36Z"
     }
   ],
   "europe_now": [
@@ -1705,62 +1705,6 @@
       ]
     },
     {
-      "id": "e53428755d2f3bcd55f975f6",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Uefa to boycott World Cups if Fifa plans approved",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5y67zrrdddo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-30T15:52:32Z",
-      "collected_at": "2026-07-30T16:00:49Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "b4c0bbc9d113f2ba2184387d",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Burnham to Trump: UK ‘can’t ignore’ its oil and gas reserves",
-      "url": "https://www.politico.eu/article/andy-burnham-donald-trump-north-sea-oil-gas",
-      "published_at": "2026-07-30T15:39:33Z",
-      "collected_at": "2026-07-30T16:00:49Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "1643eb9376e6b4b030753a79",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 UEFA to boycott World Cup over FIFA proposals",
-      "url": "https://www.france24.com/en/sport/20260730-uefa-to-boycott-fifa-over-investor-plan",
-      "published_at": "2026-07-30T15:38:47Z",
-      "collected_at": "2026-07-30T16:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "dc3c1ed774648d21573820a5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "UEFA to boycott FIFA in protest at World Cup private investor plans",
-      "url": "https://www.france24.com/en/sport/20260730-uefa-to-boycott-fifa-over-investor-plan",
-      "published_at": "2026-07-30T15:37:00Z",
-      "collected_at": "2026-07-30T16:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "9dccce06985828d91db66d84",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1772,20 +1716,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "5b98027e0960cdcd60a1d5dd",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Greek police probe 'foul play' in death of woman found in suitcase",
-      "url": "https://www.bbc.co.uk/news/articles/cy07w28jn5lo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-30T13:47:19Z",
-      "collected_at": "2026-07-30T16:00:49Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
@@ -1803,20 +1733,6 @@
       ]
     },
     {
-      "id": "4350e5238b4d001b29793e77",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Thousands evacuated in Crete as wildfires threaten tourist resorts",
-      "url": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-30T12:46:16Z",
-      "collected_at": "2026-07-30T16:00:49Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "6040cfb8590e04b339304b0c",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1831,20 +1747,6 @@
       ]
     },
     {
-      "id": "a4d6be0a5e26b40ebb3bba91",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Critics mock Adrien Brody’s artwork: dogs with bandanas, fried chicken and a Warhol-style mural",
-      "url": "https://english.elpais.com/culture/2026-07-30/critics-mock-adrien-brodys-artwork-dogs-with-bandanas-fried-chicken-and-a-warhol-style-mural.html",
-      "published_at": "2026-07-30T11:48:24Z",
-      "collected_at": "2026-07-30T16:00:49Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "d88dc39278fa937a9c0f56fd",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1856,20 +1758,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "626c4ce6311a5dcc1448a186",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Mexico’s UNAM weighs whether to rerun admissions exams amid AI-cheating concerns",
-      "url": "https://english.elpais.com/international/2026-07-30/mexicos-unam-weighs-whether-to-rerun-admissions-exams-amid-ai-cheating-concerns.html",
-      "published_at": "2026-07-30T06:40:38Z",
-      "collected_at": "2026-07-30T16:00:49Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
