@@ -351,9 +351,25 @@
     "79f61bce860d92d2e4c323c8": "2026-07-31T03:30:34Z",
     "4fbaf373a5ed429990e89349": "2026-07-31T03:30:34Z",
     "902b6c9dfd5e9c24eaf3fb81": "2026-07-31T04:00:44Z",
-    "fb788af8b239d1f7cecb3b40": "2026-07-31T05:00:47Z"
+    "fb788af8b239d1f7cecb3b40": "2026-07-31T05:00:47Z",
+    "3c6c493ce138617285510c5e": "2026-07-31T05:30:40Z",
+    "f1d78ff01dced0a7ac294256": "2026-07-31T05:30:40Z"
   },
   "radar": [
+    {
+      "id": "3c6c493ce138617285510c5e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "FIFA vows to proceed with private investor plan consultation as opposition spreads",
+      "url": "https://www.france24.com/en/sport/20260731-fifa-vows-to-proceed-with-private-investor-plan-consultation-as-opposition-spreads",
+      "published_at": "2026-07-31T05:24:13Z",
+      "collected_at": "2026-07-31T05:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "fb788af8b239d1f7cecb3b40",
       "source_id": "ecfr",
@@ -390,6 +406,20 @@
       "url": "https://www.france24.com/en/technology/20260731-ai-safety-scare-anthropic-says-claude-models-accessed-outside-systems-during-testing",
       "published_at": "2026-07-31T03:22:10Z",
       "collected_at": "2026-07-31T03:30:34Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f1d78ff01dced0a7ac294256",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Anthropic says Claude models accessed outside systems during testing",
+      "url": "https://www.france24.com/en/technology/20260731-ai-safety-scare-anthropic-says-claude-models-accessed-outside-systems-during-testing",
+      "published_at": "2026-07-31T03:22:10Z",
+      "collected_at": "2026-07-31T05:30:40Z",
       "topics": [
         "politics",
         "security",
@@ -2693,17 +2723,30 @@
     {
       "at": "2026-07-31T05:00:47Z",
       "title": "Russia-Ukraine Conflict Intensifies with Cross-Border Attacks"
+    },
+    {
+      "at": "2026-07-31T05:30:40Z",
+      "title": "Wildfires surge across Europe linked to climate change"
+    },
+    {
+      "at": "2026-07-31T05:30:40Z",
+      "title": "Russian missile strike in Poland raises security alarms"
+    },
+    {
+      "at": "2026-07-31T05:30:40Z",
+      "title": "Spain faces migrant influx at Ceuta prompting military deployment"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "European Wildfires Escalate Across Multiple Countries",
-        "summary": "Spain, France, and the UK are experiencing severe wildfires, with climate change increasing the likelihood of such events. Mass evacuations are underway as conditions remain critical.",
+        "title": "European wildfires flare amid climate-driven conditions",
+        "summary": "Scientists report that climate change has made wildfire conditions in France and Spain far more likely. Blazes across several European countries have led to evacuations and stretched firefighting resources.",
         "article_ids": [
           "c99fcfde6103b8dd66bb6cfd",
-          "4fbaf373a5ed429990e89349"
+          "095438fc7550b3a6dd148d2d",
+          "172fea2d746861c828372ea1"
         ],
         "sources": [
           {
@@ -2711,23 +2754,23 @@
             "url": "https://www.france24.com/en/europe/20260730-climate-change-made-france-spain-wildfire-conditions-far-more-likely-scientists-say"
           },
           {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/climate-change-spain-france-fire-likely"
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20260730-france-spain-eye-respite-from-wildfires-as-other-blazes-break-out-in-europe"
           }
         ],
-        "source_count": 2
+        "source_count": 1
       },
       {
-        "title": "Russian Missile Attack in Poland Creates Security Crisis",
-        "summary": "A Russian missile strike in Poland resulted in a large crater, with Warsaw attributing the attack to Moscow. The incident escalates tensions in the Russia-Ukraine conflict.",
+        "title": "Russian missile hits Polish field, prompting blame on Moscow",
+        "summary": "A Russian missile struck a field in Poland, creating a large crater. Warsaw officials blamed Moscow for the attack, heightening regional security concerns.",
         "article_ids": [
-          "8e3141244b7cbcf460002dff",
+          "8b854f3956da1a3296b17724",
           "5d19d50b5bd53ee5074cfc04"
         ],
         "sources": [
           {
             "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/uefa-says-will-boycott-world-cup-if-fifa-pushes-private-investor-proposal"
+            "url": "https://www.france24.com/en/live-news/20260730-russia-blamed-for-missile-that-blasted-crater-in-polish-field"
           },
           {
             "publisher": "France 24 English",
@@ -2739,11 +2782,12 @@
     ],
     "top_stories": [
       {
-        "title": "Climate Change Amplifies Wildfire Risks in Europe",
-        "summary": "Scientific analyses confirm climate change has made wildfire conditions in Spain and France 20 times more likely. The EU is addressing the crisis through coordinated responses.",
+        "title": "Wildfires surge across Europe linked to climate change",
+        "summary": "Scientists say climate change has made wildfire conditions in France and Spain far more likely. Multiple countries are battling blazes that have forced evacuations and strained emergency services.",
         "article_ids": [
           "c99fcfde6103b8dd66bb6cfd",
-          "4fbaf373a5ed429990e89349"
+          "095438fc7550b3a6dd148d2d",
+          "172fea2d746861c828372ea1"
         ],
         "sources": [
           {
@@ -2751,23 +2795,23 @@
             "url": "https://www.france24.com/en/europe/20260730-climate-change-made-france-spain-wildfire-conditions-far-more-likely-scientists-say"
           },
           {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/climate-change-spain-france-fire-likely"
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20260730-france-spain-eye-respite-from-wildfires-as-other-blazes-break-out-in-europe"
           }
         ],
-        "source_count": 2
+        "source_count": 1
       },
       {
-        "title": "Russia-Ukraine Conflict Intensifies with Cross-Border Attacks",
-        "summary": "Russia has launched missile strikes in Poland, violating airspace and escalating the conflict. The EU is monitoring the situation for potential security implications.",
+        "title": "Russian missile strike in Poland raises security alarms",
+        "summary": "A Russian missile hit a field in Poland, producing a large crater. Polish authorities accused Moscow of responsibility, citing increased tensions in the region.",
         "article_ids": [
-          "8e3141244b7cbcf460002dff",
+          "8b854f3956da1a3296b17724",
           "5d19d50b5bd53ee5074cfc04"
         ],
         "sources": [
           {
             "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/uefa-says-will-boycott-world-cup-if-fifa-pushes-private-investor-proposal"
+            "url": "https://www.france24.com/en/live-news/20260730-russia-blamed-for-missile-that-blasted-crater-in-polish-field"
           },
           {
             "publisher": "France 24 English",
@@ -2775,8 +2819,29 @@
           }
         ],
         "source_count": 1
+      },
+      {
+        "title": "Spain faces migrant influx at Ceuta prompting military deployment",
+        "summary": "Spain deployed military forces to Ceuta after thousands of migrants crossed from Morocco. Officials warn the situation is overwhelming local capacities and risks further escalation.",
+        "article_ids": [
+          "0298072c8e895e8b2fe1d1f4",
+          "a158884a10e87185b31739ea",
+          "c48459f6d4acbf89032115de",
+          "9872bd6c9b81b5f5b14a676e"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/spain-to-deploy-military-to-restore-order-in-ceuta-after-thousands-of-people-breach-morocco-s-border"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20260730-hundreds-of-migrants-enter-spain-north-african-territory-ceuta-from-morocco"
+          }
+        ],
+        "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-07-31T05:00:47Z"
+  "last_collection_at": "2026-07-31T05:30:40Z"
 }
