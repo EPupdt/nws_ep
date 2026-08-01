@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-01T16:00:41Z",
-  "last_successful_collection_at": "2026-08-01T16:00:41Z",
+  "generated_at": "2026-08-01T16:31:40Z",
+  "last_successful_collection_at": "2026-08-01T16:31:40Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-01T16:00:41Z"
+      "at": "2026-08-01T16:31:40Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-01T16:00:41Z"
+      "at": "2026-08-01T16:31:40Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-01T16:00:41Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-01T16:31:40Z"
     },
     {
       "id": "euractiv",
@@ -29,76 +29,51 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-01T16:00:41Z"
+      "at": "2026-08-01T16:31:40Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-01T16:00:41Z"
+      "at": "2026-08-01T16:31:40Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-08-01T16:00:41Z"
+      "at": "2026-08-01T16:31:40Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-01T16:00:41Z"
+      "at": "2026-08-01T16:31:40Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-01T16:00:41Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-01T16:31:40Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-01T16:00:41Z"
+      "at": "2026-08-01T16:31:40Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian missile strikes on Kyiv cause multiple fatalities",
-      "summary": "At least nine people were killed during a missile attack on the Ukrainian capital. The strikes also resulted in 28 injuries.",
-      "article_ids": [
-        "d6b65f58d4fab8850097a3f5",
-        "f9618d50c538cb0dcae5146d",
-        "9af70598ae20530902b81fe7",
-        "a5bd38e85ae923ea823a0a1f",
-        "b0bbf11aab3a91f7ebc48e74"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/kyiv-9-dead-and-22-hurt-in-missile-attack"
-        }
-      ],
-      "source_count": 2
-    },
-    {
       "title": "Wildfires spread across France and Greece",
-      "summary": "Major wildfires are burning in France and Greece despite containment efforts. Firefighters in France have managed to stop the spread of some fires, though they continue to burn.",
+      "summary": "Major wildfires are causing evacuations in Athens suburb and other regions, with firefighters containing some fires but others remaining uncontrolled. The incidents highlight Europe's vulnerability to climate-driven disasters.",
       "article_ids": [
-        "12027c0b88b64abbd4cda806",
-        "65c11f69671b426ac7d0a421",
-        "3c78855cdb892395861496d1",
-        "4aeb920bd8219fda3925f300",
-        "a356123b26a331c00e615894"
+        "6d830aa45a34addcc3e35993",
+        "65c11f69671b426ac7d0a421"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
+          "url": "https://www.france24.com/en/ceuta-2026-dwarfs-2021-migration-crisis"
         },
         {
           "publisher": "France 24 English",
@@ -106,37 +81,95 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "Migration Crisis in Ceuta",
-      "summary": "Spain has criticized EU partners for their response to the migrant influx in Ceuta. The enclave has seen significant border crossings, with 57 deaths reported.",
+      "title": "Ceuta migration crisis intensifies",
+      "summary": "Over 60,000 migrants crossed into Ceuta from Morocco in 2026, with 57 deaths reported. Spain and EU partners are in conflict over migration policy responses, raising systemic security concerns.",
       "article_ids": [
-        "e18bf6834bb35bd73a70bfe0",
-        "6d830aa45a34addcc3e35993",
-        "ca712f211692aa163ead6de2",
         "6599cc4008ee933f2cac3c4e",
-        "673e1fd05b487e2085f7755b",
-        "d45d6fab808fe4cd1c9b63e9",
-        "7df007c077c3807e544807de",
-        "8f1f59ae83dacc235b08b775",
         "c5f30a8ce67880a5bba13afe"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ceuta-spain-slams-selfish-eu-partners"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ceuta-crisis-22-eu-leaders-letter-spain-pedro-sanchez-migration-policy"
         },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ceuta-spain-demands-eu-meeting-blasts-selfish-response/live-78191601?maca=en-rss-en-eu-2092-rdf"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "European Wildfire Crisis",
+      "summary": "Wildfires in France and Greece have prompted mass evacuations and strained firefighting resources. Containment efforts are partial, with uncontrolled blazes continuing to spread.",
+      "article_ids": [
+        "6d830aa45a34addcc3e35993",
+        "65c11f69671b426ac7d0a421"
+      ],
+      "sources": [
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/ceuta-2026-dwarfs-2021-migration-crisis"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "Ceuta Migration Surge",
+      "summary": "Ceuta experienced a record migrant influx in 2026, with 60,000 crossings and 57 fatalities. The crisis has triggered diplomatic tensions between Spain and EU partners over border management.",
+      "article_ids": [
+        "6599cc4008ee933f2cac3c4e",
+        "c5f30a8ce67880a5bba13afe"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ceuta-crisis-22-eu-leaders-letter-spain-pedro-sanchez-migration-policy"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ceuta-spain-demands-eu-meeting-blasts-selfish-response/live-78191601?maca=en-rss-en-eu-2092-rdf"
+        }
+      ],
+      "source_count": 2
     }
   ],
   "developing": [
+    {
+      "label": "Russian · strike · Ukraine · Kyiv",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 5,
+      "latest_at": "2026-08-01T15:53:05Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260801-russian-forces-strike-targets-ukraine-odesa-mykolaiv-ports",
+          "headline": "Russian forces strike targets in Ukraine's Odesa, Mykolaiv ports",
+          "published_at": "2026-08-01T15:53:05Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
+          "headline": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
+          "published_at": "2026-08-01T11:52:29Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/war-in-ukraine-why-crimea-has-become-a-strategic-target/a-78197135?maca=en-rss-en-eu-2092-rdf",
+          "headline": "War in Ukraine: Why Crimea has become a strategic target",
+          "published_at": "2026-08-01T10:03:00Z"
+        }
+      ]
+    },
     {
       "label": "Ceuta · migrant · crossing · mass",
       "origin": "convergence",
@@ -199,30 +232,37 @@
           "published_at": "2026-07-31T20:05:10Z"
         }
       ]
-    },
-    {
-      "label": "migrants · Trump",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-01T04:00:00Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-08-01/detaining-undocumented-migrants-at-airports-the-new-front-in-trumps-immigration-offensive.html",
-          "headline": "Detaining undocumented migrants at airports, the new front in Trump’s immigration offensive",
-          "published_at": "2026-08-01T04:00:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260731-trump-blames-spain-for-migrant-chaos-despite-return-of-tens-of-thousands-to-morocco",
-          "headline": "Trump blames Spain for migrant chaos despite return of tens of thousands to Morocco",
-          "published_at": "2026-07-31T16:27:28Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "05f5a05dda5b53baa773d4c0",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Call for 'full review' as pressure grows on Infantino",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c04kr2nv3v3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-01T16:29:10Z",
+      "collected_at": "2026-08-01T16:31:40Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "bf2bd208a4e5e0f04f953ff0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russian forces strike targets in Ukraine's Odesa, Mykolaiv ports",
+      "url": "https://www.france24.com/en/europe/20260801-russian-forces-strike-targets-ukraine-odesa-mykolaiv-ports",
+      "published_at": "2026-08-01T15:53:05Z",
+      "collected_at": "2026-08-01T16:31:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "682f5187e3187ef1f7b41f4b",
       "source_id": "france24",
@@ -721,6 +761,20 @@
       "url": "https://www.france24.com/en/middle-east/20260801-middle-east-live-tanker-struck-by-unknown-projectile-oman-iran-war-hormuz",
       "published_at": "2026-08-01T08:17:26Z",
       "collected_at": "2026-08-01T09:32:25Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "8c2a3afdebaa141eb1e9ec92",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Middle East live: US embassies urge citizens to 'consider departing' region",
+      "url": "https://www.france24.com/en/middle-east/20260801-middle-east-live-tanker-struck-by-unknown-projectile-oman-iran-war-hormuz",
+      "published_at": "2026-08-01T08:17:26Z",
+      "collected_at": "2026-08-01T16:31:40Z",
       "topics": [
         "politics",
         "security",
@@ -1358,6 +1412,20 @@
       ]
     },
     {
+      "id": "e53428755d2f3bcd55f975f6",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Uefa to boycott World Cups if Fifa plans approved",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5y67zrrdddo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-07-30T16:47:40Z",
+      "collected_at": "2026-08-01T16:31:40Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "3ecdc820b8338c28cc4dc379",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1381,6 +1449,20 @@
       "collected_at": "2026-08-01T15:32:15Z",
       "topics": [
         "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "5b98027e0960cdcd60a1d5dd",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Greek police probe 'foul play' in death of woman found in suitcase",
+      "url": "https://www.bbc.co.uk/news/articles/cy07w28jn5lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-07-30T13:47:19Z",
+      "collected_at": "2026-08-01T16:31:40Z",
+      "topics": [
+        "breaking",
         "politics",
         "society"
       ]
@@ -1425,6 +1507,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "a4d6be0a5e26b40ebb3bba91",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Critics mock Adrien Brody’s artwork: dogs with bandanas, fried chicken and a Warhol-style mural",
+      "url": "https://english.elpais.com/culture/2026-07-30/critics-mock-adrien-brodys-artwork-dogs-with-bandanas-fried-chicken-and-a-warhol-style-mural.html",
+      "published_at": "2026-07-30T11:48:24Z",
+      "collected_at": "2026-08-01T16:31:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -1495,6 +1591,20 @@
         "central_europe",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "626c4ce6311a5dcc1448a186",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Mexico’s UNAM weighs whether to rerun admissions exams amid AI-cheating concerns",
+      "url": "https://english.elpais.com/international/2026-07-30/mexicos-unam-weighs-whether-to-rerun-admissions-exams-amid-ai-cheating-concerns.html",
+      "published_at": "2026-07-30T06:40:38Z",
+      "collected_at": "2026-08-01T16:31:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
