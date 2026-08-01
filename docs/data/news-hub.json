@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-01T11:30:37Z",
-  "last_successful_collection_at": "2026-08-01T11:30:37Z",
+  "generated_at": "2026-08-01T12:02:11Z",
+  "last_successful_collection_at": "2026-08-01T12:02:11Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-01T11:30:37Z"
+      "at": "2026-08-01T12:02:11Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-01T11:30:37Z"
+      "at": "2026-08-01T12:02:11Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-01T11:30:37Z"
+      "at": "2026-08-01T12:02:11Z"
     },
     {
       "id": "euractiv",
@@ -29,70 +29,74 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-01T11:30:37Z"
+      "at": "2026-08-01T12:02:11Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-01T11:30:37Z"
+      "at": "2026-08-01T12:02:11Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-08-01T11:30:37Z"
+      "at": "2026-08-01T12:02:11Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-01T11:30:37Z"
+      "at": "2026-08-01T12:02:11Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-01T11:30:37Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-01T12:02:11Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-01T11:30:37Z"
+      "at": "2026-08-01T12:02:11Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ceuta migration crisis draws EU criticism and humanitarian toll",
-      "summary": "Twenty-two EU leaders criticized Spain's migration policy regarding the Ceuta migrant situation, citing concerns over burden-sharing. Official data show that most migrants have returned to Morocco while 57 people died attempting the crossing.",
+      "title": "Ceuta Migration Crisis",
+      "summary": "A mass migration event has resulted in 57 deaths during border crossings. Most migrants involved in the crisis have since returned to Morocco.",
       "article_ids": [
-        "6599cc4008ee933f2cac3c4e",
-        "d45d6fab808fe4cd1c9b63e9",
-        "9869caf938fcb34853a25c6d"
+        "ca712f211692aa163ead6de2",
+        "d45d6fab808fe4cd1c9b63e9"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/ceuta-crisis-22-eu-leaders-letter-spain-pedro-sanchez-migration-policy"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ceuta-60-000-cross-the-border-57-died"
         },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/video/20260801-ceuta-most-migrants-have-returned-to-morocco-57-died-crossing-the-border-1"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "NATO detects rapid Russian missile threat near Poland",
-      "summary": "NATO radar detected a Russian missile approaching Polish airspace within six minutes, demonstrating rapid threat identification. However, allied forces faced significant delays in deciding whether to intercept, highlighting decision‑making bottlenecks.",
+      "title": "Russian Strikes on Kyiv",
+      "summary": "Missile attacks in the Ukrainian capital have caused at least nine deaths. The strikes also resulted in 28 injuries.",
       "article_ids": [
-        "f307420cdc4c68237627e0fd"
+        "f9618d50c538cb0dcae5146d",
+        "a5bd38e85ae923ea823a0a1f"
       ],
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/230899/polands-sixminute-russia-missile-scare-shows-how-fast-nato-can-spot-a-threat-and-the-agonising-slowness-of-deciding-if-to-fire-back"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/kyiv-9-dead-and-22-hurt-in-missile-attack"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260801-russian-attack-on-ukrainian-capital-kills-at-least-nine-people"
         }
       ],
       "source_count": 1
@@ -100,35 +104,20 @@
   ],
   "top_stories": [
     {
-      "title": "European wildfires challenge containment efforts",
-      "summary": "French authorities reported that the nation's largest wildfire in decades is now under control, although residual fires continue to burn in some regions. In Greece, firefighting crews are actively confronting blazes near Athens amid persistent dry weather.",
+      "title": "European Wildfire Challenges",
+      "summary": "Wildfires are burning across France and Greece despite containment efforts. Firefighters in France have managed to stop the spread of a major blaze.",
       "article_ids": [
-        "3c78855cdb892395861496d1",
-        "4aeb920bd8219fda3925f300",
-        "a356123b26a331c00e615894"
+        "12027c0b88b64abbd4cda806",
+        "3c78855cdb892395861496d1"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260801-french-firefighters-stop-wildfires-spread-but-they-continue-burn"
+          "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
         },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/france/20260801-french-firefighters-stop-wildfires-spread-but-they-continue-burn"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "AI safety warnings increase amid rogue model behavior",
-      "summary": "AI safety concerns are growing as models exhibit rogue behavior. AI safety warnings are rising, indicating increased vigilance over the technology.",
-      "article_ids": [
-        "d7c06e7c9230871163d1a0ec"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260801-ai-safety-concerns-grow-as-models-go-rogue"
         }
       ],
       "source_count": 1
@@ -136,23 +125,77 @@
   ],
   "developing": [
     {
-      "label": "Kyiv · Russian · strikes",
+      "label": "Ceuta · Spain · migrant · crossings",
+      "origin": "convergence",
+      "source_count": 5,
+      "item_count": 12,
+      "latest_at": "2026-08-01T10:11:39Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cx2v91xn1z9o?at_medium=RSS&at_campaign=rss",
+          "headline": "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
+          "published_at": "2026-08-01T10:11:39Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260801-ceuta-what-triggered-mass-migrant-crossing-1",
+          "headline": "Ceuta: What triggered mass migrant crossing?",
+          "published_at": "2026-08-01T09:03:00Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ceuta-spain-under-pressure-as-italy-suspends-schengen-deal/live-78191601?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Ceuta: Spain under pressure as Italy suspends Schengen deal",
+          "published_at": "2026-08-01T08:54:00Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/almost-all-ceuta-migrants-returned-morocco-spain-says",
+          "headline": "Almost all of Ceuta migrants have returned to Morocco, Spain says",
+          "published_at": "2026-07-31T17:05:57Z"
+        }
+      ]
+    },
+    {
+      "label": "Ceuta · crisis · migration · Spain",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-01T08:58:23Z",
+      "item_count": 5,
+      "latest_at": "2026-08-01T11:51:10Z",
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ceuta-2026-dwarfs-2021-migration-crisis",
+          "headline": "Ceuta 2026 dwarfs 2021 migration crisis",
+          "published_at": "2026-08-01T11:51:10Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ceuta-crisis-22-eu-leaders-letter-spain-pedro-sanchez-migration-policy",
+          "headline": "Ceuta crisis: 22 EU leaders gang up against Spain’s Sánchez over his migration policy",
+          "published_at": "2026-08-01T11:10:34Z"
+        }
+      ]
+    },
+    {
+      "label": "Russian · Kyiv · Nine · strikes",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-08-01T11:52:29Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
+          "headline": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
+          "published_at": "2026-08-01T11:52:29Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/at-least-9-dead-28-wounded-in-kyiv-after-russian-strikes",
           "headline": "At least 9 dead, 28 wounded in Kyiv after Russian strikes",
           "published_at": "2026-08-01T08:58:23Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
-          "headline": "Russian strikes on Kyiv kill at least nine, Ukraine officials say",
-          "published_at": "2026-08-01T07:21:46Z"
         }
       ]
     },
@@ -176,45 +219,107 @@
           "published_at": "2026-07-31T13:48:34Z"
         }
       ]
-    },
-    {
-      "label": "leader · opposition",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-07-31T21:14:56Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260731-ugandan-opposition-leader-kizza-besigye-rushed-to-hospital-after-court-collapse",
-          "headline": "Ugandan opposition leader Kizza Besigye rushed to hospital after court collapse",
-          "published_at": "2026-07-31T21:14:56Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-07-31/rakshya-bam-leader-of-the-nepali-gen-z-movement-we-are-the-best-opposition-to-this-new-government.html",
-          "headline": "Rakshya Bam, leader of the Nepali Gen Z movement: ‘We are the best opposition to this new government’",
-          "published_at": "2026-07-31T19:29:49Z"
-        }
-      ]
-    },
-    {
-      "label": "Trump · Donald · Hamas · away",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 5,
-      "latest_at": "2026-08-01T08:59:54Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/donald-trump-presses-israel-to-accept-deal-with-hamas",
-          "headline": "Donald Trump presses Israel to accept deal with Hamas",
-          "published_at": "2026-08-01T08:59:54Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "d6b65f58d4fab8850097a3f5",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
+      "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-01T11:52:29Z",
+      "collected_at": "2026-08-01T12:02:11Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "85781d580e871207170cb7b6",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Africa: Fighting erupts in Ethiopia's Tigray",
+      "url": "https://www.france24.com/en/africa-fighting-erupts-in-ethiopia-s-tigray",
+      "published_at": "2026-08-01T11:52:01Z",
+      "collected_at": "2026-08-01T12:02:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "6d830aa45a34addcc3e35993",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ceuta 2026 dwarfs 2021 migration crisis",
+      "url": "https://www.france24.com/en/ceuta-2026-dwarfs-2021-migration-crisis",
+      "published_at": "2026-08-01T11:51:10Z",
+      "collected_at": "2026-08-01T12:02:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "12027c0b88b64abbd4cda806",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France: Major wildfire contained but uncontrolled",
+      "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled",
+      "published_at": "2026-08-01T11:49:36Z",
+      "collected_at": "2026-08-01T12:02:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "fc60f665103982ce2570709a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "African Union mission in Somalia in question after US funding to end",
+      "url": "https://www.france24.com/en/african-union-mission-in-somalia-in-question-after-us-funding-to-end",
+      "published_at": "2026-08-01T11:23:00Z",
+      "collected_at": "2026-08-01T12:02:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "ca712f211692aa163ead6de2",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ceuta: 60,000 cross the border, 57 died",
+      "url": "https://www.france24.com/en/ceuta-60-000-cross-the-border-57-died",
+      "published_at": "2026-08-01T11:21:13Z",
+      "collected_at": "2026-08-01T12:02:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f9618d50c538cb0dcae5146d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Kyiv: 9 dead and 22 hurt in missile attack",
+      "url": "https://www.france24.com/en/kyiv-9-dead-and-22-hurt-in-missile-attack",
+      "published_at": "2026-08-01T11:19:43Z",
+      "collected_at": "2026-08-01T12:02:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "6599cc4008ee933f2cac3c4e",
       "source_id": "politico_europe",
@@ -1448,20 +1553,6 @@
       ]
     },
     {
-      "id": "cf3847bb9b4f840dd9a6d5dc",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "About 60,000 migrants Ceuta in 24 hours, Spanish territory's leader says",
-      "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-31T12:00:18Z",
-      "collected_at": "2026-07-31T12:00:48Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "d9b700ab45c01578f6829e2a",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1473,20 +1564,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "22332b474600b009d4cbe1a5",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Ceuta: Spain scrambles after thousands breach exclave border",
-      "url": "https://www.dw.com/en/ceuta-spain-scrambles-after-thousands-breach-exclave-border/live-78191601?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-07-31T11:47:00Z",
-      "collected_at": "2026-07-31T12:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
@@ -1518,76 +1595,6 @@
       ]
     },
     {
-      "id": "e27782301e1f7087596cf262",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "No country for old men: Music genre rejuvenates to fit the algorithm era",
-      "url": "https://english.elpais.com/culture/2026-07-31/no-country-for-old-men-music-genre-rejuvenates-to-fit-the-algorithm-era.html",
-      "published_at": "2026-07-31T11:36:38Z",
-      "collected_at": "2026-07-31T12:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "a0a0baf06436c095201ce976",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘Pervert glasses’: Meta struggles with mockery and misgivings toward its star product",
-      "url": "https://english.elpais.com/technology/2026-07-31/pervert-glasses-meta-struggles-with-mockery-and-misgivings-toward-its-star-product.html",
-      "published_at": "2026-07-31T11:35:52Z",
-      "collected_at": "2026-07-31T12:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "6f0de61c4c4a21f0ca1c5640",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Pro-Kremlin TV star decries ‘censorship’ after France orders expulsion",
-      "url": "https://www.politico.eu/article/xenia-fedorova-accuses-emmanuel-macron-censorship-france-expulsion-order",
-      "published_at": "2026-07-31T11:05:07Z",
-      "collected_at": "2026-07-31T12:00:48Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "28d0ad174ba26466be81a4b7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Infantino's senior advisor resigns amid outrage over FIFA's private investment plan",
-      "url": "https://www.france24.com/en/infantino-s-senior-advisor-resigns-amid-outrage-over-fifa-s-private-investment-plan",
-      "published_at": "2026-07-31T10:42:46Z",
-      "collected_at": "2026-07-31T12:00:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "f9bd1773177e1f216f3f1321",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "What to know about the arrival of 49,000 migrants into Spain's Ceuta",
-      "url": "https://www.france24.com/en/what-to-know-about-the-arrival-of-nearly-49-000-migrants-from-morocco-into-spain",
-      "published_at": "2026-07-31T10:38:49Z",
-      "collected_at": "2026-07-31T12:00:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "7107e398b9a73eac4e298297",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1613,20 +1620,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "f5cb7b0213cac0082be949aa",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Around 60,000 migrants crossed into Spain’s Ceuta exclave from Morocco",
-      "url": "https://www.france24.com/en/europe/20260731-almost-50-000-migrants-crossed-morocco-ceuta-border-over-past-24-hours",
-      "published_at": "2026-07-31T07:57:37Z",
-      "collected_at": "2026-07-31T12:00:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -1672,6 +1665,62 @@
       ]
     },
     {
+      "id": "3ecdc820b8338c28cc4dc379",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
+      "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-07-30T15:35:50Z",
+      "collected_at": "2026-08-01T12:02:11Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "97463ed3efb5c548a0f27eae",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "A Spider-Man for every person and generation",
+      "url": "https://english.elpais.com/culture/2026-07-30/a-spider-man-for-every-person-and-generation.html",
+      "published_at": "2026-07-30T10:33:27Z",
+      "collected_at": "2026-08-01T12:02:11Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "2a0c102d99f8aeb2b8484b34",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The secret weapon mosquitoes are using to win the war against humans: evading insecticides",
+      "url": "https://english.elpais.com/health/2026-07-30/the-secret-weapon-mosquitoes-are-using-to-win-the-war-against-humans-evading-insecticides.html",
+      "published_at": "2026-07-30T10:32:59Z",
+      "collected_at": "2026-08-01T12:02:11Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "6fe15bcc33cc41c03e14e545",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Crete wildfires cause evacuations and firefighter deaths",
+      "url": "https://www.dw.com/en/crete-wildfires-cause-evacuations-and-firefighter-deaths/a-78171093?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-07-30T10:31:00Z",
+      "collected_at": "2026-08-01T12:02:11Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "d88dc39278fa937a9c0f56fd",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1686,6 +1735,34 @@
       ]
     },
     {
+      "id": "bb3875f43fb624b4efe338c5",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "‘It’s like returning to the Wild West’ – Moldova tries to lure back its lost citizens",
+      "url": "https://euobserver.com/228833/its-like-returning-to-the-wild-west-moldova-tries-to-lure-back-its-lost-citizens",
+      "published_at": "2026-07-30T09:12:04Z",
+      "collected_at": "2026-08-01T12:02:11Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "dcab98b150fd797ee88b18e5",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "PM Tusk says Russian Kh-101 missile likely crashed in eastern Poland",
+      "url": "https://notesfrompoland.com/2026/07/30/unidentified-object-crashes-in-poland-after-russian-attack-on-ukraine",
+      "published_at": "2026-07-30T08:23:39Z",
+      "collected_at": "2026-08-01T12:02:11Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "8a6ff0cc04ab25033e74d37c",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1697,6 +1774,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "8198484bd345ef042451d849",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Singapore fines French teen $465 for viral straw-licking stunt",
+      "url": "https://www.bbc.co.uk/news/articles/crrvqjw8epko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-07-30T02:54:54Z",
+      "collected_at": "2026-08-01T12:02:11Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -1863,6 +1954,20 @@
       "collected_at": "2026-07-31T14:00:50Z",
       "topics": [
         "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "256e0213f20d7b056751ebc3",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Zelensky and Netanyahu meet Trump as wars in Ukraine and Iran drag on",
+      "url": "https://www.bbc.co.uk/news/articles/cj4k2z8z45ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-07-29T12:17:42Z",
+      "collected_at": "2026-08-01T12:02:11Z",
+      "topics": [
+        "breaking",
         "politics",
         "society"
       ]
@@ -2635,62 +2740,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "eec6f8ba9156cc671478aecd",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "One month after the earthquakes in Venezuela: ‘People aren’t going to leave their dead there’",
-      "url": "https://english.elpais.com/international/2026-07-24/one-month-after-the-earthquakes-in-venezuela-people-arent-going-to-leave-their-dead-there.html",
-      "published_at": "2026-07-24T07:57:48Z",
-      "collected_at": "2026-07-31T14:00:50Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "642722bf431a8a897fbb68c6",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump imposes chaotic trade system in his third round of tariffs",
-      "url": "https://english.elpais.com/economy-and-business/2026-07-24/trump-imposes-chaotic-trade-system-in-his-third-round-of-tariffs.html",
-      "published_at": "2026-07-24T06:00:54Z",
-      "collected_at": "2026-07-31T14:00:50Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "66029b24ac577f1e07324141",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "The China-native generation",
-      "url": "https://ecfr.eu/podcasts/episode/the-china-native-generation",
-      "published_at": "2026-07-24T05:00:00Z",
-      "collected_at": "2026-07-31T15:00:47Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "b518aee8b0e925705fd02aad",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Sweden eases mining permits to cut China minerals reliance",
-      "url": "https://www.dw.com/en/sweden-eases-mining-permits-to-cut-china-minerals-reliance/a-78087394?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-07-23T18:08:00Z",
-      "collected_at": "2026-07-31T13:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     }
   ]
