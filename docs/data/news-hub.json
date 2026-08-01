@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-01T14:30:40Z",
-  "last_successful_collection_at": "2026-08-01T14:30:40Z",
+  "generated_at": "2026-08-01T15:32:15Z",
+  "last_successful_collection_at": "2026-08-01T15:32:15Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-01T14:30:40Z"
+      "at": "2026-08-01T15:32:15Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-01T14:30:40Z"
+      "at": "2026-08-01T15:32:15Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-01T14:30:40Z"
+      "at": "2026-08-01T15:32:15Z"
     },
     {
       "id": "euractiv",
@@ -29,49 +29,49 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-01T14:30:40Z"
+      "at": "2026-08-01T15:32:15Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-01T14:30:40Z"
+      "at": "2026-08-01T15:32:15Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-08-01T14:30:40Z"
+      "at": "2026-08-01T15:32:15Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-01T14:30:40Z"
+      "at": "2026-08-01T15:32:15Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-01T14:30:40Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-01T15:32:15Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-01T14:30:40Z"
+      "at": "2026-08-01T15:32:15Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian strikes on Kyiv kill at least nine",
-      "summary": "Russian missile strikes on Kyiv have killed at least nine people and injured dozens. Ukrainian officials say the attacks also sank a Russian container ship in the Black Sea.",
+      "title": "Russian missile strikes on Kyiv cause multiple fatalities",
+      "summary": "At least nine people were killed during a missile attack on the Ukrainian capital. The strikes also resulted in 28 injuries.",
       "article_ids": [
-        "b0bbf11aab3a91f7ebc48e74",
         "d6b65f58d4fab8850097a3f5",
         "f9618d50c538cb0dcae5146d",
         "9af70598ae20530902b81fe7",
-        "a5bd38e85ae923ea823a0a1f"
+        "a5bd38e85ae923ea823a0a1f",
+        "b0bbf11aab3a91f7ebc48e74"
       ],
       "sources": [
         {
@@ -79,29 +79,54 @@
           "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/kyiv-9-dead-and-22-hurt-in-missile-attack"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Ceuta migrant crisis intensifies",
-      "summary": "Over sixty thousand migrants have crossed the border into Ceuta, with dozens reported dead. EU leaders have criticized Spain's migration policy, urging a coordinated response.",
+      "title": "Wildfires spread across France and Greece",
+      "summary": "Major wildfires are burning in France and Greece despite containment efforts. Firefighters in France have managed to stop the spread of some fires, though they continue to burn.",
       "article_ids": [
-        "ca712f211692aa163ead6de2",
-        "6d830aa45a34addcc3e35993",
-        "6599cc4008ee933f2cac3c4e",
-        "673e1fd05b487e2085f7755b",
-        "8f1f59ae83dacc235b08b775",
-        "c5f30a8ce67880a5bba13afe",
-        "d45d6fab808fe4cd1c9b63e9",
-        "7df007c077c3807e544807de"
+        "12027c0b88b64abbd4cda806",
+        "65c11f69671b426ac7d0a421",
+        "3c78855cdb892395861496d1",
+        "4aeb920bd8219fda3925f300",
+        "a356123b26a331c00e615894"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ceuta-60-000-cross-the-border-57-died"
+          "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Migration Crisis in Ceuta",
+      "summary": "Spain has criticized EU partners for their response to the migrant influx in Ceuta. The enclave has seen significant border crossings, with 57 deaths reported.",
+      "article_ids": [
+        "e18bf6834bb35bd73a70bfe0",
+        "6d830aa45a34addcc3e35993",
+        "ca712f211692aa163ead6de2",
+        "6599cc4008ee933f2cac3c4e",
+        "673e1fd05b487e2085f7755b",
+        "d45d6fab808fe4cd1c9b63e9",
+        "7df007c077c3807e544807de",
+        "8f1f59ae83dacc235b08b775",
+        "c5f30a8ce67880a5bba13afe"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ceuta-spain-slams-selfish-eu-partners"
         },
         {
           "publisher": "France 24 English",
@@ -111,75 +136,25 @@
       "source_count": 1
     }
   ],
-  "top_stories": [
-    {
-      "title": "Wildfires spread across France and Greece",
-      "summary": "Wildfires have spread across parts of France and Greece, prompting evacuations in several communities. Firefighters have contained the largest blaze in France, though flames continue to burn in other areas.",
-      "article_ids": [
-        "3c78855cdb892395861496d1",
-        "4aeb920bd8219fda3925f300",
-        "12027c0b88b64abbd4cda806",
-        "65c11f69671b426ac7d0a421",
-        "a356123b26a331c00e615894"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260801-french-firefighters-stop-wildfires-spread-but-they-continue-burn"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260801-french-firefighters-stop-wildfires-spread-but-they-continue-burn"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "NATO detects rapid missile threat near Poland",
-      "summary": "NATO registered a fast‑approaching Russian missile near Poland, giving only six minutes to evaluate the threat. Allied officials are still debating whether to return fire, illustrating delays in decision‑making.",
-      "article_ids": [
-        "f307420cdc4c68237627e0fd"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/230899/polands-sixminute-russia-missile-scare-shows-how-fast-nato-can-spot-a-threat-and-the-agonising-slowness-of-deciding-if-to-fire-back"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
   "developing": [
     {
-      "label": "Ceuta · Spain · migrant · Morocco",
+      "label": "Ceuta · migrant · crossing · mass",
       "origin": "convergence",
-      "source_count": 4,
-      "item_count": 11,
-      "latest_at": "2026-08-01T10:11:39Z",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-08-01T14:40:53Z",
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cx2v91xn1z9o?at_medium=RSS&at_campaign=rss",
-          "headline": "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
-          "published_at": "2026-08-01T10:11:39Z"
-        },
-        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260801-ceuta-what-triggered-mass-migrant-crossing-1",
-          "headline": "Ceuta: What triggered mass migrant crossing?",
-          "published_at": "2026-08-01T09:03:00Z"
+          "url": "https://www.france24.com/en/video/20260801-ceuta-enclave-almost-back-to-normal-after-migrant-influx-1",
+          "headline": "Ceuta enclave \"almost\" back to normal after migrant influx",
+          "published_at": "2026-08-01T14:40:53Z"
         },
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ceuta-spain-under-pressure-as-italy-suspends-schengen-deal/live-78191601?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Ceuta: Spain under pressure as Italy suspends Schengen deal",
-          "published_at": "2026-08-01T08:54:00Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/almost-all-ceuta-migrants-returned-morocco-spain-says",
-          "headline": "Almost all of Ceuta migrants have returned to Morocco, Spain says",
-          "published_at": "2026-07-31T17:05:57Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/c171nnql1j4o?at_medium=RSS&at_campaign=rss",
+          "headline": "What triggered the mass migrant crossings into Ceuta?",
+          "published_at": "2026-07-31T18:29:04Z"
         }
       ]
     },
@@ -205,43 +180,105 @@
       ]
     },
     {
-      "label": "leader · opposition",
+      "label": "border · Ceuta",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-07-31T21:14:56Z",
+      "latest_at": "2026-08-01T11:21:13Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260731-ugandan-opposition-leader-kizza-besigye-rushed-to-hospital-after-court-collapse",
-          "headline": "Ugandan opposition leader Kizza Besigye rushed to hospital after court collapse",
-          "published_at": "2026-07-31T21:14:56Z"
+          "url": "https://www.france24.com/en/ceuta-60-000-cross-the-border-57-died",
+          "headline": "Ceuta: 60,000 cross the border, 57 died",
+          "published_at": "2026-08-01T11:21:13Z"
         },
         {
           "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-07-31/rakshya-bam-leader-of-the-nepali-gen-z-movement-we-are-the-best-opposition-to-this-new-government.html",
-          "headline": "Rakshya Bam, leader of the Nepali Gen Z movement: ‘We are the best opposition to this new government’",
-          "published_at": "2026-07-31T19:29:49Z"
+          "url": "https://english.elpais.com/spain/2026-07-31/thousands-of-people-return-to-morocco-after-crossing-the-border-with-ceuta.html",
+          "headline": "Thousands of people return to Morocco after crossing the border into Ceuta",
+          "published_at": "2026-07-31T20:05:10Z"
         }
       ]
     },
     {
-      "label": "Trump · deal · Donald · Hamas",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 5,
-      "latest_at": "2026-08-01T08:59:54Z",
+      "label": "migrants · Trump",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-01T04:00:00Z",
       "sources": [
         {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-08-01/detaining-undocumented-migrants-at-airports-the-new-front-in-trumps-immigration-offensive.html",
+          "headline": "Detaining undocumented migrants at airports, the new front in Trump’s immigration offensive",
+          "published_at": "2026-08-01T04:00:00Z"
+        },
+        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/donald-trump-presses-israel-to-accept-deal-with-hamas",
-          "headline": "Donald Trump presses Israel to accept deal with Hamas",
-          "published_at": "2026-08-01T08:59:54Z"
+          "url": "https://www.france24.com/en/europe/20260731-trump-blames-spain-for-migrant-chaos-despite-return-of-tens-of-thousands-to-morocco",
+          "headline": "Trump blames Spain for migrant chaos despite return of tens of thousands to Morocco",
+          "published_at": "2026-07-31T16:27:28Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "682f5187e3187ef1f7b41f4b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Fast access to Trump's ‘Truth Social’ posts goes on sale for $100,000 per month",
+      "url": "https://www.france24.com/en/americas/20260801-fast-access-trump-truth-social-posts-sale-for-100-000-per-month",
+      "published_at": "2026-08-01T15:29:08Z",
+      "collected_at": "2026-08-01T15:32:15Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e18bf6834bb35bd73a70bfe0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ceuta: Spain slams \"selfish\" EU partners",
+      "url": "https://www.france24.com/en/ceuta-spain-slams-selfish-eu-partners",
+      "published_at": "2026-08-01T14:42:22Z",
+      "collected_at": "2026-08-01T15:32:15Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a9b88370373097cb85f16df0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ceuta enclave \"almost\" back to normal after migrant influx",
+      "url": "https://www.france24.com/en/video/20260801-ceuta-enclave-almost-back-to-normal-after-migrant-influx-1",
+      "published_at": "2026-08-01T14:40:53Z",
+      "collected_at": "2026-08-01T15:32:15Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "619510c6648be2ad129ad494",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Scientists study Greenland's melting ice",
+      "url": "https://www.france24.com/en/video/20260801-scientists-study-greenland-s-melting-ice",
+      "published_at": "2026-08-01T14:39:16Z",
+      "collected_at": "2026-08-01T15:32:15Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "7db7a342e29509c92907aec4",
       "source_id": "france24",
@@ -1279,104 +1316,6 @@
       ]
     },
     {
-      "id": "0214c1ca8b84787442aff956",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Greece orders partial evacuation of Athens suburb as wildfire burns",
-      "url": "https://www.france24.com/en/europe/20260731-greece-orders-partial-evacuation-of-athens-suburb-as-wildfire-burns",
-      "published_at": "2026-07-31T14:55:48Z",
-      "collected_at": "2026-07-31T15:00:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0801fd59afc7e1c902f3af44",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Romania defends Nato’s Eastern flank even without a working government and a busted budget",
-      "url": "https://euobserver.com/231000/romania-defends-natos-eastern-flank-even-without-a-working-government-and-a-busted-budget",
-      "published_at": "2026-07-31T14:49:32Z",
-      "collected_at": "2026-07-31T15:00:47Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "7f0d8093fbba140b95b50720",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Although France's mega fire has eased, the dangers firefighters face haven't",
-      "url": "https://www.france24.com/en/although-france-s-mega-fire-has-eased-the-dangers-firefighters-face-haven-t",
-      "published_at": "2026-07-31T14:46:37Z",
-      "collected_at": "2026-07-31T15:00:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "8240ece4bef6b7ecdb6bc5c5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Thousands start returning to Morocco after mass arrivals in Spain's Ceuta",
-      "url": "https://www.france24.com/en/thousands-start-returning-to-morocco-after-mass-arrivals-in-spain-s-ceuta",
-      "published_at": "2026-07-31T14:41:52Z",
-      "collected_at": "2026-07-31T15:00:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e018951ef3d22ed1bdb067b8",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "The split in Poland’s opposition could help them unseat Tusk’s government [Opinion]",
-      "url": "https://notesfrompoland.com/2026/07/31/the-split-in-polands-opposition-could-help-them-unseat-tusks-government-opinion",
-      "published_at": "2026-07-31T14:38:35Z",
-      "collected_at": "2026-07-31T15:00:47Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "639763491409ebc63bb81d7e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Heatwave pushes energy-hungry Tunisia to enforce rolling blackouts",
-      "url": "https://www.france24.com/en/video/20260731-heatwave-forces-energy-hungry-tunisia-to-enforce-rolling-blackouts",
-      "published_at": "2026-07-31T14:30:22Z",
-      "collected_at": "2026-07-31T15:00:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "311e3ada5422385e663e2cc8",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "UK to hold budget on Oct. 28, chancellor announces",
-      "url": "https://www.politico.eu/article/uk-budget-october-28-chancellor-john-healey",
-      "published_at": "2026-07-31T14:28:00Z",
-      "collected_at": "2026-07-31T15:00:47Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "9acd750779f6fb78b415b97c",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1387,62 +1326,6 @@
       "topics": [
         "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "0e8343fb97f8924b93c19efb",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Cameroon president's absence sparks debate over government inaction",
-      "url": "https://www.france24.com/en/cameroon-president-s-absence-sparks-debate-over-government-inaction",
-      "published_at": "2026-07-31T14:18:13Z",
-      "collected_at": "2026-07-31T15:00:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "d1d35e444409bc297195d4d1",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Internal documents reveal Shell decision to keep polluted Niger Delta pipeline open despite staff warnings",
-      "url": "https://euobserver.com/230919/internal-documents-reveal-shell-decision-to-keep-polluted-niger-delta-pipeline-open-despite-staff-warnings",
-      "published_at": "2026-07-31T13:56:00Z",
-      "collected_at": "2026-07-31T14:30:43Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "55fd63fcc68bd5411be576e3",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Some 25,000 migrants return to Morocco after thousands cross border into Spain",
-      "url": "https://www.france24.com/en/europe/20260731-eu-races-to-contain-new-migrant-crisis-as-thousands-cross-into-spanish-territory-of-ceuta",
-      "published_at": "2026-07-31T13:21:06Z",
-      "collected_at": "2026-07-31T15:00:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "9754a06152356a4cd8d5358f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Some 37,500 migrants return to Morocco after thousands cross border into Spain",
-      "url": "https://www.france24.com/en/europe/20260731-eu-races-to-contain-new-migrant-crisis-as-thousands-cross-into-spanish-territory-of-ceuta",
-      "published_at": "2026-07-31T13:21:06Z",
-      "collected_at": "2026-07-31T15:30:38Z",
-      "topics": [
-        "politics",
-        "security",
         "society"
       ]
     },
@@ -1512,6 +1395,20 @@
       "collected_at": "2026-08-01T12:02:11Z",
       "topics": [
         "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "f959542152098ade139fd322",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland appoints new official to promote country’s brand internationally",
+      "url": "https://notesfrompoland.com/2026/07/30/poland-appoints-new-official-to-promote-countrys-brand-internationally",
+      "published_at": "2026-07-30T14:37:10Z",
+      "collected_at": "2026-08-01T15:32:15Z",
+      "topics": [
+        "central_europe",
         "politics",
         "society"
       ]
@@ -1808,48 +1705,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "2267e129132ca81bc03a60d5",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Two of a kind: How France and Italy can show the way for Europe’s Africa policy",
-      "url": "https://ecfr.eu/article/two-of-a-kind-how-france-and-italy-can-show-the-way-for-europes-africa-policy",
-      "published_at": "2026-07-29T10:42:02Z",
-      "collected_at": "2026-07-31T15:00:47Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "0b4019a93f8bac7aaa5598e6",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "The Saudi dilemma: How Yemen could shape the next phase of the Iran war",
-      "url": "https://ecfr.eu/article/the-saudi-dilemma-how-yemen-could-shape-the-next-phase-of-the-iran-war",
-      "published_at": "2026-07-28T14:57:48Z",
-      "collected_at": "2026-07-31T15:00:47Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "89646e0119c5675c5cde9a39",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Shoring up the Red Sea: Why the next crisis may begin in the Horn of Africa",
-      "url": "https://ecfr.eu/article/shoring-up-the-red-sea-why-the-next-crisis-may-begin-in-the-horn-of-africa",
-      "published_at": "2026-07-28T07:00:23Z",
-      "collected_at": "2026-07-31T15:00:47Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
       ]
     }
   ]
