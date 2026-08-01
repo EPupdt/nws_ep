@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-01T15:32:15Z",
-  "last_successful_collection_at": "2026-08-01T15:32:15Z",
+  "generated_at": "2026-08-01T16:00:41Z",
+  "last_successful_collection_at": "2026-08-01T16:00:41Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-01T15:32:15Z"
+      "at": "2026-08-01T16:00:41Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-01T15:32:15Z"
+      "at": "2026-08-01T16:00:41Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-01T15:32:15Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-01T16:00:41Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-01T15:32:15Z"
+      "at": "2026-08-01T16:00:41Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-01T15:32:15Z"
+      "at": "2026-08-01T16:00:41Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-08-01T15:32:15Z"
+      "at": "2026-08-01T16:00:41Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-01T15:32:15Z"
+      "at": "2026-08-01T16:00:41Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-01T15:32:15Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-01T16:00:41Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-01T15:32:15Z"
+      "at": "2026-08-01T16:00:41Z"
     }
   ],
   "europe_now": [
@@ -1285,34 +1285,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "a76c5b3b77fcfdcd12cdc946",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Why did Riyadh join US strikes on Tehran's allies in Iraq?",
-      "url": "https://www.france24.com/en/middle-east/20260731-why-has-riyadh-joined-the-us-in-striking-tehran",
-      "published_at": "2026-07-31T15:41:12Z",
-      "collected_at": "2026-07-31T15:52:05Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "cc4eb2877b364c17220156a7",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "A definitive guide to the Grand Canyon",
-      "url": "https://english.elpais.com/travel/2026-07-31/a-definitive-guide-to-the-grand-canyon.html",
-      "published_at": "2026-07-31T15:25:59Z",
-      "collected_at": "2026-07-31T15:52:05Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
