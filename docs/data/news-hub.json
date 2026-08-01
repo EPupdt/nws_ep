@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-01T12:02:11Z",
-  "last_successful_collection_at": "2026-08-01T12:02:11Z",
+  "generated_at": "2026-08-01T12:32:33Z",
+  "last_successful_collection_at": "2026-08-01T12:32:33Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-01T12:02:11Z"
+      "at": "2026-08-01T12:32:33Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-01T12:02:11Z"
+      "at": "2026-08-01T12:32:33Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-01T12:02:11Z"
+      "at": "2026-08-01T12:32:33Z"
     },
     {
       "id": "euractiv",
@@ -29,74 +29,64 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-01T12:02:11Z"
+      "at": "2026-08-01T12:32:33Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-01T12:02:11Z"
+      "at": "2026-08-01T12:32:33Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-08-01T12:02:11Z"
+      "at": "2026-08-01T12:32:33Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-01T12:02:11Z"
+      "at": "2026-08-01T12:32:33Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-01T12:02:11Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-01T12:32:33Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-01T12:02:11Z"
+      "at": "2026-08-01T12:32:33Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ceuta Migration Crisis",
-      "summary": "A mass migration event has resulted in 57 deaths during border crossings. Most migrants involved in the crisis have since returned to Morocco.",
+      "title": "Ceuta: 60,000 cross the border, 57 died",
+      "summary": "Around sixty thousand migrants crossed the border into Ceuta. The crossing resulted in fifty‑seven deaths.",
       "article_ids": [
-        "ca712f211692aa163ead6de2",
-        "d45d6fab808fe4cd1c9b63e9"
+        "ca712f211692aa163ead6de2"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/ceuta-60-000-cross-the-border-57-died"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260801-ceuta-most-migrants-have-returned-to-morocco-57-died-crossing-the-border-1"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Russian Strikes on Kyiv",
-      "summary": "Missile attacks in the Ukrainian capital have caused at least nine deaths. The strikes also resulted in 28 injuries.",
+      "title": "France: Major wildfire contained but uncontrolled",
+      "summary": "A major wildfire in France has been contained. Nevertheless, the fire remains uncontrolled.",
       "article_ids": [
-        "f9618d50c538cb0dcae5146d",
-        "a5bd38e85ae923ea823a0a1f"
+        "12027c0b88b64abbd4cda806"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/kyiv-9-dead-and-22-hurt-in-missile-attack"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260801-russian-attack-on-ukrainian-capital-kills-at-least-nine-people"
+          "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
         }
       ],
       "source_count": 1
@@ -104,20 +94,43 @@
   ],
   "top_stories": [
     {
-      "title": "European Wildfire Challenges",
-      "summary": "Wildfires are burning across France and Greece despite containment efforts. Firefighters in France have managed to stop the spread of a major blaze.",
+      "title": "Russian strikes on Kyiv kill at least nine, Ukraine officials say",
+      "summary": "Russian strikes on Kyiv caused at least nine deaths. Ukraine officials confirmed the casualty count.",
       "article_ids": [
-        "12027c0b88b64abbd4cda806",
-        "3c78855cdb892395861496d1"
+        "b0bbf11aab3a91f7ebc48e74"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Poland’s six‑minute Russia missile scare shows how fast Nato can spot a threat — and the agonising slowness of deciding if to fire back",
+      "summary": "NATO detected a Russian missile scare near Poland within six minutes. Allied forces experienced delays in deciding whether to fire back.",
+      "article_ids": [
+        "f307420cdc4c68237627e0fd"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/230899/polands-sixminute-russia-missile-scare-shows-how-fast-nato-can-spot-a-threat-and-the-agonising-slowness-of-deciding-if-to-fire-back"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Greece fights fires near Athens",
+      "summary": "Greek authorities are fighting fires near Athens. The fires are located in the vicinity of Athens.",
+      "article_ids": [
+        "a356123b26a331c00e615894"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260801-french-firefighters-stop-wildfires-spread-but-they-continue-burn"
+          "url": "https://www.france24.com/en/greece-fights-fires-near-athens"
         }
       ],
       "source_count": 1
@@ -179,23 +192,23 @@
       ]
     },
     {
-      "label": "Russian · Kyiv · Nine · strikes",
+      "label": "wildfires · burn · continue",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-08-01T11:52:29Z",
+      "item_count": 3,
+      "latest_at": "2026-08-01T09:58:12Z",
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
-          "headline": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
-          "published_at": "2026-08-01T11:52:29Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20260801-french-firefighters-stop-wildfires-spread-but-they-continue-burn",
+          "headline": "French firefighters stop wildfires' spread but they continue to burn",
+          "published_at": "2026-08-01T09:58:12Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/at-least-9-dead-28-wounded-in-kyiv-after-russian-strikes",
-          "headline": "At least 9 dead, 28 wounded in Kyiv after Russian strikes",
-          "published_at": "2026-08-01T08:58:23Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c0kmzx8vpv4o?at_medium=RSS&at_campaign=rss",
+          "headline": "Hundreds escape Greek wildfire by sea as blazes continue across Europe",
+          "published_at": "2026-07-31T14:26:07Z"
         }
       ]
     },
@@ -272,6 +285,20 @@
       "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled",
       "published_at": "2026-08-01T11:49:36Z",
       "collected_at": "2026-08-01T12:02:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "65c11f69671b426ac7d0a421",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France: Major Gironde wildfire contained",
+      "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled",
+      "published_at": "2026-08-01T11:49:36Z",
+      "collected_at": "2026-08-01T12:32:33Z",
       "topics": [
         "politics",
         "security",
@@ -538,6 +565,20 @@
       "url": "https://www.france24.com/en/donald-trump-presses-israel-to-accept-deal-with-hamas",
       "published_at": "2026-08-01T08:59:54Z",
       "collected_at": "2026-08-01T10:03:26Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "6e5b890b5f427fcb6a26ed44",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Trump presses Israel to accept deal with Hamas",
+      "url": "https://www.france24.com/en/donald-trump-presses-israel-to-accept-deal-with-hamas",
+      "published_at": "2026-08-01T08:59:54Z",
+      "collected_at": "2026-08-01T12:32:33Z",
       "topics": [
         "politics",
         "security",
@@ -1553,20 +1594,6 @@
       ]
     },
     {
-      "id": "d9b700ab45c01578f6829e2a",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "About 60,000 migrants arrive in Ceuta in 24 hours, Spanish territory's leader says",
-      "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-31T12:00:18Z",
-      "collected_at": "2026-07-31T12:30:34Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "204095849e95e5d25cbae8d6",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1676,6 +1703,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "8df45754cc9204bf50113ae2",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "EU to co-fund seven AI Gigafactories in race for tech autonomy",
+      "url": "https://euobserver.com/230786/eu-to-co-fund-seven-ai-gigafactories-in-race-for-tech-autonomy",
+      "published_at": "2026-07-30T12:23:44Z",
+      "collected_at": "2026-08-01T12:32:33Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -2707,34 +2748,6 @@
       "title": "Watch: Wildfires rage across Spain and France",
       "url": "https://www.bbc.co.uk/news/videos/cz641jd4p4lo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-07-24T15:13:46Z",
-      "collected_at": "2026-07-31T13:00:52Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "0b0c74453e3a0d720f0d5a40",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Serbia: Inside the leaderless movement",
-      "url": "https://ecfr.eu/podcasts/episode/inside-the-leaderless-movement",
-      "published_at": "2026-07-24T12:35:30Z",
-      "collected_at": "2026-07-31T15:00:47Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "e2e860a513bf777565a0a868",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "What tariffs has Trump introduced and why?",
-      "url": "https://www.bbc.co.uk/news/articles/cn93e12rypgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-24T08:28:16Z",
       "collected_at": "2026-07-31T13:00:52Z",
       "topics": [
         "breaking",
