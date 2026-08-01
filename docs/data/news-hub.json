@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-31T21:32:44Z",
-  "last_successful_collection_at": "2026-07-31T21:32:44Z",
+  "generated_at": "2026-08-01T03:32:56Z",
+  "last_successful_collection_at": "2026-08-01T03:32:56Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T21:32:44Z"
+      "at": "2026-08-01T03:32:56Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-07-31T21:32:44Z"
+      "at": "2026-08-01T03:32:56Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-07-31T21:32:44Z"
+      "at": "2026-08-01T03:32:56Z"
     },
     {
       "id": "euractiv",
@@ -29,78 +29,110 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-07-31T21:32:44Z"
+      "at": "2026-08-01T03:32:56Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-07-31T21:32:44Z"
+      "at": "2026-08-01T03:32:56Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-07-31T21:32:44Z"
+      "at": "2026-08-01T03:32:56Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-07-31T21:32:44Z"
+      "at": "2026-08-01T03:32:56Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-07-31T21:32:44Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-01T03:32:56Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-07-31T21:32:44Z"
+      "at": "2026-08-01T03:32:56Z"
     }
   ],
   "europe_now": [
     {
       "title": "Ceuta Migration Crisis",
-      "summary": "More than 48,000 migrants have returned to Morocco after crossing into Spain's Ceuta enclave. Spanish authorities describe the influx as a diplomatic headache and attribute the mass crossings to trafficker networks.",
+      "summary": "Thousands of migrants have crossed the border into the Spanish enclave of Ceuta from Morocco. Spanish Prime Minister Pedro Sánchez has attributed the mass arrivals to human traffickers.",
       "article_ids": [
-        "6c387c42864754de614e585b",
-        "1d7a806a0fda6c6de1442675",
         "80e2f0b342b408568c99b888",
-        "9869caf938fcb34853a25c6d",
-        "ed326cd9da1020a4a4ea1dc1",
-        "0cf57b81cc1dffac96188b85",
-        "23addbac5a2b5fb9a375a244"
+        "1d7a806a0fda6c6de1442675"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260731-eu-races-to-contain-new-migrant-crisis-as-thousands-cross-into-spanish-territory-of-ceuta"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss"
         },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cr7k49p7enjo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "European Wildfire Crisis",
-      "summary": "Wildfires have prompted evacuations in France, Greece and other parts of Europe, with George Clooney's family among those leaving their French home. Although the largest French fire has eased, officials warn that firefighting dangers persist and a strengthening El Nino is adding to fire risk across the region.",
+      "title": "Wildfire Crisis in France",
+      "summary": "Wildfires in France have forced the evacuation of homes in the Bordeaux wine region. Firefighters continue to face significant dangers despite some easing of the mega fires.",
       "article_ids": [
         "f58f391534127ceeed32c011",
-        "0214c1ca8b84787442aff956",
-        "7f0d8093fbba140b95b50720",
-        "0600c61d00f9a54cdf8219e2",
-        "b08fe459b7f19abd6304c188"
+        "7f0d8093fbba140b95b50720"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20260731-george-clooney-s-family-evacuates-their-home-in-france-amid-wildfires"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/although-france-s-mega-fire-has-eased-the-dangers-firefighters-face-haven-t"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Migration and Border Security",
+      "summary": "A large influx of migrants into Ceuta has created a diplomatic challenge for Spain. Most of the individuals who crossed the border have since returned to Morocco.",
+      "article_ids": [
+        "9869caf938fcb34853a25c6d",
+        "ed326cd9da1020a4a4ea1dc1"
+      ],
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/spain/2026-07-31/thousands-of-people-return-to-morocco-after-crossing-the-border-with-ceuta.html"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/almost-all-ceuta-migrants-returned-morocco-spain-says"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Environmental and Climate Risks",
+      "summary": "The UN chief warned that a strengthening El Nino is adding fuel to a planet already on fire. Wildfires in Greece have necessitated partial evacuations in an Athens suburb.",
+      "article_ids": [
+        "0600c61d00f9a54cdf8219e2",
+        "0214c1ca8b84787442aff956"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/live-news/20260731-strengthening-el-nino-adding-fuel-to-a-planet-already-on-fire-un-chief"
         },
         {
           "publisher": "France 24 English",
@@ -110,56 +142,12 @@
       "source_count": 1
     }
   ],
-  "top_stories": [
-    {
-      "title": "Poland bans smartphones in primary schools and kindergartens",
-      "summary": "Poland has prohibited the use of smartphones by children in primary schools and kindergartens nationwide. The ban was announced on July 31, 2026.",
-      "article_ids": [
-        "d7f0c7dc94d645b5e1892e8a"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/07/31/poland-bans-use-of-smartphones-by-children-in-primary-schools-and-kindergartens"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "UK Chancellor announces October budget date",
-      "summary": "The UK Chancellor has announced that the national budget will be held on October 28, 2026. The announcement was made on July 31, 2026.",
-      "article_ids": [
-        "311e3ada5422385e663e2cc8"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/uk-budget-october-28-chancellor-john-healey"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Romania defends NATO's Eastern flank despite government and budget issues",
-      "summary": "Romania continues to defend NATO's Eastern flank even without a functioning government and amid a strained budget. The report was published on July 31, 2026.",
-      "article_ids": [
-        "0801fd59afc7e1c902f3af44"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/231000/romania-defends-natos-eastern-flank-even-without-a-working-government-and-a-busted-budget"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
   "developing": [
     {
-      "label": "Ceuta · Spain · migrant · Thousands",
+      "label": "Ceuta · migrant · Morocco · Spain",
       "origin": "convergence",
-      "source_count": 6,
-      "item_count": 16,
+      "source_count": 4,
+      "item_count": 5,
       "latest_at": "2026-07-31T20:05:10Z",
       "sources": [
         {
@@ -189,10 +177,31 @@
       ]
     },
     {
-      "label": "Ceuta · migrants · Spain · Spanish",
+      "label": "leader · opposition",
       "origin": "convergence",
-      "source_count": 4,
-      "item_count": 10,
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-07-31T21:14:56Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260731-ugandan-opposition-leader-kizza-besigye-rushed-to-hospital-after-court-collapse",
+          "headline": "Ugandan opposition leader Kizza Besigye rushed to hospital after court collapse",
+          "published_at": "2026-07-31T21:14:56Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-07-31/rakshya-bam-leader-of-the-nepali-gen-z-movement-we-are-the-best-opposition-to-this-new-government.html",
+          "headline": "Rakshya Bam, leader of the Nepali Gen Z movement: ‘We are the best opposition to this new government’",
+          "published_at": "2026-07-31T19:29:49Z"
+        }
+      ]
+    },
+    {
+      "label": "Ceuta · migrants · Spain",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
       "latest_at": "2026-07-31T19:17:09Z",
       "sources": [
         {
@@ -206,65 +215,25 @@
           "url": "https://www.politico.eu/article/donald-trump-criticizes-spain-pedro-sanchez-over-ceuta-migration",
           "headline": "Trump administration slams Spain’s Sánchez for migrant ‘invasion’ of Ceuta",
           "published_at": "2026-07-31T16:37:36Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/spain-s-pm-blames-trafficking-mafia-for-ongoing-ceuta-migrant-crisis",
-          "headline": "Spain's PM blames trafficking mafia for ongoing Ceuta migrant crisis",
-          "published_at": "2026-07-31T12:34:04Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/update-italy-temporarily-suspends-schengen-agreement-with-spain-over-ceuta-breach/live-78191601?maca=en-rss-en-eu-2092-rdf",
-          "headline": "UPDATE — Italy temporarily suspends Schengen agreement with Spain over Ceuta breach",
-          "published_at": "2026-07-31T11:47:00Z"
-        }
-      ]
-    },
-    {
-      "label": "fire · fuel · adding · already",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-07-31T16:41:11Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/live-news/20260731-strengthening-el-nino-adding-fuel-to-a-planet-already-on-fire-un-chief",
-          "headline": "Strengthening El Nino 'adding fuel to a planet already on fire': UN chief",
-          "published_at": "2026-07-31T16:41:11Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/climate/2026-07-31/climate-change-fuels-record-breaking-fires-in-spains-hottest-july-on-record.html",
-          "headline": "Climate change fuels record-breaking fires in Spain’s hottest July on record",
-          "published_at": "2026-07-31T09:44:40Z"
-        }
-      ]
-    },
-    {
-      "label": "government · opposition",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-07-31T19:29:49Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-07-31/rakshya-bam-leader-of-the-nepali-gen-z-movement-we-are-the-best-opposition-to-this-new-government.html",
-          "headline": "Rakshya Bam, leader of the Nepali Gen Z movement: ‘We are the best opposition to this new government’",
-          "published_at": "2026-07-31T19:29:49Z"
-        },
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/07/31/the-split-in-polands-opposition-could-help-them-unseat-tusks-government-opinion",
-          "headline": "The split in Poland’s opposition could help them unseat Tusk’s government [Opinion]",
-          "published_at": "2026-07-31T14:38:35Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "e3a61c6896cdc47ca4153381",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ugandan opposition leader Kizza Besigye rushed to hospital after court collapse",
+      "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260731-ugandan-opposition-leader-kizza-besigye-rushed-to-hospital-after-court-collapse",
+      "published_at": "2026-07-31T21:14:56Z",
+      "collected_at": "2026-08-01T03:32:56Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "2a9afa7959a74f6d51f0171d",
       "source_id": "france24",
@@ -1680,20 +1649,6 @@
       ]
     },
     {
-      "id": "0735d22fafae719ce6a12769",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "AI safety scare: Anthropic says Claude models accessed outside systems during testing",
-      "url": "https://www.france24.com/en/technology/20260731-ai-safety-scare-anthropic-says-claude-models-accessed-outside-systems-during-testing",
-      "published_at": "2026-07-31T03:22:10Z",
-      "collected_at": "2026-07-31T03:30:34Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "f1d78ff01dced0a7ac294256",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1705,174 +1660,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "dd4084976b6dc715342464e8",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Machthaber: Kaja Kallas",
-      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/machthaber-kaja-kallas",
-      "published_at": "2026-07-31T03:00:00Z",
-      "collected_at": "2026-07-31T03:30:34Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "a91a22425d887aade89d0870",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "White House unveils roadmap to demilitarize Gaza",
-      "url": "https://www.politico.com/news/2026/07/30/white-house-unveils-roadmap-demilitarize-gaza-israel-hamas-01018868",
-      "published_at": "2026-07-31T02:22:35Z",
-      "collected_at": "2026-07-31T03:30:34Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "5053a03b49c33c2dd2190c39",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Football and politics, brought to you by Big Business (and energy drinks)",
-      "url": "https://www.politico.eu/article/football-and-politics-gianni-infantino-donald-trump-big-business-and-energy-drinks",
-      "published_at": "2026-07-31T02:01:00Z",
-      "collected_at": "2026-07-31T03:30:34Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "49953be61e40eab421143207",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Why Andy Burnham is no ordinary Labour prime minister",
-      "url": "https://www.politico.eu/article/why-andy-burnham-no-ordinary-labour-prime-minister",
-      "published_at": "2026-07-31T02:00:00Z",
-      "collected_at": "2026-07-31T03:30:34Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "07317055b31667f87f1b7a34",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Russia’s Olympic win comes with a price for Putin",
-      "url": "https://www.politico.eu/article/russia-olympics-restoration-diplomatic-victory-price-vladimir-putin",
-      "published_at": "2026-07-31T02:00:00Z",
-      "collected_at": "2026-07-31T03:30:34Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "b7b432ce5ed32679413d56f8",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Amid escalation, US allies hang back on intervening in Iran war",
-      "url": "https://www.politico.com/news/2026/07/30/iran-war-allies-europe-asia-01018732",
-      "published_at": "2026-07-31T01:49:23Z",
-      "collected_at": "2026-07-31T03:30:34Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "9eeb3089388b8a719280887c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 Middle East live: Trump says Board of Peace reaches Hamas disarmament deal",
-      "url": "https://www.france24.com/en/middle-east/20260730-middle-east-live-trump-says-board-of-peace-reaches-hamas-disarmament-deal",
-      "published_at": "2026-07-30T23:19:57Z",
-      "collected_at": "2026-07-31T03:30:34Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4b8ac2e6ebaad70c7c995442",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Middle East live: Trump says Board of Peace reaches Hamas disarmament deal",
-      "url": "https://www.france24.com/en/middle-east/20260730-middle-east-live-trump-says-board-of-peace-reaches-hamas-disarmament-deal",
-      "published_at": "2026-07-30T23:04:48Z",
-      "collected_at": "2026-07-31T03:30:34Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "79f61bce860d92d2e4c323c8",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Italy and Spain clash over Schengen as Ceuta migration spat boils over",
-      "url": "https://www.politico.eu/article/migration-crisis-spain-italy-clash-over-schengen-morocco-cueta",
-      "published_at": "2026-07-30T22:49:52Z",
-      "collected_at": "2026-07-31T03:30:34Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "fa1c64b98cc940dcd83806a3",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Pakistan says US-Iran talks still alive despite fresh wave of US strikes",
-      "url": "https://www.france24.com/en/middle-east/20260730-pakistan-says-us-iran-talks-still-alive-despite-fresh-wave-of-us-strikes",
-      "published_at": "2026-07-30T22:42:57Z",
-      "collected_at": "2026-07-31T03:30:34Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "c99fcfde6103b8dd66bb6cfd",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Climate change made France, Spain wildfire conditions far more likely, scientists say",
-      "url": "https://www.france24.com/en/europe/20260730-climate-change-made-france-spain-wildfire-conditions-far-more-likely-scientists-say",
-      "published_at": "2026-07-30T22:32:33Z",
-      "collected_at": "2026-07-31T03:30:34Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4fbaf373a5ed429990e89349",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Climate change made Spanish wildfires 20 times more likely",
-      "url": "https://www.politico.eu/article/climate-change-spain-france-fire-likely",
-      "published_at": "2026-07-30T22:01:00Z",
-      "collected_at": "2026-07-31T03:30:34Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
