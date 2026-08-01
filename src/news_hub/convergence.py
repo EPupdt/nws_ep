@@ -123,7 +123,7 @@ def _label(cluster: list[dict[str, Any]]) -> str:
 def convergence_clusters(
     radar: list[dict[str, Any]],
     now: datetime,
-    window_hours: int = 12,
+    window_hours: int = 24,
     min_overlap: int = 2,
     min_publishers: int = 2,
     limit: int = 4,
@@ -133,6 +133,13 @@ def convergence_clusters(
     Returns clusters sorted by how many *distinct publishers* corroborate them,
     which is the signal we actually care about — five wire copies from one
     outlet mean far less than three independent newsrooms.
+
+    The window was twelve hours until 1 August 2026. Measured that morning at
+    07:00, twelve hours reached back over a quiet European night and held only
+    sixteen usable items, which produced exactly one corroborated cluster and a
+    near-empty panel. Twenty-four hours over the same radar held ninety-six
+    items and seven clusters. The bar for corroboration did not move; the
+    window simply has to be long enough to contain a news cycle.
     """
     cutoff = now - timedelta(hours=window_hours)
     recent: list[dict[str, Any]] = []
@@ -221,3 +228,75 @@ def convergence_clusters(
     scored.sort(key=lambda c: (-c["source_count"], -c["item_count"], c["latest_at"]), reverse=False)
     scored.sort(key=lambda c: (c["source_count"], c["item_count"], c["latest_at"]), reverse=True)
     return scored[:limit]
+
+
+def _cluster_urls(cluster: dict[str, Any]) -> set[str]:
+    return {str(source.get("url", "")) for source in cluster.get("sources", []) if source.get("url")}
+
+
+def developing_panel(
+    radar: list[dict[str, Any]],
+    now: datetime,
+    exclude_urls: set[str] | None = None,
+    window_hours: int = 24,
+    limit: int = 4,
+    min_fill_items: int = 2,
+) -> list[dict[str, Any]]:
+    """The Also developing panel: corroborated stories first, then the best of
+    the rest, and never padding for the sake of a full box.
+
+    Two publishers on the same event remains the bar for the top of the panel,
+    and nothing here lowers it. But on a quiet morning the radar can hold fewer
+    than four such stories while still holding real news, and a panel with one
+    row in it reads as if the site had stopped working.
+
+    So the free slots go to single-publisher clusters, and the test for those is
+    that the publisher came back to the story: at least two items on the same
+    event. That is a weak signal and it is deliberately the only one available
+    here, because the alternative signals are worse. The per-item ``topics``
+    come from the source configuration rather than from the article, so they
+    cannot tell a missile strike from a film review inside the same outlet. And
+    plain recency, measured on the radar of 1 August 2026, would have offered
+    "Nekonomics, or the great Japanese cat economy" and "A Spider-Man for every
+    person and generation" as developing European news. A publisher filing
+    twice is not proof of importance, but a feature written once will not pass
+    it, and that is the whole job.
+
+    When nothing clears the bar the panel is simply shorter. A short panel is
+    honest; a padded one is not.
+
+    ``exclude_urls`` drops clusters already visible elsewhere on the page. The
+    lead and the alert bar are drawn from the model's selection, and a story
+    shown there and repeated here reads as two stories.
+    """
+    exclude_urls = exclude_urls or set()
+
+    corroborated = [
+        cluster for cluster in convergence_clusters(
+            radar, now, window_hours=window_hours, min_publishers=2, limit=limit * 3,
+        )
+        if not (_cluster_urls(cluster) & exclude_urls)
+    ][:limit]
+
+    if len(corroborated) >= limit:
+        return corroborated
+
+    taken = set().union(*(_cluster_urls(c) for c in corroborated)) if corroborated else set()
+
+    # Same clustering, same window; only the publisher threshold differs, so the
+    # single-publisher clusters are disjoint from the ones already chosen.
+    fills = [
+        cluster for cluster in convergence_clusters(
+            radar, now, window_hours=window_hours, min_publishers=1, limit=200,
+        )
+        if cluster["source_count"] == 1
+        and cluster["item_count"] >= min_fill_items
+        and not (_cluster_urls(cluster) & (exclude_urls | taken))
+    ]
+
+    fills.sort(key=lambda c: (c["item_count"], c["latest_at"]), reverse=True)
+
+    for cluster in fills:
+        cluster["origin"] = "radar"
+
+    return (corroborated + fills)[:limit]

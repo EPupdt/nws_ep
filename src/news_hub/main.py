@@ -19,7 +19,7 @@ import feedparser
 import yaml
 
 from news_hub import archive
-from news_hub.convergence import convergence_clusters
+from news_hub.convergence import developing_panel
 
 ROOT = Path(__file__).resolve().parents[2]
 STATE_PATH = ROOT / "data" / "state.json"
@@ -307,7 +307,16 @@ def main() -> None:
     # now? This is computed from the radar alone, so the hub always has
     # something to lead with even when the model contributes nothing.
     state["last_collection_at"] = iso(now)
-    developing = convergence_clusters(state["radar"], now)
+    # Anything the model already put in the lead or the alert bar must not come
+    # back a second time as a developing story.
+    shown_urls = {
+        str(source.get("url", ""))
+        for group in ("europe_now", "top_stories")
+        for item in selection.get(group, [])
+        for source in item.get("sources", [])
+        if source.get("url")
+    }
+    developing = developing_panel(state["radar"], now, exclude_urls=shown_urls)
     payload = {"generated_at": iso(now), "last_successful_collection_at": iso(now), "source_health": health,
                "europe_now": selection["europe_now"], "top_stories": selection["top_stories"],
                "developing": developing, "radar": state["radar"]}
