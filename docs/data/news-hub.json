@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-01T17:32:53Z",
-  "last_successful_collection_at": "2026-08-01T17:32:53Z",
+  "generated_at": "2026-08-01T18:02:35Z",
+  "last_successful_collection_at": "2026-08-01T18:02:35Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-01T17:32:53Z"
+      "at": "2026-08-01T18:02:35Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-01T17:32:53Z"
+      "at": "2026-08-01T18:02:35Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-01T17:32:53Z"
+      "at": "2026-08-01T18:02:35Z"
     },
     {
       "id": "euractiv",
@@ -29,71 +29,48 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-01T17:32:53Z"
+      "at": "2026-08-01T18:02:35Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-01T17:32:53Z"
+      "at": "2026-08-01T18:02:35Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-08-01T17:32:53Z"
+      "at": "2026-08-01T18:02:35Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-01T17:32:53Z"
+      "at": "2026-08-01T18:02:35Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-01T17:32:53Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-01T18:02:35Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-01T17:32:53Z"
+      "at": "2026-08-01T18:02:35Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian missile strike on Kyiv kills at least nine",
-      "summary": "Russian forces conducted a missile strike on Kyiv, killing at least nine people and injuring dozens, according to Ukrainian officials.",
-      "article_ids": [
-        "b0bbf11aab3a91f7ebc48e74",
-        "d6b65f58d4fab8850097a3f5",
-        "f9618d50c538cb0dcae5146d",
-        "9af70598ae20530902b81fe7"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Ceuta faces renewed migrant surge with significant casualties",
-      "summary": "A surge of migrants attempted to enter the Spanish enclave of Ceuta, resulting in approximately sixty thousand crossings and fifty‑seven reported deaths, prompting Spain to criticize EU partners for inadequate support.",
+      "title": "Ceuta Migration Crisis",
+      "summary": "Mass migration across Ceuta has led to significant casualties and prompted Spain to criticize EU partners. The situation has prompted calls for an EU meeting and pressure on Italy to suspend Schengen arrangements.",
       "article_ids": [
         "e18bf6834bb35bd73a70bfe0",
-        "a9b88370373097cb85f16df0",
-        "6d830aa45a34addcc3e35993",
         "ca712f211692aa163ead6de2",
-        "d45d6fab808fe4cd1c9b63e9",
-        "6599cc4008ee933f2cac3c4e"
+        "8baa4ee5bd3e500c67740d02",
+        "8c2a3afdebaa141eb1e9ec92"
       ],
       "sources": [
         {
@@ -102,38 +79,37 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260801-ceuta-enclave-almost-back-to-normal-after-migrant-influx-1"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Wildfires in France and Greece",
-      "summary": "Wildfires have spread across parts of France and Greece, leading to evacuations and ongoing firefighting operations. While some blazes have been contained, others continue to burn, affecting local communities and the environment.",
-      "article_ids": [
-        "12027c0b88b64abbd4cda806",
-        "a356123b26a331c00e615894",
-        "3c78855cdb892395861496d1",
-        "4aeb920bd8219fda3925f300",
-        "65c11f69671b426ac7d0a421"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/greece-fights-fires-near-athens"
+          "url": "https://www.france24.com/en/ceuta-60-000-cross-the-border-57-died"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "NATO missile threat detection near Poland",
-      "summary": "NATO’s early warning systems detected a rapid missile threat near Poland, demonstrating the speed of threat identification. Officials highlighted the difficulty of deciding whether to respond, pointing to delays in decision‑making despite quick detection.",
+      "title": "Russian Strikes on Kyiv",
+      "summary": "Russian missile attacks on Kyiv have caused casualties and damaged infrastructure. The strikes have also targeted Ukrainian ports, disrupting maritime operations.",
+      "article_ids": [
+        "bf2bd208a4e5e0f04f953ff0",
+        "d6b65f58d4fab8850097a3f5",
+        "f9618d50c538cb0dcae5146d",
+        "9af70598ae20530902b81fe7"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260801-russian-forces-strike-targets-ukraine-odesa-mykolaiv-ports"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "NATO Missile Detection Near Poland",
+      "summary": "NATO detected a rapid missile threat near Poland, highlighting the speed of threat detection. The incident raised questions about decision‑making speed for countermeasures.",
       "article_ids": [
         "f307420cdc4c68237627e0fd"
       ],
@@ -144,9 +120,67 @@
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "Wildfires in France",
+      "summary": "Wildfires in France have spread across multiple regions, with some contained but others still burning. Firefighters have reported that the largest wildfire in decades is now under control.",
+      "article_ids": [
+        "12027c0b88b64abbd4cda806",
+        "65c11f69671b426ac7d0a421",
+        "3c78855cdb892395861496d1",
+        "4aeb920bd8219fda3925f300"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "AI Safety Concerns Rise",
+      "summary": "AI safety concerns have risen as models exhibit rogue behavior, prompting warnings from experts. The incidents have highlighted the need for stricter oversight and safety protocols.",
+      "article_ids": [
+        "d7c06e7c9230871163d1a0ec",
+        "11:00:42",
+        "11:30:37"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260801-ai-safety-concerns-grow-as-models-go-rogue"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "developing": [
+    {
+      "label": "Ceuta · migrant · crossing · mass",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-08-01T14:40:53Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260801-ceuta-enclave-almost-back-to-normal-after-migrant-influx-1",
+          "headline": "Ceuta enclave \"almost\" back to normal after migrant influx",
+          "published_at": "2026-08-01T14:40:53Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/c171nnql1j4o?at_medium=RSS&at_campaign=rss",
+          "headline": "What triggered the mass migrant crossings into Ceuta?",
+          "published_at": "2026-07-31T18:29:04Z"
+        }
+      ]
+    },
     {
       "label": "FIFA · confidence · Infantino · leadership",
       "origin": "convergence",
@@ -165,27 +199,6 @@
           "url": "https://www.bbc.co.uk/sport/football/articles/c04kr2nv3v3o?at_medium=RSS&at_campaign=rss",
           "headline": "Uefa has 'lost confidence' in Fifa leadership",
           "published_at": "2026-08-01T09:51:05Z"
-        }
-      ]
-    },
-    {
-      "label": "border · Ceuta",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-01T11:21:13Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ceuta-60-000-cross-the-border-57-died",
-          "headline": "Ceuta: 60,000 cross the border, 57 died",
-          "published_at": "2026-08-01T11:21:13Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/spain/2026-07-31/thousands-of-people-return-to-morocco-after-crossing-the-border-with-ceuta.html",
-          "headline": "Thousands of people return to Morocco after crossing the border into Ceuta",
-          "published_at": "2026-07-31T20:05:10Z"
         }
       ]
     },
@@ -1180,20 +1193,6 @@
       ]
     },
     {
-      "id": "e3cf5f6be9fe05e729885218",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "London mayor Sadiq Khan accuses Palantir of bypassing procurement rules",
-      "url": "https://www.politico.eu/article/sadiq-khan-london-police-palantir-legal-case-bypassing-procurement-rules",
-      "published_at": "2026-07-31T16:17:38Z",
-      "collected_at": "2026-07-31T18:00:51Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "9acd750779f6fb78b415b97c",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1236,17 +1235,17 @@
       ]
     },
     {
-      "id": "ca4ad41f1843aad92e8b774e",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Italy cracks down on free movement to Spain as Schengen unity crumbles",
-      "url": "https://www.politico.eu/article/ceuta-crisis-migration-france-spain-border-checks-schengen-unity-morocco",
-      "published_at": "2026-07-31T09:49:15Z",
-      "collected_at": "2026-07-31T18:00:51Z",
+      "id": "f940e9bbf6450d5a72a1c1f4",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
+      "url": "https://www.bbc.co.uk/news/articles/cn0nqv05g0do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-07-30T17:55:24Z",
+      "collected_at": "2026-08-01T18:02:35Z",
       "topics": [
-        "institutions",
+        "breaking",
         "politics",
-        "policy"
+        "society"
       ]
     },
     {
