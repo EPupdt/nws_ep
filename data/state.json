@@ -1,6 +1,5 @@
 {
   "seen": {
-    "116e72db8abc63b2207f0cd9": "2026-07-30T18:30:41Z",
     "a158884a10e87185b31739ea": "2026-07-30T19:01:04Z",
     "8e3141244b7cbcf460002dff": "2026-07-30T19:01:04Z",
     "172fea2d746861c828372ea1": "2026-07-30T19:01:04Z",
@@ -311,9 +310,40 @@
     "626c4ce6311a5dcc1448a186": "2026-08-01T16:31:40Z",
     "a4d6be0a5e26b40ebb3bba91": "2026-08-01T16:31:40Z",
     "262d405e30d55babeab3be75": "2026-08-01T17:02:45Z",
-    "f940e9bbf6450d5a72a1c1f4": "2026-08-01T18:02:35Z"
+    "f940e9bbf6450d5a72a1c1f4": "2026-08-01T18:02:35Z",
+    "116e72db8abc63b2207f0cd9": "2026-08-01T18:32:27Z",
+    "37a415ea7f9bbb5db1ebfdb7": "2026-08-01T18:32:27Z",
+    "8056f6aa05d7d99f026938a0": "2026-08-01T18:32:27Z"
   },
   "radar": [
+    {
+      "id": "37a415ea7f9bbb5db1ebfdb7",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Italy putting nearly all major cities on highest heat alert",
+      "url": "https://www.bbc.co.uk/news/articles/cr7k4gdrgljo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-01T17:51:46Z",
+      "collected_at": "2026-08-01T18:32:27Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "8056f6aa05d7d99f026938a0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'A giant of the industry, Purja leaves behind a legacy that inspired a generation to climb higher'",
+      "url": "https://www.france24.com/en/video/20260801-a-giant-of-the-industry-purja-leaves-behind-a-legacy-that-inspired-a-generation-to-climb-higher",
+      "published_at": "2026-08-01T17:49:50Z",
+      "collected_at": "2026-08-01T18:32:27Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "262d405e30d55babeab3be75",
       "source_id": "france24",
@@ -1309,6 +1339,20 @@
       ]
     },
     {
+      "id": "116e72db8abc63b2207f0cd9",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Spain will send troops to Ceuta to help with border security",
+      "url": "https://www.dw.com/en/spain-will-send-troops-to-ceuta-to-help-with-border-security/a-78177638?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-07-30T18:13:00Z",
+      "collected_at": "2026-08-01T18:32:27Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "f940e9bbf6450d5a72a1c1f4",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2027,13 +2071,12 @@
   "last_selection": {
     "europe_now": [
       {
-        "title": "Ceuta Migration Crisis",
-        "summary": "Mass migration across Ceuta has led to significant casualties and prompted Spain to criticize EU partners. The situation has prompted calls for an EU meeting and pressure on Italy to suspend Schengen arrangements.",
+        "title": "Ceuta migrant surge prompts EU criticism",
+        "summary": "Ceuta has experienced a surge in migrant crossings, with reports of 60,000 people crossing and 57 deaths. The situation has prompted Spain to criticize EU partners for a perceived lack of support.",
         "article_ids": [
           "e18bf6834bb35bd73a70bfe0",
-          "ca712f211692aa163ead6de2",
-          "8baa4ee5bd3e500c67740d02",
-          "8c2a3afdebaa141eb1e9ec92"
+          "a9b88370373097cb85f16df0",
+          "6d830aa45a34addcc3e35993"
         ],
         "sources": [
           {
@@ -2042,37 +2085,14 @@
           },
           {
             "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/ceuta-60-000-cross-the-border-57-died"
+            "url": "https://www.france24.com/en/video/20260801-ceuta-enclave-almost-back-to-normal-after-migrant-influx-1"
           }
         ],
         "source_count": 1
       },
       {
-        "title": "Russian Strikes on Kyiv",
-        "summary": "Russian missile attacks on Kyiv have caused casualties and damaged infrastructure. The strikes have also targeted Ukrainian ports, disrupting maritime operations.",
-        "article_ids": [
-          "bf2bd208a4e5e0f04f953ff0",
-          "d6b65f58d4fab8850097a3f5",
-          "f9618d50c538cb0dcae5146d",
-          "9af70598ae20530902b81fe7"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20260801-russian-forces-strike-targets-ukraine-odesa-mykolaiv-ports"
-          },
-          {
-            "publisher": "BBC News Europe",
-            "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
-          }
-        ],
-        "source_count": 2
-      }
-    ],
-    "top_stories": [
-      {
-        "title": "NATO Missile Detection Near Poland",
-        "summary": "NATO detected a rapid missile threat near Poland, highlighting the speed of threat detection. The incident raised questions about decision‑making speed for countermeasures.",
+        "title": "Poland detects Russian missile launch",
+        "summary": "Poland detected a Russian missile launch within six minutes, prompting NATO to assess the threat. The incident highlighted the speed of detection but raised questions about decision‑making on counter‑fire.",
         "article_ids": [
           "f307420cdc4c68237627e0fd"
         ],
@@ -2083,45 +2103,9 @@
           }
         ],
         "source_count": 1
-      },
-      {
-        "title": "Wildfires in France",
-        "summary": "Wildfires in France have spread across multiple regions, with some contained but others still burning. Firefighters have reported that the largest wildfire in decades is now under control.",
-        "article_ids": [
-          "12027c0b88b64abbd4cda806",
-          "65c11f69671b426ac7d0a421",
-          "3c78855cdb892395861496d1",
-          "4aeb920bd8219fda3925f300"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
-          },
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
-          }
-        ],
-        "source_count": 1
-      },
-      {
-        "title": "AI Safety Concerns Rise",
-        "summary": "AI safety concerns have risen as models exhibit rogue behavior, prompting warnings from experts. The incidents have highlighted the need for stricter oversight and safety protocols.",
-        "article_ids": [
-          "d7c06e7c9230871163d1a0ec",
-          "11:00:42",
-          "11:30:37"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/video/20260801-ai-safety-concerns-grow-as-models-go-rogue"
-          }
-        ],
-        "source_count": 1
       }
-    ]
+    ],
+    "top_stories": []
   },
-  "last_collection_at": "2026-08-01T18:02:35Z"
+  "last_collection_at": "2026-08-01T18:32:27Z"
 }
