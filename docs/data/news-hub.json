@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-01T18:32:27Z",
-  "last_successful_collection_at": "2026-08-01T18:32:27Z",
+  "generated_at": "2026-08-01T19:00:49Z",
+  "last_successful_collection_at": "2026-08-01T19:00:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-01T18:32:27Z"
+      "at": "2026-08-01T19:00:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-01T18:32:27Z"
+      "at": "2026-08-01T19:00:49Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-01T18:32:27Z"
+      "at": "2026-08-01T19:00:49Z"
     },
     {
       "id": "euractiv",
@@ -29,63 +29,65 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-01T18:32:27Z"
+      "at": "2026-08-01T19:00:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-01T18:32:27Z"
+      "at": "2026-08-01T19:00:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-08-01T18:32:27Z"
+      "at": "2026-08-01T19:00:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-01T18:32:27Z"
+      "at": "2026-08-01T19:00:49Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-01T18:32:27Z"
+      "at": "2026-08-01T19:00:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-01T18:32:27Z"
+      "at": "2026-08-01T19:00:49Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ceuta migrant surge prompts EU criticism",
-      "summary": "Ceuta has experienced a surge in migrant crossings, with reports of 60,000 people crossing and 57 deaths. The situation has prompted Spain to criticize EU partners for a perceived lack of support.",
+      "title": "Ceuta Migration Crisis",
+      "summary": "Ceuta has experienced a surge of migrants, with 60,000 crossing the border and 57 deaths reported. Spain has criticised EU partners and called for a meeting after Italy suspended the Schengen agreement.",
       "article_ids": [
+        "ca712f211692aa163ead6de2",
+        "d45d6fab808fe4cd1c9b63e9",
         "e18bf6834bb35bd73a70bfe0",
-        "a9b88370373097cb85f16df0",
-        "6d830aa45a34addcc3e35993"
+        "c5f30a8ce67880a5bba13afe",
+        "8f1f59ae83dacc235b08b775"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ceuta-spain-slams-selfish-eu-partners"
+          "url": "https://www.france24.com/en/ceuta-60-000-cross-the-border-57-died"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260801-ceuta-enclave-almost-back-to-normal-after-migrant-influx-1"
+          "url": "https://www.france24.com/en/video/20260801-ceuta-most-migrants-have-returned-to-morocco-57-died-crossing-the-border-1"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Poland detects Russian missile launch",
-      "summary": "Poland detected a Russian missile launch within six minutes, prompting NATO to assess the threat. The incident highlighted the speed of detection but raised questions about decision‑making on counter‑fire.",
+      "title": "NATO Missile Detection Near Poland",
+      "summary": "Poland detected a Russian missile within six minutes, showing NATO's rapid threat detection capability. The incident highlighted delays in deciding whether to respond with force.",
       "article_ids": [
         "f307420cdc4c68237627e0fd"
       ],
@@ -98,32 +100,118 @@
       "source_count": 1
     }
   ],
-  "top_stories": [],
-  "developing": [
+  "top_stories": [
     {
-      "label": "Russian · strike · Ukraine · Kyiv",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 5,
-      "latest_at": "2026-08-01T15:53:05Z",
+      "title": "Ceuta Migration Crisis",
+      "summary": "Ceuta has experienced a surge of migrants, with 60,000 crossing the border and 57 deaths reported. Spain has criticised EU partners and called for a meeting after Italy suspended the Schengen agreement.",
+      "article_ids": [
+        "ca712f211692aa163ead6de2",
+        "d45d6fab808fe4cd1c9b63e9",
+        "e18bf6834bb35bd73a70bfe0",
+        "c5f30a8ce67880a5bba13afe",
+        "8f1f59ae83dacc235b08b775"
+      ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260801-russian-forces-strike-targets-ukraine-odesa-mykolaiv-ports",
-          "headline": "Russian forces strike targets in Ukraine's Odesa, Mykolaiv ports",
-          "published_at": "2026-08-01T15:53:05Z"
+          "url": "https://www.france24.com/en/ceuta-60-000-cross-the-border-57-died"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260801-ceuta-most-migrants-have-returned-to-morocco-57-died-crossing-the-border-1"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "NATO Missile Detection Near Poland",
+      "summary": "Poland detected a Russian missile within six minutes, showing NATO's rapid threat detection capability. The incident highlighted delays in deciding whether to respond with force.",
+      "article_ids": [
+        "f307420cdc4c68237627e0fd"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/230899/polands-sixminute-russia-missile-scare-shows-how-fast-nato-can-spot-a-threat-and-the-agonising-slowness-of-deciding-if-to-fire-back"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Wildfires in France and Greece",
+      "summary": "France has contained a major wildfire but it remains uncontrolled, while Greece is fighting fires near Athens. The incidents illustrate the widespread wildfire threat across Europe.",
+      "article_ids": [
+        "12027c0b88b64abbd4cda806",
+        "65c11f69671b426ac7d0a421",
+        "3c78855cdb892395861496d1",
+        "4aeb920bd8219fda3925f300",
+        "de54f74710047869a7435815",
+        "a356123b26a331c00e615894"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Russian Strikes on Kyiv",
+      "summary": "Russian forces have struck targets in Kyiv, killing nine people and wounding 28, according to Ukrainian officials. The attacks also hit Odesa and Mykolaiv ports.",
+      "article_ids": [
+        "d6b65f58d4fab8850097a3f5",
+        "f9618d50c538cb0dcae5146d",
+        "bf2bd208a4e5e0f04f953ff0"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/kyiv-9-dead-and-22-hurt-in-missile-attack"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "developing": [
+    {
+      "label": "Ceuta · Spain · EU · selfish",
+      "origin": "convergence",
+      "source_count": 4,
+      "item_count": 6,
+      "latest_at": "2026-08-01T14:42:22Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ceuta-spain-slams-selfish-eu-partners",
+          "headline": "Ceuta: Spain slams \"selfish\" EU partners",
+          "published_at": "2026-08-01T14:42:22Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ceuta-crisis-22-eu-leaders-letter-spain-pedro-sanchez-migration-policy",
+          "headline": "Ceuta crisis: 22 EU leaders gang up against Spain’s Sánchez over his migration policy",
+          "published_at": "2026-08-01T11:10:34Z"
         },
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
-          "headline": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
-          "published_at": "2026-08-01T11:52:29Z"
+          "url": "https://www.bbc.co.uk/news/articles/cx2v91xn1z9o?at_medium=RSS&at_campaign=rss",
+          "headline": "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
+          "published_at": "2026-08-01T10:11:39Z"
         },
         {
           "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/war-in-ukraine-why-crimea-has-become-a-strategic-target/a-78197135?maca=en-rss-en-eu-2092-rdf",
-          "headline": "War in Ukraine: Why Crimea has become a strategic target",
-          "published_at": "2026-08-01T10:03:00Z"
+          "url": "https://www.dw.com/en/ceuta-spain-under-pressure-as-italy-suspends-schengen-deal/live-78191601?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Ceuta: Spain under pressure as Italy suspends Schengen deal",
+          "published_at": "2026-08-01T08:54:00Z"
         }
       ]
     },
@@ -149,27 +237,6 @@
       ]
     },
     {
-      "label": "border · Ceuta",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-01T11:21:13Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ceuta-60-000-cross-the-border-57-died",
-          "headline": "Ceuta: 60,000 cross the border, 57 died",
-          "published_at": "2026-08-01T11:21:13Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/spain/2026-07-31/thousands-of-people-return-to-morocco-after-crossing-the-border-with-ceuta.html",
-          "headline": "Thousands of people return to Morocco after crossing the border into Ceuta",
-          "published_at": "2026-07-31T20:05:10Z"
-        }
-      ]
-    },
-    {
       "label": "leader · opposition",
       "origin": "convergence",
       "source_count": 2,
@@ -187,6 +254,21 @@
           "url": "https://english.elpais.com/international/2026-07-31/rakshya-bam-leader-of-the-nepali-gen-z-movement-we-are-the-best-opposition-to-this-new-government.html",
           "headline": "Rakshya Bam, leader of the Nepali Gen Z movement: ‘We are the best opposition to this new government’",
           "published_at": "2026-07-31T19:29:49Z"
+        }
+      ]
+    },
+    {
+      "label": "Ceuta · migrant · crossing",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 3,
+      "latest_at": "2026-08-01T14:40:53Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260801-ceuta-enclave-almost-back-to-normal-after-migrant-influx-1",
+          "headline": "Ceuta enclave \"almost\" back to normal after migrant influx",
+          "published_at": "2026-08-01T14:40:53Z"
         }
       ]
     }
@@ -536,6 +618,20 @@
       "url": "https://www.france24.com/en/france/20260801-french-firefighters-stop-wildfires-spread-but-they-continue-burn",
       "published_at": "2026-08-01T09:58:12Z",
       "collected_at": "2026-08-01T10:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "de54f74710047869a7435815",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France's fires are 'today under control', says PM Lecornu",
+      "url": "https://www.france24.com/en/france/20260801-french-firefighters-stop-wildfires-spread-but-they-continue-burn",
+      "published_at": "2026-08-01T09:58:12Z",
+      "collected_at": "2026-08-01T19:00:49Z",
       "topics": [
         "politics",
         "security",
@@ -1103,20 +1199,6 @@
       ]
     },
     {
-      "id": "7fa85c9e2f31973a7cb0989d",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "What triggered the mass migrant crossings into Ceuta?",
-      "url": "https://www.bbc.co.uk/news/videos/c171nnql1j4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-07-31T18:29:04Z",
-      "collected_at": "2026-07-31T18:37:10Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "42d9206f4db2e5325d052485",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1124,20 +1206,6 @@
       "url": "https://www.france24.com/en/middle-east/20260731-hamas-agrees-to-disarm-under-trump-plan",
       "published_at": "2026-07-31T18:25:15Z",
       "collected_at": "2026-07-31T20:33:03Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "f58f391534127ceeed32c011",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "George Clooney's family evacuates their home in France amid wildfires",
-      "url": "https://www.france24.com/en/europe/20260731-george-clooney-s-family-evacuates-their-home-in-france-amid-wildfires",
-      "published_at": "2026-07-31T17:47:35Z",
-      "collected_at": "2026-07-31T18:37:10Z",
       "topics": [
         "politics",
         "security",
@@ -1184,20 +1252,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "204095849e95e5d25cbae8d6",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "UPDATE — Italy temporarily suspends Schengen agreement with Spain over Ceuta breach",
-      "url": "https://www.dw.com/en/update-italy-temporarily-suspends-schengen-agreement-with-spain-over-ceuta-breach/live-78191601?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-07-31T11:47:00Z",
-      "collected_at": "2026-07-31T18:37:10Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
