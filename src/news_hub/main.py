@@ -244,14 +244,51 @@ def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent
 
 
 def enrich_selection(selection: dict[str, Any], articles: list[dict[str, Any]]) -> dict[str, Any]:
+    """Attach the sources behind each selected story.
+
+    Two things travel with the link that did not before, both of them inside the
+    sourcing policy, which allows the publisher's own title, the publication
+    time and the canonical URL:
+
+    * the publisher's headline and the time it was filed. Without them the page
+      could only offer "France 24 English - Read the original", twice, under the
+      same story, which tells a reader nothing about what either report said.
+      The publisher's excerpt is still never carried: it is dropped in
+      public_article() before anything reaches this function.
+    * where the model named more articles than the two we show, the two are
+      taken from different publishers when it offered any. It routinely returns
+      two items from one newsroom, and a block headed "what the sources report"
+      listing the same outlet twice shows less than the material allows.
+    """
     by_id = {article["id"]: article for article in articles}
     for group in ("europe_now", "top_stories"):
         valid: list[dict[str, Any]] = []
         for item in selection.get(group, []):
-            refs = [by_id[key] for key in item.get("article_ids", []) if key in by_id][:2]
-            if refs:
-                item["sources"] = [{"publisher": ref["source_name"], "url": ref["url"]} for ref in refs]
-                item["source_count"] = len(set(ref["source_id"] for ref in refs))
+            refs = [by_id[key] for key in item.get("article_ids", []) if key in by_id]
+            chosen: list[dict[str, Any]] = []
+            publishers: set[str] = set()
+            for ref in refs:
+                if len(chosen) == 2:
+                    break
+                if ref["source_id"] in publishers:
+                    continue
+                publishers.add(ref["source_id"])
+                chosen.append(ref)
+            # If the model only ever named one newsroom, a second link from that
+            # same newsroom is still better than one link.
+            for ref in refs:
+                if len(chosen) == 2:
+                    break
+                if ref not in chosen:
+                    chosen.append(ref)
+            if chosen:
+                item["sources"] = [{
+                    "publisher": ref["source_name"],
+                    "url": ref["url"],
+                    "headline": ref["title"],
+                    "published_at": ref["published_at"],
+                } for ref in chosen]
+                item["source_count"] = len({ref["source_id"] for ref in chosen})
                 valid.append(item)
         selection[group] = valid
     return selection
