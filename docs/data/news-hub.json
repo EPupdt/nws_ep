@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-02T17:00:41Z",
-  "last_successful_collection_at": "2026-08-02T17:00:41Z",
+  "generated_at": "2026-08-02T18:00:46Z",
+  "last_successful_collection_at": "2026-08-02T18:00:46Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-02T17:00:41Z"
+      "at": "2026-08-02T18:00:46Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-08-02T17:00:41Z"
+      "at": "2026-08-02T18:00:46Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "22",
-      "at": "2026-08-02T17:00:41Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-02T18:00:46Z"
     },
     {
       "id": "euractiv",
@@ -29,77 +29,64 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-02T17:00:41Z"
+      "at": "2026-08-02T18:00:46Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-02T17:00:41Z"
+      "at": "2026-08-02T18:00:46Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-08-02T17:00:41Z"
+      "at": "2026-08-02T18:00:46Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-02T17:00:41Z"
+      "at": "2026-08-02T18:00:46Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-02T17:00:41Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-02T18:00:46Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-02T17:00:41Z"
+      "at": "2026-08-02T18:00:46Z"
     }
   ],
   "europe_now": [
     {
-      "title": "European Wildfires Intensify",
-      "summary": "Wildfires across Europe are intensifying, with Greece reporting increased fire tolls amid strong winds. In France, a megafire in Gironde has been contained but still requires nearly 3,000 firefighters, and the European Union is coordinating a response to the widespread blaze.",
+      "title": "Ceuta migration flow subsides after border surge",
+      "summary": "Spanish authorities said most migrants who crossed into Ceuta have departed the enclave. The development follows an EU emergency meeting convened to address the recent migration flux.",
       "article_ids": [
-        "e244a5818a47d5d2ad67bb2c",
-        "caec4cdae7cf8233b5e9508a",
-        "31f938d1595caa4be5635efe"
+        "6933e1b2ddaa654b494ead09"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260802-fire-toll-mounts-in-greece-as-blazes-spread-amid-strong-winds"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/gironde-megafire-contained-nearly-3-000-firefighters-remain-deployed"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ceuta-most-who-breached-border-have-left-spain-says/live-78191601?maca=en-rss-en-eu-2092-rdf"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Ceuta Migration Crisis Continues",
-      "summary": "Ceuta has experienced a significant influx of migrants, prompting most to return home as Spain navigates the aftermath. The European Union is convening a meeting to address the crisis, which has sparked political debate amplified by social media.",
+      "title": "Gironde megafire contained amid ongoing European wildfires",
+      "summary": "Firefighters have contained the Gironde megafire in southwestern France, though nearly 3,000 personnel remain deployed. The blaze is part of a broader wave of wildfires affecting multiple European countries this summer.",
       "article_ids": [
-        "cccf48c7713ebe02523f158a",
-        "bad96c82f508e784c631e39d",
-        "de5ef6272dd325e09278f225",
-        "441731471804a6b9b3d85eb2"
+        "caec4cdae7cf8233b5e9508a"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260802-spain-ceuta-navigates-aftermath-border-surge-after-most-migrants-return-morocco"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe-to-hold-meeting-tuesday-over-ceuta-after-migration-flux"
+          "url": "https://www.france24.com/en/gironde-megafire-contained-nearly-3-000-firefighters-remain-deployed"
         }
       ],
       "source_count": 1
@@ -107,67 +94,45 @@
   ],
   "top_stories": [
     {
-      "title": "Ukraine Reports Hit on Russian Oil Refinery",
-      "summary": "Ukraine reports a major hit on a Russian oil refinery and airfield, with Moscow confirming eight deaths. The incident highlights ongoing tensions in the region.",
+      "title": "Hungary warns of energy shortfall after nuclear plant shutdown",
+      "summary": "Hungarian officials said a drought has forced the closure of the Paks nuclear plant, creating an energy crisis. The shutdown follows prolonged heatwaves that have lowered Danube River levels needed for plant cooling.",
       "article_ids": [
-        "de46e11b5b566b75e7ac2dfb"
+        "81e380d1d35a0cc036ebfe6f",
+        "2f16191c57d4bc2682bcb10c"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/hungary-shuts-down-paks-nuclear-plant-danube-drought-intensifies-energy-crisis"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/hungary-successive-heatwaves-drain-danube-river-used-to-cool-nuclear-plant"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Moscow Restaurant Bombing Claims Lives",
-      "summary": "A Moscow restaurant bombing has killed at least three people, according to Russian officials. The incident is part of a series of attacks in the city.",
+      "title": "Moscow officials label restaurant blast as terror attack",
+      "summary": "Russian authorities described a blast at a Moscow restaurant as a brutal terror attack that killed at least three people. The incident has prompted concerns about increasing violence in the city.",
       "article_ids": [
-        "93a0d41ac46d1b2ef6baf1db",
+        "93fb0b2e490ced34ece3cca3",
         "6859c57bef5d9774465653dd"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260802-at-least-three-killed-in-moscow-restaurant-bombing-russian-officials-say"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/moscow-restaurant-blast-a-brutal-terror-attack-mayor-says/a-78205022?maca=en-rss-en-eu-2092-rdf"
         },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/three-people-killed-in-moscow-bombing"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
-    {
-      "label": "Hungary · nuclear · plant · shuts",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 4,
-      "latest_at": "2026-08-02T12:25:47Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/hungary-shuts-down-paks-nuclear-plant-danube-drought-intensifies-energy-crisis",
-          "headline": "Hungary faces energy crisis as drought shuts down Paks nuclear plant, PM says",
-          "published_at": "2026-08-02T12:25:47Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/hungary-successive-heatwaves-drain-danube-river-used-to-cool-nuclear-plant",
-          "headline": "Hungary: Successive heatwaves drain Danube river used to cool nuclear plant",
-          "published_at": "2026-08-02T08:55:03Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/hungary-to-shut-sole-nuclear-plant-for-first-time-on-sunday/a-78205668?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Hungary to shut sole nuclear plant for first time on Sunday",
-          "published_at": "2026-08-02T02:16:00Z"
-        }
-      ]
-    },
     {
       "label": "Iran · Trump · deal · calls",
       "origin": "convergence",
@@ -190,23 +155,44 @@
       ]
     },
     {
-      "label": "Moscow · bomb · restaurant · blast",
+      "label": "Moscow · Russian · bombing · killed",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-08-02T16:52:35Z",
+      "item_count": 3,
+      "latest_at": "2026-08-02T15:48:00Z",
       "sources": [
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/c1719pk0xq8o?at_medium=RSS&at_campaign=rss",
-          "headline": "At the scene of deadly Moscow bomb blast",
-          "published_at": "2026-08-02T16:52:35Z"
+          "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss",
+          "headline": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
+          "published_at": "2026-08-02T15:48:00Z"
         },
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/moscow-restaurant-blast-a-brutal-terror-attack-mayor-says/a-78205022?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Moscow restaurant blast a 'brutal terror attack,' mayor says",
-          "published_at": "2026-08-02T11:39:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260802-at-least-three-killed-in-moscow-restaurant-bombing-russian-officials-say",
+          "headline": "At least three killed in Moscow restaurant bombing, Russian officials say",
+          "published_at": "2026-08-02T05:46:20Z"
+        }
+      ]
+    },
+    {
+      "label": "Ceuta · meeting",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-02T08:47:53Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe-to-hold-meeting-tuesday-over-ceuta-after-migration-flux",
+          "headline": "Europe to hold meeting Tuesday over Ceuta after migration flux",
+          "published_at": "2026-08-02T08:47:53Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&at_campaign=rss",
+          "headline": "EU calls emergency meeting to discuss Ceuta migrant crossings",
+          "published_at": "2026-08-01T20:09:27Z"
         }
       ]
     },
@@ -228,6 +214,20 @@
   ],
   "radar": [
     {
+      "id": "072b71031cc87ab2dd2feec8",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Man admits transporting Scottish woman's body in suitcase, Greek police say",
+      "url": "https://www.bbc.co.uk/news/articles/c89ndd4g0gjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-02T17:53:09Z",
+      "collected_at": "2026-08-02T18:00:46Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "5e9ac9e65ea641d3b226e9ea",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -239,6 +239,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "6933e1b2ddaa654b494ead09",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Ceuta: Most who breached border have left, Spain says",
+      "url": "https://www.dw.com/en/ceuta-most-who-breached-border-have-left-spain-says/live-78191601?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-02T16:47:00Z",
+      "collected_at": "2026-08-02T18:00:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -1124,20 +1138,6 @@
       ]
     },
     {
-      "id": "262d405e30d55babeab3be75",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Wiebes wins Tour de France Femmes opener to win first yellow jersey",
-      "url": "https://www.france24.com/en/sport/20260801-wiebes-wins-tour-de-france-femmes-opener-to-win-first-yellow-jersey",
-      "published_at": "2026-08-01T16:32:02Z",
-      "collected_at": "2026-08-01T17:02:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "de54f74710047869a7435815",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1163,6 +1163,62 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "67f7163a68f81fecb6d8b784",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Alone at the border: Ceuta and Europe’s solidarity failure",
+      "url": "https://ecfr.eu/article/alone-at-the-border-ceuta-and-europes-solidarity-failure",
+      "published_at": "2026-07-31T17:07:34Z",
+      "collected_at": "2026-08-02T18:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "ed326cd9da1020a4a4ea1dc1",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Almost all of Ceuta migrants have returned to Morocco, Spain says",
+      "url": "https://www.politico.eu/article/almost-all-ceuta-migrants-returned-morocco-spain-says",
+      "published_at": "2026-07-31T17:05:57Z",
+      "collected_at": "2026-08-02T18:00:46Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "7c5432d8c7107197ba310654",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Trump administration slams Spain’s Sánchez for migrant ‘invasion’ of Ceuta",
+      "url": "https://www.politico.eu/article/donald-trump-criticizes-spain-pedro-sanchez-over-ceuta-migration",
+      "published_at": "2026-07-31T16:37:36Z",
+      "collected_at": "2026-08-02T18:00:46Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "ea6c688a85ccccfadf8bb34d",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Northern Ireland misses a deadline to fix its budget crisis",
+      "url": "https://www.politico.eu/article/northern-ireland-misses-a-deadline-to-fix-its-budget-crisis",
+      "published_at": "2026-07-31T16:32:49Z",
+      "collected_at": "2026-08-02T18:00:46Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
       ]
     },
     {
