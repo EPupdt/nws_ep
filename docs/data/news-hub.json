@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-02T05:04:57Z",
-  "last_successful_collection_at": "2026-08-02T05:04:57Z",
+  "generated_at": "2026-08-02T05:41:32Z",
+  "last_successful_collection_at": "2026-08-02T05:41:32Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-02T05:04:57Z"
+      "at": "2026-08-02T05:41:32Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-02T05:04:57Z"
+      "at": "2026-08-02T05:41:32Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-02T05:04:57Z"
+      "at": "2026-08-02T05:41:32Z"
     },
     {
       "id": "euractiv",
@@ -29,73 +29,110 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-02T05:04:57Z"
+      "at": "2026-08-02T05:41:32Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-02T05:04:57Z"
+      "at": "2026-08-02T05:41:32Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-08-02T05:04:57Z"
+      "at": "2026-08-02T05:41:32Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-02T05:04:57Z"
+      "at": "2026-08-02T05:41:32Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-02T05:04:57Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-02T05:41:32Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-02T05:04:57Z"
+      "at": "2026-08-02T05:41:32Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Wildfires in France and Greece",
-      "summary": "French firefighters have stopped the spread of the wildfires.\nHowever, the fires continue to burn.",
+      "title": "Ceuta migrant crisis intensifies",
+      "summary": "Spain has installed a floating barrier in Ceuta following a significant influx of migrants. The European Union has called an emergency meeting to discuss the situation.",
       "article_ids": [
-        "3c78855cdb892395861496d1"
+        "de09a06d4c66a96321b8eed8",
+        "85a17df6fdadd6eb70bae011",
+        "e18bf6834bb35bd73a70bfe0",
+        "ca712f211692aa163ead6de2",
+        "6599cc4008ee933f2cac3c4e",
+        "673e1fd05b487e2085f7755b"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260801-spain-installs-floating-barrier-in-ceuta-after-migration-influx"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Russian strikes on Kyiv kill at least nine",
+      "summary": "Missile attacks in Kyiv have resulted in at least nine deaths and 22 injuries. Russian forces also targeted ports in Odesa and Mykolaiv.",
+      "article_ids": [
+        "d6b65f58d4fab8850097a3f5",
+        "f9618d50c538cb0dcae5146d",
+        "bf2bd208a4e5e0f04f953ff0"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/kyiv-9-dead-and-22-hurt-in-missile-attack"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Wildfire challenges in Europe",
+      "summary": "Wildfires have spread across France and Greece, challenging containment efforts. Firefighters in France have managed to contain some major blazes.",
+      "article_ids": [
+        "12027c0b88b64abbd4cda806",
+        "65c11f69671b426ac7d0a421",
+        "de54f74710047869a7435815",
+        "3c78855cdb892395861496d1",
+        "4aeb920bd8219fda3925f300"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260801-french-firefighters-stop-wildfires-spread-but-they-continue-burn"
+          "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Ceuta migrant crisis",
-      "summary": "Around sixty thousand people crossed the border into Ceuta.\nFifty‑seven individuals died during the crossing.",
-      "article_ids": [
-        "ca712f211692aa163ead6de2"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ceuta-60-000-cross-the-border-57-died"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "NATO missile detection near Poland",
-      "summary": "NATO detected a Russian missile threat near Poland within six minutes.\nOfficials noted a delay in deciding whether to respond with force.",
+      "title": "Missile threat near Poland",
+      "summary": "NATO detected a rapid missile threat near the Polish border. The incident highlighted the speed of detection versus the time required for decision-making.",
       "article_ids": [
         "f307420cdc4c68237627e0fd"
       ],
@@ -106,56 +143,9 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Russian strikes on Kyiv",
-      "summary": "Russian strikes on Kyiv resulted in nine fatalities.\nMeanwhile, Ukrainian forces sank a Russian container ship.",
-      "article_ids": [
-        "d6b65f58d4fab8850097a3f5"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "developing": [
-    {
-      "label": "Ceuta · EU · migrant · crossings",
-      "origin": "convergence",
-      "source_count": 4,
-      "item_count": 8,
-      "latest_at": "2026-08-01T20:09:27Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&at_campaign=rss",
-          "headline": "EU calls emergency meeting to discuss Ceuta migrant crossings",
-          "published_at": "2026-08-01T20:09:27Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ceuta-spain-slams-selfish-eu-partners",
-          "headline": "Ceuta: Spain slams \"selfish\" EU partners",
-          "published_at": "2026-08-01T14:42:22Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/ceuta-crisis-22-eu-leaders-letter-spain-pedro-sanchez-migration-policy",
-          "headline": "Ceuta crisis: 22 EU leaders gang up against Spain’s Sánchez over his migration policy",
-          "published_at": "2026-08-01T11:10:34Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ceuta-spain-demands-eu-meeting-blasts-selfish-response/live-78191601?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Ceuta: Spain demands EU meeting, blasts 'selfish' response",
-          "published_at": "2026-08-01T08:54:00Z"
-        }
-      ]
-    },
     {
       "label": "FIFA · confidence · Infantino · leadership",
       "origin": "convergence",
@@ -174,27 +164,6 @@
           "url": "https://www.bbc.co.uk/sport/football/articles/c04kr2nv3v3o?at_medium=RSS&at_campaign=rss",
           "headline": "Uefa has 'lost confidence' in Fifa leadership",
           "published_at": "2026-08-01T09:51:05Z"
-        }
-      ]
-    },
-    {
-      "label": "Ceuta · migration · Spain",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-08-01T19:53:43Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260801-spain-installs-floating-barrier-in-ceuta-after-migration-influx",
-          "headline": "Spain installs floating barrier in Ceuta after migration influx",
-          "published_at": "2026-08-01T19:53:43Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ceuta-spain-under-pressure-as-italy-suspends-schengen-deal/live-78191601?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Ceuta: Spain under pressure as Italy suspends Schengen deal",
-          "published_at": "2026-08-01T08:54:00Z"
         }
       ]
     },
@@ -218,9 +187,53 @@
           "published_at": "2026-08-01T22:21:00Z"
         }
       ]
+    },
+    {
+      "label": "deal · Trump · accept · Hamas",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 4,
+      "latest_at": "2026-08-02T05:28:11Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east/20260802-live-trump-says-us-to-stop-new-strikes-on-iran-calls-for-rapid-deal-on-hormuz",
+          "headline": "Live : Trump says US to stop new strikes on Iran, calls for 'rapid deal' on Hormuz",
+          "published_at": "2026-08-02T05:28:11Z"
+        }
+      ]
+    },
+    {
+      "label": "admits · botched · case · drops",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 3,
+      "latest_at": "2026-08-01T06:09:11Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/live-news/20260801-us-drops-reflecting-pool-case-admits-damage-due-to-botched-renovation",
+          "headline": "US drops Reflecting Pool case, admits damage due to botched renovation",
+          "published_at": "2026-08-01T06:09:11Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "9dd646934fee0740585cf4a6",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live : Trump says US to stop new strikes on Iran, calls for 'rapid deal' on Hormuz",
+      "url": "https://www.france24.com/en/middle-east/20260802-live-trump-says-us-to-stop-new-strikes-on-iran-calls-for-rapid-deal-on-hormuz",
+      "published_at": "2026-08-02T05:28:11Z",
+      "collected_at": "2026-08-02T05:41:32Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "6f65c02425bbeb7148eccaab",
       "source_id": "el_pais_english",
@@ -1132,20 +1145,6 @@
       ]
     },
     {
-      "id": "a5bd38e85ae923ea823a0a1f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Russian attack on Ukrainian capital kills at least nine people",
-      "url": "https://www.france24.com/en/europe/20260801-russian-attack-on-ukrainian-capital-kills-at-least-nine-people",
-      "published_at": "2026-08-01T05:14:39Z",
-      "collected_at": "2026-08-01T05:32:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "9acd750779f6fb78b415b97c",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1157,6 +1156,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "fb788af8b239d1f7cecb3b40",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Defining modernity in South-East Asia",
+      "url": "https://ecfr.eu/podcasts/episode/defining-modernity-in-south-east-asia",
+      "published_at": "2026-07-31T05:00:00Z",
+      "collected_at": "2026-08-02T05:41:32Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
