@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-02T11:30:39Z",
-  "last_successful_collection_at": "2026-08-02T11:30:39Z",
+  "generated_at": "2026-08-02T12:01:30Z",
+  "last_successful_collection_at": "2026-08-02T12:01:30Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-02T11:30:39Z"
+      "at": "2026-08-02T12:01:30Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-02T11:30:39Z"
+      "at": "2026-08-02T12:01:30Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-02T11:30:39Z"
+      "at": "2026-08-02T12:01:30Z"
     },
     {
       "id": "euractiv",
@@ -29,99 +29,144 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-02T11:30:39Z"
+      "at": "2026-08-02T12:01:30Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-02T11:30:39Z"
+      "at": "2026-08-02T12:01:30Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-08-02T11:30:39Z"
+      "at": "2026-08-02T12:01:30Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-02T11:30:39Z"
+      "at": "2026-08-02T12:01:30Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-02T11:30:39Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-02T12:01:30Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-02T11:30:39Z"
+      "at": "2026-08-02T12:01:30Z"
     }
   ],
   "europe_now": [
     {
       "title": "Ceuta Migration Crisis",
-      "summary": "Spain faces a surge in migrant crossings at Ceuta, prompting EU emergency meetings and calls for coordinated action to manage the influx.",
+      "summary": "Spain installs floating barrier in Ceuta after migration influx; EU holds emergency meeting to address surge.",
       "article_ids": [
-        "7956d8b4c08628a087ad34fb",
-        "05dd4d309916cec20161d625"
+        "5d7f656f200c6f716e0f73fb",
+        "33a01b78171d172d50bfb70c"
       ],
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/230916/eu-risks-missing-digital-jobs-target-by-5-million-despite-rapid-tech-growth"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/cp3rqd9kp91o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/culture/2026-08-02/sebastian-stan-and-the-mystery-of-the-ubiquitous-actor-who-flies-under-the-radar.html"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Wildfires in Europe",
+      "summary": "Wildfires spread across France and Greece, prompting evacuations and containment challenges.",
+      "article_ids": [
+        "31f938d1595caa4be5635efe",
+        "228cdda15c0122668d863b3d"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/on-the-front-line-of-europe-s-battle-against-wildfires/a-78204324?maca=en-rss-en-eu-2092-rdf"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20260802-capital-one-cites-anti-money-laundering-probe-justify-closure-trump-organization-bank-accounts"
+          "url": "https://www.france24.com/en/greece-blazes-continue-to-spread-across-the-country"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Ceuta Migration Crisis",
+      "summary": "Spain deploys floating barriers to manage migrant influx at Ceuta; EU convenes emergency meeting to coordinate response.",
+      "article_ids": [
+        "5d7f656f200c6f716e0f73fb",
+        "33a01b78171d172d50bfb70c"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/cp3rqd9kp91o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/culture/2026-08-02/sebastian-stan-and-the-mystery-of-the-ubiquitous-actor-who-flies-under-the-radar.html"
         }
       ],
       "source_count": 2
     },
     {
       "title": "European Wildfire Crisis",
-      "summary": "Wildfires in France and Greece continue to spread, causing evacuations and challenging containment efforts across multiple countries.",
+      "summary": "Wildfires in France and Greece expand, forcing evacuations and straining containment efforts.",
       "article_ids": [
-        "337e0d1ba6d9b2c4a4ffaeee",
-        "2f16191c57d4bc2682bcb10c"
+        "31f938d1595caa4be5635efe",
+        "228cdda15c0122668d863b3d"
       ],
       "sources": [
         {
           "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/poland-prime-minister-tusk-defies-anti-ukrainian-violence/a-78203187?maca=en-rss-en-eu-2092-rdf"
+          "url": "https://www.dw.com/en/on-the-front-line-of-europe-s-battle-against-wildfires/a-78204324?maca=en-rss-en-eu-2092-rdf"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/hungary-successive-heatwaves-drain-danube-river-used-to-cool-nuclear-plant"
+          "url": "https://www.france24.com/en/greece-blazes-continue-to-spread-across-the-country"
         }
       ],
       "source_count": 2
     }
   ],
-  "top_stories": [],
   "developing": [
     {
-      "label": "Ceuta · influx · migrant · Spain",
+      "label": "Moscow · restaurant · killed · officials",
       "origin": "convergence",
-      "source_count": 2,
+      "source_count": 3,
       "item_count": 5,
-      "latest_at": "2026-08-02T10:16:34Z",
+      "latest_at": "2026-08-02T11:39:00Z",
       "sources": [
         {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/moscow-restaurant-blast-a-brutal-terror-attack-mayor-says/a-78205022?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Moscow restaurant blast a 'brutal terror attack,' mayor says",
+          "published_at": "2026-08-02T11:39:00Z"
+        },
+        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260802-the-week-in-pictures-european-wildfires-a-woolly-mammoth-and-a-migrant-influx-at-spain-s-ceuta",
-          "headline": "The week in pictures: European wildfires, a woolly mammoth and a migrant influx at Spain's Ceuta",
-          "published_at": "2026-08-02T10:16:34Z"
+          "url": "https://www.france24.com/en/europe/20260802-at-least-three-killed-in-moscow-restaurant-bombing-russian-officials-say",
+          "headline": "At least three killed in Moscow restaurant bombing, Russian officials say",
+          "published_at": "2026-08-02T05:46:20Z"
         },
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&at_campaign=rss",
-          "headline": "EU calls emergency meeting to discuss Ceuta migrant crossings",
-          "published_at": "2026-08-01T20:09:27Z"
+          "url": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_medium=RSS&at_campaign=rss",
+          "headline": "Three killed after bomb detonated at Moscow restaurant, state media say",
+          "published_at": "2026-08-02T00:02:18Z"
         }
       ]
     },
@@ -147,49 +192,63 @@
       ]
     },
     {
-      "label": "killed · Moscow · bombing · restaurant",
+      "label": "Ceuta · meeting · migration",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 3,
-      "latest_at": "2026-08-02T08:41:16Z",
+      "latest_at": "2026-08-02T08:47:53Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/three-people-killed-in-moscow-bombing",
-          "headline": "Three people killed in Moscow bombing",
-          "published_at": "2026-08-02T08:41:16Z"
+          "url": "https://www.france24.com/en/europe-to-hold-meeting-tuesday-over-ceuta-after-migration-flux",
+          "headline": "Europe to hold meeting Tuesday over Ceuta after migration flux",
+          "published_at": "2026-08-02T08:47:53Z"
         },
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_medium=RSS&at_campaign=rss",
-          "headline": "Three killed after bomb detonated at Moscow restaurant, state media say",
-          "published_at": "2026-08-02T00:02:18Z"
+          "url": "https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&at_campaign=rss",
+          "headline": "EU calls emergency meeting to discuss Ceuta migrant crossings",
+          "published_at": "2026-08-01T20:09:27Z"
         }
       ]
     },
     {
-      "label": "Russian · strike · Ukraine",
+      "label": "migrant · Spain",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-08-01T15:53:05Z",
+      "latest_at": "2026-08-02T10:32:28Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260801-russian-forces-strike-targets-ukraine-odesa-mykolaiv-ports",
-          "headline": "Russian forces strike targets in Ukraine's Odesa, Mykolaiv ports",
-          "published_at": "2026-08-01T15:53:05Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss",
+          "headline": "How Spain's migrant crisis created a political storm - whipped up by social media",
+          "published_at": "2026-08-02T10:32:28Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
-          "headline": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
-          "published_at": "2026-08-01T11:52:29Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260802-the-week-in-pictures-european-wildfires-a-woolly-mammoth-and-a-migrant-influx-at-spain-s-ceuta",
+          "headline": "The week in pictures: European wildfires, a woolly mammoth and a migrant influx at Spain's Ceuta",
+          "published_at": "2026-08-02T10:16:34Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "93fb0b2e490ced34ece3cca3",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Moscow restaurant blast a 'brutal terror attack,' mayor says",
+      "url": "https://www.dw.com/en/moscow-restaurant-blast-a-brutal-terror-attack-mayor-says/a-78205022?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-02T11:39:00Z",
+      "collected_at": "2026-08-02T12:01:30Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
     {
       "id": "cc325a25b3d6825c97d11f1c",
       "source_id": "bbc_europe",
@@ -198,6 +257,34 @@
       "url": "https://www.bbc.co.uk/news/videos/crk5j6g8lmko?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-02T10:59:55Z",
       "collected_at": "2026-08-02T11:30:39Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "bd972a42ad81633f1c6a1dc2",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Fastest runner to cross the Alps says it was an incredible experience",
+      "url": "https://www.bbc.co.uk/news/videos/crk5j6g8lmko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-02T10:59:55Z",
+      "collected_at": "2026-08-02T12:01:30Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "de5ef6272dd325e09278f225",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "How Spain's migrant crisis created a political storm - whipped up by social media",
+      "url": "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-02T10:32:28Z",
+      "collected_at": "2026-08-02T12:01:30Z",
       "topics": [
         "breaking",
         "politics",
@@ -443,6 +530,20 @@
       ]
     },
     {
+      "id": "285bc03aeb907210a34c51b5",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "At least three killed in 'terrorist' bombing of Moscow restaurant, Russian officials say",
+      "url": "https://www.france24.com/en/europe/20260802-at-least-three-killed-in-moscow-restaurant-bombing-russian-officials-say",
+      "published_at": "2026-08-02T05:46:20Z",
+      "collected_at": "2026-08-02T12:01:30Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "9dd646934fee0740585cf4a6",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -639,6 +740,20 @@
       ]
     },
     {
+      "id": "6c3b7e8bb8b9ef9b4c411e2f",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Young guns for hire - the teenage hitmen recruited to kill across Europe",
+      "url": "https://www.bbc.co.uk/news/articles/czrjyevmv61o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-01T23:03:35Z",
+      "collected_at": "2026-08-02T12:01:30Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "b17930d7be82842f766200ee",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -716,6 +831,20 @@
       "url": "https://www.france24.com/en/middle-east/20260801-israeli-strikes-kill-eight-overnight-despite-hopes-for-a-deal",
       "published_at": "2026-08-01T18:57:09Z",
       "collected_at": "2026-08-02T09:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "58e892ce4e561ea7f18f9dbd",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Israeli strikes on residential buildings kill at least nine in Gaza",
+      "url": "https://www.france24.com/en/middle-east/20260801-israeli-strikes-kill-eight-overnight-despite-hopes-for-a-deal",
+      "published_at": "2026-08-01T18:57:09Z",
+      "collected_at": "2026-08-02T12:01:30Z",
       "topics": [
         "politics",
         "security",
@@ -1042,6 +1171,34 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "e27782301e1f7087596cf262",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "No country for old men: Music genre rejuvenates to fit the algorithm era",
+      "url": "https://english.elpais.com/culture/2026-07-31/no-country-for-old-men-music-genre-rejuvenates-to-fit-the-algorithm-era.html",
+      "published_at": "2026-07-31T11:36:38Z",
+      "collected_at": "2026-08-02T12:01:30Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "a0a0baf06436c095201ce976",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘Pervert glasses’: Meta struggles with mockery and misgivings toward its star product",
+      "url": "https://english.elpais.com/technology/2026-07-31/pervert-glasses-meta-struggles-with-mockery-and-misgivings-toward-its-star-product.html",
+      "published_at": "2026-07-31T11:35:52Z",
+      "collected_at": "2026-08-02T12:01:30Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
