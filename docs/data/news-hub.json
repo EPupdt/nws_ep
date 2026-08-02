@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-02T07:00:48Z",
-  "last_successful_collection_at": "2026-08-02T07:00:48Z",
+  "generated_at": "2026-08-02T07:30:38Z",
+  "last_successful_collection_at": "2026-08-02T07:30:38Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-02T07:00:48Z"
+      "at": "2026-08-02T07:30:38Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-02T07:00:48Z"
+      "at": "2026-08-02T07:30:38Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-02T07:00:48Z"
+      "at": "2026-08-02T07:30:38Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,107 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-02T07:00:48Z"
+      "at": "2026-08-02T07:30:38Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-02T07:00:48Z"
+      "at": "2026-08-02T07:30:38Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-08-02T07:00:48Z"
+      "at": "2026-08-02T07:30:38Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-02T07:00:48Z"
+      "at": "2026-08-02T07:30:38Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-02T07:00:48Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-02T07:30:38Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-02T07:00:48Z"
+      "at": "2026-08-02T07:30:38Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian missile attacks on Kyiv and Ukrainian ports",
-      "summary": "Russian forces launched missile attacks on Ukrainian cities, killing at least nine people and injuring dozens. The strikes targeted strategic ports and infrastructure, escalating the ongoing conflict.",
+      "title": "NATO detects rapid missile threat near Poland",
+      "summary": "NATO has detected a rapid missile threat near Poland, prompting a swift response. The incident highlights the speed at which NATO can spot potential threats.",
+      "article_ids": [
+        "f307420cdc4c68237627e0fd"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/230899/polands-sixminute-russia-missile-scare-shows-how-fast-nato-can-spot-a-threat-and-the-agonising-slowness-of-deciding-if-to-fire-back"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Europe battles widespread wildfires",
+      "summary": "Wildfires across Europe, particularly in France, have spread rapidly, with large blazes in the Gironde region and other areas. Firefighters have managed to contain some fires, but many remain uncontrolled.",
+      "article_ids": [
+        "31f938d1595caa4be5635efe",
+        "12027c0b88b64abbd4cda806",
+        "65c11f69671b426ac7d0a421",
+        "3c78855cdb892395861496d1",
+        "4aeb920bd8219fda3925f300"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/on-the-front-line-of-europe-s-battle-against-wildfires/a-78204324?maca=en-rss-en-eu-2092-rdf"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Ceuta migration crisis",
+      "summary": "Ceuta has experienced a significant influx of migrants, with 60,000 crossing the border and 57 deaths reported. The Spanish government has criticized EU partners for their response, prompting an emergency meeting among EU leaders.",
+      "article_ids": [
+        "85a17df6fdadd6eb70bae011",
+        "e18bf6834bb35bd73a70bfe0",
+        "de09a06d4c66a96321b8eed8",
+        "6d830aa45a34addcc3e35993",
+        "ca712f211692aa163ead6de2"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260801-spain-installs-floating-barrier-in-ceuta-after-migration-influx"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ceuta-spain-slams-selfish-eu-partners"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Russian strikes on Kyiv",
+      "summary": "Russian forces have carried out missile attacks on Kyiv, resulting in nine deaths and 22 injuries. Additional strikes have targeted Ukrainian ports in Odesa and Mykolaiv.",
       "article_ids": [
         "d6b65f58d4fab8850097a3f5",
-        "bf2bd208a4e5e0f04f953ff0",
-        "f9618d50c538cb0dcae5146d"
+        "f9618d50c538cb0dcae5146d",
+        "bf2bd208a4e5e0f04f953ff0"
       ],
       "sources": [
         {
@@ -78,39 +138,40 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260801-russian-forces-strike-targets-ukraine-odesa-mykolaiv-ports"
+          "url": "https://www.france24.com/en/kyiv-9-dead-and-22-hurt-in-missile-attack"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "Ceuta migrant crisis escalates with 60,000 crossings",
-      "summary": "A surge of migrants crossed into Ceuta, with reports of 60,000 crossings and 57 deaths, prompting EU leaders to criticize Spain's handling. Spain installed a floating barrier to manage the influx amid growing pressure from EU partners.",
+      "title": "Wildfires in Europe",
+      "summary": "Wildfires across Europe, particularly in France, have spread rapidly, with large blazes in the Gironde region and other areas. Firefighters have managed to contain some fires, but many remain uncontrolled.",
       "article_ids": [
-        "de09a06d4c66a96321b8eed8",
-        "85a17df6fdadd6eb70bae011",
-        "e18bf6834bb35bd73a70bfe0"
+        "31f938d1595caa4be5635efe",
+        "12027c0b88b64abbd4cda806",
+        "65c11f69671b426ac7d0a421",
+        "3c78855cdb892395861496d1",
+        "4aeb920bd8219fda3925f300"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&at_campaign=rss"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/on-the-front-line-of-europe-s-battle-against-wildfires/a-78204324?maca=en-rss-en-eu-2092-rdf"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260801-spain-installs-floating-barrier-in-ceuta-after-migration-influx"
+          "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled"
         }
       ],
       "source_count": 2
     }
   ],
-  "top_stories": [],
   "developing": [
     {
-      "label": "killed · Moscow · officials · restaurant",
+      "label": "killed · Moscow · restaurant · bomb",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 5,
+      "item_count": 4,
       "latest_at": "2026-08-02T05:46:20Z",
       "sources": [
         {
@@ -155,10 +216,31 @@
       ]
     },
     {
-      "label": "deal · Trump · accept · Hamas",
+      "label": "Russian · strike · targets · Ukraine",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-08-01T15:53:05Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260801-russian-forces-strike-targets-ukraine-odesa-mykolaiv-ports",
+          "headline": "Russian forces strike targets in Ukraine's Odesa, Mykolaiv ports",
+          "published_at": "2026-08-01T15:53:05Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/war-in-ukraine-why-crimea-has-become-a-strategic-target/a-78197135?maca=en-rss-en-eu-2092-rdf",
+          "headline": "War in Ukraine: Why Crimea has become a strategic target",
+          "published_at": "2026-08-01T10:03:00Z"
+        }
+      ]
+    },
+    {
+      "label": "deal · Trump · Live · US",
       "origin": "radar",
       "source_count": 1,
-      "item_count": 4,
+      "item_count": 5,
       "latest_at": "2026-08-02T05:28:11Z",
       "sources": [
         {
@@ -168,24 +250,23 @@
           "published_at": "2026-08-02T05:28:11Z"
         }
       ]
-    },
-    {
-      "label": "France · wildfire · contained · Major",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 3,
-      "latest_at": "2026-08-01T11:49:36Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-major-wildfire-contained-but-uncontrolled",
-          "headline": "France: Major wildfire contained but uncontrolled",
-          "published_at": "2026-08-01T11:49:36Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "31f938d1595caa4be5635efe",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "On the front line of Europe's battle against wildfires",
+      "url": "https://www.dw.com/en/on-the-front-line-of-europe-s-battle-against-wildfires/a-78204324?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-02T06:57:00Z",
+      "collected_at": "2026-08-02T07:30:38Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
     {
       "id": "93a0d41ac46d1b2ef6baf1db",
       "source_id": "france24",
@@ -208,6 +289,20 @@
       "url": "https://www.france24.com/en/middle-east/20260802-live-trump-says-us-to-stop-new-strikes-on-iran-calls-for-rapid-deal-on-hormuz",
       "published_at": "2026-08-02T05:28:11Z",
       "collected_at": "2026-08-02T05:41:32Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "dae7cd10ef97088e71895b6c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Middle East live : Trump says US to stop new strikes on Iran, calls for 'rapid deal' on Hormuz",
+      "url": "https://www.france24.com/en/middle-east/20260802-live-trump-says-us-to-stop-new-strikes-on-iran-calls-for-rapid-deal-on-hormuz",
+      "published_at": "2026-08-02T05:28:11Z",
+      "collected_at": "2026-08-02T07:30:38Z",
       "topics": [
         "politics",
         "security",
@@ -803,6 +898,20 @@
       ]
     },
     {
+      "id": "b5993e1856fefd1ccf01c63e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France's wildfires are now 'under control', says PM Lecornu",
+      "url": "https://www.france24.com/en/france/20260801-french-firefighters-stop-wildfires-spread-but-they-continue-burn",
+      "published_at": "2026-08-01T09:58:12Z",
+      "collected_at": "2026-08-02T07:30:38Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "94d47c540b2ea48b3fc8156e",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1083,20 +1192,6 @@
       ]
     },
     {
-      "id": "63d2f97b7b15c161f7ad347f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US drops Reflecting Pool case, admits damage due to botched renovation",
-      "url": "https://www.france24.com/en/live-news/20260801-us-drops-reflecting-pool-case-admits-damage-due-to-botched-renovation",
-      "published_at": "2026-08-01T06:09:11Z",
-      "collected_at": "2026-08-01T07:30:34Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "3d99a629e3d82cf053acee08",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1136,6 +1231,34 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "de6d1b5a3ddb6fe40e2072b9",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland to deport foreigner who performed Nazi salute at Auschwitz Museum",
+      "url": "https://notesfrompoland.com/2026/07/31/poland-to-deport-foreigner-who-performed-nazi-salute-at-auschwitz-museum",
+      "published_at": "2026-07-31T06:51:41Z",
+      "collected_at": "2026-08-02T07:30:38Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "6f60c4b5c3bc9eea9c653aed",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Germany has lost its moral compass, as it shields Israel from sanctions and legal scrutiny",
+      "url": "https://euobserver.com/230839/germany-has-lost-its-moral-compass-as-it-shields-israel-from-sanctions-and-legal-scrutiny",
+      "published_at": "2026-07-31T06:44:54Z",
+      "collected_at": "2026-08-02T07:30:38Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
