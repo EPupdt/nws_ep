@@ -1,6 +1,5 @@
 {
   "seen": {
-    "3427ba42f8e8e17a0f046ab0": "2026-07-31T19:00:55Z",
     "3eac5840954fc260fb587c82": "2026-07-31T19:34:35Z",
     "1d7a806a0fda6c6de1442675": "2026-07-31T19:34:35Z",
     "0600c61d00f9a54cdf8219e2": "2026-07-31T19:34:35Z",
@@ -272,7 +271,8 @@
     "7fa85c9e2f31973a7cb0989d": "2026-08-02T19:00:45Z",
     "969caad47c80ba39f02829a7": "2026-08-02T19:00:45Z",
     "c5803d3b65cf5b53772320f4": "2026-08-02T19:00:45Z",
-    "e2f854f89f4b4f08df8772c6": "2026-08-02T19:00:45Z"
+    "e2f854f89f4b4f08df8772c6": "2026-08-02T19:00:45Z",
+    "3427ba42f8e8e17a0f046ab0": "2026-08-02T19:30:35Z"
   },
   "radar": [
     {
@@ -1242,20 +1242,6 @@
       ]
     },
     {
-      "id": "de54f74710047869a7435815",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France's fires are 'today under control', says PM Lecornu",
-      "url": "https://www.france24.com/en/france/20260801-french-firefighters-stop-wildfires-spread-but-they-continue-burn",
-      "published_at": "2026-08-01T09:58:12Z",
-      "collected_at": "2026-08-01T19:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "b5993e1856fefd1ccf01c63e",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1266,6 +1252,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "3427ba42f8e8e17a0f046ab0",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Canadian company launches €7.5 billion bid for Polish convenience store chain Żabka",
+      "url": "https://notesfrompoland.com/2026/07/31/canadian-company-launches-e7-5-billion-bid-for-polish-convenience-store-chain-zabka",
+      "published_at": "2026-07-31T18:38:33Z",
+      "collected_at": "2026-08-02T19:30:35Z",
+      "topics": [
+        "central_europe",
+        "politics",
         "society"
       ]
     },
@@ -2715,14 +2715,6 @@
   "recent_topics": [
     {
       "at": "2026-08-01T07:30:34Z",
-      "title": "UK Chancellor announces October budget date"
-    },
-    {
-      "at": "2026-08-01T07:30:34Z",
-      "title": "Romania defends NATO's Eastern flank despite government and budget issues"
-    },
-    {
-      "at": "2026-08-01T07:30:34Z",
       "title": "Environmental and Climate Risks"
     },
     {
@@ -3032,17 +3024,65 @@
     {
       "at": "2026-08-02T19:00:45Z",
       "title": "Ukraine hits Russian refinery, Moscow reports casualties"
+    },
+    {
+      "at": "2026-08-02T19:30:35Z",
+      "title": "Wildfire Crisis in Europe"
+    },
+    {
+      "at": "2026-08-02T19:30:35Z",
+      "title": "Migration Surge in Ceuta"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Wildfires intensify across Greece",
-        "summary": "Wildfires have spread deeper into the Athens region. The fire toll in Greece has risen as blazes spread amid strong winds.",
+        "title": "Moscow Restaurant Bombing",
+        "summary": "A bombing at a Moscow restaurant has resulted in at least three deaths. Russian officials have characterized the incident as a terror attack.",
+        "article_ids": [
+          "6859c57bef5d9774465653dd",
+          "93a0d41ac46d1b2ef6baf1db"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/three-people-killed-in-moscow-bombing"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20260802-at-least-three-killed-in-moscow-restaurant-bombing-russian-officials-say"
+          }
+        ],
+        "source_count": 1
+      },
+      {
+        "title": "Energy Crisis in Hungary",
+        "summary": "Drought conditions have caused the shutdown of the Paks nuclear plant. This development has led to warnings of potential energy shortfalls in Hungary.",
+        "article_ids": [
+          "81e380d1d35a0cc036ebfe6f",
+          "7cb389d08846ef99b5cb7773"
+        ],
+        "sources": [
+          {
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/hungary-shuts-down-paks-nuclear-plant-danube-drought-intensifies-energy-crisis"
+          },
+          {
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/hungary-shuts-down-paks-nuclear-plant-danube-drought-intensifies-energy-crisis"
+          }
+        ],
+        "source_count": 1
+      }
+    ],
+    "top_stories": [
+      {
+        "title": "Wildfire Crisis in Europe",
+        "summary": "Wildfires are spreading across various regions, including the Athens area in Greece. In France, thousands of firefighters remain deployed to contain a megafire in Gironde.",
         "article_ids": [
           "0b312a765affff22a01aa5e3",
-          "e244a5818a47d5d2ad67bb2c"
+          "caec4cdae7cf8233b5e9508a"
         ],
         "sources": [
           {
@@ -3051,85 +3091,31 @@
           },
           {
             "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20260802-fire-toll-mounts-in-greece-as-blazes-spread-amid-strong-winds"
+            "url": "https://www.france24.com/en/gironde-megafire-contained-nearly-3-000-firefighters-remain-deployed"
           }
         ],
         "source_count": 1
       },
       {
-        "title": "Hungary faces energy shortfall after nuclear plant shutdown",
-        "summary": "Hungary faces an energy crisis after drought forced the shutdown of the Paks nuclear plant. Successive heatwaves have drained the Danube river, which is used to cool the nuclear facility.",
+        "title": "Migration Surge in Ceuta",
+        "summary": "A surge in migration has prompted the EU to schedule an emergency meeting. Most migrants who breached the border have since departed from Ceuta.",
         "article_ids": [
-          "81e380d1d35a0cc036ebfe6f",
-          "2f16191c57d4bc2682bcb10c"
+          "bad96c82f508e784c631e39d",
+          "6933e1b2ddaa654b494ead09"
         ],
         "sources": [
-          {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/hungary-shuts-down-paks-nuclear-plant-danube-drought-intensifies-energy-crisis"
-          },
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/hungary-successive-heatwaves-drain-danube-river-used-to-cool-nuclear-plant"
-          }
-        ],
-        "source_count": 2
-      }
-    ],
-    "top_stories": [
-      {
-        "title": "Ceuta migration situation eases as most migrants depart",
-        "summary": "Most migrants who breached the border in Ceuta have left, according to Spanish authorities. European officials are preparing an emergency meeting to address the migration flux.",
-        "article_ids": [
-          "6933e1b2ddaa654b494ead09",
-          "bad96c82f508e784c631e39d"
-        ],
-        "sources": [
-          {
-            "publisher": "Deutsche Welle",
-            "url": "https://www.dw.com/en/ceuta-most-who-breached-border-have-left-spain-says/live-78191601?maca=en-rss-en-eu-2092-rdf"
-          },
           {
             "publisher": "France 24 English",
             "url": "https://www.france24.com/en/europe-to-hold-meeting-tuesday-over-ceuta-after-migration-flux"
-          }
-        ],
-        "source_count": 2
-      },
-      {
-        "title": "Moscow restaurant bombing leaves three dead",
-        "summary": "Russian officials reported at least three fatalities from a restaurant bombing in Moscow. Emergency responders arrived at the scene of the deadly blast.",
-        "article_ids": [
-          "93a0d41ac46d1b2ef6baf1db",
-          "5e9ac9e65ea641d3b226e9ea"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20260802-at-least-three-killed-in-moscow-restaurant-bombing-russian-officials-say"
           },
           {
-            "publisher": "BBC News Europe",
-            "url": "https://www.bbc.co.uk/news/videos/c1719pk0xq8o?at_medium=RSS&at_campaign=rss"
+            "publisher": "Deutsche Welle",
+            "url": "https://www.dw.com/en/ceuta-most-who-breached-border-have-left-spain-says/live-78191601?maca=en-rss-en-eu-2092-rdf"
           }
         ],
         "source_count": 2
-      },
-      {
-        "title": "Ukraine hits Russian refinery, Moscow reports casualties",
-        "summary": "Ukrainian forces struck a major Russian oil refinery and an airfield, according to Kyiv. Moscow reported eight deaths resulting from the attacks.",
-        "article_ids": [
-          "de46e11b5b566b75e7ac2dfb"
-        ],
-        "sources": [
-          {
-            "publisher": "BBC News Europe",
-            "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss"
-          }
-        ],
-        "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-08-02T19:00:45Z"
+  "last_collection_at": "2026-08-02T19:30:35Z"
 }
