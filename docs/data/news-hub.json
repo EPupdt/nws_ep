@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-02T04:03:42Z",
-  "last_successful_collection_at": "2026-08-02T04:03:42Z",
+  "generated_at": "2026-08-02T04:38:10Z",
+  "last_successful_collection_at": "2026-08-02T04:38:10Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-02T04:03:42Z"
+      "at": "2026-08-02T04:38:10Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-02T04:03:42Z"
+      "at": "2026-08-02T04:38:10Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-02T04:03:42Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-02T04:38:10Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-02T04:03:42Z"
+      "at": "2026-08-02T04:38:10Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-02T04:03:42Z"
+      "at": "2026-08-02T04:38:10Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
-      "count": "57",
-      "at": "2026-08-02T04:03:42Z"
+      "count": "60",
+      "at": "2026-08-02T04:38:10Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-02T04:03:42Z"
+      "at": "2026-08-02T04:38:10Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-02T04:03:42Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-02T04:38:10Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-02T04:03:42Z"
+      "at": "2026-08-02T04:38:10Z"
     }
   ],
   "europe_now": [
@@ -221,6 +221,132 @@
     }
   ],
   "radar": [
+    {
+      "id": "6f65c02425bbeb7148eccaab",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘One family, one vote’: The men (and women) seeking to revoke women’s suffrage in the United States",
+      "url": "https://english.elpais.com/usa/2026-08-02/one-family-one-vote-the-men-and-women-seeking-to-revoke-womens-suffrage-in-the-united-states.html",
+      "published_at": "2026-08-02T04:00:00Z",
+      "collected_at": "2026-08-02T04:38:10Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "252a4074eed41db3092ce0a8",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Daniel Ortega establishes Latin America’s last dictatorship in Nicaragua",
+      "url": "https://english.elpais.com/international/2026-08-02/daniel-ortega-establishes-latin-americas-last-dictatorship-in-nicaragua.html",
+      "published_at": "2026-08-02T04:00:00Z",
+      "collected_at": "2026-08-02T04:38:10Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "3cb73c0c6d21da0b3fe54f27",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "La Fortuna, Costa Rica: Where the community takes its share of the tourism industry",
+      "url": "https://english.elpais.com/international/2026-08-02/la-fortuna-costa-rica-where-the-community-takes-its-share-of-the-tourism-industry.html",
+      "published_at": "2026-08-02T04:00:00Z",
+      "collected_at": "2026-08-02T04:38:10Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "5e218dfed1856618d257b69c",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "US: This is what we’re like",
+      "url": "https://english.elpais.com/culture/2026-08-02/us-this-is-what-were-like.html",
+      "published_at": "2026-08-02T04:00:00Z",
+      "collected_at": "2026-08-02T04:38:10Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "d8baeb666708339128050a89",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Jorge Pérez Gallego, astrophysicist: ‘A total eclipse creates an energy similar to a big concert, to the feeling of celebrating a goal’",
+      "url": "https://english.elpais.com/science-tech/2026-08-02/jorge-perez-gallego-astrophysicist-a-total-eclipse-creates-an-energy-similar-to-a-big-concert-to-the-feeling-of-celebrating-a-goal.html",
+      "published_at": "2026-08-02T04:00:00Z",
+      "collected_at": "2026-08-02T04:38:10Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "6109aa3ee18e246107bb4353",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Alain de Botton: ‘The hardest part about being single is that you never stop thinking about love’",
+      "url": "https://english.elpais.com/culture/2026-08-02/alain-de-botton-the-hardest-part-about-being-single-is-that-you-never-stop-thinking-about-love.html",
+      "published_at": "2026-08-02T04:00:00Z",
+      "collected_at": "2026-08-02T04:38:10Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "bce51e107bd93f600d0cea24",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Martín Rodrigo Alharilla, historian: ‘The best-known slaveholding families in Catalonia are only the tip of the iceberg’",
+      "url": "https://english.elpais.com/international/2026-08-02/martin-rodrigo-alharilla-historian-the-best-known-slaveholding-families-in-catalonia-are-only-the-tip-of-the-iceberg.html",
+      "published_at": "2026-08-02T04:00:00Z",
+      "collected_at": "2026-08-02T04:38:10Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "33a01b78171d172d50bfb70c",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Sebastian Stan and the mystery of the ubiquitous actor who flies under the radar",
+      "url": "https://english.elpais.com/culture/2026-08-02/sebastian-stan-and-the-mystery-of-the-ubiquitous-actor-who-flies-under-the-radar.html",
+      "published_at": "2026-08-02T04:00:00Z",
+      "collected_at": "2026-08-02T04:38:10Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "a545a258d93feda6f96fb3a0",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The story behind ‘Dancing on My Own’ and the irresistible power of songs that make you cry while you dance",
+      "url": "https://english.elpais.com/culture/2026-08-02/the-story-behind-dancing-on-my-own-and-the-irresistible-power-of-songs-that-make-you-cry-while-you-dance.html",
+      "published_at": "2026-08-02T04:00:00Z",
+      "collected_at": "2026-08-02T04:38:10Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "bc9f5837c69afed28fdfc630",
       "source_id": "dw_europe",
@@ -1017,146 +1143,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "37ba7a8ae112ec72d282cd1a",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Labour holds Greater Manchester mayoralty after counting goes to second round",
-      "url": "https://www.politico.eu/article/labour-holds-greater-manchester-mayoralty-after-counting-goes-to-second-round",
-      "published_at": "2026-08-01T04:09:50Z",
-      "collected_at": "2026-08-01T04:30:41Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "f4ba2790768a552887d9dd7a",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Detaining undocumented migrants at airports, the new front in Trump’s immigration offensive",
-      "url": "https://english.elpais.com/usa/2026-08-01/detaining-undocumented-migrants-at-airports-the-new-front-in-trumps-immigration-offensive.html",
-      "published_at": "2026-08-01T04:00:00Z",
-      "collected_at": "2026-08-01T04:30:41Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "20c408bd5711daf824e23da4",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Honduras under Nasry Asfura: State cuts, violence and the shadow of Juan Orlando Hernández",
-      "url": "https://english.elpais.com/international/2026-08-01/honduras-under-nasry-asfura-state-cuts-violence-and-the-shadow-of-juan-orlando-hernandez.html",
-      "published_at": "2026-08-01T04:00:00Z",
-      "collected_at": "2026-08-01T04:30:41Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "e992660c71ba62ece35bcb20",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Yang Zhilin, the rock enthusiast dreaming of AI’s other side",
-      "url": "https://english.elpais.com/economy-and-business/2026-08-01/yang-zhilin-the-rock-enthusiast-dreaming-of-ais-other-side.html",
-      "published_at": "2026-08-01T04:00:00Z",
-      "collected_at": "2026-08-01T04:30:41Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "5e239e808d74fef478de9262",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "LGBTQ+ inmates come out in Spanish jails",
-      "url": "https://english.elpais.com/spain/2026-08-01/lgbtq-inmates-come-out-in-spanish-jails.html",
-      "published_at": "2026-08-01T04:00:00Z",
-      "collected_at": "2026-08-01T04:30:41Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "7ad30ee0848ee921c12cb4b3",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "On horseback against the patriarchy: Mexican women conquer charrería",
-      "url": "https://english.elpais.com/eps/2026-08-01/on-horseback-against-the-patriarchy-mexican-women-conquer-charreria.html",
-      "published_at": "2026-08-01T04:00:00Z",
-      "collected_at": "2026-08-01T04:30:41Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "29c002efea9aef3e512d501a",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Hannah Einbinder: ‘Others being cowardly doesn’t mean I’m brave. The people of Gaza are brave’",
-      "url": "https://english.elpais.com/culture/2026-08-01/hannah-einbinder-others-being-cowardly-doesnt-mean-im-brave-the-people-of-gaza-are-brave.html",
-      "published_at": "2026-08-01T04:00:00Z",
-      "collected_at": "2026-08-01T04:30:41Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "de97a459aa5e91edc7266c8b",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Madrid, a laboratory for evictions",
-      "url": "https://english.elpais.com/spain/2026-08-01/madrid-a-laboratory-for-evictions.html",
-      "published_at": "2026-08-01T04:00:00Z",
-      "collected_at": "2026-08-01T04:30:41Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "427294e01c12ca8c77f8eec7",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘Nekonomics,’ or the great Japanese cat economy",
-      "url": "https://english.elpais.com/economy-and-business/2026-08-01/nekonomics-or-the-great-japanese-cat-economy.html",
-      "published_at": "2026-08-01T04:00:00Z",
-      "collected_at": "2026-08-01T04:30:41Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "b1e61045e54a10317095888e",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Eva Millet, writer: ‘The constant pursuit of perfection is a recipe for guilt, frustration and unhappiness’",
-      "url": "https://english.elpais.com/lifestyle/2026-08-01/eva-millet-writer-the-constant-pursuit-of-perfection-is-a-recipe-for-guilt-frustration-and-unhappiness.html",
-      "published_at": "2026-08-01T04:00:00Z",
-      "collected_at": "2026-08-01T04:30:41Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
