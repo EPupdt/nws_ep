@@ -292,7 +292,8 @@
     "0ea0e903ab6a2c9ce36c171d": "2026-08-03T13:30:46Z",
     "435ceea30c1d34fab101b6cb": "2026-08-03T13:30:46Z",
     "5ab0c2155214c606527365bd": "2026-08-03T13:30:46Z",
-    "59fc9d1eabfc36978217293d": "2026-08-03T13:30:46Z"
+    "59fc9d1eabfc36978217293d": "2026-08-03T13:30:46Z",
+    "d20cf55c85f74903f0e94317": "2026-08-03T14:00:50Z"
   },
   "radar": [
     {
@@ -583,6 +584,20 @@
       "url": "https://www.politico.eu/article/donald-trump-restart-war-iran-talks-strikes",
       "published_at": "2026-08-03T09:53:42Z",
       "collected_at": "2026-08-03T10:00:52Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "d20cf55c85f74903f0e94317",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Iran signals no immediate U.S. talks after Trump says negotiations to resume",
+      "url": "https://www.politico.eu/article/donald-trump-restart-war-iran-talks-strikes",
+      "published_at": "2026-08-03T09:53:42Z",
+      "collected_at": "2026-08-03T14:00:50Z",
       "topics": [
         "institutions",
         "politics",
@@ -1416,20 +1431,6 @@
       ]
     },
     {
-      "id": "f1395835a82b6fb5e0ffb0fd",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Greece's wildfires worsen as strong winds spread blazes",
-      "url": "https://www.france24.com/en/europe/20260802-fire-toll-mounts-in-greece-as-blazes-spread-amid-strong-winds",
-      "published_at": "2026-08-02T09:03:11Z",
-      "collected_at": "2026-08-02T14:00:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "897608af39a6d6e5b540d17f",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1819,34 +1820,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "23addbac5a2b5fb9a375a244",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Mass sea crossings to Spain’s Ceuta enclave prompt EU anti-migrant panic",
-      "url": "https://euobserver.com/230915/mass-sea-crossings-to-spains-ceuta-enclave-prompt-eu-anti-migrant-panic",
-      "published_at": "2026-07-31T13:02:41Z",
-      "collected_at": "2026-08-02T14:00:46Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "512304c551594d923a43225a",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Curry Barker, the director who went from serving coffee to fund his YouTube shorts to becoming a millionaire with his debut film",
-      "url": "https://english.elpais.com/culture/2026-07-31/curry-barker-the-director-who-went-from-serving-coffee-to-fund-his-youtube-shorts-to-becoming-a-millionaire-with-his-debut-film.html",
-      "published_at": "2026-07-31T12:56:22Z",
-      "collected_at": "2026-08-02T14:00:46Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -2609,10 +2582,6 @@
   "recent_topics": [
     {
       "at": "2026-08-01T17:02:45Z",
-      "title": "Wildfires in France and Greece"
-    },
-    {
-      "at": "2026-08-01T17:02:45Z",
       "title": "NATO missile threat detection near Poland"
     },
     {
@@ -2926,14 +2895,19 @@
     {
       "at": "2026-08-03T13:30:46Z",
       "title": "Energy and Environment"
+    },
+    {
+      "at": "2026-08-03T14:00:50Z",
+      "title": "Hungary Energy Crisis"
     }
   ],
   "alerts": [],
   "last_selection": {
-    "europe_now": [
+    "europe_now": [],
+    "top_stories": [
       {
         "title": "Hungary Energy Crisis",
-        "summary": "Hungary has shut down its Paks nuclear plant due to a drought and high temperatures. This move has triggered an energy crisis across the country.",
+        "summary": "Hungary faces an energy crisis as drought shuts down its Paks nuclear plant, leading to power shortages. The government is implementing emergency measures to stabilize the grid.",
         "article_ids": [
           "01e9d83c5aacc26ee4228e22"
         ],
@@ -2946,56 +2920,8 @@
           }
         ],
         "source_count": 1
-      },
-      {
-        "title": "Ceuta Migration Crisis",
-        "summary": "Spain is dealing with the aftermath of a significant migration surge in Ceuta. The EU has responded to the situation as officials in Spain seek solidarity.",
-        "article_ids": [
-          "bdc48255c67b975ff7f32cff",
-          "f16fcb74912f397141acd22f"
-        ],
-        "sources": [
-          {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/ursula-von-der-leyen-support-spain-ceuta-crisis",
-            "headline": "Von der Leyen rallies to support Spain after Ceuta crisis",
-            "published_at": "2026-08-03T11:56:33Z"
-          },
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/video/20260803-spain-expects-solidarity-as-it-grapples-with-aftermath-of-ceuta-migration-surge",
-            "headline": "'Spain expects solidarity' as it grapples with aftermath of Ceuta migration surge",
-            "published_at": "2026-08-03T10:51:10Z"
-          }
-        ],
-        "source_count": 2
-      }
-    ],
-    "top_stories": [
-      {
-        "title": "Energy and Environment",
-        "summary": "Drought conditions have forced the shutdown of a nuclear plant in Hungary. Meanwhile, wildfires in Greece have necessitated mass evacuations for residents.",
-        "article_ids": [
-          "01e9d83c5aacc26ee4228e22",
-          "f363ead7db4dbdcc95f0f32f"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/amid-a-drought-and-soaring-temperatures-hungary-shuts-down-its-nuclear-plant",
-            "headline": "Amid a drought and soaring temperatures, Hungary shuts down its nuclear plant",
-            "published_at": "2026-08-03T12:34:47Z"
-          },
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/in-blazing-greece-anger-grows-among-residents-forced-to-evacuate",
-            "headline": "In blazing Greece, anger grows among residents forced to evacuate",
-            "published_at": "2026-08-03T08:46:30Z"
-          }
-        ],
-        "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-08-03T13:30:46Z"
+  "last_collection_at": "2026-08-03T14:00:50Z"
 }
