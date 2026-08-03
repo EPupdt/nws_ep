@@ -19,7 +19,7 @@ import feedparser
 import yaml
 
 from news_hub import archive
-from news_hub.convergence import developing_panel
+from news_hub.convergence import corpus_names, developing_panel, shares_a_name
 
 ROOT = Path(__file__).resolve().parents[2]
 STATE_PATH = ROOT / "data" / "state.json"
@@ -255,16 +255,30 @@ def enrich_selection(selection: dict[str, Any], articles: list[dict[str, Any]]) 
       same story, which tells a reader nothing about what either report said.
       The publisher's excerpt is still never carried: it is dropped in
       public_article() before anything reaches this function.
+    * a source is only kept if its own headline names something our title or
+      summary also names. An item whose every reference fails that test is
+      dropped: an editorial summary with no attributable source is not
+      publishable under the sourcing rule, and the caller already keeps the
+      previous selection when a run yields nothing.
     * where the model named more articles than the two we show, the two are
       taken from different publishers when it offered any. It routinely returns
       two items from one newsroom, and a block headed "what the sources report"
       listing the same outlet twice shows less than the material allows.
     """
     by_id = {article["id"]: article for article in articles}
+    names = corpus_names(str(article.get("title", "")) for article in articles)
+
     for group in ("europe_now", "top_stories"):
         valid: list[dict[str, Any]] = []
         for item in selection.get(group, []):
             refs = [by_id[key] for key in item.get("article_ids", []) if key in by_id]
+            # The model's article_ids are not always about the story it wrote.
+            # On 3 August 2026 it filed "Machthaber: Leo XIV." under Hungary's
+            # nuclear shutdown and a Tour de France Femmes stage report under the
+            # Moscow restaurant bombing, and both went to the homepage as "what
+            # the sources report". An id is a claim; this checks it.
+            subject = "{} {}".format(item.get("title", ""), item.get("summary", ""))
+            refs = [ref for ref in refs if shares_a_name(subject, str(ref.get("title", "")), names)]
             chosen: list[dict[str, Any]] = []
             publishers: set[str] = set()
             for ref in refs:

@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import re
 from datetime import datetime, timedelta, UTC
+from collections.abc import Iterable
 from typing import Any
 
 # Words that carry no topical signal. Kept deliberately small: over-filtering
@@ -219,6 +220,55 @@ def _plain_words(title: str) -> list[str]:
     return [word.lower() for word in _PLAIN_WORD.findall(title)]
 
 
+def corpus_names(titles: Iterable[str]) -> set[str]:
+    """Tokens this window has shown to be names rather than opening words.
+
+    A word earns the status either by appearing capitalised away from the start
+    of a headline, or by never appearing in lower case anywhere in the window.
+    The first test catches Ceuta and Infantino; the second catches Greece, which
+    several headlines open with and none write mid-sentence. "Thousands" passes
+    neither, because somebody always writes "as thousands flee".
+
+    Words that are routinely capitalised without naming anything - Europe,
+    World, President - are removed, so they cannot vouch for a connection on
+    their own.
+    """
+    mid_sentence: set[str] = set()
+    capitalised: set[str] = set()
+    lowercased: set[str] = set()
+
+    for title in titles:
+        for index, raw in enumerate(_WORD.findall(str(title))):
+            token = _normalise(raw)
+            if raw[:1].isupper():
+                capitalised.add(token)
+                if index > 0:
+                    mid_sentence.add(token)
+            else:
+                lowercased.add(token)
+
+    return (mid_sentence | (capitalised - lowercased)) - GENERIC_NAMES
+
+
+def shares_a_name(text: str, headline: str, names: set[str]) -> bool:
+    """Do these two pieces of text name the same thing?
+
+    Used to check that a source we are about to publish under one of our own
+    stories is actually about that story. On 3 August 2026 the model attached
+    "Machthaber: Leo XIV." to Hungary's nuclear shutdown and a Tour de France
+    Femmes stage report to the Moscow restaurant bombing; both were published
+    as "what the sources report", because nothing had ever checked.
+
+    One shared name is the bar, not two shared words. Our own summary is two
+    sentences and a headline is ten words, so demanding two overlaps threw away
+    good sources - "Fire toll mounts in Greece" shares only *Greece* with a
+    summary about wildfires in Greece, and that is plenty.
+    """
+    ours, _ = _tokens(text)
+    theirs, _ = _tokens(headline)
+    return bool(ours & theirs & names)
+
+
 def _shares_root(a: str, b: str) -> bool:
     """Same word family, judged on a common prefix of at least five letters.
 
@@ -304,23 +354,9 @@ def _recent(radar: list[dict[str, Any]], now: datetime, window_hours: int) -> li
     # name if some headline capitalised it away from the start, or if every
     # headline that used it capitalised it at all — which is true of Greece and
     # false of Thousands, because somebody always writes "as thousands flee".
-    mid_sentence: set[str] = set()
-    capitalised: set[str] = set()
-    lowercased: set[str] = set()
-
+    names = corpus_names(str(entry.get("title", "")) for entry in recent)
     for entry in recent:
-        for index, raw in enumerate(_WORD.findall(str(entry.get("title", "")))):
-            token = _normalise(raw)
-            if raw[:1].isupper():
-                capitalised.add(token)
-                if index > 0:
-                    mid_sentence.add(token)
-            else:
-                lowercased.add(token)
-
-    corpus_proper = (mid_sentence | (capitalised - lowercased)) - GENERIC_NAMES
-    for entry in recent:
-        entry["_proper"] = entry["_tokens"] & corpus_proper
+        entry["_proper"] = entry["_tokens"] & names
 
     return recent
 
