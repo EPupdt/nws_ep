@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-03T14:30:48Z",
-  "last_successful_collection_at": "2026-08-03T14:30:48Z",
+  "generated_at": "2026-08-03T15:00:51Z",
+  "last_successful_collection_at": "2026-08-03T15:00:51Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-03T14:30:48Z"
+      "at": "2026-08-03T15:00:51Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "24",
-      "at": "2026-08-03T14:30:48Z"
+      "count": "25",
+      "at": "2026-08-03T15:00:51Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-03T14:30:48Z"
+      "at": "2026-08-03T15:00:51Z"
     },
     {
       "id": "euractiv",
@@ -29,82 +29,86 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-03T14:30:48Z"
+      "at": "2026-08-03T15:00:51Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-03T14:30:48Z"
+      "at": "2026-08-03T15:00:51Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-03T14:30:48Z"
+      "at": "2026-08-03T15:00:51Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-03T14:30:48Z"
+      "at": "2026-08-03T15:00:51Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-03T14:30:48Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-03T15:00:51Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-03T14:30:48Z"
+      "at": "2026-08-03T15:00:51Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ceuta migration crisis resolution",
-      "summary": "Spain reports most migrants who breached Ceuta's border have left, resolving the immediate crisis. The event has drawn EU attention and political criticism from far-right groups.",
+      "title": "Hungary faces energy crisis",
+      "summary": "The Hungarian government has shut down its nuclear plant due to soaring temperatures and drought. This move comes as the nation faces an energy crisis.",
       "article_ids": [
-        "435ceea30c1d34fab101b6cb",
-        "59fc9d1eabfc36978217293d",
-        "02a283c7c80dc1efc6dfcbf4",
-        "bdc48255c67b975ff7f32cff",
-        "137adcaeeb70a912fd59c3ac"
+        "01e9d83c5aacc26ee4228e22"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/ursula-von-der-leyen-support-spain-ceuta-crisis",
-          "headline": "Von der Leyen rallies to support Spain after Ceuta crisis",
-          "published_at": "2026-08-03T11:56:33Z"
-        },
-        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260803-ceuta-parents-gather-at-moroccan-border-desperate-for-news-of-their-children",
-          "headline": "Ceuta: Parents gather at Moroccan border, desperate for news of their children",
-          "published_at": "2026-08-03T11:19:36Z"
+          "url": "https://www.france24.com/en/amid-a-drought-and-soaring-temperatures-hungary-shuts-down-its-nuclear-plant",
+          "headline": "Amid a drought and soaring temperatures, Hungary shuts down its nuclear plant",
+          "published_at": "2026-08-03T12:34:47Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
+    },
+    {
+      "title": "Ceuta migration crisis",
+      "summary": "Spain is grappling with the aftermath of a migration surge in Ceuta. The situation has prompted calls for solidarity from the Spanish government.",
+      "article_ids": [
+        "f16fcb74912f397141acd22f"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260803-spain-expects-solidarity-as-it-grapples-with-aftermath-of-ceuta-migration-surge",
+          "headline": "'Spain expects solidarity' as it grapples with aftermath of Ceuta migration surge",
+          "published_at": "2026-08-03T10:51:10Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "Ceuta migration surge and EU response",
-      "summary": "A surge in migrants crossing into Ceuta prompted border controls and EU diplomatic engagement. Spain later reported most migrants had departed, though far-right groups criticized the response.",
+      "title": "Energy and Environment",
+      "summary": "Drought conditions have caused the Rhine river to fall to record low levels. This environmental phenomenon is straining river systems across Europe.",
       "article_ids": [
-        "435ceea30c1d34fab101b6cb",
-        "59fc9d1eabfc36978217293d",
-        "bdc48255c67b975ff7f32cff"
+        "8cdecf12f2869da86324e414"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/ursula-von-der-leyen-support-spain-ceuta-crisis",
-          "headline": "Von der Leyen rallies to support Spain after Ceuta crisis",
-          "published_at": "2026-08-03T11:56:33Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss",
+          "headline": "Rhine falls to record low levels as drought strains Europe's rivers",
+          "published_at": "2026-08-03T14:38:48Z"
         }
       ],
       "source_count": 1
@@ -115,14 +119,14 @@
       "label": "Iran · Trump · talks · strikes",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 7,
-      "latest_at": "2026-08-03T13:19:21Z",
+      "item_count": 11,
+      "latest_at": "2026-08-03T14:44:31Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/after-donald-trump-s-latest-u-turn-uncertainty-remains-over-talks-with-iran",
-          "headline": "After Donald Trump's latest U-turn, uncertainty remains over talks with Iran",
-          "published_at": "2026-08-03T13:19:21Z"
+          "url": "https://www.france24.com/en/iran-calls-trump-s-bluff-as-it-denies-negotiating-with-the-us",
+          "headline": "Iran 'calls Trump's bluff' as it denies negotiating with the US",
+          "published_at": "2026-08-03T14:44:31Z"
         },
         {
           "publisher": "POLITICO Europe",
@@ -135,6 +139,33 @@
           "url": "https://english.elpais.com/international/2026-08-03/trump-says-talks-with-iran-to-resume-monday.html",
           "headline": "Trump says talks with Iran to resume Monday",
           "published_at": "2026-08-03T07:40:46Z"
+        }
+      ]
+    },
+    {
+      "label": "Ceuta · crisis · migrant · attack",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 9,
+      "latest_at": "2026-08-03T12:20:57Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ceuta-migrant-crisis-far-right-govts-ridiculously-using-these-images-to-stoke-fear-for-votes",
+          "headline": "Ceuta migrant crisis: Far-right govts 'ridiculously using these images' to stoke fear for votes",
+          "published_at": "2026-08-03T12:20:57Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ursula-von-der-leyen-support-spain-ceuta-crisis",
+          "headline": "Von der Leyen rallies to support Spain after Ceuta crisis",
+          "published_at": "2026-08-03T11:56:33Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/spain/2026-08-03/barricades-and-patrols-in-ceuta-to-push-out-the-migrants-who-resist-returning-to-morocco-there-are-still-some-left.html",
+          "headline": "Barricades and patrols in Ceuta to push out the migrants who resist returning to Morocco: ‘There are still some left’",
+          "published_at": "2026-08-03T08:12:39Z"
         }
       ]
     },
@@ -179,24 +210,79 @@
           "published_at": "2026-08-03T10:05:24Z"
         }
       ]
-    },
-    {
-      "label": "bomb · Moscow",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 2,
-      "latest_at": "2026-08-03T03:53:05Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cdx8qp451lko?at_medium=RSS&at_campaign=rss",
-          "headline": "Steve Rosenberg at the Moscow restaurant where bomb killed three",
-          "published_at": "2026-08-03T03:53:05Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "3da17a3d5dc1090c7c3218a6",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Farage needs the border to be the battle of the summer",
+      "url": "https://www.politico.eu/article/nigel-farage-immigration-plan-operation-fortress-uk-borders",
+      "published_at": "2026-08-03T14:55:55Z",
+      "collected_at": "2026-08-03T15:00:51Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "0d10716a1480df78f25f4658",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Anti-war politician and Kremlin critic Boris Nadezhdin flees Russia for France",
+      "url": "https://www.france24.com/en/europe/20260803-anti-war-politician-and-kremlin-critic-boris-nadezhdin-flees-russia-for-france",
+      "published_at": "2026-08-03T14:47:54Z",
+      "collected_at": "2026-08-03T15:00:51Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "9a75d6e9d32bda83f6a2ca4e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Iran 'calls Trump's bluff' as it denies negotiating with the US",
+      "url": "https://www.france24.com/en/iran-calls-trump-s-bluff-as-it-denies-negotiating-with-the-us",
+      "published_at": "2026-08-03T14:44:31Z",
+      "collected_at": "2026-08-03T15:00:51Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "8cdecf12f2869da86324e414",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Rhine falls to record low levels as drought strains Europe's rivers",
+      "url": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-03T14:38:48Z",
+      "collected_at": "2026-08-03T15:00:51Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "03fdee484c00729ef62fdf6c",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Nicoya Peninsula: the Costa Rica region with the most centenarians despite its relative poverty",
+      "url": "https://english.elpais.com/international/2026-08-03/nicoya-peninsula-the-costa-rica-region-with-the-most-centenarians-despite-its-relative-poverty.html",
+      "published_at": "2026-08-03T14:35:52Z",
+      "collected_at": "2026-08-03T15:00:51Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "22497e9572ca01d7c1a1518d",
       "source_id": "el_pais_english",
@@ -205,6 +291,20 @@
       "url": "https://english.elpais.com/economy-and-business/2026-08-03/maria-sanchez-diez-new-head-of-el-pais-united-states-edition.html",
       "published_at": "2026-08-03T14:18:59Z",
       "collected_at": "2026-08-03T14:30:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "3148f444b231c50608394771",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Venezuela negotiates, Washington arbitrates, Trump decides",
+      "url": "https://english.elpais.com/international/2026-08-03/venezuela-negotiates-washington-arbitrates-trump-decides.html",
+      "published_at": "2026-08-03T13:39:00Z",
+      "collected_at": "2026-08-03T15:00:51Z",
       "topics": [
         "politics",
         "society",
