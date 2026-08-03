@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-03T05:30:37Z",
-  "last_successful_collection_at": "2026-08-03T05:30:37Z",
+  "generated_at": "2026-08-03T06:01:48Z",
+  "last_successful_collection_at": "2026-08-03T06:01:48Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-03T05:30:37Z"
+      "at": "2026-08-03T06:01:48Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-08-03T05:30:37Z"
+      "at": "2026-08-03T06:01:48Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-03T05:30:37Z"
+      "status": "ok",
+      "count": "22",
+      "at": "2026-08-03T06:01:48Z"
     },
     {
       "id": "euractiv",
@@ -29,79 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-03T05:30:37Z"
+      "at": "2026-08-03T06:01:48Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-03T05:30:37Z"
+      "at": "2026-08-03T06:01:48Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-08-03T05:30:37Z"
+      "at": "2026-08-03T06:01:48Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-03T05:30:37Z"
+      "at": "2026-08-03T06:01:48Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-03T05:30:37Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-03T06:01:48Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-03T05:30:37Z"
+      "at": "2026-08-03T06:01:48Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ceuta triggers two days of EU emergency talks",
-      "summary": "The EU convened emergency meetings after a surge of migrants crossed into Ceuta. Spain reported that most of those who breached the border have since left.",
+      "title": "Energy Crisis in Hungary",
+      "summary": "A drought has forced the shutdown of the Paks nuclear plant. This development has led to warnings of a potential energy shortfall in Hungary.",
       "article_ids": [
-        "ef0a4e5e7d7e5c6eccbbb172"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/ceuta-triggers-two-days-of-eu-emergency-talks",
-          "headline": "Ceuta triggers two days of EU emergency talks",
-          "published_at": "2026-08-03T04:05:00Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
-      "summary": "Ukraine reported that a major Russian oil refinery and airfield were hit. Moscow confirmed eight deaths from the strike.",
-      "article_ids": [
-        "de46e11b5b566b75e7ac2dfb"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
-          "published_at": "2026-08-02T15:48:00Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Hungary faces energy crisis as drought shuts down Paks nuclear plant, PM says",
-      "summary": "Hungary shut down its Paks nuclear plant due to drought, worsening an energy crisis. The government warned of a potential shortfall.",
-      "article_ids": [
-        "81e380d1d35a0cc036ebfe6f"
+        "81e380d1d35a0cc036ebfe6f",
+        "7cb389d08846ef99b5cb7773"
       ],
       "sources": [
         {
@@ -109,15 +76,22 @@
           "url": "https://www.politico.eu/article/hungary-shuts-down-paks-nuclear-plant-danube-drought-intensifies-energy-crisis",
           "headline": "Hungary faces energy crisis as drought shuts down Paks nuclear plant, PM says",
           "published_at": "2026-08-02T12:25:47Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/hungary-shuts-down-paks-nuclear-plant-danube-drought-intensifies-energy-crisis",
+          "headline": "Hungary faces energy crunch as drought shuts down Paks nuclear plant, PM says",
+          "published_at": "2026-08-02T12:25:47Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Moscow restaurant blast a 'brutal terror attack,' mayor says",
-      "summary": "A blast at a Moscow restaurant killed several people. The mayor called it a brutal terror attack.",
+      "title": "Terror Attack in Moscow",
+      "summary": "A bombing at a Moscow restaurant has resulted in multiple fatalities. Local officials have characterized the incident as a brutal terror attack.",
       "article_ids": [
-        "93fb0b2e490ced34ece3cca3"
+        "93fb0b2e490ced34ece3cca3",
+        "5e9ac9e65ea641d3b226e9ea"
       ],
       "sources": [
         {
@@ -125,33 +99,48 @@
           "url": "https://www.dw.com/en/moscow-restaurant-blast-a-brutal-terror-attack-mayor-says/a-78205022?maca=en-rss-en-eu-2092-rdf",
           "headline": "Moscow restaurant blast a 'brutal terror attack,' mayor says",
           "published_at": "2026-08-02T11:39:00Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/c1719pk0xq8o?at_medium=RSS&at_campaign=rss",
+          "headline": "At the scene of deadly Moscow bomb blast",
+          "published_at": "2026-08-02T16:52:35Z"
         }
       ],
-      "source_count": 1
-    },
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Poland: Prime Minister Tusk defies anti-Ukrainian violence",
-      "summary": "Poland's Prime Minister Tusk publicly opposed anti-Ukrainian violence. He urged the public to refrain from such actions.",
+      "title": "Migration Crisis in Ceuta",
+      "summary": "The EU has initiated two days of emergency talks regarding the situation in Ceuta. Most migrants who breached the border have since departed.",
       "article_ids": [
-        "337e0d1ba6d9b2c4a4ffaeee"
+        "ef0a4e5e7d7e5c6eccbbb172",
+        "6933e1b2ddaa654b494ead09"
       ],
       "sources": [
         {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/ceuta-triggers-two-days-of-eu-emergency-talks",
+          "headline": "Ceuta triggers two days of EU emergency talks",
+          "published_at": "2026-08-03T04:05:00Z"
+        },
+        {
           "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/poland-prime-minister-tusk-defies-anti-ukrainian-violence/a-78203187?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Poland: Prime Minister Tusk defies anti-Ukrainian violence",
-          "published_at": "2026-08-02T09:24:00Z"
+          "url": "https://www.dw.com/en/ceuta-most-who-breached-border-have-left-spain-says/live-78191601?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Ceuta: Most who breached border have left, Spain says",
+          "published_at": "2026-08-02T16:47:00Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
     {
-      "label": "Iran · strikes · Trump",
+      "label": "Iran · strikes · Trump · calling",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
+      "item_count": 5,
       "latest_at": "2026-08-02T22:11:19Z",
       "sources": [
         {
@@ -169,10 +158,10 @@
       ]
     },
     {
-      "label": "Greece · collide · blazes · Fire",
+      "label": "Greece · collide · firefighting · helicopters",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
+      "item_count": 5,
       "latest_at": "2026-08-02T19:38:28Z",
       "sources": [
         {
@@ -190,27 +179,6 @@
       ]
     },
     {
-      "label": "Ceuta · Spain · border · migrants",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-08-02T16:47:00Z",
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ceuta-most-who-breached-border-have-left-spain-says/live-78191601?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Ceuta: Most who breached border have left, Spain says",
-          "published_at": "2026-08-02T16:47:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260802-spain-ceuta-navigates-aftermath-border-surge-after-most-migrants-return-morocco",
-          "headline": "Spain's Ceuta navigates aftermath of border surge as most migrants return home",
-          "published_at": "2026-08-02T13:04:05Z"
-        }
-      ]
-    },
-    {
       "label": "Russia · strikes",
       "origin": "radar",
       "source_count": 1,
@@ -224,9 +192,52 @@
           "published_at": "2026-08-02T16:06:04Z"
         }
       ]
+    },
+    {
+      "label": "airfield · deaths · eight · major",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-08-02T15:48:00Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss",
+          "headline": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
+          "published_at": "2026-08-02T15:48:00Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "965c068ab2ec56bc39b1a481",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Morocco blames Ceuta migrant rush on 'misleading information' on social media",
+      "url": "https://www.france24.com/en/europe/20260803-morocco-blames-ceuta-migrant-rush-on-misleading-information-on-social-media",
+      "published_at": "2026-08-03T05:56:26Z",
+      "collected_at": "2026-08-03T06:01:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "86d582725a8979544a148aac",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Cuba plunges into darkness as state energy firm reports new nationwide blackout",
+      "url": "https://www.france24.com/en/americas/20260803-cuba-plunges-into-darkness-as-state-energy-firm-reports-new-nationwide-blackout",
+      "published_at": "2026-08-03T04:19:15Z",
+      "collected_at": "2026-08-03T06:01:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "ef0a4e5e7d7e5c6eccbbb172",
       "source_id": "politico_europe",
@@ -368,6 +379,20 @@
       ]
     },
     {
+      "id": "a5d328f4c896bf8d3c48cf2d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Middle East live: Trump says Iran talks set to start after calling off strikes",
+      "url": "https://www.france24.com/en/middle-east/20260802-live-trump-says-new-talks-with-iran-to-begin-monday-after-calling-off-strikes",
+      "published_at": "2026-08-02T22:11:19Z",
+      "collected_at": "2026-08-03T06:01:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "d0ec2eff1ac2c8b38b94a203",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -438,6 +463,20 @@
       ]
     },
     {
+      "id": "0edd3266f08ca121ef50818a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Brazil's Lula says he is 'in great shape' as he launches fourth term bid",
+      "url": "https://www.france24.com/en/americas/20260802-brazil-s-lula-80-says-in-great-shape-as-he-launches-reelection-bid",
+      "published_at": "2026-08-02T17:26:01Z",
+      "collected_at": "2026-08-03T06:01:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "5e9ac9e65ea641d3b226e9ea",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -473,6 +512,20 @@
       "url": "https://www.france24.com/en/sport/20260802-wiebes-wins-second-consecutive-tour-de-france-femmes-stage",
       "published_at": "2026-08-02T16:34:20Z",
       "collected_at": "2026-08-02T17:00:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "409f424d2a0543c344ae0cde",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Lorena Wiebes takes second win at Women's Tour de France",
+      "url": "https://www.france24.com/en/sport/20260802-wiebes-wins-second-consecutive-tour-de-france-femmes-stage",
+      "published_at": "2026-08-02T16:34:20Z",
+      "collected_at": "2026-08-03T06:01:48Z",
       "topics": [
         "politics",
         "security",
@@ -886,6 +939,20 @@
       ]
     },
     {
+      "id": "2c265237554ebef650aab825",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Two killed after firefighting helicopters in Greece collide near Athens",
+      "url": "https://www.france24.com/en/europe/20260802-fire-toll-mounts-in-greece-as-blazes-spread-amid-strong-winds",
+      "published_at": "2026-08-02T09:03:11Z",
+      "collected_at": "2026-08-03T06:01:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "2f16191c57d4bc2682bcb10c",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1047,20 +1114,6 @@
       "url": "https://www.france24.com/en/europe/20260802-at-least-three-killed-in-moscow-restaurant-bombing-russian-officials-say",
       "published_at": "2026-08-02T05:46:20Z",
       "collected_at": "2026-08-02T12:01:30Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "9dd646934fee0740585cf4a6",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live : Trump says US to stop new strikes on Iran, calls for 'rapid deal' on Hormuz",
-      "url": "https://www.france24.com/en/middle-east/20260802-live-trump-says-us-to-stop-new-strikes-on-iran-calls-for-rapid-deal-on-hormuz",
-      "published_at": "2026-08-02T05:28:11Z",
-      "collected_at": "2026-08-02T05:41:32Z",
       "topics": [
         "politics",
         "security",
@@ -1667,20 +1720,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "fb788af8b239d1f7cecb3b40",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Defining modernity in South-East Asia",
-      "url": "https://ecfr.eu/podcasts/episode/defining-modernity-in-south-east-asia",
-      "published_at": "2026-07-31T05:00:00Z",
-      "collected_at": "2026-08-02T05:41:32Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
       ]
     },
     {
