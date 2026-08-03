@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-03T16:30:40Z",
-  "last_successful_collection_at": "2026-08-03T16:30:40Z",
+  "generated_at": "2026-08-03T17:00:46Z",
+  "last_successful_collection_at": "2026-08-03T17:00:46Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-03T16:30:40Z"
+      "at": "2026-08-03T17:00:46Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-08-03T16:30:40Z"
+      "at": "2026-08-03T17:00:46Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-03T16:30:40Z"
+      "at": "2026-08-03T17:00:46Z"
     },
     {
       "id": "euractiv",
@@ -29,59 +29,91 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-03T16:30:40Z"
+      "at": "2026-08-03T17:00:46Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-03T16:30:40Z"
+      "at": "2026-08-03T17:00:46Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-03T16:30:40Z"
+      "at": "2026-08-03T17:00:46Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-03T16:30:40Z"
+      "at": "2026-08-03T17:00:46Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-03T16:30:40Z"
+      "at": "2026-08-03T17:00:46Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-03T16:30:40Z"
+      "at": "2026-08-03T17:00:46Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ceuta Migration Crisis",
-      "summary": "A surge in migrants crossing the Ceuta border has prompted the EU to call for 'united action' on border protection, highlighting tensions between member states and Morocco over responsibility.",
+      "title": "Ceuta migration crisis: Far-right govts 'ridiculously using these images' to stoke fear for votes",
+      "summary": "The Ceuta migration surge has become a political tool for far-right governments, exacerbating public fear and division. The EU has called for united action to address the border security challenges.",
       "article_ids": [
-        "6890db7203c80925534f2a94"
+        "ff43d7a0f5e01c7262f0138c",
+        "59dbe551fad3fcd9bc787dfa"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260803-ceuta-migrant-influx-reignites-immigration-divisions-in-europe",
-          "headline": "Ceuta migrant influx reignites immigration divisions in Europe",
-          "published_at": "2026-08-03T15:57:17Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ceuta-eu-calls-borders-a-shared-european-responsibility/a-78220701?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Ceuta: EU calls borders a 'shared European responsibility'",
+          "published_at": "2026-08-03T16:00:00Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/231192/ceuta-border-surge-shakes-moroccos-image-as-the-eus-trusted-partner",
+          "headline": "Ceuta border surge shakes Morocco’s image as the EU’s ‘trusted partner’",
+          "published_at": "2026-08-03T15:40:48Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Ceuta migration crisis",
+      "summary": "Ceuta's border surge has triggered EU emergency meetings and heightened border security measures. The crisis has reignited debates over immigration policies across Europe.",
+      "article_ids": [
+        "ff43d7a0f5e01c7262f0138c",
+        "59dbe551fad3fcd9bc787dfa"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ceuta-eu-calls-borders-a-shared-european-responsibility/a-78220701?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Ceuta: EU calls borders a 'shared European responsibility'",
+          "published_at": "2026-08-03T16:00:00Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/231192/ceuta-border-surge-shakes-moroccos-image-as-the-eus-trusted-partner",
+          "headline": "Ceuta border surge shakes Morocco’s image as the EU’s ‘trusted partner’",
+          "published_at": "2026-08-03T15:40:48Z"
+        }
+      ],
+      "source_count": 2
     },
     {
-      "title": "Hungary Energy Crisis",
-      "summary": "Hungary shut down its Paks nuclear plant due to drought, exacerbating energy shortages and raising concerns about systemic energy security in the region.",
+      "title": "Hungary energy crisis",
+      "summary": "Hungary's nuclear plant shutdown due to drought has caused an energy shortage, impacting national stability. The crisis has prompted calls for alternative energy solutions and EU support.",
       "article_ids": [
         "01e9d83c5aacc26ee4228e22"
       ],
@@ -96,58 +128,7 @@
       "source_count": 1
     }
   ],
-  "top_stories": [
-    {
-      "title": "Ceuta Migration Surge",
-      "summary": "The Ceuta border crisis has reignited debates about immigration policies across Europe, with far-right governments accused of exploiting the situation for political gain.",
-      "article_ids": [
-        "6890db7203c80925534f2a94"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260803-ceuta-migrant-influx-reignites-immigration-divisions-in-europe",
-          "headline": "Ceuta migrant influx reignites immigration divisions in Europe",
-          "published_at": "2026-08-03T15:57:17Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
   "developing": [
-    {
-      "label": "Ceuta · borders · EU · calls",
-      "origin": "convergence",
-      "source_count": 4,
-      "item_count": 7,
-      "latest_at": "2026-08-03T16:00:00Z",
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ceuta-eu-calls-borders-a-shared-european-responsibility/a-78220701?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Ceuta: EU calls borders a 'shared European responsibility'",
-          "published_at": "2026-08-03T16:00:00Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/231192/ceuta-border-surge-shakes-moroccos-image-as-the-eus-trusted-partner",
-          "headline": "Ceuta border surge shakes Morocco’s image as the EU’s ‘trusted partner’",
-          "published_at": "2026-08-03T15:40:48Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/eu-calls-for-united-action-on-border-protection-after-ceuta-mass-crossing",
-          "headline": "EU calls for 'united action' on border protection after Ceuta mass crossing",
-          "published_at": "2026-08-03T15:18:51Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/ceuta-triggers-two-days-of-eu-emergency-talks",
-          "headline": "Ceuta triggers two days of EU emergency talks",
-          "published_at": "2026-08-03T04:05:00Z"
-        }
-      ]
-    },
     {
       "label": "Iran · Trump · talks · strikes",
       "origin": "convergence",
@@ -176,6 +157,27 @@
       ]
     },
     {
+      "label": "Ceuta · migrant · crisis · Europe",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 8,
+      "latest_at": "2026-08-03T15:57:17Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260803-ceuta-migrant-influx-reignites-immigration-divisions-in-europe",
+          "headline": "Ceuta migrant influx reignites immigration divisions in Europe",
+          "published_at": "2026-08-03T15:57:17Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/spain/2026-08-03/barricades-and-patrols-in-ceuta-to-push-out-the-migrants-who-resist-returning-to-morocco-there-are-still-some-left.html",
+          "headline": "Barricades and patrols in Ceuta to push out the migrants who resist returning to Morocco: ‘There are still some left’",
+          "published_at": "2026-08-03T08:12:39Z"
+        }
+      ]
+    },
+    {
       "label": "Ceuta · Spain · crisis",
       "origin": "convergence",
       "source_count": 2,
@@ -197,28 +199,70 @@
       ]
     },
     {
-      "label": "appeal · court · expulsion · Kremlin",
+      "label": "EU · political",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-08-03T13:20:10Z",
+      "latest_at": "2026-08-03T16:34:40Z",
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/paris-court-rejects-xenia-fedorova-appeal-over-expulsion-order",
-          "headline": "Paris court rejects pro-Kremlin TV star’s appeal against expulsion",
-          "published_at": "2026-08-03T13:20:10Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/231229/as-eu-ai-act-enters-into-force-study-warnschatbots-blur-voters-own-political-views",
+          "headline": "As EU AI Act enters into force, study warns chatbots blur voters’ own political views",
+          "published_at": "2026-08-03T16:34:40Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260803-french-court-rejects-pro-kremlin-commentator-expulsion-appeal",
-          "headline": "French court rejects pro-Kremlin commentator's expulsion appeal",
-          "published_at": "2026-08-03T10:05:24Z"
+          "url": "https://www.france24.com/en/video/20260803-across-the-eu-immigration-being-used-as-a-political-tool-across-the-political-spectrum-1",
+          "headline": "Across the EU, immigration being used as a 'political tool' across the political spectrum",
+          "published_at": "2026-08-03T15:19:49Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "ed42a69b091773573ded4e24",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "White House finalizes voluntary AI oversight framework",
+      "url": "https://www.politico.com/news/2026/08/03/white-house-finalizes-voluntary-ai-oversight-framework-01022437",
+      "published_at": "2026-08-03T16:49:31Z",
+      "collected_at": "2026-08-03T17:00:46Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "e3f3e5b29dcce95710da5281",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "As EU AI Act enters into force, study warns chatbots blur voters’ own political views",
+      "url": "https://euobserver.com/231229/as-eu-ai-act-enters-into-force-study-warnschatbots-blur-voters-own-political-views",
+      "published_at": "2026-08-03T16:34:40Z",
+      "collected_at": "2026-08-03T17:00:46Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "db03aa3344aa7ab5c8178cc0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France: Water sports enthusiasts 'fly' above the River Seine",
+      "url": "https://www.france24.com/en/video/20260803-france-water-sports-enthusiasts-fly-above-the-river-seine",
+      "published_at": "2026-08-03T16:27:37Z",
+      "collected_at": "2026-08-03T17:00:46Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "ff43d7a0f5e01c7262f0138c",
       "source_id": "dw_europe",
@@ -1438,20 +1482,6 @@
       ]
     },
     {
-      "id": "5e9ac9e65ea641d3b226e9ea",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "At the scene of deadly Moscow bomb blast",
-      "url": "https://www.bbc.co.uk/news/videos/c1719pk0xq8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-02T16:52:35Z",
-      "collected_at": "2026-08-02T17:00:41Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "6933e1b2ddaa654b494ead09",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1466,20 +1496,6 @@
       ]
     },
     {
-      "id": "99fab52602f8da153e9beaa1",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Wiebes wins second consecutive Tour de France Femmes stage",
-      "url": "https://www.france24.com/en/sport/20260802-wiebes-wins-second-consecutive-tour-de-france-femmes-stage",
-      "published_at": "2026-08-02T16:34:20Z",
-      "collected_at": "2026-08-02T17:00:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "409f424d2a0543c344ae0cde",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1487,20 +1503,6 @@
       "url": "https://www.france24.com/en/sport/20260802-wiebes-wins-second-consecutive-tour-de-france-femmes-stage",
       "published_at": "2026-08-02T16:34:20Z",
       "collected_at": "2026-08-03T06:01:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "b7c915e63444b8872c32162c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ukrainian drone strikes kill at least five in Russia, set another Wildberries warehouse ablaze",
-      "url": "https://www.france24.com/en/europe/20260802-ukrainian-drone-strikes-kill-at-least-five-russia-set-another-wildberries-warehouse-ablaze",
-      "published_at": "2026-08-02T16:06:04Z",
-      "collected_at": "2026-08-02T16:31:46Z",
       "topics": [
         "politics",
         "security",
@@ -1533,20 +1535,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "13860854c82a90f6e9260f14",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "2,000km, eight countries, 29 days - the fastest runner to cross the Alps",
-      "url": "https://www.bbc.co.uk/sport/articles/cg7mdjkrr22o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-02T12:37:23Z",
-      "collected_at": "2026-08-02T16:31:46Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
@@ -1588,6 +1576,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "05f5a05dda5b53baa773d4c0",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Call for 'full review' as pressure grows on Infantino",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c04kr2nv3v3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-01T17:07:46Z",
+      "collected_at": "2026-08-03T17:00:46Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -1895,6 +1897,20 @@
       "collected_at": "2026-08-03T16:00:53Z",
       "topics": [
         "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "5b98027e0960cdcd60a1d5dd",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Greek police probe 'foul play' in death of woman found in suitcase",
+      "url": "https://www.bbc.co.uk/news/articles/cy07w28jn5lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-07-30T13:47:19Z",
+      "collected_at": "2026-08-03T17:00:46Z",
+      "topics": [
+        "breaking",
         "politics",
         "society"
       ]
