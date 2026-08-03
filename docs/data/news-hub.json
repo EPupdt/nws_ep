@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-03T14:00:50Z",
-  "last_successful_collection_at": "2026-08-03T14:00:50Z",
+  "generated_at": "2026-08-03T14:30:48Z",
+  "last_successful_collection_at": "2026-08-03T14:30:48Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-03T14:00:50Z"
+      "at": "2026-08-03T14:30:48Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-03T14:00:50Z"
+      "at": "2026-08-03T14:30:48Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-03T14:00:50Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-03T14:30:48Z"
     },
     {
       "id": "euractiv",
@@ -29,72 +29,51 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-03T14:00:50Z"
+      "at": "2026-08-03T14:30:48Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-03T14:00:50Z"
+      "at": "2026-08-03T14:30:48Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-03T14:00:50Z"
+      "at": "2026-08-03T14:30:48Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-03T14:00:50Z"
+      "at": "2026-08-03T14:30:48Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-03T14:00:50Z"
+      "at": "2026-08-03T14:30:48Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-03T14:00:50Z"
+      "at": "2026-08-03T14:30:48Z"
     }
   ],
-  "europe_now": [],
-  "top_stories": [
+  "europe_now": [
     {
-      "title": "Hungary Energy Crisis",
-      "summary": "Hungary faces an energy crisis as drought shuts down its Paks nuclear plant, leading to power shortages. The government is implementing emergency measures to stabilize the grid.",
+      "title": "Ceuta migration crisis resolution",
+      "summary": "Spain reports most migrants who breached Ceuta's border have left, resolving the immediate crisis. The event has drawn EU attention and political criticism from far-right groups.",
       "article_ids": [
-        "01e9d83c5aacc26ee4228e22"
+        "435ceea30c1d34fab101b6cb",
+        "59fc9d1eabfc36978217293d",
+        "02a283c7c80dc1efc6dfcbf4",
+        "bdc48255c67b975ff7f32cff",
+        "137adcaeeb70a912fd59c3ac"
       ],
       "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/amid-a-drought-and-soaring-temperatures-hungary-shuts-down-its-nuclear-plant",
-          "headline": "Amid a drought and soaring temperatures, Hungary shuts down its nuclear plant",
-          "published_at": "2026-08-03T12:34:47Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
-    {
-      "label": "Ceuta · crisis · migrant · attack",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 9,
-      "latest_at": "2026-08-03T12:20:57Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ceuta-migrant-crisis-far-right-govts-ridiculously-using-these-images-to-stoke-fear-for-votes",
-          "headline": "Ceuta migrant crisis: Far-right govts 'ridiculously using these images' to stoke fear for votes",
-          "published_at": "2026-08-03T12:20:57Z"
-        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/ursula-von-der-leyen-support-spain-ceuta-crisis",
@@ -102,13 +81,36 @@
           "published_at": "2026-08-03T11:56:33Z"
         },
         {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/spain/2026-08-03/barricades-and-patrols-in-ceuta-to-push-out-the-migrants-who-resist-returning-to-morocco-there-are-still-some-left.html",
-          "headline": "Barricades and patrols in Ceuta to push out the migrants who resist returning to Morocco: ‘There are still some left’",
-          "published_at": "2026-08-03T08:12:39Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260803-ceuta-parents-gather-at-moroccan-border-desperate-for-news-of-their-children",
+          "headline": "Ceuta: Parents gather at Moroccan border, desperate for news of their children",
+          "published_at": "2026-08-03T11:19:36Z"
         }
-      ]
-    },
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Ceuta migration surge and EU response",
+      "summary": "A surge in migrants crossing into Ceuta prompted border controls and EU diplomatic engagement. Spain later reported most migrants had departed, though far-right groups criticized the response.",
+      "article_ids": [
+        "435ceea30c1d34fab101b6cb",
+        "59fc9d1eabfc36978217293d",
+        "bdc48255c67b975ff7f32cff"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ursula-von-der-leyen-support-spain-ceuta-crisis",
+          "headline": "Von der Leyen rallies to support Spain after Ceuta crisis",
+          "published_at": "2026-08-03T11:56:33Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
     {
       "label": "Iran · Trump · talks · strikes",
       "origin": "convergence",
@@ -137,6 +139,27 @@
       ]
     },
     {
+      "label": "Russia · Ukraine",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-08-03T13:18:56Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/231159/russias-new-banderol-missile-cripples-ukraines-black-sea-grain-exports-ukraine-battlefield-update-day-1621",
+          "headline": "Russia’s new Banderol missile cripples Ukraine’s Black Sea grain exports (Ukraine Battlefield update, Day 1,621)",
+          "published_at": "2026-08-03T13:18:56Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260803-russia-online-retailer-wildberries-says-warehouse-on-fire-after-ukrainian-drone-attack",
+          "headline": "Ukraine targets Wildberries again as Russia hits Kharkiv publishing house",
+          "published_at": "2026-08-03T06:38:35Z"
+        }
+      ]
+    },
+    {
       "label": "appeal · court · expulsion · Kremlin",
       "origin": "convergence",
       "source_count": 2,
@@ -158,28 +181,36 @@
       ]
     },
     {
-      "label": "Russia · Ukraine",
-      "origin": "convergence",
-      "source_count": 2,
+      "label": "bomb · Moscow",
+      "origin": "radar",
+      "source_count": 1,
       "item_count": 2,
-      "latest_at": "2026-08-03T13:18:56Z",
+      "latest_at": "2026-08-03T03:53:05Z",
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/231159/russias-new-banderol-missile-cripples-ukraines-black-sea-grain-exports-ukraine-battlefield-update-day-1621",
-          "headline": "Russia’s new Banderol missile cripples Ukraine’s Black Sea grain exports (Ukraine Battlefield update, Day 1,621)",
-          "published_at": "2026-08-03T13:18:56Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260802-ukrainian-drone-strikes-kill-at-least-five-russia-set-another-wildberries-warehouse-ablaze",
-          "headline": "At least 14 dead as Ukraine and Russia exchange strikes",
-          "published_at": "2026-08-02T16:06:04Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cdx8qp451lko?at_medium=RSS&at_campaign=rss",
+          "headline": "Steve Rosenberg at the Moscow restaurant where bomb killed three",
+          "published_at": "2026-08-03T03:53:05Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "22497e9572ca01d7c1a1518d",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "María Sánchez Díez, new head of EL PAÍS United States edition",
+      "url": "https://english.elpais.com/economy-and-business/2026-08-03/maria-sanchez-diez-new-head-of-el-pais-united-states-edition.html",
+      "published_at": "2026-08-03T14:18:59Z",
+      "collected_at": "2026-08-03T14:30:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "97c2bb7b0e2f1a3e0186f174",
       "source_id": "france24",
@@ -797,6 +828,20 @@
       ]
     },
     {
+      "id": "701b8a4b9f154ed11028d256",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ukraine targets Wildberries again as Russia hits Kharkiv publishing house",
+      "url": "https://www.france24.com/en/europe/20260803-russia-online-retailer-wildberries-says-warehouse-on-fire-after-ukrainian-drone-attack",
+      "published_at": "2026-08-03T06:38:35Z",
+      "collected_at": "2026-08-03T14:30:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "965c068ab2ec56bc39b1a481",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1273,20 +1318,6 @@
       ]
     },
     {
-      "id": "caec4cdae7cf8233b5e9508a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Gironde megafire contained: Nearly 3,000 firefighters remain deployed",
-      "url": "https://www.france24.com/en/gironde-megafire-contained-nearly-3-000-firefighters-remain-deployed",
-      "published_at": "2026-08-02T14:21:34Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "918e6d5b01ec488a397209a7",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1311,20 +1342,6 @@
       "topics": [
         "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "897608af39a6d6e5b540d17f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Two firefighting helicopters collide near Athens as Greece confronts multiple blazes",
-      "url": "https://www.france24.com/en/europe/20260802-fire-toll-mounts-in-greece-as-blazes-spread-amid-strong-winds",
-      "published_at": "2026-08-02T09:03:11Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "security",
         "society"
       ]
     },
@@ -1735,6 +1752,34 @@
       ]
     },
     {
+      "id": "9e4258ee4e89b41a350edbf4",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Burnham’s first 10 days in No. 10: popular tax breaks, but North Sea oil gambit risks backlash",
+      "url": "https://euobserver.com/230830/burnhams-first-10-days-in-no-10-popular-tax-breaks-but-north-sea-oil-gambit-risks-backlash",
+      "published_at": "2026-07-30T13:02:09Z",
+      "collected_at": "2026-08-03T14:30:48Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "73bc248b8306e0cb4ed8fcfe",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Ukraine escalates Wildberries attacks to hit Russia’s second-biggest bank as missile crashes in Poland (Ukraine Battlefield update, Day 1,618)",
+      "url": "https://euobserver.com/230794/ukraine-escalates-wildberries-attacks-to-hit-russias-second-biggest-bank-as-missile-crashes-in-poland-ukraine-battlefield-update-day-1618",
+      "published_at": "2026-07-30T12:59:08Z",
+      "collected_at": "2026-08-03T14:30:48Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "8df45754cc9204bf50113ae2",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1973,76 +2018,6 @@
       ]
     },
     {
-      "id": "874647930bcfc105aa78d0ff",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Living through a World Cup with a gambling disorder: ‘Winning is the worst thing that can happen to you’",
-      "url": "https://english.elpais.com/society/2026-07-29/living-through-a-world-cup-with-a-gambling-disorder-winning-is-the-worst-thing-that-can-happen-to-you.html",
-      "published_at": "2026-07-29T12:51:21Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "99af9f6582ff18829a26abb4",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Newly sworn-in judge of Poland’s constitutional court stages boycott over blocked colleagues",
-      "url": "https://notesfrompoland.com/2026/07/29/newly-sworn-in-judge-of-polands-constitutional-court-stages-boycott-over-blocked-colleagues",
-      "published_at": "2026-07-29T12:46:54Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "7ee55393c3062abd032ece05",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Nayib Bukele’s route to erasing limits on power in El Salvador",
-      "url": "https://english.elpais.com/international/2026-07-29/nayib-bukeles-route-to-erasing-limits-on-power-in-el-salvador.html",
-      "published_at": "2026-07-29T12:03:15Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "a8ee70c897117935a82e5fc9",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "With twice the arable land of France, Ukraine’s vast farms spooks European counterparts amid looming fight over market access and EU subsidies",
-      "url": "https://euobserver.com/227918/with-twice-the-arable-land-of-france-ukraines-vast-farms-spooks-european-counterparts-amid-looming-fight-over-market-access-and-eu-subsidies",
-      "published_at": "2026-07-29T11:30:17Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "6ab5c50542acdf6e86d4557f",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Former Polish PM Morawiecki forms parliamentary caucus rival to PiS, deepening opposition split",
-      "url": "https://notesfrompoland.com/2026/07/29/former-polish-pm-morawiecki-forms-rival-parliamentary-caucus-deepening-opposition-split",
-      "published_at": "2026-07-29T11:06:23Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "2267e129132ca81bc03a60d5",
       "source_id": "ecfr",
       "source_name": "European Council on Foreign Relations",
@@ -2054,76 +2029,6 @@
         "analysis",
         "foreign_policy",
         "security"
-      ]
-    },
-    {
-      "id": "df6d53c368d317540455e113",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Europe’s queer ‘conversion’ therapy crisis is an invisible trauma for victims, but a difficult practice to ban",
-      "url": "https://euobserver.com/227265/europes-queer-conversion-therapy-crisis-is-an-invisible-trauma-for-victims-but-a-difficult-practice-to-ban",
-      "published_at": "2026-07-29T10:34:00Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "13c6123775ff3f28be9aff23",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Is the next EU budget about to torpedo social care in Europe?",
-      "url": "https://euobserver.com/229833/is-the-next-eu-budget-about-to-torpedo-social-care-in-europe",
-      "published_at": "2026-07-29T09:17:00Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "2fd9e388d206037d9f14a974",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Three Israeli farm companies advertise exports from occupied West Bank to Spain, defying settlement products ban",
-      "url": "https://euobserver.com/230314/three-israeli-farm-companies-advertise-exports-from-occupied-west-bank-to-spain-defying-settlement-products-ban",
-      "published_at": "2026-07-29T08:12:00Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "de201fab068d62d03e61d447",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Keiko Fujimori takes office as president of Peru with the promise of a ‘safe, prosperous, and united’ country",
-      "url": "https://english.elpais.com/international/2026-07-28/keiko-fujimori-takes-office-as-president-of-peru-with-the-promise-of-a-safe-prosperous-and-united-country.html",
-      "published_at": "2026-07-28T19:15:38Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "66b9e9a80cf0d6ad81fe364f",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Polish court finds regulation allowing foreign same-sex marriage registration unconstitutional",
-      "url": "https://notesfrompoland.com/2026/07/28/polish-court-finds-regulation-allowing-foreign-same-sex-marriage-registration-unconstitutional",
-      "published_at": "2026-07-28T16:32:34Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
       ]
     },
     {
@@ -2155,62 +2060,6 @@
       ]
     },
     {
-      "id": "69747d6365039bedc4eb2434",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The telescope that could reveal the missing half of the universe",
-      "url": "https://english.elpais.com/science-tech/2026-07-28/the-telescope-that-could-reveal-the-missing-half-of-the-universe.html",
-      "published_at": "2026-07-28T13:36:23Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "aa7816638b69535bb7a47657",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Carlo Maley, evolutionary biologist: ‘We have become so obsessed with curing cancer that we haven’t thought about how to extend life without a cure’",
-      "url": "https://english.elpais.com/science-tech/2026-07-28/carlo-maley-evolutionary-biologist-we-have-become-so-obsessed-with-curing-cancer-that-we-havent-thought-about-how-to-extend-life-without-a-cure.html",
-      "published_at": "2026-07-28T11:25:04Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "e71bd82ae0f80031192d418d",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Residents oppose move to add Polish village to list of protected monuments",
-      "url": "https://notesfrompoland.com/2026/07/28/residents-oppose-move-to-add-polish-village-to-list-of-protected-monuments",
-      "published_at": "2026-07-28T10:37:39Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "4425403e009bf8db8f612f65",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Freed dissident artist Luis Manuel Otero Alcántara: ‘Cubans are desperate for something to happen, anything’",
-      "url": "https://english.elpais.com/international/2026-07-28/freed-dissident-artist-luis-manuel-otero-alcantara-cubans-are-desperate-for-something-to-happen-anything.html",
-      "published_at": "2026-07-28T08:42:00Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "89646e0119c5675c5cde9a39",
       "source_id": "ecfr",
       "source_name": "European Council on Foreign Relations",
@@ -2222,132 +2071,6 @@
         "analysis",
         "foreign_policy",
         "security"
-      ]
-    },
-    {
-      "id": "2a38d59bb0a417768401353f",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "US faces the challenge of turning soccer into a mass sport following the success of the World Cup",
-      "url": "https://english.elpais.com/sports/2026-07-27/us-faces-the-challenge-of-turning-soccer-into-a-mass-sport-following-the-success-of-the-world-cup.html",
-      "published_at": "2026-07-27T13:31:58Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "93400b03c65ad7ebd773b5d8",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The incredible story of the man who built a fake Roman theater in Italy and sold tickets to visit it",
-      "url": "https://english.elpais.com/international/2026-07-27/the-incredible-story-of-the-man-who-built-a-fake-roman-theater-in-italy-and-sold-tickets-to-visit-it.html",
-      "published_at": "2026-07-27T13:31:11Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "0f354f4fcc0c7875421e885d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘The largest frying pan in Europe’ ignites tempers in Brussels",
-      "url": "https://english.elpais.com/international/2026-07-27/the-largest-frying-pan-in-europe-ignites-tempers-in-brussels.html",
-      "published_at": "2026-07-27T11:42:26Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "5388290709ee3b28a871f2c9",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Neither blonde nor dumb: Marilyn Monroe against Hollywood’s wolves",
-      "url": "https://english.elpais.com/culture/2026-07-27/neither-blonde-nor-dumb-marilyn-monroe-against-hollywoods-wolves.html",
-      "published_at": "2026-07-27T09:23:18Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "665639dcf21d292f09251566",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Fire Island, the ‘hottest’ beach in the world: 100 years of art, parties and wild sex",
-      "url": "https://english.elpais.com/culture/2026-07-26/fire-island-the-hottest-beach-in-the-world-100-years-of-art-parties-and-wild-sex.html",
-      "published_at": "2026-07-26T04:00:00Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "1d7a60be5d8d70b13b4d5f36",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The castle, the cable car and the Nazis: Returning to Schlöss Adler and ‘Where Eagles Dare’",
-      "url": "https://english.elpais.com/culture/2026-07-26/the-castle-the-cable-car-and-the-nazis-returning-to-schloss-adler-and-where-eagles-dare.html",
-      "published_at": "2026-07-26T04:00:00Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "9d639f92d9ad32e25b79c7c6",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Jamie Dimon, the most powerful banker in the world: ‘I know Europe doesn’t see the US as a friend, but it is’",
-      "url": "https://english.elpais.com/economy-and-business/2026-07-25/jamie-dimon-the-most-powerful-banker-in-the-world-i-know-europe-doesnt-see-the-us-as-a-friend-but-it-is.html",
-      "published_at": "2026-07-25T04:00:00Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "3f2d2e69335e706572972c63",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Zendaya, the actress who defied the Disney child-star curse to become a global star",
-      "url": "https://english.elpais.com/culture/2026-07-25/zendaya-the-actress-who-defied-the-disney-child-star-curse-to-become-a-global-star.html",
-      "published_at": "2026-07-25T04:00:00Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "76254274fb8ec303424cf372",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘We’re surviving’: raids deliver a heavy and lasting blow to Hispanic businesses in L.A.",
-      "url": "https://english.elpais.com/usa/2026-07-25/were-surviving-raids-deliver-a-heavy-and-lasting-blow-to-hispanic-businesses-in-la.html",
-      "published_at": "2026-07-25T04:00:00Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -2365,20 +2088,6 @@
       ]
     },
     {
-      "id": "642722bf431a8a897fbb68c6",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump imposes chaotic trade system in his third round of tariffs",
-      "url": "https://english.elpais.com/economy-and-business/2026-07-24/trump-imposes-chaotic-trade-system-in-his-third-round-of-tariffs.html",
-      "published_at": "2026-07-24T06:00:54Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "66029b24ac577f1e07324141",
       "source_id": "ecfr",
       "source_name": "European Council on Foreign Relations",
@@ -2390,20 +2099,6 @@
         "analysis",
         "foreign_policy",
         "security"
-      ]
-    },
-    {
-      "id": "3d1fa7462cca7bc1479cf4b5",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Javier Bardem addresses controversy around the World Cup final: ‘Milei is not all of the Argentine population’",
-      "url": "https://english.elpais.com/culture/2026-07-23/javier-bardem-addresses-controversy-around-the-world-cup-final-milei-is-not-all-of-the-argentine-population.html",
-      "published_at": "2026-07-23T14:19:57Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -2446,20 +2141,6 @@
         "analysis",
         "foreign_policy",
         "security"
-      ]
-    },
-    {
-      "id": "c65541a5bcbf36b6a15a0192",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Federal judge blocks revocation of asylum applications and work permits for thousands of immigrants",
-      "url": "https://english.elpais.com/usa/2026-07-22/federal-judge-blocks-revocation-of-asylum-applications-and-work-permits-for-thousands-of-immigrants.html",
-      "published_at": "2026-07-22T08:22:41Z",
-      "collected_at": "2026-08-02T14:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     }
   ]
