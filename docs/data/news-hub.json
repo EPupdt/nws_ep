@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-03T15:00:51Z",
-  "last_successful_collection_at": "2026-08-03T15:00:51Z",
+  "generated_at": "2026-08-03T15:30:38Z",
+  "last_successful_collection_at": "2026-08-03T15:30:38Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-03T15:00:51Z"
+      "at": "2026-08-03T15:30:38Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-03T15:00:51Z"
+      "at": "2026-08-03T15:30:38Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-03T15:00:51Z"
+      "at": "2026-08-03T15:30:38Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,63 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-03T15:00:51Z"
+      "at": "2026-08-03T15:30:38Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-03T15:00:51Z"
+      "at": "2026-08-03T15:30:38Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-03T15:00:51Z"
+      "at": "2026-08-03T15:30:38Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-03T15:00:51Z"
+      "at": "2026-08-03T15:30:38Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-03T15:00:51Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-03T15:30:38Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-03T15:00:51Z"
+      "at": "2026-08-03T15:30:38Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Hungary faces energy crisis",
-      "summary": "The Hungarian government has shut down its nuclear plant due to soaring temperatures and drought. This move comes as the nation faces an energy crisis.",
+      "title": "Ceuta Mass Migration Surge",
+      "summary": "Over 1,000 migrants crossed into Ceuta in a single day, prompting Spain to deploy security forces and the EU to call for 'united action' on border protection. Far-right groups criticized Spain's immigration policy as ineffective.",
       "article_ids": [
-        "01e9d83c5aacc26ee4228e22"
+        "40a41d1d923acd63692265ee",
+        "073c32cf31c338d7257e02fc"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/eu-calls-for-united-action-on-border-protection-after-ceuta-mass-crossing",
+          "headline": "EU calls for 'united action' on border protection after Ceuta mass crossing",
+          "published_at": "2026-08-03T15:18:51Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Hungary Energy Crisis",
+      "summary": "Hungary shut down its Paks nuclear plant due to drought-induced water shortages, triggering an energy crisis. The government warned of potential blackouts and economic strain.",
+      "article_ids": [
+        "01e9d83c5aacc26ee4228e22",
+        "7803477287408bdb5aa73488"
       ],
       "sources": [
         {
@@ -78,37 +96,39 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Ceuta migration crisis",
-      "summary": "Spain is grappling with the aftermath of a migration surge in Ceuta. The situation has prompted calls for solidarity from the Spanish government.",
-      "article_ids": [
-        "f16fcb74912f397141acd22f"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260803-spain-expects-solidarity-as-it-grapples-with-aftermath-of-ceuta-migration-surge",
-          "headline": "'Spain expects solidarity' as it grapples with aftermath of Ceuta migration surge",
-          "published_at": "2026-08-03T10:51:10Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "Energy and Environment",
-      "summary": "Drought conditions have caused the Rhine river to fall to record low levels. This environmental phenomenon is straining river systems across Europe.",
+      "title": "Ceuta Migration Crisis",
+      "summary": "A mass migration event in Ceuta saw over 1,000 migrants enter Spain in one day, leading to heightened security measures. The EU responded by urging member states to strengthen border cooperation.",
       "article_ids": [
-        "8cdecf12f2869da86324e414"
+        "40a41d1d923acd63692265ee",
+        "073c32cf31c338d7257e02fc"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss",
-          "headline": "Rhine falls to record low levels as drought strains Europe's rivers",
-          "published_at": "2026-08-03T14:38:48Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/eu-calls-for-united-action-on-border-protection-after-ceuta-mass-crossing",
+          "headline": "EU calls for 'united action' on border protection after Ceuta mass crossing",
+          "published_at": "2026-08-03T15:18:51Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Hungary's Energy Shortage",
+      "summary": "Hungary's nuclear plant closure due to drought has caused an energy crisis, with the prime minister citing risks of power outages. The situation highlights vulnerabilities in Europe's energy infrastructure.",
+      "article_ids": [
+        "01e9d83c5aacc26ee4228e22",
+        "7803477287408bdb5aa73488"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/amid-a-drought-and-soaring-temperatures-hungary-shuts-down-its-nuclear-plant",
+          "headline": "Amid a drought and soaring temperatures, Hungary shuts down its nuclear plant",
+          "published_at": "2026-08-03T12:34:47Z"
         }
       ],
       "source_count": 1
@@ -119,7 +139,7 @@
       "label": "Iran · Trump · talks · strikes",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 11,
+      "item_count": 10,
       "latest_at": "2026-08-03T14:44:31Z",
       "sources": [
         {
@@ -214,6 +234,48 @@
   ],
   "radar": [
     {
+      "id": "08bbf8fd5c90761ae9482a69",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Across the EU, immigration being used as a 'political tool' across the political spectrum",
+      "url": "https://www.france24.com/en/video/20260803-across-the-eu-immigration-being-used-as-a-political-tool-across-the-political-spectrum-1",
+      "published_at": "2026-08-03T15:19:49Z",
+      "collected_at": "2026-08-03T15:30:38Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "40a41d1d923acd63692265ee",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "EU calls for 'united action' on border protection after Ceuta mass crossing",
+      "url": "https://www.france24.com/en/eu-calls-for-united-action-on-border-protection-after-ceuta-mass-crossing",
+      "published_at": "2026-08-03T15:18:51Z",
+      "collected_at": "2026-08-03T15:30:38Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "0ec56c4789aecf50e4855913",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Myanmar: Ousted leader Suu Kyi makes rare appearance with Red Cross representative",
+      "url": "https://www.france24.com/en/video/20260803-myanmar-ousted-leader-suu-kyi-makes-rare-appearance-with-red-cross-representative",
+      "published_at": "2026-08-03T14:56:22Z",
+      "collected_at": "2026-08-03T15:30:38Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "3da17a3d5dc1090c7c3218a6",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -295,6 +357,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "7523b524546d51f216abc636",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Spain’s Ceuta mass migration sparks EU Schengen row: the legal reality behind the rhetoric",
+      "url": "https://euobserver.com/231127/spains-ceuta-mass-migration-sparks-eu-schengen-row-the-legal-reality-behind-the-rhetoric",
+      "published_at": "2026-08-03T13:47:00Z",
+      "collected_at": "2026-08-03T15:30:38Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -855,6 +931,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "c5555eea77712cdeb5e149e9",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Training the UK 'surgeons of the future' using robots",
+      "url": "https://www.france24.com/en/live-news/20260803-training-the-uk-surgeons-of-the-future-using-robots",
+      "published_at": "2026-08-03T07:49:13Z",
+      "collected_at": "2026-08-03T15:30:38Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
