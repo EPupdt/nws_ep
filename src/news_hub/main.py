@@ -308,6 +308,41 @@ def enrich_selection(selection: dict[str, Any], articles: list[dict[str, Any]]) 
     return selection
 
 
+def verified_sources(selection: dict[str, Any], articles: list[dict[str, Any]]) -> dict[str, Any]:
+    """Check every source about to be published, not only freshly chosen ones.
+
+    enrich_selection guards the model's own output, but two paths never reach
+    it: a run with no new items, and a run whose model failed. Both republish
+    the stored selection untouched, and on 3 August 2026 that copy still carried
+    "Machthaber: Leo XIV." under Hungary's nuclear shutdown — the guard had
+    shipped, the workflow had run, and the wrong attribution stayed on the
+    homepage because that run had nothing new to select from.
+
+    So the check moves to the last moment before publication, where everything
+    passes through exactly once. A source with no headline is kept: it predates
+    the field and there is nothing to check it against.
+    """
+    names = corpus_names(str(article.get("title", "")) for article in articles)
+
+    for group in ("europe_now", "top_stories"):
+        kept: list[dict[str, Any]] = []
+        for item in selection.get(group, []):
+            subject = "{} {}".format(item.get("title", ""), item.get("summary", ""))
+            sources = [
+                source for source in (item.get("sources") or [])
+                if not source.get("headline")
+                or shares_a_name(subject, str(source["headline"]), names)
+            ]
+            if not sources:
+                continue
+            item["sources"] = sources
+            item["source_count"] = len({source.get("publisher", "") for source in sources})
+            kept.append(item)
+        selection[group] = kept
+
+    return selection
+
+
 def main() -> None:
     policy, source_config, now = read_yaml("policy.yml"), read_yaml("sources.yml"), utcnow()
     force = os.getenv("FORCE_RUN", "").lower() == "true"
@@ -354,6 +389,15 @@ def main() -> None:
             model = f"{model}-kept-previous"
     else:
         selection, model = state.get("last_selection", {"europe_now": [], "top_stories": []}), "not-run-no-new-items"
+    # Whatever route the selection arrived by, its sources are checked once here
+    # before anything is written, and the repaired copy replaces the stored one
+    # so a bad attribution cannot survive in state and come back on a quiet run.
+    # If nothing survives we publish nothing rather than something wrong; the
+    # homepage falls back to the strongest convergence cluster, which is drawn
+    # from the radar and needs no model.
+    selection = verified_sources(selection, state["radar"])
+    if selection["europe_now"] or selection["top_stories"]:
+        state["last_selection"] = selection
     # Independent of the model: what are several newsrooms converging on right
     # now? This is computed from the radar alone, so the hub always has
     # something to lead with even when the model contributes nothing.
