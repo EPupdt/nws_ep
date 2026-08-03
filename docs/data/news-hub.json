@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-03T15:30:38Z",
-  "last_successful_collection_at": "2026-08-03T15:30:38Z",
+  "generated_at": "2026-08-03T16:00:53Z",
+  "last_successful_collection_at": "2026-08-03T16:00:53Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-03T15:30:38Z"
+      "at": "2026-08-03T16:00:53Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-03T15:30:38Z"
+      "at": "2026-08-03T16:00:53Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-03T15:30:38Z"
+      "at": "2026-08-03T16:00:53Z"
     },
     {
       "id": "euractiv",
@@ -29,63 +29,65 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-03T15:30:38Z"
+      "at": "2026-08-03T16:00:53Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-03T15:30:38Z"
+      "at": "2026-08-03T16:00:53Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-03T15:30:38Z"
+      "at": "2026-08-03T16:00:53Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-03T15:30:38Z"
+      "at": "2026-08-03T16:00:53Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-03T15:30:38Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-03T16:00:53Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-03T15:30:38Z"
+      "at": "2026-08-03T16:00:53Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ceuta Mass Migration Surge",
-      "summary": "Over 1,000 migrants crossed into Ceuta in a single day, prompting Spain to deploy security forces and the EU to call for 'united action' on border protection. Far-right groups criticized Spain's immigration policy as ineffective.",
+      "title": "European wildfire crisis in Greece",
+      "summary": "Greek wildfires have forced mass evacuations and strained firefighting resources for multiple days.",
       "article_ids": [
-        "40a41d1d923acd63692265ee",
-        "073c32cf31c338d7257e02fc"
+        "9f6b4d9e32addf48ad114849",
+        "0ec56c4789aecf50e4855913",
+        "1100048z"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/eu-calls-for-united-action-on-border-protection-after-ceuta-mass-crossing",
-          "headline": "EU calls for 'united action' on border protection after Ceuta mass crossing",
-          "published_at": "2026-08-03T15:18:51Z"
+          "url": "https://www.france24.com/en/video/20260803-the-situation-is-out-of-control-greek-firefighters-battle-wildfire-for-fourth-day",
+          "headline": "\"The situation is out of control\": Greek firefighters battle wildfire for fourth day",
+          "published_at": "2026-08-03T15:30:33Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Hungary Energy Crisis",
-      "summary": "Hungary shut down its Paks nuclear plant due to drought-induced water shortages, triggering an energy crisis. The government warned of potential blackouts and economic strain.",
+      "title": "Hungary faces energy crisis after nuclear plant shutdown",
+      "summary": "Hungary shut down its nuclear plant due to drought and high temperatures, causing an energy shortage.",
       "article_ids": [
         "01e9d83c5aacc26ee4228e22",
-        "7803477287408bdb5aa73488"
+        "1400050z",
+        "1530038z"
       ],
       "sources": [
         {
@@ -100,38 +102,28 @@
   ],
   "top_stories": [
     {
-      "title": "Ceuta Migration Crisis",
-      "summary": "A mass migration event in Ceuta saw over 1,000 migrants enter Spain in one day, leading to heightened security measures. The EU responded by urging member states to strengthen border cooperation.",
+      "title": "Ceuta migration crisis",
+      "summary": "Ceuta experienced a surge in migrant arrivals, prompting EU emergency meetings to coordinate border security.",
       "article_ids": [
-        "40a41d1d923acd63692265ee",
-        "073c32cf31c338d7257e02fc"
+        "6890db7203c80925534f2a94",
+        "59dbe551fad3fcd9bc787dfa",
+        "032ba4e0058ed35831d2ad86"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/eu-calls-for-united-action-on-border-protection-after-ceuta-mass-crossing",
-          "headline": "EU calls for 'united action' on border protection after Ceuta mass crossing",
-          "published_at": "2026-08-03T15:18:51Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Hungary's Energy Shortage",
-      "summary": "Hungary's nuclear plant closure due to drought has caused an energy crisis, with the prime minister citing risks of power outages. The situation highlights vulnerabilities in Europe's energy infrastructure.",
-      "article_ids": [
-        "01e9d83c5aacc26ee4228e22",
-        "7803477287408bdb5aa73488"
-      ],
-      "sources": [
+          "url": "https://www.france24.com/en/europe/20260803-ceuta-migrant-influx-reignites-immigration-divisions-in-europe",
+          "headline": "Ceuta migrant influx reignites immigration divisions in Europe",
+          "published_at": "2026-08-03T15:57:17Z"
+        },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/amid-a-drought-and-soaring-temperatures-hungary-shuts-down-its-nuclear-plant",
-          "headline": "Amid a drought and soaring temperatures, Hungary shuts down its nuclear plant",
-          "published_at": "2026-08-03T12:34:47Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/231192/ceuta-border-surge-shakes-moroccos-image-as-the-eus-trusted-partner",
+          "headline": "Ceuta border surge shakes Morocco’s image as the EU’s ‘trusted partner’",
+          "published_at": "2026-08-03T15:40:48Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
@@ -139,7 +131,7 @@
       "label": "Iran · Trump · talks · strikes",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 10,
+      "item_count": 9,
       "latest_at": "2026-08-03T14:44:31Z",
       "sources": [
         {
@@ -159,33 +151,6 @@
           "url": "https://english.elpais.com/international/2026-08-03/trump-says-talks-with-iran-to-resume-monday.html",
           "headline": "Trump says talks with Iran to resume Monday",
           "published_at": "2026-08-03T07:40:46Z"
-        }
-      ]
-    },
-    {
-      "label": "Ceuta · crisis · migrant · attack",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 9,
-      "latest_at": "2026-08-03T12:20:57Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ceuta-migrant-crisis-far-right-govts-ridiculously-using-these-images-to-stoke-fear-for-votes",
-          "headline": "Ceuta migrant crisis: Far-right govts 'ridiculously using these images' to stoke fear for votes",
-          "published_at": "2026-08-03T12:20:57Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/ursula-von-der-leyen-support-spain-ceuta-crisis",
-          "headline": "Von der Leyen rallies to support Spain after Ceuta crisis",
-          "published_at": "2026-08-03T11:56:33Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/spain/2026-08-03/barricades-and-patrols-in-ceuta-to-push-out-the-migrants-who-resist-returning-to-morocco-there-are-still-some-left.html",
-          "headline": "Barricades and patrols in Ceuta to push out the migrants who resist returning to Morocco: ‘There are still some left’",
-          "published_at": "2026-08-03T08:12:39Z"
         }
       ]
     },
@@ -230,9 +195,108 @@
           "published_at": "2026-08-03T10:05:24Z"
         }
       ]
+    },
+    {
+      "label": "bomb · Moscow",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 2,
+      "latest_at": "2026-08-03T03:53:05Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cdx8qp451lko?at_medium=RSS&at_campaign=rss",
+          "headline": "Steve Rosenberg at the Moscow restaurant where bomb killed three",
+          "published_at": "2026-08-03T03:53:05Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "6890db7203c80925534f2a94",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ceuta migrant influx reignites immigration divisions in Europe",
+      "url": "https://www.france24.com/en/europe/20260803-ceuta-migrant-influx-reignites-immigration-divisions-in-europe",
+      "published_at": "2026-08-03T15:57:17Z",
+      "collected_at": "2026-08-03T16:00:53Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "558b6780a99c979921f29b66",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Bridge collapse in DR Congo reignites debate about mining revenues",
+      "url": "https://www.france24.com/en/africa/20260803-bridge-collapse-dr-congo-reignites-debate-mining-revenues",
+      "published_at": "2026-08-03T15:51:49Z",
+      "collected_at": "2026-08-03T16:00:53Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "6377fa517c529f2556b40725",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Mamdani and Ocasio-Cortez forge alliance to advance their socialist agenda",
+      "url": "https://english.elpais.com/usa/2026-08-03/mamdani-and-ocasio-cortez-forge-alliance-to-advance-their-socialist-agenda.html",
+      "published_at": "2026-08-03T15:41:29Z",
+      "collected_at": "2026-08-03T16:00:53Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "59dbe551fad3fcd9bc787dfa",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Ceuta border surge shakes Morocco’s image as the EU’s ‘trusted partner’",
+      "url": "https://euobserver.com/231192/ceuta-border-surge-shakes-moroccos-image-as-the-eus-trusted-partner",
+      "published_at": "2026-08-03T15:40:48Z",
+      "collected_at": "2026-08-03T16:00:53Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "3a46bfb9200314fb5789d10e",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Czech businessman detained by Beijing faces espionage charges and could be part of swap with Chinese spy",
+      "url": "https://euobserver.com/230958/czech-businessman-detained-by-beijing-faces-espionage-charges-and-could-be-part-of-swap-with-chinese-spy",
+      "published_at": "2026-08-03T15:39:54Z",
+      "collected_at": "2026-08-03T16:00:53Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "9f6b4d9e32addf48ad114849",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "\"The situation is out of control\": Greek firefighters battle wildfire for fourth day",
+      "url": "https://www.france24.com/en/video/20260803-the-situation-is-out-of-control-greek-firefighters-battle-wildfire-for-fourth-day",
+      "published_at": "2026-08-03T15:30:33Z",
+      "collected_at": "2026-08-03T16:00:53Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "08bbf8fd5c90761ae9482a69",
       "source_id": "france24",
@@ -1452,62 +1516,6 @@
       ]
     },
     {
-      "id": "0b312a765affff22a01aa5e3",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Fire spread deeper into Athens region",
-      "url": "https://www.france24.com/en/fire-spread-deeper-into-athens-region",
-      "published_at": "2026-08-02T15:12:24Z",
-      "collected_at": "2026-08-02T15:32:25Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "c678439707ffaf4f83957aae",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US, Israel to hold off on Iran strikes",
-      "url": "https://www.france24.com/en/us-israel-to-hold-off-on-iran-strikes",
-      "published_at": "2026-08-02T15:11:30Z",
-      "collected_at": "2026-08-02T15:32:25Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "317e2e1e9c3e3c0e4719b55c",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Man admits killing Scottish woman found in suitcase, Greek police say",
-      "url": "https://www.bbc.co.uk/news/articles/c89ndd4g0gjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-02T14:28:15Z",
-      "collected_at": "2026-08-02T15:32:25Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "bacf2dc4429ac0011639c778",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France steps up fire prevention",
-      "url": "https://www.france24.com/en/video/20260802-france-steps-up-fire-prevention",
-      "published_at": "2026-08-02T14:25:18Z",
-      "collected_at": "2026-08-02T15:32:25Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "918e6d5b01ec488a397209a7",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1571,20 +1579,6 @@
       "url": "https://www.france24.com/en/europe/20260802-fire-toll-mounts-in-greece-as-blazes-spread-amid-strong-winds",
       "published_at": "2026-08-02T09:03:11Z",
       "collected_at": "2026-08-03T06:01:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "f55e75421aae178337cd08e9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Israeli strikes on residential buildings kill at least 13 in Gaza",
-      "url": "https://www.france24.com/en/middle-east/20260801-israeli-strikes-kill-eight-overnight-despite-hopes-for-a-deal",
-      "published_at": "2026-08-01T18:57:09Z",
-      "collected_at": "2026-08-02T15:32:25Z",
       "topics": [
         "politics",
         "security",
@@ -1858,62 +1852,6 @@
       ]
     },
     {
-      "id": "0801fd59afc7e1c902f3af44",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Romania defends Nato’s Eastern flank even without a working government and a busted budget",
-      "url": "https://euobserver.com/231000/romania-defends-natos-eastern-flank-even-without-a-working-government-and-a-busted-budget",
-      "published_at": "2026-07-31T14:49:32Z",
-      "collected_at": "2026-08-02T15:32:25Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "e018951ef3d22ed1bdb067b8",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "The split in Poland’s opposition could help them unseat Tusk’s government [Opinion]",
-      "url": "https://notesfrompoland.com/2026/07/31/the-split-in-polands-opposition-could-help-them-unseat-tusks-government-opinion",
-      "published_at": "2026-07-31T14:38:35Z",
-      "collected_at": "2026-08-02T15:32:25Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "311e3ada5422385e663e2cc8",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "UK to hold budget on Oct. 28, chancellor announces",
-      "url": "https://www.politico.eu/article/uk-budget-october-28-chancellor-john-healey",
-      "published_at": "2026-07-31T14:28:00Z",
-      "collected_at": "2026-08-02T15:32:25Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "d1d35e444409bc297195d4d1",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Internal documents reveal Shell decision to keep polluted Niger Delta pipeline open despite staff warnings",
-      "url": "https://euobserver.com/230919/internal-documents-reveal-shell-decision-to-keep-polluted-niger-delta-pipeline-open-despite-staff-warnings",
-      "published_at": "2026-07-31T13:56:00Z",
-      "collected_at": "2026-08-02T15:32:25Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "03a6257e009143a7c8be02f5",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -1937,6 +1875,20 @@
       "collected_at": "2026-08-03T12:30:37Z",
       "topics": [
         "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "f959542152098ade139fd322",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland appoints new official to promote country’s brand internationally",
+      "url": "https://notesfrompoland.com/2026/07/30/poland-appoints-new-official-to-promote-countrys-brand-internationally",
+      "published_at": "2026-07-30T14:37:10Z",
+      "collected_at": "2026-08-03T16:00:53Z",
+      "topics": [
+        "central_europe",
         "politics",
         "society"
       ]
@@ -2208,20 +2160,6 @@
       ]
     },
     {
-      "id": "2267e129132ca81bc03a60d5",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Two of a kind: How France and Italy can show the way for Europe’s Africa policy",
-      "url": "https://ecfr.eu/article/two-of-a-kind-how-france-and-italy-can-show-the-way-for-europes-africa-policy",
-      "published_at": "2026-07-29T10:42:02Z",
-      "collected_at": "2026-08-02T15:32:25Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
       "id": "79005155a6686fb428c35846",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -2233,104 +2171,6 @@
         "central_europe",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "0b4019a93f8bac7aaa5598e6",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "The Saudi dilemma: How Yemen could shape the next phase of the Iran war",
-      "url": "https://ecfr.eu/article/the-saudi-dilemma-how-yemen-could-shape-the-next-phase-of-the-iran-war",
-      "published_at": "2026-07-28T14:57:48Z",
-      "collected_at": "2026-08-02T15:32:25Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "89646e0119c5675c5cde9a39",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Shoring up the Red Sea: Why the next crisis may begin in the Horn of Africa",
-      "url": "https://ecfr.eu/article/shoring-up-the-red-sea-why-the-next-crisis-may-begin-in-the-horn-of-africa",
-      "published_at": "2026-07-28T07:00:23Z",
-      "collected_at": "2026-08-02T15:32:25Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "0b0c74453e3a0d720f0d5a40",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Serbia: Inside the leaderless movement",
-      "url": "https://ecfr.eu/podcasts/episode/inside-the-leaderless-movement",
-      "published_at": "2026-07-24T12:35:30Z",
-      "collected_at": "2026-08-02T15:32:25Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "66029b24ac577f1e07324141",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "The China-native generation",
-      "url": "https://ecfr.eu/podcasts/episode/the-china-native-generation",
-      "published_at": "2026-07-24T05:00:00Z",
-      "collected_at": "2026-08-02T15:32:25Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "8966f5926726e7b6481172c9",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "The magnificent ten: A coalition of the willing to drive the EU’s next enlargement",
-      "url": "https://ecfr.eu/publication/the-magnificent-ten-a-coalition-of-the-willing-to-drive-the-eus-next-enlargement",
-      "published_at": "2026-07-23T14:16:18Z",
-      "collected_at": "2026-08-02T15:32:25Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "2c956b13fa6c84b7b8d93f9a",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "One foot out: Understanding Bulgaria’s geopolitical shift under Radev",
-      "url": "https://ecfr.eu/article/one-foot-out-understanding-bulgarias-geopolitical-shift-under-radev",
-      "published_at": "2026-07-23T13:51:12Z",
-      "collected_at": "2026-08-02T15:32:25Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "60cac99c9e46dc0a881e8d1e",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "How better climate diplomacy can save Europe’s green ambitions",
-      "url": "https://ecfr.eu/article/how-better-climate-diplomacy-can-save-europes-green-ambitions",
-      "published_at": "2026-07-22T16:02:40Z",
-      "collected_at": "2026-08-02T15:32:25Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
       ]
     }
   ]
