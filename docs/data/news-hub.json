@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-04T04:00:54Z",
-  "last_successful_collection_at": "2026-08-04T04:00:54Z",
+  "generated_at": "2026-08-04T04:30:38Z",
+  "last_successful_collection_at": "2026-08-04T04:30:38Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-04T04:00:54Z"
+      "at": "2026-08-04T04:30:38Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-08-04T04:00:54Z"
+      "at": "2026-08-04T04:30:38Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-04T04:00:54Z"
+      "at": "2026-08-04T04:30:38Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,60 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-04T04:00:54Z"
+      "at": "2026-08-04T04:30:38Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-04T04:00:54Z"
+      "at": "2026-08-04T04:30:38Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-04T04:00:54Z"
+      "at": "2026-08-04T04:30:38Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-04T04:00:54Z"
+      "at": "2026-08-04T04:30:38Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-04T04:00:54Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-04T04:30:38Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-04T04:00:54Z"
+      "at": "2026-08-04T04:30:38Z"
     }
   ],
   "europe_now": [
     {
-      "title": "EU calls for stronger borders after Ceuta migrant crossings",
-      "summary": "The European Union has urged member states to strengthen border controls following a surge of migrants crossing into Ceuta. The move follows a mass crossing that has raised concerns about border security and migration management.",
+      "title": "Ceuta Migration Crisis",
+      "summary": "The EU has called for stronger borders and shared responsibility after a surge of migrants crossing into Ceuta. Spain has sought EU backing to address the crisis.",
       "article_ids": [
-        "851b6217d2797e566c780dec"
+        "315adf5027c831544e7f04a3",
+        "dbf53e14757233e85d822f7d",
+        "851b6217d2797e566c780dec",
+        "6890db7203c80925534f2a94",
+        "ff43d7a0f5e01c7262f0138c",
+        "40a41d1d923acd63692265ee",
+        "59dbe551fad3fcd9bc787dfa",
+        "7523b524546d51f216abc636"
       ],
       "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/can-europe-contain-the-ceuta-fallout",
+          "headline": "Can Europe contain the Ceuta fallout?",
+          "published_at": "2026-08-04T04:05:00Z"
+        },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cyvl84zmgyro?at_medium=RSS&at_campaign=rss",
@@ -77,13 +90,14 @@
           "published_at": "2026-08-03T21:43:10Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Europe's record-breaking heat sparks wildfires, drought in France, Greece and the UK",
-      "summary": "Extreme temperatures across Europe have triggered widespread wildfires and severe drought conditions in France, Greece, and the United Kingdom. The heatwave has strained water resources and increased fire risk across the continent.",
+      "title": "Record Heat and Wildfires in Europe",
+      "summary": "Europe has experienced record-breaking heat, sparking wildfires and drought across France, Greece, and the UK. The Rhine River has fallen to record low levels, straining Europe's rivers.",
       "article_ids": [
-        "16f0233a2e10e791598ecb2c"
+        "16f0233a2e10e791598ecb2c",
+        "8cdecf12f2869da86324e414"
       ],
       "sources": [
         {
@@ -91,9 +105,15 @@
           "url": "https://www.france24.com/en/europe/20260803-europe-s-record-breaking-heat-sparks-wildfires-drought-in-france-greece-and-the-uk",
           "headline": "Europe's record-breaking heat sparks wildfires, drought in France, Greece and the UK",
           "published_at": "2026-08-03T19:50:25Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss",
+          "headline": "Rhine falls to record low levels as drought strains Europe's rivers",
+          "published_at": "2026-08-03T14:38:48Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "top_stories": [],
@@ -196,6 +216,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "315adf5027c831544e7f04a3",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Can Europe contain the Ceuta fallout?",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/can-europe-contain-the-ceuta-fallout",
+      "published_at": "2026-08-04T04:05:00Z",
+      "collected_at": "2026-08-04T04:30:38Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "0690468f8cded201fcb0f661",
       "source_id": "politico_europe",
