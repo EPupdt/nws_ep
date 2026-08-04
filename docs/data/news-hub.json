@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-04T03:30:40Z",
-  "last_successful_collection_at": "2026-08-04T03:30:40Z",
+  "generated_at": "2026-08-04T04:00:54Z",
+  "last_successful_collection_at": "2026-08-04T04:00:54Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-04T03:30:40Z"
+      "at": "2026-08-04T04:00:54Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-08-04T03:30:40Z"
+      "at": "2026-08-04T04:00:54Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-04T03:30:40Z"
+      "at": "2026-08-04T04:00:54Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-04T03:30:40Z"
+      "at": "2026-08-04T04:00:54Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-04T03:30:40Z"
+      "at": "2026-08-04T04:00:54Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-04T03:30:40Z"
+      "at": "2026-08-04T04:00:54Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-04T03:30:40Z"
+      "at": "2026-08-04T04:00:54Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-04T03:30:40Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-04T04:00:54Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-04T03:30:40Z"
+      "at": "2026-08-04T04:00:54Z"
     }
   ],
   "europe_now": [
@@ -1695,6 +1695,20 @@
       ]
     },
     {
+      "id": "4ec4b024a4e5dd4ee0f12966",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Three killed after bomb detonated at Moscow restaurant, state media say",
+      "url": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-02T10:54:44Z",
+      "collected_at": "2026-08-04T04:00:54Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "2c265237554ebef650aab825",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1705,6 +1719,48 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "bc9f5837c69afed28fdfc630",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Hungary to shut sole nuclear plant for first time on Sunday",
+      "url": "https://www.dw.com/en/hungary-to-shut-sole-nuclear-plant-for-first-time-on-sunday/a-78205668?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-02T02:16:00Z",
+      "collected_at": "2026-08-04T04:00:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "b688f8a35a06fa2a17cb25e7",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "How does eastern Europe commemorate the Roma Holocaust?",
+      "url": "https://www.dw.com/en/how-does-eastern-europe-commemorate-the-roma-holocaust/a-78183503?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-01T20:08:00Z",
+      "collected_at": "2026-08-04T04:00:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "5d7f656f200c6f716e0f73fb",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Crowds line Amsterdam's canals for Pride boat parade",
+      "url": "https://www.bbc.co.uk/news/videos/cp3rqd9kp91o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-01T19:39:48Z",
+      "collected_at": "2026-08-04T04:00:54Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
