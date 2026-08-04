@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-04T20:57:59Z",
-  "last_successful_collection_at": "2026-08-04T20:57:59Z",
+  "generated_at": "2026-08-04T21:30:36Z",
+  "last_successful_collection_at": "2026-08-04T21:30:36Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-04T20:57:59Z"
+      "at": "2026-08-04T21:30:36Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-04T20:57:59Z"
+      "at": "2026-08-04T21:30:36Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "23",
-      "at": "2026-08-04T20:57:59Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-04T21:30:36Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-04T20:57:59Z"
+      "at": "2026-08-04T21:30:36Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-04T20:57:59Z"
+      "at": "2026-08-04T21:30:36Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-08-04T20:57:59Z"
+      "at": "2026-08-04T21:30:36Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-04T20:57:59Z"
+      "at": "2026-08-04T21:30:36Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-04T20:57:59Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-04T21:30:36Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-04T20:57:59Z"
+      "at": "2026-08-04T21:30:36Z"
     }
   ],
   "europe_now": [
@@ -1706,34 +1706,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "8104fbc44a52ddb8a95deba8",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France slams hard-right Reform UK party's plan to use navy to stop Channel migrants",
-      "url": "https://www.france24.com/en/europe/20260803-hard-right-reform-uk-proposes-navy-led-operation-to-stop-small-migrant-boats",
-      "published_at": "2026-08-03T13:29:32Z",
-      "collected_at": "2026-08-03T21:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "7aa1f2c1a07478a32e8b1cc8",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Trump's Board of Peace reassures Israel after objections on Gaza pullout plan",
-      "url": "https://www.france24.com/en/middle-east/20260803-trump-board-reassures-israel-after-objections-on-gaza-pullout",
-      "published_at": "2026-08-03T11:43:15Z",
-      "collected_at": "2026-08-03T21:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
