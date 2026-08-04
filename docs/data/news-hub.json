@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-04T05:30:35Z",
-  "last_successful_collection_at": "2026-08-04T05:30:35Z",
+  "generated_at": "2026-08-04T06:00:49Z",
+  "last_successful_collection_at": "2026-08-04T06:00:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-04T05:30:35Z"
+      "at": "2026-08-04T06:00:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-08-04T05:30:35Z"
+      "at": "2026-08-04T06:00:49Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-04T05:30:35Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-04T06:00:49Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-04T05:30:35Z"
+      "at": "2026-08-04T06:00:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-04T05:30:35Z"
+      "at": "2026-08-04T06:00:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-04T05:30:35Z"
+      "at": "2026-08-04T06:00:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-04T05:30:35Z"
+      "at": "2026-08-04T06:00:49Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-04T05:30:35Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-04T06:00:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-04T05:30:35Z"
+      "at": "2026-08-04T06:00:49Z"
     }
   ],
   "europe_now": [
@@ -132,6 +132,33 @@
   ],
   "developing": [
     {
+      "label": "Iran · talks · Trump · resume",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 5,
+      "latest_at": "2026-08-03T22:57:33Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east/20260803-trump-says-us-iran-talks-continue-warns-tehran-faces-last-chance",
+          "headline": "Trump says new talks are Iran's 'last chance' to make deal before 'decapitation'",
+          "published_at": "2026-08-03T22:57:33Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/donald-trump-restart-war-iran-talks-strikes",
+          "headline": "Trump to restart Iran talks after scrapping planned strikes",
+          "published_at": "2026-08-03T09:53:42Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-08-03/trump-says-talks-with-iran-to-resume-monday.html",
+          "headline": "Trump says talks with Iran to resume Monday",
+          "published_at": "2026-08-03T07:40:46Z"
+        }
+      ]
+    },
+    {
       "label": "EU · migration · Ceuta · Spain",
       "origin": "convergence",
       "source_count": 3,
@@ -155,33 +182,6 @@
           "url": "https://euobserver.com/231127/spains-ceuta-mass-migration-sparks-eu-schengen-row-the-legal-reality-behind-the-rhetoric",
           "headline": "Spain’s Ceuta mass migration sparks EU Schengen row: the legal reality behind the rhetoric",
           "published_at": "2026-08-03T13:47:00Z"
-        }
-      ]
-    },
-    {
-      "label": "Iran · talks · Trump · resume",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 4,
-      "latest_at": "2026-08-03T13:19:21Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/after-donald-trump-s-latest-u-turn-uncertainty-remains-over-talks-with-iran",
-          "headline": "After Donald Trump's latest U-turn, uncertainty remains over talks with Iran",
-          "published_at": "2026-08-03T13:19:21Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/donald-trump-restart-war-iran-talks-strikes",
-          "headline": "Trump to restart Iran talks after scrapping planned strikes",
-          "published_at": "2026-08-03T09:53:42Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-08-03/trump-says-talks-with-iran-to-resume-monday.html",
-          "headline": "Trump says talks with Iran to resume Monday",
-          "published_at": "2026-08-03T07:40:46Z"
         }
       ]
     },
@@ -230,6 +230,20 @@
   ],
   "radar": [
     {
+      "id": "744995949455a65df960c20d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ukrainian drone strikes on Russia kill at least six, spark fire at Wildberries warehouses",
+      "url": "https://www.france24.com/en/europe/20260804-ukrainian-drone-strikes-on-russia-kill-at-least-six-spark-fire-at-wildberries-warehouses",
+      "published_at": "2026-08-04T05:51:16Z",
+      "collected_at": "2026-08-04T06:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "315adf5027c831544e7f04a3",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -258,6 +272,20 @@
       ]
     },
     {
+      "id": "d09baaa94c3ff41910d27e34",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Middle East live: Cargo ship hit by 'unknown projectile' in Strait of Hormuz",
+      "url": "https://www.france24.com/en/middle-east/20260804-middle-east-live-cargo-ship-hit-by-unknown-projectile-in-strait-of-hormuz",
+      "published_at": "2026-08-04T03:14:18Z",
+      "collected_at": "2026-08-04T06:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "f90f71dd78436447c4a19ec2",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -265,6 +293,20 @@
       "url": "https://www.france24.com/en/americas/20260804-faa-certifies-boeing-737-max-7-after-years-of-delays",
       "published_at": "2026-08-04T03:10:43Z",
       "collected_at": "2026-08-04T03:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f58dfd5638f03ad08a3d0f7e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US regulators grant Boeing 737 MAX 7 certificate after years of delays",
+      "url": "https://www.france24.com/en/americas/20260804-faa-certifies-boeing-737-max-7-after-years-of-delays",
+      "published_at": "2026-08-04T03:10:43Z",
+      "collected_at": "2026-08-04T06:00:49Z",
       "topics": [
         "politics",
         "security",
@@ -384,6 +426,20 @@
       ]
     },
     {
+      "id": "05f47f34921912ed11003945",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US wildfires force 65,000 to flee as hundreds of buildings burn in Spokane",
+      "url": "https://www.france24.com/en/americas/20260804-us-northwest-wildfires-force-65-000-to-flee-as-hundreds-of-buildings-burn-in-spokane",
+      "published_at": "2026-08-04T00:40:29Z",
+      "collected_at": "2026-08-04T06:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "832e850e9933378790e1e6ee",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -391,6 +447,20 @@
       "url": "https://www.france24.com/en/middle-east/20260803-trump-says-us-iran-talks-continue-warns-tehran-faces-last-chance",
       "published_at": "2026-08-03T22:57:33Z",
       "collected_at": "2026-08-04T03:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "50125cb43a54905988a09950",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Trump says new talks are Iran's 'last chance' to make deal before 'decapitation'",
+      "url": "https://www.france24.com/en/middle-east/20260803-trump-says-us-iran-talks-continue-warns-tehran-faces-last-chance",
+      "published_at": "2026-08-03T22:57:33Z",
+      "collected_at": "2026-08-04T06:00:49Z",
       "topics": [
         "politics",
         "security",
@@ -1963,6 +2033,20 @@
         "central_europe",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "fb788af8b239d1f7cecb3b40",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Defining modernity in South-East Asia",
+      "url": "https://ecfr.eu/podcasts/episode/defining-modernity-in-south-east-asia",
+      "published_at": "2026-07-31T05:00:00Z",
+      "collected_at": "2026-08-04T06:00:49Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
