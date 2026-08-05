@@ -1,10 +1,5 @@
 {
   "seen": {
-    "05f5a05dda5b53baa773d4c0": "2026-08-03T17:00:46Z",
-    "5b98027e0960cdcd60a1d5dd": "2026-08-03T17:00:46Z",
-    "db03aa3344aa7ab5c8178cc0": "2026-08-03T17:00:46Z",
-    "ed42a69b091773573ded4e24": "2026-08-03T17:00:46Z",
-    "e3f3e5b29dcce95710da5281": "2026-08-03T17:00:46Z",
     "8e59a3fb6f864d012230b9a8": "2026-08-03T17:31:41Z",
     "2c65867331d0fa852faea82d": "2026-08-03T17:31:41Z",
     "b3c495baa34659736e9ddd4f": "2026-08-03T17:31:41Z",
@@ -345,9 +340,25 @@
     "59dbe551fad3fcd9bc787dfa": "2026-08-05T16:30:45Z",
     "3a46bfb9200314fb5789d10e": "2026-08-05T16:30:45Z",
     "6377fa517c529f2556b40725": "2026-08-05T16:30:45Z",
-    "f959542152098ade139fd322": "2026-08-05T16:30:45Z"
+    "f959542152098ade139fd322": "2026-08-05T16:30:45Z",
+    "13c4635117b11be3e74be6ad": "2026-08-05T17:00:55Z",
+    "e3f3e5b29dcce95710da5281": "2026-08-05T17:00:55Z"
   },
   "radar": [
+    {
+      "id": "13c4635117b11be3e74be6ad",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US: Progressive Democrat El-Sayed wins key Michigan primary",
+      "url": "https://www.france24.com/en/video/20260805-us-progressive-candidate-el-sayed-wins-key-michigan-primary",
+      "published_at": "2026-08-05T16:07:30Z",
+      "collected_at": "2026-08-05T17:00:55Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "8c61a8e9875236098d7ca7bb",
       "source_id": "politico_europe",
@@ -1805,6 +1816,20 @@
       ]
     },
     {
+      "id": "e3f3e5b29dcce95710da5281",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "As EU AI Act enters into force, study warns chatbots blur voters’ own political views",
+      "url": "https://euobserver.com/231229/as-eu-ai-act-enters-into-force-study-warnschatbots-blur-voters-own-political-views",
+      "published_at": "2026-08-03T16:34:40Z",
+      "collected_at": "2026-08-05T17:00:55Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "8cdecf12f2869da86324e414",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2353,10 +2378,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-08-04T07:30:38Z",
-      "title": "Study warns chatbots may affect voter perception under EU AI Act"
-    },
-    {
       "at": "2026-08-04T08:00:44Z",
       "title": "Ceuta Migration Surge"
     },
@@ -2671,14 +2692,41 @@
     {
       "at": "2026-08-05T16:30:45Z",
       "title": "Ukraine-Russia Conflict Escalation"
+    },
+    {
+      "at": "2026-08-05T17:00:55Z",
+      "title": "European Economic and Institutional News"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
+        "title": "Ukraine-Russia Conflict Escalation",
+        "summary": "The European Union is transferring 1.4 billion euros in interest from frozen Russian assets to Ukraine. This financial move follows a deadly overnight Russian strike on Kyiv that overwhelmed local air defenses.",
+        "article_ids": [
+          "29ad7a22c9e7db570cf57311",
+          "73978f06370c99976f9d5993"
+        ],
+        "sources": [
+          {
+            "publisher": "EUobserver",
+            "url": "https://euobserver.com/231519/eu-hands-ukraine-e1-4bn-in-interest-from-frozen-russian-assets-following-deadly-attack-on-kyiv",
+            "headline": "EU hands Ukraine €1.4bn in interest from frozen Russian assets following deadly attack on Kyiv",
+            "published_at": "2026-08-05T15:00:35Z"
+          },
+          {
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/russia-central-bank-assets-eu-ukraine-war-vladimir-putin",
+            "headline": "EU to transfer €1.4B in profits from frozen Russian assets to Ukraine",
+            "published_at": "2026-08-05T11:11:18Z"
+          }
+        ],
+        "source_count": 2
+      },
+      {
         "title": "Ceuta Migration Crisis",
-        "summary": "Ceuta appeals for aid as child migrant crisis becomes unsustainable due to influx. EU response criticized for delayed action.",
+        "summary": "Authorities in Ceuta have issued appeals for aid as the influx of child migrants reaches unsustainable levels. The situation has created an urgent humanitarian crisis in the territory.",
         "article_ids": [
           "fd955407cecaf0379b6f2e1e"
         ],
@@ -2688,22 +2736,6 @@
             "url": "https://www.france24.com/en/europe/20260805-ceuta-warns-of-unsustainable-situation-for-child-migrants-after-influx",
             "headline": "Ceuta appeals for aid as child migrant crisis becomes 'unsustainable'",
             "published_at": "2026-08-05T10:45:13Z"
-          }
-        ],
-        "source_count": 1
-      },
-      {
-        "title": "Ukraine-Russia Military Conflict Escalation",
-        "summary": "Russian strikes in Kyiv overwhelm Ukraine's air defense, killing 17. Ukraine demands more missile interceptors.",
-        "article_ids": [
-          "cff42f1db8a76eda60fb0254"
-        ],
-        "sources": [
-          {
-            "publisher": "BBC News Europe",
-            "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
-            "headline": "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
-            "published_at": "2026-08-05T12:26:26Z"
           }
         ],
         "source_count": 1
@@ -2711,38 +2743,22 @@
     ],
     "top_stories": [
       {
-        "title": "Ceuta Migration Crisis",
-        "summary": "Ceuta faces unsustainable child migrant influx, prompting urgent EU aid requests. Local authorities struggle with resource shortages.",
+        "title": "European Economic and Institutional News",
+        "summary": "Italy has announced plans to increase national spending on defense and energy sectors. This decision follows statements from the country's finance minister.",
         "article_ids": [
-          "fd955407cecaf0379b6f2e1e"
+          "53d276ec9d579bd148f11154"
         ],
         "sources": [
           {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20260805-ceuta-warns-of-unsustainable-situation-for-child-migrants-after-influx",
-            "headline": "Ceuta appeals for aid as child migrant crisis becomes 'unsustainable'",
-            "published_at": "2026-08-05T10:45:13Z"
-          }
-        ],
-        "source_count": 1
-      },
-      {
-        "title": "Ukraine-Russia Conflict Escalation",
-        "summary": "Massive Russian attacks on Kyiv disrupt air defenses. Ukraine reports 17 casualties and calls for international support.",
-        "article_ids": [
-          "cff42f1db8a76eda60fb0254"
-        ],
-        "sources": [
-          {
-            "publisher": "BBC News Europe",
-            "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
-            "headline": "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
-            "published_at": "2026-08-05T12:26:26Z"
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/italy-spend-energy-defense-finance-minister-giancarlo-giorgetti",
+            "headline": "Italy to spend billions more on energy and defense, finance minister says",
+            "published_at": "2026-08-05T10:04:30Z"
           }
         ],
         "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-08-05T16:30:45Z"
+  "last_collection_at": "2026-08-05T17:00:55Z"
 }
