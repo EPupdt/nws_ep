@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-05T06:03:00Z",
-  "last_successful_collection_at": "2026-08-05T06:03:00Z",
+  "generated_at": "2026-08-05T06:30:39Z",
+  "last_successful_collection_at": "2026-08-05T06:30:39Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-05T06:03:00Z"
+      "at": "2026-08-05T06:30:39Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-05T06:03:00Z"
+      "at": "2026-08-05T06:30:39Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-08-05T06:03:00Z"
+      "at": "2026-08-05T06:30:39Z"
     },
     {
       "id": "euractiv",
@@ -29,77 +29,47 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-05T06:03:00Z"
+      "at": "2026-08-05T06:30:39Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-05T06:03:00Z"
+      "at": "2026-08-05T06:30:39Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-08-05T06:03:00Z"
+      "at": "2026-08-05T06:30:39Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-05T06:03:00Z"
+      "at": "2026-08-05T06:30:39Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-05T06:03:00Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-05T06:30:39Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-05T06:03:00Z"
+      "at": "2026-08-05T06:30:39Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ukraine-Russia Conflict Escalation",
-      "summary": "Russian missile strikes have caused at least 15 deaths in Kyiv and the surrounding region. The ongoing conflict has entered a phase described as destroying civilizations.",
+      "title": "Ceuta has 're-exposed immigration's divisive nature' in the EU",
+      "summary": "The EU has highlighted the ongoing migration crisis at Ceuta, a Spanish enclave on the North African coast. The situation has prompted discussions about the EU's immigration policies and the need for solidarity among member states.",
       "article_ids": [
-        "212387b3143921d694e5c94e",
-        "d282b8a3fac67dc69be64e07"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260805-ukraine-live-russian-strikes-kill-at-least-15-in-kyiv-and-surrounding-region",
-          "headline": "Ukraine live: Russian strikes kill at least 15 in Kyiv and surrounding region",
-          "published_at": "2026-08-05T05:24:42Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/231335/ukraines-40day-offensive-and-russias-missile-attacks-push-the-war-into-a-phase-of-destroying-civilisations-ukraine-battlefield-update-day-1622",
-          "headline": "Ukraine’s 40‑day offensive and Russia’s missile attacks push the war into a phase of ‘destroying civilisations’ (Ukraine Battlefield update, Day 1,622)",
-          "published_at": "2026-08-04T13:53:37Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Ceuta Migration Crisis",
-      "summary": "EU ministers have expressed solidarity with Spain following a mass influx of migrants into Ceuta. The situation has highlighted the divisive nature of immigration within the European Union.",
-      "article_ids": [
-        "67ca1a228ee06127eedb7953",
         "ec5195a9c1bb4cebd99794ff"
       ],
       "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-ministers-back-spain-after-ceuta-migration-crisis",
-          "headline": "EU ministers close ranks behind Spain after Ceuta migration crisis",
-          "published_at": "2026-08-04T14:13:46Z"
-        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/ceuta-has-re-exposed-immigration-s-divisive-nature-in-the-eu",
@@ -107,29 +77,70 @@
           "published_at": "2026-08-04T14:26:21Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
+    },
+    {
+      "title": "Ukraine live: Russian strikes kill at least 15 in Kyiv and surrounding region",
+      "summary": "Russian missile attacks have killed at least fifteen people in Kyiv and its surrounding areas. The strikes are part of the ongoing conflict between Ukraine and Russia, raising concerns about civilian casualties.",
+      "article_ids": [
+        "212387b3143921d694e5c94e"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260805-ukraine-live-russian-strikes-kill-at-least-15-in-kyiv-and-surrounding-region",
+          "headline": "Ukraine live: Russian strikes kill at least 15 in Kyiv and surrounding region",
+          "published_at": "2026-08-05T05:24:42Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "European Corporate and Political Developments",
-      "summary": "Unions are demanding stricter rules for public contracts following reports of tax avoidance by Palantir. Meanwhile, the EU has allocated a €5bn scale-up fund to a private equity firm in Stockholm.",
+      "title": "Firefighters in Greece gain ground against wildfires near Athens",
+      "summary": "Wildfires near Athens have claimed lives and threatened the region. Firefighters are working to contain the blaze, with authorities emphasizing nature-based prevention strategies.",
       "article_ids": [
-        "087efc074b9bb61cfc4314bb",
-        "a3daee1de706abe6cfe52145"
+        "0b994213d2000278014346e6"
       ],
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/231360/palantirs-eu-tax-tricks-exposed-as-unions-demand-tougher-rules-on-public-contracts",
-          "headline": "Palantir’s EU tax tricks exposed as unions demand tougher rules on public contracts",
-          "published_at": "2026-08-05T04:00:00Z"
-        },
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260804-firefighters-in-greece-gain-ground-against-wildfires-near-athens",
+          "headline": "Firefighters in Greece gain ground against wildfires near Athens",
+          "published_at": "2026-08-04T14:31:13Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "How Togo has become a new entry point for weapons sent by Russia to Mali",
+      "summary": "Togo has emerged as a transit point for Russian weapons destined for Mali. The development raises concerns about the flow of arms into conflict zones in West Africa.",
+      "article_ids": [
+        "60440885d1b0cb3da523a832"
+      ],
+      "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/231376/brussels-hands-its-e5bn-scale-up-fund-to-a-stockholm-private-equity-giant-eqt",
-          "headline": "Brussels hands its €5bn scale-up fund to a Stockholm private equity giant EQT",
-          "published_at": "2026-08-04T15:26:54Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/africa/20260804-togo-entry-point-weapons-russia-mali",
+          "headline": "How Togo has become a new entry point for weapons sent by Russia to Mali",
+          "published_at": "2026-08-04T15:15:28Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "How to avoid the worst of the Italian heat",
+      "summary": "Italy is experiencing a severe heatwave that poses risks to public health and infrastructure. Authorities are advising precautions to mitigate the impact of extreme temperatures.",
+      "article_ids": [
+        "ad7f29e983346df7965cdcae"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c05q1gz0p1yo?at_medium=RSS&at_campaign=rss",
+          "headline": "How to avoid the worst of the Italian heat",
+          "published_at": "2026-08-04T18:21:00Z"
         }
       ],
       "source_count": 1
@@ -164,23 +175,44 @@
       ]
     },
     {
-      "label": "Democrats · Michigan · Israel · backed",
+      "label": "Michigan · Democrats · Israel · primary",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-08-04T10:54:19Z",
+      "item_count": 5,
+      "latest_at": "2026-08-05T06:11:09Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ahead-of-the-midterms-democrats-face-reckoning-in-michigan-primary",
-          "headline": "Ahead of the midterms, Democrats face reckoning in Michigan primary",
-          "published_at": "2026-08-04T10:54:19Z"
+          "url": "https://www.france24.com/en/americas/20260805-michigan-democratic-primary-test-progressive-movement-us",
+          "headline": "Michigan Democratic primary seen as latest test for party's progressive wing",
+          "published_at": "2026-08-05T06:11:09Z"
         },
         {
           "publisher": "EL PAÍS English",
           "url": "https://english.elpais.com/usa/2026-08-04/a-progressive-muslim-or-an-israel-backed-moderate-democrats-wage-a-pivotal-battle-in-michigan-over-their-future.html",
           "headline": "A progressive Muslim or an Israel-backed moderate?: Democrats wage a pivotal battle in Michigan over their future",
           "published_at": "2026-08-04T09:34:39Z"
+        }
+      ]
+    },
+    {
+      "label": "Ceuta · EU · Migration · Commissioner",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-08-04T16:08:45Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260804-europe-passed-the-test-of-ceuta-crisis-says-eu-commissioner",
+          "headline": "‘Europe passed the test’ of Ceuta crisis, says EU commissioner",
+          "published_at": "2026-08-04T16:08:45Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-ministers-back-spain-after-ceuta-migration-crisis",
+          "headline": "EU ministers close ranks behind Spain after Ceuta migration crisis",
+          "published_at": "2026-08-04T14:13:46Z"
         }
       ]
     },
@@ -204,30 +236,23 @@
           "published_at": "2026-08-04T21:46:45Z"
         }
       ]
-    },
-    {
-      "label": "Armed · arrested · Trump",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-05T01:17:42Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20260805-armed-man-arrested-outside-trump-s-los-angeles-golf-course-before-presidential-visit",
-          "headline": "Armed man arrested outside Trump's Los Angeles golf course before presidential visit",
-          "published_at": "2026-08-05T01:17:42Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.com/news/2026/08/04/armed-man-arrested-before-trump-fundraising-dinner-california-01024955",
-          "headline": "Armed man arrested after appearing to scope out security for Trump fundraising dinner",
-          "published_at": "2026-08-05T00:45:44Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "c5e6fbfdaa9b0ff130c6dbd3",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Michigan Democratic primary seen as latest test for party's progressive wing",
+      "url": "https://www.france24.com/en/americas/20260805-michigan-democratic-primary-test-progressive-movement-us",
+      "published_at": "2026-08-05T06:11:09Z",
+      "collected_at": "2026-08-05T06:30:39Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "2b9f718503a460f5873ff32f",
       "source_id": "france24",
@@ -310,6 +335,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "ec25e8f0492243618f27bb0a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Taiwan launches major war games as China pressure grows",
+      "url": "https://www.france24.com/en/asia-pacific/20260805-taiwan-launches-major-war-games-as-china-pressure-grows",
+      "published_at": "2026-08-05T03:35:19Z",
+      "collected_at": "2026-08-05T06:30:39Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -418,6 +457,20 @@
       "url": "https://www.france24.com/en/live-news/20260805-spacex-rocket-stage-expected-to-slam-into-moon",
       "published_at": "2026-08-05T00:33:10Z",
       "collected_at": "2026-08-05T06:03:00Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "d4f94df3baabf92d007b98ff",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Part of a SpaceX rocket to leave crater when it slams into the Moon",
+      "url": "https://www.france24.com/en/culture/20260805-part-of-a-spacex-rocket-to-leave-crater-when-it-slams-into-the-moon",
+      "published_at": "2026-08-05T00:33:10Z",
+      "collected_at": "2026-08-05T06:30:39Z",
       "topics": [
         "politics",
         "security",
@@ -1570,20 +1623,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "7e64594a50c2810042e45e25",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Haugset takes Women’s Tour de France yellow jersey with long solo breakaway",
-      "url": "https://www.france24.com/en/tv-shows/sports/20260804-haugset-takes-women-tour-de-france-yellow-jersey-with-long-solo-breakaway",
-      "published_at": "2026-08-04T06:11:19Z",
-      "collected_at": "2026-08-04T06:30:38Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
