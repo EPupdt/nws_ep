@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-05T14:00:45Z",
-  "last_successful_collection_at": "2026-08-05T14:00:45Z",
+  "generated_at": "2026-08-05T14:30:39Z",
+  "last_successful_collection_at": "2026-08-05T14:30:39Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-05T14:00:45Z"
+      "at": "2026-08-05T14:30:39Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "30",
-      "at": "2026-08-05T14:00:45Z"
+      "at": "2026-08-05T14:30:39Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "23",
-      "at": "2026-08-05T14:00:45Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-05T14:30:39Z"
     },
     {
       "id": "euractiv",
@@ -29,79 +29,81 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-05T14:00:45Z"
+      "at": "2026-08-05T14:30:39Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-05T14:00:45Z"
+      "at": "2026-08-05T14:30:39Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-05T14:00:45Z"
+      "at": "2026-08-05T14:30:39Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-05T14:00:45Z"
+      "at": "2026-08-05T14:30:39Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-05T14:00:45Z"
+      "at": "2026-08-05T14:30:39Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-05T14:00:45Z"
+      "at": "2026-08-05T14:30:39Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ukraine-Russia Conflict Escalation",
-      "summary": "Massive Russian strikes on Kyiv killed 17 civilians, overwhelming Ukraine's air defense systems and highlighting ongoing military tensions.",
+      "title": "Russian Strikes in Ukraine Cause Significant Casualties",
+      "summary": "A massive Russian attack on Kyiv killed 17 people and overwhelmed Ukraine's air defense, highlighting ongoing military tensions. Ukraine reported failures in intercepting Russian missiles, raising concerns about defense capabilities.",
       "article_ids": [
-        "cff42f1db8a76eda60fb0254",
-        "d30fd849b0112fe7d562469e"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
-          "published_at": "2026-08-05T12:26:26Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ukrainian-capital-lit-up-by-massive-overnight-russian-strikes-killing-17",
-          "headline": "Ukrainian capital lit up by massive overnight Russian strikes, killing 17",
-          "published_at": "2026-08-05T09:51:46Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Ukraine-Russia Military Conflict",
-      "summary": "Ukraine's air defense failed to intercept Russian missiles overnight, exposing vulnerabilities in defense infrastructure. Russian strikes on Kyiv resulted in 17 civilian casualties, underscoring the conflict's humanitarian impact.",
-      "article_ids": [
-        "e12af7dd61f05aa6b544f598",
         "cff42f1db8a76eda60fb0254"
       ],
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/231474/ukraines-air-defence-failed-to-shoot-down-a-single-russian-missile-overnight-bringing-elon-musks-starlink-into-the-spotlight-ukraine-battlefield-update-day-1623",
-          "headline": "Ukraine’s air defence failed to shoot down a single Russian missile overnight, bringing Elon Musk’s Starlink into the spotlight (Ukraine Battlefield update, Day 1,623)",
-          "published_at": "2026-08-05T13:54:38Z"
-        },
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
+          "published_at": "2026-08-05T12:26:26Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ceuta Migration Crisis Intensifies",
+      "summary": "Migrants are using Trampolín beach in Ceuta as an open-air refuge to resist deportation and seek asylum. The EU praised Spain's response to the crisis, emphasizing humanitarian challenges.",
+      "article_ids": [
+        "4cbaaca90964167e2b9a07fc"
+      ],
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-08-05/trampolin-beach-the-openair-refuge-in-ceuta-for-migrants-resisting-in-search-of-asylum.html",
+          "headline": "Trampolín beach: The open‑air refuge in Ceuta for migrants resisting in search of asylum",
+          "published_at": "2026-08-05T09:21:54Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Ukraine-Russia Military Conflict Escalation",
+      "summary": "Russia's overnight strikes on Kyiv resulted in 17 deaths and damaged Ukraine's air defense systems. Ukraine emphasized the need for more missile interceptors to counter escalating attacks.",
+      "article_ids": [
+        "cff42f1db8a76eda60fb0254"
+      ],
+      "sources": [
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
@@ -109,15 +111,31 @@
           "published_at": "2026-08-05T12:26:26Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
+    },
+    {
+      "title": "Ceuta Migration and EU Response",
+      "summary": "Migrants in Ceuta are utilizing Trampolín beach as a refuge, resisting removal efforts. The EU acknowledged Spain's role in managing the crisis, though challenges persist in addressing irregular migration.",
+      "article_ids": [
+        "4cbaaca90964167e2b9a07fc"
+      ],
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-08-05/trampolin-beach-the-openair-refuge-in-ceuta-for-migrants-resisting-in-search-of-asylum.html",
+          "headline": "Trampolín beach: The open‑air refuge in Ceuta for migrants resisting in search of asylum",
+          "published_at": "2026-08-05T09:21:54Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "developing": [
     {
-      "label": "crisis · EU · Ceuta · Spain",
+      "label": "crisis · EU · Ceuta",
       "origin": "convergence",
-      "source_count": 4,
-      "item_count": 4,
+      "source_count": 3,
+      "item_count": 3,
       "latest_at": "2026-08-05T13:13:00Z",
       "sources": [
         {
@@ -137,12 +155,6 @@
           "url": "https://www.france24.com/en/video/20260804-europe-passed-the-test-of-ceuta-crisis-says-eu-commissioner",
           "headline": "‘Europe passed the test’ of Ceuta crisis, says EU commissioner",
           "published_at": "2026-08-04T16:08:45Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-ministers-back-spain-after-ceuta-migration-crisis",
-          "headline": "EU ministers close ranks behind Spain after Ceuta migration crisis",
-          "published_at": "2026-08-04T14:13:46Z"
         }
       ]
     },
@@ -150,7 +162,7 @@
       "label": "Michigan · primary · Progressive · Democratic",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
+      "item_count": 5,
       "latest_at": "2026-08-05T12:36:19Z",
       "sources": [
         {
@@ -189,23 +201,23 @@
       ]
     },
     {
-      "label": "EU · exposed",
+      "label": "report · US",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-08-05T04:00:00Z",
+      "latest_at": "2026-08-05T02:00:00Z",
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/231360/palantirs-eu-tax-tricks-exposed-as-unions-demand-tougher-rules-on-public-contracts",
-          "headline": "Palantir’s EU tax tricks exposed as unions demand tougher rules on public contracts",
-          "published_at": "2026-08-05T04:00:00Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/palantir-funnels-earnings-us-avoids-european-taxes",
+          "headline": "Palantir funnels earnings to US to avoid European taxes, report finds",
+          "published_at": "2026-08-05T02:00:00Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ceuta-has-re-exposed-immigration-s-divisive-nature-in-the-eu",
-          "headline": "Ceuta has 're-exposed immigration's divisive nature' in the EU",
-          "published_at": "2026-08-04T14:26:21Z"
+          "url": "https://www.france24.com/en/sport/20260804-us-world-cup-host-cities-seek-millions-in-unpaid-fifa-funding-report",
+          "headline": "US World Cup host cities seek millions in unpaid FIFA funding: report",
+          "published_at": "2026-08-04T21:46:45Z"
         }
       ]
     }
@@ -331,6 +343,20 @@
       "url": "https://english.elpais.com/usa/2026-08-05/abdul-elsayed-progressive-candidate-in-the-michigan-democratic-primary-emerges-as-likely-winner.html",
       "published_at": "2026-08-05T12:36:19Z",
       "collected_at": "2026-08-05T13:00:51Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "ab5192a799745ceee5405fb2",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Abdul El‑Sayed, a progressive, wins Michigan Senate Democratic primary",
+      "url": "https://english.elpais.com/usa/2026-08-05/abdul-elsayed-progressive-candidate-in-the-michigan-democratic-primary-emerges-as-likely-winner.html",
+      "published_at": "2026-08-05T12:36:19Z",
+      "collected_at": "2026-08-05T14:30:39Z",
       "topics": [
         "politics",
         "society",
@@ -1710,20 +1736,6 @@
       ]
     },
     {
-      "id": "d282b8a3fac67dc69be64e07",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Ukraine’s 40‑day offensive and Russia’s missile attacks push the war into a phase of ‘destroying civilisations’ (Ukraine Battlefield update, Day 1,622)",
-      "url": "https://euobserver.com/231335/ukraines-40day-offensive-and-russias-missile-attacks-push-the-war-into-a-phase-of-destroying-civilisations-ukraine-battlefield-update-day-1622",
-      "published_at": "2026-08-04T13:53:37Z",
-      "collected_at": "2026-08-04T14:00:52Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "210ff5239ef9ddaa1bc557be",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2113,34 +2125,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "23addbac5a2b5fb9a375a244",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Mass sea crossings to Spain’s Ceuta enclave prompt EU anti-migrant panic",
-      "url": "https://euobserver.com/230915/mass-sea-crossings-to-spains-ceuta-enclave-prompt-eu-anti-migrant-panic",
-      "published_at": "2026-07-31T13:02:41Z",
-      "collected_at": "2026-08-04T14:00:52Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "512304c551594d923a43225a",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Curry Barker, the director who went from serving coffee to fund his YouTube shorts to becoming a millionaire with his debut film",
-      "url": "https://english.elpais.com/culture/2026-07-31/curry-barker-the-director-who-went-from-serving-coffee-to-fund-his-youtube-shorts-to-becoming-a-millionaire-with-his-debut-film.html",
-      "published_at": "2026-07-31T12:56:22Z",
-      "collected_at": "2026-08-04T14:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
