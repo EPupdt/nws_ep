@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-05T05:30:38Z",
-  "last_successful_collection_at": "2026-08-05T05:30:38Z",
+  "generated_at": "2026-08-05T06:03:00Z",
+  "last_successful_collection_at": "2026-08-05T06:03:00Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-05T05:30:38Z"
+      "at": "2026-08-05T06:03:00Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-05T05:30:38Z"
+      "at": "2026-08-05T06:03:00Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-08-05T05:30:38Z"
+      "at": "2026-08-05T06:03:00Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-05T05:30:38Z"
+      "at": "2026-08-05T06:03:00Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-05T05:30:38Z"
+      "at": "2026-08-05T06:03:00Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-08-05T05:30:38Z"
+      "at": "2026-08-05T06:03:00Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-05T05:30:38Z"
+      "at": "2026-08-05T06:03:00Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-05T05:30:38Z"
+      "at": "2026-08-05T06:03:00Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-05T05:30:38Z"
+      "at": "2026-08-05T06:03:00Z"
     }
   ],
   "europe_now": [
@@ -185,27 +185,6 @@
       ]
     },
     {
-      "label": "drone · Ukrainian · attack · human",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-08-04T19:07:19Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/clye173d533o?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukrainian vegetable seller targeted in 'human safari' drone attack",
-          "published_at": "2026-08-04T19:07:19Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260804-ukrainian-drone-strikes-on-russia-kill-at-least-six-spark-fire-at-wildberries-warehouses",
-          "headline": "Ukrainian drone strikes on Russia kill at least six, spark fire at Wildberries warehouses",
-          "published_at": "2026-08-04T05:51:16Z"
-        }
-      ]
-    },
-    {
       "label": "report · US",
       "origin": "convergence",
       "source_count": 2,
@@ -225,9 +204,44 @@
           "published_at": "2026-08-04T21:46:45Z"
         }
       ]
+    },
+    {
+      "label": "Armed · arrested · Trump",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-05T01:17:42Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20260805-armed-man-arrested-outside-trump-s-los-angeles-golf-course-before-presidential-visit",
+          "headline": "Armed man arrested outside Trump's Los Angeles golf course before presidential visit",
+          "published_at": "2026-08-05T01:17:42Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/08/04/armed-man-arrested-before-trump-fundraising-dinner-california-01024955",
+          "headline": "Armed man arrested after appearing to scope out security for Trump fundraising dinner",
+          "published_at": "2026-08-05T00:45:44Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "2b9f718503a460f5873ff32f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "AI before AI: The legacy of Norbert Wiener’s cybernetics (3/3)",
+      "url": "https://www.france24.com/en/technology/20260805-ai-before-ai-the-legacy-of-norbert-wiener-s-cybernetics-3-3",
+      "published_at": "2026-08-05T05:35:06Z",
+      "collected_at": "2026-08-05T06:03:00Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "212387b3143921d694e5c94e",
       "source_id": "france24",
@@ -394,6 +408,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "9a6d3396ab11d0ad2073188d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "SpaceX rocket stage expected to slam into Moon",
+      "url": "https://www.france24.com/en/live-news/20260805-spacex-rocket-stage-expected-to-slam-into-moon",
+      "published_at": "2026-08-05T00:33:10Z",
+      "collected_at": "2026-08-05T06:03:00Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -1573,34 +1601,6 @@
       ]
     },
     {
-      "id": "744995949455a65df960c20d",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ukrainian drone strikes on Russia kill at least six, spark fire at Wildberries warehouses",
-      "url": "https://www.france24.com/en/europe/20260804-ukrainian-drone-strikes-on-russia-kill-at-least-six-spark-fire-at-wildberries-warehouses",
-      "published_at": "2026-08-04T05:51:16Z",
-      "collected_at": "2026-08-04T06:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "d09baaa94c3ff41910d27e34",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Middle East live: Cargo ship hit by 'unknown projectile' in Strait of Hormuz",
-      "url": "https://www.france24.com/en/middle-east/20260804-middle-east-live-cargo-ship-hit-by-unknown-projectile-in-strait-of-hormuz",
-      "published_at": "2026-08-04T03:14:18Z",
-      "collected_at": "2026-08-04T06:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "e65445b6373f7dc9f70dca9d",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1608,48 +1608,6 @@
       "url": "https://www.france24.com/en/middle-east/20260804-middle-east-live-cargo-ship-hit-by-unknown-projectile-in-strait-of-hormuz",
       "published_at": "2026-08-04T03:14:18Z",
       "collected_at": "2026-08-04T12:30:39Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "f58dfd5638f03ad08a3d0f7e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US regulators grant Boeing 737 MAX 7 certificate after years of delays",
-      "url": "https://www.france24.com/en/americas/20260804-faa-certifies-boeing-737-max-7-after-years-of-delays",
-      "published_at": "2026-08-04T03:10:43Z",
-      "collected_at": "2026-08-04T06:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "05f47f34921912ed11003945",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US wildfires force 65,000 to flee as hundreds of buildings burn in Spokane",
-      "url": "https://www.france24.com/en/americas/20260804-us-northwest-wildfires-force-65-000-to-flee-as-hundreds-of-buildings-burn-in-spokane",
-      "published_at": "2026-08-04T00:40:29Z",
-      "collected_at": "2026-08-04T06:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "50125cb43a54905988a09950",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Trump says new talks are Iran's 'last chance' to make deal before 'decapitation'",
-      "url": "https://www.france24.com/en/middle-east/20260803-trump-says-us-iran-talks-continue-warns-tehran-faces-last-chance",
-      "published_at": "2026-08-03T22:57:33Z",
-      "collected_at": "2026-08-04T06:00:49Z",
       "topics": [
         "politics",
         "security",
@@ -2172,20 +2130,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "fb788af8b239d1f7cecb3b40",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Defining modernity in South-East Asia",
-      "url": "https://ecfr.eu/podcasts/episode/defining-modernity-in-south-east-asia",
-      "published_at": "2026-07-31T05:00:00Z",
-      "collected_at": "2026-08-04T06:00:49Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
       ]
     },
     {
