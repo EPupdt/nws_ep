@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-05T16:00:45Z",
-  "last_successful_collection_at": "2026-08-05T16:00:45Z",
+  "generated_at": "2026-08-05T16:30:45Z",
+  "last_successful_collection_at": "2026-08-05T16:30:45Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-05T16:00:45Z"
+      "at": "2026-08-05T16:30:45Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "30",
-      "at": "2026-08-05T16:00:45Z"
+      "at": "2026-08-05T16:30:45Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-05T16:00:45Z"
+      "status": "ok",
+      "count": "23",
+      "at": "2026-08-05T16:30:45Z"
     },
     {
       "id": "euractiv",
@@ -29,52 +29,68 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-05T16:00:45Z"
+      "at": "2026-08-05T16:30:45Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-05T16:00:45Z"
+      "at": "2026-08-05T16:30:45Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-05T16:00:45Z"
+      "at": "2026-08-05T16:30:45Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-05T16:00:45Z"
+      "at": "2026-08-05T16:30:45Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-05T16:00:45Z"
+      "at": "2026-08-05T16:30:45Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-05T16:00:45Z"
+      "at": "2026-08-05T16:30:45Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ukraine-Russia Conflict Escalation",
-      "summary": "Massive Russian strikes on Kyiv kill 17, overwhelming Ukraine's air defence systems.",
+      "title": "Ceuta Migration Crisis",
+      "summary": "Ceuta appeals for aid as child migrant crisis becomes unsustainable due to influx. EU response criticized for delayed action.",
       "article_ids": [
-        "d30fd849b0112fe7d562469e"
+        "fd955407cecaf0379b6f2e1e"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ukrainian-capital-lit-up-by-massive-overnight-russian-strikes-killing-17",
-          "headline": "Ukrainian capital lit up by massive overnight Russian strikes, killing 17",
-          "published_at": "2026-08-05T09:51:46Z"
+          "url": "https://www.france24.com/en/europe/20260805-ceuta-warns-of-unsustainable-situation-for-child-migrants-after-influx",
+          "headline": "Ceuta appeals for aid as child migrant crisis becomes 'unsustainable'",
+          "published_at": "2026-08-05T10:45:13Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ukraine-Russia Military Conflict Escalation",
+      "summary": "Russian strikes in Kyiv overwhelm Ukraine's air defense, killing 17. Ukraine demands more missile interceptors.",
+      "article_ids": [
+        "cff42f1db8a76eda60fb0254"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
+          "published_at": "2026-08-05T12:26:26Z"
         }
       ],
       "source_count": 1
@@ -82,8 +98,24 @@
   ],
   "top_stories": [
     {
-      "title": "Ukraine-Russia Military Conflict",
-      "summary": "Russian attacks on Ukrainian cities cause significant casualties, with 21 reported dead in a single strike.",
+      "title": "Ceuta Migration Crisis",
+      "summary": "Ceuta faces unsustainable child migrant influx, prompting urgent EU aid requests. Local authorities struggle with resource shortages.",
+      "article_ids": [
+        "fd955407cecaf0379b6f2e1e"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260805-ceuta-warns-of-unsustainable-situation-for-child-migrants-after-influx",
+          "headline": "Ceuta appeals for aid as child migrant crisis becomes 'unsustainable'",
+          "published_at": "2026-08-05T10:45:13Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ukraine-Russia Conflict Escalation",
+      "summary": "Massive Russian attacks on Kyiv disrupt air defenses. Ukraine reports 17 casualties and calls for international support.",
       "article_ids": [
         "cff42f1db8a76eda60fb0254"
       ],
@@ -133,33 +165,6 @@
       ]
     },
     {
-      "label": "crisis · EU · Ceuta",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-08-05T13:13:00Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/231421/heatwave-blood-crisis-exposes-eus-risky-dependence-on-american-plasma",
-          "headline": "Heatwave blood crisis exposes EU’s risky dependence on American plasma",
-          "published_at": "2026-08-05T13:13:00Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&at_campaign=rss",
-          "headline": "EU commends Spain's 'swift response' to Ceuta migrant crisis",
-          "published_at": "2026-08-04T21:45:20Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260804-europe-passed-the-test-of-ceuta-crisis-says-eu-commissioner",
-          "headline": "‘Europe passed the test’ of Ceuta crisis, says EU commissioner",
-          "published_at": "2026-08-04T16:08:45Z"
-        }
-      ]
-    },
-    {
       "label": "Michigan · Sayed · primary · Senate",
       "origin": "convergence",
       "source_count": 2,
@@ -181,28 +186,63 @@
       ]
     },
     {
-      "label": "airport · Drone · explosives · found",
+      "label": "ambassador · amid · US · Brazilian",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-05T12:48:37Z",
+      "item_count": 3,
+      "latest_at": "2026-08-05T16:01:57Z",
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss",
-          "headline": "Drone carrying explosives found at German airport, police say",
-          "published_at": "2026-08-05T12:48:37Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/washington-holding-up-approval-for-france-us-ambassador-pick-over-human-rights-row",
+          "headline": "Washington holds up approval for France’s US ambassador pick amid human rights spat",
+          "published_at": "2026-08-05T16:01:57Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260805-alarm-at-german-airport-after-drone-found-near-ukrainian-plane-mid-air-incident",
-          "headline": "Drone with explosive device found near Ukrainian cargo plane at German airport",
-          "published_at": "2026-08-05T11:13:16Z"
+          "url": "https://www.france24.com/en/americas/20260805-us-revokes-brazilian-ambassador-s-visa-amid-escalating-diplomatic-dispute",
+          "headline": "US revokes Brazilian ambassador's visa amid escalating diplomatic dispute",
+          "published_at": "2026-08-05T00:50:28Z"
+        }
+      ]
+    },
+    {
+      "label": "crisis · EU",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-05T13:13:00Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/231421/heatwave-blood-crisis-exposes-eus-risky-dependence-on-american-plasma",
+          "headline": "Heatwave blood crisis exposes EU’s risky dependence on American plasma",
+          "published_at": "2026-08-05T13:13:00Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&at_campaign=rss",
+          "headline": "EU commends Spain's 'swift response' to Ceuta migrant crisis",
+          "published_at": "2026-08-04T21:45:20Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "8c61a8e9875236098d7ca7bb",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Washington holds up approval for France’s US ambassador pick amid human rights spat",
+      "url": "https://www.politico.eu/article/washington-holding-up-approval-for-france-us-ambassador-pick-over-human-rights-row",
+      "published_at": "2026-08-05T16:01:57Z",
+      "collected_at": "2026-08-05T16:30:45Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "3a3d3ceabdd0825cf8cfe221",
       "source_id": "france24",
@@ -673,6 +713,20 @@
       "url": "https://www.france24.com/en/the-era-of-the-machine-silicon-valley-shows-off-humanoid-robots",
       "published_at": "2026-08-05T10:48:44Z",
       "collected_at": "2026-08-05T11:00:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "fd955407cecaf0379b6f2e1e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ceuta appeals for aid as child migrant crisis becomes 'unsustainable'",
+      "url": "https://www.france24.com/en/europe/20260805-ceuta-warns-of-unsustainable-situation-for-child-migrants-after-influx",
+      "published_at": "2026-08-05T10:45:13Z",
+      "collected_at": "2026-08-05T16:30:45Z",
       "topics": [
         "politics",
         "security",
@@ -1618,62 +1672,6 @@
       ]
     },
     {
-      "id": "290def2889088112a42682e4",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Spain blames ‘criminal mafias’ for Ceuta mass border crossing as EU offers ‘solidarity’",
-      "url": "https://euobserver.com/231387/spain-blames-criminal-mafias-for-ceuta-mass-border-crossing-as-eu-offers-solidarity",
-      "published_at": "2026-08-04T15:43:25Z",
-      "collected_at": "2026-08-04T16:23:19Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "6428a9af0c9ca70c4da5c98e",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Channel rescue brings Burnham’s border pledge into focus",
-      "url": "https://www.politico.eu/article/channel-rescue-puts-andy-burnham-border-pledge-to-focus",
-      "published_at": "2026-08-04T15:33:46Z",
-      "collected_at": "2026-08-04T16:23:19Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "915c708dc60afc1490f9b1a8",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Brussels hands its €5bn scale-up fund to Stockholm private equity giant EQT",
-      "url": "https://euobserver.com/231376/brussels-hands-its-e5bn-scale-up-fund-to-a-stockholm-private-equity-giant-eqt",
-      "published_at": "2026-08-04T15:26:54Z",
-      "collected_at": "2026-08-04T16:23:19Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "0b994213d2000278014346e6",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Firefighters in Greece gain ground against wildfires near Athens",
-      "url": "https://www.france24.com/en/europe/20260804-firefighters-in-greece-gain-ground-against-wildfires-near-athens",
-      "published_at": "2026-08-04T14:31:13Z",
-      "collected_at": "2026-08-04T16:23:19Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "210ff5239ef9ddaa1bc557be",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1699,6 +1697,62 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "ff43d7a0f5e01c7262f0138c",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Ceuta: EU calls borders a 'shared European responsibility'",
+      "url": "https://www.dw.com/en/ceuta-eu-calls-borders-a-shared-european-responsibility/a-78220701?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-03T16:00:00Z",
+      "collected_at": "2026-08-05T16:30:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "6377fa517c529f2556b40725",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Mamdani and Ocasio-Cortez forge alliance to advance their socialist agenda",
+      "url": "https://english.elpais.com/usa/2026-08-03/mamdani-and-ocasio-cortez-forge-alliance-to-advance-their-socialist-agenda.html",
+      "published_at": "2026-08-03T15:41:29Z",
+      "collected_at": "2026-08-05T16:30:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "59dbe551fad3fcd9bc787dfa",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Ceuta border surge shakes Morocco’s image as the EU’s ‘trusted partner’",
+      "url": "https://euobserver.com/231192/ceuta-border-surge-shakes-moroccos-image-as-the-eus-trusted-partner",
+      "published_at": "2026-08-03T15:40:48Z",
+      "collected_at": "2026-08-05T16:30:45Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "3a46bfb9200314fb5789d10e",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Czech businessman detained by Beijing faces espionage charges and could be part of swap with Chinese spy",
+      "url": "https://euobserver.com/230958/czech-businessman-detained-by-beijing-faces-espionage-charges-and-could-be-part-of-swap-with-chinese-spy",
+      "published_at": "2026-08-03T15:39:54Z",
+      "collected_at": "2026-08-05T16:30:45Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -1821,6 +1875,20 @@
       "url": "https://www.bbc.co.uk/news/articles/cdx8qp451lko?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-03T03:53:05Z",
       "collected_at": "2026-08-05T08:30:43Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "86fe2cb42b2c1c1416718167",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives",
+      "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-03T01:03:31Z",
+      "collected_at": "2026-08-05T16:30:45Z",
       "topics": [
         "breaking",
         "politics",
@@ -2024,48 +2092,6 @@
       ]
     },
     {
-      "id": "0801fd59afc7e1c902f3af44",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Romania defends Nato’s Eastern flank even without a working government and a busted budget",
-      "url": "https://euobserver.com/231000/romania-defends-natos-eastern-flank-even-without-a-working-government-and-a-busted-budget",
-      "published_at": "2026-07-31T14:49:32Z",
-      "collected_at": "2026-08-04T16:23:19Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "e018951ef3d22ed1bdb067b8",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "The split in Poland’s opposition could help them unseat Tusk’s government [Opinion]",
-      "url": "https://notesfrompoland.com/2026/07/31/the-split-in-polands-opposition-could-help-them-unseat-tusks-government-opinion",
-      "published_at": "2026-07-31T14:38:35Z",
-      "collected_at": "2026-08-04T16:23:19Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "d1d35e444409bc297195d4d1",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Internal documents reveal Shell decision to keep polluted Niger Delta pipeline open despite staff warnings",
-      "url": "https://euobserver.com/230919/internal-documents-reveal-shell-decision-to-keep-polluted-niger-delta-pipeline-open-despite-staff-warnings",
-      "published_at": "2026-07-31T13:56:00Z",
-      "collected_at": "2026-08-04T16:23:19Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "03a6257e009143a7c8be02f5",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -2073,6 +2099,20 @@
       "url": "https://notesfrompoland.com/2026/07/31/poland-bans-use-of-smartphones-by-children-in-primary-schools-and-kindergartens",
       "published_at": "2026-07-31T12:47:32Z",
       "collected_at": "2026-08-05T10:30:45Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "f959542152098ade139fd322",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland appoints new official to promote country’s brand internationally",
+      "url": "https://notesfrompoland.com/2026/07/30/poland-appoints-new-official-to-promote-countrys-brand-internationally",
+      "published_at": "2026-07-30T14:37:10Z",
+      "collected_at": "2026-08-05T16:30:45Z",
       "topics": [
         "central_europe",
         "politics",
@@ -2185,90 +2225,6 @@
       "url": "https://ecfr.eu/article/natos-digital-arsenal-how-europe-can-avoid-a-new-dependence-on-america",
       "published_at": "2026-07-29T14:48:16Z",
       "collected_at": "2026-08-05T10:30:45Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "2267e129132ca81bc03a60d5",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Two of a kind: How France and Italy can show the way for Europe’s Africa policy",
-      "url": "https://ecfr.eu/article/two-of-a-kind-how-france-and-italy-can-show-the-way-for-europes-africa-policy",
-      "published_at": "2026-07-29T10:42:02Z",
-      "collected_at": "2026-08-04T16:23:19Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "0b4019a93f8bac7aaa5598e6",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "The Saudi dilemma: How Yemen could shape the next phase of the Iran war",
-      "url": "https://ecfr.eu/article/the-saudi-dilemma-how-yemen-could-shape-the-next-phase-of-the-iran-war",
-      "published_at": "2026-07-28T14:57:48Z",
-      "collected_at": "2026-08-04T16:23:19Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "89646e0119c5675c5cde9a39",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Shoring up the Red Sea: Why the next crisis may begin in the Horn of Africa",
-      "url": "https://ecfr.eu/article/shoring-up-the-red-sea-why-the-next-crisis-may-begin-in-the-horn-of-africa",
-      "published_at": "2026-07-28T07:00:23Z",
-      "collected_at": "2026-08-04T16:23:19Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "0b0c74453e3a0d720f0d5a40",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Serbia: Inside the leaderless movement",
-      "url": "https://ecfr.eu/podcasts/episode/inside-the-leaderless-movement",
-      "published_at": "2026-07-24T12:35:30Z",
-      "collected_at": "2026-08-04T16:23:19Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "66029b24ac577f1e07324141",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "The China-native generation",
-      "url": "https://ecfr.eu/podcasts/episode/the-china-native-generation",
-      "published_at": "2026-07-24T05:00:00Z",
-      "collected_at": "2026-08-04T16:23:19Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "8966f5926726e7b6481172c9",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "The magnificent ten: A coalition of the willing to drive the EU’s next enlargement",
-      "url": "https://ecfr.eu/publication/the-magnificent-ten-a-coalition-of-the-willing-to-drive-the-eus-next-enlargement",
-      "published_at": "2026-07-23T14:16:18Z",
-      "collected_at": "2026-08-04T16:23:19Z",
       "topics": [
         "analysis",
         "foreign_policy",
