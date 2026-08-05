@@ -345,9 +345,25 @@
     "18539b01806cadc36c094098": "2026-08-05T12:00:51Z",
     "9bf2f32a1d0eec3aa5288f99": "2026-08-05T12:00:51Z",
     "1ff2b737d6b033bac2e2cb60": "2026-08-05T12:00:51Z",
-    "cff7795757eef3a253499b26": "2026-08-05T12:00:51Z"
+    "cff7795757eef3a253499b26": "2026-08-05T12:00:51Z",
+    "cff42f1db8a76eda60fb0254": "2026-08-05T12:28:24Z",
+    "7998a776d5fc5cf79b50b9a4": "2026-08-05T12:28:24Z"
   },
   "radar": [
+    {
+      "id": "cff42f1db8a76eda60fb0254",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
+      "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-05T12:26:26Z",
+      "collected_at": "2026-08-05T12:28:24Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "cff7795757eef3a253499b26",
       "source_id": "notes_from_poland",
@@ -874,6 +890,20 @@
       "url": "https://www.france24.com/en/europe/20260805-ukraine-live-russian-strikes-kill-at-least-15-in-kyiv-and-surrounding-region",
       "published_at": "2026-08-05T05:24:42Z",
       "collected_at": "2026-08-05T08:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "7998a776d5fc5cf79b50b9a4",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ukraine live: Zelensky says interceptors 'could have saved lives' after 17 die in missile barrage",
+      "url": "https://www.france24.com/en/europe/20260805-ukraine-live-russian-strikes-kill-at-least-15-in-kyiv-and-surrounding-region",
+      "published_at": "2026-08-05T05:24:42Z",
+      "collected_at": "2026-08-05T12:28:24Z",
       "topics": [
         "politics",
         "security",
@@ -2788,10 +2818,6 @@
   "recent_topics": [
     {
       "at": "2026-08-03T20:30:40Z",
-      "title": "EU ministers to back Spain as Ceuta crisis pushes migration up the agenda"
-    },
-    {
-      "at": "2026-08-03T20:30:40Z",
       "title": "Amid a drought and soaring temperatures, Hungary shuts down its nuclear plant"
     },
     {
@@ -3105,16 +3131,25 @@
     {
       "at": "2026-08-05T12:00:51Z",
       "title": "Togo Weapons Entry Point"
+    },
+    {
+      "at": "2026-08-05T12:28:24Z",
+      "title": "European Corporate and Institutional News"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Russian Strikes in Kyiv",
-        "summary": "Russian strikes killed at least 17 in Kyiv, with Zelensky stating interceptors might have prevented some casualties.",
+        "title": "Russian Strikes Hit Kyiv",
+        "summary": "A massive overnight Russian missile barrage has struck the Ukrainian capital. The attacks resulted in at least 17 fatalities.",
         "article_ids": [
-          "d30fd849b0112fe7d562469e"
+          "d30fd849b0112fe7d562469e",
+          "8c0dee14ee2839af10be601a",
+          "0f8bb92ff712fc5c664b33f4",
+          "212387b3143921d694e5c94e",
+          "5a7a7b435e8d0e2015deaacb",
+          "7998a776d5fc5cf79b50b9a4"
         ],
         "sources": [
           {
@@ -3122,63 +3157,36 @@
             "url": "https://www.france24.com/en/ukrainian-capital-lit-up-by-massive-overnight-russian-strikes-killing-17",
             "headline": "Ukrainian capital lit up by massive overnight Russian strikes, killing 17",
             "published_at": "2026-08-05T09:51:46Z"
-          }
-        ],
-        "source_count": 1
-      },
-      {
-        "title": "Togo as Weapons Entry Point",
-        "summary": "Togo has become a new entry point for Russian weapons destined for Mali, according to recent reports.",
-        "article_ids": [
-          "5a7a7b435e8d0e2015deaacb"
-        ],
-        "sources": [
+          },
           {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20260805-ukraine-live-russian-strikes-kill-at-least-15-in-kyiv-and-surrounding-region",
-            "headline": "Ukraine live: Russian strikes kill more than a dozen in Kyiv region, Zelensky says",
-            "published_at": "2026-08-05T05:24:42Z"
+            "publisher": "BBC News Europe",
+            "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
+            "headline": "Russian strike kills at least 17 as Zelensky says interceptors could have saved lives",
+            "published_at": "2026-08-05T08:29:40Z"
           }
         ],
-        "source_count": 1
+        "source_count": 2
       }
     ],
     "top_stories": [
       {
-        "title": "Ukraine-Russia Conflict Escalation",
-        "summary": "Russian strikes killed at least 17 in Kyiv, with Zelensky stating interceptors might have prevented some casualties. Ongoing attacks highlight the conflict's intensity.",
+        "title": "European Corporate and Institutional News",
+        "summary": "Palantir is currently facing scrutiny regarding its tax practices within the European Union. Meanwhile, Italy has announced plans to increase spending on defense and energy.",
         "article_ids": [
-          "d30fd849b0112fe7d562469e",
-          "88fda092829ca34168f66fb7"
+          "11:00:44Z",
+          "53d276ec9d579bd148f11154"
         ],
         "sources": [
           {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/ukrainian-capital-lit-up-by-massive-overnight-russian-strikes-killing-17",
-            "headline": "Ukrainian capital lit up by massive overnight Russian strikes, killing 17",
-            "published_at": "2026-08-05T09:51:46Z"
-          }
-        ],
-        "source_count": 1
-      },
-      {
-        "title": "Togo Weapons Entry Point",
-        "summary": "Togo has become a new entry point for Russian weapons destined for Mali, according to recent reports. This raises concerns about regional security implications.",
-        "article_ids": [
-          "5a7a7b435e8d0e2015deaacb",
-          "95893de3b7516f4288fb68ec"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20260805-ukraine-live-russian-strikes-kill-at-least-15-in-kyiv-and-surrounding-region",
-            "headline": "Ukraine live: Russian strikes kill more than a dozen in Kyiv region, Zelensky says",
-            "published_at": "2026-08-05T05:24:42Z"
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/italy-spend-energy-defense-finance-minister-giancarlo-giorgetti",
+            "headline": "Italy to spend billions more on energy and defense, finance minister says",
+            "published_at": "2026-08-05T10:04:30Z"
           }
         ],
         "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-08-05T12:00:51Z"
+  "last_collection_at": "2026-08-05T12:28:24Z"
 }
