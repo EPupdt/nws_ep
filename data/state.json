@@ -1,6 +1,5 @@
 {
   "seen": {
-    "eab7d830cfbe121dd5c9d474": "2026-08-04T07:30:38Z",
     "31f938d1595caa4be5635efe": "2026-08-04T08:00:44Z",
     "3ae61a65931c8e3ca29063ff": "2026-08-04T08:00:44Z",
     "6f60c4b5c3bc9eea9c653aed": "2026-08-04T08:00:44Z",
@@ -348,7 +347,9 @@
     "cd2b634014e9a7cac3a51f5c": "2026-08-06T06:00:47Z",
     "7cd01bd64823ddffc04f57e0": "2026-08-06T06:30:39Z",
     "00cbd7b0dda8450445f23a75": "2026-08-06T06:30:39Z",
-    "fb788af8b239d1f7cecb3b40": "2026-08-06T06:30:39Z"
+    "fb788af8b239d1f7cecb3b40": "2026-08-06T06:30:39Z",
+    "c5d75a793461299b0cc1f908": "2026-08-06T07:30:47Z",
+    "eab7d830cfbe121dd5c9d474": "2026-08-06T07:30:47Z"
   },
   "radar": [
     {
@@ -391,6 +392,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "c5d75a793461299b0cc1f908",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "In Odesa, no-one is safe from Russia's new Black Sea strikes",
+      "url": "https://www.bbc.co.uk/news/articles/cy8ev4y172yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-06T05:00:54Z",
+      "collected_at": "2026-08-06T07:30:47Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -1864,6 +1879,20 @@
       ]
     },
     {
+      "id": "eab7d830cfbe121dd5c9d474",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "EU carbon border tax may hit India’s steel sector less hard than expected, study finds",
+      "url": "https://euobserver.com/231114/eu-carbon-border-tax-may-hit-indias-steel-sector-less-hard-than-expected-study-finds",
+      "published_at": "2026-08-04T07:00:00Z",
+      "collected_at": "2026-08-06T07:30:47Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "db5e304b5b8576030f9efa61",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2511,10 +2540,6 @@
   "recent_topics": [
     {
       "at": "2026-08-04T14:30:39Z",
-      "title": "Ukraine Offensive Escalates Conflict"
-    },
-    {
-      "at": "2026-08-04T14:30:39Z",
       "title": "Moscow Restaurant Bombing Triggers Nationalist Fury"
     },
     {
@@ -2828,32 +2853,18 @@
     {
       "at": "2026-08-06T06:30:39Z",
       "title": "Security Threat in Germany"
+    },
+    {
+      "at": "2026-08-06T07:30:47Z",
+      "title": "Ukraine-Russia Military Conflict"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Russian Strikes in Ukraine",
-        "summary": "Russian strikes targeted Kharkiv and Sumy regions, killing at least six people. The attacks highlight ongoing military escalation between Ukraine and Russia.",
-        "article_ids": [
-          "00cbd7b0dda8450445f23a75"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20260806-at-least-six-killed-russian-strikes-ukraine-officials-say",
-            "headline": "Russian strikes target Ukraine's Kharkiv and Sumy regions, killing at least six",
-            "published_at": "2026-08-06T06:14:50Z"
-          }
-        ],
-        "source_count": 1
-      }
-    ],
-    "top_stories": [
-      {
-        "title": "Ukraine-Russia Military Conflict",
-        "summary": "Russian strikes targeted Kharkiv and Sumy regions, killing at least six people. The attacks reflect intensified hostilities in the conflict.",
+        "title": "Russian strikes target Ukraine's Kharkiv and Sumy regions, killing at least six",
+        "summary": "Russian military attacks in Ukraine's eastern regions resulted in six fatalities, highlighting ongoing conflict escalation. Ukraine reports interceptor shortages exacerbating vulnerability to strikes.",
         "article_ids": [
           "00cbd7b0dda8450445f23a75"
         ],
@@ -2868,8 +2879,8 @@
         "source_count": 1
       },
       {
-        "title": "Security Threat in Germany",
-        "summary": "An explosive drone was found at a German airport, prompting a police investigation. The incident raises concerns about security vulnerabilities in Europe.",
+        "title": "Explosive drone found at German airport, police say",
+        "summary": "A drone carrying explosives was discovered at a German airport, prompting security investigations. The incident raises concerns about systemic security threats in Europe.",
         "article_ids": [
           "fd4d01a0461df09645cc7dec"
         ],
@@ -2883,7 +2894,26 @@
         ],
         "source_count": 1
       }
+    ],
+    "top_stories": [
+      {
+        "title": "Ukraine-Russia Military Conflict",
+        "summary": "Russian strikes in Kharkiv and Sumy caused six deaths, while Ukraine warns of interceptor shortages delaying defense responses. The conflict continues to strain regional security dynamics.",
+        "article_ids": [
+          "00cbd7b0dda8450445f23a75",
+          "7791c90b058a4c0e31cc0538"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20260806-at-least-six-killed-russian-strikes-ukraine-officials-say",
+            "headline": "Russian strikes target Ukraine's Kharkiv and Sumy regions, killing at least six",
+            "published_at": "2026-08-06T06:14:50Z"
+          }
+        ],
+        "source_count": 1
+      }
     ]
   },
-  "last_collection_at": "2026-08-06T07:00:47Z"
+  "last_collection_at": "2026-08-06T07:30:47Z"
 }
