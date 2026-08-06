@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-06T04:00:47Z",
-  "last_successful_collection_at": "2026-08-06T04:00:47Z",
+  "generated_at": "2026-08-06T04:30:43Z",
+  "last_successful_collection_at": "2026-08-06T04:30:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-06T04:00:47Z"
+      "at": "2026-08-06T04:30:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "30",
-      "at": "2026-08-06T04:00:47Z"
+      "at": "2026-08-06T04:30:43Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-06T04:00:47Z"
+      "at": "2026-08-06T04:30:43Z"
     },
     {
       "id": "euractiv",
@@ -29,58 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-06T04:00:47Z"
+      "at": "2026-08-06T04:30:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-06T04:00:47Z"
+      "at": "2026-08-06T04:30:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-06T04:00:47Z"
+      "at": "2026-08-06T04:30:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-06T04:00:47Z"
+      "at": "2026-08-06T04:30:43Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-06T04:00:47Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-06T04:30:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-06T04:00:47Z"
+      "at": "2026-08-06T04:30:43Z"
     }
   ],
-  "europe_now": [
+  "europe_now": [],
+  "top_stories": [
     {
-      "title": "Explosive drone found at German airport",
-      "summary": "An explosive drone was discovered at Leipzig airport, leading to an investigation by German anti-terror police, indicating a potential security threat requiring immediate attention.",
+      "title": "Ukraine-Russia Military Conflict",
+      "summary": "Ukraine faced a deadly Russian attack in Kyiv, highlighting vulnerabilities in its air defense system and interceptor shortages.",
       "article_ids": [
-        "fd4d01a0461df09645cc7dec"
+        "7791c90b058a4c0e31cc0538",
+        "7cfb08936442c8888e28f65c"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/germany-police-investigation-explosive-drone-leipzig-airport",
-          "headline": "German anti-terror police investigate explosive drone found at Leipzig airport",
-          "published_at": "2026-08-05T18:00:16Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cyvlgq2gp2eo?at_medium=RSS&at_campaign=rss",
+          "headline": "After deadly Kyiv strike, Ukraine warns interceptor shortage is costing lives",
+          "published_at": "2026-08-05T18:19:51Z"
         }
       ],
       "source_count": 1
     }
   ],
-  "top_stories": [],
   "developing": [
     {
       "label": "Russian · Ukraine · attack · Kyiv",
@@ -112,6 +113,33 @@
           "url": "https://www.france24.com/en/russian-drone-hits-street-vendor-in-kherson-zelensky-denounces-safari-attack",
           "headline": "Russian drone hits street vendor in Kherson, Zelensky denounces ‘safari’ attack",
           "published_at": "2026-08-05T10:51:32Z"
+        }
+      ]
+    },
+    {
+      "label": "airport · Drone · explosive · found",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-08-05T18:00:16Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/germany-police-investigation-explosive-drone-leipzig-airport",
+          "headline": "German anti-terror police investigate explosive drone found at Leipzig airport",
+          "published_at": "2026-08-05T18:00:16Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss",
+          "headline": "Drone carrying explosives found at German airport, police say",
+          "published_at": "2026-08-05T12:48:37Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260805-alarm-at-german-airport-after-drone-found-near-ukrainian-plane-mid-air-incident",
+          "headline": "Drone with explosive device found near Ukrainian cargo plane at German airport",
+          "published_at": "2026-08-05T11:13:16Z"
         }
       ]
     },
@@ -156,30 +184,23 @@
           "published_at": "2026-08-05T21:37:08Z"
         }
       ]
-    },
-    {
-      "label": "Russia · Ukraine",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-05T20:30:25Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/escalatory-spiral-of-attrition-drone-technology-allowing-ukraine-to-resist-russia-asymmetrically",
-          "headline": "'Escalatory spiral of attrition: Drone technology allowing Ukraine to resist Russia asymmetrically'",
-          "published_at": "2026-08-05T20:30:25Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
-          "published_at": "2026-08-05T12:26:26Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "2deca4587ba6719476029b1b",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Why are Commission staffers so miserable?",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/why-are-commission-staffers-so-miserable",
+      "published_at": "2026-08-06T04:05:00Z",
+      "collected_at": "2026-08-06T04:30:43Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "e1a9a481dae2171ebdfea941",
       "source_id": "politico_europe",
@@ -1651,20 +1672,6 @@
       ]
     },
     {
-      "id": "95893de3b7516f4288fb68ec",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Machthaber: Marine Le Pen",
-      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/machthaber-marine-le-pen",
-      "published_at": "2026-08-05T03:30:00Z",
-      "collected_at": "2026-08-05T04:00:47Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "1f69ae0f43d7571e60d68354",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2082,6 +2089,34 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "bc9f5837c69afed28fdfc630",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Hungary to shut sole nuclear plant for first time on Sunday",
+      "url": "https://www.dw.com/en/hungary-to-shut-sole-nuclear-plant-for-first-time-on-sunday/a-78205668?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-02T02:16:00Z",
+      "collected_at": "2026-08-06T04:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "b688f8a35a06fa2a17cb25e7",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "How does eastern Europe commemorate the Roma Holocaust?",
+      "url": "https://www.dw.com/en/how-does-eastern-europe-commemorate-the-roma-holocaust/a-78183503?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-01T20:08:00Z",
+      "collected_at": "2026-08-06T04:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
