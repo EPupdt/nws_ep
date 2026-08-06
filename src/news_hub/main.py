@@ -162,7 +162,8 @@ def collect_source(source: dict[str, Any], collected: datetime) -> tuple[list[Ar
         return [], {"id": source["id"], "status": "disabled", "detail": "No verified feed URL configured."}
     try:
         request = Request(feed_url, headers={"User-Agent": "EuropePulseNewsAgent/0.1 (+https://europepulse.eu)"})
-        with urlopen(request, timeout=20) as response:
+        # One unavailable publisher must not hold the whole editorial cycle.
+        with urlopen(request, timeout=12) as response:
             payload = response.read()
         feed = feedparser.parse(payload)
         if feed.bozo and not feed.entries:
@@ -224,7 +225,7 @@ def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent
                 endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
                 body = {"contents": [{"parts": [{"text": raw}]}], "generationConfig": {"responseMimeType": "application/json", "temperature": 0.1}}
                 request = Request(endpoint, data=json.dumps(body).encode(), headers={"Content-Type": "application/json"}, method="POST")
-                with urlopen(request, timeout=45) as response:
+                with urlopen(request, timeout=30) as response:
                     result = json.load(response)
                 text = result["candidates"][0]["content"]["parts"][0]["text"]
             else:
@@ -232,7 +233,7 @@ def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent
                         "response_format": {"type": "json_object"}}
                 request = Request("https://openrouter.ai/api/v1/chat/completions", data=json.dumps(body).encode(),
                                   headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json", "HTTP-Referer": "https://europepulse.eu"}, method="POST")
-                with urlopen(request, timeout=45) as response:
+                with urlopen(request, timeout=30) as response:
                     result = json.load(response)
                 text = result["choices"][0]["message"]["content"]
             selected = json.loads(text)

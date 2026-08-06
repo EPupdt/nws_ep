@@ -8,8 +8,6 @@ on:
         required: false
         default: false
         type: boolean
-  schedule:
-    - cron: "*/10 * * * *"
 
 permissions:
   contents: write
@@ -21,7 +19,9 @@ concurrency:
 jobs:
   collect-and-publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # The external cron-job.org trigger is the only scheduler. Leave headroom
+    # for slow publisher feeds while the collector itself has bounded requests.
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v5
         with:
