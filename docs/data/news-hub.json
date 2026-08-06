@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-06T14:00:46Z",
-  "last_successful_collection_at": "2026-08-06T14:00:46Z",
+  "generated_at": "2026-08-06T14:30:39Z",
+  "last_successful_collection_at": "2026-08-06T14:30:39Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-06T14:00:46Z"
+      "at": "2026-08-06T14:30:39Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "32",
-      "at": "2026-08-06T14:00:46Z"
+      "at": "2026-08-06T14:30:39Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-06T14:00:46Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-06T14:30:39Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-06T14:00:46Z"
+      "at": "2026-08-06T14:30:39Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-06T14:00:46Z"
+      "at": "2026-08-06T14:30:39Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-06T14:00:46Z"
+      "at": "2026-08-06T14:30:39Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-06T14:00:46Z"
+      "at": "2026-08-06T14:30:39Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-06T14:00:46Z"
+      "at": "2026-08-06T14:30:39Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-06T14:00:46Z"
+      "at": "2026-08-06T14:30:39Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Security Incident at German Airport",
-      "summary": "An explosive drone was discovered at an airport in Leipzig. Authorities are investigating the incident as a potential security threat.",
+      "title": "Bomb-disposal robot and drone with explosives discovered at Germany's Leipzig airport",
+      "summary": "A bomb disposal robot and a drone carrying explosives were found at Leipzig airport, prompting a security response. The incident highlights ongoing threats to European aviation infrastructure.",
       "article_ids": [
         "3c68a1c8a790fffd3ce2987f"
       ],
@@ -80,17 +80,17 @@
       "source_count": 1
     },
     {
-      "title": "Ukraine Defense Challenges",
-      "summary": "Ukraine has reported a shortage of interceptor missiles following recent strikes. Officials warn that these shortages are resulting in loss of life.",
+      "title": "Russian forces are now 20km away from Ukrainian city of Kramatorsk",
+      "summary": "Russian troops have advanced to within 20 kilometers of Kramatorsk, intensifying the conflict in eastern Ukraine. The proximity raises concerns over potential attacks on the city.",
       "article_ids": [
-        "00cbd7b0dda8450445f23a75"
+        "cf15c0dfa5aaa15d9a15fbb1"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260806-at-least-six-killed-russian-strikes-ukraine-officials-say",
-          "headline": "Russian strikes target Ukraine's Kharkiv and Sumy regions, killing at least six",
-          "published_at": "2026-08-06T06:14:50Z"
+          "url": "https://www.france24.com/en/russian-forces-are-now-20km-away-from-ukrainian-city-of-kramatorsk",
+          "headline": "Russian forces are now 20km away from Ukrainian city of Kramatorsk",
+          "published_at": "2026-08-06T08:47:41Z"
         }
       ],
       "source_count": 1
@@ -98,8 +98,8 @@
   ],
   "top_stories": [
     {
-      "title": "Economic Impact of Extreme Heat",
-      "summary": "Extreme heatwaves are projected to cause an €800bn deficit in European economies. Germany, France, and Italy are expected to face the most significant consequences.",
+      "title": "Extreme heat puts €800bn hole in Europe’s economy — as Germany, France and Italy bear the brunt",
+      "summary": "Extreme heat has created an €800 billion economic loss across the EU, with Germany, France and Italy most affected. The heatwave has strained energy supplies and reduced productivity.",
       "article_ids": [
         "59a8c826b1c5d297105f68f7"
       ],
@@ -112,14 +112,105 @@
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "Bomb-disposal robot and drone with explosives discovered at Germany's Leipzig airport",
+      "summary": "A bomb disposal robot and a drone carrying explosives were found at Leipzig airport, prompting a security response. The incident highlights ongoing threats to European aviation infrastructure.",
+      "article_ids": [
+        "3c68a1c8a790fffd3ce2987f"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/bomb-disposal-robot-and-drone-with-explosives-discovered-at-germany-s-leipzig-airport",
+          "headline": "Bomb-disposal robot and drone with explosives discovered at Germany's Leipzig airport",
+          "published_at": "2026-08-06T08:59:06Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Thousand protesters to camp out against the EU’s flagship lithium mine in Portugal",
+      "summary": "A thousand protesters camped outside the EU’s flagship lithium mine in Portugal to oppose its development. The demonstration reflects growing concerns over environmental and social impacts.",
+      "article_ids": [
+        "f4860953c803e5ec1f1c48df"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/231619/thousand-protesters-to-camp-out-against-the-eus-flagship-lithium-mine-in-portugal",
+          "headline": "Thousand protesters to camp out against the EU’s flagship lithium mine in Portugal",
+          "published_at": "2026-08-06T14:14:43Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Poland invokes emergency grid capacity powers for second time in three days amid heatwave",
+      "summary": "Poland has activated emergency grid capacity powers for the second time in three days due to a severe heatwave. The move aims to prevent power shortages across the country.",
+      "article_ids": [
+        "7b7be503e4cc7f9481937a0b"
+      ],
+      "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/08/06/poland-invokes-emergency-grid-capacity-powers-for-second-time-in-three-days-amid-heatwave",
+          "headline": "Poland invokes emergency grid capacity powers for second time in three days amid heatwave",
+          "published_at": "2026-08-06T13:59:00Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "WHO calls for 'intensified' response as DR Congo Ebola cases near 4,000",
+      "summary": "The World Health Organization urges an intensified response as Ebola cases in DR Congo approach 4,000. The outbreak strains health workers and highlights the need for increased resources.",
+      "article_ids": [
+        "419ca5b6bf9b558d36e25fc5"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260806-who-calls-for-intensified-response-as-dr-congo-ebola-cases-near-4-000",
+          "headline": "WHO calls for 'intensified' response as DR Congo Ebola cases near 4,000",
+          "published_at": "2026-08-06T10:19:23Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "developing": [
     {
-      "label": "Michigan · primary · Democrat · Sayed",
+      "label": "Ukraine · Russian · attack · deadly",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 4,
+      "latest_at": "2026-08-06T06:14:50Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260806-at-least-six-killed-russian-strikes-ukraine-officials-say",
+          "headline": "Russian strikes target Ukraine's Kharkiv and Sumy regions, killing at least six",
+          "published_at": "2026-08-06T06:14:50Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/clyxdgx7m8no?at_medium=RSS&at_campaign=rss",
+          "headline": "Watch: 'Scariest night' as Ukraine fails to intercept Russian attack",
+          "published_at": "2026-08-05T19:00:32Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/231519/eu-hands-ukraine-e1-4bn-in-interest-from-frozen-russian-assets-following-deadly-attack-on-kyiv",
+          "headline": "EU hands Ukraine €1.4bn in interest from frozen Russian assets following deadly attack on Kyiv",
+          "published_at": "2026-08-05T15:00:35Z"
+        }
+      ]
+    },
+    {
+      "label": "Michigan · Democrat · primary · candidate",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 8,
+      "item_count": 6,
       "latest_at": "2026-08-06T12:31:34Z",
       "sources": [
         {
@@ -177,30 +268,23 @@
           "published_at": "2026-08-05T21:37:08Z"
         }
       ]
-    },
-    {
-      "label": "attack · drone",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-06T09:43:34Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/germany-drone-ukraine-alexander-dobrindt-interior-minister-state-actor-attack",
-          "headline": "German interior minister suggests state actor behind drone attack",
-          "published_at": "2026-08-06T09:43:34Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260806-un-warns-drone-attacks-have-become-leading-cause-of-civilian-death-in-sudan",
-          "headline": "UN warns drone attacks have become leading cause of civilian death in Sudan",
-          "published_at": "2026-08-06T09:10:30Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "f4860953c803e5ec1f1c48df",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Thousand protesters to camp out against the EU’s flagship lithium mine in Portugal",
+      "url": "https://euobserver.com/231619/thousand-protesters-to-camp-out-against-the-eus-flagship-lithium-mine-in-portugal",
+      "published_at": "2026-08-06T14:14:43Z",
+      "collected_at": "2026-08-06T14:30:39Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "7b7be503e4cc7f9481937a0b",
       "source_id": "notes_from_poland",
@@ -213,6 +297,20 @@
         "central_europe",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "045f16e928972029d22a6312",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Can UN chief's initiative kickstart resolution for Cyprus?",
+      "url": "https://www.dw.com/en/can-un-chief-s-initiative-kickstart-resolution-for-cyprus/a-78264788?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-06T13:58:00Z",
+      "collected_at": "2026-08-06T14:30:39Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -1532,6 +1630,20 @@
       ]
     },
     {
+      "id": "d282b8a3fac67dc69be64e07",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Ukraine’s 40‑day offensive and Russia’s missile attacks push the war into a phase of ‘destroying civilisations’ (Ukraine Battlefield update, Day 1,622)",
+      "url": "https://euobserver.com/231335/ukraines-40day-offensive-and-russias-missile-attacks-push-the-war-into-a-phase-of-destroying-civilisations-ukraine-battlefield-update-day-1622",
+      "published_at": "2026-08-04T13:53:37Z",
+      "collected_at": "2026-08-06T14:30:39Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "ccff0045bfa1f8107fd2386a",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -2145,6 +2257,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "512304c551594d923a43225a",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Curry Barker, the director who went from serving coffee to fund his YouTube shorts to becoming a millionaire with his debut film",
+      "url": "https://english.elpais.com/culture/2026-07-31/curry-barker-the-director-who-went-from-serving-coffee-to-fund-his-youtube-shorts-to-becoming-a-millionaire-with-his-debut-film.html",
+      "published_at": "2026-07-31T12:56:22Z",
+      "collected_at": "2026-08-06T14:30:39Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
