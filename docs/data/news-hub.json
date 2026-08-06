@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-06T12:00:46Z",
-  "last_successful_collection_at": "2026-08-06T12:00:46Z",
+  "generated_at": "2026-08-06T12:30:37Z",
+  "last_successful_collection_at": "2026-08-06T12:30:37Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-06T12:00:46Z"
+      "at": "2026-08-06T12:30:37Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "31",
-      "at": "2026-08-06T12:00:46Z"
+      "at": "2026-08-06T12:30:37Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-06T12:00:46Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-06T12:30:37Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-06T12:00:46Z"
+      "at": "2026-08-06T12:30:37Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-06T12:00:46Z"
+      "at": "2026-08-06T12:30:37Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-06T12:00:46Z"
+      "at": "2026-08-06T12:30:37Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-06T12:00:46Z"
+      "at": "2026-08-06T12:30:37Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-06T12:00:46Z"
+      "at": "2026-08-06T12:30:37Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-06T12:00:46Z"
+      "at": "2026-08-06T12:30:37Z"
     }
   ],
   "europe_now": [
@@ -119,10 +119,10 @@
   ],
   "developing": [
     {
-      "label": "Ukraine · Russian · strikes · attack",
+      "label": "Ukraine · Russian · attack · deadly",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 6,
+      "item_count": 5,
       "latest_at": "2026-08-06T06:14:50Z",
       "sources": [
         {
@@ -1499,76 +1499,6 @@
       ]
     },
     {
-      "id": "cff42f1db8a76eda60fb0254",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
-      "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-05T12:26:26Z",
-      "collected_at": "2026-08-05T12:28:24Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "cff7795757eef3a253499b26",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland calls for EU to deny residence to migrants who enter illegally",
-      "url": "https://notesfrompoland.com/2026/08/05/poland-calls-for-eu-to-deny-residence-to-migrants-who-enter-illegally",
-      "published_at": "2026-08-05T11:43:25Z",
-      "collected_at": "2026-08-05T12:00:51Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "18539b01806cadc36c094098",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Conflict-of-interest row deepens as Babiš’s Czech government fights Brussels over farm subsidy cap",
-      "url": "https://euobserver.com/230763/conflict-of-interest-row-deepens-as-babiss-czech-government-fights-brussels-over-farm-subsidy-cap",
-      "published_at": "2026-08-05T11:37:11Z",
-      "collected_at": "2026-08-05T12:00:51Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "9bf2f32a1d0eec3aa5288f99",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Searching for the body of 'the woman with the pretty nails,' rescued alive after the earthquakes in Venezuela",
-      "url": "https://english.elpais.com/international/2026-08-05/searching-for-the-body-of-the-woman-with-the-pretty-nails-rescued-alive-after-the-earthquakes-in-venezuela.html",
-      "published_at": "2026-08-05T11:30:29Z",
-      "collected_at": "2026-08-05T12:00:51Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "6affb4a3ac6f4ad24b1b691d",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Hungary's Lake Velence is drying up",
-      "url": "https://www.dw.com/en/hungary-s-lake-velence-is-drying-up/a-78238238?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-05T11:25:00Z",
-      "collected_at": "2026-08-05T12:00:51Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "32d6cc2a6b8890540ce9285d",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1611,20 +1541,6 @@
       ]
     },
     {
-      "id": "07ef36dd6f5e3bc5817a78c6",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Embattled FIFA head Infantino holds emergency talks amid calls to step down",
-      "url": "https://www.france24.com/en/sport/20260805-embattled-fifa-head-infantino-holds-emergency-talks-with-directors-amid-calls-to-step-down",
-      "published_at": "2026-08-05T10:07:09Z",
-      "collected_at": "2026-08-05T12:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "9e72adadfc3192ef14789d53",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1636,48 +1552,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "1ff2b737d6b033bac2e2cb60",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Edwin López Cornejo, the latest migrant to die in ICE custody: ‘I’m going to grow up without a father’",
-      "url": "https://english.elpais.com/usa/2026-08-05/edwin-lopez-cornejo-the-latest-migrant-to-die-in-ice-custody-im-going-to-grow-up-without-a-father.html",
-      "published_at": "2026-08-05T08:48:05Z",
-      "collected_at": "2026-08-05T12:00:51Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "7998a776d5fc5cf79b50b9a4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ukraine live: Zelensky says interceptors 'could have saved lives' after 17 die in missile barrage",
-      "url": "https://www.france24.com/en/europe/20260805-ukraine-live-russian-strikes-kill-at-least-15-in-kyiv-and-surrounding-region",
-      "published_at": "2026-08-05T05:24:42Z",
-      "collected_at": "2026-08-05T12:28:24Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "1f69ae0f43d7571e60d68354",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Russian barrage on Kyiv region kills at least 17",
-      "url": "https://www.france24.com/en/europe/20260805-russian-barrage-on-kyiv-region-kills-17-as-ukraine-fails-to-down-single-missile",
-      "published_at": "2026-08-05T02:11:11Z",
-      "collected_at": "2026-08-05T12:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
