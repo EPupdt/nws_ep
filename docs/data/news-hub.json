@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-07T04:30:39Z",
-  "last_successful_collection_at": "2026-08-07T04:30:39Z",
+  "generated_at": "2026-08-07T05:00:45Z",
+  "last_successful_collection_at": "2026-08-07T05:00:45Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-07T04:30:39Z"
+      "at": "2026-08-07T05:00:45Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "33",
-      "at": "2026-08-07T04:30:39Z"
+      "at": "2026-08-07T05:00:45Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-07T04:30:39Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-07T05:00:45Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-07T04:30:39Z"
+      "at": "2026-08-07T05:00:45Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-07T04:30:39Z"
+      "at": "2026-08-07T05:00:45Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-07T04:30:39Z"
+      "at": "2026-08-07T05:00:45Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-07T04:30:39Z"
+      "at": "2026-08-07T05:00:45Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-07T04:30:39Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-07T05:00:45Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-07T04:30:39Z"
+      "at": "2026-08-07T05:00:45Z"
     }
   ],
   "europe_now": [
@@ -1542,20 +1542,6 @@
       ]
     },
     {
-      "id": "2deca4587ba6719476029b1b",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Why are Commission staffers so miserable?",
-      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/why-are-commission-staffers-so-miserable",
-      "published_at": "2026-08-06T04:05:00Z",
-      "collected_at": "2026-08-06T04:30:43Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "5b37fff5abfc0c85e4a7fe7d",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1609,6 +1595,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "087efc074b9bb61cfc4314bb",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Palantir’s EU tax tricks exposed as unions demand tougher rules on public contracts",
+      "url": "https://euobserver.com/231360/palantirs-eu-tax-tricks-exposed-as-unions-demand-tougher-rules-on-public-contracts",
+      "published_at": "2026-08-05T04:00:00Z",
+      "collected_at": "2026-08-07T05:00:45Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -2256,20 +2256,6 @@
       ]
     },
     {
-      "id": "bc9f5837c69afed28fdfc630",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Hungary to shut sole nuclear plant for first time on Sunday",
-      "url": "https://www.dw.com/en/hungary-to-shut-sole-nuclear-plant-for-first-time-on-sunday/a-78205668?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-02T02:16:00Z",
-      "collected_at": "2026-08-06T04:30:43Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "6c3b7e8bb8b9ef9b4c411e2f",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2281,20 +2267,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "b688f8a35a06fa2a17cb25e7",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "How does eastern Europe commemorate the Roma Holocaust?",
-      "url": "https://www.dw.com/en/how-does-eastern-europe-commemorate-the-roma-holocaust/a-78183503?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-01T20:08:00Z",
-      "collected_at": "2026-08-06T04:30:43Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
