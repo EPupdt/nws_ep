@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-07T10:00:49Z",
-  "last_successful_collection_at": "2026-08-07T10:00:49Z",
+  "generated_at": "2026-08-07T10:30:43Z",
+  "last_successful_collection_at": "2026-08-07T10:30:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-07T10:00:49Z"
+      "at": "2026-08-07T10:30:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "33",
-      "at": "2026-08-07T10:00:49Z"
+      "at": "2026-08-07T10:30:43Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-07T10:00:49Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-07T10:30:43Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,80 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-07T10:00:49Z"
+      "at": "2026-08-07T10:30:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-07T10:00:49Z"
+      "at": "2026-08-07T10:30:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
-      "count": "61",
-      "at": "2026-08-07T10:00:49Z"
+      "count": "60",
+      "at": "2026-08-07T10:30:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-07T10:00:49Z"
+      "at": "2026-08-07T10:30:43Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-07T10:00:49Z"
+      "at": "2026-08-07T10:30:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-07T10:00:49Z"
+      "at": "2026-08-07T10:30:43Z"
     }
   ],
-  "europe_now": [],
+  "europe_now": [
+    {
+      "title": "Security Incident at German Airport",
+      "summary": "A drone carrying explosives and a bomb-disposal robot were discovered at Leipzig airport. Authorities are investigating whether Russia is involved in the incident.",
+      "article_ids": [
+        "39378f42c746bd0547661fbc"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ckgdmrxxkdxo?at_medium=RSS&at_campaign=rss",
+          "headline": "German airport drone-bomb: Could Russia be involved?",
+          "published_at": "2026-08-07T08:48:16Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Extreme Heat Impacting European Economy",
+      "summary": "Severe heatwaves are projected to cause an €800bn deficit in the European economy. Major impacts are expected in Germany, France, and Italy.",
+      "article_ids": [
+        "cfe17d0ac17d53aac1890c4c"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260807-italy-places-all-major-cities-on-red-alert-new-heatwave-grips-europe",
+          "headline": "Italy places all major cities on red alert as heatwave grips Europe",
+          "published_at": "2026-08-07T07:23:07Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
   "top_stories": [
     {
-      "title": "Protests against EU lithium mine in Portugal",
-      "summary": "Thousands of protesters plan to camp out against a proposed EU lithium mine in Portugal. The demonstrations reflect growing public opposition to large-scale mining projects.",
+      "title": "European Institutional and Border Issues",
+      "summary": "EU ministers have left several board seats vacant on the Global Gateway. Meanwhile, migration officials state the EU cannot rely on neighbors for border control.",
       "article_ids": [
-        "5921d643544bc137d2f6cadd"
+        "5921d643544bc137d2f6cadd",
+        "e40c506af657649d1af34f32"
       ],
       "sources": [
         {
@@ -76,12 +110,45 @@
           "url": "https://euobserver.com/231683/eu-ministers-leave-global-gateway-board-seats-empty-despite-transparency-complaints",
           "headline": "EU ministers leave Global Gateway board seats empty despite transparency complaints",
           "published_at": "2026-08-07T06:32:00Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-depend-neighbors-border-control-migration-magnus-brunner-eu",
+          "headline": "EU can’t depend on neighbors for border control, migration chief says",
+          "published_at": "2026-08-06T17:59:27Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
+    {
+      "label": "Trump · birthright · citizenship · orders",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-08-07T07:42:21Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-08-07/trump-signs-executive-orders-to-restrict-birthright-citizenship-despite-supreme-courts-adverse-decision.html",
+          "headline": "Trump signs executive orders to restrict birthright citizenship despite Supreme Court’s adverse decision",
+          "published_at": "2026-08-07T07:42:21Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20260806-trump-signs-order-new-bid-curb-birthright-citizenship",
+          "headline": "Trump targets 'birth tourism' in new bid to curb birthright citizenship",
+          "published_at": "2026-08-06T22:16:01Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/08/06/donald-trump-bbc-business-finances-order",
+          "headline": "Judge pauses order sending Trump financial data to BBC",
+          "published_at": "2026-08-06T15:20:46Z"
+        }
+      ]
+    },
     {
       "label": "Ceuta · border · migrants",
       "origin": "convergence",
@@ -137,43 +204,56 @@
       ]
     },
     {
-      "label": "Europe · Italy",
+      "label": "French · presidential",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-08-07T07:23:07Z",
+      "latest_at": "2026-08-07T10:05:28Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260807-italy-places-all-major-cities-on-red-alert-new-heatwave-grips-europe",
-          "headline": "Italy places all major cities on red alert as heatwave grips Europe",
-          "published_at": "2026-08-07T07:23:07Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/elon-musk-says-french-greens-marine-tondelier-shut-down",
+          "headline": "Musk says French Greens’ presidential candidate should be ‘shut down’",
+          "published_at": "2026-08-07T10:05:28Z"
         },
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/228758/extreme-heat-poses-e800bn-threat-to-eu-economies-with-germany-most-exposed",
-          "headline": "Extreme heat puts €800bn hole in Europe’s economy — as Germany, France and Italy bear the brunt",
-          "published_at": "2026-08-06T10:28:05Z"
-        }
-      ]
-    },
-    {
-      "label": "Court · France · Mauritian · rider",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-08-06T16:35:12Z",
-      "sources": [
-        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/sport/20260806-le-court-sprints-to-stage-six-tour-de-france-win",
-          "headline": "Mauritian rider Le Court sprints to stage 6 Women's Tour de France win",
-          "published_at": "2026-08-06T16:35:12Z"
+          "url": "https://www.france24.com/en/russia-ramps-up-disinformation-war-as-french-presidential-elections-draw-nearer",
+          "headline": "Russia ramps up disinformation war as French presidential elections draw nearer",
+          "published_at": "2026-08-06T13:57:55Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "2a94318b07816762da7a16aa",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Musk says French Greens’ presidential candidate should be ‘shut down’",
+      "url": "https://www.politico.eu/article/elon-musk-says-french-greens-marine-tondelier-shut-down",
+      "published_at": "2026-08-07T10:05:28Z",
+      "collected_at": "2026-08-07T10:30:43Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "b076e3548c4cffd3cbb0b0c8",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Six deported clients, a pink private jet and a mansion in Mexico: the alleged fraud that made the ‘Miracle Lawyer’ wealthy",
+      "url": "https://english.elpais.com/usa/2026-08-07/six-deported-clients-a-pink-private-jet-and-a-mansion-in-mexico-the-alleged-fraud-that-made-the-miracle-lawyer-wealthy.html",
+      "published_at": "2026-08-07T09:48:47Z",
+      "collected_at": "2026-08-07T10:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "885c5542968e1cb921c72f7a",
       "source_id": "france24",
@@ -228,6 +308,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "e5c8b391e5d07a50139fabf7",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Chavismo and the Venezuelan opposition hold first meeting under US supervision",
+      "url": "https://english.elpais.com/international/2026-08-07/chavismo-and-the-venezuelan-opposition-hold-first-meeting-under-us-supervision.html",
+      "published_at": "2026-08-07T09:31:44Z",
+      "collected_at": "2026-08-07T10:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -301,6 +395,20 @@
       ]
     },
     {
+      "id": "f4485308c358ff59af316700",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Questions over the death of Prisciliano Trejo: he got sick while in ICE custody and did not receive medical treatment",
+      "url": "https://english.elpais.com/usa/2026-08-07/questions-over-the-death-of-prisciliano-trejo-he-got-sick-while-in-ice-custody-and-did-not-receive-medical-treatment.html",
+      "published_at": "2026-08-07T08:24:13Z",
+      "collected_at": "2026-08-07T10:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "5ef4d916b5bf960287a5f35c",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -354,6 +462,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "a179b6f90241208fd53f04ae",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trump signs executive orders to restrict birthright citizenship despite Supreme Court’s adverse decision",
+      "url": "https://english.elpais.com/usa/2026-08-07/trump-signs-executive-orders-to-restrict-birthright-citizenship-despite-supreme-courts-adverse-decision.html",
+      "published_at": "2026-08-07T07:42:21Z",
+      "collected_at": "2026-08-07T10:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -1432,76 +1554,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "fa759897350f409f439eb9a7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France bans unsolicited telemarketing calls to protect consumers",
-      "url": "https://www.france24.com/en/france/20260806-france-bans-unsolicited-telemarketing-calls-protect-consumers",
-      "published_at": "2026-08-06T10:20:46Z",
-      "collected_at": "2026-08-06T10:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "419ca5b6bf9b558d36e25fc5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "WHO calls for 'intensified' response as DR Congo Ebola cases near 4,000",
-      "url": "https://www.france24.com/en/video/20260806-who-calls-for-intensified-response-as-dr-congo-ebola-cases-near-4-000",
-      "published_at": "2026-08-06T10:19:23Z",
-      "collected_at": "2026-08-06T10:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e06afc86854775ed490e3a04",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Leftist Democrat urges unity after defeating establishment candidate in Michigan primary",
-      "url": "https://www.france24.com/en/leftist-democrat-urges-unity-after-defeating-establishment-candidate-in-michigan-primary",
-      "published_at": "2026-08-06T10:16:48Z",
-      "collected_at": "2026-08-06T10:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "48a7dd063cd31a669697f114",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France's timber industry rushes to process trees charred by wildfires",
-      "url": "https://www.france24.com/en/france-s-timber-industry-rushes-to-process-trees-charred-by-wildfires",
-      "published_at": "2026-08-06T10:05:55Z",
-      "collected_at": "2026-08-06T10:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "9f23d6f3da4083831ce096b1",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France's DZ mafia suspected founder captured in Algeria",
-      "url": "https://www.france24.com/en/france-s-dz-mafia-suspected-founder-captured-in-algeria",
-      "published_at": "2026-08-06T10:00:35Z",
-      "collected_at": "2026-08-06T10:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
