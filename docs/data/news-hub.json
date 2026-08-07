@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-07T06:30:41Z",
-  "last_successful_collection_at": "2026-08-07T06:30:41Z",
+  "generated_at": "2026-08-07T07:00:48Z",
+  "last_successful_collection_at": "2026-08-07T07:00:48Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-07T06:30:41Z"
+      "at": "2026-08-07T07:00:48Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "33",
-      "at": "2026-08-07T06:30:41Z"
+      "at": "2026-08-07T07:00:48Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-07T06:30:41Z"
+      "at": "2026-08-07T07:00:48Z"
     },
     {
       "id": "euractiv",
@@ -29,71 +29,53 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-07T06:30:41Z"
+      "at": "2026-08-07T07:00:48Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-07T06:30:41Z"
+      "at": "2026-08-07T07:00:48Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-07T06:30:41Z"
+      "at": "2026-08-07T07:00:48Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-07T06:30:41Z"
+      "at": "2026-08-07T07:00:48Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-07T06:30:41Z"
+      "at": "2026-08-07T07:00:48Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-07T06:30:41Z"
+      "at": "2026-08-07T07:00:48Z"
     }
   ],
-  "europe_now": [
-    {
-      "title": "Ukraine Strikes Russian Refineries",
-      "summary": "Ukrainian forces have targeted two oil refineries located deep within Russian territory. These strikes represent an escalation in the ongoing military conflict.",
-      "article_ids": [
-        "7cb99879c89c2a17ea362fe0"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cwymv212xrxo?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukraine hits two oil refineries deep in Russian territory",
-          "published_at": "2026-08-06T15:41:05Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
+  "europe_now": [],
   "top_stories": [
     {
-      "title": "Climate Crisis and the Danube River",
-      "summary": "The Danube River is experiencing significant drying due to ongoing drought conditions. This environmental shift highlights the growing impact of the climate crisis in the region.",
+      "title": "EU Global Gateway Board Seats Vacated",
+      "summary": "EU ministers have vacated positions on the Global Gateway board despite transparency complaints, according to EUobserver. This decision follows ongoing discussions about the initiative's transparency and effectiveness.",
       "article_ids": [
-        "ad725ad4acaeca249102f72",
-        "2b05b618183cffd2cf82ca72"
+        "5921d643544bc137d2f6cadd"
       ],
       "sources": [
         {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/climate/2026-08-06/a-drone-view-of-the-droughts-impact-on-the-danube-river.html",
-          "headline": "A drone view of the drought’s impact on the Danube River",
-          "published_at": "2026-08-06T14:53:25Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/231683/eu-ministers-leave-global-gateway-board-seats-empty-despite-transparency-complaints",
+          "headline": "EU ministers leave Global Gateway board seats empty despite transparency complaints",
+          "published_at": "2026-08-07T06:32:00Z"
         }
       ],
       "source_count": 1
@@ -124,6 +106,33 @@
           "url": "https://english.elpais.com/international/2026-08-06/neighborhood-patrols-encourage-outbreaks-of-violence-against-migrants-in-ceuta.html",
           "headline": "Neighborhood patrols encourage outbreaks of violence against migrants in Ceuta",
           "published_at": "2026-08-06T10:40:25Z"
+        }
+      ]
+    },
+    {
+      "label": "Russian · Ukraine · deep · refineries",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-08-06T15:41:05Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cwymv212xrxo?at_medium=RSS&at_campaign=rss",
+          "headline": "Ukraine hits two oil refineries deep in Russian territory",
+          "published_at": "2026-08-06T15:41:05Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/231628/russian-starlink-creates-first-coverage-windows-over-ukraine-raising-concerns-about-future-drone-command-and-control-ukraine-battlefield-update-day-1624",
+          "headline": "Russian ‘Starlink’ creates first coverage windows over Ukraine, raising concerns about future drone command and control (Ukraine Battlefield update, Day 1,624)",
+          "published_at": "2026-08-06T14:33:57Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ukraine-strikes-russian-refineries-deep-into-the-country",
+          "headline": "Ukraine strikes Russian refineries deep into the country",
+          "published_at": "2026-08-06T14:18:33Z"
         }
       ]
     },
@@ -168,30 +177,23 @@
           "published_at": "2026-08-06T08:59:06Z"
         }
       ]
-    },
-    {
-      "label": "deal · Hormuz · Iran · Oman",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-06T10:55:56Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/strait-of-hormuz-deal-oman-final-stage-iran",
-          "headline": "Hormuz deal with Oman in final stage, says Iran",
-          "published_at": "2026-08-06T10:55:56Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/iran-and-oman-close-to-deal-on-hormuz-but-not-with-the-us",
-          "headline": "Iran and Oman 'close to deal' on Hormuz... but not with the US",
-          "published_at": "2026-08-06T09:02:34Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "5921d643544bc137d2f6cadd",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "EU ministers leave Global Gateway board seats empty despite transparency complaints",
+      "url": "https://euobserver.com/231683/eu-ministers-leave-global-gateway-board-seats-empty-despite-transparency-complaints",
+      "published_at": "2026-08-07T06:32:00Z",
+      "collected_at": "2026-08-07T07:00:48Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "9c69d145296b6158fe98ca28",
       "source_id": "france24",
