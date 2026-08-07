@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-07T06:00:43Z",
-  "last_successful_collection_at": "2026-08-07T06:00:43Z",
+  "generated_at": "2026-08-07T06:30:41Z",
+  "last_successful_collection_at": "2026-08-07T06:30:41Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-07T06:00:43Z"
+      "at": "2026-08-07T06:30:41Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "33",
-      "at": "2026-08-07T06:00:43Z"
+      "at": "2026-08-07T06:30:41Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-07T06:00:43Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-07T06:30:41Z"
     },
     {
       "id": "euractiv",
@@ -29,53 +29,52 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-07T06:00:43Z"
+      "at": "2026-08-07T06:30:41Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-07T06:00:43Z"
+      "at": "2026-08-07T06:30:41Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-07T06:00:43Z"
+      "at": "2026-08-07T06:30:41Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-07T06:00:43Z"
+      "at": "2026-08-07T06:30:41Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-07T06:00:43Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-07T06:30:41Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-07T06:00:43Z"
+      "at": "2026-08-07T06:30:41Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Bomb-disposal robot and drone with explosives discovered at Germany's Leipzig airport",
-      "summary": "A bomb-disposal robot and drone carrying explosives were found at Germany's Leipzig airport, raising security concerns. The incident highlights ongoing security threats in Europe amid heightened tensions.",
+      "title": "Ukraine Strikes Russian Refineries",
+      "summary": "Ukrainian forces have targeted two oil refineries located deep within Russian territory. These strikes represent an escalation in the ongoing military conflict.",
       "article_ids": [
-        "536783cb515e705473ba1c5b",
-        "7c0876a2cc301d7a70bd5aa8"
+        "7cb99879c89c2a17ea362fe0"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/friedrich-merz-chancellor-swap-cdu-afd-germany-political-crisis",
-          "headline": "Germany’s hot topic this summer: A chancellor swap",
-          "published_at": "2026-08-07T02:00:00Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cwymv212xrxo?at_medium=RSS&at_campaign=rss",
+          "headline": "Ukraine hits two oil refineries deep in Russian territory",
+          "published_at": "2026-08-06T15:41:05Z"
         }
       ],
       "source_count": 1
@@ -83,51 +82,24 @@
   ],
   "top_stories": [
     {
-      "title": "Security threats in Europe",
-      "summary": "A bomb-disposal robot and drone carrying explosives were found at Germany's Leipzig airport, raising security concerns. The incident highlights ongoing security threats in Europe amid heightened tensions.",
+      "title": "Climate Crisis and the Danube River",
+      "summary": "The Danube River is experiencing significant drying due to ongoing drought conditions. This environmental shift highlights the growing impact of the climate crisis in the region.",
       "article_ids": [
-        "536783cb515e705473ba1c5b",
-        "7c0876a2cc301d7a70bd5aa8"
+        "ad725ad4acaeca249102f72",
+        "2b05b618183cffd2cf82ca72"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/friedrich-merz-chancellor-swap-cdu-afd-germany-political-crisis",
-          "headline": "Germany’s hot topic this summer: A chancellor swap",
-          "published_at": "2026-08-07T02:00:00Z"
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/climate/2026-08-06/a-drone-view-of-the-droughts-impact-on-the-danube-river.html",
+          "headline": "A drone view of the drought’s impact on the Danube River",
+          "published_at": "2026-08-06T14:53:25Z"
         }
       ],
       "source_count": 1
     }
   ],
   "developing": [
-    {
-      "label": "Russian · Ukraine · deep · refineries",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 4,
-      "latest_at": "2026-08-06T15:41:05Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cwymv212xrxo?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukraine hits two oil refineries deep in Russian territory",
-          "published_at": "2026-08-06T15:41:05Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/231628/russian-starlink-creates-first-coverage-windows-over-ukraine-raising-concerns-about-future-drone-command-and-control-ukraine-battlefield-update-day-1624",
-          "headline": "Russian ‘Starlink’ creates first coverage windows over Ukraine, raising concerns about future drone command and control (Ukraine Battlefield update, Day 1,624)",
-          "published_at": "2026-08-06T14:33:57Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ukraine-strikes-russian-refineries-deep-into-the-country",
-          "headline": "Ukraine strikes Russian refineries deep into the country",
-          "published_at": "2026-08-06T14:18:33Z"
-        }
-      ]
-    },
     {
       "label": "Ceuta · border · migrants",
       "origin": "convergence",
@@ -196,9 +168,58 @@
           "published_at": "2026-08-06T08:59:06Z"
         }
       ]
+    },
+    {
+      "label": "deal · Hormuz · Iran · Oman",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-06T10:55:56Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/strait-of-hormuz-deal-oman-final-stage-iran",
+          "headline": "Hormuz deal with Oman in final stage, says Iran",
+          "published_at": "2026-08-06T10:55:56Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/iran-and-oman-close-to-deal-on-hormuz-but-not-with-the-us",
+          "headline": "Iran and Oman 'close to deal' on Hormuz... but not with the US",
+          "published_at": "2026-08-06T09:02:34Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "9c69d145296b6158fe98ca28",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Teachers, students killed in Thai school shooting near Bangkok",
+      "url": "https://www.france24.com/en/asia-pacific/20260807-teachers-students-killed-thai-school-shooting-near-bangkok",
+      "published_at": "2026-08-07T06:21:39Z",
+      "collected_at": "2026-08-07T06:30:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "5747b2bd92688fe825950e1e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Yan Diomandé makes history with Real Madrid move",
+      "url": "https://www.france24.com/en/tv-shows/sports/20260807-yan-diomand%C3%A9-makes-history-with-real-madrid-move",
+      "published_at": "2026-08-07T05:25:50Z",
+      "collected_at": "2026-08-07T06:30:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "16cfdf95b5556495a1fe30a5",
       "source_id": "ecfr",
@@ -1516,34 +1537,6 @@
       ]
     },
     {
-      "id": "00cbd7b0dda8450445f23a75",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Russian strikes target Ukraine's Kharkiv and Sumy regions, killing at least six",
-      "url": "https://www.france24.com/en/europe/20260806-at-least-six-killed-russian-strikes-ukraine-officials-say",
-      "published_at": "2026-08-06T06:14:50Z",
-      "collected_at": "2026-08-06T06:30:39Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "fde2f92fc5b325341a76940f",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "What's behind the Algeria-Morocco rivalry?",
-      "url": "https://www.dw.com/en/what-s-behind-the-algeria-morocco-rivalry/a-78258062?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-06T05:10:00Z",
-      "collected_at": "2026-08-06T06:00:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "c5d75a793461299b0cc1f908",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1554,20 +1547,6 @@
       "topics": [
         "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "cd2b634014e9a7cac3a51f5c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Middle East live: Oil tanker reports 'two explosions' in Strait of Hormuz",
-      "url": "https://www.france24.com/en/middle-east/20260806-middle-east-live-israeli-military-says-two-soldiers-killed-in-southern-lebanon",
-      "published_at": "2026-08-06T03:48:53Z",
-      "collected_at": "2026-08-06T06:00:47Z",
-      "topics": [
-        "politics",
-        "security",
         "society"
       ]
     },
@@ -1611,20 +1590,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "7cd01bd64823ddffc04f57e0",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Italy: Garbage workers help woman find €1 million jackpot",
-      "url": "https://www.dw.com/en/italy-garbage-workers-help-woman-find-€1-million-jackpot/a-78237944?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-04T19:33:00Z",
-      "collected_at": "2026-08-06T06:30:39Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
@@ -2339,20 +2304,6 @@
         "central_europe",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "fb788af8b239d1f7cecb3b40",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Defining modernity in South-East Asia",
-      "url": "https://ecfr.eu/podcasts/episode/defining-modernity-in-south-east-asia",
-      "published_at": "2026-07-31T05:00:00Z",
-      "collected_at": "2026-08-06T06:30:39Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
       ]
     },
     {
