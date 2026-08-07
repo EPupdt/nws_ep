@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-07T09:00:46Z",
-  "last_successful_collection_at": "2026-08-07T09:00:46Z",
+  "generated_at": "2026-08-07T09:30:45Z",
+  "last_successful_collection_at": "2026-08-07T09:30:45Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-07T09:00:46Z"
+      "at": "2026-08-07T09:30:45Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "33",
-      "at": "2026-08-07T09:00:46Z"
+      "at": "2026-08-07T09:30:45Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-07T09:00:46Z"
+      "at": "2026-08-07T09:30:45Z"
     },
     {
       "id": "euractiv",
@@ -29,58 +29,76 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-07T09:00:46Z"
+      "at": "2026-08-07T09:30:45Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-07T09:00:46Z"
+      "at": "2026-08-07T09:30:45Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-07T09:00:46Z"
+      "at": "2026-08-07T09:30:45Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-07T09:00:46Z"
+      "at": "2026-08-07T09:30:45Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-07T09:00:46Z"
+      "at": "2026-08-07T09:30:45Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-07T09:00:46Z"
+      "at": "2026-08-07T09:30:45Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ukraine conflict escalation",
-      "summary": "Ukraine has struck Russian refineries deep inside Russian territory, marking a significant escalation in the conflict. The attacks target critical energy infrastructure amid ongoing hostilities.",
+      "title": "Italy places all major cities on red alert as heatwave grips Europe",
+      "summary": "Italy has issued red alerts for all major cities due to an intense heatwave affecting much of Europe. The alert reflects growing concerns over public health and infrastructure strain from extreme temperatures.",
       "article_ids": [
-        "7cb99879c89c2a17ea362fe0"
+        "cfe17d0ac17d53aac1890c4c"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cwymv212xrxo?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukraine hits two oil refineries deep in Russian territory",
-          "published_at": "2026-08-06T15:41:05Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260807-italy-places-all-major-cities-on-red-alert-new-heatwave-grips-europe",
+          "headline": "Italy places all major cities on red alert as heatwave grips Europe",
+          "published_at": "2026-08-07T07:23:07Z"
         }
       ],
       "source_count": 1
     }
   ],
-  "top_stories": [],
+  "top_stories": [
+    {
+      "title": "Extreme heat puts €800bn hole in Europe’s economy",
+      "summary": "A severe heatwave is causing an estimated €800 billion in economic losses across Europe, with Germany, France and Italy experiencing the most significant impacts. The economic toll stems from reduced labor productivity, energy strain and agricultural losses.",
+      "article_ids": [
+        "cfe17d0ac17d53aac1890c4c",
+        "40b3ed386996531ff82a1b2d"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260807-italy-places-all-major-cities-on-red-alert-new-heatwave-grips-europe",
+          "headline": "Italy places all major cities on red alert as heatwave grips Europe",
+          "published_at": "2026-08-07T07:23:07Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
   "developing": [
     {
       "label": "Ceuta · border · migrants",
@@ -110,23 +128,50 @@
       ]
     },
     {
-      "label": "Europe · Italy",
+      "label": "Russian · Ukraine · deep · refineries",
       "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-07T07:23:07Z",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-08-06T15:41:05Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260807-italy-places-all-major-cities-on-red-alert-new-heatwave-grips-europe",
-          "headline": "Italy places all major cities on red alert as heatwave grips Europe",
-          "published_at": "2026-08-07T07:23:07Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cwymv212xrxo?at_medium=RSS&at_campaign=rss",
+          "headline": "Ukraine hits two oil refineries deep in Russian territory",
+          "published_at": "2026-08-06T15:41:05Z"
         },
         {
           "publisher": "EUobserver",
-          "url": "https://euobserver.com/228758/extreme-heat-poses-e800bn-threat-to-eu-economies-with-germany-most-exposed",
-          "headline": "Extreme heat puts €800bn hole in Europe’s economy — as Germany, France and Italy bear the brunt",
-          "published_at": "2026-08-06T10:28:05Z"
+          "url": "https://euobserver.com/231628/russian-starlink-creates-first-coverage-windows-over-ukraine-raising-concerns-about-future-drone-command-and-control-ukraine-battlefield-update-day-1624",
+          "headline": "Russian ‘Starlink’ creates first coverage windows over Ukraine, raising concerns about future drone command and control (Ukraine Battlefield update, Day 1,624)",
+          "published_at": "2026-08-06T14:33:57Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ukraine-strikes-russian-refineries-deep-into-the-country",
+          "headline": "Ukraine strikes Russian refineries deep into the country",
+          "published_at": "2026-08-06T14:18:33Z"
+        }
+      ]
+    },
+    {
+      "label": "drone · German",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-07T08:48:16Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ckgdmrxxkdxo?at_medium=RSS&at_campaign=rss",
+          "headline": "German airport drone-bomb: Could Russia be involved?",
+          "published_at": "2026-08-07T08:48:16Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/germany-drone-ukraine-alexander-dobrindt-interior-minister-state-actor-attack",
+          "headline": "German interior minister suggests state actor behind drone attack",
+          "published_at": "2026-08-06T09:43:34Z"
         }
       ]
     },
@@ -148,27 +193,6 @@
           "url": "https://www.politico.eu/article/gabriel-attal-french-presidential-candidates-targeted-by-russian-interference",
           "headline": "Former PM joins list of French presidential candidates reportedly targeted by Russian interference",
           "published_at": "2026-08-06T09:34:58Z"
-        }
-      ]
-    },
-    {
-      "label": "deal · Hormuz · Iran · Oman",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-06T10:55:56Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/strait-of-hormuz-deal-oman-final-stage-iran",
-          "headline": "Hormuz deal with Oman in final stage, says Iran",
-          "published_at": "2026-08-06T10:55:56Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/iran-and-oman-close-to-deal-on-hormuz-but-not-with-the-us",
-          "headline": "Iran and Oman 'close to deal' on Hormuz... but not with the US",
-          "published_at": "2026-08-06T09:02:34Z"
         }
       ]
     }
@@ -198,6 +222,20 @@
       "collected_at": "2026-08-07T09:00:46Z",
       "topics": [
         "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "39378f42c746bd0547661fbc",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "German airport drone-bomb: Could Russia be involved?",
+      "url": "https://www.bbc.co.uk/news/articles/ckgdmrxxkdxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-07T08:48:16Z",
+      "collected_at": "2026-08-07T09:30:45Z",
+      "topics": [
+        "breaking",
         "politics",
         "society"
       ]
@@ -504,6 +542,20 @@
       "url": "https://www.france24.com/en/middle-east/20260806-damascus-bus-explosion-kills-two",
       "published_at": "2026-08-06T21:54:18Z",
       "collected_at": "2026-08-07T03:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "9a22e412b00dd66f19dd41ff",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Minibus explosion in Damascus suburb wounds 14 people",
+      "url": "https://www.france24.com/en/middle-east/20260806-damascus-bus-explosion-kills-two",
+      "published_at": "2026-08-06T21:54:18Z",
+      "collected_at": "2026-08-07T09:30:45Z",
       "topics": [
         "politics",
         "security",
@@ -1589,34 +1641,6 @@
       ]
     },
     {
-      "id": "cf15c0dfa5aaa15d9a15fbb1",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Russian forces are now 20km away from Ukrainian city of Kramatorsk",
-      "url": "https://www.france24.com/en/russian-forces-are-now-20km-away-from-ukrainian-city-of-kramatorsk",
-      "published_at": "2026-08-06T08:47:41Z",
-      "collected_at": "2026-08-06T09:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "779bf5986d472377984918fb",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "DR Congo’s Ebola outbreak outpaces response as health workers strike over pay",
-      "url": "https://www.france24.com/en/africa/20260806-dr-congo-ebola-outbreak-outpaces-response-efforts-health-workers-strike-pay",
-      "published_at": "2026-08-06T08:43:52Z",
-      "collected_at": "2026-08-06T09:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "e2e860a513bf777565a0a868",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1656,6 +1680,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "a9d2afa2161a52f58c1ef0f4",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "EU commends Spain's 'swift response' to Ceuta migrant crisis",
+      "url": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-04T21:45:20Z",
+      "collected_at": "2026-08-07T09:30:45Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -1736,6 +1774,20 @@
       "url": "https://www.bbc.co.uk/news/articles/cn4n03xg981o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-04T17:26:06Z",
       "collected_at": "2026-08-07T03:30:40Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "72e5e624d5e0b95a1c721f2c",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Bono, Eddie Vedder and Hozier among mourners at Glen Hansard's funeral",
+      "url": "https://www.bbc.co.uk/news/articles/crk5lmglkdno?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-04T17:01:19Z",
+      "collected_at": "2026-08-07T09:30:45Z",
       "topics": [
         "breaking",
         "politics",
