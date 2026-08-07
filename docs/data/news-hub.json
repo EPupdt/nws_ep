@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-07T08:00:48Z",
-  "last_successful_collection_at": "2026-08-07T08:00:48Z",
+  "generated_at": "2026-08-07T08:30:35Z",
+  "last_successful_collection_at": "2026-08-07T08:30:35Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-07T08:00:48Z"
+      "at": "2026-08-07T08:30:35Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "33",
-      "at": "2026-08-07T08:00:48Z"
+      "at": "2026-08-07T08:30:35Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-07T08:00:48Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-07T08:30:35Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-07T08:00:48Z"
+      "at": "2026-08-07T08:30:35Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-07T08:00:48Z"
+      "at": "2026-08-07T08:30:35Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-08-07T08:00:48Z"
+      "at": "2026-08-07T08:30:35Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-07T08:00:48Z"
+      "at": "2026-08-07T08:30:35Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-07T08:00:48Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-07T08:30:35Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-07T08:00:48Z"
+      "at": "2026-08-07T08:30:35Z"
     }
   ],
   "europe_now": [
@@ -227,6 +227,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "5ef4d916b5bf960287a5f35c",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "10 EUobserver investigations from 2026 so far you shouldn’t miss",
+      "url": "https://euobserver.com/231715/10-euobserver-investigations-from-2026-so-far-you-shouldnt-miss",
+      "published_at": "2026-08-07T08:19:33Z",
+      "collected_at": "2026-08-07T08:30:35Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "cfe17d0ac17d53aac1890c4c",
       "source_id": "france24",
@@ -1614,20 +1628,6 @@
       ]
     },
     {
-      "id": "32597a85dc7c5a9c2115257e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "UN warns drone strikes worsening in Sudan",
-      "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260805-un-warns-drone-strikes-worsen-in-sudan",
-      "published_at": "2026-08-05T20:39:15Z",
-      "collected_at": "2026-08-06T08:01:00Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "087efc074b9bb61cfc4314bb",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -2146,20 +2146,6 @@
       ]
     },
     {
-      "id": "31f938d1595caa4be5635efe",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "On the front line of Europe's battle against wildfires",
-      "url": "https://www.dw.com/en/on-the-front-line-of-europe-s-battle-against-wildfires/a-78204324?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-02T06:57:00Z",
-      "collected_at": "2026-08-06T08:01:00Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "6c3b7e8bb8b9ef9b4c411e2f",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2325,20 +2311,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "de6d1b5a3ddb6fe40e2072b9",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland to deport foreigner who performed Nazi salute at Auschwitz Museum",
-      "url": "https://notesfrompoland.com/2026/07/31/poland-to-deport-foreigner-who-performed-nazi-salute-at-auschwitz-museum",
-      "published_at": "2026-07-31T06:51:41Z",
-      "collected_at": "2026-08-06T08:01:00Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
       ]
     },
     {
