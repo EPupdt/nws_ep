@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-08T07:30:48Z",
-  "last_successful_collection_at": "2026-08-08T07:30:48Z",
+  "generated_at": "2026-08-08T08:00:48Z",
+  "last_successful_collection_at": "2026-08-08T08:00:48Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-08T07:30:48Z"
+      "at": "2026-08-08T08:00:48Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "37",
-      "at": "2026-08-08T07:30:48Z"
+      "at": "2026-08-08T08:00:48Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-08T07:30:48Z"
+      "at": "2026-08-08T08:00:48Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-08T07:30:48Z"
+      "at": "2026-08-08T08:00:48Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-08T07:30:48Z"
+      "at": "2026-08-08T08:00:48Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-08T07:30:48Z"
+      "at": "2026-08-08T08:00:48Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-08T07:30:48Z"
+      "at": "2026-08-08T08:00:48Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-08T07:30:48Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-08T08:00:48Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-08T07:30:48Z"
+      "at": "2026-08-08T08:00:48Z"
     }
   ],
   "europe_now": [
@@ -241,28 +241,50 @@
       ]
     },
     {
-      "label": "EU · latest",
-      "origin": "convergence",
-      "source_count": 2,
+      "label": "Russia · sanctions",
+      "origin": "radar",
+      "source_count": 1,
       "item_count": 2,
-      "latest_at": "2026-08-07T14:26:01Z",
+      "latest_at": "2026-08-08T07:36:49Z",
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/231767/france-becomes-latest-to-back-assisted-dying-as-patchwork-of-laws-emerges-across-eu",
-          "headline": "France becomes latest to back assisted dying as patchwork of laws emerges across EU",
-          "published_at": "2026-08-07T14:26:01Z"
-        },
-        {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-sanctions-russia-attacks-ukraine",
-          "headline": "EU adds 5 people to Russia sanctions list after latest deadly attacks on Ukraine",
-          "published_at": "2026-08-07T13:23:10Z"
+          "url": "https://www.politico.com/news/2026/08/07/senate-passes-russia-sanctions-bill-01029073",
+          "headline": "US Senate passes Russia sanctions bill",
+          "published_at": "2026-08-08T07:36:49Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "2fa6e693d0420be921c52f7a",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "US Senate passes Russia sanctions bill",
+      "url": "https://www.politico.com/news/2026/08/07/senate-passes-russia-sanctions-bill-01029073",
+      "published_at": "2026-08-08T07:36:49Z",
+      "collected_at": "2026-08-08T08:00:48Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "206c038bbb065fd08db527c7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "From Tehran’s walls to the world: Iran’s visual propaganda as an art of war (2/2)",
+      "url": "https://www.france24.com/en/middle-east/20260808-from-tehran-s-walls-to-the-world-iran-s-visual-propaganda-as-an-art-of-war-2-2",
+      "published_at": "2026-08-08T07:36:03Z",
+      "collected_at": "2026-08-08T08:00:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "34be28a1ecf120d4147102f9",
       "source_id": "france24",
