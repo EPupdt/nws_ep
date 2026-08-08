@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-08T05:30:36Z",
-  "last_successful_collection_at": "2026-08-08T05:30:36Z",
+  "generated_at": "2026-08-08T06:00:45Z",
+  "last_successful_collection_at": "2026-08-08T06:00:45Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-08T05:30:36Z"
+      "at": "2026-08-08T06:00:45Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "37",
-      "at": "2026-08-08T05:30:36Z"
+      "at": "2026-08-08T06:00:45Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-08T05:30:36Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-08T06:00:45Z"
     },
     {
       "id": "euractiv",
@@ -29,44 +29,48 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-08T05:30:36Z"
+      "at": "2026-08-08T06:00:45Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-08T05:30:36Z"
+      "at": "2026-08-08T06:00:45Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-08T05:30:36Z"
+      "at": "2026-08-08T06:00:45Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-08T05:30:36Z"
+      "at": "2026-08-08T06:00:45Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-08T05:30:36Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-08T06:00:45Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-08T05:30:36Z"
+      "at": "2026-08-08T06:00:45Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ceuta border tensions between Spain and Italy",
-      "summary": "Spain imposed border controls on travelers from Italy amid a migrant row over Ceuta, escalating tensions between the two EU nations. The measures reflect a broader dispute over migration management and border enforcement policies.",
+      "title": "Spain imposes border controls on travelers from Italy",
+      "summary": "Spain has established border checks for travelers arriving from Italy. This action follows escalating tensions regarding a migrant influx in Ceuta.",
       "article_ids": [
+        "b805e67ca4d3ecafcd83837b",
+        "c69c922546da5b57023adebb",
+        "8d3badc6ec98168ab496a20d",
+        "dc5bb366764fc112ea67e354",
         "b805e67ca4d3ecafcd83837b"
       ],
       "sources": [
@@ -75,30 +79,65 @@
           "url": "https://www.dw.com/en/ceuta-spain-sets-up-border-controls-on-travelers-from-italy/a-78282840?maca=en-rss-en-eu-2092-rdf",
           "headline": "Ceuta: Spain sets up border controls on travelers from Italy",
           "published_at": "2026-08-08T01:24:00Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
+          "headline": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+          "published_at": "2026-08-07T22:13:55Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "Ceuta border crisis",
-      "summary": "Spain has implemented border checks on Italy due to a migrant influx at Ceuta, intensifying diplomatic friction between the two countries. The situation highlights challenges in managing cross-border migration within the EU.",
+      "title": "Climate Change Impacts on European Viticulture",
+      "summary": "Winemakers across Europe are facing significant challenges due to the climate crisis. These environmental shifts are impacting the industry's operations.",
       "article_ids": [
-        "b805e67ca4d3ecafcd83837b"
+        "04834ee19765d87ef350a49a",
+        "04834ee19765d87ef350a49a",
+        "04834ee19765d87ef350a49a"
       ],
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ceuta-spain-sets-up-border-controls-on-travelers-from-italy/a-78282840?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Ceuta: Spain sets up border controls on travelers from Italy",
-          "published_at": "2026-08-08T01:24:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260807-winemakers-across-europe-face-the-challenges-of-climate-change",
+          "headline": "Winemakers across Europe face the challenges of climate change",
+          "published_at": "2026-08-07T18:52:50Z"
         }
       ],
       "source_count": 1
     }
   ],
   "developing": [
+    {
+      "label": "Trump · US · Court · halts",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 4,
+      "latest_at": "2026-08-07T16:06:55Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20260807-us-appeals-court-halts-construction-of-trump-400-million-white-house-ballroom-project",
+          "headline": "US appeals court halts construction of Trump’s $400 million White House ballroom project",
+          "published_at": "2026-08-07T16:06:55Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump administration to pay German firm $1.2bn to halt US wind projects",
+          "published_at": "2026-08-07T13:32:41Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-08-07/trump-signs-executive-orders-to-restrict-birthright-citizenship-despite-supreme-courts-adverse-decision.html",
+          "headline": "Trump signs executive orders to restrict birthright citizenship despite Supreme Court’s adverse decision",
+          "published_at": "2026-08-07T07:42:21Z"
+        }
+      ]
+    },
     {
       "label": "Russia · Ukraine",
       "origin": "convergence",
@@ -123,33 +162,6 @@
           "url": "https://www.politico.eu/article/eu-sanctions-russia-attacks-ukraine",
           "headline": "EU adds 5 people to Russia sanctions list after latest deadly attacks on Ukraine",
           "published_at": "2026-08-07T13:23:10Z"
-        }
-      ]
-    },
-    {
-      "label": "Trump · Court · halts · project",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-08-07T16:06:55Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20260807-us-appeals-court-halts-construction-of-trump-400-million-white-house-ballroom-project",
-          "headline": "US appeals court halts construction of Trump’s $400 million White House ballroom project",
-          "published_at": "2026-08-07T16:06:55Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump administration to pay German firm $1.2bn to halt US wind projects",
-          "published_at": "2026-08-07T13:32:41Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-08-07/trump-signs-executive-orders-to-restrict-birthright-citizenship-despite-supreme-courts-adverse-decision.html",
-          "headline": "Trump signs executive orders to restrict birthright citizenship despite Supreme Court’s adverse decision",
-          "published_at": "2026-08-07T07:42:21Z"
         }
       ]
     },
@@ -814,6 +826,20 @@
       ]
     },
     {
+      "id": "776b3b7ba407799b1f83ef6b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US pledges $1 billion security aid to Colombia as Trump-endorsed president takes office",
+      "url": "https://www.france24.com/en/americas/20260807-us-announces-1-billion-in-security-aid-to-colombia-as-trump-endorsed-president-takes-office",
+      "published_at": "2026-08-07T14:43:12Z",
+      "collected_at": "2026-08-08T06:00:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "0cd79225936e2505faae1254",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1458,20 +1484,6 @@
       ]
     },
     {
-      "id": "16cfdf95b5556495a1fe30a5",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Latin America’s new imaginaries",
-      "url": "https://ecfr.eu/podcasts/episode/latin-americas-new-imaginaries",
-      "published_at": "2026-08-07T05:00:00Z",
-      "collected_at": "2026-08-07T05:30:39Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
       "id": "8a3a7a0c108e707203cc2e45",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1577,20 +1589,6 @@
       "url": "https://www.dw.com/en/drought-threatens-power-supplies-in-danube-countries/a-78269916?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-08-06T19:55:00Z",
       "collected_at": "2026-08-07T11:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "4d38224077f17a9d5a4223c7",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "The Mata Hari affair: Courtesan, spy, legend",
-      "url": "https://www.dw.com/en/the-mata-hari-affair-courtesan-spy-legend/a-78263857?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-06T14:35:00Z",
-      "collected_at": "2026-08-07T06:00:43Z",
       "topics": [
         "politics",
         "society",
@@ -2046,6 +2044,48 @@
       ]
     },
     {
+      "id": "3cb73c0c6d21da0b3fe54f27",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "La Fortuna, Costa Rica: Where the community takes its share of the tourism industry",
+      "url": "https://english.elpais.com/international/2026-08-02/la-fortuna-costa-rica-where-the-community-takes-its-share-of-the-tourism-industry.html",
+      "published_at": "2026-08-02T04:00:00Z",
+      "collected_at": "2026-08-08T06:00:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "bce51e107bd93f600d0cea24",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Martín Rodrigo Alharilla, historian: ‘The best-known slaveholding families in Catalonia are only the tip of the iceberg’",
+      "url": "https://english.elpais.com/international/2026-08-02/martin-rodrigo-alharilla-historian-the-best-known-slaveholding-families-in-catalonia-are-only-the-tip-of-the-iceberg.html",
+      "published_at": "2026-08-02T04:00:00Z",
+      "collected_at": "2026-08-08T06:00:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "252a4074eed41db3092ce0a8",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Daniel Ortega establishes Latin America’s last dictatorship in Nicaragua",
+      "url": "https://english.elpais.com/international/2026-08-02/daniel-ortega-establishes-latin-americas-last-dictatorship-in-nicaragua.html",
+      "published_at": "2026-08-02T04:00:00Z",
+      "collected_at": "2026-08-08T06:00:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "bc9f5837c69afed28fdfc630",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2099,34 +2139,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "29c002efea9aef3e512d501a",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Hannah Einbinder: ‘Others being cowardly doesn’t mean I’m brave. The people of Gaza are brave’",
-      "url": "https://english.elpais.com/culture/2026-08-01/hannah-einbinder-others-being-cowardly-doesnt-mean-im-brave-the-people-of-gaza-are-brave.html",
-      "published_at": "2026-08-01T04:00:00Z",
-      "collected_at": "2026-08-07T05:30:39Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "b1e61045e54a10317095888e",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Eva Millet, writer: ‘The constant pursuit of perfection is a recipe for guilt, frustration and unhappiness’",
-      "url": "https://english.elpais.com/lifestyle/2026-08-01/eva-millet-writer-the-constant-pursuit-of-perfection-is-a-recipe-for-guilt-frustration-and-unhappiness.html",
-      "published_at": "2026-08-01T04:00:00Z",
-      "collected_at": "2026-08-07T05:30:39Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
