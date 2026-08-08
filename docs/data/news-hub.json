@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-08T09:30:40Z",
-  "last_successful_collection_at": "2026-08-08T09:30:40Z",
+  "generated_at": "2026-08-08T10:00:41Z",
+  "last_successful_collection_at": "2026-08-08T10:00:41Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-08T09:30:40Z"
+      "at": "2026-08-08T10:00:41Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "37",
-      "at": "2026-08-08T09:30:40Z"
+      "at": "2026-08-08T10:00:41Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-08T09:30:40Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-08T10:00:41Z"
     },
     {
       "id": "euractiv",
@@ -29,76 +29,65 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-08T09:30:40Z"
+      "at": "2026-08-08T10:00:41Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-08T09:30:40Z"
+      "at": "2026-08-08T10:00:41Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-08T09:30:40Z"
+      "at": "2026-08-08T10:00:41Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-08T09:30:40Z"
+      "at": "2026-08-08T10:00:41Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-08T09:30:40Z"
+      "at": "2026-08-08T10:00:41Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-08T09:30:40Z"
+      "at": "2026-08-08T10:00:41Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Spain Imposes Border Controls on Italy",
-      "summary": "Spain has implemented border checks for travelers from Italy. This action follows intensifying disputes regarding the migrant influx in Ceuta.",
+      "title": "Ceuta Border Crisis",
+      "summary": "Spain imposes border checks on Italy travelers amid migrant row, escalating tensions between the two countries.",
       "article_ids": [
-        "45257087d559b7d295677f5f",
-        "b805e67ca4d3ecafcd83837b",
-        "c69c922546da5b57023adebb",
-        "8d3badc6ec98168ab496a20d",
+        "8b1e3c052b60067ef23aac9b",
+        "3e50b980ce4db67bd17cd3c5",
         "dc5bb366764fc112ea67e354"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260808-spain-to-impose-border-checks-on-italy",
-          "headline": "Spain to impose border checks on Italy",
-          "published_at": "2026-08-08T08:56:44Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ceuta-spain-sets-up-border-controls-on-travelers-from-italy/a-78282840?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Ceuta: Spain sets up border controls on travelers from Italy",
-          "published_at": "2026-08-08T01:24:00Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
+          "headline": "Spain to impose border controls against Italy as row over Ceuta migrant influx intensifies",
+          "published_at": "2026-08-07T19:51:16Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "Russian Strikes Near Kyiv",
-      "summary": "Missile strikes conducted by Russia near Kyiv have resulted in three fatalities. The attacks included the death of a child.",
+      "title": "Ukraine-Russia Conflict Escalation",
+      "summary": "Russian missile strikes near Kyiv kill three, including a child, as Zelenskyy makes landmark visit to Russia-friendly Serbia.",
       "article_ids": [
         "34be28a1ecf120d4147102f9",
         "3b235467959258121e7c98f4",
-        "c03058415981da243b9a045d",
-        "bdfbff5aa24a6afa608a78ae",
-        "457c036379621616ab69eaeb",
-        "ff53c264d3904382864989c9"
+        "386eaef5615be973daaf2e64"
       ],
       "sources": [
         {
@@ -119,20 +108,24 @@
   ],
   "top_stories": [
     {
-      "title": "Climate Change and European Viticulture",
-      "summary": "European winemakers are currently facing significant challenges due to climate change. These environmental shifts impact the industry across the continent.",
+      "title": "Ukraine-Russia Diplomatic Shifts",
+      "summary": "Zelenskyy's visit to Serbia and ongoing missile attacks near Kyiv highlight complex geopolitical dynamics in the conflict.",
       "article_ids": [
-        "04834ee19765d87ef350a49a",
-        "206c038bbb065fd08db527c7",
-        "676df64f14fe6e67a3b78c81",
-        "d4b183f2a5d6bbcd2363125b"
+        "34be28a1ecf120d4147102f9",
+        "3b235467959258121e7c98f4"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260807-winemakers-across-europe-face-the-challenges-of-climate-change",
-          "headline": "Winemakers across Europe face the challenges of climate change",
-          "published_at": "2026-08-07T18:52:50Z"
+          "url": "https://www.france24.com/en/video/20260808-russian-strikes-kill-three-near-kyiv-zelensky-makes-landmark-visit-to-serbia",
+          "headline": "Russian strikes kill three near Kyiv, Zelensky makes landmark visit to Serbia",
+          "published_at": "2026-08-08T06:34:07Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260808-russian-strikes-kill-three-near-kyiv-zelensky-makes-landmark-visit-to-serbia",
+          "headline": "Russian strikes kill four near Kyiv, Zelensky makes landmark visit to Serbia",
+          "published_at": "2026-08-08T06:34:07Z"
         }
       ],
       "source_count": 1
@@ -225,6 +218,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "919c9e5d4f72f07b5e126a58",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Gabriel Attal alleges Russian interference in French presidential race",
+      "url": "https://www.politico.eu/article/gabriel-attal-files-complaint-over-alleged-russian-disinformation-campaign",
+      "published_at": "2026-08-08T09:44:38Z",
+      "collected_at": "2026-08-08T10:00:41Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "779a19d529ce8821a0171a01",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "EU’s hidden food border inspectors get busier in an era of expanding trade",
+      "url": "https://euobserver.com/225422/eus-hidden-food-border-inspectors-get-busier-in-an-era-of-expanding-trade",
+      "published_at": "2026-08-08T09:38:00Z",
+      "collected_at": "2026-08-08T10:00:41Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "a80fa9ea3aeff03843f072e5",
       "source_id": "euobserver",
@@ -1556,20 +1577,6 @@
       ]
     },
     {
-      "id": "39378f42c746bd0547661fbc",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "German airport drone-bomb: Could Russia be involved?",
-      "url": "https://www.bbc.co.uk/news/articles/ckgdmrxxkdxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-07T08:48:16Z",
-      "collected_at": "2026-08-07T09:30:45Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "f4485308c358ff59af316700",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1689,20 +1696,6 @@
       "url": "https://www.france24.com/en/middle-east/20260807-middle-east-live-saudi-arabia-pakistan-turkey-to-sign-defence-pact",
       "published_at": "2026-08-07T00:02:57Z",
       "collected_at": "2026-08-07T15:00:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "9a22e412b00dd66f19dd41ff",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Minibus explosion in Damascus suburb wounds 14 people",
-      "url": "https://www.france24.com/en/middle-east/20260806-damascus-bus-explosion-kills-two",
-      "published_at": "2026-08-06T21:54:18Z",
-      "collected_at": "2026-08-07T09:30:45Z",
       "topics": [
         "politics",
         "security",
@@ -2046,20 +2039,6 @@
       ]
     },
     {
-      "id": "a9d2afa2161a52f58c1ef0f4",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "EU commends Spain's 'swift response' to Ceuta migrant crisis",
-      "url": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-04T21:45:20Z",
-      "collected_at": "2026-08-07T09:30:45Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "7cd01bd64823ddffc04f57e0",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2074,13 +2053,13 @@
       ]
     },
     {
-      "id": "72e5e624d5e0b95a1c721f2c",
+      "id": "ddf9d2648b478a07a73dd8b9",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
-      "title": "Bono, Eddie Vedder and Hozier among mourners at Glen Hansard's funeral",
-      "url": "https://www.bbc.co.uk/news/articles/crk5lmglkdno?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-04T17:01:19Z",
-      "collected_at": "2026-08-07T09:30:45Z",
+      "title": "Soldier kills four in gun rampage in Russian-occupied Crimea",
+      "url": "https://www.bbc.co.uk/news/articles/c80n33lrnm5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-04T09:23:06Z",
+      "collected_at": "2026-08-08T10:00:41Z",
       "topics": [
         "breaking",
         "politics",
