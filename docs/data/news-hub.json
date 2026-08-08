@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-08T12:30:47Z",
-  "last_successful_collection_at": "2026-08-08T12:30:47Z",
+  "generated_at": "2026-08-08T13:00:43Z",
+  "last_successful_collection_at": "2026-08-08T13:00:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-08T12:30:47Z"
+      "at": "2026-08-08T13:00:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "37",
-      "at": "2026-08-08T12:30:47Z"
+      "at": "2026-08-08T13:00:43Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-08T12:30:47Z"
+      "at": "2026-08-08T13:00:43Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-08T12:30:47Z"
+      "at": "2026-08-08T13:00:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-08T12:30:47Z"
+      "at": "2026-08-08T13:00:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-08T12:30:47Z"
+      "at": "2026-08-08T13:00:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-08T12:30:47Z"
+      "at": "2026-08-08T13:00:43Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-08T12:30:47Z"
+      "at": "2026-08-08T13:00:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-08T12:30:47Z"
+      "at": "2026-08-08T13:00:43Z"
     }
   ],
   "europe_now": [
@@ -136,44 +136,23 @@
       ]
     },
     {
-      "label": "Pakistan · Saudi · Turkey · Arabia",
+      "label": "Pakistan · Saudi · Turkey · war",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-08-08T08:26:53Z",
+      "item_count": 6,
+      "latest_at": "2026-08-08T12:52:36Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/saudi-turkey-pakistan-deal-for-joint-support-amid-regional-war",
-          "headline": "Saudi, Turkey, Pakistan: Deal for joint support amid regional war",
-          "published_at": "2026-08-08T08:26:53Z"
+          "url": "https://www.france24.com/en/saudi-turkey-pakistan-pact-comes-amid-us-iran-war-fallout",
+          "headline": "Saudi, Turkey, Pakistan pact comes amid US-Iran war fallout",
+          "published_at": "2026-08-08T12:52:36Z"
         },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss",
           "headline": "Saudi Arabia, Turkey and Pakistan sign defence pact",
           "published_at": "2026-08-07T13:18:33Z"
-        }
-      ]
-    },
-    {
-      "label": "Senate · US · attorney · Blanche",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-08-08T08:51:10Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20260808-us-senate-confirms-trump-s-ex-lawyer-as-attorney-general",
-          "headline": "US Senate narrowly confirms Todd Blanche as attorney general in overnight vote",
-          "published_at": "2026-08-08T08:51:10Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.com/news/2026/08/07/senate-passes-russia-sanctions-bill-01029073",
-          "headline": "US Senate passes Russia sanctions bill",
-          "published_at": "2026-08-08T07:36:49Z"
         }
       ]
     },
@@ -197,9 +176,66 @@
           "published_at": "2026-08-07T13:32:41Z"
         }
       ]
+    },
+    {
+      "label": "Russia · sanctions",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 2,
+      "latest_at": "2026-08-08T07:36:49Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/08/07/senate-passes-russia-sanctions-bill-01029073",
+          "headline": "US Senate passes Russia sanctions bill",
+          "published_at": "2026-08-08T07:36:49Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "1b17115d37da9b6e8951f67c",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Sánchez-Meloni clash brings back borders — and headaches for tourists",
+      "url": "https://www.politico.eu/article/spain-italy-reintroduce-border-controls-amid-migration-feud",
+      "published_at": "2026-08-08T12:58:52Z",
+      "collected_at": "2026-08-08T13:00:43Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "392e5fbfa488c33e89b1d054",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Senate confirms Todd Blanche, Trump's former lawyer, as Attorney General",
+      "url": "https://www.france24.com/en/senate-confirms-todd-blanche-trump-s-former-lawyer-as-attorney-general",
+      "published_at": "2026-08-08T12:54:24Z",
+      "collected_at": "2026-08-08T13:00:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "392cf42b6febd90044a31c2f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Saudi, Turkey, Pakistan pact comes amid US-Iran war fallout",
+      "url": "https://www.france24.com/en/saudi-turkey-pakistan-pact-comes-amid-us-iran-war-fallout",
+      "published_at": "2026-08-08T12:52:36Z",
+      "collected_at": "2026-08-08T13:00:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "27099dcd8b9e6b402c3346de",
       "source_id": "politico_europe",
