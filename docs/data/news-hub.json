@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-09T12:00:48Z",
-  "last_successful_collection_at": "2026-08-09T12:00:48Z",
+  "generated_at": "2026-08-09T12:30:36Z",
+  "last_successful_collection_at": "2026-08-09T12:30:36Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-09T12:00:48Z"
+      "at": "2026-08-09T12:30:36Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "38",
-      "at": "2026-08-09T12:00:48Z"
+      "at": "2026-08-09T12:30:36Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-09T12:00:48Z"
+      "at": "2026-08-09T12:30:36Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-09T12:00:48Z"
+      "at": "2026-08-09T12:30:36Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-09T12:00:48Z"
+      "at": "2026-08-09T12:30:36Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-09T12:00:48Z"
+      "at": "2026-08-09T12:30:36Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-09T12:00:48Z"
+      "at": "2026-08-09T12:30:36Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-09T12:00:48Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-09T12:30:36Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-09T12:00:48Z"
+      "at": "2026-08-09T12:30:36Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Spain starts border checks on Italy over Ceuta dispute",
-      "summary": "Spain has begun border checks on Italian travellers amid a growing migration dispute with Italy over the Ceuta enclave. The move reflects rising tensions between EU countries over migration policy and border control.",
+      "title": "Ceuta Border Tensions",
+      "summary": "Spain has implemented border checks on Italian travellers amid ongoing migrant disputes, reflecting heightened tensions in the Ceuta region.",
       "article_ids": [
         "1ea66e8bffbdd9493d30ec53"
       ],
@@ -80,17 +80,17 @@
       "source_count": 1
     },
     {
-      "title": "Germany warns of daily hybrid warfare attacks",
-      "summary": "A German minister has warned that the country is facing daily hybrid warfare attacks, citing increasing threats to national security. The statement underscores growing concerns about systemic security challenges in Europe.",
+      "title": "Ukraine-Russia Diplomatic and Military Developments",
+      "summary": "Ukraine has denied targeting Bulgaria following a drone incident near a gas pipeline, indicating ongoing diplomatic and military complexities in the region.",
       "article_ids": [
-        "e8dd83babdc02a49888d01b6"
+        "5a20a5f35efba24b10706240"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/germany-battling-daily-hybrid-warfare-attacks-minister-warns",
-          "headline": "Germany battling “daily” hybrid warfare attacks, minister warns",
-          "published_at": "2026-08-09T09:16:31Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ukraine-denies-targeting-bulgaria-after-drone-exploded-near-a-gas-pipeline",
+          "headline": "Ukraine denies targeting Bulgaria, after drone exploded near a gas pipeline",
+          "published_at": "2026-08-09T09:04:07Z"
         }
       ],
       "source_count": 1
@@ -98,8 +98,24 @@
   ],
   "top_stories": [
     {
-      "title": "Ukraine denies targeting Bulgaria after drone incident",
-      "summary": "Ukraine has denied targeting Bulgaria after a drone exploded near a gas pipeline, calling the incident unfounded. The denial comes amid heightened regional tensions and ongoing diplomatic scrutiny over cross-border actions.",
+      "title": "Ceuta Border Dispute",
+      "summary": "Spain has imposed border checks on Italian travellers due to migrant disputes, escalating tensions in the Ceuta region. The measures highlight challenges in EU border management and migration policy.",
+      "article_ids": [
+        "1ea66e8bffbdd9493d30ec53"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/spain-starts-border-checks-on-italy-over-ceuta-dispute",
+          "headline": "Spain starts border checks on Italy over Ceuta dispute",
+          "published_at": "2026-08-09T09:02:17Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ukraine-Russia Conflict Escalation",
+      "summary": "Ukraine has denied targeting Bulgaria after a drone exploded near a gas pipeline, underscoring the volatile nature of the conflict. The incident raises concerns about cross-border security and diplomatic relations.",
       "article_ids": [
         "5a20a5f35efba24b10706240"
       ],
@@ -115,6 +131,27 @@
     }
   ],
   "developing": [
+    {
+      "label": "strikes · Ukraine",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-09T12:23:38Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/who-warehouse-destroyed-ukraine-russia-missile-strikes",
+          "headline": "Russia and Ukraine exchange overnight strikes, WHO confirms warehouse destroyed",
+          "published_at": "2026-08-09T12:23:38Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260808-ukraine-braces-for-winter-power-crisis-after-russian-strikes-zelensky-says",
+          "headline": "Ukraine braces for winter power crisis after Russian strikes, Zelensky says",
+          "published_at": "2026-08-08T19:48:21Z"
+        }
+      ]
+    },
     {
       "label": "Kosovo · PM",
       "origin": "convergence",
@@ -137,52 +174,51 @@
       ]
     },
     {
-      "label": "Russian · kill · strikes · Ukraine",
+      "label": "kill · Russian",
       "origin": "radar",
       "source_count": 1,
-      "item_count": 3,
-      "latest_at": "2026-08-08T19:48:21Z",
+      "item_count": 2,
+      "latest_at": "2026-08-08T15:29:49Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260808-ukraine-braces-for-winter-power-crisis-after-russian-strikes-zelensky-says",
-          "headline": "Ukraine braces for winter power crisis after Russian strikes, Zelensky says",
-          "published_at": "2026-08-08T19:48:21Z"
+          "url": "https://www.france24.com/en/russian-strikes-kill-four-as-kyiv-hits-oil-refinery",
+          "headline": "Russian strikes kill four as Kyiv hits oil refinery",
+          "published_at": "2026-08-08T15:29:49Z"
         }
       ]
     },
     {
-      "label": "British · Columbia · declares · emergency",
+      "label": "attacks · battling · daily · Germany",
       "origin": "radar",
       "source_count": 1,
       "item_count": 1,
-      "latest_at": "2026-08-09T08:58:09Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/wildfires-british-columbia-declares-state-of-emergency-thousands-forced-to-flee-homes",
-          "headline": "Wildfires: British Columbia declares state of emergency, thousands forced to flee homes",
-          "published_at": "2026-08-09T08:58:09Z"
-        }
-      ]
-    },
-    {
-      "label": "court · former · head · Hungarian",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-08-08T13:31:46Z",
+      "latest_at": "2026-08-09T09:16:31Z",
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/peter-magyar-tisza-party-nominates-andras-baka-hungary-president",
-          "headline": "Magyar’s party backs former supreme court head for Hungarian president",
-          "published_at": "2026-08-08T13:31:46Z"
+          "url": "https://www.politico.eu/article/germany-battling-daily-hybrid-warfare-attacks-minister-warns",
+          "headline": "Germany battling “daily” hybrid warfare attacks, minister warns",
+          "published_at": "2026-08-09T09:16:31Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "b220fafb4b7dd93e6eb3b5d0",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Russia and Ukraine exchange overnight strikes, WHO confirms warehouse destroyed",
+      "url": "https://www.politico.eu/article/who-warehouse-destroyed-ukraine-russia-missile-strikes",
+      "published_at": "2026-08-09T12:23:38Z",
+      "collected_at": "2026-08-09T12:30:36Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "6c26758ff027dec5781c3834",
       "source_id": "france24",
@@ -856,20 +892,6 @@
       ]
     },
     {
-      "id": "27099dcd8b9e6b402c3346de",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "‘One child is enough’: What’s behind the West’s baby bust",
-      "url": "https://www.politico.com/news/magazine/2026/08/08/europe-us-fertility-immigration-01029122",
-      "published_at": "2026-08-08T11:39:22Z",
-      "collected_at": "2026-08-08T12:00:54Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "4f0c4e8b3470df327315a104",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1458,20 +1480,6 @@
       ]
     },
     {
-      "id": "deafc529837d3be0b358ae99",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Morawiecki confirms breakaway Polish opposition group will form new party",
-      "url": "https://notesfrompoland.com/2026/08/04/morawiecki-confirms-breakaway-polish-opposition-group-will-form-new-party",
-      "published_at": "2026-08-04T11:20:57Z",
-      "collected_at": "2026-08-08T12:00:54Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "63ec3e25de37a55275d2ad20",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1486,20 +1494,6 @@
       ]
     },
     {
-      "id": "9a30cf6fa8586a4aba637a89",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘I had to travel, my life was in danger’: more Florida women seeking out-of-state abortions",
-      "url": "https://english.elpais.com/usa/2026-08-04/i-had-to-travel-my-life-was-in-danger-more-florida-women-seeking-out-of-state-abortions.html",
-      "published_at": "2026-08-04T11:06:43Z",
-      "collected_at": "2026-08-08T12:00:54Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "98bb24d9e539807a0dfdf59e",
       "source_id": "ecfr",
       "source_name": "European Council on Foreign Relations",
@@ -1511,20 +1505,6 @@
         "analysis",
         "foreign_policy",
         "security"
-      ]
-    },
-    {
-      "id": "af7536942d46566226b10673",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Mourners line streets of Milan for legend Baresi's funeral",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cyvl88rr95zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-04T10:45:34Z",
-      "collected_at": "2026-08-08T12:00:54Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
@@ -1777,6 +1757,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "ecf6e0b722c2ac5f311ee26a",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "NATO’s digital arsenal: How Europe can avoid a new dependence on America",
+      "url": "https://ecfr.eu/article/natos-digital-arsenal-how-europe-can-avoid-a-new-dependence-on-america",
+      "published_at": "2026-07-29T14:48:16Z",
+      "collected_at": "2026-08-09T12:30:36Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
