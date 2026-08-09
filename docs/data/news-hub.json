@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-09T16:00:49Z",
-  "last_successful_collection_at": "2026-08-09T16:00:49Z",
+  "generated_at": "2026-08-09T16:30:35Z",
+  "last_successful_collection_at": "2026-08-09T16:30:35Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-09T16:00:49Z"
+      "at": "2026-08-09T16:30:35Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "37",
-      "at": "2026-08-09T16:00:49Z"
+      "count": "38",
+      "at": "2026-08-09T16:30:35Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-09T16:00:49Z"
+      "at": "2026-08-09T16:30:35Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-09T16:00:49Z"
+      "at": "2026-08-09T16:30:35Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-09T16:00:49Z"
+      "at": "2026-08-09T16:30:35Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-09T16:00:49Z"
+      "at": "2026-08-09T16:30:35Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-09T16:00:49Z"
+      "at": "2026-08-09T16:30:35Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-09T16:00:49Z"
+      "at": "2026-08-09T16:30:35Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-09T16:00:49Z"
+      "at": "2026-08-09T16:30:35Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russia and Ukraine exchange deadly overnight strikes",
-      "summary": "Russia and Ukraine exchanged deadly overnight strikes, with the WHO confirming a warehouse destroyed.",
+      "title": "Russia-Ukraine conflict escalation",
+      "summary": "Russia and Ukraine have engaged in deadly overnight missile strikes. One strike reportedly destroyed a warehouse, according to the WHO.",
       "article_ids": [
-        "c9b5e1fe2cad51f0bfe2b509"
+        "c9b5e1fe2cad51f0bfe2b509",
+        "b220fafb4b7dd93e6eb3b5d0"
       ],
       "sources": [
         {
@@ -75,15 +76,22 @@
           "url": "https://www.france24.com/en/russia-and-ukraine-exchange-deadly-overnight-strikes",
           "headline": "Russia and Ukraine exchange deadly overnight strikes",
           "published_at": "2026-08-09T13:22:24Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/who-warehouse-destroyed-ukraine-russia-missile-strikes",
+          "headline": "Russia and Ukraine exchange overnight strikes, WHO confirms warehouse destroyed",
+          "published_at": "2026-08-09T12:23:38Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Spain imposes border checks on Italian travelers",
-      "summary": "Spain imposed border checks on Italian travelers amid a migrant dispute, escalating tensions between EU countries.",
+      "title": "Spain-Italy border dispute",
+      "summary": "Spain has implemented border checks on Italian travelers. This action follows a dispute regarding migration between the two EU nations.",
       "article_ids": [
-        "1ea66e8bffbdd9493d30ec53"
+        "1ea66e8bffbdd9493d30ec53",
+        "26f7a9214082526fba7f5351"
       ],
       "sources": [
         {
@@ -91,6 +99,12 @@
           "url": "https://www.france24.com/en/spain-starts-border-checks-on-italy-over-ceuta-dispute",
           "headline": "Spain starts border checks on Italy over Ceuta dispute",
           "published_at": "2026-08-09T09:02:17Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/spain-italy-dispute-grows-over-migration-between-eu-countries",
+          "headline": "Spain - Italy: Dispute grows over migration between EU countries",
+          "published_at": "2026-08-09T09:10:36Z"
         }
       ],
       "source_count": 1
@@ -98,55 +112,51 @@
   ],
   "top_stories": [
     {
-      "title": "Ukraine-Russia conflict escalation",
-      "summary": "Russia and Ukraine exchanged deadly overnight strikes, with the WHO confirming a warehouse destroyed.",
+      "title": "Security and Geopolitics",
+      "summary": "Syria and Russia have agreed to end the military use of certain Mediterranean bases. Meanwhile, Iran has set terms for reopening the Strait of Hormuz.",
       "article_ids": [
-        "c9b5e1fe2cad51f0bfe2b509"
+        "32b8ece914d59f0026870081",
+        "e2077623c3b169c8995d25f6"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/russia-and-ukraine-exchange-deadly-overnight-strikes",
-          "headline": "Russia and Ukraine exchange deadly overnight strikes",
-          "published_at": "2026-08-09T13:22:24Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Ceuta border dispute",
-      "summary": "Spain imposed border checks on Italian travelers amid a migrant dispute, escalating tensions between EU countries.",
-      "article_ids": [
-        "1ea66e8bffbdd9493d30ec53"
-      ],
-      "sources": [
+          "url": "https://www.france24.com/en/middle-east/20260809-syria-russia-agree-to-end-military-use-of-key-mediterranean-bases",
+          "headline": "Syria, Russia agree to end military use of key Mediterranean bases",
+          "published_at": "2026-08-09T15:58:21Z"
+        },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/spain-starts-border-checks-on-italy-over-ceuta-dispute",
-          "headline": "Spain starts border checks on Italy over Ceuta dispute",
-          "published_at": "2026-08-09T09:02:17Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Iran's Strait of Hormuz demands",
-      "summary": "Iran issued a list of demands for reopening the Strait of Hormuz, which the US has not fully accepted.",
-      "article_ids": [
-        "00e51f9548c1cc2a2c4a8dde"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/middle-east/20260809-middle-east-live-iran-issues-list-of-demands-for-reopening-strait-of-hormuz",
-          "headline": "Middle East live: Iran issues list of demands for reopening Strait of Hormuz",
-          "published_at": "2026-08-09T05:01:29Z"
+          "url": "https://www.france24.com/en/iran-sets-tough-terms-to-reopen-strait-of-hormuz",
+          "headline": "Iran sets tough terms to reopen Strait of Hormuz",
+          "published_at": "2026-08-09T14:59:00Z"
         }
       ],
       "source_count": 1
     }
   ],
   "developing": [
+    {
+      "label": "Gaza · plan · rejects · Trump",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-09T14:09:16Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/israel-rejects-us-backed-gaza-peace-plan-hamas-disarmament",
+          "headline": "Israel rejects Trump’s peace plan for Gaza",
+          "published_at": "2026-08-09T14:09:16Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east/20260809-middle-east-live-iran-issues-list-of-demands-for-reopening-strait-of-hormuz",
+          "headline": "Middle East live: Netanyahu rejects Trump’s 15-point Gaza plan",
+          "published_at": "2026-08-09T05:01:29Z"
+        }
+      ]
+    },
     {
       "label": "France · Tour",
       "origin": "radar",
@@ -163,32 +173,17 @@
       ]
     },
     {
-      "label": "confirms · destroyed · exchange · overnight",
+      "label": "braces · crisis · power · Russian",
       "origin": "radar",
       "source_count": 1,
       "item_count": 1,
-      "latest_at": "2026-08-09T12:23:38Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/who-warehouse-destroyed-ukraine-russia-missile-strikes",
-          "headline": "Russia and Ukraine exchange overnight strikes, WHO confirms warehouse destroyed",
-          "published_at": "2026-08-09T12:23:38Z"
-        }
-      ]
-    },
-    {
-      "label": "agree · bases · Mediterranean · military",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-08-09T15:58:21Z",
+      "latest_at": "2026-08-08T19:48:21Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/middle-east/20260809-syria-russia-agree-to-end-military-use-of-key-mediterranean-bases",
-          "headline": "Syria, Russia agree to end military use of key Mediterranean bases",
-          "published_at": "2026-08-09T15:58:21Z"
+          "url": "https://www.france24.com/en/europe/20260808-ukraine-braces-for-winter-power-crisis-after-russian-strikes-zelensky-says",
+          "headline": "Ukraine braces for winter power crisis after Russian strikes, Zelensky says",
+          "published_at": "2026-08-08T19:48:21Z"
         }
       ]
     },
@@ -209,6 +204,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "4a5b648dbecaf8cc1273a3b1",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Drones spotted over German base days after Leipzig bomb incident",
+      "url": "https://www.bbc.co.uk/news/articles/cwyeg1ljp2eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-09T16:18:10Z",
+      "collected_at": "2026-08-09T16:30:35Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "32b8ece914d59f0026870081",
       "source_id": "france24",
@@ -1288,6 +1297,20 @@
       ]
     },
     {
+      "id": "29ad7a22c9e7db570cf57311",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "EU hands Ukraine €1.4bn in interest from frozen Russian assets following deadly attack on Kyiv",
+      "url": "https://euobserver.com/231519/eu-hands-ukraine-e1-4bn-in-interest-from-frozen-russian-assets-following-deadly-attack-on-kyiv",
+      "published_at": "2026-08-05T15:00:35Z",
+      "collected_at": "2026-08-09T16:30:35Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "e12af7dd61f05aa6b544f598",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1523,6 +1546,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "8cdecf12f2869da86324e414",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Rhine falls to record low levels as drought strains Europe's rivers",
+      "url": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-03T16:27:43Z",
+      "collected_at": "2026-08-09T16:30:35Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
