@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-09T08:00:43Z",
-  "last_successful_collection_at": "2026-08-09T08:00:43Z",
+  "generated_at": "2026-08-09T08:30:37Z",
+  "last_successful_collection_at": "2026-08-09T08:30:37Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-09T08:00:43Z"
+      "at": "2026-08-09T08:30:37Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "38",
-      "at": "2026-08-09T08:00:43Z"
+      "at": "2026-08-09T08:30:37Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-09T08:00:43Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-09T08:30:37Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-09T08:00:43Z"
+      "at": "2026-08-09T08:30:37Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-09T08:00:43Z"
+      "at": "2026-08-09T08:30:37Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-09T08:00:43Z"
+      "at": "2026-08-09T08:30:37Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-09T08:00:43Z"
+      "at": "2026-08-09T08:30:37Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-09T08:00:43Z"
+      "at": "2026-08-09T08:30:37Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-09T08:00:43Z"
+      "at": "2026-08-09T08:30:37Z"
     }
   ],
   "europe_now": [
     {
       "title": "Ukraine braces for winter power crisis after Russian strikes, Zelensky says",
-      "summary": "Ukraine is preparing for a winter power crisis following Russian strikes, according to President Zelensky. The government is taking measures to mitigate the impact of the attacks on the energy sector.",
+      "summary": "Ukraine is preparing for a winter power crisis following recent Russian strikes, according to President Zelensky. The government is implementing measures to secure electricity supplies for the upcoming season.",
       "article_ids": [
         "242de2ad44e1976191203dfb"
       ],
@@ -80,8 +80,42 @@
       "source_count": 1
     },
     {
+      "title": "Saudi, Turkey, Pakistan pact comes amid US-Iran war fallout",
+      "summary": "Saudi Arabia, Turkey, and Pakistan have signed a defense pact amid fallout from the US-Iran war. The agreement aims to strengthen regional security cooperation.",
+      "article_ids": [
+        "392cf42b6febd90044a31c2f"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/saudi-turkey-pakistan-pact-comes-amid-us-iran-war-fallout",
+          "headline": "Saudi, Turkey, Pakistan pact comes amid US-Iran war fallout",
+          "published_at": "2026-08-08T12:52:36Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Vietnam's indigenous Hmong people forced to adapt to climate crisis",
+      "summary": "The Hmong community in Vietnam is adapting to climate change impacts that threaten their traditional livelihoods. The article discusses the challenges they face due to shifting weather patterns.",
+      "article_ids": [
+        "972a90af61a3df3d8fa93ba3"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/focus/20260808-vietnam-s-indigenous-hmong-people-forced-to-adapt-to-climate-crisis",
+          "headline": "Vietnam's indigenous Hmong people forced to adapt to climate crisis",
+          "published_at": "2026-08-08T09:00:07Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
       "title": "Spain imposes border checks on Italian travellers amid migrant dispute",
-      "summary": "Spain has introduced border checks on Italian travellers as part of a dispute over migrants in Ceuta. The measures are aimed at managing the flow of people across the border.",
+      "summary": "Spain has introduced border checks on Italian travellers as part of a dispute over migrant flows. The measures are aimed at controlling the movement of migrants between the two countries.",
       "article_ids": [
         "a5517bd1b96b89795d636a04"
       ],
@@ -94,53 +128,19 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "EU’s hidden food border inspectors get busier in an era of expanding trade",
-      "summary": "EU food border inspectors are experiencing increased workload due to expanding trade volumes. The report highlights the growing demand for inspection capacity across the EU.",
-      "article_ids": [
-        "779a19d529ce8821a0171a01"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/225422/eus-hidden-food-border-inspectors-get-busier-in-an-era-of-expanding-trade",
-          "headline": "EU’s hidden food border inspectors get busier in an era of expanding trade",
-          "published_at": "2026-08-08T09:38:00Z"
-        }
-      ],
-      "source_count": 1
     },
     {
-      "title": "In an over-heating Europe, treating air conditioning as ‘American decadence’ has become dangerous",
-      "summary": "The article discusses how rising temperatures in Europe are prompting concerns over the widespread use of air conditioning. It argues that this trend may pose risks to public health and energy consumption.",
+      "title": "Russian strikes kill four as Kyiv hits oil refinery",
+      "summary": "Russian attacks on Ukraine have resulted in four casualties and targeted an oil refinery in Kyiv. The incident highlights ongoing military hostilities in the region.",
       "article_ids": [
-        "a80fa9ea3aeff03843f072e5"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/228897/in-an-over-heating-europe-treating-air-conditioning-as-american-decadence-has-become-dangerous",
-          "headline": "In an over-heating Europe, treating air conditioning as ‘American decadence’ has become dangerous",
-          "published_at": "2026-08-08T09:03:00Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "How Turkey uses drones to tackle fires",
-      "summary": "Turkey is deploying drones to assist in fighting forest fires. The initiative aims to improve response times and reduce damage from wildfires.",
-      "article_ids": [
-        "a2801cda9fa342ee5768f41d"
+        "fd38052ebaac282f4a311855"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/how-turkey-uses-drones-to-tackle-fires",
-          "headline": "How Turkey uses drones to tackle fires",
-          "published_at": "2026-08-08T08:35:13Z"
+          "url": "https://www.france24.com/en/russian-strikes-kill-four-as-kyiv-hits-oil-refinery",
+          "headline": "Russian strikes kill four as Kyiv hits oil refinery",
+          "published_at": "2026-08-08T15:29:49Z"
         }
       ],
       "source_count": 1
@@ -180,21 +180,6 @@
           "url": "https://www.france24.com/en/russian-attacks-kill-several-in-ukraine",
           "headline": "Russian attacks kill several in Ukraine",
           "published_at": "2026-08-08T13:12:48Z"
-        }
-      ]
-    },
-    {
-      "label": "amid · Deal · joint · Pakistan",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-08-08T08:26:53Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/saudi-turkey-pakistan-deal-for-joint-support-amid-regional-war",
-          "headline": "Saudi, Turkey, Pakistan: Deal for joint support amid regional war",
-          "published_at": "2026-08-08T08:26:53Z"
         }
       ]
     },
@@ -251,6 +236,20 @@
       "url": "https://www.france24.com/en/many-of-iran-s-demands-already-agreed-to-by-us-in-june-mou",
       "published_at": "2026-08-09T07:06:50Z",
       "collected_at": "2026-08-09T07:30:37Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "1c1c6ae36ca3e9699c943525",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Many of Iran’s demands ‘already agreed to’ by the US in June MoU",
+      "url": "https://www.france24.com/en/many-of-iran-s-demands-already-agreed-to-by-us-in-june-mou",
+      "published_at": "2026-08-09T07:06:50Z",
+      "collected_at": "2026-08-09T08:30:37Z",
       "topics": [
         "politics",
         "security",
@@ -874,34 +873,6 @@
       ]
     },
     {
-      "id": "2fa6e693d0420be921c52f7a",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "US Senate passes Russia sanctions bill",
-      "url": "https://www.politico.com/news/2026/08/07/senate-passes-russia-sanctions-bill-01029073",
-      "published_at": "2026-08-08T07:36:49Z",
-      "collected_at": "2026-08-08T08:00:48Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "206c038bbb065fd08db527c7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "From Tehran’s walls to the world: Iran’s visual propaganda as an art of war (2/2)",
-      "url": "https://www.france24.com/en/middle-east/20260808-from-tehran-s-walls-to-the-world-iran-s-visual-propaganda-as-an-art-of-war-2-2",
-      "published_at": "2026-08-08T07:36:03Z",
-      "collected_at": "2026-08-08T08:00:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "3b235467959258121e7c98f4",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -955,6 +926,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "5ef4d916b5bf960287a5f35c",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "10 EUobserver investigations from 2026 so far you shouldn’t miss",
+      "url": "https://euobserver.com/231715/10-euobserver-investigations-from-2026-so-far-you-shouldnt-miss",
+      "published_at": "2026-08-07T08:19:33Z",
+      "collected_at": "2026-08-09T08:30:37Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
