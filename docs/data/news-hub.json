@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-09T03:30:39Z",
-  "last_successful_collection_at": "2026-08-09T03:30:39Z",
+  "generated_at": "2026-08-09T04:00:46Z",
+  "last_successful_collection_at": "2026-08-09T04:00:46Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-09T03:30:39Z"
+      "at": "2026-08-09T04:00:46Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "38",
-      "at": "2026-08-09T03:30:39Z"
+      "at": "2026-08-09T04:00:46Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-09T03:30:39Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-09T04:00:46Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,69 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-09T03:30:39Z"
+      "at": "2026-08-09T04:00:46Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-09T03:30:39Z"
+      "at": "2026-08-09T04:00:46Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-09T03:30:39Z"
+      "at": "2026-08-09T04:00:46Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-09T03:30:39Z"
+      "at": "2026-08-09T04:00:46Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-09T03:30:39Z"
+      "at": "2026-08-09T04:00:46Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-09T03:30:39Z"
+      "at": "2026-08-09T04:00:46Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Spain imposes border checks on Italian travellers amid migrant dispute",
-      "summary": "Spain has imposed border checks on Italian travellers amid a migrant dispute in Ceuta. The checks are intended to control migration flows across the EU border.",
+      "title": "Ukraine-Russia conflict escalation with missile strikes and diplomatic shifts",
+      "summary": "Russian missile strikes near Kyiv killed three, including a child, while Zelenskyy made a landmark visit to Serbia, signaling diplomatic efforts amid ongoing hostilities.",
       "article_ids": [
-        "a5517bd1b96b89795d636a04"
+        "3b235467959258121e7c98f4",
+        "34be28a1ecf120d4147102f9"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260808-russian-strikes-kill-three-near-kyiv-zelensky-makes-landmark-visit-to-serbia",
+          "headline": "Russian strikes kill four near Kyiv, Zelensky makes landmark visit to Serbia",
+          "published_at": "2026-08-08T06:34:07Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260808-russian-strikes-kill-three-near-kyiv-zelensky-makes-landmark-visit-to-serbia",
+          "headline": "Russian strikes kill three near Kyiv, Zelensky makes landmark visit to Serbia",
+          "published_at": "2026-08-08T06:34:07Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Spain-Italy border checks amid Ceuta migrant crisis",
+      "summary": "Spain imposed border checks on Italian travelers due to migrant disputes, escalating tensions in the Ceuta region.",
+      "article_ids": [
+        "a5517bd1b96b89795d636a04",
+        "779a19d529ce8821a0171a01"
       ],
       "sources": [
         {
@@ -78,43 +102,55 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Ukraine braces for winter power crisis after Russian strikes",
-      "summary": "Ukraine is preparing for a winter power crisis after Russian strikes damaged its energy infrastructure. The government warns that the attacks have reduced the number of operational thermal power plants.",
-      "article_ids": [
-        "242de2ad44e1976191203dfb"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260808-ukraine-braces-for-winter-power-crisis-after-russian-strikes-zelensky-says",
-          "headline": "Ukraine braces for winter power crisis after Russian strikes, Zelensky says",
-          "published_at": "2026-08-08T19:48:21Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "EU’s hidden food border inspectors get busier in an era of expanding trade",
-      "summary": "EU food border inspectors are handling more inspections as trade expands. The increased workload reflects growing concerns over food safety and compliance.",
+      "title": "Ukraine-Russia conflict and diplomatic developments",
+      "summary": "Russian attacks on Ukraine caused significant casualties, while Zelenskyy's visit to Serbia highlighted shifting diplomatic dynamics in the conflict.",
       "article_ids": [
-        "779a19d529ce8821a0171a01"
+        "3b235467959258121e7c98f4",
+        "34be28a1ecf120d4147102f9"
       ],
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/225422/eus-hidden-food-border-inspectors-get-busier-in-an-era-of-expanding-trade",
-          "headline": "EU’s hidden food border inspectors get busier in an era of expanding trade",
-          "published_at": "2026-08-08T09:38:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260808-russian-strikes-kill-three-near-kyiv-zelensky-makes-landmark-visit-to-serbia",
+          "headline": "Russian strikes kill four near Kyiv, Zelensky makes landmark visit to Serbia",
+          "published_at": "2026-08-08T06:34:07Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260808-russian-strikes-kill-three-near-kyiv-zelensky-makes-landmark-visit-to-serbia",
+          "headline": "Russian strikes kill three near Kyiv, Zelensky makes landmark visit to Serbia",
+          "published_at": "2026-08-08T06:34:07Z"
         }
       ],
       "source_count": 1
     }
   ],
   "developing": [
+    {
+      "label": "Russian · strikes · kill · Kyiv",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 11,
+      "latest_at": "2026-08-08T19:48:21Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260808-ukraine-braces-for-winter-power-crisis-after-russian-strikes-zelensky-says",
+          "headline": "Ukraine braces for winter power crisis after Russian strikes, Zelensky says",
+          "published_at": "2026-08-08T19:48:21Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/russia-attack-across-ukraine-kills-12-injures-over-80-overnight",
+          "headline": "Russian strikes on Ukraine kill 12, wound over 80 overnight",
+          "published_at": "2026-08-08T10:34:02Z"
+        }
+      ]
+    },
     {
       "label": "Kosovo · PM",
       "origin": "convergence",
@@ -148,21 +184,6 @@
           "url": "https://www.politico.com/news/2026/08/07/senate-passes-russia-sanctions-bill-01029073",
           "headline": "US Senate passes Russia sanctions bill",
           "published_at": "2026-08-08T07:36:49Z"
-        }
-      ]
-    },
-    {
-      "label": "attacks · kill · Russian · several",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-08-08T13:12:48Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/russian-attacks-kill-several-in-ukraine",
-          "headline": "Russian attacks kill several in Ukraine",
-          "published_at": "2026-08-08T13:12:48Z"
         }
       ]
     },
@@ -912,48 +933,6 @@
       ]
     },
     {
-      "id": "b805e67ca4d3ecafcd83837b",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Ceuta: Spain sets up border controls on travelers from Italy",
-      "url": "https://www.dw.com/en/ceuta-spain-sets-up-border-controls-on-travelers-from-italy/a-78282840?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-08T01:24:00Z",
-      "collected_at": "2026-08-08T03:30:41Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "c69c922546da5b57023adebb",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-      "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-07T22:13:55Z",
-      "collected_at": "2026-08-08T03:30:41Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "554fca78f2d2352ebc89caec",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Germany’s gas gamble puts Europe’s winter at risk",
-      "url": "https://www.politico.eu/article/germany-gas-reserve-low-europe-winter-energy",
-      "published_at": "2026-08-07T16:57:29Z",
-      "collected_at": "2026-08-08T03:30:41Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "776b3b7ba407799b1f83ef6b",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -964,6 +943,104 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "ca1cf2d3aa91ed50b9e5968d",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Key details as boxer charged with Athens killing",
+      "url": "https://www.bbc.co.uk/news/videos/c98098gp0k7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-06T21:14:28Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "fb262c20b5c390f7eba15100",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "A salmonella outbreak linked to Mexican jalapeños has sickened more than 300 people in 27 US states",
+      "url": "https://english.elpais.com/usa/2026-08-06/a-salmonella-outbreak-linked-to-mexican-jalapenos-has-sickened-more-than-300-people-in-27-us-states.html",
+      "published_at": "2026-08-06T16:59:42Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "614fdbb75c46ea88ac194872",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Two lawsuits against Bad Bunny illustrate the battle fought by women who lend their voices to reggaeton",
+      "url": "https://english.elpais.com/culture/2026-08-06/two-lawsuits-against-bad-bunny-illustrate-the-battle-fought-by-women-who-lend-their-voices-to-reggaeton.html",
+      "published_at": "2026-08-06T16:41:32Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "2ccce12a41011aa4650c6b44",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Bacteria in semen also condition pregnancy success: ‘Fertility clinics still focus mainly on the woman’",
+      "url": "https://english.elpais.com/health/2026-08-06/bacteria-in-semen-also-condition-pregnancy-success-fertility-clinics-still-focus-mainly-on-the-woman.html",
+      "published_at": "2026-08-06T16:22:33Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "d9d2143d11be25e66e33d76b",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Ceuta ‘not back to normal’ after Morocco border surge leaves residents shocked and unaccompanied minors homeless",
+      "url": "https://euobserver.com/231675/ceuta-not-back-to-normal-after-morocco-border-surge-leaves-residents-shocked-and-unaccompanied-minors-homeless",
+      "published_at": "2026-08-06T16:17:29Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "ad725ad4acaeca2491022f72",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Want to see the climate crisis? Go to the banks of the dried-up Danube",
+      "url": "https://euobserver.com/231566/want-to-see-the-climate-crisis-go-to-the-banks-of-the-dried-up-danube",
+      "published_at": "2026-08-06T15:58:23Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "7cb99879c89c2a17ea362fe0",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Ukraine hits two oil refineries deep in Russian territory",
+      "url": "https://www.bbc.co.uk/news/articles/cwymv212xrxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-06T15:41:05Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -1234,6 +1311,90 @@
       ]
     },
     {
+      "id": "a943d48d909ebecd46cad3e7",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Ukrainian vegetable seller targeted in 'human safari' drone attack",
+      "url": "https://www.bbc.co.uk/news/videos/clye173d533o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-04T19:07:19Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "ad7f29e983346df7965cdcae",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "How to avoid the worst of the Italian heat",
+      "url": "https://www.bbc.co.uk/news/articles/c05q1gz0p1yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-04T18:21:00Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "12b7240840728c531d3f08b3",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘See you there on August 15′: Thousands of Moroccans debate a new mass influx into Ceuta",
+      "url": "https://english.elpais.com/international/2026-08-04/see-you-there-on-august-15-thousands-of-moroccans-debate-a-new-mass-influx-into-ceuta.html",
+      "published_at": "2026-08-04T18:07:51Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "604e94059099c2c5237d8e64",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Unexploded WWII ordnance discovered under busy Warsaw street",
+      "url": "https://notesfrompoland.com/2026/08/04/unexploded-wwii-ordnance-discovered-under-busy-warsaw-street",
+      "published_at": "2026-08-04T18:06:47Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "b523841502f1821bc71f0113",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack",
+      "url": "https://www.bbc.co.uk/news/articles/cn4n03xg981o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-04T17:26:06Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "1c1e21ced51a809da16779be",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Searching for an 11-year-old girl, they found three bodies: Searching mothers in sewage canals in the State of Mexico, in images",
+      "url": "https://english.elpais.com/international/2026-08-04/searching-for-an-11-year-old-girl-they-found-three-bodies-searching-mothers-in-sewage-canals-in-the-state-of-mexico-in-images.html",
+      "published_at": "2026-08-04T16:32:46Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "da0f498cf2634fdc715f2a63",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -1388,6 +1549,62 @@
       ]
     },
     {
+      "id": "072b71031cc87ab2dd2feec8",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Man admits transporting Scottish woman's body in suitcase, Greek police say",
+      "url": "https://www.bbc.co.uk/news/articles/c89ndd4g0gjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-02T17:53:09Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "5e9ac9e65ea641d3b226e9ea",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "At the scene of deadly Moscow bomb blast",
+      "url": "https://www.bbc.co.uk/news/videos/c1719pk0xq8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-02T16:52:35Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "6933e1b2ddaa654b494ead09",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Ceuta: Most who breached border have left, Spain says",
+      "url": "https://www.dw.com/en/ceuta-most-who-breached-border-have-left-spain-says/live-78191601?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-02T16:47:00Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "13860854c82a90f6e9260f14",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "2,000km, eight countries, 29 days - the fastest runner to cross the Alps",
+      "url": "https://www.bbc.co.uk/sport/articles/cg7mdjkrr22o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-02T12:37:23Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "93fb0b2e490ced34ece3cca3",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1528,6 +1745,20 @@
       ]
     },
     {
+      "id": "67f7163a68f81fecb6d8b784",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Alone at the border: Ceuta and Europe’s solidarity failure",
+      "url": "https://ecfr.eu/article/alone-at-the-border-ceuta-and-europes-solidarity-failure",
+      "published_at": "2026-07-31T17:07:34Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
       "id": "512304c551594d923a43225a",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1563,6 +1794,48 @@
       "url": "https://ecfr.eu/podcasts/episode/defining-modernity-in-south-east-asia",
       "published_at": "2026-07-31T05:00:00Z",
       "collected_at": "2026-08-08T06:30:42Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "2267e129132ca81bc03a60d5",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Two of a kind: How France and Italy can show the way for Europe’s Africa policy",
+      "url": "https://ecfr.eu/article/two-of-a-kind-how-france-and-italy-can-show-the-way-for-europes-africa-policy",
+      "published_at": "2026-07-29T10:42:02Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "0b4019a93f8bac7aaa5598e6",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The Saudi dilemma: How Yemen could shape the next phase of the Iran war",
+      "url": "https://ecfr.eu/article/the-saudi-dilemma-how-yemen-could-shape-the-next-phase-of-the-iran-war",
+      "published_at": "2026-07-28T14:57:48Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "89646e0119c5675c5cde9a39",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Shoring up the Red Sea: Why the next crisis may begin in the Horn of Africa",
+      "url": "https://ecfr.eu/article/shoring-up-the-red-sea-why-the-next-crisis-may-begin-in-the-horn-of-africa",
+      "published_at": "2026-07-28T07:00:23Z",
+      "collected_at": "2026-08-09T04:00:46Z",
       "topics": [
         "analysis",
         "foreign_policy",
@@ -1612,6 +1885,34 @@
       ]
     },
     {
+      "id": "0b0c74453e3a0d720f0d5a40",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Serbia: Inside the leaderless movement",
+      "url": "https://ecfr.eu/podcasts/episode/inside-the-leaderless-movement",
+      "published_at": "2026-07-24T12:35:30Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "66029b24ac577f1e07324141",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The China-native generation",
+      "url": "https://ecfr.eu/podcasts/episode/the-china-native-generation",
+      "published_at": "2026-07-24T05:00:00Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
       "id": "3d1fa7462cca7bc1479cf4b5",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1626,6 +1927,34 @@
       ]
     },
     {
+      "id": "8966f5926726e7b6481172c9",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The magnificent ten: A coalition of the willing to drive the EU’s next enlargement",
+      "url": "https://ecfr.eu/publication/the-magnificent-ten-a-coalition-of-the-willing-to-drive-the-eus-next-enlargement",
+      "published_at": "2026-07-23T14:16:18Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "2c956b13fa6c84b7b8d93f9a",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "One foot out: Understanding Bulgaria’s geopolitical shift under Radev",
+      "url": "https://ecfr.eu/article/one-foot-out-understanding-bulgarias-geopolitical-shift-under-radev",
+      "published_at": "2026-07-23T13:51:12Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
       "id": "b9325c99c080d1251fe1e98d",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1637,6 +1966,48 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "60cac99c9e46dc0a881e8d1e",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "How better climate diplomacy can save Europe’s green ambitions",
+      "url": "https://ecfr.eu/article/how-better-climate-diplomacy-can-save-europes-green-ambitions",
+      "published_at": "2026-07-22T16:02:40Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "73800233224c41d78576b7b1",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "ECFR’s summer entertainment list 2026",
+      "url": "https://ecfr.eu/article/ecfrs-summer-entertainment-list-2026",
+      "published_at": "2026-07-21T15:05:36Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "104f9a5cf2a8ac274a43db41",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Managed disorder: The hard road to a modest peace with Russia after Ukraine",
+      "url": "https://ecfr.eu/publication/managed-disorder-the-hard-road-to-a-modest-peace-with-russia-after-ukraine",
+      "published_at": "2026-07-21T08:00:00Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
@@ -1665,6 +2036,104 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "c3d7ef0ac30592409cc1a61d",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The fallout of the fallout: Zelensky’s reshuffle and protests in Ukraine",
+      "url": "https://ecfr.eu/article/the-fallout-of-the-fallout-zelenskys-reshuffle-and-protests-in-ukraine",
+      "published_at": "2026-07-17T16:28:53Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "5e8aeddbe0ad848134c88f0c",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Lebanon: On the brink of war or peace?",
+      "url": "https://ecfr.eu/podcasts/episode/lebanon-on-the-brink-of-war-or-peace",
+      "published_at": "2026-07-17T08:47:40Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "0976be26b42c8d55d3bf699d",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "European defence after the NATO summit",
+      "url": "https://ecfr.eu/podcasts/episode/european-defence-after-the-nato-summit",
+      "published_at": "2026-07-17T05:00:00Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "e14fcd15de4ed3e7a78dcea1",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The tragedy of “Westalgia”",
+      "url": "https://ecfr.eu/article/the-tragedy-of-westalgia",
+      "published_at": "2026-07-16T11:18:43Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "2e29bd01e248d42ac018c10b",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Europe’s problem in Italy: How to resist the rise of Roberto Vannacci",
+      "url": "https://ecfr.eu/article/europes-problem-in-italy-how-to-resist-the-rise-of-roberto-vannacci",
+      "published_at": "2026-07-16T11:18:05Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "54fe479ddff36f609c89425c",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Down and out from Rabat to Cairo: The Iran war and North African instability",
+      "url": "https://ecfr.eu/article/down-and-out-from-rabat-to-cairo-the-iran-war-and-north-african-instability",
+      "published_at": "2026-07-15T15:48:56Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "86ff7ecaed0ab2f714cfbafa",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The EU should ban all trade with Israeli settlements",
+      "url": "https://ecfr.eu/article/the-eu-should-ban-all-trade-with-israeli-settlements",
+      "published_at": "2026-07-12T20:15:16Z",
+      "collected_at": "2026-08-09T04:00:46Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
