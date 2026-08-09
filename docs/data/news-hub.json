@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-09T10:00:43Z",
-  "last_successful_collection_at": "2026-08-09T10:00:43Z",
+  "generated_at": "2026-08-09T10:30:45Z",
+  "last_successful_collection_at": "2026-08-09T10:30:45Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-09T10:00:43Z"
+      "at": "2026-08-09T10:30:45Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "38",
-      "at": "2026-08-09T10:00:43Z"
+      "at": "2026-08-09T10:30:45Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-09T10:00:43Z"
+      "at": "2026-08-09T10:30:45Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,48 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-09T10:00:43Z"
+      "at": "2026-08-09T10:30:45Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-09T10:00:43Z"
+      "at": "2026-08-09T10:30:45Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-09T10:00:43Z"
+      "at": "2026-08-09T10:30:45Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-09T10:00:43Z"
+      "at": "2026-08-09T10:30:45Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-09T10:00:43Z"
+      "at": "2026-08-09T10:30:45Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-09T10:00:43Z"
+      "at": "2026-08-09T10:30:45Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Spain imposes border checks on Italian travellers amid migrant dispute",
-      "summary": "Spain has implemented border checks on Italian travelers following escalating tensions over migration management between the two EU countries. The measures aim to control migrant flows but have intensified disputes at the Ceuta border.",
+      "title": "Spain-Italy Border Dispute",
+      "summary": "Spain has implemented border checks on Italian travelers due to a migration dispute. This move follows tensions between the two nations regarding migration management.",
       "article_ids": [
-        "1ea66e8bffbdd9493d30ec53"
+        "1ea66e8bffbdd9493d30ec53",
+        "a5517bd1b96b89795d636a04",
+        "26f7a9214082526fba7f5351",
+        "1b17115d37da9b6e8951f67c"
       ],
       "sources": [
         {
@@ -75,35 +78,48 @@
           "url": "https://www.france24.com/en/spain-starts-border-checks-on-italy-over-ceuta-dispute",
           "headline": "Spain starts border checks on Italy over Ceuta dispute",
           "published_at": "2026-08-09T09:02:17Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260808-spain-imposes-border-checks-on-italian-travellers-amid-migrant-dispute",
+          "headline": "Spain imposes border checks on Italian travellers amid migrant dispute",
+          "published_at": "2026-08-08T17:07:07Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Russian strikes kill four as Kyiv hits oil refinery",
-      "summary": "Russian military attacks in Ukraine have caused significant casualties, including four deaths near Kyiv's oil refinery. The strikes underscore the persistent security threats amid ongoing diplomatic and military developments.",
+      "title": "Ukraine Conflict Escalation",
+      "summary": "Russian strikes have caused fatalities and targeted an oil refinery in Kyiv. The attacks have led to concerns regarding potential winter power crises in Ukraine.",
       "article_ids": [
-        "ea662481d65d573fd368a2cf"
+        "fd38052ebaac282f4a311855",
+        "242de2ad44e1976191203dfb"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russia-attack-across-ukraine-kills-12-injures-over-80-overnight",
-          "headline": "Russian strikes on Ukraine kill 12, wound over 80 overnight",
-          "published_at": "2026-08-08T10:34:02Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/russian-strikes-kill-four-as-kyiv-hits-oil-refinery",
+          "headline": "Russian strikes kill four as Kyiv hits oil refinery",
+          "published_at": "2026-08-08T15:29:49Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260808-ukraine-braces-for-winter-power-crisis-after-russian-strikes-zelensky-says",
+          "headline": "Ukraine braces for winter power crisis after Russian strikes, Zelensky says",
+          "published_at": "2026-08-08T19:48:21Z"
         }
       ],
       "source_count": 1
     }
   ],
-  "top_stories": [],
-  "developing": [
+  "top_stories": [
     {
-      "label": "Kosovo · PM",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-08T20:31:00Z",
+      "title": "Political Unrest in Kosovo",
+      "summary": "The Prime Minister of Kosovo was targeted with eggs during a parliamentary session. This incident occurred amidst an ongoing political crisis in the country.",
+      "article_ids": [
+        "6286cdd976654cccc3e88dc0",
+        "7ce71b223f111c8e9147ce80"
+      ],
       "sources": [
         {
           "publisher": "Deutsche Welle",
@@ -117,20 +133,23 @@
           "headline": "Watch: Moment opposition MP throws eggs at Kosovo's acting PM",
           "published_at": "2026-08-08T15:59:37Z"
         }
-      ]
-    },
+      ],
+      "source_count": 2
+    }
+  ],
+  "developing": [
     {
-      "label": "braces · crisis · power · Russian",
+      "label": "attacks · kill · Russian · several",
       "origin": "radar",
       "source_count": 1,
       "item_count": 1,
-      "latest_at": "2026-08-08T19:48:21Z",
+      "latest_at": "2026-08-08T13:12:48Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260808-ukraine-braces-for-winter-power-crisis-after-russian-strikes-zelensky-says",
-          "headline": "Ukraine braces for winter power crisis after Russian strikes, Zelensky says",
-          "published_at": "2026-08-08T19:48:21Z"
+          "url": "https://www.france24.com/en/russian-attacks-kill-several-in-ukraine",
+          "headline": "Russian attacks kill several in Ukraine",
+          "published_at": "2026-08-08T13:12:48Z"
         }
       ]
     },
@@ -161,6 +180,21 @@
           "url": "https://www.politico.eu/article/germany-battling-daily-hybrid-warfare-attacks-minister-warns",
           "headline": "Germany battling “daily” hybrid warfare attacks, minister warns",
           "published_at": "2026-08-09T09:16:31Z"
+        }
+      ]
+    },
+    {
+      "label": "British · Columbia · declares · emergency",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-08-09T08:58:09Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/wildfires-british-columbia-declares-state-of-emergency-thousands-forced-to-flee-homes",
+          "headline": "Wildfires: British Columbia declares state of emergency, thousands forced to flee homes",
+          "published_at": "2026-08-09T08:58:09Z"
         }
       ]
     }
@@ -412,6 +446,20 @@
       "url": "https://www.france24.com/en/middle-east/20260809-middle-east-live-iran-issues-list-of-demands-for-reopening-strait-of-hormuz",
       "published_at": "2026-08-09T05:01:29Z",
       "collected_at": "2026-08-09T05:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "96914396319f19e00813715b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Middle East live: Iran Guards say Hormuz will not reopen until US accepts all of Tehran's demands",
+      "url": "https://www.france24.com/en/middle-east/20260809-middle-east-live-iran-issues-list-of-demands-for-reopening-strait-of-hormuz",
+      "published_at": "2026-08-09T05:01:29Z",
+      "collected_at": "2026-08-09T10:30:45Z",
       "topics": [
         "politics",
         "security",
@@ -825,34 +873,6 @@
       ]
     },
     {
-      "id": "98c10cac0f744367d2d54ebb",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US scientists turn to sharks for help with hurricane prediction",
-      "url": "https://www.france24.com/en/science/20260808-sharks-tapped-help-with-hurricane-prediction",
-      "published_at": "2026-08-08T10:17:48Z",
-      "collected_at": "2026-08-08T10:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "352664fe1cf1aba435209369",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US Senate narrowly confirms Trump loyalist Todd Blanche as attorney general",
-      "url": "https://www.france24.com/en/americas/20260808-us-senate-confirms-trump-s-ex-lawyer-as-attorney-general",
-      "published_at": "2026-08-08T08:51:10Z",
-      "collected_at": "2026-08-08T10:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "4f0c4e8b3470df327315a104",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -864,6 +884,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "1fbb8b7bd666c2857804411c",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Hungary faces record heat, nuclear fears and a public media scandal ahead of August presidential vote (Day 87 of the Tisza government)",
+      "url": "https://euobserver.com/231663/hungary-faces-record-heat-nuclear-fears-and-a-public-media-scandal-ahead-of-august-presidential-vote-day-87-of-the-tisza-government",
+      "published_at": "2026-08-07T09:25:00Z",
+      "collected_at": "2026-08-09T10:30:45Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -1609,20 +1643,6 @@
       ]
     },
     {
-      "id": "337e0d1ba6d9b2c4a4ffaeee",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Poland: Prime Minister Tusk defies anti-Ukrainian violence",
-      "url": "https://www.dw.com/en/poland-prime-minister-tusk-defies-anti-ukrainian-violence/a-78203187?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-02T09:24:00Z",
-      "collected_at": "2026-08-08T10:30:41Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "6c3b7e8bb8b9ef9b4c411e2f",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1718,6 +1738,34 @@
         "analysis",
         "foreign_policy",
         "security"
+      ]
+    },
+    {
+      "id": "98199b1f8821a806157c1891",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Members only: Private clubs for the wealthy take over Madrid",
+      "url": "https://english.elpais.com/lifestyle/2026-07-29/members-only-private-clubs-for-the-wealthy-take-over-madrid.html",
+      "published_at": "2026-07-29T20:00:40Z",
+      "collected_at": "2026-08-09T10:30:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "853743a115377c94b2d54acc",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘A fascination with faeces’: How stool-gazing became a social media trend",
+      "url": "https://english.elpais.com/health/2026-07-29/a-fascination-with-faeces-how-stool-gazing-became-a-social-media-trend.html",
+      "published_at": "2026-07-29T19:44:14Z",
+      "collected_at": "2026-08-09T10:30:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
