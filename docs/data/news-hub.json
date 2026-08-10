@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-10T17:30:51Z",
-  "last_successful_collection_at": "2026-08-10T17:30:51Z",
+  "generated_at": "2026-08-10T18:00:45Z",
+  "last_successful_collection_at": "2026-08-10T18:00:45Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-10T17:30:51Z"
+      "at": "2026-08-10T18:00:45Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-08-10T17:30:51Z"
+      "at": "2026-08-10T18:00:45Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-10T17:30:51Z"
+      "at": "2026-08-10T18:00:45Z"
     },
     {
       "id": "euractiv",
@@ -29,44 +29,45 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-10T17:30:51Z"
+      "at": "2026-08-10T18:00:45Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-10T17:30:51Z"
+      "at": "2026-08-10T18:00:45Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-10T17:30:51Z"
+      "at": "2026-08-10T18:00:45Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-10T17:30:51Z"
+      "at": "2026-08-10T18:00:45Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-10T17:30:51Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-10T18:00:45Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-10T17:30:51Z"
+      "at": "2026-08-10T18:00:45Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ukraine drone strike in Russia",
-      "summary": "A Ukrainian drone strike targeting a Russian oil-refining city has resulted in at least 12 deaths. The attack occurred deep within Russian territory.",
+      "title": "Ukraine Drone Strike in Russia",
+      "summary": "A Ukrainian drone attack kills 13 people in a Russian oil-refining city, escalating security tensions in the region.",
       "article_ids": [
+        "9fd0bc9c65d6b8c64c731b16",
         "ad091749a89e504295fec3f1"
       ],
       "sources": [
@@ -78,85 +79,55 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Ceuta migration crisis",
-      "summary": "Italian and Spanish leaders have joined to condemn uncontrolled immigration following a crisis in Ceuta. The leaders expressed unified opposition to the current migration trends.",
-      "article_ids": [
-        "852f209d76087d501c8c1692"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/giorgia-meloni-mette-frederisken-unite-to-condemn-uncontrolled-immigration-after-ceuta-crisis",
-          "headline": "Meloni, Frederiksen unite to condemn ‘uncontrolled immigration’ after Ceuta crisis",
-          "published_at": "2026-08-10T12:22:14Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
-  "top_stories": [
+  "top_stories": [],
+  "developing": [
     {
-      "title": "Extreme Weather in Western Europe",
-      "summary": "Record-breaking heatwaves and wildfires are impacting Western Europe. Drought conditions have also led to water restrictions across nearly 70 percent of France.",
-      "article_ids": [
-        "9085d0d440b04ce5633bf595",
-        "9fd0bc9c65d6b8c64c731b16"
-      ],
+      "label": "drone · Russia · Ukrainian · strike",
+      "origin": "convergence",
+      "source_count": 4,
+      "item_count": 4,
+      "latest_at": "2026-08-10T14:26:15Z",
       "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/live-news/20260810-drought-forces-water-restrictions-across-nearly-70-percent-of-france",
-          "headline": "Drought forces water restrictions across nearly 70 percent of France",
-          "published_at": "2026-08-10T14:27:14Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260810-nearly-70-percent-of-france-under-water-restrictions-amid-record-heat",
-          "headline": "Nearly 70 percent of France under water restrictions amid record heat",
-          "published_at": "2026-08-10T14:27:14Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Security and Geopolitics",
-      "summary": "Banned Russian fuel continues to enter European ports with cargo volumes doubling in July. Meanwhile, the Moldovan president has condemned Russia following a drone crash.",
-      "article_ids": [
-        "443d356d9ffebeb9cb5a1a3b",
-        "3c7e33370aeb22830021fe9a"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/231924/banned-russian-fuel-keeps-re-entering-eu-ports-with-cargoes-doubling-in-july",
-          "headline": "Banned Russian fuel keeps re-entering EU ports, with cargoes doubling in July",
-          "published_at": "2026-08-10T15:11:36Z"
-        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/moldova-president-maia-sandu-condemn-russia-drone-crash",
           "headline": "Moldovan president condemns Russia over killer drone crash",
           "published_at": "2026-08-10T14:26:15Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/231882/russias-new-droneproof-tanks-overwhelmed-by-ukrainian-swarms-in-donbas-battle-ukraine-battlefield-update-day-1628",
+          "headline": "Russia’s new ‘drone‑proof’ tanks overwhelmed by Ukrainian swarms in Donbas battle (Ukraine Battlefield update, Day 1,628)",
+          "published_at": "2026-08-10T13:52:57Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
+          "headline": "At least 13 killed in Ukrainian drone strike deep into Russia",
+          "published_at": "2026-08-10T12:13:22Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260810-hundreds-of-ukrainian-drones-target-russia-in-overnight-strikes",
+          "headline": "Hundreds of Ukrainian drones target Russia in deadly overnight strikes",
+          "published_at": "2026-08-10T06:34:13Z"
         }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
+      ]
+    },
     {
       "label": "Colombia · magnitude · earthquake · dead",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-08-10T17:12:34Z",
+      "item_count": 6,
+      "latest_at": "2026-08-10T17:37:14Z",
       "sources": [
         {
           "publisher": "EL PAÍS English",
           "url": "https://english.elpais.com/international/2026-08-10/at-least-25-people-dead-as-magnitude-74-earthquake-hits-colombia.html",
-          "headline": "At least 70 people dead as magnitude 7.4 earthquake hits Colombia",
-          "published_at": "2026-08-10T17:12:34Z"
+          "headline": "At least 80 people dead as magnitude 7.4 earthquake hits Colombia",
+          "published_at": "2026-08-10T17:37:14Z"
         },
         {
           "publisher": "France 24 English",
@@ -188,43 +159,70 @@
       ]
     },
     {
-      "label": "July · record",
+      "label": "fuel · July",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-08-10T10:24:46Z",
+      "latest_at": "2026-08-10T15:11:36Z",
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss",
-          "headline": "World's oceans hit record-high July temperatures",
-          "published_at": "2026-08-10T10:24:46Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/231924/banned-russian-fuel-keeps-re-entering-eu-ports-with-cargoes-doubling-in-july",
+          "headline": "Banned Russian fuel keeps re-entering EU ports, with cargoes doubling in July",
+          "published_at": "2026-08-10T15:11:36Z"
         },
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/western-europe-records-hottest-june-and-july-on-record/a-78298751?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Western Europe records hottest June and July on record",
-          "published_at": "2026-08-10T03:49:00Z"
-        }
-      ]
-    },
-    {
-      "label": "anti · cities · held · Polish",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 2,
-      "latest_at": "2026-08-10T11:26:58Z",
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/08/10/protests-against-anti-ukrainianian-violence-held-in-25-polish-cities",
-          "headline": "Protests against anti-Ukrainianian violence held in 25 Polish cities",
-          "published_at": "2026-08-10T11:26:58Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260810-western-europe-saw-hottest-june-july-on-record-as-climate-change-fuels-historic-summer",
+          "headline": "Western Europe saw hottest June-July on record as climate change fuels drought, wildfires",
+          "published_at": "2026-08-10T02:15:21Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "4918eaa2befe6d16a222b741",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Tensions in the Arctic: Greenland issues sharp rebuke to Trump-linked oil company",
+      "url": "https://www.france24.com/en/europe/20260810-tensions-in-the-arctic-greenland-issues-sharp-rebuke-to-trump-linked-oil-company",
+      "published_at": "2026-08-10T17:47:25Z",
+      "collected_at": "2026-08-10T18:00:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "8a0de027fc4a5b7cf56bc293",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "At least 80 people dead as magnitude 7.4 earthquake hits Colombia",
+      "url": "https://english.elpais.com/international/2026-08-10/at-least-25-people-dead-as-magnitude-74-earthquake-hits-colombia.html",
+      "published_at": "2026-08-10T17:37:14Z",
+      "collected_at": "2026-08-10T18:00:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "eb4011dab01e0213620c8434",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Vicente Fox: ‘People need to be given training, not money so they can just lie around’",
+      "url": "https://english.elpais.com/international/2026-08-10/vicente-fox-people-need-to-be-given-training-not-money-so-they-can-just-lie-around.html",
+      "published_at": "2026-08-10T17:24:14Z",
+      "collected_at": "2026-08-10T18:00:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "6eb684fdc3fe517d1b65be00",
       "source_id": "el_pais_english",
