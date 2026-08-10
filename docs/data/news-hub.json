@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-10T11:30:37Z",
-  "last_successful_collection_at": "2026-08-10T11:30:37Z",
+  "generated_at": "2026-08-10T12:00:49Z",
+  "last_successful_collection_at": "2026-08-10T12:00:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-10T11:30:37Z"
+      "at": "2026-08-10T12:00:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "27",
-      "at": "2026-08-10T11:30:37Z"
+      "at": "2026-08-10T12:00:49Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-10T11:30:37Z"
+      "status": "ok",
+      "count": "23",
+      "at": "2026-08-10T12:00:49Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,54 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-10T11:30:37Z"
+      "at": "2026-08-10T12:00:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-10T11:30:37Z"
+      "at": "2026-08-10T12:00:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-10T11:30:37Z"
+      "at": "2026-08-10T12:00:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-10T11:30:37Z"
+      "at": "2026-08-10T12:00:49Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-10T11:30:37Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-10T12:00:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-10T11:30:37Z"
+      "at": "2026-08-10T12:00:49Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ukraine-Russia conflict escalation with overnight strikes",
-      "summary": "Ukrainian drones and missiles targeted Russian regions overnight, causing casualties and infrastructure damage. The conflict shows no signs of de-escalation, with both sides exchanging deadly attacks.",
+      "title": "Ukraine-Russia conflict escalates with overnight strikes",
+      "summary": "Hundreds of Ukrainian drones targeted Russia in deadly overnight strikes. At least 13 people were killed in a Ukrainian strike on Russia's Tatarstan region.",
       "article_ids": [
+        "053e60d8aad76932556d107b",
         "a7be63c0d2fc670d248eeb82"
       ],
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260810-hundreds-of-ukrainian-drones-target-russia-in-overnight-strikes",
+          "headline": "Hundreds of Ukrainian drones target Russia in deadly overnight strikes",
+          "published_at": "2026-08-10T06:34:13Z"
+        },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
@@ -77,32 +84,14 @@
           "published_at": "2026-08-10T10:03:58Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Wildfires in Southern France forcing evacuations",
-      "summary": "A major wildfire in southern France has prompted mass evacuations and disrupted local infrastructure. The fire is linked to extreme heat conditions, highlighting climate-related risks in the region.",
-      "article_ids": [
-        "546bbaf4d1c3fe7a27798362"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260809-wildfire-rages-in-southern-france-forcing-evacuations",
-          "headline": "Wildfire rages in southern France, forcing evacuations",
-          "published_at": "2026-08-09T17:21:52Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Western Europe's record-breaking heatwave and wildfires",
-      "summary": "Western Europe experienced its hottest June and July on record, exacerbating drought conditions and wildfire risks. Southern France's wildfire has forced evacuations, underscoring climate extremes.",
+      "title": "Western Europe records hottest June and July on record",
+      "summary": "Western Europe experienced record-breaking heat during June and July, with temperatures reaching unprecedented levels. The extreme heat has fueled drought conditions and increased wildfire risks across the region.",
       "article_ids": [
         "0726adc078db9a75b89f97fd",
-        "546bbaf4d1c3fe7a27798362"
+        "a350e9559bd9a08db112ba72"
       ],
       "sources": [
         {
@@ -110,41 +99,20 @@
           "url": "https://www.dw.com/en/western-europe-records-hottest-june-and-july-on-record/a-78298751?maca=en-rss-en-eu-2092-rdf",
           "headline": "Western Europe records hottest June and July on record",
           "published_at": "2026-08-10T03:49:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260809-wildfire-rages-in-southern-france-forcing-evacuations",
-          "headline": "Wildfire rages in southern France, forcing evacuations",
-          "published_at": "2026-08-09T17:21:52Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Geopolitical tensions in Ceuta and Ukraine",
-      "summary": "Spain initiated border checks on Italy over the Ceuta migration dispute, escalating regional tensions. Concurrently, Ukraine-Russia strikes continue, with recent attacks causing significant casualties.",
-      "article_ids": [
-        "6ac0c0e718b507f39ce1af6d",
-        "a7be63c0d2fc670d248eeb82"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
-          "headline": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
-          "published_at": "2026-08-10T10:03:58Z"
         }
       ],
       "source_count": 1
     }
   ],
-  "developing": [
+  "top_stories": [
     {
-      "label": "Kinahan · boss · crime · Daniel",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 6,
-      "latest_at": "2026-08-10T10:07:54Z",
+      "title": "Suspected crime boss Daniel Kinahan extradited to Ireland",
+      "summary": "Daniel Kinahan, a suspected crime boss, was extradited from Dubai and charged in Dublin upon arrival. He appeared in court following his extradition and spent his first night in custody in Ireland.",
+      "article_ids": [
+        "111f9f9dd8bb3025c089a413",
+        "6ac0c0e718b507f39ce1af6d",
+        "edce80e5e4354c54c18df713"
+      ],
       "sources": [
         {
           "publisher": "France 24 English",
@@ -158,8 +126,29 @@
           "headline": "Suspected crime boss Kinahan spends first night in custody in Ireland",
           "published_at": "2026-08-10T09:33:25Z"
         }
-      ]
+      ],
+      "source_count": 2
     },
+    {
+      "title": "Wildfire forces evacuations in southern France",
+      "summary": "A wildfire raged in southern France, prompting evacuations of residents and tourists. The fire spread rapidly amid dry conditions linked to the ongoing regional heatwave.",
+      "article_ids": [
+        "546bbaf4d1c3fe7a27798362",
+        "c83c33e46369e029b70ef8f8",
+        "e260ad561a2bd0425a314c13"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20260809-wildfire-rages-in-southern-france-forcing-evacuations",
+          "headline": "Wildfire rages in southern France, forcing evacuations",
+          "published_at": "2026-08-09T17:21:52Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
     {
       "label": "Gaza · Trump · Netanyahu · peace",
       "origin": "convergence",
@@ -197,17 +186,32 @@
       ]
     },
     {
-      "label": "deadly · drones · Hundreds · overnight",
+      "label": "deadly · exchange · overnight · Russia",
       "origin": "radar",
       "source_count": 1,
       "item_count": 1,
-      "latest_at": "2026-08-10T06:34:13Z",
+      "latest_at": "2026-08-09T13:22:24Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260810-hundreds-of-ukrainian-drones-target-russia-in-overnight-strikes",
-          "headline": "Hundreds of Ukrainian drones target Russia in deadly overnight strikes",
-          "published_at": "2026-08-10T06:34:13Z"
+          "url": "https://www.france24.com/en/russia-and-ukraine-exchange-deadly-overnight-strikes",
+          "headline": "Russia and Ukraine exchange deadly overnight strikes",
+          "published_at": "2026-08-09T13:22:24Z"
+        }
+      ]
+    },
+    {
+      "label": "agree · bases · Mediterranean · military",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-08-09T15:58:21Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east/20260809-syria-russia-agree-to-end-military-use-of-key-mediterranean-bases",
+          "headline": "Syria, Russia agree to end military use of key Mediterranean bases",
+          "published_at": "2026-08-09T15:58:21Z"
         }
       ]
     }
@@ -224,6 +228,34 @@
       "topics": [
         "central_europe",
         "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "afcfc8f3c30239189798af2a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ivory Coast's Biama boom: TikTok trend gets the nation's youth dancing",
+      "url": "https://www.france24.com/en/tv-shows/focus/20260810-ivory-coast-s-biama-boom-tiktok-trend-gets-the-nation-s-youth-dancing",
+      "published_at": "2026-08-10T11:25:24Z",
+      "collected_at": "2026-08-10T12:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "67455fa5ac7eaf281688ff73",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "China: Tropical storm Dolphin causes floodings",
+      "url": "https://www.france24.com/en/video/20260810-china-tropical-storm-dolphin-causes-floodings",
+      "published_at": "2026-08-10T11:22:10Z",
+      "collected_at": "2026-08-10T12:00:49Z",
+      "topics": [
+        "politics",
+        "security",
         "society"
       ]
     },
@@ -1012,48 +1044,6 @@
       ]
     },
     {
-      "id": "6c26758ff027dec5781c3834",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Blast wounds two as de la Espriella cracks down on prisons",
-      "url": "https://www.france24.com/en/blast-wounds-two-as-de-la-espriella-cracks-down-on-prisons",
-      "published_at": "2026-08-09T11:36:54Z",
-      "collected_at": "2026-08-09T12:00:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "6ad9dfc26e458cd0b17b41b7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France faces reckoning on child abuse",
-      "url": "https://www.france24.com/en/france-faces-reckoning-on-child-abuse",
-      "published_at": "2026-08-09T11:34:57Z",
-      "collected_at": "2026-08-09T12:00:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "9429de713b73e563d2303762",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Iran, Oman near deal on Strait of Hormuz",
-      "url": "https://www.france24.com/en/iran-oman-near-deal-on-strait-of-hormuz",
-      "published_at": "2026-08-09T11:33:01Z",
-      "collected_at": "2026-08-09T12:00:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "ba9e8d6151292aeb14ccf1f7",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1065,34 +1055,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "bfe6e14d797d1830bd8710f6",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Infantino denies affair allegation, FIFA slams ‘concerted’ effort to weaken him",
-      "url": "https://www.france24.com/en/sport/20260809-infantino-denies-affair-allegation-fifa-slams-concerted-effort-to-weaken-him",
-      "published_at": "2026-08-09T06:23:20Z",
-      "collected_at": "2026-08-09T12:00:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "7add7ced78d47d021254554c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Middle East live: Netanyahu rejects Trump’s 15-point Gaza plan",
-      "url": "https://www.france24.com/en/middle-east/20260809-middle-east-live-iran-issues-list-of-demands-for-reopening-strait-of-hormuz",
-      "published_at": "2026-08-09T05:01:29Z",
-      "collected_at": "2026-08-09T12:00:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -1530,48 +1492,6 @@
       ]
     },
     {
-      "id": "1081c4f1a8237a9996ab0e56",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Europe is creating a new international court for Putin — one he may never face while in power",
-      "url": "https://euobserver.com/231739/europe-is-creating-a-new-international-court-for-putin-one-he-may-never-face-while-in-power",
-      "published_at": "2026-08-07T11:49:11Z",
-      "collected_at": "2026-08-09T12:00:48Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "bea13a61ef1d03b07d67d251",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "A strained Colombia ushers in a new political era with Abelardo de la Espriella",
-      "url": "https://english.elpais.com/international/2026-08-07/a-strained-colombia-ushers-in-a-new-political-era-with-abelardo-de-la-espriella.html",
-      "published_at": "2026-08-07T10:56:39Z",
-      "collected_at": "2026-08-09T12:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "9c9bac6d9ec3a917de97def9",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Drought threatens power supplies in Danube countries",
-      "url": "https://www.dw.com/en/drought-threatens-power-supplies-in-danube-countries/a-78269916?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-06T19:55:00Z",
-      "collected_at": "2026-08-09T12:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "a7fcec9dbc92b74b531f142d",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1583,6 +1503,48 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "31bef7441acff2b905a4bd81",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Polish top court confirms withholding funds from opposition PiS party over campaign finance irregularities",
+      "url": "https://notesfrompoland.com/2026/08/06/polish-top-court-confirms-withholding-funds-from-opposition-pis-party-over-campaign-finance-irregularities",
+      "published_at": "2026-08-06T10:42:06Z",
+      "collected_at": "2026-08-10T12:00:49Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "b6a03b12e7c48003298f14b3",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Neighborhood patrols encourage outbreaks of violence against migrants in Ceuta",
+      "url": "https://english.elpais.com/international/2026-08-06/neighborhood-patrols-encourage-outbreaks-of-violence-against-migrants-in-ceuta.html",
+      "published_at": "2026-08-06T10:40:25Z",
+      "collected_at": "2026-08-10T12:00:49Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "59a8c826b1c5d297105f68f7",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Extreme heat puts €800bn hole in Europe’s economy — as Germany, France and Italy bear the brunt",
+      "url": "https://euobserver.com/228758/extreme-heat-poses-e800bn-threat-to-eu-economies-with-germany-most-exposed",
+      "published_at": "2026-08-06T10:28:05Z",
+      "collected_at": "2026-08-10T12:00:49Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -1807,20 +1769,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "0a673a6cb0e79a521041a232",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Ric Prado, ex-CIA officer: ‘Cuba is the next apple to fall from the tree’",
-      "url": "https://english.elpais.com/international/2026-08-05/ric-prado-ex-cia-officer-cuba-is-the-next-apple-to-fall-from-the-tree.html",
-      "published_at": "2026-08-05T10:09:29Z",
-      "collected_at": "2026-08-09T11:30:37Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
