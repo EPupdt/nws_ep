@@ -269,9 +269,26 @@
     "59b23b13c04c2a2f14b26b88": "2026-08-10T11:00:48Z",
     "c95486933448a6d261c41407": "2026-08-10T11:00:48Z",
     "d5a9a087f61f6b1266d3bd05": "2026-08-10T11:00:48Z",
-    "63c8171dbaf4156fb4d52a7b": "2026-08-10T11:00:48Z"
+    "63c8171dbaf4156fb4d52a7b": "2026-08-10T11:00:48Z",
+    "a7be63c0d2fc670d248eeb82": "2026-08-10T11:30:37Z",
+    "537d296551ae6e2dbb372fa6": "2026-08-10T11:30:37Z",
+    "d1c97d664dd7b896ff26d88b": "2026-08-10T11:30:37Z"
   },
   "radar": [
+    {
+      "id": "d1c97d664dd7b896ff26d88b",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Protests against anti-Ukrainianian violence held in 25 Polish cities",
+      "url": "https://notesfrompoland.com/2026/08/10/protests-against-anti-ukrainianian-violence-held-in-25-polish-cities",
+      "published_at": "2026-08-10T11:26:58Z",
+      "collected_at": "2026-08-10T11:30:37Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "63c8171dbaf4156fb4d52a7b",
       "source_id": "ecfr",
@@ -284,6 +301,20 @@
         "analysis",
         "foreign_policy",
         "security"
+      ]
+    },
+    {
+      "id": "537d296551ae6e2dbb372fa6",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "World's oceans hit record-high July temperatures",
+      "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-10T10:24:46Z",
+      "collected_at": "2026-08-10T11:30:37Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -339,6 +370,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a7be63c0d2fc670d248eeb82",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
+      "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-10T10:03:58Z",
+      "collected_at": "2026-08-10T11:30:37Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -2054,14 +2099,6 @@
   "recent_topics": [
     {
       "at": "2026-08-08T07:30:48Z",
-      "title": "Ceuta border crisis: Spain imposes checks on Italy travelers"
-    },
-    {
-      "at": "2026-08-08T07:30:48Z",
-      "title": "Ukraine missile strikes near Kyiv kill three"
-    },
-    {
-      "at": "2026-08-08T07:30:48Z",
       "title": "Climate change challenges for European winemakers"
     },
     {
@@ -2371,15 +2408,56 @@
     {
       "at": "2026-08-10T10:30:40Z",
       "title": "FIFA Leadership Controversy"
+    },
+    {
+      "at": "2026-08-10T11:30:37Z",
+      "title": "Western Europe's record-breaking heatwave and wildfires"
+    },
+    {
+      "at": "2026-08-10T11:30:37Z",
+      "title": "Geopolitical tensions in Ceuta and Ukraine"
     }
   ],
   "alerts": [],
   "last_selection": {
-    "europe_now": [],
+    "europe_now": [
+      {
+        "title": "Ukraine-Russia conflict escalation with overnight strikes",
+        "summary": "Ukrainian drones and missiles targeted Russian regions overnight, causing casualties and infrastructure damage. The conflict shows no signs of de-escalation, with both sides exchanging deadly attacks.",
+        "article_ids": [
+          "a7be63c0d2fc670d248eeb82"
+        ],
+        "sources": [
+          {
+            "publisher": "BBC News Europe",
+            "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
+            "headline": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
+            "published_at": "2026-08-10T10:03:58Z"
+          }
+        ],
+        "source_count": 1
+      },
+      {
+        "title": "Wildfires in Southern France forcing evacuations",
+        "summary": "A major wildfire in southern France has prompted mass evacuations and disrupted local infrastructure. The fire is linked to extreme heat conditions, highlighting climate-related risks in the region.",
+        "article_ids": [
+          "546bbaf4d1c3fe7a27798362"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/france/20260809-wildfire-rages-in-southern-france-forcing-evacuations",
+            "headline": "Wildfire rages in southern France, forcing evacuations",
+            "published_at": "2026-08-09T17:21:52Z"
+          }
+        ],
+        "source_count": 1
+      }
+    ],
     "top_stories": [
       {
-        "title": "Climate Extremes in Western Europe",
-        "summary": "Western Europe recorded its hottest June and July on record, exacerbating drought and wildfire conditions. Southern France faced a major wildfire, forcing evacuations.",
+        "title": "Western Europe's record-breaking heatwave and wildfires",
+        "summary": "Western Europe experienced its hottest June and July on record, exacerbating drought conditions and wildfire risks. Southern France's wildfire has forced evacuations, underscoring climate extremes.",
         "article_ids": [
           "0726adc078db9a75b89f97fd",
           "546bbaf4d1c3fe7a27798362"
@@ -2401,29 +2479,23 @@
         "source_count": 2
       },
       {
-        "title": "FIFA Leadership Controversy",
-        "summary": "FIFA officials criticized Infantino's leadership, asserting that football belongs to no individual. The controversy highlights governance issues within the sport.",
+        "title": "Geopolitical tensions in Ceuta and Ukraine",
+        "summary": "Spain initiated border checks on Italy over the Ceuta migration dispute, escalating regional tensions. Concurrently, Ukraine-Russia strikes continue, with recent attacks causing significant casualties.",
         "article_ids": [
-          "caca9895565d07029a8607f5",
-          "870181f2762510988f90da69"
+          "6ac0c0e718b507f39ce1af6d",
+          "a7be63c0d2fc670d248eeb82"
         ],
         "sources": [
           {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/sport/20260810-football-fifa-uefa-infantino-world-cup-sport",
-            "headline": "🔴 FIFA: UEFA, AFC, CONCACAF slam Infantino, say football 'belongs to no individual'",
-            "published_at": "2026-08-10T08:48:14Z"
-          },
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/sport/20260810-football-fifa-uefa-infantino-world-cup-sport",
-            "headline": "UEFA, CONCACAF and AFC slam Infantino, say football 'belongs to no individual'",
-            "published_at": "2026-08-10T08:46:27Z"
+            "publisher": "BBC News Europe",
+            "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
+            "headline": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
+            "published_at": "2026-08-10T10:03:58Z"
           }
         ],
         "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-08-10T11:00:48Z"
+  "last_collection_at": "2026-08-10T11:30:37Z"
 }
