@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-10T18:00:45Z",
-  "last_successful_collection_at": "2026-08-10T18:00:45Z",
+  "generated_at": "2026-08-10T18:30:41Z",
+  "last_successful_collection_at": "2026-08-10T18:30:41Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-10T18:00:45Z"
+      "at": "2026-08-10T18:30:41Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-08-10T18:00:45Z"
+      "at": "2026-08-10T18:30:41Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-10T18:00:45Z"
+      "at": "2026-08-10T18:30:41Z"
     },
     {
       "id": "euractiv",
@@ -29,93 +29,156 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-10T18:00:45Z"
+      "at": "2026-08-10T18:30:41Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-10T18:00:45Z"
+      "at": "2026-08-10T18:30:41Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-10T18:00:45Z"
+      "at": "2026-08-10T18:30:41Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-10T18:00:45Z"
+      "at": "2026-08-10T18:30:41Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-10T18:00:45Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-10T18:30:41Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-10T18:00:45Z"
+      "at": "2026-08-10T18:30:41Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ukraine Drone Strike in Russia",
-      "summary": "A Ukrainian drone attack kills 13 people in a Russian oil-refining city, escalating security tensions in the region.",
+      "title": "Russia bars only anti-war party from elections",
+      "summary": "A Russian court has barred the only anti-war party from standing in parliamentary elections, limiting political competition.",
       "article_ids": [
-        "9fd0bc9c65d6b8c64c731b16",
-        "ad091749a89e504295fec3f1"
+        "a3842c70ba10f8ae35def7e7"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260810-ukraine-drone-strike-on-russian-oil-refining-city-kills-12-people",
-          "headline": "Ukraine drone strike on Russian oil-refining city kills 12 people",
-          "published_at": "2026-08-10T13:09:16Z"
+          "url": "https://www.france24.com/en/europe/20260810-russia-bars-only-anti-war-party-from-elections",
+          "headline": "Russia bars only anti-war party from elections",
+          "published_at": "2026-08-10T17:49:13Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Banned Russian fuel keeps re-entering EU ports",
+      "summary": "Banned Russian fuel continues to re-enter EU ports, with cargoes doubling in July, according to an EU observer report.",
+      "article_ids": [
+        "443d356d9ffebeb9cb5a1a3b"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/231924/banned-russian-fuel-keeps-re-entering-eu-ports-with-cargoes-doubling-in-july",
+          "headline": "Banned Russian fuel keeps re-entering EU ports, with cargoes doubling in July",
+          "published_at": "2026-08-10T15:11:36Z"
         }
       ],
       "source_count": 1
     }
   ],
-  "top_stories": [],
-  "developing": [
+  "top_stories": [
     {
-      "label": "drone · Russia · Ukrainian · strike",
-      "origin": "convergence",
-      "source_count": 4,
-      "item_count": 4,
-      "latest_at": "2026-08-10T14:26:15Z",
+      "title": "Russia bars only anti-war party from elections",
+      "summary": "A Russian court has barred the only anti-war party from standing in parliamentary elections.\nThe decision limits political competition in the upcoming elections.",
+      "article_ids": [
+        "a3842c70ba10f8ae35def7e7"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260810-russia-bars-only-anti-war-party-from-elections",
+          "headline": "Russia bars only anti-war party from elections",
+          "published_at": "2026-08-10T17:49:13Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Banned Russian fuel keeps re-entering EU ports",
+      "summary": "Banned Russian fuel continues to re-enter EU ports, with cargoes doubling in July.\nThe EU observer report highlights the ongoing issue.",
+      "article_ids": [
+        "443d356d9ffebeb9cb5a1a3b"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/231924/banned-russian-fuel-keeps-re-entering-eu-ports-with-cargoes-doubling-in-july",
+          "headline": "Banned Russian fuel keeps re-entering EU ports, with cargoes doubling in July",
+          "published_at": "2026-08-10T15:11:36Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Greece’s aging power grid blamed for catastrophic wildfires",
+      "summary": "Greece’s aging power grid has been blamed for catastrophic wildfires.\nThe Politico Europe article reports on the link between the grid and the fires.",
+      "article_ids": [
+        "337c4ffff5ab6a4c52a143b3"
+      ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/moldova-president-maia-sandu-condemn-russia-drone-crash",
-          "headline": "Moldovan president condemns Russia over killer drone crash",
-          "published_at": "2026-08-10T14:26:15Z"
-        },
+          "url": "https://www.politico.eu/article/greece-electricity-grid-blame-wildfire",
+          "headline": "Greece’s aging power grid blamed for catastrophic wildfires",
+          "published_at": "2026-08-10T16:24:18Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Drought forces water restrictions across nearly 70 percent of France",
+      "summary": "Drought has forced water restrictions across nearly 70 percent of France.\nThe restrictions were implemented amid record heat.",
+      "article_ids": [
+        "9085d0d440b04ce5633bf595"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/live-news/20260810-drought-forces-water-restrictions-across-nearly-70-percent-of-france",
+          "headline": "Drought forces water restrictions across nearly 70 percent of France",
+          "published_at": "2026-08-10T14:27:14Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Russia’s new ‘drone‑proof’ tanks overwhelmed by Ukrainian swarms",
+      "summary": "Russia’s new ‘drone‑proof’ tanks have been overwhelmed by Ukrainian swarms in the Donbas battle.\nThe EUobserver report provides an update on the battlefield situation.",
+      "article_ids": [
+        "5151c10773e0a39b30fedb0d"
+      ],
+      "sources": [
         {
           "publisher": "EUobserver",
           "url": "https://euobserver.com/231882/russias-new-droneproof-tanks-overwhelmed-by-ukrainian-swarms-in-donbas-battle-ukraine-battlefield-update-day-1628",
           "headline": "Russia’s new ‘drone‑proof’ tanks overwhelmed by Ukrainian swarms in Donbas battle (Ukraine Battlefield update, Day 1,628)",
           "published_at": "2026-08-10T13:52:57Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
-          "headline": "At least 13 killed in Ukrainian drone strike deep into Russia",
-          "published_at": "2026-08-10T12:13:22Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260810-hundreds-of-ukrainian-drones-target-russia-in-overnight-strikes",
-          "headline": "Hundreds of Ukrainian drones target Russia in deadly overnight strikes",
-          "published_at": "2026-08-10T06:34:13Z"
         }
-      ]
-    },
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
     {
       "label": "Colombia · magnitude · earthquake · dead",
       "origin": "convergence",
@@ -159,28 +222,71 @@
       ]
     },
     {
-      "label": "fuel · July",
+      "label": "July · record",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-08-10T15:11:36Z",
+      "latest_at": "2026-08-10T10:24:46Z",
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/231924/banned-russian-fuel-keeps-re-entering-eu-ports-with-cargoes-doubling-in-july",
-          "headline": "Banned Russian fuel keeps re-entering EU ports, with cargoes doubling in July",
-          "published_at": "2026-08-10T15:11:36Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss",
+          "headline": "World's oceans hit record-high July temperatures",
+          "published_at": "2026-08-10T10:24:46Z"
         },
         {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/western-europe-records-hottest-june-and-july-on-record/a-78298751?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Western Europe records hottest June and July on record",
+          "published_at": "2026-08-10T03:49:00Z"
+        }
+      ]
+    },
+    {
+      "label": "Russian · Ukraine",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 2,
+      "latest_at": "2026-08-10T13:09:16Z",
+      "sources": [
+        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260810-western-europe-saw-hottest-june-july-on-record-as-climate-change-fuels-historic-summer",
-          "headline": "Western Europe saw hottest June-July on record as climate change fuels drought, wildfires",
-          "published_at": "2026-08-10T02:15:21Z"
+          "url": "https://www.france24.com/en/video/20260810-ukraine-drone-strike-on-russian-oil-refining-city-kills-12-people",
+          "headline": "Ukraine drone strike on Russian oil-refining city kills 12 people",
+          "published_at": "2026-08-10T13:09:16Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "7d77dc7c959e76928dbeb18f",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Russian court bars only anti-war party from standing in parliamentary elections",
+      "url": "https://www.bbc.co.uk/news/articles/cy9w1l5jr7lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-10T18:19:41Z",
+      "collected_at": "2026-08-10T18:30:41Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "a3842c70ba10f8ae35def7e7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russia bars only anti-war party from elections",
+      "url": "https://www.france24.com/en/europe/20260810-russia-bars-only-anti-war-party-from-elections",
+      "published_at": "2026-08-10T17:49:13Z",
+      "collected_at": "2026-08-10T18:30:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "4918eaa2befe6d16a222b741",
       "source_id": "france24",
@@ -651,6 +757,20 @@
       "url": "https://www.france24.com/en/americas/20260810-powerful-quake-rocks-colombia-causing-major-damage",
       "published_at": "2026-08-10T14:18:46Z",
       "collected_at": "2026-08-10T17:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "63e73125d33fdc9457522832",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Colombia declares national emergency as quake toll surpasses 70",
+      "url": "https://www.france24.com/en/americas/20260810-powerful-quake-rocks-colombia-causing-major-damage",
+      "published_at": "2026-08-10T14:18:46Z",
+      "collected_at": "2026-08-10T18:30:41Z",
       "topics": [
         "politics",
         "security",
