@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-11T11:00:47Z",
-  "last_successful_collection_at": "2026-08-11T11:00:47Z",
+  "generated_at": "2026-08-11T11:30:39Z",
+  "last_successful_collection_at": "2026-08-11T11:30:39Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-11T11:00:47Z"
+      "at": "2026-08-11T11:30:39Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-08-11T11:00:47Z"
+      "at": "2026-08-11T11:30:39Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-08-11T11:00:47Z"
+      "at": "2026-08-11T11:30:39Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-11T11:00:47Z"
+      "at": "2026-08-11T11:30:39Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-11T11:00:47Z"
+      "at": "2026-08-11T11:30:39Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-11T11:00:47Z"
+      "at": "2026-08-11T11:30:39Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-11T11:00:47Z"
+      "at": "2026-08-11T11:30:39Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-11T11:00:47Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-11T11:30:39Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-11T11:00:47Z"
+      "at": "2026-08-11T11:30:39Z"
     }
   ],
   "europe_now": [
@@ -161,23 +161,23 @@
       ]
     },
     {
-      "label": "Colombia · earthquake · magnitude · hits",
+      "label": "Colombia · earthquake · hits · magnitude",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 13,
-      "latest_at": "2026-08-11T08:20:37Z",
+      "item_count": 14,
+      "latest_at": "2026-08-11T10:37:17Z",
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260811-colombia-eyewitness-films-moment-earthquake-hits",
+          "headline": "Colombia: Eyewitness films moment earthquake hits",
+          "published_at": "2026-08-11T10:37:17Z"
+        },
         {
           "publisher": "EL PAÍS English",
           "url": "https://english.elpais.com/international/2026-08-11/colombia-wakes-up-under-a-state-of-emergency-after-earthquake-kills-more-than-130.html",
           "headline": "Colombia wakes up under a state of emergency after earthquake kills more than 130",
           "published_at": "2026-08-11T08:20:37Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20260811-colombia-earthquake-rescue-efforts-enter-second-day-as-death-toll-reaches-164",
-          "headline": "Colombia earthquake rescue efforts enter second day as death toll reaches 164",
-          "published_at": "2026-08-11T07:04:03Z"
         }
       ]
     },
@@ -226,6 +226,34 @@
   ],
   "radar": [
     {
+      "id": "98738c3ebf49af4487ba023d",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trapped in the labyrinth of timeshares controlled by the Jalisco New Generation Cartel",
+      "url": "https://english.elpais.com/international/2026-08-11/trapped-in-the-labyrinth-of-timeshares-controlled-by-the-jalisco-new-generation-cartel.html",
+      "published_at": "2026-08-11T11:05:35Z",
+      "collected_at": "2026-08-11T11:30:39Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "0cc0d3156c18d31f17ce1a23",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Challenging Supreme Court, Trump doubles down on efforts to limit birthright citizenship, influence the Fed and impose tariffs",
+      "url": "https://english.elpais.com/usa/2026-08-11/challenging-supreme-court-trump-doubles-down-on-efforts-to-limit-birthright-citizenship-influence-the-fed-and-impose-tariffs.html",
+      "published_at": "2026-08-11T10:57:14Z",
+      "collected_at": "2026-08-11T11:30:39Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "c07775d77ec77b3618d213e8",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -237,6 +265,34 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "48e13f394fc7c37730785895",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Colombia: Eyewitness films moment earthquake hits",
+      "url": "https://www.france24.com/en/video/20260811-colombia-eyewitness-films-moment-earthquake-hits",
+      "published_at": "2026-08-11T10:37:17Z",
+      "collected_at": "2026-08-11T11:30:39Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f856090c47e9ee157e7ed887",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Record drought in France this summer",
+      "url": "https://www.france24.com/en/video/20260811-record-drought-in-france-this-summer",
+      "published_at": "2026-08-11T10:26:02Z",
+      "collected_at": "2026-08-11T11:30:39Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -1794,20 +1850,6 @@
       ]
     },
     {
-      "id": "d1c97d664dd7b896ff26d88b",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Protests against anti-Ukrainianian violence held in 25 Polish cities",
-      "url": "https://notesfrompoland.com/2026/08/10/protests-against-anti-ukrainianian-violence-held-in-25-polish-cities",
-      "published_at": "2026-08-10T11:26:58Z",
-      "collected_at": "2026-08-10T11:30:37Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "dcdbdff90086f9da867ad8d1",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -1847,160 +1889,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "63c8171dbaf4156fb4d52a7b",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Anti-corruption sanctions: Preparing for the time after Trump",
-      "url": "https://ecfr.eu/article/anti-corruption-sanctions-preparing-for-the-time-after-trump",
-      "published_at": "2026-08-10T10:44:08Z",
-      "collected_at": "2026-08-10T11:00:48Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "537d296551ae6e2dbb372fa6",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "World's oceans hit record-high July temperatures",
-      "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-10T10:24:46Z",
-      "collected_at": "2026-08-10T11:30:37Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "331d2f3952935dd616abf5a9",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "A Golden Age in central and eastern Europe, which became one of the best places in the world to live",
-      "url": "https://euobserver.com/231835/a-golden-age-in-central-and-eastern-europe-which-became-one-of-the-best-places-in-the-world-to-live",
-      "published_at": "2026-08-10T10:22:33Z",
-      "collected_at": "2026-08-10T11:00:48Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "d5a9a087f61f6b1266d3bd05",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "A livestreamed murder: The killing of a narco influencer in Mexico",
-      "url": "https://english.elpais.com/international/2026-08-10/a-livestreamed-murder-the-killing-of-a-narco-influencer-in-mexico.html",
-      "published_at": "2026-08-10T10:21:55Z",
-      "collected_at": "2026-08-10T11:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "3e695b0110f5330a2724bb41",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Iran's list of demands to reopen Hormuz: A capitulation document?",
-      "url": "https://www.france24.com/en/video/20260810-iran-s-list-of-demands-to-reopen-hormuz-a-capitulation-document",
-      "published_at": "2026-08-10T10:13:32Z",
-      "collected_at": "2026-08-10T11:00:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "111f9f9dd8bb3025c089a413",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Suspected crime boss Daniel Kinahan lands in Dublin after extradition from Dubai",
-      "url": "https://www.france24.com/en/video/20260810-suspected-crime-boss-daniel-kinahan-lands-in-dublin-after-extradition-from-dubai",
-      "published_at": "2026-08-10T10:07:54Z",
-      "collected_at": "2026-08-10T11:00:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "a7be63c0d2fc670d248eeb82",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
-      "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-10T10:03:58Z",
-      "collected_at": "2026-08-10T11:30:37Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "bdf84346cef0ae0c43537384",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘No child should have to go through this’: The lives of three siblings in Texas after their parents’ deportation",
-      "url": "https://english.elpais.com/usa/2026-08-10/no-child-should-have-to-go-through-this-the-lives-of-three-siblings-in-texas-after-their-parents-deportation.html",
-      "published_at": "2026-08-10T10:02:42Z",
-      "collected_at": "2026-08-10T11:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "59b23b13c04c2a2f14b26b88",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Democratic primaries reveal Israel’s waning political influence in the United States",
-      "url": "https://english.elpais.com/usa/2026-08-10/democratic-primaries-reveal-israels-waning-political-influence-in-the-united-states.html",
-      "published_at": "2026-08-10T08:59:14Z",
-      "collected_at": "2026-08-10T11:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "c95486933448a6d261c41407",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Venezuela’s future is being decided in a new negotiation under Washington’s watch",
-      "url": "https://english.elpais.com/international/2026-08-10/venezuelas-future-is-being-decided-in-a-new-negotiation-under-washingtons-watch.html",
-      "published_at": "2026-08-10T08:52:22Z",
-      "collected_at": "2026-08-10T11:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "9b44f848c0dbb5f9cc9deb2c",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump tightens his grip on the US justice system",
-      "url": "https://english.elpais.com/usa/2026-08-10/trump-tightens-his-grip-on-the-us-justice-system.html",
-      "published_at": "2026-08-10T08:13:46Z",
-      "collected_at": "2026-08-10T11:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -2536,6 +2424,20 @@
       ]
     },
     {
+      "id": "0a673a6cb0e79a521041a232",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Ric Prado, ex-CIA officer: ‘Cuba is the next apple to fall from the tree’",
+      "url": "https://english.elpais.com/international/2026-08-05/ric-prado-ex-cia-officer-cuba-is-the-next-apple-to-fall-from-the-tree.html",
+      "published_at": "2026-08-05T10:09:29Z",
+      "collected_at": "2026-08-11T11:30:39Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "850461c79101f0ebd87bbab2",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2701,20 +2603,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "337e0d1ba6d9b2c4a4ffaeee",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Poland: Prime Minister Tusk defies anti-Ukrainian violence",
-      "url": "https://www.dw.com/en/poland-prime-minister-tusk-defies-anti-ukrainian-violence/a-78203187?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-02T09:24:00Z",
-      "collected_at": "2026-08-10T11:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
