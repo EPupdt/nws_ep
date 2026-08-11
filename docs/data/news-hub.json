@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-11T08:30:42Z",
-  "last_successful_collection_at": "2026-08-11T08:30:42Z",
+  "generated_at": "2026-08-11T09:00:45Z",
+  "last_successful_collection_at": "2026-08-11T09:00:45Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-11T08:30:42Z"
+      "at": "2026-08-11T09:00:45Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-08-11T08:30:42Z"
+      "at": "2026-08-11T09:00:45Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "23",
-      "at": "2026-08-11T08:30:42Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-11T09:00:45Z"
     },
     {
       "id": "euractiv",
@@ -29,71 +29,106 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-11T08:30:42Z"
+      "at": "2026-08-11T09:00:45Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-11T08:30:42Z"
+      "at": "2026-08-11T09:00:45Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-11T08:30:42Z"
+      "at": "2026-08-11T09:00:45Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-11T08:30:42Z"
+      "at": "2026-08-11T09:00:45Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-11T08:30:42Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-11T09:00:45Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-11T08:30:42Z"
+      "at": "2026-08-11T09:00:45Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russia uses North Korean ballistic missiles in lethal attack on Ukraine",
-      "summary": "Russian forces deployed North Korean ballistic missiles in a lethal strike on Ukraine, according to Zelenskyy, escalating military tensions in Europe.",
+      "title": "Banned Russian fuel re-entering EU ports",
+      "summary": "Banned Russian fuel continues to re-enter EU ports despite sanctions, with cargo volumes doubling in July. This undermines EU efforts to enforce energy sanctions against Russia.",
       "article_ids": [
         "3f30a2e03df98dbda8044531",
         "40b038fe609e476a2012b755",
-        "56b6364e80105364b9dba777"
+        "a399a256840c9541a7275246",
+        "bc4ed359adc911697eaff6d9",
+        "f762c4204e9e4b13a9b95f4a",
+        "1c5b9843b8e13887c20ed3fc",
+        "59624852431a972262e8239a",
+        "c81ab5cdbb9686d7db5d82ee",
+        "4918eaa2befe6d16a222b741",
+        "7d77dc7c959e76928dbeb18f"
       ],
       "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/vladimir-putin-russia-used-north-korean-ballistic-missiles-lethal-attack-ukraine-zelenskyy-says",
-          "headline": "Putin used North Korean ballistic missiles in lethal attack on Ukraine, Zelenskyy says",
-          "published_at": "2026-08-11T07:53:19Z"
-        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20260810-live-russian-missiles-strike-kyiv-triggering-fires-in-city-centre",
           "headline": "🔴 Live: Zelensky says Russia fired North Korean missiles at Zaporizhzhia",
           "published_at": "2026-08-11T07:34:09Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cy9w1l5jr7lo?at_medium=RSS&at_campaign=rss",
+          "headline": "Russian court bars only anti-war party from standing in parliamentary elections",
+          "published_at": "2026-08-10T18:19:41Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "Banned Russian fuel continues re-entering EU ports despite sanctions",
-      "summary": "Cargoes of banned Russian fuel are doubling in July as it re-enters EU ports, undermining energy security measures.",
+      "title": "Russia bars anti-war parties from elections",
+      "summary": "Russia has prohibited anti-war parties from participating in parliamentary elections, limiting political opposition. This decision raises concerns about democratic processes in Europe-Russia relations.",
+      "article_ids": [
+        "3ff2a37e0a65bbff8a21d9b1",
+        "a3842c70ba10f8ae35def7e7",
+        "0df25469e48f6a6c25b1c804",
+        "7d77dc7c959e76928dbeb18f"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260810-russia-bars-only-anti-war-party-from-elections",
+          "headline": "Russia bars only anti-war party from elections",
+          "published_at": "2026-08-10T17:49:13Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260810-russia-bars-only-anti-war-party-from-elections",
+          "headline": "Russia bars only anti-war party 'Yabloko' from September parliamentary elections",
+          "published_at": "2026-08-10T17:49:13Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "EU tech partnership to address Ceuta migrant crisis",
+      "summary": "The EU has opened channels with Meta and TikTok to manage the Ceuta migrant crisis, focusing on border security and humanitarian response. This initiative reflects the scale of the crisis and its impact on European migration policies.",
       "article_ids": [
         "3b4846efa0bc8213de091f80",
-        "4918eaa2befe6d16a222b741",
-        "5b13342cca84db76e8f7d912"
+        "5b13342cca84db76e8f7d912",
+        "c3350c0497af3942905a3f24",
+        "44a684d0cb140b61c98f13ac"
       ],
       "sources": [
         {
@@ -104,45 +139,28 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Ukraine missile attack escalates conflict",
-      "summary": "Russia launched North Korean ballistic missiles at Ukraine, causing significant damage and casualties, as reported by Zelenskyy.",
-      "article_ids": [
-        "3f30a2e03df98dbda8044531",
-        "40b038fe609e476a2012b755"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/vladimir-putin-russia-used-north-korean-ballistic-missiles-lethal-attack-ukraine-zelenskyy-says",
-          "headline": "Putin used North Korean ballistic missiles in lethal attack on Ukraine, Zelenskyy says",
-          "published_at": "2026-08-11T07:53:19Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260810-live-russian-missiles-strike-kyiv-triggering-fires-in-city-centre",
-          "headline": "🔴 Live: Zelensky says Russia fired North Korean missiles at Zaporizhzhia",
-          "published_at": "2026-08-11T07:34:09Z"
-        }
-      ],
-      "source_count": 2
     },
     {
-      "title": "Banned Russian fuel re-enters EU ports",
-      "summary": "Despite sanctions, Russian fuel continues to re-enter EU ports, with cargo volumes increasing in July, challenging energy security policies.",
+      "title": "Banned Russian fuel re-entry challenges EU sanctions",
+      "summary": "Banned Russian fuel continues to enter EU ports despite sanctions, with cargo volumes doubling in July. This highlights persistent non-compliance and complicates energy policy enforcement in Europe.",
       "article_ids": [
-        "3b4846efa0bc8213de091f80",
-        "4918eaa2befe6d16a222b741"
+        "3f30a2e03df98dbda8044531",
+        "40b038fe609e476a2012b755",
+        "a399a256840c9541a7275246",
+        "bc4ed359adc911697eaff6d9",
+        "f762c4204e9e4b13a9b95f4a",
+        "1c5b9843b8e13887c20ed3fc",
+        "59624852431a972262e8239a",
+        "c81ab5cdbb9686d7db5d82ee",
+        "4918eaa2befe6d16a222b741",
+        "7d77dc7c959e76928dbeb18f"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-meta-tiktok-ceuta-migrant-crisis-spain-morocco",
-          "headline": "EU opens channel with Meta, TikTok to tackle Ceuta migrant crisis",
-          "published_at": "2026-08-10T18:27:34Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cy9w1l5jr7lo?at_medium=RSS&at_campaign=rss",
+          "headline": "Russian court bars only anti-war party from standing in parliamentary elections",
+          "published_at": "2026-08-10T18:19:41Z"
         }
       ],
       "source_count": 1
@@ -180,41 +198,20 @@
       "label": "Colombia · earthquake · magnitude · hits",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 12,
-      "latest_at": "2026-08-11T07:04:03Z",
+      "item_count": 13,
+      "latest_at": "2026-08-11T08:20:37Z",
       "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-08-11/colombia-wakes-up-under-a-state-of-emergency-after-earthquake-kills-more-than-130.html",
+          "headline": "Colombia wakes up under a state of emergency after earthquake kills more than 130",
+          "published_at": "2026-08-11T08:20:37Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/americas/20260811-colombia-earthquake-rescue-efforts-enter-second-day-as-death-toll-reaches-164",
           "headline": "Colombia earthquake rescue efforts enter second day as death toll reaches 164",
           "published_at": "2026-08-11T07:04:03Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-08-10/at-least-25-people-dead-as-magnitude-74-earthquake-hits-colombia.html",
-          "headline": "Over 100 people dead after magnitude 7.4 earthquake hits Colombia",
-          "published_at": "2026-08-10T20:12:06Z"
-        }
-      ]
-    },
-    {
-      "label": "FIFA · Infantino · Trump",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-08-11T06:24:30Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/donald-trump-backs-gianni-infantino-fifa-world-cup-sale-plan-fury",
-          "headline": "Trump backs Infantino after fury over FIFA chief’s World Cup sale plan",
-          "published_at": "2026-08-11T06:24:30Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20260811-trump-warns-fifa-would-make-terrible-mistake-by-replacing-infantino",
-          "headline": "Trump warns FIFA would make 'terrible mistake' by replacing Infantino",
-          "published_at": "2026-08-11T05:30:08Z"
         }
       ]
     },
@@ -238,9 +235,44 @@
           "published_at": "2026-08-10T21:36:10Z"
         }
       ]
+    },
+    {
+      "label": "boss · crime · Kinahan · Suspected",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-08-10T14:34:49Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/cm2g97nnr5go?at_medium=RSS&at_campaign=rss",
+          "headline": "Watch: What we know about suspected crime boss Daniel Kinahan",
+          "published_at": "2026-08-10T14:34:49Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260810-suspected-crime-boss-daniel-kinahan-lands-in-dublin-after-extradition-from-dubai",
+          "headline": "Suspected crime boss Daniel Kinahan lands in Dublin after extradition from Dubai",
+          "published_at": "2026-08-10T10:07:54Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "5db3c22e7a11396b6b56d8ed",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Colombia wakes up under a state of emergency after earthquake kills more than 130",
+      "url": "https://english.elpais.com/international/2026-08-11/colombia-wakes-up-under-a-state-of-emergency-after-earthquake-kills-more-than-130.html",
+      "published_at": "2026-08-11T08:20:37Z",
+      "collected_at": "2026-08-11T09:00:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "3ff2a37e0a65bbff8a21d9b1",
       "source_id": "france24",
@@ -1789,20 +1821,6 @@
       "url": "https://www.france24.com/en/sport/20260810-football-fifa-uefa-infantino-world-cup-sport",
       "published_at": "2026-08-10T08:46:27Z",
       "collected_at": "2026-08-10T09:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "6ac0c0e718b507f39ce1af6d",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Irish cartel boss Daniel Kinahan extradited from Dubai and charged in Dublin",
-      "url": "https://www.france24.com/en/europe/20260810-irish-cartel-boss-daniel-kinahan-extradited-from-dubai-and-charged-in-dublin",
-      "published_at": "2026-08-10T08:21:28Z",
-      "collected_at": "2026-08-10T08:30:43Z",
       "topics": [
         "politics",
         "security",
