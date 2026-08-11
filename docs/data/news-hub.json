@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-11T18:00:46Z",
-  "last_successful_collection_at": "2026-08-11T18:00:46Z",
+  "generated_at": "2026-08-11T18:30:41Z",
+  "last_successful_collection_at": "2026-08-11T18:30:41Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-11T18:00:46Z"
+      "at": "2026-08-11T18:30:41Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "28",
-      "at": "2026-08-11T18:00:46Z"
+      "at": "2026-08-11T18:30:41Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-11T18:00:46Z"
+      "at": "2026-08-11T18:30:41Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-11T18:00:46Z"
+      "at": "2026-08-11T18:30:41Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-11T18:00:46Z"
+      "at": "2026-08-11T18:30:41Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-11T18:00:46Z"
+      "at": "2026-08-11T18:30:41Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-11T18:00:46Z"
+      "at": "2026-08-11T18:30:41Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-11T18:00:46Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-11T18:30:41Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-11T18:00:46Z"
+      "at": "2026-08-11T18:30:41Z"
     }
   ],
   "europe_now": [
@@ -183,23 +183,17 @@
       ]
     },
     {
-      "label": "Ceuta · migrant · open",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-11T11:46:22Z",
+      "label": "Deadly · Kyiv · live · missiles",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-08-10T23:03:04Z",
       "sources": [
         {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-08-11/the-hoaxes-that-fostered-the-migrant-avalanche-in-ceuta-the-door-is-open.html",
-          "headline": "The hoaxes that fostered the migrant avalanche in Ceuta: ‘The door is open’",
-          "published_at": "2026-08-11T11:46:22Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-meta-tiktok-ceuta-migrant-crisis-spain-morocco",
-          "headline": "EU opens channel with Meta, TikTok to tackle Ceuta migrant crisis",
-          "published_at": "2026-08-10T18:27:34Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260810-live-russian-missiles-strike-kyiv-triggering-fires-in-city-centre",
+          "headline": "Ukraine war live: Deadly Russian missiles strike Kyiv and Zaporizhzhia",
+          "published_at": "2026-08-10T23:03:04Z"
         }
       ]
     }
