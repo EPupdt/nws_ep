@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-12T15:30:50Z",
-  "last_successful_collection_at": "2026-08-12T15:30:50Z",
+  "generated_at": "2026-08-12T16:00:48Z",
+  "last_successful_collection_at": "2026-08-12T16:00:48Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-12T15:30:50Z"
+      "at": "2026-08-12T16:00:48Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "31",
-      "at": "2026-08-12T15:30:50Z"
+      "at": "2026-08-12T16:00:48Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-08-12T15:30:50Z"
+      "at": "2026-08-12T16:00:48Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-12T15:30:50Z"
+      "at": "2026-08-12T16:00:48Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-12T15:30:50Z"
+      "at": "2026-08-12T16:00:48Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-12T15:30:50Z"
+      "at": "2026-08-12T16:00:48Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-12T15:30:50Z"
+      "at": "2026-08-12T16:00:48Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-12T15:30:50Z"
+      "at": "2026-08-12T16:00:48Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-12T15:30:50Z"
+      "at": "2026-08-12T16:00:48Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Putin threatens to seize European ships",
-      "summary": "Putin has threatened to seize European ships, escalating tensions with European nations. This move represents a significant security concern for European maritime operations and could impact regional stability.",
+      "title": "Meta AI Glasses Face Criminal Complaint in Germany",
+      "summary": "German authorities have filed a criminal complaint against Meta's AI glasses due to privacy concerns. The case highlights growing scrutiny of tech companies' data practices in Europe.",
+      "article_ids": [
+        "b6a4f765ff92beaf99e8236b"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/meta-ai-glasses-face-criminal-complaint-in-germany",
+          "headline": "Meta AI glasses face criminal complaint in Germany",
+          "published_at": "2026-08-12T15:52:23Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Putin Threatens to Seize European Ships",
+      "summary": "Russian President Vladimir Putin has threatened to confiscate European vessels amid escalating tensions. The declaration underscores heightened risks to maritime trade in the region.",
       "article_ids": [
         "da134d0cc8a9d05c44fc21cf"
       ],
@@ -78,31 +94,15 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Ukraine hammers key Russian port in overnight drone attack",
-      "summary": "Ukraine conducted a drone attack on a key Russian port overnight, targeting critical infrastructure. This strike demonstrates Ukraine's ongoing capability to project military force deep into Russian territory.",
-      "article_ids": [
-        "80642b569b9c7392e23a1843"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russia-krasnodar-novorossiysk-ukraine-war-attack",
-          "headline": "Ukraine hammers key Russian port in overnight drone attack",
-          "published_at": "2026-08-12T09:56:35Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "Ukraine Conflict Intensifies",
-      "summary": "The conflict between Russia and Ukraine continues to escalate with renewed missile strikes and civilian casualties. Both sides are experiencing intensified military engagements across multiple fronts.",
+      "title": "Ukraine Conflict Escalation",
+      "summary": "Ukraine conducted a drone attack on a Russian port, targeting critical infrastructure. The country is also pursuing closer military cooperation with South Korea to strengthen its defense capabilities.",
       "article_ids": [
         "80642b569b9c7392e23a1843",
-        "da134d0cc8a9d05c44fc21cf"
+        "b12bec26143e05fe8bd4816e"
       ],
       "sources": [
         {
@@ -110,39 +110,52 @@
           "url": "https://www.politico.eu/article/russia-krasnodar-novorossiysk-ukraine-war-attack",
           "headline": "Ukraine hammers key Russian port in overnight drone attack",
           "published_at": "2026-08-12T09:56:35Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ukraine-seeks-closer-cooperation-with-south-korea",
+          "headline": "Ukraine seeks closer cooperation with South Korea",
+          "published_at": "2026-08-12T10:57:11Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "EU Climate Policy Under Heatwave Pressure",
+      "summary": "The European Union is facing criticism for weakening climate regulations during a severe heatwave, raising concerns about economic repercussions. Environmental advocates also point to inconsistencies in EU pesticide policies, warning of potential price increases for coffee and citrus products.",
+      "article_ids": [
+        "064198e30908cc26fda0049a",
+        "8c172f27fc98136363e6f6ec"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/232161/eu-double-standards-on-pesticides-exposed-amid-warning-of-coffee-and-citrus-price-spikes",
+          "headline": "EU double standards on pesticides exposed, amid warning of coffee and citrus price spikes",
+          "published_at": "2026-08-12T14:16:12Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "European Security Challenges",
+      "summary": "Germany is expanding intelligence agency powers to counter the Russian threat following Putin's maritime seizure threats. Latvia has uncovered a clandestine migrant tunnel at its border with Belarus, revealing new security vulnerabilities.",
+      "article_ids": [
+        "762cee4d8bdd275bf524add4",
+        "1901f6eef3f9de7ef642dbe2"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/germany-to-give-spies-bnd-new-powers-to-counter-russia-threat",
+          "headline": "Putin threat pushes Germany to give spies major new powers",
+          "published_at": "2026-08-12T12:52:17Z"
         }
       ],
       "source_count": 1
     }
   ],
   "developing": [
-    {
-      "label": "president · Hungary · Orbán",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-08-12T10:45:00Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/232128/ousted-by-orban-back-with-a-vengeance-hungarys-president-to-restore-rule-of-law",
-          "headline": "Ousted by Orbán, back with a vengeance: Hungary’s president András Baka to restore rule of law",
-          "published_at": "2026-08-12T10:45:00Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/clyed7rem5no?at_medium=RSS&at_campaign=rss",
-          "headline": "Former judge removed by Orbán elected Hungarian president",
-          "published_at": "2026-08-11T18:34:39Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/hungary-s-parliament-elects-orban-critic-as-new-president/a-78325589?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Hungary's parliament elects Orban critic as new president",
-          "published_at": "2026-08-11T16:00:00Z"
-        }
-      ]
-    },
     {
       "label": "eclipse · Total · Solar · Spain",
       "origin": "convergence",
@@ -186,28 +199,77 @@
       ]
     },
     {
-      "label": "EU · pesticides · Breakfast · expensive",
+      "label": "Colombia · earthquake · hours",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 3,
-      "latest_at": "2026-08-12T14:16:12Z",
+      "latest_at": "2026-08-12T13:32:43Z",
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/232161/eu-double-standards-on-pesticides-exposed-amid-warning-of-coffee-and-citrus-price-spikes",
-          "headline": "EU double standards on pesticides exposed, amid warning of coffee and citrus price spikes",
-          "published_at": "2026-08-12T14:16:12Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260812-colombia-woman-rescued-from-under-earthquake-debris-after-36-hours",
+          "headline": "Colombia: Woman rescued from under earthquake debris after 36 hours",
+          "published_at": "2026-08-12T13:32:43Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-08-12/colombia-in-the-72-hours-after-the-earthquake-uneven-rescue-deployment-and-slow-to-accept-international-aid.html",
+          "headline": "Colombia in the 72 hours after the earthquake: uneven rescue deployment and slow to accept international aid",
+          "published_at": "2026-08-12T07:57:52Z"
+        }
+      ]
+    },
+    {
+      "label": "plane · Trump · faced · greater",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-08-12T08:39:27Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/donald-trump-says-he-faced-greater-risk-on-swapped-plane",
+          "headline": "Donald Trump says he faced ‘greater risk’ on swapped plane",
+          "published_at": "2026-08-12T08:39:27Z"
         },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/your-breakfast-loo-lot-more-expensive-under-pesticide-simplification",
-          "headline": "Breakfast looks a lot more expensive under EU pesticide plans",
-          "published_at": "2026-08-12T02:00:00Z"
+          "url": "https://www.politico.com/news/2026/08/11/donald-trump-plane-switch-secret-service-01034973",
+          "headline": "Trump denies orchestrating plane switch: ‘It’s only up to Secret Service’",
+          "published_at": "2026-08-12T03:24:59Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "b6a4f765ff92beaf99e8236b",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Meta AI glasses face criminal complaint in Germany",
+      "url": "https://www.politico.eu/article/meta-ai-glasses-face-criminal-complaint-in-germany",
+      "published_at": "2026-08-12T15:52:23Z",
+      "collected_at": "2026-08-12T16:00:48Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "4ea993a79891d20394422c7b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Voting ends in US midwest primaries",
+      "url": "https://www.france24.com/en/voting-ends-in-us-midwest-primaries",
+      "published_at": "2026-08-12T15:29:27Z",
+      "collected_at": "2026-08-12T16:00:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "56649347a72d09aebffbddbd",
       "source_id": "france24",
@@ -248,6 +310,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "ebcfdd81228e802c8cc6286c",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Italy: Etna eruption in Sicily halts Catania flights",
+      "url": "https://www.dw.com/en/italy-etna-eruption-in-sicily-halts-catania-flights/a-78338205?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-12T15:01:00Z",
+      "collected_at": "2026-08-12T16:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -384,6 +460,20 @@
       "url": "https://www.france24.com/en/americas/20260812-colombia-declares-three-days-mourning-for-quake-victims",
       "published_at": "2026-08-12T12:55:15Z",
       "collected_at": "2026-08-12T15:30:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "8fe19f22521175c383d3d722",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Colombia declares three days of mourning as search for quake survivors continues",
+      "url": "https://www.france24.com/en/americas/20260812-colombia-declares-three-days-mourning-for-quake-victims",
+      "published_at": "2026-08-12T12:55:15Z",
+      "collected_at": "2026-08-12T16:00:48Z",
       "topics": [
         "politics",
         "security",
@@ -2665,62 +2755,6 @@
       "title": "Gold falls below $4,000 an ounce for the first time since November",
       "url": "https://english.elpais.com/economy-and-business/2026-06-25/gold-falls-below-4000-an-ounce-for-the-first-time-since-november.html",
       "published_at": "2026-06-25T16:35:14Z",
-      "collected_at": "2026-08-12T15:30:50Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "cc04ea9bb06a0b471ab64f04",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Folarin Balogun, the US striker who wouldn’t be American if it were up to Trump",
-      "url": "https://english.elpais.com/usa/2026-06-24/folarin-balogun-the-us-striker-who-wouldnt-be-american-if-it-were-up-to-trump.html",
-      "published_at": "2026-06-24T10:30:36Z",
-      "collected_at": "2026-08-12T15:30:50Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "e7c7dd9712b5b4fb2513d270",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "What’s the best way to talk about health with chatbots?",
-      "url": "https://english.elpais.com/technology/2026-04-25/whats-the-best-way-to-talk-about-health-with-chatbots.html",
-      "published_at": "2026-04-25T04:00:00Z",
-      "collected_at": "2026-08-12T15:30:50Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "c5185446ef84bd4bdf83c0d4",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Welcome to r/bald, providing an online safe space for receding hairlines for over 15 years",
-      "url": "https://english.elpais.com/lifestyle/2026-02-22/welcome-to-rbald-providing-an-online-safe-space-for-receding-hairlines-for-over-15-years.html",
-      "published_at": "2026-02-22T04:00:00Z",
-      "collected_at": "2026-08-12T15:30:50Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "b005ec47de91c73d880fc34d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "From January euphoria to February despair: Why most of our New Year’s resolutions fail",
-      "url": "https://english.elpais.com/lifestyle/2026-02-21/from-january-euphoria-to-february-despair-why-most-of-our-new-years-resolutions-fail.html",
-      "published_at": "2026-02-21T04:30:00Z",
       "collected_at": "2026-08-12T15:30:50Z",
       "topics": [
         "politics",
