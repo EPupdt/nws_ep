@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-12T10:30:42Z",
-  "last_successful_collection_at": "2026-08-12T10:30:42Z",
+  "generated_at": "2026-08-12T11:30:38Z",
+  "last_successful_collection_at": "2026-08-12T11:30:38Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-12T10:30:42Z"
+      "at": "2026-08-12T11:30:38Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "28",
-      "at": "2026-08-12T10:30:42Z"
+      "count": "30",
+      "at": "2026-08-12T11:30:38Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-12T10:30:42Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-12T11:30:38Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-12T10:30:42Z"
+      "at": "2026-08-12T11:30:38Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-12T10:30:42Z"
+      "at": "2026-08-12T11:30:38Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-12T10:30:42Z"
+      "at": "2026-08-12T11:30:38Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-12T10:30:42Z"
+      "at": "2026-08-12T11:30:38Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-12T10:30:42Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-12T11:30:38Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-12T10:30:42Z"
+      "at": "2026-08-12T11:30:38Z"
     }
   ],
   "europe_now": [
     {
       "title": "Ukraine hammers key Russian port in overnight drone attack",
-      "summary": "Ukraine carried out a drone attack on a key Russian port during the night. The strike highlights the ongoing military conflict between Ukraine and Russia.",
+      "summary": "Ukraine launched a drone attack on Russia's Novorossiysk port, a key Black Sea facility, escalating ongoing hostilities. The strike underscores the widening reach of the conflict beyond frontline areas.",
       "article_ids": [
         "80642b569b9c7392e23a1843"
       ],
@@ -80,8 +80,42 @@
       "source_count": 1
     },
     {
-      "title": "Ceuta crisis showed EU gave too much power to Morocco",
-      "summary": "The migration crisis in Ceuta revealed that the European Union granted extensive authority to Morocco over border management. This has led to increased scrutiny of EU external border policies.",
+      "title": "Hungary elects Orbán critic as president amid political shift",
+      "summary": "Hungary appointed a former judge dismissed by Prime Minister Viktor Orbán as its new president, signaling a potential shift in domestic political dynamics. The move reflects growing tensions within the country's institutions.",
+      "article_ids": [
+        "37c68519ecee80a7c209eab6"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/232128/ousted-by-orban-back-with-a-vengeance-hungarys-president-to-restore-rule-of-law",
+          "headline": "Ousted by Orbán, back with a vengeance: Hungary’s president András Baka to restore rule of law",
+          "published_at": "2026-08-12T10:45:00Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Ukraine conflict intensifies with cross-border strikes",
+      "summary": "Recent drone and missile attacks have targeted key infrastructure in both Ukraine and Russia, raising concerns over civilian casualties and regional stability. The escalation highlights the expanding scope of the war.",
+      "article_ids": [
+        "80642b569b9c7392e23a1843"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/russia-krasnodar-novorossiysk-ukraine-war-attack",
+          "headline": "Ukraine hammers key Russian port in overnight drone attack",
+          "published_at": "2026-08-12T09:56:35Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Migration pressures test EU solidarity and external relations",
+      "summary": "The Ceuta migration crisis has reignited discussions about the EU's approach to managing external borders and partnerships with neighboring countries. The situation underscores ongoing challenges in achieving unified migration policies.",
       "article_ids": [
         "620737efe4e05ef679452e62"
       ],
@@ -96,13 +130,12 @@
       "source_count": 1
     }
   ],
-  "top_stories": [],
   "developing": [
     {
       "label": "Colombia · earthquake · Death · toll",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 8,
+      "item_count": 7,
       "latest_at": "2026-08-12T09:06:28Z",
       "sources": [
         {
@@ -184,6 +217,62 @@
     }
   ],
   "radar": [
+    {
+      "id": "1cfef9690a63a0cd7f5b2d88",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "UEFA compensates Somali referee who was vetoed by the US during World Cup",
+      "url": "https://english.elpais.com/sports/2026-08-12/uefa-compensates-somali-referee-who-was-vetoed-by-the-us-during-world-cup.html",
+      "published_at": "2026-08-12T10:47:43Z",
+      "collected_at": "2026-08-12T11:30:38Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "37c68519ecee80a7c209eab6",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Ousted by Orbán, back with a vengeance: Hungary’s president András Baka to restore rule of law",
+      "url": "https://euobserver.com/232128/ousted-by-orban-back-with-a-vengeance-hungarys-president-to-restore-rule-of-law",
+      "published_at": "2026-08-12T10:45:00Z",
+      "collected_at": "2026-08-12T11:30:38Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "978f523c4d5154a43faf5690",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Negative views of Poland’s justice system have grown under Tusk government, finds state pollster",
+      "url": "https://notesfrompoland.com/2026/08/12/negative-views-of-polands-justice-system-have-grown-under-tusk-government-finds-state-pollster",
+      "published_at": "2026-08-12T10:34:03Z",
+      "collected_at": "2026-08-12T11:30:38Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "064198e30908cc26fda0049a",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Europe’s 2026 wildfires show the cost of ignoring prevention",
+      "url": "https://euobserver.com/232080/europes-2026-wildfires-show-the-cost-of-ignoring-prevention",
+      "published_at": "2026-08-12T10:31:35Z",
+      "collected_at": "2026-08-12T11:30:38Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "f904d17e65bdb514abc93dfd",
       "source_id": "politico_europe",
@@ -549,6 +638,20 @@
       ]
     },
     {
+      "id": "53181919979129e7caff70ce",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Cristiano Ronaldo marries long-time partner Georgina Rodríguez",
+      "url": "https://www.bbc.co.uk/news/articles/clyj0325z3ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-12T04:29:02Z",
+      "collected_at": "2026-08-12T11:30:38Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "b2b10ce23223aa840d0664c9",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -756,6 +859,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "30664c27bb6ffbfe21a022a2",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Russia releases former US Marine reported in poor health",
+      "url": "https://www.bbc.co.uk/news/articles/cvgj4m8e1ryo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-11T23:33:45Z",
+      "collected_at": "2026-08-12T11:30:38Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -1487,20 +1604,6 @@
       ]
     },
     {
-      "id": "c07775d77ec77b3618d213e8",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "She traveled to Mexico to care for her ill father and was denied re-entry to the US: a victim of the ‘Miracle Lawyer’ speaks out",
-      "url": "https://english.elpais.com/usa/2026-08-11/she-traveled-to-mexico-to-care-for-her-ill-father-and-was-denied-re-entry-to-the-us-a-victim-of-the-miracle-lawyer-speaks-out.html",
-      "published_at": "2026-08-11T10:49:35Z",
-      "collected_at": "2026-08-11T11:00:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "ef3cea57c0a659c7f67f0ade",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1620,6 +1723,62 @@
       "url": "https://english.elpais.com/international/2026-08-11/colombia-wakes-up-under-a-state-of-emergency-after-earthquake-kills-more-than-130.html",
       "published_at": "2026-08-11T08:20:37Z",
       "collected_at": "2026-08-11T13:00:51Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "537d296551ae6e2dbb372fa6",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "World's oceans hit record-high July temperatures",
+      "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-10T10:24:46Z",
+      "collected_at": "2026-08-12T11:30:38Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "331d2f3952935dd616abf5a9",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "A Golden Age in central and eastern Europe, which became one of the best places in the world to live",
+      "url": "https://euobserver.com/231835/a-golden-age-in-central-and-eastern-europe-which-became-one-of-the-best-places-in-the-world-to-live",
+      "published_at": "2026-08-10T10:22:33Z",
+      "collected_at": "2026-08-12T11:30:38Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "59b23b13c04c2a2f14b26b88",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Democratic primaries reveal Israel’s waning political influence in the United States",
+      "url": "https://english.elpais.com/usa/2026-08-10/democratic-primaries-reveal-israels-waning-political-influence-in-the-united-states.html",
+      "published_at": "2026-08-10T08:59:14Z",
+      "collected_at": "2026-08-12T11:30:38Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "c95486933448a6d261c41407",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Venezuela’s future is being decided in a new negotiation under Washington’s watch",
+      "url": "https://english.elpais.com/international/2026-08-10/venezuelas-future-is-being-decided-in-a-new-negotiation-under-washingtons-watch.html",
+      "published_at": "2026-08-10T08:52:22Z",
+      "collected_at": "2026-08-12T11:30:38Z",
       "topics": [
         "politics",
         "society",
@@ -2082,20 +2241,6 @@
       "url": "https://euobserver.com/231739/europe-is-creating-a-new-international-court-for-putin-one-he-may-never-face-while-in-power",
       "published_at": "2026-08-07T11:49:11Z",
       "collected_at": "2026-08-11T12:00:55Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "1fbb8b7bd666c2857804411c",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Hungary faces record heat, nuclear fears and a public media scandal ahead of August presidential vote (Day 87 of the Tisza government)",
-      "url": "https://euobserver.com/231663/hungary-faces-record-heat-nuclear-fears-and-a-public-media-scandal-ahead-of-august-presidential-vote-day-87-of-the-tisza-government",
-      "published_at": "2026-08-07T09:25:00Z",
-      "collected_at": "2026-08-11T11:00:47Z",
       "topics": [
         "institutions",
         "policy",
