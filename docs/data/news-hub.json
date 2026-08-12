@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-12T07:30:46Z",
-  "last_successful_collection_at": "2026-08-12T07:30:46Z",
+  "generated_at": "2026-08-12T08:00:50Z",
+  "last_successful_collection_at": "2026-08-12T08:00:50Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-12T07:30:46Z"
+      "at": "2026-08-12T08:00:50Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "28",
-      "at": "2026-08-12T07:30:46Z"
+      "at": "2026-08-12T08:00:50Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-12T07:30:46Z"
+      "at": "2026-08-12T08:00:50Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-12T07:30:46Z"
+      "at": "2026-08-12T08:00:50Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-12T07:30:46Z"
+      "at": "2026-08-12T08:00:50Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-12T07:30:46Z"
+      "at": "2026-08-12T08:00:50Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-12T07:30:46Z"
+      "at": "2026-08-12T08:00:50Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-12T07:30:46Z"
+      "at": "2026-08-12T08:00:50Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-12T07:30:46Z"
+      "at": "2026-08-12T08:00:50Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ceuta crisis showed EU gave too much power to Morocco",
-      "summary": "The article states that the Ceuta crisis demonstrated that the EU gave excessive power to Morocco. It highlights policy concerns regarding the EU's authority in migration matters.",
+      "title": "Russia escalates Ukraine conflict with North Korean missiles and civilian casualties",
+      "summary": "Russia launched missile attacks using North Korean weapons against Ukrainian cities, including Kyiv and Zaporizhzhia. The strikes caused civilian casualties and intensified the ongoing war in Europe.",
+      "article_ids": [
+        "2c76e59aa28857241fbaaa14",
+        "59f9a6e9f2825532226c3a0f"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ukraine-says-russia-fired-north-korean-missiles",
+          "headline": "Ukraine says Russia fired North Korean missiles",
+          "published_at": "2026-08-11T13:57:12Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/232085/eu-now-hosting-4-4m-ukrainian-refugees-but-fighting-age-men-to-face-restrictions",
+          "headline": "EU now hosting 4.4m Ukrainian refugees, but fighting-age men to face restrictions",
+          "published_at": "2026-08-11T15:24:08Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Ceuta migration crisis exposes EU-Morocco power imbalance",
+      "summary": "A surge of migrants at the Ceuta border highlighted EU reliance on Morocco for migration control. The crisis revealed structural vulnerabilities in the bloc's external border management strategy.",
       "article_ids": [
         "620737efe4e05ef679452e62"
       ],
@@ -78,12 +101,15 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Ukraine says Russia fired North Korean missiles",
-      "summary": "The report indicates that Ukraine alleges Russia launched North Korean missiles. This claim points to a security escalation involving foreign-supplied weapons.",
+      "title": "Ukraine conflict escalation with Russian missile strikes",
+      "summary": "Russian forces deployed North Korean-made missiles in attacks targeting Ukrainian infrastructure. The assaults resulted in civilian deaths and injuries, deepening the humanitarian crisis in the region.",
       "article_ids": [
-        "2c76e59aa28857241fbaaa14"
+        "2c76e59aa28857241fbaaa14",
+        "59f9a6e9f2825532226c3a0f"
       ],
       "sources": [
         {
@@ -91,31 +117,19 @@
           "url": "https://www.france24.com/en/ukraine-says-russia-fired-north-korean-missiles",
           "headline": "Ukraine says Russia fired North Korean missiles",
           "published_at": "2026-08-11T13:57:12Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Fast and fearless: Baltic defence startups innovate to counter Russian threat",
-      "summary": "Baltic defence startups are pursuing rapid innovations to counter the Russian threat. The coverage describes the effort as fast and fearless, emphasizing the urgency of the security challenge.",
-      "article_ids": [
-        "9e17172098cc075e3c06c25a"
-      ],
-      "sources": [
+        },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260811-fast-and-fearless-baltic-defence-startups-innovate-to-counter-russian-threat",
-          "headline": "Fast and fearless: Baltic defence startups innovate to counter Russian threat",
-          "published_at": "2026-08-11T17:48:28Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/232085/eu-now-hosting-4-4m-ukrainian-refugees-but-fighting-age-men-to-face-restrictions",
+          "headline": "EU now hosting 4.4m Ukrainian refugees, but fighting-age men to face restrictions",
+          "published_at": "2026-08-11T15:24:08Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "EU fuelling economic ‘doom loop’ by weakening climate rules during record heatwave, Dutch bank says",
-      "summary": "A Dutch bank warns that EU weakening of climate rules during a record heatwave may create an economic doom loop. The analysis links policy relaxation to potential economic fallout under extreme heat conditions.",
+      "title": "EU weakens climate rules amid heatwave, risking economic consequences",
+      "summary": "European Union officials relaxed environmental regulations during record-breaking summer temperatures. A Dutch bank warned these changes could trigger long-term economic instability across member states.",
       "article_ids": [
         "51efb77015b62265eb746fde"
       ],
@@ -125,6 +139,38 @@
           "url": "https://euobserver.com/232026/eu-fuelling-economic-doom-loop-by-weakening-climate-rules-during-record-heatwave-dutch-bank-says",
           "headline": "EU fuelling economic ‘doom loop’ by weakening climate rules during record heatwave, Dutch bank says",
           "published_at": "2026-08-11T14:00:14Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Hungary elects Orbán critic as president amid political shift",
+      "summary": "The Hungarian parliament selected a former judge previously removed by Viktor Orbán as the nation's new president. This appointment signals a potential recalibration of power within the country's political landscape.",
+      "article_ids": [
+        "49ca99934bf5eb1cf183d685"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/hungary-s-parliament-elects-orban-critic-as-new-president/a-78325589?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Hungary's parliament elects Orban critic as new president",
+          "published_at": "2026-08-11T16:00:00Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Baltic region advances defense innovation against Russian threat",
+      "summary": "Startups in Estonia and Latvia are developing rapid-response defense technologies to counter Russian aggression. These initiatives reflect growing regional security concerns along NATO's eastern frontier.",
+      "article_ids": [
+        "9e17172098cc075e3c06c25a"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260811-fast-and-fearless-baltic-defence-startups-innovate-to-counter-russian-threat",
+          "headline": "Fast and fearless: Baltic defence startups innovate to counter Russian threat",
+          "published_at": "2026-08-11T17:48:28Z"
         }
       ],
       "source_count": 1
@@ -379,6 +425,20 @@
       "url": "https://www.politico.eu/article/your-breakfast-loo-lot-more-expensive-under-pesticide-simplification",
       "published_at": "2026-08-12T02:00:00Z",
       "collected_at": "2026-08-12T04:00:49Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "0a6a4a44907b95d4abb551f7",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Breakfast looks a lot more expensive under new EU pesticide plans",
+      "url": "https://www.politico.eu/article/your-breakfast-loo-lot-more-expensive-under-pesticide-simplification",
+      "published_at": "2026-08-12T02:00:00Z",
+      "collected_at": "2026-08-12T08:00:50Z",
       "topics": [
         "institutions",
         "politics",
@@ -1576,34 +1636,6 @@
       ]
     },
     {
-      "id": "3f30a2e03df98dbda8044531",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Putin used North Korean ballistic missiles in lethal attack on Ukraine, Zelenskyy says",
-      "url": "https://www.politico.eu/article/vladimir-putin-russia-used-north-korean-ballistic-missiles-lethal-attack-ukraine-zelenskyy-says",
-      "published_at": "2026-08-11T07:53:19Z",
-      "collected_at": "2026-08-11T08:00:45Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "40b038fe609e476a2012b755",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 Live: Zelensky says Russia fired North Korean missiles at Zaporizhzhia",
-      "url": "https://www.france24.com/en/europe/20260810-live-russian-missiles-strike-kyiv-triggering-fires-in-city-centre",
-      "published_at": "2026-08-11T07:34:09Z",
-      "collected_at": "2026-08-11T08:00:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "f762c4204e9e4b13a9b95f4a",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1618,20 +1650,6 @@
       ]
     },
     {
-      "id": "189c1a46f115f5944b95aba5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "European swimming championships: France take silver in 4 x 200m freestyle relay",
-      "url": "https://www.france24.com/en/tv-shows/sports/20260811-european-championships-thanks-to-l%C3%A9on-marchand-france-take-silver-in-the-4-x-200m",
-      "published_at": "2026-08-11T05:21:39Z",
-      "collected_at": "2026-08-11T08:00:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "05d2a6703608f07710b3585f",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1639,34 +1657,6 @@
       "url": "https://www.france24.com/en/tv-shows/sports/20260811-european-championships-thanks-to-l%C3%A9on-marchand-france-take-silver-in-the-4-x-200m",
       "published_at": "2026-08-11T05:21:39Z",
       "collected_at": "2026-08-11T09:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "c26ee27dbbd64e48fde9a86a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ukraine war live: Zelensky says Russia fired North Korean missiles at Zaporizhzhia",
-      "url": "https://www.france24.com/en/europe/20260810-live-russian-missiles-strike-kyiv-triggering-fires-in-city-centre",
-      "published_at": "2026-08-10T23:03:04Z",
-      "collected_at": "2026-08-11T08:00:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "70d2d55b4df64f6a15d0c8ca",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ebola started three months earlier than official declaration, WHO says",
-      "url": "https://www.france24.com/en/ebola-started-3-months-earlier-than-official-declaration",
-      "published_at": "2026-08-10T20:26:40Z",
-      "collected_at": "2026-08-11T08:00:45Z",
       "topics": [
         "politics",
         "security",
