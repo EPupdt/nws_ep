@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-12T09:00:53Z",
-  "last_successful_collection_at": "2026-08-12T09:00:53Z",
+  "generated_at": "2026-08-12T09:30:42Z",
+  "last_successful_collection_at": "2026-08-12T09:30:42Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-12T09:00:53Z"
+      "at": "2026-08-12T09:30:42Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "28",
-      "at": "2026-08-12T09:00:53Z"
+      "at": "2026-08-12T09:30:42Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-12T09:00:53Z"
+      "at": "2026-08-12T09:30:42Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,44 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-12T09:00:53Z"
+      "at": "2026-08-12T09:30:42Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-12T09:00:53Z"
+      "at": "2026-08-12T09:30:42Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-12T09:00:53Z"
+      "at": "2026-08-12T09:30:42Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-12T09:00:53Z"
+      "at": "2026-08-12T09:30:42Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-12T09:00:53Z"
+      "at": "2026-08-12T09:30:42Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-12T09:00:53Z"
+      "at": "2026-08-12T09:30:42Z"
     }
   ],
-  "europe_now": [
+  "europe_now": [],
+  "top_stories": [
     {
-      "title": "Ceuta crisis showed EU gave too much power to Morocco",
-      "summary": "The Ceuta crisis highlighted concerns about EU authority over Morocco. The situation raises questions about the balance of power in the region.",
+      "title": "Ceuta Migration Crisis",
+      "summary": "Tensions at the Ceuta border have drawn attention to migration pressures and EU external policies. The situation underscores complex relationships between European governance and North African partners.",
       "article_ids": [
         "620737efe4e05ef679452e62"
       ],
@@ -80,29 +81,49 @@
       "source_count": 1
     },
     {
-      "title": "Former judge removed by Orbán elected Hungarian president",
-      "summary": "A former judge who was removed by Prime Minister Orbán has been elected as Hungary's president. The appointment marks a shift in Hungarian political leadership.",
+      "title": "Geopolitical and Security Developments",
+      "summary": "Disinformation campaigns and defense innovations are shaping Europe's security landscape. Baltic nations are advancing military technologies while EU institutions confront evolving cyber and hybrid threats.",
       "article_ids": [
-        "607012082c2b987444891c98"
+        "9e17172098cc075e3c06c25a"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/clyed7rem5no?at_medium=RSS&at_campaign=rss",
-          "headline": "Former judge removed by Orbán elected Hungarian president",
-          "published_at": "2026-08-11T18:34:39Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260811-fast-and-fearless-baltic-defence-startups-innovate-to-counter-russian-threat",
+          "headline": "Fast and fearless: Baltic defence startups innovate to counter Russian threat",
+          "published_at": "2026-08-11T17:48:28Z"
         }
       ],
       "source_count": 1
     }
   ],
-  "top_stories": [],
   "developing": [
     {
-      "label": "Trump · Donald · plane · Secret",
+      "label": "Colombia · earthquake · Death · toll",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 6,
+      "item_count": 8,
+      "latest_at": "2026-08-12T09:06:28Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/death-toll-rises-after-colombia-earthquake",
+          "headline": "Death toll rises after Colombia earthquake",
+          "published_at": "2026-08-12T09:06:28Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-08-12/colombia-in-the-72-hours-after-the-earthquake-uneven-rescue-deployment-and-slow-to-accept-international-aid.html",
+          "headline": "Colombia in the 72 hours after the earthquake: uneven rescue deployment and slow to accept international aid",
+          "published_at": "2026-08-12T07:57:52Z"
+        }
+      ]
+    },
+    {
+      "label": "Trump · plane · Donald · faced",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
       "latest_at": "2026-08-12T08:39:27Z",
       "sources": [
         {
@@ -116,27 +137,6 @@
           "url": "https://www.politico.com/news/2026/08/11/donald-trump-plane-switch-secret-service-01034973",
           "headline": "Trump denies orchestrating plane switch: ‘It’s only up to Secret Service’",
           "published_at": "2026-08-12T03:24:59Z"
-        }
-      ]
-    },
-    {
-      "label": "Colombia · earthquake",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-08-12T07:57:52Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-08-12/colombia-in-the-72-hours-after-the-earthquake-uneven-rescue-deployment-and-slow-to-accept-international-aid.html",
-          "headline": "Colombia in the 72 hours after the earthquake: uneven rescue deployment and slow to accept international aid",
-          "published_at": "2026-08-12T07:57:52Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260811-colombia-thousands-missing-after-deadly-earthquake",
-          "headline": "Colombia: Thousands missing after deadly earthquake",
-          "published_at": "2026-08-11T14:32:29Z"
         }
       ]
     },
@@ -184,6 +184,62 @@
     }
   ],
   "radar": [
+    {
+      "id": "1bad712b95fe717ff1fb2724",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Millions gear up for first total eclipse since 2006",
+      "url": "https://www.france24.com/en/millions-gear-up-for-first-total-eclipse-since-2006",
+      "published_at": "2026-08-12T09:20:31Z",
+      "collected_at": "2026-08-12T09:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "dc8624e5a44ca262a4c43a40",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Key US primary races take shape",
+      "url": "https://www.france24.com/en/key-us-primary-races-take-shape",
+      "published_at": "2026-08-12T09:07:39Z",
+      "collected_at": "2026-08-12T09:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "96a1896dd1ab633f65be2735",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Death toll rises after Colombia earthquake",
+      "url": "https://www.france24.com/en/death-toll-rises-after-colombia-earthquake",
+      "published_at": "2026-08-12T09:06:28Z",
+      "collected_at": "2026-08-12T09:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "97076c262f014127a5da8278",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Burnham chairs crisis meeting as UK swelters in extreme heat",
+      "url": "https://www.politico.eu/article/andy-burnham-chairs-crisis-meeting-as-uk-swelters-in-extreme-heat",
+      "published_at": "2026-08-12T09:04:12Z",
+      "collected_at": "2026-08-12T09:30:42Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "cbb6052a0401f9ea0ea371c1",
       "source_id": "france24",
@@ -381,6 +437,20 @@
       ]
     },
     {
+      "id": "33c030362fd363e171fed50b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Meta faces $1.4 trillion damages in lawsuit over child social media addiction",
+      "url": "https://www.france24.com/en/business/20260812-meta-meets-its-own-tobacco-moment-in-court",
+      "published_at": "2026-08-12T04:43:11Z",
+      "collected_at": "2026-08-12T09:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "b2b10ce23223aa840d0664c9",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -535,6 +605,20 @@
       ]
     },
     {
+      "id": "e35f0901770f7c857f0526b3",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "UK's Count Binface, the 'joke' candidate challenging far-right Farage in Clacton by-election",
+      "url": "https://www.france24.com/en/europe/20260812-uk-joke-candidate-count-binface-makes-serious-point-about-politics",
+      "published_at": "2026-08-12T01:27:17Z",
+      "collected_at": "2026-08-12T09:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "4368bdf52a09cc607f6dac3c",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -626,6 +710,20 @@
       "url": "https://www.france24.com/en/nigerians-returnees-try-to-re-adapt-after-trauma-in-south-africa",
       "published_at": "2026-08-11T21:10:57Z",
       "collected_at": "2026-08-12T04:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "2e9c1c6a1e15019ff252ad73",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Nigerian returnees try to re-adapt after trauma in South Africa",
+      "url": "https://www.france24.com/en/nigerians-returnees-try-to-re-adapt-after-trauma-in-south-africa",
+      "published_at": "2026-08-11T21:10:57Z",
+      "collected_at": "2026-08-12T09:30:42Z",
       "topics": [
         "politics",
         "security",
@@ -1834,6 +1932,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "a80fa9ea3aeff03843f072e5",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "In an over-heating Europe, treating air conditioning as ‘American decadence’ has become dangerous",
+      "url": "https://euobserver.com/228897/in-an-over-heating-europe-treating-air-conditioning-as-american-decadence-has-become-dangerous",
+      "published_at": "2026-08-08T09:03:00Z",
+      "collected_at": "2026-08-12T09:30:42Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
