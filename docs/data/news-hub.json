@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-13T18:00:50Z",
-  "last_successful_collection_at": "2026-08-13T18:00:50Z",
+  "generated_at": "2026-08-13T18:30:40Z",
+  "last_successful_collection_at": "2026-08-13T18:30:40Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-13T18:00:50Z"
+      "at": "2026-08-13T18:30:40Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "35",
-      "at": "2026-08-13T18:00:50Z"
+      "at": "2026-08-13T18:30:40Z"
     },
     {
       "id": "france24",
       "status": "ok",
-      "count": "24",
-      "at": "2026-08-13T18:00:50Z"
+      "count": "23",
+      "at": "2026-08-13T18:30:40Z"
     },
     {
       "id": "euractiv",
@@ -29,52 +29,69 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-13T18:00:50Z"
+      "at": "2026-08-13T18:30:40Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-13T18:00:50Z"
+      "at": "2026-08-13T18:30:40Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-08-13T18:00:50Z"
+      "at": "2026-08-13T18:30:40Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-13T18:00:50Z"
+      "at": "2026-08-13T18:30:40Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-13T18:00:50Z"
+      "at": "2026-08-13T18:30:40Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-13T18:00:50Z"
+      "at": "2026-08-13T18:30:40Z"
     }
   ],
   "europe_now": [
     {
-      "title": "EU faces winter gas-price spiral as stocks run low",
-      "summary": "European gas reserves have fallen to critically low levels heading into winter, raising concerns about price volatility and supply security across the continent. The situation reflects broader energy market tensions affecting EU member states.",
+      "title": "Ukraine Conflict Intensifies with Cross-Border Strikes",
+      "summary": "Recent cross-border strikes have escalated the Ukraine conflict, causing significant civilian casualties and regional instability. The attacks highlight ongoing security threats to European borders and humanitarian concerns.",
       "article_ids": [
-        "421937ac13780861b44cce12"
+        "5e5a33e0b886b7cd35d2f701",
+        "875d3908fb45dbefb3d52592"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260813-russia-ukraine-war-grain-hub-attacks-raise-fears-over-global-food-prices",
+          "headline": "Russia-Ukraine war: Grain hub attacks raise fears over global food prices",
+          "published_at": "2026-08-13T16:53:05Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Rwanda Designated as EU's First Migrant Return Hub",
+      "summary": "Rwanda has been selected as the EU's inaugural migrant return hub, raising questions about its capacity and implications for migration policy. This development reflects broader challenges in managing EU external relations and solidarity.",
+      "article_ids": [
+        "1fe81573c505d70fcf25cb22"
       ],
       "sources": [
         {
           "publisher": "EUobserver",
-          "url": "https://euobserver.com/232345/eu-risks-winter-gas-price-spiral-as-stocks-run-low",
-          "headline": "EU risks winter gas-price spiral, as stocks run low",
-          "published_at": "2026-08-13T15:01:23Z"
+          "url": "https://euobserver.com/232376/september-meeting-aims-to-seal-five-eu-country-deal-on-uganda-migrant-return-hub",
+          "headline": "September meeting aims to seal five EU-country deal on Uganda migrant return hub",
+          "published_at": "2026-08-13T17:25:16Z"
         }
       ],
       "source_count": 1
@@ -82,12 +99,19 @@
   ],
   "top_stories": [
     {
-      "title": "Ukraine civilian casualties reach highest level since 2022",
-      "summary": "Ukraine has recorded its highest monthly civilian casualty count since 2022, reflecting intensified hostilities across frontline regions. The spike highlights the continued human cost of the conflict in affected areas.",
+      "title": "Ukraine Conflict and Civilian Casualties",
+      "summary": "Ukraine's monthly civilian casualties have reached their highest level since 2022, driven by intensified cross-border strikes. The conflict continues to pose a critical security risk to Europe's stability and humanitarian framework.",
       "article_ids": [
+        "5e5a33e0b886b7cd35d2f701",
         "95f37f98a8c5b8e77787856a"
       ],
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260813-russia-ukraine-war-grain-hub-attacks-raise-fears-over-global-food-prices",
+          "headline": "Russia-Ukraine war: Grain hub attacks raise fears over global food prices",
+          "published_at": "2026-08-13T16:53:05Z"
+        },
         {
           "publisher": "Deutsche Welle",
           "url": "https://www.dw.com/en/ukraine-s-monthly-civilian-casualties-highest-since-2022/live-78351269?maca=en-rss-en-eu-2092-rdf",
@@ -95,23 +119,7 @@
           "published_at": "2026-08-13T12:25:00Z"
         }
       ],
-      "source_count": 1
-    },
-    {
-      "title": "EU packaging regime restricts small publishers in single market",
-      "summary": "The EU's new packaging regime restricts small publishers from operating freely in the single market. The measure impacts independent publishing houses across member states.",
-      "article_ids": [
-        "b9c2ef36d4e8cdc9a18b9500"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/232272/eu-new-packaging-regime-locks-small-publishers-out-of-single-market",
-          "headline": "EU new packaging regime locks small publishers out of single market",
-          "published_at": "2026-08-13T10:37:29Z"
-        }
-      ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
@@ -158,6 +166,27 @@
       ]
     },
     {
+      "label": "Russian · Warsaw · plot · Ukrainian",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 5,
+      "latest_at": "2026-08-13T15:17:20Z",
+      "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/08/13/poland-detains-russian-seeking-to-assassinate-us-ukrainian-citizen-in-warsaw",
+          "headline": "Poland detains Russian seeking to assassinate US-Ukrainian citizen in Warsaw",
+          "published_at": "2026-08-13T15:17:20Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260813-poland-detains-russian-for-execution-plot-in-warsaw-tusk-says",
+          "headline": "Poland detains Russian for 'execution' plot in Warsaw, Tusk says",
+          "published_at": "2026-08-13T14:54:22Z"
+        }
+      ]
+    },
+    {
       "label": "French · Mali · pardon · prison",
       "origin": "convergence",
       "source_count": 2,
@@ -175,27 +204,6 @@
           "url": "https://www.france24.com/en/africa/20260813-mali-grants-presidential-pardon-to-french-national-sentenced-to-20-years-in-prison",
           "headline": "🔴 Mali pardons French official Yann ​Vézilier, who was sentenced to 20 years in prison",
           "published_at": "2026-08-13T14:59:45Z"
-        }
-      ]
-    },
-    {
-      "label": "Russian · Warsaw · plot · Tusk",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-08-13T15:17:20Z",
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/08/13/poland-detains-russian-seeking-to-assassinate-us-ukrainian-citizen-in-warsaw",
-          "headline": "Poland detains Russian seeking to assassinate US-Ukrainian citizen in Warsaw",
-          "published_at": "2026-08-13T15:17:20Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260813-poland-detains-russian-for-execution-plot-in-warsaw-tusk-says",
-          "headline": "Poland detains Russian for 'execution' plot in Warsaw, Tusk says",
-          "published_at": "2026-08-13T14:54:22Z"
         }
       ]
     }
@@ -405,6 +413,20 @@
       "url": "https://notesfrompoland.com/2026/08/13/poland-detains-russian-seeking-to-assassinate-us-ukrainian-citizen-in-warsaw",
       "published_at": "2026-08-13T15:17:20Z",
       "collected_at": "2026-08-13T15:30:42Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "046f473f81fe3512a33a8371",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland says it foiled Russian plot to “execute” US-Ukrainian citizen in Warsaw",
+      "url": "https://notesfrompoland.com/2026/08/13/poland-detains-russian-seeking-to-assassinate-us-ukrainian-citizen-in-warsaw",
+      "published_at": "2026-08-13T15:17:20Z",
+      "collected_at": "2026-08-13T18:30:40Z",
       "topics": [
         "central_europe",
         "politics",
