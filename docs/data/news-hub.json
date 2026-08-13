@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-13T07:30:40Z",
-  "last_successful_collection_at": "2026-08-13T07:30:40Z",
+  "generated_at": "2026-08-13T08:00:51Z",
+  "last_successful_collection_at": "2026-08-13T08:00:51Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-13T07:30:40Z"
+      "at": "2026-08-13T08:00:51Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "33",
-      "at": "2026-08-13T07:30:40Z"
+      "at": "2026-08-13T08:00:51Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-13T07:30:40Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-13T08:00:51Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-13T07:30:40Z"
+      "at": "2026-08-13T08:00:51Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-13T07:30:40Z"
+      "at": "2026-08-13T08:00:51Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-13T07:30:40Z"
+      "at": "2026-08-13T08:00:51Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-13T07:30:40Z"
+      "at": "2026-08-13T08:00:51Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-13T07:30:40Z"
+      "at": "2026-08-13T08:00:51Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-13T07:30:40Z"
+      "at": "2026-08-13T08:00:51Z"
     }
   ],
   "europe_now": [
     {
       "title": "Major Russian grain export terminals hit in Ukraine Black Sea port attack",
-      "summary": "A Russian attack damaged infrastructure at a key Ukrainian Black Sea port used for grain exports. This strike disrupts critical logistics for global food supplies.",
+      "summary": "Russian forces conducted a strike on grain export terminals in Ukraine's Black Sea port. The attack damaged infrastructure critical to global grain supply chains.",
       "article_ids": [
         "808fd33f8a4aca0198a2360c"
       ],
@@ -78,21 +78,53 @@
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "EU double standards on pesticides exposed, amid warning of coffee and citrus price spikes",
+      "summary": "EU pesticide standards have been revealed as inconsistent across member states. Officials warn of potential price increases for coffee and citrus products.",
+      "article_ids": [
+        "8c172f27fc98136363e6f6ec"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/232161/eu-double-standards-on-pesticides-exposed-amid-warning-of-coffee-and-citrus-price-spikes",
+          "headline": "EU double standards on pesticides exposed, amid warning of coffee and citrus price spikes",
+          "published_at": "2026-08-12T14:16:12Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "Major Russian grain export terminals hit in Ukraine Black Sea port attack",
-      "summary": "A Russian attack damaged infrastructure at a key Ukrainian Black Sea port used for grain exports. This strike disrupts critical logistics for global food supplies.",
+      "title": "Rwanda designated as EU's first migrant return hub",
+      "summary": "Rwanda has been designated as the EU's first migrant return hub. The arrangement raises questions about benefits for Kigali and regional migration dynamics.",
       "article_ids": [
-        "808fd33f8a4aca0198a2360c"
+        "69dbc25d555e3140da8a93fc"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss",
-          "headline": "Major Russian grain export terminals hit in Ukraine Black Sea port attack",
-          "published_at": "2026-08-12T17:47:01Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/232169/rwanda-revealed-as-eus-first-migrant-return-hub-but-whats-in-it-for-kigali",
+          "headline": "Rwanda revealed as EU’s first migrant return hub, but what’s in it for Kigali?",
+          "published_at": "2026-08-12T15:13:00Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Eurovision bars countries at war or in sensitive geopolitical situations from hosting",
+      "summary": "Eurovision has implemented restrictions on countries at war or in sensitive geopolitical situations. The policy bars such nations from hosting the contest.",
+      "article_ids": [
+        "f9c100826ad256d6d2bd933a"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eurovision-countries-war-sensitive-geopolitical-situations-host",
+          "headline": "Eurovision bars countries at war or in ‘sensitive geopolitical situations’ from hosting",
+          "published_at": "2026-08-12T17:23:53Z"
         }
       ],
       "source_count": 1
@@ -121,27 +153,6 @@
       ]
     },
     {
-      "label": "Colombia · earthquake · Death · toll",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-08-13T01:36:28Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20260813-colombia-earthquake-rescue-efforts-enter-final-phase-as-death-toll-rises",
-          "headline": "Colombia earthquake rescue efforts enter 'final phase' as death toll rises",
-          "published_at": "2026-08-13T01:36:28Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-08-12/colombia-in-the-72-hours-after-the-earthquake-uneven-rescue-deployment-and-slow-to-accept-international-aid.html",
-          "headline": "Colombia in the 72 hours after the earthquake: uneven rescue deployment and slow to accept international aid",
-          "published_at": "2026-08-12T07:57:52Z"
-        }
-      ]
-    },
-    {
       "label": "Crowley · Wisconsin · Moderate · beats",
       "origin": "convergence",
       "source_count": 2,
@@ -159,6 +170,27 @@
           "url": "https://www.france24.com/en/americas/20260812-david-crowley-beats-progressive-francesca-hong-wisconsin-democratic-primary",
           "headline": "Wisconsin Democrats choose moderate Crowley for governor's race in US battleground state",
           "published_at": "2026-08-12T08:56:42Z"
+        }
+      ]
+    },
+    {
+      "label": "disputed · island · Putin · Japan",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-08-13T07:59:12Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/vladimir-putin-disputed-kuril-islands-visit-japan-russia",
+          "headline": "Putin enrages Japan with trip to disputed island",
+          "published_at": "2026-08-13T07:59:12Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/asia-pacific/20260813-putin-visits-kuril-islands-claimed-by-japan",
+          "headline": "Putin visits disputed Kuril islands sparking Japanese protest",
+          "published_at": "2026-08-13T04:53:10Z"
         }
       ]
     },
@@ -185,6 +217,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "4a55f5d0781544a1066234ec",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Putin enrages Japan with trip to disputed island",
+      "url": "https://www.politico.eu/article/vladimir-putin-disputed-kuril-islands-visit-japan-russia",
+      "published_at": "2026-08-13T07:59:12Z",
+      "collected_at": "2026-08-13T08:00:51Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "77f153b37e9ac5be1abd9827",
       "source_id": "politico_europe",
@@ -221,6 +267,20 @@
       "url": "https://www.france24.com/en/europe/20260813-live-russian-attack-sets-ablaze-ukraine-s-izmail-port-infrastructure",
       "published_at": "2026-08-13T06:14:52Z",
       "collected_at": "2026-08-13T06:30:38Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "b59ec74dc4825bde204fa861",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: Russian attack sets Ukraine’s Izmail port infrastructure ablaze",
+      "url": "https://www.france24.com/en/europe/20260813-live-russian-attack-sets-ablaze-ukraine-s-izmail-port-infrastructure",
+      "published_at": "2026-08-13T06:14:52Z",
+      "collected_at": "2026-08-13T08:00:51Z",
       "topics": [
         "politics",
         "security",
@@ -1628,20 +1688,6 @@
       ]
     },
     {
-      "id": "f878310f70438af95ac7174c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Event of the century': Total solar eclipse draws visitors to sleepy European villages",
-      "url": "https://www.france24.com/en/europe/20260812-total-solar-eclipse-draws-visitors-sleepy-european-villages-event-of-the-century",
-      "published_at": "2026-08-12T07:14:55Z",
-      "collected_at": "2026-08-12T07:30:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "40b1638cc14f386485a07ba9",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1712,20 +1758,6 @@
       ]
     },
     {
-      "id": "0a6a4a44907b95d4abb551f7",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Breakfast looks a lot more expensive under new EU pesticide plans",
-      "url": "https://www.politico.eu/article/your-breakfast-loo-lot-more-expensive-under-pesticide-simplification",
-      "published_at": "2026-08-12T02:00:00Z",
-      "collected_at": "2026-08-12T08:00:50Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "a7920b794643266fef3f7b4f",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1764,20 +1796,6 @@
       "topics": [
         "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "c76f34e340d4d590c77be731",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Libyan National Army intel chief assassinated in Benghazi car bombing",
-      "url": "https://www.france24.com/en/africa/20260811-libyan-military-intelligence-chief-assassinated-in-car-bombing",
-      "published_at": "2026-08-11T23:33:37Z",
-      "collected_at": "2026-08-12T07:30:46Z",
-      "topics": [
-        "politics",
-        "security",
         "society"
       ]
     },
@@ -2118,20 +2136,6 @@
       ]
     },
     {
-      "id": "dd1bcf73da3551b79a57d31c",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "[Interview] Far-right Le Pen in the Élysée could pull France out of Nato’s military command, French political scientist warns",
-      "url": "https://euobserver.com/231219/interview-far-right-le-pen-in-the-elysee-could-pull-france-out-of-natos-military-command-french-political-scientist-warns",
-      "published_at": "2026-08-10T06:56:58Z",
-      "collected_at": "2026-08-12T07:30:46Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "2ef04686b03915e7c9c74a10",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2454,20 +2458,6 @@
       ]
     },
     {
-      "id": "fde2f92fc5b325341a76940f",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "What's behind the Algeria-Morocco rivalry?",
-      "url": "https://www.dw.com/en/what-s-behind-the-algeria-morocco-rivalry/a-78258062?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-06T05:10:00Z",
-      "collected_at": "2026-08-12T07:30:46Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "c5d75a793461299b0cc1f908",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2493,20 +2483,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "7cd01bd64823ddffc04f57e0",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Italy: Garbage workers help woman find €1 million jackpot",
-      "url": "https://www.dw.com/en/italy-garbage-workers-help-woman-find-€1-million-jackpot/a-78237944?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-04T19:33:00Z",
-      "collected_at": "2026-08-12T07:30:46Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
