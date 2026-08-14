@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-14T13:30:46Z",
-  "last_successful_collection_at": "2026-08-14T13:30:46Z",
+  "generated_at": "2026-08-14T14:31:07Z",
+  "last_successful_collection_at": "2026-08-14T14:31:07Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-14T13:30:46Z"
+      "at": "2026-08-14T14:31:07Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "38",
-      "at": "2026-08-14T13:30:46Z"
+      "at": "2026-08-14T14:31:07Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-14T13:30:46Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-14T14:31:07Z"
     },
     {
       "id": "euractiv",
@@ -29,59 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-14T13:30:46Z"
+      "at": "2026-08-14T14:31:07Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-14T13:30:46Z"
+      "at": "2026-08-14T14:31:07Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-14T13:30:46Z"
+      "at": "2026-08-14T14:31:07Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-14T13:30:46Z"
+      "at": "2026-08-14T14:31:07Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-14T13:30:46Z"
+      "at": "2026-08-14T14:31:07Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-14T13:30:46Z"
+      "at": "2026-08-14T14:31:07Z"
     }
   ],
   "europe_now": [
     {
-      "title": "NATO jets shoot down drone over Latvia",
-      "summary": "NATO fighter jets intercepted and shot down a drone over Latvian airspace. The incident occurred over Latvian territory.",
+      "title": "German intelligence agencies granted offensive powers, overturning post-Cold War taboo",
+      "summary": "German intelligence agencies are to be granted offensive capabilities, overturning long-standing post-Cold War restrictions on domestic surveillance. The move reflects a shift in Europe's security framework.",
       "article_ids": [
-        "0a5f24fd8cb5a46134e4a944"
+        "04bf75f0b8564030b93f2fd9"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/nato-jets-shoot-down-drone-over-latvia",
-          "headline": "NATO jets shoot down drone over Latvia",
-          "published_at": "2026-08-14T10:18:39Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/232465/german-spies-to-get-offensive-powers-breaking-post-cold-war-taboo-on-secret-police",
+          "headline": "German spies to get offensive powers, breaking post-Cold War taboo on ‘secret police’",
+          "published_at": "2026-08-14T10:54:09Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Ukraine: Civilian casualties hit highest level since May 2022",
-      "summary": "Civilian casualties in Ukraine have reached their highest level since May 2022. The figures represent a notable increase in conflict-related harm.",
+      "title": "Ukraine civilian casualties reach highest level since 2022",
+      "summary": "Civilian casualties in Ukraine have reached their highest level since 2022, underscoring the conflict's ongoing human toll. The spike intensifies scrutiny of the war's impact across Europe.",
       "article_ids": [
         "d90ff01dc4c703bad4c3e26b"
       ],
@@ -99,7 +99,7 @@
   "top_stories": [
     {
       "title": "Ukraine grain attacks raise food price fears",
-      "summary": "Grain attacks in Ukraine have raised fears over food price increases. The incidents are linked to the ongoing war context.",
+      "summary": "Grain attacks in Ukraine have been reported to raise concerns over global food price increases. The incidents are linked to broader impacts on agricultural exports and market stability in Europe.",
       "article_ids": [
         "1f914b1c9391c7decaa798d0"
       ],
@@ -109,22 +109,6 @@
           "url": "https://www.france24.com/en/ukraine-war-grain-attacks-raise-food-price-fears",
           "headline": "Ukraine war: Grain attacks raise food price fears",
           "published_at": "2026-08-14T10:41:12Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "German spies to get offensive powers, breaking post-Cold War taboo on ‘secret police’",
-      "summary": "German intelligence agencies are set to receive offensive capabilities. The move breaks a post-Cold War taboo on domestic secret police powers.",
-      "article_ids": [
-        "04bf75f0b8564030b93f2fd9"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/232465/german-spies-to-get-offensive-powers-breaking-post-cold-war-taboo-on-secret-police",
-          "headline": "German spies to get offensive powers, breaking post-Cold War taboo on ‘secret police’",
-          "published_at": "2026-08-14T10:54:09Z"
         }
       ],
       "source_count": 1
@@ -159,10 +143,10 @@
       ]
     },
     {
-      "label": "nuclear · Danube · Romania · shuts",
+      "label": "nuclear · Danube · Hungary · plant",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 4,
+      "item_count": 3,
       "latest_at": "2026-08-13T21:21:00Z",
       "sources": [
         {
@@ -230,6 +214,34 @@
   ],
   "radar": [
     {
+      "id": "1998f4f263abf25523686763",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Polish opposition expels 40 lawmakers who formed breakaway caucus led by ex-PM Morawiecki",
+      "url": "https://notesfrompoland.com/2026/08/14/polish-opposition-expels-40-lawmakers-who-formed-breakaway-caucus-led-by-ex-pm-morawiecki",
+      "published_at": "2026-08-14T13:37:00Z",
+      "collected_at": "2026-08-14T14:31:07Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "5ab3bc85b58c965f917b58e3",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Southern Europe leads boom in young, high-growth firms, as Germany falls behind",
+      "url": "https://euobserver.com/232492/southern-europe-leads-boom-in-young-high-growth-firms-as-germany-falls-behind",
+      "published_at": "2026-08-14T13:36:38Z",
+      "collected_at": "2026-08-14T14:31:07Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "eed845018562c5ed42561282",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -269,6 +281,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "959de5e9399c96276c408043",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Le Conseil Constitutionnel censure la loi interdisant les réseaux sociaux aux mineurs",
+      "url": "https://www.politico.eu/article/le-conseil-constitutionnel-censure-la-loi-interdisant-les-reseaux-sociaux-aux-mineurs",
+      "published_at": "2026-08-14T13:10:25Z",
+      "collected_at": "2026-08-14T14:31:07Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
       ]
     },
     {
@@ -1784,20 +1810,6 @@
       ]
     },
     {
-      "id": "4e00f5fead492e8246fded1f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Iran says Trump ‘lied’ about US control over Strait of Hormuz",
-      "url": "https://www.france24.com/en/middle-east/20260813-iran-says-trump-lied-about-us-control-over-strait-of-hormuz",
-      "published_at": "2026-08-13T14:08:54Z",
-      "collected_at": "2026-08-13T14:30:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "04f3187ce5d795e5ff889115",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1840,59 +1852,45 @@
       ]
     },
     {
-      "id": "a5b1e5e5ef7bbcdd35ad1091",
+      "id": "5cec2f15ac36f4570a10a2d6",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "What is now happening at the viral Moscow refinery whose ‘roof flew off’ in a blast in June? (Ukraine Battlefield update, Day 1,630)",
+      "url": "https://euobserver.com/232193/what-is-now-happening-at-the-viral-moscow-refinery-whose-roof-flew-off-in-a-blast-in-june-ukraine-battlefield-update-day-1630",
+      "published_at": "2026-08-12T14:21:21Z",
+      "collected_at": "2026-08-14T14:31:07Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "8c172f27fc98136363e6f6ec",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "EU double standards on pesticides exposed, amid warning of coffee and citrus price spikes",
+      "url": "https://euobserver.com/232161/eu-double-standards-on-pesticides-exposed-amid-warning-of-coffee-and-citrus-price-spikes",
+      "published_at": "2026-08-12T14:16:12Z",
+      "collected_at": "2026-08-14T14:31:07Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "b00b6c07ebdfad5e85a64524",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
-      "title": "Polish household assets hit record 4 trillion zloty amid fastest growth in years",
-      "url": "https://notesfrompoland.com/2026/08/13/polish-household-assets-hit-record-4-trillion-zloty-amid-fastest-growth-in-years",
-      "published_at": "2026-08-13T13:39:23Z",
-      "collected_at": "2026-08-13T14:00:54Z",
+      "title": "Negative views of Polish-Ukrainian relations reach highest level on record in Poland",
+      "url": "https://notesfrompoland.com/2026/08/12/negative-views-of-polish-ukrainian-relations-reach-highest-level-on-record-in-poland",
+      "published_at": "2026-08-12T13:54:22Z",
+      "collected_at": "2026-08-14T14:31:07Z",
       "topics": [
         "central_europe",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "7d9f851e0f6a13ac9a6253c3",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Romania shuts down nuclear reactor as Danube hits record lows",
-      "url": "https://www.politico.eu/article/romania-cernavoda-nuclear-reactor-shut-down-danube-drought",
-      "published_at": "2026-08-13T13:38:19Z",
-      "collected_at": "2026-08-13T14:00:54Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "1bcfd22d837fa2b97b925298",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: Zelensky says Ukraine needs at least 5% of US Patriot stocks to get through winter",
-      "url": "https://www.france24.com/en/europe/20260813-live-russian-attack-sets-ablaze-ukraine-s-izmail-port-infrastructure",
-      "published_at": "2026-08-13T06:14:52Z",
-      "collected_at": "2026-08-13T14:00:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "536875f1d83d00ec28accf9c",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Why is Russia's Yabloko party barred from upcoming election?",
-      "url": "https://www.dw.com/en/why-is-russia-s-yabloko-party-barred-from-upcoming-election/a-78341971?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-12T18:37:00Z",
-      "collected_at": "2026-08-13T14:30:50Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
@@ -1907,6 +1905,20 @@
         "central_europe",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "60fb8a1f4ebb3a2baac77f2a",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘Luis Buñuel: 1.73 meters tall, freckles on his face’: The Spanish exodus to the Americas after the Civil War, told through 100,000 documents",
+      "url": "https://english.elpais.com/culture/2026-08-12/luis-bunuel-173-meters-tall-freckles-on-his-face-the-spanish-exile-to-the-americas-after-the-civil-war-told-through-100000-documents.html",
+      "published_at": "2026-08-12T11:58:18Z",
+      "collected_at": "2026-08-14T14:31:07Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -1991,6 +2003,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "5b8e7e22547410b5fd58851f",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "EU waste packaging rules: Why small businesses are worried",
+      "url": "https://www.dw.com/en/eu-waste-packaging-rules-why-small-businesses-are-worried/a-78326555?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-12T09:21:00Z",
+      "collected_at": "2026-08-14T14:31:07Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -2092,20 +2118,6 @@
       ]
     },
     {
-      "id": "9934ecc9789e0b60f5a65e09",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Russia using North Korean missiles to strike Ukraine, Zelensky says",
-      "url": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-11T16:19:44Z",
-      "collected_at": "2026-08-13T14:30:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "45c705592563e6fb45d8796d",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2162,62 +2174,6 @@
       ]
     },
     {
-      "id": "1ce18cb34cb7d6dd91641cca",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "France bans unsolicited telemarketing calls",
-      "url": "https://www.bbc.co.uk/news/articles/cy5d11g72ppo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-11T14:19:45Z",
-      "collected_at": "2026-08-13T14:30:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "51efb77015b62265eb746fde",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "EU fuelling economic ‘doom loop’ by weakening climate rules during record heatwave, Dutch bank says",
-      "url": "https://euobserver.com/232026/eu-fuelling-economic-doom-loop-by-weakening-climate-rules-during-record-heatwave-dutch-bank-says",
-      "published_at": "2026-08-11T14:00:14Z",
-      "collected_at": "2026-08-13T14:30:50Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "1cc7e72eaa74fbc5cbce5ec0",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Jet-powered Russian drone could cause harsh winter for Ukraine (Ukraine Battlefield update, Day 1,629)",
-      "url": "https://euobserver.com/232010/jet-powered-russian-drone-could-cause-harsh-winter-for-ukraine-ukraine-battlefield-update-day-1629",
-      "published_at": "2026-08-11T13:15:57Z",
-      "collected_at": "2026-08-13T14:00:54Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "1e2d94e497cb887e024a881a",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Operation Matryoshka: Russia using ‘BBC news’ fakes to pervert key German vote",
-      "url": "https://euobserver.com/231951/operation-matryoshka-russia-using-bbc-news-fakes-to-pervert-key-german-vote",
-      "published_at": "2026-08-11T13:03:00Z",
-      "collected_at": "2026-08-13T14:00:54Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "ef3a3798596051bbf7648f31",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2229,6 +2185,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "3b3e0a88fe9a5630eaf6674a",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Power up: How EU-Africa cooperation can drive Europe’s battery recycling future",
+      "url": "https://ecfr.eu/article/power-up-how-eu-africa-cooperation-can-drive-europes-battery-recycling-future",
+      "published_at": "2026-08-10T13:01:28Z",
+      "collected_at": "2026-08-14T14:31:07Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
@@ -2323,34 +2293,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cwyeg1ljp2eo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-09T16:18:10Z",
       "collected_at": "2026-08-13T16:30:48Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "7a55085e6115832c948028c2",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Ancient Roman shipwreck discovered off Sicily coast",
-      "url": "https://www.bbc.co.uk/news/articles/cvgx1kpz17go?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-09T12:27:26Z",
-      "collected_at": "2026-08-13T14:00:54Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "64a3ab741a90079b21cffc48",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Hundreds arrested over French wildfires, but who is to blame?",
-      "url": "https://www.bbc.co.uk/news/articles/cvgxjn92x9jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-08T23:59:23Z",
-      "collected_at": "2026-08-13T14:00:54Z",
       "topics": [
         "breaking",
         "politics",
@@ -2498,20 +2440,6 @@
       ]
     },
     {
-      "id": "a904b947ecba358fa3417aae",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Saudi Arabia, Turkey and Pakistan sign defence pact",
-      "url": "https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-07T17:42:54Z",
-      "collected_at": "2026-08-13T14:00:54Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "fc0e556a99e340cd07b1e238",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2582,6 +2510,20 @@
       ]
     },
     {
+      "id": "e2e860a513bf777565a0a868",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "What tariffs has Trump introduced and why?",
+      "url": "https://www.bbc.co.uk/news/articles/cn93e12rypgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-05T22:47:45Z",
+      "collected_at": "2026-08-14T14:31:07Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "d36eaa2c37542f058b9116fd",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2610,17 +2552,87 @@
       ]
     },
     {
-      "id": "aa38acc14d7ece8a161cf3af",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Blade, Marvel’s cursed hero: ‘He always seems on the verge of becoming a major star, but never makes that definitive leap’",
-      "url": "https://english.elpais.com/culture/2026-08-05/blade-marvels-cursed-hero-he-always-seems-on-the-verge-of-becoming-a-major-star-but-never-makes-that-definitive-leap.html",
-      "published_at": "2026-08-05T13:18:46Z",
-      "collected_at": "2026-08-13T14:30:50Z",
+      "id": "98bb24d9e539807a0dfdf59e",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "If Marine Le Pen wins: A European guide to a far-right France",
+      "url": "https://ecfr.eu/publication/if-marine-le-pen-wins-a-european-guide-to-a-far-right-france",
+      "published_at": "2026-08-04T11:02:13Z",
+      "collected_at": "2026-08-14T14:31:07Z",
       "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "de5ef6272dd325e09278f225",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "How Spain's migrant crisis created a political storm - whipped up by social media",
+      "url": "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-02T10:32:28Z",
+      "collected_at": "2026-08-14T14:31:07Z",
+      "topics": [
+        "breaking",
         "politics",
-        "society",
-        "economy"
+        "society"
+      ]
+    },
+    {
+      "id": "6c3b7e8bb8b9ef9b4c411e2f",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Young guns for hire - the teenage hitmen recruited to kill across Europe",
+      "url": "https://www.bbc.co.uk/news/articles/czrjyevmv61o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-01T23:03:35Z",
+      "collected_at": "2026-08-14T14:31:07Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "05b2292db4b8b3d567697f1b",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "How splits on the right may threaten Poland’s pro-European camp",
+      "url": "https://ecfr.eu/article/how-the-split-on-polands-right-may-threaten-its-pro-european-camp",
+      "published_at": "2026-07-31T09:32:21Z",
+      "collected_at": "2026-08-14T14:31:07Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "b9325c99c080d1251fe1e98d",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Russia's businesses under strain from Ukraine's attacks on Wildberries",
+      "url": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-07-23T06:15:35Z",
+      "collected_at": "2026-08-14T14:31:07Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "dc4f31f3bd7059db415aadab",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "‘Everyone's afraid to die’: Struggle to recruit soldiers in Ukraine turns violent",
+      "url": "https://www.bbc.co.uk/news/articles/cr7k5ngde3vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-07-20T00:19:12Z",
+      "collected_at": "2026-08-14T14:31:07Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     }
   ]
