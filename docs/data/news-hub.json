@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-14T14:31:07Z",
-  "last_successful_collection_at": "2026-08-14T14:31:07Z",
+  "generated_at": "2026-08-14T15:00:52Z",
+  "last_successful_collection_at": "2026-08-14T15:00:52Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-14T14:31:07Z"
+      "at": "2026-08-14T15:00:52Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "38",
-      "at": "2026-08-14T14:31:07Z"
+      "at": "2026-08-14T15:00:52Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-14T14:31:07Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-14T15:00:52Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-14T14:31:07Z"
+      "at": "2026-08-14T15:00:52Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-14T14:31:07Z"
+      "at": "2026-08-14T15:00:52Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-14T14:31:07Z"
+      "at": "2026-08-14T15:00:52Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-14T14:31:07Z"
+      "at": "2026-08-14T15:00:52Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-14T14:31:07Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-14T15:00:52Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-14T14:31:07Z"
+      "at": "2026-08-14T15:00:52Z"
     }
   ],
   "europe_now": [
@@ -116,10 +116,10 @@
   ],
   "developing": [
     {
-      "label": "Battlefield · Ukrainian · US · citizen",
+      "label": "Ukrainian · US · Battlefield · citizen",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 5,
+      "item_count": 4,
       "latest_at": "2026-08-14T12:55:17Z",
       "sources": [
         {
@@ -191,28 +191,84 @@
       ]
     },
     {
-      "label": "French · Mali · pardon · prison",
+      "label": "drone · jets · Latvia · NATO",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-08-13T15:50:49Z",
+      "item_count": 2,
+      "latest_at": "2026-08-14T10:18:39Z",
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c2el29e3m3xo?at_medium=RSS&at_campaign=rss",
-          "headline": "Presidential pardon for French alleged spy accused of plotting Mali coup",
-          "published_at": "2026-08-13T15:50:49Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/nato-jets-shoot-down-drone-over-latvia",
+          "headline": "NATO jets shoot down drone over Latvia",
+          "published_at": "2026-08-14T10:18:39Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/africa/20260813-mali-grants-presidential-pardon-to-french-national-sentenced-to-20-years-in-prison",
-          "headline": "🔴 Mali pardons French official Yann ​Vézilier, who was sentenced to 20 years in prison",
-          "published_at": "2026-08-13T14:59:45Z"
+          "url": "https://www.france24.com/en/europe/20260814-nato-jets-shoot-down-drone-flying-over-eastern-latvia",
+          "headline": "NATO jets shoot down drone flying over eastern Latvia",
+          "published_at": "2026-08-14T08:03:44Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "d3c6b2ed564c7843e4c93e0f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Birthrate drop in North Africa",
+      "url": "https://www.france24.com/en/birthrate-drop-in-north-africa",
+      "published_at": "2026-08-14T13:54:19Z",
+      "collected_at": "2026-08-14T15:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "7a1bd9a1be13a3ce27180116",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "World Bank to fund 645-metre bridge linking Bangui and Zongo",
+      "url": "https://www.france24.com/en/world-bank-to-fund-645-metre-bridge-linking-bangui-and-zongo",
+      "published_at": "2026-08-14T13:52:37Z",
+      "collected_at": "2026-08-14T15:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "2a71753762914567e40d7a65",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Mount Etna continues to erupt in Italy",
+      "url": "https://www.france24.com/en/mount-etna-continues-to-erupt-in-italy",
+      "published_at": "2026-08-14T13:49:18Z",
+      "collected_at": "2026-08-14T15:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "5db1bfb73ef1671bbe49468f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Chadian President Déby pardons jailed main rival and 8 opposition leaders",
+      "url": "https://www.france24.com/en/africa/20260814-chadian-president-d%C3%A9by-pardons-jailed-main-rival-and-8-opposition-leaders",
+      "published_at": "2026-08-14T13:48:13Z",
+      "collected_at": "2026-08-14T15:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "1998f4f263abf25523686763",
       "source_id": "notes_from_poland",
@@ -1642,48 +1698,6 @@
       ]
     },
     {
-      "id": "a9648afa9bab66cbd53b08ff",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 Mali pardons French official Yann ​Vézilier, who was sentenced to 20 years in prison",
-      "url": "https://www.france24.com/en/africa/20260813-mali-grants-presidential-pardon-to-french-national-sentenced-to-20-years-in-prison",
-      "published_at": "2026-08-13T14:59:45Z",
-      "collected_at": "2026-08-13T15:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "23223a8fa52f08d673aabc08",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "West Bank: \"What we see is an escalation in methods\"",
-      "url": "https://www.france24.com/en/video/20260813-west-bank-what-we-see-is-an-escalation-in-methods",
-      "published_at": "2026-08-13T14:58:33Z",
-      "collected_at": "2026-08-13T15:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "b29add594a1a6e1ec4958e4c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Poland detains Russian for 'execution' plot in Warsaw, Tusk says",
-      "url": "https://www.france24.com/en/europe/20260813-poland-detains-russian-for-execution-plot-in-warsaw-tusk-says",
-      "published_at": "2026-08-13T14:54:22Z",
-      "collected_at": "2026-08-13T15:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "57c3dc6579b2206d7eae313c",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1712,20 +1726,6 @@
       ]
     },
     {
-      "id": "7ca9981beb80acceee0d5b8e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Mali pardons French national sentenced to 20 years in prison",
-      "url": "https://www.france24.com/en/africa/20260813-mali-grants-presidential-pardon-to-french-national-sentenced-to-20-years-in-prison",
-      "published_at": "2026-08-13T14:50:26Z",
-      "collected_at": "2026-08-13T15:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "4a563e21ca17a738af6d1158",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1733,76 +1733,6 @@
       "url": "https://www.france24.com/en/africa/20260813-mali-grants-presidential-pardon-to-french-national-sentenced-to-20-years-in-prison",
       "published_at": "2026-08-13T14:50:26Z",
       "collected_at": "2026-08-13T15:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "df4185a3339700bb9de6a608",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Zambia voters weigh Hichilema's economic record",
-      "url": "https://www.france24.com/en/video/20260813-zambia-voters-weigh-hichilema-s-economic-record",
-      "published_at": "2026-08-13T14:47:49Z",
-      "collected_at": "2026-08-13T15:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "03b198494dd624907cab3c50",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Israel sends troops to settler siege as US ambassador slams 'act of terror'",
-      "url": "https://www.france24.com/en/video/20260813-israel-sends-troops-to-settler-siege-as-us-ambassador-slams-act-of-terror",
-      "published_at": "2026-08-13T14:44:59Z",
-      "collected_at": "2026-08-13T15:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "8c921eadee09d6fb6023496d",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Silence ended: Ukraine reveals its largest liberation of territory in four years (Ukraine Battlefield update, Day 1,631)",
-      "url": "https://euobserver.com/232354/silence-ended-ukraine-reveals-its-largest-liberation-of-territory-in-four-years-ukraine-battlefield-update-day-1631",
-      "published_at": "2026-08-13T14:41:43Z",
-      "collected_at": "2026-08-13T15:00:50Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "68bf933e478c188e5fdb68fc",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "How significant is Andrew Tate within the manosphere?",
-      "url": "https://www.france24.com/en/video/20260813-how-significant-is-andrew-tate-within-the-manosphere",
-      "published_at": "2026-08-13T14:40:49Z",
-      "collected_at": "2026-08-13T15:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e50e3096cb3875ab98d45334",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Putin visits disputed Kuril Islands",
-      "url": "https://www.france24.com/en/video/20260813-putin-visits-disputed-kuril-islands-1",
-      "published_at": "2026-08-13T14:39:19Z",
-      "collected_at": "2026-08-13T15:00:50Z",
       "topics": [
         "politics",
         "security",
