@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-14T09:00:49Z",
-  "last_successful_collection_at": "2026-08-14T09:00:49Z",
+  "generated_at": "2026-08-14T09:30:42Z",
+  "last_successful_collection_at": "2026-08-14T09:30:42Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-14T09:00:49Z"
+      "at": "2026-08-14T09:30:42Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "38",
-      "at": "2026-08-14T09:00:49Z"
+      "at": "2026-08-14T09:30:42Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-08-14T09:00:49Z"
+      "at": "2026-08-14T09:30:42Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-14T09:00:49Z"
+      "at": "2026-08-14T09:30:42Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-14T09:00:49Z"
+      "at": "2026-08-14T09:30:42Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-14T09:00:49Z"
+      "at": "2026-08-14T09:30:42Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-14T09:00:49Z"
+      "at": "2026-08-14T09:30:42Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-14T09:00:49Z"
+      "at": "2026-08-14T09:30:42Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-14T09:00:49Z"
+      "at": "2026-08-14T09:30:42Z"
     }
   ],
   "europe_now": [
@@ -132,6 +132,33 @@
   ],
   "developing": [
     {
+      "label": "Civilian · Ukraine · 2022 · highest",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 4,
+      "latest_at": "2026-08-14T09:08:02Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ukraine-civilian-casualties-hit-highest-level-since-may-2022",
+          "headline": "Ukraine: Civilian casualties hit highest level since May 2022",
+          "published_at": "2026-08-14T09:08:02Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-08-13/civilians-in-ukraine-and-russia-are-paying-an-ever-higher-price-in-the-war.html",
+          "headline": "Civilians in Ukraine and Russia are paying an ever-higher price in the war",
+          "published_at": "2026-08-13T16:30:09Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ukraine-s-monthly-civilian-casualties-highest-since-2022/live-78351269?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Ukraine's monthly civilian casualties highest since 2022",
+          "published_at": "2026-08-13T12:25:00Z"
+        }
+      ]
+    },
+    {
       "label": "Binface · Farage · Count · UK",
       "origin": "convergence",
       "source_count": 2,
@@ -193,30 +220,51 @@
           "published_at": "2026-08-13T14:59:45Z"
         }
       ]
-    },
-    {
-      "label": "EU · risks",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-13T15:01:23Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/232345/eu-risks-winter-gas-price-spiral-as-stocks-run-low",
-          "headline": "EU risks winter gas-price spiral, as stocks run low",
-          "published_at": "2026-08-13T15:01:23Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/europol-data-processing-reform-privacy-risks-edps-warning",
-          "headline": "Privacy watchdog warns of ‘serious risks’ over EU police agency surveillance",
-          "published_at": "2026-08-13T09:50:27Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "37aace5784acbf6ed18a6af6",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Israeli settlers seize Palestinian water source in occupied West Bank to create recreational pool",
+      "url": "https://www.france24.com/en/middle-east/20260814-israeli-settlers-seize-palestinian-water-source-in-occupied-west-bank-to-create-recreational-pool",
+      "published_at": "2026-08-14T09:23:33Z",
+      "collected_at": "2026-08-14T09:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "d90ff01dc4c703bad4c3e26b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ukraine: Civilian casualties hit highest level since May 2022",
+      "url": "https://www.france24.com/en/ukraine-civilian-casualties-hit-highest-level-since-may-2022",
+      "published_at": "2026-08-14T09:08:02Z",
+      "collected_at": "2026-08-14T09:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "baa3c09a0c3e9c97fec52a29",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Israel sends troops to West Bank homes besieged by settlers",
+      "url": "https://www.france24.com/en/israel-sends-troops-to-west-bank-homes-besied-by-settles",
+      "published_at": "2026-08-14T08:59:38Z",
+      "collected_at": "2026-08-14T09:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "202a6680720d7650bbedf7a1",
       "source_id": "euobserver",
@@ -617,6 +665,20 @@
       "url": "https://www.france24.com/en/americas/20260813-raul-castro-makes-rare-public-appearance-at-fidel-centenary-event",
       "published_at": "2026-08-13T21:39:57Z",
       "collected_at": "2026-08-14T09:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "5c47e00e9e40c25e768a2476",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Cuba's ex-president Raul Castro makes rare public appearance after US indictment",
+      "url": "https://www.france24.com/en/americas/20260813-raul-castro-makes-rare-public-appearance-at-fidel-centenary-event",
+      "published_at": "2026-08-13T21:39:57Z",
+      "collected_at": "2026-08-14T09:30:42Z",
       "topics": [
         "politics",
         "security",
@@ -1716,104 +1778,6 @@
       ]
     },
     {
-      "id": "e8eea89d4a68a9fd60b4ebe9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Search for Colombia earthquake survivors enters critical window",
-      "url": "https://www.france24.com/en/video/20260813-search-for-colombia-earthquake-survivors-enters-critical-window",
-      "published_at": "2026-08-13T09:26:09Z",
-      "collected_at": "2026-08-13T09:30:38Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "ef165f716d319673ebb078ba",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Chawinga sisters shine as Malawi reach Women's Africa Cup of Nations final",
-      "url": "https://www.france24.com/en/sport/20260813-chawinga-sisters-shine-malawi-reach-maiden-women-africa-cup-of-nations-final-cameroon",
-      "published_at": "2026-08-13T09:20:19Z",
-      "collected_at": "2026-08-13T09:30:38Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "31bedba784baf05b8dbe91c4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US ambassador to Israel slams settler siege against West Bank Palestinians as ‘terror’",
-      "url": "https://www.france24.com/en/middle-east/20260813-us-ambassador-to-israel-slams-settler-siege-against-west-bank-palestinians-terror",
-      "published_at": "2026-08-13T09:14:41Z",
-      "collected_at": "2026-08-13T09:30:38Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "d2fced91d8845c7301b8c2fe",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Fugitive Polish opposition politician reportedly in pro-Russian Moldovan breakaway region",
-      "url": "https://notesfrompoland.com/2026/08/13/fugitive-polish-opposition-politician-reportedly-in-pro-russian-moldovan-breakaway-region",
-      "published_at": "2026-08-13T09:00:02Z",
-      "collected_at": "2026-08-13T09:00:52Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "245b4464b15d95773b1aab7f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Total eclipse plunges Spain’s Segovia into darkness for 59 seconds of wonder (4/4)",
-      "url": "https://www.france24.com/en/europe/20260813-total-eclipse-plunges-spain-segovia-into-darkness-suspending-time-59-seconds",
-      "published_at": "2026-08-13T08:56:08Z",
-      "collected_at": "2026-08-13T09:00:52Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "fcf6d7b67e1995d65ecb7094",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "EU’s invisible, €2bn border-check system needs public scrutiny",
-      "url": "https://euobserver.com/232046/eus-invisible-e2bn-border-check-system-needs-public-scrutiny",
-      "published_at": "2026-08-13T08:33:05Z",
-      "collected_at": "2026-08-13T09:00:52Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "5d4b1edbc2c0299fdebe6cfa",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Paris Saint-Germain retain Super Cup title by seeing off Aston Villa",
-      "url": "https://www.france24.com/en/tv-shows/sports/20260813-paris-saint-germain-retain-super-cup-title-by-seeing-off-aston-villa",
-      "published_at": "2026-08-13T08:32:22Z",
-      "collected_at": "2026-08-13T09:00:52Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "b60064c7f12dc1d0fb3dec52",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1853,20 +1817,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "6dbf5527a890caf54eea2ba6",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: Ukrainian civilian deaths in July hit highest level since May 2022, UN says",
-      "url": "https://www.france24.com/en/europe/20260813-live-russian-attack-sets-ablaze-ukraine-s-izmail-port-infrastructure",
-      "published_at": "2026-08-13T06:14:52Z",
-      "collected_at": "2026-08-13T09:30:38Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -1933,20 +1883,6 @@
       "url": "https://www.france24.com/en/americas/20260813-venezuela-talks-end-with-agreement-on-judicial-reform-and-frozen-funds",
       "published_at": "2026-08-13T03:07:41Z",
       "collected_at": "2026-08-13T12:30:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "d099dda94817e9240828aee4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Farage and Count Binface go head-to-head in snap UK poll",
-      "url": "https://www.france24.com/en/live-news/20260813-farage-and-count-binface-go-head-to-head-in-snap-uk-poll",
-      "published_at": "2026-08-13T02:25:12Z",
-      "collected_at": "2026-08-13T09:30:38Z",
       "topics": [
         "politics",
         "security",
