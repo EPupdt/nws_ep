@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-14T20:30:39Z",
-  "last_successful_collection_at": "2026-08-14T20:30:39Z",
+  "generated_at": "2026-08-14T21:00:46Z",
+  "last_successful_collection_at": "2026-08-14T21:00:46Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-14T20:30:39Z"
+      "at": "2026-08-14T21:00:46Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "38",
-      "at": "2026-08-14T20:30:39Z"
+      "at": "2026-08-14T21:00:46Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-14T20:30:39Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-14T21:00:46Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-14T20:30:39Z"
+      "at": "2026-08-14T21:00:46Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-14T20:30:39Z"
+      "at": "2026-08-14T21:00:46Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-14T20:30:39Z"
+      "at": "2026-08-14T21:00:46Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-14T20:30:39Z"
+      "at": "2026-08-14T21:00:46Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-14T20:30:39Z"
+      "at": "2026-08-14T21:00:46Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-14T20:30:39Z"
+      "at": "2026-08-14T21:00:46Z"
     }
   ],
   "europe_now": [
@@ -240,6 +240,48 @@
   ],
   "radar": [
     {
+      "id": "3ea06f4db8d45c6f62589adc",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Dozens injured and thousands evacuated in Croatia wildfire",
+      "url": "https://www.bbc.co.uk/news/articles/c9342wn2x27o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-14T20:22:56Z",
+      "collected_at": "2026-08-14T21:00:46Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "22069f4a8d19e1eed01954b4",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Trump says record Navy deployment in Iran operations 'not nearly long enough'",
+      "url": "https://www.france24.com/en/middle-east/20260814-trump-says-record-navy-deployment-in-iran-operations-not-nearly-long-enough",
+      "published_at": "2026-08-14T20:17:38Z",
+      "collected_at": "2026-08-14T21:00:46Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "071c402df2030aed7b4c2102",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Jason Arday: Ex-Cambridge professor at centre of plagiarism scandal found dead",
+      "url": "https://www.dw.com/en/jason-arday-ex-cambridge-professor-at-centre-of-plagiarism-scandal-found-dead/a-78377633?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-14T20:03:00Z",
+      "collected_at": "2026-08-14T21:00:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "0863a48a586131ae240c43fa",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -418,6 +460,20 @@
       "topics": [
         "breaking",
         "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "7d91d3507c009c257575f063",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "‘We never leave’: Palestinians besieged in West Bank fear Israeli settlers will seize their homes",
+      "url": "https://www.france24.com/en/middle-east/20260814-israel-s-new-west-bank-settlements-bring-chaos-to-palestinians",
+      "published_at": "2026-08-14T16:15:18Z",
+      "collected_at": "2026-08-14T21:00:46Z",
+      "topics": [
+        "politics",
+        "security",
         "society"
       ]
     },
