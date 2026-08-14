@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-14T06:30:40Z",
-  "last_successful_collection_at": "2026-08-14T06:30:40Z",
+  "generated_at": "2026-08-14T07:30:41Z",
+  "last_successful_collection_at": "2026-08-14T07:30:41Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-14T06:30:40Z"
+      "at": "2026-08-14T07:30:41Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "38",
-      "at": "2026-08-14T06:30:40Z"
+      "at": "2026-08-14T07:30:41Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-08-14T06:30:40Z"
+      "at": "2026-08-14T07:30:41Z"
     },
     {
       "id": "euractiv",
@@ -29,53 +29,68 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-14T06:30:40Z"
+      "at": "2026-08-14T07:30:41Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-14T06:30:40Z"
+      "at": "2026-08-14T07:30:41Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-08-14T06:30:40Z"
+      "at": "2026-08-14T07:30:41Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-14T06:30:40Z"
+      "at": "2026-08-14T07:30:41Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-14T06:30:40Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-14T07:30:41Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-14T06:30:40Z"
+      "at": "2026-08-14T07:30:41Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ukraine Conflict Intensifies with Cross-Border Strikes",
-      "summary": "Recent cross-border strikes have escalated the Ukraine conflict, causing significant civilian casualties and regional instability. The attacks highlight ongoing security threats and humanitarian concerns.",
+      "title": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
+      "summary": "Romania has shut down its sole nuclear power plant due to a significant drop in the Danube River level caused by extreme heat, raising concerns about energy supply across the region. The drought conditions are affecting multiple European countries, with Hungary also reporting critically low water levels impacting navigation and power generation.",
       "article_ids": [
-        "5e5a33e0b886b7cd35d2f701",
         "f77bdc85e2978288ff70b39e"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260813-russia-ukraine-war-grain-hub-attacks-raise-fears-over-global-food-prices",
-          "headline": "Russia-Ukraine war: Grain hub attacks raise fears over global food prices",
-          "published_at": "2026-08-13T16:53:05Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o?at_medium=RSS&at_campaign=rss",
+          "headline": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
+          "published_at": "2026-08-13T16:05:35Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Poland detains Russian seeking to assassinate US-Ukrainian citizen in Warsaw",
+      "summary": "Polish authorities have detained a Russian national suspected of planning to assassinate a US-Ukrainian citizen in Warsaw, highlighting ongoing security threats linked to the Ukraine conflict. The incident underscores rising tensions and potential spillover risks from the war in neighboring countries.",
+      "article_ids": [
+        "afe0b287df85647152cb50fd"
+      ],
+      "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/08/13/poland-detains-russian-seeking-to-assassinate-us-ukrainian-citizen-in-warsaw",
+          "headline": "Poland detains Russian seeking to assassinate US-Ukrainian citizen in Warsaw",
+          "published_at": "2026-08-13T15:17:20Z"
         }
       ],
       "source_count": 1
@@ -83,13 +98,36 @@
   ],
   "top_stories": [
     {
-      "title": "Ukraine Conflict and Civilian Casualties",
-      "summary": "Civilian casualties in Ukraine have reached their highest level since 2022, driven by intensified cross-border strikes. The conflict continues to disrupt daily life and regional security.",
+      "title": "European drought and heatwave disrupt energy and agriculture sectors",
+      "summary": "Severe drought conditions across Europe have forced Romania to shut its only nuclear plant and are severely impacting crop yields, with France estimating heatwave-related costs between €10 billion and €15 billion. The environmental crisis is straining infrastructure and economies from the Danube region to southwestern France.",
       "article_ids": [
-        "5e5a33e0b886b7cd35d2f701",
-        "f77bdc85e2978288ff70b39e"
+        "f77bdc85e2978288ff70b39e",
+        "eff06e3434d7d23b29fcb4ea"
       ],
       "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o?at_medium=RSS&at_campaign=rss",
+          "headline": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
+          "published_at": "2026-08-13T16:05:35Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ukraine conflict escalates with cross-border strikes and rising civilian casualties",
+      "summary": "Cross-border attacks and intensified fighting have pushed civilian casualties in Ukraine to their highest levels since 2022, according to recent reports. The deteriorating situation continues to strain regional stability and humanitarian conditions.",
+      "article_ids": [
+        "da8ff5782026e1dd9eaa7a35",
+        "5e5a33e0b886b7cd35d2f701"
+      ],
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-08-13/civilians-in-ukraine-and-russia-are-paying-an-ever-higher-price-in-the-war.html",
+          "headline": "Civilians in Ukraine and Russia are paying an ever-higher price in the war",
+          "published_at": "2026-08-13T16:30:09Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/video/20260813-russia-ukraine-war-grain-hub-attacks-raise-fears-over-global-food-prices",
@@ -97,58 +135,10 @@
           "published_at": "2026-08-13T16:53:05Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
-    {
-      "label": "nuclear · Danube · Romania · shuts",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 4,
-      "latest_at": "2026-08-13T21:21:00Z",
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/romania-shuts-nuclear-plant-hungary-dams-dry-danube-river/a-78359581?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Romania shuts nuclear plant, Hungary dams dry Danube River",
-          "published_at": "2026-08-13T21:21:00Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/peter-magyar-danube-hungary-russia-nuclear-deal",
-          "headline": "Magyar casts doubt on Hungary-Russia nuclear power deal",
-          "published_at": "2026-08-13T20:14:05Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o?at_medium=RSS&at_campaign=rss",
-          "headline": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
-          "published_at": "2026-08-13T16:05:35Z"
-        }
-      ]
-    },
-    {
-      "label": "Russian · Warsaw · plot · Ukrainian",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-08-13T15:17:20Z",
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/08/13/poland-detains-russian-seeking-to-assassinate-us-ukrainian-citizen-in-warsaw",
-          "headline": "Poland detains Russian seeking to assassinate US-Ukrainian citizen in Warsaw",
-          "published_at": "2026-08-13T15:17:20Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260813-poland-detains-russian-for-execution-plot-in-warsaw-tusk-says",
-          "headline": "Poland detains Russian for 'execution' plot in Warsaw, Tusk says",
-          "published_at": "2026-08-13T14:54:22Z"
-        }
-      ]
-    },
     {
       "label": "disputed · Islands · Putin · Japan",
       "origin": "convergence",
@@ -167,6 +157,27 @@
           "url": "https://www.politico.eu/article/vladimir-putin-disputed-kuril-islands-visit-japan-russia",
           "headline": "Putin enrages Japan with trip to disputed island",
           "published_at": "2026-08-13T07:59:12Z"
+        }
+      ]
+    },
+    {
+      "label": "Binface · Farage · Count · UK",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-08-14T07:01:24Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/nigel-farages-critics-despite-clacton-victory-count-binface",
+          "headline": "Farage’s victory over Binface won’t silence his critics",
+          "published_at": "2026-08-14T07:01:24Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260814-nigel-farage-beats-count-binface-regain-uk-parliamentary-seat-by-election",
+          "headline": "Nigel Farage beats Count Binface to regain UK parliamentary seat in widely mocked by-election",
+          "published_at": "2026-08-14T06:34:35Z"
         }
       ]
     },
@@ -190,9 +201,72 @@
           "published_at": "2026-08-13T14:59:45Z"
         }
       ]
+    },
+    {
+      "label": "EU · risks",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-13T15:01:23Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/232345/eu-risks-winter-gas-price-spiral-as-stocks-run-low",
+          "headline": "EU risks winter gas-price spiral, as stocks run low",
+          "published_at": "2026-08-13T15:01:23Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/europol-data-processing-reform-privacy-risks-edps-warning",
+          "headline": "Privacy watchdog warns of ‘serious risks’ over EU police agency surveillance",
+          "published_at": "2026-08-13T09:50:27Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "f4a56d9c4ca6f9509725445c",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Farage’s victory over Binface won’t silence his critics",
+      "url": "https://www.politico.eu/article/nigel-farages-critics-despite-clacton-victory-count-binface",
+      "published_at": "2026-08-14T07:01:24Z",
+      "collected_at": "2026-08-14T07:30:41Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "d20d4d824718d521b1f586ff",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France evacuates hundreds as new wildfire threatens southwestern Landes region",
+      "url": "https://www.france24.com/en/france/20260814-france-evacuates-hundreds-new-wildfire-threatens-southwestern-landes-region",
+      "published_at": "2026-08-14T06:54:27Z",
+      "collected_at": "2026-08-14T07:30:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "7a60883a979d8165138f3124",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Nigel Farage beats Count Binface to regain UK parliamentary seat in widely mocked by-election",
+      "url": "https://www.france24.com/en/europe/20260814-nigel-farage-beats-count-binface-regain-uk-parliamentary-seat-by-election",
+      "published_at": "2026-08-14T06:34:35Z",
+      "collected_at": "2026-08-14T07:30:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "5d2f900049f8fed38e7b4070",
       "source_id": "france24",
@@ -362,6 +436,20 @@
       ]
     },
     {
+      "id": "4b176cfcc20842bbf80c3db8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Trump imposes tariffs of up to 100% on drone imports",
+      "url": "https://www.france24.com/en/americas/20260814-donald-trump-imposes-tariffs-of-up-to-100-on-imported-drones",
+      "published_at": "2026-08-14T00:02:12Z",
+      "collected_at": "2026-08-14T07:30:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "6803ef697cc0c3d13f9b5598",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -383,6 +471,20 @@
       "url": "https://www.france24.com/en/americas/20260813-raul-castro-makes-rare-public-appearance-at-fidel-centenary-event",
       "published_at": "2026-08-13T21:39:57Z",
       "collected_at": "2026-08-14T03:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e870365fcc0e3fd9815de433",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Cuba's indicted Raul Castro makes rare public appearance at Fidel centenary event",
+      "url": "https://www.france24.com/en/americas/20260813-raul-castro-makes-rare-public-appearance-at-fidel-centenary-event",
+      "published_at": "2026-08-13T21:39:57Z",
+      "collected_at": "2026-08-14T07:30:41Z",
       "topics": [
         "politics",
         "security",
@@ -1622,34 +1724,6 @@
       ]
     },
     {
-      "id": "77f153b37e9ac5be1abd9827",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Trump’s press secretary to depart the White House",
-      "url": "https://www.politico.com/news/2026/08/12/leavitt-depart-white-house-press-secretary-01035521",
-      "published_at": "2026-08-13T07:29:14Z",
-      "collected_at": "2026-08-13T07:30:40Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "2cab04685753c5d2f0835289",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "[Interview] From cheap drones to AI targeting: Ukraine’s robots still answer to human commanders",
-      "url": "https://euobserver.com/230372/interview-from-cheap-drones-to-ai-targeting-ukraines-robots-still-answer-to-human-commanders",
-      "published_at": "2026-08-13T07:04:21Z",
-      "collected_at": "2026-08-13T07:30:40Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "b59ec74dc4825bde204fa861",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1702,20 +1776,6 @@
       "topics": [
         "politics",
         "security",
-        "society"
-      ]
-    },
-    {
-      "id": "61fbf9f6e3d3b2d6f79f8138",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c74grmy2v7ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-13T04:55:58Z",
-      "collected_at": "2026-08-13T07:30:40Z",
-      "topics": [
-        "breaking",
-        "politics",
         "society"
       ]
     },
@@ -1860,6 +1920,20 @@
       ]
     },
     {
+      "id": "620737efe4e05ef679452e62",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Ceuta crisis showed EU gave too much power to Morocco",
+      "url": "https://euobserver.com/231979/ceuta-crisis-showed-eu-gave-too-much-power-to-morocco",
+      "published_at": "2026-08-12T06:32:00Z",
+      "collected_at": "2026-08-14T07:30:41Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "5896c0e80557e975f0d89d39",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1899,6 +1973,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "dc675e5a27329bf2ceb60506",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Can Turkey's new PKK law bring peace?",
+      "url": "https://www.dw.com/en/can-turkey-s-new-pkk-law-bring-peace/a-78326063?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-11T16:28:00Z",
+      "collected_at": "2026-08-14T07:30:41Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -2483,6 +2571,20 @@
       "url": "https://english.elpais.com/international/2026-08-05/ric-prado-ex-cia-officer-cuba-is-the-next-apple-to-fall-from-the-tree.html",
       "published_at": "2026-08-05T10:09:29Z",
       "collected_at": "2026-08-13T11:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "252a4074eed41db3092ce0a8",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Daniel Ortega establishes Latin America’s last dictatorship in Nicaragua",
+      "url": "https://english.elpais.com/international/2026-08-02/daniel-ortega-establishes-latin-americas-last-dictatorship-in-nicaragua.html",
+      "published_at": "2026-08-02T04:00:00Z",
+      "collected_at": "2026-08-14T07:30:41Z",
       "topics": [
         "politics",
         "society",
