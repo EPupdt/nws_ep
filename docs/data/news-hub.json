@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-15T04:01:46Z",
-  "last_successful_collection_at": "2026-08-15T04:01:46Z",
+  "generated_at": "2026-08-15T04:30:40Z",
+  "last_successful_collection_at": "2026-08-15T04:30:40Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-15T04:01:46Z"
+      "at": "2026-08-15T04:30:40Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "38",
-      "at": "2026-08-15T04:01:46Z"
+      "at": "2026-08-15T04:30:40Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-15T04:01:46Z"
+      "at": "2026-08-15T04:30:40Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,47 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-15T04:01:46Z"
+      "at": "2026-08-15T04:30:40Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-15T04:01:46Z"
+      "at": "2026-08-15T04:30:40Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
-      "count": "58",
-      "at": "2026-08-15T04:01:46Z"
+      "count": "57",
+      "at": "2026-08-15T04:30:40Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-15T04:01:46Z"
+      "at": "2026-08-15T04:30:40Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-15T04:01:46Z"
+      "at": "2026-08-15T04:30:40Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-15T04:01:46Z"
+      "at": "2026-08-15T04:30:40Z"
     }
   ],
   "europe_now": [
     {
       "title": "Europe: Raging wildfires scorch large swaths of the continent",
-      "summary": "Wildfires have spread across multiple European countries, leading to evacuations and extensive land damage. Emergency services are working to contain the fires and protect affected communities.",
+      "summary": "Multiple nations are facing intense wildfire activity that destroys large areas of land. These disasters disrupt critical infrastructure and strain emergency response systems across the region.",
       "article_ids": [
-        "6570d23850248a3eb6c5efcb"
+        "6570d23850248a3eb6c5efcb",
+        "3ea06f4db8d45c6f62589adc",
+        "0863a48a586131ae240c43fa"
       ],
       "sources": [
         {
@@ -80,28 +82,11 @@
       "source_count": 1
     },
     {
-      "title": "Ukrainian drones wipe out elite US brigade in drills, as Europe bankrolls Kyiv and US aid falls to zero",
-      "summary": "Ukrainian drone strikes have destroyed an elite US brigade during training exercises in Europe. Meanwhile, European nations continue to fund Kyiv while US assistance has ceased.",
-      "article_ids": [
-        "cd414a79af8f81977c482417"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/232510/ukrainian-drones-wipe-out-elite-us-brigade-in-drills-as-europe-bankrolls-kyiv-and-us-aid-falls-to-zero-ukraine-battlefield-update-day-1632",
-          "headline": "Ukrainian drones wipe out elite US brigade in drills, as Europe bankrolls Kyiv and US aid falls to zero (Ukraine Battlefield update, Day 1,632)",
-          "published_at": "2026-08-14T12:55:17Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
       "title": "France's top court blocks social media ban for under-15s",
-      "summary": "France's top court has blocked a proposed ban on social media for users under 15 years old. The court's decision stops the ban from being implemented.",
+      "summary": "The French constitutional court invalidated a law aimed at limiting social media usage among teenagers. This ruling affects ongoing debates regarding digital rights and child protection policies in Europe.",
       "article_ids": [
-        "4a49f62f9f550e871b79c2c6"
+        "4a49f62f9f550e871b79c2c6",
+        "74fc11d8a428e6947421cf7b"
       ],
       "sources": [
         {
@@ -109,41 +94,58 @@
           "url": "https://www.bbc.co.uk/news/articles/cx2vj433xqlo?at_medium=RSS&at_campaign=rss",
           "headline": "France's top court blocks social media ban for under-15s",
           "published_at": "2026-08-14T16:35:06Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20260814-france-s-constitutional-authority-strikes-down-social-media-ban-for-under-15s",
+          "headline": "🔴 France's constitutional authority strikes down social media ban for under-15s",
+          "published_at": "2026-08-14T13:18:06Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Europe: Raging wildfires scorch large swaths of the continent",
+      "summary": "Multiple nations are facing intense wildfire activity that destroys large areas of land. These disasters disrupt critical infrastructure and strain emergency response systems across the region.",
+      "article_ids": [
+        "6570d23850248a3eb6c5efcb",
+        "3ea06f4db8d45c6f62589adc",
+        "0863a48a586131ae240c43fa"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260814-europe-raging-wildfires-scorch-large-swaths-of-the-continent",
+          "headline": "Europe: Raging wildfires scorch large swaths of the continent",
+          "published_at": "2026-08-14T16:02:43Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Polish opposition expels 40 lawmakers who formed breakaway caucus led by ex-PM Morawiecki",
-      "summary": "Polish opposition parties have expelled 40 members who formed a breakaway caucus led by former Prime Minister Morawiecki. The expulsions follow the lawmakers' departure from the main opposition bloc.",
+      "title": "France's top court blocks social media ban for under-15s",
+      "summary": "The French constitutional court invalidated a law aimed at limiting social media usage among teenagers. This ruling affects ongoing debates regarding digital rights and child protection policies in Europe.",
       "article_ids": [
-        "1998f4f263abf25523686763"
+        "4a49f62f9f550e871b79c2c6",
+        "74fc11d8a428e6947421cf7b"
       ],
       "sources": [
         {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/08/14/polish-opposition-expels-40-lawmakers-who-formed-breakaway-caucus-led-by-ex-pm-morawiecki",
-          "headline": "Polish opposition expels 40 lawmakers who formed breakaway caucus led by ex-PM Morawiecki",
-          "published_at": "2026-08-14T13:37:00Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Southern Europe leads boom in young, high-growth firms, as Germany falls behind",
-      "summary": "Southern European countries are experiencing a surge in young, high-growth companies, outpacing Germany's growth. The development contrasts with Germany's slower performance in the same sector.",
-      "article_ids": [
-        "5ab3bc85b58c965f917b58e3"
-      ],
-      "sources": [
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cx2vj433xqlo?at_medium=RSS&at_campaign=rss",
+          "headline": "France's top court blocks social media ban for under-15s",
+          "published_at": "2026-08-14T16:35:06Z"
+        },
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/232492/southern-europe-leads-boom-in-young-high-growth-firms-as-germany-falls-behind",
-          "headline": "Southern Europe leads boom in young, high-growth firms, as Germany falls behind",
-          "published_at": "2026-08-14T13:36:38Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20260814-france-s-constitutional-authority-strikes-down-social-media-ban-for-under-15s",
+          "headline": "🔴 France's constitutional authority strikes down social media ban for under-15s",
+          "published_at": "2026-08-14T13:18:06Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
@@ -233,6 +235,118 @@
     }
   ],
   "radar": [
+    {
+      "id": "37b3dc3fd096a321ce5597ac",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Pramila Jayapal, Democratic congresswoman: ‘We have to prepare in case Trump tries to steal the elections’",
+      "url": "https://english.elpais.com/usa/2026-08-15/pramila-jayapal-democratic-congresswoman-we-have-to-prepare-in-case-trump-tries-to-steal-the-elections.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "08770a4e7e0b29d3d16a564e",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘I’m scared, but I don’t have a single cent’: Months of ICE raids drive day laborers to desperation",
+      "url": "https://english.elpais.com/usa/2026-08-15/im-scared-but-i-dont-have-a-single-cent-months-of-ice-raids-drive-day-laborers-to-desperation.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "bcf3b3fee0bc02a5815b795b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Reactionary Americas: The global laboratory of the right",
+      "url": "https://english.elpais.com/international/2026-08-15/reactionary-americas-the-global-laboratory-of-the-right.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "7693590c8c8835d348af2da3",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Nancy Cartwright, philosopher: ‘People distrust science because they feel the system has abandoned them’",
+      "url": "https://english.elpais.com/science-tech/2026-08-15/nancy-cartwright-philosopher-people-distrust-science-because-they-feel-the-system-has-abandoned-them.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "76d8bd776eeb33d23f8e6d80",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘He was deaf, gay, and cried in all his songs’: Johnnie Ray, the brilliant and forgotten rocker who paved the way for Elvis",
+      "url": "https://english.elpais.com/culture/2026-08-15/he-was-deaf-gay-and-cried-in-all-his-songs-johnnie-ray-the-brilliant-and-forgotten-rocker-who-paved-the-way-for-elvis.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "fa1f2eb78e2d6ea4cf9be773",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "AI fueles a surge in online abuse against women in India: ‘It felt like someone had taken control of how I exist visually’",
+      "url": "https://english.elpais.com/international/2026-08-15/ai-fueles-a-surge-in-online-abuse-against-women-in-india-it-felt-like-someone-had-taken-control-of-how-i-exist-visually.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "7e474ce40f0f210941debdfa",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Sixty years of post-credits scenes: A history that began long before Marvel",
+      "url": "https://english.elpais.com/culture/2026-08-15/sixty-years-of-post-credits-scenes-a-history-that-began-long-before-marvel.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "69cebed5b97b38e781fca639",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The science behind the feeling that childhood summers never end",
+      "url": "https://english.elpais.com/lifestyle/2026-08-15/the-science-behind-the-feeling-that-childhood-summers-never-end.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "3bad55ae0d39ea4baaadd92f",
       "source_id": "politico_europe",
@@ -1886,6 +2000,34 @@
       ]
     },
     {
+      "id": "491fe264067f36a2752b606c",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Turkey MPs back historic law on reintegrating PKK militants",
+      "url": "https://www.dw.com/en/turkey-mps-back-historic-law-on-reintegrating-pkk-militants/a-78313397?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-10T22:22:00Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "d5344e7b7e5f207c4ba58b25",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Opening on Sunday, the taboo for stores in Germany that the government wants to break",
+      "url": "https://english.elpais.com/economy-and-business/2026-08-10/opening-on-sunday-the-taboo-for-stores-in-germany-that-the-government-wants-to-break.html",
+      "published_at": "2026-08-10T19:43:28Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "a999c27524449c3a9c9ba8b1",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2065,6 +2207,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "6286cdd976654cccc3e88dc0",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Kosovo PM Kurti egged in parliament amid political crisis",
+      "url": "https://www.dw.com/en/kosovo-pm-kurti-egged-in-parliament-amid-political-crisis/a-78291171?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-08T20:31:00Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -2278,6 +2434,20 @@
       ]
     },
     {
+      "id": "67f7163a68f81fecb6d8b784",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Alone at the border: Ceuta and Europe’s solidarity failure",
+      "url": "https://ecfr.eu/article/alone-at-the-border-ceuta-and-europes-solidarity-failure",
+      "published_at": "2026-07-31T17:07:34Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
       "id": "05b2292db4b8b3d567697f1b",
       "source_id": "ecfr",
       "source_name": "European Council on Foreign Relations",
@@ -2285,6 +2455,48 @@
       "url": "https://ecfr.eu/article/how-the-split-on-polands-right-may-threaten-its-pro-european-camp",
       "published_at": "2026-07-31T09:32:21Z",
       "collected_at": "2026-08-14T14:31:07Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "2267e129132ca81bc03a60d5",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Two of a kind: How France and Italy can show the way for Europe’s Africa policy",
+      "url": "https://ecfr.eu/article/two-of-a-kind-how-france-and-italy-can-show-the-way-for-europes-africa-policy",
+      "published_at": "2026-07-29T10:42:02Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "0b4019a93f8bac7aaa5598e6",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The Saudi dilemma: How Yemen could shape the next phase of the Iran war",
+      "url": "https://ecfr.eu/article/the-saudi-dilemma-how-yemen-could-shape-the-next-phase-of-the-iran-war",
+      "published_at": "2026-07-28T14:57:48Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "89646e0119c5675c5cde9a39",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Shoring up the Red Sea: Why the next crisis may begin in the Horn of Africa",
+      "url": "https://ecfr.eu/article/shoring-up-the-red-sea-why-the-next-crisis-may-begin-in-the-horn-of-africa",
+      "published_at": "2026-07-28T07:00:23Z",
+      "collected_at": "2026-08-15T04:30:40Z",
       "topics": [
         "analysis",
         "foreign_policy",
@@ -2320,6 +2532,62 @@
       ]
     },
     {
+      "id": "0b0c74453e3a0d720f0d5a40",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Serbia: Inside the leaderless movement",
+      "url": "https://ecfr.eu/podcasts/episode/inside-the-leaderless-movement",
+      "published_at": "2026-07-24T12:35:30Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "66029b24ac577f1e07324141",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The China-native generation",
+      "url": "https://ecfr.eu/podcasts/episode/the-china-native-generation",
+      "published_at": "2026-07-24T05:00:00Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "8966f5926726e7b6481172c9",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The magnificent ten: A coalition of the willing to drive the EU’s next enlargement",
+      "url": "https://ecfr.eu/publication/the-magnificent-ten-a-coalition-of-the-willing-to-drive-the-eus-next-enlargement",
+      "published_at": "2026-07-23T14:16:18Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "2c956b13fa6c84b7b8d93f9a",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "One foot out: Understanding Bulgaria’s geopolitical shift under Radev",
+      "url": "https://ecfr.eu/article/one-foot-out-understanding-bulgarias-geopolitical-shift-under-radev",
+      "published_at": "2026-07-23T13:51:12Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
       "id": "b9325c99c080d1251fe1e98d",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2331,6 +2599,48 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "60cac99c9e46dc0a881e8d1e",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "How better climate diplomacy can save Europe’s green ambitions",
+      "url": "https://ecfr.eu/article/how-better-climate-diplomacy-can-save-europes-green-ambitions",
+      "published_at": "2026-07-22T16:02:40Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "73800233224c41d78576b7b1",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "ECFR’s summer entertainment list 2026",
+      "url": "https://ecfr.eu/article/ecfrs-summer-entertainment-list-2026",
+      "published_at": "2026-07-21T15:05:36Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "104f9a5cf2a8ac274a43db41",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Managed disorder: The hard road to a modest peace with Russia after Ukraine",
+      "url": "https://ecfr.eu/publication/managed-disorder-the-hard-road-to-a-modest-peace-with-russia-after-ukraine",
+      "published_at": "2026-07-21T08:00:00Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
@@ -2359,6 +2669,62 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "c3d7ef0ac30592409cc1a61d",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The fallout of the fallout: Zelensky’s reshuffle and protests in Ukraine",
+      "url": "https://ecfr.eu/article/the-fallout-of-the-fallout-zelenskys-reshuffle-and-protests-in-ukraine",
+      "published_at": "2026-07-17T16:28:53Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "5e8aeddbe0ad848134c88f0c",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Lebanon: On the brink of war or peace?",
+      "url": "https://ecfr.eu/podcasts/episode/lebanon-on-the-brink-of-war-or-peace",
+      "published_at": "2026-07-17T08:47:40Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "0976be26b42c8d55d3bf699d",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "European defence after the NATO summit",
+      "url": "https://ecfr.eu/podcasts/episode/european-defence-after-the-nato-summit",
+      "published_at": "2026-07-17T05:00:00Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "e14fcd15de4ed3e7a78dcea1",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The tragedy of “Westalgia”",
+      "url": "https://ecfr.eu/article/the-tragedy-of-westalgia",
+      "published_at": "2026-07-16T11:18:43Z",
+      "collected_at": "2026-08-15T04:30:40Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     }
   ]
