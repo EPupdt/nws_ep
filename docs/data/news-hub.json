@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-16T17:30:39Z",
-  "last_successful_collection_at": "2026-08-16T17:30:39Z",
+  "generated_at": "2026-08-16T18:00:48Z",
+  "last_successful_collection_at": "2026-08-16T18:00:48Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-16T17:30:39Z"
+      "at": "2026-08-16T18:00:48Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "40",
-      "at": "2026-08-16T17:30:39Z"
+      "at": "2026-08-16T18:00:48Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-16T17:30:39Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-16T18:00:48Z"
     },
     {
       "id": "euractiv",
@@ -29,68 +29,76 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-16T17:30:39Z"
+      "at": "2026-08-16T18:00:48Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-16T17:30:39Z"
+      "at": "2026-08-16T18:00:48Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-16T17:30:39Z"
+      "at": "2026-08-16T18:00:48Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-16T17:30:39Z"
+      "at": "2026-08-16T18:00:48Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-16T17:30:39Z"
+      "at": "2026-08-16T18:00:48Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-16T17:30:39Z"
+      "at": "2026-08-16T18:00:48Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ukraine launches 600 drones at Russia",
-      "summary": "Ukraine conducted a large-scale drone attack targeting Russian territory, marking one of the largest aerial assaults in the ongoing conflict. Russia reported significant damage and casualties from the assault.",
+      "title": "Twin wildfires on Greek island cause two deaths and mass evacuations",
+      "summary": "Two major fires erupted on a Greek island, resulting in two fatalities and the evacuation of hundreds of residents. Authorities are investigating the cause while coordinating with European firefighting resources.",
       "article_ids": [
-        "67b22e51b29e6a951235d2b4"
+        "dd4fb82fcd5e095145206a85",
+        "020249cfd9905b6860c6b533"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260816-live-moscow-targeted-by-600-drones-overnight-explosions-heard-in-kyiv",
-          "headline": "🔴 Live: Ukraine launches 600 drones at Russia, one of its largest aerial attacks of the war",
-          "published_at": "2026-08-16T09:53:40Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c87nnwlpe5no?at_medium=RSS&at_campaign=rss",
+          "headline": "Two dead and evacuation under way as fires break out on Greek island",
+          "published_at": "2026-08-16T16:14:26Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c87nnwlpe5no?at_medium=RSS&at_campaign=rss",
+          "headline": "Two dead and hundreds evacuated as twin fires break out on Greek island",
+          "published_at": "2026-08-16T17:18:56Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Belgium wildfire prompts evacuations and EU aid",
-      "summary": "A record-breaking wildfire in Belgium has forced mass evacuations and triggered EU-level assistance efforts. The disaster has caused widespread disruption to communities and infrastructure.",
+      "title": "Belgium's record wildfire prompts EU air support and international aid",
+      "summary": "A massive wildfire in Belgium has grown to twice its original size, forcing evacuations and drawing emergency assistance from European partners. Officials describe the blaze as the country's largest on record and seek coordinated air support.",
       "article_ids": [
-        "c7e19f37ee50c70807d643f2"
+        "a3ea4ec6ae7815d6475df05c",
+        "843fb4236ee8ec1b2982910e"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260816-eu-sends-aircraft-and-villagers-evacuate-as-belgium-battles-record-wildfire",
-          "headline": "🔴 Belgium wildfire scorches 3,000 hectares as villagers evacuate, EU sends aircraft",
-          "published_at": "2026-08-16T08:20:25Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/belgium-wildfire-europe-air-support",
+          "headline": "Belgium faces its largest wildfire on record, turns to Europe for air support",
+          "published_at": "2026-08-16T14:24:25Z"
         }
       ],
       "source_count": 1
@@ -98,33 +106,41 @@
   ],
   "top_stories": [
     {
-      "title": "Ukraine-Russia drone warfare escalation",
-      "summary": "Ukraine launched 600 drones at Russian targets overnight, causing explosions in Kyiv and other regions. Russia responded with missile counterattacks, escalating the conflict's aerial phase.",
+      "title": "Italy recovers stolen Renaissance masterpieces from Sicilian museum",
+      "summary": "Italian authorities have recovered four stolen Renaissance artworks valued in the millions of euros. The paintings were taken from a museum in Messina, Sicily, and have been restored to state custody.",
       "article_ids": [
-        "67b22e51b29e6a951235d2b4"
+        "c21bc81919923a62d88521c0",
+        "1b6a023e2dbb90a99459a418"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260816-live-moscow-targeted-by-600-drones-overnight-explosions-heard-in-kyiv",
-          "headline": "🔴 Live: Ukraine launches 600 drones at Russia, one of its largest aerial attacks of the war",
-          "published_at": "2026-08-16T09:53:40Z"
+          "url": "https://www.france24.com/en/italy-four-renaissance-artworks-stolen-from-messina-museum-in-sicily",
+          "headline": "Italy: Four Renaissance artworks stolen from Messina museum in Sicily",
+          "published_at": "2026-08-16T15:49:59Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqjxx2gzd9qo?at_medium=RSS&at_campaign=rss",
+          "headline": "Four 'extraordinary' Renaissance paintings stolen from Italian museum",
+          "published_at": "2026-08-16T13:34:38Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Belgium's record wildfire crisis",
-      "summary": "Belgium is battling its largest wildfire in modern history, destroying 3,000 hectares of land. The EU has deployed aircraft to assist with firefighting and evacuations.",
+      "title": "France enacts assisted dying law amid rejection of under-15 social media ban",
+      "summary": "France has implemented legislation legalizing assisted dying for terminally ill patients. Simultaneously, a court blocked the government's proposed ban on social media use for minors under 15.",
       "article_ids": [
-        "c7e19f37ee50c70807d643f2"
+        "56fa1c4232765b85ed98898d",
+        "854b392e8f73949508f970d7"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260816-eu-sends-aircraft-and-villagers-evacuate-as-belgium-battles-record-wildfire",
-          "headline": "🔴 Belgium wildfire scorches 3,000 hectares as villagers evacuate, EU sends aircraft",
-          "published_at": "2026-08-16T08:20:25Z"
+          "url": "https://www.france24.com/en/why-france-s-under-15-social-media-ban-was-blocked",
+          "headline": "Why France's under-15 social media ban was blocked",
+          "published_at": "2026-08-16T09:20:06Z"
         }
       ],
       "source_count": 1
@@ -213,23 +229,23 @@
       ]
     },
     {
-      "label": "Belgium · wildfire · aircraft · EU",
+      "label": "drone · fighter · Romania",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 6,
-      "latest_at": "2026-08-16T14:24:25Z",
+      "item_count": 2,
+      "latest_at": "2026-08-16T10:15:17Z",
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/belgium-wildfire-europe-air-support",
-          "headline": "Belgium faces its largest wildfire on record, turns to Europe for air support",
-          "published_at": "2026-08-16T14:24:25Z"
+          "url": "https://www.politico.eu/article/nato-fighter-jet-shoot-drone-romania",
+          "headline": "NATO fighter jet shoots down drone over Romania",
+          "published_at": "2026-08-16T10:15:17Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/belgium-battles-its-largest-wildfire-in-modern-history",
-          "headline": "Belgium battles its largest wildfire in modern history",
-          "published_at": "2026-08-16T08:51:58Z"
+          "url": "https://www.france24.com/en/europe/20260816-spanish-fighter-jet-downs-drone-breaching-romania-s-airspace",
+          "headline": "Spanish fighter jet downs drone breaching Romania's airspace",
+          "published_at": "2026-08-16T07:50:35Z"
         }
       ]
     }
@@ -1258,6 +1274,48 @@
       ]
     },
     {
+      "id": "cdc7b02258cda23e668ba216",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Temperate forests that once vanished over millennia are now disappearing in decades",
+      "url": "https://english.elpais.com/science-tech/2026-08-14/temperate-forests-that-once-vanished-over-millennia-are-now-disappearing-in-decades.html",
+      "published_at": "2026-08-14T17:20:58Z",
+      "collected_at": "2026-08-16T18:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "d2768450e3d93c8d390b1bd1",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Ahmed and Saleh, two amputee children from Gaza, learn to swim: ‘The water is the only place where they are free’",
+      "url": "https://english.elpais.com/international/2026-08-14/ahmed-and-saleh-two-amputee-children-from-gaza-learn-to-swim-the-water-is-the-only-place-where-they-are-free.html",
+      "published_at": "2026-08-14T16:57:29Z",
+      "collected_at": "2026-08-16T18:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "4a49f62f9f550e871b79c2c6",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "France's top court blocks social media ban for under-15s",
+      "url": "https://www.bbc.co.uk/news/articles/cx2vj433xqlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-14T16:35:06Z",
+      "collected_at": "2026-08-16T18:00:48Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "728c2f6b013a5fdfef23ebdc",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -2077,6 +2135,20 @@
       "url": "https://english.elpais.com/culture/2026-08-08/why-jon-bernthal-is-the-perfect-hollywood-tough-guy-a-russian-education-two-model-brothers-and-15-broken-noses.html",
       "published_at": "2026-08-08T03:30:00Z",
       "collected_at": "2026-08-16T05:30:41Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "3163f92562568c9fe559129e",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Growing old in a rented apartment: ‘I’ll extend my working life to increase my pension, but I’ll have to move to a village’",
+      "url": "https://english.elpais.com/spain/2026-08-08/growing-old-in-a-rented-apartment-ill-extend-my-working-life-to-increase-my-pension-but-ill-have-to-move-to-a-village.html",
+      "published_at": "2026-08-08T03:30:00Z",
+      "collected_at": "2026-08-16T18:00:48Z",
       "topics": [
         "politics",
         "society",
