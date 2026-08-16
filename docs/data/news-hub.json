@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-16T14:00:47Z",
-  "last_successful_collection_at": "2026-08-16T14:00:47Z",
+  "generated_at": "2026-08-16T14:30:40Z",
+  "last_successful_collection_at": "2026-08-16T14:30:40Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-16T14:00:47Z"
+      "at": "2026-08-16T14:30:40Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "39",
-      "at": "2026-08-16T14:00:47Z"
+      "at": "2026-08-16T14:30:40Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-16T14:00:47Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-16T14:30:40Z"
     },
     {
       "id": "euractiv",
@@ -29,59 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-16T14:00:47Z"
+      "at": "2026-08-16T14:30:40Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-16T14:00:47Z"
+      "at": "2026-08-16T14:30:40Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-16T14:00:47Z"
+      "at": "2026-08-16T14:30:40Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-16T14:00:47Z"
+      "at": "2026-08-16T14:30:40Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-16T14:00:47Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-16T14:30:40Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-16T14:00:47Z"
+      "at": "2026-08-16T14:30:40Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Polish pilgrimage bus crash in Hungary kills 12",
-      "summary": "A Poland-registered bus overturned on a Hungarian highway, killing 12 people during a religious pilgrimage. Authorities are investigating the cause of the accident.",
+      "title": "Belgium faces its largest wildfire on record, turns to Europe for air support",
+      "summary": "Belgium is battling its biggest wildfire in modern history, scorching thousands of hectares and prompting large-scale evacuations. The crisis has drawn European Union assistance, including aircraft support, as firefighters work to contain the blaze.",
       "article_ids": [
-        "0fb41979b03ab6df033b111e"
+        "843fb4236ee8ec1b2982910e"
       ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/12-dead-poland-bus-accident-hungary",
-          "headline": "At least 12 killed as Polish pilgrimage bus overturns in Hungary",
-          "published_at": "2026-08-16T13:01:41Z"
+          "url": "https://www.politico.eu/article/belgium-wildfire-europe-air-support",
+          "headline": "Belgium faces its largest wildfire on record, turns to Europe for air support",
+          "published_at": "2026-08-16T14:24:25Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Spanish NATO jet intercepts and shoots down drone over Romania",
-      "summary": "A Spanish NATO fighter jet intercepted and destroyed a drone that breached Romania's airspace. The incident underscores ongoing security challenges in the region.",
+      "title": "NATO fighter jet shoots down drone over Romania",
+      "summary": "A NATO fighter jet intercepted and destroyed an unmanned drone that violated Romanian airspace, highlighting ongoing security concerns in the region. The incident underscores the alliance's commitment to defending member states against aerial threats.",
       "article_ids": [
         "4045e558dac5963ee5a204d7"
       ],
@@ -98,55 +98,91 @@
   ],
   "top_stories": [
     {
-      "title": "Belgium battles record wildfire with EU assistance",
-      "summary": "Belgium is confronting its largest wildfire in modern history, which has scorched 3,000 hectares and prompted mass evacuations. The European Union has deployed aircraft to support firefighting efforts.",
+      "title": "Stolen Renaissance paintings recovered in Italy",
+      "summary": "Italian authorities have retrieved four 'extraordinary' Renaissance paintings that were stolen from a museum. The artworks, valued at millions of euros, include works by Renoir, Cézanne and Matisse.",
       "article_ids": [
-        "177322255146eb310704684a"
+        "1b6a023e2dbb90a99459a418",
+        "353feb364f980d692134c6b2"
       ],
       "sources": [
         {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqjxx2gzd9qo?at_medium=RSS&at_campaign=rss",
+          "headline": "Four 'extraordinary' Renaissance paintings stolen from Italian museum",
+          "published_at": "2026-08-16T13:34:38Z"
+        },
+        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/belgium-battles-its-largest-wildfire-in-modern-history",
-          "headline": "Belgium battles its largest wildfire in modern history",
-          "published_at": "2026-08-16T08:51:58Z"
+          "url": "https://www.france24.com/en/video/20260816-italy-recovers-millions-of-euros-worth-of-stolen-renoir-c%C3%A9zanne-and-matisse-paintings",
+          "headline": "Italy recovers millions of euros worth of stolen Renoir, Cézanne and Matisse paintings",
+          "published_at": "2026-08-16T08:56:50Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Ukraine launches large-scale drone attack on Russia",
-      "summary": "Ukraine conducted a major drone assault on Russian territory, targeting facilities including a missile fuel plant. The attack represents one of the war's largest aerial operations, with explosions reported in Moscow and Kyiv.",
+      "title": "Polish bus crash in Hungary kills twelve",
+      "summary": "A Polish pilgrimage bus overturned on a Hungarian highway, resulting in twelve fatalities. The incident prompted emergency response and investigations into the cause of the accident.",
       "article_ids": [
-        "67b22e51b29e6a951235d2b4"
+        "0fb41979b03ab6df033b111e",
+        "07b43522cc3cdd0854df4f06",
+        "d2280080ad0a706e2be8b7e1"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260816-live-moscow-targeted-by-600-drones-overnight-explosions-heard-in-kyiv",
-          "headline": "🔴 Live: Ukraine launches 600 drones at Russia, one of its largest aerial attacks of the war",
-          "published_at": "2026-08-16T09:53:40Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/12-dead-poland-bus-accident-hungary",
+          "headline": "At least 12 killed as Polish pilgrimage bus overturns in Hungary",
+          "published_at": "2026-08-16T13:01:41Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ckg4424zd7go?at_medium=RSS&at_campaign=rss",
+          "headline": "Twelve killed as Polish bus veers off Hungarian motorway",
+          "published_at": "2026-08-16T10:53:50Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "France enacts assisted dying law while rejecting social media ban",
-      "summary": "France has legalized assisted dying for terminally ill patients under strict conditions. Simultaneously, the government's proposed ban on social media for minors under 15 was rejected by the courts.",
+      "title": "Flood in northwestern Spain causes deaths and injuries",
+      "summary": "Heavy rains caused a flood in rural northwestern Spain, killing two people and injuring two babies. The disaster prompted emergency services to respond and assess the damage.",
       "article_ids": [
-        "2a7bbe6797a454488cc675ef"
+        "3b4d8475377abe7b03b79c8f"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-landes-wildfire-stopped-spreading-but-remains-out-of-control",
-          "headline": "France: Landes wildfire stopped spreading but remains out of control",
-          "published_at": "2026-08-16T10:43:12Z"
+          "url": "https://www.france24.com/en/europe/20260816-spain-flood-and-landslide-kills-two-injures-two-babies",
+          "headline": "Flood in rural northwestern Spain kills two, injures two babies",
+          "published_at": "2026-08-16T05:18:24Z"
         }
       ],
       "source_count": 1
     }
   ],
   "developing": [
+    {
+      "label": "Russia · Ukraine · Live · aerial",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-08-16T09:53:40Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260816-live-moscow-targeted-by-600-drones-overnight-explosions-heard-in-kyiv",
+          "headline": "🔴 Live: Ukraine launches 600 drones at Russia, one of its largest aerial attacks of the war",
+          "published_at": "2026-08-16T09:53:40Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/troops-from-north-korea-to-boost-russia-s-ukraine-forces/a-78385524?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Troops from North Korea to boost Russia's Ukraine forces",
+          "published_at": "2026-08-16T06:49:00Z"
+        }
+      ]
+    },
     {
       "label": "Ceuta · migrants · Morocco",
       "origin": "convergence",
@@ -184,37 +220,50 @@
       ]
     },
     {
-      "label": "boost · forces · Korea · North",
+      "label": "battles · Belgium · history · largest",
       "origin": "radar",
       "source_count": 1,
       "item_count": 1,
-      "latest_at": "2026-08-16T06:49:00Z",
+      "latest_at": "2026-08-16T08:51:58Z",
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/troops-from-north-korea-to-boost-russia-s-ukraine-forces/a-78385524?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Troops from North Korea to boost Russia's Ukraine forces",
-          "published_at": "2026-08-16T06:49:00Z"
-        }
-      ]
-    },
-    {
-      "label": "Hungarian · killed · motorway · Polish",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-08-16T10:53:50Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ckg4424zd7go?at_medium=RSS&at_campaign=rss",
-          "headline": "Twelve killed as Polish bus veers off Hungarian motorway",
-          "published_at": "2026-08-16T10:53:50Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/belgium-battles-its-largest-wildfire-in-modern-history",
+          "headline": "Belgium battles its largest wildfire in modern history",
+          "published_at": "2026-08-16T08:51:58Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "843fb4236ee8ec1b2982910e",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Belgium faces its largest wildfire on record, turns to Europe for air support",
+      "url": "https://www.politico.eu/article/belgium-wildfire-europe-air-support",
+      "published_at": "2026-08-16T14:24:25Z",
+      "collected_at": "2026-08-16T14:30:40Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "9a893a193617151d7c6b6c13",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Death toll from Zimbabwe capsized ferry accident rises to 80",
+      "url": "https://www.france24.com/en/africa/20260816-death-toll-from-zimbabwe-capsized-ferry-accident-rises-to-80",
+      "published_at": "2026-08-16T14:01:56Z",
+      "collected_at": "2026-08-16T14:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "1b6a023e2dbb90a99459a418",
       "source_id": "bbc_europe",
@@ -349,6 +398,20 @@
       "url": "https://www.france24.com/en/middle-east/20260816-hamas-begins-crucial-talks-with-egypt-on-trump-s-gaza-peace-plan",
       "published_at": "2026-08-16T11:33:32Z",
       "collected_at": "2026-08-16T12:00:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "4276c47b42971dda0cff277c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Kushner, Hamas delegation in Egypt for talks on Gaza peace plan",
+      "url": "https://www.france24.com/en/middle-east/20260816-hamas-begins-crucial-talks-with-egypt-on-trump-s-gaza-peace-plan",
+      "published_at": "2026-08-16T11:33:32Z",
+      "collected_at": "2026-08-16T14:30:40Z",
       "topics": [
         "politics",
         "security",
@@ -1098,34 +1161,6 @@
       ]
     },
     {
-      "id": "063466e807b901e9c0e75775",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Indonesia hit by second powerful earthquake in one day as death toll rises to 47",
-      "url": "https://www.france24.com/en/asia-pacific/20260815-deadly-earthquake-strikes-indonesia-and-triggers-mass-evacuations",
-      "published_at": "2026-08-15T05:36:19Z",
-      "collected_at": "2026-08-15T14:00:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "2c9597bf4aaff716df9d9ece",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Germany: Firefighters say Eifel wildfire now under control",
-      "url": "https://www.dw.com/en/germany-firefighters-say-eifel-wildfire-now-under-control/live-78361311?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-14T19:32:00Z",
-      "collected_at": "2026-08-15T14:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "cd414a79af8f81977c482417",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1476,20 +1511,6 @@
       ]
     },
     {
-      "id": "a5b1e5e5ef7bbcdd35ad1091",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Polish household assets hit record 4 trillion zloty amid fastest growth in years",
-      "url": "https://notesfrompoland.com/2026/08/13/polish-household-assets-hit-record-4-trillion-zloty-amid-fastest-growth-in-years",
-      "published_at": "2026-08-13T13:39:23Z",
-      "collected_at": "2026-08-15T14:30:38Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "536875f1d83d00ec28accf9c",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1805,34 +1826,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cwyeg1ljp2eo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-09T16:18:10Z",
       "collected_at": "2026-08-15T17:00:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "7a55085e6115832c948028c2",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Ancient Roman shipwreck discovered off Sicily coast",
-      "url": "https://www.bbc.co.uk/news/articles/cvgx1kpz17go?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-09T12:27:26Z",
-      "collected_at": "2026-08-15T14:30:38Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "64a3ab741a90079b21cffc48",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Hundreds arrested over French wildfires, but who is to blame?",
-      "url": "https://www.bbc.co.uk/news/articles/cvgxjn92x9jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-08T23:59:23Z",
-      "collected_at": "2026-08-15T14:30:38Z",
       "topics": [
         "breaking",
         "politics",
