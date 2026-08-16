@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-16T17:00:47Z",
-  "last_successful_collection_at": "2026-08-16T17:00:47Z",
+  "generated_at": "2026-08-16T17:30:39Z",
+  "last_successful_collection_at": "2026-08-16T17:30:39Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-16T17:00:47Z"
+      "at": "2026-08-16T17:30:39Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "40",
-      "at": "2026-08-16T17:00:47Z"
+      "at": "2026-08-16T17:30:39Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-16T17:00:47Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-16T17:30:39Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-16T17:00:47Z"
+      "at": "2026-08-16T17:30:39Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-16T17:00:47Z"
+      "at": "2026-08-16T17:30:39Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-16T17:00:47Z"
+      "at": "2026-08-16T17:30:39Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-16T17:00:47Z"
+      "at": "2026-08-16T17:30:39Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-16T17:00:47Z"
+      "at": "2026-08-16T17:30:39Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-16T17:00:47Z"
+      "at": "2026-08-16T17:30:39Z"
     }
   ],
   "europe_now": [
@@ -235,6 +235,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "020249cfd9905b6860c6b533",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Two dead and hundreds evacuated as twin fires break out on Greek island",
+      "url": "https://www.bbc.co.uk/news/articles/c87nnwlpe5no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-16T17:18:56Z",
+      "collected_at": "2026-08-16T17:30:39Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "d04c3ef66f8ddf743ecb5f49",
       "source_id": "bbc_europe",
@@ -1202,34 +1216,6 @@
       ]
     },
     {
-      "id": "848afdbe4ece2879141f3a32",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France's Léon Marchand wins 200-meter butterfly final at European Swimming Championships",
-      "url": "https://www.france24.com/en/sport/20260815-l%C3%A9on-marchand-wins-200-meter-butterfly-at-european-swimming-championships",
-      "published_at": "2026-08-15T16:55:43Z",
-      "collected_at": "2026-08-15T17:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "a5325332c4a4c1be9386e3e2",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French swimmer Léon Marchand wins 200-meter butterfly final at European championships",
-      "url": "https://www.france24.com/en/sport/20260815-l%C3%A9on-marchand-wins-200-meter-butterfly-at-european-swimming-championships",
-      "published_at": "2026-08-15T16:51:24Z",
-      "collected_at": "2026-08-15T17:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "b0e6de949bf8094a935dcb05",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1622,48 +1608,6 @@
       ]
     },
     {
-      "id": "875d3908fb45dbefb3d52592",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Meta and Ray-Ban’s ‘pervert glasses’ prompt criminal complaint in Germany",
-      "url": "https://euobserver.com/232385/meta-and-ray-bans-pervert-glasses-prompt-criminal-complaint-in-germany",
-      "published_at": "2026-08-13T15:56:49Z",
-      "collected_at": "2026-08-15T17:00:50Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "08a31607485fb28e6ad058b5",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Presidential pardon for French alleged spy accused of plotting Mali coup",
-      "url": "https://www.bbc.co.uk/news/articles/c2el29e3m3xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-13T15:50:49Z",
-      "collected_at": "2026-08-15T17:00:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "990d6b3aa562a97654b00837",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Person fined after using foghorn to wake sleeping polar bear",
-      "url": "https://www.bbc.co.uk/news/articles/cx2k1r97vx7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-13T15:30:57Z",
-      "collected_at": "2026-08-15T17:00:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "046f473f81fe3512a33a8371",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -1958,20 +1902,6 @@
       ]
     },
     {
-      "id": "49ca99934bf5eb1cf183d685",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Hungary's parliament elects Orban critic as new president",
-      "url": "https://www.dw.com/en/hungary-s-parliament-elects-orban-critic-as-new-president/a-78325589?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-11T16:00:00Z",
-      "collected_at": "2026-08-15T17:00:50Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "98c49705f572575a64acab75",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2105,20 +2035,6 @@
       "url": "https://www.bbc.co.uk/news/videos/cly5zpx0ypdo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-09T21:26:56Z",
       "collected_at": "2026-08-16T09:30:42Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "4a5b648dbecaf8cc1273a3b1",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Drones spotted over German base days after Leipzig bomb incident",
-      "url": "https://www.bbc.co.uk/news/articles/cwyeg1ljp2eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-09T16:18:10Z",
-      "collected_at": "2026-08-15T17:00:50Z",
       "topics": [
         "breaking",
         "politics",
