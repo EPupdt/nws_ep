@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-16T12:00:50Z",
-  "last_successful_collection_at": "2026-08-16T12:00:50Z",
+  "generated_at": "2026-08-16T13:00:49Z",
+  "last_successful_collection_at": "2026-08-16T13:00:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-16T12:00:50Z"
+      "at": "2026-08-16T13:00:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "39",
-      "at": "2026-08-16T12:00:50Z"
+      "count": "40",
+      "at": "2026-08-16T13:00:49Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-16T12:00:50Z"
+      "at": "2026-08-16T13:00:49Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-16T12:00:50Z"
+      "at": "2026-08-16T13:00:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-16T12:00:50Z"
+      "at": "2026-08-16T13:00:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-16T12:00:50Z"
+      "at": "2026-08-16T13:00:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-16T12:00:50Z"
+      "at": "2026-08-16T13:00:49Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-16T12:00:50Z"
+      "at": "2026-08-16T13:00:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-16T12:00:50Z"
+      "at": "2026-08-16T13:00:49Z"
     }
   ],
   "europe_now": [
@@ -190,43 +190,79 @@
       ]
     },
     {
-      "label": "earthquake · Indonesia",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-15T12:48:33Z",
+      "label": "BBC · Kyiv · market · Russian",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-08-16T12:18:09Z",
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-satellite-system-copernicus-help-indonesia-earthquake",
-          "headline": "EU ready to send satellite system to help Indonesia after 7.7 magnitude earthquake",
-          "published_at": "2026-08-15T12:48:33Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/indonesia-hit-by-earthquake-aftershock-as-rescuers-search-for-survivors",
-          "headline": "Indonesia hit by earthquake aftershock as rescuers search for survivors",
-          "published_at": "2026-08-15T12:34:05Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/c8dnn05e90lo?at_medium=RSS&at_campaign=rss",
+          "headline": "BBC visits smouldering Kyiv market after Russian strikes",
+          "published_at": "2026-08-16T12:18:09Z"
         }
       ]
     },
     {
-      "label": "France · Landes · wildfire",
+      "label": "boost · forces · Korea · North",
       "origin": "radar",
       "source_count": 1,
-      "item_count": 2,
-      "latest_at": "2026-08-16T10:43:12Z",
+      "item_count": 1,
+      "latest_at": "2026-08-16T06:49:00Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-landes-wildfire-stopped-spreading-but-remains-out-of-control",
-          "headline": "France: Landes wildfire stopped spreading but remains out of control",
-          "published_at": "2026-08-16T10:43:12Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/troops-from-north-korea-to-boost-russia-s-ukraine-forces/a-78385524?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Troops from North Korea to boost Russia's Ukraine forces",
+          "published_at": "2026-08-16T06:49:00Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "5d03c050b1aec413d1c37af5",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Poland-registered bus veers off Hungary highway, killing 12 people",
+      "url": "https://www.france24.com/en/europe/20260816-poland-registered-bus-veers-off-hungary-highway-killing-12-people",
+      "published_at": "2026-08-16T12:48:32Z",
+      "collected_at": "2026-08-16T13:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e6b6a62c0e78f988bdac847d",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "BBC visits smouldering Kyiv market after Russian strikes",
+      "url": "https://www.bbc.co.uk/news/videos/c8dnn05e90lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-16T12:18:09Z",
+      "collected_at": "2026-08-16T13:00:49Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "90dd65332e037c819d66d6c4",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Week in pictures: A solar eclipse, quake in Colombia and Israeli settlers in the occupied West Bank",
+      "url": "https://www.france24.com/en/europe/20260816-week-in-pictures-a-solar-eclipse-quake-in-colombia-and-israeli-settlers-in-the-occupied-west-bank",
+      "published_at": "2026-08-16T12:02:18Z",
+      "collected_at": "2026-08-16T13:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "96a3558697da09ae85249674",
       "source_id": "france24",
@@ -627,6 +663,20 @@
       "url": "https://www.france24.com/en/europe/20260816-live-moscow-targeted-by-600-drones-overnight-explosions-heard-in-kyiv",
       "published_at": "2026-08-16T04:42:16Z",
       "collected_at": "2026-08-16T10:00:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "b11a750b205d2f832954f0ad",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: Ukraine launches 600 drones at Russia, one of its largest aerial attacks of the war",
+      "url": "https://www.france24.com/en/europe/20260816-live-moscow-targeted-by-600-drones-overnight-explosions-heard-in-kyiv",
+      "published_at": "2026-08-16T04:42:16Z",
+      "collected_at": "2026-08-16T13:00:49Z",
       "topics": [
         "politics",
         "security",
@@ -1572,6 +1622,20 @@
       ]
     },
     {
+      "id": "6c72e0d96b1f51171deb3a00",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Short on US Patriot missiles, Ukraine looks for alternatives",
+      "url": "https://www.dw.com/en/short-on-us-patriot-missiles-ukraine-looks-for-alternatives/a-78328784?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-12T11:43:00Z",
+      "collected_at": "2026-08-16T13:00:49Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "37c68519ecee80a7c209eab6",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1750,6 +1814,20 @@
       "topics": [
         "politics",
         "society",
+        "security"
+      ]
+    },
+    {
+      "id": "63c8171dbaf4156fb4d52a7b",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Anti-corruption sanctions: Preparing for the time after Trump",
+      "url": "https://ecfr.eu/article/anti-corruption-sanctions-preparing-for-the-time-after-trump",
+      "published_at": "2026-08-10T10:44:08Z",
+      "collected_at": "2026-08-16T13:00:49Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
         "security"
       ]
     },
