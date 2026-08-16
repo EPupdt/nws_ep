@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-16T07:30:40Z",
-  "last_successful_collection_at": "2026-08-16T07:30:40Z",
+  "generated_at": "2026-08-16T08:00:46Z",
+  "last_successful_collection_at": "2026-08-16T08:00:46Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-16T07:30:40Z"
+      "at": "2026-08-16T08:00:46Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "39",
-      "at": "2026-08-16T07:30:40Z"
+      "at": "2026-08-16T08:00:46Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-08-16T07:30:40Z"
+      "at": "2026-08-16T08:00:46Z"
     },
     {
       "id": "euractiv",
@@ -29,54 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-16T07:30:40Z"
+      "at": "2026-08-16T08:00:46Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-16T07:30:40Z"
+      "at": "2026-08-16T08:00:46Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-16T07:30:40Z"
+      "at": "2026-08-16T08:00:46Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-16T07:30:40Z"
+      "at": "2026-08-16T08:00:46Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-16T07:30:40Z"
+      "at": "2026-08-16T08:00:46Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-16T07:30:40Z"
+      "at": "2026-08-16T08:00:46Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Conflict Escalation in Ukraine",
-      "summary": "Ukraine has launched attacks against a Russian air base and a rocket plant located in the Samara region. Additionally, reports indicate that North Korean troops may be sent to support Russian forces in the Ukraine conflict.",
+      "title": "European Wildfires Cause Widespread Disruption",
+      "summary": "Multiple countries including Belgium, Croatia, and France are battling record wildfires, resulting in evacuations, injuries, and significant environmental impact.",
       "article_ids": [
-        "e5d3af272af27d8f7d68cf7f",
-        "8a02ee958afc4818d7d1d5f6"
+        "34fecb888559c0a503ceaa00",
+        "d4720d3da32976ca05d04cdb",
+        "9bb60ec7c8c58538056c76e5"
       ],
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/troops-from-north-korea-to-boost-russia-s-ukraine-forces/a-78385524?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Troops from North Korea to boost Russia's Ukraine forces",
-          "published_at": "2026-08-16T06:49:00Z"
-        },
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260816-eu-sends-aircraft-and-villagers-evacuate-as-belgium-battles-record-wildfire",
+          "headline": "EU sends aircraft and villagers evacuate as Belgium battles record wildfire",
+          "published_at": "2026-08-16T06:03:53Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ukraine Conflict Escalates with New Attacks",
+      "summary": "Ukraine launches attacks on Russian military targets, including an air base and rocket plant, amid ongoing tensions in the region.",
+      "article_ids": [
+        "8a02ee958afc4818d7d1d5f6",
+        "8fdf2adc343b2b22679780df"
+      ],
+      "sources": [
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20260815-ukraine-attacks-russian-air-base-and-rocket-plant-in-samara-region",
@@ -84,50 +96,11 @@
           "published_at": "2026-08-15T11:43:15Z"
         }
       ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "European Automotive Industry Challenges",
-      "summary": "Industry experts suggest that European carmakers are facing an existential threat from Chinese competition. This situation is compared to the challenges previously faced by Nokia.",
-      "article_ids": [
-        "d0348acd2af1f654928b0f66",
-        "11:00:48Z"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/230968/eus-carmakers-face-their-own-nokia-challenge-to-survive-chinese-threat-says-industry-expert",
-          "headline": "[Interview] EU’s carmakers face their own Nokia challenge to survive Chinese threat, says industry expert",
-          "published_at": "2026-08-15T09:43:39Z"
-        }
-      ],
       "source_count": 1
     }
   ],
+  "top_stories": [],
   "developing": [
-    {
-      "label": "battles · Belgium · EU · evacuate",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-08-16T06:03:53Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260816-eu-sends-aircraft-and-villagers-evacuate-as-belgium-battles-record-wildfire",
-          "headline": "EU sends aircraft and villagers evacuate as Belgium battles record wildfire",
-          "published_at": "2026-08-16T06:03:53Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-satellite-system-copernicus-help-indonesia-earthquake",
-          "headline": "EU ready to send satellite system to help Indonesia after 7.7 magnitude earthquake",
-          "published_at": "2026-08-15T12:48:33Z"
-        }
-      ]
-    },
     {
       "label": "Firefighters · wildfire",
       "origin": "convergence",
@@ -165,22 +138,51 @@
       ]
     },
     {
-      "label": "adrift · children · father · French",
+      "label": "earthquake · EU · help · Indonesia",
       "origin": "radar",
       "source_count": 1,
       "item_count": 1,
-      "latest_at": "2026-08-15T15:09:37Z",
+      "latest_at": "2026-08-15T12:48:33Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/asia-pacific/20260815-french-father-and-two-children-rescued-after-16-hours-adrift-off-thai-island",
-          "headline": "French father and two children rescued after 16 hours adrift off Thai island",
-          "published_at": "2026-08-15T15:09:37Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-satellite-system-copernicus-help-indonesia-earthquake",
+          "headline": "EU ready to send satellite system to help Indonesia after 7.7 magnitude earthquake",
+          "published_at": "2026-08-15T12:48:33Z"
+        }
+      ]
+    },
+    {
+      "label": "boost · forces · Korea · North",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-08-16T06:49:00Z",
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/troops-from-north-korea-to-boost-russia-s-ukraine-forces/a-78385524?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Troops from North Korea to boost Russia's Ukraine forces",
+          "published_at": "2026-08-16T06:49:00Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "5b6002d01e9ad1d2e2031e51",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Spanish fighter jet downs drone breaching Romania's airspace",
+      "url": "https://www.france24.com/en/europe/20260816-spanish-fighter-jet-downs-drone-breaching-romania-s-airspace",
+      "published_at": "2026-08-16T07:50:35Z",
+      "collected_at": "2026-08-16T08:00:46Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "e5d3af272af27d8f7d68cf7f",
       "source_id": "dw_europe",
@@ -938,20 +940,6 @@
       ]
     },
     {
-      "id": "2984911b4d45fc53ff4f07e2",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Suffocating restrictions' shadow five years of Taliban rule in Afghanistan",
-      "url": "https://www.france24.com/en/asia-pacific/20260815-suffocating-restrictions-shadow-five-years-of-taliban-rule-in-afghanistan",
-      "published_at": "2026-08-15T07:14:24Z",
-      "collected_at": "2026-08-15T07:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "c6827b542bac6e7b96a9b441",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1414,34 +1402,6 @@
       ]
     },
     {
-      "id": "2cab04685753c5d2f0835289",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "[Interview] From cheap drones to AI targeting: Ukraine’s robots still answer to human commanders",
-      "url": "https://euobserver.com/230372/interview-from-cheap-drones-to-ai-targeting-ukraines-robots-still-answer-to-human-commanders",
-      "published_at": "2026-08-13T07:04:21Z",
-      "collected_at": "2026-08-15T07:30:41Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "61fbf9f6e3d3b2d6f79f8138",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c74grmy2v7ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-13T04:55:58Z",
-      "collected_at": "2026-08-15T07:30:41Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "536875f1d83d00ec28accf9c",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1495,6 +1455,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "dc675e5a27329bf2ceb60506",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Can Turkey's new PKK law bring peace?",
+      "url": "https://www.dw.com/en/can-turkey-s-new-pkk-law-bring-peace/a-78326063?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-11T16:28:00Z",
+      "collected_at": "2026-08-16T08:00:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -1729,6 +1703,20 @@
       "url": "https://english.elpais.com/international/2026-08-05/ric-prado-ex-cia-officer-cuba-is-the-next-apple-to-fall-from-the-tree.html",
       "published_at": "2026-08-05T10:09:29Z",
       "collected_at": "2026-08-15T13:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "252a4074eed41db3092ce0a8",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Daniel Ortega establishes Latin America’s last dictatorship in Nicaragua",
+      "url": "https://english.elpais.com/international/2026-08-02/daniel-ortega-establishes-latin-americas-last-dictatorship-in-nicaragua.html",
+      "published_at": "2026-08-02T04:00:00Z",
+      "collected_at": "2026-08-16T08:00:46Z",
       "topics": [
         "politics",
         "society",
