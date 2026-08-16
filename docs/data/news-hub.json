@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-16T15:30:40Z",
-  "last_successful_collection_at": "2026-08-16T15:30:40Z",
+  "generated_at": "2026-08-16T16:00:43Z",
+  "last_successful_collection_at": "2026-08-16T16:00:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-16T15:30:40Z"
+      "at": "2026-08-16T16:00:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "40",
-      "at": "2026-08-16T15:30:40Z"
+      "at": "2026-08-16T16:00:43Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-16T15:30:40Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-16T16:00:43Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-16T15:30:40Z"
+      "at": "2026-08-16T16:00:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-16T15:30:40Z"
+      "at": "2026-08-16T16:00:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-16T15:30:40Z"
+      "at": "2026-08-16T16:00:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-16T15:30:40Z"
+      "at": "2026-08-16T16:00:43Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-16T15:30:40Z"
+      "at": "2026-08-16T16:00:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-16T15:30:40Z"
+      "at": "2026-08-16T16:00:43Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Belgium faces record wildfire with EU air support",
-      "summary": "Belgium is confronting its largest wildfire on record and has requested European air support for firefighting operations.",
+      "title": "Belgium wildfire triggers large-scale evacuations and EU assistance",
+      "summary": "A record wildfire in Belgium has forced evacuations across 3,000 hectares, with the EU deploying aircraft for firefighting support. The crisis has disrupted communities and prompted coordinated international aid.",
       "article_ids": [
-        "843fb4236ee8ec1b2982910e"
+        "843fb4236ee8ec1b2982910e",
+        "6929fe9b15e8b1d2f78a85cd"
       ],
       "sources": [
         {
@@ -75,75 +76,24 @@
           "url": "https://www.politico.eu/article/belgium-wildfire-europe-air-support",
           "headline": "Belgium faces its largest wildfire on record, turns to Europe for air support",
           "published_at": "2026-08-16T14:24:25Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Drone intercepted over Romanian airspace by Spanish jet",
-      "summary": "A Spanish fighter jet downed a drone breaching Romania's airspace, underscoring heightened security tensions in Eastern Europe.",
-      "article_ids": [
-        "5b6002d01e9ad1d2e2031e51"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260816-spanish-fighter-jet-downs-drone-breaching-romania-s-airspace",
-          "headline": "Spanish fighter jet downs drone breaching Romania's airspace",
-          "published_at": "2026-08-16T07:50:35Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Italian Renaissance paintings recovered",
-      "summary": "Italian authorities recovered three stolen Renaissance paintings by Renoir, Cézanne, and Matisse. The artworks were valued at millions of euros.",
-      "article_ids": [
-        "353feb364f980d692134c6b2"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260816-italy-recovers-millions-of-euros-worth-of-stolen-renoir-c%C3%A9zanne-and-matisse-paintings",
-          "headline": "Italy recovers millions of euros worth of stolen Renoir, Cézanne and Matisse paintings",
-          "published_at": "2026-08-16T08:56:50Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "France's under-15 social media ban blocked",
-      "summary": "A French court blocked an under-15 social media ban. The decision pertained to restricting minors' access to online platforms.",
-      "article_ids": [
-        "854b392e8f73949508f970d7"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/why-france-s-under-15-social-media-ban-was-blocked",
-          "headline": "Why France's under-15 social media ban was blocked",
-          "published_at": "2026-08-16T09:20:06Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
-    {
-      "label": "Russia · attack · largest · aerial",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 4,
-      "latest_at": "2026-08-16T15:14:01Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia says at least seven killed in largest Ukrainian attack of 2026",
-          "published_at": "2026-08-16T15:14:01Z"
         },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/belgium-wildfire-europe-air-support",
+          "headline": "Belgium faces largest wildfire on record, turns to Europe for air support",
+          "published_at": "2026-08-16T14:24:25Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ukraine launches 600 drones at Russia, marking new phase in conflict",
+      "summary": "Ukraine executed a large-scale drone attack on Russian targets overnight, causing significant explosions reported in Kyiv. This escalation represents a critical development in the ongoing war.",
+      "article_ids": [
+        "67b22e51b29e6a951235d2b4",
+        "8fc990a6ebcb29f4e3453f58"
+      ],
+      "sources": [
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20260816-live-moscow-targeted-by-600-drones-overnight-explosions-heard-in-kyiv",
@@ -151,10 +101,88 @@
           "published_at": "2026-08-16T09:53:40Z"
         },
         {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/c8dnn05e90lo?at_medium=RSS&at_campaign=rss",
+          "headline": "Watch: BBC visits smouldering market in Ukraine after overnight strikes",
+          "published_at": "2026-08-16T12:18:09Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Belgium wildfire crisis",
+      "summary": "A record wildfire in Belgium has spread across 3,000 hectares, forcing evacuations. The EU has deployed aircraft to assist in firefighting efforts.",
+      "article_ids": [
+        "843fb4236ee8ec1b2982910e",
+        "6929fe9b15e8b1d2f78a85cd"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/belgium-wildfire-europe-air-support",
+          "headline": "Belgium faces its largest wildfire on record, turns to Europe for air support",
+          "published_at": "2026-08-16T14:24:25Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/belgium-wildfire-europe-air-support",
+          "headline": "Belgium faces largest wildfire on record, turns to Europe for air support",
+          "published_at": "2026-08-16T14:24:25Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ukraine-Russia drone warfare escalation",
+      "summary": "Ukraine launched 600 drones at Russian targets overnight, causing significant explosions. This attack marks a new phase in the conflict with Russia.",
+      "article_ids": [
+        "67b22e51b29e6a951235d2b4",
+        "8fc990a6ebcb29f4e3453f58"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260816-live-moscow-targeted-by-600-drones-overnight-explosions-heard-in-kyiv",
+          "headline": "🔴 Live: Ukraine launches 600 drones at Russia, one of its largest aerial attacks of the war",
+          "published_at": "2026-08-16T09:53:40Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/c8dnn05e90lo?at_medium=RSS&at_campaign=rss",
+          "headline": "Watch: BBC visits smouldering market in Ukraine after overnight strikes",
+          "published_at": "2026-08-16T12:18:09Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "developing": [
+    {
+      "label": "migrants · Morocco · Ceuta",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-08-16T15:23:27Z",
+      "sources": [
+        {
           "publisher": "EUobserver",
-          "url": "https://euobserver.com/231569/russia-killed-austrias-dream-of-peace-but-military-service-is-also-cheap-labour",
-          "headline": "Russia killed Austria’s dream of peace, but military service is also cheap labour",
-          "published_at": "2026-08-16T09:12:00Z"
+          "url": "https://euobserver.com/232543/morocco-flaunts-power-to-stop-eu-bound-migrants",
+          "headline": "Morocco flaunts power to stop EU-bound migrants",
+          "published_at": "2026-08-16T15:23:27Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/morocco-tightens-security-as-migrants-gather-near-ceuta-border",
+          "headline": "Morocco tightens security as migrants gather near Ceuta border",
+          "published_at": "2026-08-16T09:17:50Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss",
+          "headline": "Morocco detains dozens of migrants trying to cross into Ceuta, reports say",
+          "published_at": "2026-08-15T20:58:31Z"
         }
       ]
     },
@@ -186,44 +214,38 @@
       ]
     },
     {
-      "label": "Ceuta · migrants · Morocco",
+      "label": "drone · fighter · Romania",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-08-16T09:17:50Z",
+      "latest_at": "2026-08-16T10:15:17Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/morocco-tightens-security-as-migrants-gather-near-ceuta-border",
-          "headline": "Morocco tightens security as migrants gather near Ceuta border",
-          "published_at": "2026-08-16T09:17:50Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/nato-fighter-jet-shoot-drone-romania",
+          "headline": "NATO fighter jet shoots down drone over Romania",
+          "published_at": "2026-08-16T10:15:17Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss",
-          "headline": "Morocco detains dozens of migrants trying to cross into Ceuta, reports say",
-          "published_at": "2026-08-15T20:58:31Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260816-spanish-fighter-jet-downs-drone-breaching-romania-s-airspace",
+          "headline": "Spanish fighter jet downs drone breaching Romania's airspace",
+          "published_at": "2026-08-16T07:50:35Z"
         }
       ]
     },
     {
-      "label": "Russia · Ukraine",
-      "origin": "convergence",
-      "source_count": 2,
+      "label": "Belgian · nature · reserve · tearing",
+      "origin": "radar",
+      "source_count": 1,
       "item_count": 2,
-      "latest_at": "2026-08-16T06:49:00Z",
+      "latest_at": "2026-08-16T15:25:38Z",
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/troops-from-north-korea-to-boost-russia-s-ukraine-forces/a-78385524?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Troops from North Korea to boost Russia's Ukraine forces",
-          "published_at": "2026-08-16T06:49:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260816-live-moscow-targeted-by-600-drones-overnight-explosions-heard-in-kyiv",
-          "headline": "Live: Ukraine hit missile fuel production facility in Russia in overnight assault",
-          "published_at": "2026-08-16T04:42:16Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cp8eex1nmpvo?at_medium=RSS&at_campaign=rss",
+          "headline": "Belgian wildfire doubles in size on third day tearing through nature reserve",
+          "published_at": "2026-08-16T15:25:38Z"
         }
       ]
     }
@@ -241,6 +263,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "093e6fb01613df6bc23e66ac",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Morocco flaunts power to stop EU-bound migrants",
+      "url": "https://euobserver.com/232543/morocco-flaunts-power-to-stop-eu-bound-migrants",
+      "published_at": "2026-08-16T15:23:27Z",
+      "collected_at": "2026-08-16T16:00:43Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -1151,6 +1187,34 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "728c2f6b013a5fdfef23ebdc",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Morocco emboldened by strong US ties, amid fears of second migrant surge into Spanish enclaves",
+      "url": "https://euobserver.com/232526/morocco-emboldened-by-strong-us-ties-amid-fears-of-second-migrant-surge-into-spanish-enclaves",
+      "published_at": "2026-08-14T15:17:41Z",
+      "collected_at": "2026-08-16T16:00:43Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "72ecfc6773b4e25a14b66df7",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "US threatens EU over its green reporting rules",
+      "url": "https://www.politico.eu/article/us-threatens-eu-over-transatlantic-green-rules",
+      "published_at": "2026-08-14T15:01:21Z",
+      "collected_at": "2026-08-16T16:00:43Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
       ]
     },
     {
