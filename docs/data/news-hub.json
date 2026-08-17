@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-17T12:00:49Z",
-  "last_successful_collection_at": "2026-08-17T12:00:49Z",
+  "generated_at": "2026-08-17T12:30:43Z",
+  "last_successful_collection_at": "2026-08-17T12:30:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-17T12:00:49Z"
+      "at": "2026-08-17T12:30:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "40",
-      "at": "2026-08-17T12:00:49Z"
+      "at": "2026-08-17T12:30:43Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-17T12:00:49Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-17T12:30:43Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-17T12:00:49Z"
+      "at": "2026-08-17T12:30:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-17T12:00:49Z"
+      "at": "2026-08-17T12:30:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-17T12:00:49Z"
+      "at": "2026-08-17T12:30:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-17T12:00:49Z"
+      "at": "2026-08-17T12:30:43Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-17T12:00:49Z"
+      "at": "2026-08-17T12:30:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-17T12:00:49Z"
+      "at": "2026-08-17T12:30:43Z"
     }
   ],
   "europe_now": [
@@ -228,10 +228,10 @@
       ]
     },
     {
-      "label": "East · live · Meet · Middle",
+      "label": "East · live · Middle · Meet",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
+      "item_count": 4,
       "latest_at": "2026-08-17T04:45:34Z",
       "sources": [
         {
@@ -249,23 +249,23 @@
       ]
     },
     {
-      "label": "market · strike · BBC · Kyiv",
+      "label": "dies · Hayden · Panettiere",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-08-16T14:40:52Z",
+      "item_count": 2,
+      "latest_at": "2026-08-17T09:34:44Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260816-ukraine-russian-strike-destroys-kyiv-book-market",
-          "headline": "Ukraine: Russian strike destroys Kyiv book market",
-          "published_at": "2026-08-16T14:40:52Z"
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/people/2026-08-17/hayden-panettiere-star-of-heroes-dies-at-36.html",
+          "headline": "Hayden Panettiere, star of ‘Heroes,’ dies at 36",
+          "published_at": "2026-08-17T09:34:44Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/c8dnn05e90lo?at_medium=RSS&at_campaign=rss",
-          "headline": "BBC visits smouldering Kyiv market after Russian strikes",
-          "published_at": "2026-08-16T12:18:09Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20260817-american-actress-hayden-panettiere-dies-at-36",
+          "headline": "American actress Hayden Panettiere dies at 36",
+          "published_at": "2026-08-17T06:02:03Z"
         }
       ]
     }
@@ -685,6 +685,20 @@
       "url": "https://www.france24.com/en/middle-east/20260817-middle-east-live-us-envoy-kushner-to-meet-netanyahu-after-talks-with-hamas",
       "published_at": "2026-08-17T04:45:34Z",
       "collected_at": "2026-08-17T10:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f68b58fc608212c42a351fd2",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Middle East live: Trump threatens to bomb Oman if they get in way of Hormuz shipping deal",
+      "url": "https://www.france24.com/en/middle-east/20260817-middle-east-live-us-envoy-kushner-to-meet-netanyahu-after-talks-with-hamas",
+      "published_at": "2026-08-17T04:45:34Z",
+      "collected_at": "2026-08-17T12:30:43Z",
       "topics": [
         "politics",
         "security",
@@ -1322,20 +1336,6 @@
       ]
     },
     {
-      "id": "96a3558697da09ae85249674",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Hamas begins crucial talks with Egypt on Trump's Gaza peace plan",
-      "url": "https://www.france24.com/en/middle-east/20260816-hamas-begins-crucial-talks-with-egypt-on-trump-s-gaza-peace-plan",
-      "published_at": "2026-08-16T11:33:32Z",
-      "collected_at": "2026-08-16T12:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "4276c47b42971dda0cff277c",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1360,34 +1360,6 @@
       "topics": [
         "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "d2280080ad0a706e2be8b7e1",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Brazil election: Lula and the new face of Bolsonaro's right",
-      "url": "https://www.france24.com/en/brazil-election-lula-and-the-new-face-of-bolsonaro-s-right",
-      "published_at": "2026-08-16T10:46:32Z",
-      "collected_at": "2026-08-16T12:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "2a7bbe6797a454488cc675ef",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France: Landes wildfire stopped spreading but remains out of control",
-      "url": "https://www.france24.com/en/france-landes-wildfire-stopped-spreading-but-remains-out-of-control",
-      "published_at": "2026-08-16T10:43:12Z",
-      "collected_at": "2026-08-16T12:00:50Z",
-      "topics": [
-        "politics",
-        "security",
         "society"
       ]
     },
@@ -1742,34 +1714,6 @@
       ]
     },
     {
-      "id": "c05339f6ae805ac76da86553",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland seeks to boost investment with new tax-free personal accounts",
-      "url": "https://notesfrompoland.com/2026/08/14/poland-seeks-to-boost-investment-with-new-tax-free-personal-accounts",
-      "published_at": "2026-08-14T11:59:38Z",
-      "collected_at": "2026-08-16T12:00:50Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "04bf75f0b8564030b93f2fd9",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "German spies to get offensive powers, breaking post-Cold War taboo on ‘secret police’",
-      "url": "https://euobserver.com/232465/german-spies-to-get-offensive-powers-breaking-post-cold-war-taboo-on-secret-police",
-      "published_at": "2026-08-14T10:54:09Z",
-      "collected_at": "2026-08-16T12:00:50Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "454b13f018883b1c8d7c3449",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2050,20 +1994,6 @@
       ]
     },
     {
-      "id": "37c68519ecee80a7c209eab6",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Ousted by Orbán, back with a vengeance: Hungary’s president András Baka to restore rule of law",
-      "url": "https://euobserver.com/232128/ousted-by-orban-back-with-a-vengeance-hungarys-president-to-restore-rule-of-law",
-      "published_at": "2026-08-12T10:45:00Z",
-      "collected_at": "2026-08-16T12:00:50Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "5b8e7e22547410b5fd58851f",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2075,34 +2005,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "53181919979129e7caff70ce",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Cristiano Ronaldo marries long-time partner Georgina Rodríguez",
-      "url": "https://www.bbc.co.uk/news/articles/clyj0325z3ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-12T04:29:02Z",
-      "collected_at": "2026-08-16T12:00:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "30664c27bb6ffbfe21a022a2",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Russia releases former US Marine reported in poor health",
-      "url": "https://www.bbc.co.uk/news/articles/cvgj4m8e1ryo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-11T23:33:45Z",
-      "collected_at": "2026-08-16T12:00:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
@@ -2215,34 +2117,6 @@
         "analysis",
         "foreign_policy",
         "security"
-      ]
-    },
-    {
-      "id": "537d296551ae6e2dbb372fa6",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "World's oceans hit record-high July temperatures",
-      "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-10T10:24:46Z",
-      "collected_at": "2026-08-16T12:00:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "59b23b13c04c2a2f14b26b88",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Democratic primaries reveal Israel’s waning political influence in the United States",
-      "url": "https://english.elpais.com/usa/2026-08-10/democratic-primaries-reveal-israels-waning-political-influence-in-the-united-states.html",
-      "published_at": "2026-08-10T08:59:14Z",
-      "collected_at": "2026-08-16T12:00:50Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
