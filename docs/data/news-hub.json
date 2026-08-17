@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-17T04:30:38Z",
-  "last_successful_collection_at": "2026-08-17T04:30:38Z",
+  "generated_at": "2026-08-17T05:00:52Z",
+  "last_successful_collection_at": "2026-08-17T05:00:52Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-17T04:30:38Z"
+      "at": "2026-08-17T05:00:52Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "40",
-      "at": "2026-08-17T04:30:38Z"
+      "at": "2026-08-17T05:00:52Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-17T04:30:38Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-17T05:00:52Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-17T04:30:38Z"
+      "at": "2026-08-17T05:00:52Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-17T04:30:38Z"
+      "at": "2026-08-17T05:00:52Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-17T04:30:38Z"
+      "at": "2026-08-17T05:00:52Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-17T04:30:38Z"
+      "at": "2026-08-17T05:00:52Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-17T04:30:38Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-17T05:00:52Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-17T04:30:38Z"
+      "at": "2026-08-17T05:00:52Z"
     }
   ],
   "europe_now": [
@@ -158,6 +158,27 @@
       ]
     },
     {
+      "label": "Korea · military · scale · South",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-17T04:38:01Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20260817-trump-orders-pentagon-to-scale-back-military-drills-with-south-korea-hours-before-start",
+          "headline": "Trump orders Pentagon to scale back military drills with South Korea, hours before start",
+          "published_at": "2026-08-17T04:38:01Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/08/16/trump-hegseth-joint-military-drills-south-korea-01038949",
+          "headline": "Trump directs Hegseth to scale back joint military exercises with South Korea",
+          "published_at": "2026-08-16T23:42:14Z"
+        }
+      ]
+    },
+    {
       "label": "EU · power",
       "origin": "convergence",
       "source_count": 2,
@@ -177,30 +198,23 @@
           "published_at": "2026-08-16T15:23:27Z"
         }
       ]
-    },
-    {
-      "label": "killed · Russia",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-16T15:14:01Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia says at least seven killed in largest Ukrainian attack of 2026",
-          "published_at": "2026-08-16T15:14:01Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/231569/russia-killed-austrias-dream-of-peace-but-military-service-is-also-cheap-labour",
-          "headline": "Russia killed Austria’s dream of peace, but military service is also cheap labour",
-          "published_at": "2026-08-16T09:12:00Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "fb3864d97e9fb42d813c0db4",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Trump orders Pentagon to scale back military drills with South Korea, hours before start",
+      "url": "https://www.france24.com/en/americas/20260817-trump-orders-pentagon-to-scale-back-military-drills-with-south-korea-hours-before-start",
+      "published_at": "2026-08-17T04:38:01Z",
+      "collected_at": "2026-08-17T05:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "56cbd8e669f084728976ed11",
       "source_id": "politico_europe",
@@ -1182,34 +1196,6 @@
       ]
     },
     {
-      "id": "a194b2f6cf8ec07587a0e9ea",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France's Léon Marchand wins first European title in front of home crowd",
-      "url": "https://www.france24.com/en/tv-shows/sports/20260816-france-s-l%C3%A9on-marchand-wins-first-european-title-in-front-of-home-crowd",
-      "published_at": "2026-08-16T04:53:20Z",
-      "collected_at": "2026-08-16T05:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0dc780f7df0f91f5b4d7c6c3",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: Moscow targeted by 600 drones overnight, explosions heard in Kyiv",
-      "url": "https://www.france24.com/en/europe/20260816-live-moscow-targeted-by-600-drones-overnight-explosions-heard-in-kyiv",
-      "published_at": "2026-08-16T04:42:16Z",
-      "collected_at": "2026-08-16T05:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "1081d81ee22422bd7d201ff0",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1238,13 +1224,13 @@
       ]
     },
     {
-      "id": "4171f38fa45b884d55b72e90",
+      "id": "37b3dc3fd096a321ce5597ac",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "Castro-style capitalism: Havana promises economic changes without relinquishing political control",
-      "url": "https://english.elpais.com/international/2026-08-16/castro-style-capitalism-havana-promises-economic-changes-without-relinquishing-political-control.html",
-      "published_at": "2026-08-16T04:00:00Z",
-      "collected_at": "2026-08-16T04:30:40Z",
+      "title": "Pramila Jayapal, Democratic congresswoman: ‘We have to prepare in case Trump tries to steal the elections’",
+      "url": "https://english.elpais.com/usa/2026-08-15/pramila-jayapal-democratic-congresswoman-we-have-to-prepare-in-case-trump-tries-to-steal-the-elections.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-08-17T05:00:52Z",
       "topics": [
         "politics",
         "society",
@@ -1252,13 +1238,13 @@
       ]
     },
     {
-      "id": "fdf9059b55ae88f4d83d9540",
+      "id": "08770a4e7e0b29d3d16a564e",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "Carlos Saladrigas, businessman: ‘We recommend a Marshall Plan for Cuba’",
-      "url": "https://english.elpais.com/international/2026-08-16/carlos-saladrigas-businessman-we-recommend-a-marshall-plan-for-cuba.html",
-      "published_at": "2026-08-16T04:00:00Z",
-      "collected_at": "2026-08-16T04:30:40Z",
+      "title": "‘I’m scared, but I don’t have a single cent’: Months of ICE raids drive day laborers to desperation",
+      "url": "https://english.elpais.com/usa/2026-08-15/im-scared-but-i-dont-have-a-single-cent-months-of-ice-raids-drive-day-laborers-to-desperation.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-08-17T05:00:52Z",
       "topics": [
         "politics",
         "society",
@@ -1266,13 +1252,13 @@
       ]
     },
     {
-      "id": "abe9f35cb81baae8f1ab3f48",
+      "id": "bcf3b3fee0bc02a5815b795b",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "‘This is Africa, deal with it’: the lives of the migrants deported from the US to the Central African Republic",
-      "url": "https://english.elpais.com/usa/2026-08-16/this-is-africa-deal-with-it-the-lives-of-the-migrants-deported-from-the-us-to-the-central-african-republic.html",
-      "published_at": "2026-08-16T04:00:00Z",
-      "collected_at": "2026-08-16T04:30:40Z",
+      "title": "Reactionary Americas: The global laboratory of the right",
+      "url": "https://english.elpais.com/international/2026-08-15/reactionary-americas-the-global-laboratory-of-the-right.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-08-17T05:00:52Z",
       "topics": [
         "politics",
         "society",
@@ -1280,13 +1266,13 @@
       ]
     },
     {
-      "id": "0175a4a7646357dc710790c8",
+      "id": "7693590c8c8835d348af2da3",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "The last Trump elections",
-      "url": "https://english.elpais.com/opinion/2026-08-16/the-last-trump-elections.html",
-      "published_at": "2026-08-16T04:00:00Z",
-      "collected_at": "2026-08-16T04:30:40Z",
+      "title": "Nancy Cartwright, philosopher: ‘People distrust science because they feel the system has abandoned them’",
+      "url": "https://english.elpais.com/science-tech/2026-08-15/nancy-cartwright-philosopher-people-distrust-science-because-they-feel-the-system-has-abandoned-them.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-08-17T05:00:52Z",
       "topics": [
         "politics",
         "society",
@@ -1294,13 +1280,13 @@
       ]
     },
     {
-      "id": "8c3094b710137585fe6ae8ee",
+      "id": "fa1f2eb78e2d6ea4cf9be773",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "Fergie Chambers, the US millionaire activist detained in Ibiza: ‘I am a human rights defender’",
-      "url": "https://english.elpais.com/usa/2026-08-16/fergie-chambers-the-us-millionaire-activist-detained-in-ibiza-i-am-a-human-rights-defender.html",
-      "published_at": "2026-08-16T04:00:00Z",
-      "collected_at": "2026-08-16T04:30:40Z",
+      "title": "AI fueles a surge in online abuse against women in India: ‘It felt like someone had taken control of how I exist visually’",
+      "url": "https://english.elpais.com/international/2026-08-15/ai-fueles-a-surge-in-online-abuse-against-women-in-india-it-felt-like-someone-had-taken-control-of-how-i-exist-visually.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-08-17T05:00:52Z",
       "topics": [
         "politics",
         "society",
@@ -1308,13 +1294,13 @@
       ]
     },
     {
-      "id": "b0f4c63d62c42695670cbd0c",
+      "id": "7e474ce40f0f210941debdfa",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "‘The Eiffel Tower is a suppository riddled with holes’: When great monuments aren’t to everyone’s liking",
-      "url": "https://english.elpais.com/culture/2026-08-16/the-eiffel-tower-is-a-suppository-riddled-with-holes-when-great-monuments-arent-to-everyones-liking.html",
-      "published_at": "2026-08-16T04:00:00Z",
-      "collected_at": "2026-08-16T04:30:40Z",
+      "title": "Sixty years of post-credits scenes: A history that began long before Marvel",
+      "url": "https://english.elpais.com/culture/2026-08-15/sixty-years-of-post-credits-scenes-a-history-that-began-long-before-marvel.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-08-17T05:00:52Z",
       "topics": [
         "politics",
         "society",
@@ -1322,13 +1308,13 @@
       ]
     },
     {
-      "id": "6d5f28368eed73a441ea54fd",
+      "id": "76d8bd776eeb33d23f8e6d80",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "From clothing to yerba mate and cell phones: smuggled goods flood Argentina",
-      "url": "https://english.elpais.com/economy-and-business/2026-08-16/from-clothing-to-yerba-mate-and-cell-phones-smuggled-goods-flood-argentina.html",
-      "published_at": "2026-08-16T04:00:00Z",
-      "collected_at": "2026-08-16T04:30:40Z",
+      "title": "‘He was deaf, gay, and cried in all his songs’: Johnnie Ray, the brilliant and forgotten rocker who paved the way for Elvis",
+      "url": "https://english.elpais.com/culture/2026-08-15/he-was-deaf-gay-and-cried-in-all-his-songs-johnnie-ray-the-brilliant-and-forgotten-rocker-who-paved-the-way-for-elvis.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-08-17T05:00:52Z",
       "topics": [
         "politics",
         "society",
@@ -1336,27 +1322,13 @@
       ]
     },
     {
-      "id": "790f049c373cd3308e9a530e",
+      "id": "69cebed5b97b38e781fca639",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "Las Ketchup, the Spanish girl group: ‘We were very badly advised. Nobody cared that our bodies ached’",
-      "url": "https://english.elpais.com/culture/2026-08-16/las-ketchup-the-spanish-girl-group-we-were-very-badly-advised-nobody-cared-that-our-bodies-ached.html",
-      "published_at": "2026-08-16T04:00:00Z",
-      "collected_at": "2026-08-16T04:30:40Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "3605b8c18c1b9882640aa194",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "No more photos, profiles, or matches: In the future of dating apps, AI will choose your partner",
-      "url": "https://english.elpais.com/lifestyle/2026-08-16/no-more-photos-profiles-or-matches-in-the-future-of-dating-apps-ai-will-choose-your-partner.html",
-      "published_at": "2026-08-16T04:00:00Z",
-      "collected_at": "2026-08-16T04:30:40Z",
+      "title": "The science behind the feeling that childhood summers never end",
+      "url": "https://english.elpais.com/lifestyle/2026-08-15/the-science-behind-the-feeling-that-childhood-summers-never-end.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-08-17T05:00:52Z",
       "topics": [
         "politics",
         "society",
@@ -1938,6 +1910,34 @@
       ]
     },
     {
+      "id": "491fe264067f36a2752b606c",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Turkey MPs back historic law on reintegrating PKK militants",
+      "url": "https://www.dw.com/en/turkey-mps-back-historic-law-on-reintegrating-pkk-militants/a-78313397?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-10T22:22:00Z",
+      "collected_at": "2026-08-17T05:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "d5344e7b7e5f207c4ba58b25",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Opening on Sunday, the taboo for stores in Germany that the government wants to break",
+      "url": "https://english.elpais.com/economy-and-business/2026-08-10/opening-on-sunday-the-taboo-for-stores-in-germany-that-the-government-wants-to-break.html",
+      "published_at": "2026-08-10T19:43:28Z",
+      "collected_at": "2026-08-17T05:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "98c49705f572575a64acab75",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2159,20 +2159,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "b805e67ca4d3ecafcd83837b",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Ceuta: Spain sets up border controls on travelers from Italy",
-      "url": "https://www.dw.com/en/ceuta-spain-sets-up-border-controls-on-travelers-from-italy/a-78282840?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-08T01:24:00Z",
-      "collected_at": "2026-08-16T04:30:40Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
