@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-17T09:30:46Z",
-  "last_successful_collection_at": "2026-08-17T09:30:46Z",
+  "generated_at": "2026-08-17T10:00:49Z",
+  "last_successful_collection_at": "2026-08-17T10:00:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-17T09:30:46Z"
+      "at": "2026-08-17T10:00:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "40",
-      "at": "2026-08-17T09:30:46Z"
+      "at": "2026-08-17T10:00:49Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-17T09:30:46Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-17T10:00:49Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-17T09:30:46Z"
+      "at": "2026-08-17T10:00:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-17T09:30:46Z"
+      "at": "2026-08-17T10:00:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-17T09:30:46Z"
+      "at": "2026-08-17T10:00:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-17T09:30:46Z"
+      "at": "2026-08-17T10:00:49Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-17T09:30:46Z"
+      "at": "2026-08-17T10:00:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-17T09:30:46Z"
+      "at": "2026-08-17T10:00:49Z"
     }
   ],
   "europe_now": [
@@ -202,6 +202,27 @@
       ]
     },
     {
+      "label": "dies · Hayden · Panettiere",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-17T09:34:44Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/people/2026-08-17/hayden-panettiere-star-of-heroes-dies-at-36.html",
+          "headline": "Hayden Panettiere, star of ‘Heroes,’ dies at 36",
+          "published_at": "2026-08-17T09:34:44Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20260817-american-actress-hayden-panettiere-dies-at-36",
+          "headline": "American actress Hayden Panettiere dies at 36",
+          "published_at": "2026-08-17T06:02:03Z"
+        }
+      ]
+    },
+    {
       "label": "EU · power",
       "origin": "convergence",
       "source_count": 2,
@@ -221,30 +242,23 @@
           "published_at": "2026-08-16T15:23:27Z"
         }
       ]
-    },
-    {
-      "label": "Four · museum · Renaissance · stolen",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-16T15:49:59Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/italy-four-renaissance-artworks-stolen-from-messina-museum-in-sicily",
-          "headline": "Italy: Four Renaissance artworks stolen from Messina museum in Sicily",
-          "published_at": "2026-08-16T15:49:59Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cqjxx2gzd9qo?at_medium=RSS&at_campaign=rss",
-          "headline": "Four 'extraordinary' Renaissance paintings stolen from Italian museum",
-          "published_at": "2026-08-16T13:34:38Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "d0cb15989ccfcba8d355f30e",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Hayden Panettiere, star of ‘Heroes,’ dies at 36",
+      "url": "https://english.elpais.com/people/2026-08-17/hayden-panettiere-star-of-heroes-dies-at-36.html",
+      "published_at": "2026-08-17T09:34:44Z",
+      "collected_at": "2026-08-17T10:00:49Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "fb12c3e0de592dc7472181ec",
       "source_id": "france24",
@@ -1100,20 +1114,6 @@
       ]
     },
     {
-      "id": "67b22e51b29e6a951235d2b4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 Live: Ukraine launches 600 drones at Russia, one of its largest aerial attacks of the war",
-      "url": "https://www.france24.com/en/europe/20260816-live-moscow-targeted-by-600-drones-overnight-explosions-heard-in-kyiv",
-      "published_at": "2026-08-16T09:53:40Z",
-      "collected_at": "2026-08-16T10:00:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "b950e8145ed9644e1850f1ee",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1125,48 +1125,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "7c744110df3e5d7fecca4881",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "South Lebanon: Doctor describes escalating humanitarian toll",
-      "url": "https://www.france24.com/en/south-lebanon-doctor-describes-escalating-humanitarian-toll",
-      "published_at": "2026-08-16T09:46:15Z",
-      "collected_at": "2026-08-16T10:00:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "b560f1d45a8bb28f8d8c71c4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Chad : Opposition figure Succès Masra speaks to France 24",
-      "url": "https://www.france24.com/en/video/20260816-chad-opposition-figure-succ%C3%A8s-masra-speaks-to-france-24",
-      "published_at": "2026-08-16T09:23:29Z",
-      "collected_at": "2026-08-16T10:00:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "1081d81ee22422bd7d201ff0",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: Ukraine hit missile fuel production facility in Russia in overnight assault",
-      "url": "https://www.france24.com/en/europe/20260816-live-moscow-targeted-by-600-drones-overnight-explosions-heard-in-kyiv",
-      "published_at": "2026-08-16T04:42:16Z",
-      "collected_at": "2026-08-16T10:00:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
