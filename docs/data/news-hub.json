@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-17T19:00:51Z",
-  "last_successful_collection_at": "2026-08-17T19:00:51Z",
+  "generated_at": "2026-08-17T19:30:43Z",
+  "last_successful_collection_at": "2026-08-17T19:30:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-17T19:00:51Z"
+      "at": "2026-08-17T19:30:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "40",
-      "at": "2026-08-17T19:00:51Z"
+      "at": "2026-08-17T19:30:43Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-17T19:00:51Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-17T19:30:43Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,77 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-17T19:00:51Z"
+      "at": "2026-08-17T19:30:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-17T19:00:51Z"
+      "at": "2026-08-17T19:30:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-17T19:00:51Z"
+      "at": "2026-08-17T19:30:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-17T19:00:51Z"
+      "at": "2026-08-17T19:30:43Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-17T19:00:51Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-17T19:30:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-17T19:00:51Z"
+      "at": "2026-08-17T19:30:43Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Belgium faces largest wildfire on record, seeks European air support",
-      "summary": "Belgium is experiencing its largest wildfire on record and has requested European air support. International assistance is arriving to help combat the blazes.",
+      "title": "French taxpayers warned after major data hack",
+      "summary": "French taxpayers were warned after personal data was stolen in a major hack. The breach involved theft of taxpayer information systems.",
+      "article_ids": [
+        "527b14e7139f2d30468419fa"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/french-taxpayers-warned-after-personal-data-stolen-in-major-hack",
+          "headline": "French taxpayers warned after personal data stolen in major hack",
+          "published_at": "2026-08-17T10:50:34Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Latvia seeks billions in EU aid for war fallout",
+      "summary": "Latvia sought €7 billion from the EU to cope with war fallout. The initiative addressed war-related costs.",
+      "article_ids": [
+        "2623440899263bac3b57ac31"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/latvia-pm-andris-kulbergs-7b-eu-funding-over-russia-costs",
+          "headline": "Latvia wants €7B from EU to cope with fallout from Russia’s war",
+          "published_at": "2026-08-17T11:01:00Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "International help arrives as wildfires rage across Belgium",
+      "summary": "Wildfires raged across Belgium. International assistance was deployed to the affected regions.",
       "article_ids": [
         "81335654aec481eee5c2cddc"
       ],
@@ -80,26 +114,24 @@
       "source_count": 1
     },
     {
-      "title": "French taxpayers warned after major data hack",
-      "summary": "French authorities have warned taxpayers after a major hack exposed personal data. The breach raises concerns about security and privacy for citizens across France.",
+      "title": "Russia and Ukraine trade more deadly strikes",
+      "summary": "Russia and Ukraine exchanged more deadly strikes. The attacks involved greater deadliness.",
       "article_ids": [
-        "527b14e7139f2d30468419fa"
+        "cf91f8cc5778d3585bf50e97"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/french-taxpayers-warned-after-personal-data-stolen-in-major-hack",
-          "headline": "French taxpayers warned after personal data stolen in major hack",
-          "published_at": "2026-08-17T10:50:34Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia and Ukraine trade more deadly strikes",
+          "published_at": "2026-08-17T13:16:50Z"
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "EU acts against nihilist online extremist network",
-      "summary": "The EU has taken action against a nihilist online extremist network known as ‘The Com’. Officials say the move highlights potential gaps in current security policies.",
+      "title": "EU action against ‘The Com’, a nihilist online extremist network",
+      "summary": "The EU took action against ‘The Com’, a nihilist online extremist network. The network was flagged as a security risk.",
       "article_ids": [
         "c563349d4aaff3fe6a5f032a"
       ],
@@ -112,84 +144,9 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Latvia seeks EU aid for war fallout",
-      "summary": "Latvia has requested €7 billion from the European Union to address war-related damages. The request aims to support recovery and resilience amid ongoing regional tensions.",
-      "article_ids": [
-        "2623440899263bac3b57ac31"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/latvia-pm-andris-kulbergs-7b-eu-funding-over-russia-costs",
-          "headline": "Latvia wants €7B from EU to cope with fallout from Russia’s war",
-          "published_at": "2026-08-17T11:01:00Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Germany debates banning far-right party",
-      "summary": "German lawmakers are divided over proposals to ban far-right political parties. The debate reflects broader concerns about extremism and democratic stability.",
-      "article_ids": [
-        "86fb2fbd77602aea0ae360a4"
-      ],
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-08-17/germany-divided-over-proposals-to-outlaw-the-far-right.html",
-          "headline": "Germany divided over proposals to outlaw the far right",
-          "published_at": "2026-08-17T11:47:55Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Sicilian museum hit by major art theft",
-      "summary": "Thieves stole artworks worth approximately €80 million from a museum in Sicily. The incident has prompted investigations into security lapses and cultural heritage protection.",
-      "article_ids": [
-        "4efee262554f31dac3923b2e"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260817-sicilian-museum-hit-by-%E2%82%AC80-million-art-theft",
-          "headline": "Sicilian museum hit by €80 million art theft",
-          "published_at": "2026-08-17T13:20:15Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "developing": [
-    {
-      "label": "Russia · Ukraine · attacks · Drone",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 5,
-      "latest_at": "2026-08-17T14:34:03Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/232593/russia-used-ai-slop-to-discredit-news-of-ukraines-territorial-gains-ukraine-battlefield-update-day-1635",
-          "headline": "Russia used AI slop to discredit news of Ukraine’s territorial gains (Ukraine Battlefield update, Day 1,635)",
-          "published_at": "2026-08-17T14:34:03Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia and Ukraine trade more deadly strikes",
-          "published_at": "2026-08-17T13:16:50Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260817-ukraine-and-russia-intensify-attacks-several-killed-in-belgorod-border-region",
-          "headline": "Ukraine and Russia intensify attacks, several killed in Belgorod border region",
-          "published_at": "2026-08-17T09:49:46Z"
-        }
-      ]
-    },
     {
       "label": "military · Trump · drills · Korea",
       "origin": "convergence",
@@ -233,28 +190,57 @@
       ]
     },
     {
-      "label": "strike · Ukrainian",
+      "label": "dies · Hayden · Panettiere",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-08-17T15:06:00Z",
+      "latest_at": "2026-08-17T09:34:44Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260817-russian-strike-on-kyiv-book-market-an-attempt-to-annihilate-ukrainian-identity",
-          "headline": "Russian strike on Kyiv book market: 'An attempt to annihilate Ukrainian identity'",
-          "published_at": "2026-08-17T15:06:00Z"
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/people/2026-08-17/hayden-panettiere-star-of-heroes-dies-at-36.html",
+          "headline": "Hayden Panettiere, star of ‘Heroes,’ dies at 36",
+          "published_at": "2026-08-17T09:34:44Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukrainian strikes kill six in Russia, acting governor says",
-          "published_at": "2026-08-17T05:38:13Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20260817-american-actress-hayden-panettiere-dies-at-36",
+          "headline": "American actress Hayden Panettiere dies at 36",
+          "published_at": "2026-08-17T06:02:03Z"
+        }
+      ]
+    },
+    {
+      "label": "EU · nuclear · safety",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 2,
+      "latest_at": "2026-08-17T16:13:23Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ukraine-eu-sanctions-rosatom-nuclear-safety-violations-andrii-sybiha",
+          "headline": "Ukraine urges EU sanctions on Rosatom over allegations of nuclear safety violations",
+          "published_at": "2026-08-17T16:13:23Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "5f1d6ba443cd9a8e2eef4319",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Rocky Balboa’s lesson: How to combine cardio and weights to live longer and healthier",
+      "url": "https://english.elpais.com/health/2026-08-17/rocky-balboas-lesson-how-to-combine-cardio-and-weights-to-live-longer-and-healthier.html",
+      "published_at": "2026-08-17T19:06:41Z",
+      "collected_at": "2026-08-17T19:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "561e6b3257b5ccaa4761f5c5",
       "source_id": "el_pais_english",
@@ -1401,20 +1387,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "4f32a6d81730d875e604bb80",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Drone and missile strikes kill 19 in Russia and Ukraine",
-      "url": "https://www.france24.com/en/europe/20260816-drone-and-missile-strikes-kill-19-in-russia-and-ukraine",
-      "published_at": "2026-08-16T19:12:31Z",
-      "collected_at": "2026-08-16T19:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
