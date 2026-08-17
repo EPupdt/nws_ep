@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-17T15:00:50Z",
-  "last_successful_collection_at": "2026-08-17T15:00:50Z",
+  "generated_at": "2026-08-17T15:30:40Z",
+  "last_successful_collection_at": "2026-08-17T15:30:40Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-17T15:00:50Z"
+      "at": "2026-08-17T15:30:40Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "40",
-      "at": "2026-08-17T15:00:50Z"
+      "at": "2026-08-17T15:30:40Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-17T15:00:50Z"
+      "at": "2026-08-17T15:30:40Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,75 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-17T15:00:50Z"
+      "at": "2026-08-17T15:30:40Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-17T15:00:50Z"
+      "at": "2026-08-17T15:30:40Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-17T15:00:50Z"
+      "at": "2026-08-17T15:30:40Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-17T15:00:50Z"
+      "at": "2026-08-17T15:30:40Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-17T15:00:50Z"
+      "at": "2026-08-17T15:30:40Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-17T15:00:50Z"
+      "at": "2026-08-17T15:30:40Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Belgium wildfire crisis",
-      "summary": "Belgium faces its largest wildfire on record, requiring international air support for containment. The crisis has led to mass evacuations and significant regional disruption.",
+      "title": "Ukraine launches large-scale drone attacks on Russian territory",
+      "summary": "Ukraine has launched one of its largest drone offensives against Russia, striking multiple regions including Belgorod and causing casualties. In response, Russian authorities cancelled a major military festival in Moscow and reported deadly retaliatory strikes.",
       "article_ids": [
-        "81335654aec481eee5c2cddc"
+        "fb12c3e0de592dc7472181ec",
+        "cf91f8cc5778d3585bf50e97",
+        "d86fc283adaa3007649a0f3a",
+        "987d71bf346f0ab648fe6399",
+        "470397ac2bdd83d39d7fabbe"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260817-ukraine-launches-one-of-its-largest-drone-attacks-on-russia",
+          "headline": "Ukraine launches one of its largest drone attacks on Russia",
+          "published_at": "2026-08-17T09:09:36Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia and Ukraine trade more deadly strikes",
+          "published_at": "2026-08-17T13:16:50Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Wildfires rage across Belgium and France prompting international assistance",
+      "summary": "Wildfires have spread across Belgium and southwestern France, prompting evacuations and international firefighting assistance. French Prime Minister Lecornu faced angry residents during a visit to affected areas while announcing substantial government aid.",
+      "article_ids": [
+        "81335654aec481eee5c2cddc",
+        "e328f74861aff693a3a950cd",
+        "ac08ad69ec5282d80c0faded",
+        "67c26da36839da299ca5bbde",
+        "472087f77badfb0f1acf51b2"
       ],
       "sources": [
         {
@@ -75,15 +105,85 @@
           "url": "https://www.france24.com/en/international-help-arrives-as-wildfires-rage-across-belgium",
           "headline": "International help arrives as wildfires rage across Belgium",
           "published_at": "2026-08-17T12:56:00Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/wildfires-belgium-battles-blaze-france-s-lecornu-jeered/a-78397186?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Wildfires: Belgium battles blaze, France's Lecornu jeered",
+          "published_at": "2026-08-17T12:55:00Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "Sicilian art theft",
-      "summary": "A Sicilian museum suffered an €80 million art theft involving Renaissance masterpieces. The incident raises concerns about cultural heritage security and recovery efforts.",
+      "title": "Major data breach exposes French taxpayers' personal information",
+      "summary": "French authorities have alerted taxpayers that their personal data was compromised in a large-scale cyberattack. The breach prompts concerns about identity theft and the security of government databases.",
+      "article_ids": [
+        "527b14e7139f2d30468419fa"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/french-taxpayers-warned-after-personal-data-stolen-in-major-hack",
+          "headline": "French taxpayers warned after personal data stolen in major hack",
+          "published_at": "2026-08-17T10:50:34Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "EU acts against nihilist online extremist network",
+      "summary": "The European Union has taken measures against an online extremist network known as 'The Com' that promotes nihilist violence. The move highlights gaps in current security policies for tackling digital radicalization.",
+      "article_ids": [
+        "c563349d4aaff3fe6a5f032a"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/232048/eu-action-against-the-com-a-nihilist-online-extremist-network-shows-that-security-policies-might-be-outdated",
+          "headline": "EU action against ‘The Com’, a nihilist online extremist network, shows that security policies might be outdated",
+          "published_at": "2026-08-17T10:41:43Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Germany debates banning far-right party",
+      "summary": "German politicians and legal experts are split on whether to pursue a ban on the far-right Alternative for Germany party. The debate reflects deep divisions over the balance between democratic resilience and political freedom.",
+      "article_ids": [
+        "86fb2fbd77602aea0ae360a4"
+      ],
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-08-17/germany-divided-over-proposals-to-outlaw-the-far-right.html",
+          "headline": "Germany divided over proposals to outlaw the far right",
+          "published_at": "2026-08-17T11:47:55Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Latvia seeks billions in EU aid for war fallout",
+      "summary": "Latvia's prime minister has asked the European Union for seven billion euros to manage economic and security pressures stemming from Russia's war in Ukraine. The request underscores the conflict's widening fiscal impact on frontline EU states.",
+      "article_ids": [
+        "2623440899263bac3b57ac31"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/latvia-pm-andris-kulbergs-7b-eu-funding-over-russia-costs",
+          "headline": "Latvia wants €7B from EU to cope with fallout from Russia’s war",
+          "published_at": "2026-08-17T11:01:00Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Sicilian museum suffers massive art theft",
+      "summary": "Thieves stole artworks valued at eighty million euros from a museum in Sicily in a major cultural heist. Italian authorities have launched an investigation to recover the stolen masterpieces.",
       "article_ids": [
         "4efee262554f31dac3923b2e"
       ],
@@ -99,39 +199,6 @@
     }
   ],
   "developing": [
-    {
-      "label": "Russia · Ukraine · attacks · Drone",
-      "origin": "convergence",
-      "source_count": 4,
-      "item_count": 6,
-      "latest_at": "2026-08-17T14:34:03Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/232593/russia-used-ai-slop-to-discredit-news-of-ukraines-territorial-gains-ukraine-battlefield-update-day-1635",
-          "headline": "Russia used AI slop to discredit news of Ukraine’s territorial gains (Ukraine Battlefield update, Day 1,635)",
-          "published_at": "2026-08-17T14:34:03Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia and Ukraine trade more deadly strikes",
-          "published_at": "2026-08-17T13:16:50Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260817-ukraine-and-russia-intensify-attacks-several-killed-in-belgorod-border-region",
-          "headline": "Ukraine and Russia intensify attacks, several killed in Belgorod border region",
-          "published_at": "2026-08-17T09:49:46Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ukraine-attacks-wildberries-russia-s-biggest-online-market/a-78384605?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Ukraine attacks Wildberries, Russia's biggest online market",
-          "published_at": "2026-08-16T15:45:00Z"
-        }
-      ]
-    },
     {
       "label": "military · Trump · drills · Korea",
       "origin": "convergence",
@@ -175,28 +242,71 @@
       ]
     },
     {
-      "label": "attacks · Russia",
+      "label": "dies · Hayden · Panettiere",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-08-17T13:27:17Z",
+      "latest_at": "2026-08-17T09:34:44Z",
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russia-cancels-military-music-festival-amid-drone-attacks",
-          "headline": "Russia cancels major Red Square military jamboree amid drone attacks",
-          "published_at": "2026-08-17T13:27:17Z"
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/people/2026-08-17/hayden-panettiere-star-of-heroes-dies-at-36.html",
+          "headline": "Hayden Panettiere, star of ‘Heroes,’ dies at 36",
+          "published_at": "2026-08-17T09:34:44Z"
         },
         {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20260817-american-actress-hayden-panettiere-dies-at-36",
+          "headline": "American actress Hayden Panettiere dies at 36",
+          "published_at": "2026-08-17T06:02:03Z"
+        }
+      ]
+    },
+    {
+      "label": "break · dead · fires · Greek",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 3,
+      "latest_at": "2026-08-16T19:50:36Z",
+      "sources": [
+        {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia says at least seven killed in largest Ukrainian attack of 2026",
-          "published_at": "2026-08-16T15:14:01Z"
+          "url": "https://www.bbc.co.uk/news/articles/c87nnwlpe5no?at_medium=RSS&at_campaign=rss",
+          "headline": "Two dead and hundreds evacuated after twin fires break out on Greek island",
+          "published_at": "2026-08-16T19:50:36Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "093f3b1c2d52aa1957d01997",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "DR Congo Ebola outbreak becomes country’s deadliest",
+      "url": "https://www.france24.com/en/dr-congo-ebola-outbreak-becomes-country-s-deadliest",
+      "published_at": "2026-08-17T15:28:03Z",
+      "collected_at": "2026-08-17T15:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "ea8d58b7b1a147e200926979",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russian strike on Kyiv book market: 'An attempt to annihilate Ukrainian identity'",
+      "url": "https://www.france24.com/en/video/20260817-russian-strike-on-kyiv-book-market-an-attempt-to-annihilate-ukrainian-identity",
+      "published_at": "2026-08-17T15:06:00Z",
+      "collected_at": "2026-08-17T15:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "f7b4d0d320e3856f34bf5ed6",
       "source_id": "euobserver",
@@ -247,6 +357,20 @@
       "url": "https://www.dw.com/en/norway-world-s-top-wealth-fund-flags-stock-market-risks/a-78351371?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-08-17T14:00:00Z",
       "collected_at": "2026-08-17T15:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "9b3bd7758d166582530d2461",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Norway wealth fund warns of AI-driven stock market bubble",
+      "url": "https://www.dw.com/en/norway-wealth-fund-warns-of-ai-driven-stock-market-bubble/a-78351371?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-17T14:00:00Z",
+      "collected_at": "2026-08-17T15:30:40Z",
       "topics": [
         "politics",
         "society",
@@ -1318,6 +1442,20 @@
       ]
     },
     {
+      "id": "2f94499775bd45caf6ab8dcb",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Will North Korean forces bolster Russia's Ukraine war?",
+      "url": "https://www.dw.com/en/will-north-korean-forces-bolster-russia-s-ukraine-war/a-78385524?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-16T06:49:00Z",
+      "collected_at": "2026-08-17T15:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "f3785d3b4618ebb6a0cee948",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1626,6 +1764,20 @@
       ]
     },
     {
+      "id": "8c921eadee09d6fb6023496d",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Silence ended: Ukraine reveals its largest liberation of territory in four years (Ukraine Battlefield update, Day 1,631)",
+      "url": "https://euobserver.com/232354/silence-ended-ukraine-reveals-its-largest-liberation-of-territory-in-four-years-ukraine-battlefield-update-day-1631",
+      "published_at": "2026-08-13T14:41:43Z",
+      "collected_at": "2026-08-17T15:30:40Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "a5b1e5e5ef7bbcdd35ad1091",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -1780,6 +1932,20 @@
       ]
     },
     {
+      "id": "536875f1d83d00ec28accf9c",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Why is Russia's Yabloko party barred from upcoming election?",
+      "url": "https://www.dw.com/en/why-is-russia-s-yabloko-party-barred-from-upcoming-election/a-78341971?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-12T18:37:00Z",
+      "collected_at": "2026-08-17T15:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "94ec89f7cbff1a07e8ccdec3",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1875,6 +2041,34 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "9934ecc9789e0b60f5a65e09",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Russia using North Korean missiles to strike Ukraine, Zelensky says",
+      "url": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-11T16:19:44Z",
+      "collected_at": "2026-08-17T15:30:40Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "1ce18cb34cb7d6dd91641cca",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "France bans unsolicited telemarketing calls",
+      "url": "https://www.bbc.co.uk/news/articles/cy5d11g72ppo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-11T14:19:45Z",
+      "collected_at": "2026-08-17T15:30:40Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -2127,6 +2321,20 @@
         "analysis",
         "foreign_policy",
         "security"
+      ]
+    },
+    {
+      "id": "aa38acc14d7ece8a161cf3af",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Blade, Marvel’s cursed hero: ‘He always seems on the verge of becoming a major star, but never makes that definitive leap’",
+      "url": "https://english.elpais.com/culture/2026-08-05/blade-marvels-cursed-hero-he-always-seems-on-the-verge-of-becoming-a-major-star-but-never-makes-that-definitive-leap.html",
+      "published_at": "2026-08-05T13:18:46Z",
+      "collected_at": "2026-08-17T15:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
