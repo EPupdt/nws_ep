@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-17T10:00:49Z",
-  "last_successful_collection_at": "2026-08-17T10:00:49Z",
+  "generated_at": "2026-08-17T10:30:40Z",
+  "last_successful_collection_at": "2026-08-17T10:30:40Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-17T10:00:49Z"
+      "at": "2026-08-17T10:30:40Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "40",
-      "at": "2026-08-17T10:00:49Z"
+      "at": "2026-08-17T10:30:40Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-17T10:00:49Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-17T10:30:40Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-17T10:00:49Z"
+      "at": "2026-08-17T10:30:40Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-17T10:00:49Z"
+      "at": "2026-08-17T10:30:40Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-17T10:00:49Z"
+      "at": "2026-08-17T10:30:40Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-17T10:00:49Z"
+      "at": "2026-08-17T10:30:40Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-17T10:00:49Z"
+      "at": "2026-08-17T10:30:40Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-17T10:00:49Z"
+      "at": "2026-08-17T10:30:40Z"
     }
   ],
   "europe_now": [
@@ -160,23 +160,50 @@
   ],
   "developing": [
     {
-      "label": "Korea · military · scale · South",
+      "label": "Russia · attacks · Ukraine · Drone",
       "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-08-17T04:38:01Z",
+      "source_count": 3,
+      "item_count": 5,
+      "latest_at": "2026-08-17T09:49:46Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20260817-trump-orders-pentagon-to-scale-back-military-drills-with-south-korea-hours-before-start",
-          "headline": "Trump orders Pentagon to scale back military drills with South Korea, hours before start",
-          "published_at": "2026-08-17T04:38:01Z"
+          "url": "https://www.france24.com/en/europe/20260817-ukraine-and-russia-intensify-attacks-several-killed-in-belgorod-border-region",
+          "headline": "Ukraine and Russia intensify attacks, several killed in Belgorod border region",
+          "published_at": "2026-08-17T09:49:46Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ukraine-attacks-wildberries-russia-s-biggest-online-market/a-78384605?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Ukraine attacks Wildberries, Russia's biggest online market",
+          "published_at": "2026-08-16T15:45:00Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia says at least seven killed in largest Ukrainian attack of 2026",
+          "published_at": "2026-08-16T15:14:01Z"
+        }
+      ]
+    },
+    {
+      "label": "Trump · Korea · military · scale",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 6,
+      "latest_at": "2026-08-17T09:22:17Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/us-and-south-korea-begin-military-drills-despite-trump-call-to-scale-back",
+          "headline": "US and South Korea begin military drills despite Trump call to scale back",
+          "published_at": "2026-08-17T09:22:17Z"
         },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.com/news/2026/08/16/trump-hegseth-joint-military-drills-south-korea-01038949",
-          "headline": "Trump directs Hegseth to scale back joint military exercises with South Korea",
-          "published_at": "2026-08-16T23:42:14Z"
+          "url": "https://www.politico.com/news/2026/08/16/dave-brat-australia-ambassador-01037656",
+          "headline": "Meet Dave Brat, the US ambassador who ‘can speak Trump’ in Canberra",
+          "published_at": "2026-08-17T02:48:27Z"
         }
       ]
     },
@@ -221,30 +248,65 @@
           "published_at": "2026-08-17T06:02:03Z"
         }
       ]
-    },
-    {
-      "label": "EU · power",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-17T02:00:00Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/rosatom-hungary-nuclear-energy-egypt-russia-el-dabaa-paks-ii-russia-safety-standards-violations",
-          "headline": "‘Deliberate negligence’: Russian nuclear power company with EU operations accused of violating safety standards",
-          "published_at": "2026-08-17T02:00:00Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/232543/morocco-flaunts-power-to-stop-eu-bound-migrants",
-          "headline": "Morocco flaunts power to stop EU-bound migrants",
-          "published_at": "2026-08-16T15:23:27Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "ac08ad69ec5282d80c0faded",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French PM Lecornu booed by residents on visit to fire-ravaged southwest",
+      "url": "https://www.france24.com/en/france/20260817-french-pm-lecornu-booed-by-residents-on-visit-to-fire-ravaged-southwest",
+      "published_at": "2026-08-17T10:16:34Z",
+      "collected_at": "2026-08-17T10:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "2f567f85f403fcb1e7166db6",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Cameroon wins first Women's Africa Cup of Nations title",
+      "url": "https://www.france24.com/en/cameroon-wins-first-women-s-africa-cup-of-nations-title",
+      "published_at": "2026-08-17T09:57:26Z",
+      "collected_at": "2026-08-17T10:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "d86fc283adaa3007649a0f3a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ukraine and Russia intensify attacks, several killed in Belgorod border region",
+      "url": "https://www.france24.com/en/europe/20260817-ukraine-and-russia-intensify-attacks-several-killed-in-belgorod-border-region",
+      "published_at": "2026-08-17T09:49:46Z",
+      "collected_at": "2026-08-17T10:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "472087f77badfb0f1acf51b2",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Wildfires spread across Europe as thousands evacuated",
+      "url": "https://www.france24.com/en/video/20260817-wildfires-spread-across-europe-as-thousands-evacuated",
+      "published_at": "2026-08-17T09:38:29Z",
+      "collected_at": "2026-08-17T10:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "d0cb15989ccfcba8d355f30e",
       "source_id": "el_pais_english",
@@ -257,6 +319,34 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "4fa4315a208cb6d51d643785",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US and South Korea begin military drills despite Trump call to scale back",
+      "url": "https://www.france24.com/en/us-and-south-korea-begin-military-drills-despite-trump-call-to-scale-back",
+      "published_at": "2026-08-17T09:22:17Z",
+      "collected_at": "2026-08-17T10:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "2ea955b95692f82b40fdc4b5",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "West Bank : UN delivers aid to besieged Palestinian families in Qusra",
+      "url": "https://www.france24.com/en/west-bank-un-delivers-aid-to-besieged-palestinian-families-in-qusra",
+      "published_at": "2026-08-17T09:18:49Z",
+      "collected_at": "2026-08-17T10:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -393,6 +483,20 @@
       "url": "https://www.france24.com/en/middle-east/20260817-middle-east-live-us-envoy-kushner-to-meet-netanyahu-after-talks-with-hamas",
       "published_at": "2026-08-17T04:45:34Z",
       "collected_at": "2026-08-17T05:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "9fd4fc66955c72680b00e080",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Middle East live: PM's office in Iraqi Kurdistan targeted by drones from Iran",
+      "url": "https://www.france24.com/en/middle-east/20260817-middle-east-live-us-envoy-kushner-to-meet-netanyahu-after-talks-with-hamas",
+      "published_at": "2026-08-17T04:45:34Z",
+      "collected_at": "2026-08-17T10:30:40Z",
       "topics": [
         "politics",
         "security",
