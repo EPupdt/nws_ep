@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-18T14:00:53Z",
-  "last_successful_collection_at": "2026-08-18T14:00:53Z",
+  "generated_at": "2026-08-18T14:30:43Z",
+  "last_successful_collection_at": "2026-08-18T14:30:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-18T14:00:53Z"
+      "at": "2026-08-18T14:30:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-08-18T14:00:53Z"
+      "at": "2026-08-18T14:30:43Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-18T14:00:53Z"
+      "at": "2026-08-18T14:30:43Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-18T14:00:53Z"
+      "at": "2026-08-18T14:30:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-18T14:00:53Z"
+      "at": "2026-08-18T14:30:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-18T14:00:53Z"
+      "at": "2026-08-18T14:30:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-18T14:00:53Z"
+      "at": "2026-08-18T14:30:43Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-18T14:00:53Z"
+      "at": "2026-08-18T14:30:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-18T14:00:53Z"
+      "at": "2026-08-18T14:30:43Z"
     }
   ],
   "europe_now": [],
@@ -132,6 +132,27 @@
       ]
     },
     {
+      "label": "strikes · Syria · US · airport",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-08-18T14:26:59Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/08/18/tom-barrack-israel-syria-strike-01040051",
+          "headline": "Trump’s Syria envoy calls Israeli air strikes on base ‘unnecessary escalation’",
+          "published_at": "2026-08-18T14:26:59Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east/20260818-middle-east-live-iran-declares-60-day-negotiation-deadline-null-and-void",
+          "headline": "🔴 Middle East live: US says Israel behind strikes on military airport in Syria",
+          "published_at": "2026-08-18T11:50:32Z"
+        }
+      ]
+    },
+    {
       "label": "Gaza · Israel · disarmament · EU",
       "origin": "convergence",
       "source_count": 2,
@@ -172,30 +193,23 @@
           "published_at": "2026-08-17T18:00:55Z"
         }
       ]
-    },
-    {
-      "label": "anti · Russia · war",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-17T16:17:34Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cj4kjnle2neo?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia's prominent anti-war politician jailed for 11 years",
-          "published_at": "2026-08-17T16:17:34Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260817-russia-supreme-court-upholds-ban-anti-war-party-yabloko",
-          "headline": "Russia’s Supreme Court upholds ban on anti-war party Yabloko",
-          "published_at": "2026-08-17T15:51:35Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "e832b0619d7c64b7da8e1913",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Trump’s Syria envoy calls Israeli air strikes on base ‘unnecessary escalation’",
+      "url": "https://www.politico.com/news/2026/08/18/tom-barrack-israel-syria-strike-01040051",
+      "published_at": "2026-08-18T14:26:59Z",
+      "collected_at": "2026-08-18T14:30:43Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "af30e11ff2589a939f81e57d",
       "source_id": "euobserver",
