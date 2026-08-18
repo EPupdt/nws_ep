@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-18T10:00:48Z",
-  "last_successful_collection_at": "2026-08-18T10:00:48Z",
+  "generated_at": "2026-08-18T10:30:37Z",
+  "last_successful_collection_at": "2026-08-18T10:30:37Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-18T10:00:48Z"
+      "at": "2026-08-18T10:30:37Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-08-18T10:00:48Z"
+      "at": "2026-08-18T10:30:37Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-18T10:00:48Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-18T10:30:37Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,47 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-18T10:00:48Z"
+      "at": "2026-08-18T10:30:37Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-18T10:00:48Z"
+      "at": "2026-08-18T10:30:37Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-18T10:00:48Z"
+      "at": "2026-08-18T10:30:37Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-18T10:00:48Z"
+      "at": "2026-08-18T10:30:37Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-18T10:00:48Z"
+      "at": "2026-08-18T10:30:37Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-18T10:00:48Z"
+      "at": "2026-08-18T10:30:37Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ukraine launches over 600 drones at Moscow region",
-      "summary": "Ukraine launched more than 600 drones targeting the Moscow region, escalating the conflict. The attack increased tensions between Ukraine and Russia.",
+      "title": "Ukraine-Russia Conflict Escalation",
+      "summary": "Ukraine launched over 600 drones targeting the Moscow region. Several people were wounded during the drone attack.",
       "article_ids": [
-        "114aedb193aef10ae2a9c4aa"
+        "114aedb193aef10ae2a9c4aa",
+        "954360504756809ade5b394d",
+        "cebeed0e2011f1335bbeb17f"
       ],
       "sources": [
         {
@@ -75,28 +77,83 @@
           "url": "https://www.france24.com/en/ukraine-launches-over-600-drones-at-moscow-region",
           "headline": "Ukraine launches over 600 drones at Moscow region",
           "published_at": "2026-08-18T09:57:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260818-war-in-ukraine-several-people-wounded-in-drone-attack-on-moscow-region",
+          "headline": "War in Ukraine: several wounded in drone attack on Moscow region",
+          "published_at": "2026-08-18T06:32:32Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Wildfires continue across Europe",
-      "summary": "Wildfires have spread across multiple European countries, prompting criticism of the French government's response. The blazes have affected several regions and raised concerns about emergency preparedness.",
+      "title": "Russian Energy Shipments to Europe",
+      "summary": "Greek billionaire's ships transported €2.35bn of Russian Arctic gas to Europe this year. These shipments involve significant volumes of energy resources.",
       "article_ids": [
-        "23a9180a57e05e910a0b01e6"
+        "d39d73eecc549f8460014278"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro?at_medium=RSS&at_campaign=rss",
-          "headline": "French PM heckled over wildfire response as blazes continue across Europe",
-          "published_at": "2026-08-17T18:00:55Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/232571/greek-billionaires-ships-carried-e2-35bn-of-russian-arctic-gas-to-europe-this-year",
+          "headline": "Greek billionaire’s ships carried €2.35bn of Russian Arctic gas to Europe this year",
+          "published_at": "2026-08-18T03:00:00Z"
         }
       ],
       "source_count": 1
     }
   ],
-  "top_stories": [],
+  "top_stories": [
+    {
+      "title": "International Conflict and Security",
+      "summary": "Russia has warned the United Kingdom regarding its supply of drones to Ukraine. This tension follows increased military strikes between the two nations.",
+      "article_ids": [
+        "acf7b10316bb109511cfedcf",
+        "a16204456c8dfa13c81e3b31"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia warns UK will pay for supplying drones to Ukraine",
+          "published_at": "2026-08-18T09:11:57Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia says UK 'will pay' for supplying drones to Ukraine",
+          "published_at": "2026-08-18T06:40:00Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Sports Leadership Changes",
+      "summary": "FIFA's Chief of Operations has departed the organization. The exit follows public criticism directed at the current leadership's plans.",
+      "article_ids": [
+        "46d6e1c00217f790617c70a9",
+        "fb05fa4f1092742286a67257",
+        "3c7613883e01c94d3bf0bfc4",
+        "ef07279ebe32afb1a4d2f374"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/kevin-lamour-sacked-from-fifa-after-publicly-criticising-infantino-s-plan",
+          "headline": "Kevin Lamour sacked by FIFA after publicly criticising Infantino's plan",
+          "published_at": "2026-08-18T09:06:21Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/sports/20260818-fifa-chief-of-operations-kevin-lamour-leaves-after-criticizing-gianni-infatino",
+          "headline": "FIFA Chief of Operations Kevin Lamour leaves after criticizing Gianni Infatino",
+          "published_at": "2026-08-18T05:29:05Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
   "developing": [
     {
       "label": "Russia · Ukraine · strikes · trade",
@@ -196,6 +253,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "9175e3e5b692794e6317d3ba",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "FedEx-led €7.8bn takeover of Polish delivery giant InPost wins EU approval",
+      "url": "https://notesfrompoland.com/2026/08/18/fedex-led-e7-8bn-takeover-of-polish-delivery-giant-inpost-wins-eu-approval",
+      "published_at": "2026-08-18T10:23:53Z",
+      "collected_at": "2026-08-18T10:30:37Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "eb28bbe2237fff154a5c2425",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Cold comfort: What China can teach Europe about adaptation",
+      "url": "https://ecfr.eu/article/cold-comfort-what-china-can-teach-europe-about-adaptation",
+      "published_at": "2026-08-18T10:03:45Z",
+      "collected_at": "2026-08-18T10:30:37Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
     {
       "id": "6534f0b3cdd6894bf466f754",
       "source_id": "france24",
@@ -1107,6 +1192,20 @@
       ]
     },
     {
+      "id": "22a245ad8fa69a8eccf86e59",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Norway wealth fund sounds alarm on AI stock market bubble",
+      "url": "https://www.dw.com/en/norway-wealth-fund-sounds-alarm-on-ai-stock-market-bubble/a-78351371?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-17T14:00:00Z",
+      "collected_at": "2026-08-18T10:30:37Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "509201adb5e17663f3aebc9c",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1496,20 +1595,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "d0cb15989ccfcba8d355f30e",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Hayden Panettiere, star of ‘Heroes,’ dies at 36",
-      "url": "https://english.elpais.com/people/2026-08-17/hayden-panettiere-star-of-heroes-dies-at-36.html",
-      "published_at": "2026-08-17T09:34:44Z",
-      "collected_at": "2026-08-17T10:00:49Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
