@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-19T20:00:48Z",
-  "last_successful_collection_at": "2026-08-19T20:00:48Z",
+  "generated_at": "2026-08-19T21:02:06Z",
+  "last_successful_collection_at": "2026-08-19T21:02:06Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-19T20:00:48Z"
+      "at": "2026-08-19T21:02:06Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-08-19T20:00:48Z"
+      "at": "2026-08-19T21:02:06Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "23",
-      "at": "2026-08-19T20:00:48Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-19T21:02:06Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-19T20:00:48Z"
+      "at": "2026-08-19T21:02:06Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-19T20:00:48Z"
+      "at": "2026-08-19T21:02:06Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-19T20:00:48Z"
+      "at": "2026-08-19T21:02:06Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-19T20:00:48Z"
+      "at": "2026-08-19T21:02:06Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-19T20:00:48Z"
+      "at": "2026-08-19T21:02:06Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-19T20:00:48Z"
+      "at": "2026-08-19T21:02:06Z"
     }
   ],
   "europe_now": [
@@ -155,33 +155,6 @@
   ],
   "developing": [
     {
-      "label": "ICC · US · law · sanctions",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-08-19T14:18:56Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-08-19/the-icc-stands-firm-against-us-pressure-we-are-taking-blows-aimed-at-international-law.html",
-          "headline": "The ICC stands firm against US pressure: ‘We are taking blows aimed at international law’",
-          "published_at": "2026-08-19T14:18:56Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/netherlands-tom-berendsen-slams-trump-sanctions-icc-president-gaza-investigator",
-          "headline": "Netherlands slams US sanctions on top ICC officials",
-          "published_at": "2026-08-18T22:48:40Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20260818-icc-says-us-sanctions-on-top-court-members-undermine-rule-of-law",
-          "headline": "ICC says US sanctions on top court members 'undermine rule of law'",
-          "published_at": "2026-08-18T20:31:24Z"
-        }
-      ]
-    },
-    {
       "label": "Korea · Trump · drills · South",
       "origin": "convergence",
       "source_count": 2,
@@ -220,6 +193,27 @@
           "url": "https://www.politico.eu/article/uk-open-to-discussing-digital-services-tax-with-trump-administration",
           "headline": "UK ‘open to discussing’ digital services tax with Trump administration",
           "published_at": "2026-08-19T10:15:05Z"
+        }
+      ]
+    },
+    {
+      "label": "ICC · US",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-19T14:18:56Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-08-19/the-icc-stands-firm-against-us-pressure-we-are-taking-blows-aimed-at-international-law.html",
+          "headline": "The ICC stands firm against US pressure: ‘We are taking blows aimed at international law’",
+          "published_at": "2026-08-19T14:18:56Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/netherlands-tom-berendsen-slams-trump-sanctions-icc-president-gaza-investigator",
+          "headline": "Netherlands slams US sanctions on top ICC officials",
+          "published_at": "2026-08-18T22:48:40Z"
         }
       ]
     },
@@ -1731,48 +1725,6 @@
       ]
     },
     {
-      "id": "a5b01b486a692bed40277228",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "ICC says US sanctions on top court members 'undermine rule of law'",
-      "url": "https://www.france24.com/en/americas/20260818-icc-says-us-sanctions-on-top-court-members-undermine-rule-of-law",
-      "published_at": "2026-08-18T20:31:24Z",
-      "collected_at": "2026-08-18T21:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4af0ac276dd0a4f1a62b2afe",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "‘There is no breaking point’: The problem with Trump’s plan to economically strangle Iran",
-      "url": "https://www.politico.com/news/2026/08/18/there-no-breaking-point-problem-with-trumps-plan-teconomically-strangle-iran-01040781",
-      "published_at": "2026-08-18T20:28:04Z",
-      "collected_at": "2026-08-18T21:00:51Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "ecf1cbddbcd3ece02c8a0f1b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Jailed businessman appears accused of bribes and cartel links",
-      "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260818-jailed-businessman-appears-accused-of-bribes-and-cartel-links",
-      "published_at": "2026-08-18T20:28:00Z",
-      "collected_at": "2026-08-18T21:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "69bde4b00beb961109e46999",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1787,20 +1739,6 @@
       ]
     },
     {
-      "id": "74387a7bac8794df29c79900",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "US oil producers set to ink production deals with Venezuela",
-      "url": "https://www.politico.com/news/2026/08/18/us-oil-producers-production-deals-venezuela-01040437",
-      "published_at": "2026-08-18T20:05:41Z",
-      "collected_at": "2026-08-18T21:00:51Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "196b3030ac728ef942c5daa5",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1811,20 +1749,6 @@
       "topics": [
         "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "92864b94fea93b63b19ee5a5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Tons' of nuclear material found at undisclosed Syrian site, IAEA chief says",
-      "url": "https://www.france24.com/en/middle-east/20260818-tons-of-nuclear-materials-found-at-undisclosed-syrian-site-iaea-chief-says",
-      "published_at": "2026-08-18T15:50:02Z",
-      "collected_at": "2026-08-18T20:00:50Z",
-      "topics": [
-        "politics",
-        "security",
         "society"
       ]
     },
