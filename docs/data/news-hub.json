@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-19T17:01:41Z",
-  "last_successful_collection_at": "2026-08-19T17:01:41Z",
+  "generated_at": "2026-08-19T18:00:50Z",
+  "last_successful_collection_at": "2026-08-19T18:00:50Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-19T17:01:41Z"
+      "at": "2026-08-19T18:00:50Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-08-19T17:01:41Z"
+      "at": "2026-08-19T18:00:50Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-19T17:01:41Z"
+      "at": "2026-08-19T18:00:50Z"
     },
     {
       "id": "euractiv",
@@ -29,77 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-19T17:01:41Z"
+      "at": "2026-08-19T18:00:50Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-19T17:01:41Z"
+      "at": "2026-08-19T18:00:50Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-19T17:01:41Z"
+      "at": "2026-08-19T18:00:50Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-19T17:01:41Z"
+      "at": "2026-08-19T18:00:50Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-19T17:01:41Z"
+      "at": "2026-08-19T18:00:50Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-19T17:01:41Z"
+      "at": "2026-08-19T18:00:50Z"
     }
   ],
   "europe_now": [
     {
-      "title": "France investigates massive cyberattack on tax database",
-      "summary": "French authorities are probing a large-scale cyberattack targeting the national tax database, raising concerns about data security and state infrastructure resilience. The attack's scope and origin remain under investigation.",
-      "article_ids": [
-        "1729db8b3df21b7518b50783"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260819-france-probes-tax-database-massive-cyberattack",
-          "headline": "France probes tax database massive cyberattack",
-          "published_at": "2026-08-19T15:51:00Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Severe drought hits Europe with record-low harvests",
-      "summary": "A historic drought is devastating central and southern Europe, causing record-low harvests and prompting unprecedented water restrictions. The economic impact is stalling growth across the affected regions.",
-      "article_ids": [
-        "9424791b22855683af7a4fff"
-      ],
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/climate/2026-08-19/the-great-drought-devours-the-heart-of-europe-record-low-harvests-historic-restrictions-and-a-stalled-economy.html",
-          "headline": "The great drought devours the heart of Europe: Record-low harvests, historic restrictions and a stalled economy",
-          "published_at": "2026-08-19T11:47:15Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
       "title": "Humanitarian crisis deepens in Ceuta as health system collapses",
-      "summary": "Thousands of young Moroccan migrants in Ceuta are refusing to leave despite dire conditions, while the enclave's health system faces a surge in gastroenteritis, tuberculosis, and scabies. Nurses report the system is at breaking point amid the ongoing migrant influx.",
+      "summary": "The health system in Ceuta is experiencing a severe breakdown, with reports of gastroenteritis, tuberculosis, and scabies outbreaks among minors. Nurses have raised alarms about the deteriorating conditions and lack of resources to manage the crisis.",
       "article_ids": [
         "1dc626ec6d427c26497d9f3f",
         "41f57f8d156fe98a48b70110"
@@ -121,8 +87,73 @@
       "source_count": 2
     },
     {
+      "title": "France probes massive cyberattack on tax database",
+      "summary": "French authorities are investigating a significant cyberattack targeting the national tax database. The incident has raised concerns about the security of sensitive financial data and potential breaches affecting millions of citizens.",
+      "article_ids": [
+        "1729db8b3df21b7518b50783",
+        "c428dd0f9d3727fd80bbf058"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260819-france-probes-tax-database-massive-cyberattack",
+          "headline": "France probes tax database massive cyberattack",
+          "published_at": "2026-08-19T15:51:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260819-france-probes-tax-database-massive-cyberattack",
+          "headline": "France probes massive cyberattack on tax database",
+          "published_at": "2026-08-19T15:51:00Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Severe drought hits Europe with record-low harvests",
+      "summary": "A severe drought has devastated agricultural output across southern Europe, leading to record-low harvests and stringent water restrictions. The crisis is exacerbating economic challenges and prompting emergency government interventions.",
+      "article_ids": [
+        "9424791b22855683af7a4fff",
+        "130053z"
+      ],
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/climate/2026-08-19/the-great-drought-devours-the-heart-of-europe-record-low-harvests-historic-restrictions-and-a-stalled-economy.html",
+          "headline": "The great drought devours the heart of Europe: Record-low harvests, historic restrictions and a stalled economy",
+          "published_at": "2026-08-19T11:47:15Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ukraine's defense reshuffle and military actions",
+      "summary": "Ukraine has undergone a significant defense ministry reshuffle, with new appointments following the dismissal of the previous minister. Concurrently, Ukrainian forces have utilized Slovak MiG-29 fighter jets to target Russian infrastructure, marking a notable escalation in military operations.",
+      "article_ids": [
+        "27f6862f82a3423ec297c25a",
+        "4ac855a96e23fa855768d9c0"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260819-ukraine-mps-approve-new-defence-minister-after-divisive-reshuffle",
+          "headline": "Ukraine MPs approve new defence minister after divisive reshuffle",
+          "published_at": "2026-08-19T14:34:28Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/232841/ukraine-using-slovak-mig-29s-to-destroy-russian-bridges-ukraine-battlefield-update-day-1637",
+          "headline": "Ukraine using Slovak MiG-29s to destroy Russian bridges (Ukraine Battlefield update, Day 1,637)",
+          "published_at": "2026-08-19T13:51:18Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
       "title": "EU defends International Criminal Court against US sanctions",
-      "summary": "European leaders have rallied behind the International Criminal Court after the United States imposed sanctions on its officials. The ICC president stated the court is absorbing blows aimed at international law itself.",
+      "summary": "The European Union has reaffirmed its support for the International Criminal Court in the face of U.S.-imposed sanctions. This stance highlights Europe's commitment to upholding international legal frameworks and accountability mechanisms.",
       "article_ids": [
         "7f5ac8dc686c829756324bee",
         "3cbe955957e4aab070a48ea9"
@@ -144,17 +175,18 @@
       "source_count": 2
     },
     {
-      "title": "Ukraine deploys Slovak MiG-29s to strike Russian bridges",
-      "summary": "Ukrainian forces have used Slovak-supplied MiG-29 fighter jets to destroy Russian bridges in a significant escalation of air operations. The deployment marks the first confirmed use of these aircraft for offensive strikes inside Russian-held territory.",
+      "title": "BRICS nations criticize EU carbon tax as unfair and protectionist",
+      "summary": "BRICS countries have condemned the European Union's carbon tax, labeling it as punitive and protectionist. This criticism reflects broader tensions in global trade dynamics and environmental policy disagreements.",
       "article_ids": [
-        "4ac855a96e23fa855768d9c0"
+        "b688dc8425b991c352fc08aa",
+        "f520f4fd7ecb8272e0304122"
       ],
       "sources": [
         {
           "publisher": "EUobserver",
-          "url": "https://euobserver.com/232841/ukraine-using-slovak-mig-29s-to-destroy-russian-bridges-ukraine-battlefield-update-day-1637",
-          "headline": "Ukraine using Slovak MiG-29s to destroy Russian bridges (Ukraine Battlefield update, Day 1,637)",
-          "published_at": "2026-08-19T13:51:18Z"
+          "url": "https://euobserver.com/232793/brics-countries-condemn-eu-carbon-tax-as-punitive-and-protectionist",
+          "headline": "BRICS countries condemn EU carbon tax as ‘punitive and protectionist’",
+          "published_at": "2026-08-19T11:26:50Z"
         }
       ],
       "source_count": 1
@@ -183,27 +215,6 @@
       ]
     },
     {
-      "label": "election · Fedorov · call · wartime",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-08-19T15:33:28Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/ukraine-wartime-elections-mykhailo-fedorov-volodymyr-zelenskyy-political-crisis",
-          "headline": "‘No and no’: Fedorov’s wartime election call unsettles Kyiv",
-          "published_at": "2026-08-19T15:33:28Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260819-ukraine-s-ousted-minister-mykhailo-fedorov-calls-for-wartime-elections",
-          "headline": "Ukraine’s ousted minister Mykhailo Fedorov calls for wartime elections",
-          "published_at": "2026-08-19T12:23:43Z"
-        }
-      ]
-    },
-    {
       "label": "trade · Trump",
       "origin": "convergence",
       "source_count": 2,
@@ -225,23 +236,38 @@
       ]
     },
     {
-      "label": "administration · Trump",
+      "label": "diplomats · expels · France · Iranian",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-08-19T10:15:05Z",
+      "latest_at": "2026-08-19T08:12:20Z",
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/uk-open-to-discussing-digital-services-tax-with-trump-administration",
-          "headline": "UK ‘open to discussing’ digital services tax with Trump administration",
-          "published_at": "2026-08-19T10:15:05Z"
+          "url": "https://www.politico.eu/article/france-expels-2-iranian-diplomats-in-escalating-row-with-tehran",
+          "headline": "France expels 2 Iranian diplomats in escalating row with Tehran",
+          "published_at": "2026-08-19T08:12:20Z"
         },
         {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-08-18/trump-administration-pauses-border-wall-construction-in-big-bend-national-park-amid-criticism.html",
-          "headline": "Trump administration pauses border wall construction in Big Bend National Park amid criticism",
-          "published_at": "2026-08-18T17:25:47Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20260818-france-expel-two-iranian-diplomats-row-over-interference-arrests-heightens",
+          "headline": "France to expel two Iranian diplomats as arrests row heightens",
+          "published_at": "2026-08-18T19:22:11Z"
+        }
+      ]
+    },
+    {
+      "label": "base · strikes · Turkey · claims",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 3,
+      "latest_at": "2026-08-19T14:35:12Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260819-turkey-slams-israel-s-untenable-claims-after-strikes-on-syrian-base",
+          "headline": "Turkey slams Israel's 'untenable' claims after strikes on Syrian base",
+          "published_at": "2026-08-19T14:35:12Z"
         }
       ]
     }
@@ -332,6 +358,20 @@
       ]
     },
     {
+      "id": "51949377f5cdd016ec536867",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "How satellite technology can help Europe battle wildfires",
+      "url": "https://www.politico.eu/article/europe-turns-satellites-technology-battle-wildfires",
+      "published_at": "2026-08-19T15:47:43Z",
+      "collected_at": "2026-08-19T18:00:50Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
       "id": "d270cdb5f32143174cce301e",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -342,6 +382,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "521ec3a6fe454cc568a85443",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Why is Ukraine's ex-defence minister calling for wartime elections?",
+      "url": "https://www.bbc.co.uk/news/videos/c62eyn5ggnzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-19T15:38:38Z",
+      "collected_at": "2026-08-19T18:00:50Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -1704,34 +1758,6 @@
       ]
     },
     {
-      "id": "52f301836fec93853bffa7f6",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Spanish deputy PM’s rival at the ILO seeks US support in battle for leadership",
-      "url": "https://english.elpais.com/economy-and-business/2026-08-18/spanish-deputy-pms-rival-at-the-ilo-seeks-us-support-in-battle-for-leadership.html",
-      "published_at": "2026-08-18T17:27:07Z",
-      "collected_at": "2026-08-18T18:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "27fce992a92f8d8f250c49da",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump administration pauses border wall construction in Big Bend National Park amid criticism",
-      "url": "https://english.elpais.com/usa/2026-08-18/trump-administration-pauses-border-wall-construction-in-big-bend-national-park-amid-criticism.html",
-      "published_at": "2026-08-18T17:25:47Z",
-      "collected_at": "2026-08-18T17:30:40Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "20dcf0b6a6ea44166cbb3384",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1743,48 +1769,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "9faf4288b44f83fdc69f2ccc",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "No toilets, no shelter, little protection. In Ceuta, DW finds thousands of minors living alone on the streets.",
-      "url": "https://www.dw.com/en/no-toilets-no-shelter-little-protection-in-ceuta-dw-finds-thousands-of-minors-living-alone-on-the-streets/a-78416604?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-18T17:07:00Z",
-      "collected_at": "2026-08-18T17:30:40Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "b1e8c8b6bf5b2bab919aa8fd",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Denmark’s ‘socialist’ leader is a race-baiting fake, not an EU model",
-      "url": "https://euobserver.com/232666/denmarks-socialist-leader-is-a-race-baiting-fake-not-an-eu-model",
-      "published_at": "2026-08-18T17:03:09Z",
-      "collected_at": "2026-08-18T17:30:40Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "62f5c61b264452194604d5d1",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Russia is adapting its drone-warfare strategy, with faster and deadlier ‘Shaheds’ (Ukraine Battlefield update, Day 1,636)",
-      "url": "https://euobserver.com/232726/russia-is-adapting-its-drone-warfare-strategy-with-faster-and-deadlier-shaheds-ukraine-battlefield-update-day-1636",
-      "published_at": "2026-08-18T16:56:49Z",
-      "collected_at": "2026-08-18T17:30:40Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
       ]
     },
     {
@@ -2201,20 +2185,6 @@
       "url": "https://www.dw.com/en/25-years-ohrid-agreement-is-n-macedonia-s-peace-holding/a-78340239?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-08-12T17:56:00Z",
       "collected_at": "2026-08-19T04:00:49Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "b1aface4aa8db0cbe42dce41",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Mozart tribute ends on sour note after mass figurine theft",
-      "url": "https://www.dw.com/en/mozart-tribute-ends-on-sour-note-after-mass-figurine-theft/a-78341647?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-12T16:11:00Z",
-      "collected_at": "2026-08-18T17:30:40Z",
       "topics": [
         "politics",
         "society",
