@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-20T16:30:42Z",
-  "last_successful_collection_at": "2026-08-20T16:30:42Z",
+  "generated_at": "2026-08-20T17:00:48Z",
+  "last_successful_collection_at": "2026-08-20T17:00:48Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-20T16:30:42Z"
+      "at": "2026-08-20T17:00:48Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-08-20T16:30:42Z"
+      "at": "2026-08-20T17:00:48Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-20T16:30:42Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-20T17:00:48Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-20T16:30:42Z"
+      "at": "2026-08-20T17:00:48Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-20T16:30:42Z"
+      "at": "2026-08-20T17:00:48Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-20T16:30:42Z"
+      "at": "2026-08-20T17:00:48Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-20T16:30:42Z"
+      "at": "2026-08-20T17:00:48Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-20T16:30:42Z"
+      "at": "2026-08-20T17:00:48Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-20T16:30:42Z"
+      "at": "2026-08-20T17:00:48Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian strikes kill at least 16 in Kyiv as Ukraine grapples with air defense shortages",
-      "summary": "Russian strikes killed at least 16 people in Kyiv as Ukraine faces shortages in air defense capabilities. Ukraine has announced a military reshuffle to address these challenges.",
+      "title": "Russian strikes kill at least 16 in Kyiv as Ukraine grapples with air defence shortages",
+      "summary": "Russian strikes killed at least 16 people in Kyiv and surrounding areas, with Ukraine's air defenses struggling to intercept the attacks. The escalation comes amid ongoing battlefield developments and military reshuffling in Ukraine.",
       "article_ids": [
-        "d60ebbd7bde48454bf929085"
+        "d60ebbd7bde48454bf929085",
+        "fbeed65addbd0d0c29684e17"
       ],
       "sources": [
         {
@@ -75,33 +76,22 @@
           "url": "https://www.france24.com/en/video/20260820-kyiv-under-fire-russian-strikes-kill-at-least-16",
           "headline": "Kyiv under fire: Russian strikes kill at least 16",
           "published_at": "2026-08-20T14:04:35Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
+          "headline": "At least 15 killed in Kyiv as Ukraine grapples with air defence shortages",
+          "published_at": "2026-08-20T11:06:54Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Severe drought hits Europe with record-low harvests",
-      "summary": "Germany reported 14,000 heat-related deaths during this summer's heatwaves. Severe drought conditions across Europe have led to record-low agricultural harvests.",
+      "title": "ICC condemns US sanctions as 'flagrant attack' on court independence",
+      "summary": "The International Criminal Court condemned new US sanctions targeting its president and a senior prosecutor as a flagrant attack on judicial independence. The move has drawn sharp criticism from European institutions and human rights groups.",
       "article_ids": [
-        "1ad27dac8df8cab682243a1d"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260820-germany-records-14-000-heat-related-deaths-this-summer-as-heatwaves-scorch-europe",
-          "headline": "Germany records 14,000 heat-related deaths this summer as heatwaves scorch Europe",
-          "published_at": "2026-08-20T13:02:29Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "EU defends International Criminal Court against US sanctions",
-      "summary": "The International Criminal Court condemned US sanctions as a flagrant attack on judicial independence. The EU has defended the ICC in response to these sanctions.",
-      "article_ids": [
-        "7fac6992bb135cef59ccca1c"
+        "7fac6992bb135cef59ccca1c",
+        "116d68e03c9c705014eb9b03"
       ],
       "sources": [
         {
@@ -112,13 +102,82 @@
         }
       ],
       "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Russian strikes intensify across Ukrainian cities amid air defense shortages",
+      "summary": "Russian forces launched a wave of strikes on Kyiv and other Ukrainian cities, killing at least 16 people and overwhelming air defense systems. The attacks coincide with Ukraine's ongoing military reshuffling and battlefield adjustments.",
+      "article_ids": [
+        "d60ebbd7bde48454bf929085",
+        "fbeed65addbd0d0c29684e17",
+        "32c87e6f1015ce3fbe45601a"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260820-kyiv-under-fire-russian-strikes-kill-at-least-16",
+          "headline": "Kyiv under fire: Russian strikes kill at least 16",
+          "published_at": "2026-08-20T14:04:35Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
+          "headline": "At least 15 killed in Kyiv as Ukraine grapples with air defence shortages",
+          "published_at": "2026-08-20T11:06:54Z"
+        }
+      ],
+      "source_count": 2
     },
     {
-      "title": "Spain expands Ceuta migrant shelters to ease crisis",
-      "summary": "Spain has expanded migrant shelters in Ceuta to address the ongoing crisis. Hundreds of migrants have been relocated to temporary accommodations.",
+      "title": "EU institutions clash with US over ICC sanctions and asylum outsourcing",
+      "summary": "European institutions criticized US sanctions on the International Criminal Court, calling them an attack on judicial independence. The dispute overlaps with ongoing tensions over EU asylum policies, including Italy's migrant deal with Albania.",
+      "article_ids": [
+        "7fac6992bb135cef59ccca1c",
+        "8653e712a0ec13028483873f",
+        "116d68e03c9c705014eb9b03"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260820-icc-slams-us-decision-to-sanction-the-court-s-president-and-a-senior-prosecution-lawyer",
+          "headline": "ICC slams US decision to sanction the court's president and a senior prosecution lawyer",
+          "published_at": "2026-08-20T13:30:15Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/italy-albania-migrant-detention-hubs-undermine-human-rights-amnesty",
+          "headline": "Italy’s migrant detention hubs in Albania undermine human rights, says Amnesty",
+          "published_at": "2026-08-20T13:26:51Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Extreme summer weather devastates European agriculture and public health",
+      "summary": "Record-breaking heatwaves and droughts have killed at least 14,000 people in Germany alone and caused severe crop failures across Europe. Wildfire risks are also rising, with new research warning of near-tripled devastation potential.",
+      "article_ids": [
+        "1ad27dac8df8cab682243a1d",
+        "71101bf936ce9fd29a864fdb",
+        "feb0db90725fbaf459fcdf4c"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260820-germany-records-14-000-heat-related-deaths-this-summer-as-heatwaves-scorch-europe",
+          "headline": "Germany records 14,000 heat-related deaths this summer as heatwaves scorch Europe",
+          "published_at": "2026-08-20T13:02:29Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ceuta migrant crisis deepens as Spain expands temporary shelters",
+      "summary": "Hundreds of migrants were relocated to temporary shelters in Ceuta following a major border crisis that strained local resources. Spain has expanded shelter capacity as the humanitarian situation continues to deteriorate.",
       "article_ids": [
         "cb623366826c2b8e4433436c",
-        "52cf1175b4e790c8ef8b813d"
+        "52cf1175b4e790c8ef8b813d",
+        "d3dfec4684cb03e0761bc12d"
       ],
       "sources": [
         {
@@ -132,38 +191,6 @@
           "url": "https://www.france24.com/en/video/20260820-hundreds-of-migrants-relocated-to-temporary-shelters-following-ceuta-border-crisis",
           "headline": "Hundreds of migrants relocated to temporary shelters following Ceuta border crisis",
           "published_at": "2026-08-20T15:17:22Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "French PM announces creation of unit to combat cyberattacks",
-      "summary": "The French Prime Minister announced the creation of a new unit to combat cyberattacks. This comes after a massive cyberattack on France's tax database.",
-      "article_ids": [
-        "01cc13e94d65aa1a2673aa22"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260820-french-pm-announces-creation-of-unit-to-combat-cyberattacks",
-          "headline": "French PM announces creation of unit to combat cyberattacks",
-          "published_at": "2026-08-20T15:19:31Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Irish alumina refinery is Russian Trojan Horse in EU sanctions",
-      "summary": "An Irish alumina refinery has been identified as a potential Russian Trojan Horse within EU sanctions. This raises concerns about the effectiveness of current sanctions policies.",
-      "article_ids": [
-        "15f0f9c9c98441489463e1cf"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/232888/irish-alumina-refinery-is-russian-trojan-horse-in-eu-sanctions",
-          "headline": "Irish alumina refinery is Russian Trojan Horse in EU sanctions",
-          "published_at": "2026-08-20T14:17:05Z"
         }
       ],
       "source_count": 1
@@ -219,6 +246,27 @@
       ]
     },
     {
+      "label": "French · cyberattacks · PM",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-08-20T15:19:31Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260820-french-pm-announces-creation-of-unit-to-combat-cyberattacks",
+          "headline": "French PM announces creation of unit to combat cyberattacks",
+          "published_at": "2026-08-20T15:19:31Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/francois-fillon-suspended-highest-french-honor-fake-jobs-scandal",
+          "headline": "Former PM Fillon suspended from top French honor over fake jobs conviction",
+          "published_at": "2026-08-20T08:05:53Z"
+        }
+      ]
+    },
+    {
       "label": "plans · Putin · Kanye · Kremlin",
       "origin": "convergence",
       "source_count": 2,
@@ -238,30 +286,23 @@
           "published_at": "2026-08-20T12:13:01Z"
         }
       ]
-    },
-    {
-      "label": "debt · trillion · US · amid",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-08-20T13:28:47Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260820-us-national-debt-tops-40-trillion-for-first-time-dealing-blow-to-trump",
-          "headline": "US national debt tops $40 trillion for first time, dealing blow to Trump",
-          "published_at": "2026-08-20T13:28:47Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/economy-and-business/2026-08-20/us-debt-tops-40-trillion-amid-concern-over-borrowing-costs.html",
-          "headline": "US debt tops $40 trillion amid concern over borrowing costs",
-          "published_at": "2026-08-20T07:18:20Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "73aac9d65cd49d0c68d5f103",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Spain to care for migrant children, as EU Commission joins far-right calls to send them back",
+      "url": "https://euobserver.com/233047/spain-to-care-for-migrant-children-as-eu-commission-joins-far-right-calls-to-send-them-back",
+      "published_at": "2026-08-20T16:56:57Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "e3ae8477ed22c57ca67675c1",
       "source_id": "france24",
@@ -1761,6 +1802,20 @@
       ]
     },
     {
+      "id": "d2de8c759c0ffc1f202a94b5",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Mallorca 1820: X‑raying Europe’s last major plague epidemic",
+      "url": "https://english.elpais.com/science-tech/2026-08-18/mallorca-1820-xraying-europes-last-major-plague-epidemic.html",
+      "published_at": "2026-08-18T16:19:39Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "2bc3b0e4a02749bfdbbda430",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2223,6 +2278,20 @@
       ]
     },
     {
+      "id": "f95bab60c6ae69e92f76998f",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Moment €9m worth of art stolen from Italy museum",
+      "url": "https://www.bbc.co.uk/news/videos/cddjlrzd26eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-14T14:56:04Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "1998f4f263abf25523686763",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -2335,6 +2404,20 @@
       ]
     },
     {
+      "id": "ebcfdd81228e802c8cc6286c",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Italy: Etna eruption in Sicily halts Catania flights",
+      "url": "https://www.dw.com/en/italy-etna-eruption-in-sicily-halts-catania-flights/a-78338205?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-12T15:01:00Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "60fb8a1f4ebb3a2baac77f2a",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2405,6 +2488,34 @@
       ]
     },
     {
+      "id": "98c49705f572575a64acab75",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Watch: What we know about suspected crime boss Daniel Kinahan",
+      "url": "https://www.bbc.co.uk/news/videos/cm2g97nnr5go?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-10T18:24:45Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "14900f55016be4fce7a2bf83",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Tourism with an ex‑drug trafficker: Laureano Oubiña offers ‘narcotour’ to the spots where he once smuggled tobacco and hashish",
+      "url": "https://english.elpais.com/spain/2026-08-10/tourism-with-an-exdrug-trafficker-laureano-oubina-offers-narcotour-to-the-spots-where-he-once-smuggled-tobacco-and-hashish.html",
+      "published_at": "2026-08-10T14:26:50Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "3b3e0a88fe9a5630eaf6674a",
       "source_id": "ecfr",
       "source_name": "European Council on Foreign Relations",
@@ -2447,6 +2558,34 @@
       ]
     },
     {
+      "id": "d642e3fc09ad6703e1d24562",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Trust the numbers: Germans are open to a more hawkish China policy",
+      "url": "https://ecfr.eu/article/trust-the-numbers-germans-are-open-to-a-more-hawkish-china-policy",
+      "published_at": "2026-08-06T14:41:31Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "368ab3507cba8bd36bd7fc99",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Hamas has agreed to disarm. Israel should now agree to peace",
+      "url": "https://ecfr.eu/article/hamas-has-agreed-to-disarm-israel-should-now-agree-to-peace",
+      "published_at": "2026-08-06T14:34:55Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
       "id": "c5d75a793461299b0cc1f908",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2458,6 +2597,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "5dd21111c41c565d0feb7647",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Venus of Alicante: The 2,000-year-old Roman head inside a supermarket bag",
+      "url": "https://english.elpais.com/spain/2026-08-04/venus-of-alicante-the-2000-year-old-roman-head-inside-a-supermarket-bag.html",
+      "published_at": "2026-08-04T14:32:43Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2500,6 +2653,132 @@
         "analysis",
         "foreign_policy",
         "security"
+      ]
+    },
+    {
+      "id": "5388290709ee3b28a871f2c9",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Neither blonde nor dumb: Marilyn Monroe against Hollywood’s wolves",
+      "url": "https://english.elpais.com/culture/2026-07-27/neither-blonde-nor-dumb-marilyn-monroe-against-hollywoods-wolves.html",
+      "published_at": "2026-07-27T09:23:18Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "665639dcf21d292f09251566",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Fire Island, the ‘hottest’ beach in the world: 100 years of art, parties and wild sex",
+      "url": "https://english.elpais.com/culture/2026-07-26/fire-island-the-hottest-beach-in-the-world-100-years-of-art-parties-and-wild-sex.html",
+      "published_at": "2026-07-26T04:00:00Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "aebc60adf22f5c1afa548bd6",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Makhtar Diop, head of the IFC, the World Bank’s financial arm: ‘We want to use Madrid to channel more private investment to emerging markets’",
+      "url": "https://english.elpais.com/economy-and-business/2026-06-29/makhtar-diop-head-of-the-ifc-the-world-banks-financial-arm-we-want-to-use-madrid-to-channel-more-private-investment-to-emerging-markets.html",
+      "published_at": "2026-06-29T02:03:13Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "91dff0ac2a3ad98f1db7a550",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The Dodgers give $1.1 million to support families affected by immigration raids in Los Angeles",
+      "url": "https://english.elpais.com/usa/2026-06-25/the-dodgers-give-11-million-to-support-families-affected-by-immigration-raids-in-los-angeles.html",
+      "published_at": "2026-06-25T18:01:48Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "d97511856707168edfc61c22",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Gold falls below $4,000 an ounce for the first time since November",
+      "url": "https://english.elpais.com/economy-and-business/2026-06-25/gold-falls-below-4000-an-ounce-for-the-first-time-since-november.html",
+      "published_at": "2026-06-25T16:35:14Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "cc04ea9bb06a0b471ab64f04",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Folarin Balogun, the US striker who wouldn’t be American if it were up to Trump",
+      "url": "https://english.elpais.com/usa/2026-06-24/folarin-balogun-the-us-striker-who-wouldnt-be-american-if-it-were-up-to-trump.html",
+      "published_at": "2026-06-24T10:30:36Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "e7c7dd9712b5b4fb2513d270",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "What’s the best way to talk about health with chatbots?",
+      "url": "https://english.elpais.com/technology/2026-04-25/whats-the-best-way-to-talk-about-health-with-chatbots.html",
+      "published_at": "2026-04-25T04:00:00Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "b005ec47de91c73d880fc34d",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "From January euphoria to February despair: Why most of our New Year’s resolutions fail",
+      "url": "https://english.elpais.com/lifestyle/2026-02-21/from-january-euphoria-to-february-despair-why-most-of-our-new-years-resolutions-fail.html",
+      "published_at": "2026-02-21T04:30:00Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "9e0a227b9159734c55b28e7c",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "EL PAÍS offers free Spanish lessons with Gymglish",
+      "url": "https://english.elpais.com/economy-and-business/2021-11-15/el-pais-offers-free-spanish-lessons-with-gymglish.html",
+      "published_at": "2021-11-15T14:10:11Z",
+      "collected_at": "2026-08-20T17:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     }
   ]
