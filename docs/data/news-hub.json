@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-21T20:00:46Z",
-  "last_successful_collection_at": "2026-08-21T20:00:46Z",
+  "generated_at": "2026-08-21T20:30:40Z",
+  "last_successful_collection_at": "2026-08-21T20:30:40Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-21T20:00:46Z"
+      "at": "2026-08-21T20:30:40Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-21T20:00:46Z"
+      "at": "2026-08-21T20:30:40Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:11:92: not well-formed (invalid token)",
-      "at": "2026-08-21T20:00:46Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-21T20:30:40Z"
     },
     {
       "id": "euractiv",
@@ -29,89 +29,53 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-21T20:00:46Z"
+      "at": "2026-08-21T20:30:40Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-21T20:00:46Z"
+      "at": "2026-08-21T20:30:40Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-21T20:00:46Z"
+      "at": "2026-08-21T20:30:40Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-21T20:00:46Z"
+      "at": "2026-08-21T20:30:40Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-21T20:00:46Z"
+      "at": "2026-08-21T20:30:40Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-21T20:00:46Z"
+      "at": "2026-08-21T20:30:40Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian double-tap drone strike kills 15 in Ukrainian mall",
-      "summary": "A Russian double-tap drone strike killed 15 people at a shopping mall in Ukraine, according to officials. The attack represents a significant escalation in targeting civilian infrastructure.",
+      "title": "Russian drone strikes kill 14 people in Ukraine shopping centre",
+      "summary": "A back-to-back Russian drone attack killed fourteen people at a shopping centre in Ukraine. The strikes highlighted severe security risks in the area.",
       "article_ids": [
-        "667d22e2f36971230fc625ee"
+        "bc2add2eada7a9f6c4a6a7a3",
+        "429039f5471cda3171d709e6"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
-          "published_at": "2026-08-21T18:51:43Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Germany investigates Russia links to weapons cache discovered in woods",
-      "summary": "German authorities are investigating potential connections between Russia and a weapons cache discovered in a forest. The investigation highlights ongoing security concerns related to foreign interference.",
-      "article_ids": [
-        "def408713774e1d49bd350f4"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cp9edjpvplpo?at_medium=RSS&at_campaign=rss",
-          "headline": "Germany investigates Russia links to weapons cache discovered in woods, reports say",
-          "published_at": "2026-08-21T16:26:53Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Ukraine conflict intensifies with Russian strikes and defence reshuffling",
-      "summary": "Russian forces have intensified attacks across Ukraine, including drone strikes that killed at least 14 people in a shopping center. The escalation coincides with North Korean missile supplies and Ukrainian defence leadership changes.",
-      "article_ids": [
-        "667d22e2f36971230fc625ee",
-        "d447baa5f313e0f8e909c5b2",
-        "429039f5471cda3171d709e6",
-        "1a3c300033bd75ec375621ee"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
-          "published_at": "2026-08-21T18:51:43Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260821-back-to-back-russian-drone-strikes-kill-14-people-in-ukraine-shopping-centre",
+          "headline": "Back-to-back Russian drone strikes kill more than a dozen at Ukraine shopping centre",
+          "published_at": "2026-08-21T18:07:50Z"
         },
         {
           "publisher": "France 24 English",
@@ -120,55 +84,61 @@
           "published_at": "2026-08-21T18:07:50Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "European leaders condemn Israeli West Bank settlement expansion",
-      "summary": "Key European leaders have demanded Israel halt its West Bank settlement project, citing threats to the two-state solution. The coordinated stance reflects growing international pressure over the E1 settlement plan.",
+      "title": "German army helps Poland construct a defensive barrier against Russia",
+      "summary": "The German military assisted Poland in constructing a defensive barrier intended to counter Russian aggression. This collaboration strengthens collective security measures in Eastern Europe.",
       "article_ids": [
-        "b0dc558647f1c595e4a150c6",
-        "961d34554675fa2244dbf059",
-        "7b05f681937d8f6c7d4d3997"
+        "6950a00415a4d240c0648c24",
+        "cbd6a8ff84ea6a4132a5d80b"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/german-army-helps-poland-construct-a-defensive-barrier-against-russia/a-78464726?maca=en-rss-en-eu-2092-rdf",
+          "headline": "German army helps Poland construct a defensive barrier against Russia",
+          "published_at": "2026-08-21T18:44:00Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/masha-and-the-bear-ukraine-sanctions-russian-cartoon/a-78464406?maca=en-rss-en-eu-2092-rdf",
+          "headline": "'Masha and the Bear': Ukraine sanctions Russian cartoon",
+          "published_at": "2026-08-21T18:59:00Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Russian drone strikes kill 14 people in Ukraine shopping centre",
+      "summary": "Back-to-back Russian drone strikes caused fourteen deaths at a shopping centre in Ukraine. These attacks illustrate the ongoing instability in the region.",
+      "article_ids": [
+        "bc2add2eada7a9f6c4a6a7a3",
+        "429039f5471cda3171d709e6"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260821-key-european-leaders-demand-israel-halt-west-bank-settlement-project",
-          "headline": "Key European leaders demand Israel halt West Bank settlement project",
-          "published_at": "2026-08-21T11:32:35Z"
+          "url": "https://www.france24.com/en/europe/20260821-back-to-back-russian-drone-strikes-kill-14-people-in-ukraine-shopping-centre",
+          "headline": "Back-to-back Russian drone strikes kill more than a dozen at Ukraine shopping centre",
+          "published_at": "2026-08-21T18:07:50Z"
         },
         {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/08/21/poland-summons-israeli-ambassador-over-discontinued-investigation-into-killing-of-gaza-aid-workers",
-          "headline": "Poland summons Israeli ambassador over discontinued investigation into killing of Gaza aid workers",
-          "published_at": "2026-08-21T12:43:04Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Ireland's EU presidency faces criticism over policy contradictions",
-      "summary": "Ireland's EU presidency has drawn scrutiny for perceived contradictions between its Atlantic tax haven status and its role as a digital gatekeeper. Critics argue the presidency highlights broader tensions within EU policy frameworks.",
-      "article_ids": [
-        "5e274fb9be03cdc7c4246b38",
-        "e8c4f5afa19d49185d5edfe6"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/232890/irelands-eu-presidency-puts-its-contradictions-on-display-atlantic-tax-haven-digital-gatekeeper-defence-freerider",
-          "headline": "Ireland’s EU presidency puts its contradictions on display: Atlantic tax haven, digital gatekeeper, defence free‑rider",
-          "published_at": "2026-08-21T11:59:27Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260821-back-to-back-russian-drone-strikes-kill-14-people-in-ukraine-shopping-centre",
+          "headline": "Back-to-back Russian drone strikes kill 14 people in Ukraine shopping centre",
+          "published_at": "2026-08-21T18:07:50Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "EU urged to invoke blocking statute against Trump-era ICC sanctions",
-      "summary": "European policymakers are being urged to use an obscure EU blocking statute to shield the International Criminal Court from U.S. sanctions. The move underscores transatlantic tensions over international legal accountability.",
+      "title": "EU urged to use obscure blocking statute to protect International Criminal Court from Trump sanctions",
+      "summary": "European leaders requested the application of an obscure blocking statute to defend the International Criminal Court from U.S. sanctions. This action aims to prevent legal interference in judicial proceedings.",
       "article_ids": [
-        "8e5bd324254d829026758cbb",
-        "a538756438d6065d9dbff558"
+        "8e5bd324254d829026758cbb"
       ],
       "sources": [
         {
@@ -183,10 +153,10 @@
   ],
   "developing": [
     {
-      "label": "Gaza · international · Israel · Netanyahu",
+      "label": "Gaza · Netanyahu · arrest · detention",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
+      "item_count": 5,
       "latest_at": "2026-08-21T18:04:40Z",
       "sources": [
         {
@@ -200,6 +170,27 @@
           "url": "https://www.politico.eu/article/israel-faces-backlash-over-gaza-aid-strike-probe",
           "headline": "‘Shameful’: Israel faces international backlash after closing probe into Gaza aid strike",
           "published_at": "2026-08-21T15:06:11Z"
+        }
+      ]
+    },
+    {
+      "label": "Harry · Meghan · UK",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-21T18:03:28Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-08-21/harry-and-meghans-return-to-the-uk-brings-fresh-tensions-to-the-royal-family.html",
+          "headline": "Harry and Meghan’s return to the UK brings fresh tensions to the royal family",
+          "published_at": "2026-08-21T18:03:28Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260821-prince-harry-and-meghan-are-returning-to-the-uk-with-their-children",
+          "headline": "Prince Harry and Meghan are returning to the UK with their children",
+          "published_at": "2026-08-21T11:29:55Z"
         }
       ]
     },
@@ -244,24 +235,51 @@
           "published_at": "2026-08-21T09:42:04Z"
         }
       ]
-    },
-    {
-      "label": "attack · school · Swedish · sword",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 3,
-      "latest_at": "2026-08-21T19:22:05Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss",
-          "headline": "One killed in sword attack at Swedish school",
-          "published_at": "2026-08-21T19:22:05Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "e0810ffb99a0e1d95c66d28b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Israeli settlers and military kill 2 Palestinians – one a teenager – in separate West Bank shootings",
+      "url": "https://www.france24.com/en/middle-east/20260821-israeli-settlers-and-military-kill-2-palestinians-teenager-separate-west-bank-shootings",
+      "published_at": "2026-08-21T19:53:39Z",
+      "collected_at": "2026-08-21T20:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "d238b49240674cb3113ad5bc",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Why is a man being tried for the murder of rapper Tupac Shakur 30 years after his death?",
+      "url": "https://english.elpais.com/usa/2026-08-21/why-is-a-man-being-tried-for-the-murder-of-rapper-tupac-shakur-30-years-after-his-death.html",
+      "published_at": "2026-08-21T19:41:34Z",
+      "collected_at": "2026-08-21T20:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "ec1bac5cc9353ff6e93ede6f",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "San Antonio, the city of musicians losing its mariachis to Trump’s immigration policies",
+      "url": "https://english.elpais.com/usa/2026-08-21/san-antonio-the-city-of-musicians-losing-its-mariachis-to-trumps-immigration-policies.html",
+      "published_at": "2026-08-21T19:33:33Z",
+      "collected_at": "2026-08-21T20:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "42c2273a2d6ae3ceabc97e5c",
       "source_id": "bbc_europe",
@@ -274,6 +292,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "10af6124b1c64b4e36298e02",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Mexico falls behind in the new global oil map",
+      "url": "https://english.elpais.com/economy-and-business/2026-08-21/mexico-falls-behind-in-the-new-global-oil-map.html",
+      "published_at": "2026-08-21T19:01:07Z",
+      "collected_at": "2026-08-21T20:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -361,6 +393,20 @@
       ]
     },
     {
+      "id": "bc2add2eada7a9f6c4a6a7a3",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Back-to-back Russian drone strikes kill more than a dozen at Ukraine shopping centre",
+      "url": "https://www.france24.com/en/europe/20260821-back-to-back-russian-drone-strikes-kill-14-people-in-ukraine-shopping-centre",
+      "published_at": "2026-08-21T18:07:50Z",
+      "collected_at": "2026-08-21T20:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "de168776b0b2a759cc7589f6",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -372,6 +418,48 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "60b9e343ff98af9780f8cc01",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Turkey seeks Interpol arrest warrant for Netanyahu over Gaza flotilla detention",
+      "url": "https://www.france24.com/en/middle-east/20260821-turkey-seeks-international-arrest-warrant-against-israel-s-netanyahu-over-gaza-flotilla-detention",
+      "published_at": "2026-08-21T18:04:40Z",
+      "collected_at": "2026-08-21T20:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "db78f0ba6837191ab7b8b9be",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The new frontier of Japan’s rearmament is cyberspace",
+      "url": "https://english.elpais.com/international/2026-08-21/the-new-frontier-of-japans-rearmament-is-cyberspace.html",
+      "published_at": "2026-08-21T18:04:06Z",
+      "collected_at": "2026-08-21T20:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "1b7b6db02d19cec5558aa75b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Harry and Meghan’s return to the UK brings fresh tensions to the royal family",
+      "url": "https://english.elpais.com/international/2026-08-21/harry-and-meghans-return-to-the-uk-brings-fresh-tensions-to-the-royal-family.html",
+      "published_at": "2026-08-21T18:03:28Z",
+      "collected_at": "2026-08-21T20:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -1856,6 +1944,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "5f1d6ba443cd9a8e2eef4319",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Rocky Balboa’s lesson: How to combine cardio and weights to live longer and healthier",
+      "url": "https://english.elpais.com/health/2026-08-17/rocky-balboas-lesson-how-to-combine-cardio-and-weights-to-live-longer-and-healthier.html",
+      "published_at": "2026-08-17T19:06:41Z",
+      "collected_at": "2026-08-21T20:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
