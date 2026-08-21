@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-21T14:00:49Z",
-  "last_successful_collection_at": "2026-08-21T14:00:49Z",
+  "generated_at": "2026-08-21T14:30:39Z",
+  "last_successful_collection_at": "2026-08-21T14:30:39Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-21T14:00:49Z"
+      "at": "2026-08-21T14:30:39Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-08-21T14:00:49Z"
+      "at": "2026-08-21T14:30:39Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-21T14:00:49Z"
+      "at": "2026-08-21T14:30:39Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-21T14:00:49Z"
+      "at": "2026-08-21T14:30:39Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-21T14:00:49Z"
+      "at": "2026-08-21T14:30:39Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-21T14:00:49Z"
+      "at": "2026-08-21T14:30:39Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-21T14:00:49Z"
+      "at": "2026-08-21T14:30:39Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-21T14:00:49Z"
+      "at": "2026-08-21T14:30:39Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-21T14:00:49Z"
+      "at": "2026-08-21T14:30:39Z"
     }
   ],
   "europe_now": [
@@ -195,28 +195,64 @@
       ]
     },
     {
-      "label": "Kyiv · strikes",
-      "origin": "convergence",
-      "source_count": 2,
+      "label": "bike · city · Como · mayor",
+      "origin": "radar",
+      "source_count": 1,
       "item_count": 2,
-      "latest_at": "2026-08-20T17:14:55Z",
+      "latest_at": "2026-08-20T20:08:29Z",
       "sources": [
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia 'purposefully' hit critical infrastructure in latest strikes, Kyiv mayor says",
-          "published_at": "2026-08-20T17:14:55Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260820-kyiv-under-fire-russian-strikes-kill-at-least-16",
-          "headline": "Kyiv under fire: Russian strikes kill at least 16",
-          "published_at": "2026-08-20T14:04:35Z"
+          "url": "https://www.bbc.co.uk/news/articles/cn8n077vxd7o?at_medium=RSS&at_campaign=rss",
+          "headline": "Como mayor hit by electric bike and issues blanket ban in Italian city",
+          "published_at": "2026-08-20T20:08:29Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "eb821ab21b19224ec27c11eb",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "PSG heavily favoured to win sixth successive Ligue 1 title",
+      "url": "https://www.france24.com/en/sport/20260821-psg-heavily-favoured-win-sixth-successive-ligue-1-title",
+      "published_at": "2026-08-21T14:14:44Z",
+      "collected_at": "2026-08-21T14:30:39Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a97448cac17c41381a38714b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The Ecuadorian fishermen who disappeared during the US war on drugs: ‘I still hope they’ll return’",
+      "url": "https://english.elpais.com/international/2026-08-21/the-ecuadorian-fishermen-who-disappeared-during-the-us-war-on-drugs-i-still-hope-theyll-return.html",
+      "published_at": "2026-08-21T14:05:56Z",
+      "collected_at": "2026-08-21T14:30:39Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "ac29a239f1cf283ef2695530",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Ukraine's farmers struggle to sell harvest amid war, drought",
+      "url": "https://www.dw.com/en/ukraine-s-farmers-struggle-to-sell-harvest-amid-war-drought/a-78435344?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-21T13:51:00Z",
+      "collected_at": "2026-08-21T14:30:39Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
     {
       "id": "0d60e6460c4b1e828122b542",
       "source_id": "politico_europe",
@@ -229,6 +265,34 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "e8c4f5afa19d49185d5edfe6",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘A True Account of the Conquest of New Spain’: Chicanery, adventures and plunder recounted by a soldier-writer",
+      "url": "https://english.elpais.com/culture/2026-08-21/a-true-account-of-the-conquest-of-new-spain-chicanery-adventures-and-plunder-recounted-by-a-soldier-writer.html",
+      "published_at": "2026-08-21T13:14:46Z",
+      "collected_at": "2026-08-21T14:30:39Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "1ec02c6e673ff3b5c9cf518a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Fishermen floating in cooler rescued after five days at sea off Mexican coast",
+      "url": "https://www.france24.com/en/video/20260821-fishermen-floating-in-cooler-rescued-after-five-days-at-sea-off-mexican-coast",
+      "published_at": "2026-08-21T13:08:30Z",
+      "collected_at": "2026-08-21T14:30:39Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -1573,6 +1637,34 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "4ac855a96e23fa855768d9c0",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Ukraine using Slovak MiG-29s to destroy Russian bridges (Ukraine Battlefield update, Day 1,637)",
+      "url": "https://euobserver.com/232841/ukraine-using-slovak-mig-29s-to-destroy-russian-bridges-ukraine-battlefield-update-day-1637",
+      "published_at": "2026-08-19T13:51:18Z",
+      "collected_at": "2026-08-21T14:30:39Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "01d00e57cdc145c1d0e3f54b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Paying for a concert with no view: Bruno Mars opens the debate on ‘audio-only’ tickets",
+      "url": "https://english.elpais.com/culture/2026-08-19/paying-for-a-concert-with-no-view-bruno-mars-opens-the-debate-on-audio-only-tickets.html",
+      "published_at": "2026-08-19T13:35:50Z",
+      "collected_at": "2026-08-21T14:30:39Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
