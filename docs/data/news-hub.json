@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-21T06:00:48Z",
-  "last_successful_collection_at": "2026-08-21T06:00:48Z",
+  "generated_at": "2026-08-21T06:30:42Z",
+  "last_successful_collection_at": "2026-08-21T06:30:42Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-21T06:00:48Z"
+      "at": "2026-08-21T06:30:42Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-08-21T06:00:48Z"
+      "at": "2026-08-21T06:30:42Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-21T06:00:48Z"
+      "at": "2026-08-21T06:30:42Z"
     },
     {
       "id": "euractiv",
@@ -29,69 +29,45 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-21T06:00:48Z"
+      "at": "2026-08-21T06:30:42Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-21T06:00:48Z"
+      "at": "2026-08-21T06:30:42Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-21T06:00:48Z"
+      "at": "2026-08-21T06:30:42Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-21T06:00:48Z"
+      "at": "2026-08-21T06:30:42Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-21T06:00:48Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-21T06:30:42Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-21T06:00:48Z"
+      "at": "2026-08-21T06:30:42Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ceuta migrant crisis deepens as Spain expands shelters",
-      "summary": "Spain has expanded temporary shelters in Ceuta to address the worsening humanitarian situation, with hundreds of migrants relocated. The crisis is marked by collapsing health systems and increased scrutiny over border management.",
+      "title": "Russian strikes on Ukrainian cities intensify amid air defense shortages",
+      "summary": "Russian forces maintain pressure on Ukrainian cities due to limited air defense capabilities. The conflict continues with significant civilian casualties reported in Kyiv.",
       "article_ids": [
-        "cb623366826c2b8e4433436c",
-        "52cf1175b4e790c8ef8b813d"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260820-spain-expands-ceuta-migrant-shelters-to-ease-crisis",
-          "headline": "Spain expands Ceuta migrant shelters to ease crisis",
-          "published_at": "2026-08-20T15:18:09Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260820-hundreds-of-migrants-relocated-to-temporary-shelters-following-ceuta-border-crisis",
-          "headline": "Hundreds of migrants relocated to temporary shelters following Ceuta border crisis",
-          "published_at": "2026-08-20T15:17:22Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Russian strikes cause casualties in Kyiv amid air defense shortages",
-      "summary": "Russian attacks on Ukrainian cities have resulted in at least 16 deaths, exacerbating the humanitarian impact. Kyiv's mayor attributes the strikes to Russia's deliberate targeting of critical infrastructure.",
-      "article_ids": [
-        "d60ebbd7bde48454bf929085",
-        "84e93f77be73e494b3fac3bb"
+        "d60ebbd7bde48454bf929085"
       ],
       "sources": [
         {
@@ -102,15 +78,12 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "Extreme summer weather devastates European health and agriculture",
-      "summary": "Unprecedented heatwaves have caused significant public health challenges and agricultural losses across Europe. Experts highlight the growing impact of climate change on regional stability and food security.",
+      "title": "Extreme summer weather devastates European agriculture and public health",
+      "summary": "Droughts across Germany and Europe are increasing production costs for farmers. Heat waves are causing significant health challenges within the continent.",
       "article_ids": [
-        "13fbe54cabb32160b7c570c9",
-        "e4fec99dd997bdb4dfd360e8"
+        "13fbe54cabb32160b7c570c9"
       ],
       "sources": [
         {
@@ -121,13 +94,14 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Ceuta migrant crisis escalates with humanitarian collapse",
-      "summary": "Ceuta faces a deepening crisis as health systems fail and Spain expands shelters to accommodate displaced migrants. The situation has drawn international attention for its systemic implications.",
+      "title": "Ceuta faces deepening humanitarian crisis",
+      "summary": "Spain is expanding temporary shelters to ease the growing migrant population. Health systems in the region are experiencing severe collapse due to the crisis.",
       "article_ids": [
-        "cb623366826c2b8e4433436c",
-        "52cf1175b4e790c8ef8b813d"
+        "cb623366826c2b8e4433436c"
       ],
       "sources": [
         {
@@ -135,12 +109,22 @@
           "url": "https://www.france24.com/en/video/20260820-spain-expands-ceuta-migrant-shelters-to-ease-crisis",
           "headline": "Spain expands Ceuta migrant shelters to ease crisis",
           "published_at": "2026-08-20T15:18:09Z"
-        },
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ukraine a 'genuine', 'fragile' democracy: 'Internal political turmoil will weaken political system'",
+      "summary": "Internal political instability is identified as a risk to the Ukrainian government's stability. External pressures include accusations of interference from the United States regarding judicial independence.",
+      "article_ids": [
+        "93432057721fe11938ad3ece"
+      ],
+      "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260820-hundreds-of-migrants-relocated-to-temporary-shelters-following-ceuta-border-crisis",
-          "headline": "Hundreds of migrants relocated to temporary shelters following Ceuta border crisis",
-          "published_at": "2026-08-20T15:17:22Z"
+          "url": "https://www.france24.com/en/ukraine-a-genuine-fragile-democracy-internal-political-turmoil-will-weaken-political-system",
+          "headline": "Ukraine a 'genuine', 'fragile' democracy: 'Internal political turmoil will weaken political system'",
+          "published_at": "2026-08-20T20:32:28Z"
         }
       ],
       "source_count": 1
@@ -1606,20 +1590,6 @@
       ]
     },
     {
-      "id": "9a8f9e582f3922f23d165932",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Israeli army admits firing on car in death of 5-year-old Hind Rajab",
-      "url": "https://www.france24.com/en/israeli-army-admits-firing-on-car-in-death-of-5-year-old-hind-rajab",
-      "published_at": "2026-08-20T05:56:47Z",
-      "collected_at": "2026-08-20T06:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "3e625bff7228f0fedc9d61bb",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1718,6 +1688,20 @@
       ]
     },
     {
+      "id": "7075b3ae71a402ee648eca15",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Sacked Ukrainian defence minister calls for presidential election",
+      "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-19T20:34:39Z",
+      "collected_at": "2026-08-21T06:30:42Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "72f86aab3833c3314e5205d5",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1739,6 +1723,20 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/crmry3r1ew7o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-19T15:34:38Z",
       "collected_at": "2026-08-20T07:00:48Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "80fb0cd93eb0df3a16b4279e",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "French civil servant drugged us to make us urinate on ourselves, say accusers",
+      "url": "https://www.bbc.co.uk/news/articles/crrv48lenwgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-19T05:00:39Z",
+      "collected_at": "2026-08-21T06:30:42Z",
       "topics": [
         "breaking",
         "politics",
@@ -2446,6 +2444,20 @@
       ]
     },
     {
+      "id": "aa665391f20b4f41c4110e2b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Christiane Martel, the first French Miss Universe, tells her Mexican story",
+      "url": "https://english.elpais.com/culture/2026-08-09/christiane-martel-the-first-french-miss-universe-tells-her-mexican-story.html",
+      "published_at": "2026-08-09T04:00:00Z",
+      "collected_at": "2026-08-21T06:30:42Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "3163f92562568c9fe559129e",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2530,6 +2542,20 @@
       ]
     },
     {
+      "id": "67f7163a68f81fecb6d8b784",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Alone at the border: Ceuta and Europe’s solidarity failure",
+      "url": "https://ecfr.eu/article/alone-at-the-border-ceuta-and-europes-solidarity-failure",
+      "published_at": "2026-07-31T17:07:34Z",
+      "collected_at": "2026-08-21T06:30:42Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
       "id": "05b2292db4b8b3d567697f1b",
       "source_id": "ecfr",
       "source_name": "European Council on Foreign Relations",
@@ -2558,6 +2584,48 @@
       ]
     },
     {
+      "id": "2267e129132ca81bc03a60d5",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Two of a kind: How France and Italy can show the way for Europe’s Africa policy",
+      "url": "https://ecfr.eu/article/two-of-a-kind-how-france-and-italy-can-show-the-way-for-europes-africa-policy",
+      "published_at": "2026-07-29T10:42:02Z",
+      "collected_at": "2026-08-21T06:30:42Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "0b4019a93f8bac7aaa5598e6",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The Saudi dilemma: How Yemen could shape the next phase of the Iran war",
+      "url": "https://ecfr.eu/article/the-saudi-dilemma-how-yemen-could-shape-the-next-phase-of-the-iran-war",
+      "published_at": "2026-07-28T14:57:48Z",
+      "collected_at": "2026-08-21T06:30:42Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "89646e0119c5675c5cde9a39",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Shoring up the Red Sea: Why the next crisis may begin in the Horn of Africa",
+      "url": "https://ecfr.eu/article/shoring-up-the-red-sea-why-the-next-crisis-may-begin-in-the-horn-of-africa",
+      "published_at": "2026-07-28T07:00:23Z",
+      "collected_at": "2026-08-21T06:30:42Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
       "id": "5388290709ee3b28a871f2c9",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2569,6 +2637,90 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "0b0c74453e3a0d720f0d5a40",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Serbia: Inside the leaderless movement",
+      "url": "https://ecfr.eu/podcasts/episode/inside-the-leaderless-movement",
+      "published_at": "2026-07-24T12:35:30Z",
+      "collected_at": "2026-08-21T06:30:42Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "66029b24ac577f1e07324141",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The China-native generation",
+      "url": "https://ecfr.eu/podcasts/episode/the-china-native-generation",
+      "published_at": "2026-07-24T05:00:00Z",
+      "collected_at": "2026-08-21T06:30:42Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "8966f5926726e7b6481172c9",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The magnificent ten: A coalition of the willing to drive the EU’s next enlargement",
+      "url": "https://ecfr.eu/publication/the-magnificent-ten-a-coalition-of-the-willing-to-drive-the-eus-next-enlargement",
+      "published_at": "2026-07-23T14:16:18Z",
+      "collected_at": "2026-08-21T06:30:42Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "2c956b13fa6c84b7b8d93f9a",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "One foot out: Understanding Bulgaria’s geopolitical shift under Radev",
+      "url": "https://ecfr.eu/article/one-foot-out-understanding-bulgarias-geopolitical-shift-under-radev",
+      "published_at": "2026-07-23T13:51:12Z",
+      "collected_at": "2026-08-21T06:30:42Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "60cac99c9e46dc0a881e8d1e",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "How better climate diplomacy can save Europe’s green ambitions",
+      "url": "https://ecfr.eu/article/how-better-climate-diplomacy-can-save-europes-green-ambitions",
+      "published_at": "2026-07-22T16:02:40Z",
+      "collected_at": "2026-08-21T06:30:42Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "73800233224c41d78576b7b1",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "ECFR’s summer entertainment list 2026",
+      "url": "https://ecfr.eu/article/ecfrs-summer-entertainment-list-2026",
+      "published_at": "2026-07-21T15:05:36Z",
+      "collected_at": "2026-08-21T06:30:42Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     }
   ]
