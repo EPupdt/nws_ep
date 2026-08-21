@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-21T08:30:46Z",
-  "last_successful_collection_at": "2026-08-21T08:30:46Z",
+  "generated_at": "2026-08-21T09:30:42Z",
+  "last_successful_collection_at": "2026-08-21T09:30:42Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-21T08:30:46Z"
+      "at": "2026-08-21T09:30:42Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "23",
-      "at": "2026-08-21T08:30:46Z"
+      "count": "24",
+      "at": "2026-08-21T09:30:42Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-21T08:30:46Z"
+      "at": "2026-08-21T09:30:42Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-21T08:30:46Z"
+      "at": "2026-08-21T09:30:42Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-21T08:30:46Z"
+      "at": "2026-08-21T09:30:42Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-21T08:30:46Z"
+      "at": "2026-08-21T09:30:42Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-21T08:30:46Z"
+      "at": "2026-08-21T09:30:42Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-21T08:30:46Z"
+      "at": "2026-08-21T09:30:42Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-21T08:30:46Z"
+      "at": "2026-08-21T09:30:42Z"
     }
   ],
   "europe_now": [
@@ -228,6 +228,21 @@
       ]
     },
     {
+      "label": "China · EU",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 2,
+      "latest_at": "2026-08-21T08:40:00Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/china-eu-foreign-subsidies-regulation-link-trade-talks",
+          "headline": "China slams EU foreign subsidies rules, links them to trade talks",
+          "published_at": "2026-08-21T08:40:00Z"
+        }
+      ]
+    },
+    {
       "label": "bike · city · Como · mayor",
       "origin": "radar",
       "source_count": 1,
@@ -241,24 +256,51 @@
           "published_at": "2026-08-20T20:08:29Z"
         }
       ]
-    },
-    {
-      "label": "fire · kill · Kyiv · Russian",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-08-20T14:04:35Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260820-kyiv-under-fire-russian-strikes-kill-at-least-16",
-          "headline": "Kyiv under fire: Russian strikes kill at least 16",
-          "published_at": "2026-08-20T14:04:35Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "26565d0cc5f311c06cd0efe6",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "China slams EU foreign subsidies rules, links them to trade talks",
+      "url": "https://www.politico.eu/article/china-eu-foreign-subsidies-regulation-link-trade-talks",
+      "published_at": "2026-08-21T08:40:00Z",
+      "collected_at": "2026-08-21T09:30:42Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "8bbed3366ca99fe36bedcd5a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Conference League: Monaco take first-leg lead in Poland",
+      "url": "https://www.france24.com/en/tv-shows/sports/20260821-conference-league-monaco-take-first-leg-lead-in-poland",
+      "published_at": "2026-08-21T08:20:28Z",
+      "collected_at": "2026-08-21T09:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "62db5c992153050c9481cb4a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "2026-08-21 06:49 SPORTS",
+      "url": "https://www.france24.com/en/tv-shows/sports/20260821-2026-08-21-06-49-sports",
+      "published_at": "2026-08-21T08:20:01Z",
+      "collected_at": "2026-08-21T09:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "44711fe92ccb8b5447644887",
       "source_id": "france24",
@@ -284,6 +326,20 @@
       "topics": [
         "breaking",
         "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "b3496fe5e37a3e6cfcd94ff8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ex-Pakistan PM Imran Khan returned to jail after hospital checks",
+      "url": "https://www.france24.com/en/asia-pacific/20260821-ex-pakistan-pm-imran-khan-returned-to-jail-after-hospital-transfer",
+      "published_at": "2026-08-21T06:17:10Z",
+      "collected_at": "2026-08-21T09:30:42Z",
+      "topics": [
+        "politics",
+        "security",
         "society"
       ]
     },
@@ -400,6 +456,20 @@
       ]
     },
     {
+      "id": "0873622004725ebac6d2a84b",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Bali jails Swiss tourist for insulting sacred Day of Silence",
+      "url": "https://www.bbc.co.uk/news/articles/cj4kr59r28ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-21T02:33:27Z",
+      "collected_at": "2026-08-21T09:30:42Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "e4fec99dd997bdb4dfd360e8",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -505,6 +575,20 @@
       "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260820-major-nigerian-coke-bust-leads-to-arrest",
       "published_at": "2026-08-20T21:17:10Z",
       "collected_at": "2026-08-21T03:30:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c31732491d733ae387aac2b7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Major Nigerian coke bust leads to arrests",
+      "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260820-major-nigerian-coke-bust-leads-to-arrest",
+      "published_at": "2026-08-20T21:17:10Z",
+      "collected_at": "2026-08-21T09:30:42Z",
       "topics": [
         "politics",
         "security",
@@ -1282,132 +1366,6 @@
       ]
     },
     {
-      "id": "e51a059f373306b0d74fbf81",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Australia 'outraged' over Israel decision to close probe into aid worker killings",
-      "url": "https://www.france24.com/en/video/20260820-australia-outraged-over-israel-decision-to-close-probe-into-aid-worker-killings",
-      "published_at": "2026-08-20T09:19:30Z",
-      "collected_at": "2026-08-20T09:30:39Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "de4ac44745800abc228959e3",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Angelique Kidjo becomes first African musician to get Hollywood star",
-      "url": "https://www.france24.com/en/video/20260820-angelique-kidjo-becomes-first-african-musician-to-get-hollywood-star",
-      "published_at": "2026-08-20T09:16:29Z",
-      "collected_at": "2026-08-20T09:30:39Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4fd0bc79ff0ef28fc844725c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Zimbabwe ferry disaster under scrutiny as death toll rises to 94",
-      "url": "https://www.france24.com/en/video/20260820-zimbabwe-ferry-disaster-under-scrutiny-as-death-toll-rises-to-94",
-      "published_at": "2026-08-20T09:14:14Z",
-      "collected_at": "2026-08-20T09:30:39Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "79245df84817dba1c390b991",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Earthquake in Colombia endangers evidence linked to the armed conflict",
-      "url": "https://english.elpais.com/international/2026-08-20/earthquake-in-colombia-endangers-evidence-linked-to-the-armed-conflict.html",
-      "published_at": "2026-08-20T09:01:17Z",
-      "collected_at": "2026-08-20T09:30:39Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "f752d7b8f74df1c91e9611fa",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Whales spark joy in New York but face threats from boat traffic",
-      "url": "https://www.france24.com/en/video/20260820-whales-spark-joy-in-new-york-but-face-threats-from-boat-traffic",
-      "published_at": "2026-08-20T08:58:19Z",
-      "collected_at": "2026-08-20T09:30:39Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "32c87e6f1015ce3fbe45601a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Russian strikes kill at least 12 in Kyiv, surrounding region",
-      "url": "https://www.france24.com/en/video/20260820-russian-strikes-kill-at-least-12-in-kyiv-surrounding-region",
-      "published_at": "2026-08-20T08:56:22Z",
-      "collected_at": "2026-08-20T09:30:39Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "254d0ade3d0f2641e54464cb",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Life in the dark: The daily agony of Venezuela’s power crisis",
-      "url": "https://english.elpais.com/international/2026-08-20/life-in-the-dark-the-daily-agony-of-venezuelas-power-crisis.html",
-      "published_at": "2026-08-20T08:56:08Z",
-      "collected_at": "2026-08-20T09:30:39Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "cdd752b9f8fb3c2491ac7c9c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "ICC says US sanctions 'flagrant attack' on court independence",
-      "url": "https://www.france24.com/en/video/20260820-icc-says-us-sanctions-flagrant-attack-on-court-independence",
-      "published_at": "2026-08-20T08:55:15Z",
-      "collected_at": "2026-08-20T09:30:39Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "fccf024d7e8e5118af652e5d",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Migrant women tell of sexual harassment in Spain's crisis-hit Ceuta",
-      "url": "https://www.france24.com/en/video/20260820-migrant-women-tell-of-sexual-harassment-in-spain-s-crisis-hit-ceuta",
-      "published_at": "2026-08-20T08:54:23Z",
-      "collected_at": "2026-08-20T09:30:39Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "c29413fb1330765c8cde6ffa",
       "source_id": "ecfr",
       "source_name": "European Council on Foreign Relations",
@@ -1422,76 +1380,6 @@
       ]
     },
     {
-      "id": "2ad6ad149454548ea7bc4808",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "At least 13 killed in Kyiv as Ukraine grapples with air defence shortages",
-      "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-20T08:39:26Z",
-      "collected_at": "2026-08-20T09:00:47Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "3858d83b90a407026348d4fa",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Angie Nixon’s victory puts the Democrats’ progressive wave to the test in Florida",
-      "url": "https://english.elpais.com/usa/2026-08-20/angie-nixons-victory-puts-the-democrats-progressive-wave-to-the-test-in-florida.html",
-      "published_at": "2026-08-20T08:27:42Z",
-      "collected_at": "2026-08-20T09:30:39Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "1a3e1093390b82549a2bf95b",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "LAYING THE GROUNDWORK FOR AI-POWERED CYBERSECURITY",
-      "url": "https://www.politico.eu/sponsored-content/laying-the-groundwork-for-ai-powered-cybersecurity",
-      "published_at": "2026-08-20T08:25:07Z",
-      "collected_at": "2026-08-20T09:00:47Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "735fe849184d18ae2776558e",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Former PM Fillon suspended from top French honor over fake jobs conviction",
-      "url": "https://www.politico.eu/article/francois-fillon-suspended-highest-french-honor-fake-jobs-scandal",
-      "published_at": "2026-08-20T08:05:53Z",
-      "collected_at": "2026-08-20T09:00:47Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "fd7c8fa41dd9bccacb05b992",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Russian overnight strikes kill at least 13 in Ukraine",
-      "url": "https://www.politico.eu/article/volodymyr-zelenskyy-vladimir-putin-russia-overnight-attack-ukraine-killing-13",
-      "published_at": "2026-08-20T08:00:13Z",
-      "collected_at": "2026-08-20T09:00:47Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "c74078c1a6be31b1296cca5b",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1501,62 +1389,6 @@
       "collected_at": "2026-08-20T17:30:47Z",
       "topics": [
         "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "6416d3a6f4b453fa7ac1da5a",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump announces ‘crushing economic operation’ against Iran",
-      "url": "https://english.elpais.com/international/2026-08-20/trump-announces-crushing-economic-operation-against-iran.html",
-      "published_at": "2026-08-20T07:18:41Z",
-      "collected_at": "2026-08-20T09:30:39Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "4e8e1dea8769bffdddb71242",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "US debt tops $40 trillion amid concern over borrowing costs",
-      "url": "https://english.elpais.com/economy-and-business/2026-08-20/us-debt-tops-40-trillion-amid-concern-over-borrowing-costs.html",
-      "published_at": "2026-08-20T07:18:20Z",
-      "collected_at": "2026-08-20T09:30:39Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "fbe1c7ce690e78c89a5848ac",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Massive Russian strikes hit Kyiv killing several people",
-      "url": "https://www.france24.com/en/massive-russian-strikes-hit-kyiv-killing-several-people",
-      "published_at": "2026-08-20T07:17:50Z",
-      "collected_at": "2026-08-20T09:00:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "34c4a022e8bb304c9c22e2bc",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland tests 250 km/h train speeds for planned cuts to intercity journey times",
-      "url": "https://notesfrompoland.com/2026/08/20/poland-tests-250-km-h-train-speeds-for-planned-cuts-to-intercity-journey-times",
-      "published_at": "2026-08-20T07:14:19Z",
-      "collected_at": "2026-08-20T09:00:47Z",
-      "topics": [
-        "central_europe",
         "politics",
         "society"
       ]
@@ -1576,34 +1408,6 @@
       ]
     },
     {
-      "id": "e8479ae2b39808d89cb522be",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "What property giant Evergrande's sentence means for China's economy",
-      "url": "https://www.france24.com/en/live-news/20260820-what-property-giant-evergrande-s-sentence-means-for-china-s-economy",
-      "published_at": "2026-08-20T06:57:10Z",
-      "collected_at": "2026-08-20T09:00:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "b662dcfad3adbbaf50b7e354",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "China real estate giant Xu Jiayin sentenced to life in prison",
-      "url": "https://www.france24.com/en/asia-pacific/20260820-china-reast-estate-giant-xu-jiayin-sentenced-to-life-in-prison",
-      "published_at": "2026-08-20T06:27:09Z",
-      "collected_at": "2026-08-20T09:00:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "4a7da27224dd611ccf4aed01",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1611,34 +1415,6 @@
       "url": "https://www.france24.com/en/asia-pacific/20260820-china-reast-estate-giant-xu-jiayin-sentenced-to-life-in-prison",
       "published_at": "2026-08-20T06:27:09Z",
       "collected_at": "2026-08-20T13:30:39Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "af87d497ff8db2967fd78ba1",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Trump says will meet North Korea's Kim later this year",
-      "url": "https://www.france24.com/en/trump-says-will-meet-north-korea-s-kim-later-this-year",
-      "published_at": "2026-08-20T06:07:05Z",
-      "collected_at": "2026-08-20T09:00:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "80b9710d2032efd96e220f77",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Investigation into killing of Hind Rajab and Gaza paramedics comes ‘extremely late’",
-      "url": "https://www.france24.com/en/investigation-into-killing-of-hind-rajab-and-gaza-paramedics-comes-extremely-late",
-      "published_at": "2026-08-20T06:06:07Z",
-      "collected_at": "2026-08-20T09:00:47Z",
       "topics": [
         "politics",
         "security",
@@ -1709,20 +1485,6 @@
       "url": "https://www.france24.com/en/americas/20260820-she-ll-never-leave-me-who-is-natalie-harp-trump-s-most-devoted-aide",
       "published_at": "2026-08-20T00:07:17Z",
       "collected_at": "2026-08-20T12:00:52Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "9907b63afc8b7f24b59b3da0",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Middle East live: Israel warns Turkey against ‘dangerous adventures’ in Syria",
-      "url": "https://www.france24.com/en/middle-east/20260819-middle-east-live-trump-threatens-economic-punishment-on-any-country-helping-iran",
-      "published_at": "2026-08-19T23:26:20Z",
-      "collected_at": "2026-08-20T09:30:39Z",
       "topics": [
         "politics",
         "security",
@@ -1996,20 +1758,6 @@
       ]
     },
     {
-      "id": "0f1097e5ea8fe794f8c31ec9",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Journalists need to report on who is causing the climate crisis, so that the EU public feels it can make a change",
-      "url": "https://euobserver.com/232266/journalists-need-to-report-on-who-is-causing-the-climate-crisis-so-that-the-eu-public-feels-it-can-make-a-change",
-      "published_at": "2026-08-18T08:48:34Z",
-      "collected_at": "2026-08-20T09:30:39Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "738cca4351cf774469532943",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2021,34 +1769,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "903ad5ae52ddcee7fca50aff",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "[Interview] Ukrainian frontline reporter Diana Bucko: ‘I have learned not only to report on the war, but also to live in it’",
-      "url": "https://euobserver.com/230784/interview-ukrainian-frontline-reporter-diana-bucko-i-have-learned-not-only-to-report-on-the-war-but-also-to-live-in-it",
-      "published_at": "2026-08-18T06:36:00Z",
-      "collected_at": "2026-08-20T09:00:47Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "d4e4adae36c4654fe45e2801",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Inside secret police warehouse as Germany targets small boats gangs",
-      "url": "https://www.bbc.co.uk/news/articles/cpq809zrvqdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-18T05:02:58Z",
-      "collected_at": "2026-08-20T09:00:47Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
