@@ -1,7 +1,5 @@
 {
   "seen": {
-    "dd5f4ea08f8b9f79330f28f9": "2026-08-20T18:00:51Z",
-    "52f301836fec93853bffa7f6": "2026-08-20T18:00:51Z",
     "3ac674afc84bda1f4ae69c51": "2026-08-20T18:30:45Z",
     "bc6cce5f3f392be5134f9a9b": "2026-08-20T18:30:45Z",
     "3163f92562568c9fe559129e": "2026-08-20T18:30:45Z",
@@ -296,7 +294,9 @@
     "368ab3507cba8bd36bd7fc99": "2026-08-22T17:30:36Z",
     "bc88f55635c75e6083b92f6b": "2026-08-22T18:00:49Z",
     "8d808817fd29808b23ec140f": "2026-08-22T18:00:49Z",
-    "ac35d3dc5d275b72aa1a4b17": "2026-08-22T18:00:49Z"
+    "ac35d3dc5d275b72aa1a4b17": "2026-08-22T18:00:49Z",
+    "dd5f4ea08f8b9f79330f28f9": "2026-08-22T18:30:40Z",
+    "52f301836fec93853bffa7f6": "2026-08-22T18:30:40Z"
   },
   "radar": [
     {
@@ -1406,20 +1406,6 @@
       ]
     },
     {
-      "id": "61ec4d246d043e8978abfa23",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "France issues warning over thousands of substandard condoms",
-      "url": "https://www.dw.com/en/france-issues-warning-over-thousands-of-substandard-condoms/a-78462877?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-21T16:35:00Z",
-      "collected_at": "2026-08-21T18:00:49Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "f76cae98f7aa509452a0e7e1",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1431,6 +1417,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "dd5f4ea08f8b9f79330f28f9",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Russia 'purposefully' hit critical infrastructure in latest strikes, Kyiv mayor says",
+      "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-20T17:14:55Z",
+      "collected_at": "2026-08-22T18:30:40Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -1739,6 +1739,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "52f301836fec93853bffa7f6",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Spanish deputy PM’s rival at the ILO seeks US support in battle for leadership",
+      "url": "https://english.elpais.com/economy-and-business/2026-08-18/spanish-deputy-pms-rival-at-the-ilo-seeks-us-support-in-battle-for-leadership.html",
+      "published_at": "2026-08-18T17:27:07Z",
+      "collected_at": "2026-08-22T18:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2388,18 +2402,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-08-21T04:00:51Z",
-      "title": "EU institutions clash with US over ICC sanctions and asylum outsourcing"
-    },
-    {
-      "at": "2026-08-21T04:00:51Z",
-      "title": "Extreme summer weather devastates European public health and agriculture"
-    },
-    {
-      "at": "2026-08-21T04:00:51Z",
-      "title": "Ceuta migrant crisis deepens as Spain expands temporary shelters"
-    },
-    {
       "at": "2026-08-21T04:30:44Z",
       "title": "Russian strikes intensify across Ukrainian cities amid air defense shortages"
     },
@@ -2706,16 +2708,29 @@
     {
       "at": "2026-08-22T17:30:36Z",
       "title": "European research funding shortfall threatens scientific sovereignty"
+    },
+    {
+      "at": "2026-08-22T18:30:40Z",
+      "title": "Ukraine conflict escalates with deadly Russian strikes on civilian targets"
+    },
+    {
+      "at": "2026-08-22T18:30:40Z",
+      "title": "European leaders demand halt to West Bank settlement expansion"
+    },
+    {
+      "at": "2026-08-22T18:30:40Z",
+      "title": "EU seeks legal measures to protect ICC from US sanctions"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
-        "summary": "A Russian double‑tap drone strike killed 15 people in a Ukrainian shopping centre, prompting rescue efforts and condemnation from President Zelensky. The attack is part of an escalating campaign of strikes that have caused numerous civilian casualties across Ukraine.",
+        "title": "Russian drone strike kills 15 in Ukrainian mall",
+        "summary": "Russian forces conducted a double-tap drone strike on a busy shopping center in Ukraine, killing 15 people and wounding 130, according to officials. The attack targeted a civilian area, prompting international condemnation and rescue operations.",
         "article_ids": [
-          "5507e045eb9fa9990c9f688d"
+          "5507e045eb9fa9990c9f688d",
+          "b751ee5819d1289857e89cff"
         ],
         "sources": [
           {
@@ -2723,14 +2738,21 @@
             "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
             "headline": "Search for survivors after 16 killed by Russian double-tap strike on Ukraine mall",
             "published_at": "2026-08-22T06:40:30Z"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/russian-strikes-zelensky-s-hometown-in-ukraine-killing-15-people-wounding-130",
+            "headline": "Russian strikes Zelensky's hometown in Ukraine, killing 15 people, wounding 130",
+            "published_at": "2026-08-22T09:08:13Z"
           }
         ],
-        "source_count": 1
+        "source_count": 2
       },
       {
-        "title": "France pledges interceptor missiles to Ukraine",
-        "summary": "France announced it will deliver interceptor missiles to Ukraine following a fresh wave of Russian strikes, boosting Ukrainian air‑defence capabilities. The decision reflects growing European support for Ukraine amid the ongoing conflict.",
+        "title": "EU moves to protect International Criminal Court from US sanctions",
+        "summary": "European leaders are urging the EU to invoke a blocking statute to shield the ICC from Trump-era sanctions. The initiative aims to prevent US legal actions against ICC officials investigating Russian war crimes.",
         "article_ids": [
+          "0730a17803ad2f6fb81fdc7e",
           "95d4a30d9e83fb401642a93a"
         ],
         "sources": [
@@ -2747,9 +2769,10 @@
     "top_stories": [
       {
         "title": "Ukraine conflict escalates with deadly Russian strikes on civilian targets",
-        "summary": "A Russian double‑tap drone strike killed 16 people in a Ukrainian shopping centre, triggering a massive rescue operation. President Zelensky condemned the attack as despicable, underscoring the intensifying violence across the country.",
+        "summary": "Russian drone attacks killed 15 people in a Ukrainian shopping center and wounded 130 others, according to local officials. The strikes targeted residential areas, prompting international condemnation and rescue operations.",
         "article_ids": [
-          "5507e045eb9fa9990c9f688d"
+          "5507e045eb9fa9990c9f688d",
+          "b751ee5819d1289857e89cff"
         ],
         "sources": [
           {
@@ -2757,27 +2780,57 @@
             "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
             "headline": "Search for survivors after 16 killed by Russian double-tap strike on Ukraine mall",
             "published_at": "2026-08-22T06:40:30Z"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/russian-strikes-zelensky-s-hometown-in-ukraine-killing-15-people-wounding-130",
+            "headline": "Russian strikes Zelensky's hometown in Ukraine, killing 15 people, wounding 130",
+            "published_at": "2026-08-22T09:08:13Z"
+          }
+        ],
+        "source_count": 2
+      },
+      {
+        "title": "European leaders demand halt to West Bank settlement expansion",
+        "summary": "European diplomats and officials condemned Israeli settlement expansion in the occupied West Bank, citing concerns over ethnic cleansing. Over 100 former ambassadors from the UK and France called for immediate government action against the policies.",
+        "article_ids": [
+          "0730a17803ad2f6fb81fdc7e",
+          "1fc2d6ea2e35c977a26a9426"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/middle-east/20260822-former-french-uk-diplomats-urge-governments-to-act-against-israeli-settlement-policies",
+            "headline": "More than 100 former French and UK diplomats urge action against Israeli settlement policies",
+            "published_at": "2026-08-22T09:47:11Z"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/100-uk-french-ex-ambassadors-accuse-israel-of-ethnic-cleansing-in-open-letter",
+            "headline": "102 UK, French ex-ambassadors accuse Israel of ethnic cleansing in open letter",
+            "published_at": "2026-08-22T12:32:42Z"
           }
         ],
         "source_count": 1
       },
       {
-        "title": "European research funding shortfall threatens scientific sovereignty",
-        "summary": "An interview with the French Academy chief reveals that Europe's laboratories suffer chronic underfunding, putting scientific sovereignty at risk. The warning highlights a broader shortfall in European research funding that could impact strategic autonomy.",
+        "title": "EU seeks legal measures to protect ICC from US sanctions",
+        "summary": "The European Union is considering invoking a blocking statute to counter Trump-era sanctions targeting the International Criminal Court. The move aims to safeguard the court's investigations into Russian military actions in Ukraine.",
         "article_ids": [
-          "0702d913e790e01d6bdf3a2b"
+          "0730a17803ad2f6fb81fdc7e",
+          "95d4a30d9e83fb401642a93a"
         ],
         "sources": [
           {
-            "publisher": "EUobserver",
-            "url": "https://euobserver.com/229995/interview-europes-labs-are-chronically-underfunded-and-sovereignty-is-at-stake-says-french-academy-chief-francoise-combes",
-            "headline": "[Interview] Europe’s labs are chronically underfunded and sovereignty is at stake, says French Academy chief Françoise Combes",
-            "published_at": "2026-08-22T09:08:00Z"
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/france-to-deliver-interceptor-missiles-to-ukraine-after-fresh-wave-of-russian-strikes",
+            "headline": "France to deliver interceptor missiles to Ukraine after fresh wave of Russian strikes",
+            "published_at": "2026-08-22T13:26:28Z"
           }
         ],
         "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-08-22T18:00:49Z"
+  "last_collection_at": "2026-08-22T18:30:40Z"
 }
