@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-22T12:30:41Z",
-  "last_successful_collection_at": "2026-08-22T12:30:41Z",
+  "generated_at": "2026-08-22T13:00:52Z",
+  "last_successful_collection_at": "2026-08-22T13:00:52Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-22T12:30:41Z"
+      "at": "2026-08-22T13:00:52Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-22T12:30:41Z"
+      "at": "2026-08-22T13:00:52Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-22T12:30:41Z"
+      "at": "2026-08-22T13:00:52Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-22T12:30:41Z"
+      "at": "2026-08-22T13:00:52Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-22T12:30:41Z"
+      "at": "2026-08-22T13:00:52Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-22T12:30:41Z"
+      "at": "2026-08-22T13:00:52Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-22T12:30:41Z"
+      "at": "2026-08-22T13:00:52Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-22T12:30:41Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-22T13:00:52Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-22T12:30:41Z"
+      "at": "2026-08-22T13:00:52Z"
     }
   ],
   "europe_now": [
@@ -104,27 +104,6 @@
       ]
     },
     {
-      "label": "Russian · Ukraine",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-21T18:59:00Z",
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/masha-and-the-bear-ukraine-sanctions-russian-cartoon/a-78464406?maca=en-rss-en-eu-2092-rdf",
-          "headline": "'Masha and the Bear': Ukraine sanctions Russian cartoon",
-          "published_at": "2026-08-21T18:59:00Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/233160/russians-infiltrate-last-stronghold-before-sloviansk-as-north-korea-supplies-devastating-new-missiles-ukraine-battlefield-update-day-1639",
-          "headline": "Russians infiltrate last stronghold before Sloviansk, as North Korea supplies devastating new missiles (Ukraine Battlefield update, Day 1,639)",
-          "published_at": "2026-08-21T14:38:14Z"
-        }
-      ]
-    },
-    {
       "label": "condoms · France",
       "origin": "convergence",
       "source_count": 2,
@@ -146,28 +125,93 @@
       ]
     },
     {
-      "label": "aid · Gaza",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-21T15:06:11Z",
+      "label": "Netanyahu · Turkey · arrest · seeks",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 4,
+      "latest_at": "2026-08-22T10:57:12Z",
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/israel-faces-backlash-over-gaza-aid-strike-probe",
-          "headline": "‘Shameful’: Israel faces international backlash after closing probe into Gaza aid strike",
-          "published_at": "2026-08-21T15:06:11Z"
-        },
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260822-turkey-seeks-arrest-warrant-for-israeli-pm-netanyahu-fueling-tensions",
+          "headline": "Turkey seeks arrest warrant for Israeli PM Netanyahu, fueling tensions",
+          "published_at": "2026-08-22T10:57:12Z"
+        }
+      ]
+    },
+    {
+      "label": "attack · school · Swedish · sword",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 3,
+      "latest_at": "2026-08-21T19:22:05Z",
+      "sources": [
         {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/08/21/poland-summons-israeli-ambassador-over-discontinued-investigation-into-killing-of-gaza-aid-workers",
-          "headline": "Poland summons Israeli ambassador over discontinued investigation into killing of Gaza aid workers",
-          "published_at": "2026-08-21T12:43:04Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss",
+          "headline": "One killed in sword attack at Swedish school",
+          "published_at": "2026-08-21T19:22:05Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "a8c280a461aa4cd52d12a124",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'Contrary to law': US judge strikes down Trump's 75-country visa ban",
+      "url": "https://www.france24.com/en/americas/20260822-contrary-to-law-us-judge-strikes-down-trump-s-75-country-visa-ban",
+      "published_at": "2026-08-22T12:44:07Z",
+      "collected_at": "2026-08-22T13:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "ce0e48606110f73e3fc5981b",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
+      "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-22T12:36:28Z",
+      "collected_at": "2026-08-22T13:00:52Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "352ec04f2af055fc0e8317e7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "100 UK, French ex-ambassadors accuse Israel of ethnic cleansing in open letter",
+      "url": "https://www.france24.com/en/100-uk-french-ex-ambassadors-accuse-israel-of-ethnic-cleansing-in-open-letter",
+      "published_at": "2026-08-22T12:32:42Z",
+      "collected_at": "2026-08-22T13:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "0a271d3624e55a68ccab0954",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "100 former French and British ambassadors accuse Israel of ethnic cleansing",
+      "url": "https://www.france24.com/en/100-former-french-and-british-ambassadors-accuse-israel-of-ethnic-cleansing",
+      "published_at": "2026-08-22T12:30:20Z",
+      "collected_at": "2026-08-22T13:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "e0a56b8255ca0901b31c149f",
       "source_id": "france24",
@@ -1401,62 +1445,6 @@
       ]
     },
     {
-      "id": "9c134400ebb5bbe0035f7e10",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Netanyahu focused on reelection as Israeli govt grows 'less concerned' about international isolation",
-      "url": "https://www.france24.com/en/netanyahu-focused-on-reelection-as-israeli-govt-grows-less-concerned-about-international-isolation",
-      "published_at": "2026-08-21T12:57:22Z",
-      "collected_at": "2026-08-21T13:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "b41b15aa1bbe401784671a6b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ebola outbreak in DR Congo growing 'exponentially' as death toll passes 2,500",
-      "url": "https://www.france24.com/en/africa/20260821-ebola-outbreak-in-dr-congo-growing-exponentially-as-death-toll-passes-2-500",
-      "published_at": "2026-08-21T12:55:58Z",
-      "collected_at": "2026-08-21T13:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "7b05f681937d8f6c7d4d3997",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland summons Israeli ambassador over discontinued investigation into killing of Gaza aid workers",
-      "url": "https://notesfrompoland.com/2026/08/21/poland-summons-israeli-ambassador-over-discontinued-investigation-into-killing-of-gaza-aid-workers",
-      "published_at": "2026-08-21T12:43:04Z",
-      "collected_at": "2026-08-21T13:00:51Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "5e274fb9be03cdc7c4246b38",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Ireland’s EU presidency puts its contradictions on display: Atlantic tax haven, digital gatekeeper, defence free‑rider",
-      "url": "https://euobserver.com/232890/irelands-eu-presidency-puts-its-contradictions-on-display-atlantic-tax-haven-digital-gatekeeper-defence-freerider",
-      "published_at": "2026-08-21T11:59:27Z",
-      "collected_at": "2026-08-21T12:30:41Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "f76cae98f7aa509452a0e7e1",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1468,90 +1456,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "5d4b73083ac16350e5b8680a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ronaldinho returns in search of 'beautiful' 300th goal",
-      "url": "https://www.france24.com/en/video/20260821-ronaldinho-returns-in-search-of-beautiful-300th-goal",
-      "published_at": "2026-08-21T11:33:55Z",
-      "collected_at": "2026-08-21T12:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "b0dc558647f1c595e4a150c6",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Key European leaders demand Israel halt West Bank settlement project",
-      "url": "https://www.france24.com/en/video/20260821-key-european-leaders-demand-israel-halt-west-bank-settlement-project",
-      "published_at": "2026-08-21T11:32:35Z",
-      "collected_at": "2026-08-21T12:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "294bece144da11c357c21091",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Hopes fade after Central African Republic gold mine collapse kills dozens",
-      "url": "https://www.france24.com/en/video/20260821-hopes-fade-after-central-african-republic-gold-mine-collapse-kills-dozens",
-      "published_at": "2026-08-21T11:31:16Z",
-      "collected_at": "2026-08-21T12:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "c4616c5239ebc79c33f01b20",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Prince Harry and Meghan are returning to the UK with their children",
-      "url": "https://www.france24.com/en/video/20260821-prince-harry-and-meghan-are-returning-to-the-uk-with-their-children",
-      "published_at": "2026-08-21T11:29:55Z",
-      "collected_at": "2026-08-21T12:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "46ce653b047fbb739539afdc",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Two organisers of Hong Kong's Tiananmen vigils charged for inciting subversion",
-      "url": "https://www.france24.com/en/video/20260821-two-organisers-of-hong-kong-s-tiananmen-vigils-charged-for-inciting-subversion",
-      "published_at": "2026-08-21T11:27:54Z",
-      "collected_at": "2026-08-21T12:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "96b737cd948fdcb959e8bf65",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Middle East live: Turkey issues arrest warrant for Israel’s Netanyahu over Gaza flotilla detentions",
-      "url": "https://www.france24.com/en/middle-east/20260821-middle-east-live-hormuz-shipping-traffic-falls-as-iran-us-talks-stall",
-      "published_at": "2026-08-21T02:50:45Z",
-      "collected_at": "2026-08-21T12:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
