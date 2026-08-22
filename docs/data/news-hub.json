@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-22T11:30:39Z",
-  "last_successful_collection_at": "2026-08-22T11:30:39Z",
+  "generated_at": "2026-08-22T12:30:41Z",
+  "last_successful_collection_at": "2026-08-22T12:30:41Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-22T11:30:39Z"
+      "at": "2026-08-22T12:30:41Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-22T11:30:39Z"
+      "at": "2026-08-22T12:30:41Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-22T11:30:39Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-22T12:30:41Z"
     },
     {
       "id": "euractiv",
@@ -29,54 +29,47 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-22T11:30:39Z"
+      "at": "2026-08-22T12:30:41Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-22T11:30:39Z"
+      "at": "2026-08-22T12:30:41Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-22T11:30:39Z"
+      "at": "2026-08-22T12:30:41Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-22T11:30:39Z"
+      "at": "2026-08-22T12:30:41Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-22T11:30:39Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-22T12:30:41Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-22T11:30:39Z"
+      "at": "2026-08-22T12:30:41Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian double-tap drone strike kills 15 in Ukrainian mall",
-      "summary": "A Russian double-tap drone strike killed 15 people at a shopping center in Ukraine, with officials confirming the attack targeted civilians. The incident occurred as European leaders continue to condemn Russia's escalating military actions in the region.",
+      "title": "Russian double-tap strike hits Ukrainian mall, causing casualties",
+      "summary": "Rescuers are searching through the wreckage of a Ukrainian mall after a Russian double-tap drone strike killed at least sixteen people. Ukrainian President Zelensky condemned the attack as despicable while emergency crews work to find survivors.",
       "article_ids": [
-        "667d22e2f36971230fc625ee",
         "5507e045eb9fa9990c9f688d"
       ],
       "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
-          "published_at": "2026-08-21T18:51:43Z"
-        },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
@@ -85,103 +78,22 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "EU urged to invoke blocking statute against Trump-era ICC sanctions",
-      "summary": "European officials are calling for the EU to use an obscure blocking statute to shield the International Criminal Court from U.S. sanctions imposed during the Trump administration. The move reflects growing tensions between Europe and the U.S. over judicial independence.",
-      "article_ids": [
-        "e1719ba1984a94e5fd81c6bd",
-        "557ea8c38fb23b57905ea577"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/former-estonia-eu-commissioner-siim-kallas-dies-at-77",
-          "headline": "Former EU Commissioner Siim Kallas dies at 77",
-          "published_at": "2026-08-22T09:09:46Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
-  "top_stories": [
-    {
-      "title": "Ukraine conflict escalates with Russian strikes and defense reshuffling",
-      "summary": "Russian forces launched multiple drone strikes across Ukraine, killing at least 15 civilians in a double-tap attack on a shopping mall. European leaders have condemned the attacks while Germany announced increased military support for Poland's eastern border defenses.",
-      "article_ids": [
-        "667d22e2f36971230fc625ee",
-        "6950a00415a4d240c0648c24"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
-          "published_at": "2026-08-21T18:51:43Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/german-army-helps-poland-construct-a-defensive-barrier-against-russia/a-78464726?maca=en-rss-en-eu-2092-rdf",
-          "headline": "German army helps Poland construct a defensive barrier against Russia",
-          "published_at": "2026-08-21T18:44:00Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "European leaders demand Israel halt West Bank settlement expansion",
-      "summary": "Top European officials issued a joint statement urging Israel to immediately stop expanding settlements in the occupied West Bank. The appeal comes amid rising regional tensions following deadly clashes between Israeli forces and Palestinian fighters.",
-      "article_ids": [
-        "e0810ffb99a0e1d95c66d28b",
-        "de168776b0b2a759cc7589f6"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/middle-east/20260821-israeli-settlers-and-military-kill-2-palestinians-teenager-separate-west-bank-shootings",
-          "headline": "Israeli settlers and military kill 2 Palestinians – one a teenager – in separate West Bank shootings",
-          "published_at": "2026-08-21T19:53:39Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/middle-east/20260821-turkey-seeks-international-arrest-warrant-against-israel-s-netanyahu-over-gaza-flotilla-detention",
-          "headline": "Turkey seeks international arrest warrant against Israel's Netanyahu over Gaza flotilla detention",
-          "published_at": "2026-08-21T18:04:40Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Ireland's EU presidency faces criticism over policy contradictions",
-      "summary": "Ireland's leadership of the EU Council has drawn criticism for conflicting stances on trade and migration policies. Analysts note that Dublin's approach risks undermining consensus among member states on key legislative priorities.",
-      "article_ids": [
-        "e1719ba1984a94e5fd81c6bd",
-        "557ea8c38fb23b57905ea577"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/former-estonia-eu-commissioner-siim-kallas-dies-at-77",
-          "headline": "Former EU Commissioner Siim Kallas dies at 77",
-          "published_at": "2026-08-22T09:09:46Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
+  "top_stories": [],
   "developing": [
     {
-      "label": "murder · rapper · Tupac",
+      "label": "murder · Tupac · rapper · trial",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-22T09:40:04Z",
+      "item_count": 3,
+      "latest_at": "2026-08-22T11:03:24Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/the-gang-boss-accused-of-killing-rapper-tupac-blames-his-nephew-in-murder-trial",
-          "headline": "The gang boss accused of killing rapper Tupac blames his nephew in murder trial",
-          "published_at": "2026-08-22T09:40:04Z"
+          "url": "https://www.france24.com/en/tupac-murder-trial-cans-the-prosecution-use-the-defendant-s-words-against-him",
+          "headline": "Tupac murder trial: Cans the prosecution use the defendant's words against him?",
+          "published_at": "2026-08-22T11:03:24Z"
         },
         {
           "publisher": "EL PAÍS English",
@@ -256,6 +168,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "e0a56b8255ca0901b31c149f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Antwerp's 'human zoo': Belgium confronts shame of colonial past",
+      "url": "https://www.france24.com/en/video/20260822-antwerp-s-human-zoo-belgium-confronts-shame-of-colonial-past-1",
+      "published_at": "2026-08-22T11:05:57Z",
+      "collected_at": "2026-08-22T12:30:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "272c27981b2b4dea31d0c4f6",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Tupac murder trial: Cans the prosecution use the defendant's words against him?",
+      "url": "https://www.france24.com/en/tupac-murder-trial-cans-the-prosecution-use-the-defendant-s-words-against-him",
+      "published_at": "2026-08-22T11:03:24Z",
+      "collected_at": "2026-08-22T12:30:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "6d81b4e4da4af37a03008961",
       "source_id": "france24",
@@ -600,6 +540,20 @@
       "url": "https://www.france24.com/en/europe/20260822-russian-strikes-in-ukraine-kill-at-least-two-people-injure-several-others",
       "published_at": "2026-08-22T06:02:27Z",
       "collected_at": "2026-08-22T09:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "dc9eeea6aadaa0d2bd66b35c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russian strikes in Ukraine kill at least four a day after deadly drone attack on shopping centre",
+      "url": "https://www.france24.com/en/europe/20260822-russian-strikes-in-ukraine-kill-at-least-two-people-injure-several-others",
+      "published_at": "2026-08-22T06:02:27Z",
+      "collected_at": "2026-08-22T12:30:41Z",
       "topics": [
         "politics",
         "security",
@@ -1503,20 +1457,6 @@
       ]
     },
     {
-      "id": "9d5a26368840e839d214af76",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Poll: The older and richer you are, the more you like AI",
-      "url": "https://www.politico.eu/article/poll-ai-age-group-weath-future-technology",
-      "published_at": "2026-08-21T11:56:14Z",
-      "collected_at": "2026-08-21T12:00:51Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "f76cae98f7aa509452a0e7e1",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1524,20 +1464,6 @@
       "url": "https://www.politico.eu/article/germany-missile-program-deter-russia-vladimirputin",
       "published_at": "2026-08-21T11:44:06Z",
       "collected_at": "2026-08-22T05:00:49Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "e02ee30767489bfab6b5ac64",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "A German conservative mayor backed the AfD. Now Merz is on the spot.",
-      "url": "https://www.politico.eu/article/friedrich-merz-germany-conservative-mayor-far-right-afd-donation",
-      "published_at": "2026-08-21T11:38:46Z",
-      "collected_at": "2026-08-21T12:00:51Z",
       "topics": [
         "institutions",
         "politics",
@@ -1569,20 +1495,6 @@
       "topics": [
         "politics",
         "security",
-        "society"
-      ]
-    },
-    {
-      "id": "74f2cc6be4c71a325c74099e",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
-      "url": "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-21T11:31:51Z",
-      "collected_at": "2026-08-21T12:00:51Z",
-      "topics": [
-        "breaking",
-        "politics",
         "society"
       ]
     },
@@ -1629,62 +1541,6 @@
       ]
     },
     {
-      "id": "0fd7a65724d1ae20c0ded279",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Montevideo welcomes over 100 progressive leaders to the third Pan-American Congress",
-      "url": "https://english.elpais.com/international/2026-08-21/montevideo-welcomes-over-100-progressive-leaders-to-the-third-pan-american-congress.html",
-      "published_at": "2026-08-21T11:27:51Z",
-      "collected_at": "2026-08-21T11:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "3fb8dc0ffd46d39dbfdfecda",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Colombian left lashes out at the presence of Israeli soldiers in earthquake rescue efforts",
-      "url": "https://english.elpais.com/international/2026-08-21/colombian-left-lashes-out-at-the-presence-of-israeli-soldiers-in-earthquake-rescue-efforts.html",
-      "published_at": "2026-08-21T11:00:07Z",
-      "collected_at": "2026-08-21T11:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "58688879de258040349a890c",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Alexandria Ocasio‑Cortez shares her egg‑freezing process as speculation grows about a possible 2028 presidential bid",
-      "url": "https://english.elpais.com/usa/2026-08-21/alexandria-ocasiocortez-recounts-her-eggfreezing-process-as-speculation-grows-about-a-possible-2028-presidential-bid.html",
-      "published_at": "2026-08-21T10:39:09Z",
-      "collected_at": "2026-08-21T11:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "542487363ef071136e82f212",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The ‘revolutionary’ life in Nicaragua of devoted Trump aide Natalie Harp’s brother",
-      "url": "https://english.elpais.com/international/2026-08-21/the-revolutionary-life-in-nicaragua-of-devoted-trump-aide-natalie-harps-brother.html",
-      "published_at": "2026-08-21T10:17:11Z",
-      "collected_at": "2026-08-21T11:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "96b737cd948fdcb959e8bf65",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1696,6 +1552,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "71101bf936ce9fd29a864fdb",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Europe’s wildfire devastation could almost triple, new research finds",
+      "url": "https://euobserver.com/232936/europes-wildfire-devastation-could-almost-triple-new-research-finds",
+      "published_at": "2026-08-20T10:56:49Z",
+      "collected_at": "2026-08-22T12:30:41Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -1937,62 +1807,6 @@
       ]
     },
     {
-      "id": "a7b7d2b2f3b72ea60b7f4813",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Cracks – but no crackdown. Russia’s elite is beginning to say the unsayable: the war is a disaster",
-      "url": "https://euobserver.com/232638/cracks-but-no-crackdown-russias-elite-is-beginning-to-say-the-unsayable-the-war-is-a-disaster",
-      "published_at": "2026-08-19T11:52:21Z",
-      "collected_at": "2026-08-21T12:00:51Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "9424791b22855683af7a4fff",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The great drought devours the heart of Europe: Record-low harvests, historic restrictions and a stalled economy",
-      "url": "https://english.elpais.com/climate/2026-08-19/the-great-drought-devours-the-heart-of-europe-record-low-harvests-historic-restrictions-and-a-stalled-economy.html",
-      "published_at": "2026-08-19T11:47:15Z",
-      "collected_at": "2026-08-21T12:00:51Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "b688dc8425b991c352fc08aa",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "BRICS countries condemn EU carbon tax as ‘punitive and protectionist’",
-      "url": "https://euobserver.com/232793/brics-countries-condemn-eu-carbon-tax-as-punitive-and-protectionist",
-      "published_at": "2026-08-19T11:26:50Z",
-      "collected_at": "2026-08-21T11:30:44Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "d6165db3afde1b2ac1a324a1",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland launches tourism campaign featuring Lewandowski, Eisenberg and Rubik",
-      "url": "https://notesfrompoland.com/2026/08/19/poland-launches-tourism-campaign-featuring-lewandowski-eisenberg-and-rubik",
-      "published_at": "2026-08-19T10:36:11Z",
-      "collected_at": "2026-08-21T11:30:44Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "9175e3e5b692794e6317d3ba",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -2032,6 +1846,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "738cca4351cf774469532943",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "A government of multimillionaires: Trump appointed 57 officials worth as much as $100 million",
+      "url": "https://english.elpais.com/usa/2026-08-18/a-government-of-multimillionaires-trump-appointed-57-officials-worth-as-much-as-100-million.html",
+      "published_at": "2026-08-18T08:36:36Z",
+      "collected_at": "2026-08-22T12:30:41Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2161,34 +1989,6 @@
       ]
     },
     {
-      "id": "9f81af46d7a0c5454e7374c8",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "JoAnna Mendoza, Arizona Democratic congressional candidate: ‘Undocumented people deserve a pathway to citizenship’",
-      "url": "https://english.elpais.com/usa/2026-08-17/joanna-mendoza-arizona-democratic-congressional-candidate-undocumented-people-deserve-a-pathway-to-citizenship.html",
-      "published_at": "2026-08-17T10:38:55Z",
-      "collected_at": "2026-08-21T11:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "c66189d5289249b4d14c7ef8",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Alejandro Betancourt, the under-investigation billionaire linking Delcy Rodríguez to Trump",
-      "url": "https://english.elpais.com/international/2026-08-17/alejandro-betancourt-the-under-investigation-billionaire-linking-delcy-rodriguez-to-trump.html",
-      "published_at": "2026-08-17T10:02:02Z",
-      "collected_at": "2026-08-21T11:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "79098421feb6db265581d3ee",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2196,6 +1996,20 @@
       "url": "https://www.dw.com/en/why-kyiv-keeps-attacking-russian-retail-giant-wildberries/a-78384605?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-08-16T15:45:00Z",
       "collected_at": "2026-08-21T13:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "b950e8145ed9644e1850f1ee",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Bus crash in Hungary kills at least 12",
+      "url": "https://www.dw.com/en/bus-crash-in-hungary-kills-at-least-12/a-78387230?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-16T09:47:00Z",
+      "collected_at": "2026-08-22T12:30:41Z",
       "topics": [
         "politics",
         "society",
@@ -2287,20 +2101,6 @@
       ]
     },
     {
-      "id": "8fdf2adc343b2b22679780df",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Europe’s biggest Virgin Mary statue – taller than Rio’s Christ the Redeemer – unveiled in Polish village",
-      "url": "https://notesfrompoland.com/2026/08/15/europes-biggest-virgin-mary-statue-taller-than-rios-christ-the-redeemer-unveiled-in-polish-village",
-      "published_at": "2026-08-15T10:54:04Z",
-      "collected_at": "2026-08-21T11:30:44Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "2c9597bf4aaff716df9d9ece",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2371,6 +2171,20 @@
       ]
     },
     {
+      "id": "5a140f3b915d5c7195461289",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "David Crowley’s razor-thin victory in Wisconsin primaries exposes Democrats’ deep division",
+      "url": "https://english.elpais.com/usa/2026-08-12/david-crowleys-razor-thin-victory-in-wisconsin-primaries-exposes-democrats-deep-division.html",
+      "published_at": "2026-08-12T09:55:15Z",
+      "collected_at": "2026-08-22T12:30:41Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "8a42af5bd627ff8552898d03",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2406,20 +2220,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cvgxjn92x9jo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-08T23:59:23Z",
       "collected_at": "2026-08-21T16:00:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "39378f42c746bd0547661fbc",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "German airport drone-bomb: Could Russia be involved?",
-      "url": "https://www.bbc.co.uk/news/articles/ckgdmrxxkdxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-07T08:48:16Z",
-      "collected_at": "2026-08-21T11:30:44Z",
       "topics": [
         "breaking",
         "politics",
