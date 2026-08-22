@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-22T09:30:44Z",
-  "last_successful_collection_at": "2026-08-22T09:30:44Z",
+  "generated_at": "2026-08-22T10:00:50Z",
+  "last_successful_collection_at": "2026-08-22T10:00:50Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-22T09:30:44Z"
+      "at": "2026-08-22T10:00:50Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-22T09:30:44Z"
+      "at": "2026-08-22T10:00:50Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-22T09:30:44Z"
+      "at": "2026-08-22T10:00:50Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-22T09:30:44Z"
+      "at": "2026-08-22T10:00:50Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-22T09:30:44Z"
+      "at": "2026-08-22T10:00:50Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-22T09:30:44Z"
+      "at": "2026-08-22T10:00:50Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-22T09:30:44Z"
+      "at": "2026-08-22T10:00:50Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-22T09:30:44Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-22T10:00:50Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-22T09:30:44Z"
+      "at": "2026-08-22T10:00:50Z"
     }
   ],
   "europe_now": [
@@ -192,6 +192,27 @@
       ]
     },
     {
+      "label": "murder · rapper · Tupac",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-22T09:40:04Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/the-gang-boss-accused-of-killing-rapper-tupac-blames-his-nephew-in-murder-trial",
+          "headline": "The gang boss accused of killing rapper Tupac blames his nephew in murder trial",
+          "published_at": "2026-08-22T09:40:04Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-08-21/why-is-a-man-being-tried-for-the-murder-of-rapper-tupac-shakur-30-years-after-his-death.html",
+          "headline": "Why is a man being tried for the murder of rapper Tupac Shakur 30 years after his death?",
+          "published_at": "2026-08-21T19:41:34Z"
+        }
+      ]
+    },
+    {
       "label": "Harry · Meghan · UK",
       "origin": "convergence",
       "source_count": 2,
@@ -232,30 +253,107 @@
           "published_at": "2026-08-21T13:45:34Z"
         }
       ]
-    },
-    {
-      "label": "aide · Harp · Natalie · Trump",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-21T10:17:11Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-08-21/the-revolutionary-life-in-nicaragua-of-devoted-trump-aide-natalie-harps-brother.html",
-          "headline": "The ‘revolutionary’ life in Nicaragua of devoted Trump aide Natalie Harp’s brother",
-          "published_at": "2026-08-21T10:17:11Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260821-trump-ultra-loyal-aide-natalie-harp-in-the-spotlight",
-          "headline": "Trump ultra-loyal aide Natalie Harp in the spotlight",
-          "published_at": "2026-08-21T09:42:04Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "8c9509a39db49d0f7031c3bc",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "The gang boss accused of killing rapper Tupac blames his nephew in murder trial",
+      "url": "https://www.france24.com/en/the-gang-boss-accused-of-killing-rapper-tupac-blames-his-nephew-in-murder-trial",
+      "published_at": "2026-08-22T09:40:04Z",
+      "collected_at": "2026-08-22T10:00:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "aa3d78b31d46e3c31d7838df",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Children among wounded in Zelensky's hometown, struck by Russian drones",
+      "url": "https://www.france24.com/en/children-among-wounded-in-zelensky-s-hometown-struck-by-russian-drones",
+      "published_at": "2026-08-22T09:38:57Z",
+      "collected_at": "2026-08-22T10:00:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "481a6977bb6e811d39ed84af",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Maradona's 'Hand of God' ball in match against England goes for auction",
+      "url": "https://www.france24.com/en/maradona-s-hand-of-god-ball-in-match-against-england-goes-for-auction",
+      "published_at": "2026-08-22T09:37:21Z",
+      "collected_at": "2026-08-22T10:00:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "b6dbe2a255c984b059a83d29",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Small German airplane crashes in Croatia, killing 2",
+      "url": "https://www.dw.com/en/small-german-airplane-crashes-in-croatia-killing-2/a-78467649?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-22T09:34:00Z",
+      "collected_at": "2026-08-22T10:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "7400479fecc830c364246000",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France's Fontainebleau forest reopens one month after wilfire",
+      "url": "https://www.france24.com/en/france-s-fontainebleau-forest-reopens-one-month-after-wilfire",
+      "published_at": "2026-08-22T09:11:54Z",
+      "collected_at": "2026-08-22T10:00:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "6ce2949f3d146d98586c9a1d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "TikTok settles children's privacy case with $400 million payment",
+      "url": "https://www.france24.com/en/tiktok-settles-children-s-privacy-case-with-400-million-payment",
+      "published_at": "2026-08-22T09:11:03Z",
+      "collected_at": "2026-08-22T10:00:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "5b3d95a256aae545803c1042",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Israeli settlers kill Palestinian teen in the occupied West Bank",
+      "url": "https://www.france24.com/en/israeli-settlers-kill-palestinian-teen-in-the-occupied-west-bank",
+      "published_at": "2026-08-22T09:10:38Z",
+      "collected_at": "2026-08-22T10:00:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "e1719ba1984a94e5fd81c6bd",
       "source_id": "politico_europe",
@@ -268,6 +366,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "b751ee5819d1289857e89cff",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russian strikes Zelensky's hometown in Ukraine, killing 15 people, wounding 130",
+      "url": "https://www.france24.com/en/russian-strikes-zelensky-s-hometown-in-ukraine-killing-15-people-wounding-130",
+      "published_at": "2026-08-22T09:08:13Z",
+      "collected_at": "2026-08-22T10:00:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
