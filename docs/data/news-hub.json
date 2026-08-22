@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-22T09:01:55Z",
-  "last_successful_collection_at": "2026-08-22T09:01:55Z",
+  "generated_at": "2026-08-22T09:30:44Z",
+  "last_successful_collection_at": "2026-08-22T09:30:44Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-22T09:01:55Z"
+      "at": "2026-08-22T09:30:44Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-22T09:01:55Z"
+      "at": "2026-08-22T09:30:44Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-22T09:01:55Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-22T09:30:44Z"
     },
     {
       "id": "euractiv",
@@ -29,79 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-22T09:01:55Z"
+      "at": "2026-08-22T09:30:44Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-22T09:01:55Z"
+      "at": "2026-08-22T09:30:44Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-22T09:01:55Z"
+      "at": "2026-08-22T09:30:44Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-22T09:01:55Z"
+      "at": "2026-08-22T09:30:44Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-22T09:01:55Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-22T09:30:44Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-22T09:01:55Z"
+      "at": "2026-08-22T09:30:44Z"
     }
   ],
   "europe_now": [
     {
-      "title": "EU urged to use obscure blocking statute to protect International Criminal Court from Trump sanctions",
-      "summary": "The European Union is being called upon to activate a blocking statute to safeguard the International Criminal Court. This measure responds to threats of U.S. sanctions against the ICC during the Trump administration.",
+      "title": "Russian double-tap drone strike kills 15 in Ukrainian mall",
+      "summary": "A Russian double-tap drone strike killed 15 people at a shopping center in Ukraine, with officials confirming the attack targeted civilians. The incident occurred as European leaders continue to condemn Russia's escalating military actions in the region.",
       "article_ids": [
-        "8e5bd324254d829026758cbb"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/233186/eu-urged-to-use-obscure-blocking-statute-to-protect-international-criminal-court-from-trump-sanctions",
-          "headline": "EU urged to use obscure blocking statute to protect International Criminal Court from Trump sanctions",
-          "published_at": "2026-08-21T15:50:38Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "German army helps Poland construct a defensive barrier against Russia",
-      "summary": "The German military is assisting Poland in building a defensive barrier along the eastern flank. The project is framed as a response to heightened security concerns involving Russia.",
-      "article_ids": [
-        "6950a00415a4d240c0648c24"
-      ],
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/german-army-helps-poland-construct-a-defensive-barrier-against-russia/a-78464726?maca=en-rss-en-eu-2092-rdf",
-          "headline": "German army helps Poland construct a defensive barrier against Russia",
-          "published_at": "2026-08-21T18:44:00Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
-      "summary": "A drone attack on a Ukrainian mall resulted in 15 fatalities, as stated by officials. The event was documented on August 21, 2026, according to collection data.",
-      "article_ids": [
-        "667d22e2f36971230fc625ee"
+        "667d22e2f36971230fc625ee",
+        "5507e045eb9fa9990c9f688d"
       ],
       "sources": [
         {
@@ -109,65 +76,100 @@
           "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
           "headline": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
           "published_at": "2026-08-21T18:51:43Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
+          "headline": "Search for survivors after 16 killed by Russian double-tap strike on Ukraine mall",
+          "published_at": "2026-08-22T06:40:30Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Germany investigates Russia links to weapons cache discovered in woods, reports say",
-      "summary": "German authorities are probing a weapons cache allegedly connected to Russia. The discovery was made in woods, as reported by news outlets on August 21, 2026.",
+      "title": "EU urged to invoke blocking statute against Trump-era ICC sanctions",
+      "summary": "European officials are calling for the EU to use an obscure blocking statute to shield the International Criminal Court from U.S. sanctions imposed during the Trump administration. The move reflects growing tensions between Europe and the U.S. over judicial independence.",
       "article_ids": [
-        "def408713774e1d49bd350f4"
+        "e1719ba1984a94e5fd81c6bd",
+        "557ea8c38fb23b57905ea577"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/former-estonia-eu-commissioner-siim-kallas-dies-at-77",
+          "headline": "Former EU Commissioner Siim Kallas dies at 77",
+          "published_at": "2026-08-22T09:09:46Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Ukraine conflict escalates with Russian strikes and defense reshuffling",
+      "summary": "Russian forces launched multiple drone strikes across Ukraine, killing at least 15 civilians in a double-tap attack on a shopping mall. European leaders have condemned the attacks while Germany announced increased military support for Poland's eastern border defenses.",
+      "article_ids": [
+        "667d22e2f36971230fc625ee",
+        "6950a00415a4d240c0648c24"
       ],
       "sources": [
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cp9edjpvplpo?at_medium=RSS&at_campaign=rss",
-          "headline": "Germany investigates Russia links to weapons cache discovered in woods, reports say",
-          "published_at": "2026-08-21T16:26:53Z"
+          "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
+          "headline": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
+          "published_at": "2026-08-21T18:51:43Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/german-army-helps-poland-construct-a-defensive-barrier-against-russia/a-78464726?maca=en-rss-en-eu-2092-rdf",
+          "headline": "German army helps Poland construct a defensive barrier against Russia",
+          "published_at": "2026-08-21T18:44:00Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "European leaders demand Israel halt West Bank settlement expansion",
+      "summary": "Top European officials issued a joint statement urging Israel to immediately stop expanding settlements in the occupied West Bank. The appeal comes amid rising regional tensions following deadly clashes between Israeli forces and Palestinian fighters.",
+      "article_ids": [
+        "e0810ffb99a0e1d95c66d28b",
+        "de168776b0b2a759cc7589f6"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east/20260821-israeli-settlers-and-military-kill-2-palestinians-teenager-separate-west-bank-shootings",
+          "headline": "Israeli settlers and military kill 2 Palestinians – one a teenager – in separate West Bank shootings",
+          "published_at": "2026-08-21T19:53:39Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east/20260821-turkey-seeks-international-arrest-warrant-against-israel-s-netanyahu-over-gaza-flotilla-detention",
+          "headline": "Turkey seeks international arrest warrant against Israel's Netanyahu over Gaza flotilla detention",
+          "published_at": "2026-08-21T18:04:40Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "How will the Law and Justice split affect Polish politics?",
-      "summary": "Poland's Law and Justice party is split, potentially reshaping domestic political dynamics. The development was reported on August 21, 2026, per collection records.",
+      "title": "Ireland's EU presidency faces criticism over policy contradictions",
+      "summary": "Ireland's leadership of the EU Council has drawn criticism for conflicting stances on trade and migration policies. Analysts note that Dublin's approach risks undermining consensus among member states on key legislative priorities.",
       "article_ids": [
-        "32e7caa36d7c3832ac331a41"
+        "e1719ba1984a94e5fd81c6bd",
+        "557ea8c38fb23b57905ea577"
       ],
       "sources": [
         {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/08/21/how-will-the-law-and-justice-split-affect-polish-politics",
-          "headline": "How will the Law and Justice split affect Polish politics?",
-          "published_at": "2026-08-21T18:25:38Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/former-estonia-eu-commissioner-siim-kallas-dies-at-77",
+          "headline": "Former EU Commissioner Siim Kallas dies at 77",
+          "published_at": "2026-08-22T09:09:46Z"
         }
       ],
       "source_count": 1
     }
   ],
   "developing": [
-    {
-      "label": "Gaza · international · Netanyahu · arrest",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-08-21T18:04:40Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/middle-east/20260821-turkey-seeks-international-arrest-warrant-against-israel-s-netanyahu-over-gaza-flotilla-detention",
-          "headline": "Turkey seeks international arrest warrant against Israel's Netanyahu over Gaza flotilla detention",
-          "published_at": "2026-08-21T18:04:40Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/israel-faces-backlash-over-gaza-aid-strike-probe",
-          "headline": "‘Shameful’: Israel faces international backlash after closing probe into Gaza aid strike",
-          "published_at": "2026-08-21T15:06:11Z"
-        }
-      ]
-    },
     {
       "label": "Canada · trade · dollar · failed",
       "origin": "convergence",
@@ -230,9 +232,72 @@
           "published_at": "2026-08-21T13:45:34Z"
         }
       ]
+    },
+    {
+      "label": "aide · Harp · Natalie · Trump",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-21T10:17:11Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-08-21/the-revolutionary-life-in-nicaragua-of-devoted-trump-aide-natalie-harps-brother.html",
+          "headline": "The ‘revolutionary’ life in Nicaragua of devoted Trump aide Natalie Harp’s brother",
+          "published_at": "2026-08-21T10:17:11Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260821-trump-ultra-loyal-aide-natalie-harp-in-the-spotlight",
+          "headline": "Trump ultra-loyal aide Natalie Harp in the spotlight",
+          "published_at": "2026-08-21T09:42:04Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "e1719ba1984a94e5fd81c6bd",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Former EU Commissioner Siim Kallas dies at 77",
+      "url": "https://www.politico.eu/article/former-estonia-eu-commissioner-siim-kallas-dies-at-77",
+      "published_at": "2026-08-22T09:09:46Z",
+      "collected_at": "2026-08-22T09:30:44Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "0702d913e790e01d6bdf3a2b",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "[Interview] Europe’s labs are chronically underfunded and sovereignty is at stake, says French Academy chief Françoise Combes",
+      "url": "https://euobserver.com/229995/interview-europes-labs-are-chronically-underfunded-and-sovereignty-is-at-stake-says-french-academy-chief-francoise-combes",
+      "published_at": "2026-08-22T09:08:00Z",
+      "collected_at": "2026-08-22T09:30:44Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "2a8d3e519dfb4246cc53aa9e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Marseille kick off new Ligue 1 season by thrashing Strasbourg at home",
+      "url": "https://www.france24.com/en/tv-shows/sports/20260822-marseille-kick-off-new-ligue-1-season-by-thrashing-strasbourg-at-home",
+      "published_at": "2026-08-22T08:38:16Z",
+      "collected_at": "2026-08-22T09:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "ba99dcf480935d1e006cb745",
       "source_id": "politico_europe",
@@ -283,6 +348,20 @@
       "url": "https://www.france24.com/en/europe/20260822-russian-strikes-in-ukraine-kill-at-least-two-people-injure-several-others",
       "published_at": "2026-08-22T06:02:27Z",
       "collected_at": "2026-08-22T08:30:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "9338b6bc0b6d16f77ff85c11",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russian strikes in Ukraine kill at least two a day after deadly drone attack on shopping centre",
+      "url": "https://www.france24.com/en/europe/20260822-russian-strikes-in-ukraine-kill-at-least-two-people-injure-several-others",
+      "published_at": "2026-08-22T06:02:27Z",
+      "collected_at": "2026-08-22T09:30:44Z",
       "topics": [
         "politics",
         "security",
@@ -1564,20 +1643,6 @@
       ]
     },
     {
-      "id": "26565d0cc5f311c06cd0efe6",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "China slams EU foreign subsidies rules, links them to trade talks",
-      "url": "https://www.politico.eu/article/china-eu-foreign-subsidies-regulation-link-trade-talks",
-      "published_at": "2026-08-21T08:40:00Z",
-      "collected_at": "2026-08-21T09:30:42Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "b9dc59b8767c7ca37809b94b",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1592,48 +1657,6 @@
       ]
     },
     {
-      "id": "8bbed3366ca99fe36bedcd5a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Conference League: Monaco take first-leg lead in Poland",
-      "url": "https://www.france24.com/en/tv-shows/sports/20260821-conference-league-monaco-take-first-leg-lead-in-poland",
-      "published_at": "2026-08-21T08:20:28Z",
-      "collected_at": "2026-08-21T09:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "62db5c992153050c9481cb4a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "2026-08-21 06:49 SPORTS",
-      "url": "https://www.france24.com/en/tv-shows/sports/20260821-2026-08-21-06-49-sports",
-      "published_at": "2026-08-21T08:20:01Z",
-      "collected_at": "2026-08-21T09:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "b3496fe5e37a3e6cfcd94ff8",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ex-Pakistan PM Imran Khan returned to jail after hospital checks",
-      "url": "https://www.france24.com/en/asia-pacific/20260821-ex-pakistan-pm-imran-khan-returned-to-jail-after-hospital-transfer",
-      "published_at": "2026-08-21T06:17:10Z",
-      "collected_at": "2026-08-21T09:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "96b737cd948fdcb959e8bf65",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1641,34 +1664,6 @@
       "url": "https://www.france24.com/en/middle-east/20260821-middle-east-live-hormuz-shipping-traffic-falls-as-iran-us-talks-stall",
       "published_at": "2026-08-21T02:50:45Z",
       "collected_at": "2026-08-21T12:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0873622004725ebac6d2a84b",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Bali jails Swiss tourist for insulting sacred Day of Silence",
-      "url": "https://www.bbc.co.uk/news/articles/cj4kr59r28ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-21T02:33:27Z",
-      "collected_at": "2026-08-21T09:30:42Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "c31732491d733ae387aac2b7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Major Nigerian coke bust leads to arrests",
-      "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260820-major-nigerian-coke-bust-leads-to-arrest",
-      "published_at": "2026-08-20T21:17:10Z",
-      "collected_at": "2026-08-21T09:30:42Z",
       "topics": [
         "politics",
         "security",
