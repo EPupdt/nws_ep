@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-22T08:30:41Z",
-  "last_successful_collection_at": "2026-08-22T08:30:41Z",
+  "generated_at": "2026-08-22T09:01:55Z",
+  "last_successful_collection_at": "2026-08-22T09:01:55Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-22T08:30:41Z"
+      "at": "2026-08-22T09:01:55Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-22T08:30:41Z"
+      "at": "2026-08-22T09:01:55Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-22T08:30:41Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-22T09:01:55Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-22T08:30:41Z"
+      "at": "2026-08-22T09:01:55Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-22T08:30:41Z"
+      "at": "2026-08-22T09:01:55Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-22T08:30:41Z"
+      "at": "2026-08-22T09:01:55Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-22T08:30:41Z"
+      "at": "2026-08-22T09:01:55Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-22T08:30:41Z"
+      "at": "2026-08-22T09:01:55Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-22T08:30:41Z"
+      "at": "2026-08-22T09:01:55Z"
     }
   ],
   "europe_now": [
     {
       "title": "EU urged to use obscure blocking statute to protect International Criminal Court from Trump sanctions",
-      "summary": "European officials are calling for the activation of a blocking statute. The measure aims to defend the International Criminal Court against potential Trump-era sanctions.",
+      "summary": "The European Union is being called upon to activate a blocking statute to safeguard the International Criminal Court. This measure responds to threats of U.S. sanctions against the ICC during the Trump administration.",
       "article_ids": [
         "8e5bd324254d829026758cbb"
       ],
@@ -80,17 +80,17 @@
       "source_count": 1
     },
     {
-      "title": "Search for survivors after 16 killed by Russian double-tap strike on Ukraine mall",
-      "summary": "A Russian double-tap drone strike hit a shopping centre in Ukraine, resulting in at least 16 deaths. Rescue teams are conducting searches for survivors.",
+      "title": "German army helps Poland construct a defensive barrier against Russia",
+      "summary": "The German military is assisting Poland in building a defensive barrier along the eastern flank. The project is framed as a response to heightened security concerns involving Russia.",
       "article_ids": [
-        "5507e045eb9fa9990c9f688d"
+        "6950a00415a4d240c0648c24"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Search for survivors after 16 killed by Russian double-tap strike on Ukraine mall",
-          "published_at": "2026-08-22T06:40:30Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/german-army-helps-poland-construct-a-defensive-barrier-against-russia/a-78464726?maca=en-rss-en-eu-2092-rdf",
+          "headline": "German army helps Poland construct a defensive barrier against Russia",
+          "published_at": "2026-08-21T18:44:00Z"
         }
       ],
       "source_count": 1
@@ -99,7 +99,7 @@
   "top_stories": [
     {
       "title": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
-      "summary": "A Russian double-tap drone strike hit a shopping centre in Ukraine. Officials reported the strike resulted in at least 15 deaths.",
+      "summary": "A drone attack on a Ukrainian mall resulted in 15 fatalities, as stated by officials. The event was documented on August 21, 2026, according to collection data.",
       "article_ids": [
         "667d22e2f36971230fc625ee"
       ],
@@ -114,17 +114,33 @@
       "source_count": 1
     },
     {
-      "title": "EU urged to use obscure blocking statute to protect International Criminal Court from Trump sanctions",
-      "summary": "European Union officials are urging the use of a blocking statute. The measure aims to protect the International Criminal Court from Trump-era sanctions.",
+      "title": "Germany investigates Russia links to weapons cache discovered in woods, reports say",
+      "summary": "German authorities are probing a weapons cache allegedly connected to Russia. The discovery was made in woods, as reported by news outlets on August 21, 2026.",
       "article_ids": [
-        "8e5bd324254d829026758cbb"
+        "def408713774e1d49bd350f4"
       ],
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/233186/eu-urged-to-use-obscure-blocking-statute-to-protect-international-criminal-court-from-trump-sanctions",
-          "headline": "EU urged to use obscure blocking statute to protect International Criminal Court from Trump sanctions",
-          "published_at": "2026-08-21T15:50:38Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cp9edjpvplpo?at_medium=RSS&at_campaign=rss",
+          "headline": "Germany investigates Russia links to weapons cache discovered in woods, reports say",
+          "published_at": "2026-08-21T16:26:53Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "How will the Law and Justice split affect Polish politics?",
+      "summary": "Poland's Law and Justice party is split, potentially reshaping domestic political dynamics. The development was reported on August 21, 2026, per collection records.",
+      "article_ids": [
+        "32e7caa36d7c3832ac331a41"
+      ],
+      "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/08/21/how-will-the-law-and-justice-split-affect-polish-politics",
+          "headline": "How will the Law and Justice split affect Polish politics?",
+          "published_at": "2026-08-21T18:25:38Z"
         }
       ],
       "source_count": 1
@@ -1604,34 +1620,6 @@
       ]
     },
     {
-      "id": "44711fe92ccb8b5447644887",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Strong 6.7-magnitude earthquake strikes southern Peru, damaging homes and schools",
-      "url": "https://www.france24.com/en/americas/20260821-strong-6-7-magnitude-earthquake-strikes-southern-peru-damaging-homes-and-schools",
-      "published_at": "2026-08-21T08:08:21Z",
-      "collected_at": "2026-08-21T08:30:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0f9352ed0983c9b2843cb90d",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Five missing after fire in Swiss Alpine town",
-      "url": "https://www.bbc.co.uk/news/articles/cy8e6g13497o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-21T07:06:16Z",
-      "collected_at": "2026-08-21T08:30:46Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "b3496fe5e37a3e6cfcd94ff8",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1684,6 +1672,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "34c4a022e8bb304c9c22e2bc",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland tests 250 km/h train speeds for planned cuts to intercity journey times",
+      "url": "https://notesfrompoland.com/2026/08/20/poland-tests-250-km-h-train-speeds-for-planned-cuts-to-intercity-journey-times",
+      "published_at": "2026-08-20T07:14:19Z",
+      "collected_at": "2026-08-22T09:01:55Z",
+      "topics": [
+        "central_europe",
+        "politics",
         "society"
       ]
     },
@@ -1949,6 +1951,20 @@
       "collected_at": "2026-08-21T11:00:48Z",
       "topics": [
         "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "d4e4adae36c4654fe45e2801",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Inside secret police warehouse as Germany targets small boats gangs",
+      "url": "https://www.bbc.co.uk/news/articles/cpq809zrvqdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-18T05:02:58Z",
+      "collected_at": "2026-08-22T09:01:55Z",
+      "topics": [
+        "breaking",
         "politics",
         "society"
       ]
@@ -2301,20 +2317,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "16cfdf95b5556495a1fe30a5",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Latin America’s new imaginaries",
-      "url": "https://ecfr.eu/podcasts/episode/latin-americas-new-imaginaries",
-      "published_at": "2026-08-07T05:00:00Z",
-      "collected_at": "2026-08-21T08:30:46Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
       ]
     },
     {
