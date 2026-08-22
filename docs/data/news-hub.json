@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-22T15:00:50Z",
-  "last_successful_collection_at": "2026-08-22T15:00:50Z",
+  "generated_at": "2026-08-22T15:30:42Z",
+  "last_successful_collection_at": "2026-08-22T15:30:42Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-22T15:00:50Z"
+      "at": "2026-08-22T15:30:42Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-22T15:00:50Z"
+      "at": "2026-08-22T15:30:42Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-22T15:00:50Z"
+      "at": "2026-08-22T15:30:42Z"
     },
     {
       "id": "euractiv",
@@ -29,50 +29,65 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-22T15:00:50Z"
+      "at": "2026-08-22T15:30:42Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-22T15:00:50Z"
+      "at": "2026-08-22T15:30:42Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-22T15:00:50Z"
+      "at": "2026-08-22T15:30:42Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-22T15:00:50Z"
+      "at": "2026-08-22T15:30:42Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-22T15:00:50Z"
+      "at": "2026-08-22T15:30:42Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-22T15:00:50Z"
+      "at": "2026-08-22T15:30:42Z"
     }
   ],
-  "europe_now": [
+  "europe_now": [],
+  "top_stories": [
     {
-      "title": "Russian double‑tap strike hits Ukrainian mall",
-      "summary": "Rescue teams are searching through the wreckage of a Ukrainian mall after a Russian double‑tap drone strike killed at least fifteen people. The strike wounded 130 people and was condemned by Ukrainian President Volodymyr Zelensky as despicable.",
+      "title": "EU seeks to protect International Criminal Court from US sanctions",
+      "summary": "European leaders are urging the EU to use a blocking statute to shield the International Criminal Court from Trump-era sanctions. This reflects efforts to maintain international legal accountability.",
       "article_ids": [
-        "ce0e48606110f73e3fc5981b",
-        "02587beb9df3a7611e1dff46",
-        "5507e045eb9fa9990c9f688d",
-        "b751ee5819d1289857e89cff",
-        "aa3d78b31d46e3c31d7838df"
+        "e95876c25f622925c164ba49"
       ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20260822-carney-says-canada-will-match-us-tariffs-dollar-for-dollar-after-failed-trade-negotiations",
+          "headline": "Carney says Canada will match US tariffs 'dollar for dollar' after failed trade negotiations",
+          "published_at": "2026-08-22T04:29:13Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
+    {
+      "label": "Russian · strike · Ukraine · drones",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 16,
+      "latest_at": "2026-08-22T12:36:28Z",
       "sources": [
         {
           "publisher": "BBC News Europe",
@@ -82,73 +97,18 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/russian-strikes-zelensky-s-hometown-in-ukraine-killing-15-people-wounding-130",
-          "headline": "Russian strikes Zelensky's hometown in Ukraine, killing 15 people, wounding 130",
-          "published_at": "2026-08-22T09:08:13Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "European officials call for halt to West Bank settlement expansion",
-      "summary": "Over one hundred former French and British diplomats have urged their governments to act against Israeli settlement policies in the occupied West Bank. The diplomats accuse Israel of ethnic cleansing and join European leaders in calling for a halt to settlement expansion.",
-      "article_ids": [
-        "0730a17803ad2f6fb81fdc7e",
-        "352ec04f2af055fc0e8317e7",
-        "0a271d3624e55a68ccab0954"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/middle-east/20260822-former-french-uk-diplomats-urge-governments-to-act-against-israeli-settlement-policies",
-          "headline": "More than 100 former French and UK diplomats urge action against Israeli settlement policies",
-          "published_at": "2026-08-22T09:47:11Z"
+          "url": "https://www.france24.com/en/children-among-wounded-in-zelensky-s-hometown-struck-by-russian-drones",
+          "headline": "Children among wounded in Zelensky's hometown, struck by Russian drones",
+          "published_at": "2026-08-22T09:38:57Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/100-uk-french-ex-ambassadors-accuse-israel-of-ethnic-cleansing-in-open-letter",
-          "headline": "100 UK, French ex-ambassadors accuse Israel of ethnic cleansing in open letter",
-          "published_at": "2026-08-22T12:32:42Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/masha-and-the-bear-ukraine-sanctions-russian-cartoon/a-78464406?maca=en-rss-en-eu-2092-rdf",
+          "headline": "'Masha and the Bear': Ukraine sanctions Russian cartoon",
+          "published_at": "2026-08-21T18:59:00Z"
         }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "France pledges interceptor missiles to Ukraine",
-      "summary": "France has announced it will deliver interceptor missiles to Ukraine to bolster its air defences. The decision follows a fresh wave of Russian strikes on Ukrainian territory.",
-      "article_ids": [
-        "95d4a30d9e83fb401642a93a"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-to-deliver-interceptor-missiles-to-ukraine-after-fresh-wave-of-russian-strikes",
-          "headline": "France to deliver interceptor missiles to Ukraine after fresh wave of Russian strikes",
-          "published_at": "2026-08-22T13:26:28Z"
-        }
-      ],
-      "source_count": 1
+      ]
     },
-    {
-      "title": "European research funding shortfall threatens sovereignty",
-      "summary": "The French Academy chief Françoise Combes warns that European laboratories suffer from chronic underfunding. She argues that this underfunding puts Europe's scientific sovereignty at risk.",
-      "article_ids": [
-        "0702d913e790e01d6bdf3a2b"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/229995/interview-europes-labs-are-chronically-underfunded-and-sovereignty-is-at-stake-says-french-academy-chief-francoise-combes",
-          "headline": "[Interview] Europe’s labs are chronically underfunded and sovereignty is at stake, says French Academy chief Françoise Combes",
-          "published_at": "2026-08-22T09:08:00Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
     {
       "label": "murder · Tupac · rapper · trial",
       "origin": "convergence",
@@ -171,52 +131,71 @@
       ]
     },
     {
-      "label": "Netanyahu · Turkey · arrest · seeks",
+      "label": "France · Ukraine",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-22T14:30:38Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/france-to-ramp-up-ukraine-support-says-emmanuel-macron",
+          "headline": "France to ramp up Ukraine support, says Macron",
+          "published_at": "2026-08-22T14:30:38Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-to-deliver-interceptor-missiles-to-ukraine-after-fresh-wave-of-russian-strikes",
+          "headline": "France to deliver interceptor missiles to Ukraine after fresh wave of Russian strikes",
+          "published_at": "2026-08-22T13:26:28Z"
+        }
+      ]
+    },
+    {
+      "label": "accuse · ambassadors · cleansing · ethnic",
       "origin": "radar",
       "source_count": 1,
       "item_count": 4,
-      "latest_at": "2026-08-22T10:57:12Z",
+      "latest_at": "2026-08-22T12:32:42Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260822-turkey-seeks-arrest-warrant-for-israeli-pm-netanyahu-fueling-tensions",
-          "headline": "Turkey seeks arrest warrant for Israeli PM Netanyahu, fueling tensions",
-          "published_at": "2026-08-22T10:57:12Z"
-        }
-      ]
-    },
-    {
-      "label": "attack · school · Swedish · sword",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 2,
-      "latest_at": "2026-08-21T19:22:05Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss",
-          "headline": "One killed in sword attack at Swedish school",
-          "published_at": "2026-08-21T19:22:05Z"
-        }
-      ]
-    },
-    {
-      "label": "injure · kill · people · Russian",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-08-22T06:02:27Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260822-russian-strikes-in-ukraine-kill-at-least-two-people-injure-several-others",
-          "headline": "Russian strikes in Ukraine kill at least two people, injure several others",
-          "published_at": "2026-08-22T06:02:27Z"
+          "url": "https://www.france24.com/en/100-uk-french-ex-ambassadors-accuse-israel-of-ethnic-cleansing-in-open-letter",
+          "headline": "100 UK, French ex-ambassadors accuse Israel of ethnic cleansing in open letter",
+          "published_at": "2026-08-22T12:32:42Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "98f0dc693d790d7500ff714e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Infantino defies FIFA vice president's request to stay away from Caribbean youth tournament",
+      "url": "https://www.france24.com/en/sport/20260822-infantino-defies-fifa-vice-president-s-request-to-stay-away-from-caribbean-youth-tournament",
+      "published_at": "2026-08-22T15:07:39Z",
+      "collected_at": "2026-08-22T15:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e8a2e066993495b4358cf72a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "102 senior diplomats urge West Bank action against Israeli 'ethnic cleansing'",
+      "url": "https://www.france24.com/en/102-senior-diplomats-urge-west-bank-action-against-israeli-ethnic-cleansing",
+      "published_at": "2026-08-22T14:50:57Z",
+      "collected_at": "2026-08-22T15:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "6581da8244d9a511d62d1cb2",
       "source_id": "dw_europe",
@@ -1394,34 +1373,6 @@
       ]
     },
     {
-      "id": "e497937e132f130dc9dd95c6",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Polish NGOs urge PM’s “right-hand man” to withdraw constitutional court candidacy",
-      "url": "https://notesfrompoland.com/2026/08/21/polish-ngos-urge-pms-right-hand-man-to-withdraw-constitutional-court-candidacy",
-      "published_at": "2026-08-21T14:58:13Z",
-      "collected_at": "2026-08-21T15:00:51Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "8b76d485c5f0564bb8cd87af",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Several injured after sword attack at Swedish school",
-      "url": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-21T14:58:02Z",
-      "collected_at": "2026-08-21T15:00:51Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "d6f3ec566e5e72320a7ab051",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1429,90 +1380,6 @@
       "url": "https://www.france24.com/en/sport/20260821-fifa-suspends-argentina-s-paredes-for-10-games-over-world-cup-final-clashes",
       "published_at": "2026-08-21T14:39:10Z",
       "collected_at": "2026-08-21T16:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "1a3c300033bd75ec375621ee",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Russians infiltrate last stronghold before Sloviansk, as North Korea supplies devastating new missiles (Ukraine Battlefield update, Day 1,639)",
-      "url": "https://euobserver.com/233160/russians-infiltrate-last-stronghold-before-sloviansk-as-north-korea-supplies-devastating-new-missiles-ukraine-battlefield-update-day-1639",
-      "published_at": "2026-08-21T14:38:14Z",
-      "collected_at": "2026-08-21T15:00:51Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "4b0b277b44dc8b25c515941a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Moroccan families travel to Ceuta border in search of missing loved ones",
-      "url": "https://www.france24.com/en/europe/20260821-moroccan-families-search-their-missing-children-ceuta-border",
-      "published_at": "2026-08-21T14:35:57Z",
-      "collected_at": "2026-08-21T15:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4764e58dc2a626edf5e9071d",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "What a record-breaking El Nino could mean for the world",
-      "url": "https://www.france24.com/en/video/20260821-what-a-record-breaking-el-nino-could-mean-for-the-world",
-      "published_at": "2026-08-21T14:28:01Z",
-      "collected_at": "2026-08-21T15:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "deedfe01d8af5ac358383cee",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "2,500 dead and rising: UN says DR Congo Ebola outbreak 'growing exponentially'",
-      "url": "https://www.france24.com/en/video/20260821-2-500-dead-and-rising-un-says-dr-congo-ebola-outbreak-growing-exponentially",
-      "published_at": "2026-08-21T14:25:25Z",
-      "collected_at": "2026-08-21T15:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "630825df9c51885569a8187e",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "‘Do not believe my prime minister’: youngest-ever Norwegian MP urges EU to resist Oslo’s Arctic-oil lobbying",
-      "url": "https://euobserver.com/233076/do-not-believe-my-prime-minister-youngest-ever-norwegian-mp-urges-eu-to-resist-oslos-arctic-oil-lobbying",
-      "published_at": "2026-08-21T14:24:45Z",
-      "collected_at": "2026-08-21T15:00:51Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "961d34554675fa2244dbf059",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "E1 Israeli settlement poses ‘existential threat’ to two-state solution, UN chief warns",
-      "url": "https://www.france24.com/en/video/20260821-e1-israeli-settlement-poses-existential-threat-to-two-state-solution-un-chief-warns",
-      "published_at": "2026-08-21T14:24:13Z",
-      "collected_at": "2026-08-21T15:00:51Z",
       "topics": [
         "politics",
         "security",
@@ -1825,20 +1692,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "a0be273e9ddf144556fdc331",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Polish government proposes middle-class tax cuts funded by increased rates for wealthiest",
-      "url": "https://notesfrompoland.com/2026/08/19/polish-government-proposes-middle-class-tax-cuts-funded-by-increased-rates-for-wealthiest",
-      "published_at": "2026-08-19T14:16:06Z",
-      "collected_at": "2026-08-21T15:00:51Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
       ]
     },
     {
