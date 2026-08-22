@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-22T11:00:51Z",
-  "last_successful_collection_at": "2026-08-22T11:00:51Z",
+  "generated_at": "2026-08-22T11:30:39Z",
+  "last_successful_collection_at": "2026-08-22T11:30:39Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-22T11:00:51Z"
+      "at": "2026-08-22T11:30:39Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-22T11:00:51Z"
+      "at": "2026-08-22T11:30:39Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-22T11:00:51Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-22T11:30:39Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-22T11:00:51Z"
+      "at": "2026-08-22T11:30:39Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-22T11:00:51Z"
+      "at": "2026-08-22T11:30:39Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-22T11:00:51Z"
+      "at": "2026-08-22T11:30:39Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-22T11:00:51Z"
+      "at": "2026-08-22T11:30:39Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-22T11:00:51Z"
+      "at": "2026-08-22T11:30:39Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-22T11:00:51Z"
+      "at": "2026-08-22T11:30:39Z"
     }
   ],
   "europe_now": [
@@ -213,27 +213,6 @@
       ]
     },
     {
-      "label": "Harry · Meghan · UK",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-21T18:03:28Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-08-21/harry-and-meghans-return-to-the-uk-brings-fresh-tensions-to-the-royal-family.html",
-          "headline": "Harry and Meghan’s return to the UK brings fresh tensions to the royal family",
-          "published_at": "2026-08-21T18:03:28Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260821-prince-harry-and-meghan-are-returning-to-the-uk-with-their-children",
-          "headline": "Prince Harry and Meghan are returning to the UK with their children",
-          "published_at": "2026-08-21T11:29:55Z"
-        }
-      ]
-    },
-    {
       "label": "condoms · France",
       "origin": "convergence",
       "source_count": 2,
@@ -251,6 +230,27 @@
           "url": "https://www.politico.eu/article/france-dodgy-condom-problem-fraud-watchdog",
           "headline": "France tackles dodgy condom problem",
           "published_at": "2026-08-21T13:45:34Z"
+        }
+      ]
+    },
+    {
+      "label": "aid · Gaza",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-21T15:06:11Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/israel-faces-backlash-over-gaza-aid-strike-probe",
+          "headline": "‘Shameful’: Israel faces international backlash after closing probe into Gaza aid strike",
+          "published_at": "2026-08-21T15:06:11Z"
+        },
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/08/21/poland-summons-israeli-ambassador-over-discontinued-investigation-into-killing-of-gaza-aid-workers",
+          "headline": "Poland summons Israeli ambassador over discontinued investigation into killing of Gaza aid workers",
+          "published_at": "2026-08-21T12:43:04Z"
         }
       ]
     }
