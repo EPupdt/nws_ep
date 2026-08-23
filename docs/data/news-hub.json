@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-23T12:00:47Z",
-  "last_successful_collection_at": "2026-08-23T12:00:47Z",
+  "generated_at": "2026-08-23T12:30:38Z",
+  "last_successful_collection_at": "2026-08-23T12:30:38Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-23T12:00:47Z"
+      "at": "2026-08-23T12:30:38Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-23T12:00:47Z"
+      "at": "2026-08-23T12:30:38Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-23T12:00:47Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-23T12:30:38Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-23T12:00:47Z"
+      "at": "2026-08-23T12:30:38Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-23T12:00:47Z"
+      "at": "2026-08-23T12:30:38Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-23T12:00:47Z"
+      "at": "2026-08-23T12:30:38Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-23T12:00:47Z"
+      "at": "2026-08-23T12:30:38Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-23T12:00:47Z"
+      "at": "2026-08-23T12:30:38Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-23T12:00:47Z"
+      "at": "2026-08-23T12:30:38Z"
     }
   ],
   "europe_now": [
@@ -211,17 +211,17 @@
       ]
     },
     {
-      "label": "accuse · ambassadors · cleansing · ethnic",
+      "label": "attack · Girl · police · Swedish",
       "origin": "radar",
       "source_count": 1,
-      "item_count": 4,
-      "latest_at": "2026-08-22T12:32:42Z",
+      "item_count": 2,
+      "latest_at": "2026-08-23T01:34:15Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/100-uk-french-ex-ambassadors-accuse-israel-of-ethnic-cleansing-in-open-letter",
-          "headline": "100 UK, French ex-ambassadors accuse Israel of ethnic cleansing in open letter",
-          "published_at": "2026-08-22T12:32:42Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c8jnjp0lwlwo?at_medium=RSS&at_campaign=rss",
+          "headline": "Swedish sword attack victim was 17-year-old girl, police say",
+          "published_at": "2026-08-23T01:34:15Z"
         }
       ]
     }
@@ -1054,6 +1054,20 @@
       ]
     },
     {
+      "id": "74f2cc6be4c71a325c74099e",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
+      "url": "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-21T13:07:00Z",
+      "collected_at": "2026-08-23T12:30:38Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "3fb8dc0ffd46d39dbfdfecda",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1373,6 +1387,34 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "a7b7d2b2f3b72ea60b7f4813",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Cracks – but no crackdown. Russia’s elite is beginning to say the unsayable: the war is a disaster",
+      "url": "https://euobserver.com/232638/cracks-but-no-crackdown-russias-elite-is-beginning-to-say-the-unsayable-the-war-is-a-disaster",
+      "published_at": "2026-08-19T11:52:21Z",
+      "collected_at": "2026-08-23T12:30:38Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "9424791b22855683af7a4fff",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The great drought devours the heart of Europe: Record-low harvests, historic restrictions and a stalled economy",
+      "url": "https://english.elpais.com/climate/2026-08-19/the-great-drought-devours-the-heart-of-europe-record-low-harvests-historic-restrictions-and-a-stalled-economy.html",
+      "published_at": "2026-08-19T11:47:15Z",
+      "collected_at": "2026-08-23T12:30:38Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
