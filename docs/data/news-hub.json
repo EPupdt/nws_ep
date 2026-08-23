@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-23T13:30:40Z",
-  "last_successful_collection_at": "2026-08-23T13:30:40Z",
+  "generated_at": "2026-08-23T15:00:47Z",
+  "last_successful_collection_at": "2026-08-23T15:00:47Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-23T13:30:40Z"
+      "at": "2026-08-23T15:00:47Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-23T13:30:40Z"
+      "at": "2026-08-23T15:00:47Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "23",
-      "at": "2026-08-23T13:30:40Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-23T15:00:47Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-23T13:30:40Z"
+      "at": "2026-08-23T15:00:47Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-23T13:30:40Z"
+      "at": "2026-08-23T15:00:47Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-23T13:30:40Z"
+      "at": "2026-08-23T15:00:47Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-23T13:30:40Z"
+      "at": "2026-08-23T15:00:47Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-23T13:30:40Z"
+      "at": "2026-08-23T15:00:47Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-23T13:30:40Z"
+      "at": "2026-08-23T15:00:47Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ukraine seeks additional Patriot interceptors amid rising civilian deaths",
-      "summary": "Ukrainian President Volodymyr Zelensky has requested more Patriot air-defense systems after civilian casualties reached their highest level since 2022. The appeal follows intensified Russian strikes that have driven death tolls among non‑combatants to a peak not seen in recent years.",
+      "title": "Ukraine conflict escalates with deadly Russian strikes on civilian targets",
+      "summary": "Deadly Russian strikes on civilian targets have escalated the conflict in Ukraine, with civilian deaths reaching the highest level since 2022. Ukraine's President Zelensky has requested additional Patriot interceptors to defend against the escalating attacks.",
       "article_ids": [
         "c17da16328d7c9373bfc6976"
       ],
@@ -80,17 +80,17 @@
       "source_count": 1
     },
     {
-      "title": "Zelensky warns wartime elections would destabilize Ukraine",
-      "summary": "Zelensky stated that holding elections during the ongoing war would destroy Ukraine's stability. He argued that wartime voting would undermine national unity and exacerbate the country's challenges.",
+      "title": "European research funding shortfall threatens scientific sovereignty",
+      "summary": "A shortfall in research funding is threatening Europe's scientific sovereignty and independence. Funding denials under political pressure have raised concerns about the future of scientific research and collaboration in the region.",
       "article_ids": [
-        "d84163c5acf5d2725783f725"
+        "6c4da13e9cc5c6f3a746e12a"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260823-wartime-elections-would-destroy-ukraine-says-zelensky",
-          "headline": "Wartime elections would 'destroy' Ukraine, says Zelensky",
-          "published_at": "2026-08-23T12:30:37Z"
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/climate/2026-08-23/carl-wunsch-oceanographer-the-consequences-of-trump-are-terrible-funding-is-denied-because-apparently-all-of-our-research-is-a-hoax.html",
+          "headline": "Carl Wunsch, oceanographer: ‘The consequences of Trump are terrible. Funding is denied because, apparently, all of our research is a hoax’",
+          "published_at": "2026-08-23T05:00:00Z"
         }
       ],
       "source_count": 1
@@ -98,8 +98,40 @@
   ],
   "top_stories": [
     {
+      "title": "Eastern Mediterranean energy dynamics shift with Egypt and Turkey's gains",
+      "summary": "Shifting energy dynamics in the Eastern Mediterranean are positioning Egypt and Turkey as significant regional beneficiaries. These developments are altering geopolitical alliances and energy security strategies across Southern Europe and the Middle East.",
+      "article_ids": [
+        "2cf97fbf36e7d417798abe52"
+      ],
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/economy-and-business/2026-08-23/the-new-energy-war-in-the-eastern-mediterranean-and-why-egypt-and-turkey-stand-to-gain.html",
+          "headline": "The new energy war in the Eastern Mediterranean (and why Egypt and Turkey stand to gain)",
+          "published_at": "2026-08-23T05:00:00Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Macron hosts Saudi Crown Prince MBS for Paris visit",
+      "summary": "French President Emmanuel Macron is hosting Saudi Crown Prince Mohammed bin Salman for a two-day visit in Paris. The high-profile meeting covers a range of bilateral and regional issues, including energy cooperation, esports, and Middle Eastern geopolitics.",
+      "article_ids": [
+        "3475e08aaed5c9a829fb2e02"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260823-macron-welcomes-saudi-crown-prince-mbs-for-two-day-france-visit",
+          "headline": "Macron hosts Saudi Crown Prince MBS for two-day Paris visit",
+          "published_at": "2026-08-23T01:57:12Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
       "title": "South Korea tests Arctic shipping route to Europe",
-      "summary": "South Korea successfully sent its first container via an Arctic route to a European port. The trial demonstrates a potential new trade corridor that could reshape Europe‑Asia logistics.",
+      "summary": "South Korea has successfully tested a new Arctic shipping route by sending a container ship directly to Europe. This pilot route represents a potential shift in global logistics and trade corridors between Asia and Europe.",
       "article_ids": [
         "e56e402f87ed869cf7964008"
       ],
@@ -109,22 +141,6 @@
           "url": "https://www.france24.com/en/south-korea-tests-arctic-route-with-a-first-container-shipped-to-europe",
           "headline": "South Korea tests Arctic route with a first container shipped to Europe",
           "published_at": "2026-08-23T09:03:56Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Weekly images capture European wildfires, space milestone and Ukraine war",
-      "summary": "A recent photo compilation features a French woman in space, spreading wildfires across European landscapes, and the ongoing conflict in Ukraine. The collection highlights how technological achievements, climate‑related disasters, and war intersect to shape the continent's current reality.",
-      "article_ids": [
-        "a9536f31361435e681cb56e8"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/science/20260823-the-week-in-pictures-frenchwoman-space-nasa-wildfires-europe-war-ukraine",
-          "headline": "The week in pictures: a French woman in space, wildfires in Europe and the war in Ukraine",
-          "published_at": "2026-08-23T13:09:15Z"
         }
       ],
       "source_count": 1
@@ -180,23 +196,23 @@
       ]
     },
     {
-      "label": "Funding · Trump",
+      "label": "Ukraine · war",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-08-23T08:55:00Z",
+      "latest_at": "2026-08-23T14:42:00Z",
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/230559/trumps-hiv-funding-cuts-have-left-sufferers-undiagnosed-and-could-see-an-aids-comeback",
-          "headline": "Trump’s HIV funding cuts have left sufferers undiagnosed and could see an AIDS comeback",
-          "published_at": "2026-08-23T08:55:00Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/could-russia-s-growing-fuel-crisis-help-end-the-ukraine-war/a-78472138?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Could Russia's growing fuel crisis help end the Ukraine war?",
+          "published_at": "2026-08-23T14:42:00Z"
         },
         {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/climate/2026-08-23/carl-wunsch-oceanographer-the-consequences-of-trump-are-terrible-funding-is-denied-because-apparently-all-of-our-research-is-a-hoax.html",
-          "headline": "Carl Wunsch, oceanographer: ‘The consequences of Trump are terrible. Funding is denied because, apparently, all of our research is a hoax’",
-          "published_at": "2026-08-23T05:00:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/science/20260823-the-week-in-pictures-frenchwoman-space-nasa-wildfires-europe-war-ukraine",
+          "headline": "The week in pictures: a French woman in space, wildfires in Europe and the war in Ukraine",
+          "published_at": "2026-08-23T13:09:15Z"
         }
       ]
     },
@@ -217,6 +233,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "3476577b89ae9cba71d0bebc",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Could Russia's growing fuel crisis help end the Ukraine war?",
+      "url": "https://www.dw.com/en/could-russia-s-growing-fuel-crisis-help-end-the-ukraine-war/a-78472138?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-23T14:42:00Z",
+      "collected_at": "2026-08-23T15:00:47Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
     {
       "id": "625bb535117ec72bc8789d45",
       "source_id": "france24",
@@ -932,34 +962,6 @@
       ]
     },
     {
-      "id": "95d4a30d9e83fb401642a93a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France to deliver interceptor missiles to Ukraine after fresh wave of Russian strikes",
-      "url": "https://www.france24.com/en/france-to-deliver-interceptor-missiles-to-ukraine-after-fresh-wave-of-russian-strikes",
-      "published_at": "2026-08-22T13:26:28Z",
-      "collected_at": "2026-08-22T14:00:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "663ff02e899fee6ed1e322bd",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "DR Congo receives Ebola vaccines in face of 'exponential' outbreak",
-      "url": "https://www.france24.com/en/dr-congo-receives-ebola-vaccines-in-face-of-exponential-outbreak",
-      "published_at": "2026-08-22T12:47:14Z",
-      "collected_at": "2026-08-22T14:00:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "1fc2d6ea2e35c977a26a9426",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1016,20 +1018,6 @@
       ]
     },
     {
-      "id": "0730a17803ad2f6fb81fdc7e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "More than 100 former French and UK diplomats urge action against Israeli settlement policies",
-      "url": "https://www.france24.com/en/middle-east/20260822-former-french-uk-diplomats-urge-governments-to-act-against-israeli-settlement-policies",
-      "published_at": "2026-08-22T09:47:11Z",
-      "collected_at": "2026-08-22T14:00:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "bc88f55635c75e6083b92f6b",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1041,6 +1029,34 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "ac29a239f1cf283ef2695530",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Ukraine's farmers struggle to sell harvest amid war, drought",
+      "url": "https://www.dw.com/en/ukraine-s-farmers-struggle-to-sell-harvest-amid-war-drought/a-78435344?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-21T13:51:00Z",
+      "collected_at": "2026-08-23T15:00:47Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "e8c4f5afa19d49185d5edfe6",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘A True Account of the Conquest of New Spain’: Chicanery, adventures and plunder recounted by a soldier-writer",
+      "url": "https://english.elpais.com/culture/2026-08-21/a-true-account-of-the-conquest-of-new-spain-chicanery-adventures-and-plunder-recounted-by-a-soldier-writer.html",
+      "published_at": "2026-08-21T13:14:46Z",
+      "collected_at": "2026-08-23T15:00:47Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -1069,6 +1085,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "a538756438d6065d9dbff558",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Domestic politics and impunity, not migration, is greatest threat to Schengen",
+      "url": "https://euobserver.com/233077/domestic-politics-and-impunity-not-migration-is-greatest-threat-to-schengen",
+      "published_at": "2026-08-21T13:01:12Z",
+      "collected_at": "2026-08-23T15:00:47Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -1296,48 +1326,6 @@
       ]
     },
     {
-      "id": "15f0f9c9c98441489463e1cf",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Irish alumina refinery is Russian Trojan Horse in EU sanctions",
-      "url": "https://euobserver.com/232888/irish-alumina-refinery-is-russian-trojan-horse-in-eu-sanctions",
-      "published_at": "2026-08-20T14:17:05Z",
-      "collected_at": "2026-08-22T14:30:43Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "fcf5d8a8c0ba171b20614a8f",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "EU raises alarm on election irregularities in Zambia, chief recipient of Global Gateway money",
-      "url": "https://euobserver.com/232985/eu-raises-alarm-on-election-irregularities-in-zambia-chief-recipient-of-global-gateway-money",
-      "published_at": "2026-08-20T14:10:21Z",
-      "collected_at": "2026-08-22T14:30:43Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "116d68e03c9c705014eb9b03",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Ukrainian spy chief predicts Putin’s plans: missile terrorism and Donbas meat-grinding (Ukraine Battlefield update, Day 1,638)",
-      "url": "https://euobserver.com/233005/ukrainian-spy-chief-predicts-putins-plans-missile-terrorism-and-donbas-meat-grinding-ukraine-battlefield-update-day-1638",
-      "published_at": "2026-08-20T14:06:11Z",
-      "collected_at": "2026-08-22T14:30:43Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "3ba3c5d7d995c8e19157cccc",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1352,13 +1340,13 @@
       ]
     },
     {
-      "id": "0d235b239314980f3fb68771",
+      "id": "4ac855a96e23fa855768d9c0",
       "source_id": "euobserver",
       "source_name": "EUobserver",
-      "title": "Putin takes aim at UK in anti-Nato game of fear",
-      "url": "https://euobserver.com/232926/putin-takes-aim-at-uk-in-anti-nato-game-of-fear",
-      "published_at": "2026-08-20T13:32:51Z",
-      "collected_at": "2026-08-22T14:30:43Z",
+      "title": "Ukraine using Slovak MiG-29s to destroy Russian bridges (Ukraine Battlefield update, Day 1,637)",
+      "url": "https://euobserver.com/232841/ukraine-using-slovak-mig-29s-to-destroy-russian-bridges-ukraine-battlefield-update-day-1637",
+      "published_at": "2026-08-19T13:51:18Z",
+      "collected_at": "2026-08-23T15:00:47Z",
       "topics": [
         "institutions",
         "policy",
@@ -1366,45 +1354,17 @@
       ]
     },
     {
-      "id": "319c7d39844a931ae4324624",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "German neo-Nazi suspected of deadly 1970 fire at Jewish retirement home",
-      "url": "https://www.bbc.co.uk/news/articles/c3r055g23qdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-20T13:04:15Z",
-      "collected_at": "2026-08-22T14:00:46Z",
+      "id": "01d00e57cdc145c1d0e3f54b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Paying for a concert with no view: Bruno Mars opens the debate on ‘audio-only’ tickets",
+      "url": "https://english.elpais.com/culture/2026-08-19/paying-for-a-concert-with-no-view-bruno-mars-opens-the-debate-on-audio-only-tickets.html",
+      "published_at": "2026-08-19T13:35:50Z",
+      "collected_at": "2026-08-23T15:00:47Z",
       "topics": [
-        "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "36ed2cdd3d751b5860cafd1e",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "'I feel I am imprisoning myself' - Djokovic on drive & doubts",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cy4k33x1yw4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-20T11:57:57Z",
-      "collected_at": "2026-08-22T14:30:43Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "821c5f2c75bbf4dd7ab47226",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Giant whales move into Greenland waters as ice disappears",
-      "url": "https://www.bbc.co.uk/news/articles/cq6dn9gj7eno?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-20T02:05:20Z",
-      "collected_at": "2026-08-22T14:00:46Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
+        "society",
+        "economy"
       ]
     },
     {
@@ -1590,27 +1550,13 @@
       ]
     },
     {
-      "id": "3f48f5a0a18114f8377d0bd3",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland “99% sure” fugitive opposition politician is in pro-Russian breakaway region of Moldova",
-      "url": "https://notesfrompoland.com/2026/08/18/poland-99-sure-fugitive-opposition-politician-is-in-pro-russian-breakaway-region-of-moldova",
-      "published_at": "2026-08-18T12:51:24Z",
-      "collected_at": "2026-08-22T14:30:43Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "e816a9e1e2af57800a358973",
+      "id": "e328f74861aff693a3a950cd",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
-      "title": "Belgium wildfire: Rains help High Fens containment efforts",
-      "url": "https://www.dw.com/en/belgium-wildfire-rains-help-high-fens-containment-efforts/a-78411972?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-18T12:38:00Z",
-      "collected_at": "2026-08-22T14:30:43Z",
+      "title": "Wildfires: Belgium battles blaze, France's Lecornu jeered",
+      "url": "https://www.dw.com/en/wildfires-belgium-battles-blaze-france-s-lecornu-jeered/a-78397186?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-17T12:55:00Z",
+      "collected_at": "2026-08-23T15:00:47Z",
       "topics": [
         "politics",
         "society",
@@ -1646,17 +1592,17 @@
       ]
     },
     {
-      "id": "e6b6a62c0e78f988bdac847d",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "BBC visits smouldering Kyiv market after Russian strikes",
-      "url": "https://www.bbc.co.uk/news/videos/c8dnn05e90lo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-16T12:18:09Z",
-      "collected_at": "2026-08-22T14:30:43Z",
+      "id": "79098421feb6db265581d3ee",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Why Kyiv keeps attacking Russian retail giant Wildberries",
+      "url": "https://www.dw.com/en/why-kyiv-keeps-attacking-russian-retail-giant-wildberries/a-78384605?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-16T15:45:00Z",
+      "collected_at": "2026-08-23T15:00:47Z",
       "topics": [
-        "breaking",
         "politics",
-        "society"
+        "society",
+        "security"
       ]
     },
     {
@@ -1786,20 +1732,6 @@
       ]
     },
     {
-      "id": "225aeb453f559f269fe79c48",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Can a giant Madonna help slow secularization in Poland?",
-      "url": "https://www.dw.com/en/can-a-giant-madonna-help-slow-secularization-in-poland/a-78369179?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-14T12:27:00Z",
-      "collected_at": "2026-08-22T14:30:43Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "98c49705f572575a64acab75",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1835,20 +1767,6 @@
       "url": "https://ecfr.eu/article/power-up-how-eu-africa-cooperation-can-drive-europes-battery-recycling-future",
       "published_at": "2026-08-10T13:01:28Z",
       "collected_at": "2026-08-22T17:00:47Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "63c8171dbaf4156fb4d52a7b",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Anti-corruption sanctions: Preparing for the time after Trump",
-      "url": "https://ecfr.eu/article/anti-corruption-sanctions-preparing-for-the-time-after-trump",
-      "published_at": "2026-08-10T10:44:08Z",
-      "collected_at": "2026-08-22T14:30:43Z",
       "topics": [
         "analysis",
         "foreign_policy",
@@ -1912,6 +1830,20 @@
       ]
     },
     {
+      "id": "0a673a6cb0e79a521041a232",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Ric Prado, ex-CIA officer: ‘Cuba is the next apple to fall from the tree’",
+      "url": "https://english.elpais.com/international/2026-08-05/ric-prado-ex-cia-officer-cuba-is-the-next-apple-to-fall-from-the-tree.html",
+      "published_at": "2026-08-05T10:09:29Z",
+      "collected_at": "2026-08-23T15:00:47Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "98bb24d9e539807a0dfdf59e",
       "source_id": "ecfr",
       "source_name": "European Council on Foreign Relations",
@@ -1947,6 +1879,20 @@
       "url": "https://ecfr.eu/article/how-the-split-on-polands-right-may-threaten-its-pro-european-camp",
       "published_at": "2026-07-31T09:32:21Z",
       "collected_at": "2026-08-22T17:00:47Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "ecf6e0b722c2ac5f311ee26a",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "NATO’s digital arsenal: How Europe can avoid a new dependence on America",
+      "url": "https://ecfr.eu/article/natos-digital-arsenal-how-europe-can-avoid-a-new-dependence-on-america",
+      "published_at": "2026-07-29T14:48:16Z",
+      "collected_at": "2026-08-23T15:00:47Z",
       "topics": [
         "analysis",
         "foreign_policy",
