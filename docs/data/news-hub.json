@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-23T05:30:40Z",
-  "last_successful_collection_at": "2026-08-23T05:30:40Z",
+  "generated_at": "2026-08-23T06:00:45Z",
+  "last_successful_collection_at": "2026-08-23T06:00:45Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-23T05:30:40Z"
+      "at": "2026-08-23T06:00:45Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-23T05:30:40Z"
+      "at": "2026-08-23T06:00:45Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "23",
-      "at": "2026-08-23T05:30:40Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-23T06:00:45Z"
     },
     {
       "id": "euractiv",
@@ -29,48 +29,130 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-23T05:30:40Z"
+      "at": "2026-08-23T06:00:45Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-23T05:30:40Z"
+      "at": "2026-08-23T06:00:45Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-23T05:30:40Z"
+      "at": "2026-08-23T06:00:45Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-23T05:30:40Z"
+      "at": "2026-08-23T06:00:45Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-23T05:30:40Z"
+      "at": "2026-08-23T06:00:45Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-23T05:30:40Z"
+      "at": "2026-08-23T06:00:45Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian double‑tap drone strike kills 15 in Ukrainian mall",
-      "summary": "Russian forces carried out a coordinated double‑tap drone strike on a Ukrainian shopping centre, killing at least 15 civilians and prompting rescue crews to dig through the wreckage. President Zelensky condemned the attack as despicable.",
+      "title": "France to ramp up Ukraine support, says Macron",
+      "summary": "France plans to ramp up support for Ukraine. Macron made the announcement.",
       "article_ids": [
-        "ce0e48606110f73e3fc5981b",
-        "02587beb9df3a7611e1dff46",
-        "5507e045eb9fa9990c9f688d"
+        "cbef172c863f1215124e39c1"
       ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/france-to-ramp-up-ukraine-support-says-emmanuel-macron",
+          "headline": "France to ramp up Ukraine support, says Macron",
+          "published_at": "2026-08-22T14:30:38Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Kazakhstan's future after the elections: Russia, EU or China",
+      "summary": "Kazakhstan's future after the elections will shape its geopolitical alignment. The outcome may determine the country's relationship with Russia, EU, or China.",
+      "article_ids": [
+        "6581da8244d9a511d62d1cb2"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/kazakhstan-s-future-after-the-elections-russia-eu-or-china/a-78449637?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Kazakhstan's future after the elections: Russia, EU or China",
+          "published_at": "2026-08-22T14:42:00Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Spain battles forest fire a short drive from flash flood",
+      "summary": "Spain is battling a forest fire. The fire is located a short drive from a flash flood risk.",
+      "article_ids": [
+        "2edae41f4df981d3bd48a8f3"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/spain-battles-forest-fire-a-short-drive-from-flash-flood/a-78469115?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Spain battles forest fire a short drive from flash flood",
+          "published_at": "2026-08-22T14:35:00Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "France to deliver interceptor missiles to Ukraine after fresh wave of Russian strikes",
+      "summary": "France pledges to deliver interceptor missiles to Ukraine. The decision comes after a fresh wave of Russian strikes.",
+      "article_ids": [
+        "95d4a30d9e83fb401642a93a"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-to-deliver-interceptor-missiles-to-ukraine-after-fresh-wave-of-russian-strikes",
+          "headline": "France to deliver interceptor missiles to Ukraine after fresh wave of Russian strikes",
+          "published_at": "2026-08-22T13:26:28Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Fontainebleau forest near Paris reopens after devastating wildfire",
+      "summary": "The Fontainebleau forest near Paris reopens after a devastating wildfire. The reopening follows the wildfire.",
+      "article_ids": [
+        "7e10835ef4394d7df05dd66c"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20260822-fontainebleau-forest-reopens-after-devastating-wildfire",
+          "headline": "Fontainebleau forest near Paris reopens after devastating wildfire",
+          "published_at": "2026-08-22T15:57:29Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
+    {
+      "label": "Russian · strike · Ukraine · drones",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 9,
+      "latest_at": "2026-08-22T12:36:28Z",
       "sources": [
         {
           "publisher": "BBC News Europe",
@@ -79,73 +161,13 @@
           "published_at": "2026-08-22T12:36:28Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' strike",
-          "published_at": "2026-08-22T10:01:22Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "France pledges interceptor missiles to Ukraine amid escalating Russian strikes",
-      "summary": "France announced it will deliver interceptor missiles to Ukraine following a fresh wave of Russian strikes on civilian targets. The move is part of a broader European effort to bolster Ukraine's air defence capabilities.",
-      "article_ids": [
-        "95d4a30d9e83fb401642a93a",
-        "cbef172c863f1215124e39c1"
-      ],
-      "sources": [
-        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-to-deliver-interceptor-missiles-to-ukraine-after-fresh-wave-of-russian-strikes",
-          "headline": "France to deliver interceptor missiles to Ukraine after fresh wave of Russian strikes",
-          "published_at": "2026-08-22T13:26:28Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/france-to-ramp-up-ukraine-support-says-emmanuel-macron",
-          "headline": "France to ramp up Ukraine support, says Macron",
-          "published_at": "2026-08-22T14:30:38Z"
+          "url": "https://www.france24.com/en/children-among-wounded-in-zelensky-s-hometown-struck-by-russian-drones",
+          "headline": "Children among wounded in Zelensky's hometown, struck by Russian drones",
+          "published_at": "2026-08-22T09:38:57Z"
         }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "European diplomatic pressure mounts over Israeli settlement expansion",
-      "summary": "More than 100 senior diplomats called for action against Israeli settlement policies in the West Bank, accusing Israel of ethnic cleansing. The appeal adds to diplomatic pressure on European governments regarding the occupied territories.",
-      "article_ids": [
-        "e8a2e066993495b4358cf72a"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/102-senior-diplomats-urge-west-bank-action-against-israeli-ethnic-cleansing",
-          "headline": "102 senior diplomats urge West Bank action against Israeli 'ethnic cleansing'",
-          "published_at": "2026-08-22T14:50:57Z"
-        }
-      ],
-      "source_count": 1
+      ]
     },
-    {
-      "title": "German airplane crashes in Croatia, killing two",
-      "summary": "A small German airplane crashed in Croatia, killing two people. The incident has raised questions about regional air traffic safety and maintenance standards.",
-      "article_ids": [
-        "b6dbe2a255c984b059a83d29"
-      ],
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/small-german-airplane-crashes-in-croatia-killing-2/a-78467649?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Small German airplane crashes in Croatia, killing 2",
-          "published_at": "2026-08-22T09:34:00Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
     {
       "label": "accuse · ambassadors · cleansing · ethnic",
       "origin": "radar",
@@ -158,21 +180,6 @@
           "url": "https://www.france24.com/en/100-uk-french-ex-ambassadors-accuse-israel-of-ethnic-cleansing-in-open-letter",
           "headline": "100 UK, French ex-ambassadors accuse Israel of ethnic cleansing in open letter",
           "published_at": "2026-08-22T12:32:42Z"
-        }
-      ]
-    },
-    {
-      "label": "Fontainebleau · forest · reopens",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 2,
-      "latest_at": "2026-08-22T15:57:29Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260822-fontainebleau-forest-reopens-after-devastating-wildfire",
-          "headline": "Fontainebleau forest near Paris reopens after devastating wildfire",
-          "published_at": "2026-08-22T15:57:29Z"
         }
       ]
     },
@@ -192,22 +199,162 @@
       ]
     },
     {
-      "label": "hometown · killing · people · Russian",
+      "label": "detained · evidence · filmmakers · French",
       "origin": "radar",
       "source_count": 1,
       "item_count": 1,
-      "latest_at": "2026-08-22T09:08:13Z",
+      "latest_at": "2026-08-22T19:05:17Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/russian-strikes-zelensky-s-hometown-in-ukraine-killing-15-people-wounding-130",
-          "headline": "Russian strikes Zelensky's hometown in Ukraine, killing 15 people, wounding 130",
-          "published_at": "2026-08-22T09:08:13Z"
+          "url": "https://www.france24.com/en/africa/20260822-togo-says-it-has-serious-evidence-against-detained-french-filmmakers",
+          "headline": "Togo says it has 'serious' evidence against detained French filmmakers",
+          "published_at": "2026-08-22T19:05:17Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "fc8a40f5d1173705ffbe6397",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Ukraine: Could ex-defense minister challenge Zelenskyy?",
+      "url": "https://www.dw.com/en/ukraine-could-ex-defense-minister-challenge-zelenskyy/a-78469496?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-23T05:46:00Z",
+      "collected_at": "2026-08-23T06:00:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "b7b767ea1c585c91583ff28a",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Cuba was never ‘next’: The United States is betting on a slow suffocation of the Castro regime by 2029",
+      "url": "https://english.elpais.com/international/2026-08-23/cuba-was-never-next-the-united-states-is-betting-on-a-slow-suffocation-of-the-castro-regime-by-2029.html",
+      "published_at": "2026-08-23T05:00:00Z",
+      "collected_at": "2026-08-23T06:00:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "6c4da13e9cc5c6f3a746e12a",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Carl Wunsch, oceanographer: ‘The consequences of Trump are terrible. Funding is denied because, apparently, all of our research is a hoax’",
+      "url": "https://english.elpais.com/climate/2026-08-23/carl-wunsch-oceanographer-the-consequences-of-trump-are-terrible-funding-is-denied-because-apparently-all-of-our-research-is-a-hoax.html",
+      "published_at": "2026-08-23T05:00:00Z",
+      "collected_at": "2026-08-23T06:00:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "2cf97fbf36e7d417798abe52",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The new energy war in the Eastern Mediterranean (and why Egypt and Turkey stand to gain)",
+      "url": "https://english.elpais.com/economy-and-business/2026-08-23/the-new-energy-war-in-the-eastern-mediterranean-and-why-egypt-and-turkey-stand-to-gain.html",
+      "published_at": "2026-08-23T05:00:00Z",
+      "collected_at": "2026-08-23T06:00:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "9065585b0f68df73f592e377",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "China does not want its internet users to fall in love with an artificial intelligence",
+      "url": "https://english.elpais.com/technology/2026-08-23/china-does-not-want-its-internet-users-to-fall-in-love-with-an-artificial-intelligence.html",
+      "published_at": "2026-08-23T05:00:00Z",
+      "collected_at": "2026-08-23T06:00:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "6ca28b924964a9eb1b58f0de",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Enrique Serna, author: ‘As a child, I had nightmares about being taken to the sacrificial stone’",
+      "url": "https://english.elpais.com/culture/2026-08-23/enrique-serna-author-as-a-child-i-had-nightmares-about-being-taken-to-the-sacrificial-stone.html",
+      "published_at": "2026-08-23T05:00:00Z",
+      "collected_at": "2026-08-23T06:00:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "ef8e26a40014f3c0e93d2821",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Marion Cotillard: ‘Losing interest in climate change is totally crazy’",
+      "url": "https://english.elpais.com/people/2026-08-23/marion-cotillard-losing-interest-in-climate-change-is-totally-crazy.html",
+      "published_at": "2026-08-23T05:00:00Z",
+      "collected_at": "2026-08-23T06:00:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "b3faf59f1b9d6d0a04988f55",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Is it time to abolish prostitution?",
+      "url": "https://english.elpais.com/society/2026-08-23/is-it-time-to-abolish-prostitution.html",
+      "published_at": "2026-08-23T05:00:00Z",
+      "collected_at": "2026-08-23T06:00:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "4c43531c8c591e6886355731",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Summer postcards: When John Kennedy Jr. took to the sea",
+      "url": "https://english.elpais.com/people/2026-08-23/summer-postcards-when-john-kennedy-jr-took-to-the-sea.html",
+      "published_at": "2026-08-23T05:00:00Z",
+      "collected_at": "2026-08-23T06:00:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "173011c4b0c3e02ee957769b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "From endless scrolling to going back to an ex: Why we keep doing things we know aren’t good for us",
+      "url": "https://english.elpais.com/lifestyle/2026-08-23/from-endless-scrolling-to-going-back-to-an-ex-why-we-keep-doing-things-we-know-arent-good-for-us.html",
+      "published_at": "2026-08-23T05:00:00Z",
+      "collected_at": "2026-08-23T06:00:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "989d3ca2a48cac4a09da9313",
       "source_id": "bbc_europe",
@@ -867,34 +1014,6 @@
       ]
     },
     {
-      "id": "557ea8c38fb23b57905ea577",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "US ambassador to Belgium defends controversial academic who scrutinized late Cambridge professor",
-      "url": "https://www.politico.com/news/2026/08/21/us-ambassador-to-belgium-defends-controversial-academic-who-scrutinized-late-cambridge-professor-01046267",
-      "published_at": "2026-08-22T05:10:28Z",
-      "collected_at": "2026-08-22T05:30:43Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "e95876c25f622925c164ba49",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Carney says Canada will match US tariffs 'dollar for dollar' after failed trade negotiations",
-      "url": "https://www.france24.com/en/americas/20260822-carney-says-canada-will-match-us-tariffs-dollar-for-dollar-after-failed-trade-negotiations",
-      "published_at": "2026-08-22T04:29:13Z",
-      "collected_at": "2026-08-22T05:30:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "bed6d4773eca92215a4d15f1",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1231,20 +1350,6 @@
       ]
     },
     {
-      "id": "a17ef473137d367afc8e37ca",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Amnesty demands EU stops ‘outsourcing asylum’ and accuses Meloni of authoritarian tricks to push Albania deal",
-      "url": "https://euobserver.com/232860/amnesty-demands-eu-stops-outsourcing-asylum-and-accuses-meloni-of-authoritarian-tricks-to-push-albania-deal",
-      "published_at": "2026-08-20T05:00:00Z",
-      "collected_at": "2026-08-22T05:30:43Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "821c5f2c75bbf4dd7ab47226",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1494,48 +1599,6 @@
         "central_europe",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "3605b8c18c1b9882640aa194",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "No more photos, profiles, or matches: In the future of dating apps, AI will choose your partner",
-      "url": "https://english.elpais.com/lifestyle/2026-08-16/no-more-photos-profiles-or-matches-in-the-future-of-dating-apps-ai-will-choose-your-partner.html",
-      "published_at": "2026-08-16T04:00:00Z",
-      "collected_at": "2026-08-22T05:30:43Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "790f049c373cd3308e9a530e",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Las Ketchup, the Spanish girl group: ‘We were very badly advised. Nobody cared that our bodies ached’",
-      "url": "https://english.elpais.com/culture/2026-08-16/las-ketchup-the-spanish-girl-group-we-were-very-badly-advised-nobody-cared-that-our-bodies-ached.html",
-      "published_at": "2026-08-16T04:00:00Z",
-      "collected_at": "2026-08-22T05:30:43Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "b0f4c63d62c42695670cbd0c",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘The Eiffel Tower is a suppository riddled with holes’: When great monuments aren’t to everyone’s liking",
-      "url": "https://english.elpais.com/culture/2026-08-16/the-eiffel-tower-is-a-suppository-riddled-with-holes-when-great-monuments-arent-to-everyones-liking.html",
-      "published_at": "2026-08-16T04:00:00Z",
-      "collected_at": "2026-08-22T05:30:43Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
