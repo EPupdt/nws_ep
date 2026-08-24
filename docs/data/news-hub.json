@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-24T04:00:51Z",
-  "last_successful_collection_at": "2026-08-24T04:00:51Z",
+  "generated_at": "2026-08-24T04:30:42Z",
+  "last_successful_collection_at": "2026-08-24T04:30:42Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-24T04:00:51Z"
+      "at": "2026-08-24T04:30:42Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "27",
-      "at": "2026-08-24T04:00:51Z"
+      "at": "2026-08-24T04:30:42Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-08-24T04:00:51Z"
+      "at": "2026-08-24T04:30:42Z"
     },
     {
       "id": "euractiv",
@@ -29,53 +29,54 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-24T04:00:51Z"
+      "at": "2026-08-24T04:30:42Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-24T04:00:51Z"
+      "at": "2026-08-24T04:30:42Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-24T04:00:51Z"
+      "at": "2026-08-24T04:30:42Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-24T04:00:51Z"
+      "at": "2026-08-24T04:30:42Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-24T04:00:51Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-24T04:30:42Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-24T04:00:51Z"
+      "at": "2026-08-24T04:30:42Z"
     }
   ],
   "europe_now": [
     {
       "title": "France pledges interceptor missiles to Ukraine amid escalating Russian strikes",
-      "summary": "France has committed to delivering interceptor missiles to Ukraine as part of its response to intensified Russian military actions. This follows reports of increased civilian casualties from Russian strikes.",
+      "summary": "France has committed to delivering interceptor missiles to Ukraine in response to intensified Russian attacks on civilian targets, aiming to bolster defensive capabilities.",
       "article_ids": [
-        "c38a08e92a19068e348d0af3",
-        "ce8ca1ccda3367830513b580"
+        "52beb837ad6e7e1bf1cbf4ce",
+        "9c374e87e0a383d802b55edc",
+        "1a1f767b86f3f2ce8c92a268"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/ukraine-widens-its-targets-and-its-tolerance-for-civilian-casualties",
-          "headline": "Ukraine widens its targets — and its tolerance for civilian casualties",
-          "published_at": "2026-08-24T02:01:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/president-zelensky-says-having-elections-in-ukraine-would-destroy-the-country",
+          "headline": "President Zelensky says having elections in Ukraine would 'destroy the country'",
+          "published_at": "2026-08-23T13:07:13Z"
         }
       ],
       "source_count": 1
@@ -132,6 +133,27 @@
       ]
     },
     {
+      "label": "civilian · Ukraine",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-24T02:01:00Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ukraine-widens-its-targets-and-its-tolerance-for-civilian-casualties",
+          "headline": "Ukraine widens its targets — and its tolerance for civilian casualties",
+          "published_at": "2026-08-24T02:01:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ukraine-zelensky-asks-for-more-patriot-interceptors-as-civilian-deaths-hit-highest-level-since-2022",
+          "headline": "Ukraine: Zelensky asks for more Patriot interceptors as civilian deaths hit highest level since 2022",
+          "published_at": "2026-08-23T09:05:59Z"
+        }
+      ]
+    },
+    {
       "label": "president · US",
       "origin": "convergence",
       "source_count": 2,
@@ -151,30 +173,37 @@
           "published_at": "2026-08-23T09:23:01Z"
         }
       ]
-    },
-    {
-      "label": "Ukraine · war",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-23T14:42:00Z",
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/could-russia-s-growing-fuel-crisis-help-end-the-ukraine-war/a-78472138?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Could Russia's growing fuel crisis help end the Ukraine war?",
-          "published_at": "2026-08-23T14:42:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/science/20260823-the-week-in-pictures-frenchwoman-space-nasa-wildfires-europe-war-ukraine",
-          "headline": "The week in pictures: a French woman in space, wildfires in Europe and the war in Ukraine",
-          "published_at": "2026-08-23T13:09:15Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "3773d96034cd7c259d664fe9",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "What Ukraine needs to survive another winter",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/what-ukraine-needs-to-survive-another-winter",
+      "published_at": "2026-08-24T04:05:00Z",
+      "collected_at": "2026-08-24T04:30:42Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "d08b12054363fc00bb4fe791",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "The shipping industry profits from conflict and looks East",
+      "url": "https://www.politico.eu/sponsored-content/the-shipping-industry-profits-from-conflict-and-looks-east",
+      "published_at": "2026-08-24T04:00:00Z",
+      "collected_at": "2026-08-24T04:30:42Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "c375cbb239f1c37a59bab6cd",
       "source_id": "politico_europe",
