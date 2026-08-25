@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-25T07:00:51Z",
-  "last_successful_collection_at": "2026-08-25T07:00:51Z",
+  "generated_at": "2026-08-25T07:30:45Z",
+  "last_successful_collection_at": "2026-08-25T07:30:45Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-25T07:00:51Z"
+      "at": "2026-08-25T07:30:45Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-08-25T07:00:51Z"
+      "at": "2026-08-25T07:30:45Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-08-25T07:00:51Z"
+      "at": "2026-08-25T07:30:45Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,117 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-25T07:00:51Z"
+      "at": "2026-08-25T07:30:45Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-25T07:00:51Z"
+      "at": "2026-08-25T07:30:45Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-25T07:00:51Z"
+      "at": "2026-08-25T07:30:45Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-25T07:00:51Z"
+      "at": "2026-08-25T07:30:45Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-25T07:00:51Z"
+      "at": "2026-08-25T07:30:45Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-25T07:00:51Z"
+      "at": "2026-08-25T07:30:45Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Spain’s Sánchez calls national security meeting 26 days into Ceuta migration crisis",
-      "summary": "Prime Minister Pedro Sánchez convened a national security meeting after 26 days of heightened pressure on Ceuta's migrant situation. The gathering aims to coordinate a response to the ongoing migration pressure at the Spanish enclave.",
+      "title": "Tornado strikes French village causing injuries and damage",
+      "summary": "A tornado swept through a village in southern France, injuring dozens and damaging homes. The event left many residents without shelter and prompted emergency response.",
+      "article_ids": [
+        "e64f0b744431b3bcc4af45ad",
+        "0e76fd1edeb22e63ab72e160",
+        "153bf7fecdc0438c61d54267",
+        "9a164e6acd31d4cba98a5110"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c0m3npvpgdno?at_medium=RSS&at_campaign=rss",
+          "headline": "Tornado tears through French village, leaving dozens hurt and homes ravaged",
+          "published_at": "2026-08-25T07:13:43Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20260824-tornado-devastates-village-southwestern-france-aude-region",
+          "headline": "Tornado devastates village in southwestern France’s Aude region",
+          "published_at": "2026-08-24T22:16:12Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Ukraine faces significant defense funding gap as Western aid delays",
+      "summary": "Western deliveries of military aid to Ukraine have fallen short, leaving a funding gap of approximately twenty‑three billion euros. This shortfall threatens the country’s ability to sustain its defense operations.",
+      "article_ids": [
+        "931285d0cf09a06291adaf86",
+        "6249e18ff1398c56f545388a"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ukraine-e23-billion-defense-funding-gap-russia-war",
+          "headline": "Ukraine faces €23B defense funding hole as Western cash comes too slow",
+          "published_at": "2026-08-24T15:27:38Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ukraine-e23-billion-defense-funding-gap-russia-war",
+          "headline": "Ukraine faces €23B defense funding hole as Western cash lags",
+          "published_at": "2026-08-24T15:27:38Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "France and Saudi Arabia expand bilateral cooperation",
+      "summary": "France and Saudi Arabia have agreed to deepen ties across sectors such as defense, energy, and culture. As part of the agreement, Saudi Arabia has pledged six billion euros for a theme park project near Paris.",
+      "article_ids": [
+        "478ea1883ddc56355d58c923",
+        "959e1778e2849e724e85c664",
+        "830e2dc71e7bda3321d0f6e4"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260824-saudi-arabia-to-invest-%E2%82%AC6-billion-theme-parks-near-paris-macron-says",
+          "headline": "Saudi Arabia to invest €6 billion in theme parks near Paris, Macron says",
+          "published_at": "2026-08-24T18:13:11Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/saudi-arabia-to-invest-e6b-in-massive-french-theme-park-site",
+          "headline": "Saudi Arabia to invest €6B in massive French theme park site",
+          "published_at": "2026-08-24T18:46:55Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Spain convenes security meeting over Ceuta migrant situation",
+      "summary": "Spanish authorities called a national security meeting to address the ongoing migrant pressure in Ceuta. The meeting occurred twenty‑six days after the crisis began and aims to coordinate border and humanitarian measures.",
       "article_ids": [
         "7724364e96ba39268c85c0ce"
       ],
@@ -80,36 +154,35 @@
       "source_count": 1
     },
     {
-      "title": "EU firefighter cuts due to deficit rules",
-      "summary": "EU member states are reducing firefighter staffing because of strict deficit rules. The cuts could impair wildfire response across the continent.",
+      "title": "Poland implements regulation recognising foreign same-sex marriages",
+      "summary": "Poland has brought into force a regulation that recognises same‑sex marriages performed abroad. The measure allows foreign‑married same‑sex couples to have their unions acknowledged under Polish law.",
       "article_ids": [
-        "d0e821362fe31902b483c672"
+        "126e42029b583bcb7bf4cedd"
       ],
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/233242/as-europe-burns-member-states-are-actually-slashing-the-number-of-fire-fighters-thanks-to-eu-deficit-rules",
-          "headline": "As Europe burns, member states are actually slashing the number of fire-fighters – thanks to EU deficit rules",
-          "published_at": "2026-08-24T14:28:35Z"
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/08/24/regulation-on-recognising-foreign-same-sex-marriages-comes-into-force-in-poland",
+          "headline": "Regulation on recognising foreign same-sex marriages comes into force in Poland",
+          "published_at": "2026-08-24T15:18:49Z"
         }
       ],
       "source_count": 1
     }
   ],
-  "top_stories": [],
   "developing": [
     {
-      "label": "Canada · trade · tariffs · Trump",
+      "label": "trade · Canada · Trump · tariffs",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 5,
-      "latest_at": "2026-08-24T23:07:11Z",
+      "item_count": 7,
+      "latest_at": "2026-08-25T07:21:46Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/live-news/20260824-how-the-french-language-contributed-to-the-us-canada-trade-war",
-          "headline": "How the French language contributed to the US-Canada trade war",
-          "published_at": "2026-08-24T23:07:11Z"
+          "url": "https://www.france24.com/en/americas/20260825-what-to-know-about-trump-s-tariffs-on-canadian-goods-as-neigbours-spiral-into-trade-war",
+          "headline": "What to know about Trump's tariffs on Canada and the escalating trade war",
+          "published_at": "2026-08-25T07:21:46Z"
         },
         {
           "publisher": "POLITICO Europe",
@@ -119,30 +192,9 @@
         },
         {
           "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-08-24/when-the-killer-is-also-a-victim-the-trial-of-lindsay-clancy-fuels-us-culture-war.html",
-          "headline": "When the killer is also a victim: The trial of Lindsay Clancy fuels US culture war",
-          "published_at": "2026-08-24T09:35:11Z"
-        }
-      ]
-    },
-    {
-      "label": "Arabia · Saudi · France · talks",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-08-24T18:46:55Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/saudi-arabia-to-invest-e6b-in-massive-french-theme-park-site",
-          "headline": "Saudi Arabia to invest €6B in massive French theme park site",
-          "published_at": "2026-08-24T18:46:55Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-and-saudi-arabia-hold-talks-ranging-from-middle-east-to-esports",
-          "headline": "France and Saudi Arabia hold talks ranging from Middle East to esports",
-          "published_at": "2026-08-24T10:03:01Z"
+          "url": "https://english.elpais.com/usa/2026-08-24/stephen-colberts-late-night-successor-trades-trump-satire-for-harmless-jokes.html",
+          "headline": "Stephen Colbert’s late-night successor trades Trump satire for harmless jokes",
+          "published_at": "2026-08-24T10:05:20Z"
         }
       ]
     },
@@ -187,9 +239,72 @@
           "published_at": "2026-08-24T15:14:14Z"
         }
       ]
+    },
+    {
+      "label": "Burnham · Russia",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-24T17:00:17Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/british-prime-minister-andy-burnham-ukraine-ups-ante-against-russia",
+          "headline": "Burnham ups the ante in fight against Russia — and leaves Merz in the shade",
+          "published_at": "2026-08-24T17:00:17Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
+          "headline": "Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
+          "published_at": "2026-08-24T14:31:08Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "89d038d46a4bdd192f4fb1bf",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland’s Mesko signs €1.9bn deal to supply Piorun air-defence systems to four NATO countries",
+      "url": "https://notesfrompoland.com/2026/08/25/polands-mesko-signs-e1-9bn-deal-to-supply-piorun-air-defence-systems-to-four-nato-countries",
+      "published_at": "2026-08-25T07:29:32Z",
+      "collected_at": "2026-08-25T07:30:45Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "a67ffe5a829b17b63511e12d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "What to know about Trump's tariffs on Canada and the escalating trade war",
+      "url": "https://www.france24.com/en/americas/20260825-what-to-know-about-trump-s-tariffs-on-canadian-goods-as-neigbours-spiral-into-trade-war",
+      "published_at": "2026-08-25T07:21:46Z",
+      "collected_at": "2026-08-25T07:30:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e64f0b744431b3bcc4af45ad",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Tornado tears through French village, leaving dozens hurt and homes ravaged",
+      "url": "https://www.bbc.co.uk/news/articles/c0m3npvpgdno?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-25T07:13:43Z",
+      "collected_at": "2026-08-25T07:30:45Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "e6131fc4f0310c2a46b63d45",
       "source_id": "bbc_europe",
@@ -338,6 +453,20 @@
       "url": "https://www.france24.com/en/live-news/20260824-how-the-french-language-contributed-to-the-us-canada-trade-war",
       "published_at": "2026-08-24T23:07:11Z",
       "collected_at": "2026-08-25T07:00:51Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "6a9d8ec4da2f69022762b81a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "How the French language contributed to the US-Canada trade war",
+      "url": "https://www.france24.com/en/americas/20260824-how-the-french-language-contributed-to-the-us-canada-trade-war",
+      "published_at": "2026-08-24T23:07:11Z",
+      "collected_at": "2026-08-25T07:30:45Z",
       "topics": [
         "politics",
         "security",
@@ -1563,20 +1692,6 @@
       ]
     },
     {
-      "id": "d213222f8ea96277e5f3fbb2",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Syria says US-mediated talks addressed de-escalation, staying out of Israel-Turkey tensions",
-      "url": "https://www.france24.com/en/middle-east/20260823-syria-says-us-mediated-talks-with-israel-addressed-de-escalation",
-      "published_at": "2026-08-23T22:39:10Z",
-      "collected_at": "2026-08-24T07:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "c9d4b0fb3b8c6a9bfbc88418",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2095,20 +2210,6 @@
       ]
     },
     {
-      "id": "151866f618aa64c605675c4c",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Captured Ukrainian-born soldiers tell BBC why they fought for Russia",
-      "url": "https://www.bbc.co.uk/news/articles/cn9nr195drzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-20T05:01:24Z",
-      "collected_at": "2026-08-24T07:30:42Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "821c5f2c75bbf4dd7ab47226",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2403,20 +2504,6 @@
       ]
     },
     {
-      "id": "cd677a7ede6c858dbdacf665",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Political crisis in Germany",
-      "url": "https://ecfr.eu/podcasts/episode/political-crisis-in-germany",
-      "published_at": "2026-08-14T05:00:00Z",
-      "collected_at": "2026-08-24T07:30:42Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
       "id": "5a140f3b915d5c7195461289",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2689,20 +2776,6 @@
       "title": "The magnificent ten: A coalition of the willing to drive the EU’s next enlargement",
       "url": "https://ecfr.eu/publication/the-magnificent-ten-a-coalition-of-the-willing-to-drive-the-eus-next-enlargement",
       "published_at": "2026-07-23T14:16:18Z",
-      "collected_at": "2026-08-25T07:00:51Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "2c956b13fa6c84b7b8d93f9a",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "One foot out: Understanding Bulgaria’s geopolitical shift under Radev",
-      "url": "https://ecfr.eu/article/one-foot-out-understanding-bulgarias-geopolitical-shift-under-radev",
-      "published_at": "2026-07-23T13:51:12Z",
       "collected_at": "2026-08-25T07:00:51Z",
       "topics": [
         "analysis",
