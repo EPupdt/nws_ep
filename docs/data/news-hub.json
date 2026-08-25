@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-25T08:00:44Z",
-  "last_successful_collection_at": "2026-08-25T08:00:44Z",
+  "generated_at": "2026-08-25T08:30:38Z",
+  "last_successful_collection_at": "2026-08-25T08:30:38Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-25T08:00:44Z"
+      "at": "2026-08-25T08:30:38Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-08-25T08:00:44Z"
+      "at": "2026-08-25T08:30:38Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "23",
-      "at": "2026-08-25T08:00:44Z"
+      "status": "error",
+      "detail": "<unknown>:10:92: not well-formed (invalid token)",
+      "at": "2026-08-25T08:30:38Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-25T08:00:44Z"
+      "at": "2026-08-25T08:30:38Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-25T08:00:44Z"
+      "at": "2026-08-25T08:30:38Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-25T08:00:44Z"
+      "at": "2026-08-25T08:30:38Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-25T08:00:44Z"
+      "at": "2026-08-25T08:30:38Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-25T08:00:44Z"
+      "at": "2026-08-25T08:30:38Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-25T08:00:44Z"
+      "at": "2026-08-25T08:30:38Z"
     }
   ],
   "europe_now": [
@@ -199,6 +199,33 @@
       ]
     },
     {
+      "label": "EU · costs · Europe",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-08-25T04:00:00Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-climate-adaptation-spending-wopke-hoekstra-wildfires-heat-waves",
+          "headline": "Europe must spend billions now or face mounting climate disaster costs, EU warns",
+          "published_at": "2026-08-25T04:00:00Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/233242/as-europe-burns-member-states-are-actually-slashing-the-number-of-fire-fighters-thanks-to-eu-deficit-rules",
+          "headline": "As Europe burns, member states are actually slashing the number of fire-fighters – thanks to EU deficit rules",
+          "published_at": "2026-08-24T14:28:35Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-08-24/high-cost-of-living-moves-worlds-most-expensive-country-closer-to-the-eu.html",
+          "headline": "High cost of living moves world’s most expensive country closer to the EU",
+          "published_at": "2026-08-24T14:05:50Z"
+        }
+      ]
+    },
+    {
       "label": "Iran · unveils · economic · expanded",
       "origin": "convergence",
       "source_count": 2,
@@ -237,27 +264,6 @@
           "url": "https://www.bbc.co.uk/news/videos/cx2znjly4dno?at_medium=RSS&at_campaign=rss",
           "headline": "Is UK's Storm Shadow missile a game changer for Ukraine?",
           "published_at": "2026-08-24T15:14:14Z"
-        }
-      ]
-    },
-    {
-      "label": "Burnham · Russia",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-24T17:00:17Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/british-prime-minister-andy-burnham-ukraine-ups-ante-against-russia",
-          "headline": "Burnham ups the ante in fight against Russia — and leaves Merz in the shade",
-          "published_at": "2026-08-24T17:00:17Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
-          "headline": "Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
-          "published_at": "2026-08-24T14:31:08Z"
         }
       ]
     }
@@ -341,6 +347,20 @@
       "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/costa-tours-the-capitals-while-merz-rallies-the-penny-pinchers",
       "published_at": "2026-08-25T04:05:00Z",
       "collected_at": "2026-08-25T04:30:43Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "5ff5a97fa781b22d6df0538a",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Europe must spend billions now or face mounting climate disaster costs, EU warns",
+      "url": "https://www.politico.eu/article/eu-climate-adaptation-spending-wopke-hoekstra-wildfires-heat-waves",
+      "published_at": "2026-08-25T04:00:00Z",
+      "collected_at": "2026-08-25T08:30:38Z",
       "topics": [
         "institutions",
         "politics",
@@ -1622,20 +1642,6 @@
       ]
     },
     {
-      "id": "e12efac4a9d7e5c9aeb47e52",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Sam and Anne’s guide to the term ahead",
-      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/sam-and-annes-guide-to-the-term-ahead",
-      "published_at": "2026-08-24T07:41:44Z",
-      "collected_at": "2026-08-24T08:00:51Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "8577d896828984e2dc280e77",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1647,20 +1653,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "84fde302b704336fe39763fb",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: Ukraine backers gather as Russian missile attacks escalate and air defences run low",
-      "url": "https://www.france24.com/en/europe/20260824-live-ukraine-backers-gather-as-russian-attacks-escalate-air-defence-runs-low",
-      "published_at": "2026-08-24T04:50:32Z",
-      "collected_at": "2026-08-24T08:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -1703,48 +1695,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "e253ecb6071377793e7130bf",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "UEFA chief Ceferin calls for Infantino to quit but rules out replacing him",
-      "url": "https://www.france24.com/en/sport/20260824-uefa-chief-ceferin-calls-for-infantino-to-quit-but-not-interested-in-replacing-him",
-      "published_at": "2026-08-24T03:19:11Z",
-      "collected_at": "2026-08-24T08:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "c9d4b0fb3b8c6a9bfbc88418",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "The UK assisted dying bill is coming back. Its Labour champion is looking to Australia for inspiration.",
-      "url": "https://www.politico.eu/article/uk-assisted-dying-bill-labour-looking-australia-inspiration",
-      "published_at": "2026-08-23T18:45:00Z",
-      "collected_at": "2026-08-24T08:00:51Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "c83a565975e5ecc55dd4bed4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Thousands rally for climate action in Sweden ahead of general election",
-      "url": "https://www.france24.com/en/europe/20260823-thousands-rally-in-sweden-to-protest-climate-policies-ahead-of-general-election",
-      "published_at": "2026-08-23T14:59:12Z",
-      "collected_at": "2026-08-24T08:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
