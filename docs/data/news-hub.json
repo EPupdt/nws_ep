@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-26T08:00:49Z",
-  "last_successful_collection_at": "2026-08-26T08:00:49Z",
+  "generated_at": "2026-08-26T08:30:42Z",
+  "last_successful_collection_at": "2026-08-26T08:30:42Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-26T08:00:49Z"
+      "at": "2026-08-26T08:30:42Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-26T08:00:49Z"
+      "at": "2026-08-26T08:30:42Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-26T08:00:49Z"
+      "at": "2026-08-26T08:30:42Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-26T08:00:49Z"
+      "at": "2026-08-26T08:30:42Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-26T08:00:49Z"
+      "at": "2026-08-26T08:30:42Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-26T08:00:49Z"
+      "at": "2026-08-26T08:30:42Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-26T08:00:49Z"
+      "at": "2026-08-26T08:30:42Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-26T08:00:49Z"
+      "at": "2026-08-26T08:30:42Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-26T08:00:49Z"
+      "at": "2026-08-26T08:30:42Z"
     }
   ],
   "europe_now": [
@@ -187,6 +187,27 @@
       ]
     },
     {
+      "label": "Dolly · Parton · country · dies",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-08-26T08:21:41Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/culture/20260826-embraced-across-divides-dolly-parton-leaves-a-lasting-legacy",
+          "headline": "Embraced across divides, Dolly Parton leaves a lasting legacy",
+          "published_at": "2026-08-26T08:21:41Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/culture/2026-08-25/dolly-parton-country-music-legend-dies-at-80.html",
+          "headline": "Dolly Parton, country music legend, dies at 80",
+          "published_at": "2026-08-25T18:20:47Z"
+        }
+      ]
+    },
+    {
       "label": "CIA · media · Moscow · reports",
       "origin": "convergence",
       "source_count": 2,
@@ -206,30 +227,23 @@
           "published_at": "2026-08-25T15:26:36Z"
         }
       ]
-    },
-    {
-      "label": "Russian · Ukraine · Battlefield · daring",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-08-25T14:27:23Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260825-not-an-isolated-incident-russian-drones-stalk-ukraine-civilians-human-safaris",
-          "headline": "‘Not an isolated incident’: Russian drones stalk Ukraine’s civilians in ‘human safaris’",
-          "published_at": "2026-08-25T14:27:23Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/233599/russian-forces-in-donetsk-salient-risk-being-cut-off-after-daring-ukrainian-manoeuvre-on-independence-day-ukraine-battlefield-update-day-1643",
-          "headline": "Russian forces in Donetsk salient risk being cut off, after daring Ukrainian manoeuvre on independence day (Ukraine Battlefield update, Day 1,643)",
-          "published_at": "2026-08-25T13:31:52Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "2c05e2b0bf5f6ca2136f6ab6",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Embraced across divides, Dolly Parton leaves a lasting legacy",
+      "url": "https://www.france24.com/en/culture/20260826-embraced-across-divides-dolly-parton-leaves-a-lasting-legacy",
+      "published_at": "2026-08-26T08:21:41Z",
+      "collected_at": "2026-08-26T08:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "3c681f8f1ddc611ea0bfe0bf",
       "source_id": "france24",
@@ -238,6 +252,20 @@
       "url": "https://www.france24.com/en/americas/20260826-trump-scores-much-needed-double-primary-victory-in-south-carolina-oklahoma",
       "published_at": "2026-08-26T07:41:24Z",
       "collected_at": "2026-08-26T08:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "2ac8a17ef3c29e7c741928e0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Fire at maternity ward in Islamabad hospital kills 14 infants",
+      "url": "https://www.france24.com/en/asia-pacific/20260826-smoke-chokes-pakistan-maternity-ward-as-fire-kills-14-infants",
+      "published_at": "2026-08-26T06:45:16Z",
+      "collected_at": "2026-08-26T08:30:42Z",
       "topics": [
         "politics",
         "security",
@@ -490,6 +518,20 @@
       "url": "https://www.france24.com/en/mawlid-cancelled-in-tigray",
       "published_at": "2026-08-25T20:45:05Z",
       "collected_at": "2026-08-25T21:00:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "2762a8da7888c6fa2defa1cf",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Mawlid festivities cancelled in Tigray over drone attacks",
+      "url": "https://www.france24.com/en/mawlid-cancelled-in-tigray",
+      "published_at": "2026-08-25T20:45:05Z",
+      "collected_at": "2026-08-26T08:30:42Z",
       "topics": [
         "politics",
         "security",
@@ -1712,20 +1754,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "5ff5a97fa781b22d6df0538a",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Europe must spend billions now or face mounting climate disaster costs, EU warns",
-      "url": "https://www.politico.eu/article/eu-climate-adaptation-spending-wopke-hoekstra-wildfires-heat-waves",
-      "published_at": "2026-08-25T04:00:00Z",
-      "collected_at": "2026-08-25T08:30:38Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
