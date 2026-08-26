@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-26T20:30:41Z",
-  "last_successful_collection_at": "2026-08-26T20:30:41Z",
+  "generated_at": "2026-08-26T21:00:48Z",
+  "last_successful_collection_at": "2026-08-26T21:00:48Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-26T20:30:41Z"
+      "at": "2026-08-26T21:00:48Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-08-26T20:30:41Z"
+      "at": "2026-08-26T21:00:48Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:11:92: not well-formed (invalid token)",
-      "at": "2026-08-26T20:30:41Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-26T21:00:48Z"
     },
     {
       "id": "euractiv",
@@ -29,59 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-26T20:30:41Z"
+      "at": "2026-08-26T21:00:48Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-26T20:30:41Z"
+      "at": "2026-08-26T21:00:48Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-26T20:30:41Z"
+      "at": "2026-08-26T21:00:48Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-26T20:30:41Z"
+      "at": "2026-08-26T21:00:48Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-26T20:30:41Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-26T21:00:48Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-26T20:30:41Z"
+      "at": "2026-08-26T21:00:48Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Hungary designates Russia as security threat",
-      "summary": "Hungary's government has officially declared Russia a security threat, reversing its previous stance under Prime Minister Viktor Orbán. The decision marks a significant shift in Budapest's foreign policy and EU alignment.",
-      "article_ids": [
-        "2308a118376690be06d4f9e6"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/peter-magyar-vladimir-putin-viktor-orban-government-officially-declares-russia-threat",
-          "headline": "Hungary declares Russia a ‘threat’, breaking with Orbán policy",
-          "published_at": "2026-08-26T14:09:21Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "First autonomous drone kill reported in Ukraine",
-      "summary": "Ukraine has recorded the first confirmed kill by a fully autonomous drone, signaling a new phase in unmanned warfare. The development raises ethical and strategic questions about the future of combat.",
+      "title": "First fully autonomous drone kill reported in Ukraine",
+      "summary": "An EUobserver article published on August 26, 2026 describes a fully autonomous drone strike that took place in Ukraine. It characterizes the strike as heralding a dystopian future of untethered weaponry.",
       "article_ids": [
         "e2b1b66ab14fd3e81fcfde6d"
       ],
@@ -94,28 +78,44 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "EU clean industrial policy division",
-      "summary": "France and Germany are divided over the direction of European clean industrial policy, highlighting strategic differences in the bloc's green transition. The disagreement involves state aid rules and the allocation of subsidies for green technologies.",
+      "title": "Hungary declares Russia a security threat",
+      "summary": "A POLITICO Europe article dated August 26, 2026 reports that Hungary has officially designated Russia as a security threat. The move represents a departure from the previous Orbán government's policy toward Russia.",
       "article_ids": [
-        "11b415de613c56f0e8b6ec10"
+        "2308a118376690be06d4f9e6"
       ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/la-france-et-lallemagne-se-divisent-sur-le-developpement-de-lindustrie-propre-en-europe",
-          "headline": "La France et l’Allemagne se divisent sur le développement de l’industrie propre en Europe",
-          "published_at": "2026-08-26T15:40:38Z"
+          "url": "https://www.politico.eu/article/peter-magyar-vladimir-putin-viktor-orban-government-officially-declares-russia-threat",
+          "headline": "Hungary declares Russia a ‘threat’, breaking with Orbán policy",
+          "published_at": "2026-08-26T14:09:21Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Migration pressures at Spain's Ceuta enclave",
+      "summary": "The article describes migrants staying in the Spanish enclave of Ceuta while awaiting asylum decisions. It highlights their prolonged wait and the conditions they face there.",
+      "article_ids": [
+        "f835b209542f331df4e949cf"
+      ],
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/spain/2026-08-26/holding-out-in-ceuta-until-asylum-is-granted.html",
+          "headline": "Holding out in Ceuta until asylum is granted",
+          "published_at": "2026-08-26T13:54:54Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Turkey's defiance of European human rights ruling",
-      "summary": "Turkey continues to disregard a binding European Court of Human Rights ruling demanding the release of Osman Kavala. The ongoing non-compliance strains Ankara's relations with the Council of Europe.",
+      "title": "Turkey defies European Court of Human Rights ruling on Kavala",
+      "summary": "The report states that Turkey is refusing to comply with a ruling from the European Court of Human Rights. It notes that activist Osman Kavala remains detained as a consequence.",
       "article_ids": [
         "8f89255e4fb38d4372fcc982"
       ],
@@ -130,17 +130,17 @@
       "source_count": 1
     },
     {
-      "title": "Russian defector case in Spain",
-      "summary": "A Russian pilot who defected to Ukraine has been living in Spain under a new identity, raising security concerns. Spanish authorities are assessing the implications of his presence for national and European security.",
+      "title": "France and Germany split over direction of European clean industrial policy",
+      "summary": "The article explains that French and German officials disagree on the direction of Europe's clean industrial policy. It outlines the differing priorities each country advocates for future industrial development.",
       "article_ids": [
-        "91ea242d0a4a5bfef39df19e"
+        "11b415de613c56f0e8b6ec10"
       ],
       "sources": [
         {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-08-26/maxim-kuzminov-the-russian-deserter-who-failed-to-keep-a-low-profile-in-spain.html",
-          "headline": "Maxim Kuzminov, the Russian deserter who failed to keep a low profile in Spain",
-          "published_at": "2026-08-26T13:26:32Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/la-france-et-lallemagne-se-divisent-sur-le-developpement-de-lindustrie-propre-en-europe",
+          "headline": "La France et l’Allemagne se divisent sur le développement de l’industrie propre en Europe",
+          "published_at": "2026-08-26T15:40:38Z"
         }
       ],
       "source_count": 1
@@ -239,6 +239,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "8216f4168dd998918a93c491",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Navigation, jurisdiction, costs: Iran, Oman attempt to hammer out Hormuz deal",
+      "url": "https://www.france24.com/en/middle-east/20260826-navigation-jurisdiction-costs-iran-oman-attempt-to-hammer-out-hormuz-deal",
+      "published_at": "2026-08-26T20:29:00Z",
+      "collected_at": "2026-08-26T21:00:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "95ebce9574066900109f103e",
       "source_id": "politico_europe",
@@ -1861,6 +1875,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "222bb382b831bc1b2bd59e43",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Manga-inspired theme park to be built near Paris",
+      "url": "https://www.bbc.co.uk/news/articles/c8r6xy3ryndo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-24T19:57:55Z",
+      "collected_at": "2026-08-26T21:00:48Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
