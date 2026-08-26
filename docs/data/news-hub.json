@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-26T14:30:48Z",
-  "last_successful_collection_at": "2026-08-26T14:30:48Z",
+  "generated_at": "2026-08-26T15:00:58Z",
+  "last_successful_collection_at": "2026-08-26T15:00:58Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-26T14:30:48Z"
+      "at": "2026-08-26T15:00:58Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-08-26T14:30:48Z"
+      "at": "2026-08-26T15:00:58Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-26T14:30:48Z"
+      "at": "2026-08-26T15:00:58Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-26T14:30:48Z"
+      "at": "2026-08-26T15:00:58Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-26T14:30:48Z"
+      "at": "2026-08-26T15:00:58Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-26T14:30:48Z"
+      "at": "2026-08-26T15:00:58Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-26T14:30:48Z"
+      "at": "2026-08-26T15:00:58Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-26T14:30:48Z"
+      "at": "2026-08-26T15:00:58Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-26T14:30:48Z"
+      "at": "2026-08-26T15:00:58Z"
     }
   ],
   "europe_now": [
@@ -197,10 +197,31 @@
       ]
     },
     {
+      "label": "CIA · Moscow · chief · media",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 6,
+      "latest_at": "2026-08-26T14:34:38Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c0klj7ykp81o?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump says 'something may come out of' CIA head's unannounced visit to Moscow",
+          "published_at": "2026-08-26T14:34:38Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260826-kremlin-says-cia-chief-met-russian-counterparts-not-putin-in-moscow",
+          "headline": "Kremlin says CIA chief met Russian counterparts, not Putin, in Moscow",
+          "published_at": "2026-08-26T10:44:26Z"
+        }
+      ]
+    },
+    {
       "label": "US · Canada · tariffs · war",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 7,
+      "item_count": 6,
       "latest_at": "2026-08-26T10:22:57Z",
       "sources": [
         {
@@ -216,30 +237,65 @@
           "published_at": "2026-08-26T01:55:00Z"
         }
       ]
-    },
-    {
-      "label": "CIA · Moscow · chief · media",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-08-26T14:16:16Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c0klj7ykp81o?at_medium=RSS&at_campaign=rss",
-          "headline": "CIA head's visit to Moscow was 'semi-routine', says Trump",
-          "published_at": "2026-08-26T14:16:16Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260826-kremlin-says-cia-chief-met-russian-counterparts-not-putin-in-moscow",
-          "headline": "Kremlin says CIA chief met Russian counterparts, not Putin, in Moscow",
-          "published_at": "2026-08-26T10:44:26Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "77805d6ce799cb5ec5e843a3",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Trump to declare Palestine Action a global terror group",
+      "url": "https://www.politico.com/news/2026/08/26/trump-to-declare-palestine-action-a-global-terror-group-01050496",
+      "published_at": "2026-08-26T14:50:00Z",
+      "collected_at": "2026-08-26T15:00:58Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "3cc9f64199fc7f0fe08399fd",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Trump says 'something may come out of' CIA head's unannounced visit to Moscow",
+      "url": "https://www.bbc.co.uk/news/articles/c0klj7ykp81o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-26T14:34:38Z",
+      "collected_at": "2026-08-26T15:00:58Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "fd0fa2fd026a43cedc396b34",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Meta reaches $17 billion settlement with US states over social media harm to teens",
+      "url": "https://www.france24.com/en/americas/20260826-meta-reaches-17-billion-settlement-with-us-states-over-social-media-harm-teens",
+      "published_at": "2026-08-26T14:31:06Z",
+      "collected_at": "2026-08-26T15:00:58Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "5ab96cbfd6fe088eaba07f20",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Nepal: Hundreds reported missing after deadly flash floods",
+      "url": "https://www.france24.com/en/video/20260826-nepal-hundreds-reported-missing-after-deadly-flash-floods",
+      "published_at": "2026-08-26T14:30:30Z",
+      "collected_at": "2026-08-26T15:00:58Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "77dec104e6fb4f965e772a49",
       "source_id": "bbc_europe",
@@ -381,6 +437,20 @@
       ]
     },
     {
+      "id": "e1d2625a8963d56d7caabd0f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Hundreds missing, villages destroyed in massive flash floods near Nepal-Tibet border",
+      "url": "https://www.france24.com/en/asia-pacific/20260826-at-least-22-bodies-recovered-hundreds-missing-after-nepal-tibet-flash-floods",
+      "published_at": "2026-08-26T12:26:17Z",
+      "collected_at": "2026-08-26T15:00:58Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "699c77619e80e96d412dfdb5",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -486,6 +556,20 @@
       "url": "https://www.france24.com/en/france/20260826-too-hot-to-incubate-nile-crocodiles-hatch-on-their-own-in-french-reserve",
       "published_at": "2026-08-26T11:15:13Z",
       "collected_at": "2026-08-26T13:00:51Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "0f90f08301e74fc3cb40aa60",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Nile crocodile eggs hatch naturally in French zoo following heatwaves",
+      "url": "https://www.france24.com/en/france/20260826-too-hot-to-incubate-nile-crocodiles-hatch-on-their-own-in-french-reserve",
+      "published_at": "2026-08-26T11:15:13Z",
+      "collected_at": "2026-08-26T15:00:58Z",
       "topics": [
         "politics",
         "security",
@@ -1753,34 +1837,6 @@
       ]
     },
     {
-      "id": "c552f6ca3ce61ad8b36674ad",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Wie verändert Künstliche Intelligenz den Krieg? — mit Sven Weizenegger",
-      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/wie-verandert-kunstliche-intelligenz-den-krieg-mit-sven-weizenegger",
-      "published_at": "2026-08-25T14:57:05Z",
-      "collected_at": "2026-08-25T15:00:54Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "082ba45fa3799a7ab3d52d39",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Trump denies US pushed Canada on French language",
-      "url": "https://www.politico.com/news/2026/08/25/trump-canada-quebec-french-01048724",
-      "published_at": "2026-08-25T14:45:22Z",
-      "collected_at": "2026-08-25T15:00:54Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "47cfdb918d5a0dc2b4a46d92",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1792,34 +1848,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "98b05af41f7886f41590455a",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Waymo will 2027 in München autonome Robotaxis fahren lassen",
-      "url": "https://www.politico.eu/article/waymo-will-2027-in-muenchen-autonome-robotaxis-fahren-lassen",
-      "published_at": "2026-08-25T14:00:00Z",
-      "collected_at": "2026-08-25T15:00:54Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "bd0c757a4691ec3615d9b4cf",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Waymo to launch robotaxis in Munich in 2027",
-      "url": "https://www.politico.eu/article/waymo-to-launch-robotaxis-in-munich-in-2027",
-      "published_at": "2026-08-25T14:00:00Z",
-      "collected_at": "2026-08-25T15:00:54Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
@@ -1862,6 +1890,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "d0e821362fe31902b483c672",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "As Europe burns, member states are actually slashing the number of fire-fighters – thanks to EU deficit rules",
+      "url": "https://euobserver.com/233242/as-europe-burns-member-states-are-actually-slashing-the-number-of-fire-fighters-thanks-to-eu-deficit-rules",
+      "published_at": "2026-08-24T14:28:35Z",
+      "collected_at": "2026-08-26T15:00:58Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -1991,20 +2033,6 @@
       ]
     },
     {
-      "id": "3476577b89ae9cba71d0bebc",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Could Russia's growing fuel crisis help end the Ukraine war?",
-      "url": "https://www.dw.com/en/could-russia-s-growing-fuel-crisis-help-end-the-ukraine-war/a-78472138?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-23T14:42:00Z",
-      "collected_at": "2026-08-25T15:00:54Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "645b00b9f5c0e1ff43dcb1d1",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2012,6 +2040,20 @@
       "url": "https://www.dw.com/en/could-ukraine-s-mykhailo-fedorov-challenge-zelenskyy/a-78469496?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-08-23T05:46:00Z",
       "collected_at": "2026-08-26T14:01:06Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "2edae41f4df981d3bd48a8f3",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Spain battles forest fire a short drive from flash flood",
+      "url": "https://www.dw.com/en/spain-battles-forest-fire-a-short-drive-from-flash-flood/a-78469115?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-22T14:35:00Z",
+      "collected_at": "2026-08-26T15:00:58Z",
       "topics": [
         "politics",
         "society",
@@ -2271,48 +2313,6 @@
       ]
     },
     {
-      "id": "ac29a239f1cf283ef2695530",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Ukraine's farmers struggle to sell harvest amid war, drought",
-      "url": "https://www.dw.com/en/ukraine-s-farmers-struggle-to-sell-harvest-amid-war-drought/a-78435344?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-21T13:51:00Z",
-      "collected_at": "2026-08-25T15:00:54Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "e8c4f5afa19d49185d5edfe6",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘A True Account of the Conquest of New Spain’: Chicanery, adventures and plunder recounted by a soldier-writer",
-      "url": "https://english.elpais.com/culture/2026-08-21/a-true-account-of-the-conquest-of-new-spain-chicanery-adventures-and-plunder-recounted-by-a-soldier-writer.html",
-      "published_at": "2026-08-21T13:14:46Z",
-      "collected_at": "2026-08-25T15:00:54Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "a538756438d6065d9dbff558",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Domestic politics and impunity, not migration, is greatest threat to Schengen",
-      "url": "https://euobserver.com/233077/domestic-politics-and-impunity-not-migration-is-greatest-threat-to-schengen",
-      "published_at": "2026-08-21T13:01:12Z",
-      "collected_at": "2026-08-25T15:00:54Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "36ed2cdd3d751b5860cafd1e",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2509,34 +2509,6 @@
       ]
     },
     {
-      "id": "e328f74861aff693a3a950cd",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Wildfires: Belgium battles blaze, France's Lecornu jeered",
-      "url": "https://www.dw.com/en/wildfires-belgium-battles-blaze-france-s-lecornu-jeered/a-78397186?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-17T12:55:00Z",
-      "collected_at": "2026-08-25T15:00:54Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "79098421feb6db265581d3ee",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Why Kyiv keeps attacking Russian retail giant Wildberries",
-      "url": "https://www.dw.com/en/why-kyiv-keeps-attacking-russian-retail-giant-wildberries/a-78384605?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-16T15:45:00Z",
-      "collected_at": "2026-08-25T15:00:54Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "e6b6a62c0e78f988bdac847d",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2604,6 +2576,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "63c8171dbaf4156fb4d52a7b",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Anti-corruption sanctions: Preparing for the time after Trump",
+      "url": "https://ecfr.eu/article/anti-corruption-sanctions-preparing-for-the-time-after-trump",
+      "published_at": "2026-08-10T10:44:08Z",
+      "collected_at": "2026-08-26T15:00:58Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     }
   ]
