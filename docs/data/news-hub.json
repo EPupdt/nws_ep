@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-26T20:00:51Z",
-  "last_successful_collection_at": "2026-08-26T20:00:51Z",
+  "generated_at": "2026-08-26T20:30:41Z",
+  "last_successful_collection_at": "2026-08-26T20:30:41Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-26T20:00:51Z"
+      "at": "2026-08-26T20:30:41Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-08-26T20:00:51Z"
+      "at": "2026-08-26T20:30:41Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-26T20:00:51Z"
+      "status": "error",
+      "detail": "<unknown>:11:92: not well-formed (invalid token)",
+      "at": "2026-08-26T20:30:41Z"
     },
     {
       "id": "euractiv",
@@ -29,93 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-26T20:00:51Z"
+      "at": "2026-08-26T20:30:41Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-26T20:00:51Z"
+      "at": "2026-08-26T20:30:41Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-26T20:00:51Z"
+      "at": "2026-08-26T20:30:41Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-26T20:00:51Z"
+      "at": "2026-08-26T20:30:41Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-26T20:00:51Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-26T20:30:41Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-26T20:00:51Z"
+      "at": "2026-08-26T20:30:41Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian defector raises European security concerns",
-      "summary": "A Russian defector in Spain has triggered broader European security concerns due to his high-profile status and potential intelligence risks. Authorities are investigating his activities and the implications for regional security.",
-      "article_ids": [
-        "91ea242d0a4a5bfef39df19e"
-      ],
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-08-26/maxim-kuzminov-the-russian-deserter-who-failed-to-keep-a-low-profile-in-spain.html",
-          "headline": "Maxim Kuzminov, the Russian deserter who failed to keep a low profile in Spain",
-          "published_at": "2026-08-26T13:26:32Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "France and Germany clash over European clean industrial policy",
-      "summary": "France and Germany are at odds over the direction of European clean industrial policy. The disagreement highlights differing approaches to industrial development and environmental regulations within the EU.",
-      "article_ids": [
-        "11b415de613c56f0e8b6ec10"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/la-france-et-lallemagne-se-divisent-sur-le-developpement-de-lindustrie-propre-en-europe",
-          "headline": "La France et l’Allemagne se divisent sur le développement de l’industrie propre en Europe",
-          "published_at": "2026-08-26T15:40:38Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "First fully autonomous drone kill reported in Ukraine",
-      "summary": "Ukraine reports its first fully autonomous drone kill on the battlefield. This development marks a significant milestone in the use of untethered weaponry and raises concerns about future warfare tactics.",
-      "article_ids": [
-        "e2b1b66ab14fd3e81fcfde6d"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/233797/first-fully-autonomous-drone-kill-ukraine-heralds-dystopian-future-of-untethered-weaponry",
-          "headline": "First fully-autonomous drone kill Ukraine heralds ‘dystopian future of untethered weaponry’",
-          "published_at": "2026-08-26T15:17:38Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Hungary officially designates Russia as a security threat",
-      "summary": "Hungary has officially designated Russia as a security threat, breaking with previous Orbán administration policy. The move reflects shifting regional security dynamics within the EU.",
+      "title": "Hungary designates Russia as security threat",
+      "summary": "Hungary's government has officially declared Russia a security threat, reversing its previous stance under Prime Minister Viktor Orbán. The decision marks a significant shift in Budapest's foreign policy and EU alignment.",
       "article_ids": [
         "2308a118376690be06d4f9e6"
       ],
@@ -130,8 +80,42 @@
       "source_count": 1
     },
     {
-      "title": "Turkey defies European Court of Human Rights ruling on Kavala",
-      "summary": "Turkey continues to defy a European Court of Human Rights ruling regarding imprisoned activist Osman Kavala. The case underscores ongoing tensions between Turkey and European institutions over human rights compliance.",
+      "title": "First autonomous drone kill reported in Ukraine",
+      "summary": "Ukraine has recorded the first confirmed kill by a fully autonomous drone, signaling a new phase in unmanned warfare. The development raises ethical and strategic questions about the future of combat.",
+      "article_ids": [
+        "e2b1b66ab14fd3e81fcfde6d"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/233797/first-fully-autonomous-drone-kill-ukraine-heralds-dystopian-future-of-untethered-weaponry",
+          "headline": "First fully-autonomous drone kill Ukraine heralds ‘dystopian future of untethered weaponry’",
+          "published_at": "2026-08-26T15:17:38Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "EU clean industrial policy division",
+      "summary": "France and Germany are divided over the direction of European clean industrial policy, highlighting strategic differences in the bloc's green transition. The disagreement involves state aid rules and the allocation of subsidies for green technologies.",
+      "article_ids": [
+        "11b415de613c56f0e8b6ec10"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/la-france-et-lallemagne-se-divisent-sur-le-developpement-de-lindustrie-propre-en-europe",
+          "headline": "La France et l’Allemagne se divisent sur le développement de l’industrie propre en Europe",
+          "published_at": "2026-08-26T15:40:38Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Turkey's defiance of European human rights ruling",
+      "summary": "Turkey continues to disregard a binding European Court of Human Rights ruling demanding the release of Osman Kavala. The ongoing non-compliance strains Ankara's relations with the Council of Europe.",
       "article_ids": [
         "8f89255e4fb38d4372fcc982"
       ],
@@ -141,6 +125,22 @@
           "url": "https://euobserver.com/233864/turkey-is-defying-europes-human-rights-court-and-osman-kavala-is-paying-the-price",
           "headline": "Turkey is defying Europe’s human-rights court — and Osman Kavala is paying the price",
           "published_at": "2026-08-26T16:19:36Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Russian defector case in Spain",
+      "summary": "A Russian pilot who defected to Ukraine has been living in Spain under a new identity, raising security concerns. Spanish authorities are assessing the implications of his presence for national and European security.",
+      "article_ids": [
+        "91ea242d0a4a5bfef39df19e"
+      ],
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-08-26/maxim-kuzminov-the-russian-deserter-who-failed-to-keep-a-low-profile-in-spain.html",
+          "headline": "Maxim Kuzminov, the Russian deserter who failed to keep a low profile in Spain",
+          "published_at": "2026-08-26T13:26:32Z"
         }
       ],
       "source_count": 1
@@ -1850,34 +1850,6 @@
       ]
     },
     {
-      "id": "eedde2237cff661212c11e78",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Australia confronts its missile shortfall",
-      "url": "https://www.politico.com/newsletters/canberra-playbook/2026/08/25/australia-confronts-its-missile-shortfall-01022132",
-      "published_at": "2026-08-25T19:38:26Z",
-      "collected_at": "2026-08-25T20:00:51Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "32f7ca272845132d4d04d6df",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Trains between Britain and Europe on track to run every 15 minutes",
-      "url": "https://www.politico.eu/article/train-eurotunnel-britain-europe-every-fifteen-minutes",
-      "published_at": "2026-08-25T19:30:00Z",
-      "collected_at": "2026-08-25T20:00:51Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "31d5cf647988696e96e5ef07",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1899,6 +1871,20 @@
       "url": "https://english.elpais.com/eps/2026-08-24/the-boundless-ocean-set-into-a-rage-why-shipwrecks-still-fascinate-us.html",
       "published_at": "2026-08-24T16:38:53Z",
       "collected_at": "2026-08-26T17:00:56Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "5e6bf1c27807337e238ab8cf",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "There won’t be a single cancer vaccine, but rather a different one for each patient and tumor",
+      "url": "https://english.elpais.com/science-tech/2026-08-24/there-wont-be-a-single-cancer-vaccine-but-rather-a-different-one-for-each-patient-and-tumor.html",
+      "published_at": "2026-08-24T16:25:55Z",
+      "collected_at": "2026-08-26T20:30:41Z",
       "topics": [
         "politics",
         "society",
