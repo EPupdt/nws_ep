@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-26T10:00:49Z",
-  "last_successful_collection_at": "2026-08-26T10:00:49Z",
+  "generated_at": "2026-08-26T10:30:43Z",
+  "last_successful_collection_at": "2026-08-26T10:30:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-26T10:00:49Z"
+      "at": "2026-08-26T10:30:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-26T10:00:49Z"
+      "at": "2026-08-26T10:30:43Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:10:92: not well-formed (invalid token)",
-      "at": "2026-08-26T10:00:49Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-08-26T10:30:43Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-26T10:00:49Z"
+      "at": "2026-08-26T10:30:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-26T10:00:49Z"
+      "at": "2026-08-26T10:30:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-26T10:00:49Z"
+      "at": "2026-08-26T10:30:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-26T10:00:49Z"
+      "at": "2026-08-26T10:30:43Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-26T10:00:49Z"
+      "at": "2026-08-26T10:30:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-26T10:00:49Z"
+      "at": "2026-08-26T10:30:43Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Grain exports stall due to Ukrainian attacks on Russian Black Sea ports",
-      "summary": "Ukrainian attacks on Russian Black Sea ports have caused grain exports to stall.",
+      "title": "Russian-linked napalm attack on Slovak drone factory",
+      "summary": "A Slovak drone factory was targeted in a Russian-linked napalm arson attack, prompting an investigation into foreign suspects. Police have arrested three foreign suspects in connection with the targeted attack.",
+      "article_ids": [
+        "62dcf376b362ef9b75886a03"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/233724/slovak-drone-factory-narrowly-escapes-russian-linked-napalm-arson-attack-as-police-arrest-three-foreign-suspects",
+          "headline": "Slovak drone factory narrowly escapes Russian-linked napalm arson attack as police arrest three foreign suspects",
+          "published_at": "2026-08-26T09:34:55Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ukrainian strikes disrupt Black Sea grain exports",
+      "summary": "Grain exports have stalled as Ukraine steps up attacks on Russia's Black Sea ports. The disruption has significant implications for global food security and supply chains.",
       "article_ids": [
         "4598dd8f2bfd8634730a01e0"
       ],
@@ -78,10 +94,28 @@
         }
       ],
       "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Iceland to vote on reopening EU membership talks",
+      "summary": "Iceland is set to hold a referendum on reopening talks regarding European Union membership. The vote is expected to be closely contested as the country decides its future relationship with the bloc.",
+      "article_ids": [
+        "2602aedfc636329a851d08ff"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260826-iceland-to-vote-on-reopening-eu-membership-talks-in-close-referendum",
+          "headline": "Iceland to vote on reopening EU membership talks in close referendum",
+          "published_at": "2026-08-26T05:23:14Z"
+        }
+      ],
+      "source_count": 1
     },
     {
-      "title": "France and Germany disagree over Europe's industrial future",
-      "summary": "France and Germany are colliding over the direction of Europe's industrial policy.",
+      "title": "France and Germany clash over European industrial policy",
+      "summary": "France and Germany are experiencing a major disagreement over Europe's industrial future and policy direction. The clash involves the two largest economies of the bloc debating competitiveness and regulatory strategies.",
       "article_ids": [
         "1c246cf5ddcfdfc33ae76d78"
       ],
@@ -94,70 +128,25 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Polish MEP charged with Holocaust denial",
-      "summary": "Polish prosecutors have charged a far‑right MEP with Holocaust denial over a claim that Auschwitz was a fake. The charge relates to statements denying the historical reality of the Auschwitz concentration camp.",
-      "article_ids": [
-        "8bde617948282891ecacb2d4"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/poland-prosecutors-mep-grzegorz-braun-holocaust-denial-auschwitz-fake-claim",
-          "headline": "Polish prosecutors charge MEP with Holocaust denial over Auschwitz ‘fake’ claim",
-          "published_at": "2026-08-25T16:30:05Z"
-        }
-      ],
-      "source_count": 1
     },
     {
-      "title": "UK official to shape under‑16s social media ban",
-      "summary": "UK official Andy Burnham is tasked with shaping the country's social media ban for users under sixteen. He could look to approaches taken in Australia and France for guidance.",
+      "title": "Spain apologizes for Ceuta migrant crisis response",
+      "summary": "The Spanish government has formally apologized to the people of Ceuta for the migrant crisis. The apology comes as European Union funding is allocated to support the local response to the migration tensions.",
       "article_ids": [
-        "9f884602aa715992458bc34f"
+        "f5eb19fa94b7d9a5a1fdec91"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/uk-andy-burnham-social-media-ban-under-16s-australia-france",
-          "headline": "Andy Burnham has to shape the UK’s social media ban. Australia and France could show him how.",
-          "published_at": "2026-08-26T02:00:00Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c1dl7dykrnvo?at_medium=RSS&at_campaign=rss",
+          "headline": "Spanish government says sorry to people of Ceuta for migrant crisis",
+          "published_at": "2026-08-25T19:11:40Z"
         }
       ],
       "source_count": 1
     }
   ],
   "developing": [
-    {
-      "label": "Ceuta · migrants",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-08-26T09:08:16Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/233763/listen-where-are-the-migrants-who-reached-ceuta-in-july-now",
-          "headline": "Listen: Where are the migrants who reached Ceuta in July now?",
-          "published_at": "2026-08-26T09:08:16Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c1dl7dykrnvo?at_medium=RSS&at_campaign=rss",
-          "headline": "Spanish government says sorry to people of Ceuta for migrant crisis",
-          "published_at": "2026-08-25T19:11:40Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/pedro-sanchez-ministers-clash-spain-ceuta-migrant-surge",
-          "headline": "Sánchez’s ministers clash over whether Madrid missed Ceuta migrant warnings",
-          "published_at": "2026-08-25T16:59:22Z"
-        }
-      ]
-    },
     {
       "label": "US · war · Canada · Iran",
       "origin": "convergence",
@@ -180,17 +169,17 @@
       ]
     },
     {
-      "label": "Dolly · Parton · country · dies",
+      "label": "Dolly · Parton · music · Beloved",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-08-26T08:21:41Z",
+      "item_count": 4,
+      "latest_at": "2026-08-26T10:10:21Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/culture/20260826-embraced-across-divides-dolly-parton-leaves-a-lasting-legacy",
-          "headline": "Embraced across divides, Dolly Parton leaves a lasting legacy",
-          "published_at": "2026-08-26T08:21:41Z"
+          "url": "https://www.france24.com/en/video/20260826-truly-unique-dolly-parton-music-star-actor-and-beloved-figure-who-spanned-generations",
+          "headline": "'Truly unique': Dolly Parton, music star, actor and beloved figure who spanned generations",
+          "published_at": "2026-08-26T10:10:21Z"
         },
         {
           "publisher": "EL PAÍS English",
@@ -220,9 +209,114 @@
           "published_at": "2026-08-25T15:26:36Z"
         }
       ]
+    },
+    {
+      "label": "Polish · prosecutors",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-26T08:50:16Z",
+      "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/08/26/polish-prosecutors-investigate-crypto-firms-links-to-conservative-opposition-politicians-and-organisations",
+          "headline": "Polish prosecutors investigate crypto firm’s links to conservative opposition politicians and organisations",
+          "published_at": "2026-08-26T08:50:16Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/poland-prosecutors-mep-grzegorz-braun-holocaust-denial-auschwitz-fake-claim",
+          "headline": "Polish prosecutors charge MEP with Holocaust denial over Auschwitz ‘fake’ claim",
+          "published_at": "2026-08-25T16:30:05Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "b421d2200c780fc67ba7eeac",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Canada’s Carney to attend EU’s State of the Union",
+      "url": "https://www.politico.eu/article/canada-mark-carney-to-attend-eus-state-of-the-union-ursula-von-der-leyen",
+      "published_at": "2026-08-26T10:14:23Z",
+      "collected_at": "2026-08-26T10:30:43Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "d91cc4b7191ce7b12baf681b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Promise of riches: Gold rush in small Kenyan village",
+      "url": "https://www.france24.com/en/video/20260826-promise-of-riches-gold-rush-in-small-kenyan-village",
+      "published_at": "2026-08-26T10:11:36Z",
+      "collected_at": "2026-08-26T10:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "92e12e30b305f052eeaf573b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'Truly unique': Dolly Parton, music star, actor and beloved figure who spanned generations",
+      "url": "https://www.france24.com/en/video/20260826-truly-unique-dolly-parton-music-star-actor-and-beloved-figure-who-spanned-generations",
+      "published_at": "2026-08-26T10:10:21Z",
+      "collected_at": "2026-08-26T10:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "7d56cd2c4ce4ce85b0e447eb",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "El Nino reaches century-high intensity, threatens more extreme weather in 2027",
+      "url": "https://www.france24.com/en/video/20260826-el-nino-reaches-century-high-intensity-threatens-more-extreme-weather-in-2027",
+      "published_at": "2026-08-26T10:09:02Z",
+      "collected_at": "2026-08-26T10:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "d8417fdd5398e3c170e909b1",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "AI encouraging racist stereotypes? 3 out of 5 chatbots tested promote bias",
+      "url": "https://www.france24.com/en/video/20260826-ai-encouraging-racist-stereotypes-3-out-of-5-chatbots-tested-promote-bias",
+      "published_at": "2026-08-26T10:07:29Z",
+      "collected_at": "2026-08-26T10:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "46fd838f75c77fd7074288a1",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Deported to Equatorial Guinea with a large abdominal hernia: ‘I’m not worth a dime’",
+      "url": "https://english.elpais.com/international/2026-08-26/deported-to-equatorial-guinea-with-a-large-abdominal-hernia-im-not-worth-a-dime.html",
+      "published_at": "2026-08-26T10:04:26Z",
+      "collected_at": "2026-08-26T10:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "62dcf376b362ef9b75886a03",
       "source_id": "euobserver",
@@ -249,6 +343,34 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "d4f245bbd97f7d34b04b1678",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The migrants’ church: The only refuge for a Texas community stalked by ICE",
+      "url": "https://english.elpais.com/usa/2026-08-26/the-migrants-church-the-only-refuge-for-a-texas-community-stalked-by-ice.html",
+      "published_at": "2026-08-26T09:04:33Z",
+      "collected_at": "2026-08-26T10:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "b175c86f900249a261058898",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France to ease strict rules on iconic cheeses as heat dries pastures",
+      "url": "https://www.france24.com/en/france/20260826-france-eases-cow-diets-as-cheesemakers-sweat",
+      "published_at": "2026-08-26T08:57:13Z",
+      "collected_at": "2026-08-26T10:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -291,6 +413,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "4f9e814d9f3decc2b18090fd",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trump records an electoral win with his candidate’s victory in South Carolina primary",
+      "url": "https://english.elpais.com/usa/2026-08-26/trump-records-an-electoral-win-with-his-candidates-victory-in-south-carolina-primary.html",
+      "published_at": "2026-08-26T08:28:37Z",
+      "collected_at": "2026-08-26T10:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -357,6 +493,20 @@
       "url": "https://www.france24.com/en/middle-east/20260826-middle-east-live-iran-says-hormuz-strait-still-closed-despite-transit-corridor-talks-with-oman",
       "published_at": "2026-08-26T06:04:05Z",
       "collected_at": "2026-08-26T06:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "42b31cf0ac1620e2df9d7741",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Middle East live: Netanyahu says diplomatic deal not possible with Iranian 'savages'",
+      "url": "https://www.france24.com/en/middle-east/20260826-middle-east-live-iran-says-hormuz-strait-still-closed-despite-transit-corridor-talks-with-oman",
+      "published_at": "2026-08-26T06:04:05Z",
+      "collected_at": "2026-08-26T10:30:43Z",
       "topics": [
         "politics",
         "security",
@@ -1568,20 +1718,6 @@
       ]
     },
     {
-      "id": "14ebca2c054947dd3c75ad1a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Thinking of running the Ultimate Trail of the Mont Blanc? Residents might object",
-      "url": "https://www.france24.com/en/thinking-of-running-the-ultimate-trail-of-the-mont-blanc-residents-might-object",
-      "published_at": "2026-08-25T09:52:55Z",
-      "collected_at": "2026-08-25T10:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "0fd2e5ddd4fbc7d652c4667e",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1593,34 +1729,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "86e28d46ecede7a3a444c109",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Around 40 injured after tornado tears through village in the south of France",
-      "url": "https://www.france24.com/en/around-40-injured-after-tornado-tears-through-village-in-the-south-of-france",
-      "published_at": "2026-08-25T09:42:20Z",
-      "collected_at": "2026-08-25T10:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "8e21362d05d277b07f11a4d0",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French astronaut Sophie Adenot prepares for second ISS mission spacewalk",
-      "url": "https://www.france24.com/en/technology/20260825-french-astronaut-sophie-adenot-prepares-for-second-iss-mission-spacewalk",
-      "published_at": "2026-08-25T09:40:00Z",
-      "collected_at": "2026-08-25T10:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -1645,20 +1753,6 @@
       "url": "https://www.france24.com/en/technology/20260825-french-astronaut-sophie-adenot-prepares-for-second-iss-mission-spacewalk",
       "published_at": "2026-08-25T09:40:00Z",
       "collected_at": "2026-08-25T13:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "787d6850b5bb14beb0842a9b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Iran threatens retaliation as new US sanctions hit already-struggling economy",
-      "url": "https://www.france24.com/en/iran-threatens-retaliation-as-new-us-sanctions-hit-already-struggling-economy",
-      "published_at": "2026-08-25T09:36:13Z",
-      "collected_at": "2026-08-25T10:00:49Z",
       "topics": [
         "politics",
         "security",
@@ -1691,20 +1785,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "f8072067668dd74a2f55363a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Haiti gangs kill at least 47 people in attack near capital",
-      "url": "https://www.france24.com/en/americas/20260825-haiti-gang-members-kill-40-displaced-people-church-attack",
-      "published_at": "2026-08-25T02:25:09Z",
-      "collected_at": "2026-08-25T10:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -1764,6 +1844,20 @@
       ]
     },
     {
+      "id": "8577d896828984e2dc280e77",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "A year after Trump sent in troops, Washington still isn’t used to the National Guard",
+      "url": "https://english.elpais.com/usa/2026-08-24/a-year-after-trump-sent-in-troops-washington-still-isnt-used-to-the-national-guard.html",
+      "published_at": "2026-08-24T07:39:31Z",
+      "collected_at": "2026-08-26T10:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "3476577b89ae9cba71d0bebc",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1803,6 +1897,34 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "b6dbe2a255c984b059a83d29",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Small German airplane crashes in Croatia, killing 2",
+      "url": "https://www.dw.com/en/small-german-airplane-crashes-in-croatia-killing-2/a-78467649?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-22T09:34:00Z",
+      "collected_at": "2026-08-26T10:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "0702d913e790e01d6bdf3a2b",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "[Interview] Europe’s labs are chronically underfunded and sovereignty is at stake, says French Academy chief Françoise Combes",
+      "url": "https://euobserver.com/229995/interview-europes-labs-are-chronically-underfunded-and-sovereignty-is-at-stake-says-french-academy-chief-francoise-combes",
+      "published_at": "2026-08-22T09:08:00Z",
+      "collected_at": "2026-08-26T10:30:43Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
