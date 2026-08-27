@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-27T11:30:42Z",
-  "last_successful_collection_at": "2026-08-27T11:30:42Z",
+  "generated_at": "2026-08-27T12:00:50Z",
+  "last_successful_collection_at": "2026-08-27T12:00:50Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-27T11:30:42Z"
+      "at": "2026-08-27T12:00:50Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-27T11:30:42Z"
+      "at": "2026-08-27T12:00:50Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-08-27T11:30:42Z"
+      "status": "error",
+      "detail": "HTTP Error 404: Not Found",
+      "at": "2026-08-27T12:00:50Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-27T11:30:42Z"
+      "at": "2026-08-27T12:00:50Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-27T11:30:42Z"
+      "at": "2026-08-27T12:00:50Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-27T11:30:42Z"
+      "at": "2026-08-27T12:00:50Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-27T11:30:42Z"
+      "at": "2026-08-27T12:00:50Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-08-27T11:30:42Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-08-27T12:00:50Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-27T11:30:42Z"
+      "at": "2026-08-27T12:00:50Z"
     }
   ],
   "europe_now": [
     {
-      "title": "EU heavyweights push to unlock frozen Russian assets debate",
-      "summary": "Several EU member states are urging Brussels to reopen discussions on leveraging frozen Russian state assets. The move could reshape how the bloc finances support for Ukraine.",
+      "title": "Alarming reports that Putin aims to escalate war, despite CIA warning (Ukraine Battlefield update, Day 1,645)",
+      "summary": "Alarming reports indicate that Putin aims to escalate the war in Ukraine, according to a CIA warning. This marks the 1,645th day of the conflict.",
+      "article_ids": [
+        "e2e822365e2f5e6b8382fb8c"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/234012/alarming-reports-that-putin-aims-to-escalate-war-despite-cia-warning-ukraine-battlefield-update-day-1645",
+          "headline": "Alarming reports that Putin aims to escalate war, despite CIA warning (Ukraine Battlefield update, Day 1,645)",
+          "published_at": "2026-08-27T11:56:28Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "EU heavyweights call on Brussels to reignite frozen Russian asset debate",
+      "summary": "EU heavyweights are urging Brussels to reopen the debate on frozen Russian assets. The call highlights ongoing pressure to address the issue.",
       "article_ids": [
         "9502b41d8f1a3c63a6460f74"
       ],
@@ -78,88 +94,9 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Car rams into crowd in northern France, two killed",
-      "summary": "A vehicle drove into a crowd in northern France, killing two people and injuring ten others. Authorities are investigating the circumstances of the incident.",
-      "article_ids": [
-        "30d2994a75dd8c577e878fec"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cqxvrl744nyo?at_medium=RSS&at_campaign=rss",
-          "headline": "Two dead and 10 hurt after car rams into crowd in northern France",
-          "published_at": "2026-08-27T07:07:34Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
-  "top_stories": [
-    {
-      "title": "EU divided over frozen Russian assets as pressure builds",
-      "summary": "Major EU governments are calling on the European Commission to revive debate over frozen Russian sovereign assets. The discussions could affect how the bloc funds further assistance to Ukraine.",
-      "article_ids": [
-        "9502b41d8f1a3c63a6460f74"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-heavyweights-call-on-brussels-to-reignite-frozen-russian-asset-debate",
-          "headline": "EU heavyweights call on Brussels to reignite frozen Russian asset debate",
-          "published_at": "2026-08-27T09:16:52Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Poland seeks EU fines against Meta over scam advertisements",
-      "summary": "Polish authorities have formally requested that the European Union impose a €250 million penalty on Meta for failing to curb fraudulent advertisements on Facebook. The request highlights ongoing tensions between member states and major tech platforms over enforcement.",
-      "article_ids": [
-        "41d9e63e3f215c3483d8f2dc",
-        "fb115d07d455ea1f45dc2798"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/polish-deputy-pm-krzysztof-gawkowski-says-eu-should-fine-meta-250-million-for-financial-scams",
-          "headline": "Poland asks EU to fine Meta €250 million over scam ads",
-          "published_at": "2026-08-27T09:11:18Z"
-        },
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/08/27/poland-asks-eu-to-fine-meta-e250m-over-scam-facebook-ads",
-          "headline": "Poland asks EU to fine Meta €250m over scam Facebook ads",
-          "published_at": "2026-08-27T09:18:04Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Germany debates legacy of Nazi past amid far-right electoral rise",
-      "summary": "German politicians are publicly clashing over how the country should address its Nazi history ahead of regional elections where the AfD is gaining ground. The dispute reflects broader concerns about the normalization of far-right politics in eastern Germany.",
-      "article_ids": [
-        "86bbcc71609ad0f441236539",
-        "fbd0fe7901b6681f628ea0e4"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cddv43d4jn2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Memory wars: Election clash over Germany's Nazi past as AfD eyes power in east",
-          "published_at": "2026-08-27T05:15:17Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/former-neo-nazi-activists-germany-far-right-ulrich-siegmund",
-          "headline": "The former neo-Nazi activists behind Germany’s rising far-right star",
-          "published_at": "2026-08-27T06:31:00Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
+  "top_stories": [],
   "developing": [
     {
       "label": "Meta · billion · US · agrees",
@@ -237,28 +174,70 @@
       ]
     },
     {
-      "label": "Ukraine · Russia · Battlefield · children",
+      "label": "Curry · Horror · Picture · Rocky",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-08-27T07:38:19Z",
+      "item_count": 3,
+      "latest_at": "2026-08-27T09:36:46Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/game-of-drones-deep-strikes-into-russia-keeping-ukraine-in-this-game",
-          "headline": "Game of Drones: Deep strikes into Russia keeping Ukraine 'in this game'",
-          "published_at": "2026-08-27T07:38:19Z"
+          "url": "https://www.france24.com/en/video/20260827-rocky-horror-picture-show-star-tim-curry-dead-at-80",
+          "headline": "'Rocky Horror Picture Show' star Tim Curry dead at 80",
+          "published_at": "2026-08-27T09:36:46Z"
         },
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/233885/russia-is-teaching-itself-and-children-occupied-in-ukraine-fake-history-to-justify-war-ukraine-battlefield-update-day-1644",
-          "headline": "Russia is teaching itself and children occupied in Ukraine fake history to justify war (Ukraine Battlefield update, Day 1,644)",
-          "published_at": "2026-08-26T15:29:56Z"
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/culture/2026-08-26/tim-curry-star-of-the-rocky-horror-picture-show-dies-at-80.html",
+          "headline": "Tim Curry, star of ‘The Rocky Horror Picture Show,’ dies at 80",
+          "published_at": "2026-08-26T16:17:16Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "e2e822365e2f5e6b8382fb8c",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Alarming reports that Putin aims to escalate war, despite CIA warning (Ukraine Battlefield update, Day 1,645)",
+      "url": "https://euobserver.com/234012/alarming-reports-that-putin-aims-to-escalate-war-despite-cia-warning-ukraine-battlefield-update-day-1645",
+      "published_at": "2026-08-27T11:56:28Z",
+      "collected_at": "2026-08-27T12:00:50Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "0c63cb3aa5aa082dfa25a3d3",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Lobbyists grumble over soaring conference prices — then pay up to court Britain’s new power players",
+      "url": "https://www.politico.eu/article/lobbyists-grumble-over-soaring-conference-prices-then-pay-up-to-court-britains-new-power-players",
+      "published_at": "2026-08-27T11:41:38Z",
+      "collected_at": "2026-08-27T12:00:50Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "f3f5e8492454b7c859c1f886",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Social networks face their ‘tobacco moment’: Key points of a historic agreement that will shape the future of platforms",
+      "url": "https://english.elpais.com/technology/2026-08-27/social-networks-face-their-tobacco-moment-key-points-of-a-historic-agreement-that-will-shape-the-future-of-platforms.html",
+      "published_at": "2026-08-27T11:40:03Z",
+      "collected_at": "2026-08-27T12:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "7c2c0e5b6758a943a493e6a3",
       "source_id": "france24",
@@ -2066,6 +2045,48 @@
       ]
     },
     {
+      "id": "1bfbc96f4c55b59df3c5b71b",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Carbon capture and storage is a costly white elephant – so why is the EU pushing it?",
+      "url": "https://euobserver.com/233169/carbon-capture-and-storage-is-a-costly-white-elephant-so-why-is-the-eu-pushing-it",
+      "published_at": "2026-08-25T10:58:18Z",
+      "collected_at": "2026-08-27T12:00:50Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "3c69cd9e09a93639ec060b16",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trump persists in pushing fee of over $100,000 for H-1B visas",
+      "url": "https://english.elpais.com/usa/2026-08-25/trump-persists-in-pushing-fee-of-over-100000-for-h-1b-visas.html",
+      "published_at": "2026-08-25T09:16:00Z",
+      "collected_at": "2026-08-27T12:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "dd691b65f8c66e0dd06e09aa",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Mexico watches US–Canada trade tension with uncertainty",
+      "url": "https://english.elpais.com/economy-and-business/2026-08-25/mexico-watches-uscanada-trade-tension-with-uncertainty.html",
+      "published_at": "2026-08-25T09:15:22Z",
+      "collected_at": "2026-08-27T12:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "47b5ad26df00cb1b6a10969b",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -2276,6 +2297,20 @@
       ]
     },
     {
+      "id": "03bf21beded51ff231cf2e27",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Ukraine: Zelenskyy rejects wartime elections",
+      "url": "https://www.dw.com/en/ukraine-zelenskyy-rejects-wartime-elections/a-78475087?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-23T10:23:00Z",
+      "collected_at": "2026-08-27T12:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "2ed1b508ce774d1319d10df3",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -2430,6 +2465,34 @@
       ]
     },
     {
+      "id": "e37e439e97f809dc44e73d71",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "New official tasked with promoting Poland criticised over error-strewn, potentially AI-generated report",
+      "url": "https://notesfrompoland.com/2026/08/21/new-official-tasked-with-promoting-poland-criticised-over-error-strewn-potentially-ai-generated-report",
+      "published_at": "2026-08-21T10:46:09Z",
+      "collected_at": "2026-08-27T12:00:50Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "b9dc59b8767c7ca37809b94b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "After six months of war, Washington has failed to strangle Iran’s economy",
+      "url": "https://english.elpais.com/international/2026-08-21/after-six-months-of-war-washington-has-failed-to-strangle-irans-economy.html",
+      "published_at": "2026-08-21T08:35:45Z",
+      "collected_at": "2026-08-27T12:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "0b70abf7577c771ae6610187",
       "source_id": "ecfr",
       "source_name": "European Council on Foreign Relations",
@@ -2455,6 +2518,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "35169a22e98bd0b68a57518d",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Legislative Elections (2026)",
+      "url": "https://ecfr.eu/special/mapping_palestinian_politics/legislative-elections-2026",
+      "published_at": "2026-08-15T09:00:58Z",
+      "collected_at": "2026-08-27T12:00:50Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     }
   ]
