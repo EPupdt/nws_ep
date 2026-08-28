@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-28T10:30:41Z",
-  "last_successful_collection_at": "2026-08-28T10:30:41Z",
+  "generated_at": "2026-08-28T11:00:53Z",
+  "last_successful_collection_at": "2026-08-28T11:00:53Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-28T10:30:41Z"
+      "at": "2026-08-28T11:00:53Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "23",
-      "at": "2026-08-28T10:30:41Z"
+      "count": "24",
+      "at": "2026-08-28T11:00:53Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-28T10:30:41Z"
+      "at": "2026-08-28T11:00:53Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-28T10:30:41Z"
+      "at": "2026-08-28T11:00:53Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-28T10:30:41Z"
+      "at": "2026-08-28T11:00:53Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-28T10:30:41Z"
+      "at": "2026-08-28T11:00:53Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-28T10:30:41Z"
+      "at": "2026-08-28T11:00:53Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-28T10:30:41Z"
+      "at": "2026-08-28T11:00:53Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-28T10:30:41Z"
+      "at": "2026-08-28T11:00:53Z"
     }
   ],
   "europe_now": [
@@ -164,12 +164,18 @@
   ],
   "developing": [
     {
-      "label": "King · Norway · Haakon · scandals",
+      "label": "King · Norway · Harald · dies",
       "origin": "convergence",
-      "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-08-28T09:04:53Z",
+      "source_count": 5,
+      "item_count": 13,
+      "latest_at": "2026-08-28T10:37:21Z",
       "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cp841114eg6o?at_medium=RSS&at_campaign=rss",
+          "headline": "Who is Norway's new King Haakon VIII?",
+          "published_at": "2026-08-28T10:37:21Z"
+        },
         {
           "publisher": "EL PAÍS English",
           "url": "https://english.elpais.com/international/2026-08-28/norways-crown-prince-becomes-king-haakon-viii-amid-family-scandals-from-epstein-ties-to-a-shaman-brother-in-law.html",
@@ -181,6 +187,12 @@
           "url": "https://www.france24.com/en/king-harald-s-death-puts-focus-on-norway-s-future-king",
           "headline": "King Harald's death puts focus on Norway's future king",
           "published_at": "2026-08-28T08:55:35Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/norway-king-harald-v-dies-89",
+          "headline": "Norway’s King Harald dies at 89",
+          "published_at": "2026-08-28T07:19:50Z"
         }
       ]
     },
@@ -249,6 +261,76 @@
     }
   ],
   "radar": [
+    {
+      "id": "68cfa33bfeb6dd2372e7570b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Geographies of cruelty: The shifting map of Mexico’s clandestine graves",
+      "url": "https://english.elpais.com/international/2026-08-28/geographies-of-cruelty-the-shifting-map-of-mexicos-clandestine-graves.html",
+      "published_at": "2026-08-28T10:48:17Z",
+      "collected_at": "2026-08-28T11:00:53Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "d4157e4f4ac9ed63b53870a9",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Belgium summons US ambassador again over jibe at health minister",
+      "url": "https://www.politico.eu/article/belgium-maxime-prevot-summons-us-ambassador-bill-white-again-over-jibe-at-health-minister-frank-vandenbroucke",
+      "published_at": "2026-08-28T10:46:43Z",
+      "collected_at": "2026-08-28T11:00:53Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "2caf44e34f64a8b4159aa32f",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘Our students need to know that we’re here to fight for them’: A school organizes to protect its students from ICE",
+      "url": "https://english.elpais.com/usa/2026-08-28/our-students-need-to-know-that-were-here-to-fight-for-them-a-school-organizes-to-protect-its-students-from-ice.html",
+      "published_at": "2026-08-28T10:37:40Z",
+      "collected_at": "2026-08-28T11:00:53Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "5bb1247e9f8123ccb7e3c1b0",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Who is Norway's new King Haakon VIII?",
+      "url": "https://www.bbc.co.uk/news/articles/cp841114eg6o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-28T10:37:21Z",
+      "collected_at": "2026-08-28T11:00:53Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "bdb78008ce74fc87b3dcac2d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Nepal: Army rescues hundreds trapped in tunnel as flood risk reignites",
+      "url": "https://www.france24.com/en/video/20260828-nepal-army-rescues-hundreds-trapped-in-tunnel-as-flood-risk-reignites",
+      "published_at": "2026-08-28T10:36:51Z",
+      "collected_at": "2026-08-28T11:00:53Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "1d8f350d7f130ef6882d7afd",
       "source_id": "politico_europe",
@@ -2112,20 +2194,6 @@
       ]
     },
     {
-      "id": "db700335ad22d90063f8b74e",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "After today’s Independence Day parades, Moldova needs hard security guarantees against Moscow",
-      "url": "https://euobserver.com/233874/after-todays-independence-day-parades-moldova-needs-hard-security-guarantees-against-moscow",
-      "published_at": "2026-08-27T10:57:29Z",
-      "collected_at": "2026-08-27T11:00:47Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "aedf955447f345741f28ef35",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -2140,34 +2208,6 @@
       ]
     },
     {
-      "id": "75d3c90b05749137c9143d71",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘I can’t focus on my schoolwork’: A high school student in the US agonizes her parents will be seized by ICE while she’s in class",
-      "url": "https://english.elpais.com/usa/2026-08-27/i-cant-focus-on-my-schoolwork-a-high-school-student-in-the-us-agonizes-her-parents-will-be-seized-by-ice-while-shes-in-class.html",
-      "published_at": "2026-08-27T10:54:48Z",
-      "collected_at": "2026-08-27T11:00:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "feb405f139c532496a27f08b",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Abelardo de la Espriella authorizes US extradition of five cartel leaders",
-      "url": "https://english.elpais.com/international/2026-08-27/abelardo-de-la-espriella-authorizes-us-extradition-of-five-cartel-leaders.html",
-      "published_at": "2026-08-27T10:26:38Z",
-      "collected_at": "2026-08-27T11:00:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "46d9674df3f8a5f9fac71181",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2179,20 +2219,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "65297dfc22f7c252844df4fc",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "US tightens the net on R1, the CJNG boss implicated in the killings of Uruapan mayor Carlos Manzo and influencer Valeria Márquez",
-      "url": "https://english.elpais.com/international/2026-08-27/us-tightens-the-net-on-r1-the-cjng-boss-implicated-in-the-killings-of-uruapan-mayor-carlos-manzo-and-influencer-valeria-marquez.html",
-      "published_at": "2026-08-27T10:04:25Z",
-      "collected_at": "2026-08-27T11:00:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -2546,6 +2572,20 @@
       ]
     },
     {
+      "id": "8577d896828984e2dc280e77",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "A year after Trump sent in troops, Washington still isn’t used to the National Guard",
+      "url": "https://english.elpais.com/usa/2026-08-24/a-year-after-trump-sent-in-troops-washington-still-isnt-used-to-the-national-guard.html",
+      "published_at": "2026-08-24T07:39:31Z",
+      "collected_at": "2026-08-28T11:00:53Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "3476577b89ae9cba71d0bebc",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2567,6 +2607,20 @@
       "url": "https://www.dw.com/en/ukraine-zelenskyy-rejects-wartime-elections/a-78475087?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-08-23T10:23:00Z",
       "collected_at": "2026-08-27T12:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "b6dbe2a255c984b059a83d29",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Small German airplane crashes in Croatia, killing 2",
+      "url": "https://www.dw.com/en/small-german-airplane-crashes-in-croatia-killing-2/a-78467649?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-22T09:34:00Z",
+      "collected_at": "2026-08-28T11:00:53Z",
       "topics": [
         "politics",
         "society",
