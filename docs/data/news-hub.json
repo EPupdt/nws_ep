@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-29T10:00:49Z",
-  "last_successful_collection_at": "2026-08-29T10:00:49Z",
+  "generated_at": "2026-08-29T10:30:41Z",
+  "last_successful_collection_at": "2026-08-29T10:30:41Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-29T10:00:49Z"
+      "at": "2026-08-29T10:30:41Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "28",
-      "at": "2026-08-29T10:00:49Z"
+      "at": "2026-08-29T10:30:41Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-08-29T10:00:49Z"
+      "at": "2026-08-29T10:30:41Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-29T10:00:49Z"
+      "at": "2026-08-29T10:30:41Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-29T10:00:49Z"
+      "at": "2026-08-29T10:30:41Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-29T10:00:49Z"
+      "at": "2026-08-29T10:30:41Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-29T10:00:49Z"
+      "at": "2026-08-29T10:30:41Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-29T10:00:49Z"
+      "at": "2026-08-29T10:30:41Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-29T10:00:49Z"
+      "at": "2026-08-29T10:30:41Z"
     }
   ],
   "europe_now": [
@@ -176,6 +176,27 @@
       ]
     },
     {
+      "label": "Hundreds · Kyiv · strike · warehouse",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-08-29T10:28:41Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
+          "headline": "At least 27 dead and hundreds evacuated after strike on Kyiv warehouse",
+          "published_at": "2026-08-29T10:28:41Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260829-russian-strike-on-warehouse-near-kyiv-kills-at-least-27-people-hundreds-evacuated",
+          "headline": "🔴 Russian strike on warehouse near Kyiv kills at least 27 people, hundreds evacuating",
+          "published_at": "2026-08-29T09:17:21Z"
+        }
+      ]
+    },
+    {
       "label": "EU · membership · referendum · votes",
       "origin": "convergence",
       "source_count": 2,
@@ -193,27 +214,6 @@
           "url": "https://www.politico.eu/article/sigmundur-david-gunnlaugsson-iceland-eu-referendum-membership-talks",
           "headline": "Former Iceland prime minister to pro-EU voters: Your referendum doesn’t matter",
           "published_at": "2026-08-28T12:42:39Z"
-        }
-      ]
-    },
-    {
-      "label": "Hundreds · Kyiv · strikes · kills",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-08-29T09:38:07Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
-          "headline": "At least 27 dead and hundreds evacuated after strikes near Kyiv",
-          "published_at": "2026-08-29T09:38:07Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260829-russian-strike-on-warehouse-near-kyiv-kills-at-least-27-people-hundreds-evacuated",
-          "headline": "🔴 Russian strike on warehouse near Kyiv kills at least 27 people, hundreds evacuating",
-          "published_at": "2026-08-29T09:17:21Z"
         }
       ]
     },
@@ -240,6 +240,48 @@
     }
   ],
   "radar": [
+    {
+      "id": "44f81939e45b655500c3c0af",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "At least 27 dead and hundreds evacuated after strike on Kyiv warehouse",
+      "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-29T10:28:41Z",
+      "collected_at": "2026-08-29T10:30:41Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "eec8c3af59b83d8818c7070c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Dozens dead after Russian drone strike hits warehouse",
+      "url": "https://www.france24.com/en/dozens-dead-after-russian-drone-strike-hits-warehouse",
+      "published_at": "2026-08-29T10:24:33Z",
+      "collected_at": "2026-08-29T10:30:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "206e56c44b6cf1bbf4fc1bfb",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "AI chatbots need to work in all EU languages, not just English",
+      "url": "https://euobserver.com/233310/ai-chatbots-need-to-work-in-all-eu-languages-not-just-english",
+      "published_at": "2026-08-29T10:00:00Z",
+      "collected_at": "2026-08-29T10:30:41Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "2c40e4b9818811591d54806b",
       "source_id": "politico_europe",
@@ -1543,104 +1585,6 @@
       ]
     },
     {
-      "id": "2b442e56ab1e37a76487fd54",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Uganda's King of Tooro, once world's youngest reigning monarch, dies at 34",
-      "url": "https://www.france24.com/en/africa/20260828-uganda-s-king-of-tooro-once-world-s-youngest-reigning-monarch-dies-at-34",
-      "published_at": "2026-08-28T09:52:44Z",
-      "collected_at": "2026-08-28T10:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "3630b065fa50dabe7d7666e7",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "How the Iran war has made the US more vulnerable",
-      "url": "https://www.politico.com/news/2026/08/28/iran-war-us-allies-military-influence-01052631",
-      "published_at": "2026-08-28T09:51:51Z",
-      "collected_at": "2026-08-28T10:00:51Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "0a297c0b06c88f4f57e7cfcb",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Nepal flash floods: 'Very challenging' for survivors who have lost their homes and their families",
-      "url": "https://www.france24.com/en/video/20260828-nepal-flash-floods-very-challenging-for-survivors-who-have-lost-their-homes-and-their-families",
-      "published_at": "2026-08-28T09:50:55Z",
-      "collected_at": "2026-08-28T10:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "d5d6ac3a7782233986e9312c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "El Niño, paired with climate change, 'just makes everything so much more dangerous'",
-      "url": "https://www.france24.com/en/video/20260828-el-ni%C3%B1o-paired-with-climate-change-just-makes-everything-so-much-more-dangerous",
-      "published_at": "2026-08-28T09:35:51Z",
-      "collected_at": "2026-08-28T10:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "edd73ae9d76d96e05027e5cf",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "No candidate in Israeli election backs a Palestinian state. The EU’s answer is more ‘reforms’, not pressure",
-      "url": "https://euobserver.com/233860/no-candidate-in-israeli-election-backs-a-palestinian-state-the-eus-answer-is-more-reforms-not-pressure",
-      "published_at": "2026-08-28T09:28:04Z",
-      "collected_at": "2026-08-28T10:00:51Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "4121bc8510de512014d5375d",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Norway's King Harald dies aged 89: A beloved monarch buffeted by family crises",
-      "url": "https://www.bbc.co.uk/news/articles/clykn5p5172o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-28T09:27:17Z",
-      "collected_at": "2026-08-28T10:00:51Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "872fb951ba472ae722d0ea78",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Norway's King Haakon, the new face of a monarchy beset by woe and scandal",
-      "url": "https://www.france24.com/en/europe/20260828-norway-s-king-haakon-the-new-face-of-a-monarchy-shaken-by-scandal",
-      "published_at": "2026-08-28T07:51:11Z",
-      "collected_at": "2026-08-28T10:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "bb0b104783c978cdf0e5ac96",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1666,6 +1610,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "08d372d56f3f435331ac9e7e",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "On Norway’s Oslo fjord, activists battle Chemring Nobel’s plan for Europe’s biggest explosives plant",
+      "url": "https://euobserver.com/233198/on-norways-oslo-fjord-activists-battle-chemring-nobels-plan-for-europes-biggest-explosives-plant",
+      "published_at": "2026-08-27T10:00:00Z",
+      "collected_at": "2026-08-29T10:30:41Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -1876,34 +1834,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "62dcf376b362ef9b75886a03",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Slovak drone factory narrowly escapes Russian-linked napalm arson attack as police arrest three foreign suspects",
-      "url": "https://euobserver.com/233724/slovak-drone-factory-narrowly-escapes-russian-linked-napalm-arson-attack-as-police-arrest-three-foreign-suspects",
-      "published_at": "2026-08-26T09:34:55Z",
-      "collected_at": "2026-08-28T10:00:51Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "b2b1b4aa5f08c428a604dfea",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Listen: Where are the migrants who reached Ceuta in July now?",
-      "url": "https://euobserver.com/233763/listen-where-are-the-migrants-who-reached-ceuta-in-july-now",
-      "published_at": "2026-08-26T09:08:16Z",
-      "collected_at": "2026-08-28T10:00:51Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
       ]
     },
     {
