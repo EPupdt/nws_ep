@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-30T10:00:46Z",
-  "last_successful_collection_at": "2026-08-30T10:00:46Z",
+  "generated_at": "2026-08-30T10:30:39Z",
+  "last_successful_collection_at": "2026-08-30T10:30:39Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-30T10:00:46Z"
+      "at": "2026-08-30T10:30:39Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "29",
-      "at": "2026-08-30T10:00:46Z"
+      "at": "2026-08-30T10:30:39Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-30T10:00:46Z"
+      "at": "2026-08-30T10:30:39Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-30T10:00:46Z"
+      "at": "2026-08-30T10:30:39Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-30T10:00:46Z"
+      "at": "2026-08-30T10:30:39Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-30T10:00:46Z"
+      "at": "2026-08-30T10:30:39Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-30T10:00:46Z"
+      "at": "2026-08-30T10:30:39Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-30T10:00:46Z"
+      "at": "2026-08-30T10:30:39Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-30T10:00:46Z"
+      "at": "2026-08-30T10:30:39Z"
     }
   ],
   "europe_now": [
@@ -199,10 +199,10 @@
       ]
     },
     {
-      "label": "Russian · Warehouse",
+      "label": "attack · munitions · Russian · stored",
       "origin": "radar",
       "source_count": 1,
-      "item_count": 2,
+      "item_count": 1,
       "latest_at": "2026-08-29T12:35:42Z",
       "sources": [
         {
@@ -215,6 +215,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "33e7c2f903cc8697e2d2c19d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Argentines march on Peter Thiel's mansion",
+      "url": "https://www.france24.com/en/argentines-march-on-peter-thiel-s-mansion",
+      "published_at": "2026-08-30T10:06:31Z",
+      "collected_at": "2026-08-30T10:30:39Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "3dc521eb65a9f21ca4ff173b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Nepal: Thousands still missing as death toll rises",
+      "url": "https://www.france24.com/en/nepal-thousands-still-missing-as-death-toll-rises",
+      "published_at": "2026-08-30T10:04:27Z",
+      "collected_at": "2026-08-30T10:30:39Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "afe7389054d46399d66c38f1",
       "source_id": "politico_europe",
@@ -1028,20 +1056,6 @@
       ]
     },
     {
-      "id": "2c40e4b9818811591d54806b",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Russia kills 27 as drone hits ammo warehouse near homes in Ukraine",
-      "url": "https://www.politico.eu/article/russia-kills-27-as-drone-hits-ammo-warehouse-near-homes-in-ukraine",
-      "published_at": "2026-08-29T09:58:14Z",
-      "collected_at": "2026-08-29T10:00:49Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "3708e3119197fb2ad0881362",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1067,76 +1081,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "492a81000a2a4dd5480a5cde",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "At least 27 dead and hundreds evacuated after strikes near Kyiv",
-      "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-29T09:38:07Z",
-      "collected_at": "2026-08-29T10:00:49Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "d8dc56608c13f600b67237f3",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 Russian strike on warehouse near Kyiv kills at least 27 people, hundreds evacuating",
-      "url": "https://www.france24.com/en/europe/20260829-russian-strike-on-warehouse-near-kyiv-kills-at-least-27-people-hundreds-evacuated",
-      "published_at": "2026-08-29T09:17:21Z",
-      "collected_at": "2026-08-29T10:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "a9fc63ce7f195c77f8f6e05f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Mont Blanc ultramarathon trail kicks off amid growing environmental concern",
-      "url": "https://www.france24.com/en/mont-blanc-ultramarathon-trail-kicks-off-amid-growing-environmental-concern",
-      "published_at": "2026-08-29T09:01:17Z",
-      "collected_at": "2026-08-29T10:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "5c1c18448bd5a7c6c8233b55",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Iceland votes on whether to resume EU membership negotiations",
-      "url": "https://www.france24.com/en/iceland-votes-on-whether-to-resume-eu-membership-negotiations",
-      "published_at": "2026-08-29T08:57:53Z",
-      "collected_at": "2026-08-29T10:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0689a48a49e37dfee8757c9e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Hundreds evacuate after Russian strike on warehouse near Kyiv kills at least 27",
-      "url": "https://www.france24.com/en/europe/20260829-russian-strike-on-warehouse-near-kyiv-kills-at-least-27-people-hundreds-evacuated",
-      "published_at": "2026-08-29T08:57:05Z",
-      "collected_at": "2026-08-29T10:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -1168,20 +1112,6 @@
       ]
     },
     {
-      "id": "23f67d56e800e0ffc0de6853",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US to control one fifth of Venezuela's oil reserves, Trump says",
-      "url": "https://www.france24.com/en/us-to-control-one-fifth-of-venezuela-s-oil-reserves-trump-says",
-      "published_at": "2026-08-29T08:55:18Z",
-      "collected_at": "2026-08-29T10:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "31131161a144237b8fe3e5ce",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1192,34 +1122,6 @@
       "topics": [
         "politics",
         "security",
-        "society"
-      ]
-    },
-    {
-      "id": "6f0d9835a3ac65450ee10642",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Nepal army races to rescue more than 100 trapped in hydropower tunnel after floods",
-      "url": "https://www.france24.com/en/nepal-army-races-to-rescue-more-than-100-trapped-in-hydropower-tunnel-after-floods",
-      "published_at": "2026-08-29T08:50:06Z",
-      "collected_at": "2026-08-29T10:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "f0ceeea4045eb731c0de12b7",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Dutch institute issues 'red alert' over Trump-shaped ecstasy pills",
-      "url": "https://www.bbc.co.uk/news/articles/cy8z9084d00o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-29T08:48:34Z",
-      "collected_at": "2026-08-29T10:00:49Z",
-      "topics": [
-        "breaking",
-        "politics",
         "society"
       ]
     },
@@ -1249,34 +1151,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "1ac56a332d36632d222cd764",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Icelanders vote in tight referendum on restarting EU membership talks",
-      "url": "https://www.france24.com/en/europe/20260829-icelanders-vote-in-referendum-on-whether-to-resume-eu-membership-talks",
-      "published_at": "2026-08-29T06:56:50Z",
-      "collected_at": "2026-08-29T10:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "2be4449b60b99d28c171e18d",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Niger's government mobilises troops as gunfire reported near presidential palace",
-      "url": "https://www.france24.com/en/africa/20260829-gunfire-and-explosions-heard-near-military-base-in-niger-s-capital",
-      "published_at": "2026-08-29T06:33:07Z",
-      "collected_at": "2026-08-29T10:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -1345,6 +1219,34 @@
       "collected_at": "2026-08-30T10:00:46Z",
       "topics": [
         "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "edd73ae9d76d96e05027e5cf",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "No candidate in Israeli election backs a Palestinian state. The EU’s answer is more ‘reforms’, not pressure",
+      "url": "https://euobserver.com/233860/no-candidate-in-israeli-election-backs-a-palestinian-state-the-eus-answer-is-more-reforms-not-pressure",
+      "published_at": "2026-08-28T09:28:04Z",
+      "collected_at": "2026-08-30T10:30:39Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "4121bc8510de512014d5375d",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Norway's King Harald dies aged 89: A beloved monarch buffeted by family crises",
+      "url": "https://www.bbc.co.uk/news/articles/clykn5p5172o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-28T09:27:17Z",
+      "collected_at": "2026-08-30T10:30:39Z",
+      "topics": [
+        "breaking",
         "politics",
         "society"
       ]
@@ -1756,62 +1658,6 @@
       ]
     },
     {
-      "id": "38991bec334ad9edde22070c",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Dutch government think‑tank pushes EU for tougher tariffs and controls on China",
-      "url": "https://euobserver.com/233923/dutch-government-thinktank-pushes-eu-for-tougher-tariffs-and-controls-on-china",
-      "published_at": "2026-08-27T09:36:32Z",
-      "collected_at": "2026-08-29T10:00:49Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "106445b69b6f0d9ba578a4d8",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Listen: Will Armenia be the next EU candidate?",
-      "url": "https://euobserver.com/233934/listen-will-armenia-be-the-next-eu-candidate",
-      "published_at": "2026-08-27T09:35:55Z",
-      "collected_at": "2026-08-29T10:00:49Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "fb115d07d455ea1f45dc2798",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland asks EU to fine Meta €250m over scam Facebook ads",
-      "url": "https://notesfrompoland.com/2026/08/27/poland-asks-eu-to-fine-meta-e250m-over-scam-facebook-ads",
-      "published_at": "2026-08-27T09:18:04Z",
-      "collected_at": "2026-08-29T10:00:49Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "d3c4406744ab74e6c4d66266",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "CDU's Volkmann: Ukraine aid is not charity",
-      "url": "https://www.dw.com/en/cdu-s-volkmann-ukraine-aid-is-not-charity/a-78517659?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-27T08:30:00Z",
-      "collected_at": "2026-08-29T10:00:49Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "9ac560d991f05b8c0ea66901",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -2201,20 +2047,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "16cfdf95b5556495a1fe30a5",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Latin America’s new imaginaries",
-      "url": "https://ecfr.eu/podcasts/episode/latin-americas-new-imaginaries",
-      "published_at": "2026-08-07T05:00:00Z",
-      "collected_at": "2026-08-29T10:00:49Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
       ]
     },
     {
