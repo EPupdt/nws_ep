@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-30T09:00:45Z",
-  "last_successful_collection_at": "2026-08-30T09:00:45Z",
+  "generated_at": "2026-08-30T09:30:40Z",
+  "last_successful_collection_at": "2026-08-30T09:30:40Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-30T09:00:45Z"
+      "at": "2026-08-30T09:30:40Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "29",
-      "at": "2026-08-30T09:00:45Z"
+      "at": "2026-08-30T09:30:40Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-30T09:00:45Z"
+      "at": "2026-08-30T09:30:40Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-30T09:00:45Z"
+      "at": "2026-08-30T09:30:40Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-30T09:00:45Z"
+      "at": "2026-08-30T09:30:40Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-30T09:00:45Z"
+      "at": "2026-08-30T09:30:40Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-30T09:00:45Z"
+      "at": "2026-08-30T09:30:40Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-30T09:00:45Z"
+      "at": "2026-08-30T09:30:40Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-30T09:00:45Z"
+      "at": "2026-08-30T09:30:40Z"
     }
   ],
   "europe_now": [
@@ -194,6 +194,27 @@
   ],
   "developing": [
     {
+      "label": "kills · rave · Swiss",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-30T09:14:17Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/gunman-kills-one-at-swiss-rave-party",
+          "headline": "Gunman kills one at Swiss rave party",
+          "published_at": "2026-08-30T09:14:17Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
+          "headline": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
+          "published_at": "2026-08-30T08:54:49Z"
+        }
+      ]
+    },
+    {
       "label": "Russia · Ukraine · ammo · drone",
       "origin": "radar",
       "source_count": 1,
@@ -205,21 +226,6 @@
           "url": "https://www.politico.eu/article/russia-plans-new-ground-attack-on-kyiv-ukraine-warns",
           "headline": "Russia plans new ground attack on Kyiv, Ukraine warns",
           "published_at": "2026-08-29T16:01:28Z"
-        }
-      ]
-    },
-    {
-      "label": "five · Manhunt · shooting · Swiss",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 3,
-      "latest_at": "2026-08-30T08:54:49Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
-          "headline": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
-          "published_at": "2026-08-30T08:54:49Z"
         }
       ]
     },
@@ -239,22 +245,78 @@
       ]
     },
     {
-      "label": "evacuating · hundreds · kills · Kyiv",
+      "label": "Asia · Central · China · counter",
       "origin": "radar",
       "source_count": 1,
       "item_count": 1,
-      "latest_at": "2026-08-29T09:17:21Z",
+      "latest_at": "2026-08-30T05:51:53Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260829-russian-strike-on-warehouse-near-kyiv-kills-at-least-27-people-hundreds-evacuated",
-          "headline": "🔴 Russian strike on warehouse near Kyiv kills at least 27 people, hundreds evacuating",
-          "published_at": "2026-08-29T09:17:21Z"
+          "url": "https://www.france24.com/en/asia-pacific/20260830-putin-xi-set-for-central-asia-summit-as-russia-china-seek-to-counter-western-influence",
+          "headline": "Putin, Xi set for Central Asia summit as Russia, China seek to counter Western influence",
+          "published_at": "2026-08-30T05:51:53Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "1b2c5e43d2270f64c20c7116",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Nepal: Glacial collapse leaves 3,000 missing",
+      "url": "https://www.france24.com/en/nepal-glacial-collapse-leaves-3-000-missing",
+      "published_at": "2026-08-30T09:16:08Z",
+      "collected_at": "2026-08-30T09:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "7d0dd56204d3ced06cc73b9c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Gunman kills one at Swiss rave party",
+      "url": "https://www.france24.com/en/gunman-kills-one-at-swiss-rave-party",
+      "published_at": "2026-08-30T09:14:17Z",
+      "collected_at": "2026-08-30T09:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "ac2ad01d0de186e02770be82",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Greece, Turkey clash over protected Aegean marine areas",
+      "url": "https://www.dw.com/en/greece-turkey-clash-over-protected-aegean-marine-areas/a-78550021?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-30T09:07:00Z",
+      "collected_at": "2026-08-30T09:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "9e0d9fa0a52d2b615b0d3a58",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Vuelta: Pogacar’s terrifying crash, serious injuries and abandonment",
+      "url": "https://www.france24.com/en/tv-shows/sports/20260830-vuelta-pogacar-s-terrifying-crash-serious-injuries-and-abandonment",
+      "published_at": "2026-08-30T09:03:10Z",
+      "collected_at": "2026-08-30T09:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "d9ff745d1e293e1064e197de",
       "source_id": "france24",
@@ -1278,6 +1340,20 @@
       ]
     },
     {
+      "id": "fd31ce7a6a12da97de903d2c",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Listen: Could Iceland join the EU?",
+      "url": "https://euobserver.com/234138/listen-could-iceland-join-the-eu",
+      "published_at": "2026-08-28T08:04:52Z",
+      "collected_at": "2026-08-30T09:30:40Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "9b7e1f5f127ef8b99819303c",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1709,6 +1785,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "9ac560d991f05b8c0ea66901",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Polish prosecutors investigate crypto firm’s links to conservative opposition politicians and organisations",
+      "url": "https://notesfrompoland.com/2026/08/26/polish-prosecutors-investigate-crypto-firms-links-to-conservative-opposition-politicians-and-organisations",
+      "published_at": "2026-08-26T08:50:16Z",
+      "collected_at": "2026-08-30T09:30:40Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
       ]
     },
     {
