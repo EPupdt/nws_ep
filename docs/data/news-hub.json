@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-30T05:00:51Z",
-  "last_successful_collection_at": "2026-08-30T05:00:51Z",
+  "generated_at": "2026-08-30T06:00:49Z",
+  "last_successful_collection_at": "2026-08-30T06:00:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-30T05:00:51Z"
+      "at": "2026-08-30T06:00:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "28",
-      "at": "2026-08-30T05:00:51Z"
+      "at": "2026-08-30T06:00:49Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-30T05:00:51Z"
+      "at": "2026-08-30T06:00:49Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-30T05:00:51Z"
+      "at": "2026-08-30T06:00:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-30T05:00:51Z"
+      "at": "2026-08-30T06:00:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-30T05:00:51Z"
+      "at": "2026-08-30T06:00:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-30T05:00:51Z"
+      "at": "2026-08-30T06:00:49Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-30T05:00:51Z"
+      "at": "2026-08-30T06:00:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-30T05:00:51Z"
+      "at": "2026-08-30T06:00:49Z"
     }
   ],
   "europe_now": [
@@ -219,10 +219,31 @@
       ]
     },
     {
+      "label": "Putin · Russia",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-08-30T05:51:53Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/asia-pacific/20260830-putin-xi-set-for-central-asia-summit-as-russia-china-seek-to-counter-western-influence",
+          "headline": "Putin, Xi set for Central Asia summit as Russia, China seek to counter Western influence",
+          "published_at": "2026-08-30T05:51:53Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/friedrich-merz-berlin-sanctions-russia-vladimir-putin-leipzig-attach-ascalate",
+          "headline": "Germany plans to blame Russia for Leipzig attack as tensions with Putin escalate",
+          "published_at": "2026-08-29T11:01:55Z"
+        }
+      ]
+    },
+    {
       "label": "Russia · Ukraine · ammo · drone",
       "origin": "radar",
       "source_count": 1,
-      "item_count": 5,
+      "item_count": 4,
       "latest_at": "2026-08-29T16:01:28Z",
       "sources": [
         {
@@ -247,24 +268,51 @@
           "published_at": "2026-08-29T09:17:21Z"
         }
       ]
-    },
-    {
-      "label": "EU · Icelanders · membership · referendum",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-08-29T06:56:50Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260829-icelanders-vote-in-referendum-on-whether-to-resume-eu-membership-talks",
-          "headline": "Icelanders vote in referendum on whether to resume EU membership talks",
-          "published_at": "2026-08-29T06:56:50Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "1bebeeb64059a6e17490c857",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Putin, Xi set for Central Asia summit as Russia, China seek to counter Western influence",
+      "url": "https://www.france24.com/en/asia-pacific/20260830-putin-xi-set-for-central-asia-summit-as-russia-china-seek-to-counter-western-influence",
+      "published_at": "2026-08-30T05:51:53Z",
+      "collected_at": "2026-08-30T06:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "447feb59b6b35e1a5e8c634b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "NASA set to launch Roman telescope to map the universe",
+      "url": "https://www.france24.com/en/americas/20260830-nasa-set-to-launch-roman-telescope-to-map-the-universe",
+      "published_at": "2026-08-30T05:26:07Z",
+      "collected_at": "2026-08-30T06:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "5369b464ba5d55a8f8ac857f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Nepal-Tibet floods live: At least 750 dead as rising water levels hamper rescue efforts",
+      "url": "https://www.france24.com/en/asia-pacific/20260830-nepal-tibet-floods-live-at-least-750-dead-as-death-toll-rises",
+      "published_at": "2026-08-30T04:59:36Z",
+      "collected_at": "2026-08-30T06:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "fe426d92e82455627aa0650a",
       "source_id": "el_pais_english",
@@ -1106,20 +1154,6 @@
       ]
     },
     {
-      "id": "4b80773c53a77c5356076451",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Nepal-Tibet floods live: Death toll passes 600, nearly 3,000 people still missing",
-      "url": "https://www.france24.com/en/asia-pacific/20260829-nepal-tibet-floods-live-death-toll-passes-600-nearly-2-500-people-still-missing",
-      "published_at": "2026-08-29T05:06:17Z",
-      "collected_at": "2026-08-29T05:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "35ad89481dc64050ce6a4aa7",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1162,132 +1196,6 @@
       ]
     },
     {
-      "id": "86a7e70226b315a0f016223d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The California ranch owned by the new CJNG leader, which the Trump administration is seeking to seize",
-      "url": "https://english.elpais.com/international/2026-08-29/the-california-ranch-owned-by-the-new-cjng-leader-which-the-trump-administration-is-seeking-to-seize.html",
-      "published_at": "2026-08-29T04:00:00Z",
-      "collected_at": "2026-08-29T05:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "b9dc7ca0fd9a31a293bcc8d6",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Six months without El Mencho in Mexico",
-      "url": "https://english.elpais.com/international/2026-08-29/six-months-without-el-mencho-in-mexico.html",
-      "published_at": "2026-08-29T04:00:00Z",
-      "collected_at": "2026-08-29T05:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "803b55497111ff5a8a46666d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Marcelo Lucero’s killing returns to the spotlight 18 years later: ‘The violence is back, but now it comes from ICE agents’",
-      "url": "https://english.elpais.com/usa/2026-08-29/marcelo-luceros-killing-returns-to-the-spotlight-18-years-later-the-violence-is-back-but-now-it-comes-from-ice-agents.html",
-      "published_at": "2026-08-29T04:00:00Z",
-      "collected_at": "2026-08-29T05:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "5443d83d28e131403fe79f1a",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Can US progressives deliver economic growth?",
-      "url": "https://english.elpais.com/opinion/2026-08-29/can-us-progressives-deliver-economic-growth.html",
-      "published_at": "2026-08-29T04:00:00Z",
-      "collected_at": "2026-08-29T05:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "75d6924e8c3e912672d14fdf",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "AI swarms turn on their creators: It’s the first incident that has made my stomach churn’",
-      "url": "https://english.elpais.com/technology/2026-08-29/ai-swarms-turn-on-their-creators-its-the-first-incident-that-has-made-my-stomach-churn.html",
-      "published_at": "2026-08-29T04:00:00Z",
-      "collected_at": "2026-08-29T05:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "1be9ca4ccb97ae350b8cd8c4",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Charts that explain the rise of artificial intelligence",
-      "url": "https://english.elpais.com/technology/2026-08-29/charts-that-explain-the-rise-of-artificial-intelligence.html",
-      "published_at": "2026-08-29T04:00:00Z",
-      "collected_at": "2026-08-29T05:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "bfec2ae182c992e2f348b0ab",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Edi Rama, Albania’s prime minister and an artist exhibiting in Paris and New York",
-      "url": "https://english.elpais.com/culture/2026-08-29/edi-rama-albanias-prime-minister-and-an-artist-exhibiting-in-paris-and-new-york.html",
-      "published_at": "2026-08-29T04:00:00Z",
-      "collected_at": "2026-08-29T05:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "4eede60a5c72a502642b9a68",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "In the Spanish city of Valencia, fascist squads patrol the streets",
-      "url": "https://english.elpais.com/spain/2026-08-29/in-the-spanish-city-of-valencia-fascist-squads-patrol-the-streets.html",
-      "published_at": "2026-08-29T04:00:00Z",
-      "collected_at": "2026-08-29T05:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "45401c560b840aeb739c05bc",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Ella Rubin, the ‘Sterling Point’ star everyone is comparing to Julia Roberts",
-      "url": "https://english.elpais.com/people/2026-08-29/ella-rubin-the-sterling-point-star-everyone-is-comparing-to-julia-roberts.html",
-      "published_at": "2026-08-29T04:00:00Z",
-      "collected_at": "2026-08-29T05:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "c3cfccfdaf4a3600b39bb155",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1313,6 +1221,34 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "9b7e1f5f127ef8b99819303c",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Brussels veteran Dan Luca joins EUobserver as new European Affairs director",
+      "url": "https://euobserver.com/233677/brussels-veteran-dan-luca-joins-euobserver-as-new-european-affairs-director",
+      "published_at": "2026-08-28T05:00:00Z",
+      "collected_at": "2026-08-30T06:00:49Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "0ff295ad0d863b7a8312e85a",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Can a ceasefire survive Israel’s election?",
+      "url": "https://ecfr.eu/podcasts/episode/can-a-ceasefire-survive-israels-election",
+      "published_at": "2026-08-28T05:00:00Z",
+      "collected_at": "2026-08-30T06:00:49Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
@@ -2044,6 +1980,34 @@
       ]
     },
     {
+      "id": "846ba33c50c1eb559a99ba36",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Inside Mattel, where the world’s most famous toys come to life: How the ‘Toy Story’ action figures are designed",
+      "url": "https://english.elpais.com/economy-and-business/2026-08-22/inside-mattel-where-the-worlds-most-famous-toys-come-to-life-how-the-toy-story-action-figures-are-designed.html",
+      "published_at": "2026-08-22T04:00:00Z",
+      "collected_at": "2026-08-30T06:00:49Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "e960e59754900f59d88c925c",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "From Capri to Biarritz, a photographic journey capturing the carefree life of the beach",
+      "url": "https://english.elpais.com/eps/2026-08-22/from-capri-to-biarritz-a-photographic-journey-capturing-the-carefree-life-of-the-beach.html",
+      "published_at": "2026-08-22T04:00:00Z",
+      "collected_at": "2026-08-30T06:00:49Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "10af6124b1c64b4e36298e02",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2205,6 +2169,20 @@
       "url": "https://english.elpais.com/science-tech/2026-08-15/nancy-cartwright-philosopher-people-distrust-science-because-they-feel-the-system-has-abandoned-them.html",
       "published_at": "2026-08-15T04:00:00Z",
       "collected_at": "2026-08-29T06:30:41Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "8a42af5bd627ff8552898d03",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Vlaada Chvátil, inventor of the hit game Codenames: ‘I’m a perfectionist’",
+      "url": "https://english.elpais.com/culture/2026-08-11/vlaada-chvatil-inventor-of-the-hit-game-codenames-im-a-perfectionist.html",
+      "published_at": "2026-08-11T18:57:11Z",
+      "collected_at": "2026-08-30T06:00:49Z",
       "topics": [
         "politics",
         "society",
