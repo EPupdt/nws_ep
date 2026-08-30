@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-30T08:30:40Z",
-  "last_successful_collection_at": "2026-08-30T08:30:40Z",
+  "generated_at": "2026-08-30T09:00:45Z",
+  "last_successful_collection_at": "2026-08-30T09:00:45Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-30T08:30:40Z"
+      "at": "2026-08-30T09:00:45Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "29",
-      "at": "2026-08-30T08:30:40Z"
+      "at": "2026-08-30T09:00:45Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-30T08:30:40Z"
+      "at": "2026-08-30T09:00:45Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,47 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-30T08:30:40Z"
+      "at": "2026-08-30T09:00:45Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-30T08:30:40Z"
+      "at": "2026-08-30T09:00:45Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-30T08:30:40Z"
+      "at": "2026-08-30T09:00:45Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-30T08:30:40Z"
+      "at": "2026-08-30T09:00:45Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-30T08:30:40Z"
+      "at": "2026-08-30T09:00:45Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-30T08:30:40Z"
+      "at": "2026-08-30T09:00:45Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian attack on Kyiv weapons depot",
-      "summary": "A strike on a Kyiv weapons depot killed at least 37 people. Hundreds were evacuated following the attack.",
+      "title": "Russian strike on Kyiv warehouse causes mass casualties",
+      "summary": "A Russian strike on a Kyiv warehouse resulted in dozens of deaths and hundreds of evacuations. Ukrainian authorities indicated that the targeted facility was storing munitions.",
       "article_ids": [
-        "c43657dfdf5c06f970f18458"
+        "c43657dfdf5c06f970f18458",
+        "ff838275c065c50dd44811a5",
+        "b4a8ae68285b868718a22685"
       ],
       "sources": [
         {
@@ -75,13 +77,91 @@
           "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
           "headline": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
           "published_at": "2026-08-29T12:55:39Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/warehouse-hit-by-russian-attack-stored-munitions-zelensky-says",
+          "headline": "Warehouse hit by Russian attack stored munitions, Zelensky says",
+          "published_at": "2026-08-29T12:35:42Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
+    },
+    {
+      "title": "Icelanders vote on resuming EU membership negotiations",
+      "summary": "Icelandic citizens voted in a referendum on whether to resume EU membership talks. The referendum addressed the country's potential future relationship with the European Union.",
+      "article_ids": [
+        "0b4d4adef7db3de4c8d50d21",
+        "036aab95028d7e4407177895"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/icelanders-say-no-to-restarting-talks-to-join-the-eu",
+          "headline": "Icelanders say no to restarting talks to join the EU",
+          "published_at": "2026-08-30T08:44:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/referendum-on-eu-membership-an-existential-question-for-icelanders",
+          "headline": "Referendum on EU membership: An ‘existential question’ for Icelanders",
+          "published_at": "2026-08-29T12:46:29Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Icelanders vote on resuming EU membership negotiations",
+      "summary": "Icelandic citizens voted in a referendum on whether to resume EU membership talks. The referendum addressed the country's potential future relationship with the European Union.",
+      "article_ids": [
+        "0b4d4adef7db3de4c8d50d21",
+        "036aab95028d7e4407177895"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/icelanders-say-no-to-restarting-talks-to-join-the-eu",
+          "headline": "Icelanders say no to restarting talks to join the EU",
+          "published_at": "2026-08-30T08:44:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/referendum-on-eu-membership-an-existential-question-for-icelanders",
+          "headline": "Referendum on EU membership: An ‘existential question’ for Icelanders",
+          "published_at": "2026-08-29T12:46:29Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Russian strike on Kyiv warehouse causes mass casualties",
+      "summary": "A Russian strike on a Kyiv warehouse resulted in dozens of deaths and hundreds of evacuations. Ukrainian authorities indicated that the targeted facility was storing munitions.",
+      "article_ids": [
+        "c43657dfdf5c06f970f18458",
+        "ff838275c065c50dd44811a5",
+        "b4a8ae68285b868718a22685"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
+          "headline": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
+          "published_at": "2026-08-29T12:55:39Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/warehouse-hit-by-russian-attack-stored-munitions-zelensky-says",
+          "headline": "Warehouse hit by Russian attack stored munitions, Zelensky says",
+          "published_at": "2026-08-29T12:35:42Z"
+        }
+      ],
+      "source_count": 2
     },
     {
       "title": "Germany plans to blame Russia for Leipzig attack",
-      "summary": "Germany plans to blame Russia for a Leipzig attack. The move is linked to escalating tensions with Putin.",
+      "summary": "Germany is preparing to attribute a recent attack in Leipzig to Russian authorities. This development is expected to further escalate tensions between Berlin and Moscow.",
       "article_ids": [
         "b3e82f27ca577c391bbf748b"
       ],
@@ -94,28 +174,10 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Iceland referendum on EU membership",
-      "summary": "A referendum on Iceland's EU membership is underway. Officials have described the vote as an existential question for the nation.",
-      "article_ids": [
-        "036aab95028d7e4407177895"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/referendum-on-eu-membership-an-existential-question-for-icelanders",
-          "headline": "Referendum on EU membership: An ‘existential question’ for Icelanders",
-          "published_at": "2026-08-29T12:46:29Z"
-        }
-      ],
-      "source_count": 1
     },
     {
-      "title": "Norway's new king addresses nation",
-      "summary": "Norway's new king delivered his first public address. He referenced his late father during the speech.",
+      "title": "Norway's new king addresses nation after succession",
+      "summary": "Norway's newly ascended king delivered his first address to the nation following the succession. The monarch spoke about his father and his new role during a period of national transition.",
       "article_ids": [
         "081384cbe1551158e11b5cb8"
       ],
@@ -132,27 +194,6 @@
   ],
   "developing": [
     {
-      "label": "Dutch · ecstasy · institute · pills",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-08-29T11:31:10Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/donald-trump-shaped-ecstasy-pills-can-be-fatal-dutch-drug-institute-warns",
-          "headline": "Trump-shaped ecstasy pills can be fatal, Dutch drug institute warns",
-          "published_at": "2026-08-29T11:31:10Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cy8z9084d00o?at_medium=RSS&at_campaign=rss",
-          "headline": "Dutch institute issues 'red alert' over Trump-shaped ecstasy pills",
-          "published_at": "2026-08-29T08:48:34Z"
-        }
-      ]
-    },
-    {
       "label": "Russia · Ukraine · ammo · drone",
       "origin": "radar",
       "source_count": 1,
@@ -168,37 +209,150 @@
       ]
     },
     {
-      "label": "Russian · Warehouse · strike",
+      "label": "five · Manhunt · shooting · Swiss",
       "origin": "radar",
       "source_count": 1,
       "item_count": 3,
-      "latest_at": "2026-08-29T12:35:42Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/warehouse-hit-by-russian-attack-stored-munitions-zelensky-says",
-          "headline": "Warehouse hit by Russian attack stored munitions, Zelensky says",
-          "published_at": "2026-08-29T12:35:42Z"
-        }
-      ]
-    },
-    {
-      "label": "five · injured · killed · Manhunt",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 2,
-      "latest_at": "2026-08-30T08:17:11Z",
+      "latest_at": "2026-08-30T08:54:49Z",
       "sources": [
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
-          "headline": "Manhunt after woman, 22, killed and five injured in Swiss shooting",
-          "published_at": "2026-08-30T08:17:11Z"
+          "headline": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
+          "published_at": "2026-08-30T08:54:49Z"
+        }
+      ]
+    },
+    {
+      "label": "five · injured · rave · shooting",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 2,
+      "latest_at": "2026-08-30T06:52:02Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260830-one-killed-five-injured-in-shooting-at-rave-in-switzerland",
+          "headline": "One killed, five injured in shooting at rave in Switzerland",
+          "published_at": "2026-08-30T06:52:02Z"
+        }
+      ]
+    },
+    {
+      "label": "evacuating · hundreds · kills · Kyiv",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-08-29T09:17:21Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260829-russian-strike-on-warehouse-near-kyiv-kills-at-least-27-people-hundreds-evacuated",
+          "headline": "🔴 Russian strike on warehouse near Kyiv kills at least 27 people, hundreds evacuating",
+          "published_at": "2026-08-29T09:17:21Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "d9ff745d1e293e1064e197de",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French Presidential campaign heats up",
+      "url": "https://www.france24.com/en/french-presidential-campaign-heats-up",
+      "published_at": "2026-08-30T08:55:13Z",
+      "collected_at": "2026-08-30T09:00:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "16fb351a5ec356ad85c5fc8e",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
+      "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-30T08:54:49Z",
+      "collected_at": "2026-08-30T09:00:45Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "d463822afce79170a532ca5b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Fridges for humans during heatwaves in Japan",
+      "url": "https://www.france24.com/en/fridges-for-humans-during-heatwaves-in-japan",
+      "published_at": "2026-08-30T08:50:18Z",
+      "collected_at": "2026-08-30T09:00:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "d535ee630b8356cab87ce618",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Netanyahu condemns violence in West Bank",
+      "url": "https://www.france24.com/en/netanyahu-condemns-violence-in-west-bank",
+      "published_at": "2026-08-30T08:46:45Z",
+      "collected_at": "2026-08-30T09:00:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "0b4d4adef7db3de4c8d50d21",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Icelanders say no to restarting talks to join the EU",
+      "url": "https://www.politico.eu/article/icelanders-say-no-to-restarting-talks-to-join-the-eu",
+      "published_at": "2026-08-30T08:44:00Z",
+      "collected_at": "2026-08-30T09:00:45Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "8d36aabe01ab9be03a16f5f2",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Niger: Junta says back in control after mutiny",
+      "url": "https://www.france24.com/en/niger-junta-says-back-in-control-after-mutiny",
+      "published_at": "2026-08-30T08:41:57Z",
+      "collected_at": "2026-08-30T09:00:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "70f73390617c109a6a3e17aa",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Death toll rises as 3,000 remain missing in Nepal, China",
+      "url": "https://www.france24.com/en/death-toll-rises-as-3-000-remain-missing-in-nepal-china",
+      "published_at": "2026-08-30T08:37:04Z",
+      "collected_at": "2026-08-30T09:00:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "045bc528c85247468194ad36",
       "source_id": "bbc_europe",
@@ -284,6 +438,20 @@
       ]
     },
     {
+      "id": "31f0d73f375d15ebbeabed3a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Putin, Xi set for Central Asia summit as Russia and China seek to counter Western influence",
+      "url": "https://www.france24.com/en/asia-pacific/20260830-putin-xi-set-for-central-asia-summit-as-russia-china-seek-to-counter-western-influence",
+      "published_at": "2026-08-30T05:51:53Z",
+      "collected_at": "2026-08-30T09:00:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "447feb59b6b35e1a5e8c634b",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -291,6 +459,20 @@
       "url": "https://www.france24.com/en/americas/20260830-nasa-set-to-launch-roman-telescope-to-map-the-universe",
       "published_at": "2026-08-30T05:26:07Z",
       "collected_at": "2026-08-30T06:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "3c7eddc726bc6a3d2b8da6b9",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "NASA set to launch Roman telescope to provide 'a new atlas of the universe'",
+      "url": "https://www.france24.com/en/americas/20260830-nasa-set-to-launch-roman-telescope-to-map-the-universe",
+      "published_at": "2026-08-30T05:26:07Z",
+      "collected_at": "2026-08-30T09:00:45Z",
       "topics": [
         "politics",
         "security",
@@ -984,34 +1166,6 @@
       ]
     },
     {
-      "id": "c242f2660b14dfcf90b61e0a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ligue 1: PSG survive scare to snatch a miraculous 2-2 draw at Lille",
-      "url": "https://www.france24.com/en/tv-shows/sports/20260829-ligue-1-psg-survive-scare-to-snatch-a-miraculous-2-2-draw-at-lille",
-      "published_at": "2026-08-29T08:07:53Z",
-      "collected_at": "2026-08-29T08:30:40Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "7b9157ba08ef5bc17cf7df01",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Ein Spaziergang mit Manuela Schwesig",
-      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/ein-spaziergang-mit-manuela-schwesig",
-      "published_at": "2026-08-29T08:00:00Z",
-      "collected_at": "2026-08-29T08:30:40Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "94b50a02a9682564dc79dfe5",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1033,20 +1187,6 @@
       "url": "https://www.france24.com/en/europe/20260829-icelanders-vote-in-referendum-on-whether-to-resume-eu-membership-talks",
       "published_at": "2026-08-29T06:56:50Z",
       "collected_at": "2026-08-29T10:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "9406230cad524e8ee00c274a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "TV signal down after gunfire, explosions heard across Niger's capital",
-      "url": "https://www.france24.com/en/africa/20260829-gunfire-and-explosions-heard-near-military-base-in-niger-s-capital",
-      "published_at": "2026-08-29T06:33:07Z",
-      "collected_at": "2026-08-29T08:30:40Z",
       "topics": [
         "politics",
         "security",
@@ -1117,34 +1257,6 @@
       "url": "https://www.france24.com/en/asia-pacific/20260829-nepal-tibet-floods-live-death-toll-passes-600-nearly-2-500-people-still-missing",
       "published_at": "2026-08-29T05:06:17Z",
       "collected_at": "2026-08-29T15:00:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "c3cfccfdaf4a3600b39bb155",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Trump announces 'historic' agreement for US stake in Venezuela oil reserves",
-      "url": "https://www.france24.com/en/americas/20260829-trump-announces-historic-agreement-for-us-stake-in-venezuela-oil-reserves",
-      "published_at": "2026-08-29T00:05:18Z",
-      "collected_at": "2026-08-29T08:30:40Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "f33defc6246cb5a9572ca6bb",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Rescuers grapple with a mountain of challenges after the Nepal-Tibet floods",
-      "url": "https://www.france24.com/en/asia-pacific/20260828-rescuers-grapple-with-mountain-of-challenges-after-the-nepal-tibet-floods",
-      "published_at": "2026-08-28T14:14:00Z",
-      "collected_at": "2026-08-29T08:30:40Z",
       "topics": [
         "politics",
         "security",
@@ -1709,20 +1821,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "89d038d46a4bdd192f4fb1bf",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland’s Mesko signs €1.9bn deal to supply Piorun air-defence systems to four NATO countries",
-      "url": "https://notesfrompoland.com/2026/08/25/polands-mesko-signs-e1-9bn-deal-to-supply-piorun-air-defence-systems-to-four-nato-countries",
-      "published_at": "2026-08-25T07:29:32Z",
-      "collected_at": "2026-08-29T08:30:40Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
       ]
     },
     {
