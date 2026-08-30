@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-30T15:00:51Z",
-  "last_successful_collection_at": "2026-08-30T15:00:51Z",
+  "generated_at": "2026-08-30T15:30:42Z",
+  "last_successful_collection_at": "2026-08-30T15:30:42Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-30T15:00:51Z"
+      "at": "2026-08-30T15:30:42Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "31",
-      "at": "2026-08-30T15:00:51Z"
+      "at": "2026-08-30T15:30:42Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-30T15:00:51Z"
+      "at": "2026-08-30T15:30:42Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-30T15:00:51Z"
+      "at": "2026-08-30T15:30:42Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-30T15:00:51Z"
+      "at": "2026-08-30T15:30:42Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-30T15:00:51Z"
+      "at": "2026-08-30T15:30:42Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-30T15:00:51Z"
+      "at": "2026-08-30T15:30:42Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-30T15:00:51Z"
+      "at": "2026-08-30T15:30:42Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-30T15:00:51Z"
+      "at": "2026-08-30T15:30:42Z"
     }
   ],
   "europe_now": [
@@ -103,8 +103,14 @@
       "origin": "convergence",
       "source_count": 3,
       "item_count": 7,
-      "latest_at": "2026-08-30T14:53:41Z",
+      "latest_at": "2026-08-30T15:07:30Z",
       "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/iceland-parliament-will-discuss-withdrawing-eu-bid-after-failed-referendum",
+          "headline": "Iceland’s parliament will ‘discuss’ withdrawing EU bid after failed referendum",
+          "published_at": "2026-08-30T15:07:30Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/video/20260830-iceland-rejects-eu-accession-talks",
@@ -116,12 +122,6 @@
           "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
           "headline": "Iceland votes against restarting EU membership talks",
           "published_at": "2026-08-30T14:45:05Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/iceland-referendum-question-marks-no-camp-successful",
-          "headline": "The real reason Iceland rejected the EU",
-          "published_at": "2026-08-30T11:37:02Z"
         }
       ]
     },
@@ -184,6 +184,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "8dfbf65ed85e4d0d6c6b8051",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russian paramilitary forces help Niger's junta regain control after mutiny",
+      "url": "https://www.france24.com/en/africa/20260830-niger-junta-aided-by-russian-paramilitary-forces-regains-control-after-mutiny",
+      "published_at": "2026-08-30T15:20:01Z",
+      "collected_at": "2026-08-30T15:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "0602237c20613db438f72835",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Iceland’s parliament will ‘discuss’ withdrawing EU bid after failed referendum",
+      "url": "https://www.politico.eu/article/iceland-parliament-will-discuss-withdrawing-eu-bid-after-failed-referendum",
+      "published_at": "2026-08-30T15:07:30Z",
+      "collected_at": "2026-08-30T15:30:42Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "7022d487618706af5db17e62",
       "source_id": "france24",
@@ -1904,6 +1932,20 @@
         "analysis",
         "foreign_policy",
         "security"
+      ]
+    },
+    {
+      "id": "e6b6a62c0e78f988bdac847d",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "BBC visits smouldering Kyiv market after Russian strikes",
+      "url": "https://www.bbc.co.uk/news/videos/c8dnn05e90lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-16T12:18:09Z",
+      "collected_at": "2026-08-30T15:30:42Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
