@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-29T19:30:40Z",
-  "last_successful_collection_at": "2026-08-29T19:30:40Z",
+  "generated_at": "2026-08-30T03:30:41Z",
+  "last_successful_collection_at": "2026-08-30T03:30:41Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-29T19:30:40Z"
+      "at": "2026-08-30T03:30:41Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "28",
-      "at": "2026-08-29T19:30:40Z"
+      "at": "2026-08-30T03:30:41Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-29T19:30:40Z"
+      "at": "2026-08-30T03:30:41Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-29T19:30:40Z"
+      "at": "2026-08-30T03:30:41Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-29T19:30:40Z"
+      "at": "2026-08-30T03:30:41Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-29T19:30:40Z"
+      "at": "2026-08-30T03:30:41Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-29T19:30:40Z"
+      "at": "2026-08-30T03:30:41Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-29T19:30:40Z"
+      "at": "2026-08-30T03:30:41Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-29T19:30:40Z"
+      "at": "2026-08-30T03:30:41Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian strike hits Kyiv ammunition depot, causing dozens of deaths",
-      "summary": "A Russian strike targeted an ammunition warehouse near Kyiv. The attack resulted in at least 37 deaths and the evacuation of hundreds of residents.",
+      "title": "Russian drone strike on Kyiv-area ammo warehouse kills dozens, forces evacuations",
+      "summary": "A Russian drone strike on an ammunition warehouse near Kyiv killed at least 37 people and forced hundreds to evacuate, with Ukrainian officials warning of a new ground assault on the capital. Ukraine's president said the facility stored munitions, and the attack hit residential areas.",
       "article_ids": [
-        "c43657dfdf5c06f970f18458"
+        "c43657dfdf5c06f970f18458",
+        "b4a8ae68285b868718a22685",
+        "44f81939e45b655500c3c0af",
+        "492a81000a2a4dd5480a5cde",
+        "d8dc56608c13f600b67237f3",
+        "0689a48a49e37dfee8757c9e",
+        "4a8eab2805edad6f0cffc4c1",
+        "1db245ea8c3ade024418ad2d",
+        "eec8c3af59b83d8818c7070c",
+        "ff838275c065c50dd44811a5",
+        "31131161a144237b8fe3e5ce",
+        "2c40e4b9818811591d54806b",
+        "3708e3119197fb2ad0881362",
+        "1042319a715127b2fdaf3d1b",
+        "4bae38634ca0ed6fd79dd9c2"
       ],
       "sources": [
         {
@@ -75,13 +89,62 @@
           "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
           "headline": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
           "published_at": "2026-08-29T12:55:39Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260829-russian-strike-on-warehouse-near-kyiv-kills-at-least-27-people-hundreds-evacuated",
+          "headline": "🔴 Russian strike on warehouse near Kyiv kills at least 27 people, hundreds evacuating",
+          "published_at": "2026-08-29T09:17:21Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Germany preparing to formally attribute Leipzig attack to Russia",
+      "summary": "Germany is planning to publicly blame Russia for a deadly attack in Leipzig, escalating a sanctions and diplomatic dispute between Berlin and Moscow. The move would mark a sharp escalation in the confrontation between the two governments.",
+      "article_ids": [
+        "b3e82f27ca577c391bbf748b"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/friedrich-merz-berlin-sanctions-russia-vladimir-putin-leipzig-attach-ascalate",
+          "headline": "Germany plans to blame Russia for Leipzig attack as tensions with Putin escalate",
+          "published_at": "2026-08-29T11:01:55Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Icelanders vote on resuming EU accession talks",
+      "summary": "Icelanders are voting in a referendum on whether to restart negotiations to join the European Union, a decision framed as an existential question for the country's foreign policy. The outcome could reopen a membership process Iceland froze years ago.",
+      "article_ids": [
+        "036aab95028d7e4407177895",
+        "5c1c18448bd5a7c6c8233b55",
+        "14585b4feec2c756ffbef7e6",
+        "1ac56a332d36632d222cd764"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/referendum-on-eu-membership-an-existential-question-for-icelanders",
+          "headline": "Referendum on EU membership: An ‘existential question’ for Icelanders",
+          "published_at": "2026-08-29T12:46:29Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/iceland-votes-on-whether-to-resume-eu-membership-negotiations",
+          "headline": "Iceland votes on whether to resume EU membership negotiations",
+          "published_at": "2026-08-29T08:57:53Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "EU requires AI chatbots to support all official languages",
-      "summary": "The European Union has introduced a regulation mandating that AI chatbots operate in all official EU languages. The rule aims to ensure that users across the bloc can interact in their native language.",
+      "title": "EU moves to require AI chatbots in all official languages",
+      "summary": "The European Union is pushing to require AI chatbot services to support all of the bloc's official languages rather than operating primarily in English. The proposal is part of a broader push to make digital services accessible across member states.",
       "article_ids": [
         "206e56c44b6cf1bbf4fc1bfb"
       ],
@@ -94,28 +157,10 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Icelanders vote on future EU membership talks",
-      "summary": "Iceland is holding a referendum on whether to resume negotiations for European Union membership. The vote is described as an existential question for the nation's future relationship with the EU.",
-      "article_ids": [
-        "036aab95028d7e4407177895"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/referendum-on-eu-membership-an-existential-question-for-icelanders",
-          "headline": "Referendum on EU membership: An ‘existential question’ for Icelanders",
-          "published_at": "2026-08-29T12:46:29Z"
-        }
-      ],
-      "source_count": 1
     },
     {
-      "title": "Serbia balances EU and Russia ahead of election",
-      "summary": "Serbia is navigating a delicate balance between the European Union and Russia as a major election approaches. The government's approach seeks to keep both geopolitical options open amid shifting alliances.",
+      "title": "Serbia balances EU and Russia ties ahead of election",
+      "summary": "Serbia's government is weighing its relationships with both the European Union and Russia as a key national election approaches. The choice carries implications for the country's foreign policy orientation and its path toward EU integration.",
       "article_ids": [
         "94b50a02a9682564dc79dfe5"
       ],
@@ -130,55 +175,44 @@
       "source_count": 1
     },
     {
-      "title": "Germany prepares to attribute Leipzig attack to Russia",
-      "summary": "German authorities say they plan to blame Russia for the recent attack in Leipzig. The anticipated attribution reflects rising diplomatic tensions between Germany and Moscow.",
+      "title": "Norway's new king addresses nation after succession",
+      "summary": "Norway's newly ascended monarch delivered his first public speech, paying tribute to his late father and the outgoing king. The address marks the formal transition of the Norwegian royal household.",
       "article_ids": [
-        "b3e82f27ca577c391bbf748b"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/friedrich-merz-berlin-sanctions-russia-vladimir-putin-leipzig-attach-ascalate",
-          "headline": "Germany plans to blame Russia for Leipzig attack as tensions with Putin escalate",
-          "published_at": "2026-08-29T11:01:55Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Dutch institute issues red alert over Trump-shaped ecstasy pills",
-      "summary": "A Dutch public health institute has issued a red alert about a new type of ecstasy pill shaped like a former U.S. president. The warning highlights the potential health dangers of the pill's distinctive design.",
-      "article_ids": [
-        "f0ceeea4045eb731c0de12b7"
+        "081384cbe1551158e11b5cb8"
       ],
       "sources": [
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cy8z9084d00o?at_medium=RSS&at_campaign=rss",
-          "headline": "Dutch institute issues 'red alert' over Trump-shaped ecstasy pills",
-          "published_at": "2026-08-29T08:48:34Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Nepal army rescues over 100 trapped in hydropower tunnel after floods",
-      "summary": "The Nepali army is conducting a rescue operation to extract more than 100 people trapped inside a hydroelectric tunnel following severe floods. The effort involves specialized teams working against time to prevent further casualties.",
-      "article_ids": [
-        "6f0d9835a3ac65450ee10642"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/nepal-army-races-to-rescue-more-than-100-trapped-in-hydropower-tunnel-after-floods",
-          "headline": "Nepal army races to rescue more than 100 trapped in hydropower tunnel after floods",
-          "published_at": "2026-08-29T08:50:06Z"
+          "url": "https://www.bbc.co.uk/news/articles/cvgy79wmv4jo?at_medium=RSS&at_campaign=rss",
+          "headline": "Norway's new king remembers 'my dear father' in first speech",
+          "published_at": "2026-08-29T19:06:28Z"
         }
       ],
       "source_count": 1
     }
   ],
   "developing": [
+    {
+      "label": "Dutch · ecstasy · institute · pills",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-08-29T11:31:10Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/donald-trump-shaped-ecstasy-pills-can-be-fatal-dutch-drug-institute-warns",
+          "headline": "Trump-shaped ecstasy pills can be fatal, Dutch drug institute warns",
+          "published_at": "2026-08-29T11:31:10Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cy8z9084d00o?at_medium=RSS&at_campaign=rss",
+          "headline": "Dutch institute issues 'red alert' over Trump-shaped ecstasy pills",
+          "published_at": "2026-08-29T08:48:34Z"
+        }
+      ]
+    },
     {
       "label": "Russia · Ukraine · ammo · drone",
       "origin": "radar",
@@ -210,37 +244,36 @@
       ]
     },
     {
-      "label": "depot · evacuate · Hundreds · kills",
+      "label": "EU · Icelanders · membership · referendum",
       "origin": "radar",
       "source_count": 1,
       "item_count": 1,
-      "latest_at": "2026-08-29T08:57:05Z",
+      "latest_at": "2026-08-29T06:56:50Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260829-russian-strike-on-warehouse-near-kyiv-kills-at-least-27-people-hundreds-evacuated",
-          "headline": "Hundreds evacuate after Russian strike on depot near Kyiv kills at least 27",
-          "published_at": "2026-08-29T08:57:05Z"
-        }
-      ]
-    },
-    {
-      "label": "drug · Dutch · ecstasy · fatal",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-08-29T11:31:10Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/donald-trump-shaped-ecstasy-pills-can-be-fatal-dutch-drug-institute-warns",
-          "headline": "Trump-shaped ecstasy pills can be fatal, Dutch drug institute warns",
-          "published_at": "2026-08-29T11:31:10Z"
+          "url": "https://www.france24.com/en/europe/20260829-icelanders-vote-in-referendum-on-whether-to-resume-eu-membership-talks",
+          "headline": "Icelanders vote in referendum on whether to resume EU membership talks",
+          "published_at": "2026-08-29T06:56:50Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "2c5f52040ede300ba96a40ad",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Missing toll from Nepal, China flood nears 3,000 as race for survivors continues",
+      "url": "https://www.france24.com/en/asia-pacific/20260829-missing-toll-from-nepal-china-flood-nears-3-000-as-race-for-survivors-continues",
+      "published_at": "2026-08-29T20:12:45Z",
+      "collected_at": "2026-08-30T03:30:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "081384cbe1551158e11b5cb8",
       "source_id": "bbc_europe",
@@ -900,6 +933,20 @@
       ]
     },
     {
+      "id": "d8fd87c542b06f99e856bbef",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Niger junta says it is back in control after soldiers' mutiny rocks capital",
+      "url": "https://www.france24.com/en/africa/20260829-gunfire-and-explosions-heard-near-military-base-in-niger-s-capital",
+      "published_at": "2026-08-29T06:33:07Z",
+      "collected_at": "2026-08-30T03:30:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "b1c1c923e92b050d1a7bb40f",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1138,62 +1185,6 @@
       ]
     },
     {
-      "id": "762914f1062fdb3fd5f43d4d",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "DRC President Tshisekedi calls for national dialogue excluding M23 rebels",
-      "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260828-drc-president-tshisekedi-calls-for-national-dialogue-excluding-m23-rebels",
-      "published_at": "2026-08-28T20:36:41Z",
-      "collected_at": "2026-08-28T21:02:28Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "78742bc9af3915b6d1b50725",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Greenland says findings on genocide allegation not final",
-      "url": "https://www.bbc.co.uk/news/articles/czxzv29p12lo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-28T19:57:50Z",
-      "collected_at": "2026-08-28T20:00:52Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "0de8a6f6a42548015e401b8b",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "When Cádiz was the gateway to the United States",
-      "url": "https://english.elpais.com/international/2026-08-28/when-cadiz-was-the-gateway-to-the-united-states.html",
-      "published_at": "2026-08-28T19:33:18Z",
-      "collected_at": "2026-08-28T20:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "3acbac518256fc20b3c1ccc9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Greenland to open truth commission over forced contraception scheme",
-      "url": "https://www.france24.com/en/europe/20260828-greenland-to-open-truth-commission-over-forced-contraception-scheme",
-      "published_at": "2026-08-28T16:05:16Z",
-      "collected_at": "2026-08-28T20:00:52Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "f33defc6246cb5a9572ca6bb",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1208,6 +1199,20 @@
       ]
     },
     {
+      "id": "c50644db72dff8976522f6a8",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Spain: Thieves steal Bronze Age gold in lightning raid on Villena Museum",
+      "url": "https://www.dw.com/en/spain-thieves-steal-bronze-age-gold-in-lightning-raid-on-villena-museum/a-78538027?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-27T19:38:00Z",
+      "collected_at": "2026-08-30T03:30:41Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "253df3a95cba91dfd757fa1e",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1219,6 +1224,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "a85c5b988a63ae72555c67dd",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "France relaxes strict cheese-making rules after prolonged drought",
+      "url": "https://www.bbc.co.uk/news/articles/c980e36dd5do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-27T18:29:38Z",
+      "collected_at": "2026-08-30T03:30:41Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -1558,20 +1577,6 @@
       ]
     },
     {
-      "id": "66ae668be4cb931cab28c4ab",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The desert’s ‘resurrection plant’ paving the way to fridge-free vaccines",
-      "url": "https://english.elpais.com/health/2026-08-26/the-deserts-resurrection-plant-paves-the-way-to-fridge-free-vaccines.html",
-      "published_at": "2026-08-26T16:04:00Z",
-      "collected_at": "2026-08-28T20:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "01d6c4343de33ac3d1584bf9",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1597,6 +1602,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "4598dd8f2bfd8634730a01e0",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Grain exports stall as Ukraine steps up attacks on Russia's Black Sea ports",
+      "url": "https://www.dw.com/en/grain-exports-stall-as-ukraine-steps-up-attacks-on-russia-s-black-sea-ports/a-78499629?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-25T18:04:00Z",
+      "collected_at": "2026-08-30T03:30:41Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -1894,6 +1913,20 @@
       ]
     },
     {
+      "id": "61ec4d246d043e8978abfa23",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "France issues warning over thousands of substandard condoms",
+      "url": "https://www.dw.com/en/france-issues-warning-over-thousands-of-substandard-condoms/a-78462877?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-21T16:35:00Z",
+      "collected_at": "2026-08-30T03:30:41Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "ac29a239f1cf283ef2695530",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1950,17 +1983,17 @@
       ]
     },
     {
-      "id": "f89f8bd7fb2068941a797305",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Maradona death trial upended by bizarre error: Experts analyzed his father’s clinical records",
-      "url": "https://english.elpais.com/international/2026-08-20/maradona-death-trial-upended-by-bizarre-error-experts-analyzed-his-fathers-clinical-records.html",
-      "published_at": "2026-08-20T18:42:50Z",
-      "collected_at": "2026-08-28T20:00:52Z",
+      "id": "521ec3a6fe454cc568a85443",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Why is Ukraine's ex-defence minister calling for wartime elections?",
+      "url": "https://www.bbc.co.uk/news/videos/c62eyn5ggnzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-19T15:38:38Z",
+      "collected_at": "2026-08-30T03:30:41Z",
       "topics": [
+        "breaking",
         "politics",
-        "society",
-        "economy"
+        "society"
       ]
     },
     {
