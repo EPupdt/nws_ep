@@ -27,6 +27,8 @@ The runnable result is written to `docs/data/news-hub.json`; the static dashboar
 
 ## GitHub Actions
 
-The workflow wakes every 10 minutes, evaluates editorial hours in `Europe/Bratislava`, prevents overlapping runs, and commits only operational state, audit logs and generated public output. A manual **Actions → Europe Pulse News Hub → Run workflow** is a forced update and bypasses the schedule.
+The workflow is triggered every 15 minutes by the external cron-job.org job, evaluates editorial hours in `Europe/Bratislava`, prevents overlapping runs, and commits only operational state, audit logs and generated public output. GitHub Actions has no internal schedule trigger. A manual **Actions → Europe Pulse News Hub → Run workflow** only bypasses the editorial schedule when its `force` input is selected.
+
+For migration, architecture, active diagnostics and the WordPress roadmap, see [HANDOFF_NEW_PC.md](HANDOFF_NEW_PC.md).
 
 Before using GitHub Pages, configure the repository's Pages source as **Deploy from a branch → main → /docs**. This makes the preview available at `https://epupdt.github.io/nws_ep/`; it is not yet the EuropePulse.eu integration.
