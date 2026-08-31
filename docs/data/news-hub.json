@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-31T06:00:52Z",
-  "last_successful_collection_at": "2026-08-31T06:00:52Z",
+  "generated_at": "2026-08-31T06:30:43Z",
+  "last_successful_collection_at": "2026-08-31T06:30:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-31T06:00:52Z"
+      "at": "2026-08-31T06:30:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "33",
-      "at": "2026-08-31T06:00:52Z"
+      "at": "2026-08-31T06:30:43Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-31T06:00:52Z"
+      "at": "2026-08-31T06:30:43Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-31T06:00:52Z"
+      "at": "2026-08-31T06:30:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-31T06:00:52Z"
+      "at": "2026-08-31T06:30:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-31T06:00:52Z"
+      "at": "2026-08-31T06:30:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-31T06:00:52Z"
+      "at": "2026-08-31T06:30:43Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-31T06:00:52Z"
+      "at": "2026-08-31T06:30:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-31T06:00:52Z"
+      "at": "2026-08-31T06:30:43Z"
     }
   ],
   "europe_now": [
@@ -406,6 +406,20 @@
       "url": "https://www.france24.com/en/americas/20260831-grand-canyon-national-park-flash-flood-missing",
       "published_at": "2026-08-31T01:38:50Z",
       "collected_at": "2026-08-31T03:30:47Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "cf62d4863170f37a385d3092",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "One dead and around 15 missing as flash flood strikes Grand Canyon National Park",
+      "url": "https://www.france24.com/en/americas/20260831-grand-canyon-national-park-flash-flood-missing",
+      "published_at": "2026-08-31T01:38:50Z",
+      "collected_at": "2026-08-31T06:30:43Z",
       "topics": [
         "politics",
         "security",
@@ -1295,6 +1309,20 @@
       ]
     },
     {
+      "id": "b1c1c923e92b050d1a7bb40f",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Europe scrambles to secure its own military satellites after Ukraine’s wake‑up call",
+      "url": "https://euobserver.com/231080/europe-scrambles-to-secure-its-own-military-satellites-after-ukraines-wakeup-call",
+      "published_at": "2026-08-29T06:02:00Z",
+      "collected_at": "2026-08-31T06:30:43Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "a011310eb0ad4d7c88077e9d",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1687,6 +1715,34 @@
       ]
     },
     {
+      "id": "86bbcc71609ad0f441236539",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Memory wars: Election clash over Germany's Nazi past as AfD eyes power in east",
+      "url": "https://www.bbc.co.uk/news/articles/cddv43d4jn2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-27T14:52:11Z",
+      "collected_at": "2026-08-31T06:30:43Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "8a9548f93fb54997520a969f",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "When is the Champions League draw and who is in each pot?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3v0q3r554xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-26T22:05:08Z",
+      "collected_at": "2026-08-31T06:30:43Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "8f89255e4fb38d4372fcc982",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1712,6 +1768,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "01d6c4343de33ac3d1584bf9",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "'The record will fall' - Werro takes aim at 43-year-old 800m mark",
+      "url": "https://www.bbc.co.uk/sport/athletics/articles/crerjxyrnp9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-26T15:49:52Z",
+      "collected_at": "2026-08-31T06:30:43Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -1752,6 +1822,20 @@
       "collected_at": "2026-08-30T09:30:40Z",
       "topics": [
         "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "153bf7fecdc0438c61d54267",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Moment tornado tears through southern France",
+      "url": "https://www.bbc.co.uk/news/videos/c3d79mp2jeno?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-25T01:06:01Z",
+      "collected_at": "2026-08-31T06:30:43Z",
+      "topics": [
+        "breaking",
         "politics",
         "society"
       ]
@@ -1841,6 +1925,104 @@
       ]
     },
     {
+      "id": "6c4da13e9cc5c6f3a746e12a",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Carl Wunsch, oceanographer: ‘The consequences of Trump are terrible. Funding is denied because, apparently, all of our research is a hoax’",
+      "url": "https://english.elpais.com/climate/2026-08-23/carl-wunsch-oceanographer-the-consequences-of-trump-are-terrible-funding-is-denied-because-apparently-all-of-our-research-is-a-hoax.html",
+      "published_at": "2026-08-23T05:00:00Z",
+      "collected_at": "2026-08-31T06:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "9065585b0f68df73f592e377",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "China does not want its internet users to fall in love with an artificial intelligence",
+      "url": "https://english.elpais.com/technology/2026-08-23/china-does-not-want-its-internet-users-to-fall-in-love-with-an-artificial-intelligence.html",
+      "published_at": "2026-08-23T05:00:00Z",
+      "collected_at": "2026-08-31T06:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "6ca28b924964a9eb1b58f0de",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Enrique Serna, author: ‘As a child, I had nightmares about being taken to the sacrificial stone’",
+      "url": "https://english.elpais.com/culture/2026-08-23/enrique-serna-author-as-a-child-i-had-nightmares-about-being-taken-to-the-sacrificial-stone.html",
+      "published_at": "2026-08-23T05:00:00Z",
+      "collected_at": "2026-08-31T06:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "173011c4b0c3e02ee957769b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "From endless scrolling to going back to an ex: Why we keep doing things we know aren’t good for us",
+      "url": "https://english.elpais.com/lifestyle/2026-08-23/from-endless-scrolling-to-going-back-to-an-ex-why-we-keep-doing-things-we-know-arent-good-for-us.html",
+      "published_at": "2026-08-23T05:00:00Z",
+      "collected_at": "2026-08-31T06:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "ef8e26a40014f3c0e93d2821",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Marion Cotillard: ‘Losing interest in climate change is totally crazy’",
+      "url": "https://english.elpais.com/people/2026-08-23/marion-cotillard-losing-interest-in-climate-change-is-totally-crazy.html",
+      "published_at": "2026-08-23T05:00:00Z",
+      "collected_at": "2026-08-31T06:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "4c43531c8c591e6886355731",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Summer postcards: When John Kennedy Jr. took to the sea",
+      "url": "https://english.elpais.com/people/2026-08-23/summer-postcards-when-john-kennedy-jr-took-to-the-sea.html",
+      "published_at": "2026-08-23T05:00:00Z",
+      "collected_at": "2026-08-31T06:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "b7b767ea1c585c91583ff28a",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Cuba was never ‘next’: The United States is betting on a slow suffocation of the Castro regime by 2029",
+      "url": "https://english.elpais.com/international/2026-08-23/cuba-was-never-next-the-united-states-is-betting-on-a-slow-suffocation-of-the-castro-regime-by-2029.html",
+      "published_at": "2026-08-23T05:00:00Z",
+      "collected_at": "2026-08-31T06:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "2edae41f4df981d3bd48a8f3",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1879,6 +2061,20 @@
       "topics": [
         "politics",
         "society",
+        "security"
+      ]
+    },
+    {
+      "id": "0b70abf7577c771ae6610187",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Germany’s second China shock",
+      "url": "https://ecfr.eu/podcasts/episode/germanys-second-china-shock",
+      "published_at": "2026-08-21T05:00:00Z",
+      "collected_at": "2026-08-31T06:30:43Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
         "security"
       ]
     },
@@ -1936,6 +2132,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "7693590c8c8835d348af2da3",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Nancy Cartwright, philosopher: ‘People distrust science because they feel the system has abandoned them’",
+      "url": "https://english.elpais.com/science-tech/2026-08-15/nancy-cartwright-philosopher-people-distrust-science-because-they-feel-the-system-has-abandoned-them.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-08-31T06:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
