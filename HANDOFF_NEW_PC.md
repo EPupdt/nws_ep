@@ -127,62 +127,38 @@ collectorom HTTP 403. Ochranu neobchádzať. Financial Times, Bloomberg a Le
 Monde nie sú integrované pre licenčné/paywall obmedzenia. Think-tank obsah
 nesmie vytvárať Europe Now ani dominovať live news.
 
-## 7. Rozpracovaná diagnostika Google Gemini
-
-Toto je najbližšia technická priorita. Pred zmenou modelu treba dokončiť
-diagnostiku.
+## 7. Google Gemini — uzavretá diagnostika a aktuálny stav
 
 Aktuálne nastavenie:
 
 ```yaml
 models:
-  gemini: gemini-2.5-flash-lite
+  gemini: gemini-3.5-flash-lite
   openrouter:
     - openrouter/free
 ```
 
-Kód skúša Google Gemini priamo ako prvý. Až pri zlyhaní prejde na OpenRouter.
-Audit `data/selection_logs/2026-08.jsonl` však ukazuje, že úspešné LLM výbery
-pravidelne zapisujú `openrouter:openrouter/free`, nie Gemini. Google AI Studio
-Usage pre projekt **Europe Pulse News Hub** ukazoval prevažne:
+Kód skúša Google Gemini priamo ako prvý. Až pri zlyhaní prejde na bezplatný
+OpenRouter. Sanitizovaná produkčná diagnostika 31. augusta 2026 zachytila presné
+telo Google chyby: `gemini-2.5-flash-lite` už nie je dostupný novým používateľom
+a Google odporučil `gemini-3.5-flash-lite`. Model bol preto po výslovnom súhlase
+vlastníka aktualizovaný. GenerateContent API zostalo zachované; migrácia na
+Interactions API nebola pre túto úzku opravu potrebná.
 
-- `404 Not Found`;
-- menší počet `429 Too Many Requests`;
-- prakticky žiadne výstupné tokeny;
-- požiadavky sa po časti obdobia prestali priraďovať ku konkrétnemu modelu.
+Súčasne boli odstránené dve príčiny fatálnych pádov workflow:
 
-Z toho vyplýva, že Gemini volanie sa nedokončuje a systém používa fallback.
-Model `gemini-2.5-flash-lite` aj REST tvar `/v1beta/models/{model}:generateContent`
-sú podľa aktuálnej dokumentácie platné. API kľúč Google prijíma; dominantná 404
-nie je typický prejav chýbajúceho kľúča.
+- odpoveď modelu s `content: null` už nevedie k `json.loads(None)`;
+- prerušená chunked HTTP odpoveď (`IncompleteRead`) sa pokúsi spracovať prijaté
+  dáta, a ak sú skutočne neúplné, bezpečne pokračuje fallbackom;
+- `article_ids` musí byť zoznam reťazcov;
+- provider, model, HTTP status a krátka chyba sa logujú sanitizovane bez kľúča;
+- regresné testy sa spúšťajú v GitHub Actions pred zberom.
 
-Ručný PowerShell test zatiaľ nepriniesol spoľahlivé telo odpovede. Pri
-kopírovaní sa URL raz zmenila na Markdown odkaz a neskôr na `https\://`, takže
-výsledok ručného testu sa nesmie považovať za definitívny dôkaz konkrétnej
-príčiny 404.
-
-### Odporúčaný ďalší diagnostický krok
-
-1. Bez zmeny produkčného modelu overiť cez ten istý kľúč `models.list`, či
-   projekt model `gemini-2.5-flash-lite` vôbec vidí.
-2. Vykonať minimálne `generateContent` volanie so správnou URL a zachytiť celé
-   bezpečné telo chyby bez API kľúča.
-3. Ak lokálny test nie je možný, doplniť do agenta sanitizovanú diagnostiku:
-   provider, model, HTTP status a maximálne krátke telo chyby. Nikdy nelogovať
-   URL s `?key=`, hlavičku ani samotný secret.
-4. Až podľa presnej správy rozhodnúť medzi zmenou API verzie, modelu, kľúča,
-   projektu alebo retry stratégie.
-
-Sekundárny problém: `openrouter/free` vyberá model náhodne. Niektoré odpovede
-mali neprimerane veľa výstupných tokenov a aktuálna validácia dostatočne
-nekontroluje vnútorný typ `article_ids`. Neštandardný JSON môže prejsť prvou
-kontrolou a zlyhať neskôr. Plánovaná oprava po diagnostike Gemini:
-
-- limit výstupu približne 2 000 tokenov;
-- plná validácia `article_ids`;
-- žiadna chybná LLM odpoveď nesmie zhodiť collector;
-- Gemini ako primárny model, OpenRouter iba bezplatná posledná záloha alebo
-  úplné vypnutie fallbacku podľa rozhodnutia vlastníka.
+Najbližšia kontrola je sledovať prvé produkčné behy s Gemini 3.5 a potvrdiť, že
+audit zapisuje `gemini:gemini-3.5-flash-lite`. `openrouter/free` naďalej vyberá
+bezplatný model dynamicky a zostáva iba poslednou zálohou. Plánovanou samostatnou
+optimalizáciou ostáva limit výstupu približne 2 000 tokenov; netreba ho miešať
+s touto stabilizačnou opravou.
 
 ## 8. WordPress EuropePulse.eu — cieľ a hranice
 
@@ -279,4 +255,3 @@ Najbližšia etapa je hotová, keď:
 6. integrácia JSON je serverová, cacheovaná a odolná voči výpadku;
 7. redesign chráni existujúce URL, SEO a obsah;
 8. existuje changelog a rollback postup.
-

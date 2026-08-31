@@ -8,6 +8,7 @@ import re
 import sys
 from dataclasses import dataclass, asdict
 from datetime import UTC, datetime, timedelta
+from http.client import IncompleteRead
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
@@ -221,6 +222,19 @@ def log_llm_failure(provider: str, model: str, detail: str, status: int | None =
     print(f"LLM attempt failed provider={provider} model={model}{status_text} detail={detail}", file=sys.stderr)
 
 
+def load_json_response(response: Any) -> Any:
+    """Parse JSON and salvage a complete payload missing only its final HTTP chunk."""
+    try:
+        return json.load(response)
+    except IncompleteRead as error:
+        if not error.partial:
+            raise
+        try:
+            return json.loads(error.partial)
+        except (TypeError, UnicodeDecodeError, json.JSONDecodeError):
+            raise error
+
+
 def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent_topics: list[dict[str, Any]]) -> tuple[dict[str, Any], str]:
     """Return empty selection on any model/network/JSON failure; collection remains authoritative."""
     if not articles:
@@ -252,7 +266,7 @@ def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent
                 request = Request(endpoint, data=json.dumps(body).encode(),
                                   headers={"Content-Type": "application/json", "x-goog-api-key": key}, method="POST")
                 with urlopen(request, timeout=30) as response:
-                    result = json.load(response)
+                    result = load_json_response(response)
                 text = result["candidates"][0]["content"]["parts"][0]["text"]
             else:
                 body = {"model": model, "messages": [{"role": "user", "content": raw}], "temperature": 0.1,
@@ -260,7 +274,7 @@ def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent
                 request = Request("https://openrouter.ai/api/v1/chat/completions", data=json.dumps(body).encode(),
                                   headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json", "HTTP-Referer": "https://europepulse.eu"}, method="POST")
                 with urlopen(request, timeout=30) as response:
-                    result = json.load(response)
+                    result = load_json_response(response)
                 text = result["choices"][0]["message"]["content"]
             if not isinstance(text, str) or not text.strip():
                 log_llm_failure(provider, model, "empty-or-non-text response")
@@ -271,7 +285,7 @@ def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent
             log_llm_failure(provider, model, "response failed schema validation")
         except HTTPError as error:
             log_llm_failure(provider, model, safe_llm_error_detail(error, key), error.code)
-        except (URLError, TimeoutError, ValueError, KeyError, IndexError, TypeError, json.JSONDecodeError) as error:
+        except (URLError, TimeoutError, IncompleteRead, ValueError, KeyError, IndexError, TypeError, json.JSONDecodeError) as error:
             log_llm_failure(provider, model, safe_llm_error_detail(error, key))
             continue
     return {"europe_now": [], "top_stories": []}, "failed"

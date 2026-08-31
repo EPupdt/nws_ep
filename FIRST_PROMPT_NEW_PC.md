@@ -31,20 +31,18 @@ prevádzkové dáta. Zachovaj cudzie alebo necommitnuté zmeny. API kľúče, he
 tokeny odo mňa nepýtaj do chatu; ak budú potrebné, veď ma ich bezpečným zadaním
 priamo v príslušnej službe.
 
-Aktuálna priorita je dokončiť diagnostiku priameho Google Gemini API volania.
-Kód skúša `gemini-2.5-flash-lite` ako prvý model, ale audit ukazuje pravidelný
-fallback na `openrouter/free`. Google AI Studio Usage ukázal prevažne 404 a
-občas 429. Pred zmenou modelu alebo produkčného workflow treba bezpečne získať
-presné telo chyby Google a overiť dostupnosť modelu cez `models.list`. Doterajší
-ručný PowerShell test bol skreslený formátovaním kopírovanej URL, preto jeho
-404 nepovažuj za definitívnu správu o príčine.
+Diagnostika priameho Google Gemini API volania je uzavretá. Sanitizovaný log
+potvrdil, že `gemini-2.5-flash-lite` vracia pre tento projekt 404, pretože už
+nie je dostupný novým používateľom. Produkčné nastavenie používa
+`gemini-3.5-flash-lite`; `openrouter/free` zostáva iba bezplatný fallback.
+Collector zároveň bezpečne spracúva prázdny modelový obsah a prerušenú chunked
+HTTP odpoveď (`IncompleteRead`) bez pádu celého workflow.
 
-Po read-only kontrole mi podaj stručný stav, uveď zistené rozdiely oproti
-handoffu a navrhni najmenší bezpečný diagnostický postup. Produkčný model,
-workflow ani WordPress zatiaľ nemeň, kým diagnostiku spolu nevyhodnotíme.
+Po read-only kontrole mi podaj stručný stav a uveď rozdiely oproti handoffu.
+Skontroluj prvé produkčné behy s Gemini 3.5; model, workflow ani WordPress ďalej
+nemeň bez novej konkrétnej diagnostiky a vyhodnotenia.
 
 Ďalší cieľ po stabilizácii News Hubu je audit a redesign `europepulse.eu` a
 serverová WordPress integrácia verejného JSON feedu podľa handoffu. Existuje
 WordPress admin konto `codex`, ale prihlasovacie údaje zadám iba priamo v
 prehliadači.
-

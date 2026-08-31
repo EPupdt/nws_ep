@@ -3,6 +3,7 @@ import json
 import os
 import unittest
 from contextlib import redirect_stderr
+from http.client import IncompleteRead
 from unittest.mock import patch
 from urllib.error import HTTPError
 
@@ -17,11 +18,25 @@ class JsonResponse(io.BytesIO):
         self.close()
 
 
+class IncompleteJsonResponse:
+    def __init__(self, partial):
+        self.partial = partial
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        return None
+
+    def read(self, *args, **kwargs):
+        raise IncompleteRead(self.partial)
+
+
 class LlmSelectionTests(unittest.TestCase):
     policy = {
         "max_europe_now": 2,
         "top_story_count": 5,
-        "models": {"gemini": "gemini-2.5-flash-lite", "openrouter": ["openrouter/free"]},
+        "models": {"gemini": "gemini-3.5-flash-lite", "openrouter": ["openrouter/free"]},
     }
     articles = [{"id": "article-1", "title": "Example", "excerpt": "Example", "url": "https://example.com"}]
 
@@ -70,6 +85,47 @@ class LlmSelectionTests(unittest.TestCase):
             "top_stories": [{"title": "Example", "summary": "Summary", "article_ids": "article-1"}],
         }
         self.assertFalse(news_main.valid_selection(selection, 5, 2))
+
+    def test_complete_json_is_recovered_from_incomplete_http_chunk(self):
+        selection = {
+            "europe_now": [],
+            "top_stories": [{
+                "title": "Example story",
+                "summary": "First sentence. Second sentence.",
+                "article_ids": ["article-1"],
+            }],
+        }
+        response = {"candidates": [{"content": {"parts": [{"text": json.dumps(selection)}]}}]}
+        with patch.dict(os.environ, {"GEMINI_API_KEY": "gemini-test-key"}, clear=True):
+            with patch.object(news_main, "urlopen", return_value=IncompleteJsonResponse(json.dumps(response).encode())):
+                selected, model = news_main.llm_selection(self.articles, self.policy, [])
+
+        self.assertEqual(selection, selected)
+        self.assertEqual("gemini:gemini-3.5-flash-lite", model)
+
+    def test_truncated_json_falls_back_without_crashing(self):
+        selection = {
+            "europe_now": [],
+            "top_stories": [{
+                "title": "Example story",
+                "summary": "First sentence. Second sentence.",
+                "article_ids": ["article-1"],
+            }],
+        }
+        responses = iter([
+            IncompleteJsonResponse(b'{"candidates": ['),
+            JsonResponse(json.dumps({"choices": [{"message": {"content": json.dumps(selection)}}]}).encode()),
+        ])
+
+        diagnostics = io.StringIO()
+        with patch.dict(os.environ, {"GEMINI_API_KEY": "gemini-test-key", "OR_API_KEY": "openrouter-test-key"}, clear=True):
+            with patch.object(news_main, "urlopen", side_effect=lambda request, timeout: next(responses)):
+                with redirect_stderr(diagnostics):
+                    selected, model = news_main.llm_selection(self.articles, self.policy, [])
+
+        self.assertEqual(selection, selected)
+        self.assertEqual("openrouter:openrouter/free", model)
+        self.assertIn("IncompleteRead", diagnostics.getvalue())
 
     def test_http_error_detail_redacts_key(self):
         key = "gemini-test-key"
