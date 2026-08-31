@@ -284,9 +284,24 @@
     "03b14a88ae210db0a1d27bb9": "2026-08-31T03:30:47Z",
     "44bb482558a55f9d92705db0": "2026-08-31T03:30:47Z",
     "66ae668be4cb931cab28c4ab": "2026-08-31T03:30:47Z",
-    "f89f8bd7fb2068941a797305": "2026-08-31T03:30:47Z"
+    "f89f8bd7fb2068941a797305": "2026-08-31T03:30:47Z",
+    "536a3559597f67ac930d4c16": "2026-08-31T04:00:48Z"
   },
   "radar": [
+    {
+      "id": "536a3559597f67ac930d4c16",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Eight killed and 18 missing after ferry capsizes off northern Cyprus",
+      "url": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-31T03:56:15Z",
+      "collected_at": "2026-08-31T04:00:48Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "ebfab869c1d87f93f67e2246",
       "source_id": "politico_europe",
@@ -2362,18 +2377,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-08-29T08:30:40Z",
-      "title": "France opens door to fighter jet cooperation with Sweden"
-    },
-    {
-      "at": "2026-08-29T08:30:40Z",
-      "title": "Climate and AI to loom large in von der Leyen’s State of the Union"
-    },
-    {
-      "at": "2026-08-29T11:00:48Z",
-      "title": "Russian strike on Kyiv warehouse causes mass casualties"
-    },
-    {
       "at": "2026-08-29T11:00:48Z",
       "title": "Iceland holds referendum on resuming EU membership talks"
     },
@@ -2680,17 +2683,70 @@
     {
       "at": "2026-08-31T03:30:47Z",
       "title": "Ferry disaster off northern Cyprus leaves dozens dead and missing"
+    },
+    {
+      "at": "2026-08-31T04:00:48Z",
+      "title": "Iceland votes against restarting EU accession talks"
+    },
+    {
+      "at": "2026-08-31T04:00:48Z",
+      "title": "NATO's Arctic expansion alarms Moscow"
+    },
+    {
+      "at": "2026-08-31T04:00:48Z",
+      "title": "French far-right and far-left dominate latest opinion polls"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
+        "title": "Ferry disaster off northern Cyprus leaves dozens dead and missing",
+        "summary": "A ferry carrying over 260 people capsized off northern Cyprus, killing at least eight and leaving dozens missing as rescue operations continue. The incident has triggered a major emergency response involving multiple countries.",
+        "article_ids": [
+          "536a3559597f67ac930d4c16",
+          "45df32f9c3111d2123013720"
+        ],
+        "sources": [
+          {
+            "publisher": "BBC News Europe",
+            "url": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
+            "headline": "Eight killed and 18 missing after ferry capsizes off northern Cyprus",
+            "published_at": "2026-08-31T03:56:15Z"
+          },
+          {
+            "publisher": "BBC News Europe",
+            "url": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
+            "headline": "Eight killed and others missing after ferry capsizes off northern Cyprus",
+            "published_at": "2026-08-30T18:31:17Z"
+          }
+        ],
+        "source_count": 1
+      },
+      {
+        "title": "Russia reportedly preparing large-scale strikes on Ukraine’s energy infrastructure",
+        "summary": "Russian forces are allegedly planning massive attacks on Ukraine's energy facilities, according to intelligence sources. The potential escalation comes amid ongoing tensions in the region.",
+        "article_ids": [
+          "afe7389054d46399d66c38f1"
+        ],
+        "sources": [
+          {
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/russia-preparing-massive-strikes-against-ukraines-energy-facilities",
+            "headline": "Russia preparing ‘massive strikes against Ukraine’s energy facilities’",
+            "published_at": "2026-08-30T09:33:27Z"
+          }
+        ],
+        "source_count": 1
+      }
+    ],
+    "top_stories": [
+      {
         "title": "Iceland votes against restarting EU accession talks",
-        "summary": "Icelandic voters have rejected a referendum to resume European Union accession negotiations, marking a decisive shift away from potential EU membership. The outcome reflects public sentiment favoring independence over deeper integration with European institutions.",
+        "summary": "Icelandic voters rejected a referendum to resume negotiations on joining the European Union, marking a decisive shift in the country's foreign policy direction. The outcome reflects broader public sentiment toward deeper European integration.",
         "article_ids": [
           "68669a01c99782ea1dac9f52",
-          "41a0722488840b2eacf9a407"
+          "d1721794a1ccd8ee02a8cd3b"
         ],
         "sources": [
           {
@@ -2700,19 +2756,17 @@
             "published_at": "2026-08-30T14:45:05Z"
           },
           {
-            "publisher": "BBC News Europe",
-            "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
-            "headline": "Iceland votes against restarting talks on joining EU",
-            "published_at": "2026-08-30T10:49:11Z"
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/iceland-referendum-question-marks-no-camp-successful",
+            "headline": "The real reason Iceland rejected the EU",
+            "published_at": "2026-08-30T11:37:02Z"
           }
         ],
-        "source_count": 1
-      }
-    ],
-    "top_stories": [
+        "source_count": 2
+      },
       {
         "title": "NATO's Arctic expansion alarms Moscow",
-        "summary": "NATO's increasing military presence in the Arctic region has been labeled a direct threat by Russian Foreign Minister Sergei Lavrov. The warning underscores growing geopolitical friction between Western alliances and Russia over northern polar territories.",
+        "summary": "NATO's increased military presence and activities in the Arctic region are being viewed by Russia as a direct threat to its national security. The alliance's growing footprint in the High North underscores evolving geopolitical dynamics.",
         "article_ids": [
           "ffa43365269b484ad1403a96"
         ],
@@ -2727,8 +2781,8 @@
         "source_count": 1
       },
       {
-        "title": "Far-right and far-left dominate French political landscape",
-        "summary": "Recent opinion polls in France show the far-right and far-left parties leading over centrist and traditional mainstream parties ahead of upcoming elections. This polarization signals a potential realignment of the French electorate toward more extreme ideological positions.",
+        "title": "French far-right and far-left dominate latest opinion polls",
+        "summary": "Extremist parties across the political spectrum in France have surged in popularity according to recent surveys, challenging the traditional centrist establishment. This polarization signals a potential realignment of the country's political landscape ahead of upcoming elections.",
         "article_ids": [
           "2c0e4a39ed2032647a626d39"
         ],
@@ -2741,31 +2795,8 @@
           }
         ],
         "source_count": 1
-      },
-      {
-        "title": "Ferry disaster off northern Cyprus leaves dozens dead and missing",
-        "summary": "A ferry carrying over 260 passengers capsized off the coast of northern Cyprus, resulting in multiple fatalities and many individuals reported missing. Emergency rescue operations are ongoing as authorities assess the full scale of the tragedy.",
-        "article_ids": [
-          "45df32f9c3111d2123013720",
-          "e9f2702f595455da7137528d"
-        ],
-        "sources": [
-          {
-            "publisher": "BBC News Europe",
-            "url": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
-            "headline": "Eight killed and others missing after ferry capsizes off northern Cyprus",
-            "published_at": "2026-08-30T18:31:17Z"
-          },
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/ferry-carrying-more-than-260-people-capsizes-off-northern-cyprus",
-            "headline": "Ferry carrying more than 260 people capsizes off northern Cyprus",
-            "published_at": "2026-08-30T12:27:59Z"
-          }
-        ],
-        "source_count": 2
       }
     ]
   },
-  "last_collection_at": "2026-08-31T03:30:47Z"
+  "last_collection_at": "2026-08-31T04:00:48Z"
 }
