@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-31T17:30:42Z",
-  "last_successful_collection_at": "2026-08-31T17:30:42Z",
+  "generated_at": "2026-08-31T18:00:50Z",
+  "last_successful_collection_at": "2026-08-31T18:00:50Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-31T17:30:42Z"
+      "at": "2026-08-31T18:00:50Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "27",
-      "at": "2026-08-31T17:30:42Z"
+      "at": "2026-08-31T18:00:50Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-31T17:30:42Z"
+      "at": "2026-08-31T18:00:50Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-31T17:30:42Z"
+      "at": "2026-08-31T18:00:50Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-31T17:30:42Z"
+      "at": "2026-08-31T18:00:50Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-31T17:30:42Z"
+      "at": "2026-08-31T18:00:50Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-31T17:30:42Z"
+      "at": "2026-08-31T18:00:50Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-31T17:30:42Z"
+      "at": "2026-08-31T18:00:50Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-31T17:30:42Z"
+      "at": "2026-08-31T18:00:50Z"
     }
   ],
   "europe_now": [
@@ -140,23 +140,23 @@
   ],
   "developing": [
     {
-      "label": "Iran · US · East · flare",
+      "label": "US · Iran · strikes · month",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 10,
-      "latest_at": "2026-08-31T15:33:57Z",
+      "item_count": 12,
+      "latest_at": "2026-08-31T17:33:38Z",
       "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/08/31/donald-trump-iran-strikes-01057142",
+          "headline": "Trump promises more strikes after US and Iran trade blows for first time in a month",
+          "published_at": "2026-08-31T17:33:38Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/latest-flare-up-between-us-and-iran-bring-conflict-s-lull-to-an-end",
           "headline": "Latest flare-up between US and Iran bring conflict's lull to an end",
           "published_at": "2026-08-31T15:33:57Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.com/news/2026/08/31/bessent-g20-us-debt-iran-war-01056820",
-          "headline": "Bessent’s G20 pitch collides with anxieties over US debt and Iran war",
-          "published_at": "2026-08-31T12:05:32Z"
         },
         {
           "publisher": "EL PAÍS English",
@@ -231,6 +231,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "79a2dee1f8f672dd630e51a7",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "A billion galaxies, two cosmic mysteries: Inside NASA’s Nancy Grace Roman telescope",
+      "url": "https://english.elpais.com/science-tech/2026-08-31/nancy-grace-roman-the-telescope-that-will-survey-a-billion-galaxies-in-a-bid-to-solve-the-universes-two-greatest-mysteries.html",
+      "published_at": "2026-08-31T17:46:08Z",
+      "collected_at": "2026-08-31T18:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "73cf896eae673cadcf97f9e0",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Trump promises more strikes after US and Iran trade blows for first time in a month",
+      "url": "https://www.politico.com/news/2026/08/31/donald-trump-iran-strikes-01057142",
+      "published_at": "2026-08-31T17:33:38Z",
+      "collected_at": "2026-08-31T18:00:50Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "f4481df29955290d3de48fd6",
       "source_id": "politico_europe",
@@ -1744,20 +1772,6 @@
       ]
     },
     {
-      "id": "30a7be948a97c80c993c3f4c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Trump says NBC journalist to be reported to FCC for ‘punishment’ over endorsement coverage",
-      "url": "https://www.france24.com/en/americas/20260830-trump-says-nbc-journalist-to-be-reported-to-fcc-for-punishment-over-endorsement-coverage",
-      "published_at": "2026-08-30T17:06:53Z",
-      "collected_at": "2026-08-30T17:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "bcb197aa70fbb224de08e65c",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2024,17 +2038,17 @@
       ]
     },
     {
-      "id": "ed840f8db079cdff5d6a7801",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Violence breaks out in Ceuta as migrant crisis continues",
-      "url": "https://www.bbc.co.uk/news/articles/cy9zj11gwzxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-28T16:30:59Z",
-      "collected_at": "2026-08-30T17:30:44Z",
+      "id": "253df3a95cba91dfd757fa1e",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Ratko Mladic, the man behind Srebrenica massacre, dies at 84",
+      "url": "https://www.dw.com/en/ratko-mladic-the-man-behind-srebrenica-massacre-dies-at-84/a-78536491?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-27T19:28:00Z",
+      "collected_at": "2026-08-31T18:00:50Z",
       "topics": [
-        "breaking",
         "politics",
-        "society"
+        "society",
+        "security"
       ]
     },
     {
@@ -2304,20 +2318,6 @@
       ]
     },
     {
-      "id": "8f89255e4fb38d4372fcc982",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Turkey is defying Europe’s human-rights court — and Osman Kavala is paying the price",
-      "url": "https://euobserver.com/233864/turkey-is-defying-europes-human-rights-court-and-osman-kavala-is-paying-the-price",
-      "published_at": "2026-08-26T16:19:36Z",
-      "collected_at": "2026-08-30T17:30:44Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "66ae668be4cb931cab28c4ab",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2343,6 +2343,48 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "f0240bf171e9947f11b714ec",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "One migrant raid in New Jersey, 46 lives destroyed: ‘My life is incomplete without my daughter’",
+      "url": "https://english.elpais.com/usa/2026-08-25/one-migrant-raid-in-new-jersey-46-lives-destroyed-my-life-is-incomplete-without-my-daughter.html",
+      "published_at": "2026-08-25T16:41:01Z",
+      "collected_at": "2026-08-31T18:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "1edbaed6dd5d36d653202c7b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "From hunger to sexualization: How former child stars remember their childhoods",
+      "url": "https://english.elpais.com/people/2026-08-25/from-hunger-to-sexualization-how-former-child-stars-remember-their-childhoods.html",
+      "published_at": "2026-08-25T15:58:16Z",
+      "collected_at": "2026-08-31T18:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "c823844ce45ab3a546c6aac9",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trump administration faces a major financial battle in the bond market",
+      "url": "https://english.elpais.com/economy-and-business/2026-08-25/trump-administration-faces-a-major-financial-battle-in-the-bond-market.html",
+      "published_at": "2026-08-25T13:51:49Z",
+      "collected_at": "2026-08-31T18:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2399,20 +2441,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "58a62c7ea50ee4f87d7676b3",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘The boundless ocean set into a rage’: Why we are still drawn to shipwrecks",
-      "url": "https://english.elpais.com/eps/2026-08-24/the-boundless-ocean-set-into-a-rage-why-shipwrecks-still-fascinate-us.html",
-      "published_at": "2026-08-24T16:38:53Z",
-      "collected_at": "2026-08-30T17:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -2542,6 +2570,48 @@
       ]
     },
     {
+      "id": "76179e364cef19c272c3485e",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Samanta Schweblin, writer: ‘Paying attention is the greatest superpower. Not everyone is still capable of it’",
+      "url": "https://english.elpais.com/culture/2026-08-22/samanta-schweblin-writer-paying-attention-is-the-greatest-superpower-not-everyone-is-still-capable-of-it.html",
+      "published_at": "2026-08-22T04:00:00Z",
+      "collected_at": "2026-08-31T18:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "f3df2a77a1c79ecc76ea8220",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Tracing fictional crimes (and a very real one) through the streets of Paris",
+      "url": "https://english.elpais.com/travel/2026-08-22/tracing-fictional-crimes-and-a-very-real-one-through-the-streets-of-paris.html",
+      "published_at": "2026-08-22T04:00:00Z",
+      "collected_at": "2026-08-31T18:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "82f6049973ec300882e460b1",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Peruvians trapped in Russia’s war by a job promise: ‘They’re taking us as cannon fodder’",
+      "url": "https://english.elpais.com/international/2026-08-22/peruvians-trapped-in-russias-war-by-a-job-promise-theyre-taking-us-as-cannon-fodder.html",
+      "published_at": "2026-08-22T04:00:00Z",
+      "collected_at": "2026-08-31T18:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "bc88f55635c75e6083b92f6b",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2626,6 +2696,20 @@
       ]
     },
     {
+      "id": "cab4a5a7e161440392695254",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Buzzkill: How to defend Europe against drones",
+      "url": "https://ecfr.eu/publication/buzzkill-how-to-defend-europe-against-drones",
+      "published_at": "2026-08-17T13:18:03Z",
+      "collected_at": "2026-08-31T18:00:50Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
       "id": "35169a22e98bd0b68a57518d",
       "source_id": "ecfr",
       "source_name": "European Council on Foreign Relations",
@@ -2665,90 +2749,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "14900f55016be4fce7a2bf83",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Tourism with an ex‑drug trafficker: Laureano Oubiña offers ‘narcotour’ to the spots where he once smuggled tobacco and hashish",
-      "url": "https://english.elpais.com/spain/2026-08-10/tourism-with-an-exdrug-trafficker-laureano-oubina-offers-narcotour-to-the-spots-where-he-once-smuggled-tobacco-and-hashish.html",
-      "published_at": "2026-08-10T14:26:50Z",
-      "collected_at": "2026-08-30T18:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "3b3e0a88fe9a5630eaf6674a",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Power up: How EU-Africa cooperation can drive Europe’s battery recycling future",
-      "url": "https://ecfr.eu/article/power-up-how-eu-africa-cooperation-can-drive-europes-battery-recycling-future",
-      "published_at": "2026-08-10T13:01:28Z",
-      "collected_at": "2026-08-30T17:30:44Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "16cfdf95b5556495a1fe30a5",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Latin America’s new imaginaries",
-      "url": "https://ecfr.eu/podcasts/episode/latin-americas-new-imaginaries",
-      "published_at": "2026-08-07T05:00:00Z",
-      "collected_at": "2026-08-31T10:30:42Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "d642e3fc09ad6703e1d24562",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Trust the numbers: Germans are open to a more hawkish China policy",
-      "url": "https://ecfr.eu/article/trust-the-numbers-germans-are-open-to-a-more-hawkish-china-policy",
-      "published_at": "2026-08-06T14:41:31Z",
-      "collected_at": "2026-08-30T18:30:44Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "368ab3507cba8bd36bd7fc99",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Hamas has agreed to disarm. Israel should now agree to peace",
-      "url": "https://ecfr.eu/article/hamas-has-agreed-to-disarm-israel-should-now-agree-to-peace",
-      "published_at": "2026-08-06T14:34:55Z",
-      "collected_at": "2026-08-30T18:30:44Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "0a673a6cb0e79a521041a232",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Ric Prado, ex-CIA officer: ‘Cuba is the next apple to fall from the tree’",
-      "url": "https://english.elpais.com/international/2026-08-05/ric-prado-ex-cia-officer-cuba-is-the-next-apple-to-fall-from-the-tree.html",
-      "published_at": "2026-08-05T10:09:29Z",
-      "collected_at": "2026-08-31T15:30:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     }
   ]
