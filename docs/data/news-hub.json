@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-31T09:30:43Z",
-  "last_successful_collection_at": "2026-08-31T09:30:43Z",
+  "generated_at": "2026-08-31T10:00:52Z",
+  "last_successful_collection_at": "2026-08-31T10:00:52Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-31T09:30:43Z"
+      "at": "2026-08-31T10:00:52Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "27",
-      "at": "2026-08-31T09:30:43Z"
+      "at": "2026-08-31T10:00:52Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-31T09:30:43Z"
+      "at": "2026-08-31T10:00:52Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-31T09:30:43Z"
+      "at": "2026-08-31T10:00:52Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-31T09:30:43Z"
+      "at": "2026-08-31T10:00:52Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-31T09:30:43Z"
+      "at": "2026-08-31T10:00:52Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-31T09:30:43Z"
+      "at": "2026-08-31T10:00:52Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-31T09:30:43Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-31T10:00:52Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-31T09:30:43Z"
+      "at": "2026-08-31T10:00:52Z"
     }
   ],
   "europe_now": [
@@ -183,7 +183,7 @@
       "label": "EU · Iceland · talks · restarting",
       "origin": "convergence",
       "source_count": 4,
-      "item_count": 9,
+      "item_count": 7,
       "latest_at": "2026-08-31T05:00:00Z",
       "sources": [
         {
@@ -213,23 +213,23 @@
       ]
     },
     {
-      "label": "Iran · US · strikes · time",
+      "label": "Iran · US · strikes · Tehran",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 4,
-      "latest_at": "2026-08-31T08:20:06Z",
+      "item_count": 5,
+      "latest_at": "2026-08-31T09:40:48Z",
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/us-renews-attack-on-iran-while-threatening-financial-sanctions-on-tehran-allies",
+          "headline": "US renews attack on Iran while threatening financial sanctions on Tehran allies",
+          "published_at": "2026-08-31T09:40:48Z"
+        },
         {
           "publisher": "EL PAÍS English",
           "url": "https://english.elpais.com/international/2026-08-31/us-and-iran-trade-fire-for-the-first-time-since-july.html",
           "headline": "US and Iran trade fire for the first time since July",
           "published_at": "2026-08-31T08:20:06Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/middle-east/20260830-middle-east-live-us-strikes-iran-for-first-time-in-a-month",
-          "headline": "Middle East Live: US strikes Iran for first time in a month as Tehran retaliates against Jordan base",
-          "published_at": "2026-08-30T23:02:17Z"
         },
         {
           "publisher": "POLITICO Europe",
@@ -271,6 +271,62 @@
     }
   ],
   "radar": [
+    {
+      "id": "5fab0225ff3236eab8228a25",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Colombian rebel group say kidnapped French Foreign Legion soldier is still alive",
+      "url": "https://www.france24.com/en/americas/20260831-colombian-rebel-group-say-kidnapped-french-foreign-legion-soldier-is-still-alive",
+      "published_at": "2026-08-31T09:54:28Z",
+      "collected_at": "2026-08-31T10:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "5e8885a3379d8d6bcee77ad2",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US renews attack on Iran while threatening financial sanctions on Tehran allies",
+      "url": "https://www.france24.com/en/us-renews-attack-on-iran-while-threatening-financial-sanctions-on-tehran-allies",
+      "published_at": "2026-08-31T09:40:48Z",
+      "collected_at": "2026-08-31T10:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e546dfa58af9e617fb1194b7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Artificial Intelligence in Europe: does advanced AI have a glass ceiling?",
+      "url": "https://www.france24.com/en/tv-shows/people-profit/20260831-artificial-intelligence-in-europe-does-advanced-ai-have-a-glass-ceiling",
+      "published_at": "2026-08-31T09:39:28Z",
+      "collected_at": "2026-08-31T10:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "11061f46781ebf4970fb2afb",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Xi arrives for SCO summit, Putin meeting as regional bloc pushes back on US dominance",
+      "url": "https://www.france24.com/en/tv-shows/business/20260831-xi-arrives-for-sco-summit-putin-meeting-as-regional-bloc-pushes-back-on-us-dominance",
+      "published_at": "2026-08-31T09:33:05Z",
+      "collected_at": "2026-08-31T10:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "4fe5df123e11c443a1be2c03",
       "source_id": "france24",
@@ -1140,62 +1196,6 @@
       ]
     },
     {
-      "id": "afe7389054d46399d66c38f1",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Russia preparing ‘massive strikes against Ukraine’s energy facilities’",
-      "url": "https://www.politico.eu/article/russia-preparing-massive-strikes-against-ukraines-energy-facilities",
-      "published_at": "2026-08-30T09:33:27Z",
-      "collected_at": "2026-08-30T10:00:46Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "207933cd240a220fd7363cdd",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 Iceland rejects restarting EU accession talks in referendum",
-      "url": "https://www.france24.com/en/europe/20260830-iceland-rejects-restarting-eu-accession-talks-in-referendum",
-      "published_at": "2026-08-30T09:31:40Z",
-      "collected_at": "2026-08-30T10:00:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "db8a512ea69c942172237414",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Iceland rejects restarting EU accession talks in referendum",
-      "url": "https://www.france24.com/en/europe/20260830-iceland-rejects-restarting-eu-accession-talks-in-referendum",
-      "published_at": "2026-08-30T09:30:57Z",
-      "collected_at": "2026-08-30T10:00:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e425eb4b8ce04a77bf7f72dd",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Harry Potter: Versailles turns into wizarding school for a day",
-      "url": "https://www.france24.com/en/video/20260830-harry-potter-versailles-turns-into-wizarding-school-for-a-day",
-      "published_at": "2026-08-30T09:25:05Z",
-      "collected_at": "2026-08-30T10:00:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "a5cf1ce4fe688fae350570a7",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1560,20 +1560,6 @@
       ]
     },
     {
-      "id": "64a8bf8d0aac4f3f86e5ee8d",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Kraków withdraws fireworks ban after negative court ruling",
-      "url": "https://notesfrompoland.com/2026/08/28/krakow-withdraws-fireworks-ban-after-negative-court-ruling",
-      "published_at": "2026-08-28T09:30:26Z",
-      "collected_at": "2026-08-30T10:00:46Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "edd73ae9d76d96e05027e5cf",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1613,6 +1599,48 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "38991bec334ad9edde22070c",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Dutch government think‑tank pushes EU for tougher tariffs and controls on China",
+      "url": "https://euobserver.com/233923/dutch-government-thinktank-pushes-eu-for-tougher-tariffs-and-controls-on-china",
+      "published_at": "2026-08-27T09:36:32Z",
+      "collected_at": "2026-08-31T10:00:52Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "fb115d07d455ea1f45dc2798",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland asks EU to fine Meta €250m over scam Facebook ads",
+      "url": "https://notesfrompoland.com/2026/08/27/poland-asks-eu-to-fine-meta-e250m-over-scam-facebook-ads",
+      "published_at": "2026-08-27T09:18:04Z",
+      "collected_at": "2026-08-31T10:00:52Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "d3c4406744ab74e6c4d66266",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "CDU's Volkmann: Ukraine aid is not charity",
+      "url": "https://www.dw.com/en/cdu-s-volkmann-ukraine-aid-is-not-charity/a-78517659?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-27T08:30:00Z",
+      "collected_at": "2026-08-31T10:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
