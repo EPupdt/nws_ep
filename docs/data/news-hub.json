@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-30T19:30:46Z",
-  "last_successful_collection_at": "2026-08-30T19:30:46Z",
+  "generated_at": "2026-08-31T03:30:47Z",
+  "last_successful_collection_at": "2026-08-31T03:30:47Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-30T19:30:46Z"
+      "at": "2026-08-31T03:30:47Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "31",
-      "at": "2026-08-30T19:30:46Z"
+      "count": "33",
+      "at": "2026-08-31T03:30:47Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-30T19:30:46Z"
+      "at": "2026-08-31T03:30:47Z"
     },
     {
       "id": "euractiv",
@@ -29,52 +29,103 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-30T19:30:46Z"
+      "at": "2026-08-31T03:30:47Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-30T19:30:46Z"
+      "at": "2026-08-31T03:30:47Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-08-30T19:30:46Z"
+      "at": "2026-08-31T03:30:47Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-30T19:30:46Z"
+      "at": "2026-08-31T03:30:47Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-30T19:30:46Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-31T03:30:47Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-30T19:30:46Z"
+      "at": "2026-08-31T03:30:47Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ferry capsizes off northern Cyprus with over 260 on board",
-      "summary": "A ferry carrying more than 260 people has capsized off the coast of northern Cyprus, with reports of multiple fatalities and dozens still missing. Rescue operations are ongoing in the region as authorities work to locate survivors and recover those missing.",
+      "title": "Iceland votes against restarting EU accession talks",
+      "summary": "Icelandic voters have rejected a referendum to resume European Union accession negotiations, marking a decisive shift away from potential EU membership. The outcome reflects public sentiment favoring independence over deeper integration with European institutions.",
+      "article_ids": [
+        "68669a01c99782ea1dac9f52",
+        "41a0722488840b2eacf9a407"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
+          "headline": "Iceland votes against restarting EU membership talks",
+          "published_at": "2026-08-30T14:45:05Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
+          "headline": "Iceland votes against restarting talks on joining EU",
+          "published_at": "2026-08-30T10:49:11Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "NATO's Arctic expansion alarms Moscow",
+      "summary": "NATO's increasing military presence in the Arctic region has been labeled a direct threat by Russian Foreign Minister Sergei Lavrov. The warning underscores growing geopolitical friction between Western alliances and Russia over northern polar territories.",
+      "article_ids": [
+        "ffa43365269b484ad1403a96"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260831-nato-arctic-activity-direct-threat-russia-lavrov",
+          "headline": "NATO's Arctic activity poses 'direct threat' to Russia, Lavrov warns",
+          "published_at": "2026-08-31T02:40:17Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Far-right and far-left dominate French political landscape",
+      "summary": "Recent opinion polls in France show the far-right and far-left parties leading over centrist and traditional mainstream parties ahead of upcoming elections. This polarization signals a potential realignment of the French electorate toward more extreme ideological positions.",
+      "article_ids": [
+        "2c0e4a39ed2032647a626d39"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-far-right-and-far-left-lead-polls",
+          "headline": "France: Far-right and far-left lead polls",
+          "published_at": "2026-08-30T14:44:38Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ferry disaster off northern Cyprus leaves dozens dead and missing",
+      "summary": "A ferry carrying over 260 passengers capsized off the coast of northern Cyprus, resulting in multiple fatalities and many individuals reported missing. Emergency rescue operations are ongoing as authorities assess the full scale of the tragedy.",
       "article_ids": [
         "45df32f9c3111d2123013720",
-        "bcb197aa70fbb224de08e65c",
-        "e9f2702f595455da7137528d",
-        "6a6a4039db5b7c476523b1c9",
-        "8683394dca4a57a39810e915",
-        "582130f9743538f7a6d45a7a",
-        "fe5b30a7f3b28f3e5894c8a5",
-        "af7b5a8d1918ec9afd48d5d0"
+        "e9f2702f595455da7137528d"
       ],
       "sources": [
         {
@@ -91,131 +142,56 @@
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "Russia preparing massive strikes on Ukraine’s energy infrastructure",
-      "summary": "Intelligence sources indicate Russia is planning large-scale attacks targeting Ukraine’s energy facilities, raising concerns about widespread disruption. The potential strikes come amid ongoing tensions in the region and follow recent escalations in cross-border hostilities.",
-      "article_ids": [
-        "afe7389054d46399d66c38f1",
-        "afe7389054d46399d66c38f1"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russia-preparing-massive-strikes-against-ukraines-energy-facilities",
-          "headline": "Russia preparing ‘massive strikes against Ukraine’s energy facilities’",
-          "published_at": "2026-08-30T09:33:27Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
-  "top_stories": [
+  "developing": [
     {
-      "title": "Iceland votes against restarting EU accession talks",
-      "summary": "Icelandic voters have rejected a proposal to resume negotiations on joining the European Union, marking a decisive shift in the country’s foreign policy stance. The outcome reflects broader public sentiment favoring independence over deeper integration with European institutions.",
-      "article_ids": [
-        "68669a01c99782ea1dac9f52",
-        "41a0722488840b2eacf9a407",
-        "207933cd240a220fd7363cdd",
-        "db8a512ea69c942172237414",
-        "bb376bb2a4887f3b4ff0f288",
-        "0fc1576cba009ed4437dc5f9",
-        "0602237c20613db438f72835",
-        "d1721794a1ccd8ee02a8cd3b",
-        "0b4d4adef7db3de4c8d50d21"
-      ],
+      "label": "strikes · US · Iran · Island",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-08-30T23:02:17Z",
       "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
-          "headline": "Iceland votes against restarting EU membership talks",
-          "published_at": "2026-08-30T14:45:05Z"
-        },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260830-iceland-rejects-restarting-eu-accession-talks-in-referendum",
-          "headline": "🔴 Iceland rejects restarting EU accession talks in referendum",
-          "published_at": "2026-08-30T09:31:40Z"
+          "url": "https://www.france24.com/en/middle-east/20260830-middle-east-live-us-strikes-iran-for-first-time-in-a-month",
+          "headline": "Middle East Live: US strikes Iran for first time in a month as Tehran retaliates against Jordan base",
+          "published_at": "2026-08-30T23:02:17Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/08/30/us-strikes-irans-larak-island-01056585",
+          "headline": "US strikes Iran’s Larak Island",
+          "published_at": "2026-08-30T22:38:14Z"
         }
-      ],
-      "source_count": 2
+      ]
     },
     {
-      "title": "Greece and Turkey escalate tensions over Aegean marine protections",
-      "summary": "Disputes between Greece and Turkey over protected marine areas in the Aegean Sea have intensified, with both sides accusing each other of provocative actions. The tensions highlight longstanding geopolitical friction in the region and raise concerns about potential military escalation.",
-      "article_ids": [
-        "ac2ad01d0de186e02770be82",
-        "2c0e4a39ed2032647a626d39",
-        "130055",
-        "173044",
-        "183044",
-        "190052"
-      ],
+      "label": "rave · Swiss · kills · Manhunt",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-08-30T09:14:17Z",
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/greece-turkey-clash-over-protected-aegean-marine-areas/a-78550021?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Greece, Turkey clash over protected Aegean marine areas",
-          "published_at": "2026-08-30T09:07:00Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Swiss rave shooting leaves casualties as manhunt continues",
-      "summary": "A shooting at a rave party in Switzerland has left at least one person dead and several others injured, prompting a large-scale manhunt for the suspect. Authorities have not yet released details on the motive or identity of those involved.",
-      "article_ids": [
-        "16fb351a5ec356ad85c5fc8e",
-        "045bc528c85247468194ad36",
-        "3eb7559c53de94086421775a",
-        "02ef058381fba68f81d0165d",
-        "7d0dd56204d3ced06cc73b9c",
-        "190052",
-        "183044",
-        "173044",
-        "130055"
-      ],
-      "sources": [
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/gunman-kills-one-at-swiss-rave-party",
+          "headline": "Gunman kills one at Swiss rave party",
+          "published_at": "2026-08-30T09:14:17Z"
+        },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
           "headline": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
           "published_at": "2026-08-30T08:54:49Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260830-one-killed-five-injured-in-shooting-at-rave-in-switzerland",
-          "headline": "One killed, five injured in shooting at rave in Switzerland",
-          "published_at": "2026-08-30T06:52:02Z"
         }
-      ],
-      "source_count": 2
+      ]
     },
-    {
-      "title": "French far-right and far-left dominate latest opinion polls",
-      "summary": "Recent polling in France shows the far-right and far-left leading over centrist and traditional parties ahead of upcoming elections. The trend underscores growing political polarization and voter dissatisfaction with mainstream political options.",
-      "article_ids": [
-        "2c0e4a39ed2032647a626d39",
-        "190052"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-far-right-and-far-left-lead-polls",
-          "headline": "France: Far-right and far-left lead polls",
-          "published_at": "2026-08-30T14:44:38Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
     {
       "label": "Nepal · Death · floods · toll",
       "origin": "radar",
       "source_count": 1,
-      "item_count": 7,
+      "item_count": 6,
       "latest_at": "2026-08-30T14:47:03Z",
       "sources": [
         {
@@ -240,39 +216,177 @@
           "published_at": "2026-08-30T15:41:50Z"
         }
       ]
-    },
-    {
-      "label": "Asia · Central · China · counter",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 2,
-      "latest_at": "2026-08-30T05:51:53Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/asia-pacific/20260830-putin-xi-set-for-central-asia-summit-as-russia-china-seek-to-counter-western-influence",
-          "headline": "Putin, Xi set for Central Asia summit as Russia, China seek to counter Western influence",
-          "published_at": "2026-08-30T05:51:53Z"
-        }
-      ]
-    },
-    {
-      "label": "discuss · EU · failed · Iceland",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-08-30T15:07:30Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/iceland-parliament-will-discuss-withdrawing-eu-bid-after-failed-referendum",
-          "headline": "Iceland’s parliament will ‘discuss’ withdrawing EU bid after failed referendum",
-          "published_at": "2026-08-30T15:07:30Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "ebfab869c1d87f93f67e2246",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Zeitenwende 2.0: Wie Merz Russland zahlen lassen will",
+      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/zeitenwende-2-0-wie-merz-russland-zahlen-lassen-will",
+      "published_at": "2026-08-31T03:09:39Z",
+      "collected_at": "2026-08-31T03:30:47Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "0dbad10d87283995b1510ced",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Les think tanks musclent leur jeu en vue de 2027",
+      "url": "https://www.politico.eu/article/les-think-tanks-musclent-leur-jeu-en-vue-de-2027",
+      "published_at": "2026-08-31T03:00:00Z",
+      "collected_at": "2026-08-31T03:30:47Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "ffa43365269b484ad1403a96",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "NATO's Arctic activity poses 'direct threat' to Russia, Lavrov warns",
+      "url": "https://www.france24.com/en/europe/20260831-nato-arctic-activity-direct-threat-russia-lavrov",
+      "published_at": "2026-08-31T02:40:17Z",
+      "collected_at": "2026-08-31T03:30:47Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a8023fac074d3bf8fe9de769",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "The Trump-shaped problems awaiting Andy Burnham, ranked",
+      "url": "https://www.politico.eu/article/andy-burnham-donald-trump-shaped-problems-awaiting-ranked",
+      "published_at": "2026-08-31T02:01:00Z",
+      "collected_at": "2026-08-31T03:30:47Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "c208b94f62463db9d589e0c5",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "How Greeks conquered the Brussels coffee bubble",
+      "url": "https://www.politico.eu/article/how-greeks-conquered-brussels-coffee-bubble",
+      "published_at": "2026-08-31T02:00:00Z",
+      "collected_at": "2026-08-31T03:30:47Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "1cc89624c9099d58565247a0",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Germany is poised to enter one of its most dangerous moments yet",
+      "url": "https://www.politico.eu/article/germany-is-poised-to-enter-one-of-its-most-dangerous-moments-yet-afd",
+      "published_at": "2026-08-31T02:00:00Z",
+      "collected_at": "2026-08-31T03:30:47Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "f7d1a53450f252b37b979484",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Flash flood in Grand Canyon National Park leaves about 15 missing",
+      "url": "https://www.france24.com/en/americas/20260831-grand-canyon-national-park-flash-flood-missing",
+      "published_at": "2026-08-31T01:38:50Z",
+      "collected_at": "2026-08-31T03:30:47Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "481d0e139a6c7d57dbe8dae8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Middle East Live: US strikes Iran for first time in a month as Tehran retaliates against Jordan base",
+      "url": "https://www.france24.com/en/middle-east/20260830-middle-east-live-us-strikes-iran-for-first-time-in-a-month",
+      "published_at": "2026-08-30T23:02:17Z",
+      "collected_at": "2026-08-31T03:30:47Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a3f1f2dc30513488f08204fc",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US Treasury bars certain journalists from G20 meeting in North Carolina",
+      "url": "https://www.france24.com/en/americas/20260830-us-treasury-journalists-from-g20",
+      "published_at": "2026-08-30T22:48:02Z",
+      "collected_at": "2026-08-31T03:30:47Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a282c595e4102d1e16c36fb1",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "US strikes Iran’s Larak Island",
+      "url": "https://www.politico.com/news/2026/08/30/us-strikes-irans-larak-island-01056585",
+      "published_at": "2026-08-30T22:38:14Z",
+      "collected_at": "2026-08-31T03:30:47Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "7585eab417051b66aabceae6",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US forces strike Iranian launchers on Larak island in Strait of Hormuz",
+      "url": "https://www.france24.com/en/middle-east/20260830-us-forces-strike-iranian-launchers-on-larak-island-in-strait-of-hormuz",
+      "published_at": "2026-08-30T20:27:09Z",
+      "collected_at": "2026-08-31T03:30:47Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "03b14a88ae210db0a1d27bb9",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Albo’s problems on two oceans, and disaster in Secret Harbour",
+      "url": "https://www.politico.com/newsletters/canberra-playbook/2026/08/30/albos-problems-on-two-oceans-and-disaster-in-secret-harbour-01022132",
+      "published_at": "2026-08-30T20:17:20Z",
+      "collected_at": "2026-08-31T03:30:47Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "45df32f9c3111d2123013720",
       "source_id": "bbc_europe",
@@ -309,6 +423,20 @@
       "url": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-30T16:48:02Z",
       "collected_at": "2026-08-30T18:30:44Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "3bce2c6dd1d4ce769264f95b",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "British woman killed in stabbing at German railway station",
+      "url": "https://www.bbc.co.uk/news/articles/cx2zy118q7ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-30T16:11:46Z",
+      "collected_at": "2026-08-31T03:30:47Z",
       "topics": [
         "breaking",
         "politics",
@@ -379,6 +507,20 @@
       "url": "https://www.politico.eu/article/iceland-parliament-will-discuss-withdrawing-eu-bid-after-failed-referendum",
       "published_at": "2026-08-30T15:07:30Z",
       "collected_at": "2026-08-30T15:30:42Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "44bb482558a55f9d92705db0",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "6 issues that will shape Ursula von der Leyen’s legacy",
+      "url": "https://www.politico.eu/article/6-issues-that-will-shape-ursula-von-der-leyens-legacy",
+      "published_at": "2026-08-30T15:00:00Z",
+      "collected_at": "2026-08-31T03:30:47Z",
       "topics": [
         "institutions",
         "politics",
@@ -1016,6 +1158,20 @@
       ]
     },
     {
+      "id": "f7ecb318e4376c591cb64369",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "WhatsApp chat used to launder cash for crime and extremism",
+      "url": "https://www.bbc.co.uk/news/articles/cgk57lg7566o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-30T04:59:56Z",
+      "collected_at": "2026-08-31T03:30:47Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "5369b464ba5d55a8f8ac857f",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1198,34 +1354,6 @@
       ]
     },
     {
-      "id": "2c5f52040ede300ba96a40ad",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Missing toll from Nepal, China flood nears 3,000 as race for survivors continues",
-      "url": "https://www.france24.com/en/asia-pacific/20260829-missing-toll-from-nepal-china-flood-nears-3-000-as-race-for-survivors-continues",
-      "published_at": "2026-08-29T20:12:45Z",
-      "collected_at": "2026-08-30T03:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "d8fd87c542b06f99e856bbef",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Niger junta says it is back in control after soldiers' mutiny rocks capital",
-      "url": "https://www.france24.com/en/africa/20260829-gunfire-and-explosions-heard-near-military-base-in-niger-s-capital",
-      "published_at": "2026-08-29T06:33:07Z",
-      "collected_at": "2026-08-30T03:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "a011310eb0ad4d7c88077e9d",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1237,6 +1365,34 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "3171b8fdf8bb1c29e86d31b4",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Berlin is being blackmailed by hackers, mayor says",
+      "url": "https://www.bbc.co.uk/news/articles/cm2q7gv3l5qo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-28T21:29:01Z",
+      "collected_at": "2026-08-31T03:30:47Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "78742bc9af3915b6d1b50725",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Greenland says findings on genocide allegation not final",
+      "url": "https://www.bbc.co.uk/news/articles/czxzv29p12lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-28T19:57:50Z",
+      "collected_at": "2026-08-31T03:30:47Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -1506,20 +1662,6 @@
       ]
     },
     {
-      "id": "c50644db72dff8976522f6a8",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Spain: Thieves steal Bronze Age gold in lightning raid on Villena Museum",
-      "url": "https://www.dw.com/en/spain-thieves-steal-bronze-age-gold-in-lightning-raid-on-villena-museum/a-78538027?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-27T19:38:00Z",
-      "collected_at": "2026-08-30T03:30:41Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "97f48a8278f470192f1ced56",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1527,20 +1669,6 @@
       "url": "https://www.bbc.co.uk/news/videos/c5y4mmn78n3o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-27T18:46:26Z",
       "collected_at": "2026-08-30T07:00:51Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "a85c5b988a63ae72555c67dd",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "France relaxes strict cheese-making rules after prolonged drought",
-      "url": "https://www.bbc.co.uk/news/articles/c980e36dd5do?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-27T18:29:38Z",
-      "collected_at": "2026-08-30T03:30:41Z",
       "topics": [
         "breaking",
         "politics",
@@ -1590,6 +1718,20 @@
       ]
     },
     {
+      "id": "66ae668be4cb931cab28c4ab",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The desert’s ‘resurrection plant’ paving the way to fridge-free vaccines",
+      "url": "https://english.elpais.com/health/2026-08-26/the-deserts-resurrection-plant-paves-the-way-to-fridge-free-vaccines.html",
+      "published_at": "2026-08-26T16:04:00Z",
+      "collected_at": "2026-08-31T03:30:47Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "91ea242d0a4a5bfef39df19e",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1629,20 +1771,6 @@
         "central_europe",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "4598dd8f2bfd8634730a01e0",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Grain exports stall as Ukraine steps up attacks on Russia's Black Sea ports",
-      "url": "https://www.dw.com/en/grain-exports-stall-as-ukraine-steps-up-attacks-on-russia-s-black-sea-ports/a-78499629?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-25T18:04:00Z",
-      "collected_at": "2026-08-30T03:30:41Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
@@ -1842,17 +1970,17 @@
       ]
     },
     {
-      "id": "61ec4d246d043e8978abfa23",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "France issues warning over thousands of substandard condoms",
-      "url": "https://www.dw.com/en/france-issues-warning-over-thousands-of-substandard-condoms/a-78462877?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-21T16:35:00Z",
-      "collected_at": "2026-08-30T03:30:41Z",
+      "id": "f89f8bd7fb2068941a797305",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Maradona death trial upended by bizarre error: Experts analyzed his father’s clinical records",
+      "url": "https://english.elpais.com/international/2026-08-20/maradona-death-trial-upended-by-bizarre-error-experts-analyzed-his-fathers-clinical-records.html",
+      "published_at": "2026-08-20T18:42:50Z",
+      "collected_at": "2026-08-31T03:30:47Z",
       "topics": [
         "politics",
         "society",
-        "security"
+        "economy"
       ]
     },
     {
@@ -1867,20 +1995,6 @@
         "analysis",
         "foreign_policy",
         "security"
-      ]
-    },
-    {
-      "id": "521ec3a6fe454cc568a85443",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Why is Ukraine's ex-defence minister calling for wartime elections?",
-      "url": "https://www.bbc.co.uk/news/videos/c62eyn5ggnzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-19T15:38:38Z",
-      "collected_at": "2026-08-30T03:30:41Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
