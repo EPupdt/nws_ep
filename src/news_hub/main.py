@@ -191,9 +191,34 @@ def valid_selection(value: Any, max_top_stories: int, max_europe_now: int) -> bo
     if len(value["top_stories"]) > max_top_stories or len(value["europe_now"]) > max_europe_now:
         return False
     return all(
-        isinstance(item, dict) and isinstance(item.get("title"), str) and isinstance(item.get("summary"), str)
+        isinstance(item, dict)
+        and isinstance(item.get("title"), str)
+        and isinstance(item.get("summary"), str)
+        and isinstance(item.get("article_ids"), list)
+        and all(isinstance(article_id, str) for article_id in item["article_ids"])
         for item in value["top_stories"] + value["europe_now"]
     )
+
+
+def safe_llm_error_detail(error: Exception, key: str) -> str:
+    """Return a short diagnostic without exposing credentials."""
+    detail = ""
+    if isinstance(error, HTTPError):
+        try:
+            detail = error.read(2048).decode("utf-8", errors="replace")
+        except (AttributeError, OSError):
+            pass
+    if not detail:
+        detail = str(error)
+    if key:
+        detail = detail.replace(key, "[REDACTED]")
+    detail = re.sub(r"(?i)([?&]key=)[^&\s\"\\]+", r"\1[REDACTED]", detail)
+    return " ".join(detail.split())[:400]
+
+
+def log_llm_failure(provider: str, model: str, detail: str, status: int | None = None) -> None:
+    status_text = f" status={status}" if status is not None else ""
+    print(f"LLM attempt failed provider={provider} model={model}{status_text} detail={detail}", file=sys.stderr)
 
 
 def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent_topics: list[dict[str, Any]]) -> tuple[dict[str, Any], str]:
@@ -222,9 +247,10 @@ def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent
     for provider, model, key in attempts:
         try:
             if provider == "gemini":
-                endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
+                endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
                 body = {"contents": [{"parts": [{"text": raw}]}], "generationConfig": {"responseMimeType": "application/json", "temperature": 0.1}}
-                request = Request(endpoint, data=json.dumps(body).encode(), headers={"Content-Type": "application/json"}, method="POST")
+                request = Request(endpoint, data=json.dumps(body).encode(),
+                                  headers={"Content-Type": "application/json", "x-goog-api-key": key}, method="POST")
                 with urlopen(request, timeout=30) as response:
                     result = json.load(response)
                 text = result["candidates"][0]["content"]["parts"][0]["text"]
@@ -236,10 +262,17 @@ def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent
                 with urlopen(request, timeout=30) as response:
                     result = json.load(response)
                 text = result["choices"][0]["message"]["content"]
+            if not isinstance(text, str) or not text.strip():
+                log_llm_failure(provider, model, "empty-or-non-text response")
+                continue
             selected = json.loads(text)
             if valid_selection(selected, policy["top_story_count"], policy["max_europe_now"]):
                 return selected, f"{provider}:{model}"
-        except (HTTPError, URLError, TimeoutError, ValueError, KeyError, IndexError, json.JSONDecodeError):
+            log_llm_failure(provider, model, "response failed schema validation")
+        except HTTPError as error:
+            log_llm_failure(provider, model, safe_llm_error_detail(error, key), error.code)
+        except (URLError, TimeoutError, ValueError, KeyError, IndexError, TypeError, json.JSONDecodeError) as error:
+            log_llm_failure(provider, model, safe_llm_error_detail(error, key))
             continue
     return {"europe_now": [], "top_stories": []}, "failed"
 
