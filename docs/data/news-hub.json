@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-31T15:30:47Z",
-  "last_successful_collection_at": "2026-08-31T15:30:47Z",
+  "generated_at": "2026-08-31T16:00:54Z",
+  "last_successful_collection_at": "2026-08-31T16:00:54Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-31T15:30:47Z"
+      "at": "2026-08-31T16:00:54Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "27",
-      "at": "2026-08-31T15:30:47Z"
+      "at": "2026-08-31T16:00:54Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-31T15:30:47Z"
+      "at": "2026-08-31T16:00:54Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-31T15:30:47Z"
+      "at": "2026-08-31T16:00:54Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-31T15:30:47Z"
+      "at": "2026-08-31T16:00:54Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-31T15:30:47Z"
+      "at": "2026-08-31T16:00:54Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-31T15:30:47Z"
+      "at": "2026-08-31T16:00:54Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-08-31T15:30:47Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-08-31T16:00:54Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-31T15:30:47Z"
+      "at": "2026-08-31T16:00:54Z"
     }
   ],
   "europe_now": [
@@ -162,17 +162,17 @@
   ],
   "developing": [
     {
-      "label": "US · Iran · strikes · East",
+      "label": "Iran · US · East · flare",
       "origin": "convergence",
       "source_count": 3,
       "item_count": 10,
-      "latest_at": "2026-08-31T12:47:11Z",
+      "latest_at": "2026-08-31T15:33:57Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/strait-of-hormuz-accessibility-at-the-centre-of-us-iran-war-flare-up",
-          "headline": "Strait of Hormuz accessibility at the centre of US-Iran war flare-up",
-          "published_at": "2026-08-31T12:47:11Z"
+          "url": "https://www.france24.com/en/latest-flare-up-between-us-and-iran-bring-conflict-s-lull-to-an-end",
+          "headline": "Latest flare-up between US and Iran bring conflict's lull to an end",
+          "published_at": "2026-08-31T15:33:57Z"
         },
         {
           "publisher": "POLITICO Europe",
@@ -185,6 +185,48 @@
           "url": "https://english.elpais.com/international/2026-08-31/us-and-iran-trade-fire-for-the-first-time-since-july.html",
           "headline": "US and Iran trade fire for the first time since July",
           "published_at": "2026-08-31T08:20:06Z"
+        }
+      ]
+    },
+    {
+      "label": "Cyprus · Northern · ferry · missing",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 6,
+      "latest_at": "2026-08-31T15:04:02Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/in-northern-cyprus-families-wait-for-news-of-passengers-from-sunk-ferry",
+          "headline": "In Northern Cyprus, families wait for news of passengers from sunk ferry",
+          "published_at": "2026-08-31T15:04:02Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c1mv5ggg1l8o?at_medium=RSS&at_campaign=rss",
+          "headline": "'She slipped out of my hand' - children missing after ferry sinks off northern Cyprus",
+          "published_at": "2026-08-31T14:50:36Z"
+        }
+      ]
+    },
+    {
+      "label": "Ceuta · crisis · disinformation · Israel",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-08-31T15:24:27Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/spain-blames-israel-russia-for-spreading-disinformation-during-ceuta-crisis",
+          "headline": "Spain blames Israel, Russia for spreading disinformation during Ceuta crisis",
+          "published_at": "2026-08-31T15:24:27Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/pedro-sanchez-takes-rare-swipe-at-spains-king-felipe-vi-over-ceuta-crisis",
+          "headline": "Sánchez takes rare swipe at Spain’s king over Ceuta crisis",
+          "published_at": "2026-08-31T10:57:51Z"
         }
       ]
     },
@@ -208,51 +250,149 @@
           "published_at": "2026-08-31T10:56:04Z"
         }
       ]
-    },
-    {
-      "label": "rave · shooting · Swiss",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-31T12:01:13Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260831-police-arrest-swiss-man-over-after-deadly-rave-shooting",
-          "headline": "Police arrest Swiss man after deadly rave shooting",
-          "published_at": "2026-08-31T12:01:13Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cddv92n194vo?at_medium=RSS&at_campaign=rss",
-          "headline": "Man arrested after Swiss rave shooting that killed woman",
-          "published_at": "2026-08-31T11:24:19Z"
-        }
-      ]
-    },
-    {
-      "label": "Ceuta · crisis",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-08-31T10:57:51Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/pedro-sanchez-takes-rare-swipe-at-spains-king-felipe-vi-over-ceuta-crisis",
-          "headline": "Sánchez takes rare swipe at Spain’s king over Ceuta crisis",
-          "published_at": "2026-08-31T10:57:51Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260831-spanish-pm-sanchez-says-israel-and-russia-spread-disinformation-on-ceuta-migrant-crisis",
-          "headline": "Spanish PM Sanchez says Israel and Russia spread disinformation on Ceuta migrant crisis",
-          "published_at": "2026-08-31T08:20:20Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "8d06e783899f2fb2488350f3",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Nepal floods 'unprecedented', requires new 'engineering approaches, risk-sensitive urban planning'",
+      "url": "https://www.france24.com/en/nepal-floods-unprecedented-requires-new-engineering-approaches-risk-sensitive-urban-planning",
+      "published_at": "2026-08-31T15:52:40Z",
+      "collected_at": "2026-08-31T16:00:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "5821d1c8cfbd2a030237fa9b",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Trump: Communities that reject data centers will end up ‘backwards and poor’",
+      "url": "https://www.politico.com/news/2026/08/31/trump-data-centers-midterms",
+      "published_at": "2026-08-31T15:41:13Z",
+      "collected_at": "2026-08-31T16:00:54Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "f937f8479a24314279d348ce",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Latest flare-up between US and Iran bring conflict's lull to an end",
+      "url": "https://www.france24.com/en/latest-flare-up-between-us-and-iran-bring-conflict-s-lull-to-an-end",
+      "published_at": "2026-08-31T15:33:57Z",
+      "collected_at": "2026-08-31T16:00:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "00446d1432ecc72be84e70f9",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "🔴 Lionel Messi retires from Argentina national team after 21 years",
+      "url": "https://www.france24.com/en/sport/20260831-lionel-messi-retires-from-argentina-national-team-after-21-years",
+      "published_at": "2026-08-31T15:31:43Z",
+      "collected_at": "2026-08-31T16:00:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "7a958b689a7a9564803e40ff",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Lionel Messi retires from Argentina national team after 21 years",
+      "url": "https://www.france24.com/en/sport/20260831-lionel-messi-retires-from-argentina-national-team-after-21-years",
+      "published_at": "2026-08-31T15:30:55Z",
+      "collected_at": "2026-08-31T16:00:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "4ebe7bc5ef576e48464a0067",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Canberra's zoo treats its residents to personnalised musical therapy",
+      "url": "https://www.france24.com/en/canberra-s-zoo-treats-its-residents-to-personnalised-musical-therapy",
+      "published_at": "2026-08-31T15:30:38Z",
+      "collected_at": "2026-08-31T16:00:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "68ba4f7c5cf52e4e6244b929",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "As Icelanders say no to resuming EU talks, what issues weighed in the election?",
+      "url": "https://www.france24.com/en/as-icelanders-say-no-to-resuming-eu-talks-what-issues-weighed-in-the-election",
+      "published_at": "2026-08-31T15:26:50Z",
+      "collected_at": "2026-08-31T16:00:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "d0c76e38ec4a8e7ddd9a75d6",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Spain blames Israel, Russia for spreading disinformation during Ceuta crisis",
+      "url": "https://www.france24.com/en/spain-blames-israel-russia-for-spreading-disinformation-during-ceuta-crisis",
+      "published_at": "2026-08-31T15:24:27Z",
+      "collected_at": "2026-08-31T16:00:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "3b685034c3f105d3351128a0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Nepal deadly floods: FRANCE 24 report – on the ground with survivors",
+      "url": "https://www.france24.com/en/video/20260831-nepal-deadly-floods-france-24-report-%E2%80%93-on-the-ground-with-survivors",
+      "published_at": "2026-08-31T15:12:43Z",
+      "collected_at": "2026-08-31T16:00:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "7e435842f435a30a6b3e3d24",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "In Northern Cyprus, families wait for news of passengers from sunk ferry",
+      "url": "https://www.france24.com/en/in-northern-cyprus-families-wait-for-news-of-passengers-from-sunk-ferry",
+      "published_at": "2026-08-31T15:04:02Z",
+      "collected_at": "2026-08-31T16:00:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "d11240ed1ae190be976aba7a",
       "source_id": "france24",
@@ -1542,20 +1682,6 @@
       ]
     },
     {
-      "id": "83591d36a8fdadc9fc44c0d1",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French LGBTQ activist hospitalised after ‘despicable homophobic attack’ in Paris",
-      "url": "https://www.france24.com/en/france/20260830-french-lgbtq-activist-hospitalised-after-despicable-homophobic-attack-in-paris",
-      "published_at": "2026-08-30T15:41:50Z",
-      "collected_at": "2026-08-30T16:00:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "4e78d9463b1f2052a35a36fe",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1563,20 +1689,6 @@
       "url": "https://www.france24.com/en/france/20260830-french-lgbtq-activist-hospitalised-after-despicable-homophobic-attack-in-paris",
       "published_at": "2026-08-30T15:41:50Z",
       "collected_at": "2026-08-30T16:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "20ac2019edd8bf4060fd1f79",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Niger junta puts down mutiny with help from Russia's Africa Corps",
-      "url": "https://www.france24.com/en/africa/20260830-niger-junta-aided-by-russian-paramilitary-forces-regains-control-after-mutiny",
-      "published_at": "2026-08-30T15:20:01Z",
-      "collected_at": "2026-08-30T16:00:53Z",
       "topics": [
         "politics",
         "security",
@@ -1693,20 +1805,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "a011310eb0ad4d7c88077e9d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "AI swarms turn on their creators: ‘It’s the first incident that has made my stomach churn’",
-      "url": "https://english.elpais.com/technology/2026-08-29/ai-swarms-turn-on-their-creators-its-the-first-incident-that-has-made-my-stomach-churn.html",
-      "published_at": "2026-08-29T04:00:00Z",
-      "collected_at": "2026-08-30T16:00:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -1847,20 +1945,6 @@
         "central_europe",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "e29590d0cf1f2786f6b7c0b9",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Donbas defence taken over by elite officers with radical pasts (Ukraine Battlefield update, Day 1,646)",
-      "url": "https://euobserver.com/234274/donbas-defence-taken-over-by-elite-officers-with-radical-pasts-ukraine-battlefield-update-day-1646",
-      "published_at": "2026-08-28T15:11:42Z",
-      "collected_at": "2026-08-30T16:00:53Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
       ]
     },
     {
@@ -2368,20 +2452,6 @@
       ]
     },
     {
-      "id": "2edae41f4df981d3bd48a8f3",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Spain battles forest fire a short drive from flash flood",
-      "url": "https://www.dw.com/en/spain-battles-forest-fire-a-short-drive-from-flash-flood/a-78469115?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-22T14:35:00Z",
-      "collected_at": "2026-08-30T16:00:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "bc88f55635c75e6083b92f6b",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2529,20 +2599,6 @@
       "url": "https://ecfr.eu/article/power-up-how-eu-africa-cooperation-can-drive-europes-battery-recycling-future",
       "published_at": "2026-08-10T13:01:28Z",
       "collected_at": "2026-08-30T17:30:44Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "63c8171dbaf4156fb4d52a7b",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Anti-corruption sanctions: Preparing for the time after Trump",
-      "url": "https://ecfr.eu/article/anti-corruption-sanctions-preparing-for-the-time-after-trump",
-      "published_at": "2026-08-10T10:44:08Z",
-      "collected_at": "2026-08-30T16:00:53Z",
       "topics": [
         "analysis",
         "foreign_policy",
@@ -2715,62 +2771,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "665639dcf21d292f09251566",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Fire Island, the ‘hottest’ beach in the world: 100 years of art, parties and wild sex",
-      "url": "https://english.elpais.com/culture/2026-07-26/fire-island-the-hottest-beach-in-the-world-100-years-of-art-parties-and-wild-sex.html",
-      "published_at": "2026-07-26T04:00:00Z",
-      "collected_at": "2026-08-30T18:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "0b0c74453e3a0d720f0d5a40",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Serbia: Inside the leaderless movement",
-      "url": "https://ecfr.eu/podcasts/episode/inside-the-leaderless-movement",
-      "published_at": "2026-07-24T12:35:30Z",
-      "collected_at": "2026-08-31T08:00:53Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "66029b24ac577f1e07324141",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "The China-native generation",
-      "url": "https://ecfr.eu/podcasts/episode/the-china-native-generation",
-      "published_at": "2026-07-24T05:00:00Z",
-      "collected_at": "2026-08-31T08:00:53Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "8966f5926726e7b6481172c9",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "The magnificent ten: A coalition of the willing to drive the EU’s next enlargement",
-      "url": "https://ecfr.eu/publication/the-magnificent-ten-a-coalition-of-the-willing-to-drive-the-eus-next-enlargement",
-      "published_at": "2026-07-23T14:16:18Z",
-      "collected_at": "2026-08-31T08:00:53Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
       ]
     }
   ]
