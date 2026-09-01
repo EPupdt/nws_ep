@@ -355,9 +355,24 @@
     "8a42af5bd627ff8552898d03": "2026-09-01T06:00:52Z",
     "0ff295ad0d863b7a8312e85a": "2026-09-01T06:00:52Z",
     "8cc5a457e3a9be3cc2f5afae": "2026-09-01T06:30:45Z",
-    "b1795764ce610c50eac9e964": "2026-09-01T06:30:45Z"
+    "b1795764ce610c50eac9e964": "2026-09-01T06:30:45Z",
+    "77f3657033b3c8c554189122": "2026-09-01T07:00:50Z"
   },
   "radar": [
+    {
+      "id": "77f3657033b3c8c554189122",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Ukraine updates: Russia hits Kyiv for sixth straight day",
+      "url": "https://www.dw.com/en/ukraine-updates-russia-hits-kyiv-for-sixth-straight-day/live-78582421?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-01T06:34:00Z",
+      "collected_at": "2026-09-01T07:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
     {
       "id": "8cc5a457e3a9be3cc2f5afae",
       "source_id": "france24",
@@ -2755,14 +2770,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-08-30T17:30:44Z",
-      "title": "Greece-Turkey tensions in the Aegean"
-    },
-    {
-      "at": "2026-08-30T17:30:44Z",
-      "title": "Swiss rave shooting leaves casualties"
-    },
-    {
       "at": "2026-08-30T18:30:44Z",
       "title": "Iceland votes against restarting EU accession talks"
     },
@@ -3073,6 +3080,14 @@
     {
       "at": "2026-09-01T06:30:45Z",
       "title": "European defense cooperation"
+    },
+    {
+      "at": "2026-09-01T07:00:50Z",
+      "title": "French Political Figures and Defense Cooperation"
+    },
+    {
+      "at": "2026-09-01T07:00:50Z",
+      "title": "Global Disasters and International Conflicts"
     }
   ],
   "alerts": [],
@@ -3080,31 +3095,30 @@
     "europe_now": [
       {
         "title": "Russian missile and drone attack on Kyiv",
-        "summary": "Multiple Russian aerial strikes targeting a railway depot and urban areas in Kyiv resulted in several fatalities.",
+        "summary": "At least seven people were killed following a Russian missile and drone strike targeting Kyiv. The attack marks the sixth consecutive day of strikes on the Ukrainian capital.",
         "article_ids": [
-          "b1795764ce610c50eac9e964",
-          "338e2645da26201b57acb1ab",
+          "77f3657033b3c8c554189122",
           "41e079d2d0aa904652a2f9f2"
         ],
         "sources": [
           {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20260901-live-deadly-russian-air-attack-hits-railway-depot-in-kyiv",
-            "headline": "Live: Deadly Russian air attack hits railway depot in Kyiv",
-            "published_at": "2026-09-01T06:04:26Z"
+            "publisher": "Deutsche Welle",
+            "url": "https://www.dw.com/en/ukraine-updates-russia-hits-kyiv-for-sixth-straight-day/live-78582421?maca=en-rss-en-eu-2092-rdf",
+            "headline": "Ukraine updates: Russia hits Kyiv for sixth straight day",
+            "published_at": "2026-09-01T06:34:00Z"
           },
           {
             "publisher": "France 24 English",
             "url": "https://www.france24.com/en/europe/20260901-russian-missile-and-drone-attack-on-kyiv-kills-at-least-four",
-            "headline": "Russian missile and drone attack on Kyiv kills at least four",
+            "headline": "Russian missile and drone attack on Kyiv kills at least seven",
             "published_at": "2026-09-01T02:26:54Z"
           }
         ],
-        "source_count": 1
+        "source_count": 2
       },
       {
-        "title": "Suspected foreign involvement in Polish arson attack",
-        "summary": "Polish authorities are investigating potential foreign state backing in a recent arson attack targeting a domestic drone manufacturing facility.",
+        "title": "Poland investigates suspected foreign involvement in arson attack",
+        "summary": "Polish authorities are investigating potential foreign involvement in a recent arson attack at a drone manufacturing plant. The incident raises security concerns regarding critical infrastructure and foreign interference.",
         "article_ids": [
           "a828b3e8f5407a7a2b9ed589"
         ],
@@ -3121,14 +3135,19 @@
     ],
     "top_stories": [
       {
-        "title": "French political figures",
-        "summary": "France mourns the death of former Prime Minister Édouard Balladur at the age of 97. Meanwhile, political discussions continue regarding future economic and social proposals from national parties.",
+        "title": "French Political Figures and Defense Cooperation",
+        "summary": "France and Sweden signed a major defense agreement worth €4.3 billion involving French frigates. Meanwhile, former French Prime Minister Édouard Balladur passed away at the age of 97.",
         "article_ids": [
-          "73a2d243bd05b4a154eb9bf0",
-          "32cdc85c144df4e2f3537d44",
+          "e774443427e02cadd626baa6",
           "84cd8ee44386f915c239fdd6"
         ],
         "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/video/20260831-macron-seals-%E2%82%AC4-3-bn-french-frigate-deal-in-sweden",
+            "headline": "Macron seals €4.3-bn French frigate deal in Sweden",
+            "published_at": "2026-08-31T19:28:22Z"
+          },
           {
             "publisher": "France 24 English",
             "url": "https://www.france24.com/en/france/20260831-former-french-prime-minister-%C3%A9douard-balladur-dies-at-97",
@@ -3139,24 +3158,29 @@
         "source_count": 1
       },
       {
-        "title": "European defense cooperation",
-        "summary": "French President Emmanuel Macron finalized a multi-billion euro naval agreement during a diplomatic visit to Sweden. European officials are also coordinating their strategic positions on broader international security developments.",
+        "title": "Global Disasters and International Conflicts",
+        "summary": "The death toll from devastating glacial floods in Nepal and Tibet has surpassed 1,000 people. Concurrently, US-Iran tensions escalated as officials exchanged strikes and threats of further military action.",
         "article_ids": [
-          "1880f48cd95a7bf0641a7ccf",
-          "b3aa533759a5e5ff68beb367",
-          "e774443427e02cadd626baa6"
+          "606c0644685afa9a73eadd1b",
+          "09729a4572cb8aba1fb481f3"
         ],
         "sources": [
           {
             "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/video/20260831-macron-seals-%E2%82%AC4-3-bn-french-frigate-deal-in-sweden",
-            "headline": "Macron seals €4.3-bn French frigate deal in Sweden",
-            "published_at": "2026-08-31T19:28:22Z"
+            "url": "https://www.france24.com/en/asia-pacific/20260831-glacial-flood-death-toll-surpasses-900-in-nepal-and-tibet",
+            "headline": "Glacial flood death toll surpasses 1,000 in Nepal and Tibet",
+            "published_at": "2026-08-31T23:34:26Z"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/middle-east/20260831-trump-threatens-to-hit-iran-hard-as-strikes-resume-after-month-long-lull",
+            "headline": "Trump threatens to ‘hit Iran hard’ as strikes resume after month-long lull",
+            "published_at": "2026-08-31T20:36:16Z"
           }
         ],
         "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-09-01T06:30:45Z"
+  "last_collection_at": "2026-09-01T07:00:50Z"
 }
