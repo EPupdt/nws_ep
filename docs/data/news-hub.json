@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-01T20:00:49Z",
-  "last_successful_collection_at": "2026-09-01T20:00:49Z",
+  "generated_at": "2026-09-01T20:30:43Z",
+  "last_successful_collection_at": "2026-09-01T20:30:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-01T20:00:49Z"
+      "at": "2026-09-01T20:30:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "28",
-      "at": "2026-09-01T20:00:49Z"
+      "at": "2026-09-01T20:30:43Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-01T20:00:49Z"
+      "at": "2026-09-01T20:30:43Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-01T20:00:49Z"
+      "at": "2026-09-01T20:30:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-01T20:00:49Z"
+      "at": "2026-09-01T20:30:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-09-01T20:00:49Z"
+      "at": "2026-09-01T20:30:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-01T20:00:49Z"
+      "at": "2026-09-01T20:30:43Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-01T20:00:49Z"
+      "at": "2026-09-01T20:30:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-01T20:00:49Z"
+      "at": "2026-09-01T20:30:43Z"
     }
   ],
   "europe_now": [
     {
       "title": "Germany Blames Russia for Airport Drone Incident",
-      "summary": "Germany has accused Russia of carrying out an attempted drone attack at Leipzig airport and ordered the closure of the Russian consulate in response. European officials are addressing escalating security threats and diplomatic tensions across the continent.",
+      "summary": "Germany has publicly blamed Russia for an attempted drone attack at Leipzig airport. Authorities responded to the security breach by ordering the closure of a Russian consulate.",
       "article_ids": [
         "13cc9fe14bf63cea0b97e884",
         "f2664d6bd6a35cf6cdd4861f",
@@ -88,8 +88,8 @@
       "source_count": 2
     },
     {
-      "title": "Deadly Russian Strikes Hit Kyiv",
-      "summary": "At least twelve people were killed and more than a dozen others injured following a wave of Russian military strikes on Kyiv. The ongoing conflict continues to inflict a heavy human and infrastructural toll in Ukraine.",
+      "title": "Russian Strikes Hit Kyiv",
+      "summary": "Recent Russian strikes targeting Kyiv have resulted in multiple fatalities and numerous injuries among civilians. The escalation highlights the ongoing human cost and severity of the conflict.",
       "article_ids": [
         "49a08318e75dc1dc7ebd81b2"
       ],
@@ -106,12 +106,12 @@
   ],
   "top_stories": [
     {
-      "title": "German Response to Airport Drone Attack",
-      "summary": "German authorities officially blamed Russia for an attempted explosive-laden drone incident at Leipzig airport. In response to the security breach, the government announced immediate retaliatory measures, including closing a Russian consulate.",
+      "title": "Germany Blames Russia for Airport Attack",
+      "summary": "German officials attributed an explosive-laden drone incident at Leipzig airport to Russia. Consequently, the government announced retaliatory measures including the closure of a Russian consulate.",
       "article_ids": [
         "13cc9fe14bf63cea0b97e884",
         "b2dec8ed3b4290430b2e99e2",
-        "390923f7f6d5211821cfd1ee"
+        "d36bf7c1a965ad4daa821d9e"
       ],
       "sources": [
         {
@@ -130,12 +130,37 @@
       "source_count": 2
     },
     {
-      "title": "Escalating Strikes and Casualties in Ukraine",
-      "summary": "Russian military strikes targeted Kyiv, resulting in at least twelve deaths and multiple injuries among civilians. Meanwhile, European defense ministers continue to discuss security assistance and battlefield developments amid ongoing regional conflict.",
+      "title": "UK Prime Minister Faces Parliament",
+      "summary": "The new UK Prime Minister faced lawmakers in parliament for the first time following an initial honeymoon period. Discussions focused on his upcoming agenda and policy commitments.",
       "article_ids": [
-        "2bf3698b444a64d2ec150172",
-        "49a08318e75dc1dc7ebd81b2"
+        "05ffab42dc1298910c914fac",
+        "e53a11ccba1ba43cbde8b2af",
+        "cd2d1d73cc89a7b27c55b1e5"
       ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/what-to-know-about-the-new-uk-pm-s-agenda-as-he-faces-lawmakers",
+          "headline": "What to know about the new UK PM's agenda as he faces lawmakers",
+          "published_at": "2026-09-01T15:39:39Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/after-unprecedented-honeymoon-uk-pm-faces-lawmakers-for-first-time",
+          "headline": "After 'unprecedented honeymoon', UK PM faces lawmakers for first time",
+          "published_at": "2026-09-01T15:10:30Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
+    {
+      "label": "EU · ministers · defence · Ukraine",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-09-01T16:13:29Z",
       "sources": [
         {
           "publisher": "EUobserver",
@@ -144,21 +169,24 @@
           "published_at": "2026-09-01T16:13:29Z"
         },
         {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ed-miliband-eu-foreign-ministers-meeting-ireland",
+          "headline": "Ed Miliband to attend EU foreign ministers meeting in Ireland",
+          "published_at": "2026-09-01T14:47:40Z"
+        },
+        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/at-least-12-killed-and-over-a-dozen-injured-in-russian-strikes-on-kyiv",
-          "headline": "At least 12 killed and over a dozen injured in Russian strikes on Kyiv",
-          "published_at": "2026-09-01T14:56:39Z"
+          "url": "https://www.france24.com/en/ukraine-hopes-for-bolstered-support-as-eu-defence-ministers-meet-in-dublin",
+          "headline": "Ukraine hopes for bolstered support as EU defence ministers meet in Dublin",
+          "published_at": "2026-09-01T13:34:32Z"
         }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
+      ]
+    },
     {
-      "label": "Iran · strikes · US",
+      "label": "Iran · US · again · flare",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
+      "item_count": 4,
       "latest_at": "2026-09-01T19:02:43Z",
       "sources": [
         {
@@ -169,9 +197,9 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/middle-east/20260901-middle-east-live-oil-prices-extend-gains-as-us-iran-tensions-flare-again",
-          "headline": "Middle East live: Oil prices extend gains as US-Iran tensions flare again",
-          "published_at": "2026-09-01T03:38:18Z"
+          "url": "https://www.france24.com/en/middle-east/20260901-us-and-iran-trade-fire-as-hostilities-flare-again",
+          "headline": "US and Iran trade fire as hostilities flare again",
+          "published_at": "2026-09-01T18:15:13Z"
         }
       ]
     },
@@ -216,30 +244,51 @@
           "published_at": "2026-09-01T06:34:00Z"
         }
       ]
-    },
-    {
-      "label": "King · Norway · oath · Haakon",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-09-01T14:06:58Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/ceq8945e71ro?at_medium=RSS&at_campaign=rss",
-          "headline": "Norway's Haakon takes oath as mourners pay respects to late King",
-          "published_at": "2026-09-01T14:06:58Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/norway-s-new-king-haakon-viii-takes-oath-in-parliament/a-78606923?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Norway's new King Haakon VIII takes oath in parliament",
-          "published_at": "2026-09-01T12:23:00Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "bd62e0b549322f6c96c318dc",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Security-Update: Wie hart treffen Deutschlands Konsequenzen Russland? – mit Peter Neumann",
+      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-update-wie-hart-treffen-deutschlands-konsequenzen-russland-mit-peter-neumann",
+      "published_at": "2026-09-01T20:14:31Z",
+      "collected_at": "2026-09-01T20:30:43Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "5813c231884ee72e38bc0ece",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Google Maps renames Lake Ontario to ‘Lake America’ as MapQuest downloads surge",
+      "url": "https://www.france24.com/en/2026-09-01-18-44-yes-google-maps-renamed-lake-ontario-as-lake-america",
+      "published_at": "2026-09-01T19:37:48Z",
+      "collected_at": "2026-09-01T20:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "3aa0ffe9b7c911b6091fc50b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "AI data centers become surprise issue in US midterm elections",
+      "url": "https://www.france24.com/en/ai-data-centers-become-surprise-issue-in-us-midterm-elections",
+      "published_at": "2026-09-01T19:35:25Z",
+      "collected_at": "2026-09-01T20:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "05ffab42dc1298910c914fac",
       "source_id": "politico_europe",
@@ -332,6 +381,20 @@
       "url": "https://www.france24.com/en/tv-shows/the-debate/20260901-school-wihout-screens-will-france-s-high-school-phone-ban-fly",
       "published_at": "2026-09-01T18:23:47Z",
       "collected_at": "2026-09-01T19:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "6cce89f419fce758508165cf",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US and Iran trade fire as hostilities flare again",
+      "url": "https://www.france24.com/en/middle-east/20260901-us-and-iran-trade-fire-as-hostilities-flare-again",
+      "published_at": "2026-09-01T18:15:13Z",
+      "collected_at": "2026-09-01T20:30:43Z",
       "topics": [
         "politics",
         "security",
@@ -2173,20 +2236,6 @@
       ]
     },
     {
-      "id": "fd81c99f05783312fdbf5479",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Kenya airport staff strike delays thousands of passengers",
-      "url": "https://www.france24.com/en/kenya-airport-staff-strike-delays-thousands-of-passengers",
-      "published_at": "2026-08-31T20:20:32Z",
-      "collected_at": "2026-08-31T20:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "6b5dea933fb15165014c5f02",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2194,76 +2243,6 @@
       "url": "https://www.france24.com/en/kenya-airport-staff-strike-delays-thousands-of-passengers",
       "published_at": "2026-08-31T20:20:32Z",
       "collected_at": "2026-09-01T09:30:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "32cdc85c144df4e2f3537d44",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Marine Le Pen's National Rally plans to \"sanction\" the wearing of the veil with a fine",
-      "url": "https://www.france24.com/en/marine-le-pen-s-national-rally-plans-to-sanction-the-wearing-of-the-veil-with-a-fine",
-      "published_at": "2026-08-31T20:01:16Z",
-      "collected_at": "2026-08-31T20:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "ee1b69d696e0e9508ec0c59c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Nepal disaster: fake and AI images flood social media as deaths mount",
-      "url": "https://www.france24.com/en/nepal-disaster-fake-and-ai-images-flood-social-media-as-deaths-mount",
-      "published_at": "2026-08-31T20:00:12Z",
-      "collected_at": "2026-08-31T20:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "eaa955ee1bad78dbbf9d2d9f",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Racial animus, digital platforms and the attacks of the right-wing media: In memory of Dr. Jason Arday",
-      "url": "https://english.elpais.com/opinion/2026-08-31/racial-animus-digital-platforms-and-the-attacks-of-the-right-wing-media-in-memory-of-dr-jason-arday.html",
-      "published_at": "2026-08-31T19:40:28Z",
-      "collected_at": "2026-08-31T20:30:42Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "08d5f94c6388351a4f8ddf1b",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Meta’s legal woes are only just beginning, lawyers for affected families warn: ‘Our campaign to secure justice continues’",
-      "url": "https://english.elpais.com/technology/2026-08-31/metas-legal-woes-are-only-just-beginning-lawyers-for-affected-families-warn-our-campaign-to-secure-justice-continues.html",
-      "published_at": "2026-08-31T19:38:04Z",
-      "collected_at": "2026-08-31T20:30:42Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "e774443427e02cadd626baa6",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Macron seals €4.3-bn French frigate deal in Sweden",
-      "url": "https://www.france24.com/en/video/20260831-macron-seals-%E2%82%AC4-3-bn-french-frigate-deal-in-sweden",
-      "published_at": "2026-08-31T19:28:22Z",
-      "collected_at": "2026-08-31T20:30:42Z",
       "topics": [
         "politics",
         "security",
@@ -2292,34 +2271,6 @@
       "url": "https://www.france24.com/en/americas/20260831-fashion-designer-galliano-calls-off-met-gala-exhibit-as-backlash-over-anti-semitic-rant-mounts",
       "published_at": "2026-08-31T19:09:10Z",
       "collected_at": "2026-09-01T09:30:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "b4c670573c426d3080495ead",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "From Lake Ontario to Lake America: Who gets to decide the names of geographical places?",
-      "url": "https://english.elpais.com/usa/2026-08-31/from-lake-ontario-to-lake-america-who-gets-to-decide-the-names-of-geographical-places.html",
-      "published_at": "2026-08-31T18:49:44Z",
-      "collected_at": "2026-08-31T20:30:42Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "673de16eb7b69e5e49abf7db",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'It hurts': Lionel Messi retires from Argentina national team after 21 years",
-      "url": "https://www.france24.com/en/sport/20260831-lionel-messi-retires-from-argentina-national-team-after-21-years",
-      "published_at": "2026-08-31T15:30:55Z",
-      "collected_at": "2026-08-31T20:30:42Z",
       "topics": [
         "politics",
         "security",
