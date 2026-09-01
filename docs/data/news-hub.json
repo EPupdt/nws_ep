@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-31T21:30:52Z",
-  "last_successful_collection_at": "2026-08-31T21:30:52Z",
+  "generated_at": "2026-09-01T03:30:45Z",
+  "last_successful_collection_at": "2026-09-01T03:30:45Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-31T21:30:52Z"
+      "at": "2026-09-01T03:30:45Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "27",
-      "at": "2026-08-31T21:30:52Z"
+      "at": "2026-09-01T03:30:45Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-08-31T21:30:52Z"
+      "at": "2026-09-01T03:30:45Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-08-31T21:30:52Z"
+      "at": "2026-09-01T03:30:45Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-08-31T21:30:52Z"
+      "at": "2026-09-01T03:30:45Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-08-31T21:30:52Z"
+      "at": "2026-09-01T03:30:45Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-08-31T21:30:52Z"
+      "at": "2026-09-01T03:30:45Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-08-31T21:30:52Z"
+      "at": "2026-09-01T03:30:45Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-08-31T21:30:52Z"
+      "at": "2026-09-01T03:30:45Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Poland investigates foreign involvement in drone plant fire",
-      "summary": "Polish authorities are investigating potential foreign intelligence involvement following a fire at a domestic drone manufacturing facility. The incident has raised security concerns regarding critical defense infrastructure in the region.",
+      "title": "Russian Attacks on Kyiv",
+      "summary": "A combined missile and drone strike launched by Russian forces against Kyiv resulted in multiple fatalities and widespread security concerns.",
+      "article_ids": [
+        "338e2645da26201b57acb1ab"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260901-russian-missile-and-drone-attack-on-kyiv-kills-at-least-four",
+          "headline": "Russian missile and drone attack on Kyiv kills at least four",
+          "published_at": "2026-09-01T02:26:54Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Poland Investigates Drone-Plant Fire",
+      "summary": "Polish authorities are actively probing whether foreign intelligence agencies were involved in a recent destructive fire at a domestic drone manufacturing facility.",
       "article_ids": [
         "a828b3e8f5407a7a2b9ed589",
         "cc00ba556f3ba722c70a8251"
@@ -85,10 +101,12 @@
         }
       ],
       "source_count": 2
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "France and Sweden sign major defense agreement",
-      "summary": "French President Emmanuel Macron has finalized a multi-billion-euro frigate deal during a visit to Sweden. The agreement strengthens bilateral military cooperation and deepens strategic ties between the two European nations.",
+      "title": "European Defense Cooperation",
+      "summary": "France and Sweden have formalized a significant bilateral defense pact involving the procurement of naval frigates. European officials continue to coordinate closely on regional security strategy and capability development.",
       "article_ids": [
         "e774443427e02cadd626baa6"
       ],
@@ -101,37 +119,20 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "Iceland rejects EU accession talks",
-      "summary": "Icelandic voters have officially rejected resuming accession negotiations with the European Union in a national vote. The decision clarifies the island nation's current stance on European integration.",
+      "title": "EU Trade and Regulatory Policy",
+      "summary": "The European Union has moved to suspend specific meat imports from Brazil pending a thorough review of antibiotic compliance standards. Meanwhile, member states are addressing broader international trade frictions and alignment on global forums.",
       "article_ids": [
-        "68ba4f7c5cf52e4e6244b929"
+        "e710669a999942c4e5b470c1",
+        "1880f48cd95a7bf0641a7ccf"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/as-icelanders-say-no-to-resuming-eu-talks-what-issues-weighed-in-the-election",
-          "headline": "As Icelanders say no to resuming EU talks, what issues weighed in the election?",
-          "published_at": "2026-08-31T15:26:50Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "German political developments",
-      "summary": "Political analysts are closely monitoring Germany as the far-right party targets an eastern state as a potential springboard for national power. This strategic move highlights a critical juncture in the country's domestic political landscape.",
-      "article_ids": [
-        "225e78466701076bab2d642d"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/germany-far-right-eyes-small-eastern-state-merseburg-springboard-national-power",
-          "headline": "Germany’s far right eyes small eastern state as springboard to national power",
-          "published_at": "2026-08-31T14:25:39Z"
+          "url": "https://www.france24.com/en/europe/20260901-eu-suspends-brazilian-meat-imports-over-antibiotic-compliance-concerns",
+          "headline": "EU suspends Brazilian meat imports over antibiotic compliance concerns",
+          "published_at": "2026-09-01T00:14:28Z"
         }
       ],
       "source_count": 1
@@ -139,23 +140,23 @@
   ],
   "developing": [
     {
-      "label": "Iran · US · war · attacks",
+      "label": "Trade · US · Iran · fire",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 5,
-      "latest_at": "2026-08-31T12:47:11Z",
+      "item_count": 4,
+      "latest_at": "2026-09-01T00:24:09Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/strait-of-hormuz-accessibility-at-the-centre-of-us-iran-war-flare-up",
-          "headline": "Strait of Hormuz accessibility at the centre of US-Iran war flare-up",
-          "published_at": "2026-08-31T12:47:11Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/08/31/canada-us-trade-janice-charette-01058079",
+          "headline": "Trade talks collapsed. Now Canada and the US are fighting over why.",
+          "published_at": "2026-09-01T00:24:09Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.com/news/2026/08/31/bessent-g20-us-debt-iran-war-01056820",
-          "headline": "Bessent’s G20 pitch collides with anxieties over US debt and Iran war",
-          "published_at": "2026-08-31T12:05:32Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260831-iran-us-trade-fire-in-first-exchange-in-a-month",
+          "headline": "Iran, US trade fire in first exchange in a month",
+          "published_at": "2026-08-31T10:49:03Z"
         },
         {
           "publisher": "EL PAÍS English",
@@ -166,44 +167,23 @@
       ]
     },
     {
-      "label": "Iran · US · month · strikes",
+      "label": "Iran · US · flare · war",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 8,
-      "latest_at": "2026-08-31T20:36:16Z",
+      "item_count": 5,
+      "latest_at": "2026-08-31T15:33:57Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/middle-east/20260831-trump-threatens-to-hit-iran-hard-as-strikes-resume-after-month-long-lull",
-          "headline": "Trump threatens to ‘hit Iran hard’ as strikes resume after month-long lull",
-          "published_at": "2026-08-31T20:36:16Z"
+          "url": "https://www.france24.com/en/latest-flare-up-between-us-and-iran-bring-conflict-s-lull-to-an-end",
+          "headline": "Latest flare-up between US and Iran bring conflict's lull to an end",
+          "published_at": "2026-08-31T15:33:57Z"
         },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.com/news/2026/08/31/donald-trump-iran-strikes-01057142",
-          "headline": "Trump promises more strikes after US and Iran trade blows for first time in a month",
-          "published_at": "2026-08-31T17:33:38Z"
-        }
-      ]
-    },
-    {
-      "label": "Canyon · Grand · missing · Flash",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-08-31T16:50:54Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-08-31/the-grand-canyon-braces-for-more-storms-after-flooding-leaves-at-least-one-person-dead-and-15-missing.html",
-          "headline": "The Grand Canyon braces for more storms after flooding leaves at least one person dead and 15 missing",
-          "published_at": "2026-08-31T16:50:54Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260831-fifteen-missing-and-dozens-evacuated-after-grand-canyon-is-swept-by-flash-floods",
-          "headline": "Fifteen missing and dozens evacuated after Grand Canyon is swept by flash floods",
-          "published_at": "2026-08-31T10:37:00Z"
+          "url": "https://www.politico.com/news/2026/08/31/bessent-g20-us-debt-iran-war-01056820",
+          "headline": "Bessent’s G20 pitch collides with anxieties over US debt and Iran war",
+          "published_at": "2026-08-31T12:05:32Z"
         }
       ]
     },
@@ -227,9 +207,240 @@
           "published_at": "2026-08-31T14:50:36Z"
         }
       ]
+    },
+    {
+      "label": "Iran · Trump · hard",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-09-01T00:12:15Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/08/31/republicans-are-losing-patience-with-trumps-iran-whiplash-01057917",
+          "headline": "Republicans are losing patience with Trump’s Iran whiplash",
+          "published_at": "2026-09-01T00:12:15Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east/20260831-trump-threatens-to-hit-iran-hard-as-strikes-resume-after-month-long-lull",
+          "headline": "Trump threatens to ‘hit Iran hard’ as strikes resume after month-long lull",
+          "published_at": "2026-08-31T20:36:16Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "98a55a374c8812790ad80166",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Das Comeback des Außenkanzlers",
+      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/das-comeback-des-ausenkanzlers",
+      "published_at": "2026-09-01T03:07:08Z",
+      "collected_at": "2026-09-01T03:30:45Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "338e2645da26201b57acb1ab",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russian missile and drone attack on Kyiv kills at least four",
+      "url": "https://www.france24.com/en/europe/20260901-russian-missile-and-drone-attack-on-kyiv-kills-at-least-four",
+      "published_at": "2026-09-01T02:26:54Z",
+      "collected_at": "2026-09-01T03:30:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "71be869863e80c9dc5dcbd0d",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Labour’s new housing model comes from California’s backyards",
+      "url": "https://www.politico.eu/article/labour-andy-burnham-uk-new-housing-model-californias-backyards",
+      "published_at": "2026-09-01T02:26:53Z",
+      "collected_at": "2026-09-01T03:30:45Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "31bdf463c92e59ffbe9c2acb",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Britain’s Liberal Democrats get a new think tank",
+      "url": "https://www.politico.eu/article/britains-liberal-democrats-get-their-own-think-tank-the-britain-project",
+      "published_at": "2026-09-01T02:00:00Z",
+      "collected_at": "2026-09-01T03:30:45Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "73a2d243bd05b4a154eb9bf0",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Marine Le Pen’s risky economic gamble",
+      "url": "https://www.politico.eu/article/marine-le-pen-france-2027-election-economy-pension-promises",
+      "published_at": "2026-09-01T02:00:00Z",
+      "collected_at": "2026-09-01T03:30:45Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "032b3534510a18540126d245",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "What 248 books reveal about Kaja Kallas",
+      "url": "https://www.politico.eu/article/kaja-kallas-book-recommendations",
+      "published_at": "2026-09-01T02:00:00Z",
+      "collected_at": "2026-09-01T03:30:45Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "eb3aac408d52489022a1de44",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Duane “Keffe D” Davis found guilty in Tupac Shakur murder",
+      "url": "https://www.france24.com/en/americas/20260901-duane-keffe-d-davis-found-guilty-in-tupac-shakur-murder",
+      "published_at": "2026-09-01T00:53:52Z",
+      "collected_at": "2026-09-01T03:30:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "1880f48cd95a7bf0641a7ccf",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Trump welcomes Russia back to the G20. Europe isn’t having it.",
+      "url": "https://www.politico.com/news/2026/08/31/bessent-welcomes-russia-back-to-g20-as-europe-pushes-back-01058296",
+      "published_at": "2026-09-01T00:50:13Z",
+      "collected_at": "2026-09-01T03:30:45Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "3f53d165ad99e54c551f8484",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "US Army secretary resigns after tension with Hegseth",
+      "url": "https://www.politico.com/news/2026/08/31/army-secretary-resigns-01058326",
+      "published_at": "2026-09-01T00:36:21Z",
+      "collected_at": "2026-09-01T03:30:45Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "6be23abdddc0572539cb8a86",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Trade talks collapsed. Now Canada and the US are fighting over why.",
+      "url": "https://www.politico.com/news/2026/08/31/canada-us-trade-janice-charette-01058079",
+      "published_at": "2026-09-01T00:24:09Z",
+      "collected_at": "2026-09-01T03:30:45Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "e710669a999942c4e5b470c1",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "EU suspends Brazilian meat imports over antibiotic compliance concerns",
+      "url": "https://www.france24.com/en/europe/20260901-eu-suspends-brazilian-meat-imports-over-antibiotic-compliance-concerns",
+      "published_at": "2026-09-01T00:14:28Z",
+      "collected_at": "2026-09-01T03:30:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a13f08c3b6e2d4da19f4af19",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Republicans are losing patience with Trump’s Iran whiplash",
+      "url": "https://www.politico.com/news/2026/08/31/republicans-are-losing-patience-with-trumps-iran-whiplash-01057917",
+      "published_at": "2026-09-01T00:12:15Z",
+      "collected_at": "2026-09-01T03:30:45Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "9fcaf9f94cf038091ecdaebb",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Melting Himalayas? Nepal disaster exposes growing risk of glacial flooding",
+      "url": "https://www.france24.com/en/tv-shows/the-debate/20260831-melting-himalayas-nepal-disaster-exposes-growing-risk-of-glacial-flooding",
+      "published_at": "2026-08-31T23:35:52Z",
+      "collected_at": "2026-09-01T03:30:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f5978d6158722b1cc45ef9cf",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Glacial flood death toll surpasses 900 in Nepal and Tibet",
+      "url": "https://www.france24.com/en/asia-pacific/20260831-glacial-flood-death-toll-surpasses-900-in-nepal-and-tibet",
+      "published_at": "2026-08-31T23:34:26Z",
+      "collected_at": "2026-09-01T03:30:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "805dd0d64bdb98628d1f0d97",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "US military has ‘no plans’ to be at polling places in November, Caine says",
+      "url": "https://www.politico.com/news/2026/08/31/us-military-polling-places-november-01057809",
+      "published_at": "2026-08-31T21:40:52Z",
+      "collected_at": "2026-09-01T03:30:45Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "f5f6bce0efd3d64f702bf6b0",
       "source_id": "politico_europe",
@@ -242,6 +453,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "6b206709dbf11a2ba9a4451f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Xi, Putin hold talks ahead of Shanghai Cooperation Organization summit",
+      "url": "https://www.france24.com/en/tv-shows/business/20260831-xi-putin-hold-talks-ahead-of-shanghai-cooperation-organization-summit",
+      "published_at": "2026-08-31T20:51:42Z",
+      "collected_at": "2026-09-01T03:30:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -2261,6 +2486,20 @@
       ]
     },
     {
+      "id": "c50644db72dff8976522f6a8",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Spain: Thieves steal Bronze Age gold in lightning raid on Villena Museum",
+      "url": "https://www.dw.com/en/spain-thieves-steal-bronze-age-gold-in-lightning-raid-on-villena-museum/a-78538027?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-27T19:38:00Z",
+      "collected_at": "2026-09-01T03:30:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "253df3a95cba91dfd757fa1e",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2510,244 +2749,6 @@
         "central_europe",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "d3c4406744ab74e6c4d66266",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "CDU's Volkmann: Ukraine aid is not charity",
-      "url": "https://www.dw.com/en/cdu-s-volkmann-ukraine-aid-is-not-charity/a-78517659?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-27T08:30:00Z",
-      "collected_at": "2026-08-31T10:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "8a9548f93fb54997520a969f",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "When is the Champions League draw and who is in each pot?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3v0q3r554xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-26T22:05:08Z",
-      "collected_at": "2026-08-31T06:30:43Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "66ae668be4cb931cab28c4ab",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The desert’s ‘resurrection plant’ paving the way to fridge-free vaccines",
-      "url": "https://english.elpais.com/health/2026-08-26/the-deserts-resurrection-plant-paves-the-way-to-fridge-free-vaccines.html",
-      "published_at": "2026-08-26T16:04:00Z",
-      "collected_at": "2026-08-31T03:30:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "01d6c4343de33ac3d1584bf9",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "'The record will fall' - Werro takes aim at 43-year-old 800m mark",
-      "url": "https://www.bbc.co.uk/sport/athletics/articles/crerjxyrnp9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-26T15:49:52Z",
-      "collected_at": "2026-08-31T06:30:43Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "25559ca054016dc08c9d5f6c",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Victoria Bodean, the mother with cerebral palsy showing the world how to overcome disability barriers",
-      "url": "https://english.elpais.com/eps/2026-08-25/victoria-bodean-the-mother-with-cerebral-palsy-showing-the-world-how-to-overcome-disability-barriers.html",
-      "published_at": "2026-08-25T17:08:15Z",
-      "collected_at": "2026-08-31T18:30:46Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "f0240bf171e9947f11b714ec",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "One migrant raid in New Jersey, 46 lives destroyed: ‘My life is incomplete without my daughter’",
-      "url": "https://english.elpais.com/usa/2026-08-25/one-migrant-raid-in-new-jersey-46-lives-destroyed-my-life-is-incomplete-without-my-daughter.html",
-      "published_at": "2026-08-25T16:41:01Z",
-      "collected_at": "2026-08-31T18:00:50Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "1edbaed6dd5d36d653202c7b",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "From hunger to sexualization: How former child stars remember their childhoods",
-      "url": "https://english.elpais.com/people/2026-08-25/from-hunger-to-sexualization-how-former-child-stars-remember-their-childhoods.html",
-      "published_at": "2026-08-25T15:58:16Z",
-      "collected_at": "2026-08-31T18:00:50Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "c823844ce45ab3a546c6aac9",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump administration faces a major financial battle in the bond market",
-      "url": "https://english.elpais.com/economy-and-business/2026-08-25/trump-administration-faces-a-major-financial-battle-in-the-bond-market.html",
-      "published_at": "2026-08-25T13:51:49Z",
-      "collected_at": "2026-08-31T18:00:50Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "3c69cd9e09a93639ec060b16",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump persists in pushing fee of over $100,000 for H-1B visas",
-      "url": "https://english.elpais.com/usa/2026-08-25/trump-persists-in-pushing-fee-of-over-100000-for-h-1b-visas.html",
-      "published_at": "2026-08-25T09:16:00Z",
-      "collected_at": "2026-08-31T12:30:41Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "dd691b65f8c66e0dd06e09aa",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Mexico watches US–Canada trade tension with uncertainty",
-      "url": "https://english.elpais.com/economy-and-business/2026-08-25/mexico-watches-uscanada-trade-tension-with-uncertainty.html",
-      "published_at": "2026-08-25T09:15:22Z",
-      "collected_at": "2026-08-31T12:30:41Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "89d038d46a4bdd192f4fb1bf",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland’s Mesko signs €1.9bn deal to supply Piorun air-defence systems to four NATO countries",
-      "url": "https://notesfrompoland.com/2026/08/25/polands-mesko-signs-e1-9bn-deal-to-supply-piorun-air-defence-systems-to-four-nato-countries",
-      "published_at": "2026-08-25T07:29:32Z",
-      "collected_at": "2026-08-31T09:30:43Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "153bf7fecdc0438c61d54267",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Moment tornado tears through southern France",
-      "url": "https://www.bbc.co.uk/news/videos/c3d79mp2jeno?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-25T01:06:01Z",
-      "collected_at": "2026-08-31T06:30:43Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "3476577b89ae9cba71d0bebc",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Could Russia's growing fuel crisis help end the Ukraine war?",
-      "url": "https://www.dw.com/en/could-russia-s-growing-fuel-crisis-help-end-the-ukraine-war/a-78472138?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-23T14:42:00Z",
-      "collected_at": "2026-08-31T15:30:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "03bf21beded51ff231cf2e27",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Ukraine: Zelenskyy rejects wartime elections",
-      "url": "https://www.dw.com/en/ukraine-zelenskyy-rejects-wartime-elections/a-78475087?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-23T10:23:00Z",
-      "collected_at": "2026-08-31T12:30:41Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "6c4da13e9cc5c6f3a746e12a",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Carl Wunsch, oceanographer: ‘The consequences of Trump are terrible. Funding is denied because, apparently, all of our research is a hoax’",
-      "url": "https://english.elpais.com/climate/2026-08-23/carl-wunsch-oceanographer-the-consequences-of-trump-are-terrible-funding-is-denied-because-apparently-all-of-our-research-is-a-hoax.html",
-      "published_at": "2026-08-23T05:00:00Z",
-      "collected_at": "2026-08-31T06:30:43Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "9065585b0f68df73f592e377",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "China does not want its internet users to fall in love with an artificial intelligence",
-      "url": "https://english.elpais.com/technology/2026-08-23/china-does-not-want-its-internet-users-to-fall-in-love-with-an-artificial-intelligence.html",
-      "published_at": "2026-08-23T05:00:00Z",
-      "collected_at": "2026-08-31T06:30:43Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "6ca28b924964a9eb1b58f0de",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Enrique Serna, author: ‘As a child, I had nightmares about being taken to the sacrificial stone’",
-      "url": "https://english.elpais.com/culture/2026-08-23/enrique-serna-author-as-a-child-i-had-nightmares-about-being-taken-to-the-sacrificial-stone.html",
-      "published_at": "2026-08-23T05:00:00Z",
-      "collected_at": "2026-08-31T06:30:43Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     }
   ]
