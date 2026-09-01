@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-01T15:30:45Z",
-  "last_successful_collection_at": "2026-09-01T15:30:45Z",
+  "generated_at": "2026-09-01T16:00:52Z",
+  "last_successful_collection_at": "2026-09-01T16:00:52Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-01T15:30:45Z"
+      "at": "2026-09-01T16:00:52Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "27",
-      "at": "2026-09-01T15:30:45Z"
+      "count": "28",
+      "at": "2026-09-01T16:00:52Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-01T15:30:45Z"
+      "at": "2026-09-01T16:00:52Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,67 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-01T15:30:45Z"
+      "at": "2026-09-01T16:00:52Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-01T15:30:45Z"
+      "at": "2026-09-01T16:00:52Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-09-01T15:30:45Z"
+      "at": "2026-09-01T16:00:52Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-01T15:30:45Z"
+      "at": "2026-09-01T16:00:52Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-01T15:30:45Z"
+      "at": "2026-09-01T16:00:52Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-01T15:30:45Z"
+      "at": "2026-09-01T16:00:52Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Strikes on Kyiv",
-      "summary": "At least 12 people were killed and over a dozen others injured following Russian military strikes on the Ukrainian capital of Kyiv. The attack underscores the ongoing security crisis and the severe human toll of the conflict.",
+      "title": "Germany Blames Russia for Leipzig Airport Drone Attack",
+      "summary": "German officials state that Russia was responsible for an attempted drone attack targeting Leipzig airport. Authorities have announced retaliatory measures following the security breach.",
+      "article_ids": [
+        "f2664d6bd6a35cf6cdd4861f",
+        "b2dec8ed3b4290430b2e99e2",
+        "390923f7f6d5211821cfd1ee"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c5ylm3m67n2o?at_medium=RSS&at_campaign=rss",
+          "headline": "Germany says Russia behind Leipzig airport drone attack",
+          "published_at": "2026-09-01T15:57:47Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/germany-blames-russia-leipzig-drone-attack-retaliatory-measures",
+          "headline": "Germany blames Russia for drone incursion, announces retaliatory measures",
+          "published_at": "2026-09-01T15:56:27Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Russian Strikes Cause Casualties in Kyiv",
+      "summary": "At least twelve people were killed and more than a dozen others injured in a series of Russian military strikes on the Ukrainian capital. The ongoing attacks continue to heavily impact the region's security situation.",
       "article_ids": [
         "49a08318e75dc1dc7ebd81b2"
       ],
@@ -78,10 +102,12 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Accession of Norway's New Monarch",
-      "summary": "King Haakon formally took his oath of office in parliament following the death of his predecessor. Mourners across the country gathered to pay their respects to the late monarch during the transition of power.",
+      "title": "Norway Accession of New Monarch",
+      "summary": "Norway's Haakon has taken the oath as the new king in parliament. Mourners gathered to pay their respects following the death of his late father.",
       "article_ids": [
         "72b8a3b77976ddf4548985d0",
         "3e67335a0f9ae9b2c94b9374",
@@ -102,54 +128,29 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "EU Foreign and Security Policy Reform",
-      "summary": "France and Germany are jointly advocating for faster and more efficient decision-making processes within European foreign and security policy. Meanwhile, the EU chief diplomat has enlisted former political and military leaders to form a specialized defense group.",
+      "title": "EU Security and Foreign Policy Reform",
+      "summary": "France and Germany have backed calls for faster and more efficient decision-making processes within EU foreign and security policy. Meanwhile, European defense ministers are meeting in Dublin to discuss bolstered support for Ukraine.",
       "article_ids": [
-        "eea7f425b4795cc5534ae47a",
-        "bb7fecf6a087aacc7948c324"
+        "f636662b6e5e3b01724752ed",
+        "eea7f425b4795cc5534ae47a"
       ],
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ukraine-hopes-for-bolstered-support-as-eu-defence-ministers-meet-in-dublin",
+          "headline": "Ukraine hopes for bolstered support as EU defence ministers meet in Dublin",
+          "published_at": "2026-09-01T13:34:32Z"
+        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/eu-foreign-policy-france-germany-qualified-majority-voting",
           "headline": "France, Germany back call for faster, more efficient EU decisions in foreign and security policy",
           "published_at": "2026-09-01T13:20:09Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-chief-diplomat-kaja-kallas-taps-ex-political-military-leaders-defense-group",
-          "headline": "EU chief diplomat taps ex-political, military leaders for defense group",
-          "published_at": "2026-09-01T12:01:49Z"
         }
       ],
-      "source_count": 1
-    },
-    {
-      "title": "UK Leadership and Parliament Developments",
-      "summary": "Newly appointed UK Prime Minister Andy Burnham faced lawmakers in parliament for the first time since taking office. During his maiden speech, he emphasized the necessity of implementing substantial domestic changes.",
-      "article_ids": [
-        "cd2d1d73cc89a7b27c55b1e5",
-        "65508c89d56040806f027bd3"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/after-unprecedented-honeymoon-uk-pm-faces-lawmakers-for-first-time",
-          "headline": "After 'unprecedented honeymoon', UK PM faces lawmakers for first time",
-          "published_at": "2026-09-01T15:10:30Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260901-live-uk-pm-andy-burnham-faces-mps-for-first-time-since-taking-office",
-          "headline": "UK needs 'substantial change', says PM Andy Burnham in maiden parliament speech",
-          "published_at": "2026-09-01T13:21:58Z"
-        }
-      ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
@@ -181,82 +182,182 @@
       ]
     },
     {
-      "label": "Ukraine · war · Modi · Putin",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-09-01T11:55:51Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cx2zy3wdqqeo?at_medium=RSS&at_campaign=rss",
-          "headline": "Why did Modi urge Putin to end Ukraine war - and will he listen?",
-          "published_at": "2026-09-01T11:55:51Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/russia-fired-over-2-800-drones-at-ukraine-in-august-amid-war-tactic-change",
-          "headline": "Russia fired over 2,800 drones at Ukraine in August amid war tactic change",
-          "published_at": "2026-09-01T09:49:22Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/india-nerendra-modi-tells-vladimir-putin-end-ukraine-war-for-the-sake-humanity",
-          "headline": "Modi implores tense Putin to end Ukraine war",
-          "published_at": "2026-08-31T20:42:41Z"
-        }
-      ]
-    },
-    {
-      "label": "US · Iran · Latest · Trump",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-09-01T11:55:08Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-09-01/afghanistan-somalia-and-yemen-disappear-from-the-latest-us-famine-reports-trump-is-politicizing-the-analysis.html",
-          "headline": "Afghanistan, Somalia and Yemen disappear from the latest US famine reports: ‘Trump is politicizing the analysis’",
-          "published_at": "2026-09-01T11:55:08Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.com/news/2026/08/31/donald-trump-iran-strikes-01057142",
-          "headline": "Trump promises more strikes after US and Iran trade blows for first time in a month",
-          "published_at": "2026-08-31T17:33:38Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/latest-flare-up-between-us-and-iran-bring-conflict-s-lull-to-an-end",
-          "headline": "Latest flare-up between US and Iran bring conflict's lull to an end",
-          "published_at": "2026-08-31T15:33:57Z"
-        }
-      ]
-    },
-    {
-      "label": "EU · foreign · ministers",
+      "label": "Russia · Ukraine · update",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 3,
-      "latest_at": "2026-09-01T14:47:40Z",
+      "latest_at": "2026-09-01T15:47:27Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/234689/russias-answer-to-starlink-satellites-seen-falling-towards-earth-ukraine-battlefield-update-day-1650",
+          "headline": "Russia’s answer to Starlink satellites seen falling towards earth (Ukraine Battlefield update, Day 1,650)",
+          "published_at": "2026-09-01T15:47:27Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ukraine-updates-russia-hits-kyiv-for-sixth-straight-day/live-78582421?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Ukraine updates: Russia hits Kyiv for sixth straight day",
+          "published_at": "2026-09-01T06:34:00Z"
+        }
+      ]
+    },
+    {
+      "label": "Iran · Trump · hard",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-09-01T00:12:15Z",
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/ed-miliband-eu-foreign-ministers-meeting-ireland",
-          "headline": "Ed Miliband to attend EU foreign ministers meeting in Ireland",
-          "published_at": "2026-09-01T14:47:40Z"
+          "url": "https://www.politico.com/news/2026/08/31/republicans-are-losing-patience-with-trumps-iran-whiplash-01057917",
+          "headline": "Republicans are losing patience with Trump’s Iran whiplash",
+          "published_at": "2026-09-01T00:12:15Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ukraine-hopes-for-bolstered-support-as-eu-defence-ministers-meet-in-dublin",
-          "headline": "Ukraine hopes for bolstered support as EU defence ministers meet in Dublin",
-          "published_at": "2026-09-01T13:34:32Z"
+          "url": "https://www.france24.com/en/middle-east/20260831-trump-threatens-to-hit-iran-hard-as-strikes-resume-after-month-long-lull",
+          "headline": "Trump threatens to ‘hit Iran hard’ as strikes resume after month-long lull",
+          "published_at": "2026-08-31T20:36:16Z"
+        }
+      ]
+    },
+    {
+      "label": "Brazilian · concerns · EU · meat",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-09-01T15:51:14Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/234750/eu-officials-confirm-ban-on-brazilian-meat-and-dairy-amid-health-concerns",
+          "headline": "EU officials confirm ban on Brazilian meat and dairy amid health concerns",
+          "published_at": "2026-09-01T15:51:14Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260901-eu-suspends-brazilian-meat-imports-over-antibiotic-compliance-concerns",
+          "headline": "EU suspends Brazilian meat imports over antibiotic compliance concerns",
+          "published_at": "2026-09-01T00:14:28Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "f2664d6bd6a35cf6cdd4861f",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Germany says Russia behind Leipzig airport drone attack",
+      "url": "https://www.bbc.co.uk/news/articles/c5ylm3m67n2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-01T15:57:47Z",
+      "collected_at": "2026-09-01T16:00:52Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "b2dec8ed3b4290430b2e99e2",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Germany blames Russia for drone incursion, announces retaliatory measures",
+      "url": "https://www.politico.eu/article/germany-blames-russia-leipzig-drone-attack-retaliatory-measures",
+      "published_at": "2026-09-01T15:56:27Z",
+      "collected_at": "2026-09-01T16:00:52Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "ac064e175cf02a5e2443e039",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "EU officials confirm ban on Brazilian meat and dairy amid health concerns",
+      "url": "https://euobserver.com/234750/eu-officials-confirm-ban-on-brazilian-meat-and-dairy-amid-health-concerns",
+      "published_at": "2026-09-01T15:51:14Z",
+      "collected_at": "2026-09-01T16:00:52Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "55a02c324d150d1194c83745",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Russia’s answer to Starlink satellites seen falling towards earth (Ukraine Battlefield update, Day 1,650)",
+      "url": "https://euobserver.com/234689/russias-answer-to-starlink-satellites-seen-falling-towards-earth-ukraine-battlefield-update-day-1650",
+      "published_at": "2026-09-01T15:47:27Z",
+      "collected_at": "2026-09-01T16:00:52Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "4ede1dc21b6e8be272db685d",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Leuven mayor bans Europa League match against Israeli team",
+      "url": "https://www.politico.eu/article/leuven-mayor-bans-israeli-europa-league-match-security-concerns",
+      "published_at": "2026-09-01T15:47:25Z",
+      "collected_at": "2026-09-01T16:00:52Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "5e6fa80750f2f32ba371732b",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Les datacenters énergivores se développent en Europe, la résistance aussi",
+      "url": "https://www.politico.eu/article/les-datacenters-energivores-se-developpent-en-europe-la-resistance-aussi",
+      "published_at": "2026-09-01T15:44:37Z",
+      "collected_at": "2026-09-01T16:00:52Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "390923f7f6d5211821cfd1ee",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Germany says Russia behind attempted drone attack at Leipzig airport",
+      "url": "https://www.dw.com/en/germany-says-russia-behind-attempted-drone-attack-at-leipzig-airport/a-78584589?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-01T15:40:00Z",
+      "collected_at": "2026-09-01T16:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "fa9015b90aca34ffbd4c9afe",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Marine Le Pen a-t-elle déjà un pied à l’Elysée ?",
+      "url": "https://www.politico.eu/podcast/playbook-paris-podcast/marine-le-pen-a-t-elle-deja-un-pied-a-lelysee",
+      "published_at": "2026-09-01T15:37:18Z",
+      "collected_at": "2026-09-01T16:00:52Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "3155d38ee6f53835691ce0dc",
       "source_id": "france24",
@@ -307,6 +408,20 @@
       "url": "https://www.politico.eu/article/what-icelands-snub-means-for-the-eus-place-in-the-world",
       "published_at": "2026-09-01T15:09:40Z",
       "collected_at": "2026-09-01T15:30:45Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "d0e8fa22cc61cfdabc2900fa",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Andy Burnham will attend COP31",
+      "url": "https://www.politico.eu/article/andy-burnham-will-attend-cop31",
+      "published_at": "2026-09-01T15:06:39Z",
+      "collected_at": "2026-09-01T16:00:52Z",
       "topics": [
         "institutions",
         "politics",
@@ -381,6 +496,48 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "04071b1db8aae2348b5dcd82",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Somali pirates demonstrate growing strength with new ship hijackings",
+      "url": "https://english.elpais.com/international/2026-09-01/somali-pirates-demonstrate-growing-strength-with-new-ship-hijackings.html",
+      "published_at": "2026-09-01T14:37:03Z",
+      "collected_at": "2026-09-01T16:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "ab843c189ca8eca58791c8a3",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "A Cuban theater group’s defiance against censorship: ‘We will no longer submit’",
+      "url": "https://english.elpais.com/international/2026-09-01/a-cuban-theater-groups-defiance-against-censorship-we-will-no-longer-submit.html",
+      "published_at": "2026-09-01T14:36:38Z",
+      "collected_at": "2026-09-01T16:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "2f8aec3b365890693c983d0f",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The women who dress their boyfriends as John Kennedy Jr. on TikTok",
+      "url": "https://english.elpais.com/lifestyle/2026-09-01/the-women-who-dress-their-boyfriends-as-john-kennedy-jr-on-tiktok.html",
+      "published_at": "2026-09-01T14:36:18Z",
+      "collected_at": "2026-09-01T16:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2288,34 +2445,6 @@
       ]
     },
     {
-      "id": "edfdae408936751199283bc4",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "'She slipped out of my hand' - children missing after ferry sinks off northern Cyprus",
-      "url": "https://www.bbc.co.uk/news/articles/c1mv5ggg1l8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-31T14:50:36Z",
-      "collected_at": "2026-08-31T15:30:47Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "6cc17d3af224057c676a8094",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "The CIA’s visit to Moscow shows Nato is working — and it’s a reminder that Europe still matters to Washington",
-      "url": "https://euobserver.com/234371/the-cias-visit-to-moscow-shows-nato-is-working-and-a-reminder-that-europe-still-matters-to-washington",
-      "published_at": "2026-08-31T11:23:12Z",
-      "collected_at": "2026-08-31T15:30:47Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "68669a01c99782ea1dac9f52",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2635,146 +2764,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "9b7e1f5f127ef8b99819303c",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Brussels veteran Dan Luca joins EUobserver as new European Affairs director",
-      "url": "https://euobserver.com/233677/brussels-veteran-dan-luca-joins-euobserver-as-new-european-affairs-director",
-      "published_at": "2026-08-28T05:00:00Z",
-      "collected_at": "2026-09-01T06:00:52Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "0ff295ad0d863b7a8312e85a",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Can a ceasefire survive Israel’s election?",
-      "url": "https://ecfr.eu/podcasts/episode/can-a-ceasefire-survive-israels-election",
-      "published_at": "2026-08-28T05:00:00Z",
-      "collected_at": "2026-09-01T06:00:52Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "e3127a004f605f01463ccf9f",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Protesters set fire to migrant camp in Ceuta",
-      "url": "https://www.dw.com/en/protesters-set-fire-to-migrant-camp-in-ceuta/a-78538847?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-28T00:34:00Z",
-      "collected_at": "2026-09-01T04:00:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "c50644db72dff8976522f6a8",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Spain: Thieves steal Bronze Age gold in lightning raid on Villena Museum",
-      "url": "https://www.dw.com/en/spain-thieves-steal-bronze-age-gold-in-lightning-raid-on-villena-museum/a-78538027?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-27T19:38:00Z",
-      "collected_at": "2026-09-01T03:30:45Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "253df3a95cba91dfd757fa1e",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Ratko Mladic, the man behind Srebrenica massacre, dies at 84",
-      "url": "https://www.dw.com/en/ratko-mladic-the-man-behind-srebrenica-massacre-dies-at-84/a-78536491?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-08-27T19:28:00Z",
-      "collected_at": "2026-08-31T18:00:50Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "97f48a8278f470192f1ced56",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Belugas and dolphins rescued from closed Canadian park arrive in Spain",
-      "url": "https://www.bbc.co.uk/news/videos/c5y4mmn78n3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-27T18:46:26Z",
-      "collected_at": "2026-09-01T07:30:43Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "a13704e8d2518fc570bdea83",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Allan Little: I met dangerously fanatical Mladić early in Bosnian war",
-      "url": "https://www.bbc.co.uk/news/articles/cgl744j0ww1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-27T18:12:01Z",
-      "collected_at": "2026-09-01T07:30:43Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "1d51912dcb6c6226e6f2c793",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Moldova’s European bet: why joining the EU has become a question of survival",
-      "url": "https://euobserver.com/234032/moldovas-european-bet-why-joining-the-eu-has-become-a-question-of-survival",
-      "published_at": "2026-08-27T16:29:58Z",
-      "collected_at": "2026-08-31T17:00:59Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "4dd783e6654be1154f9274c1",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Hungary’s overpriced Covid ventilators: Szijjártó scandal becomes first big test for Tisza’s anti‑corruption drive (Day 107 of the Tisza government)",
-      "url": "https://euobserver.com/234041/hungarys-overpriced-covid-ventilators-szijjarto-scandal-becomes-first-big-test-for-tiszas-anticorruption-drive-day-107-of-the-tisza-government",
-      "published_at": "2026-08-27T16:00:52Z",
-      "collected_at": "2026-08-31T17:00:59Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "91ea242d0a4a5bfef39df19e",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Maxim Kuzminov, the Russian deserter who failed to keep a low profile in Spain",
-      "url": "https://english.elpais.com/international/2026-08-26/maxim-kuzminov-the-russian-deserter-who-failed-to-keep-a-low-profile-in-spain.html",
-      "published_at": "2026-08-26T13:26:32Z",
-      "collected_at": "2026-09-01T15:30:45Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     }
   ]
