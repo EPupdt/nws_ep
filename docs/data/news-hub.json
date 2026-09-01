@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-01T13:30:45Z",
-  "last_successful_collection_at": "2026-09-01T13:30:45Z",
+  "generated_at": "2026-09-01T14:00:52Z",
+  "last_successful_collection_at": "2026-09-01T14:00:52Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-01T13:30:45Z"
+      "at": "2026-09-01T14:00:52Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "27",
-      "at": "2026-09-01T13:30:45Z"
+      "at": "2026-09-01T14:00:52Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-09-01T13:30:45Z"
+      "status": "error",
+      "detail": "HTTP Error 404: Not Found",
+      "at": "2026-09-01T14:00:52Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,67 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-01T13:30:45Z"
+      "at": "2026-09-01T14:00:52Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-01T13:30:45Z"
+      "at": "2026-09-01T14:00:52Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-09-01T13:30:45Z"
+      "at": "2026-09-01T14:00:52Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-01T13:30:45Z"
+      "at": "2026-09-01T14:00:52Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-01T13:30:45Z"
+      "at": "2026-09-01T14:00:52Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-01T13:30:45Z"
+      "at": "2026-09-01T14:00:52Z"
     }
   ],
   "europe_now": [
     {
-      "title": "France and Germany push for EU decision-making reform",
-      "summary": "France and Germany have expressed support for faster and more efficient decision-making processes in European foreign and security policy. The proposal emphasizes moving toward qualified majority voting.",
+      "title": "Russian Missile and Drone Attacks on Kyiv",
+      "summary": "Russian forces launched heavy missile and drone strikes targeting Kyiv and its surrounding region for the sixth consecutive night. The repeated bombardments caused casualties among rail workers and significant infrastructure damage.",
+      "article_ids": [
+        "8cd72ace13fe500e4b2adcef",
+        "84b428fdb5c3e79da99649e0",
+        "cd8e9724ac2bd644d714a84a"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260901-massive-russian-missile-drone-attacks-on-kyiv",
+          "headline": "'Massive' Russian missile, drone attacks on Kyiv",
+          "published_at": "2026-09-01T10:50:03Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cx2zmdgry3do?at_medium=RSS&at_campaign=rss",
+          "headline": "Russian attack hits rail workers in new deadly strikes on Kyiv",
+          "published_at": "2026-09-01T09:40:13Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "France and Germany Push for EU Decision-Making Reform",
+      "summary": "France and Germany have backed joint calls for faster and more efficient decision-making procedures within the European Union. The initiative focuses specifically on streamlining foreign and security policy implementation.",
       "article_ids": [
         "eea7f425b4795cc5534ae47a"
       ],
@@ -78,38 +102,14 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Russian missile and drone attacks strike Kyiv",
-      "summary": "Kyiv and its surrounding region faced massive Russian missile and drone attacks for the sixth consecutive night. The strikes resulted in casualties among railway workers amidst ongoing escalations.",
-      "article_ids": [
-        "8cd72ace13fe500e4b2adcef",
-        "8403bb71138938e2734b3ea2"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260901-massive-russian-missile-drone-attacks-on-kyiv",
-          "headline": "'Massive' Russian missile, drone attacks on Kyiv",
-          "published_at": "2026-09-01T10:50:03Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cx2zmdgry3do?at_medium=RSS&at_campaign=rss",
-          "headline": "Russian strike hits rail workers in new deadly attacks on Kyiv",
-          "published_at": "2026-09-01T06:48:37Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "EU defense and foreign policy developments",
-      "summary": "France and Germany are backing calls for faster EU foreign and security policy decisions. Meanwhile, the EU chief diplomat has appointed former political and military leaders to a new defense group.",
+      "title": "France-Germany Security Integration",
+      "summary": "France and Germany have jointly supported initiatives to streamline European Union foreign and security policy. The proposal aims to introduce more efficient decision-making processes across member states.",
       "article_ids": [
-        "eea7f425b4795cc5534ae47a",
-        "bb7fecf6a087aacc7948c324"
+        "eea7f425b4795cc5534ae47a"
       ],
       "sources": [
         {
@@ -117,38 +117,9 @@
           "url": "https://www.politico.eu/article/eu-foreign-policy-france-germany-qualified-majority-voting",
           "headline": "France, Germany back call for faster, more efficient EU decisions in foreign and security policy",
           "published_at": "2026-09-01T13:20:09Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-chief-diplomat-kaja-kallas-taps-ex-political-military-leaders-defense-group",
-          "headline": "EU chief diplomat taps ex-political, military leaders for defense group",
-          "published_at": "2026-09-01T12:01:49Z"
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Escalating security situation in Ukraine",
-      "summary": "Russian forces continued heavy missile and drone strikes against Kyiv and its surrounding region for the sixth consecutive night. These ongoing attacks have caused casualties among local rail workers.",
-      "article_ids": [
-        "8cd72ace13fe500e4b2adcef",
-        "8403bb71138938e2734b3ea2"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260901-massive-russian-missile-drone-attacks-on-kyiv",
-          "headline": "'Massive' Russian missile, drone attacks on Kyiv",
-          "published_at": "2026-09-01T10:50:03Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cx2zmdgry3do?at_medium=RSS&at_campaign=rss",
-          "headline": "Russian strike hits rail workers in new deadly attacks on Kyiv",
-          "published_at": "2026-09-01T06:48:37Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "developing": [
@@ -250,6 +221,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "6775d015a2cd3c4e779b5f5a",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Europe’s summer of wildfires puts spotlight on economic cost of climate inaction",
+      "url": "https://euobserver.com/234648/europes-summer-of-wildfires-puts-spotlight-on-economic-cost-of-climate-inaction",
+      "published_at": "2026-09-01T13:53:21Z",
+      "collected_at": "2026-09-01T14:00:52Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "3e3a730c6e1f63ece4568890",
       "source_id": "france24",
@@ -2026,202 +2011,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "d2f48f448fd985afd155cddb",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Fundraiser for baby orphaned by speeding driver in Polish city reaches 1 million zloty",
-      "url": "https://notesfrompoland.com/2026/08/31/fundraiser-for-baby-orphaned-by-speeding-driver-in-polish-city-reaches-1-million-zloty",
-      "published_at": "2026-08-31T13:54:27Z",
-      "collected_at": "2026-08-31T14:00:48Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "e657caf99f8a28469bab6848",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France gears up for an election year defined by a fragmented left",
-      "url": "https://www.france24.com/en/france-gears-up-for-an-election-year-defined-by-a-fragmented-left",
-      "published_at": "2026-08-31T13:49:59Z",
-      "collected_at": "2026-08-31T14:00:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "b38eb81f48edb46a924d1043",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Iceland’s referendum tests whether Europe respects uncomfortable votes — as the UK, Greece and Cyprus did before",
-      "url": "https://euobserver.com/234436/icelands-referendum-tests-whether-europe-respects-uncomfortable-votes-as-the-uk-greece-and-cyprus-did-before",
-      "published_at": "2026-08-31T13:46:05Z",
-      "collected_at": "2026-08-31T14:00:48Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "d891f243bc0ee88fbb89fb77",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Polish student accused of planning Islamist terrorist attack on Christmas market to stand trial",
-      "url": "https://notesfrompoland.com/2026/08/31/polish-student-accused-of-planning-islamist-terrorist-attack-on-christmas-market-to-stand-trial",
-      "published_at": "2026-08-31T13:29:17Z",
-      "collected_at": "2026-08-31T13:30:45Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "675e8cf774abb1d471073cdb",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Backstage at Rock en Seine 2026 with up-and-coming British singer Sekou",
-      "url": "https://www.france24.com/en/tv-shows/arts24/20260831-backstage-at-rock-en-seine-2026-with-up-and-coming-british-singer-sekou",
-      "published_at": "2026-08-31T13:25:24Z",
-      "collected_at": "2026-08-31T13:30:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "50aa2caa2d5045726b5c88b8",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France and Sweden look to boost European sovereignty through stronger defence ties",
-      "url": "https://www.france24.com/en/france-and-sweden-look-to-boost-european-sovereignty-through-stronger-defence-ties",
-      "published_at": "2026-08-31T13:22:50Z",
-      "collected_at": "2026-08-31T13:30:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "764c41f73721d39fe7010b4c",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "French MEP Raphaël Glucksmann’s path to the Elysée faces surprise hurdle",
-      "url": "https://www.politico.eu/article/french-mep-raphael-glucksmanns-france-election-2027-hurdle",
-      "published_at": "2026-08-31T13:18:38Z",
-      "collected_at": "2026-08-31T13:30:45Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "fd620101e07747e53ebfba15",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 Football: French forward Bradley Barcola joins Liverpool from PSG in record-breaking Ligue 1 transfer",
-      "url": "https://www.france24.com/en/sport/20260831-bradley-barcola-joins-liverpool-from-psg-for-record-fee",
-      "published_at": "2026-08-31T13:18:35Z",
-      "collected_at": "2026-08-31T13:30:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "620caa1e2e08a7886418f884",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Bradley Barcola joins Liverpool from PSG for record fee",
-      "url": "https://www.france24.com/en/sport/20260831-bradley-barcola-joins-liverpool-from-psg-for-record-fee",
-      "published_at": "2026-08-31T13:17:35Z",
-      "collected_at": "2026-08-31T13:30:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e8d799a24119a8388df90a7d",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "L’UE soumet ChatGPT, Reddit et Roblox à ses règles les plus strictes en matière de plateformes",
-      "url": "https://www.politico.eu/article/lue-soumet-chatgpt-reddit-et-roblox-a-ses-regles-les-plus-strictes-en-matiere-de-plateformes",
-      "published_at": "2026-08-31T13:14:34Z",
-      "collected_at": "2026-08-31T13:30:45Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "5cf4dd48eefdead83cb9d075",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Nepal grapples with destruction and loss in wake of deadly floods",
-      "url": "https://www.france24.com/en/nepal-grapples-with-destruction-and-loss-in-wake-of-deadly-floods",
-      "published_at": "2026-08-31T13:10:04Z",
-      "collected_at": "2026-08-31T13:30:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "c066289a14ebc42b46d64afc",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Ukrainians again stored ammunition among civilians: 38 people killed in explosion (Ukraine Battlefield update, Day 1,649)",
-      "url": "https://euobserver.com/234430/ukrainians-again-stored-ammunition-among-civilians-38-people-killed-in-explosion-ukraine-battlefield-update-day-1649",
-      "published_at": "2026-08-31T13:07:02Z",
-      "collected_at": "2026-08-31T13:30:45Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "3ca737a66bd92e0cc31a83cd",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Executive diversity and inclusion: How to promote female leadership",
-      "url": "https://www.france24.com/en/tv-shows/people-profit/20260831-executive-diversity-and-inclusion-how-to-promote-female-leadership",
-      "published_at": "2026-08-31T12:51:55Z",
-      "collected_at": "2026-08-31T13:30:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "ae035adcf2d1a6b699e96e46",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Strait of Hormuz accessibility at the centre of US-Iran war flare-up",
-      "url": "https://www.france24.com/en/strait-of-hormuz-accessibility-at-the-centre-of-us-iran-war-flare-up",
-      "published_at": "2026-08-31T12:47:11Z",
-      "collected_at": "2026-08-31T13:30:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
