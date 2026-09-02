@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-02T04:00:48Z",
-  "last_successful_collection_at": "2026-09-02T04:00:48Z",
+  "generated_at": "2026-09-02T04:30:41Z",
+  "last_successful_collection_at": "2026-09-02T04:30:41Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-02T04:00:48Z"
+      "at": "2026-09-02T04:30:41Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "28",
-      "at": "2026-09-02T04:00:48Z"
+      "at": "2026-09-02T04:30:41Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-02T04:00:48Z"
+      "at": "2026-09-02T04:30:41Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,71 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-02T04:00:48Z"
+      "at": "2026-09-02T04:30:41Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-02T04:00:48Z"
+      "at": "2026-09-02T04:30:41Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-09-02T04:00:48Z"
+      "at": "2026-09-02T04:30:41Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-02T04:00:48Z"
+      "at": "2026-09-02T04:30:41Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-02T04:00:48Z"
+      "at": "2026-09-02T04:30:41Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-02T04:00:48Z"
+      "at": "2026-09-02T04:30:41Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Germany Blames Russia for Airport Drone Incident",
-      "summary": "Germany has publicly blamed Russia for an attempted drone attack at Leipzig airport and announced retaliatory measures, including closing a Russian consulate. The security incident has escalated geopolitical tensions between Berlin and Moscow.",
+      "title": "Germany Blames Russia for Airport Drone Attack and Orders Consulate Closure",
+      "summary": "German authorities formally attributed an attempted drone attack at Leipzig airport to Russia. In response to the security breach, the government announced retaliatory sanctions and ordered the closure of a Russian consulate.",
+      "article_ids": [
+        "7d907652777b34ea520d678a",
+        "13cc9fe14bf63cea0b97e884",
+        "f2664d6bd6a35cf6cdd4861f",
+        "b2dec8ed3b4290430b2e99e2",
+        "390923f7f6d5211821cfd1ee"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/germany-blames-russia-for-airport-drone-incident-hits-back-with-sanctions",
+          "headline": "Germany blames Russia for airport drone incident, hits back with sanctions",
+          "published_at": "2026-09-01T20:58:01Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c5ylm3m67n2o?at_medium=RSS&at_campaign=rss",
+          "headline": "Germany says Russia behind Leipzig airport drone attack",
+          "published_at": "2026-09-01T15:57:47Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "European Security and Geopolitical Tensions",
+      "summary": "German officials publicly assigned responsibility to Russia for a recent drone incident affecting a major domestic airport. The attribution prompted immediate diplomatic retaliation, including targeted sanctions and consular closures.",
       "article_ids": [
         "7d907652777b34ea520d678a",
         "13cc9fe14bf63cea0b97e884",
@@ -90,54 +118,11 @@
       "source_count": 2
     },
     {
-      "title": "EU Implements Ban on Brazilian Meat and Dairy",
-      "summary": "European Union officials have confirmed a formal ban on meat and dairy imports from Brazil following health concerns. The decision aims to protect consumers within the bloc amid ongoing safety reviews.",
-      "article_ids": [
-        "ac064e175cf02a5e2443e039"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/234750/eu-officials-confirm-ban-on-brazilian-meat-and-dairy-amid-health-concerns",
-          "headline": "EU officials confirm ban on Brazilian meat and dairy amid health concerns",
-          "published_at": "2026-09-01T15:51:14Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "German Response to Russian Drone Incursion",
-      "summary": "Berlin attributed a recent drone incident at Leipzig airport directly to Russia and responded with targeted diplomatic and security measures. The escalation highlights growing concerns regarding critical infrastructure security across Europe.",
-      "article_ids": [
-        "7d907652777b34ea520d678a",
-        "13cc9fe14bf63cea0b97e884",
-        "390923f7f6d5211821cfd1ee"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/germany-blames-russia-for-airport-drone-incident-hits-back-with-sanctions",
-          "headline": "Germany blames Russia for airport drone incident, hits back with sanctions",
-          "published_at": "2026-09-01T20:58:01Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/germany-says-russia-behind-attempted-drone-attack-at-leipzig-airport/a-78584589?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Germany says Russia behind attempted drone attack at Leipzig airport",
-          "published_at": "2026-09-01T15:40:00Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "UK Leadership Debates and Parliament Developments",
-      "summary": "The new UK Prime Minister made his debut in the House of Commons to outline his political agenda and policy goals. Lawmakers and officials immediately scrutinized the incoming administration's promises regarding the cost of living and future reforms.",
+      "title": "United Kingdom Leadership and Parliamentary Debates",
+      "summary": "UK leader Andy Burnham made his initial appearance in the House of Commons and outlined domestic objectives. Lawmakers engaged in early debates regarding government policy and economic measures.",
       "article_ids": [
         "3d051892f94d1a1932ae296c",
-        "05ffab42dc1298910c914fac",
-        "e53a11ccba1ba43cbde8b2af"
+        "05ffab42dc1298910c914fac"
       ],
       "sources": [
         {
@@ -147,10 +132,28 @@
           "published_at": "2026-09-01T20:54:34Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/what-to-know-about-the-new-uk-pm-s-agenda-as-he-faces-lawmakers",
-          "headline": "What to know about the new UK PM's agenda as he faces lawmakers",
-          "published_at": "2026-09-01T15:39:39Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/andy-burnham-first-uk-pm-statement-parliament-promises",
+          "headline": "Burnham promised hope. Reality is already getting in the way",
+          "published_at": "2026-09-01T19:30:27Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "European Union Trade and Institutional Policy",
+      "summary": "European Union officials enacted a ban on imports of Brazilian meat and dairy products following health evaluations. Meanwhile, regional lawmakers and institutions navigated ongoing debates regarding security cooperation and political alignment.",
+      "article_ids": [
+        "ac064e175cf02a5e2443e039",
+        "2bf3698b444a64d2ec150172",
+        "1121ecae1ce3e98a3c033614"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/234750/eu-officials-confirm-ban-on-brazilian-meat-and-dairy-amid-health-concerns",
+          "headline": "EU officials confirm ban on Brazilian meat and dairy amid health concerns",
+          "published_at": "2026-09-01T15:51:14Z"
         }
       ],
       "source_count": 1
@@ -255,6 +258,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "0d2bc7745ec8e08c6224130e",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "The plan to shut out Europe’s far right",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/a-plan-to-shut-out-europes-far-right",
+      "published_at": "2026-09-02T04:05:00Z",
+      "collected_at": "2026-09-02T04:30:41Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "355e7c5231f8a471da2fb963",
       "source_id": "euobserver",
@@ -2241,6 +2258,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "07126f0464da00ce59cc6cc9",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "World’s coral reefs are losing recovery time between marine heatwaves, major global report warns",
+      "url": "https://euobserver.com/233845/coral-reefs-losing-time-to-recover-between-heatwaves-global-report-warns",
+      "published_at": "2026-08-31T04:01:00Z",
+      "collected_at": "2026-09-02T04:30:41Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
