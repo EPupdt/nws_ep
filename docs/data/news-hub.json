@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-04T09:00:52Z",
-  "last_successful_collection_at": "2026-09-04T09:00:52Z",
+  "generated_at": "2026-09-04T09:30:39Z",
+  "last_successful_collection_at": "2026-09-04T09:30:39Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-04T09:00:52Z"
+      "at": "2026-09-04T09:30:39Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-04T09:00:52Z"
+      "at": "2026-09-04T09:30:39Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-04T09:00:52Z"
+      "at": "2026-09-04T09:30:39Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,69 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-04T09:00:52Z"
+      "at": "2026-09-04T09:30:39Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-04T09:00:52Z"
+      "at": "2026-09-04T09:30:39Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-04T09:00:52Z"
+      "at": "2026-09-04T09:30:39Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-04T09:00:52Z"
+      "at": "2026-09-04T09:30:39Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-09-04T09:00:52Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-09-04T09:30:39Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-04T09:00:52Z"
+      "at": "2026-09-04T09:30:39Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Volkswagen approves massive job cuts",
-      "summary": "Volkswagen's board has approved a plan to eliminate 50,000 positions amid mounting international competition and trade tariffs. The major reduction highlights severe economic pressures facing the European automotive manufacturing sector.",
+      "title": "German Regional Elections and Far-Right Momentum",
+      "summary": "The Alternative for Germany party is eyeing an outright win in upcoming regional elections. This political shift is creating significant concern regarding broader European stability and democratic norms.",
+      "article_ids": [
+        "e57961ba2344a18335d1304b",
+        "1efd8cfd7f3eac00cda2e595"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/the-debate/20260904-german-far-right-s-breakout-moment-afd-party-eyes-outright-win-in-regional-election",
+          "headline": "German far-right's breakout moment? AfD party eyes outright win in regional election",
+          "published_at": "2026-09-04T09:29:09Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/germany-far-right-moment-hastens-eu-push-e2t-budget-deal",
+          "headline": "Germany’s far-right moment hastens EU’s push for €2T budget deal",
+          "published_at": "2026-09-04T02:00:00Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Volkswagen Job Cuts",
+      "summary": "The Volkswagen board has approved a major plan to cut 50,000 jobs to counter international tariffs and fierce competition. This corporate downsizing highlights deep structural pressures facing the European automotive industry.",
       "article_ids": [
         "5c4072775d95544f3859a240",
-        "d9b4becea43a3d5af5abf7da"
+        "617c19e40a533e29303fa154"
       ],
       "sources": [
         {
@@ -80,15 +103,63 @@
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/technology/20260904-volkswagen-to-cut-another-50-000-jobs-to-counter-tariffs-and-chinese-competition",
-          "headline": "Volkswagen to cut 50,000 more jobs to counter tariffs and Chinese competition",
+          "headline": "Volkswagen to cut another 50,000 jobs to counter tariffs and Chinese competition",
+          "published_at": "2026-09-04T00:34:01Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "German Political Shifts and EU Budget Pressures",
+      "summary": "The rising momentum of Germany's far-right party is accelerating discussions within the European Union for a massive budget deal. Observers note that these domestic political developments carry profound implications for regional policy.",
+      "article_ids": [
+        "e57961ba2344a18335d1304b",
+        "1efd8cfd7f3eac00cda2e595"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/the-debate/20260904-german-far-right-s-breakout-moment-afd-party-eyes-outright-win-in-regional-election",
+          "headline": "German far-right's breakout moment? AfD party eyes outright win in regional election",
+          "published_at": "2026-09-04T09:29:09Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/germany-far-right-moment-hastens-eu-push-e2t-budget-deal",
+          "headline": "Germany’s far-right moment hastens EU’s push for €2T budget deal",
+          "published_at": "2026-09-04T02:00:00Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Automotive Industry Pressures",
+      "summary": "Volkswagen plans to reduce its workforce by 50,000 employees in response to escalating global competition and trade tariffs. Industry leaders warn that these sweeping cuts reflect severe economic headwinds across the continent.",
+      "article_ids": [
+        "5c4072775d95544f3859a240",
+        "617c19e40a533e29303fa154"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss",
+          "headline": "Volkswagen board approves plan to cut another 50,000 jobs",
+          "published_at": "2026-09-04T05:33:14Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/technology/20260904-volkswagen-to-cut-another-50-000-jobs-to-counter-tariffs-and-chinese-competition",
+          "headline": "Volkswagen to cut another 50,000 jobs to counter tariffs and Chinese competition",
           "published_at": "2026-09-04T00:34:01Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "Romanian political deadlock costs EU funds",
-      "summary": "Political parties in Romania failed to reach an agreement regarding necessary wage reforms. Consequently, the country has lost €770 million in allocated European Union funding.",
+      "title": "Romanian EU Funding Loss Over Wage Reforms",
+      "summary": "Romanian political parties failed to reach an agreement regarding necessary wage reforms. As a result, the country is facing a loss of 770 million euros in allocated European Union funding.",
       "article_ids": [
         "1ed93bb55acb9856fc6cd081"
       ],
@@ -101,54 +172,6 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Automotive Industry Pressures",
-      "summary": "Volkswagen has moved forward with plans to cut 50,000 jobs in response to foreign competition and trade tariffs. The large-scale restructuring underscores deep challenges confronting traditional European industrial manufacturers.",
-      "article_ids": [
-        "5c4072775d95544f3859a240",
-        "d9b4becea43a3d5af5abf7da"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss",
-          "headline": "Volkswagen board approves plan to cut another 50,000 jobs",
-          "published_at": "2026-09-04T05:33:14Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/technology/20260904-volkswagen-to-cut-another-50-000-jobs-to-counter-tariffs-and-chinese-competition",
-          "headline": "Volkswagen to cut 50,000 more jobs to counter tariffs and Chinese competition",
-          "published_at": "2026-09-04T00:34:01Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "European Union Budget and Political Shifts",
-      "summary": "Political momentum gained by the far-right in Germany has accelerated discussions around a substantial €2 trillion EU budget deal. Meanwhile, Romania missed out on €770 million in European funds after domestic parties failed to agree on mandatory wage reforms.",
-      "article_ids": [
-        "1ed93bb55acb9856fc6cd081",
-        "1efd8cfd7f3eac00cda2e595"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/234925/romanian-parties-fail-to-agree-on-wage-reform-costing-country-e770m-in-eu-funds",
-          "headline": "Romanian parties fail to agree on wage reform, costing country €770m in EU funds",
-          "published_at": "2026-09-04T07:32:00Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/germany-far-right-moment-hastens-eu-push-e2t-budget-deal",
-          "headline": "Germany’s far-right moment hastens EU’s push for €2T budget deal",
-          "published_at": "2026-09-04T02:00:00Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "developing": [
@@ -244,6 +267,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "e57961ba2344a18335d1304b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "German far-right's breakout moment? AfD party eyes outright win in regional election",
+      "url": "https://www.france24.com/en/tv-shows/the-debate/20260904-german-far-right-s-breakout-moment-afd-party-eyes-outright-win-in-regional-election",
+      "published_at": "2026-09-04T09:29:09Z",
+      "collected_at": "2026-09-04T09:30:39Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "da76ed892a9a741cc2590498",
       "source_id": "euobserver",
@@ -672,6 +709,20 @@
       "url": "https://www.france24.com/en/tv-shows/a-propos/20260903-50-savvy-political-tactics-50-extraordinarily-good-luck-the-formula-to-meloni-s-success",
       "published_at": "2026-09-03T20:57:14Z",
       "collected_at": "2026-09-04T03:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "77d6f4cf73e01f76635a9098",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'50% savvy political tactics, 50% extraordinarily good luck': The formula to Meloni's success?",
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20260903-50-savvy-political-tactics-50-extraordinarily-good-luck-the-formula-to-meloni-s-success",
+      "published_at": "2026-09-03T20:57:14Z",
+      "collected_at": "2026-09-04T09:30:39Z",
       "topics": [
         "politics",
         "security",
@@ -2142,62 +2193,6 @@
       "url": "https://www.france24.com/en/france/20260903-china-lambasts-france-s-discriminatory-fast-fashion-law",
       "published_at": "2026-09-03T09:21:51Z",
       "collected_at": "2026-09-03T09:30:57Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "57751c4ed2fcf024571563c4",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Green Leader Zack Polanski pitches for Keir Starmer’s old seat",
-      "url": "https://www.politico.eu/article/uk-green-leader-zack-polanski-pitches-for-keir-starmer-seat",
-      "published_at": "2026-09-03T08:33:19Z",
-      "collected_at": "2026-09-03T09:00:55Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "a77135e3fb126e2273ab34ba",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 No 'solid proof' Morocco planned Ceuta migrant rush, says Spanish PM Sanchez",
-      "url": "https://www.france24.com/en/europe/20260903-spanish-pm-sanchez-says-no-solid-proof-morocco-planned-ceuta-migrant-rush",
-      "published_at": "2026-09-03T08:32:27Z",
-      "collected_at": "2026-09-03T09:00:55Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "365ed71e4aa79b05ba77a851",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "German economy will grow more than expected, think tank says",
-      "url": "https://www.politico.eu/article/german-economy-will-grow-more-than-expected-think-tank-says",
-      "published_at": "2026-09-03T08:30:00Z",
-      "collected_at": "2026-09-03T09:00:55Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "bbfc20e0d7407cf922eb5080",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "No 'solid proof' Morocco planned Ceuta migrant rush, says Spanish PM Sanchez",
-      "url": "https://www.france24.com/en/europe/20260903-spanish-pm-sanchez-says-no-solid-proof-morocco-planned-ceuta-migrant-rush",
-      "published_at": "2026-09-03T08:18:46Z",
-      "collected_at": "2026-09-03T09:00:55Z",
       "topics": [
         "politics",
         "security",
