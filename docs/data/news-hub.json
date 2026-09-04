@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-04T18:00:49Z",
-  "last_successful_collection_at": "2026-09-04T18:00:49Z",
+  "generated_at": "2026-09-04T18:30:43Z",
+  "last_successful_collection_at": "2026-09-04T18:30:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-04T18:00:49Z"
+      "at": "2026-09-04T18:30:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-04T18:00:49Z"
+      "at": "2026-09-04T18:30:43Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-04T18:00:49Z"
+      "at": "2026-09-04T18:30:43Z"
     },
     {
       "id": "euractiv",
@@ -29,105 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-04T18:00:49Z"
+      "at": "2026-09-04T18:30:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-04T18:00:49Z"
+      "at": "2026-09-04T18:30:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-04T18:00:49Z"
+      "at": "2026-09-04T18:30:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-04T18:00:49Z"
+      "at": "2026-09-04T18:30:43Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-09-04T18:00:49Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-09-04T18:30:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-04T18:00:49Z"
+      "at": "2026-09-04T18:30:43Z"
     }
   ],
   "europe_now": [
     {
-      "title": "French government promises €1B for drought-stricken farmers",
-      "summary": "The French government has pledged one billion euros in financial aid to farmers recovering from a summer severely impacted by drought and heatwaves. This support aims to address the significant economic losses caused by the adverse weather conditions.",
-      "article_ids": [
-        "5c22d84bf0d2da52f12ed464",
-        "93e314591deedef5b6de8c04",
-        "5c78398d0bb6fa6072855239"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/french-government-promises-e1-billion-for-drought-stricken-farmers",
-          "headline": "French government promises €1B for drought-stricken farmers",
-          "published_at": "2026-09-04T14:15:39Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Russian drone strike hits security service headquarters in Kyiv",
-      "summary": "A Russian drone strike targeted the headquarters of Ukraine's security service in Kyiv, causing significant damage. The incident highlights the ongoing intensity of military attacks on the Ukrainian capital.",
-      "article_ids": [
-        "f2258bdea58128cc22397add",
-        "64b8c05df0685454bbd2346f",
-        "551ec50532c5a1100532f86c"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russian-drone-strike-hits-security-service-headquarters-kyiv-ukraine",
-          "headline": "Russian drone strike hits security service headquarters in Kyiv",
-          "published_at": "2026-09-04T15:58:23Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260904-russian-drone-aimed-directly-at-ukraine-security-service-hq-zelensky-says",
-          "headline": "🔴 Russian drone ‘aimed directly’ at Ukraine security service HQ",
-          "published_at": "2026-09-04T15:07:42Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "French government promises €1B for drought-stricken farmers",
-      "summary": "The French government has pledged one billion euros in financial aid to farmers recovering from a summer severely impacted by drought and heatwaves. This support aims to address the significant economic losses caused by the adverse weather conditions.",
-      "article_ids": [
-        "5c22d84bf0d2da52f12ed464",
-        "93e314591deedef5b6de8c04",
-        "5c78398d0bb6fa6072855239"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/french-government-promises-e1-billion-for-drought-stricken-farmers",
-          "headline": "French government promises €1B for drought-stricken farmers",
-          "published_at": "2026-09-04T14:15:39Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "German Regional Elections and Far-Right Momentum",
-      "summary": "Political attention in Germany is focused on regional elections where the far-right Alternative for Germany party is gaining significant traction. The party is aiming for its first outright electoral victory in key regional contests.",
+      "title": "German Regional Elections and the Far-Right Momentum",
+      "summary": "The upcoming regional elections in Germany have intensified focus on the Alternative for Germany (AfD) party and its growing influence. Political analysts are watching closely as the far-right seeks to capitalize on voter discontent in key states.",
       "article_ids": [
         "add5bf424af9f19e05739454"
       ],
@@ -143,30 +81,112 @@
     },
     {
       "title": "Top Farage aides resign following undercover donations sting",
-      "summary": "A new donation scandal has hit Nigel Farage's Reform UK party, leading to the resignation of top aides. The timing of the scandal has been described as highly disruptive to the party's ongoing meetings and strategic reset.",
+      "summary": "A controversy surrounding undercover donations has forced the resignation of senior aides from Nigel Farage's Reform UK party. The scandal has severely disrupted the party's internal meetings and political momentum.",
       "article_ids": [
-        "b782fe1a8c7dd2dd62b93441",
+        "b984ae45319a7f74a282a155",
         "545fb2f44e962ae46ef0a7cc",
-        "b984ae45319a7f74a282a155"
+        "b782fe1a8c7dd2dd62b93441"
       ],
       "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/nigel-farage-reform-uk-departing-aides-loose-pub-talk",
-          "headline": "Nigel Farage: Departing aides guilty of only ‘loose pub talk’",
-          "published_at": "2026-09-04T13:56:56Z"
-        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/video/20260904-worst-possible-timing-farage-s-reform-uk-meets-as-new-donation-scandal-hits",
           "headline": "'Worst possible timing': Farage's Reform UK meets as new donation scandal hits",
           "published_at": "2026-09-04T13:02:16Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/nigel-farage-reform-uk-fresh-scandal-gripped-reset-conference",
+          "headline": "How a ‘dodgy money’ scandal hijacked Nigel Farage’s reset conference",
+          "published_at": "2026-09-04T12:53:24Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Far-right political movements gain momentum across Europe",
+      "summary": "Recent political developments highlight the growing influence of far-right parties in Germany, France, and the United Kingdom. These movements are shaping national and European Union agendas, particularly regarding immigration and foreign policy alignment.",
+      "article_ids": [
+        "add5bf424af9f19e05739454",
+        "ce5a510e3fe89b8c40e39bd7",
+        "7788e73e5127eb87b24c2502"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260904-germany-hans-thomas-tillschneider-the-ideologist-behind-the-afd-s-plans-in-saxony-anhalt",
+          "headline": "Germany: Hans-Thomas Tillschneider, the ideologist behind the AFD’s plans in Saxony-Anhalt",
+          "published_at": "2026-09-04T15:34:36Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ongoing conflict in Ukraine continues to test European security and diplomacy",
+      "summary": "Recent military exchanges and diplomatic missions involving Russia and Ukraine have kept European security at a high alert. Concerns over hybrid threats and potential escalations remain central to regional policy discussions.",
+      "article_ids": [
+        "f2258bdea58128cc22397add",
+        "7a587dd3ac4fec438d4e69ea",
+        "69b2811c1a895e87d8b2c380"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260904-trump-envoys-witkoff-kushner-to-visit-russia-and-ukraine-in-coming-days",
+          "headline": "Trump envoys Witkoff, Kushner to visit Russia and Ukraine in coming days",
+          "published_at": "2026-09-04T15:29:52Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "France allocates significant funding to support farmers affected by severe drought",
+      "summary": "The French government has pledged substantial financial aid to assist farmers recovering from a summer of severe drought and heatwaves. This initiative aims to mitigate the economic impact of climate change on the agricultural sector.",
+      "article_ids": [
+        "5c22d84bf0d2da52f12ed464",
+        "93e314591deedef5b6de8c04"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/french-government-promises-e1-billion-for-drought-stricken-farmers",
+          "headline": "French government promises €1B for drought-stricken farmers",
+          "published_at": "2026-09-04T14:15:39Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20260904-france-announces-%E2%82%AC1-billion-aid-for-farmers-recovering-from-drought-heatwaves",
+          "headline": "France announces €1 billion aid for farmers recovering from drought, heatwaves",
+          "published_at": "2026-09-04T12:44:54Z"
         }
       ],
       "source_count": 2
     }
   ],
   "developing": [
+    {
+      "label": "drone · Russian · security · service",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-09-04T15:58:23Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/russian-drone-strike-hits-security-service-headquarters-kyiv-ukraine",
+          "headline": "Russian drone strike hits security service headquarters in Kyiv",
+          "published_at": "2026-09-04T15:58:23Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260904-on-the-ground-russian-drone-strikes-ukraine-security-service-headquarters-in-kyiv",
+          "headline": "On the ground: Russian drone strikes Ukraine security service headquarters in Kyiv",
+          "published_at": "2026-09-04T15:24:33Z"
+        }
+      ]
+    },
     {
       "label": "Falklands · Argentina · Milei · Trump",
       "origin": "convergence",
@@ -229,30 +249,23 @@
           "published_at": "2026-09-04T00:34:01Z"
         }
       ]
-    },
-    {
-      "label": "Kushner · visit · Witkoff",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-09-04T17:58:30Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/steve-witkoff-jared-kushner-donald-trump-visit-moscow-and-kyiv",
-          "headline": "Witkoff and Kushner set to visit Moscow then Kyiv on Sunday",
-          "published_at": "2026-09-04T17:58:30Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260904-trump-envoys-witkoff-kushner-to-visit-russia-and-ukraine-in-coming-days",
-          "headline": "Trump envoys Witkoff, Kushner to visit Russia and Ukraine in coming days",
-          "published_at": "2026-09-04T15:29:52Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "6436241bbbb97d581c1c1660",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "France downplays SpaceX, Blue Origin snub of ‘worst Macron-organized’ summit",
+      "url": "https://www.politico.eu/article/france-downplays-us-space-boycott-of-worst-macron-organized-summit",
+      "published_at": "2026-09-04T18:21:27Z",
+      "collected_at": "2026-09-04T18:30:43Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "34d6a36cfa797cec7f314d25",
       "source_id": "politico_europe",
@@ -2088,6 +2101,20 @@
       ]
     },
     {
+      "id": "04ff8716bbad8c83b51e0358",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "If the AfD win Saxony-Anhalt on Sunday, their first target will be journalists",
+      "url": "https://euobserver.com/234871/if-the-afd-win-saxony-anhalt-on-sunday-their-first-target-will-be-journalists",
+      "published_at": "2026-09-02T18:00:00Z",
+      "collected_at": "2026-09-04T18:30:43Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "6dd3c5e18a963452e16f991c",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -2113,6 +2140,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "6fc891e3796797182cb38450",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Macron visits Bayeux Tapestry with King Charles, PM Andy Burnham",
+      "url": "https://www.dw.com/en/macron-visits-bayeux-tapestry-with-king-charles-pm-andy-burnham/a-78772317?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-02T16:00:00Z",
+      "collected_at": "2026-09-04T18:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -2368,6 +2409,20 @@
       ]
     },
     {
+      "id": "253df3a95cba91dfd757fa1e",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Ratko Mladic, the man behind Srebrenica massacre, dies at 84",
+      "url": "https://www.dw.com/en/ratko-mladic-the-man-behind-srebrenica-massacre-dies-at-84/a-78536491?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-27T19:28:00Z",
+      "collected_at": "2026-09-04T18:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "d235aee2e20b18935eb7794f",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2435,6 +2490,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "c823844ce45ab3a546c6aac9",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trump administration faces a major financial battle in the bond market",
+      "url": "https://english.elpais.com/economy-and-business/2026-08-25/trump-administration-faces-a-major-financial-battle-in-the-bond-market.html",
+      "published_at": "2026-08-25T13:51:49Z",
+      "collected_at": "2026-09-04T18:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
