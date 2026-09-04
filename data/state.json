@@ -1,7 +1,5 @@
 {
   "seen": {
-    "6ba0c5f5e49bfc6a27d3b6de": "2026-09-02T06:00:55Z",
-    "eb9655a819cfe68110479b3a": "2026-09-02T06:00:55Z",
     "86bbcc71609ad0f441236539": "2026-09-02T06:30:45Z",
     "01d6c4343de33ac3d1584bf9": "2026-09-02T06:30:45Z",
     "8a9548f93fb54997520a969f": "2026-09-02T06:30:45Z",
@@ -404,9 +402,24 @@
     "02b343840ffd505394c0b569": "2026-09-04T05:30:40Z",
     "8bfa0ae6017bc0efb519e42b": "2026-09-04T06:00:53Z",
     "d9b4becea43a3d5af5abf7da": "2026-09-04T06:00:53Z",
-    "1be9ca4ccb97ae350b8cd8c4": "2026-09-04T06:00:53Z"
+    "1be9ca4ccb97ae350b8cd8c4": "2026-09-04T06:00:53Z",
+    "5c4072775d95544f3859a240": "2026-09-04T06:30:44Z"
   },
   "radar": [
+    {
+      "id": "5c4072775d95544f3859a240",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Volkswagen board approves plan to cut another 50,000 jobs",
+      "url": "https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-04T05:33:14Z",
+      "collected_at": "2026-09-04T06:30:44Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "d228249c45140626544403e5",
       "source_id": "france24",
@@ -2678,14 +2691,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-09-02T19:00:50Z",
-      "title": "EU Support for Ukraine Amid Regional Threats"
-    },
-    {
-      "at": "2026-09-02T19:30:47Z",
-      "title": "French President Visits the United Kingdom"
-    },
-    {
       "at": "2026-09-02T19:30:47Z",
       "title": "European Union Industrial Strategy and China"
     },
@@ -2996,6 +3001,14 @@
     {
       "at": "2026-09-04T06:00:53Z",
       "title": "Automotive Industry Pressures"
+    },
+    {
+      "at": "2026-09-04T06:30:44Z",
+      "title": "Automotive Industry Pressures"
+    },
+    {
+      "at": "2026-09-04T06:30:44Z",
+      "title": "EU Budget and Geopolitical Pressures"
     }
   ],
   "alerts": [],
@@ -3003,11 +3016,18 @@
     "europe_now": [
       {
         "title": "Volkswagen Job Cuts",
-        "summary": "Volkswagen plans to reduce its workforce by 50,000 positions in response to rising tariffs and Chinese competition. This major restructuring underscores intense pressures facing the European automotive sector.",
+        "summary": "Volkswagen has approved plans to eliminate 50,000 positions in response to increasing competitive pressures from China and incoming tariffs. The significant workforce reduction highlights broader economic strains facing the European automotive sector.",
         "article_ids": [
+          "5c4072775d95544f3859a240",
           "617c19e40a533e29303fa154"
         ],
         "sources": [
+          {
+            "publisher": "BBC News Europe",
+            "url": "https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss",
+            "headline": "Volkswagen board approves plan to cut another 50,000 jobs",
+            "published_at": "2026-09-04T05:33:14Z"
+          },
           {
             "publisher": "France 24 English",
             "url": "https://www.france24.com/en/technology/20260904-volkswagen-to-cut-another-50-000-jobs-to-counter-tariffs-and-chinese-competition",
@@ -3015,11 +3035,11 @@
             "published_at": "2026-09-04T00:34:01Z"
           }
         ],
-        "source_count": 1
+        "source_count": 2
       },
       {
-        "title": "Space Firm Withdrawals from French Summit",
-        "summary": "SpaceX and Blue Origin have withdrawn from a French space summit following pressure from the White House. The sudden cancellations impact high-profile diplomatic and industrial engagement efforts in Europe.",
+        "title": "Space Firm Summit Withdrawals",
+        "summary": "Major space companies SpaceX and Blue Origin have withdrawn from a high-profile French aerospace summit hosted by Emmanuel Macron. The decisions followed direct pressure from the White House regarding the diplomatic event.",
         "article_ids": [
           "d7e4679d93cd3a50b02c9342"
         ],
@@ -3036,8 +3056,31 @@
     ],
     "top_stories": [
       {
+        "title": "Automotive Industry Pressures",
+        "summary": "Volkswagen has approved a major initiative to cut 50,000 jobs to address rising tariffs and Chinese competition. This restructuring reflects mounting economic headwinds across the European manufacturing landscape.",
+        "article_ids": [
+          "5c4072775d95544f3859a240",
+          "617c19e40a533e29303fa154"
+        ],
+        "sources": [
+          {
+            "publisher": "BBC News Europe",
+            "url": "https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss",
+            "headline": "Volkswagen board approves plan to cut another 50,000 jobs",
+            "published_at": "2026-09-04T05:33:14Z"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/technology/20260904-volkswagen-to-cut-another-50-000-jobs-to-counter-tariffs-and-chinese-competition",
+            "headline": "Volkswagen to cut another 50,000 jobs to counter tariffs and Chinese competition",
+            "published_at": "2026-09-04T00:34:01Z"
+          }
+        ],
+        "source_count": 2
+      },
+      {
         "title": "EU Budget and Geopolitical Pressures",
-        "summary": "Rising momentum for the German far-right is accelerating discussions around a €2 trillion European Union budget deal. Meanwhile, geopolitical friction grows as external leaders demand financial reimbursements for shared security efforts.",
+        "summary": "The rising influence of Germany's far-right political factions has added urgency to discussions surrounding a multi-trillion-euro EU budget deal. Concurrently, regional leaders face complex diplomatic challenges involving defense funding and international relations.",
         "article_ids": [
           "1efd8cfd7f3eac00cda2e595",
           "76d2a700042bfb0051938dff"
@@ -3051,31 +3094,8 @@
           }
         ],
         "source_count": 1
-      },
-      {
-        "title": "Automotive Industry Pressures",
-        "summary": "Volkswagen announced plans to eliminate 50,000 jobs to mitigate the impact of tariffs and growing Chinese market competition. These sweeping structural changes highlight profound economic challenges confronting European manufacturers.",
-        "article_ids": [
-          "617c19e40a533e29303fa154",
-          "d9b4becea43a3d5af5abf7da"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/technology/20260904-volkswagen-to-cut-another-50-000-jobs-to-counter-tariffs-and-chinese-competition",
-            "headline": "Volkswagen to cut another 50,000 jobs to counter tariffs and Chinese competition",
-            "published_at": "2026-09-04T00:34:01Z"
-          },
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/technology/20260904-volkswagen-to-cut-another-50-000-jobs-to-counter-tariffs-and-chinese-competition",
-            "headline": "Volkswagen to cut 50,000 more jobs to counter tariffs and Chinese competition",
-            "published_at": "2026-09-04T00:34:01Z"
-          }
-        ],
-        "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-09-04T06:00:53Z"
+  "last_collection_at": "2026-09-04T06:30:44Z"
 }
