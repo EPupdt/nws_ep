@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-04T17:30:42Z",
-  "last_successful_collection_at": "2026-09-04T17:30:42Z",
+  "generated_at": "2026-09-04T18:00:49Z",
+  "last_successful_collection_at": "2026-09-04T18:00:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-04T17:30:42Z"
+      "at": "2026-09-04T18:00:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-04T17:30:42Z"
+      "at": "2026-09-04T18:00:49Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-04T17:30:42Z"
+      "at": "2026-09-04T18:00:49Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-04T17:30:42Z"
+      "at": "2026-09-04T18:00:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-04T17:30:42Z"
+      "at": "2026-09-04T18:00:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-04T17:30:42Z"
+      "at": "2026-09-04T18:00:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-04T17:30:42Z"
+      "at": "2026-09-04T18:00:49Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-04T17:30:42Z"
+      "at": "2026-09-04T18:00:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-04T17:30:42Z"
+      "at": "2026-09-04T18:00:49Z"
     }
   ],
   "europe_now": [
@@ -168,33 +168,6 @@
   ],
   "developing": [
     {
-      "label": "Ukraine · Russia · Trump",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 4,
-      "latest_at": "2026-09-04T15:29:52Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260904-trump-envoys-witkoff-kushner-to-visit-russia-and-ukraine-in-coming-days",
-          "headline": "Trump envoys Witkoff, Kushner to visit Russia and Ukraine in coming days",
-          "published_at": "2026-09-04T15:29:52Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/235532/how-russia-prepared-for-a-mobilisation-that-putin-says-wont-happen-ukraine-battlefield-update-day-1653",
-          "headline": "How Russia prepared for a mobilisation that Putin says won’t happen (Ukraine Battlefield update, Day 1,653)",
-          "published_at": "2026-09-04T15:18:10Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/ukraine-renews-push-russia-frozen-assets",
-          "headline": "Ukraine renews push for Russia’s frozen assets",
-          "published_at": "2026-09-04T10:42:02Z"
-        }
-      ]
-    },
-    {
       "label": "Falklands · Argentina · Milei · Trump",
       "origin": "convergence",
       "source_count": 2,
@@ -256,9 +229,44 @@
           "published_at": "2026-09-04T00:34:01Z"
         }
       ]
+    },
+    {
+      "label": "Kushner · visit · Witkoff",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-09-04T17:58:30Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/steve-witkoff-jared-kushner-donald-trump-visit-moscow-and-kyiv",
+          "headline": "Witkoff and Kushner set to visit Moscow then Kyiv on Sunday",
+          "published_at": "2026-09-04T17:58:30Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260904-trump-envoys-witkoff-kushner-to-visit-russia-and-ukraine-in-coming-days",
+          "headline": "Trump envoys Witkoff, Kushner to visit Russia and Ukraine in coming days",
+          "published_at": "2026-09-04T15:29:52Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "34d6a36cfa797cec7f314d25",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Witkoff and Kushner set to visit Moscow then Kyiv on Sunday",
+      "url": "https://www.politico.eu/article/steve-witkoff-jared-kushner-donald-trump-visit-moscow-and-kyiv",
+      "published_at": "2026-09-04T17:58:30Z",
+      "collected_at": "2026-09-04T18:00:49Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "ce5a510e3fe89b8c40e39bd7",
       "source_id": "politico_europe",
@@ -2038,48 +2046,6 @@
       ]
     },
     {
-      "id": "8ae17a0c8cacd30206cadc34",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "‘Fight through darkness, water’: Nepal survivor recounts escape from flood-hit tunnel",
-      "url": "https://www.france24.com/en/asia-pacific/20260903-fight-through-darkness-water-nepal-survivor-recounts-escape-from-flood-hit-tunnel",
-      "published_at": "2026-09-03T17:22:20Z",
-      "collected_at": "2026-09-03T17:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "db64ea6013c825bd4d93fa04",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Germany’s far right gains off VW troubles",
-      "url": "https://www.politico.eu/article/germanys-far-right-gains-off-vw-troubles",
-      "published_at": "2026-09-03T17:14:58Z",
-      "collected_at": "2026-09-03T17:30:44Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "005436a5cc763142f24c52b3",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Anti-Christian murder in Syria? No indication he was killed because of his faith",
-      "url": "https://www.france24.com/en/middle-east/20260903-anti-christian-murder-syria-no-indication-killed-faith",
-      "published_at": "2026-09-03T17:00:20Z",
-      "collected_at": "2026-09-03T17:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "9e3171efea5f235681399308",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -2091,20 +2057,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "d9eb3b27dfaf086452375190",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Canada invited to Ireland for EU talks alongside Trump’s trade envoy",
-      "url": "https://www.politico.eu/article/canada-invited-to-ireland-for-eu-talks-alongside-trumps-trade-envoy",
-      "published_at": "2026-09-03T14:43:39Z",
-      "collected_at": "2026-09-03T17:30:44Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
@@ -2133,6 +2085,34 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "6dd3c5e18a963452e16f991c",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "EU resists calls to ban Meta ‘pervert glasses’ despite voyeur privacy fears",
+      "url": "https://euobserver.com/235000/eu-resists-calls-to-ban-meta-pervert-glasses-despite-voyeur-privacy-fears",
+      "published_at": "2026-09-02T17:23:00Z",
+      "collected_at": "2026-09-04T18:00:49Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "a4e2ce77293a6dbe6512a57b",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Poland calls for EU to expel more Russian diplomats after Leipzig bomb plot",
+      "url": "https://euobserver.com/235021/poland-calls-for-eu-to-expel-more-russian-diplomats-after-leipzig-bomb-plot",
+      "published_at": "2026-09-02T16:58:10Z",
+      "collected_at": "2026-09-04T18:00:49Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -2234,6 +2214,20 @@
       ]
     },
     {
+      "id": "cc00ba556f3ba722c70a8251",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland investigates potential “foreign intelligence” involvement in fire at drone plant",
+      "url": "https://notesfrompoland.com/2026/08/31/poland-investigates-potential-foreign-intelligence-involvement-in-fire-at-drone-plant",
+      "published_at": "2026-08-31T16:43:37Z",
+      "collected_at": "2026-09-04T18:00:49Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "edfdae408936751199283bc4",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2328,6 +2322,20 @@
       "topics": [
         "analysis",
         "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "a3e07f6d49904d60bf2e8128",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Russian-American heads Trump's planned Caucasus trade route",
+      "url": "https://www.dw.com/en/russian-american-heads-trump-s-planned-caucasus-trade-route/a-78547064?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-29T16:20:00Z",
+      "collected_at": "2026-09-04T18:00:49Z",
+      "topics": [
+        "politics",
+        "society",
         "security"
       ]
     },
