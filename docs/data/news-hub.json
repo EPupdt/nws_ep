@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-05T07:30:39Z",
-  "last_successful_collection_at": "2026-09-05T07:30:39Z",
+  "generated_at": "2026-09-05T08:00:48Z",
+  "last_successful_collection_at": "2026-09-05T08:00:48Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-05T07:30:39Z"
+      "at": "2026-09-05T08:00:48Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-05T07:30:39Z"
+      "at": "2026-09-05T08:00:48Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-09-05T07:30:39Z"
+      "status": "error",
+      "detail": "<unknown>:11:92: not well-formed (invalid token)",
+      "at": "2026-09-05T08:00:48Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-05T07:30:39Z"
+      "at": "2026-09-05T08:00:48Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-05T07:30:39Z"
+      "at": "2026-09-05T08:00:48Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-05T07:30:39Z"
+      "at": "2026-09-05T08:00:48Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-05T07:30:39Z"
+      "at": "2026-09-05T08:00:48Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-05T07:30:39Z"
+      "at": "2026-09-05T08:00:48Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-05T07:30:39Z"
+      "at": "2026-09-05T08:00:48Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Drone Strike on Kyiv",
-      "summary": "Russian forces launched a drone attack targeting the security service headquarters in Kyiv. Ukrainian leadership confirmed the strike on the key security infrastructure.",
+      "title": "Russian Drone Strike Hits Kyiv Security Headquarters",
+      "summary": "A Russian drone strike targeted the Ukrainian security service headquarters in Kyiv. President Zelensky confirmed the attack on the security installation.",
       "article_ids": [
         "dccabee13c396685cd12d0f0",
         "f2258bdea58128cc22397add"
@@ -87,8 +87,8 @@
       "source_count": 2
     },
     {
-      "title": "Reform UK Officials Resign Amid Funding Scandal",
-      "summary": "Two senior officials from Reform UK resigned following an investigation into potential breaches of election law. The party faces mounting scrutiny over foreign donations.",
+      "title": "Reform UK Senior Officials Resign Amid Donation Inquiry",
+      "summary": "Two senior officials from Reform UK resigned following an undercover media investigation into party donations. The broadcaster's findings point to potential breaches of British election law.",
       "article_ids": [
         "09448cb82582c682c326cb31",
         "6dabde60e1a37c6bae684244"
@@ -112,8 +112,31 @@
   ],
   "top_stories": [
     {
-      "title": "US Diplomatic Mission to Ukraine and Russia",
-      "summary": "American envoys are scheduled to visit Moscow and Kyiv to discuss diplomatic strategies regarding the ongoing conflict. The discussions involve new proposals aimed at addressing the war in the region.",
+      "title": "Regional Political Momentum in Germany",
+      "summary": "German regional elections draw heightened attention as the far-right Alternative for Germany party pursues its first governing power in eastern votes. Observers note the party's rising influence and tactical positioning across regional landscapes.",
+      "article_ids": [
+        "9319095da2fbc7967eef5dcb",
+        "add5bf424af9f19e05739454"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cvgypkzgy4wo?at_medium=RSS&at_campaign=rss",
+          "headline": "Germany's far-right AfD bids for first taste of power in eastern vote",
+          "published_at": "2026-09-04T23:07:23Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260904-germany-hans-thomas-tillschneider-the-ideologist-behind-the-afd-s-plans-in-saxony-anhalt",
+          "headline": "Germany: Hans-Thomas Tillschneider, the ideologist behind the AFD’s plans in Saxony-Anhalt",
+          "published_at": "2026-09-04T15:34:36Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Diplomatic Envoys Deploy for Peace Discussions",
+      "summary": "United States envoys are traveling to Moscow and Kyiv to present a new proposal aimed at ending the ongoing war. The diplomatic mission comes as European security continues to be tested by continuous hostilities.",
       "article_ids": [
         "8018affba4ff00cc61880a20",
         "34d6a36cfa797cec7f314d25"
@@ -179,6 +202,27 @@
       ]
     },
     {
+      "label": "NATO · Russian · sabotage",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-09-05T07:36:26Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/09/04/trump-russia-nato-espionage-allegations-01066120",
+          "headline": "Trump brushes off accusations of Russian sabotage against NATO allies",
+          "published_at": "2026-09-05T07:36:26Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/235146/wave-of-russian-sabotage-attacks-exposes-counter-intelligence-gaps-on-natos-eastern-flank",
+          "headline": "Wave of Russian sabotage attacks exposes counter-intelligence gaps on Nato’s eastern flank",
+          "published_at": "2026-09-04T10:43:04Z"
+        }
+      ]
+    },
+    {
       "label": "case · Clancy · deadlocks · declares",
       "origin": "convergence",
       "source_count": 2,
@@ -198,30 +242,37 @@
           "published_at": "2026-09-04T15:21:15Z"
         }
       ]
-    },
-    {
-      "label": "attack · German",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-09-04T18:40:07Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260904-german-power-grid-sabotage-attack-linked-to-climate-extremism",
-          "headline": "German power grid sabotage attack linked to ‘climate extremism’",
-          "published_at": "2026-09-04T18:40:07Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/235514/interview-in-germany-everyone-is-constantly-afraid-putin-will-get-angry-german-military-expert-on-berlins-response-to-leipzig-drone-plot-and-moscows-hybrid-attacks",
-          "headline": "[Interview] ‘In Germany, everyone is constantly afraid Putin will get angry’. German military expert on Berlin’s response to Leipzig drone plot and Moscow’s hybrid attacks",
-          "published_at": "2026-09-04T15:23:43Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "01ec14efae29a226e0577372",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Ein Spaziergang mit Sahra Wagenknecht",
+      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/ein-spaziergang-mit-sahra-wagenknecht",
+      "published_at": "2026-09-05T08:00:00Z",
+      "collected_at": "2026-09-05T08:00:48Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "5b95fab28f194276033c4cca",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Trump brushes off accusations of Russian sabotage against NATO allies",
+      "url": "https://www.politico.com/news/2026/09/04/trump-russia-nato-espionage-allegations-01066120",
+      "published_at": "2026-09-05T07:36:26Z",
+      "collected_at": "2026-09-05T08:00:48Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "c28a0f5f07630d3cf4b529b8",
       "source_id": "bbc_europe",
@@ -1816,48 +1867,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "e62362890e2886e92fe0e2bf",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Why early warning signs of glacier collapse in Nepal were difficult to detect",
-      "url": "https://www.france24.com/en/asia-pacific/20260904-nepal-why-early-warning-signs-of-glacier-collapse-were-difficult-to-detect",
-      "published_at": "2026-09-04T07:24:28Z",
-      "collected_at": "2026-09-04T07:30:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "6379746504a2da7756656d40",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Top Farage aides quit after undercover donations sting",
-      "url": "https://www.politico.eu/article/nigel-farage-aides-dan-jukes-james-orr-quit-undercover-donations-sting",
-      "published_at": "2026-09-04T07:07:43Z",
-      "collected_at": "2026-09-04T07:30:50Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "f3590a0967b81dd99dc3b29f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
-      "url": "https://www.france24.com/en/asia-pacific/20260904-uss-lincoln-crew-hits-the-streets-of-thailand-pattaya-after-nine-month-deployment",
-      "published_at": "2026-09-04T07:02:55Z",
-      "collected_at": "2026-09-04T07:30:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
