@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-05T14:30:42Z",
-  "last_successful_collection_at": "2026-09-05T14:30:42Z",
+  "generated_at": "2026-09-05T15:00:50Z",
+  "last_successful_collection_at": "2026-09-05T15:00:50Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-05T14:30:42Z"
+      "at": "2026-09-05T15:00:50Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-05T14:30:42Z"
+      "at": "2026-09-05T15:00:50Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-05T14:30:42Z"
+      "at": "2026-09-05T15:00:50Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-05T14:30:42Z"
+      "at": "2026-09-05T15:00:50Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-05T14:30:42Z"
+      "at": "2026-09-05T15:00:50Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-05T14:30:42Z"
+      "at": "2026-09-05T15:00:50Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-05T14:30:42Z"
+      "at": "2026-09-05T15:00:50Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-09-05T14:30:42Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-09-05T15:00:50Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-05T14:30:42Z"
+      "at": "2026-09-05T15:00:50Z"
     }
   ],
   "europe_now": [
     {
-      "title": "US Peace Envoys Arrive as Ceasefire Announced",
-      "summary": "United States envoys have traveled to Moscow and Kyiv to pursue a diplomatic initiative aimed at ending the ongoing conflict. Concurrently, leadership in Moscow approved a temporary seventy-two-hour halt in strikes targeting Kyiv.",
+      "title": "US Diplomatic Mission and Ceasefire Initiative",
+      "summary": "United States envoys have traveled to Moscow and Kyiv to advance a new diplomatic framework aimed at ending the ongoing conflict. Concurrently, Russian leadership has signed off on a temporary 72-hour halt in strikes targeting Kyiv.",
       "article_ids": [
         "1ea5746e74a373f9b2471ba3",
         "9c02148ede3b51025ca9b795"
@@ -87,33 +87,8 @@
       "source_count": 2
     },
     {
-      "title": "German Far-Right Party Competes in Regional Elections",
-      "summary": "The Alternative for Germany party is vying for a historic breakthrough and potential regional power in upcoming eastern state votes. Observers and media outlets have focused heavily on the political momentum and potential implications of this electoral contest.",
-      "article_ids": [
-        "e8510aa1ef0bc06a1ee4e6c5",
-        "9319095da2fbc7967eef5dcb"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260905-germany-afd-eyes-historic-state-election-win",
-          "headline": "Germany: AfD eyes historic state election win",
-          "published_at": "2026-09-05T09:58:46Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cvgypkzgy4wo?at_medium=RSS&at_campaign=rss",
-          "headline": "Germany's far-right AfD bids for first taste of power in eastern vote",
-          "published_at": "2026-09-04T23:07:23Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
       "title": "UK Political Scandal and Investigations",
-      "summary": "Senior officials from Reform UK have stepped down following scrutiny over foreign donations. Media investigations have highlighted potential breaches of electoral regulations within the British political sphere.",
+      "summary": "Reform UK has experienced high-level departures among its senior officials following media investigations into potential breaches of election law and foreign donation regulations. The political developments surround ongoing scrutiny regarding party funding sources.",
       "article_ids": [
         "09448cb82582c682c326cb31",
         "6dabde60e1a37c6bae684244"
@@ -133,10 +108,35 @@
         }
       ],
       "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "German Regional Elections and Far-Right Momentum",
+      "summary": "The Alternative for Germany party is positioning itself for a historic state election performance as voters head to the polls. Observers note that the regional vote could grant the far-right formation its first major taste of executive power.",
+      "article_ids": [
+        "e8510aa1ef0bc06a1ee4e6c5",
+        "9319095da2fbc7967eef5dcb"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260905-germany-afd-eyes-historic-state-election-win",
+          "headline": "Germany: AfD eyes historic state election win",
+          "published_at": "2026-09-05T09:58:46Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cvgypkzgy4wo?at_medium=RSS&at_campaign=rss",
+          "headline": "Germany's far-right AfD bids for first taste of power in eastern vote",
+          "published_at": "2026-09-04T23:07:23Z"
+        }
+      ],
+      "source_count": 2
     },
     {
       "title": "Legal Proceedings Against the Tate Brothers in Romania",
-      "summary": "Judicial authorities in Romania have officially brought formal indictments against the Tate brothers. The charges involve allegations of human trafficking and related sex crimes.",
+      "summary": "Judicial authorities in Romania have officially advanced indictments against the Tate brothers. The formal charges include human trafficking and additional sex-related crimes.",
       "article_ids": [
         "c28a0f5f07630d3cf4b529b8",
         "54d3d4c3a898cd16a0c44b23"
@@ -245,6 +245,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "d2997b03691182a81841719a",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Farage would use military to ‘crush’ Argentina in any Falklands dispute, senior ally says",
+      "url": "https://www.politico.eu/article/nigel-farage-would-use-military-crush-argentina-falklands-dispute-senior-ally-says",
+      "published_at": "2026-09-05T14:55:43Z",
+      "collected_at": "2026-09-05T15:00:50Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "07993d06bb4fa159eabbd676",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Presidential campaigning kicks off in France ahead of 2027 elections",
+      "url": "https://www.france24.com/en/tv-shows/a-week-in-france/20260905-presidential-campaigning-kicks-off-in-france-ahead-of-2027-elections",
+      "published_at": "2026-09-05T14:32:10Z",
+      "collected_at": "2026-09-05T15:00:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "1ea5746e74a373f9b2471ba3",
       "source_id": "politico_europe",
@@ -519,6 +547,20 @@
       "url": "https://www.france24.com/en/middle-east/20260905-middle-east-live-israeli-strikes-on-south-and-east-lebanon-kill-three-people",
       "published_at": "2026-09-05T05:01:24Z",
       "collected_at": "2026-09-05T14:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "3796830a84321488d5aae390",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Middle East live: US military says it struck 3 Iranian oil tankers after missile attacks",
+      "url": "https://www.france24.com/en/middle-east/20260905-middle-east-live-israeli-strikes-on-south-and-east-lebanon-kill-three-people",
+      "published_at": "2026-09-05T05:01:24Z",
+      "collected_at": "2026-09-05T15:00:50Z",
       "topics": [
         "politics",
         "security",
