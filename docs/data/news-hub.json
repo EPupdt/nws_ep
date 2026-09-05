@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-05T14:00:51Z",
-  "last_successful_collection_at": "2026-09-05T14:00:51Z",
+  "generated_at": "2026-09-05T14:30:42Z",
+  "last_successful_collection_at": "2026-09-05T14:30:42Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-05T14:00:51Z"
+      "at": "2026-09-05T14:30:42Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-05T14:00:51Z"
+      "at": "2026-09-05T14:30:42Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-05T14:00:51Z"
+      "at": "2026-09-05T14:30:42Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-05T14:00:51Z"
+      "at": "2026-09-05T14:30:42Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-05T14:00:51Z"
+      "at": "2026-09-05T14:30:42Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-05T14:00:51Z"
+      "at": "2026-09-05T14:30:42Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-05T14:00:51Z"
+      "at": "2026-09-05T14:30:42Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-05T14:00:51Z"
+      "at": "2026-09-05T14:30:42Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-05T14:00:51Z"
+      "at": "2026-09-05T14:30:42Z"
     }
   ],
   "europe_now": [
     {
-      "title": "German Regional Elections and Far-Right Momentum",
-      "summary": "Germany's far-right AfD party is anticipating historic gains and a potential breakthrough in upcoming regional elections. Observers and media outlets are closely monitoring the political shift as the party bids for a significant share of power.",
+      "title": "US Peace Envoys Arrive as Ceasefire Announced",
+      "summary": "United States envoys have traveled to Moscow and Kyiv to pursue a diplomatic initiative aimed at ending the ongoing conflict. Concurrently, leadership in Moscow approved a temporary seventy-two-hour halt in strikes targeting Kyiv.",
+      "article_ids": [
+        "1ea5746e74a373f9b2471ba3",
+        "9c02148ede3b51025ca9b795"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/vladimir-putin-signs-off-72-hour-ceasefire-with-kyiv-us-envoys-visit",
+          "headline": "Putin signs off on 72-hour ceasefire with Kyiv as US envoys visit",
+          "published_at": "2026-09-05T14:16:36Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260905-trump-sends-envoys-to-moscow-and-kyiv-with-new-plan-to-end-the-war",
+          "headline": "Putin orders 72-hour halt in strikes on Kyiv as Trump envoys arrive in Moscow",
+          "published_at": "2026-09-05T02:37:17Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "German Far-Right Party Competes in Regional Elections",
+      "summary": "The Alternative for Germany party is vying for a historic breakthrough and potential regional power in upcoming eastern state votes. Observers and media outlets have focused heavily on the political momentum and potential implications of this electoral contest.",
       "article_ids": [
         "e8510aa1ef0bc06a1ee4e6c5",
         "9319095da2fbc7967eef5dcb"
@@ -85,10 +108,12 @@
         }
       ],
       "source_count": 2
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "UK Political Investigations and Resignations",
-      "summary": "Reform UK has experienced senior resignations following media investigations into potential breaches of British election law regarding foreign donations. Party leadership is facing scrutiny as inquiries continue into campaign funding.",
+      "title": "UK Political Scandal and Investigations",
+      "summary": "Senior officials from Reform UK have stepped down following scrutiny over foreign donations. Media investigations have highlighted potential breaches of electoral regulations within the British political sphere.",
       "article_ids": [
         "09448cb82582c682c326cb31",
         "6dabde60e1a37c6bae684244"
@@ -108,35 +133,10 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "US Diplomatic Initiative in Eastern Europe",
-      "summary": "United States envoys have been deployed to Moscow and Kyiv to advance a new diplomatic framework aimed at ending the ongoing conflict. Simultaneously, regional developments involve temporary tactical adjustments as international mediation efforts get underway.",
-      "article_ids": [
-        "f1ab0d9c614d5e1d8bb91e53",
-        "9c02148ede3b51025ca9b795"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260905-trump-sends-envoys-to-moscow-kyiv-with-new-plan-to-end-war",
-          "headline": "Trump sends envoys to Moscow, Kyiv with new plan to 'end war'",
-          "published_at": "2026-09-05T09:15:34Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260905-trump-sends-envoys-to-moscow-and-kyiv-with-new-plan-to-end-the-war",
-          "headline": "Putin orders 72-hour halt in strikes on Kyiv as Trump envoys arrive in Moscow",
-          "published_at": "2026-09-05T02:37:17Z"
-        }
-      ],
-      "source_count": 1
     },
     {
       "title": "Legal Proceedings Against the Tate Brothers in Romania",
-      "summary": "The Tate brothers have been officially indicted in Romania on serious charges relating to human trafficking and sex crimes. Judicial authorities have advanced the case following ongoing investigations into the high-profile figures.",
+      "summary": "Judicial authorities in Romania have officially brought formal indictments against the Tate brothers. The charges involve allegations of human trafficking and related sex crimes.",
       "article_ids": [
         "c28a0f5f07630d3cf4b529b8",
         "54d3d4c3a898cd16a0c44b23"
@@ -223,22 +223,42 @@
       ]
     },
     {
-      "label": "Macron · summit",
-      "origin": "radar",
-      "source_count": 1,
+      "label": "Russia · Ukraine",
+      "origin": "convergence",
+      "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-09-04T18:21:27Z",
+      "latest_at": "2026-09-04T15:29:52Z",
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/france-downplays-us-space-boycott-of-worst-macron-organized-summit",
-          "headline": "France downplays SpaceX, Blue Origin snub of ‘worst Macron-organized’ summit",
-          "published_at": "2026-09-04T18:21:27Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260904-trump-envoys-witkoff-kushner-to-visit-russia-and-ukraine-in-coming-days",
+          "headline": "Trump envoys Witkoff, Kushner to visit Russia and Ukraine in coming days",
+          "published_at": "2026-09-04T15:29:52Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/235532/how-russia-prepared-for-a-mobilisation-that-putin-says-wont-happen-ukraine-battlefield-update-day-1653",
+          "headline": "How Russia prepared for a mobilisation that Putin says won’t happen (Ukraine Battlefield update, Day 1,653)",
+          "published_at": "2026-09-04T15:18:10Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "1ea5746e74a373f9b2471ba3",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Putin signs off on 72-hour ceasefire with Kyiv as US envoys visit",
+      "url": "https://www.politico.eu/article/vladimir-putin-signs-off-72-hour-ceasefire-with-kyiv-us-envoys-visit",
+      "published_at": "2026-09-05T14:16:36Z",
+      "collected_at": "2026-09-05T14:30:42Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "e6e6bcdfe89da86e335e9462",
       "source_id": "france24",
@@ -485,6 +505,20 @@
       "url": "https://www.france24.com/en/middle-east/20260905-middle-east-live-israeli-strikes-on-south-and-east-lebanon-kill-three-people",
       "published_at": "2026-09-05T05:01:24Z",
       "collected_at": "2026-09-05T07:30:39Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "6b3f71129dfbe60d9c798cb6",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Middle East live: US military says it struck 3 Iranian crude oil carriers",
+      "url": "https://www.france24.com/en/middle-east/20260905-middle-east-live-israeli-strikes-on-south-and-east-lebanon-kill-three-people",
+      "published_at": "2026-09-05T05:01:24Z",
+      "collected_at": "2026-09-05T14:30:42Z",
       "topics": [
         "politics",
         "security",
@@ -1164,62 +1198,6 @@
       ]
     },
     {
-      "id": "5c22d84bf0d2da52f12ed464",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "French government promises €1B for drought-stricken farmers",
-      "url": "https://www.politico.eu/article/french-government-promises-e1-billion-for-drought-stricken-farmers",
-      "published_at": "2026-09-04T14:15:39Z",
-      "collected_at": "2026-09-04T14:30:39Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "1b87010c6eeca8996b799512",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "GRN gene: When genetic information upends life",
-      "url": "https://english.elpais.com/science-tech/2026-09-04/grn-gene-when-genetic-information-upends-life.html",
-      "published_at": "2026-09-04T14:04:23Z",
-      "collected_at": "2026-09-04T14:30:39Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "c244edcda4571c17c61279d8",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "A ‘spaceship’ in the heart of Manhattan: Can New York’s most distinctive building be saved?",
-      "url": "https://english.elpais.com/culture/2026-09-04/a-spaceship-in-the-heart-of-manhattan-can-new-yorks-most-distinctive-building-be-saved.html",
-      "published_at": "2026-09-04T14:03:35Z",
-      "collected_at": "2026-09-04T14:30:39Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "6ccf080a1e63a0bd5d9152bf",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Russian drone ‘aimed directly’ at Ukraine security service HQ, Zelensky says",
-      "url": "https://www.france24.com/en/europe/20260904-russian-drone-aimed-directly-at-ukraine-security-service-hq-zelensky-says",
-      "published_at": "2026-09-04T13:59:22Z",
-      "collected_at": "2026-09-04T14:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "9e74d0d573312df32302060a",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1234,113 +1212,15 @@
       ]
     },
     {
-      "id": "2c20e71cb090a90e28035cd9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "An inside look at Lucas Museum of Narrative Art in Los Angeles",
-      "url": "https://www.france24.com/en/video/20260904-an-inside-look-at-lucas-museum-of-narrative-art-in-los-angeles",
-      "published_at": "2026-09-04T13:57:54Z",
-      "collected_at": "2026-09-04T14:00:51Z",
+      "id": "5f85747667b717a7519052e2",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland offers businesses seats on presidential plane for foreign visits",
+      "url": "https://notesfrompoland.com/2026/09/03/poland-offers-businesses-seats-on-presidential-plane-for-foreign-visits",
+      "published_at": "2026-09-03T13:33:00Z",
+      "collected_at": "2026-09-05T14:30:42Z",
       "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "b782fe1a8c7dd2dd62b93441",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Nigel Farage: Departing aides guilty of only ‘loose pub talk’",
-      "url": "https://www.politico.eu/article/nigel-farage-reform-uk-departing-aides-loose-pub-talk",
-      "published_at": "2026-09-04T13:56:56Z",
-      "collected_at": "2026-09-04T14:00:51Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "a73ce8ab6113d50462f38912",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Nepal floods: Two workers pulled alive from tunnel after nine days",
-      "url": "https://www.france24.com/en/video/20260904-nepal-floods-two-workers-pulled-alive-from-tunnel-after-nine-days",
-      "published_at": "2026-09-04T13:54:33Z",
-      "collected_at": "2026-09-04T14:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "8483492d9c28d7e47490bbb5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Meloni celebrates milestone as Italy's longest-lasting government",
-      "url": "https://www.france24.com/en/video/20260904-meloni-celebrates-milestone-as-italy-s-longest-lasting-government",
-      "published_at": "2026-09-04T13:50:38Z",
-      "collected_at": "2026-09-04T14:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0eba6e4efa728087c7f731d3",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Struggling to make its voice heard: Can the EU forge a true foreign policy?",
-      "url": "https://www.france24.com/en/tv-shows/talking-europe/20260904-struggling-to-make-its-voice-heard-can-the-eu-forge-a-true-foreign-policy",
-      "published_at": "2026-09-04T13:42:39Z",
-      "collected_at": "2026-09-04T14:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "7b2556a2d42b82d987c47f6a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Israeli army has seized Lebanon's key Ali al-Taher ridge from Hezbollah",
-      "url": "https://www.france24.com/en/middle-east/20260904-israel-says-it-has-seized-lebanon-key-ali-al-taher-ridge-from-hezbollah",
-      "published_at": "2026-09-04T13:27:50Z",
-      "collected_at": "2026-09-04T14:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "098d5842cc17b12bcef4f61f",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Sécheresse : le gouvernement promet un milliard pour les agriculteurs",
-      "url": "https://www.politico.eu/article/secheresse-le-gouvernement-annie-genevard-promet-un-milliard-pour-les-agriculteurs",
-      "published_at": "2026-09-04T11:13:59Z",
-      "collected_at": "2026-09-04T14:30:39Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "206f7efaebd993e75a12087e",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
-      "url": "https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-04T10:00:18Z",
-      "collected_at": "2026-09-04T14:00:51Z",
-      "topics": [
-        "breaking",
+        "central_europe",
         "politics",
         "society"
       ]
@@ -1409,6 +1289,20 @@
       "url": "https://www.bbc.co.uk/news/articles/c07lz7rn2mjo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-09-03T12:18:07Z",
       "collected_at": "2026-09-05T12:30:41Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "f86e898c8ff179b593ae3752",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Liechtenstein MPs vote to legalise abortion despite threat of veto",
+      "url": "https://www.bbc.co.uk/news/articles/c9dwedep38po?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-03T11:30:38Z",
+      "collected_at": "2026-09-05T14:30:42Z",
       "topics": [
         "breaking",
         "politics",
@@ -1542,20 +1436,6 @@
       ]
     },
     {
-      "id": "08f258ade909db3cff64b4f1",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany",
-      "url": "https://www.bbc.co.uk/news/articles/ce9e810pg7ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-03T03:21:24Z",
-      "collected_at": "2026-09-04T14:00:51Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "9d6de50c0b4375bf98c834ab",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1682,17 +1562,31 @@
       ]
     },
     {
-      "id": "bdce89fc0c47b82d56dff746",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Rosenberg: Putin's veiled threat to UK part of Russia's campaign against West",
-      "url": "https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-02T11:47:11Z",
-      "collected_at": "2026-09-04T14:00:51Z",
+      "id": "ab0087f94f80ff00df4abcf4",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Ukraine: Russia threatens 'devastating' Baltic response",
+      "url": "https://www.dw.com/en/ukraine-russia-threatens-devastating-baltic-response/live-78582421?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-02T00:08:00Z",
+      "collected_at": "2026-09-05T14:30:42Z",
       "topics": [
-        "breaking",
         "politics",
-        "society"
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "9bcb99559213948241fd2ee8",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Mladic's death, Bosnia and Serbia's unfinished reckoning",
+      "url": "https://www.dw.com/en/mladic-s-death-bosnia-and-serbia-s-unfinished-reckoning/a-78602733?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-01T13:09:00Z",
+      "collected_at": "2026-09-05T14:30:42Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -1819,20 +1713,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "d2f48f448fd985afd155cddb",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Fundraiser for baby orphaned by speeding driver in Polish city reaches 1 million zloty",
-      "url": "https://notesfrompoland.com/2026/08/31/fundraiser-for-baby-orphaned-by-speeding-driver-in-polish-city-reaches-1-million-zloty",
-      "published_at": "2026-08-31T13:54:27Z",
-      "collected_at": "2026-09-04T14:30:39Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
       ]
     },
     {
@@ -2056,20 +1936,6 @@
       "topics": [
         "politics",
         "society",
-        "security"
-      ]
-    },
-    {
-      "id": "e296a650533ce460ce94d840",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Talk is cheap: Europe’s defence promise meets the EU budget",
-      "url": "https://ecfr.eu/article/talk-is-cheap-europes-defence-promise-meets-the-eu-budget",
-      "published_at": "2026-08-27T11:30:06Z",
-      "collected_at": "2026-09-04T14:30:39Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
         "security"
       ]
     },
