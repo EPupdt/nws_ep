@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-06T11:00:45Z",
-  "last_successful_collection_at": "2026-09-06T11:00:45Z",
+  "generated_at": "2026-09-06T11:31:17Z",
+  "last_successful_collection_at": "2026-09-06T11:31:17Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-06T11:00:45Z"
+      "at": "2026-09-06T11:31:17Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-06T11:00:45Z"
+      "at": "2026-09-06T11:31:17Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-06T11:00:45Z"
+      "at": "2026-09-06T11:31:17Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-06T11:00:45Z"
+      "at": "2026-09-06T11:31:17Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-06T11:00:45Z"
+      "at": "2026-09-06T11:31:17Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-06T11:00:45Z"
+      "at": "2026-09-06T11:31:17Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-06T11:00:45Z"
+      "at": "2026-09-06T11:31:17Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-06T11:00:45Z"
+      "at": "2026-09-06T11:31:17Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-06T11:00:45Z"
+      "at": "2026-09-06T11:31:17Z"
     }
   ],
   "europe_now": [
     {
       "title": "US Envoys Advance Ukraine Negotiations",
-      "summary": "American envoys traveled to Kyiv following substantive discussions with Russian leadership in Moscow regarding potential paths to peace. The diplomatic mission highlights ongoing international efforts to address the ongoing conflict in Eastern Europe.",
+      "summary": "United States envoys traveled to Kyiv following substantive discussions with Russian leadership in Moscow. The diplomatic mission centers on ongoing negotiations regarding the conflict in Ukraine.",
       "article_ids": [
         "07ea9301630f4018ff704fe1",
         "839465c469dad1a878356fa5"
@@ -87,10 +87,11 @@
       "source_count": 2
     },
     {
-      "title": "German Startup Reaches Space Milestone",
-      "summary": "A German aerospace startup achieved a major technological milestone by completing the region's first successful orbital launch. This development marks a significant advancement for commercial space capabilities within Europe.",
+      "title": "German Regional Elections and Space Milestone",
+      "summary": "Germany's far-right AfD enters regional elections as a prominent frontrunner in eastern state contests. Meanwhile, a German startup achieved the nation's first successful orbital launch.",
       "article_ids": [
-        "f8dc8d7ac822cc15d0f663c7"
+        "f8dc8d7ac822cc15d0f663c7",
+        "302758cabe9fe80cff39ba10"
       ],
       "sources": [
         {
@@ -98,20 +99,32 @@
           "url": "https://www.politico.eu/article/german-startup-makes-european-space-history-with-first-successful-orbital-launch",
           "headline": "German startup makes European space history with first successful orbital launch",
           "published_at": "2026-09-06T10:59:15Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260906-germany-s-far-right-afd-eyes-historic-state-victory-in-saxony-anhalt-election",
+          "headline": "Germany's far-right AfD eyes historic state victory in Saxony-Anhalt election",
+          "published_at": "2026-09-06T05:52:06Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "Diplomatic Engagement in Eastern Europe",
-      "summary": "United States representatives held extensive discussions in Moscow before traveling onward to Kyiv for further diplomatic meetings. These high-level visits form part of a broader international push to broker peace and evaluate ceasefire possibilities in the region.",
+      "title": "Diplomatic Talks on Ukraine",
+      "summary": "US envoys Witkoff and Kushner traveled to Ukraine after holding discussions in Russia. The meetings form part of ongoing diplomatic efforts surrounding the conflict.",
       "article_ids": [
         "07ea9301630f4018ff704fe1",
         "839465c469dad1a878356fa5"
       ],
       "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
+          "headline": "US envoys arrive in Ukraine for talks after meeting Putin in Russia",
+          "published_at": "2026-09-06T10:44:26Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20260906-live-trump-s-envoys-head-to-ukraine-after-substantive-talks-with-putin",
@@ -119,11 +132,11 @@
           "published_at": "2026-09-06T10:18:24Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "German Regional Political Landscape",
-      "summary": "Political attention centers on Germany as state elections approach, with the far-right Alternative for Germany emerging as a prominent frontrunner. Observers are closely monitoring voter sentiment and potential shifts in the national political balance.",
+      "title": "German Regional Electoral Contests",
+      "summary": "State elections in Germany have drawn significant attention as the far-right AfD emerges as a leading contender. These regional votes highlight shifting political dynamics within the country.",
       "article_ids": [
         "a974641f298f1a63544d4958",
         "302758cabe9fe80cff39ba10"
@@ -240,6 +253,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "1e376921307aa4b6d2f6a1e9",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Germany, Kosovo unite against ticks carrying deadly virus",
+      "url": "https://www.dw.com/en/germany-kosovo-unite-against-ticks-carrying-deadly-virus/a-78655223?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-06T10:25:00Z",
+      "collected_at": "2026-09-06T11:31:17Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -971,6 +998,48 @@
       ]
     },
     {
+      "id": "0d19731464a222640d619846",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Wave of Russian sabotage attacks exposes counter-intelligence gaps on Nato’s eastern flank",
+      "url": "https://euobserver.com/235146/wave-of-russian-sabotage-attacks-exposes-counter-intelligence-gaps-on-natos-eastern-flank",
+      "published_at": "2026-09-04T10:43:04Z",
+      "collected_at": "2026-09-06T11:31:17Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "2f531fe6e3b5182fb25f74e7",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Prime minister’s “right-hand man” elected as Polish constitutional court judge",
+      "url": "https://notesfrompoland.com/2026/09/04/prime-ministers-right-hand-man-elected-as-polish-constitutional-court-judge",
+      "published_at": "2026-09-04T10:38:31Z",
+      "collected_at": "2026-09-06T11:31:17Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "cc345932f6b1feb98e21b5a6",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "A no to the EU, not to Europe: What Icelanders actually voted on",
+      "url": "https://ecfr.eu/article/a-no-to-the-eu-not-to-europe-what-icelanders-actually-voted-on",
+      "published_at": "2026-09-04T09:39:31Z",
+      "collected_at": "2026-09-06T11:31:17Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
       "id": "4921c8a7d951029762cf3c01",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1349,62 +1418,6 @@
       ]
     },
     {
-      "id": "94a2d486334b38c383ae7c77",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Hungary’s Orbán-style media takeover playbook lands in Serbia before elections",
-      "url": "https://euobserver.com/234674/hungarys-orban-style-media-takeover-playbook-lands-in-serbia-before-elections",
-      "published_at": "2026-09-03T10:55:12Z",
-      "collected_at": "2026-09-05T11:30:37Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "ce9044980374cb6fb5cab901",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland moves to allow local communities to ban short-term rentals",
-      "url": "https://notesfrompoland.com/2026/09/03/poland-moves-to-allow-local-communities-to-ban-short-term-rentals",
-      "published_at": "2026-09-03T10:48:50Z",
-      "collected_at": "2026-09-05T11:30:37Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "e56fde134f87b7270707ef47",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Italian Grand Prix declared heat-hazard race",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c99dp0zeymjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-03T09:41:30Z",
-      "collected_at": "2026-09-05T11:30:37Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "25582b150224af3bcd7bedc5",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "'Humble but ambitious' - the return of fallen giants Schalke",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5ym7g49gr0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-03T07:48:46Z",
-      "collected_at": "2026-09-05T11:30:37Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "6a3d7b31a38a4be2dc44d1cf",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1416,6 +1429,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "2426c29b03acb10fe8cef1f0",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland grants Ukraine permission to search for remains of Ukrainians massacred by Polish partisans",
+      "url": "https://notesfrompoland.com/2026/09/02/poland-grants-ukraine-permission-to-search-for-remains-of-ukrainians-massacred-by-polish-partisans",
+      "published_at": "2026-09-02T10:37:01Z",
+      "collected_at": "2026-09-06T11:31:17Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
       ]
     },
     {
@@ -1601,34 +1628,6 @@
       ]
     },
     {
-      "id": "11ba2817a480953389bcbe8b",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "US irks Germany, Europe with Russian G20 invite, press bans",
-      "url": "https://www.dw.com/en/us-irks-germany-europe-with-russian-g20-invite-press-bans/a-78583919?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-01T10:23:00Z",
-      "collected_at": "2026-09-05T11:30:37Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "d2bd711e7eca6f608a348b29",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The three witnesses to Lorenzo Salgado’s death are free as the case moves toward a grand jury",
-      "url": "https://english.elpais.com/usa/2026-09-01/the-three-witnesses-to-lorenzo-salgados-death-are-free-as-the-case-moves-toward-a-grand-jury.html",
-      "published_at": "2026-09-01T08:35:39Z",
-      "collected_at": "2026-09-05T11:30:37Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "0c37fe0a6455028db568adbd",
       "source_id": "ecfr",
       "source_name": "European Council on Foreign Relations",
@@ -1640,20 +1639,6 @@
         "analysis",
         "foreign_policy",
         "security"
-      ]
-    },
-    {
-      "id": "bfec2ae182c992e2f348b0ab",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Edi Rama, Albania’s prime minister and an artist exhibiting in Paris and New York",
-      "url": "https://english.elpais.com/culture/2026-08-29/edi-rama-albanias-prime-minister-and-an-artist-exhibiting-in-paris-and-new-york.html",
-      "published_at": "2026-08-29T04:00:00Z",
-      "collected_at": "2026-09-05T11:30:37Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -1846,6 +1831,20 @@
       "url": "https://ecfr.eu/article/anti-corruption-sanctions-preparing-for-the-time-after-trump",
       "published_at": "2026-08-10T10:44:08Z",
       "collected_at": "2026-09-05T17:01:03Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "16cfdf95b5556495a1fe30a5",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Latin America’s new imaginaries",
+      "url": "https://ecfr.eu/podcasts/episode/latin-americas-new-imaginaries",
+      "published_at": "2026-08-07T05:00:00Z",
+      "collected_at": "2026-09-06T11:31:17Z",
       "topics": [
         "analysis",
         "foreign_policy",
