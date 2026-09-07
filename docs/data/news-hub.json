@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-07T13:30:45Z",
-  "last_successful_collection_at": "2026-09-07T13:30:45Z",
+  "generated_at": "2026-09-07T14:00:58Z",
+  "last_successful_collection_at": "2026-09-07T14:00:58Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-07T13:30:45Z"
+      "at": "2026-09-07T14:00:58Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "28",
-      "at": "2026-09-07T13:30:45Z"
+      "at": "2026-09-07T14:00:58Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-09-07T13:30:45Z"
+      "status": "error",
+      "detail": "HTTP Error 404: Not Found",
+      "at": "2026-09-07T14:00:58Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-07T13:30:45Z"
+      "at": "2026-09-07T14:00:58Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-07T13:30:45Z"
+      "at": "2026-09-07T14:00:58Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-07T13:30:45Z"
+      "at": "2026-09-07T14:00:58Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-07T13:30:45Z"
+      "at": "2026-09-07T14:00:58Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-07T13:30:45Z"
+      "at": "2026-09-07T14:00:58Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-07T13:30:45Z"
+      "at": "2026-09-07T14:00:58Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Far-right AfD wins German state election",
-      "summary": "The Alternative for Germany party secured a major state election victory, prompting widespread political concern and debate across mainstream parties.",
+      "title": "German far-right election victory",
+      "summary": "Germany's far-right AfD party secured a victory in a key regional state election, prompting strong reactions from political figures across Europe.",
       "article_ids": [
         "f43515c7d9ab17bf7b535167",
         "5fd7310186921f53a8f2c366",
@@ -88,17 +88,24 @@
       "source_count": 2
     },
     {
-      "title": "Poland urges stricter EU border asylum rules",
-      "summary": "Polish authorities have called on the European Union to deny asylum to individuals who cross borders using violence.",
+      "title": "Commercial spaceflight milestone",
+      "summary": "A German startup has successfully completed Europe's first commercial space launch and private orbital mission.",
       "article_ids": [
-        "a3c54bf727351f3489f97229"
+        "066cbe821cf5b08512650c70",
+        "45a0e22f1a187e1ac40a45ca"
       ],
       "sources": [
         {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/09/07/poland-urges-eu-to-deny-asylum-to-migrants-who-violently-cross-its-borders",
-          "headline": "Poland urges EU to deny asylum to migrants who violently cross its borders",
-          "published_at": "2026-09-07T12:45:05Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260907-german-startup-carries-out-europe-s-first-commercial-space-launch",
+          "headline": "German startup carries out Europe's first commercial space launch",
+          "published_at": "2026-09-07T09:41:31Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/business/20260907-german-startup-notches-europe-s-first-successful-private-orbital-launch",
+          "headline": "German startup notches Europe's first successful private orbital launch",
+          "published_at": "2026-09-07T09:32:58Z"
         }
       ],
       "source_count": 1
@@ -106,18 +113,20 @@
   ],
   "top_stories": [
     {
-      "title": "German Regional Elections and Political Repercussions",
-      "summary": "The Alternative for Germany achieved a significant electoral victory in a regional vote. Mainstream political figures expressed deep concern over the outcome and its broader implications.",
+      "title": "German State Elections and Political Fallout",
+      "summary": "The Alternative for Germany party won a significant regional state election, creating intense political debates regarding coalition options and democratic standards. Mainstream political leaders expressed shock and concern following the outcome.",
       "article_ids": [
         "f43515c7d9ab17bf7b535167",
+        "2673ff88663e3da373a66d48",
+        "5fd7310186921f53a8f2c366",
         "a89db197ae728e85156bf747"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260907-replay-shocked-merz-speaks-after-far-right-election-victory",
-          "headline": "REPLAY: 'Shocked' Merz speaks after far-right election victory",
-          "published_at": "2026-09-07T13:04:47Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cpd0113082eo?at_medium=RSS&at_campaign=rss",
+          "headline": "Germany's far-right AfD says 'democracy demands' parties work with them after state election win",
+          "published_at": "2026-09-07T11:10:56Z"
         },
         {
           "publisher": "France 24 English",
@@ -126,11 +135,11 @@
           "published_at": "2026-09-07T09:55:25Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Commercial Spaceflight Achievement",
-      "summary": "A German startup successfully completed Europe's first commercial space launch. This mission marks a notable milestone for private orbital capabilities in the region.",
+      "title": "European Commercial Space Achievement",
+      "summary": "A German aerospace startup successfully carried out Europe's first commercial space launch. The milestone achievement marks a significant step forward for private orbital launch capabilities within the region.",
       "article_ids": [
         "066cbe821cf5b08512650c70",
         "45a0e22f1a187e1ac40a45ca"
@@ -181,27 +190,6 @@
       ]
     },
     {
-      "label": "Anhalt · Saxony · Germany",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-09-07T10:13:55Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260907-segregated-schools-and-citizen-watch-groups-the-afd-s-plans-for-saxony-anhalt",
-          "headline": "Segregated schools and citizen ‘watch groups’: the AfD’s plans for Saxony-Anhalt",
-          "published_at": "2026-09-07T10:13:55Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/235643/afds-electoral-triumph-is-a-watershed-regardless-of-whether-it-gets-to-form-the-saxony-anhalt-government",
-          "headline": "AfD’s electoral triumph is a watershed, regardless of whether it gets to form the Saxony-Anhalt government",
-          "published_at": "2026-09-07T08:49:56Z"
-        }
-      ]
-    },
-    {
       "label": "German · right · eastern · state",
       "origin": "convergence",
       "source_count": 2,
@@ -219,6 +207,27 @@
           "url": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss",
           "headline": "German far-right set for big win in eastern state, projections show",
           "published_at": "2026-09-06T19:30:14Z"
+        }
+      ]
+    },
+    {
+      "label": "Anhalt · Saxony",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-09-07T10:13:55Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260907-segregated-schools-and-citizen-watch-groups-the-afd-s-plans-for-saxony-anhalt",
+          "headline": "Segregated schools and citizen ‘watch groups’: the AfD’s plans for Saxony-Anhalt",
+          "published_at": "2026-09-07T10:13:55Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/235643/afds-electoral-triumph-is-a-watershed-regardless-of-whether-it-gets-to-form-the-saxony-anhalt-government",
+          "headline": "AfD’s electoral triumph is a watershed, regardless of whether it gets to form the Saxony-Anhalt government",
+          "published_at": "2026-09-07T08:49:56Z"
         }
       ]
     },
@@ -245,6 +254,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "2ca8bdd55fdbbef36a7a94c0",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "[Interview] Europe needs to finish single market or lose more scale-ups to China and the US, warns Enrico Letta",
+      "url": "https://euobserver.com/235763/interview-europe-needs-to-finish-single-market-or-lose-more-scale-ups-to-china-and-the-us-warns-enrico-letta",
+      "published_at": "2026-09-07T13:35:44Z",
+      "collected_at": "2026-09-07T14:00:58Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "f43515c7d9ab17bf7b535167",
       "source_id": "france24",
@@ -1702,62 +1725,6 @@
       ]
     },
     {
-      "id": "46152dfbacfddb9d4769c4e9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Egyptian TV presenter Sarah Khalifa sentenced to death in drug case",
-      "url": "https://www.france24.com/en/africa/20260906-egyptian-tv-presenter-sarah-khalifa-sentenced-to-death-in-drug-case",
-      "published_at": "2026-09-06T13:52:42Z",
-      "collected_at": "2026-09-06T14:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "2000b9e4cdc6649c5fa4e729",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "AI: The future of smart households?",
-      "url": "https://www.france24.com/en/video/20260906-ai-the-future-of-smart-households",
-      "published_at": "2026-09-06T13:50:03Z",
-      "collected_at": "2026-09-06T14:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "907eb6ed2991f360359172fe",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Germany: Why is the AfD so popular in Saxony-Anhalt?",
-      "url": "https://www.france24.com/en/video/20260906-germany-why-is-the-afd-so-popular-in-saxony-anhalt",
-      "published_at": "2026-09-06T13:37:48Z",
-      "collected_at": "2026-09-06T14:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "7113972e481d7c9ff0b4f94e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Indonesia's Anak Krakatau eruption halts flights, schools, fishing",
-      "url": "https://www.france24.com/en/video/20260906-indonesia-s-anak-krakatau-eruption-halts-flights-schools-fishing",
-      "published_at": "2026-09-06T12:54:56Z",
-      "collected_at": "2026-09-06T14:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "c62c866610252cb2150784cc",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2367,20 +2334,6 @@
       "url": "https://english.elpais.com/spain/2026-08-31/ceuta-the-month-that-broke-a-city.html",
       "published_at": "2026-08-31T14:23:02Z",
       "collected_at": "2026-09-06T15:30:41Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "654ef71b912d8378751c7e94",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Brazil, the new promised land for Cubans",
-      "url": "https://english.elpais.com/international/2026-08-31/brazil-the-new-promised-land-for-cubans.html",
-      "published_at": "2026-08-31T12:40:34Z",
-      "collected_at": "2026-09-06T14:00:49Z",
       "topics": [
         "politics",
         "society",
