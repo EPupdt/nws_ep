@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-08T18:00:50Z",
-  "last_successful_collection_at": "2026-09-08T18:00:50Z",
+  "generated_at": "2026-09-08T18:30:50Z",
+  "last_successful_collection_at": "2026-09-08T18:30:50Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-08T18:00:50Z"
+      "at": "2026-09-08T18:30:50Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "28",
-      "at": "2026-09-08T18:00:50Z"
+      "at": "2026-09-08T18:30:50Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-08T18:00:50Z"
+      "at": "2026-09-08T18:30:50Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-08T18:00:50Z"
+      "at": "2026-09-08T18:30:50Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-08T18:00:50Z"
+      "at": "2026-09-08T18:30:50Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-08T18:00:50Z"
+      "at": "2026-09-08T18:30:50Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-08T18:00:50Z"
+      "at": "2026-09-08T18:30:50Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-08T18:00:50Z"
+      "at": "2026-09-08T18:30:50Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-08T18:00:50Z"
+      "at": "2026-09-08T18:30:50Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Hungary Expels Russian Diplomats",
-      "summary": "Hungary has ordered the expulsion of ten Russian diplomats amid escalating tensions and espionage concerns. This diplomatic measure highlights a significant shift in relations between Budapest and Moscow.",
+      "title": "Diplomatic Tensions and Espionage Measures in Hungary",
+      "summary": "Hungary has ordered the expulsion of ten Russian diplomats amid growing bilateral strains and espionage concerns. This measure reflects a sharp deterioration in diplomatic relations between Budapest and Moscow.",
       "article_ids": [
         "0db7bc5711a5587b8c290c38",
         "3effd44ebf35f86f2f782ffa"
@@ -87,8 +87,56 @@
       "source_count": 2
     },
     {
-      "title": "Stricter Trade Sanctions on Israeli Settlements",
-      "summary": "France, the UK, and multiple other nations have implemented trade sanctions targeting products from Israeli settlements in the West Bank. In response, diplomatic countermeasures have been initiated by Israeli authorities, creating broader regional friction.",
+      "title": "Critical Infrastructure Sabotage Arrest in Germany",
+      "summary": "German police successfully apprehended a suspect following an extensive manhunt related to a series of attacks on the national power grid. The incident has raised significant concerns regarding the security of critical infrastructure across the country.",
+      "article_ids": [
+        "590d6958a47d1ff3335f8f53",
+        "09bca210f214b690866af424"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cy5zw56lnx3o?at_medium=RSS&at_campaign=rss",
+          "headline": "German police arrest suspected power grid saboteur after manhunt",
+          "published_at": "2026-09-08T15:57:06Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cy5zw56lnx3o?at_medium=RSS&at_campaign=rss",
+          "headline": "Sabotage suspect held in Germany after spate of attacks on power grid",
+          "published_at": "2026-09-08T15:57:06Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Escalation of Conflict and Casualties in Ukraine",
+      "summary": "Recent Russian drone strikes have hit a television channel building and resulted in multiple fatalities in Kyiv. Meanwhile, military updates indicate ongoing battlefield engagements and territorial shifts near Lyman.",
+      "article_ids": [
+        "c7e2834f527e53af997d7122",
+        "c7e47024bff8f1d86764fc83"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cn8m1k7p3v7o?at_medium=RSS&at_campaign=rss",
+          "headline": "Ukrainian TV channel building hit by Russian drone as five killed in Kyiv",
+          "published_at": "2026-09-08T16:36:47Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/236059/ukrainians-again-liberate-territory-near-lyman-details-of-the-secret-operation-revealed-ukraine-battlefield-update-day-1657",
+          "headline": "Ukrainians again liberate territory near Lyman – details of the ‘secret’ operation revealed (Ukraine Battlefield update, Day 1,657)",
+          "published_at": "2026-09-08T14:06:43Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "International Trade Measures Targeting West Bank Settlements",
+      "summary": "France, the United Kingdom, and several other nations have implemented trade restrictions targeting goods originating from Israeli settlements in the West Bank. In response to these economic sanctions, Israeli authorities announced the closure of the British consulate in Jerusalem.",
       "article_ids": [
         "73685831cc0c0bbdb6329581",
         "9bf1561a6557bc67676de599",
@@ -103,62 +151,12 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260908-uk-france-and-ten-other-countries-to-sanction-trade-from-israeli-settlements",
-          "headline": "UK, France and ten other countries to sanction trade from Israeli settlements",
-          "published_at": "2026-09-08T13:42:28Z"
+          "url": "https://www.france24.com/en/middle-east/20260908-middle-east-live-israel-to-close-british-consulate-in-jerusalem-after-sanctions-on-settlements",
+          "headline": "Middle East live: Israel to close British consulate in Jerusalem after sanctions on settlements",
+          "published_at": "2026-09-08T15:10:03Z"
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Escalation of Conflict in Kyiv",
-      "summary": "A Ukrainian television channel building was struck by a Russian drone during recent attacks. Five fatalities have been officially reported in the capital city of Kyiv.",
-      "article_ids": [
-        "c7e2834f527e53af997d7122"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cn8m1k7p3v7o?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukrainian TV channel building hit by Russian drone as five killed in Kyiv",
-          "published_at": "2026-09-08T16:36:47Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "German Power Grid Sabotage Investigation",
-      "summary": "German police successfully apprehended a suspected saboteur following an extensive manhunt. The arrest comes after a series of disruptive attacks targeting the national power grid.",
-      "article_ids": [
-        "590d6958a47d1ff3335f8f53"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cy5zw56lnx3o?at_medium=RSS&at_campaign=rss",
-          "headline": "German police arrest suspected power grid saboteur after manhunt",
-          "published_at": "2026-09-08T15:57:06Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Valuable Art Heist in France",
-      "summary": "Four paintings by Renoir, valued in the millions, were stolen during a museum heist in France. Law enforcement authorities have launched investigations into the high-profile art theft.",
-      "article_ids": [
-        "eb9229b1953f7bfe46d61b9b"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c70drp0pyw2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Four Renoir paintings worth millions stolen in French museum heist",
-          "published_at": "2026-09-08T13:35:28Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "developing": [
@@ -217,6 +215,27 @@
       ]
     },
     {
+      "label": "French · heist · museum · Renoir",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-09-08T13:35:28Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c70drp0pyw2o?at_medium=RSS&at_campaign=rss",
+          "headline": "Four Renoir paintings worth millions stolen in French museum heist",
+          "published_at": "2026-09-08T13:35:28Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260908-french-legionnaire-escapes-colombian-captors-makes-four-day-trek-to-freedom",
+          "headline": "French legionnaire escapes Colombian captors, makes four-day trek to freedom",
+          "published_at": "2026-09-08T09:34:26Z"
+        }
+      ]
+    },
+    {
       "label": "euros · France",
       "origin": "convergence",
       "source_count": 2,
@@ -236,30 +255,23 @@
           "published_at": "2026-09-08T10:28:33Z"
         }
       ]
-    },
-    {
-      "label": "Mladi · Serbia",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-09-08T16:34:00Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/236158/a-serbia-that-mourns-mladic-and-rallies-behind-vucic-cannot-join-the-european-union",
-          "headline": "A Serbia that mourns Mladić and rallies behind Vučić cannot join the European Union",
-          "published_at": "2026-09-08T16:34:00Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/ursula-von-der-leyen-brussels-reacts-ratko-mladic-butcher-of-srebrenica-funeral",
-          "headline": "Ursula von der Leyen condemns ‘shocking’ Ratko Mladić funeral in Serbia",
-          "published_at": "2026-09-08T11:13:47Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "dfdcb3c64f1d103ac226c2d2",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "After Saxony-Anhalt, will Germany now consider banning the AfD?",
+      "url": "https://euobserver.com/236197/will-germany-consider-banning-the-afd",
+      "published_at": "2026-09-08T18:00:00Z",
+      "collected_at": "2026-09-08T18:30:50Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "632669f8a8dc8aa2cd31f74f",
       "source_id": "france24",
@@ -2137,34 +2149,6 @@
       ]
     },
     {
-      "id": "3f3c0f7d5efa3b753ea230dc",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Israel warns of 'full-scale war' if Palestinian Authority launches Oct. 7-style attack",
-      "url": "https://www.france24.com/en/middle-east/20260907-israel-warns-of-full-scale-war-if-palestinian-authority-launches-oct-7-style-attack",
-      "published_at": "2026-09-07T18:08:40Z",
-      "collected_at": "2026-09-07T18:30:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e0733680be9c5bc530613fc6",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Burnham’s UK‑first politics meet a more protectionist EU and its ‘Made in Europe’ plan",
-      "url": "https://euobserver.com/235863/burnhams-ukfirst-politics-meet-a-more-protectionist-eu-and-its-made-in-europe-plan",
-      "published_at": "2026-09-07T18:00:00Z",
-      "collected_at": "2026-09-07T18:30:46Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "daf9b564d1f8eb367c9d05b0",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2190,20 +2174,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "823e88286f8ad2b0675da09e",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "EU trade chief to meet CEOs over China strategy",
-      "url": "https://www.politico.eu/article/eu-trade-chief-maros-sefcovic-meet-eu-ceos-over-china-strategy",
-      "published_at": "2026-09-07T16:16:55Z",
-      "collected_at": "2026-09-07T18:30:46Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
@@ -2693,6 +2663,20 @@
       "topics": [
         "analysis",
         "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "a3e07f6d49904d60bf2e8128",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Russian-American heads Trump's planned Caucasus trade route",
+      "url": "https://www.dw.com/en/russian-american-heads-trump-s-planned-caucasus-trade-route/a-78547064?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-08-29T16:20:00Z",
+      "collected_at": "2026-09-08T18:30:50Z",
+      "topics": [
+        "politics",
+        "society",
         "security"
       ]
     },
