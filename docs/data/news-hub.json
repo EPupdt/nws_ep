@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-08T17:00:53Z",
-  "last_successful_collection_at": "2026-09-08T17:00:53Z",
+  "generated_at": "2026-09-08T17:30:44Z",
+  "last_successful_collection_at": "2026-09-08T17:30:44Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-08T17:00:53Z"
+      "at": "2026-09-08T17:30:44Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "27",
-      "at": "2026-09-08T17:00:53Z"
+      "count": "28",
+      "at": "2026-09-08T17:30:44Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-08T17:00:53Z"
+      "at": "2026-09-08T17:30:44Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-08T17:00:53Z"
+      "at": "2026-09-08T17:30:44Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-08T17:00:53Z"
+      "at": "2026-09-08T17:30:44Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-08T17:00:53Z"
+      "at": "2026-09-08T17:30:44Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-08T17:00:53Z"
+      "at": "2026-09-08T17:30:44Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-08T17:00:53Z"
+      "at": "2026-09-08T17:30:44Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-08T17:00:53Z"
+      "at": "2026-09-08T17:30:44Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Diplomatic Escalation in Hungary",
-      "summary": "Hungary has ordered the expulsion of ten Russian diplomats following heightened espionage concerns. The move marks a significant deterioration in bilateral relations between Budapest and Moscow.",
+      "title": "Russian Drone Strikes Kyiv",
+      "summary": "A Ukrainian television building was struck by a Russian drone during an attack in Kyiv that resulted in five fatalities. The escalation highlights ongoing security concerns across the region.",
+      "article_ids": [
+        "c7e2834f527e53af997d7122"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cn8m1k7p3v7o?at_medium=RSS&at_campaign=rss",
+          "headline": "Ukrainian TV channel building hit by Russian drone as five killed in Kyiv",
+          "published_at": "2026-09-08T16:36:47Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Diplomatic Expulsions in Hungary",
+      "summary": "Hungary has expelled ten Russian diplomats amid escalating espionage concerns and worsening bilateral relations. The decision marks a significant diplomatic step by the government.",
       "article_ids": [
         "0db7bc5711a5587b8c290c38",
         "3effd44ebf35f86f2f782ffa"
@@ -85,35 +101,12 @@
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "Critical Infrastructure Sabotage Arrest in Germany",
-      "summary": "German police successfully apprehended a suspected power grid saboteur following an extensive manhunt. The arrest comes in the wake of a troubling spate of coordinated attacks targeting national energy infrastructure.",
-      "article_ids": [
-        "590d6958a47d1ff3335f8f53",
-        "09bca210f214b690866af424"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cy5zw56lnx3o?at_medium=RSS&at_campaign=rss",
-          "headline": "German police arrest suspected power grid saboteur after manhunt",
-          "published_at": "2026-09-08T15:57:06Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cy5zw56lnx3o?at_medium=RSS&at_campaign=rss",
-          "headline": "Sabotage suspect held in Germany after spate of attacks on power grid",
-          "published_at": "2026-09-08T15:57:06Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "International Trade Sanctions and Middle East Policy",
-      "summary": "France, the United Kingdom, and several other nations have implemented trade sanctions against goods originating from Israeli settlements in the West Bank. In direct response to these measures, Israeli authorities announced the closure of the British consulate in Jerusalem.",
+      "title": "European Diplomatic Actions Regarding Trade Sanctions",
+      "summary": "Several nations including the UK and France have implemented trade sanctions targeting products from Israeli settlements. In response, diplomatic friction has increased with announcements regarding consulate operations in Jerusalem.",
       "article_ids": [
         "73685831cc0c0bbdb6329581",
         "9bf1561a6557bc67676de599",
@@ -136,25 +129,24 @@
       "source_count": 2
     },
     {
-      "title": "High-Profile Museum Art Theft in France",
-      "summary": "Several valuable works by renowned artist Pierre-Auguste Renoir were stolen during a brazen museum heist in France. Law enforcement agencies have launched intensive investigations to recover the multi-million-dollar paintings.",
+      "title": "Security Operations and Investigations in Germany",
+      "summary": "German police successfully arrested a suspected saboteur following an extensive manhunt related to attacks on the country's power grid. Authorities continue to monitor critical infrastructure security across the nation.",
       "article_ids": [
-        "eb9229b1953f7bfe46d61b9b",
-        "d02d482c6ac9fc013a44c05c",
-        "fe016a2c8951f685f85c1151"
+        "590d6958a47d1ff3335f8f53",
+        "09bca210f214b690866af424"
       ],
       "sources": [
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c70drp0pyw2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Four Renoir paintings worth millions stolen in French museum heist",
-          "published_at": "2026-09-08T13:35:28Z"
+          "url": "https://www.bbc.co.uk/news/articles/cy5zw56lnx3o?at_medium=RSS&at_campaign=rss",
+          "headline": "German police arrest suspected power grid saboteur after manhunt",
+          "published_at": "2026-09-08T15:57:06Z"
         },
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c70drp0pyw2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Renoir paintings worth millions stolen in French museum heist",
-          "published_at": "2026-09-08T13:35:28Z"
+          "url": "https://www.bbc.co.uk/news/articles/cy5zw56lnx3o?at_medium=RSS&at_campaign=rss",
+          "headline": "Sabotage suspect held in Germany after spate of attacks on power grid",
+          "published_at": "2026-09-08T15:57:06Z"
         }
       ],
       "source_count": 1
@@ -165,7 +157,7 @@
       "label": "Eiffel · Tower · staff · female",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 9,
+      "item_count": 7,
       "latest_at": "2026-09-08T15:18:54Z",
       "sources": [
         {
@@ -185,33 +177,6 @@
           "url": "https://www.politico.eu/article/female-staff-sidelined-during-hindu-groups-eiffel-tower-visit-sparks-uproar",
           "headline": "Hindu group’s Eiffel Tower visit sparks uproar after female staff sidelined",
           "published_at": "2026-09-08T09:42:38Z"
-        }
-      ]
-    },
-    {
-      "label": "Kyiv · killed · pause · strikes",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 4,
-      "latest_at": "2026-09-08T16:36:47Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cn8m1k7p3v7o?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukrainian TV channel building hit by Russian drone as five killed in Kyiv",
-          "published_at": "2026-09-08T16:36:47Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russian-strikes-kyiv-resume-after-pause-us-witkoff-kushner-visit",
-          "headline": "Russian strikes on Kyiv resume after pause for Witkoff and Kushner visit",
-          "published_at": "2026-09-08T08:22:16Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260908-live-russia-resumes-strikes-on-kyiv-after-three-day-halt",
-          "headline": "🔴 Live: At least two killed in Kyiv as Russia renews strikes after three-day pause",
-          "published_at": "2026-09-08T05:25:00Z"
         }
       ]
     },
@@ -243,6 +208,27 @@
       ]
     },
     {
+      "label": "French · heist · museum · Renoir",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-09-08T13:35:28Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c70drp0pyw2o?at_medium=RSS&at_campaign=rss",
+          "headline": "Four Renoir paintings worth millions stolen in French museum heist",
+          "published_at": "2026-09-08T13:35:28Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260908-french-legionnaire-escapes-colombian-captors-makes-four-day-trek-to-freedom",
+          "headline": "French legionnaire escapes Colombian captors, makes four-day trek to freedom",
+          "published_at": "2026-09-08T09:34:26Z"
+        }
+      ]
+    },
+    {
       "label": "euros · France",
       "origin": "convergence",
       "source_count": 2,
@@ -265,6 +251,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "0615af1b0ed35b83f6ffce4a",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Fourteen go on trial over deadliest Channel small boats disaster",
+      "url": "https://www.bbc.co.uk/news/articles/cd94jn72w2yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-08T17:24:25Z",
+      "collected_at": "2026-09-08T17:30:44Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "c7e2834f527e53af997d7122",
       "source_id": "bbc_europe",
@@ -644,6 +644,20 @@
       ]
     },
     {
+      "id": "f3a57599bdf032a270596f19",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The Japanese drone company taking on Russia in Ukraine",
+      "url": "https://english.elpais.com/international/2026-09-08/the-japanese-drone-company-taking-on-russia-in-ukraine.html",
+      "published_at": "2026-09-08T14:26:43Z",
+      "collected_at": "2026-09-08T17:30:44Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "ac3818079b8c5ca8d7087dfe",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -753,6 +767,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "b5abd3f02e604f51c9412034",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The alliance between the ‘king of cocaine’ and a Gestapo chief to create the first narco-state in Bolivia",
+      "url": "https://english.elpais.com/culture/2026-09-08/the-alliance-between-the-king-of-cocaine-and-a-gestapo-chief-to-create-the-first-narco-state-in-bolivia.html",
+      "published_at": "2026-09-08T13:57:48Z",
+      "collected_at": "2026-09-08T17:30:44Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2142,20 +2170,6 @@
       ]
     },
     {
-      "id": "58c5b14fa8ec69dd977fd0e0",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Russia shuts German consulate as drone dispute escalates",
-      "url": "https://www.politico.eu/article/russia-germany-consulate-st-petersburg-drone-dispute",
-      "published_at": "2026-09-07T16:53:07Z",
-      "collected_at": "2026-09-07T17:00:55Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "c4bff2f0c3d3292a9ce21d2e",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2170,20 +2184,6 @@
       ]
     },
     {
-      "id": "670d77c13d2af04ffabb51c1",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Ratko Mladić funeral exposes gap between Serbia’s EU ambitions and political reality",
-      "url": "https://www.politico.eu/article/ratko-mladic-funeral-serbia-eu-ambitions-political-reality",
-      "published_at": "2026-09-07T16:33:04Z",
-      "collected_at": "2026-09-07T17:00:55Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "823e88286f8ad2b0675da09e",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2195,48 +2195,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "e50770c5017d39c3847813e2",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Morocco grows bolder thanks to Trump’s (and Israel’s) support",
-      "url": "https://english.elpais.com/international/2026-09-07/morocco-grows-bolder-thanks-to-trumps-and-israels-support.html",
-      "published_at": "2026-09-07T16:15:12Z",
-      "collected_at": "2026-09-07T17:00:55Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "79515f65b661350d2184e703",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Israel bombs southern Lebanon despite the truce: ‘We feel like we are still at war’",
-      "url": "https://english.elpais.com/international/2026-09-07/israel-bombs-southern-lebanon-despite-the-truce-we-feel-like-we-are-still-at-war.html",
-      "published_at": "2026-09-07T15:11:56Z",
-      "collected_at": "2026-09-07T17:00:55Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "905c606d0d17d2565bb33f5b",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘Bella ciao’: The tumultuous life of the antifascist anthem",
-      "url": "https://english.elpais.com/culture/2026-09-07/bella-ciao-the-tumultuous-life-of-the-antifascist-anthem.html",
-      "published_at": "2026-09-07T15:11:53Z",
-      "collected_at": "2026-09-07T17:00:55Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -2741,6 +2699,20 @@
         "analysis",
         "foreign_policy",
         "security"
+      ]
+    },
+    {
+      "id": "0a673a6cb0e79a521041a232",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Ric Prado, ex-CIA officer: ‘Cuba is the next apple to fall from the tree’",
+      "url": "https://english.elpais.com/international/2026-08-05/ric-prado-ex-cia-officer-cuba-is-the-next-apple-to-fall-from-the-tree.html",
+      "published_at": "2026-08-05T10:09:29Z",
+      "collected_at": "2026-09-08T17:30:44Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     }
   ]
