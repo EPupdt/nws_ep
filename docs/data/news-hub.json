@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-08T04:30:44Z",
-  "last_successful_collection_at": "2026-09-08T04:30:44Z",
+  "generated_at": "2026-09-08T05:00:51Z",
+  "last_successful_collection_at": "2026-09-08T05:00:51Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-08T04:30:44Z"
+      "at": "2026-09-08T05:00:51Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-09-08T04:30:44Z"
+      "at": "2026-09-08T05:00:51Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-08T04:30:44Z"
+      "at": "2026-09-08T05:00:51Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-08T04:30:44Z"
+      "at": "2026-09-08T05:00:51Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-08T04:30:44Z"
+      "at": "2026-09-08T05:00:51Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-08T04:30:44Z"
+      "at": "2026-09-08T05:00:51Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-08T04:30:44Z"
+      "at": "2026-09-08T05:00:51Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-09-08T04:30:44Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-09-08T05:00:51Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-08T04:30:44Z"
+      "at": "2026-09-08T05:00:51Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russia closes German consulate amid escalating diplomatic tensions",
-      "summary": "Russia has ordered the closure of the German consulate in St. Petersburg following an intensifying dispute over drone incidents. This diplomatic fallout marks a further deterioration in bilateral relations between Moscow and Berlin.",
+      "title": "Russian Strikes Resume in Kyiv",
+      "summary": "Russian forces have renewed attacks on Kyiv following a temporary three-day halt. The renewed assault escalates security concerns in the region.",
+      "article_ids": [
+        "8cbacedfbb88e1755103b0af",
+        "c36b31ec20cbf741b974ee6e"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260908-live-russia-resumes-strikes-on-kyiv-after-three-day-halt",
+          "headline": "Live: Russia pummels Kyiv after three-day halt",
+          "published_at": "2026-09-08T02:00:01Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260908-live-russia-resumes-strikes-on-kyiv-after-three-day-halt",
+          "headline": "Live: Russia renews Kyiv strikes after three-day pause",
+          "published_at": "2026-09-08T02:00:01Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Russia Shuts German Consulate Amid Dispute",
+      "summary": "Moscow has ordered the closure of a German consulate following an escalating diplomatic dispute over drone incidents. The move marks a further deterioration in bilateral ties.",
       "article_ids": [
         "58c5b14fa8ec69dd977fd0e0"
       ],
@@ -78,28 +101,12 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Volkswagen's Osnabrück plant transitions from car manufacturing to defense",
-      "summary": "Volkswagen has announced that its manufacturing facility in Osnabrück will shift its primary operations away from building automobiles toward the defense sector. The strategic pivot reflects broader industrial shifts responding to changing security demands in Europe.",
-      "article_ids": [
-        "40f64cff483f67fed02ad84b"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/business/20260907-volkswagen-s-osnabr%C3%BCck-plant-to-switch-from-cars-to-defence",
-          "headline": "Volkswagen's Osnabrück plant to switch from cars to defence",
-          "published_at": "2026-09-07T20:52:55Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "German far-right electoral success creates political instability",
-      "summary": "The recent electoral breakthroughs by the far-right Alternative for Germany party have sent shockwaves throughout the country's political establishment. Mainstream leaders are currently struggling to formulate effective responses to the rising political crisis.",
+      "title": "German Political Fallout",
+      "summary": "Recent regional elections in Germany resulted in significant electoral gains for the far-right Alternative for Germany party. Political leaders are facing increased pressure and instability following the breakthrough.",
       "article_ids": [
         "d99388150737fa2c04cd43eb",
         "24760398ce46e2915ae2ea9f"
@@ -115,24 +122,8 @@
       "source_count": 1
     },
     {
-      "title": "Severe weather impacts French wine harvest",
-      "summary": "Scorching summer temperatures and prolonged drought conditions have severely damaged wine grape crops across France. Consequently, regional wine production has plummeted significantly compared to previous years.",
-      "article_ids": [
-        "0ab42eb202b152c5d0a9ab9b"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/france-wine-harvest-drought-heatwaves",
-          "headline": "Champagne production halves as scorching summer dents French wine grape harvest",
-          "published_at": "2026-09-07T15:37:25Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Funeral of Ratko Mladić draws crowds and international criticism",
-      "summary": "Thousands of attendees gathered in Belgrade for the burial of convicted war criminal Ratko Mladić. European Union officials strongly criticized the event, stating there is no place for the glorification of war criminals.",
+      "title": "Ratko Mladić Funeral Condemned",
+      "summary": "The burial of convicted war criminal Ratko Mladić in Belgrade drew large crowds and widespread international condemnation. European Union officials stated that there is no place for the glorification of war criminals.",
       "article_ids": [
         "0176abce66d7f6b4e3b79b3b",
         "631b98d1138dc5027d8aaa4c",
@@ -153,14 +144,30 @@
         }
       ],
       "source_count": 2
+    },
+    {
+      "title": "Extreme Weather Impacts French Harvest",
+      "summary": "Scorching summer heatwaves and severe drought have heavily impacted agriculture in France. Grape harvests and champagne production have seen sharp declines as a direct result of the extreme weather.",
+      "article_ids": [
+        "0ab42eb202b152c5d0a9ab9b"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/france-wine-harvest-drought-heatwaves",
+          "headline": "Champagne production halves as scorching summer dents French wine grape harvest",
+          "published_at": "2026-09-07T15:37:25Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "developing": [
     {
-      "label": "Germany · right · Victory · election",
+      "label": "Germany · right · election · state",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 8,
+      "item_count": 7,
       "latest_at": "2026-09-07T14:38:21Z",
       "sources": [
         {
@@ -340,6 +347,20 @@
       "url": "https://www.france24.com/en/europe/20260908-live-russia-resumes-strikes-on-kyiv-after-three-day-halt",
       "published_at": "2026-09-08T02:00:01Z",
       "collected_at": "2026-09-08T03:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c36b31ec20cbf741b974ee6e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: Russia renews Kyiv strikes after three-day pause",
+      "url": "https://www.france24.com/en/europe/20260908-live-russia-resumes-strikes-on-kyiv-after-three-day-halt",
+      "published_at": "2026-09-08T02:00:01Z",
+      "collected_at": "2026-09-08T05:00:51Z",
       "topics": [
         "politics",
         "security",
@@ -1873,20 +1894,6 @@
       ]
     },
     {
-      "id": "e2d19e21afd51b52641dc636",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Wildfires, heatwaves threaten global air quality and health, UN warns",
-      "url": "https://www.france24.com/en/environment/20260907-wildfires-heatwaves-global-air-quality-health-un",
-      "published_at": "2026-09-07T04:16:48Z",
-      "collected_at": "2026-09-07T04:31:18Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "63a327cb2b44c1cadea1581c",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1926,20 +1933,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "1b34243ede706c496f6178a3",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Germany’s far-right bombshell",
-      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/germanys-far-right-bombshell",
-      "published_at": "2026-09-07T04:05:00Z",
-      "collected_at": "2026-09-07T04:31:18Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
@@ -2136,76 +2129,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "a0a5f932a1d757e237ad4d76",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "US military campaign in Latin America enters a new phase after a year of strikes on alleged drug-running boats",
-      "url": "https://english.elpais.com/international/2026-09-05/us-military-campaign-in-latin-america-enters-a-new-phase-after-a-year-of-strikes-on-alleged-drug-running-boats.html",
-      "published_at": "2026-09-05T04:00:00Z",
-      "collected_at": "2026-09-07T04:31:18Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "d75295b8f19c8e85ef159591",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Dani Bensky, Epstein survivor: ‘The United States has failed spectacularly in this case’",
-      "url": "https://english.elpais.com/usa/2026-09-05/dani-bensky-epstein-survivor-the-united-states-has-failed-spectacularly-in-this-case.html",
-      "published_at": "2026-09-05T04:00:00Z",
-      "collected_at": "2026-09-07T04:31:18Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "8ec1a9d85a3cae9e1d37e55b",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "From a taqueria to a café: The California businesses linked to relatives of ‘El Mencho’",
-      "url": "https://english.elpais.com/international/2026-09-05/from-a-taqueria-to-a-cafe-the-california-businesses-linked-to-relatives-of-el-mencho.html",
-      "published_at": "2026-09-05T04:00:00Z",
-      "collected_at": "2026-09-07T04:31:18Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "b01fdab480e68ba93ff11aa3",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Argentina’s Milei wants women to have more children while he cuts support for families",
-      "url": "https://english.elpais.com/international/2026-09-05/argentinas-milei-wants-women-to-have-more-children-while-he-cuts-support-for-families.html",
-      "published_at": "2026-09-05T04:00:00Z",
-      "collected_at": "2026-09-07T04:31:18Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "803872af44037b2633ea6c78",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Mariana Mazzucato: ‘The most important thing for Mexico is to stop being just a low-cost manufacturer for US companies’",
-      "url": "https://english.elpais.com/economy-and-business/2026-09-05/mariana-mazzucato-the-most-important-thing-for-mexico-is-to-stop-being-just-a-low-cost-manufacturer-for-us-companies.html",
-      "published_at": "2026-09-05T04:00:00Z",
-      "collected_at": "2026-09-07T04:31:18Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
