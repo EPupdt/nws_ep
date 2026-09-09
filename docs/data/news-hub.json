@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-09T10:30:49Z",
-  "last_successful_collection_at": "2026-09-09T10:30:49Z",
+  "generated_at": "2026-09-09T11:00:51Z",
+  "last_successful_collection_at": "2026-09-09T11:00:51Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-09T10:30:49Z"
+      "at": "2026-09-09T11:00:51Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-09-09T10:30:49Z"
+      "at": "2026-09-09T11:00:51Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-09T10:30:49Z"
+      "at": "2026-09-09T11:00:51Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,63 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-09T10:30:49Z"
+      "at": "2026-09-09T11:00:51Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-09T10:30:49Z"
+      "at": "2026-09-09T11:00:51Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-09T10:30:49Z"
+      "at": "2026-09-09T11:00:51Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-09T10:30:49Z"
+      "at": "2026-09-09T11:00:51Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-09T10:30:49Z"
+      "at": "2026-09-09T11:00:51Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-09T10:30:49Z"
+      "at": "2026-09-09T11:00:51Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Drone Strike Near Ukraine-Moldova Border",
-      "summary": "A recent drone strike near the border of Ukraine and Moldova has resulted in at least two fatalities amid ongoing regional hostilities. Emergency services and local authorities continue to respond to the security incident.",
+      "title": "German Political Debate Intensifies Over Far-Right Plans",
+      "summary": "German political leaders have sharply criticized far-right proposals, comparing them to ethnic cleansing following recent electoral developments. Meanwhile, coalition partners are experiencing internal rebellions and strategic rifts in the aftermath of the regional votes.",
       "article_ids": [
-        "ebd388b5a95ca097d7ecd2c3"
+        "d6b917b0c34edf67db02fecb",
+        "9b60e765ccbb770c563a250b"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/friedrich-merz-calls-afd-remigration-ethnic-cleansing-germany",
+          "headline": "German far right’s ‘remigration’ plans amount to ethnic cleansing, says Merz",
+          "published_at": "2026-09-09T10:38:56Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Cross-Border Drone Strike and Security Incidents",
+      "summary": "A recent Russian drone strike near the Ukraine-Moldova border resulted in multiple fatalities while infrastructure targets were hit. In the United Kingdom, travelers experienced continuous disruption and chaos following an air traffic control technical glitch.",
+      "article_ids": [
+        "ebd388b5a95ca097d7ecd2c3",
+        "58c25ddc350b9315830f2ac6"
       ],
       "sources": [
         {
@@ -78,61 +96,45 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "UK Air Traffic Control Disruptions",
-      "summary": "Travelers across the United Kingdom face ongoing disruptions following a technical glitch in air traffic control systems. Authorities are working to manage flight delays and restore normal operations.",
-      "article_ids": [
-        "58c25ddc350b9315830f2ac6",
-        "704985abd7f49eb55d5d20b8"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/live-news/20260909-travellers-in-uk-face-more-chaos-after-air-traffic-control-glitch",
-          "headline": "Travellers in UK face more chaos after air traffic control glitch",
-          "published_at": "2026-09-09T03:11:17Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260909-travellers-in-uk-face-ongoing-disruption-after-air-traffic-control-glitch",
-          "headline": "Travellers in UK face ongoing disruption after air traffic control glitch",
-          "published_at": "2026-09-09T03:11:17Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "German Political Aftermath",
-      "summary": "Political developments in Germany have drawn international attention following regional election outcomes. Coalition partners have experienced internal friction and policy debates in the wake of the vote.",
+      "title": "German Political Fallout",
+      "summary": "Friedrich Merz stated that the German far right's remigration plans amount to ethnic cleansing. Following recent electoral outcomes, center-left coalition partners have begun to rebel against leadership.",
       "article_ids": [
-        "9b60e765ccbb770c563a250b",
-        "d2244f95541371797a8bb142"
+        "d6b917b0c34edf67db02fecb",
+        "9b60e765ccbb770c563a250b"
       ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/friedrich-merz-calls-afd-remigration-ethnic-cleansing-germany",
+          "headline": "German far right’s ‘remigration’ plans amount to ethnic cleansing, says Merz",
+          "published_at": "2026-09-09T10:38:56Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/friedrich-merz-lars-klingbeil-spd-partners-rebel-far-right-rout-coalition-rift",
-          "headline": "In Germany, Merz’s center-left partners rebel after far-right rout",
+          "headline": "Merz’s SPD partners rebel after far-right rout",
           "published_at": "2026-09-09T02:00:00Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Sanctions on Israeli Settlements",
-      "summary": "Several nations, including the UK, France, and Canada, are moving forward with diplomatic measures and sanctions targeting Israeli settlements. The initiative highlights growing international policy divergence over the West Bank.",
+      "title": "Regional Security and Infrastructure",
+      "summary": "A drone strike near the Ukraine-Moldova border killed at least two people as regional hostilities continued. Separately, travelers in the United Kingdom faced ongoing transportation chaos after a major air traffic control glitch.",
       "article_ids": [
-        "375f84f28d895b4a8e96767a"
+        "ebd388b5a95ca097d7ecd2c3",
+        "58c25ddc350b9315830f2ac6"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260909-diplomatic-row-escalates-as-uk-france-and-canada-move-to-sanction-israeli-settlements",
-          "headline": "Diplomatic row escalates as UK, France and Canada move to sanction Israeli settlements",
-          "published_at": "2026-09-09T10:10:54Z"
+          "url": "https://www.france24.com/en/europe/20260909-russian-drone-strike-near-ukraine-moldova-border-kills-at-least-two-as-ukraine-hits-oil-terminal",
+          "headline": "Russian drone strike near Ukraine-Moldova border kills at least two as Ukraine targets oil terminal",
+          "published_at": "2026-09-09T09:51:21Z"
         }
       ],
       "source_count": 1
@@ -140,29 +142,29 @@
   ],
   "developing": [
     {
-      "label": "Trump · US · Colombia · Iceland",
+      "label": "Israeli · settlements · UK · France",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 6,
-      "latest_at": "2026-09-09T10:05:25Z",
+      "item_count": 12,
+      "latest_at": "2026-09-09T10:10:54Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260909-us-rubio-pledges-to-restore-ties-with-colombia-s-new-trump-friendly-leader",
-          "headline": "US Rubio pledges to 'restore' ties with Colombia's new, Trump-friendly leader",
-          "published_at": "2026-09-09T10:05:25Z"
+          "url": "https://www.france24.com/en/video/20260909-diplomatic-row-escalates-as-uk-france-and-canada-move-to-sanction-israeli-settlements",
+          "headline": "Diplomatic row escalates as UK, France and Canada move to sanction Israeli settlements",
+          "published_at": "2026-09-09T10:10:54Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c93ek32pqd2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Iceland summons US ambassador over Trump's stars and stripes map",
-          "published_at": "2026-09-08T15:55:19Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/236132/uk-and-french-trade-bans-on-illegal-israeli-settlements-up-pressure-on-eu",
+          "headline": "UK and French trade bans on illegal Israeli settlements up pressure on EU",
+          "published_at": "2026-09-08T16:01:00Z"
         },
         {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-09-08/trumps-conditions-cast-a-shadow-over-the-us-venezuela-oil-deal.html",
-          "headline": "Trump’s conditions cast a shadow over the US-Venezuela oil deal",
-          "published_at": "2026-09-08T10:31:36Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/france-canada-uk-trade-sanctions-israel-settlements",
+          "headline": "France and Canada join UK in issuing trade sanctions on Israeli settlements",
+          "published_at": "2026-09-08T12:49:46Z"
         }
       ]
     },
@@ -194,27 +196,6 @@
       ]
     },
     {
-      "label": "Eiffel · Tower · staff · Hindu",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 7,
-      "latest_at": "2026-09-09T06:37:16Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260909-eiffel-tower-row-over-hindu-sect-baps-unites-french-politicians-%E2%80%93-but-divides-indian-diaspora",
-          "headline": "Eiffel Tower row over Hindu sect BAPS unites French politicians – but divides Indian diaspora",
-          "published_at": "2026-09-09T06:37:16Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/clyenxp540vo?at_medium=RSS&at_campaign=rss",
-          "headline": "Investigation after female staff at Eiffel Tower replaced by men for religious visit",
-          "published_at": "2026-09-08T11:00:10Z"
-        }
-      ]
-    },
-    {
       "label": "oil · strikes · destroyed · Houthis",
       "origin": "convergence",
       "source_count": 2,
@@ -234,9 +215,58 @@
           "published_at": "2026-09-08T23:54:57Z"
         }
       ]
+    },
+    {
+      "label": "Trump · US · Colombia · Iceland",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 5,
+      "latest_at": "2026-09-09T10:05:25Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260909-us-rubio-pledges-to-restore-ties-with-colombia-s-new-trump-friendly-leader",
+          "headline": "US Rubio pledges to 'restore' ties with Colombia's new, Trump-friendly leader",
+          "published_at": "2026-09-09T10:05:25Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c93ek32pqd2o?at_medium=RSS&at_campaign=rss",
+          "headline": "Iceland summons US ambassador over Trump's stars and stripes map",
+          "published_at": "2026-09-08T15:55:19Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "6c4c424572ddf62808e374dc",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'New escalation in Yemen deeply concerning everyone in the region'",
+      "url": "https://www.france24.com/en/new-escalation-in-yemen-deeply-concerning-everyone-in-the-region",
+      "published_at": "2026-09-09T10:39:32Z",
+      "collected_at": "2026-09-09T11:00:51Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "d6b917b0c34edf67db02fecb",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "German far right’s ‘remigration’ plans amount to ethnic cleansing, says Merz",
+      "url": "https://www.politico.eu/article/friedrich-merz-calls-afd-remigration-ethnic-cleansing-germany",
+      "published_at": "2026-09-09T10:38:56Z",
+      "collected_at": "2026-09-09T11:00:51Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "03a206fac617d6f1289f7c72",
       "source_id": "el_pais_english",
@@ -2212,20 +2242,6 @@
       ]
     },
     {
-      "id": "7ab4fdf1b9237c0deaed3e5c",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Investigation after female staff at Eiffel Tower replaced by men for religious visit",
-      "url": "https://www.bbc.co.uk/news/articles/clyenxp540vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-08T11:00:10Z",
-      "collected_at": "2026-09-08T11:00:48Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "c45133a03eba30b54dc5db63",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2237,20 +2253,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "d5fe03afa99d5e345bcdddb8",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump’s conditions cast a shadow over the US-Venezuela oil deal",
-      "url": "https://english.elpais.com/international/2026-09-08/trumps-conditions-cast-a-shadow-over-the-us-venezuela-oil-deal.html",
-      "published_at": "2026-09-08T10:31:36Z",
-      "collected_at": "2026-09-08T11:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -2615,20 +2617,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "6a3d7b31a38a4be2dc44d1cf",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Conservative US gays drop the T for trans people: ‘We are an LGB organization’",
-      "url": "https://english.elpais.com/usa/2026-09-02/conservative-us-gays-drop-the-t-for-trans-people-we-are-an-lgb-organization.html",
-      "published_at": "2026-09-02T13:47:51Z",
-      "collected_at": "2026-09-08T11:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
