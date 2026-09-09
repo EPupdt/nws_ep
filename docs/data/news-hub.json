@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-09T12:30:45Z",
-  "last_successful_collection_at": "2026-09-09T12:30:45Z",
+  "generated_at": "2026-09-09T13:00:52Z",
+  "last_successful_collection_at": "2026-09-09T13:00:52Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-09T12:30:45Z"
+      "at": "2026-09-09T13:00:52Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-09-09T12:30:45Z"
+      "at": "2026-09-09T13:00:52Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-09T12:30:45Z"
+      "at": "2026-09-09T13:00:52Z"
     },
     {
       "id": "euractiv",
@@ -29,69 +29,45 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-09T12:30:45Z"
+      "at": "2026-09-09T13:00:52Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-09T12:30:45Z"
+      "at": "2026-09-09T13:00:52Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-09-09T12:30:45Z"
+      "at": "2026-09-09T13:00:52Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-09T12:30:45Z"
+      "at": "2026-09-09T13:00:52Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-09-09T12:30:45Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-09-09T13:00:52Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-09T12:30:45Z"
+      "at": "2026-09-09T13:00:52Z"
     }
   ],
   "europe_now": [
     {
-      "title": "German political debate intensifies following far-right election results",
-      "summary": "German political leaders engaged in sharp parliamentary exchanges following a recent far-right electoral victory in Saxony-Anhalt. Friedrich Merz criticized far-right proposals, describing certain plans as equivalent to ethnic cleansing.",
+      "title": "Russian Drone Strike Near Ukraine-Moldova Border",
+      "summary": "A recent drone strike near the border of Ukraine and Moldova resulted in at least two fatalities. The incident occurred while Ukrainian forces targeted an oil terminal.",
       "article_ids": [
-        "5809e2f4bc028d486551e09f",
-        "d6b917b0c34edf67db02fecb"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c98679wr78do?at_medium=RSS&at_campaign=rss",
-          "headline": "Germany's Merz attacks AfD in stormy debate after far-right election win",
-          "published_at": "2026-09-09T11:24:10Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/friedrich-merz-calls-afd-remigration-ethnic-cleansing-germany",
-          "headline": "German far right’s ‘remigration’ plans amount to ethnic cleansing, says Merz",
-          "published_at": "2026-09-09T10:38:56Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Fatal border drone strike and regional security developments",
-      "summary": "A Russian drone strike near the Ukrainian-Moldovan border resulted in multiple fatalities while Ukrainian forces targeted an oil terminal. Concurrently, regional discussions continued regarding military equipment financing and regional defense postures.",
-      "article_ids": [
-        "ebd388b5a95ca097d7ecd2c3",
-        "75923182b618adf9eac9c026"
+        "ebd388b5a95ca097d7ecd2c3"
       ],
       "sources": [
         {
@@ -99,6 +75,23 @@
           "url": "https://www.france24.com/en/europe/20260909-russian-drone-strike-near-ukraine-moldova-border-kills-at-least-two-as-ukraine-hits-oil-terminal",
           "headline": "Russian drone strike near Ukraine-Moldova border kills at least two as Ukraine targets oil terminal",
           "published_at": "2026-09-09T09:51:21Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "German Political Shifts and Far-Right Debate",
+      "summary": "German political leaders engaged in intense parliamentary debates following a far-right electoral victory. Lawmakers sharply criticized the opposition party's controversial policy platforms.",
+      "article_ids": [
+        "5809e2f4bc028d486551e09f",
+        "d6b917b0c34edf67db02fecb"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/friedrich-merz-calls-afd-remigration-ethnic-cleansing-germany",
+          "headline": "German far right’s ‘remigration’ plans amount to ethnic cleansing, says Merz",
+          "published_at": "2026-09-09T10:38:56Z"
         }
       ],
       "source_count": 1
@@ -106,19 +99,13 @@
   ],
   "top_stories": [
     {
-      "title": "Political Developments in Germany",
-      "summary": "German political figures engaged in intense debates following a notable far-right electoral victory. Prominent politicians condemned extreme policy proposals put forward by the political fringe.",
+      "title": "German Political Developments",
+      "summary": "German political figures confronted the opposition following a recent far-right electoral breakthrough. Senior officials strongly condemned the party's platform during parliamentary proceedings.",
       "article_ids": [
         "5809e2f4bc028d486551e09f",
         "d6b917b0c34edf67db02fecb"
       ],
       "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c98679wr78do?at_medium=RSS&at_campaign=rss",
-          "headline": "Germany's Merz attacks AfD in stormy debate after far-right election win",
-          "published_at": "2026-09-09T11:24:10Z"
-        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/friedrich-merz-calls-afd-remigration-ethnic-cleansing-germany",
@@ -126,54 +113,27 @@
           "published_at": "2026-09-09T10:38:56Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "Cross-Border Incidents and Security in Eastern Europe",
-      "summary": "A recent drone strike near the Ukraine-Moldova border caused fatalities as regional hostilities persisted. Meanwhile, European nations continued addressing broader security challenges and defense financing arrangements.",
+      "title": "Sanctions and Diplomatic Measures",
+      "summary": "European nations advanced initiatives regarding sanctions and trade measures involving disputed regions. Courts and institutions continued to address legal challenges tied to existing restrictive measures.",
       "article_ids": [
-        "ebd388b5a95ca097d7ecd2c3",
-        "75923182b618adf9eac9c026"
+        "375f84f28d895b4a8e96767a",
+        "318c56180402982fa80124ab"
       ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260909-russian-drone-strike-near-ukraine-moldova-border-kills-at-least-two-as-ukraine-hits-oil-terminal",
-          "headline": "Russian drone strike near Ukraine-Moldova border kills at least two as Ukraine targets oil terminal",
-          "published_at": "2026-09-09T09:51:21Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
-    {
-      "label": "Israeli · settlements · UK · France",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 12,
-      "latest_at": "2026-09-09T10:10:54Z",
       "sources": [
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/video/20260909-diplomatic-row-escalates-as-uk-france-and-canada-move-to-sanction-israeli-settlements",
           "headline": "Diplomatic row escalates as UK, France and Canada move to sanction Israeli settlements",
           "published_at": "2026-09-09T10:10:54Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/236132/uk-and-french-trade-bans-on-illegal-israeli-settlements-up-pressure-on-eu",
-          "headline": "UK and French trade bans on illegal Israeli settlements up pressure on EU",
-          "published_at": "2026-09-08T16:01:00Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/france-canada-uk-trade-sanctions-israel-settlements",
-          "headline": "France and Canada join UK in issuing trade sanctions on Israeli settlements",
-          "published_at": "2026-09-08T12:49:46Z"
         }
-      ]
-    },
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
     {
       "label": "US · Iran · tankers · Iranian",
       "origin": "convergence",
@@ -248,9 +208,44 @@
           "published_at": "2026-09-08T17:10:28Z"
         }
       ]
+    },
+    {
+      "label": "Colombia · Rubio · Espriella · leader",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-09-09T11:18:43Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-09-09/de-la-espriella-and-rubio-relaunch-colombiaus-ties-with-security-and-investment-agenda.html",
+          "headline": "De la Espriella and Rubio relaunch Colombia–US ties with security and investment agenda",
+          "published_at": "2026-09-09T11:18:43Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260909-us-rubio-pledges-to-restore-ties-with-colombia-s-new-trump-friendly-leader",
+          "headline": "US Rubio pledges to 'restore' ties with Colombia's new, Trump-friendly leader",
+          "published_at": "2026-09-09T10:05:25Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "5a7d7b9786b9e722fba00df8",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Jordan Bardella accuses EU Parliament of far-right ‘paranoia’ in court battle",
+      "url": "https://www.politico.eu/article/jordan-bardella-accuses-eu-parliament-of-far-right-paranoia-in-court-battle",
+      "published_at": "2026-09-09T12:53:09Z",
+      "collected_at": "2026-09-09T13:00:52Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "6b487cd68ebe72f9556a22cc",
       "source_id": "politico_europe",
@@ -2587,6 +2582,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "6523c43192e7d4eb1f4193b5",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland summons Russian ambassador in show of solidarity with Germany",
+      "url": "https://notesfrompoland.com/2026/09/03/poland-summons-russian-ambassador-in-show-of-solidarity-with-germany",
+      "published_at": "2026-09-03T12:28:04Z",
+      "collected_at": "2026-09-09T13:00:52Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
       ]
     },
     {
