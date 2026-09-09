@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-09T04:30:41Z",
-  "last_successful_collection_at": "2026-09-09T04:30:41Z",
+  "generated_at": "2026-09-09T05:00:53Z",
+  "last_successful_collection_at": "2026-09-09T05:00:53Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-09T04:30:41Z"
+      "at": "2026-09-09T05:00:53Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "28",
-      "at": "2026-09-09T04:30:41Z"
+      "at": "2026-09-09T05:00:53Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-09T04:30:41Z"
+      "at": "2026-09-09T05:00:53Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,60 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-09T04:30:41Z"
+      "at": "2026-09-09T05:00:53Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-09T04:30:41Z"
+      "at": "2026-09-09T05:00:53Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-09T04:30:41Z"
+      "at": "2026-09-09T05:00:53Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-09T04:30:41Z"
+      "at": "2026-09-09T05:00:53Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-09T04:30:41Z"
+      "at": "2026-09-09T05:00:53Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-09T04:30:41Z"
+      "at": "2026-09-09T05:00:53Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Drone Strike Hits Kyiv",
-      "summary": "A Russian drone strike targeted a television channel building in Kyiv during an attack that resulted in five deaths. The incident highlights the ongoing security crisis and the direct impact on civilian and media infrastructure in Ukraine.",
+      "title": "German Police Arrest Power Grid Sabotage Suspect",
+      "summary": "German law enforcement officials successfully apprehended a suspect following an extensive manhunt prompted by multiple attacks targeting the nation's critical power infrastructure.",
+      "article_ids": [
+        "590d6958a47d1ff3335f8f53",
+        "09bca210f214b690866af424"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cy5zw56lnx3o?at_medium=RSS&at_campaign=rss",
+          "headline": "German police arrest suspected power grid saboteur after manhunt",
+          "published_at": "2026-09-08T15:57:06Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Fatal Russian Strike Hits Kyiv Building",
+      "summary": "A Russian drone strike targeted a television channel building in Kyiv, resulting in multiple fatalities and causing severe damage to the capital's infrastructure.",
       "article_ids": [
         "c7e2834f527e53af997d7122"
       ],
@@ -78,35 +95,12 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "German Police Arrest Power Grid Sabotage Suspect",
-      "summary": "German law enforcement arrested a suspect following a manhunt linked to a series of attacks on the country's power grid. The operation addresses critical infrastructure security concerns in Germany.",
-      "article_ids": [
-        "590d6958a47d1ff3335f8f53",
-        "09bca210f214b690866af424"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cy5zw56lnx3o?at_medium=RSS&at_campaign=rss",
-          "headline": "German police arrest suspected power grid saboteur after manhunt",
-          "published_at": "2026-09-08T15:57:06Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cy5zw56lnx3o?at_medium=RSS&at_campaign=rss",
-          "headline": "Sabotage suspect held in Germany after spate of attacks on power grid",
-          "published_at": "2026-09-08T15:57:06Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "European Trade Restrictions on Israeli Settlements",
-      "summary": "France, the United Kingdom, and Canada have implemented trade measures to ban imports from Israeli West Bank settlements. These actions increase broader international and European pressure regarding Middle East policy.",
+      "title": "Sanctions on Israeli Settlements",
+      "summary": "Several nations including the United Kingdom, France, and Canada announced coordinated trade bans targeting goods originating from Israeli settlements in the West Bank. These new economic measures have increased diplomatic pressure on the broader European Union to adopt similar restrictive policies.",
       "article_ids": [
         "b23ea2bfcfb2d024fe7f4982",
         "0cfc2148f004a7e7023e97e6",
@@ -129,12 +123,10 @@
       "source_count": 2
     },
     {
-      "title": "Political Shifts and Security Challenges in Germany",
-      "summary": "Recent regional election results in Germany have generated significant debate within ruling coalitions and raised concerns among neighboring states regarding the rise of the far right. Authorities are also navigating heightened security risks involving critical infrastructure and intelligence evaluations.",
+      "title": "German Political Shifts and Security Concerns",
+      "summary": "Recent regional election outcomes in Germany have created friction within the ruling coalition and sparked intense debate regarding the potential legal prohibition of the far-right Alternative for Germany party. Neighboring countries have expressed growing unease as these domestic political shifts unfold alongside national security deliberations.",
       "article_ids": [
-        "3e4df6fcaf7c648fde2f9e63",
         "9b60e765ccbb770c563a250b",
-        "13af9027f6bc6f6a9505f7c3",
         "dfdcb3c64f1d103ac226c2d2",
         "6b80e83c9a1732f034287547"
       ],
@@ -2159,20 +2151,6 @@
       ]
     },
     {
-      "id": "027b81c22ed9e6619cdff819",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Kaja Kallas takes another hit",
-      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/kaja-kallas-takes-another-hit",
-      "published_at": "2026-09-08T04:05:00Z",
-      "collected_at": "2026-09-08T04:30:44Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "64bd984eb76c52762ddd87da",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2187,20 +2165,6 @@
       ]
     },
     {
-      "id": "706010b3ac11425714cc124e",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Meta under fire as Facebook fails to remove homophobic abuse in Hungary",
-      "url": "https://euobserver.com/235886/meta-under-fire-as-facebook-fails-to-remove-homophobic-abuse-in-hungary",
-      "published_at": "2026-09-08T04:00:00Z",
-      "collected_at": "2026-09-08T04:30:44Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "29d20fd1b2b46871cd8d6cf2",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2211,20 +2175,6 @@
       "topics": [
         "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "c36b31ec20cbf741b974ee6e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: Russia renews Kyiv strikes after three-day pause",
-      "url": "https://www.france24.com/en/europe/20260908-live-russia-resumes-strikes-on-kyiv-after-three-day-halt",
-      "published_at": "2026-09-08T02:00:01Z",
-      "collected_at": "2026-09-08T05:00:51Z",
-      "topics": [
-        "politics",
-        "security",
         "society"
       ]
     },
@@ -2397,62 +2347,6 @@
       ]
     },
     {
-      "id": "39d123fc9207eed903c02c1d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The Chinese television show where the prize is a job",
-      "url": "https://english.elpais.com/culture/2026-09-06/the-chinese-television-show-where-the-prize-is-a-job.html",
-      "published_at": "2026-09-06T04:00:00Z",
-      "collected_at": "2026-09-08T04:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "7d30c05e7840e24b2b4ef488",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The new Arctic route is redrawing the economic and geopolitical map",
-      "url": "https://english.elpais.com/international/2026-09-06/the-new-arctic-route-is-redrawing-the-economic-and-geopolitical-map.html",
-      "published_at": "2026-09-06T04:00:00Z",
-      "collected_at": "2026-09-08T04:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "7340316f9d42affeb623fcd0",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Online culture hits the streets, from catching Pokémon to aura farming",
-      "url": "https://english.elpais.com/lifestyle/2026-09-06/online-culture-hits-the-streets-from-catching-pokemon-to-aura-farming.html",
-      "published_at": "2026-09-06T04:00:00Z",
-      "collected_at": "2026-09-08T04:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "ab5b18123439b2dbf3b06f32",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Miami’s Venezuelan community demands answers from lawmakers over ICE detentions",
-      "url": "https://english.elpais.com/usa/2026-09-06/miamis-venezuelan-community-demands-answers-from-lawmakers-over-ice-detentions.html",
-      "published_at": "2026-09-06T04:00:00Z",
-      "collected_at": "2026-09-08T04:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "422b17e7633c48de972dfbfb",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2478,6 +2372,48 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "803872af44037b2633ea6c78",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Mariana Mazzucato: ‘The most important thing for Mexico is to stop being just a low-cost manufacturer for US companies’",
+      "url": "https://english.elpais.com/economy-and-business/2026-09-05/mariana-mazzucato-the-most-important-thing-for-mexico-is-to-stop-being-just-a-low-cost-manufacturer-for-us-companies.html",
+      "published_at": "2026-09-05T04:00:00Z",
+      "collected_at": "2026-09-09T05:00:53Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "8ec1a9d85a3cae9e1d37e55b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "From a taqueria to a café: The California businesses linked to relatives of ‘El Mencho’",
+      "url": "https://english.elpais.com/international/2026-09-05/from-a-taqueria-to-a-cafe-the-california-businesses-linked-to-relatives-of-el-mencho.html",
+      "published_at": "2026-09-05T04:00:00Z",
+      "collected_at": "2026-09-09T05:00:53Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "d75295b8f19c8e85ef159591",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Dani Bensky, Epstein survivor: ‘The United States has failed spectacularly in this case’",
+      "url": "https://english.elpais.com/usa/2026-09-05/dani-bensky-epstein-survivor-the-united-states-has-failed-spectacularly-in-this-case.html",
+      "published_at": "2026-09-05T04:00:00Z",
+      "collected_at": "2026-09-09T05:00:53Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2730,6 +2666,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "521ec3a6fe454cc568a85443",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Why is Ukraine's ex-defence minister calling for wartime elections?",
+      "url": "https://www.bbc.co.uk/news/videos/c62eyn5ggnzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-19T15:38:38Z",
+      "collected_at": "2026-09-09T05:00:53Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     }
   ]
