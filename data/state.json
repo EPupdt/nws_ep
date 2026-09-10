@@ -409,9 +409,24 @@
     "ae7d3ffa184fdde336755f7a": "2026-09-10T20:30:46Z",
     "a26df2be92dc35726a992157": "2026-09-10T20:30:46Z",
     "69f68252cdb4da78cca27125": "2026-09-10T20:30:46Z",
-    "0f20f54f59cfb7dcdb5d2d2f": "2026-09-10T20:30:46Z"
+    "0f20f54f59cfb7dcdb5d2d2f": "2026-09-10T20:30:46Z",
+    "9c0a2cf9505b637c0683f39d": "2026-09-10T21:00:52Z"
   },
   "radar": [
+    {
+      "id": "9c0a2cf9505b637c0683f39d",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Tusk warns of future attacks after ‘direct threat’ averted at Poland-Ukraine border",
+      "url": "https://www.politico.eu/article/poland-prime-minister-donald-tusk-warns-of-further-attacks-after-direct-threat-averted-polish-ukrainian-border",
+      "published_at": "2026-09-10T20:49:11Z",
+      "collected_at": "2026-09-10T21:00:52Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "16a1516869e0021dcb1992a5",
       "source_id": "france24",
@@ -2922,14 +2937,6 @@
   "recent_topics": [
     {
       "at": "2026-09-09T18:00:56Z",
-      "title": "Serbian leader calls snap elections after dissolving country’s parliament"
-    },
-    {
-      "at": "2026-09-09T18:00:56Z",
-      "title": "Asylum applications plummet across EU as governments push for deportation hubs"
-    },
-    {
-      "at": "2026-09-09T18:00:56Z",
       "title": "EU promises to look beyond ‘price alone’ in reform of public procurement rules"
     },
     {
@@ -3239,17 +3246,58 @@
     {
       "at": "2026-09-10T20:30:46Z",
       "title": "Closure of Goethe-Institut in Russia"
+    },
+    {
+      "at": "2026-09-10T21:00:52Z",
+      "title": "French Opposition to FIFA Leadership"
+    },
+    {
+      "at": "2026-09-10T21:00:52Z",
+      "title": "European Space Independence"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "French Football Federation Withdraws FIFA Support",
-        "summary": "The French Football Federation has officially pulled its support from the current FIFA leadership ahead of the upcoming re-election bid. This decision creates a significant challenge for the incumbent president's campaign.",
+        "title": "Poland-Ukraine Border Incident",
+        "summary": "Polish Prime Minister Donald Tusk warned of potential future security threats following an averted direct incident at the border with Ukraine.",
         "article_ids": [
-          "df8e2078f774518e094eeadd",
-          "133044"
+          "9c0a2cf9505b637c0683f39d"
+        ],
+        "sources": [
+          {
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/poland-prime-minister-donald-tusk-warns-of-further-attacks-after-direct-threat-averted-polish-ukrainian-border",
+            "headline": "Tusk warns of future attacks after ‘direct threat’ averted at Poland-Ukraine border",
+            "published_at": "2026-09-10T20:49:11Z"
+          }
+        ],
+        "source_count": 1
+      },
+      {
+        "title": "European Space Summit Discussions",
+        "summary": "Discussions at the international space summit highlighted Europe's ongoing reliance on the United States and the challenges of achieving space autonomy.",
+        "article_ids": [
+          "42bc564a056d3ae1ee93aa09"
+        ],
+        "sources": [
+          {
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/emmanuel-macron-international-space-summit-europe-us",
+            "headline": "Macron’s space summit showed Europe isn’t ready to go to space without the US",
+            "published_at": "2026-09-10T18:16:20Z"
+          }
+        ],
+        "source_count": 1
+      }
+    ],
+    "top_stories": [
+      {
+        "title": "French Opposition to FIFA Leadership",
+        "summary": "The French Football Federation has withdrawn its support for Gianni Infantino's re-election bid. This decision creates a significant challenge for the FIFA leadership campaign.",
+        "article_ids": [
+          "df8e2078f774518e094eeadd"
         ],
         "sources": [
           {
@@ -3262,29 +3310,10 @@
         "source_count": 1
       },
       {
-        "title": "Amnesty International Reports on Foreign Fighters in Ukraine",
-        "summary": "A new Amnesty International report accuses Russia of tricking vulnerable foreigners into fighting on the front lines of the war in Ukraine. The findings highlight ongoing concerns regarding recruitment tactics utilized in the conflict.",
+        "title": "European Space Independence",
+        "summary": "Emmanuel Macron addressed an international space summit focusing on the region's technological capabilities. Observers noted that the discussions revealed Europe's current dependence on American infrastructure for space exploration.",
         "article_ids": [
-          "b6c575eac109d42352c6fac8"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20260910-russia-tricks-vulnerable-foreigners-to-fight-in-ukraine-war-amnesty-reports",
-            "headline": "Russia tricks 'vulnerable' foreigners to fight in Ukraine war, Amnesty reports",
-            "published_at": "2026-09-10T15:20:51Z"
-          }
-        ],
-        "source_count": 1
-      }
-    ],
-    "top_stories": [
-      {
-        "title": "International Space Summit",
-        "summary": "Leaders gathered at an international space summit to discuss European space autonomy and reliance on foreign partners. Observers noted that the discussions emphasize the region's need to catch up with global competitors.",
-        "article_ids": [
-          "42bc564a056d3ae1ee93aa09",
-          "bbded0384d9896652c87b9c3"
+          "42bc564a056d3ae1ee93aa09"
         ],
         "sources": [
           {
@@ -3292,40 +3321,11 @@
             "url": "https://www.politico.eu/article/emmanuel-macron-international-space-summit-europe-us",
             "headline": "Macron’s space summit showed Europe isn’t ready to go to space without the US",
             "published_at": "2026-09-10T18:16:20Z"
-          },
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/tv-shows/people-profit/20260910-international-space-summit-europe-plays-catch-up-with-us-and-china",
-            "headline": "International Space Summit: Europe plays catch-up with US and China",
-            "published_at": "2026-09-10T15:28:11Z"
-          }
-        ],
-        "source_count": 2
-      },
-      {
-        "title": "Closure of Goethe-Institut in Russia",
-        "summary": "Germany's Goethe-Institut is shutting down its operations within Russia due to political pressures. Affected Russian citizens have reported that canceled exams are severely disrupting their educational and professional plans.",
-        "article_ids": [
-          "aa1b02103a2508f3ed2d0754",
-          "877b833b95eb8a61a36b8a63"
-        ],
-        "sources": [
-          {
-            "publisher": "Deutsche Welle",
-            "url": "https://www.dw.com/en/russians-about-goethe-institut-hostage-to-politics/a-79218936?maca=en-rss-en-eu-2092-rdf",
-            "headline": "Russians about Goethe-Institut: 'Hostage to politics'",
-            "published_at": "2026-09-10T16:17:00Z"
-          },
-          {
-            "publisher": "Deutsche Welle",
-            "url": "https://www.dw.com/en/germany-s-goethe-institut-is-closing-in-russia-russians-tell-dw-how-canceled-exams-are-upending-their-plans/a-79218936?maca=en-rss-en-eu-2092-rdf",
-            "headline": "Germany’s Goethe-Institut is closing in Russia. Russians tell DW how canceled exams are upending their plans",
-            "published_at": "2026-09-10T16:17:00Z"
           }
         ],
         "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-09-10T20:30:46Z"
+  "last_collection_at": "2026-09-10T21:00:52Z"
 }
