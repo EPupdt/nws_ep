@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-11T11:00:52Z",
-  "last_successful_collection_at": "2026-09-11T11:00:52Z",
+  "generated_at": "2026-09-11T12:00:56Z",
+  "last_successful_collection_at": "2026-09-11T12:00:56Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-11T11:00:52Z"
+      "at": "2026-09-11T12:00:56Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-11T11:00:52Z"
+      "at": "2026-09-11T12:00:56Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-11T11:00:52Z"
+      "at": "2026-09-11T12:00:56Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,61 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-11T11:00:52Z"
+      "at": "2026-09-11T12:00:56Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-11T11:00:52Z"
+      "at": "2026-09-11T12:00:56Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-11T11:00:52Z"
+      "at": "2026-09-11T12:00:56Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-11T11:00:52Z"
+      "at": "2026-09-11T12:00:56Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-09-11T11:00:52Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-09-11T12:00:56Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-11T11:00:52Z"
+      "at": "2026-09-11T12:00:56Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Fatal Coach Crash in the Swiss Alps",
-      "summary": "A serious traffic accident involving a coach in the Swiss Alps has resulted in multiple fatalities and numerous injuries. Emergency response and rescue operations are ongoing at the scene.",
+      "title": "Hamas Planned Attacks on Berlin and Vienna",
+      "summary": "An indictment has revealed that Hamas plotted attacks targeting Berlin and Vienna around the anniversary of October 7. The security details emerge from official legal filings regarding the planned operations.",
       "article_ids": [
-        "d844b394180f4fc1cf65a0bb",
-        "2bd6ed7aed74cd622bbb5d8c"
+        "1d5dcb3f0f2cf91c6e2d0399"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/hamas-planned-berlin-vienna-attacks-for-oct-7-anniversary-indictment-shows",
+          "headline": "Hamas planned Berlin-Vienna attacks for Oct. 7 anniversary, indictment shows",
+          "published_at": "2026-09-11T11:35:43Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Coach Crash in Swiss Alps Causes Fatalities",
+      "summary": "A serious coach crash in the Swiss Alps has left five people dead and dozens injured. Emergency and rescue operations responded to the major transport incident.",
+      "article_ids": [
+        "d844b394180f4fc1cf65a0bb"
       ],
       "sources": [
         {
@@ -76,19 +91,31 @@
           "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o?at_medium=RSS&at_campaign=rss",
           "headline": "Five dead and dozens injured in coach crash in Swiss Alps",
           "published_at": "2026-09-11T08:54:20Z"
-        },
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Central European Energy Stance",
+      "summary": "Polish Prime Minister Donald Tusk warned that Poland and other V4 countries will block European Union measures that increase energy costs. The regional leaders are coordinating their opposition to policy changes affecting household and industrial expenses.",
+      "article_ids": [
+        "e488e4ad836a71ee4e247be9"
+      ],
+      "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o?at_medium=RSS&at_campaign=rss",
-          "headline": "Coach crash kills several people in Swiss Alps",
-          "published_at": "2026-09-11T01:01:18Z"
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/09/11/poland-and-other-v4-countries-will-block-eu-measures-that-raise-energy-costs-warns-tusk",
+          "headline": "Poland and other V4 countries will block EU measures that raise energy costs, warns Tusk",
+          "published_at": "2026-09-11T11:55:26Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Hungary Shifts Foreign Policy Under New Leadership",
-      "summary": "Hungary's government has announced the expulsion of ten Russian diplomats as part of a significant shift in diplomatic relations. This move marks a notable departure from previous political alignments regarding Moscow.",
+      "title": "Political and Diplomatic Shifts in Hungary",
+      "summary": "Hungary's administration under Peter Magyar has expelled ten Russian diplomats and dismantled local political fiefdoms associated with Fidesz. This represents a significant departure from previous diplomatic postures toward Moscow.",
       "article_ids": [
         "c5ef9cf3eaf2a672dfac2871",
         "2f92067dc98818684c057004"
@@ -110,114 +137,37 @@
       "source_count": 2
     }
   ],
-  "top_stories": [
+  "developing": [
     {
-      "title": "German Political Developments and Legal Challenges",
-      "summary": "German political discussions have intensified following recent electoral outcomes in Saxony-Anhalt. Additionally, remarks regarding ethnic policies made by opposition figures have triggered formal legal complaints.",
-      "article_ids": [
-        "9d87e5194bee2e645b1de110",
-        "e4673dd277bff4c6cc8ef265"
-      ],
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/turks-in-germany-anxious-after-afd-wins-in-saxony-anhalt/a-79221764?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Turks in Germany anxious after AfD wins in Saxony-Anhalt",
-          "published_at": "2026-09-11T10:07:00Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Financial Strategies for Ukraine Involving Frozen Assets",
-      "summary": "Germany has introduced proposals for a new financial support package for Ukraine utilizing frozen Russian assets. European policymakers continue to debate effective methods for long-term economic and security assistance.",
-      "article_ids": [
-        "d8f7e09b7a909ebeaafcfbf5"
-      ],
+      "label": "Russian · Ukraine · assets · frozen",
+      "origin": "convergence",
+      "source_count": 4,
+      "item_count": 4,
+      "latest_at": "2026-09-11T10:13:51Z",
       "sources": [
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/germany-ukraine-loan-frozen-russia-assets",
           "headline": "Germany floats new Ukraine loan backed by frozen Russian assets",
           "published_at": "2026-09-11T10:13:51Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
-    {
-      "label": "Russia · Ukraine · Amnesty · bids",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 4,
-      "latest_at": "2026-09-10T23:22:11Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cwyz89w59l3o?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukraine's fortress cities under fire as Russia bids to seize rest of Donbas",
-          "published_at": "2026-09-10T23:22:11Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260910-russia-tricks-vulnerable-foreigners-to-fight-in-ukraine-war-amnesty-reports",
-          "headline": "Russia tricks 'vulnerable' foreigners to fight in Ukraine war, Amnesty reports",
-          "published_at": "2026-09-10T15:20:51Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/amnesty-russia-exploits-migrants-vulnerability-to-recruit-them-for-the-war",
-          "headline": "Russia ‘trafficking’ foreigners to Ukraine’s front line, Amnesty says",
-          "published_at": "2026-09-10T11:02:37Z"
-        }
-      ]
-    },
-    {
-      "label": "joins · Peru · Trump · US",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-09-11T10:26:44Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-09-11/peru-strengthens-its-security-alliance-with-the-us-and-joins-trumps-shield-of-the-americas.html",
-          "headline": "Peru strengthens its security alliance with the US and joins Trump’s Shield of the Americas",
-          "published_at": "2026-09-11T10:26:44Z"
         },
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c0re72nvy22o?at_medium=RSS&at_campaign=rss",
-          "headline": "From JFK to Biden, Trump joins well-trodden path to the Emerald Isle",
-          "published_at": "2026-09-10T23:01:55Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260910-rubio-in-peru-protestors-take-the-streets-against-us-secretary-of-state-s-visit",
-          "headline": "Rubio in Peru: Protestors take the streets against US Secretary of State's visit",
-          "published_at": "2026-09-10T11:30:34Z"
-        }
-      ]
-    },
-    {
-      "label": "EU · AI · chief · extinction",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-09-11T10:18:37Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/henna-virkkunen-eu-global-ai-rules-extinction-warning",
-          "headline": "EU tech chief backs global AI rules in wake of extinction warning",
-          "published_at": "2026-09-11T10:18:37Z"
+          "url": "https://www.bbc.co.uk/news/articles/cpvelrmp1vmo?at_medium=RSS&at_campaign=rss",
+          "headline": "Five killed and 67 injured in Russian strike on shopping centre, Ukraine says",
+          "published_at": "2026-09-10T22:36:02Z"
         },
         {
           "publisher": "EUobserver",
-          "url": "https://euobserver.com/236643/cleared-in-greek-border-case-austrian-activist-now-sues-eu-data-chief-over-europol-record",
-          "headline": "Cleared in Greek border case, Austrian activist now sues EU data chief over Europol record",
-          "published_at": "2026-09-10T15:27:17Z"
+          "url": "https://euobserver.com/236631/ukraines-financial-crisis-resurrects-europes-bitter-dilemma-on-moscows-frozen-central-bank-assets",
+          "headline": "Ukraine’s financial crisis resurrects Europe’s bitter dilemma on Russian frozen assets",
+          "published_at": "2026-09-10T18:00:00Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/germany-s-goethe-institut-is-closing-in-russia-russians-tell-dw-how-canceled-exams-are-upending-their-plans/a-79218936?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Germany’s Goethe-Institut is closing in Russia. Russians tell DW how canceled exams are upending their plans",
+          "published_at": "2026-09-10T16:17:00Z"
         }
       ]
     },
@@ -241,9 +191,107 @@
           "published_at": "2026-09-10T18:16:20Z"
         }
       ]
+    },
+    {
+      "label": "EU · AI · chief · extinction",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-09-11T10:18:37Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/henna-virkkunen-eu-global-ai-rules-extinction-warning",
+          "headline": "EU tech chief backs global AI rules in wake of extinction warning",
+          "published_at": "2026-09-11T10:18:37Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/236643/cleared-in-greek-border-case-austrian-activist-now-sues-eu-data-chief-over-europol-record",
+          "headline": "Cleared in Greek border case, Austrian activist now sues EU data chief over Europol record",
+          "published_at": "2026-09-10T15:27:17Z"
+        }
+      ]
+    },
+    {
+      "label": "Muslim · York · marks · mayor",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-09-11T08:31:33Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-09-11/new-york-from-post911-suspicion-of-islam-to-its-first-muslim-mayor.html",
+          "headline": "New York: from post‑9/11 suspicion of Islam to its first Muslim mayor",
+          "published_at": "2026-09-11T08:31:33Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20260911-trump-new-york-25-years-9-11-muslim-mayor",
+          "headline": "Trump absent as New York marks 25 years since 9/11 with first Muslim mayor",
+          "published_at": "2026-09-11T01:47:42Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "e488e4ad836a71ee4e247be9",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland and other V4 countries will block EU measures that raise energy costs, warns Tusk",
+      "url": "https://notesfrompoland.com/2026/09/11/poland-and-other-v4-countries-will-block-eu-measures-that-raise-energy-costs-warns-tusk",
+      "published_at": "2026-09-11T11:55:26Z",
+      "collected_at": "2026-09-11T12:00:56Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "1d5dcb3f0f2cf91c6e2d0399",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Hamas planned Berlin-Vienna attacks for Oct. 7 anniversary, indictment shows",
+      "url": "https://www.politico.eu/article/hamas-planned-berlin-vienna-attacks-for-oct-7-anniversary-indictment-shows",
+      "published_at": "2026-09-11T11:35:43Z",
+      "collected_at": "2026-09-11T12:00:56Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "85000f6d6cc424a64be1ca8b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "ICE, another product of the 9/11 attacks",
+      "url": "https://english.elpais.com/usa/2026-09-11/ice-another-product-of-the-911-attacks.html",
+      "published_at": "2026-09-11T11:23:14Z",
+      "collected_at": "2026-09-11T12:00:56Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "6c38ad7bf5fbda69ec91b16a",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Fires in migrant settlements in Ceuta destroy tents after threats to ‘burn you’",
+      "url": "https://english.elpais.com/international/2026-09-11/fires-in-migrant-settlements-in-ceuta-destroy-tents-after-threats-to-burn-you.html",
+      "published_at": "2026-09-11T10:58:18Z",
+      "collected_at": "2026-09-11T12:00:56Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "99a472e4e5e3df264480a59e",
       "source_id": "notes_from_poland",
@@ -266,6 +314,20 @@
       "url": "https://www.politico.eu/research-and-analysis/biotechnology-at-scale-europes-next-competitiveness-test",
       "published_at": "2026-09-11T10:39:07Z",
       "collected_at": "2026-09-11T11:00:52Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "ae4619c529498bb65842c513",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Biotechnology at scale: Europe’s next competitiveness test",
+      "url": "https://www.politico.eu/research-and-analysis/biotechnology-at-scale-europes-next-competitiveness",
+      "published_at": "2026-09-11T10:39:07Z",
+      "collected_at": "2026-09-11T12:00:56Z",
       "topics": [
         "institutions",
         "politics",
@@ -326,6 +388,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "ef3ab02bfb1ea321d45eb579",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "John Hiatt: the colossus in the shadow of Americana",
+      "url": "https://english.elpais.com/culture/2026-09-11/john-hiatt-the-colossus-in-the-shadow-of-americana.html",
+      "published_at": "2026-09-11T10:15:18Z",
+      "collected_at": "2026-09-11T12:00:56Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2149,188 +2225,6 @@
       ]
     },
     {
-      "id": "d8d46d986cde2d24872c1f57",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Algeria cuts diplomatic ties with United Arab Emirates over 'provocative and hostile actions'",
-      "url": "https://www.france24.com/en/africa/20260910-algeria-cuts-diplomatic-ties-with-united-arab-emirates-over-provocative-and-hostile-actions",
-      "published_at": "2026-09-10T11:50:14Z",
-      "collected_at": "2026-09-10T12:00:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "5b38873eb8d0939fa9c9f3dc",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Sánchez’s release of declassified Ceuta files turns into ‘own goal’",
-      "url": "https://www.politico.eu/article/pedro-sanchez-release-of-declassified-ceuta-files-turns-into-own-goal",
-      "published_at": "2026-09-10T11:43:30Z",
-      "collected_at": "2026-09-10T12:00:53Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "9892d201d0df848b383ffa29",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "A year after Charlie Kirk’s death, his movement points to J. D. Vance as Trump’s political successor",
-      "url": "https://english.elpais.com/usa/2026-09-10/a-year-after-charlie-kirks-death-his-movement-points-to-jd-vance-as-his-political-successor.html",
-      "published_at": "2026-09-10T11:35:49Z",
-      "collected_at": "2026-09-10T12:00:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "3c5923d26fbcef6bb10b6fef",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Colombia court orders President de la Espriella to hide social media videos of him with dead bodies",
-      "url": "https://www.france24.com/en/americas/20260910-colombia-court-orders-president-de-la-espriella-to-hide-social-media-videos-of-him-with-dead-bodies",
-      "published_at": "2026-09-10T11:31:34Z",
-      "collected_at": "2026-09-10T12:00:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "1167bb1e0b84f12f8ac96268",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Rubio in Peru: Protestors take the streets against US Secretary of State's visit",
-      "url": "https://www.france24.com/en/video/20260910-rubio-in-peru-protestors-take-the-streets-against-us-secretary-of-state-s-visit",
-      "published_at": "2026-09-10T11:30:34Z",
-      "collected_at": "2026-09-10T12:00:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "97aaf36b6d6b709fe20dfb7b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Trump highlights his own record at midterm Republican convention",
-      "url": "https://www.france24.com/en/video/20260910-trump-highlights-his-own-record-at-midterm-republican-convention",
-      "published_at": "2026-09-10T11:26:38Z",
-      "collected_at": "2026-09-10T12:00:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "564336cc80581a3f17020e01",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ethiopia's Tigray rebels accuse govt of new drone strike",
-      "url": "https://www.france24.com/en/video/20260910-ethiopia-s-tigray-rebels-accuse-govt-of-new-drone-strike",
-      "published_at": "2026-09-10T11:23:38Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "6b932de4b17d65eab1ac7389",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "South Korea to boost artificial intelligence ties with Africa",
-      "url": "https://www.france24.com/en/video/20260910-south-korea-to-boost-artificial-intelligence-ties-with-africa",
-      "published_at": "2026-09-10T11:22:23Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "ff083377a6d1c658a15a01ff",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Sudan war: Chad denies allegations of logistical support to RSF rebels",
-      "url": "https://www.france24.com/en/video/20260910-sudan-war-chad-denies-allegations-of-logistical-support-to-rsf-rebels",
-      "published_at": "2026-09-10T11:21:15Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "3f7d73eebe6a30b44e9386d1",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Delsa Solórzano, Venezuelan opposition figure: ‘The person who must explain these oil agreements is Delcy Rodríguez, not Donald Trump’",
-      "url": "https://english.elpais.com/international/2026-09-10/delsa-solorzano-venezuelan-opposition-figure-the-person-who-must-explain-these-oil-agreements-is-delcy-rodriguez-not-donald-trump.html",
-      "published_at": "2026-09-10T11:20:15Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "e4d361098d672ab12766291f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Rwanda positions itself as an African space pioneer",
-      "url": "https://www.france24.com/en/video/20260910-rwanda-positions-itself-as-an-african-space-pioneer",
-      "published_at": "2026-09-10T11:20:04Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "85735bda4372d9e48234ebec",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "EU watchdog probes von der Leyen’s AI envoy pick",
-      "url": "https://www.politico.eu/article/eu-ombudsman-ursula-von-der-leyen-ai-envoy-jim-hagemann-snabe",
-      "published_at": "2026-09-10T11:17:34Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "1f7131fffc65f8cfea448640",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Russian drone incursion delays Zelensky flight",
-      "url": "https://www.bbc.co.uk/news/articles/c86x49e379vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-10T11:15:09Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "364044d71b55612793cdeb18",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2345,230 +2239,6 @@
       ]
     },
     {
-      "id": "43167d1cca4c7677be7d87fd",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Russia ‘trafficking’ foreigners to Ukraine’s front line, Amnesty says",
-      "url": "https://www.politico.eu/article/amnesty-russia-exploits-migrants-vulnerability-to-recruit-them-for-the-war",
-      "published_at": "2026-09-10T11:02:37Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "3c5e23082484c0a634848970",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Polish train drivers announce go-slow protest after deadly crash at rail crossing",
-      "url": "https://notesfrompoland.com/2026/09/10/polish-train-drivers-announce-go-slow-protest-after-deadly-crash-at-rail-crossing",
-      "published_at": "2026-09-10T11:01:10Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "a5b3dab4c8f0b1e0bdc89d93",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "PSG make perfect start to Champions League title defence",
-      "url": "https://www.france24.com/en/tv-shows/sports/20260910-psg-make-perfect-start-to-champions-league-title-defence",
-      "published_at": "2026-09-10T10:46:35Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "f8cc9412d2f534db26dbdf69",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Red caps, MAGA fervor and a Democratic senator at Trumpapalooza",
-      "url": "https://english.elpais.com/usa/2026-09-10/red-caps-maga-fervor-and-a-democratic-senator-at-trumpapalooza.html",
-      "published_at": "2026-09-10T10:42:38Z",
-      "collected_at": "2026-09-10T11:00:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "537cc7950f7b7e5b37c9d407",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Hoping to salvage midterms, Trump makes dubious pledge to give every US adult $5,000",
-      "url": "https://www.france24.com/en/video/20260910-hoping-to-salvage-midterms-trump-makes-dubious-pledge-to-give-every-us-adult-5-000",
-      "published_at": "2026-09-10T10:34:35Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "449ba12c1247704e918a431a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Yemen's Houthis close in on stranglehold over strategic Bab el-Mandeb Strait",
-      "url": "https://www.france24.com/en/video/20260910-yemen-s-houthis-close-in-on-stranglehold-over-strategic-bab-el-mandeb-strait",
-      "published_at": "2026-09-10T10:33:35Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "568c7d3bd14eaedc04c61cf0",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "REPLAY: French President Macron addresses International Space Summit",
-      "url": "https://www.france24.com/en/video/20260910-replay-french-president-macron-addresses-international-space-summit",
-      "published_at": "2026-09-10T10:30:25Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "c219b21b1634b102aee66f5f",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "A year after Charlie Kirk’s death, his movement points to JD Vance as his political successor",
-      "url": "https://english.elpais.com/usa/2026-09-10/a-year-after-charlie-kirks-death-his-movement-points-to-jd-vance-as-his-political-successor.html",
-      "published_at": "2026-09-10T10:30:12Z",
-      "collected_at": "2026-09-10T11:00:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "bd108376137539222045fbd2",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'AI could kill all humans': AI researcher quits Anthropic",
-      "url": "https://www.france24.com/en/video/20260910-ai-could-kill-all-humans-ai-researcher-quits-anthropic",
-      "published_at": "2026-09-10T10:28:39Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "d8d4396f2df4c0117bea01dd",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Apple's new foldable iPhone: expensive gadget or bold statement?",
-      "url": "https://www.france24.com/en/tv-shows/business/20260910-apple-s-new-foldable-iphone-expensive-gadget-or-bold-statement",
-      "published_at": "2026-09-10T10:28:18Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "19867001e5094c747d36f36f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "REPLAY: Macron joins Sophie Adenot live from the ISS at Paris space summit",
-      "url": "https://www.france24.com/en/video/20260910-replay-macron-joins-sophie-adenot-live-from-the-iss-at-paris-space-summit",
-      "published_at": "2026-09-10T10:23:36Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "d1949808bc59912c159f8a15",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US midterms: Trump touts $5,000 payout if Republicans win",
-      "url": "https://www.france24.com/en/video/20260910-us-midterms-trump-touts-5-000-payout-if-republicans-win",
-      "published_at": "2026-09-10T10:21:31Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "f86579e64a98492ae19edda3",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Provocative and blatant violation': Syria condemns Netanyahu's entry into its territory",
-      "url": "https://www.france24.com/en/video/20260910-provocative-and-blatant-violation-syria-condemns-netanyahu-s-entry-into-its-territory",
-      "published_at": "2026-09-10T10:19:33Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "8a4a1279016ad03b7e300ab0",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "New Yorkers born after 9/11: ‘I know it was tragic, but I don’t have many more details’",
-      "url": "https://english.elpais.com/usa/2026-09-10/new-yorkers-born-after-911-i-know-it-was-tragic-but-i-dont-have-many-more-details.html",
-      "published_at": "2026-09-10T10:18:46Z",
-      "collected_at": "2026-09-10T11:00:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "24e992385a5b577d55e69a47",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Protecting whales: Scientists seek ways to reduce ship collision risk",
-      "url": "https://www.france24.com/en/video/20260910-protecting-whales-scientists-seek-ways-to-reduce-ship-collision-risk",
-      "published_at": "2026-09-10T10:17:41Z",
-      "collected_at": "2026-09-10T11:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "472a27797ac434b18d659a69",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French Football Federation pulls support from FIFA head Infantino's re-election bid",
-      "url": "https://www.france24.com/en/france/20260910-french-football-federation-pulls-support-from-fifa-head-infantino-s-re-election-bid-le-monde-reports",
-      "published_at": "2026-09-10T09:59:01Z",
-      "collected_at": "2026-09-10T12:00:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "fc46c4dc7f6740e8d598426e",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -2580,6 +2250,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "75923182b618adf9eac9c026",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland secures further $4bn financing from US to buy American military equipment",
+      "url": "https://notesfrompoland.com/2026/09/09/poland-secures-further-4bn-financing-from-us-to-buy-american-military-equipment",
+      "published_at": "2026-09-09T11:28:10Z",
+      "collected_at": "2026-09-11T12:00:56Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
       ]
     },
     {
@@ -2758,6 +2442,62 @@
       "url": "https://english.elpais.com/culture/2026-09-08/the-alliance-between-the-king-of-cocaine-and-a-gestapo-chief-to-create-the-first-narco-state-in-bolivia.html",
       "published_at": "2026-09-08T13:57:48Z",
       "collected_at": "2026-09-10T18:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "b41932315745817db68bbc47",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Has Karol Nawrocki’s first year as Poland’s president been a success?",
+      "url": "https://notesfrompoland.com/2026/09/07/has-karol-nawrockis-first-year-as-polands-president-been-a-success",
+      "published_at": "2026-09-07T10:31:39Z",
+      "collected_at": "2026-09-11T12:00:56Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "e33dc0061516daec35d6d838",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Science, pigs and money: the race between the US and China to make animal-to-human transplants viable",
+      "url": "https://english.elpais.com/health/2026-09-07/science-pigs-and-money-the-race-between-the-us-and-china-to-make-animal-to-human-transplants-viable.html",
+      "published_at": "2026-09-07T09:45:01Z",
+      "collected_at": "2026-09-11T12:00:56Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "1b87010c6eeca8996b799512",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "GRN gene: When genetic information upends life",
+      "url": "https://english.elpais.com/science-tech/2026-09-04/grn-gene-when-genetic-information-upends-life.html",
+      "published_at": "2026-09-04T14:04:23Z",
+      "collected_at": "2026-09-11T12:00:56Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "d2bd711e7eca6f608a348b29",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The three witnesses to Lorenzo Salgado’s death are free as the case moves toward a grand jury",
+      "url": "https://english.elpais.com/usa/2026-09-01/the-three-witnesses-to-lorenzo-salgados-death-are-free-as-the-case-moves-toward-a-grand-jury.html",
+      "published_at": "2026-09-01T08:35:39Z",
+      "collected_at": "2026-09-11T12:00:56Z",
       "topics": [
         "politics",
         "society",
