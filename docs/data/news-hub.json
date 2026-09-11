@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-11T10:00:53Z",
-  "last_successful_collection_at": "2026-09-11T10:00:53Z",
+  "generated_at": "2026-09-11T10:30:42Z",
+  "last_successful_collection_at": "2026-09-11T10:30:42Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-11T10:00:53Z"
+      "at": "2026-09-11T10:30:42Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-11T10:00:53Z"
+      "at": "2026-09-11T10:30:42Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-11T10:00:53Z"
+      "at": "2026-09-11T10:30:42Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-11T10:00:53Z"
+      "at": "2026-09-11T10:30:42Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-11T10:00:53Z"
+      "at": "2026-09-11T10:30:42Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-11T10:00:53Z"
+      "at": "2026-09-11T10:30:42Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-11T10:00:53Z"
+      "at": "2026-09-11T10:30:42Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-11T10:00:53Z"
+      "at": "2026-09-11T10:30:42Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-11T10:00:53Z"
+      "at": "2026-09-11T10:30:42Z"
     }
   ],
   "europe_now": [
@@ -161,10 +161,64 @@
   ],
   "developing": [
     {
+      "label": "Russian · Ukraine · assets · frozen",
+      "origin": "convergence",
+      "source_count": 4,
+      "item_count": 4,
+      "latest_at": "2026-09-11T10:13:51Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/germany-ukraine-loan-frozen-russia-assets",
+          "headline": "Germany floats new Ukraine loan backed by frozen Russian assets",
+          "published_at": "2026-09-11T10:13:51Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cpvelrmp1vmo?at_medium=RSS&at_campaign=rss",
+          "headline": "Five killed and 67 injured in Russian strike on shopping centre, Ukraine says",
+          "published_at": "2026-09-10T22:36:02Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/236631/ukraines-financial-crisis-resurrects-europes-bitter-dilemma-on-moscows-frozen-central-bank-assets",
+          "headline": "Ukraine’s financial crisis resurrects Europe’s bitter dilemma on Russian frozen assets",
+          "published_at": "2026-09-10T18:00:00Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/germany-s-goethe-institut-is-closing-in-russia-russians-tell-dw-how-canceled-exams-are-upending-their-plans/a-79218936?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Germany’s Goethe-Institut is closing in Russia. Russians tell DW how canceled exams are upending their plans",
+          "published_at": "2026-09-10T16:17:00Z"
+        }
+      ]
+    },
+    {
+      "label": "EU · AI · chief · extinction",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-09-11T10:18:37Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/henna-virkkunen-eu-global-ai-rules-extinction-warning",
+          "headline": "EU tech chief backs global AI rules in wake of extinction warning",
+          "published_at": "2026-09-11T10:18:37Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/236643/cleared-in-greek-border-case-austrian-activist-now-sues-eu-data-chief-over-europol-record",
+          "headline": "Cleared in Greek border case, Austrian activist now sues EU data chief over Europol record",
+          "published_at": "2026-09-10T15:27:17Z"
+        }
+      ]
+    },
+    {
       "label": "AI · Anthropic · China",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
+      "item_count": 2,
       "latest_at": "2026-09-11T07:35:20Z",
       "sources": [
         {
@@ -178,48 +232,6 @@
           "url": "https://www.politico.com/news/2026/09/10/bad-actors-china-russia-weaponizing-anthropic-01070435",
           "headline": "Bad actors in China and Russia are already weaponizing Anthropic’s AI",
           "published_at": "2026-09-10T18:17:29Z"
-        }
-      ]
-    },
-    {
-      "label": "Russian · Ukraine",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-09-10T22:36:02Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cpvelrmp1vmo?at_medium=RSS&at_campaign=rss",
-          "headline": "Five killed and 67 injured in Russian strike on shopping centre, Ukraine says",
-          "published_at": "2026-09-10T22:36:02Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/236631/ukraines-financial-crisis-resurrects-europes-bitter-dilemma-on-moscows-frozen-central-bank-assets",
-          "headline": "Ukraine’s financial crisis resurrects Europe’s bitter dilemma on Russian frozen assets",
-          "published_at": "2026-09-10T18:00:00Z"
-        }
-      ]
-    },
-    {
-      "label": "Paris · summit",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-09-10T18:43:19Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/bernie-sanders-alexandria-ocasio-cortez-invited-to-paris-for-gabriel-zucmans-tax-the-rich-summit",
-          "headline": "Bernie Sanders, Alexandria Ocasio-Cortez invited to Paris for Gabriel Zucman’s tax-the-rich summit",
-          "published_at": "2026-09-10T18:43:19Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260910-replay-macron-joins-sophie-adenot-live-from-the-iss-at-paris-space-summit",
-          "headline": "REPLAY: Macron joins Sophie Adenot live from the ISS at Paris space summit",
-          "published_at": "2026-09-10T10:23:36Z"
         }
       ]
     },
@@ -246,6 +258,62 @@
     }
   ],
   "radar": [
+    {
+      "id": "9d87e5194bee2e645b1de110",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Merz’s ‘ethnic cleansing’ comments trigger defamation complaint from far-right AfD",
+      "url": "https://www.politico.eu/article/germany-friedrich-merzs-ethnic-cleansing-comments-trigger-defamation-complaint-from-far-right-afd",
+      "published_at": "2026-09-11T10:21:09Z",
+      "collected_at": "2026-09-11T10:30:42Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "fa21d0890e8a45dfe0fe8fd9",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "EU tech chief backs global AI rules in wake of extinction warning",
+      "url": "https://www.politico.eu/article/henna-virkkunen-eu-global-ai-rules-extinction-warning",
+      "published_at": "2026-09-11T10:18:37Z",
+      "collected_at": "2026-09-11T10:30:42Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "d8f7e09b7a909ebeaafcfbf5",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Germany floats new Ukraine loan backed by frozen Russian assets",
+      "url": "https://www.politico.eu/article/germany-ukraine-loan-frozen-russia-assets",
+      "published_at": "2026-09-11T10:13:51Z",
+      "collected_at": "2026-09-11T10:30:42Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "e7db75f7183532efbf11447e",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "25 years after 9/11, have the terrorists won?",
+      "url": "https://euobserver.com/236714/25-years-after-9-11-have-the-terrorists-won",
+      "published_at": "2026-09-11T09:58:39Z",
+      "collected_at": "2026-09-11T10:30:42Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "47bd74756a2e40e9eac13e13",
       "source_id": "france24",
@@ -453,6 +521,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "060974b7c91600c45f797cec",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Man jailed after threatening to behead son's teacher in French village",
+      "url": "https://www.bbc.co.uk/news/articles/c62jln7n2vvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-11T06:28:42Z",
+      "collected_at": "2026-09-11T10:30:42Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -2403,20 +2485,6 @@
       ]
     },
     {
-      "id": "ceb03b626bee5b5adb82b707",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French Football Federation pulls support from FIFA head Infantino's re-election bid, French media reports",
-      "url": "https://www.france24.com/en/france/20260910-french-football-federation-pulls-support-from-fifa-head-infantino-s-re-election-bid-le-monde-reports",
-      "published_at": "2026-09-10T09:59:01Z",
-      "collected_at": "2026-09-10T10:00:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "472a27797ac434b18d659a69",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2428,48 +2496,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "e61b4501aaf591df3d7b14df",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Von der Leyen’s State of the Union AI data-centre dream will be a nightmare",
-      "url": "https://euobserver.com/236303/von-der-leyens-state-of-the-union-ai-data-centre-dream-will-be-a-nightmare",
-      "published_at": "2026-09-10T09:53:41Z",
-      "collected_at": "2026-09-10T10:00:54Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "965d280617d24a47ba3ac89d",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US midterms: Trump promises $5,000 payout if Republicans win",
-      "url": "https://www.france24.com/en/video/20260910-us-midterms-trump-promises-5-000-payout-if-republicans-win",
-      "published_at": "2026-09-10T09:50:30Z",
-      "collected_at": "2026-09-10T10:00:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "218ff39dc474ed624fb36425",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump promises $5,000 to ‘every adult citizen’ if Republicans win the midterms",
-      "url": "https://english.elpais.com/usa/2026-09-10/trump-promises-5000-to-every-adult-citizen-if-republicans-win-the-midterms.html",
-      "published_at": "2026-09-10T09:28:59Z",
-      "collected_at": "2026-09-10T10:00:54Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -2750,20 +2776,6 @@
         "analysis",
         "foreign_policy",
         "security"
-      ]
-    },
-    {
-      "id": "0d3610997d14be9ec3dad030",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Polish PM condemns opposition “idiots or traitors” celebrating AfD victory in Germany",
-      "url": "https://notesfrompoland.com/2026/09/07/polish-pm-condemns-opposition-idiots-or-traitors-celebrating-afd-victory-in-germany",
-      "published_at": "2026-09-07T09:35:53Z",
-      "collected_at": "2026-09-11T10:00:53Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
       ]
     }
   ]
