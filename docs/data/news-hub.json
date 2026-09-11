@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-11T10:30:42Z",
-  "last_successful_collection_at": "2026-09-11T10:30:42Z",
+  "generated_at": "2026-09-11T11:00:52Z",
+  "last_successful_collection_at": "2026-09-11T11:00:52Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-11T10:30:42Z"
+      "at": "2026-09-11T11:00:52Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-11T10:30:42Z"
+      "at": "2026-09-11T11:00:52Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-11T10:30:42Z"
+      "at": "2026-09-11T11:00:52Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-11T10:30:42Z"
+      "at": "2026-09-11T11:00:52Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-11T10:30:42Z"
+      "at": "2026-09-11T11:00:52Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-11T10:30:42Z"
+      "at": "2026-09-11T11:00:52Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-11T10:30:42Z"
+      "at": "2026-09-11T11:00:52Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-09-11T10:30:42Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-09-11T11:00:52Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-11T10:30:42Z"
+      "at": "2026-09-11T11:00:52Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Swiss Alps Coach Crash",
-      "summary": "A serious vehicle accident involving a coach in the Swiss Alps resulted in multiple fatalities and numerous injuries. Emergency services responded to the scene to conduct rescue and medical operations.",
+      "title": "Fatal Coach Crash in the Swiss Alps",
+      "summary": "A serious traffic accident involving a coach in the Swiss Alps has resulted in multiple fatalities and numerous injuries. Emergency response and rescue operations are ongoing at the scene.",
       "article_ids": [
         "d844b394180f4fc1cf65a0bb",
         "2bd6ed7aed74cd622bbb5d8c"
@@ -87,8 +87,8 @@
       "source_count": 1
     },
     {
-      "title": "Hungarian Government Policy Shifts",
-      "summary": "The administration in Hungary has moved to expel several Russian diplomats while simultaneously dismantling existing regional political structures. These developments reflect a significant shift in the country's domestic governance and foreign policy.",
+      "title": "Hungary Shifts Foreign Policy Under New Leadership",
+      "summary": "Hungary's government has announced the expulsion of ten Russian diplomats as part of a significant shift in diplomatic relations. This move marks a notable departure from previous political alignments regarding Moscow.",
       "article_ids": [
         "c5ef9cf3eaf2a672dfac2871",
         "2f92067dc98818684c057004"
@@ -112,13 +112,46 @@
   ],
   "top_stories": [
     {
-      "title": "Ukraine Conflict and Regional Security",
-      "summary": "Ukrainian cities face heavy bombardment as military forces attempt to secure contested regional territory. Authorities have urged local populations to evacuate areas experiencing intense combat.",
+      "title": "German Political Developments and Legal Challenges",
+      "summary": "German political discussions have intensified following recent electoral outcomes in Saxony-Anhalt. Additionally, remarks regarding ethnic policies made by opposition figures have triggered formal legal complaints.",
       "article_ids": [
-        "3f61ea9068972eeee9bfe7eb",
-        "6e5d416f1be0c6a57c8c4611",
-        "38ed7785a726952d83600cc2"
+        "9d87e5194bee2e645b1de110",
+        "e4673dd277bff4c6cc8ef265"
       ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/turks-in-germany-anxious-after-afd-wins-in-saxony-anhalt/a-79221764?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Turks in Germany anxious after AfD wins in Saxony-Anhalt",
+          "published_at": "2026-09-11T10:07:00Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Financial Strategies for Ukraine Involving Frozen Assets",
+      "summary": "Germany has introduced proposals for a new financial support package for Ukraine utilizing frozen Russian assets. European policymakers continue to debate effective methods for long-term economic and security assistance.",
+      "article_ids": [
+        "d8f7e09b7a909ebeaafcfbf5"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/germany-ukraine-loan-frozen-russia-assets",
+          "headline": "Germany floats new Ukraine loan backed by frozen Russian assets",
+          "published_at": "2026-09-11T10:13:51Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
+    {
+      "label": "Russia · Ukraine · Amnesty · bids",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 4,
+      "latest_at": "2026-09-10T23:22:11Z",
       "sources": [
         {
           "publisher": "BBC News Europe",
@@ -127,69 +160,43 @@
           "published_at": "2026-09-10T23:22:11Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cwyz89w59l3o?at_medium=RSS&at_campaign=rss",
-          "headline": "Civilians told to flee Ukraine's fortress cities as Russia bids to control Donbas",
-          "published_at": "2026-09-10T23:22:11Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "European Space Autonomy Initiatives",
-      "summary": "Discussions surrounding European space capabilities emphasize the need for greater technological independence and reduced reliance on external partners. Policymakers and experts are reviewing strategies for crewed spaceflight and secure communications.",
-      "article_ids": [
-        "87d22b2672bf27bf7e9149e4",
-        "e578d7ee4bfc77b092936f74"
-      ],
-      "sources": [
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260910-russia-tricks-vulnerable-foreigners-to-fight-in-ukraine-war-amnesty-reports",
+          "headline": "Russia tricks 'vulnerable' foreigners to fight in Ukraine war, Amnesty reports",
+          "published_at": "2026-09-10T15:20:51Z"
+        },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-in-space-going-boldly-where-plenty-of-people-have-gone-before",
-          "headline": "EU in space: Going boldly where plenty of people have gone before",
-          "published_at": "2026-09-11T02:00:00Z"
+          "url": "https://www.politico.eu/article/amnesty-russia-exploits-migrants-vulnerability-to-recruit-them-for-the-war",
+          "headline": "Russia ‘trafficking’ foreigners to Ukraine’s front line, Amnesty says",
+          "published_at": "2026-09-10T11:02:37Z"
+        }
+      ]
+    },
+    {
+      "label": "joins · Peru · Trump · US",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-09-11T10:26:44Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-09-11/peru-strengthens-its-security-alliance-with-the-us-and-joins-trumps-shield-of-the-americas.html",
+          "headline": "Peru strengthens its security alliance with the US and joins Trump’s Shield of the Americas",
+          "published_at": "2026-09-11T10:26:44Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c0re72nvy22o?at_medium=RSS&at_campaign=rss",
+          "headline": "From JFK to Biden, Trump joins well-trodden path to the Emerald Isle",
+          "published_at": "2026-09-10T23:01:55Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/a-propos/20260910-space-europe-urged-to-find-its-path-from-crewed-spaceflight-to-communications",
-          "headline": "Space: Europe urged to find its path, from crewed spaceflight to communications",
-          "published_at": "2026-09-10T21:05:39Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
-    {
-      "label": "Russian · Ukraine · assets · frozen",
-      "origin": "convergence",
-      "source_count": 4,
-      "item_count": 4,
-      "latest_at": "2026-09-11T10:13:51Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/germany-ukraine-loan-frozen-russia-assets",
-          "headline": "Germany floats new Ukraine loan backed by frozen Russian assets",
-          "published_at": "2026-09-11T10:13:51Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cpvelrmp1vmo?at_medium=RSS&at_campaign=rss",
-          "headline": "Five killed and 67 injured in Russian strike on shopping centre, Ukraine says",
-          "published_at": "2026-09-10T22:36:02Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/236631/ukraines-financial-crisis-resurrects-europes-bitter-dilemma-on-moscows-frozen-central-bank-assets",
-          "headline": "Ukraine’s financial crisis resurrects Europe’s bitter dilemma on Russian frozen assets",
-          "published_at": "2026-09-10T18:00:00Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/germany-s-goethe-institut-is-closing-in-russia-russians-tell-dw-how-canceled-exams-are-upending-their-plans/a-79218936?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Germany’s Goethe-Institut is closing in Russia. Russians tell DW how canceled exams are upending their plans",
-          "published_at": "2026-09-10T16:17:00Z"
+          "url": "https://www.france24.com/en/video/20260910-rubio-in-peru-protestors-take-the-streets-against-us-secretary-of-state-s-visit",
+          "headline": "Rubio in Peru: Protestors take the streets against US Secretary of State's visit",
+          "published_at": "2026-09-10T11:30:34Z"
         }
       ]
     },
@@ -215,49 +222,84 @@
       ]
     },
     {
-      "label": "AI · Anthropic · China",
+      "label": "Europe · Space · Summit · US",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-09-11T07:35:20Z",
+      "item_count": 4,
+      "latest_at": "2026-09-10T21:05:39Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/technology/20260911-anthropic-ai-surveillance-targeting-dissidents-china-iran-west-africa",
-          "headline": "China, Iran among countries using AI to spy on dissidents and minorities, Anthropic says",
-          "published_at": "2026-09-11T07:35:20Z"
+          "url": "https://www.france24.com/en/tv-shows/a-propos/20260910-space-europe-urged-to-find-its-path-from-crewed-spaceflight-to-communications",
+          "headline": "Space: Europe urged to find its path, from crewed spaceflight to communications",
+          "published_at": "2026-09-10T21:05:39Z"
         },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.com/news/2026/09/10/bad-actors-china-russia-weaponizing-anthropic-01070435",
-          "headline": "Bad actors in China and Russia are already weaponizing Anthropic’s AI",
-          "published_at": "2026-09-10T18:17:29Z"
-        }
-      ]
-    },
-    {
-      "label": "drone · Zelensky",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-09-10T15:55:25Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260910-zelensky-s-plane-almost-hit-by-drone-en-route-to-oslo-norway-pm-says",
-          "headline": "Zelensky's plane 'almost hit' by drone en route to Oslo, Norway PM says",
-          "published_at": "2026-09-10T15:55:25Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c86x49e379vo?at_medium=RSS&at_campaign=rss",
-          "headline": "Russian drone incursion delays Zelensky flight",
-          "published_at": "2026-09-10T11:15:09Z"
+          "url": "https://www.politico.eu/article/emmanuel-macron-international-space-summit-europe-us",
+          "headline": "Macron’s space summit showed Europe isn’t ready to go to space without the US",
+          "published_at": "2026-09-10T18:16:20Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "99a472e4e5e3df264480a59e",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Polish far-right leader Braun vandalises Ukrainian monument with hammer",
+      "url": "https://notesfrompoland.com/2026/09/11/polish-far-right-leader-braun-vandalises-ukrainian-monument-with-hammer",
+      "published_at": "2026-09-11T10:49:10Z",
+      "collected_at": "2026-09-11T11:00:52Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "27bed30468e4e0b3eb91bd37",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Biotechnology at scale: Europe’s next competitiveness test",
+      "url": "https://www.politico.eu/research-and-analysis/biotechnology-at-scale-europes-next-competitiveness-test",
+      "published_at": "2026-09-11T10:39:07Z",
+      "collected_at": "2026-09-11T11:00:52Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "241c3c4adea860f4e610f240",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Peru strengthens its security alliance with the US and joins Trump’s Shield of the Americas",
+      "url": "https://english.elpais.com/international/2026-09-11/peru-strengthens-its-security-alliance-with-the-us-and-joins-trumps-shield-of-the-americas.html",
+      "published_at": "2026-09-11T10:26:44Z",
+      "collected_at": "2026-09-11T11:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "cf6596f41e0b658ae6c17b34",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Gaza prepares for return to school amid destruction and without books: ‘The Strip resists death through education’",
+      "url": "https://english.elpais.com/international/2026-09-11/gaza-prepares-for-return-to-school-amid-destruction-and-without-books-the-strip-resists-death-through-education.html",
+      "published_at": "2026-09-11T10:23:37Z",
+      "collected_at": "2026-09-11T11:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "9d87e5194bee2e645b1de110",
       "source_id": "politico_europe",
@@ -301,6 +343,20 @@
       ]
     },
     {
+      "id": "e4673dd277bff4c6cc8ef265",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Turks in Germany anxious after AfD wins in Saxony-Anhalt",
+      "url": "https://www.dw.com/en/turks-in-germany-anxious-after-afd-wins-in-saxony-anhalt/a-79221764?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-11T10:07:00Z",
+      "collected_at": "2026-09-11T11:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "e7db75f7183532efbf11447e",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -312,6 +368,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "dcf1199c6786832ae093ee67",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Perpetrator of one of Spain’s largest real estate frauds found hiding under kitchen sink in his mother’s house",
+      "url": "https://english.elpais.com/spain/2026-09-11/perpetrator-of-one-of-spains-largest-real-estate-frauds-found-hiding-under-kitchen-sink-in-his-mothers-house.html",
+      "published_at": "2026-09-11T09:43:08Z",
+      "collected_at": "2026-09-11T11:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -399,6 +469,20 @@
       ]
     },
     {
+      "id": "57a1baa9213f2f1e147e5fde",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Vance speech at ‘Trumpapalooza’ provides calling card for 2028 presidential run: ‘If you love Mexico so much, get your ass over there’",
+      "url": "https://english.elpais.com/usa/2026-09-11/vance-speech-at-trumpapalooza-provides-calling-card-for-2028-presidential-run-if-you-love-mexico-so-much-get-your-ass-over-there.html",
+      "published_at": "2026-09-11T09:15:34Z",
+      "collected_at": "2026-09-11T11:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "c5ef9cf3eaf2a672dfac2871",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -452,6 +536,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "d24ba0507d52dddeee214ad2",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "New York: from post‑9/11 suspicion of Islam to its first Muslim mayor",
+      "url": "https://english.elpais.com/usa/2026-09-11/new-york-from-post911-suspicion-of-islam-to-its-first-muslim-mayor.html",
+      "published_at": "2026-09-11T08:31:33Z",
+      "collected_at": "2026-09-11T11:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2457,34 +2555,6 @@
       ]
     },
     {
-      "id": "e53dc92d613c17855fdac7cf",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "FRANCE 24 report: Bayeux Tapestry fever grips UK as sold-out exhibition opens",
-      "url": "https://www.france24.com/en/video/20260910-france-24-report-bayeux-tapestry-fever-grips-uk-as-sold-out-exhibition-opens",
-      "published_at": "2026-09-10T10:16:32Z",
-      "collected_at": "2026-09-10T10:30:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "50b0583e31d119cdbeb2b610",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 French Football Federation pulls support from FIFA head Infantino's re-election bid, French media reports",
-      "url": "https://www.france24.com/en/france/20260910-french-football-federation-pulls-support-from-fifa-head-infantino-s-re-election-bid-le-monde-reports",
-      "published_at": "2026-09-10T10:01:05Z",
-      "collected_at": "2026-09-10T10:30:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "472a27797ac434b18d659a69",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2510,6 +2580,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "03a206fac617d6f1289f7c72",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trump escalates trade war with ban on purchase of Canadian spirits and motorcycles",
+      "url": "https://english.elpais.com/economy-and-business/2026-09-09/trump-escalates-trade-war-with-ban-on-purchase-of-canadian-spirits-and-motorcycles.html",
+      "published_at": "2026-09-09T10:21:18Z",
+      "collected_at": "2026-09-11T11:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2678,104 +2762,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "b5c2293304af2add581ec76c",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "More than 1.6 million people die each year from secondhand smoke",
-      "url": "https://english.elpais.com/health/2026-09-08/more-than-16-million-people-die-each-year-from-secondhand-smoke.html",
-      "published_at": "2026-09-08T13:11:07Z",
-      "collected_at": "2026-09-10T14:00:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "fe016a2c8951f685f85c1151",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "What we know about the Renoir museum heist",
-      "url": "https://www.bbc.co.uk/news/videos/c62mnr4pnnlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-08T13:11:00Z",
-      "collected_at": "2026-09-10T16:00:52Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "8d3abc1d686c39e644212f33",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Robots “protest” in Warsaw to demand regulation of AI and automation",
-      "url": "https://notesfrompoland.com/2026/09/08/robots-protest-in-warsaw-to-demand-regulation-of-ai-and-automation",
-      "published_at": "2026-09-08T13:02:52Z",
-      "collected_at": "2026-09-10T14:00:56Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "0d8d1bf07d1e7b9133f3e9f3",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Javier Bardem and Penélope Cruz, a cinematic love story",
-      "url": "https://english.elpais.com/culture/2026-09-08/javier-bardem-and-penelope-cruz-a-cinematic-love-story.html",
-      "published_at": "2026-09-08T12:43:39Z",
-      "collected_at": "2026-09-10T13:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "1727f8236b51c9ab61fc302a",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Beyond Saxony-Anhalt: What Merz’s crisis means for Europe",
-      "url": "https://ecfr.eu/article/beyond-saxony-anhalt-what-merzs-crisis-means-for-europe",
-      "published_at": "2026-09-08T10:21:59Z",
-      "collected_at": "2026-09-10T10:30:46Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "47d86da94758b121e366fd8e",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Far-right candidate excluded from Kraków mayoral election after signature blunder",
-      "url": "https://notesfrompoland.com/2026/09/08/far-right-candidate-excluded-from-krakow-mayoral-election-after-signature-blunder",
-      "published_at": "2026-09-08T09:50:27Z",
-      "collected_at": "2026-09-10T10:30:46Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "1cacb4845025b1e95890b3af",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Emergency Room: The AfD’s victory in Saxony-Anhalt",
-      "url": "https://ecfr.eu/podcasts/episode/emergency-room-the-afds-victory-in-saxony-anhalt",
-      "published_at": "2026-09-08T09:44:16Z",
-      "collected_at": "2026-09-10T10:30:46Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
       ]
     }
   ]
