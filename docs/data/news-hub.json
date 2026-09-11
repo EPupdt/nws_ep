@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-11T17:00:52Z",
-  "last_successful_collection_at": "2026-09-11T17:00:52Z",
+  "generated_at": "2026-09-11T17:30:46Z",
+  "last_successful_collection_at": "2026-09-11T17:30:46Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-11T17:00:52Z"
+      "at": "2026-09-11T17:30:46Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-11T17:00:52Z"
+      "at": "2026-09-11T17:30:46Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-11T17:00:52Z"
+      "at": "2026-09-11T17:30:46Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-11T17:00:52Z"
+      "at": "2026-09-11T17:30:46Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-11T17:00:52Z"
+      "at": "2026-09-11T17:30:46Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-11T17:00:52Z"
+      "at": "2026-09-11T17:30:46Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-11T17:00:52Z"
+      "at": "2026-09-11T17:30:46Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-09-11T17:00:52Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-09-11T17:30:46Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-11T17:00:52Z"
+      "at": "2026-09-11T17:30:46Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Von der Leyen criticized over space deal",
-      "summary": "European Commission President Ursula von der Leyen faced accusations of an abuse of power after backing a major space agreement.",
+      "title": "Norway's Princess Astrid passes away",
+      "summary": "Princess Astrid of Norway has died just two days after attending the funeral of her brother, King Harald. The passing of the royal figure marks a significant moment for the Norwegian monarchy.",
+      "article_ids": [
+        "bb07a4c4afbfb08a5785e346"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo?at_medium=RSS&at_campaign=rss",
+          "headline": "Norway's Princess Astrid dies two days after attending brother King Harald's funeral",
+          "published_at": "2026-09-11T16:00:59Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Criticism over European space agreement",
+      "summary": "European Commission President Ursula von der Leyen faced strong criticism after endorsing a major space agreement. Critics have characterized the backing of the initiative as an abuse of official power.",
       "article_ids": [
         "ff4452caf02b34bd8b739bcb"
       ],
@@ -78,30 +94,32 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Kallas calls for sanctions on Israeli settlements",
-      "summary": "EU foreign policy chief Kaja Kallas suggested that the European Union should sanction Israeli settlements in a manner similar to Russian-occupied Crimea.",
-      "article_ids": [
-        "c3c6f300fbf523b2a08f3386"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/kaja-kallas-eu-sanctions-israeli-settlements-crimea",
-          "headline": "EU should sanction Israeli settlements like Russian-occupied Crimea, Kallas says",
-          "published_at": "2026-09-11T12:45:05Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "Ukraine Conflict and International Security",
-      "summary": "Updates from the ongoing conflict in Ukraine highlighted technological and strategic developments on the battlefield. Concurrently, regional security and sanctions remained prominent topics of discussion.",
+      "title": "Political and Electoral Landscapes in Europe",
+      "summary": "Leaders across Europe are expressing growing anxiety regarding the electoral successes of extremist political groups. Meanwhile, Swedish Prime Minister Ulf Kristersson has warned that upcoming elections could jeopardize national NATO missions if the left secures a victory.",
       "article_ids": [
-        "15d0ac95731f1e9937308c38"
+        "76d2c756f5000f01e5815a81",
+        "a559290314d48162dd6b77cd"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/sweden-election-nato-missions-risk-ulf-kristersson",
+          "headline": "Sweden’s NATO missions are at risk if the left wins election, warns PM Kristersson",
+          "published_at": "2026-09-11T14:35:29Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Technological Advancements and Digital Policy in Conflict",
+      "summary": "Advanced artificial intelligence tools have reportedly integrated into the ongoing conflict in Ukraine following tactical advantages gained by opposing forces. Concurrently, European policymakers and advocates are addressing various digital governance measures, including online protections and regulatory concerns.",
+      "article_ids": [
+        "15d0ac95731f1e9937308c38",
+        "442ccfb0099baacc4a3932e4"
       ],
       "sources": [
         {
@@ -250,6 +268,20 @@
       ]
     },
     {
+      "id": "bb07a4c4afbfb08a5785e346",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Norway's Princess Astrid dies two days after attending brother King Harald's funeral",
+      "url": "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-11T16:00:59Z",
+      "collected_at": "2026-09-11T17:30:46Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "822aa8d55b50780bd66bf8ed",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -359,6 +391,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "c60fe527f12e9a975263ddb4",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Céline Dion duets with fan ahead of Paris comeback concert",
+      "url": "https://www.bbc.co.uk/news/videos/cm2q8gg09d1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-11T14:54:07Z",
+      "collected_at": "2026-09-11T17:30:46Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -901,6 +947,20 @@
       "url": "https://notesfrompoland.com/2026/09/11/poland-and-other-v4-countries-will-block-eu-measures-that-raise-energy-costs-warns-tusk",
       "published_at": "2026-09-11T11:55:26Z",
       "collected_at": "2026-09-11T12:00:56Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "0acd75f011e90e248bdf83f2",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland and other V4 countries will block EU climate policies that raise energy costs, warns Tusk",
+      "url": "https://notesfrompoland.com/2026/09/11/poland-and-other-v4-countries-will-block-eu-measures-that-raise-energy-costs-warns-tusk",
+      "published_at": "2026-09-11T11:55:26Z",
+      "collected_at": "2026-09-11T17:30:46Z",
       "topics": [
         "central_europe",
         "politics",
@@ -2322,20 +2382,6 @@
       ]
     },
     {
-      "id": "aa1b02103a2508f3ed2d0754",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Russians about Goethe-Institut: 'Hostage to politics'",
-      "url": "https://www.dw.com/en/russians-about-goethe-institut-hostage-to-politics/a-79218936?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-10T16:17:00Z",
-      "collected_at": "2026-09-10T17:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "877b833b95eb8a61a36b8a63",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2392,6 +2438,20 @@
       ]
     },
     {
+      "id": "a01f85bfac6025878d749c28",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Europe's royalty pay respects to King Harald V in Norway",
+      "url": "https://www.bbc.co.uk/news/articles/cd94jgy7e94o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-09T16:30:28Z",
+      "collected_at": "2026-09-11T17:30:46Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "1d7e7d30041a5d2d5a438372",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -2417,6 +2477,20 @@
         "analysis",
         "foreign_policy",
         "security"
+      ]
+    },
+    {
+      "id": "2050a9857c9c68e471197d09",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Reigning Miss Austria beauty queen dies aged 22",
+      "url": "https://www.bbc.co.uk/news/articles/c046r1z9ln4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-09T12:25:37Z",
+      "collected_at": "2026-09-11T17:30:46Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -2532,6 +2606,20 @@
       ]
     },
     {
+      "id": "76b6149b6318b4da9bf0ef35",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘American Doctor’: US medics trying to save lives in Gaza while Israel bombs hospitals",
+      "url": "https://english.elpais.com/culture/2026-09-07/american-doctor-us-medics-trying-to-save-lives-in-gaza-while-israel-bombs-hospitals.html",
+      "published_at": "2026-09-07T16:15:27Z",
+      "collected_at": "2026-09-11T17:30:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "631b98d1138dc5027d8aaa4c",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2543,6 +2631,62 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "6dd6d1a147d103a647d564f0",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Norway seizes Russian ship in Svalbard to compensate Ukraine",
+      "url": "https://www.dw.com/en/norway-seizes-russian-ship-in-svalbard-to-compensate-ukraine/a-78889005?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-03T15:23:00Z",
+      "collected_at": "2026-09-11T17:30:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "390923f7f6d5211821cfd1ee",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Germany says Russia behind attempted drone attack at Leipzig airport",
+      "url": "https://www.dw.com/en/germany-says-russia-behind-attempted-drone-attack-at-leipzig-airport/a-78584589?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-01T22:56:00Z",
+      "collected_at": "2026-09-11T17:30:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "04071b1db8aae2348b5dcd82",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Somali pirates demonstrate growing strength with new ship hijackings",
+      "url": "https://english.elpais.com/international/2026-09-01/somali-pirates-demonstrate-growing-strength-with-new-ship-hijackings.html",
+      "published_at": "2026-09-01T14:37:03Z",
+      "collected_at": "2026-09-11T17:30:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "2f8aec3b365890693c983d0f",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The women who dress their boyfriends as John Kennedy Jr. on TikTok",
+      "url": "https://english.elpais.com/lifestyle/2026-09-01/the-women-who-dress-their-boyfriends-as-john-kennedy-jr-on-tiktok.html",
+      "published_at": "2026-09-01T14:36:18Z",
+      "collected_at": "2026-09-11T17:30:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     }
   ]
