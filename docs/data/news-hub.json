@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-11T06:00:50Z",
-  "last_successful_collection_at": "2026-09-11T06:00:50Z",
+  "generated_at": "2026-09-11T06:30:47Z",
+  "last_successful_collection_at": "2026-09-11T06:30:47Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-11T06:00:50Z"
+      "at": "2026-09-11T06:30:47Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-11T06:00:50Z"
+      "at": "2026-09-11T06:30:47Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-11T06:00:50Z"
+      "at": "2026-09-11T06:30:47Z"
     },
     {
       "id": "euractiv",
@@ -29,59 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-11T06:00:50Z"
+      "at": "2026-09-11T06:30:47Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-11T06:00:50Z"
+      "at": "2026-09-11T06:30:47Z"
     },
     {
       "id": "el_pais_english",
-      "status": "ok",
-      "count": "58",
-      "at": "2026-09-11T06:00:50Z"
+      "status": "error",
+      "detail": "The read operation timed out",
+      "at": "2026-09-11T06:30:47Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-11T06:00:50Z"
+      "at": "2026-09-11T06:30:47Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-11T06:00:50Z"
+      "at": "2026-09-11T06:30:47Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-11T06:00:50Z"
+      "at": "2026-09-11T06:30:47Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Poland-Ukraine Border Threat Averted",
-      "summary": "Polish Prime Minister Donald Tusk issued warnings regarding potential future attacks following the successful prevention of a direct threat along the border between Poland and Ukraine.",
-      "article_ids": [
-        "9c0a2cf9505b637c0683f39d"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/poland-prime-minister-donald-tusk-warns-of-further-attacks-after-direct-threat-averted-polish-ukrainian-border",
-          "headline": "Tusk warns of future attacks after ‘direct threat’ averted at Poland-Ukraine border",
-          "published_at": "2026-09-10T20:49:11Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Fatal Swiss Alps Coach Crash",
-      "summary": "A coach crash in the Swiss Alps resulted in multiple fatalities, drawing emergency response and regional news coverage.",
+      "title": "Swiss Alps Coach Crash",
+      "summary": "A coach crash in the Swiss Alps has resulted in the deaths of several people.",
       "article_ids": [
         "2bd6ed7aed74cd622bbb5d8c"
       ],
@@ -94,56 +78,57 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "European Space Autonomy Discussion",
-      "summary": "Discussions at the international space summit in France highlighted Europe's current reliance on the United States and the need to develop independent space capabilities. Leaders debated the path forward for European crewed spaceflight and communications autonomy.",
-      "article_ids": [
-        "e578d7ee4bfc77b092936f74",
-        "42bc564a056d3ae1ee93aa09"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/a-propos/20260910-space-europe-urged-to-find-its-path-from-crewed-spaceflight-to-communications",
-          "headline": "Space: Europe urged to find its path, from crewed spaceflight to communications",
-          "published_at": "2026-09-10T21:05:39Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/emmanuel-macron-international-space-summit-europe-us",
-          "headline": "Macron’s space summit showed Europe isn’t ready to go to space without the US",
-          "published_at": "2026-09-10T18:16:20Z"
-        }
-      ],
-      "source_count": 2
     },
     {
-      "title": "Ukraine Financial Crisis and Russian Assets",
-      "summary": "A deepening financial crisis in Ukraine has reignited debate across Europe regarding the potential use of frozen Russian central bank assets. European policymakers face ongoing dilemmas over how to legally and effectively leverage these funds to support Kyiv.",
+      "title": "Border Incident Warning in Poland",
+      "summary": "Polish Prime Minister Donald Tusk has warned of potential future attacks following an averted direct threat at the border between Poland and Ukraine.",
       "article_ids": [
-        "5eab2c61cddee6987b675552"
+        "9c0a2cf9505b637c0683f39d"
       ],
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/236631/ukraines-financial-crisis-resurrects-europes-bitter-dilemma-on-moscows-frozen-central-bank-assets",
-          "headline": "Ukraine’s financial crisis resurrects Europe’s bitter dilemma on Russian frozen assets",
-          "published_at": "2026-09-10T18:00:00Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/poland-prime-minister-donald-tusk-warns-of-further-attacks-after-direct-threat-averted-polish-ukrainian-border",
+          "headline": "Tusk warns of future attacks after ‘direct threat’ averted at Poland-Ukraine border",
+          "published_at": "2026-09-10T20:49:11Z"
         }
       ],
       "source_count": 1
     }
   ],
-  "developing": [
+  "top_stories": [
     {
-      "label": "Russia · Ukraine · Amnesty · foreigners",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-09-10T23:22:11Z",
+      "title": "European Space Autonomy Discussions",
+      "summary": "An international space summit highlighted ongoing discussions regarding European space independence and reliance on the United States. Observers noted that the discussions reveal current limitations in Europe's independent space capabilities.",
+      "article_ids": [
+        "87d22b2672bf27bf7e9149e4",
+        "e578d7ee4bfc77b092936f74",
+        "42bc564a056d3ae1ee93aa09"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-in-space-going-boldly-where-plenty-of-people-have-gone-before",
+          "headline": "EU in space: Going boldly where plenty of people have gone before",
+          "published_at": "2026-09-11T02:00:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/a-propos/20260910-space-europe-urged-to-find-its-path-from-crewed-spaceflight-to-communications",
+          "headline": "Space: Europe urged to find its path, from crewed spaceflight to communications",
+          "published_at": "2026-09-10T21:05:39Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Ukraine Conflict and Humanitarian Impact",
+      "summary": "Russian military strikes continue to target Ukrainian cities and infrastructure, resulting in casualties and heavy fighting in the Donbas region. Meanwhile, financial pressures have reignited debates within Europe regarding the use of frozen Russian central bank assets.",
+      "article_ids": [
+        "3f61ea9068972eeee9bfe7eb",
+        "38ed7785a726952d83600cc2",
+        "5eab2c61cddee6987b675552"
+      ],
       "sources": [
         {
           "publisher": "BBC News Europe",
@@ -152,19 +137,16 @@
           "published_at": "2026-09-10T23:22:11Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260910-russia-tricks-vulnerable-foreigners-to-fight-in-ukraine-war-amnesty-reports",
-          "headline": "Russia tricks 'vulnerable' foreigners to fight in Ukraine war, Amnesty reports",
-          "published_at": "2026-09-10T15:20:51Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/amnesty-russia-exploits-migrants-vulnerability-to-recruit-them-for-the-war",
-          "headline": "Russia ‘trafficking’ foreigners to Ukraine’s front line, Amnesty says",
-          "published_at": "2026-09-10T11:02:37Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/236631/ukraines-financial-crisis-resurrects-europes-bitter-dilemma-on-moscows-frozen-central-bank-assets",
+          "headline": "Ukraine’s financial crisis resurrects Europe’s bitter dilemma on Russian frozen assets",
+          "published_at": "2026-09-10T18:00:00Z"
         }
-      ]
-    },
+      ],
+      "source_count": 2
+    }
+  ],
+  "developing": [
     {
       "label": "midterm · Republican · Trump · payout",
       "origin": "convergence",
@@ -227,9 +209,44 @@
           "published_at": "2026-09-10T09:53:41Z"
         }
       ]
+    },
+    {
+      "label": "AI · Anthropic",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-09-10T18:17:29Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/09/10/bad-actors-china-russia-weaponizing-anthropic-01070435",
+          "headline": "Bad actors in China and Russia are already weaponizing Anthropic’s AI",
+          "published_at": "2026-09-10T18:17:29Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260910-ai-could-kill-all-humans-ai-researcher-quits-anthropic",
+          "headline": "'AI could kill all humans': AI researcher quits Anthropic",
+          "published_at": "2026-09-10T10:28:39Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "6b82878d794e92ea2dc9dfa4",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Lens secure an epic comeback win to kick off their Champions League campaign",
+      "url": "https://www.france24.com/en/sport/20260911-lens-secure-epic-comeback-win-kick-off-their-champions-league-campaign",
+      "published_at": "2026-09-11T05:57:52Z",
+      "collected_at": "2026-09-11T06:30:47Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "e0aab780d47c2a33ed69d0b1",
       "source_id": "ecfr",
@@ -2205,90 +2222,6 @@
       ]
     },
     {
-      "id": "1a42a36f87f98cf0c11f52fb",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Netanyahu visits troops in occupied Syria as Damascus slams 'blatant violation' of sovereignty",
-      "url": "https://www.france24.com/en/middle-east/20260910-netanyahu-visits-troops-occupied-syria-damascus-slams-blatant-violation-sovereignty",
-      "published_at": "2026-09-10T06:23:50Z",
-      "collected_at": "2026-09-10T06:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "56dd970144b53482bfca7d15",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "PSG make perfect start to Champions League title defence",
-      "url": "https://www.france24.com/en/sport/20260910-psg-make-perfect-start-to-champions-league-title-defence",
-      "published_at": "2026-09-10T05:41:57Z",
-      "collected_at": "2026-09-10T06:00:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e0e7a3abe5ad19ef4686528f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Trump can see the writing on the wall here': Republicans hold midterm convention",
-      "url": "https://www.france24.com/en/trump-can-see-the-writing-on-the-wall-here-republicans-hold-midterm-convention",
-      "published_at": "2026-09-10T05:39:41Z",
-      "collected_at": "2026-09-10T06:00:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e3c98187be6c3c4811601a74",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "How a former BAPS temple worker in the US got his freedom, but still seeks justice",
-      "url": "https://www.france24.com/en/americas/20260910-how-a-former-baps-temple-worker-in-the-us-got-his-freedom-but-still-seeks-justice",
-      "published_at": "2026-09-10T05:37:12Z",
-      "collected_at": "2026-09-10T06:00:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "a81141f3f6290f0811296aef",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Why the US is staying so measured about allies’ sanctions on Israeli settlements",
-      "url": "https://www.politico.com/news/2026/09/10/why-the-us-is-staying-so-measured-about-allies-sanction-on-israeli-settlements-01070067",
-      "published_at": "2026-09-10T05:35:07Z",
-      "collected_at": "2026-09-10T06:00:54Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "24587454e6b42f42fb4ea115",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "'It started as a joke, a fantasy' - F1 heads to football-obsessed Madrid",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cjw5n195nx8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-10T05:21:13Z",
-      "collected_at": "2026-09-10T06:30:44Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "f2d7cb5a35ea25a8ecce0b0a",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2296,20 +2229,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c804d9lyj2jo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-09-10T04:43:54Z",
       "collected_at": "2026-09-10T09:00:52Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "e281aa0ae6c4268276650ef1",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Zverev storms into semi-finals despite late bedtime",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cdr7kmz2zx3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-10T03:50:43Z",
-      "collected_at": "2026-09-10T06:30:44Z",
       "topics": [
         "breaking",
         "politics",
@@ -2359,20 +2278,6 @@
       ]
     },
     {
-      "id": "48258b6618ba3d1b949582e2",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Middle East live: Trump warns Iran over activity at Pickaxe Mountain fortified site",
-      "url": "https://www.france24.com/en/middle-east/20260910-middle-east-live-trump-warns-iran-not-to-get-cute-over-activity-at-pickaxe-mountain",
-      "published_at": "2026-09-10T02:46:54Z",
-      "collected_at": "2026-09-10T06:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "385c46844d2c06f587c405e0",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2394,20 +2299,6 @@
       "url": "https://www.france24.com/en/middle-east/20260910-middle-east-live-trump-warns-iran-not-to-get-cute-over-activity-at-pickaxe-mountain",
       "published_at": "2026-09-10T02:46:54Z",
       "collected_at": "2026-09-10T09:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "9b313242655c58076c3bd905",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Bayeux Tapestry 'mania' sweeps UK as sold-out exhibition opens",
-      "url": "https://www.france24.com/en/live-news/20260910-bayeux-tapestry-mania-sweeps-uk-as-sold-out-exhibition-opens",
-      "published_at": "2026-09-10T02:05:45Z",
-      "collected_at": "2026-09-10T06:30:44Z",
       "topics": [
         "politics",
         "security",
@@ -2457,17 +2348,17 @@
       ]
     },
     {
-      "id": "2707a2a8742b93d37bbc8532",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Tate brothers to remain in US jail as they fight extradition to UK",
-      "url": "https://www.bbc.co.uk/news/articles/cp849rlrrmlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-09T19:09:13Z",
-      "collected_at": "2026-09-10T06:30:44Z",
+      "id": "de65e4fcbb5d55016a16d6dc",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Putin rejects mobilization rumors, many Russians unconvinced",
+      "url": "https://www.dw.com/en/putin-rejects-mobilization-rumors-many-russians-unconvinced/a-79193386?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-09T05:57:00Z",
+      "collected_at": "2026-09-11T06:30:47Z",
       "topics": [
-        "breaking",
         "politics",
-        "society"
+        "society",
+        "security"
       ]
     },
     {
