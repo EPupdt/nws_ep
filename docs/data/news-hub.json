@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-12T04:00:52Z",
-  "last_successful_collection_at": "2026-09-12T04:00:52Z",
+  "generated_at": "2026-09-12T04:30:42Z",
+  "last_successful_collection_at": "2026-09-12T04:30:42Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-12T04:00:52Z"
+      "at": "2026-09-12T04:30:42Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-12T04:00:52Z"
+      "at": "2026-09-12T04:30:42Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-12T04:00:52Z"
+      "at": "2026-09-12T04:30:42Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-12T04:00:52Z"
+      "at": "2026-09-12T04:30:42Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-12T04:00:52Z"
+      "at": "2026-09-12T04:30:42Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-12T04:00:52Z"
+      "at": "2026-09-12T04:30:42Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-12T04:00:52Z"
+      "at": "2026-09-12T04:30:42Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-12T04:00:52Z"
+      "at": "2026-09-12T04:30:42Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-12T04:00:52Z"
+      "at": "2026-09-12T04:30:42Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Sweden Election and NATO Security",
-      "summary": "Swedish Prime Minister Ulf Kristersson has warned that the country's ongoing NATO missions could face significant risks if political power shifts to the left following the upcoming national elections. European institutions and observers are closely monitoring the political landscape as regional security dynamics remain closely tied to the electoral outcome.",
+      "title": "Zelensky Urges Immediate Sanctions on Russia",
+      "summary": "Ukrainian leadership has called on international allies to implement additional sanctions against Russia without delay following a series of fatal strikes across the country.",
+      "article_ids": [
+        "9a20f6f1794da764037141fc"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260911-zelensky-urges-trump-to-impose-new-russia-sanctions-now-after-deadly-ukraine-strikes",
+          "headline": "Zelensky urges Trump to impose new Russia sanctions 'now', after deadly Ukraine strikes",
+          "published_at": "2026-09-11T19:13:14Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Sweden Warns of NATO Security Risks",
+      "summary": "The Swedish prime minister has expressed concern that upcoming political changes could jeopardize ongoing national security missions related to the alliance.",
       "article_ids": [
         "a559290314d48162dd6b77cd"
       ],
@@ -78,53 +94,21 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "European Union Tobacco Tax Delay",
-      "summary": "European Union officials have decided to postpone a critical legislative vote regarding tobacco taxation until the conclusion of the Swedish elections. The strategic scheduling adjustment aims to avoid domestic political complications within member states during the sensitive electoral period.",
-      "article_ids": [
-        "cc8f27a85b53becd8518037c"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-delays-key-tobacco-tax-vote-until-after-swedish-election",
-          "headline": "EU delays key tobacco tax vote until after Swedish election",
-          "published_at": "2026-09-11T17:12:22Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "Ukraine Conflict and Technology Integration",
-      "summary": "Artificial intelligence tools have reportedly become integrated into the ongoing conflict in Ukraine following tactical adaptations by Russian forces. International observers note that technology integration continues to shift operational dynamics on the battlefield.",
+      "title": "Royal Bereavement in Norway",
+      "summary": "Norwegian royalty experiences another loss shortly after a major national mourning period. Princess Astrid passes away only days after attending the funeral services for her brother, King Harald.",
       "article_ids": [
-        "15d0ac95731f1e9937308c38"
+        "bb07a4c4afbfb08a5785e346"
       ],
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/237001/anthropic-ai-has-joined-the-ukraine-war-after-russia-took-advantage-ukraine-battlefield-update-day-1660",
-          "headline": "Anthropic AI has joined the Ukraine war, after Russia took advantage (Ukraine Battlefield update, Day 1,660)",
-          "published_at": "2026-09-11T14:22:54Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "European Space Policy Governance",
-      "summary": "European Commission President Ursula von der Leyen faced heavy political criticism following her public support for a controversial space mega-deal. Critics within European institutions characterized the backing as an abuse of power regarding regional governance.",
-      "article_ids": [
-        "ff4452caf02b34bd8b739bcb"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/ursula-von-der-leyen-project-bromo-space-deal-abuse-of-power",
-          "headline": "‘Abuse of power’: Von der Leyen rapped after backing space mega deal",
-          "published_at": "2026-09-11T15:01:19Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo?at_medium=RSS&at_campaign=rss",
+          "headline": "Norway's Princess Astrid dies two days after attending brother King Harald's funeral",
+          "published_at": "2026-09-11T16:00:59Z"
         }
       ],
       "source_count": 1
@@ -195,23 +179,23 @@
       ]
     },
     {
-      "label": "Dion · Paris",
+      "label": "election · EU",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-09-11T15:18:09Z",
+      "latest_at": "2026-09-11T17:12:22Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/arts24/20260911-celine-dion-fever-hits-paris",
-          "headline": "Celine Dion fever hits Paris!",
-          "published_at": "2026-09-11T15:18:09Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-delays-key-tobacco-tax-vote-until-after-swedish-election",
+          "headline": "EU delays key tobacco tax vote until after Swedish election",
+          "published_at": "2026-09-11T17:12:22Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/cm2q8gg09d1o?at_medium=RSS&at_campaign=rss",
-          "headline": "Céline Dion duets with fan ahead of Paris comeback concert",
-          "published_at": "2026-09-11T14:54:07Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/french-far-right-leader-polling-ahead-for-2027-election-should-the-eu-be-afraid",
+          "headline": "French far-right leader polling ahead for 2027 election: should the EU be afraid?",
+          "published_at": "2026-09-11T14:14:07Z"
         }
       ]
     }
@@ -1744,20 +1728,6 @@
       ]
     },
     {
-      "id": "dc80d4a6c66be35c8294fd12",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Drei Szenarien für einen Kanzlertausch",
-      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/drei-szenarien-fur-einen-kanzlertausch",
-      "published_at": "2026-09-11T03:30:00Z",
-      "collected_at": "2026-09-11T04:00:53Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "95b1c268b809330cb80f3968",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2304,6 +2274,20 @@
       ]
     },
     {
+      "id": "d94ba7e39190bddf51fcd4e5",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The summer Spain’s Queen Sofía could have married Harald of Norway",
+      "url": "https://english.elpais.com/people/2026-09-03/the-summer-spains-queen-sofia-could-have-married-harald-of-norway.html",
+      "published_at": "2026-09-03T18:57:22Z",
+      "collected_at": "2026-09-12T04:30:42Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "6dd6d1a147d103a647d564f0",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2353,6 +2337,76 @@
       "url": "https://english.elpais.com/lifestyle/2026-09-01/the-women-who-dress-their-boyfriends-as-john-kennedy-jr-on-tiktok.html",
       "published_at": "2026-09-01T14:36:18Z",
       "collected_at": "2026-09-11T17:30:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "5388290709ee3b28a871f2c9",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Neither blonde nor dumb: Marilyn Monroe against Hollywood’s wolves",
+      "url": "https://english.elpais.com/culture/2026-07-27/neither-blonde-nor-dumb-marilyn-monroe-against-hollywoods-wolves.html",
+      "published_at": "2026-07-27T09:23:18Z",
+      "collected_at": "2026-09-12T04:30:42Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "665639dcf21d292f09251566",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Fire Island, the ‘hottest’ beach in the world: 100 years of art, parties and wild sex",
+      "url": "https://english.elpais.com/culture/2026-07-26/fire-island-the-hottest-beach-in-the-world-100-years-of-art-parties-and-wild-sex.html",
+      "published_at": "2026-07-26T04:00:00Z",
+      "collected_at": "2026-09-12T04:30:42Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "aebc60adf22f5c1afa548bd6",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Makhtar Diop, head of the IFC, the World Bank’s financial arm: ‘We want to use Madrid to channel more private investment to emerging markets’",
+      "url": "https://english.elpais.com/economy-and-business/2026-06-29/makhtar-diop-head-of-the-ifc-the-world-banks-financial-arm-we-want-to-use-madrid-to-channel-more-private-investment-to-emerging-markets.html",
+      "published_at": "2026-06-29T02:03:13Z",
+      "collected_at": "2026-09-12T04:30:42Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "b005ec47de91c73d880fc34d",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "From January euphoria to February despair: Why most of our New Year’s resolutions fail",
+      "url": "https://english.elpais.com/lifestyle/2026-02-21/from-january-euphoria-to-february-despair-why-most-of-our-new-years-resolutions-fail.html",
+      "published_at": "2026-02-21T04:30:00Z",
+      "collected_at": "2026-09-12T04:30:42Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "9e0a227b9159734c55b28e7c",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "EL PAÍS offers free Spanish lessons with Gymglish",
+      "url": "https://english.elpais.com/economy-and-business/2021-11-15/el-pais-offers-free-spanish-lessons-with-gymglish.html",
+      "published_at": "2021-11-15T14:10:11Z",
+      "collected_at": "2026-09-12T04:30:42Z",
       "topics": [
         "politics",
         "society",
