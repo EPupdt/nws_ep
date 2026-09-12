@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-12T08:00:52Z",
-  "last_successful_collection_at": "2026-09-12T08:00:52Z",
+  "generated_at": "2026-09-12T08:30:39Z",
+  "last_successful_collection_at": "2026-09-12T08:30:39Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-12T08:00:52Z"
+      "at": "2026-09-12T08:30:39Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-12T08:00:52Z"
+      "at": "2026-09-12T08:30:39Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-12T08:00:52Z"
+      "at": "2026-09-12T08:30:39Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-12T08:00:52Z"
+      "at": "2026-09-12T08:30:39Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-12T08:00:52Z"
+      "at": "2026-09-12T08:30:39Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-12T08:00:52Z"
+      "at": "2026-09-12T08:30:39Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-12T08:00:52Z"
+      "at": "2026-09-12T08:30:39Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-09-12T08:00:52Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-09-12T08:30:39Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-12T08:00:52Z"
+      "at": "2026-09-12T08:30:39Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Drones Impact Moldova and Romania",
-      "summary": "Recent reports highlight the expansion of regional drone activity into Moldovan and Romanian airspace, raising urgent security concerns. This spillover effect underscores the widening regional stability risks linked to the ongoing conflict.",
+      "title": "Russian Drones Impact Neighboring States",
+      "summary": "Recent military escalations involving Russian drone activity have directly affected the territories of Moldova and Romania. Regional security concerns continue to grow as the conflict expands beyond Ukraine's immediate borders.",
       "article_ids": [
         "ac7cac4897d1690abe67acda"
       ],
@@ -80,8 +80,8 @@
       "source_count": 1
     },
     {
-      "title": "Sweden Election and NATO Security Debate",
-      "summary": "Swedish political leaders have warned that national security missions and international commitments could be jeopardized depending on the election outcome. The political landscape remains heavily focused on defense policy and alliance obligations.",
+      "title": "Swedish Electoral Impact on NATO Deployments",
+      "summary": "Prime Minister Ulf Kristersson has warned that ongoing NATO missions involving Sweden could face significant risks if political control shifts following the upcoming elections. The outcome of the vote carries direct implications for regional defense commitments.",
       "article_ids": [
         "a559290314d48162dd6b77cd"
       ],
@@ -98,18 +98,18 @@
   ],
   "top_stories": [
     {
-      "title": "Ukraine Conflict and International Diplomacy",
-      "summary": "President Zelenskyy has publicly expressed openness to meeting Russian leadership at an upcoming international summit. Simultaneously, Ukrainian authorities have called for intensified international economic restrictions following recent strikes.",
+      "title": "Geopolitical and Regional Security",
+      "summary": "Leaders from BRICS nations are convening in India against a backdrop of heightened international tensions and ongoing conflicts in Ukraine and the Middle East. Meanwhile, Ukrainian leadership has called for immediate international penalties following recent deadly strikes.",
       "article_ids": [
-        "41c9007284a1d403cd59e4ee",
+        "861199b1f20a15e7e12d5ab9",
         "9a20f6f1794da764037141fc"
       ],
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/in-an-exclusive-interview-with-dw-zelenskyy-says-he-would-be-open-to-meeting-with-putin-at-the-g20-summit-in-miami/a-79241703?maca=en-rss-en-eu-2092-rdf",
-          "headline": "In an exclusive interview with DW, Zelenskyy says he would be open to meeting with Putin at the G20 summit in Miami",
-          "published_at": "2026-09-12T05:46:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/asia-pacific/20260912-brics-summit-set-to-be-dominated-by-wars-in-ukraine-and-iran",
+          "headline": "BRICS leaders gather in India as wars and US tensions test unity",
+          "published_at": "2026-09-12T06:51:43Z"
         },
         {
           "publisher": "France 24 English",
@@ -118,7 +118,24 @@
           "published_at": "2026-09-11T19:13:14Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
+    },
+    {
+      "title": "European Governance and Policy",
+      "summary": "European institutional decisions face scrutiny as politicians debate key policy measures and regional cooperation frameworks. Ursula von der Leyen has encountered criticism regarding governance decisions related to a major space agreement.",
+      "article_ids": [
+        "ff4452caf02b34bd8b739bcb",
+        "cc8f27a85b53becd8518037c"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ursula-von-der-leyen-project-bromo-space-deal-abuse-of-power",
+          "headline": "‘Abuse of power’: Von der Leyen rapped after backing space mega deal",
+          "published_at": "2026-09-11T15:01:19Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "developing": [
@@ -186,28 +203,42 @@
       ]
     },
     {
-      "label": "Hungary · Magyar · Moscow · Russia",
+      "label": "election · EU",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-09-11T09:15:05Z",
+      "item_count": 2,
+      "latest_at": "2026-09-11T17:12:22Z",
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/236800/magyars-hungary-expels-10-russian-diplomats-and-dismantles-fideszs-county-fiefdoms-day-122-of-the-tisza-government",
-          "headline": "Magyar’s Hungary expels 10 Russian diplomats and dismantles Fidesz’s county fiefdoms (Day 122 of the Tisza government)",
-          "published_at": "2026-09-11T09:15:05Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-delays-key-tobacco-tax-vote-until-after-swedish-election",
+          "headline": "EU delays key tobacco tax vote until after Swedish election",
+          "published_at": "2026-09-11T17:12:22Z"
         },
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/magyar-vs-moscow-hungary-s-new-tough-stance-toward-russia/a-79223424?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Magyar vs. Moscow: Hungary's new tough stance toward Russia",
-          "published_at": "2026-09-11T08:20:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/french-far-right-leader-polling-ahead-for-2027-election-should-the-eu-be-afraid",
+          "headline": "French far-right leader polling ahead for 2027 election: should the EU be afraid?",
+          "published_at": "2026-09-11T14:14:07Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "f5912d0cb1ef65fe226f8919",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Not every incident is Russian sabotage. But it suits the defence sector to say so",
+      "url": "https://euobserver.com/236326/not-every-incident-is-russian-sabotage-but-it-suits-the-defence-sector-to-say-so",
+      "published_at": "2026-09-12T08:18:00Z",
+      "collected_at": "2026-09-12T08:30:39Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "10c29f01fb44ea61ed937540",
       "source_id": "politico_europe",
@@ -1693,20 +1724,6 @@
       ]
     },
     {
-      "id": "9b63e4bf06fd4841bb29ff38",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "China, Iran among countries using AI to spy on dissidents and minorities, Anthropic says",
-      "url": "https://www.france24.com/en/technology/20260911-anthropic-ai-surveillance-targeting-dissidents-china-iran-west-africa",
-      "published_at": "2026-09-11T07:35:20Z",
-      "collected_at": "2026-09-11T08:00:55Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "31a2fc05511c06bbe785e425",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1787,20 +1804,6 @@
       "topics": [
         "politics",
         "security",
-        "society"
-      ]
-    },
-    {
-      "id": "6e5d416f1be0c6a57c8c4611",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Civilians told to flee Ukraine's fortress cities as Russia bids to control Donbas",
-      "url": "https://www.bbc.co.uk/news/articles/cwyz89w59l3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-10T23:22:11Z",
-      "collected_at": "2026-09-11T08:00:55Z",
-      "topics": [
-        "breaking",
-        "politics",
         "society"
       ]
     },
@@ -2134,20 +2137,6 @@
       "url": "https://ecfr.eu/article/friends-without-benefits-why-the-eu-should-offer-canada-more-than-casual-defence-ties",
       "published_at": "2026-09-09T08:54:06Z",
       "collected_at": "2026-09-11T09:00:55Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "57f9ff93797c6db8ea3938fe",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Future nostalgia: Europe’s unfinished song",
-      "url": "https://ecfr.eu/special/future-nostalgia-europes-unfinished-song",
-      "published_at": "2026-09-08T22:01:00Z",
-      "collected_at": "2026-09-11T08:00:55Z",
       "topics": [
         "analysis",
         "foreign_policy",
