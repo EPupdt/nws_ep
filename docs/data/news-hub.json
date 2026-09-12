@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-12T12:30:43Z",
-  "last_successful_collection_at": "2026-09-12T12:30:43Z",
+  "generated_at": "2026-09-12T13:00:52Z",
+  "last_successful_collection_at": "2026-09-12T13:00:52Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-12T12:30:43Z"
+      "at": "2026-09-12T13:00:52Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-12T12:30:43Z"
+      "at": "2026-09-12T13:00:52Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-12T12:30:43Z"
+      "at": "2026-09-12T13:00:52Z"
     },
     {
       "id": "euractiv",
@@ -29,53 +29,75 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-12T12:30:43Z"
+      "at": "2026-09-12T13:00:52Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-12T12:30:43Z"
+      "at": "2026-09-12T13:00:52Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-09-12T12:30:43Z"
+      "at": "2026-09-12T13:00:52Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-12T12:30:43Z"
+      "at": "2026-09-12T13:00:52Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-12T12:30:43Z"
+      "at": "2026-09-12T13:00:52Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-12T12:30:43Z"
+      "at": "2026-09-12T13:00:52Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Train Derailment and Sabotage Investigation in France",
-      "summary": "A passenger train derailment in France left dozens injured, prompting a police investigation into suspected sabotage.",
+      "title": "Regional Security and Drone Incidents",
+      "summary": "Russian drone activity has increasingly impacted neighboring regions, with reports highlighting security challenges reaching into Moldova and Romania. Meanwhile, French authorities have launched an investigation into a recent train derailment in Normandy over suspected sabotage.",
       "article_ids": [
-        "94e39a60980e99c5d39b6ef1",
-        "e56ef40e4b2c4fb9f1d3ff1d"
+        "ac7cac4897d1690abe67acda",
+        "94e39a60980e99c5d39b6ef1"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/russia-s-drone-war-comes-to-moldova-and-romania/a-79239591?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Russia's drone war comes to Moldova and Romania",
+          "published_at": "2026-09-12T06:27:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260912-french-police-investigate-suspected-sabotage-in-train-derailment",
+          "headline": "French police suspect train derailment was result of sabotage",
+          "published_at": "2026-09-12T08:48:48Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Sweden Election and NATO Security",
+      "summary": "Sweden faces a tightly contested electoral race as the hard right eyes a potential role in the government. This political shift occurs alongside broader European discussions concerning regional defense and NATO security.",
+      "article_ids": [
+        "d42c2d5adfbd238ef26f94f4"
       ],
       "sources": [
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss",
-          "headline": "Passenger train derails in France leaving at least 44 injured",
-          "published_at": "2026-09-11T21:25:32Z"
+          "url": "https://www.bbc.co.uk/news/articles/cwyz8dn5nn3o?at_medium=RSS&at_campaign=rss",
+          "headline": "Close race in Sweden as hard right eyes role in government",
+          "published_at": "2026-09-12T00:56:47Z"
         }
       ],
       "source_count": 1
@@ -83,13 +105,59 @@
   ],
   "top_stories": [
     {
-      "title": "Political Developments and High-Profile Visits",
-      "summary": "Donald Trump traveled to Ireland for discussions with local leaders and a visit to his golf club. During the trip, remarks were made regarding support for a unified Ireland.",
+      "title": "Political Developments and International Visits",
+      "summary": "Donald Trump traveled to Ireland for discussions with local leaders and a visit to his golf club. During the trip, remarks were made regarding the prospect of a unified Ireland.",
       "article_ids": [
-        "f8bd0b3961e26689aaa756e2",
-        "be445a629d612d79794c966e",
+        "804cbdee0b15db2a06f674c6",
         "3844dd78d22aa4ad08b39c22"
       ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/live-news/20260912-trump-lands-in-ireland-for-golf-tournament-pm-talks",
+          "headline": "Trump lands in Ireland for golf tournament, PM talks",
+          "published_at": "2026-09-12T07:51:20Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260912-trump-arrives-in-dublin-for-talks-with-ireland-s-leaders-before-attending-golf-tournament",
+          "headline": "Trump says unified Ireland ‘would be fantastic' during Dublin trip",
+          "published_at": "2026-09-12T07:51:20Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "UK Political Funding",
+      "summary": "Nigel Farage's Reform UK party received substantial financial backing from crypto billionaires. The multimillion-pound contributions highlight shifting electoral dynamics in the United Kingdom.",
+      "article_ids": [
+        "cd6bc9c9c907aac97534098b",
+        "ef5a8e99a9762df383c3c9bd"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/nigel-farage-reform-uk-gets-36-million-from-crypto-billionaire",
+          "headline": "Farage’s Reform UK gets £36 Million from crypto billionaire",
+          "published_at": "2026-09-12T10:17:24Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/nigel-farage-reform-uk-gets-36-million-from-crypto-billionaire",
+          "headline": "Farage’s Reform UK gets two £36m donations from crypto billionaires",
+          "published_at": "2026-09-12T10:17:24Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
+    {
+      "label": "Ireland · Trump · golf · Dublin",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 7,
+      "latest_at": "2026-09-12T11:27:44Z",
       "sources": [
         {
           "publisher": "BBC News Europe",
@@ -102,29 +170,15 @@
           "url": "https://www.politico.eu/article/donald-trump-says-he-would-love-to-see-united-ireland",
           "headline": "Trump says he would ‘love’ to see a united Ireland",
           "published_at": "2026-09-12T10:48:23Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "UK Political Funding and Electoral Dynamics",
-      "summary": "Reform UK, led by Nigel Farage, secured a significant multi-million-pound donation from a crypto billionaire. Meanwhile, political landscapes across European nations continue to experience shifting dynamics and competitive races.",
-      "article_ids": [
-        "cd6bc9c9c907aac97534098b",
-        "d42c2d5adfbd238ef26f94f4"
-      ],
-      "sources": [
+        },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/nigel-farage-reform-uk-gets-36-million-from-crypto-billionaire",
-          "headline": "Farage’s Reform UK gets £36 Million from crypto billionaire",
-          "published_at": "2026-09-12T10:17:24Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260912-trump-will-meet-with-ireland-s-leaders-before-heading-to-his-golf-club-in-doonbeg",
+          "headline": "Trump will meet with Ireland's leaders before heading to his golf club in Doonbeg",
+          "published_at": "2026-09-12T10:11:26Z"
         }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
+      ]
+    },
     {
       "label": "Houthis · Live · oil · Saudi",
       "origin": "convergence",
@@ -185,27 +239,6 @@
           "url": "https://www.bbc.co.uk/news/videos/cm2q8gg09d1o?at_medium=RSS&at_campaign=rss",
           "headline": "Céline Dion duets with fan ahead of Paris comeback concert",
           "published_at": "2026-09-11T14:54:07Z"
-        }
-      ]
-    },
-    {
-      "label": "Russia · war",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-09-12T06:27:00Z",
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/russia-s-drone-war-comes-to-moldova-and-romania/a-79239591?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Russia's drone war comes to Moldova and Romania",
-          "published_at": "2026-09-12T06:27:00Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/237001/anthropic-ai-has-joined-the-ukraine-war-after-russia-took-advantage-ukraine-battlefield-update-day-1660",
-          "headline": "Anthropic AI has joined the Ukraine war, after Russia took advantage (Ukraine Battlefield update, Day 1,660)",
-          "published_at": "2026-09-11T14:22:54Z"
         }
       ]
     }
@@ -289,6 +322,20 @@
       "url": "https://www.politico.eu/article/nigel-farage-reform-uk-gets-36-million-from-crypto-billionaire",
       "published_at": "2026-09-12T10:17:24Z",
       "collected_at": "2026-09-12T12:00:55Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "ef5a8e99a9762df383c3c9bd",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Farage’s Reform UK gets two £36m donations from crypto billionaires",
+      "url": "https://www.politico.eu/article/nigel-farage-reform-uk-gets-36-million-from-crypto-billionaire",
+      "published_at": "2026-09-12T10:17:24Z",
+      "collected_at": "2026-09-12T13:00:52Z",
       "topics": [
         "institutions",
         "politics",
@@ -520,6 +567,20 @@
       ]
     },
     {
+      "id": "47c2183f69881a3070ccadc8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "BRICS leaders call for 'maximum restraint' as Middle East war threatens unity",
+      "url": "https://www.france24.com/en/asia-pacific/20260912-brics-summit-set-to-be-dominated-by-wars-in-ukraine-and-iran",
+      "published_at": "2026-09-12T06:51:43Z",
+      "collected_at": "2026-09-12T13:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "ac7cac4897d1690abe67acda",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -531,6 +592,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "698bda64f8972e0eeb6e6686",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Ukraine faces 'toughest winter' since Russia's full-scale invasion, UN official tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwyz59yyqk4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-12T05:55:15Z",
+      "collected_at": "2026-09-12T13:00:52Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -779,6 +854,20 @@
       "url": "https://www.bbc.co.uk/news/articles/c804dvky833o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-09-12T00:24:08Z",
       "collected_at": "2026-09-12T12:00:55Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "2a2487cb3d2e067f1d59063c",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Hardened activists are changing tactics and mobilising the anti-migrant vote",
+      "url": "https://www.bbc.co.uk/news/articles/clyqjgj7x8lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-11T23:06:39Z",
+      "collected_at": "2026-09-12T13:00:52Z",
       "topics": [
         "breaking",
         "politics",
@@ -1654,34 +1743,6 @@
       ]
     },
     {
-      "id": "e2a2fbd3cd705ae490bb585e",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "‘The Europe she fought for will miss her’: Politicians pay tribute to Emma Bonino",
-      "url": "https://www.politico.eu/article/emma-bonino-eu-italy-politicians-commemorate",
-      "published_at": "2026-09-11T12:30:07Z",
-      "collected_at": "2026-09-11T12:30:45Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "41dbf83f1f2a9d1b5e6df4a1",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Guantánamo, the torture legacy of 9/11 that remains open",
-      "url": "https://english.elpais.com/international/2026-09-11/guantanamo-the-torture-legacy-of-911-that-remains-open.html",
-      "published_at": "2026-09-11T12:20:48Z",
-      "collected_at": "2026-09-11T12:30:45Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "0acd75f011e90e248bdf83f2",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -1693,20 +1754,6 @@
         "central_europe",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "5c4cb9a1150cf6db6b8b2b89",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Biotechnology at scale: Europe’s next competitiveness test",
-      "url": "https://www.politico.eu/research-and-analysis/biotechnology-at-scale-europes-next-competitiveness-test-report",
-      "published_at": "2026-09-11T10:39:07Z",
-      "collected_at": "2026-09-11T12:30:45Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
@@ -2309,6 +2356,34 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "02d156e7a9ddeedad6e9e126",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Bonus episode: The EU enlargement game",
+      "url": "https://ecfr.eu/podcasts/episode/bonus-episode-the-eu-enlargement-game",
+      "published_at": "2026-09-04T11:52:52Z",
+      "collected_at": "2026-09-12T13:00:52Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "1588aa9e8d07eeb41d21759a",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Serbia: How the funeral of Ratko Mladic is dividing a nation",
+      "url": "https://www.dw.com/en/serbia-how-the-funeral-of-ratko-mladic-is-dividing-a-nation/a-78948890?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-04T11:03:00Z",
+      "collected_at": "2026-09-12T13:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
