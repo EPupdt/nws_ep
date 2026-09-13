@@ -315,9 +315,25 @@
     "6c8241e3a15afd467ce20280": "2026-09-13T11:00:54Z",
     "99a472e4e5e3df264480a59e": "2026-09-13T11:00:54Z",
     "f9bd55af990b622b461a09c2": "2026-09-13T11:30:44Z",
-    "81b3ae3e84416734f8f732fe": "2026-09-13T11:30:44Z"
+    "81b3ae3e84416734f8f732fe": "2026-09-13T11:30:44Z",
+    "89f9f078f3643b5a3ee382c0": "2026-09-13T12:00:52Z",
+    "1f9f8a45c01bb42c291d3dd6": "2026-09-13T12:00:52Z"
   },
   "radar": [
+    {
+      "id": "89f9f078f3643b5a3ee382c0",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Russians on the Goethe-Institut: 'Hostage to politics'",
+      "url": "https://www.dw.com/en/russians-on-the-goethe-institut-hostage-to-politics/a-79218936?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-13T11:50:00Z",
+      "collected_at": "2026-09-13T12:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
     {
       "id": "81b3ae3e84416734f8f732fe",
       "source_id": "politico_europe",
@@ -452,6 +468,20 @@
       "url": "https://www.france24.com/en/video/20260913-uk-police-probe-%C2%A372-million-donation-to-reform-uk",
       "published_at": "2026-09-13T09:26:10Z",
       "collected_at": "2026-09-13T10:00:58Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "1f9f8a45c01bb42c291d3dd6",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Macron, Carney to visit North Atlantic French islands after Trump's map post",
+      "url": "https://www.france24.com/en/americas/20260913-macron-carney-to-visit-french-islands-after-trump-s-map-post",
+      "published_at": "2026-09-13T09:25:16Z",
+      "collected_at": "2026-09-13T12:00:52Z",
       "topics": [
         "politics",
         "security",
@@ -2436,14 +2466,6 @@
   "recent_topics": [
     {
       "at": "2026-09-11T20:30:42Z",
-      "title": "Ukraine Conflict Updates"
-    },
-    {
-      "at": "2026-09-11T20:30:42Z",
-      "title": "European Space Policy and Governance"
-    },
-    {
-      "at": "2026-09-11T20:30:42Z",
       "title": "Political Landscapes and Elections"
     },
     {
@@ -2753,14 +2775,22 @@
     {
       "at": "2026-09-13T11:30:44Z",
       "title": "UK Political Funding Investigation"
+    },
+    {
+      "at": "2026-09-13T12:00:52Z",
+      "title": "Swedish General Election"
+    },
+    {
+      "at": "2026-09-13T12:00:52Z",
+      "title": "UK Political Funding Investigation"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Russian Strike Hits Passenger Train Near Polish Border",
-        "summary": "A Russian drone strike hit a passenger train traveling from Kyiv to Warsaw close to the Polish border during ongoing attacks on Ukraine. Authorities and news outlets reported the incident as part of broader regional security concerns.",
+        "title": "Russian Drone Strike Hits Passenger Train Near Polish Border",
+        "summary": "A passenger train traveling from Kyiv to Warsaw was struck by a drone close to the Polish border amidst ongoing regional attacks. Authorities and transport services responded to the incident as cross-border security concerns escalated.",
         "article_ids": [
           "6c8241e3a15afd467ce20280",
           "af155045cabc30df0991d062"
@@ -2780,12 +2810,10 @@
           }
         ],
         "source_count": 2
-      }
-    ],
-    "top_stories": [
+      },
       {
-        "title": "German Protests Following Elections",
-        "summary": "Thousands of demonstrators have taken to the streets across Germany following recent electoral gains by the far-right AfD party. Public resistance continues to grow as citizens rally against shifting political dynamics in the region.",
+        "title": "Mass Demonstrations Sweep Germany Following Far-Right Electoral Success",
+        "summary": "Tens of thousands of people took to the streets across Germany to protest against the far-right Alternative for Germany party following its recent electoral gains. The large-scale rallies reflect deep societal and political divisions across the country.",
         "article_ids": [
           "88881aae2908749b09fcb5e3",
           "f0f9abcc766a6d959461414a"
@@ -2805,10 +2833,29 @@
           }
         ],
         "source_count": 1
+      }
+    ],
+    "top_stories": [
+      {
+        "title": "Swedish General Election",
+        "summary": "Voters across Sweden participated in a closely contested general election that could bring the far right into government. Observers and political analysts closely monitored the polls as the nation faced a potential turning point in its political landscape.",
+        "article_ids": [
+          "c87f1fe35a8f8e1fbea8b0e8",
+          "b82ecdeb5ffc86641b671822"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/sweden-election-a-turning-point-for-the-far-right",
+            "headline": "Sweden election: A turning point for the far right?",
+            "published_at": "2026-09-13T09:48:37Z"
+          }
+        ],
+        "source_count": 1
       },
       {
         "title": "UK Political Funding Investigation",
-        "summary": "British police have launched an official investigation into a major political donation of seventy-two million pounds made to Reform UK. Financial transparency rules are central to the ongoing inquiry by law enforcement authorities.",
+        "summary": "British police have launched a formal investigation into a substantial donation made to Reform UK. The inquiry focuses on a multi-million-pound contribution that has drawn intense scrutiny from regulatory and law enforcement bodies.",
         "article_ids": [
           "900df05e0793dd8f3f07d3a9"
         ],
@@ -2824,5 +2871,5 @@
       }
     ]
   },
-  "last_collection_at": "2026-09-13T11:30:44Z"
+  "last_collection_at": "2026-09-13T12:00:52Z"
 }
