@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-13T10:30:39Z",
-  "last_successful_collection_at": "2026-09-13T10:30:39Z",
+  "generated_at": "2026-09-13T11:00:54Z",
+  "last_successful_collection_at": "2026-09-13T11:00:54Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-13T10:30:39Z"
+      "at": "2026-09-13T11:00:54Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-09-13T10:30:39Z"
+      "at": "2026-09-13T11:00:54Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-13T10:30:39Z"
+      "at": "2026-09-13T11:00:54Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,54 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-13T10:30:39Z"
+      "at": "2026-09-13T11:00:54Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-13T10:30:39Z"
+      "at": "2026-09-13T11:00:54Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-09-13T10:30:39Z"
+      "at": "2026-09-13T11:00:54Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-13T10:30:39Z"
+      "at": "2026-09-13T11:00:54Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-13T10:30:39Z"
+      "at": "2026-09-13T11:00:54Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-13T10:30:39Z"
+      "at": "2026-09-13T11:00:54Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Drone Strike Hits Passenger Train Near Ukraine-Poland Border",
-      "summary": "A Russian drone strike hit a passenger train traveling from Kyiv to Warsaw near the border region. The attack has raised significant security concerns regarding cross-border transport and regional stability.",
+      "title": "Russian Drone Strike Hits Passenger Train Near Polish Border",
+      "summary": "A Russian drone struck a passenger train traveling from Kyiv to Warsaw as attacks targeted the border region. The incident near the Polish border has drawn immediate concern from regional authorities.",
       "article_ids": [
+        "6c8241e3a15afd467ce20280",
         "af155045cabc30df0991d062"
       ],
       "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/09/13/russian-drone-hits-kyiv-warsaw-train-close-to-polish-border",
+          "headline": "Drone hits Kyiv-Warsaw train close to Polish border during Russian attacks on Ukraine",
+          "published_at": "2026-09-13T10:31:02Z"
+        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/russia-attacks-gas-station-passenger-train-near-ukraine-poland-border",
@@ -77,30 +84,11 @@
           "published_at": "2026-09-13T09:45:41Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Sweden Holds General Election Amid Far-Right Gains",
-      "summary": "Swedish voters are casting ballots in a closely contested general election that could bring the far right into government. The outcome carries substantial political and societal implications for the nation.",
-      "article_ids": [
-        "b82ecdeb5ffc86641b671822",
-        "c87f1fe35a8f8e1fbea8b0e8"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/sweden-election-a-turning-point-for-the-far-right",
-          "headline": "Sweden election: A turning point for the far right?",
-          "published_at": "2026-09-13T09:48:37Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "German Protests Following Far-Right Electoral Success",
-      "summary": "Thousands of demonstrators took to the streets across Germany following recent electoral victories by the far-right Alternative for Germany party. The mass rallies reflect deep public concern over shifting political dynamics within the country.",
+      "title": "Mass Demonstrations Sweep Germany Following AfD Electoral Success",
+      "summary": "Tens of thousands of people have rallied across Germany to protest against the far-right Alternative for Germany party. The widespread demonstrations follow recent electoral gains achieved by the political group.",
       "article_ids": [
         "88881aae2908749b09fcb5e3",
         "f0f9abcc766a6d959461414a"
@@ -120,10 +108,29 @@
         }
       ],
       "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Swedish General Election",
+      "summary": "Citizens in Sweden are casting ballots in a tightly contested general election. The outcome could potentially bring the far right into government for the first time.",
+      "article_ids": [
+        "b82ecdeb5ffc86641b671822",
+        "c87f1fe35a8f8e1fbea8b0e8"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/sweden-election-a-turning-point-for-the-far-right",
+          "headline": "Sweden election: A turning point for the far right?",
+          "published_at": "2026-09-13T09:48:37Z"
+        }
+      ],
+      "source_count": 1
     },
     {
-      "title": "UK Police Launch Investigation into Major Political Donation",
-      "summary": "British law enforcement authorities have initiated a formal inquiry into a substantial financial contribution made to Reform UK. The investigation focuses on a donation totaling seventy-two million pounds.",
+      "title": "UK Political Funding Investigation",
+      "summary": "British police have launched a formal inquiry into a major political donation of seventy-two million pounds made to Reform UK. The substantial financial contribution is currently under review by law enforcement authorities.",
       "article_ids": [
         "900df05e0793dd8f3f07d3a9"
       ],
@@ -139,33 +146,6 @@
     }
   ],
   "developing": [
-    {
-      "label": "Ireland · Trump · united · visit",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 5,
-      "latest_at": "2026-09-12T21:25:28Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cwyzppd1d5lo?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump's comments on a united Ireland may have targeted audience across the Atlantic",
-          "published_at": "2026-09-12T21:25:28Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260912-trump-in-ireland-what-are-irish-people-saying-about-the-visit",
-          "headline": "Trump in Ireland: What are Irish people saying about the visit?",
-          "published_at": "2026-09-12T15:50:55Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/donald-trump-says-he-would-love-to-see-united-ireland",
-          "headline": "Trump says he would ‘love’ to see a united Ireland",
-          "published_at": "2026-09-12T10:48:23Z"
-        }
-      ]
-    },
     {
       "label": "Dion · Paris · comeback · Céline",
       "origin": "convergence",
@@ -184,6 +164,27 @@
           "url": "https://www.bbc.co.uk/news/videos/cwyz11gk7y7o?at_medium=RSS&at_campaign=rss",
           "headline": "Céline Dion fans prepare for comeback concert in Paris",
           "published_at": "2026-09-12T17:36:20Z"
+        }
+      ]
+    },
+    {
+      "label": "Ireland · Trump · visit · Irish",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-09-12T21:25:28Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cwyzppd1d5lo?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump's comments on a united Ireland may have targeted audience across the Atlantic",
+          "published_at": "2026-09-12T21:25:28Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260912-trump-in-ireland-what-are-irish-people-saying-about-the-visit",
+          "headline": "Trump in Ireland: What are Irish people saying about the visit?",
+          "published_at": "2026-09-12T15:50:55Z"
         }
       ]
     },
@@ -225,6 +226,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "b43bf58dad06ffe9f58c76b7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "The week in pictures: 9/11 anniversary, far-right win in Germany and Houthis' Yemen offensive",
+      "url": "https://www.france24.com/en/americas/20260913-the-week-in-pictures-9-11-anniversary-far-right-win-germany-houthis-yemen-offensive",
+      "published_at": "2026-09-13T10:48:49Z",
+      "collected_at": "2026-09-13T11:00:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "6c8241e3a15afd467ce20280",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Drone hits Kyiv-Warsaw train close to Polish border during Russian attacks on Ukraine",
+      "url": "https://notesfrompoland.com/2026/09/13/russian-drone-hits-kyiv-warsaw-train-close-to-polish-border",
+      "published_at": "2026-09-13T10:31:02Z",
+      "collected_at": "2026-09-13T11:00:54Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "4139b8f3da5eb39f21b6ed36",
       "source_id": "euobserver",
@@ -1080,20 +1109,6 @@
       ]
     },
     {
-      "id": "cd6bc9c9c907aac97534098b",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Farage’s Reform UK gets £36 Million from crypto billionaire",
-      "url": "https://www.politico.eu/article/nigel-farage-reform-uk-gets-36-million-from-crypto-billionaire",
-      "published_at": "2026-09-12T10:17:24Z",
-      "collected_at": "2026-09-12T10:30:45Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "96158c491ad8a36ae747959c",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1458,6 +1473,62 @@
       ]
     },
     {
+      "id": "99a472e4e5e3df264480a59e",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Polish far-right leader Braun vandalises Ukrainian monument with hammer",
+      "url": "https://notesfrompoland.com/2026/09/11/polish-far-right-leader-braun-vandalises-ukrainian-monument-with-hammer",
+      "published_at": "2026-09-11T10:49:10Z",
+      "collected_at": "2026-09-13T11:00:54Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "e4673dd277bff4c6cc8ef265",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Turks in Germany anxious after AfD wins in Saxony-Anhalt",
+      "url": "https://www.dw.com/en/turks-in-germany-anxious-after-afd-wins-in-saxony-anhalt/a-79221764?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-11T10:07:00Z",
+      "collected_at": "2026-09-13T11:00:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "e7db75f7183532efbf11447e",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "25 years after 9/11, have the terrorists won?",
+      "url": "https://euobserver.com/236714/25-years-after-9-11-have-the-terrorists-won",
+      "published_at": "2026-09-11T09:58:39Z",
+      "collected_at": "2026-09-13T11:00:54Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "57a1baa9213f2f1e147e5fde",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Vance speech at ‘Trumpapalooza’ provides calling card for 2028 presidential run: ‘If you love Mexico so much, get your ass over there’",
+      "url": "https://english.elpais.com/usa/2026-09-11/vance-speech-at-trumpapalooza-provides-calling-card-for-2028-presidential-run-if-you-love-mexico-so-much-get-your-ass-over-there.html",
+      "published_at": "2026-09-11T09:15:34Z",
+      "collected_at": "2026-09-13T11:00:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "c5ef9cf3eaf2a672dfac2871",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1493,6 +1564,34 @@
       "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-09-11T08:54:20Z",
       "collected_at": "2026-09-13T10:00:58Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "d24ba0507d52dddeee214ad2",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "New York: from post‑9/11 suspicion of Islam to its first Muslim mayor",
+      "url": "https://english.elpais.com/usa/2026-09-11/new-york-from-post911-suspicion-of-islam-to-its-first-muslim-mayor.html",
+      "published_at": "2026-09-11T08:31:33Z",
+      "collected_at": "2026-09-13T11:00:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "060974b7c91600c45f797cec",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Man jailed after threatening to behead son's teacher in French village",
+      "url": "https://www.bbc.co.uk/news/articles/c62jln7n2vvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-11T06:28:42Z",
+      "collected_at": "2026-09-13T11:00:54Z",
       "topics": [
         "breaking",
         "politics",
@@ -1822,20 +1921,6 @@
       ]
     },
     {
-      "id": "e61b4501aaf591df3d7b14df",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Von der Leyen’s State of the Union AI data-centre dream will be a nightmare",
-      "url": "https://euobserver.com/236303/von-der-leyens-state-of-the-union-ai-data-centre-dream-will-be-a-nightmare",
-      "published_at": "2026-09-10T09:53:41Z",
-      "collected_at": "2026-09-12T10:30:45Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "fc46c4dc7f6740e8d598426e",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1847,6 +1932,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "03a206fac617d6f1289f7c72",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trump escalates trade war with ban on purchase of Canadian spirits and motorcycles",
+      "url": "https://english.elpais.com/economy-and-business/2026-09-09/trump-escalates-trade-war-with-ban-on-purchase-of-canadian-spirits-and-motorcycles.html",
+      "published_at": "2026-09-09T10:21:18Z",
+      "collected_at": "2026-09-13T11:00:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
