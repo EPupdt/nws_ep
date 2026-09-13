@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-13T06:00:59Z",
-  "last_successful_collection_at": "2026-09-13T06:00:59Z",
+  "generated_at": "2026-09-13T06:30:42Z",
+  "last_successful_collection_at": "2026-09-13T06:30:42Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-13T06:00:59Z"
+      "at": "2026-09-13T06:30:42Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-09-13T06:00:59Z"
+      "at": "2026-09-13T06:30:42Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-13T06:00:59Z"
+      "at": "2026-09-13T06:30:42Z"
     },
     {
       "id": "euractiv",
@@ -29,89 +29,63 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-13T06:00:59Z"
+      "at": "2026-09-13T06:30:42Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-13T06:00:59Z"
+      "at": "2026-09-13T06:30:42Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-09-13T06:00:59Z"
+      "at": "2026-09-13T06:30:42Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-13T06:00:59Z"
+      "at": "2026-09-13T06:30:42Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-09-13T06:00:59Z"
+      "status": "error",
+      "detail": "<unknown>:94:2: mismatched tag",
+      "at": "2026-09-13T06:30:42Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-13T06:00:59Z"
+      "at": "2026-09-13T06:30:42Z"
     }
   ],
   "europe_now": [
     {
-      "title": "French Authorities Probe Train Derailment",
-      "summary": "French officials are investigating whether a malicious act caused a recent train derailment in the country. Police and authorities are treating the incident with high security concern as inquiries continue.",
+      "title": "Swedish General Election",
+      "summary": "Voters across Sweden are participating in a closely contested general election that could bring the far right into government.",
       "article_ids": [
-        "70b8c4356af2a860c7e6daea",
-        "02fecba63560c8f4d0dda0e5",
-        "a1e9689f96fefe9df9ce08d9"
+        "c87f1fe35a8f8e1fbea8b0e8",
+        "a470b70ffc86cc3e8a0127c6"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260912-french-police-suspect-train-derailment-was-sabotage",
-          "headline": "French police suspect train derailment was sabotage",
-          "published_at": "2026-09-12T15:47:35Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c33kp533nn6o?at_medium=RSS&at_campaign=rss",
-          "headline": "French officials investigate if malicious act caused train derailment",
-          "published_at": "2026-09-12T15:05:53Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Bulgaria Investigates Weapons Site Fire",
-      "summary": "Bulgarian authorities have launched an investigation into a fire at a weapons site after the owner stated it was an act of sabotage. The incident has drawn urgent attention due to its potential security implications.",
-      "article_ids": [
-        "c7e4dc20459368ec58804a4e"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cd94kj17zvwo?at_medium=RSS&at_campaign=rss",
-          "headline": "Bulgaria investigates fire at weapons site that owner calls sabotage",
-          "published_at": "2026-09-12T17:38:21Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/how-to-watch-sweden-election-like-pro",
+          "headline": "How to watch Sweden’s election like a pro",
+          "published_at": "2026-09-13T02:00:00Z"
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "Protests in Germany Following Regional Elections",
-      "summary": "Tens of thousands of people demonstrated across Germany following significant far-right election gains. The protests targeted the Alternative for Germany party as political tensions escalated.",
+      "title": "German Protests After Election Gains",
+      "summary": "Tens of thousands of people have demonstrated in Germany following regional election successes by the far-right AfD party.",
       "article_ids": [
         "f0f9abcc766a6d959461414a",
-        "03a5fe1547f481dd4b189f09",
-        "8ad917c817314d6ad0b1306d"
+        "03a5fe1547f481dd4b189f09"
       ],
       "sources": [
         {
@@ -128,16 +102,56 @@
         }
       ],
       "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "German Demonstrations",
+      "summary": "Large crowds gathered in Germany to protest against the far-right AfD party. These demonstrations followed recent regional election results.",
+      "article_ids": [
+        "f0f9abcc766a6d959461414a"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260912-tens-of-thousands-of-people-protest-in-germany-against-far-right-afd",
+          "headline": "Tens of thousands protest against far-right AfD party in Germany",
+          "published_at": "2026-09-12T17:12:10Z"
+        }
+      ],
+      "source_count": 1
     },
     {
-      "title": "Donald Trump's Visit to Ireland",
-      "summary": "Donald Trump undertook an official two-day visit to Ireland accompanied by extensive security operations. During his trip, his remarks regarding a united Ireland sparked widespread political reactions.",
+      "title": "French Train Derailment Investigation",
+      "summary": "French authorities are examining whether a malicious act caused a recent train derailment. Police are treating sabotage as a prime suspect in the incident.",
       "article_ids": [
-        "3f619f55e42e345350376c4a",
-        "82941a28952d9d2d7295dc07",
-        "0996f285585ecfef8842d319",
-        "f8bd0b3961e26689aaa756e2"
+        "02fecba63560c8f4d0dda0e5",
+        "70b8c4356af2a860c7e6daea"
       ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c33kp533nn6o?at_medium=RSS&at_campaign=rss",
+          "headline": "French officials investigate if malicious act caused train derailment",
+          "published_at": "2026-09-12T15:05:53Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260912-french-police-suspect-train-derailment-was-sabotage",
+          "headline": "French police suspect train derailment was sabotage",
+          "published_at": "2026-09-12T15:47:35Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "developing": [
+    {
+      "label": "Ireland · Trump · golf · Dublin",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 10,
+      "latest_at": "2026-09-12T21:25:28Z",
       "sources": [
         {
           "publisher": "BBC News Europe",
@@ -150,12 +164,15 @@
           "url": "https://www.france24.com/en/video/20260912-trump-in-ireland-what-are-irish-people-saying-about-the-visit",
           "headline": "Trump in Ireland: What are Irish people saying about the visit?",
           "published_at": "2026-09-12T15:50:55Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/donald-trump-says-he-would-love-to-see-united-ireland",
+          "headline": "Trump says he would ‘love’ to see a united Ireland",
+          "published_at": "2026-09-12T10:48:23Z"
         }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
+      ]
+    },
     {
       "label": "Dion · Paris · Céline · comeback",
       "origin": "convergence",
@@ -212,24 +229,23 @@
           "published_at": "2026-09-12T10:16:54Z"
         }
       ]
-    },
-    {
-      "label": "golf · Ireland · lands · PM",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-09-12T07:51:20Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/live-news/20260912-trump-lands-in-ireland-for-golf-tournament-pm-talks",
-          "headline": "Trump lands in Ireland for golf tournament, PM talks",
-          "published_at": "2026-09-12T07:51:20Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "c87f1fe35a8f8e1fbea8b0e8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Swedes vote in close general election that could usher far right into government",
+      "url": "https://www.france24.com/en/europe/20260913-swedes-vote-in-close-general-election-that-could-usher-far-right-into-government",
+      "published_at": "2026-09-13T06:16:49Z",
+      "collected_at": "2026-09-13T06:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "f849239acf18392fefe64432",
       "source_id": "france24",
