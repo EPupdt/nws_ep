@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-13T19:00:52Z",
-  "last_successful_collection_at": "2026-09-13T19:00:52Z",
+  "generated_at": "2026-09-13T19:30:46Z",
+  "last_successful_collection_at": "2026-09-13T19:30:46Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-13T19:00:52Z"
+      "at": "2026-09-13T19:30:46Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-09-13T19:00:52Z"
+      "at": "2026-09-13T19:30:46Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-13T19:00:52Z"
+      "at": "2026-09-13T19:30:46Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-13T19:00:52Z"
+      "at": "2026-09-13T19:30:46Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-13T19:00:52Z"
+      "at": "2026-09-13T19:30:46Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-09-13T19:00:52Z"
+      "at": "2026-09-13T19:30:46Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-13T19:00:52Z"
+      "at": "2026-09-13T19:30:46Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-13T19:00:52Z"
+      "at": "2026-09-13T19:30:46Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-13T19:00:52Z"
+      "at": "2026-09-13T19:30:46Z"
     }
   ],
   "europe_now": [
     {
       "title": "Sweden General Election Exit Polls",
-      "summary": "Exit polls indicate that Sweden's centre-left opposition holds a lead in the general election, while the far-right experiences a decline.",
+      "summary": "Exit polls indicate that Sweden's centre-left opposition holds a lead as the far-right slips in a tightly contested general election.",
       "article_ids": [
         "f0d754261e4674dd604af223",
         "b420e40526bd8edda173793d"
@@ -87,8 +87,8 @@
       "source_count": 2
     },
     {
-      "title": "Cross-Border Drone Impact Near Polish Border",
-      "summary": "A Russian drone struck a passenger train traveling from Kyiv to Warsaw close to the Polish border amidst ongoing regional attacks.",
+      "title": "Russian Drone Attack Near Polish Border",
+      "summary": "A Russian drone struck a passenger train traveling from Kyiv to Warsaw near the Polish border amidst ongoing regional attacks.",
       "article_ids": [
         "6c8241e3a15afd467ce20280",
         "af155045cabc30df0991d062"
@@ -112,10 +112,11 @@
   ],
   "top_stories": [
     {
-      "title": "Swedish Elections",
-      "summary": "Voters across Sweden participated in a tightly contested general election with potential implications for far-right participation in government. Exit polls subsequently showed the centre-left opposition leading as the far-right slipped.",
+      "title": "Sweden General Election",
+      "summary": "Voters in Sweden participated in a general election that could bring the far right into government. Exit polls show the centre-left opposition leading as the far-right movement trails behind.",
       "article_ids": [
         "f0d754261e4674dd604af223",
+        "b420e40526bd8edda173793d",
         "c87f1fe35a8f8e1fbea8b0e8"
       ],
       "sources": [
@@ -124,13 +125,42 @@
           "url": "https://www.france24.com/en/europe/20260913-sweden-s-centre-left-opposition-leads-election-as-far-right-slips-exit-polls-show",
           "headline": "Sweden's centre-left opposition leads election as far-right slips, exit polls show",
           "published_at": "2026-09-13T18:25:43Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/sweden-exit-poll-election-magdalena-andersson",
+          "headline": "Sweden exit poll: Left on course for election win in blow to far right",
+          "published_at": "2026-09-13T18:20:49Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "German Protests and Security",
-      "summary": "Thousands of demonstrators mobilized in Germany following recent electoral successes by the far-right Alternative for Germany party. Meanwhile, authorities reported that a suspected Russian spy was behind a drone attack targeting Leipzig.",
+      "title": "Cross-Border Security Incident",
+      "summary": "A Russian drone strike hit a passenger train running between Kyiv and Warsaw near the Polish border. The incident occurred during broader attacks by Russian forces targeting Ukrainian infrastructure.",
+      "article_ids": [
+        "6c8241e3a15afd467ce20280",
+        "af155045cabc30df0991d062"
+      ],
+      "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/09/13/russian-drone-hits-kyiv-warsaw-train-close-to-polish-border",
+          "headline": "Drone hits Kyiv-Warsaw train close to Polish border during Russian attacks on Ukraine",
+          "published_at": "2026-09-13T10:31:02Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/russia-attacks-gas-station-passenger-train-near-ukraine-poland-border",
+          "headline": "Russian drone hits passenger train headed from Kyiv to Warsaw",
+          "published_at": "2026-09-13T09:45:41Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "German Protests",
+      "summary": "Thousands of demonstrators gathered across Germany following recent electoral victories by the far-right AfD party. Security forces are also investigating a related drone attack linked to a suspected spy.",
       "article_ids": [
         "bb99ef2f0163193fce2d3291",
         "88881aae2908749b09fcb5e3"
@@ -150,15 +180,30 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "developing": [
+    },
     {
-      "label": "ambassador · France",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-09-13T11:28:55Z",
+      "title": "UK Political Funding Probe",
+      "summary": "British police have launched an investigation into a major political donation of £72 million made to Reform UK. Authorities are currently reviewing the financial transactions associated with the party.",
+      "article_ids": [
+        "900df05e0793dd8f3f07d3a9"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260913-uk-police-probe-%C2%A372-million-donation-to-reform-uk",
+          "headline": "UK: Police probe £72 million donation to Reform UK",
+          "published_at": "2026-09-13T09:26:10Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "French-US Diplomatic Resolution",
+      "summary": "France resolved a diplomatic standoff with the United States after a disagreement regarding social media regulations and ambassador appointments. The French government apologized to lift the block on the new ambassador to Washington.",
+      "article_ids": [
+        "81b3ae3e84416734f8f732fe",
+        "4368d1eabb599895459421d7"
+      ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
@@ -172,8 +217,11 @@
           "headline": "France apologises for diplomatic spat with US to lift block on new ambassador to Washington",
           "published_at": "2026-09-13T09:01:17Z"
         }
-      ]
-    },
+      ],
+      "source_count": 2
+    }
+  ],
+  "developing": [
     {
       "label": "Atlantic · Trump",
       "origin": "convergence",
@@ -228,6 +276,21 @@
           "url": "https://www.politico.eu/article/donald-trump-calls-on-ukraine-to-halt-attacks-on-russian-oil-refineries",
           "headline": "Trump calls on Ukraine to halt attacks on Russian oil refineries",
           "published_at": "2026-09-13T15:35:39Z"
+        }
+      ]
+    },
+    {
+      "label": "election · eyes · puts · right",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-09-13T15:55:50Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/sweden-tight-election-puts-all-eyes-on-the-far-right",
+          "headline": "Sweden: Tight election puts all eyes on the far right",
+          "published_at": "2026-09-13T15:55:50Z"
         }
       ]
     }
@@ -1032,6 +1095,20 @@
       ]
     },
     {
+      "id": "e0d0adbfb8d0bdcaaa8401a9",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "From purple ketchup to clear cola: Commercial mistakes worth learning from",
+      "url": "https://english.elpais.com/economy-and-business/2026-09-11/from-purple-ketchup-to-clear-cola-commercial-mistakes-worth-learning-from.html",
+      "published_at": "2026-09-11T18:27:49Z",
+      "collected_at": "2026-09-13T19:30:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "c60fe527f12e9a975263ddb4",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1410,20 +1487,6 @@
       ]
     },
     {
-      "id": "5eab2c61cddee6987b675552",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Ukraine’s financial crisis resurrects Europe’s bitter dilemma on Russian frozen assets",
-      "url": "https://euobserver.com/236631/ukraines-financial-crisis-resurrects-europes-bitter-dilemma-on-moscows-frozen-central-bank-assets",
-      "published_at": "2026-09-10T18:00:00Z",
-      "collected_at": "2026-09-12T19:00:52Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "cb1cc21e8c82172f367d5041",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1463,20 +1526,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "877b833b95eb8a61a36b8a63",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Germany’s Goethe-Institut is closing in Russia. Russians tell DW how canceled exams are upending their plans",
-      "url": "https://www.dw.com/en/germany-s-goethe-institut-is-closing-in-russia-russians-tell-dw-how-canceled-exams-are-upending-their-plans/a-79218936?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-10T16:17:00Z",
-      "collected_at": "2026-09-12T19:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
