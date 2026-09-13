@@ -273,9 +273,24 @@
     "5a48d9864100d2104664c393": "2026-09-13T16:00:53Z",
     "7f0c3f21dac139a498a93563": "2026-09-13T16:00:53Z",
     "631b98d1138dc5027d8aaa4c": "2026-09-13T17:00:54Z",
-    "1d7e7d30041a5d2d5a438372": "2026-09-13T17:00:54Z"
+    "1d7e7d30041a5d2d5a438372": "2026-09-13T17:00:54Z",
+    "bb99ef2f0163193fce2d3291": "2026-09-13T17:30:41Z"
   },
   "radar": [
+    {
+      "id": "bb99ef2f0163193fce2d3291",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Suspected Russian spy behind drone attack in Leipzig",
+      "url": "https://www.politico.eu/article/suspect-russia-spy-drone-attack-in-leipzig-halle-airport-germany",
+      "published_at": "2026-09-13T17:11:21Z",
+      "collected_at": "2026-09-13T17:30:41Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "5a48d9864100d2104664c393",
       "source_id": "france24",
@@ -1931,14 +1946,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-09-12T10:00:53Z",
-      "title": "European Space Policy Criticism"
-    },
-    {
-      "at": "2026-09-12T10:00:53Z",
-      "title": "Diplomatic Talks in Ireland"
-    },
-    {
       "at": "2026-09-12T10:30:45Z",
       "title": "Political and Financial Developments"
     },
@@ -2249,14 +2256,38 @@
     {
       "at": "2026-09-13T17:00:54Z",
       "title": "France Resolves Diplomatic Standoff with United States"
+    },
+    {
+      "at": "2026-09-13T17:30:41Z",
+      "title": "Swedish General Election"
+    },
+    {
+      "at": "2026-09-13T17:30:41Z",
+      "title": "German Protests After Far-Right Electoral Success"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
+        "title": "Suspected Russian Spy Linked to German Airport Drone Attack",
+        "summary": "Investigators have identified a suspected Russian intelligence operative behind a drone attack targeting an airport in Germany. The incident has raised major security concerns regarding critical infrastructure protection across the region.",
+        "article_ids": [
+          "bb99ef2f0163193fce2d3291"
+        ],
+        "sources": [
+          {
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/suspect-russia-spy-drone-attack-in-leipzig-halle-airport-germany",
+            "headline": "Suspected Russian spy behind drone attack in Leipzig",
+            "published_at": "2026-09-13T17:11:21Z"
+          }
+        ],
+        "source_count": 1
+      },
+      {
         "title": "Russian Drone Strikes Passenger Train Near Polish Border",
-        "summary": "A Russian drone strike hit a passenger train traveling from Kyiv to Warsaw near the Polish border during ongoing attacks in the region. The incident occurred amidst heightened regional security concerns and regional transport disruptions.",
+        "summary": "A passenger train traveling toward the Polish border was struck by a drone during ongoing military attacks in the region. The cross-border impact of the strike has prompted urgent security evaluations among neighboring European states.",
         "article_ids": [
           "6c8241e3a15afd467ce20280",
           "af155045cabc30df0991d062"
@@ -2276,10 +2307,12 @@
           }
         ],
         "source_count": 2
-      },
+      }
+    ],
+    "top_stories": [
       {
-        "title": "Sweden General Election",
-        "summary": "Voters across Sweden participated in a closely contested general election that could result in the far-right entering government. Political analysts noted that the outcome marks a potential turning point for the nation's political landscape.",
+        "title": "Swedish General Election",
+        "summary": "Voters across Sweden are casting ballots in a tightly contested general election with potential implications for the far-right's role in government. Political observers are closely monitoring the outcome as polling indicates a pivotal moment for the country's political landscape.",
         "article_ids": [
           "3987f4f0812661cb5b6205e6",
           "b82ecdeb5ffc86641b671822",
@@ -2288,18 +2321,22 @@
         "sources": [
           {
             "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/swedish-far-right-eyes-role-in-government",
+            "headline": "Swedish far-right eyes role in government",
+            "published_at": "2026-09-13T13:11:59Z"
+          },
+          {
+            "publisher": "France 24 English",
             "url": "https://www.france24.com/en/sweden-election-a-turning-point-for-the-far-right",
             "headline": "Sweden election: A turning point for the far right?",
             "published_at": "2026-09-13T09:48:37Z"
           }
         ],
         "source_count": 1
-      }
-    ],
-    "top_stories": [
+      },
       {
-        "title": "German Protests After AfD Electoral Victory",
-        "summary": "Thousands of demonstrators gathered across Germany following significant electoral gains by the Alternative for Germany party. The mass rallies reflect growing societal tensions and public pushback against far-right political success.",
+        "title": "German Protests After Far-Right Electoral Success",
+        "summary": "Large crowds have gathered in various German cities to demonstrate following recent electoral victories by the far-right Alternative for Germany party. Organizers and participants are expressing strong opposition to the party's political gains through widespread public rallies.",
         "article_ids": [
           "88881aae2908749b09fcb5e3"
         ],
@@ -2312,47 +2349,8 @@
           }
         ],
         "source_count": 1
-      },
-      {
-        "title": "UK Political Funding Investigation",
-        "summary": "British police have launched a formal investigation into a substantial donation made to Reform UK. Investigators are examining the circumstances surrounding the funding as part of ongoing scrutiny into political finances.",
-        "article_ids": [
-          "900df05e0793dd8f3f07d3a9"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/video/20260913-uk-police-probe-%C2%A372-million-donation-to-reform-uk",
-            "headline": "UK: Police probe £72 million donation to Reform UK",
-            "published_at": "2026-09-13T09:26:10Z"
-          }
-        ],
-        "source_count": 1
-      },
-      {
-        "title": "France Resolves Diplomatic Standoff with United States",
-        "summary": "France issued an apology following a diplomatic dispute with the United States over social media commentary. The resolution successfully unblocked the appointment of the new American ambassador to Washington.",
-        "article_ids": [
-          "81b3ae3e84416734f8f732fe",
-          "4368d1eabb599895459421d7"
-        ],
-        "sources": [
-          {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/france-social-media-row-us-ambassadors-appointment-blocked",
-            "headline": "France climbs down in social media row with U.S. after ambassador’s appointment blocked",
-            "published_at": "2026-09-13T11:28:55Z"
-          },
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/france/20260913-france-apologises-for-diplomatic-spat-with-us-to-lift-block-on-new-ambassador-to-washington",
-            "headline": "France apologises for diplomatic spat with US to lift block on new ambassador to Washington",
-            "published_at": "2026-09-13T09:01:17Z"
-          }
-        ],
-        "source_count": 2
       }
     ]
   },
-  "last_collection_at": "2026-09-13T17:00:54Z"
+  "last_collection_at": "2026-09-13T17:30:41Z"
 }
