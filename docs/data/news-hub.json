@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-14T07:30:44Z",
-  "last_successful_collection_at": "2026-09-14T07:30:44Z",
+  "generated_at": "2026-09-14T08:01:02Z",
+  "last_successful_collection_at": "2026-09-14T08:01:02Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-14T07:30:44Z"
+      "at": "2026-09-14T08:01:02Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-09-14T07:30:44Z"
+      "at": "2026-09-14T08:01:02Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-14T07:30:44Z"
+      "at": "2026-09-14T08:01:02Z"
     },
     {
       "id": "euractiv",
@@ -29,53 +29,95 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-14T07:30:44Z"
+      "at": "2026-09-14T08:01:02Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-14T07:30:44Z"
+      "at": "2026-09-14T08:01:02Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-09-14T07:30:44Z"
+      "at": "2026-09-14T08:01:02Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-14T07:30:44Z"
+      "at": "2026-09-14T08:01:02Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-14T07:30:44Z"
+      "at": "2026-09-14T08:01:02Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-14T07:30:44Z"
+      "at": "2026-09-14T08:01:02Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Swedish General Election Outcomes",
-      "summary": "Sweden's general election remained extremely close with the centre-left bloc holding a narrow lead over the right-wing parties. Exit polls and early projections indicated a tight race with significant attention focused on the performance of the far-right.",
+      "title": "Sweden General Election",
+      "summary": "Sweden's general election remained extremely close as the centre-left opposition led following a late surge, while exit polls indicated a setback for the far-right.",
       "article_ids": [
-        "f0d754261e4674dd604af223",
-        "c953d2f6d79a74481d05a839"
+        "c953d2f6d79a74481d05a839",
+        "f0d754261e4674dd604af223"
       ],
       "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/sweden-election-too-close-to-call-ulf-kristersson-magdalena-andersson",
+          "headline": "Sweden’s election too close to call after late right-wing surge",
+          "published_at": "2026-09-13T20:29:34Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20260913-sweden-s-centre-left-opposition-leads-election-as-far-right-slips-exit-polls-show",
           "headline": "Sweden's centre-left opposition leads election as far-right slips, exit polls show",
           "published_at": "2026-09-13T18:25:43Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Cross-Border Rail Strike",
+      "summary": "Ukrainian and Polish officials condemned a Russian drone strike that hit a train near the border shortly after international figures departed the station.",
+      "article_ids": [
+        "e6bf4ca44d79a4ede944f1f9",
+        "cad4cd43511f1364685458d5"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
+          "published_at": "2026-09-13T19:14:21Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Swedish Election Outcomes",
+      "summary": "Sweden's election remained too close to call as vote counts continued following exit polls. The centre-left bloc held a narrow lead over the right-wing block.",
+      "article_ids": [
+        "56edef007f1d0de25c8f79ae",
+        "c953d2f6d79a74481d05a839"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss",
+          "headline": "Swedish left-wing bloc narrowly ahead with election too close to call",
+          "published_at": "2026-09-14T01:58:59Z"
         },
         {
           "publisher": "POLITICO Europe",
@@ -87,11 +129,11 @@
       "source_count": 2
     },
     {
-      "title": "Cross-Border Security Incident Near Ukraine",
-      "summary": "Ukrainian and Polish authorities strongly condemned a Russian drone strike targeting a train near the border. European officials expressed alarm over the attack as a serious security escalation in the region.",
+      "title": "Border Security Escalation",
+      "summary": "Ukraine and Poland condemned a Russian drone strike near their border that impacted a railway location. The attack occurred shortly after political figures had left the station.",
       "article_ids": [
         "cad4cd43511f1364685458d5",
-        "1a7649f05a43ca09b1b6301a"
+        "e6bf4ca44d79a4ede944f1f9"
       ],
       "sources": [
         {
@@ -99,72 +141,24 @@
           "url": "https://www.france24.com/en/europe/20260913-poland-ukraine-slam-russian-strikes-near-border-as-escalation",
           "headline": "Ukraine, Poland condemn Russia after drone strikes train near border",
           "published_at": "2026-09-13T17:59:11Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/cx2z5gjj838o?at_medium=RSS&at_campaign=rss",
-          "headline": "Watch: Why a Russian strike on train near Ukraine-Poland border could mark an escalation",
-          "published_at": "2026-09-14T01:12:20Z"
         }
       ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Swedish General Election",
-      "summary": "Sweden's parliamentary election concluded with exit polls showing a tight contest between the centre-left opposition and right-wing groups. Final results remained too close to call as vote counts continued.",
-      "article_ids": [
-        "56edef007f1d0de25c8f79ae",
-        "f0d754261e4674dd604af223"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss",
-          "headline": "Swedish left-wing bloc narrowly ahead with election too close to call",
-          "published_at": "2026-09-14T01:58:59Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260913-sweden-s-centre-left-opposition-leads-election-as-far-right-slips-exit-polls-show",
-          "headline": "Sweden's centre-left opposition leads election as far-right slips, exit polls show",
-          "published_at": "2026-09-13T18:25:43Z"
-        }
-      ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "Border Security Escalation",
-      "summary": "A Russian strike hit a train near the Ukraine-Poland border shortly after European officials departed from the location. Both Ukraine and Poland condemned the attack as a dangerous escalation.",
-      "article_ids": [
-        "1a7649f05a43ca09b1b6301a",
-        "cad4cd43511f1364685458d5"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/cx2z5gjj838o?at_medium=RSS&at_campaign=rss",
-          "headline": "Watch: Why a Russian strike on train near Ukraine-Poland border could mark an escalation",
-          "published_at": "2026-09-14T01:12:20Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260913-poland-ukraine-slam-russian-strikes-near-border-as-escalation",
-          "headline": "Ukraine, Poland condemn Russia after drone strikes train near border",
-          "published_at": "2026-09-13T17:59:11Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "US Tariff Adjustments on Irish Imports",
-      "summary": "The United States announced changes to trade policies regarding Irish whiskey following a diplomatic visit. The decision removes existing tariffs on the product.",
+      "title": "Tariff Policy Updates",
+      "summary": "Donald Trump stated he would remove all tariffs on Irish whiskey as part of policy updates. The announcement followed the conclusion of a two-day visit.",
       "article_ids": [
         "89fce31bf247dabeae7e5dfd",
         "ff7938382e698e4650daf817"
       ],
       "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/09/13/trump-irish-whiskey-tariffs-01073879",
+          "headline": "Trump cuts Ireland’s whiskey tariff as a parting gift",
+          "published_at": "2026-09-13T21:49:34Z"
+        },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno?at_medium=RSS&at_campaign=rss",
@@ -172,10 +166,43 @@
           "published_at": "2026-09-13T19:34:36Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
+    {
+      "label": "Russian · Ukraine · attacks · border",
+      "origin": "convergence",
+      "source_count": 4,
+      "item_count": 6,
+      "latest_at": "2026-09-14T04:00:00Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/236942/this-week-canadas-carney-attends-von-der-leyens-state-of-the-union-as-new-talks-on-russian-frozen-assets-for-ukraine-return-to-eu-agenda",
+          "headline": "THIS WEEK: Canada’s Carney attends von der Leyen’s State of the Union, as new talks on Russian frozen assets for Ukraine return to EU agenda",
+          "published_at": "2026-09-14T04:00:00Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/cx2z5gjj838o?at_medium=RSS&at_campaign=rss",
+          "headline": "Watch: Why a Russian strike on train near Ukraine-Poland border could mark an escalation",
+          "published_at": "2026-09-14T01:12:20Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ideas-ursula-von-der-leyen-mark-carney-canada",
+          "headline": "The ideas shaping von der Leyen’s pitch to Carney",
+          "published_at": "2026-09-13T16:42:15Z"
+        },
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/09/13/russian-drone-hits-kyiv-warsaw-train-close-to-polish-border",
+          "headline": "Drone hits Kyiv-Warsaw train close to Polish border during Russian attacks on Ukraine",
+          "published_at": "2026-09-13T10:31:02Z"
+        }
+      ]
+    },
     {
       "label": "Election · right · Sweden",
       "origin": "convergence",
@@ -194,6 +221,27 @@
           "url": "https://www.france24.com/en/tv-shows/spotlight/20260913-sweden-election-aftermath-a-hard-night-for-the-hard-right",
           "headline": "Sweden Election Aftermath: A hard night for the hard right?",
           "published_at": "2026-09-13T19:04:09Z"
+        }
+      ]
+    },
+    {
+      "label": "donation · Reform",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-09-14T07:36:55Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/why-reforms-donation-will-change-british-politics",
+          "headline": "Why Reform’s donation will change British politics",
+          "published_at": "2026-09-14T07:36:55Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260913-uk-police-probe-%C2%A372-million-donation-to-reform-uk",
+          "headline": "UK: Police probe £72 million donation to Reform UK",
+          "published_at": "2026-09-13T09:26:10Z"
         }
       ]
     },
@@ -217,39 +265,23 @@
           "published_at": "2026-09-13T09:01:17Z"
         }
       ]
-    },
-    {
-      "label": "drone · Russian",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 2,
-      "latest_at": "2026-09-13T17:11:21Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/suspect-russia-spy-drone-attack-in-leipzig-halle-airport-germany",
-          "headline": "Suspected Russian spy behind drone attack in Leipzig",
-          "published_at": "2026-09-13T17:11:21Z"
-        }
-      ]
-    },
-    {
-      "label": "agenda · assets · attends · Canada",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-09-14T04:00:00Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/236942/this-week-canadas-carney-attends-von-der-leyens-state-of-the-union-as-new-talks-on-russian-frozen-assets-for-ukraine-return-to-eu-agenda",
-          "headline": "THIS WEEK: Canada’s Carney attends von der Leyen’s State of the Union, as new talks on Russian frozen assets for Ukraine return to EU agenda",
-          "published_at": "2026-09-14T04:00:00Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "db7391ac3dae79e77cb19ec6",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Why Reform’s donation will change British politics",
+      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/why-reforms-donation-will-change-british-politics",
+      "published_at": "2026-09-14T07:36:55Z",
+      "collected_at": "2026-09-14T08:01:02Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "be8cc12a08908fa408cd71e9",
       "source_id": "france24",
@@ -454,6 +486,20 @@
       "url": "https://www.bbc.co.uk/news/videos/cx2z5gjj838o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-09-14T01:12:20Z",
       "collected_at": "2026-09-14T05:30:47Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "24ec7b8a93975641da3e6fb3",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Why a fresh wave of North Korean soldiers may fight in Russia's war in Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/cgl7zrnxxy6o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-13T23:16:33Z",
+      "collected_at": "2026-09-14T08:01:02Z",
       "topics": [
         "breaking",
         "politics",
@@ -1147,20 +1193,6 @@
       ]
     },
     {
-      "id": "b11093f2c046888e8163db80",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "On Sept 12th, 'everyone was compassionate': The world needs 'to be together again' - Richard Roeill",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20260913-on-sept-12th-everyone-was-compassionate-the-world-needs-to-be-together-again-richard-roeill",
-      "published_at": "2026-09-13T07:18:22Z",
-      "collected_at": "2026-09-13T08:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "9bf58f9a7ae2517444a97f2f",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1637,6 +1669,20 @@
       ]
     },
     {
+      "id": "cb50e36a862642fb64ee49df",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Almost 80% of Poles support helping Baltic states if Russia attacks",
+      "url": "https://notesfrompoland.com/2026/09/10/almost-80-of-poles-support-helping-baltic-states-if-russia-attacks",
+      "published_at": "2026-09-10T07:45:19Z",
+      "collected_at": "2026-09-14T08:01:02Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "984d5c14ae5e4d409f3b8aa4",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2015,13 +2061,13 @@
       ]
     },
     {
-      "id": "0ff295ad0d863b7a8312e85a",
+      "id": "0b70abf7577c771ae6610187",
       "source_id": "ecfr",
       "source_name": "European Council on Foreign Relations",
-      "title": "Can a ceasefire survive Israel’s election?",
-      "url": "https://ecfr.eu/podcasts/episode/can-a-ceasefire-survive-israels-election",
-      "published_at": "2026-08-28T05:00:00Z",
-      "collected_at": "2026-09-13T08:00:50Z",
+      "title": "Germany’s second China shock",
+      "url": "https://ecfr.eu/podcasts/episode/germanys-second-china-shock",
+      "published_at": "2026-08-21T05:00:00Z",
+      "collected_at": "2026-09-14T08:01:02Z",
       "topics": [
         "analysis",
         "foreign_policy",
@@ -2071,13 +2117,13 @@
       ]
     },
     {
-      "id": "8a42af5bd627ff8552898d03",
+      "id": "7693590c8c8835d348af2da3",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "Vlaada Chvátil, inventor of the hit game Codenames: ‘I’m a perfectionist’",
-      "url": "https://english.elpais.com/culture/2026-08-11/vlaada-chvatil-inventor-of-the-hit-game-codenames-im-a-perfectionist.html",
-      "published_at": "2026-08-11T18:57:11Z",
-      "collected_at": "2026-09-13T08:00:50Z",
+      "title": "Nancy Cartwright, philosopher: ‘People distrust science because they feel the system has abandoned them’",
+      "url": "https://english.elpais.com/science-tech/2026-08-15/nancy-cartwright-philosopher-people-distrust-science-because-they-feel-the-system-has-abandoned-them.html",
+      "published_at": "2026-08-15T04:00:00Z",
+      "collected_at": "2026-09-14T08:01:02Z",
       "topics": [
         "politics",
         "society",
