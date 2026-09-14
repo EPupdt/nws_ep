@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-14T10:00:56Z",
-  "last_successful_collection_at": "2026-09-14T10:00:56Z",
+  "generated_at": "2026-09-14T10:30:45Z",
+  "last_successful_collection_at": "2026-09-14T10:30:45Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-14T10:00:56Z"
+      "at": "2026-09-14T10:30:45Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-09-14T10:00:56Z"
+      "at": "2026-09-14T10:30:45Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-14T10:00:56Z"
+      "at": "2026-09-14T10:30:45Z"
     },
     {
       "id": "euractiv",
@@ -29,87 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-14T10:00:56Z"
+      "at": "2026-09-14T10:30:45Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-14T10:00:56Z"
+      "at": "2026-09-14T10:30:45Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-09-14T10:00:56Z"
+      "at": "2026-09-14T10:30:45Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-14T10:00:56Z"
+      "at": "2026-09-14T10:30:45Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-14T10:00:56Z"
+      "at": "2026-09-14T10:30:45Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-14T10:00:56Z"
+      "at": "2026-09-14T10:30:45Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Sweden Election Nears Completion",
-      "summary": "Sweden's general election remains extremely close as the center-left bloc holds a narrow lead. Analysts and news reports highlight the tight contest and shifting support away from far-right factions.",
-      "article_ids": [
-        "47b3acd6d4a34222653adf97",
-        "5dea3cf3e512cd4bdfe60488",
-        "fd56033c0a5dd483517d4c2f",
-        "56edef007f1d0de25c8f79ae",
-        "c953d2f6d79a74481d05a839"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/left-edges-ahead-in-swedish-election-thriller",
-          "headline": "Left edges ahead in Swedish election thriller",
-          "published_at": "2026-09-14T09:50:35Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260914-centre-left-holds-narrow-lead-in-knife-edge-sweden-vote",
-          "headline": "Centre-left holds narrow lead in knife-edge Sweden vote",
-          "published_at": "2026-09-14T09:20:50Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "EU Fails to Finalize Russia Sanctions Rollover",
-      "summary": "European Union member states have failed to reach an agreement on rolling over sanctions against Russia with only one day remaining before the deadline. The delay underscores ongoing diplomatic hurdles within the bloc regarding restrictive measures.",
-      "article_ids": [
-        "d4aa42e77d86bbd4990d5e49"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-fails-to-agree-russia-sanctions-rollover-with-one-day-to-spare",
-          "headline": "EU fails to agree Russia sanctions rollover with one day to spare",
-          "published_at": "2026-09-14T08:27:14Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Swedish General Election",
-      "summary": "Sweden's political landscape faces uncertainty as the center-left bloc edges ahead in a tightly contested vote. Early outcomes and projections indicate a narrow margin between competing political factions.",
+      "title": "Sweden Election",
+      "summary": "Sweden's left bloc has edged ahead in a tight general election as far-right support slips, though the race remains too close to call.",
       "article_ids": [
         "47b3acd6d4a34222653adf97",
         "fd56033c0a5dd483517d4c2f",
@@ -133,7 +89,49 @@
     },
     {
       "title": "EU Sanctions Deadlock",
-      "summary": "European Union representatives struggled to finalize the rollover of sanctions against Russia with a critical deadline approaching. The diplomatic setback leaves crucial restrictive measures in limbo as member states continue negotiations.",
+      "summary": "The European Union has failed to agree on a rollover of Russia sanctions with just one day remaining before the deadline.",
+      "article_ids": [
+        "d4aa42e77d86bbd4990d5e49"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-fails-to-agree-russia-sanctions-rollover-with-one-day-to-spare",
+          "headline": "EU fails to agree Russia sanctions rollover with one day to spare",
+          "published_at": "2026-09-14T08:27:14Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Swedish General Election Outcomes",
+      "summary": "Sweden's parliamentary election remains exceptionally tight as vote counts continue. The centre-left bloc currently holds a narrow lead over the opposition.",
+      "article_ids": [
+        "47b3acd6d4a34222653adf97",
+        "fd56033c0a5dd483517d4c2f",
+        "56edef007f1d0de25c8f79ae"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/left-edges-ahead-in-swedish-election-thriller",
+          "headline": "Left edges ahead in Swedish election thriller",
+          "published_at": "2026-09-14T09:50:35Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/237127/swedens-left-bloc-edges-ahead-in-tight-election-as-far-right-support-slips",
+          "headline": "Sweden’s left bloc edges ahead in tight election as far-right support slips",
+          "published_at": "2026-09-14T09:11:02Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "EU Policy and Sanctions",
+      "summary": "European Union institutions are currently facing internal divisions regarding policy continuity. Member states failed to reach an agreement on rolling over sanctions against Russia ahead of the deadline.",
       "article_ids": [
         "d4aa42e77d86bbd4990d5e49"
       ],
@@ -253,6 +251,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "f6154f876b9897b544a9f853",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "The EU’s Arctic problem won’t go away without Norway, Iceland and UK’s help",
+      "url": "https://euobserver.com/237140/the-eus-arctic-problem-wont-go-away-without-norway-iceland-and-uks-help",
+      "published_at": "2026-09-14T10:07:46Z",
+      "collected_at": "2026-09-14T10:30:45Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "47b3acd6d4a34222653adf97",
       "source_id": "politico_europe",
@@ -1304,90 +1316,6 @@
       ]
     },
     {
-      "id": "4139b8f3da5eb39f21b6ed36",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Europe built its medical science around male bodies – and women are paying the price",
-      "url": "https://euobserver.com/236038/medical-research-is-biased-against-women-my-report-will-start-to-put-a-stop-to-that",
-      "published_at": "2026-09-13T10:00:00Z",
-      "collected_at": "2026-09-13T10:30:39Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "b82ecdeb5ffc86641b671822",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Sweden election: A turning point for the far right?",
-      "url": "https://www.france24.com/en/sweden-election-a-turning-point-for-the-far-right",
-      "published_at": "2026-09-13T09:48:37Z",
-      "collected_at": "2026-09-13T10:30:39Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "af155045cabc30df0991d062",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Russian drone hits passenger train headed from Kyiv to Warsaw",
-      "url": "https://www.politico.eu/article/russia-attacks-gas-station-passenger-train-near-ukraine-poland-border",
-      "published_at": "2026-09-13T09:45:41Z",
-      "collected_at": "2026-09-13T10:00:58Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "88881aae2908749b09fcb5e3",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Germany: Thousands rally against far-right after AfD victory",
-      "url": "https://www.france24.com/en/germany-thousands-rally-against-far-right-after-afd-victory",
-      "published_at": "2026-09-13T09:41:57Z",
-      "collected_at": "2026-09-13T10:00:58Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "9a2e36b2d7ade6b639279ffa",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "BRICS summit: What came out of the New Delhi meeting",
-      "url": "https://www.france24.com/en/brics-summit-what-came-out-of-the-new-delhi-meeting",
-      "published_at": "2026-09-13T09:27:16Z",
-      "collected_at": "2026-09-13T10:00:58Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "900df05e0793dd8f3f07d3a9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "UK: Police probe £72 million donation to Reform UK",
-      "url": "https://www.france24.com/en/video/20260913-uk-police-probe-%C2%A372-million-donation-to-reform-uk",
-      "published_at": "2026-09-13T09:26:10Z",
-      "collected_at": "2026-09-13T10:00:58Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "1f9f8a45c01bb42c291d3dd6",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1402,34 +1330,6 @@
       ]
     },
     {
-      "id": "23fd895b9b80c99d120990c9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Yemen: Houthi offensive triggers new displacement crisis",
-      "url": "https://www.france24.com/en/yemen-houthi-offensive-triggers-new-displacement-crisis",
-      "published_at": "2026-09-13T09:18:55Z",
-      "collected_at": "2026-09-13T10:00:58Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4368d1eabb599895459421d7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France apologises for diplomatic spat with US to lift block on new ambassador to Washington",
-      "url": "https://www.france24.com/en/france/20260913-france-apologises-for-diplomatic-spat-with-us-to-lift-block-on-new-ambassador-to-washington",
-      "published_at": "2026-09-13T09:01:17Z",
-      "collected_at": "2026-09-13T10:00:58Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "d34f52446e135fc1de2c354b",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1437,34 +1337,6 @@
       "url": "https://www.france24.com/en/technology/20260913-trump-slams-ai-skeptics-as-altman-pauses-openai-ipo-plans-over-safety-concerns",
       "published_at": "2026-09-13T08:23:11Z",
       "collected_at": "2026-09-13T15:00:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "6a1084c57c251d33d1e4ad00",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "A Romani artist in Hungary reclaims his identity",
-      "url": "https://www.dw.com/en/a-romani-artist-in-hungary-reclaims-his-identity/a-79247266?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-13T08:16:00Z",
-      "collected_at": "2026-09-13T10:00:58Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "9bf58f9a7ae2517444a97f2f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Second life': Nepal hydropower tunnel survivor recalls ordeal",
-      "url": "https://www.france24.com/en/asia-pacific/20260913-second-life-nepal-hydropower-tunnel-survivor-recalls-ordeal",
-      "published_at": "2026-09-13T04:17:14Z",
-      "collected_at": "2026-09-13T10:00:58Z",
       "topics": [
         "politics",
         "security",
@@ -1808,48 +1680,6 @@
       ]
     },
     {
-      "id": "c5ef9cf3eaf2a672dfac2871",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Magyar’s Hungary expels 10 Russian diplomats and dismantles Fidesz’s county fiefdoms (Day 122 of the Tisza government)",
-      "url": "https://euobserver.com/236800/magyars-hungary-expels-10-russian-diplomats-and-dismantles-fideszs-county-fiefdoms-day-122-of-the-tisza-government",
-      "published_at": "2026-09-11T09:15:05Z",
-      "collected_at": "2026-09-13T10:00:58Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "5a5b08a7209a8ce997fb245d",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Listen: How Sweden’s tight election could normalise far-right power-sharing across Europe",
-      "url": "https://euobserver.com/236897/listen-how-swedens-tight-election-could-normalise-far-right-power-sharing-across-europe",
-      "published_at": "2026-09-11T09:07:01Z",
-      "collected_at": "2026-09-13T10:00:58Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "d844b394180f4fc1cf65a0bb",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Five dead and dozens injured in coach crash in Swiss Alps",
-      "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-11T08:54:20Z",
-      "collected_at": "2026-09-13T10:00:58Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "d24ba0507d52dddeee214ad2",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1892,20 +1722,6 @@
       ]
     },
     {
-      "id": "2bb1e9bd20a3cde7c2a178e7",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Can Europe recharge its battery industry?",
-      "url": "https://www.bbc.co.uk/news/articles/cjeg8ly0qd3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-10T23:05:47Z",
-      "collected_at": "2026-09-13T10:00:58Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "7609d7bb3f433af573b3bae8",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1917,20 +1733,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "709d7cb2d2f5de5d03d4120a",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "‘She killed me with her post’: Gaza students caught in Belgian minister’s immigration posturing",
-      "url": "https://euobserver.com/236740/she-killed-me-with-her-post-gaza-students-caught-in-belgium-ministers-immigration-posturing",
-      "published_at": "2026-09-10T18:56:44Z",
-      "collected_at": "2026-09-13T10:00:58Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
       ]
     },
     {
@@ -2071,34 +1873,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "8acc9752d1c3c4cd9f155fb3",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "“We remember where Germany in the hands of a far-right, pro-Russian party can lead,” says Polish FM",
-      "url": "https://notesfrompoland.com/2026/09/09/we-remember-where-germany-in-the-hands-of-a-far-right-pro-russian-party-can-lead-says-polish-fm",
-      "published_at": "2026-09-09T09:05:31Z",
-      "collected_at": "2026-09-13T10:00:58Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "be84bd037a0494c44e1dd142",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Friends without benefits: Why the EU should offer Canada more than casual defence ties",
-      "url": "https://ecfr.eu/article/friends-without-benefits-why-the-eu-should-offer-canada-more-than-casual-defence-ties",
-      "published_at": "2026-09-09T08:54:06Z",
-      "collected_at": "2026-09-13T10:30:39Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
       ]
     },
     {
