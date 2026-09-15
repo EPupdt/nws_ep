@@ -351,9 +351,25 @@
     "57f9ff93797c6db8ea3938fe": "2026-09-15T09:00:55Z",
     "3948b587099c8b0771991f1f": "2026-09-15T09:30:44Z",
     "28a9d56091bd6b53bff93f00": "2026-09-15T09:30:44Z",
-    "22c04c6df43370a7fa8d5f5f": "2026-09-15T09:30:44Z"
+    "22c04c6df43370a7fa8d5f5f": "2026-09-15T09:30:44Z",
+    "8594f41b4577d5c220f1d532": "2026-09-15T10:00:50Z",
+    "3523fdf36cb6e9fbe1fe8fbe": "2026-09-15T10:00:50Z"
   },
   "radar": [
+    {
+      "id": "3523fdf36cb6e9fbe1fe8fbe",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Ursula von der Leyen’s State of the Union speech — live updates",
+      "url": "https://www.politico.eu/article/ursula-von-der-leyens-state-of-the-union-speech-live-updates",
+      "published_at": "2026-09-15T09:36:30Z",
+      "collected_at": "2026-09-15T10:00:50Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "3948b587099c8b0771991f1f",
       "source_id": "bbc_europe",
@@ -394,6 +410,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "8594f41b4577d5c220f1d532",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Netherlands: Suspected sabotage disrupts train services",
+      "url": "https://www.dw.com/en/netherlands-suspected-sabotage-disrupts-train-services/a-79269600?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-15T08:46:00Z",
+      "collected_at": "2026-09-15T10:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -2737,14 +2767,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-09-14T07:00:55Z",
-      "title": "Border Security Escalation"
-    },
-    {
-      "at": "2026-09-14T07:00:55Z",
-      "title": "US Tariff Adjustments on Irish Imports"
-    },
-    {
       "at": "2026-09-14T08:01:02Z",
       "title": "Swedish Election Outcomes"
     },
@@ -3055,6 +3077,14 @@
     {
       "at": "2026-09-15T09:30:44Z",
       "title": "French Industrial Action"
+    },
+    {
+      "at": "2026-09-15T10:00:50Z",
+      "title": "Regional Airspace Incursions and Maritime Security"
+    },
+    {
+      "at": "2026-09-15T10:00:50Z",
+      "title": "Transatlantic Trade and Diplomatic Engagement"
     }
   ],
   "alerts": [],
@@ -3062,7 +3092,7 @@
     "europe_now": [
       {
         "title": "NATO Interception Over Lithuania",
-        "summary": "NATO fighter jets successfully intercepted and shot down an unauthorized drone that entered Lithuanian airspace. The incident highlights heightened regional security concerns along the alliance's eastern flank.",
+        "summary": "NATO fighter jets intercepted and downed an unmanned aerial vehicle that entered Lithuanian airspace. This security incident underscores heightened regional tensions along the alliance's eastern flank.",
         "article_ids": [
           "51382e7a46c6d759dbd844fd",
           "2ed05cc38e647515167674a2"
@@ -3084,10 +3114,11 @@
         "source_count": 2
       },
       {
-        "title": "Major Rail Disruption in the Netherlands",
-        "summary": "Suspected sabotage has caused widespread disruptions across the railway network in the Netherlands. Authorities are investigating the incident as transport officials work to restore service.",
+        "title": "Infrastructure Disruption in the Netherlands",
+        "summary": "Suspected sabotage activity caused widespread disruptions across the Dutch railway network. Law enforcement and infrastructure operators are investigating the cause of the major transit delays.",
         "article_ids": [
-          "3948b587099c8b0771991f1f"
+          "3948b587099c8b0771991f1f",
+          "8594f41b4577d5c220f1d532"
         ],
         "sources": [
           {
@@ -3095,15 +3126,44 @@
             "url": "https://www.bbc.co.uk/news/articles/c8ly49w9g1edo?at_medium=RSS&at_campaign=rss",
             "headline": "Suspected sabotage causes major Netherlands rail disruption",
             "published_at": "2026-09-15T09:02:47Z"
+          },
+          {
+            "publisher": "Deutsche Welle",
+            "url": "https://www.dw.com/en/netherlands-suspected-sabotage-disrupts-train-services/a-79269600?maca=en-rss-en-eu-2092-rdf",
+            "headline": "Netherlands: Suspected sabotage disrupts train services",
+            "published_at": "2026-09-15T08:46:00Z"
           }
         ],
-        "source_count": 1
+        "source_count": 2
       }
     ],
     "top_stories": [
       {
-        "title": "Transatlantic Trade Relations",
-        "summary": "Mark Carney is pressing ten European Union countries to ratify a pending trade agreement with Canada. The diplomatic push includes planned visits to strategic European locations to solidify economic ties.",
+        "title": "Regional Airspace Incursions and Maritime Security",
+        "summary": "NATO fighter jets shot down a drone following an unauthorized incursion into Lithuanian airspace. Meanwhile, Danish authorities expressed alarm after a Russian frigate fired flares at a military helicopter.",
+        "article_ids": [
+          "89673e05e99916092aeae6e9",
+          "2ed05cc38e647515167674a2"
+        ],
+        "sources": [
+          {
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/russian-frigate-fires",
+            "headline": "Alarm in Denmark after Russian ship fires at military helicopter",
+            "published_at": "2026-09-15T07:18:01Z"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20260915-nato-fighter-jets-shoot-down-drone-over-lithuania-after-latest-incursion",
+            "headline": "NATO fighter jets shoot down drone over Lithuania after latest incursion",
+            "published_at": "2026-09-15T02:19:11Z"
+          }
+        ],
+        "source_count": 2
+      },
+      {
+        "title": "Transatlantic Trade and Diplomatic Engagement",
+        "summary": "Canadian officials are pressing multiple European Union member states to ratify an existing trade agreement. Leadership engagement aims to strengthen economic ties between Canada and European partners.",
         "article_ids": [
           "1767cc626323bf4c39041658",
           "b7cc3e06fad58ae7f2bc7110"
@@ -3114,33 +3174,11 @@
             "url": "https://www.politico.eu/article/mark-carney-canada-presses-10-eu-countries-to-ratify-trade-deal",
             "headline": "Carney presses 10 EU countries to ratify Canada trade deal",
             "published_at": "2026-09-15T08:39:37Z"
-          },
-          {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/mark-carney-canada-europe-pivot-emmanuel-macron-saint-pierre-miquelon",
-            "headline": "Carney puts exclamation point on Europe courtship with French archipelago visit",
-            "published_at": "2026-09-15T02:00:00Z"
-          }
-        ],
-        "source_count": 1
-      },
-      {
-        "title": "French Industrial Action",
-        "summary": "Ongoing labour strikes in France have significantly reduced operating capacity at a key gas terminal. The industrial action comes amid broader political fragmentation and domestic policy debates.",
-        "article_ids": [
-          "a8a87b84c4ae3b1065142725"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/france/20260915-french-labour-strike-reduces-capacity-key-dunkirk-gas-terminal",
-            "headline": "French labour strike reduces capacity at key Dunkirk gas terminal",
-            "published_at": "2026-09-15T07:24:43Z"
           }
         ],
         "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-09-15T09:30:44Z"
+  "last_collection_at": "2026-09-15T10:00:50Z"
 }
