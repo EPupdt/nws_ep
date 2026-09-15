@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-15T19:00:58Z",
-  "last_successful_collection_at": "2026-09-15T19:00:58Z",
+  "generated_at": "2026-09-15T19:30:43Z",
+  "last_successful_collection_at": "2026-09-15T19:30:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-15T19:00:58Z"
+      "at": "2026-09-15T19:30:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-09-15T19:00:58Z"
+      "at": "2026-09-15T19:30:43Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-15T19:00:58Z"
+      "at": "2026-09-15T19:30:43Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-15T19:00:58Z"
+      "at": "2026-09-15T19:30:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-15T19:00:58Z"
+      "at": "2026-09-15T19:30:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-09-15T19:00:58Z"
+      "at": "2026-09-15T19:30:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-15T19:00:58Z"
+      "at": "2026-09-15T19:30:43Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-15T19:00:58Z"
+      "at": "2026-09-15T19:30:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-15T19:00:58Z"
+      "at": "2026-09-15T19:30:43Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Volcanic Ash Disrupts Air Travel in Sicily",
-      "summary": "Eruptions from Mount Etna generated ash clouds that forced the suspension of flight operations at the local Sicilian airport. Passengers were advised to check flight statuses as aviation authorities monitor the environmental hazard.",
+      "title": "NATO and European Security Incidents",
+      "summary": "Analysts are calling for a heightened response following recent security incidents involving Denmark and Lithuania. Observers note that these developments highlight how Russian actions continue to test Western and NATO resolve.",
+      "article_ids": [
+        "f79c1fd14aeb1ec96424ce4e",
+        "c951320987b7ca53298da383"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "http://www.france24.com/en/analysts-call-for-step-up-in-response-to-russia-after-denmark-lithuania-incidents",
+          "headline": "Analysts call for step-up in response to Russia after Denmark, Lithuania incidents",
+          "published_at": "2026-09-15T19:23:43Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "http://www.france24.com/en/video/20260915-putin-looking-to-see-how-far-he-can-push-nato",
+          "headline": "‘Putin looking to see how far he can push NATO’",
+          "published_at": "2026-09-15T16:48:07Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Volcanic Ash Disruptions in Sicily",
+      "summary": "Ash emissions from Mount Etna have significantly disrupted local transport and grounded flights at a Sicilian airport. Authorities continue to monitor the natural hazard as operations remain affected.",
       "article_ids": [
         "65bd278d9a2fe00a779427f9"
       ],
@@ -78,10 +101,12 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "European Parliament Revokes Immunity for Polish MEP",
-      "summary": "Lawmakers in the European Parliament voted to lift parliamentary immunity for a far-right Polish member facing formal charges. The decision clears the path for domestic judicial proceedings regarding historical denialism allegations.",
+      "title": "European Parliament Immersion and Legal Actions",
+      "summary": "The European Parliament has voted to revoke the parliamentary immunity of a Polish far-right leader facing legal charges. This decision allows judicial proceedings to move forward within the bloc's institutional framework.",
       "article_ids": [
         "397bb05b499951a9756cb752"
       ],
@@ -94,39 +119,19 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "European Union Policy and Sanctions Debate",
-      "summary": "European officials pressed for explanations as diplomatic tensions arose over potential modifications to restrictive measures targeting Russian figures. Meanwhile, legislators advocated for new penalties specifically directed at disinformation networks and automated troll operations.",
-      "article_ids": [
-        "6e2c68411eabc2dfc4453bad",
-        "2484fa93130631d41ad2a5b1"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/237691/eu-sanctions-needed-against-russian-bot-and-troll-factories-meps-say",
-          "headline": "EU sanctions needed against Russian bot and troll factories, MEPs say",
-          "published_at": "2026-09-15T15:50:43Z"
-        }
-      ],
-      "source_count": 1
     },
     {
-      "title": "International Security and Regional Conflict",
-      "summary": "Ongoing hostilities continued to impact energy infrastructure and trade routes across multiple fronts. Security analysts observed shifting strategic dynamics involving regional defense capabilities and international shipping chokepoints.",
+      "title": "Political and Leadership Pressures in Germany",
+      "summary": "German leader Friedrich Merz has cancelled a scheduled trip to New York amidst intensifying domestic political challenges. The cancellation underscores the mounting pressure he faces on the home front.",
       "article_ids": [
-        "3bcc689ccef17e999075c28b",
-        "de3949ad52f55be372ec26a9"
+        "13d51a4e5d2cf61452ad5578"
       ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/un-security-council-meeting-houthis-red-sea-chokepoint",
-          "headline": "UN Security Council meets as Houthis tighten grip on Red Sea chokepoint",
-          "published_at": "2026-09-15T12:39:49Z"
+          "url": "https://www.politico.eu/article/friedrich-merz-cancels-un-trip-amid-germany-political-crisis",
+          "headline": "Germany’s embattled leader Merz cancels New York trip amid mounting domestic pressure",
+          "published_at": "2026-09-15T19:29:36Z"
         }
       ],
       "source_count": 1
@@ -134,17 +139,17 @@
   ],
   "developing": [
     {
-      "label": "Trump · US · answers · ballots",
+      "label": "US · Europe · Carney · ties",
       "origin": "convergence",
-      "source_count": 4,
-      "item_count": 8,
-      "latest_at": "2026-09-15T16:45:49Z",
+      "source_count": 3,
+      "item_count": 7,
+      "latest_at": "2026-09-15T18:57:48Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "http://www.france24.com/en/video/20260915-us-diesel-prices-hit-new-record-high-as-trump-seeks-to-blame-kyiv",
-          "headline": "US diesel prices hit new record high as Trump seeks to blame Kyiv",
-          "published_at": "2026-09-15T16:45:49Z"
+          "url": "http://www.france24.com/en/canada-s-carney-seeks-closer-europe-ties-to-counter-hostile-us",
+          "headline": "Canada's Carney seeks closer Europe ties to counter hostile US",
+          "published_at": "2026-09-15T18:57:48Z"
         },
         {
           "publisher": "POLITICO Europe",
@@ -154,15 +159,9 @@
         },
         {
           "publisher": "EUobserver",
-          "url": "https://euobserver.com/237608/ukraine-hit-record-number-of-putins-refineries-as-trump-pleads-for-energy-ceasefire-ukraine-battlefield-update-day-1664",
-          "headline": "Ukraine hit record number of Putin’s refineries, as Trump pleads for energy ceasefire (Ukraine Battlefield update, Day 1,664)",
-          "published_at": "2026-09-15T15:41:48Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-09-15/trump-brings-us-democracy-to-its-lowest-point-in-recent-history.html",
-          "headline": "Trump brings US democracy to its lowest point in recent history",
-          "published_at": "2026-09-15T07:12:27Z"
+          "url": "https://euobserver.com/237496/listen-will-made-in-europe-spark-a-new-trade-battle-with-the-us",
+          "headline": "Listen: Will ‘Made in Europe’ spark a new trade battle with the US?",
+          "published_at": "2026-09-15T08:25:17Z"
         }
       ]
     },
@@ -194,6 +193,33 @@
       ]
     },
     {
+      "label": "Court · mail · Supreme · Trump",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 4,
+      "latest_at": "2026-09-15T08:47:03Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-09-15/supreme-court-rejects-trumps-restrictions-on-mail-in-voting-ahead-of-midterms.html",
+          "headline": "Supreme Court rejects Trump’s restrictions on mail-in voting ahead of midterms",
+          "published_at": "2026-09-15T08:47:03Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20260915-us-supreme-court-rejects-trump-bid-to-restrict-mail-ballots-as-voting-begins",
+          "headline": "US Supreme Court rejects Trump bid to restrict mail ballots as voting begins",
+          "published_at": "2026-09-15T01:51:51Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/09/14/supreme-court-blocks-trump-mail-in-ballot-plan-01076079",
+          "headline": "Supreme Court blocks Trump mail-in ballot plan",
+          "published_at": "2026-09-15T01:44:33Z"
+        }
+      ]
+    },
+    {
       "label": "Sabotage · Suspected · Netherlands · rail",
       "origin": "convergence",
       "source_count": 3,
@@ -219,30 +245,93 @@
           "published_at": "2026-09-15T08:46:00Z"
         }
       ]
-    },
-    {
-      "label": "Iran · US · war · East",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 7,
-      "latest_at": "2026-09-15T18:26:11Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.com/news/2026/09/15/iran-war-cbo-01077533",
-          "headline": "Iran war has cost US taxpayers $38B — and counting",
-          "published_at": "2026-09-15T18:26:11Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20260915-iran-war-exposes-us-munitions-shortfall-industrial-bottlenecks-pentagon-report-says",
-          "headline": "Iran war exposes US munitions shortfall, industrial bottlenecks, Pentagon report says",
-          "published_at": "2026-09-15T06:07:23Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "13d51a4e5d2cf61452ad5578",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Germany’s embattled leader Merz cancels New York trip amid mounting domestic pressure",
+      "url": "https://www.politico.eu/article/friedrich-merz-cancels-un-trip-amid-germany-political-crisis",
+      "published_at": "2026-09-15T19:29:36Z",
+      "collected_at": "2026-09-15T19:30:43Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "f79c1fd14aeb1ec96424ce4e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Analysts call for step-up in response to Russia after Denmark, Lithuania incidents",
+      "url": "http://www.france24.com/en/analysts-call-for-step-up-in-response-to-russia-after-denmark-lithuania-incidents",
+      "published_at": "2026-09-15T19:23:43Z",
+      "collected_at": "2026-09-15T19:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "5a907c86461677574e38b423",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Svend Brinkmann, psychologist: ‘If you place conditions on forgiveness, love or freedom, you have already destroyed them’",
+      "url": "https://english.elpais.com/health/2026-09-15/svend-brinkmann-psychologist-if-you-place-conditions-on-forgiveness-love-or-freedom-you-have-already-destroyed-them.html",
+      "published_at": "2026-09-15T19:22:46Z",
+      "collected_at": "2026-09-15T19:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "a65c26401114a123dd3af2b2",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'Revolutionary change in American foreign policy': Canada pivoting towards EU, India and China",
+      "url": "http://www.france24.com/en/tv-shows/spotlight/20260915-revolutionary-change-in-american-foreign-policy-canada-pivoting-towards-eu-india-and-china",
+      "published_at": "2026-09-15T19:18:43Z",
+      "collected_at": "2026-09-15T19:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "7c1406608d71284ade25404c",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Polish PM condemns “disgrace” of failed Venezuela oil deal under former government following FT report",
+      "url": "https://notesfrompoland.com/2026/09/15/polish-pm-condemns-disgrace-of-failed-venezuela-oil-deal-under-former-government-following-ft-report",
+      "published_at": "2026-09-15T19:13:14Z",
+      "collected_at": "2026-09-15T19:30:43Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "8e17f0af66dad128edca2c94",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Canada's Carney seeks closer Europe ties to counter hostile US",
+      "url": "http://www.france24.com/en/canada-s-carney-seeks-closer-europe-ties-to-counter-hostile-us",
+      "published_at": "2026-09-15T18:57:48Z",
+      "collected_at": "2026-09-15T19:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "54c74aa9c4cc9ef4e31d56c5",
       "source_id": "france24",
@@ -2288,20 +2377,6 @@
       ]
     },
     {
-      "id": "d0facf246528586dbbb0a793",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump is pushing for his election check, but House Speaker Mike Johnson says it will require congressional approval",
-      "url": "https://english.elpais.com/usa/2026-09-14/trump-is-pushing-for-his-election-check-but-house-speaker-mike-johnson-says-it-will-require-congressional-approval.html",
-      "published_at": "2026-09-14T19:22:58Z",
-      "collected_at": "2026-09-14T19:30:40Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "9e69cf8b7735ed9ce5c0773b",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2327,34 +2402,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "3da42350b9746f6a0024974e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Where is the kill switch? AI doomsday warnings trigger calls to regulate",
-      "url": "https://www.france24.com/en/tv-shows/the-debate/20260914-where-is-the-kill-switch-ai-doomsday-warnings-trigger-calls-to-regulate",
-      "published_at": "2026-09-14T18:22:42Z",
-      "collected_at": "2026-09-14T19:00:59Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4ba155480e50487874bb5113",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Trump seeks halt to energy attacks by both Russia, Ukraine",
-      "url": "https://www.dw.com/en/trump-seeks-halt-to-energy-attacks-by-both-russia-ukraine/a-79265774?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-14T17:59:00Z",
-      "collected_at": "2026-09-14T19:00:59Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
@@ -2719,48 +2766,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "166915af59f78b4cc7b2b451",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Are electric cars really bad for the environment?",
-      "url": "https://www.dw.com/en/are-electric-cars-really-bad-for-the-environment/a-79213336?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-10T13:18:00Z",
-      "collected_at": "2026-09-15T15:30:46Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "984d5c14ae5e4d409f3b8aa4",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Serbia, the conflicted EU candidate",
-      "url": "https://www.dw.com/en/serbia-the-conflicted-eu-candidate/a-79203774?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-10T05:53:00Z",
-      "collected_at": "2026-09-15T19:00:58Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "3da0fe33ad594e0336ac9295",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Watch: Norway bids farewell to King Harald",
-      "url": "https://www.bbc.co.uk/news/videos/clyjd6jz101o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-09T16:36:45Z",
-      "collected_at": "2026-09-15T19:00:58Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     }
   ]
