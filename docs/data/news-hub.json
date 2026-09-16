@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-16T12:00:51Z",
-  "last_successful_collection_at": "2026-09-16T12:00:51Z",
+  "generated_at": "2026-09-16T12:30:44Z",
+  "last_successful_collection_at": "2026-09-16T12:30:44Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-16T12:00:51Z"
+      "at": "2026-09-16T12:30:44Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-09-16T12:00:51Z"
+      "at": "2026-09-16T12:30:44Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-16T12:00:51Z"
+      "at": "2026-09-16T12:30:44Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-16T12:00:51Z"
+      "at": "2026-09-16T12:30:44Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-16T12:00:51Z"
+      "at": "2026-09-16T12:30:44Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-09-16T12:00:51Z"
+      "at": "2026-09-16T12:30:44Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-16T12:00:51Z"
+      "at": "2026-09-16T12:30:44Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-16T12:00:51Z"
+      "at": "2026-09-16T12:30:44Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-16T12:00:51Z"
+      "at": "2026-09-16T12:30:44Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Kosovo's Former President Sentenced for War Crimes",
-      "summary": "A Hague court has sentenced Kosovo's former president, Hashim Thaçi, to 25 years in prison for war crimes. The sentencing marks a significant legal milestone regarding accountability for past regional conflicts.",
+      "title": "Russian Drone Incident Near Polish Coast",
+      "summary": "Polish prosecutors reported that a Russian drone recovered off the coast of Poland was carrying an explosive warhead. Poland subsequently reiterated its continued support for Ukraine following ongoing drone attacks.",
+      "article_ids": [
+        "2f189bc43dc1eb72f0f65e40",
+        "9c67220cc65d592df32fd4bc"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/poland-reiterates-ukraine-support-after-russia-drone-attacks/a-79291144?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Poland reiterates Ukraine support after Russia drone attacks",
+          "published_at": "2026-09-16T12:04:00Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/russian-drone-found-off-poland-coast-carried-explosive-warhead",
+          "headline": "Russian drone found off Poland’s coast carried explosive warhead, prosecutor says",
+          "published_at": "2026-09-16T11:59:09Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Kosovo War Crimes Sentencing",
+      "summary": "The court in The Hague has sentenced Kosovo's former president, Hashim Thaçi, to 25 years in prison for war crimes. The ruling marks a major legal outcome stemming from the conflicts in the region.",
       "article_ids": [
         "e87c5a69abd9c89ffae0163e",
         "16f96c9852e480e40e4683fb"
@@ -85,32 +108,16 @@
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "Explosive Warhead Found on Russian Drone off Polish Coast",
-      "summary": "Prosecutors report that a Russian drone discovered off the coast of Poland carried an explosive warhead. The finding underscores heightened regional security concerns and ongoing airspace incidents involving NATO allies.",
-      "article_ids": [
-        "9c67220cc65d592df32fd4bc"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russian-drone-found-off-poland-coast-carried-explosive-warhead",
-          "headline": "Russian drone found off Poland’s coast carried explosive warhead, prosecutor says",
-          "published_at": "2026-09-16T11:59:09Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
       "title": "EU State of the Union and Strategic Initiatives",
-      "summary": "European Commission President Ursula von der Leyen delivered her State of the Union address, proposing new strategic initiatives including a European Security Council. She also pitched an associate membership status for Canada, catching several EU capitals off guard.",
+      "summary": "European Commission President Ursula von der Leyen delivered her State of the Union address, proposing a new 'associate member' status for Canada. The surprise pitch caught several EU capitals off guard during discussions on international alliances.",
       "article_ids": [
         "8e6dd10e8f398387f0c6c86f",
         "8c7dc807c54a4f841dd00271",
-        "7f385f03f7ea797e55441099"
+        "72c8e3dfa2ab1e221a850ff6"
       ],
       "sources": [
         {
@@ -129,29 +136,63 @@
       "source_count": 2
     },
     {
-      "title": "International Security and Intelligence Investigations",
-      "summary": "United States authorities have announced charges against individuals allegedly linked to a Russian intelligence and terror network targeting Ukraine allies. Meanwhile, regional tensions persisted as investigations continue into cross-border security threats and military postures.",
+      "title": "Security Threats and Intelligence Operations",
+      "summary": "The United States announced charges against individuals involved in an alleged Russian intelligence and terror network targeting Ukraine's allies. Meanwhile, regional tensions persisted as Poland investigated explosive drone incursions near its maritime border.",
       "article_ids": [
-        "43aeb8d3b649e6aee031f55c",
+        "2f189bc43dc1eb72f0f65e40",
+        "9c67220cc65d592df32fd4bc",
         "678f6ae404882aedd58eee7f"
       ],
       "sources": [
         {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/poland-reiterates-ukraine-support-after-russia-drone-attacks/a-79291144?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Poland reiterates Ukraine support after Russia drone attacks",
+          "published_at": "2026-09-16T12:04:00Z"
+        },
+        {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russia-intelligence-network-us-europe-murder-terrorism-charges",
-          "headline": "US exposes alleged Russian terror network targeting Ukraine allies",
-          "published_at": "2026-09-16T08:42:26Z"
+          "url": "https://www.politico.eu/article/russian-drone-found-off-poland-coast-carried-explosive-warhead",
+          "headline": "Russian drone found off Poland’s coast carried explosive warhead, prosecutor says",
+          "published_at": "2026-09-16T11:59:09Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
     {
+      "label": "EU · Leyen · associate · Canada",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 9,
+      "latest_at": "2026-09-16T12:08:43Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/what-ursula-von-der-leyen-words-reveal-about-the-mood-in-the-eu",
+          "headline": "What von der Leyen’s words reveal about the mood in the EU",
+          "published_at": "2026-09-16T12:08:43Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/237791/putin-and-netanyhau-will-be-laughing-at-eu-after-von-der-leyens-state-of-the-union-speech",
+          "headline": "Putin and Netanyhau will be laughing at EU after von der Leyen’s State of the Union speech",
+          "published_at": "2026-09-16T11:19:23Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "http://www.france24.com/en/video/20260916-ursula-von-der-leyen-eu-chief-pitches-associate-member-status-for-canada",
+          "headline": "Ursula von der Leyen: EU chief pitches 'associate member' status for Canada",
+          "published_at": "2026-09-16T10:41:10Z"
+        }
+      ]
+    },
+    {
       "label": "Middle · East · US · Houthi",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 8,
+      "item_count": 9,
       "latest_at": "2026-09-16T10:42:46Z",
       "sources": [
         {
@@ -171,33 +212,6 @@
           "url": "https://english.elpais.com/international/2026-09-16/us-to-divert-military-aid-from-european-and-middle-eastern-countries-to-allies-in-latin-america.html",
           "headline": "US to divert military aid from European and Middle Eastern countries to allies in Latin America",
           "published_at": "2026-09-16T09:38:22Z"
-        }
-      ]
-    },
-    {
-      "label": "EU · State · Leyen · Union",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-09-16T11:45:33Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/special-episode-state-of-the-eu-2026-promises-vs-reality",
-          "headline": "Special episode: State of the EU 2026 — promises vs reality",
-          "published_at": "2026-09-16T11:45:33Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/237791/putin-and-netanyhau-will-be-laughing-at-eu-after-von-der-leyens-state-of-the-union-speech",
-          "headline": "Putin and Netanyhau will be laughing at EU after von der Leyen’s State of the Union speech",
-          "published_at": "2026-09-16T11:19:23Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "http://www.france24.com/en/europe/20260916-live-eu-chief-ursula-von-der-leyen-gives-state-of-the-union-address",
-          "headline": "Live: EU chief Ursula von der Leyen gives State of the Union address",
-          "published_at": "2026-09-16T05:20:56Z"
         }
       ]
     },
@@ -258,6 +272,34 @@
   ],
   "radar": [
     {
+      "id": "99763fd516d2a19119a452b7",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "What von der Leyen’s words reveal about the mood in the EU",
+      "url": "https://www.politico.eu/article/what-ursula-von-der-leyen-words-reveal-about-the-mood-in-the-eu",
+      "published_at": "2026-09-16T12:08:43Z",
+      "collected_at": "2026-09-16T12:30:44Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "2f189bc43dc1eb72f0f65e40",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Poland reiterates Ukraine support after Russia drone attacks",
+      "url": "https://www.dw.com/en/poland-reiterates-ukraine-support-after-russia-drone-attacks/a-79291144?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-16T12:04:00Z",
+      "collected_at": "2026-09-16T12:30:44Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "2b39b273a59b92a0c7f8800f",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -307,6 +349,20 @@
       "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/special-episode-state-of-the-eu-2026-promises-vs-reality",
       "published_at": "2026-09-16T11:45:33Z",
       "collected_at": "2026-09-16T12:00:51Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "c06330cd0bc6977b58a32877",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Special episode: State of the EU 2026 — promises vs. reality",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/special-episode-state-of-the-eu-2026-promises-vs-reality",
+      "published_at": "2026-09-16T11:45:33Z",
+      "collected_at": "2026-09-16T12:30:44Z",
       "topics": [
         "institutions",
         "politics",
@@ -1161,6 +1217,20 @@
       "url": "http://www.france24.com/en/middle-east/20260916-middle-east-live-saudi-arabia-accuses-houthi-rebels-of-launching-a-drone-strike-on-mecca",
       "published_at": "2026-09-16T02:14:27Z",
       "collected_at": "2026-09-16T12:00:51Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "6f80848cf36ac627c79e66b0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Middle East live: Arab League chief condemns alleged Houthi attack on Mecca",
+      "url": "http://www.france24.com/en/middle-east/20260916-middle-east-live-saudi-arabia-accuses-houthi-rebels-of-launching-a-drone-strike-on-mecca",
+      "published_at": "2026-09-16T02:14:27Z",
+      "collected_at": "2026-09-16T12:30:44Z",
       "topics": [
         "politics",
         "security",
@@ -2176,20 +2246,6 @@
       ]
     },
     {
-      "id": "0e728e3f6b6b8a08a081ab1e",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "“Don’t be a creep”: Polish ice cream company launches campaign against sexual harassment of staff",
-      "url": "https://notesfrompoland.com/2026/09/15/dont-be-a-creep-polish-ice-cream-company-launches-campaign-against-sexual-harassment-of-staff",
-      "published_at": "2026-09-15T11:46:18Z",
-      "collected_at": "2026-09-15T12:00:54Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "f07f0a19205b2c2f8fd4749c",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2201,34 +2257,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "55f0175e92f4125ee17894b2",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Are we all going to die or is it just theatrics? The arguments against an AI apocalypse",
-      "url": "https://english.elpais.com/technology/2026-09-15/are-we-all-going-to-die-or-is-it-just-theatrics-the-arguments-against-an-ai-apocalypse.html",
-      "published_at": "2026-09-15T11:36:19Z",
-      "collected_at": "2026-09-15T12:00:54Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "cfcb188839edd33d7dbbfd02",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "EU countries to discuss AI rules as Trump calls safety warnings a ‘hoax’",
-      "url": "https://www.politico.eu/article/eu-capitals-to-discuss-ai-incidents-global-cooperation",
-      "published_at": "2026-09-15T10:20:11Z",
-      "collected_at": "2026-09-15T12:30:41Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
@@ -2705,20 +2733,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "89f9f078f3643b5a3ee382c0",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Russians on the Goethe-Institut: 'Hostage to politics'",
-      "url": "https://www.dw.com/en/russians-on-the-goethe-institut-hostage-to-politics/a-79218936?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-13T11:50:00Z",
-      "collected_at": "2026-09-15T12:00:54Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
