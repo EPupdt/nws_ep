@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-16T15:00:55Z",
-  "last_successful_collection_at": "2026-09-16T15:00:55Z",
+  "generated_at": "2026-09-16T15:30:49Z",
+  "last_successful_collection_at": "2026-09-16T15:30:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-16T15:00:55Z"
+      "at": "2026-09-16T15:30:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-09-16T15:00:55Z"
+      "at": "2026-09-16T15:30:49Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-16T15:00:55Z"
+      "at": "2026-09-16T15:30:49Z"
     },
     {
       "id": "euractiv",
@@ -29,68 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-16T15:00:55Z"
+      "at": "2026-09-16T15:30:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-16T15:00:55Z"
+      "at": "2026-09-16T15:30:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-09-16T15:00:55Z"
+      "at": "2026-09-16T15:30:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-16T15:00:55Z"
+      "at": "2026-09-16T15:30:49Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-16T15:00:55Z"
+      "at": "2026-09-16T15:30:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-16T15:00:55Z"
+      "at": "2026-09-16T15:30:49Z"
     }
   ],
   "europe_now": [
     {
-      "title": "State of the European Union",
-      "summary": "Ursula von der Leyen delivered the State of the Union address, proposing a new associate member status for Canada and addressing regional integration. EU capitals were reportedly caught off guard by the unexpected proposal for Canadian membership.",
-      "article_ids": [
-        "a1e16a164a02c51ce4ab1ecc",
-        "8c7dc807c54a4f841dd00271"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/12-takeaways-ursula-von-der-leyens-state-of-the-union",
-          "headline": "12 takeaways from von der Leyen’s State of the Union",
-          "published_at": "2026-09-16T11:19:12Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-capitals-mark-carney-ursula-von-der-leyen-associate-membership-canada",
-          "headline": "EU capitals caught off guard as von der Leyen announces ‘associate membership’ for Canada",
-          "published_at": "2026-09-16T10:30:34Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Regional Security and Airspace Incursions",
-      "summary": "Polish authorities reported that a Russian drone recovered off the country's coast carried an explosive warhead. Poland subsequently reaffirmed its commitment to supporting Ukraine following the security incident.",
+      "title": "Russian Drone Incursion in Poland",
+      "summary": "Polish authorities confirmed that a Russian drone discovered off the country's coast was equipped with an explosive warhead, prompting renewed security concerns and expressions of support for Ukraine.",
       "article_ids": [
         "2f189bc43dc1eb72f0f65e40",
+        "a83bf48f03f6b9f865942fff",
         "9c67220cc65d592df32fd4bc"
       ],
       "sources": [
@@ -108,15 +86,13 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
+    },
     {
       "title": "Kosovo War Crimes Verdict",
-      "summary": "An EU-backed court sentenced Kosovo's former president, Hashim Thaçi, to 25 years in prison for war crimes. The ruling has reopened historical wounds across the Western Balkans region.",
+      "summary": "An EU-backed court sentenced a former Kosovo leader and president to 25 years in prison for war crimes, a ruling that has intensified regional tensions across the Western Balkans.",
       "article_ids": [
         "56bd2fa3ced0c549e805ad41",
-        "16f96c9852e480e40e4683fb"
+        "e5ca08c7990daf226078a3d0"
       ],
       "sources": [
         {
@@ -126,33 +102,62 @@
           "published_at": "2026-09-16T14:52:36Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/hashim-taci-kosovo-hague-court-sentences-ex-president-25-years",
-          "headline": "Hague court sentences Kosovo ex-president Thaçi to 25 years in prison for war crimes",
-          "published_at": "2026-09-16T11:30:33Z"
+          "publisher": "France 24 English",
+          "url": "http://www.france24.com/en/europe/20260916-former-kosovo-president-sentenced-to-25-years-for-war-crimes",
+          "headline": "Former Kosovo president sentenced to 25 years for war crimes",
+          "published_at": "2026-09-16T12:55:41Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "European Union Policy and Strategy",
+      "summary": "European Commission President Ursula von der Leyen delivered the State of the European Union address, outlining strategic initiatives and proposing associate membership status for Canada. The speech drew attention regarding the bloc's overall mood, climate policy omissions, and geopolitical stance.",
+      "article_ids": [
+        "0526562642e082a1dac4e38f",
+        "5b8b1c3f68c2052c8b79140c",
+        "c4c4a8f753baf0482878f447",
+        "5d79860f61eb0a1d71b42e23",
+        "41bfb0279e8e40091d3bb9ae",
+        "99763fd516d2a19119a452b7"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "http://www.france24.com/en/video/20260916-eu-opens-door-for-canada-to-become-first-associate-member",
+          "headline": "EU opens door for Canada to become first 'associate member'",
+          "published_at": "2026-09-16T15:13:50Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/237883/did-europes-summer-of-truth-push-climate-up-von-der-leyens-agenda-yes-but-there-were-some-shocking-omissions",
+          "headline": "Did Europe’s ‘summer of truth’ push climate up von der Leyen’s agenda? Yes, but there were some shocking omissions",
+          "published_at": "2026-09-16T14:18:19Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "Transatlantic Diplomatic and Security Developments",
-      "summary": "European Commission President Ursula von der Leyen introduced an associate membership pitch for Canada during her annual address. Meanwhile, Germany faces complex defense procurement hurdles linked heavily to the United States.",
+      "title": "Crackdown on Activism in Turkey",
+      "summary": "Turkey jailed eight LGBTQ+ activists pending trial amid a broader government crackdown on minority groups. This escalation in targeted arrests has drawn criticism from international observers and human rights advocates.",
       "article_ids": [
-        "5b8b1c3f68c2052c8b79140c",
-        "1237f258152029b3f1584559"
+        "976f22ef5dc4e9aad98fbb97",
+        "37af44bb8b55b3df9c36fdd2"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "http://www.france24.com/en/video/20260916-von-der-leyen-pitches-associate-member-status-for-canada-what-does-it-mean-for-eu-us-ties",
-          "headline": "Von der Leyen pitches 'associate member' status for Canada: What does it mean for EU-US ties?",
-          "published_at": "2026-09-16T14:55:19Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/237953/turkeys-anti-lgbti-crackdown-draws-meek-eu-criticism",
+          "headline": "Turkey’s anti-LGBTI+ crackdown draws meek EU criticism",
+          "published_at": "2026-09-16T15:24:42Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/germanys-rearmament-push-runs-through-america",
-          "headline": "Germany’s rearmament push runs through America",
-          "published_at": "2026-09-16T14:48:21Z"
+          "publisher": "France 24 English",
+          "url": "http://www.france24.com/en/video/20260916-turkey-jails-8-lgbtq-activists-pending-trial-as-part-of-sweeping-investigation",
+          "headline": "Turkey jails 8 LGBTQ+ activists pending trial as part of sweeping investigation",
+          "published_at": "2026-09-16T14:57:43Z"
         }
       ],
       "source_count": 2
@@ -193,6 +198,33 @@
       ]
     },
     {
+      "label": "EU · Leyen · Live · chief",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 6,
+      "latest_at": "2026-09-16T12:08:43Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/what-ursula-von-der-leyen-words-reveal-about-the-mood-in-the-eu",
+          "headline": "What von der Leyen’s words reveal about the mood in the EU",
+          "published_at": "2026-09-16T12:08:43Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/237791/putin-and-netanyhau-will-be-laughing-at-eu-after-von-der-leyens-state-of-the-union-speech",
+          "headline": "Putin and Netanyhau will be laughing at EU after von der Leyen’s State of the Union speech",
+          "published_at": "2026-09-16T11:19:23Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "http://www.france24.com/en/europe/20260916-live-eu-chief-ursula-von-der-leyen-gives-state-of-the-union-address",
+          "headline": "Live: EU chief Ursula von der Leyen gives State of the Union address",
+          "published_at": "2026-09-16T05:20:56Z"
+        }
+      ]
+    },
+    {
       "label": "US · allies · Russia",
       "origin": "convergence",
       "source_count": 3,
@@ -220,61 +252,230 @@
       ]
     },
     {
-      "label": "oil · following · Saudi",
+      "label": "Leyen · State · Union",
       "origin": "convergence",
       "source_count": 3,
       "item_count": 3,
-      "latest_at": "2026-09-16T10:39:14Z",
+      "latest_at": "2026-09-16T11:19:12Z",
       "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/economy-and-business/2026-09-16/150-for-an-oil-barrel-the-new-extreme-scenario-following-closure-of-key-saudi-pipeline.html",
-          "headline": "$150 for an oil barrel, the new extreme scenario following closure of key Saudi pipeline",
-          "published_at": "2026-09-16T10:39:14Z"
-        },
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/09/15/polish-pm-condemns-disgrace-of-failed-venezuela-oil-deal-under-former-government-following-ft-report",
-          "headline": "Polish PM condemns “disgrace” of failed Venezuela oil deal under former government following FT report",
-          "published_at": "2026-09-15T19:13:14Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "http://www.france24.com/en/saudi-crown-prince-seeks-neighbours-backing-as-houthi-attacks-rattle-red-sea-oil-routes",
-          "headline": "Saudi crown prince seeks neighbours' backing as Houthi attacks rattle Red Sea oil routes",
-          "published_at": "2026-09-15T18:37:00Z"
-        }
-      ]
-    },
-    {
-      "label": "EU · sanctions · France · Russia",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-09-15T21:46:49Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "http://www.france24.com/en/france-stalls-eu-russia-sanctions-renewal-over-oligarch-de-listing",
-          "headline": "France stalls EU Russia sanctions renewal over oligarch de-listing",
-          "published_at": "2026-09-15T21:46:49Z"
-        },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-france-alisher-usmanov-russia-sanctions",
-          "headline": "EU demands answers as France pushes for billionaire’s Russia sanctions release",
-          "published_at": "2026-09-15T17:45:05Z"
+          "url": "https://www.politico.eu/article/12-takeaways-ursula-von-der-leyens-state-of-the-union",
+          "headline": "12 takeaways from von der Leyen’s State of the Union",
+          "published_at": "2026-09-16T11:19:12Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "http://www.france24.com/en/video/20260916-replay-ursula-von-der-leyen-full-state-of-the-union-address",
+          "headline": "REPLAY - Ursula von der Leyen: Full State of the Union address",
+          "published_at": "2026-09-16T10:07:26Z"
         },
         {
           "publisher": "EUobserver",
-          "url": "https://euobserver.com/237691/eu-sanctions-needed-against-russian-bot-and-troll-factories-meps-say",
-          "headline": "EU sanctions needed against Russian bot and troll factories, MEPs say",
-          "published_at": "2026-09-15T15:50:43Z"
+          "url": "https://euobserver.com/237687/von-der-leyens-state-of-the-union-likely-to-tiptoe-around-china-ahead-of-trade-showdown",
+          "headline": "Von der Leyen’s State of the Union likely to tiptoe around China ahead of trade showdown",
+          "published_at": "2026-09-15T15:51:39Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "986bdc01610615d65e0a414c",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "‘AI has been marketed horribly,’ LinkedIn co-founder says",
+      "url": "https://www.politico.com/news/2026/09/16/ai-has-been-marketed-horribly-to-the-american-people-01079289",
+      "published_at": "2026-09-16T15:27:24Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "4df89e8709ceba8fab05969c",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Belgian minister under fire for denying evacuation to 13 Gazan scholarship students",
+      "url": "https://euobserver.com/237967/belgian-minister-under-fire-for-denying-evacuation-to-13-gazan-scholarship-students",
+      "published_at": "2026-09-16T15:26:38Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "976f22ef5dc4e9aad98fbb97",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Turkey’s anti-LGBTI+ crackdown draws meek EU criticism",
+      "url": "https://euobserver.com/237953/turkeys-anti-lgbti-crackdown-draws-meek-eu-criticism",
+      "published_at": "2026-09-16T15:24:42Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "aa65abb2450225a682d3e062",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "In conversation with artist Nora Chipaumire",
+      "url": "http://www.france24.com/en/in-conversation-with-artist-nora-chipaumire-1",
+      "published_at": "2026-09-16T15:19:36Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "325b4e8eb996f8812c236986",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Sanders, Bannon warn of AI dangers in rare US left-right alignment",
+      "url": "http://www.france24.com/en/video/20260916-sanders-bannon-warn-of-ai-dangers-in-rare-us-left-right-alignment",
+      "published_at": "2026-09-16T15:19:34Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "3a30236c95cf16a064375989",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Alarm over AI grows as divided US Congress struggles to act",
+      "url": "http://www.france24.com/en/video/20260916-alarm-over-ai-grows-as-divided-us-congress-struggles-to-act",
+      "published_at": "2026-09-16T15:18:34Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "0526562642e082a1dac4e38f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "EU opens door for Canada to become first 'associate member'",
+      "url": "http://www.france24.com/en/video/20260916-eu-opens-door-for-canada-to-become-first-associate-member",
+      "published_at": "2026-09-16T15:13:50Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "0c4a9916d3d647bdf74a52fd",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Brazil's Supreme Court clashes over handling of probe involving judge",
+      "url": "http://www.france24.com/en/video/20260916-brazil-s-supreme-court-clashes-over-handling-of-probe-involving-judge",
+      "published_at": "2026-09-16T15:11:53Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "562171b0fdf7bab77165062e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French ex-minister Dati goes on trial in Renault-Nissan corruption case",
+      "url": "http://www.france24.com/en/video/20260916-french-ex-minister-dati-goes-on-trial-in-renault-nissan-corruption-case",
+      "published_at": "2026-09-16T15:09:32Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "566fc152757cb573907ede8b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Kennedy Center will close for renovations after judge blocks returning Trump's name to building",
+      "url": "http://www.france24.com/en/video/20260916-kennedy-center-will-close-for-renovations-after-judge-blocks-returning-trump-s-name-to-building",
+      "published_at": "2026-09-16T15:07:18Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "73d041f18d7a3f4a99b42799",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Countries move to ban social media for children",
+      "url": "http://www.france24.com/en/video/20260916-countries-move-to-ban-social-media-for-children",
+      "published_at": "2026-09-16T15:03:26Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "96e73ca2fcacbffc7f91e8ed",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "‘Gut-wrenching pain’: First conviction in French school sex abuse scandal fails to quell parents’ anger",
+      "url": "http://www.france24.com/en/france/20260916-gut-wrenching-pain-first-conviction-in-french-school-sex-abuse-scandal-fails-to-quell-parents-anger",
+      "published_at": "2026-09-16T15:00:28Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "3a1d10cac883873993f62b56",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "More than 100,000 flee fighting in Yemen: UN",
+      "url": "http://www.france24.com/en/video/20260916-more-than-100-000-flee-fighting-in-yemen-un",
+      "published_at": "2026-09-16T15:00:13Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "37af44bb8b55b3df9c36fdd2",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Turkey jails 8 LGBTQ+ activists pending trial as part of sweeping investigation",
+      "url": "http://www.france24.com/en/video/20260916-turkey-jails-8-lgbtq-activists-pending-trial-as-part-of-sweeping-investigation",
+      "published_at": "2026-09-16T14:57:43Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "e81c3240f5e12d8a61569363",
       "source_id": "france24",
@@ -329,6 +530,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "d2651cc70290c508afbf939c",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Eight German state premiers back Merz amid speculation over future",
+      "url": "https://www.bbc.co.uk/news/articles/c6dj4nn0n97ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-16T14:50:26Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -402,6 +617,20 @@
       ]
     },
     {
+      "id": "2b762323d3a15b7a8a37db67",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Von der Leyen set to cave in to Greek asylum-busting demands",
+      "url": "https://euobserver.com/237848/von-der-leyen-set-to-cave-into-greek-asylum-busting-demands",
+      "published_at": "2026-09-16T13:57:48Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "5d79860f61eb0a1d71b42e23",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -437,6 +666,20 @@
       "url": "http://www.france24.com/en/france/20260916-totalenergies-up-controversy-in-france-with-capped-gasoline-prices",
       "published_at": "2026-09-16T13:32:07Z",
       "collected_at": "2026-09-16T15:00:55Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "614cc722793d99a6fe60bcad",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Rivals cry foul as French oil giant TotalEnergies keeps gas prices capped below national average",
+      "url": "http://www.france24.com/en/france/20260916-totalenergies-up-controversy-in-france-with-capped-gasoline-prices",
+      "published_at": "2026-09-16T13:32:07Z",
+      "collected_at": "2026-09-16T15:30:49Z",
       "topics": [
         "politics",
         "security",
@@ -2376,146 +2619,6 @@
       ]
     },
     {
-      "id": "fd3ac2384e678d9671535602",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Paris ex-mayor says 'collective failure' led to abuse of children in school care",
-      "url": "http://www.france24.com/en/europe/20260915-paris-ex-mayor-says-collective-failure-led-to-abuse-of-children-in-school-care",
-      "published_at": "2026-09-15T15:27:35Z",
-      "collected_at": "2026-09-15T15:30:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "989f1c7bbcde15e72f9f5f07",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Rapid data center expansion incites backlash in Republican stronghold",
-      "url": "http://www.france24.com/en/tv-shows/focus/20260915-rapid-data-center-expansion-incites-backlash-in-republican-stronghold",
-      "published_at": "2026-09-15T15:05:44Z",
-      "collected_at": "2026-09-15T15:30:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "397bb05b499951a9756cb752",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "MEPs lift immunity from Polish far-right leader charged with Holocaust denial",
-      "url": "https://www.politico.eu/article/eu-parliament-revoked-immunity-from-polish-far-right-mep-grzegorz-braun",
-      "published_at": "2026-09-15T14:53:53Z",
-      "collected_at": "2026-09-15T15:00:59Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "43ca2dc7ea1df4fb279fb4af",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Reiche Länder müssen sich laut OECD noch weitere 20 Jahre lang auf Covid-Folgekosten einstellen",
-      "url": "https://www.politico.eu/article/reiche-laender-muessen-sich-laut-oecd-noch-weitere-20-jahre-lang-auf-covid-folgekosten-einstellen",
-      "published_at": "2026-09-15T14:52:44Z",
-      "collected_at": "2026-09-15T15:30:46Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "65bd278d9a2fe00a779427f9",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Ash from Mount Etna grounds flights at Sicily airport",
-      "url": "https://www.bbc.co.uk/news/articles/cq5ym3rdmkzjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-15T14:35:04Z",
-      "collected_at": "2026-09-15T15:00:59Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "ce4ed45dad1f761faaa02c46",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Trade unions urge Andy Burnham to drop Brexit ‘red lines’",
-      "url": "https://www.politico.eu/article/uk-trade-unions-urge-andy-burnham-drop-brexit-red-lines",
-      "published_at": "2026-09-15T14:30:58Z",
-      "collected_at": "2026-09-15T15:00:59Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "74a6ae605041ed1e62e1574f",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "‘Disastrous’ summer showed EU must step up climate action, says Metsola",
-      "url": "https://www.politico.eu/article/disastrous-summer-showed-eu-must-step-up-climate-action-says-roberta-metsola",
-      "published_at": "2026-09-15T14:05:05Z",
-      "collected_at": "2026-09-15T15:00:59Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "73a79d60bae9869d9018617d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Alejandro Betancourt ‘disappeared’ from his castle in Spain the day police went to arrest him",
-      "url": "https://english.elpais.com/spain/2026-09-15/alejandro-betancourt-disappeared-from-his-castle-in-spain-the-day-police-went-to-arrest-him.html",
-      "published_at": "2026-09-15T13:58:07Z",
-      "collected_at": "2026-09-15T15:00:59Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "5e070f314a516e6ba024afb0",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Rich countries face Covid-related costs for 20 more years, says OECD",
-      "url": "https://www.politico.eu/article/rich-countries-face-covid-related-costs-for-20-more-years-says-oecd",
-      "published_at": "2026-09-15T13:35:20Z",
-      "collected_at": "2026-09-15T15:30:46Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "ced654f757fe36d9df20eb1c",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "European Canada",
-      "url": "https://english.elpais.com/opinion/2026-09-15/european-canada.html",
-      "published_at": "2026-09-15T13:34:16Z",
-      "collected_at": "2026-09-15T15:00:59Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "f07f0a19205b2c2f8fd4749c",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2527,20 +2630,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "d3429076f4baff633ae5aed5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Middle East live: Saudi Arabia vows to hit back ‘firmly’ after Houthi attacks",
-      "url": "http://www.france24.com/en/middle-east/20260915-middle-east-live-houthi-attacks-wound-13-civilians-in-southern-saudi-arabia",
-      "published_at": "2026-09-15T03:06:54Z",
-      "collected_at": "2026-09-15T15:30:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -2628,6 +2717,20 @@
       ]
     },
     {
+      "id": "89fd2e579548363bf4986147",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Mike Madrid, electoral strategist: ‘Latinos are the only voter group acting rationally in a broken system’",
+      "url": "https://english.elpais.com/usa/2026-09-10/mike-madrid-electoral-strategist-latinos-are-the-only-voter-group-acting-rationally-in-a-broken-system.html",
+      "published_at": "2026-09-10T14:35:02Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "2bd90210d81819e1457413bf",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2667,6 +2770,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "e296a650533ce460ce94d840",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Talk is cheap: Europe’s defence promise meets the EU budget",
+      "url": "https://ecfr.eu/article/talk-is-cheap-europes-defence-promise-meets-the-eu-budget",
+      "published_at": "2026-08-27T11:30:06Z",
+      "collected_at": "2026-09-16T15:30:49Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     }
   ]
