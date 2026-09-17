@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-17T14:00:56Z",
-  "last_successful_collection_at": "2026-09-17T14:00:56Z",
+  "generated_at": "2026-09-17T14:30:44Z",
+  "last_successful_collection_at": "2026-09-17T14:30:44Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-17T14:00:56Z"
+      "at": "2026-09-17T14:30:44Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-09-17T14:00:56Z"
+      "at": "2026-09-17T14:30:44Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-17T14:00:56Z"
+      "at": "2026-09-17T14:30:44Z"
     },
     {
       "id": "euractiv",
@@ -29,44 +29,70 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-17T14:00:56Z"
+      "at": "2026-09-17T14:30:44Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-17T14:00:56Z"
+      "at": "2026-09-17T14:30:44Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-09-17T14:00:56Z"
+      "at": "2026-09-17T14:30:44Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-17T14:00:56Z"
+      "at": "2026-09-17T14:30:44Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-17T14:00:56Z"
+      "at": "2026-09-17T14:30:44Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-17T14:00:56Z"
+      "at": "2026-09-17T14:30:44Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Transatlantic Tensions Over Canada's EU Partnership",
-      "summary": "Brussels is attempting to manage diplomatic fallout after Donald Trump threatened trade actions in response to proposals for Canada to become an EU associate member. Canadian Prime Minister Mark Carney defended the developing partnership during an address to the European Parliament.",
+      "title": "Sweden Election Outcome",
+      "summary": "Swedish Prime Minister Kristersson has resigned following a narrow election victory by the left-wing opposition bloc led by Magdalena Andersson.",
       "article_ids": [
+        "6109c2e9c87250e9e4ec3716",
+        "0e0ee649c40d475093f46b52",
+        "273c73af2efe4c709e19786c",
+        "138791a16710d96180ff3571"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cxr50l3d762po?at_medium=RSS&at_campaign=rss",
+          "headline": "Swedish PM Kristersson resigns after election loss",
+          "published_at": "2026-09-17T12:30:01Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "http://www.france24.com/en/sweden-andersson-s-centre-left-claims-narrow-win",
+          "headline": "Sweden: Andersson's centre left claims narrow win",
+          "published_at": "2026-09-17T13:22:19Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Transatlantic Tensions Over EU-Canada Partnership",
+      "summary": "Brussels is attempting to manage diplomatic fallout after Donald Trump threatened to cut EU trade in response to proposals for Canada's associate membership in the European Union.",
+      "article_ids": [
+        "44aa89d89d653b2e2013c040",
         "dfe55bb5939ddc9c4939bca8",
         "00e4b8356036ea3e49abf5d5",
         "81391f13e585f807f9ce28c9",
@@ -74,23 +100,25 @@
       ],
       "sources": [
         {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/238167/details-emerge-on-canadas-associate-membership-eu-offer-as-brexit-uk-left-looking-on",
+          "headline": "Details emerge on Canada’s ‘associate membership’ EU offer, as Brexit UK left looking on",
+          "published_at": "2026-09-17T14:12:43Z"
+        },
+        {
           "publisher": "EL PAÍS English",
           "url": "https://english.elpais.com/international/2026-09-17/mark-carney-after-trumps-new-tariff-threats-europe-and-canada-are-stronger-together.html",
           "headline": "Mark Carney, after Trump’s new tariff threats: ‘Europe and Canada are stronger together’",
           "published_at": "2026-09-17T13:16:54Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/mark-carney-defends-canada-eu-ties-donald-trump-tariff-threat",
-          "headline": "Carney to Trump: No one tells Canadians what to do",
-          "published_at": "2026-09-17T11:57:08Z"
         }
       ],
       "source_count": 2
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Swedish Prime Minister Resigns Following Election Defeat",
-      "summary": "Swedish Prime Minister Kristersson has resigned after the left-wing opposition secured a razor-thin majority in the national election. Magdalena Andersson's centre-left bloc claimed the narrow victory, prompting significant political shifts in the country.",
+      "title": "Political Shifts in Sweden",
+      "summary": "Sweden's left-wing opposition secured a slim majority in the recent national election. Consequently, Prime Minister Kristersson announced his resignation following the defeat.",
       "article_ids": [
         "0e0ee649c40d475093f46b52",
         "6109c2e9c87250e9e4ec3716",
@@ -112,12 +140,30 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "Ukraine Conflict and Regional Security",
-      "summary": "Russian military forces have launched massive overnight strikes targeting Kyiv and southern infrastructure while attempting to capture Dobropillia. Concurrently, political debates continue across European nations regarding the future scope of financial and military support for Ukraine.",
+      "title": "Transatlantic Trade Relations",
+      "summary": "Canadian representatives and European leaders are engaging in high-level discussions regarding deeper institutional ties and associate membership proposals. Meanwhile, the initiative has drawn sharp criticism and tariff threats from Washington.",
+      "article_ids": [
+        "70589f6fd400f7bd9bf9de9f",
+        "44aa89d89d653b2e2013c040",
+        "dfe55bb5939ddc9c4939bca8",
+        "00e4b8356036ea3e49abf5d5",
+        "81391f13e585f807f9ce28c9"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/mark-carney-defends-canada-eu-ties-donald-trump-tariff-threat",
+          "headline": "Carney to Trump: No one tells Canadians what to do",
+          "published_at": "2026-09-17T11:57:08Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ukraine Conflict Developments",
+      "summary": "Military updates indicate ongoing heavy engagements as Russian forces attempt to capture specific areas in eastern Ukraine. Additionally, political debates persist across European capitals regarding the continuity of financial and military backing.",
       "article_ids": [
         "fb741a6087b2c65b12f1898c",
         "805107e0f65a59ce6f7c01fd"
@@ -140,33 +186,6 @@
     }
   ],
   "developing": [
-    {
-      "label": "EU · Canada · associate · member",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 8,
-      "latest_at": "2026-09-17T09:00:40Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "http://www.france24.com/en/tv-shows/press-review/20260917-the-canaduropean-union-canada-an-associate-member-of-the-eu",
-          "headline": "The 'Canaduropean' Union: Canada an associate member of the EU?",
-          "published_at": "2026-09-17T09:00:40Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/ursula-von-der-leyen-blindside-eu-canada-associate-member-pitch",
-          "headline": "Von der Leyen blindsides EU with Canada ‘associate member’ pitch",
-          "published_at": "2026-09-16T17:33:51Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/can-canada-and-the-eu-build-a-deeper-partnership/a-79295388?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Can Canada and the EU build a deeper partnership?",
-          "published_at": "2026-09-16T16:50:00Z"
-        }
-      ]
-    },
     {
       "label": "hikes · rates · Federal · Reserve",
       "origin": "convergence",
@@ -235,9 +254,58 @@
           "published_at": "2026-09-17T02:08:14Z"
         }
       ]
+    },
+    {
+      "label": "Kosovo · Former · President · war",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-09-17T11:24:00Z",
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/serbia-s-president-vucic-criticizes-kosovo-war-crimes-verdict/a-79307654?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Serbia's President Vucic criticizes Kosovo war crimes verdict",
+          "published_at": "2026-09-17T11:24:00Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/237923/former-kosovo-leader-is-war-criminal-rules-eu-backed-court-tearing-open-old-western-balkans-wounds",
+          "headline": "Former Kosovo leader is war criminal rules EU-backed court, tearing open old Western Balkans wounds",
+          "published_at": "2026-09-16T14:52:36Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "70589f6fd400f7bd9bf9de9f",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "European Investment Bank chief heads to Ottawa amid warming EU-Canada ties",
+      "url": "https://www.politico.eu/article/european-investment-bank-chief-heads-to-ottawa-amid-warming-eu-canada-ties",
+      "published_at": "2026-09-17T14:24:55Z",
+      "collected_at": "2026-09-17T14:30:44Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "44aa89d89d653b2e2013c040",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Details emerge on Canada’s ‘associate membership’ EU offer, as Brexit UK left looking on",
+      "url": "https://euobserver.com/238167/details-emerge-on-canadas-associate-membership-eu-offer-as-brexit-uk-left-looking-on",
+      "published_at": "2026-09-17T14:12:43Z",
+      "collected_at": "2026-09-17T14:30:44Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "768ecee5cef1e93a187e74c9",
       "source_id": "politico_europe",
@@ -2672,34 +2740,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "c4c4a8f753baf0482878f447",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Did Europe’s ‘summer of truth’ push climate up von der Leyen’s agenda? Yes, but there were some shocking omissions",
-      "url": "https://euobserver.com/237883/did-europes-summer-of-truth-push-climate-up-von-der-leyens-agenda-yes-but-there-were-some-shocking-omissions",
-      "published_at": "2026-09-16T14:18:19Z",
-      "collected_at": "2026-09-16T14:30:42Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "37f94c059dbd75aa78387267",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "‘We absolutely can’t surrender,’ top Republican says of AI race with China",
-      "url": "https://www.politico.com/news/2026/09/16/brett-guthrie-artificial-intelligence-china-race-01078965",
-      "published_at": "2026-09-16T14:07:48Z",
-      "collected_at": "2026-09-16T14:30:42Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
