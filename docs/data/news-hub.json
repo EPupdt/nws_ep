@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-17T10:00:49Z",
-  "last_successful_collection_at": "2026-09-17T10:00:49Z",
+  "generated_at": "2026-09-17T10:30:42Z",
+  "last_successful_collection_at": "2026-09-17T10:30:42Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-17T10:00:49Z"
+      "at": "2026-09-17T10:30:42Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-09-17T10:00:49Z"
+      "at": "2026-09-17T10:30:42Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-17T10:00:49Z"
+      "at": "2026-09-17T10:30:42Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,69 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-17T10:00:49Z"
+      "at": "2026-09-17T10:30:42Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-17T10:00:49Z"
+      "at": "2026-09-17T10:30:42Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-09-17T10:00:49Z"
+      "at": "2026-09-17T10:30:42Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-17T10:00:49Z"
+      "at": "2026-09-17T10:30:42Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "<unknown>:94:2: mismatched tag",
-      "at": "2026-09-17T10:00:49Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-09-17T10:30:42Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-17T10:00:49Z"
+      "at": "2026-09-17T10:30:42Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Massive Russian Attacks Target Ukrainian Regions",
-      "summary": "Russian forces launched a massive overnight attack on Kyiv and southern Ukraine, causing widespread explosions and injuries. Concurrently, Ukraine accused Russia of striking a ship in the Black Sea.",
+      "title": "EU Considers Social Media Restrictions for Children",
+      "summary": "The European Union has announced plans to implement new restrictions on social media access for children under the age of fifteen. This policy initiative aims to address growing societal and political concerns regarding youth digital consumption.",
+      "article_ids": [
+        "e9a1c40b24f44dbec5e81ae2",
+        "205f48b957b6c44ec76eaed4"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c3j4jz8vpz1xo?at_medium=RSS&at_campaign=rss",
+          "headline": "EU announces plan to restrict social media access for under-15s",
+          "published_at": "2026-09-17T09:11:32Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c3j4jz8vpz1xo?at_medium=RSS&at_campaign=rss",
+          "headline": "EU announces plan to restrict social media access for children",
+          "published_at": "2026-09-17T08:25:26Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Russian Strikes Hit Kyiv and Southern Ukraine",
+      "summary": "Russian forces launched a massive overnight military attack resulting in explosions across Kyiv and multiple injuries in southern Ukraine. The escalation comes as international bodies and the United States advance fresh sanctions against Moscow.",
       "article_ids": [
         "cbb553264a77cd1e1297543a",
-        "efc1c530c65f72a6ace33e6c"
+        "116c160f19354f6a3031acca"
       ],
       "sources": [
         {
@@ -80,18 +103,23 @@
         {
           "publisher": "France 24 English",
           "url": "http://www.france24.com/en/europe/20260917-live-explosions-kyiv-us-congress-sanctions-moscow",
-          "headline": "Live: Ukraine accuses Russia of striking ship in Black Sea as explosions rock Kyiv",
+          "headline": "Live: Explosions shake Kyiv as US Congress advances new sanctions on Moscow",
           "published_at": "2026-09-17T02:08:14Z"
         }
       ],
       "source_count": 2
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Transatlantic Friction Over EU-Canada Proposal",
-      "summary": "The European Union's consideration of an associate membership proposal for Canada has triggered sharp transatlantic tensions. US leadership threatened additional trade tariffs in response to the initiative.",
+      "title": "Transatlantic Tensions Over Canada's EU Bid",
+      "summary": "Canada's Mark Carney addressed the European Parliament regarding proposals for a closer association with the European Union. United States leadership responded with strong criticism and threats of new trade tariffs over the partnership initiative.",
       "article_ids": [
         "213d5dc4994300e40631e13e",
-        "bb24a71bc1d2e29129a1c95b"
+        "f7d2e8745f533e82789afe68",
+        "bb24a71bc1d2e29129a1c95b",
+        "9ce51a4355453eae5ae0cb93",
+        "b9182f2dd5a3438a6686bb76"
       ],
       "sources": [
         {
@@ -101,36 +129,17 @@
           "published_at": "2026-09-17T08:47:00Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "http://www.france24.com/en/europe/20260917-live-carney-to-speak-after-trump-threatens-more-eu-tariffs-over-canada-s-associate-member-bid",
-          "headline": "Live: Carney addresses EU parliament after Trump calls Canada's associate member bid a 'hostile act'",
-          "published_at": "2026-09-17T07:52:27Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/canada-mark-carney-european-parliament-speech-live-updates",
+          "headline": "Canada’s Mark Carney addresses European Parliament — live updates",
+          "published_at": "2026-09-17T08:33:12Z"
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "European Union Digital Policy Initiatives",
-      "summary": "The European Union announced a new plan aimed at restricting social media access for children and teenagers. Observers have also raised concerns regarding algorithmic social-scoring policies emerging within Brussels.",
-      "article_ids": [
-        "e9a1c40b24f44dbec5e81ae2",
-        "cb60303c853c1f98f619c279"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/237625/computer-says-no-how-brussels-is-letting-algorithmic-social-scoring-in-by-the-backdoor",
-          "headline": "‘Computer says no’: how Brussels is letting algorithmic social-scoring in by the backdoor",
-          "published_at": "2026-09-17T08:53:47Z"
-        }
-      ],
-      "source_count": 1
     },
     {
-      "title": "Severe Weather Impacts Spain",
-      "summary": "Torrential rain and flash floods struck the Barcelona region, resulting in at least one fatality. Emergency services responded to widespread weather-related disruptions across the area.",
+      "title": "Severe Weather and Flooding in Spain",
+      "summary": "Torrential rainfall and flash flooding struck the Barcelona region, resulting in at least one fatality. Local authorities are managing emergency responses to widespread infrastructure impacts across the affected areas.",
       "article_ids": [
         "d517c564b886aeb3239b0e54"
       ],
@@ -140,23 +149,6 @@
           "url": "https://www.bbc.co.uk/news/articles/c9lyk27g8ln7o?at_medium=RSS&at_campaign=rss",
           "headline": "One dead after torrential rain and flash floods hit Barcelona region",
           "published_at": "2026-09-17T08:39:30Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "German Political Landscape Ahead of Elections",
-      "summary": "Germany faces significant political uncertainty and potential leadership shifts ahead of the upcoming Sunday elections. Political figures and candidates are making final efforts to secure votes amidst changing voter sentiments.",
-      "article_ids": [
-        "7890510442cfa8c06c934776",
-        "ab31b6d1d5ddf91ddd6ab370"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/237899/german-chancellor-hopes-for-election-gains-this-sunday-but-cdu-may-lose-votes-and-merz-his-job",
-          "headline": "German chancellor hopes for election gains this Sunday — but CDU may lose votes and Merz his job",
-          "published_at": "2026-09-17T08:19:35Z"
         }
       ],
       "source_count": 1
@@ -197,29 +189,29 @@
       ]
     },
     {
-      "label": "EU · plan · announces · Canada",
+      "label": "US · Congress · sanctions · Moscow",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 5,
-      "latest_at": "2026-09-17T09:11:32Z",
+      "item_count": 7,
+      "latest_at": "2026-09-17T10:26:32Z",
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c3j4jz8vpz1xo?at_medium=RSS&at_campaign=rss",
-          "headline": "EU announces plan to restrict social media access for under-15s",
-          "published_at": "2026-09-17T09:11:32Z"
-        },
-        {
           "publisher": "France 24 English",
-          "url": "http://www.france24.com/en/europe/20260917-trump-threatens-eu-with-tariffs-over-laughable-canada-association-plan",
-          "headline": "Trump threatens EU with tariffs over 'laughable' Canada association plan",
-          "published_at": "2026-09-17T06:58:22Z"
+          "url": "http://www.france24.com/en/us-congress-passes-russia-sanctions-bill",
+          "headline": "US Congress passes Russia sanctions bill",
+          "published_at": "2026-09-17T10:26:32Z"
         },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-capitals-mark-carney-ursula-von-der-leyen-associate-membership-canada",
-          "headline": "EU capitals caught off guard as von der Leyen announces ‘associate membership’ for Canada",
-          "published_at": "2026-09-16T10:30:34Z"
+          "url": "https://www.politico.com/news/2026/09/16/house-russia-sanctions-bill-trump-01081210",
+          "headline": "US House passes Russia sanctions bill, handing Trump more leverage against Moscow",
+          "published_at": "2026-09-16T23:22:41Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cjp3077led9qo?at_medium=RSS&at_campaign=rss",
+          "headline": "US accuses Russia of trying to kill Ukrainian allies overseas",
+          "published_at": "2026-09-16T12:26:00Z"
         }
       ]
     },
@@ -251,34 +243,62 @@
       ]
     },
     {
-      "label": "Carney · European · Mark · Parliament",
+      "label": "Former · Kosovo · President · crimes",
       "origin": "convergence",
       "source_count": 3,
       "item_count": 3,
-      "latest_at": "2026-09-17T08:33:12Z",
+      "latest_at": "2026-09-16T15:59:00Z",
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/canada-mark-carney-european-parliament-speech-live-updates",
-          "headline": "Canada’s Mark Carney addresses European Parliament — live updates",
-          "published_at": "2026-09-17T08:33:12Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/shock-in-kosovo-as-hague-convicts-former-president-thaci/a-79294916?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Shock in Kosovo as Hague convicts former President Thaci",
+          "published_at": "2026-09-16T15:59:00Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "http://www.france24.com/en/video/20260916-von-der-leyen-gives-state-of-the-eu-speech-with-mark-carney-in-the-room-and-ai-on-the-agenda",
-          "headline": "Von der Leyen gives state of the EU speech with Mark Carney in the room and AI on the agenda",
-          "published_at": "2026-09-16T13:09:31Z"
+          "url": "http://www.france24.com/en/europe/20260916-former-kosovo-president-sentenced-to-25-years-for-war-crimes",
+          "headline": "Former Kosovo president sentenced to 25 years for war crimes",
+          "published_at": "2026-09-16T12:55:41Z"
         },
         {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/09/16/european-parliament-strips-polish-far-right-leader-of-immunity-to-face-holocaust-denial-charge",
-          "headline": "European Parliament strips Polish far-right leader of immunity to face Holocaust denial charge",
-          "published_at": "2026-09-16T12:00:25Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmd79z0pdzgjo?at_medium=RSS&at_campaign=rss",
+          "headline": "Kosovo's former president sentenced to 25 years for war crimes",
+          "published_at": "2026-09-16T11:42:50Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "9035b22c5deff63d8545a9c8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US Congress passes Russia sanctions bill",
+      "url": "http://www.france24.com/en/us-congress-passes-russia-sanctions-bill",
+      "published_at": "2026-09-17T10:26:32Z",
+      "collected_at": "2026-09-17T10:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "4896fedf9cc28363489d3789",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "OpenAI finds 6 new cases of ‘concerning’ AI behavior",
+      "url": "https://www.politico.eu/article/openai-flags-six-new-cases-of-concerning-ai-behavior",
+      "published_at": "2026-09-17T09:52:05Z",
+      "collected_at": "2026-09-17T10:30:42Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "0121d0f7fd3db4228d4aae3d",
       "source_id": "france24",
@@ -448,6 +468,20 @@
       ]
     },
     {
+      "id": "89b6b529d125935c637f7743",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Carney: ‘Europe and Canada are stronger together’ — live updates",
+      "url": "https://www.politico.eu/article/canada-mark-carney-european-parliament-speech-live-updates",
+      "published_at": "2026-09-17T08:33:12Z",
+      "collected_at": "2026-09-17T10:30:42Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
       "id": "205f48b957b6c44ec76eaed4",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -567,6 +601,20 @@
       "url": "http://www.france24.com/en/europe/20260917-live-carney-to-speak-after-trump-threatens-more-eu-tariffs-over-canada-s-associate-member-bid",
       "published_at": "2026-09-17T07:52:27Z",
       "collected_at": "2026-09-17T10:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "9ce51a4355453eae5ae0cb93",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Europe and Canada are 'strong, even stronger together', Carney tells European Parliament",
+      "url": "http://www.france24.com/en/europe/20260917-live-carney-to-speak-after-trump-threatens-more-eu-tariffs-over-canada-s-associate-member-bid",
+      "published_at": "2026-09-17T07:52:27Z",
+      "collected_at": "2026-09-17T10:30:42Z",
       "topics": [
         "politics",
         "security",
@@ -819,6 +867,20 @@
       "url": "http://www.france24.com/en/europe/20260917-live-explosions-kyiv-us-congress-sanctions-moscow",
       "published_at": "2026-09-17T02:08:14Z",
       "collected_at": "2026-09-17T09:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "85b7c4cddb8bb744a79ddc6f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: Ukraine accuses Russia of striking Black Sea ship as explosions rock Kyiv",
+      "url": "http://www.france24.com/en/europe/20260917-live-explosions-kyiv-us-congress-sanctions-moscow",
+      "published_at": "2026-09-17T02:08:14Z",
+      "collected_at": "2026-09-17T10:30:42Z",
       "topics": [
         "politics",
         "security",
@@ -2618,20 +2680,6 @@
       ]
     },
     {
-      "id": "f2f5106f03dcd0b644d65cc8",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "EU chief opens door for Canada to become 'associate member'",
-      "url": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-16T10:28:45Z",
-      "collected_at": "2026-09-16T10:30:41Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "93fd6d0171d6bb2b1a0ef9b7",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2643,62 +2691,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "e7b001b59d7fc0be7c4230df",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "[Interview] Russia has never stopped thinking like an empire — here’s how it shapes and may break the Kremlin",
-      "url": "https://euobserver.com/237278/interview-russia-has-never-stopped-thinking-like-an-empire-heres-how-it-shapes-and-may-break-the-kremlin",
-      "published_at": "2026-09-16T10:12:30Z",
-      "collected_at": "2026-09-16T10:30:41Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "82f081f20fad3450dabc9648",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "REPLAY - Ursula von der Leyen: Full State of the Union address",
-      "url": "http://www.france24.com/en/video/20260916-replay-ursula-von-der-leyen-full-state-of-the-union-address",
-      "published_at": "2026-09-16T10:07:26Z",
-      "collected_at": "2026-09-16T10:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "29cabfce41fe8721cb680288",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "JD Vance: US cannot be ‘subservient’ to Israel on Middle East policy",
-      "url": "https://www.politico.eu/article/jd-vance-us-israel-middle-east-policy",
-      "published_at": "2026-09-16T10:05:53Z",
-      "collected_at": "2026-09-16T10:30:41Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "0d2531342566f1b35399d4fd",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Turkey sees Greece’s militarization of Aegean Islands as ‘threat’",
-      "url": "https://www.politico.eu/article/ankara-turkey-greece-militarization-aegean-islands-threat",
-      "published_at": "2026-09-16T09:58:40Z",
-      "collected_at": "2026-09-16T10:00:50Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
@@ -2744,20 +2736,6 @@
       ]
     },
     {
-      "id": "e137c21f8d15ecd196cad047",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Trump set to sell 40,000 one-ton bombs to Israel",
-      "url": "http://www.france24.com/en/tv-shows/press-review/20260916-trump-set-to-sell-40-000-one-ton-bombs-to-israel",
-      "published_at": "2026-09-16T09:33:12Z",
-      "collected_at": "2026-09-16T10:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "6bbd66fe9cdd22f49720516f",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2797,6 +2775,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "8594f41b4577d5c220f1d532",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Netherlands: Suspected sabotage disrupts train services",
+      "url": "https://www.dw.com/en/netherlands-suspected-sabotage-disrupts-train-services/a-79269600?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-15T08:46:00Z",
+      "collected_at": "2026-09-17T10:30:42Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     }
   ]
