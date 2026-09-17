@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-17T13:00:54Z",
-  "last_successful_collection_at": "2026-09-17T13:00:54Z",
+  "generated_at": "2026-09-17T13:30:41Z",
+  "last_successful_collection_at": "2026-09-17T13:30:41Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-17T13:00:54Z"
+      "at": "2026-09-17T13:30:41Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-09-17T13:00:54Z"
+      "at": "2026-09-17T13:30:41Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-17T13:00:54Z"
+      "at": "2026-09-17T13:30:41Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,93 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-17T13:00:54Z"
+      "at": "2026-09-17T13:30:41Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-17T13:00:54Z"
+      "at": "2026-09-17T13:30:41Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
-      "count": "58",
-      "at": "2026-09-17T13:00:54Z"
+      "count": "57",
+      "at": "2026-09-17T13:30:41Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-17T13:00:54Z"
+      "at": "2026-09-17T13:30:41Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-17T13:00:54Z"
+      "at": "2026-09-17T13:30:41Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-17T13:00:54Z"
+      "at": "2026-09-17T13:30:41Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Swedish Prime Minister Resigns Following Election Defeat",
-      "summary": "Swedish Prime Minister Kristersson has resigned after the left-wing opposition secured a slim majority in the national election. Magdalena Andersson's victory marks a significant political shift for the country.",
+      "title": "Sweden Government Changes Following Election",
+      "summary": "Swedish Prime Minister Kristersson resigned following a national election where the left-wing opposition secured a slim majority.",
+      "article_ids": [
+        "6109c2e9c87250e9e4ec3716",
+        "273c73af2efe4c709e19786c",
+        "138791a16710d96180ff3571"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cxr50l3d762po?at_medium=RSS&at_campaign=rss",
+          "headline": "Swedish PM Kristersson resigns after election loss",
+          "published_at": "2026-09-17T12:30:01Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "http://www.france24.com/en/europe/20260917-sweden-left-wing-opposition-wins-slim-majority-in-country-national-election",
+          "headline": "Sweden's left-wing opposition wins slim majority in country's national election",
+          "published_at": "2026-09-17T12:02:36Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Transatlantic Tensions Over EU-Canada Partnership",
+      "summary": "Canadian Prime Minister Mark Carney addressed the European Parliament regarding closer ties, prompting tariff threats from US President Trump.",
+      "article_ids": [
+        "dfe55bb5939ddc9c4939bca8",
+        "00e4b8356036ea3e49abf5d5",
+        "213d5dc4994300e40631e13e"
+      ],
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-09-17/mark-carney-after-trumps-new-tariff-threats-europe-and-canada-are-stronger-together.html",
+          "headline": "Mark Carney, after Trump’s new tariff threats: ‘Europe and Canada are stronger together’",
+          "published_at": "2026-09-17T13:16:54Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/mark-carney-defends-canada-eu-ties-donald-trump-tariff-threat",
+          "headline": "Carney to Trump: No one tells Canadians what to do",
+          "published_at": "2026-09-17T11:57:08Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Sweden Election Outcome",
+      "summary": "The Swedish left-wing opposition won a slim majority in the national election. Consequently, Prime Minister Kristersson tendered his resignation.",
       "article_ids": [
         "6109c2e9c87250e9e4ec3716",
         "273c73af2efe4c709e19786c"
@@ -76,68 +126,47 @@
           "url": "https://www.bbc.co.uk/news/articles/cxr50l3d762po?at_medium=RSS&at_campaign=rss",
           "headline": "Swedish PM Kristersson resigns after election loss",
           "published_at": "2026-09-17T12:30:01Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Severe Weather and Flash Floods Impact Barcelona",
-      "summary": "Torrential rain and severe flash floods have struck the Barcelona region, resulting in at least one fatality. Emergency services continue to respond to widespread infrastructure disruption.",
-      "article_ids": [
-        "d517c564b886aeb3239b0e54"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c9lyk27g8ln7o?at_medium=RSS&at_campaign=rss",
-          "headline": "One dead after torrential rain and flash floods hit Barcelona region",
-          "published_at": "2026-09-17T08:39:30Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Transatlantic Tensions Over EU-Canada Partnership",
-      "summary": "Canadian Prime Minister Mark Carney addressed the European Parliament to discuss closer integration and associate membership proposals. The initiative has drawn sharp criticism and tariff threats from Washington.",
-      "article_ids": [
-        "00e4b8356036ea3e49abf5d5",
-        "6fcf693755268ecbacca902c",
-        "bf02923b3a17590873899562",
-        "e391dd16039782ee182d7fc0",
-        "81391f13e585f807f9ce28c9",
-        "21259b220067d7986bd26867",
-        "bfef4d18777c3a90a407b6c9",
-        "213d5dc4994300e40631e13e",
-        "f7d2e8745f533e82789afe68",
-        "89b6b529d125935c637f7743",
-        "d8c6134948a20bc3f205d6ca",
-        "ab79978332e629973c1089e3"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/mark-carney-defends-canada-eu-ties-donald-trump-tariff-threat",
-          "headline": "Carney to Trump: No one tells Canadians what to do",
-          "published_at": "2026-09-17T11:57:08Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "http://www.france24.com/en/video/20260917-mark-carney-s-eu-speech-highlights-canada-s-shifting-alliances-1",
-          "headline": "Mark Carney's EU speech highlights Canada's shifting alliances",
-          "published_at": "2026-09-17T11:37:31Z"
+          "url": "http://www.france24.com/en/europe/20260917-sweden-left-wing-opposition-wins-slim-majority-in-country-national-election",
+          "headline": "Sweden's left-wing opposition wins slim majority in country's national election",
+          "published_at": "2026-09-17T12:02:36Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "Russian Attacks Target Ukrainian Infrastructure",
-      "summary": "Russian forces launched a massive overnight bombardment targeting Kyiv and various southern regions of Ukraine. The assault resulted in widespread damage and injuries among civilians.",
+      "title": "Transatlantic Trade Relations",
+      "summary": "Canadian Prime Minister Mark Carney spoke before the European Parliament about enhanced cooperation. In response, the United States threatened retaliatory trade measures against the European Union.",
       "article_ids": [
+        "dfe55bb5939ddc9c4939bca8",
+        "213d5dc4994300e40631e13e"
+      ],
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-09-17/mark-carney-after-trumps-new-tariff-threats-europe-and-canada-are-stronger-together.html",
+          "headline": "Mark Carney, after Trump’s new tariff threats: ‘Europe and Canada are stronger together’",
+          "published_at": "2026-09-17T13:16:54Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ukraine Conflict Developments",
+      "summary": "Russian forces launched a massive overnight attack targeting Kyiv and southern Ukraine. Meanwhile, French political figures debated the continuation of financial and military support for the region.",
+      "article_ids": [
+        "805107e0f65a59ce6f7c01fd",
         "cbb553264a77cd1e1297543a"
       ],
       "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/france-marine-le-pen-ukraine-military-aid-financial-support",
+          "headline": "France’s Le Pen rules out more money for Ukraine",
+          "published_at": "2026-09-17T10:43:56Z"
+        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/russia-launches-massive-overnight-attack-injuring-dozens-in-kyiv-and-southern-ukraine",
@@ -149,6 +178,33 @@
     }
   ],
   "developing": [
+    {
+      "label": "EU · Canada · associate · member",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 8,
+      "latest_at": "2026-09-17T09:00:40Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "http://www.france24.com/en/tv-shows/press-review/20260917-the-canaduropean-union-canada-an-associate-member-of-the-eu",
+          "headline": "The 'Canaduropean' Union: Canada an associate member of the EU?",
+          "published_at": "2026-09-17T09:00:40Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ursula-von-der-leyen-blindside-eu-canada-associate-member-pitch",
+          "headline": "Von der Leyen blindsides EU with Canada ‘associate member’ pitch",
+          "published_at": "2026-09-16T17:33:51Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/can-canada-and-the-eu-build-a-deeper-partnership/a-79295388?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Can Canada and the EU build a deeper partnership?",
+          "published_at": "2026-09-16T16:50:00Z"
+        }
+      ]
+    },
     {
       "label": "hikes · rates · Federal · Reserve",
       "origin": "convergence",
@@ -223,30 +279,37 @@
           "published_at": "2026-09-16T23:22:41Z"
         }
       ]
-    },
-    {
-      "label": "election · left · Sweden · wins",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-09-17T12:02:36Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "http://www.france24.com/en/europe/20260917-sweden-left-wing-opposition-wins-slim-majority-in-country-national-election",
-          "headline": "Sweden's left-wing opposition wins slim majority in country's national election",
-          "published_at": "2026-09-17T12:02:36Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/swedens-left-magdalena-andersson-election-victory",
-          "headline": "Sweden’s left wins razor-thin election victory",
-          "published_at": "2026-09-17T11:25:19Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "dfe55bb5939ddc9c4939bca8",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Mark Carney, after Trump’s new tariff threats: ‘Europe and Canada are stronger together’",
+      "url": "https://english.elpais.com/international/2026-09-17/mark-carney-after-trumps-new-tariff-threats-europe-and-canada-are-stronger-together.html",
+      "published_at": "2026-09-17T13:16:54Z",
+      "collected_at": "2026-09-17T13:30:41Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "5ae7b08dd6a7481fbbb74418",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Patrick Baty, the ‘paint detective’ who has traced the hues of the past for Windsor Castle and 10 Downing Street",
+      "url": "https://english.elpais.com/eps/2026-09-17/patrick-baty-the-paint-detective-who-has-traced-the-hues-of-the-past-for-windsor-castle-and-10-downing-street.html",
+      "published_at": "2026-09-17T13:03:00Z",
+      "collected_at": "2026-09-17T13:30:41Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "2388336ae341a5ee8b5442b3",
       "source_id": "notes_from_poland",
@@ -2670,62 +2733,6 @@
       ]
     },
     {
-      "id": "492b9432543b987df36ff31b",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Das Streamer-Problem der AfD",
-      "url": "https://www.politico.eu/podcast/inside-afd/das-streamer-problem-der-afd",
-      "published_at": "2026-09-16T12:59:42Z",
-      "collected_at": "2026-09-16T13:00:56Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "e5ca08c7990daf226078a3d0",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Former Kosovo president sentenced to 25 years for war crimes",
-      "url": "http://www.france24.com/en/europe/20260916-former-kosovo-president-sentenced-to-25-years-for-war-crimes",
-      "published_at": "2026-09-16T12:55:41Z",
-      "collected_at": "2026-09-16T13:00:56Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4c63ab3c5ec7a1b9989c0c74",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "French former minister on trial over alleged Renault-Nissan lobbying",
-      "url": "https://www.bbc.co.uk/news/articles/crwyz8j00q5no?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-16T12:38:15Z",
-      "collected_at": "2026-09-16T13:00:56Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "34b66ac246bdcbc1f2d33859",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "US accuses Russia of trying to kill Ukrainian allies overseas",
-      "url": "https://www.bbc.co.uk/news/articles/cjp3077led9qo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-16T12:26:00Z",
-      "collected_at": "2026-09-16T13:00:56Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "fb67f15e7bdcb17ac874090f",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2740,20 +2747,6 @@
       ]
     },
     {
-      "id": "a83bf48f03f6b9f865942fff",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Poland reaffirms support for Ukraine after drone strikes",
-      "url": "https://www.dw.com/en/poland-reaffirms-support-for-ukraine-after-drone-strikes/a-79291144?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-16T12:04:00Z",
-      "collected_at": "2026-09-16T13:00:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "31d5e14ea4eac1efdce01c5a",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2761,6 +2754,48 @@
       "url": "https://english.elpais.com/international/2026-09-16/the-online-network-that-offers-jobs-in-russia-and-sends-people-to-fight-in-the-war-in-ukraine.html",
       "published_at": "2026-09-16T11:59:44Z",
       "collected_at": "2026-09-16T14:00:55Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "a6599f092e2da4083f06d198",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "First diplodocus found outside North America discovered in Spain",
+      "url": "https://english.elpais.com/science-tech/2026-09-15/first-diplodocus-found-outside-north-america-discovered-in-spain.html",
+      "published_at": "2026-09-15T12:55:24Z",
+      "collected_at": "2026-09-17T13:30:41Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "1f12b75bc5ec9aea9cfecda8",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trump administration confirms use of punishment cages at Alligator Alcatraz",
+      "url": "https://english.elpais.com/usa/2026-09-15/trump-administration-confirms-use-of-punishment-cages-at-alligator-alcatraz.html",
+      "published_at": "2026-09-15T10:16:03Z",
+      "collected_at": "2026-09-17T13:30:41Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "ef3ab02bfb1ea321d45eb579",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "John Hiatt: the colossus in the shadow of Americana",
+      "url": "https://english.elpais.com/culture/2026-09-11/john-hiatt-the-colossus-in-the-shadow-of-americana.html",
+      "published_at": "2026-09-11T10:15:18Z",
+      "collected_at": "2026-09-17T13:30:41Z",
       "topics": [
         "politics",
         "society",
