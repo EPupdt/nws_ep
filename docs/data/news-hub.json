@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-18T11:30:44Z",
-  "last_successful_collection_at": "2026-09-18T11:30:44Z",
+  "generated_at": "2026-09-18T12:00:53Z",
+  "last_successful_collection_at": "2026-09-18T12:00:53Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-18T11:30:44Z"
+      "at": "2026-09-18T12:00:53Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-09-18T11:30:44Z"
+      "at": "2026-09-18T12:00:53Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-18T11:30:44Z"
+      "at": "2026-09-18T12:00:53Z"
     },
     {
       "id": "euractiv",
@@ -29,59 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-18T11:30:44Z"
+      "at": "2026-09-18T12:00:53Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-18T11:30:44Z"
+      "at": "2026-09-18T12:00:53Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
-      "count": "57",
-      "at": "2026-09-18T11:30:44Z"
+      "count": "58",
+      "at": "2026-09-18T12:00:53Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-18T11:30:44Z"
+      "at": "2026-09-18T12:00:53Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-18T11:30:44Z"
+      "at": "2026-09-18T12:00:53Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-18T11:30:44Z"
+      "at": "2026-09-18T12:00:53Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Poland warns of potential regional strikes by Russia",
-      "summary": "Poland has issued a warning regarding planned Russian actions targeting eastern NATO members. The alert highlights escalating security concerns across the region.",
-      "article_ids": [
-        "88dc2c5da9d16f310c1e0dcc"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/09/18/russia-planning-accidental-strikes-on-eastern-nato-states-warns-poland",
-          "headline": "Russia planning “accidental” strikes on eastern NATO states, warns Poland",
-          "published_at": "2026-09-18T09:09:39Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Russia seizes foreign corporate assets",
-      "summary": "Russian authorities have taken control of assets belonging to Swiss and French corporate entities. This move marks a significant escalation in economic measures against Western businesses.",
+      "title": "Russian asset seizures",
+      "summary": "Russia has seized the assets of Swiss food giant Nestle and three French firms amid escalating geopolitical tensions. The move represents a significant escalation in corporate asset confiscations affecting European companies operating within Russia.",
       "article_ids": [
         "141185b2aa6806fc2d8ada7a"
       ],
@@ -94,31 +78,29 @@
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "Polish MP immunity stripped",
+      "summary": "A Polish ruling party member of parliament has been stripped of immunity and detained following a request by European prosecutors. The detention marks a notable development involving European judicial cooperation and national political figures.",
+      "article_ids": [
+        "d368d6e0c03c499f068103b9"
+      ],
+      "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/09/18/polish-ruling-party-mp-stripped-of-immunity-and-detained-at-request-of-eu-prosecutors",
+          "headline": "Polish ruling party MP stripped of immunity and detained at request of EU prosecutors",
+          "published_at": "2026-09-18T11:01:55Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "European Union Military Support and Funding",
-      "summary": "The European Union has allocated billions of euros toward Ukrainian drone procurement. Meanwhile, broader discussions continue regarding budget priorities and financial commitments across member states.",
+      "title": "French Fiscal Deficit Reduction",
+      "summary": "The French Prime Minister has announced plans to implement massive public spending cuts amounting to €54 billion. These fiscal measures are designed to address and reduce the country's growing public deficit.",
       "article_ids": [
-        "1941744c0e7f7e29b3d90d0a",
-        "f15cd75e0a4e0142a8e2f826"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/238101/eu-commits-e3-3bn-to-ukrainian-drones-as-funding-gap-remains-unresolved-ahead-of-tough-winter",
-          "headline": "EU commits €3.3bn to Ukrainian drones as funding gap remains unresolved ahead of ‘tough winter’",
-          "published_at": "2026-09-18T10:59:58Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "French Political Developments and Fiscal Policy",
-      "summary": "The French Prime Minister announced substantial public spending reductions aimed at decreasing the national deficit. Additionally, political leaders have engaged in discussions surrounding domestic political challenges and international security.",
-      "article_ids": [
-        "18cd5cbd4c0fb8d7ef5e3a1d",
         "db0b4170cea02272e2fc4e6b"
       ],
       "sources": [
@@ -130,14 +112,30 @@
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "Ukrainian Drone Funding",
+      "summary": "The European Union has committed €3.3 billion toward acquiring Ukrainian drones to support defense efforts. This financial allocation comes as broader funding gaps remain unresolved ahead of a difficult winter season.",
+      "article_ids": [
+        "1941744c0e7f7e29b3d90d0a"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/238101/eu-commits-e3-3bn-to-ukrainian-drones-as-funding-gap-remains-unresolved-ahead-of-tough-winter",
+          "headline": "EU commits €3.3bn to Ukrainian drones as funding gap remains unresolved ahead of ‘tough winter’",
+          "published_at": "2026-09-18T10:59:58Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "developing": [
     {
-      "label": "EU · Canada · associate · partnership",
+      "label": "EU · Canada · partnership · associate",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 7,
+      "item_count": 5,
       "latest_at": "2026-09-17T21:12:37Z",
       "sources": [
         {
@@ -209,28 +207,56 @@
       ]
     },
     {
-      "label": "Trump · Carney · Burnham",
+      "label": "Trump · base · Poland · US",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 4,
-      "latest_at": "2026-09-18T02:00:00Z",
+      "latest_at": "2026-09-18T01:04:18Z",
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/centrist-dads-mark-carney-and-andy-burnham-get-ready-to-take-on-donald-trump",
-          "headline": "Centrist dads Carney and Burnham get ready to take on Trump",
-          "published_at": "2026-09-18T02:00:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260918-trump-says-major-progress-made-toward-us-military-base-in-poland",
+          "headline": "Trump says 'major progress' made toward US military base in Poland",
+          "published_at": "2026-09-18T01:04:18Z"
         },
         {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-09-17/mark-carney-after-trumps-new-tariff-threats-europe-and-canada-are-stronger-together.html",
-          "headline": "Mark Carney, after Trump’s new tariff threats: ‘Europe and Canada are stronger together’",
-          "published_at": "2026-09-17T13:16:54Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/09/17/poland-us-army-base-01082566",
+          "headline": "Trump floats setting up Army base in Poland",
+          "published_at": "2026-09-17T19:01:54Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "f597c33c58c58c92704a1644",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "EU to ban metal scrap exports to India, Egypt on environmental grounds",
+      "url": "https://www.politico.eu/article/eu-to-ban-metal-scrap-exports-to-india-egypt-on-environmental-grounds",
+      "published_at": "2026-09-18T11:42:50Z",
+      "collected_at": "2026-09-18T12:00:53Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "ae6a68ef847a5b840dda88a2",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The Azcatitlan Codex returns to Mexico from Europe after nearly two centuries",
+      "url": "https://english.elpais.com/culture/2026-09-18/the-azcatitlan-codex-returns-to-mexico-from-europe-after-nearly-two-centuries.html",
+      "published_at": "2026-09-18T11:29:18Z",
+      "collected_at": "2026-09-18T12:00:53Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "72dd31962851304c58ae0fa6",
       "source_id": "france24",
@@ -299,6 +325,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "0f7759166c6a347fdc85b9b7",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Crypto giants flood the Republican Party with money despite failure of the Clarity Act",
+      "url": "https://english.elpais.com/usa/2026-09-18/crypto-giants-flood-the-republican-party-with-money-despite-failure-of-the-clarity-act.html",
+      "published_at": "2026-09-18T10:40:24Z",
+      "collected_at": "2026-09-18T12:00:53Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2318,34 +2358,6 @@
       ]
     },
     {
-      "id": "00e4b8356036ea3e49abf5d5",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Carney to Trump: No one tells Canadians what to do",
-      "url": "https://www.politico.eu/article/mark-carney-defends-canada-eu-ties-donald-trump-tariff-threat",
-      "published_at": "2026-09-17T11:57:08Z",
-      "collected_at": "2026-09-17T12:00:50Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "4e85dce023df104ea223abb9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "OpenAI reveals new AI misconduct incidents",
-      "url": "http://www.france24.com/en/openai-reveals-new-ai-misconduct-incidents",
-      "published_at": "2026-09-17T11:40:22Z",
-      "collected_at": "2026-09-17T12:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "6dce44ebc118ba6715a3940e",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2360,62 +2372,6 @@
       ]
     },
     {
-      "id": "6fcf693755268ecbacca902c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Mark Carney's EU speech highlights Canada's shifting alliances",
-      "url": "http://www.france24.com/en/video/20260917-mark-carney-s-eu-speech-highlights-canada-s-shifting-alliances-1",
-      "published_at": "2026-09-17T11:37:31Z",
-      "collected_at": "2026-09-17T12:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "bf02923b3a17590873899562",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "‘Stronger together’: Canada’s Carney welcomes EU ‘associate member’ proposal",
-      "url": "http://www.france24.com/en/video/20260917-stronger-together-canada-s-carney-welcomes-eu-associate-member-proposal",
-      "published_at": "2026-09-17T11:35:17Z",
-      "collected_at": "2026-09-17T12:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4275a42dfc92df8982434f4c",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump escalates his campaign against Washington’s cultural institutions",
-      "url": "https://english.elpais.com/usa/2026-09-17/trump-escalates-his-campaign-against-washingtons-cultural-institutions.html",
-      "published_at": "2026-09-17T11:26:42Z",
-      "collected_at": "2026-09-17T12:00:50Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "138791a16710d96180ff3571",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Sweden’s left wins razor-thin election victory",
-      "url": "https://www.politico.eu/article/swedens-left-magdalena-andersson-election-victory",
-      "published_at": "2026-09-17T11:25:19Z",
-      "collected_at": "2026-09-17T11:30:47Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "659f54349043384c438bad82",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2427,20 +2383,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "c8509554d90346293ba3b044",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French fishermen blockade ports over soaring fuel costs as budget fight looms",
-      "url": "http://www.france24.com/en/france/20260917-french-fishermen-blockade-ports-over-soaring-fuel-costs-as-budget-fight-looms",
-      "published_at": "2026-09-17T11:24:04Z",
-      "collected_at": "2026-09-17T11:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -2472,34 +2414,6 @@
       ]
     },
     {
-      "id": "a7c352220674a63dea874acf",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Orbán re-emerges after long summer holiday, as Magyar strips homophobia from child protection laws (Day 128 of the Tisza government)",
-      "url": "https://euobserver.com/238104/orban-re-emerges-after-long-summer-holiday-as-magyar-strips-homophobia-from-child-protection-laws-day-128-of-the-tisza-government",
-      "published_at": "2026-09-17T11:23:44Z",
-      "collected_at": "2026-09-17T11:30:47Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "2ad67473016baaf14fe68af5",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "OpenAI entdeckt sechs neue Fälle von „besorgniserregendem“ KI-Verhalten",
-      "url": "https://www.politico.eu/article/openai-entdeckt-sechs-neue-faelle-von-besorgniserregendem-ki-verhalten",
-      "published_at": "2026-09-17T11:22:50Z",
-      "collected_at": "2026-09-17T11:30:47Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "4d33256df2c5afcd68a724dd",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2514,73 +2428,31 @@
       ]
     },
     {
-      "id": "798cb603106c13bd5a536753",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "REPLAY: Canadian PM Mark Carney addresses EU Parliament",
-      "url": "http://www.france24.com/en/replay-canadian-pm-mark-carney-addresses-eu-parliament",
-      "published_at": "2026-09-17T11:04:45Z",
-      "collected_at": "2026-09-17T11:30:47Z",
+      "id": "2b39b273a59b92a0c7f8800f",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "European Parliament strips Polish far-right leader of immunity to face Holocaust denial charge",
+      "url": "https://notesfrompoland.com/2026/09/16/european-parliament-strips-polish-far-right-leader-of-immunity-to-face-holocaust-denial-charge",
+      "published_at": "2026-09-16T12:00:25Z",
+      "collected_at": "2026-09-18T12:00:53Z",
       "topics": [
+        "central_europe",
         "politics",
-        "security",
         "society"
       ]
     },
     {
-      "id": "69a35773a19399bdfa1fa490",
+      "id": "e87c5a69abd9c89ffae0163e",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
-      "title": "Aztec document goes on display in Mexico after 186 years in France",
-      "url": "https://www.bbc.co.uk/news/articles/ck980qyy6d2zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-17T11:00:41Z",
-      "collected_at": "2026-09-17T11:30:47Z",
+      "title": "Kosovo's former president sentenced to 25 years for war crimes",
+      "url": "https://www.bbc.co.uk/news/articles/cmd79z0pdzgjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-16T11:42:50Z",
+      "collected_at": "2026-09-18T12:00:53Z",
       "topics": [
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "86cc299ac9152f466bebb538",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Mexico issues arrest warrant for Francisco Javier ‘N’, the alleged killer of Spanish student Claudia Tacoronte",
-      "url": "https://english.elpais.com/international/2026-09-17/mexico-issues-arrest-warrant-for-francisco-javier-n-the-alleged-killer-of-spanish-student-claudia-tacoronte.html",
-      "published_at": "2026-09-17T10:08:29Z",
-      "collected_at": "2026-09-17T11:30:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "31df53d617d5e23e7252eb55",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Mounting cost of Iran war clouds Trump’s prospects ahead of the midterms",
-      "url": "https://english.elpais.com/usa/2026-09-17/the-cost-of-the-war-against-iran-clouds-trumps-prospects-ahead-of-the-midterms.html",
-      "published_at": "2026-09-17T08:46:37Z",
-      "collected_at": "2026-09-17T11:30:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "ab79978332e629973c1089e3",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Carney on EU-Canada ties: ‘What matters is the substance’",
-      "url": "https://www.politico.eu/article/canada-mark-carney-european-parliament-speech-live-updates",
-      "published_at": "2026-09-17T08:33:12Z",
-      "collected_at": "2026-09-17T12:00:50Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
