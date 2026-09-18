@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-18T17:00:55Z",
-  "last_successful_collection_at": "2026-09-18T17:00:55Z",
+  "generated_at": "2026-09-18T17:30:44Z",
+  "last_successful_collection_at": "2026-09-18T17:30:44Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-18T17:00:55Z"
+      "at": "2026-09-18T17:30:44Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-09-18T17:00:55Z"
+      "at": "2026-09-18T17:30:44Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 404: Not Found",
-      "at": "2026-09-18T17:00:55Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-09-18T17:30:44Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,47 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-18T17:00:55Z"
+      "at": "2026-09-18T17:30:44Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-18T17:00:55Z"
+      "at": "2026-09-18T17:30:44Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-18T17:00:55Z"
+      "at": "2026-09-18T17:30:44Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-18T17:00:55Z"
+      "at": "2026-09-18T17:30:44Z"
     },
     {
       "id": "ecfr",
-      "status": "ok",
-      "count": "25",
-      "at": "2026-09-18T17:00:55Z"
+      "status": "error",
+      "detail": "The read operation timed out",
+      "at": "2026-09-18T17:30:44Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-18T17:00:55Z"
+      "at": "2026-09-18T17:30:44Z"
     }
   ],
   "europe_now": [
     {
-      "title": "France orders critical infrastructure protection",
-      "summary": "French authorities have ordered a strategic plan to secure critical infrastructure against escalating security threats. The measure follows increasing concerns regarding regional stability and hostile foreign interference.",
+      "title": "Macron Orders Critical Infrastructure Protection Amid Russian Hybrid Threats",
+      "summary": "French President Emmanuel Macron has convened party leaders and ordered a comprehensive plan to safeguard critical infrastructure. The measures come as European leaders voice increasing alarm over heightened security risks and energy price spikes linked to Russian hybrid attacks.",
       "article_ids": [
         "9487ebdf233846619eeff734",
-        "4dc1c1244c2b81790f98e548"
+        "2f464ce97f374ab3ab73da96",
+        "537dc71d9fe73f9dc3d93f64"
       ],
       "sources": [
         {
@@ -78,17 +79,17 @@
           "published_at": "2026-09-18T12:24:42Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260918-macron-orders-plan-to-protect-france-critical-infrastructure-against-russian-hybrid-attacks",
-          "headline": "Macron orders plan to protect France's critical infrastructure against 'Russian hybrid attacks'",
-          "published_at": "2026-09-18T12:23:17Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/emmanuel-macron-to-call-emergency-g7-meeting-as-energy-prices-spike-and-russian-hybrid-attacks-mount",
+          "headline": "Macron to call emergency G7 meeting as energy prices spike and Russian hybrid attacks mount",
+          "published_at": "2026-09-18T14:57:14Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Sweden government formation underway",
-      "summary": "The leader of Sweden's centre-left has been officially tasked with forming a new government following the recent parliamentary election. Political negotiations are now commencing to establish a stable governing coalition.",
+      "title": "Sweden's Centre-Left Leader Tasked With Forming Government",
+      "summary": "Following recent national elections in Sweden, the leader of the centre-left has been formally tasked with establishing a new government administration. Political discussions are now underway to form a viable governing coalition.",
       "article_ids": [
         "46cb13bbc7ddfbc87f4d3b0a"
       ],
@@ -105,37 +106,27 @@
   ],
   "top_stories": [
     {
-      "title": "European Security and Defense Concerns",
-      "summary": "European leaders have issued formal warnings regarding an intensified security threat from Russia. Meanwhile, regional nations continue to adjust their defense postures and integrate into broader anti-missile initiatives.",
+      "title": "Electoral Developments in Russia",
+      "summary": "Polling stations have opened across Russia amidst ongoing military strikes involving Ukraine. Observers and analysts note that the current electoral process lacks any meaningful political opposition.",
       "article_ids": [
-        "c9ec0572b26eb700d24c7105",
-        "74d107e65a618610ad7f23d5"
+        "49204b062d8359b6caa0e069",
+        "5ceac7e909674f7f15b02fba"
       ],
       "sources": [
         {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/09/18/poland-joins-european-anti-ballistic-missile-coalition",
-          "headline": "Poland joins European Anti-Ballistic Missile Coalition",
-          "published_at": "2026-09-18T14:58:01Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Migration Management Operations",
-      "summary": "Law enforcement agencies have initiated operations to relocate migrants from beaches in Ceuta. The actions form part of ongoing border management efforts in Spanish territories.",
-      "article_ids": [
-        "1483718c429649aaf3dfc908"
-      ],
-      "sources": [
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/there-are-no-decent-parties-left-sham-elections-underscore-putins-grip-on-russia",
+          "headline": "‘There are no decent parties left’: Sham elections underscore Putin’s grip on Russia",
+          "published_at": "2026-09-18T16:54:58Z"
+        },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c6vgy80ge1z7o?at_medium=RSS&at_campaign=rss",
-          "headline": "Police begin operation to move migrants from Ceuta beaches",
-          "published_at": "2026-09-18T11:59:42Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260918-ukraine-strikes-continue-as-polling-stations-open-in-russia",
+          "headline": "Ukraine strikes continue as polling stations open in Russia",
+          "published_at": "2026-09-18T13:31:23Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
@@ -167,29 +158,29 @@
       ]
     },
     {
-      "label": "Macron · attacks · hybrid · Russian",
+      "label": "Ceuta · migrants · beaches · Police",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 8,
-      "latest_at": "2026-09-18T14:57:14Z",
+      "item_count": 4,
+      "latest_at": "2026-09-18T11:59:42Z",
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/emmanuel-macron-to-call-emergency-g7-meeting-as-energy-prices-spike-and-russian-hybrid-attacks-mount",
-          "headline": "Macron to call emergency G7 meeting as energy prices spike and Russian hybrid attacks mount",
-          "published_at": "2026-09-18T14:57:14Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgy80ge1z7o?at_medium=RSS&at_campaign=rss",
+          "headline": "Police begin operation to move migrants from Ceuta beaches",
+          "published_at": "2026-09-18T11:59:42Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/macron-convenes-french-party-leaders-as-soaring-energy-prices-put-focus-on-wars-in-iran-and-ukraine",
-          "headline": "Macron convenes French party leaders as soaring energy prices put focus on wars in Iran and Ukraine",
-          "published_at": "2026-09-18T14:26:28Z"
+          "url": "https://www.france24.com/en/europe/20260918-police-move-hundreds-of-migrants-still-in-ceuta-off-beaches-in-spanish-enclave",
+          "headline": "Police move hundreds of migrants still in Ceuta off beaches in Spanish enclave",
+          "published_at": "2026-09-18T09:51:01Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss",
-          "headline": "Russian hybrid attacks against Europe intensifying, says Macron",
-          "published_at": "2026-09-18T14:02:09Z"
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-09-18/chaotic-scenes-as-spanish-police-clear-ceuta-migrants-from-beaches.html",
+          "headline": "Chaotic scenes as Spanish police clear Ceuta migrants from beaches",
+          "published_at": "2026-09-18T09:50:11Z"
         }
       ]
     },
@@ -250,6 +241,20 @@
   ],
   "radar": [
     {
+      "id": "7b85c78ed9fe8244a1512213",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "War in Iran 'jeopardises the Trump presidency', ex-Obama National Security Council member says",
+      "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20260918-war-in-iran-jeopardises-the-trump-presidency-ex-obama-national-security-council-member-says",
+      "published_at": "2026-09-18T17:01:29Z",
+      "collected_at": "2026-09-18T17:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "49204b062d8359b6caa0e069",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -261,6 +266,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "38870b355eab1fd22330c908",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "REPLAY: Zidane names first squad as France manager",
+      "url": "https://www.france24.com/en/video/20260918-replay-zidane-names-first-squad-as-france-manager",
+      "published_at": "2026-09-18T16:47:43Z",
+      "collected_at": "2026-09-18T17:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -579,6 +598,20 @@
       "url": "https://www.france24.com/en/sport/20260918-france-new-head-coach-zidane-unveils-his-first-team-line-up-for-nations-league-matches-live",
       "published_at": "2026-09-18T14:25:26Z",
       "collected_at": "2026-09-18T16:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "3149fd807ae3c7c436a05838",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France's new head coach Zidane unveils team line-up for Nations League matches",
+      "url": "https://www.france24.com/en/sport/20260918-france-new-head-coach-zidane-unveils-his-first-team-line-up-for-nations-league-matches-live",
+      "published_at": "2026-09-18T14:25:26Z",
+      "collected_at": "2026-09-18T17:30:44Z",
       "topics": [
         "politics",
         "security",
@@ -2193,6 +2226,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "8eb4c7515f1839ded7c11d68",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Shock in Kosovo as Hague convicts former President Thaci",
+      "url": "https://www.dw.com/en/shock-in-kosovo-as-hague-convicts-former-president-thaci/a-79294916?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-16T15:59:00Z",
+      "collected_at": "2026-09-18T17:30:44Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
