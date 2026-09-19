@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-19T14:00:49Z",
-  "last_successful_collection_at": "2026-09-19T14:00:49Z",
+  "generated_at": "2026-09-19T14:30:43Z",
+  "last_successful_collection_at": "2026-09-19T14:30:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-19T14:00:49Z"
+      "at": "2026-09-19T14:30:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-19T14:00:49Z"
+      "at": "2026-09-19T14:30:43Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-19T14:00:49Z"
+      "at": "2026-09-19T14:30:43Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-19T14:00:49Z"
+      "at": "2026-09-19T14:30:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-19T14:00:49Z"
+      "at": "2026-09-19T14:30:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-19T14:00:49Z"
+      "at": "2026-09-19T14:30:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-19T14:00:49Z"
+      "at": "2026-09-19T14:30:43Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-19T14:00:49Z"
+      "at": "2026-09-19T14:30:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-19T14:00:49Z"
+      "at": "2026-09-19T14:30:43Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Germany Lowers Energy Tax",
-      "summary": "Germany has enacted a reduction in its energy tax in response to soaring fuel prices driven by ongoing conflicts in the Middle East.",
+      "title": "NATO General Addresses False Flag Preparedness",
+      "summary": "The top general of the NATO alliance stated that military forces are fully prepared to address potential Russian false flag operations. This assessment comes amid heightened security warnings across European nations regarding hybrid threats.",
+      "article_ids": [
+        "7decac5726fe79d1880ee019"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/nato-ready-russia-false-flag-attack-giuseppe-cavo-dragone",
+          "headline": "NATO ‘ready’ for potential Russian false flag attack, alliance’s top general says",
+          "published_at": "2026-09-19T14:23:32Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Germany Lowers Fuel Tax Amid Energy Pressures",
+      "summary": "The German government has moved to cut fuel and energy taxes to offset soaring prices driven by ongoing conflicts in the Middle East. The adjustment coincides with critical regional elections facing the current administration.",
       "article_ids": [
         "653ed4e60083fafcba11602f",
         "e5ae31ec9db8ff5cb2d44975"
@@ -85,51 +101,12 @@
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "Poland Credit Rating Downgrade",
-      "summary": "Moody's has lowered Poland's credit rating to its lowest level recorded since 2002.",
-      "article_ids": [
-        "3b6164706472cfd609639112"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/09/19/moodys-cuts-polands-credit-rating-to-lowest-level-since-2002",
-          "headline": "Moody’s cuts Poland’s credit rating to lowest level since 2002",
-          "published_at": "2026-09-19T09:08:27Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "Germany Fuel Tax Cut",
-      "summary": "Germany implemented a tax cut on energy to address soaring petrol prices. The measure was introduced as global conflict pressures energy markets.",
-      "article_ids": [
-        "653ed4e60083fafcba11602f",
-        "e5ae31ec9db8ff5cb2d44975"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/germany-fuel-tax-middle-east-war-prices",
-          "headline": "Germany cuts fuel tax as Middle East conflicts send prices soaring",
-          "published_at": "2026-09-19T11:39:22Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260919-germany-cuts-energy-tax-to-lower-soaring-petrol-prices",
-          "headline": "Germany cuts energy tax to lower soaring petrol prices",
-          "published_at": "2026-09-19T10:05:54Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Poland Credit Rating",
-      "summary": "Moody's announced a downgrade to Poland's credit rating. This brings the country's rating down to its lowest standing since 2002.",
+      "title": "Credit Rating Downgrade in Poland",
+      "summary": "Moody's has lowered Poland's credit rating to its lowest level since 2002. The financial adjustment reflects growing economic scrutiny on the nation.",
       "article_ids": [
         "3b6164706472cfd609639112"
       ],
@@ -142,36 +119,32 @@
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "US and Denmark Establish Greenland Pact",
+      "summary": "The United States and Denmark have reached a new agreement concerning defense and investment in Greenland. Following the deal, claims regarding permanent control over the Arctic island emerged from American leadership.",
+      "article_ids": [
+        "187f4abc556193e590ad37c6",
+        "ac5c006736febdf0d85aea50"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/us-and-denmark-reach-deal-on-greenland-trump-claims-permanent-control-over-island",
+          "headline": "US and Denmark reach deal on Greenland, Trump claims 'permanent control' over island",
+          "published_at": "2026-09-19T08:48:55Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/09/18/trump-denmark-greenland-new-security-agreement-01084764",
+          "headline": "US and Denmark reach new agreement on defense and investment in Greenland",
+          "published_at": "2026-09-19T05:08:26Z"
+        }
+      ],
+      "source_count": 2
     }
   ],
   "developing": [
-    {
-      "label": "Macron · attacks · energy · hybrid",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-09-18T14:57:14Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/emmanuel-macron-to-call-emergency-g7-meeting-as-energy-prices-spike-and-russian-hybrid-attacks-mount",
-          "headline": "Macron to call emergency G7 meeting as energy prices spike and Russian hybrid attacks mount",
-          "published_at": "2026-09-18T14:57:14Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/macron-convenes-french-party-leaders-as-soaring-energy-prices-put-focus-on-wars-in-iran-and-ukraine",
-          "headline": "Macron convenes French party leaders as soaring energy prices put focus on wars in Iran and Ukraine",
-          "published_at": "2026-09-18T14:26:28Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss",
-          "headline": "Russian hybrid attacks against Europe intensifying, says Macron",
-          "published_at": "2026-09-18T14:02:09Z"
-        }
-      ]
-    },
     {
       "label": "House · media · outlets · Trump",
       "origin": "convergence",
@@ -194,49 +167,86 @@
       ]
     },
     {
-      "label": "Canada · EU",
+      "label": "airport · flight · Riyadh · Smoke",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-09-18T15:32:48Z",
+      "item_count": 2,
+      "latest_at": "2026-09-19T14:17:23Z",
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/australia-following-canada-as-eu-associate-member-is-pure-speculation-says-commission",
-          "headline": "Australia following Canada as EU associate member is ‘pure speculation,’ says Commission",
-          "published_at": "2026-09-18T15:32:48Z"
+          "url": "https://www.politico.eu/article/smoke-flight-delays-riyadh-king-khalid-airport-air-raid-alert",
+          "headline": "Smoke and flight delays at Riyadh airport after air raid alert",
+          "published_at": "2026-09-19T14:17:23Z"
         },
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/canada-and-eu-association-are-there-other-arrangements/a-79328797?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Canada and EU association: Are there other arrangements?",
-          "published_at": "2026-09-18T14:26:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east/20260919-smoke-flames-seen-near-riyadh-airport-major-flight-disruptions-reported",
+          "headline": "Smoke, flames seen near Riyadh airport, ‘major’ flight disruptions reported",
+          "published_at": "2026-09-19T12:53:19Z"
         }
       ]
     },
     {
-      "label": "Denmark · Greenland · US",
-      "origin": "convergence",
-      "source_count": 2,
+      "label": "apartment · building · kills · Live",
+      "origin": "radar",
+      "source_count": 1,
       "item_count": 2,
-      "latest_at": "2026-09-19T05:08:26Z",
+      "latest_at": "2026-09-19T05:24:28Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260919-ukraine-live-russian-strike-on-apartment-building-in-ukraine-s-sumy-kills-at-least-two",
+          "headline": "Ukraine live: Russian strike on apartment building in Ukraine's Sumy kills at least two",
+          "published_at": "2026-09-19T05:24:28Z"
+        }
+      ]
+    },
+    {
+      "label": "European · intensified · leaders · Putin",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 2,
+      "latest_at": "2026-09-18T16:35:38Z",
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.com/news/2026/09/18/trump-denmark-greenland-new-security-agreement-01084764",
-          "headline": "US and Denmark reach new agreement on defense and investment in Greenland",
-          "published_at": "2026-09-19T05:08:26Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260918-greenland-denmark-us-deal-un-general-assembly",
-          "headline": "🔴 Greenland, Denmark say they expect to sign deal with the US on the sidelines of UN General Assembly",
-          "published_at": "2026-09-18T21:59:51Z"
+          "url": "https://www.politico.eu/article/russia-vladimir-putin-nato-drone-attacks-europe-leaders-warning",
+          "headline": "European leaders warn of ‘intensified threat’ from Putin",
+          "published_at": "2026-09-18T16:35:38Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "7decac5726fe79d1880ee019",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "NATO ‘ready’ for potential Russian false flag attack, alliance’s top general says",
+      "url": "https://www.politico.eu/article/nato-ready-russia-false-flag-attack-giuseppe-cavo-dragone",
+      "published_at": "2026-09-19T14:23:32Z",
+      "collected_at": "2026-09-19T14:30:43Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "ce4425ffe613e9b06c5b77af",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Smoke and flight delays at Riyadh airport after air raid alert",
+      "url": "https://www.politico.eu/article/smoke-flight-delays-riyadh-king-khalid-airport-air-raid-alert",
+      "published_at": "2026-09-19T14:17:23Z",
+      "collected_at": "2026-09-19T14:30:43Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "c499b28c6dd27a1dbcdc23a3",
       "source_id": "france24",
@@ -1568,76 +1578,6 @@
       ]
     },
     {
-      "id": "5b67a9de8f8e4f1976bd7469",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Ukraine’s NATO envoy calls for more air defense donations",
-      "url": "https://www.politico.eu/article/more-air-defense-for-ukraine-now-means-more-security-for-nato-later-envoy-says",
-      "published_at": "2026-09-18T13:52:26Z",
-      "collected_at": "2026-09-18T14:00:56Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "0118f63a5febab5d263fda74",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Gaza documentary sparks political storm, protests in Israel",
-      "url": "https://www.france24.com/en/video/20260918-gaza-documentary-sparks-political-storm-protests-in-israel",
-      "published_at": "2026-09-18T13:36:14Z",
-      "collected_at": "2026-09-18T14:00:56Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "8f1c3c7cc28ec554d9d444e7",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Scene set for verbal punch-up at UN in New York, as Trump and Netanyahu face critics from EU and further afield",
-      "url": "https://euobserver.com/238403/scene-set-for-verbal-punch-up-at-un-in-new-york-as-trump-and-netanyahu-face-critics-from-eu-and-further-afield",
-      "published_at": "2026-09-18T13:34:47Z",
-      "collected_at": "2026-09-18T14:00:56Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "5ceac7e909674f7f15b02fba",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ukraine strikes continue as polling stations open in Russia",
-      "url": "https://www.france24.com/en/video/20260918-ukraine-strikes-continue-as-polling-stations-open-in-russia",
-      "published_at": "2026-09-18T13:31:23Z",
-      "collected_at": "2026-09-18T14:00:56Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "aec0f8f0f285cc511acb9ca9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US approves sale of F-35 fighter jets to Saudi Arabia",
-      "url": "https://www.france24.com/en/video/20260918-us-approves-sale-of-f-35-fighter-jets-to-saudi-arabia",
-      "published_at": "2026-09-18T13:29:52Z",
-      "collected_at": "2026-09-18T14:00:56Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "c099badb6270c95280cad6ba",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1691,6 +1631,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "fb741a6087b2c65b12f1898c",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Russians trying to capture Dobropillia, before the leaves fall from the trees (Ukraine Battlefield update, Day 1,666)",
+      "url": "https://euobserver.com/238150/russians-trying-to-capture-dobropillia-before-the-leaves-fall-from-the-trees-ukraine-battlefield-update-day-1666",
+      "published_at": "2026-09-17T13:40:14Z",
+      "collected_at": "2026-09-19T14:30:43Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -2051,20 +2005,6 @@
       "url": "https://english.elpais.com/people/2026-09-16/celine-dion-the-looks-that-became-her-armor-against-illness-and-vulnerability.html",
       "published_at": "2026-09-16T14:29:57Z",
       "collected_at": "2026-09-18T17:00:55Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "31d5e14ea4eac1efdce01c5a",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The online network that offers jobs in Russia and sends people to fight in the war in Ukraine",
-      "url": "https://english.elpais.com/international/2026-09-16/the-online-network-that-offers-jobs-in-russia-and-sends-people-to-fight-in-the-war-in-ukraine.html",
-      "published_at": "2026-09-16T11:59:44Z",
-      "collected_at": "2026-09-18T14:00:56Z",
       "topics": [
         "politics",
         "society",
