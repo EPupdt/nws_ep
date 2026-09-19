@@ -390,9 +390,40 @@
     "dcba1d942bf8fe9bbe881d78": "2026-09-19T05:30:42Z",
     "c5032f7209409852fa13ca87": "2026-09-19T06:00:52Z",
     "04b0ed9eb77c0bf4b85ac8ec": "2026-09-19T07:00:49Z",
-    "333e658c1ec7b2c308a1e4d5": "2026-09-19T07:30:41Z"
+    "333e658c1ec7b2c308a1e4d5": "2026-09-19T07:30:41Z",
+    "5b07a6f9f33298eda6862da9": "2026-09-19T08:00:49Z",
+    "7fb4b50f8b7d487ba9930bd2": "2026-09-19T08:00:49Z",
+    "db54b2fcebb369d933b16058": "2026-09-19T08:00:49Z"
   },
   "radar": [
+    {
+      "id": "7fb4b50f8b7d487ba9930bd2",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Congress investigates after F-35 parts diverted to Hong Kong",
+      "url": "https://www.politico.com/news/2026/09/18/congress-f-35-china-investigation-01083647",
+      "published_at": "2026-09-19T07:42:47Z",
+      "collected_at": "2026-09-19T08:00:49Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "db54b2fcebb369d933b16058",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Trump says he’s banning media outlets, including POLITICO, from White House",
+      "url": "https://www.politico.com/news/2026/09/18/trump-white-house-media-ban-politico-01084438",
+      "published_at": "2026-09-19T07:35:52Z",
+      "collected_at": "2026-09-19T08:00:49Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "04b0ed9eb77c0bf4b85ac8ec",
       "source_id": "france24",
@@ -415,6 +446,20 @@
       "url": "https://www.france24.com/en/europe/20260919-ukraine-live-russian-strike-on-apartment-building-in-ukraine-s-sumy-kills-at-least-two",
       "published_at": "2026-09-19T05:24:28Z",
       "collected_at": "2026-09-19T05:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "5b07a6f9f33298eda6862da9",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: Russian strike on apartment building in Ukraine's Sumy kills at least two",
+      "url": "https://www.france24.com/en/europe/20260919-ukraine-live-russian-strike-on-apartment-building-in-ukraine-s-sumy-kills-at-least-two",
+      "published_at": "2026-09-19T05:24:28Z",
+      "collected_at": "2026-09-19T08:00:49Z",
       "topics": [
         "politics",
         "security",
@@ -2413,10 +2458,6 @@
   "recent_topics": [
     {
       "at": "2026-09-17T20:30:41Z",
-      "title": "Ukrainian Leadership Update"
-    },
-    {
-      "at": "2026-09-17T20:30:41Z",
       "title": "Romanian Political Developments"
     },
     {
@@ -2730,16 +2771,21 @@
     {
       "at": "2026-09-19T07:30:41Z",
       "title": "Poland Enters European Anti-Ballistic Missile Initiative"
+    },
+    {
+      "at": "2026-09-19T08:00:49Z",
+      "title": "Swedish Government Formation"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Russian military strike hits residential building in Sumy",
-        "summary": "A recent Russian strike on an apartment building in Sumy resulted in at least two fatalities. Emergency response and local updates continue as security threats persist across the region.",
+        "title": "Russian Strike on Sumy",
+        "summary": "A Russian strike on an apartment building in the Ukrainian city of Sumy has resulted in multiple fatalities. Rescue operations and local reporting confirm that at least two people were killed in the attack.",
         "article_ids": [
-          "9fa948e942abbbe74ae9f5e3"
+          "9fa948e942abbbe74ae9f5e3",
+          "5b07a6f9f33298eda6862da9"
         ],
         "sources": [
           {
@@ -2747,15 +2793,19 @@
             "url": "https://www.france24.com/en/europe/20260919-ukraine-live-russian-strike-on-apartment-building-in-ukraine-s-sumy-kills-at-least-two",
             "headline": "Ukraine live: Russian strike on apartment building in Ukraine's Sumy kills at least two",
             "published_at": "2026-09-19T05:24:28Z"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20260919-ukraine-live-russian-strike-on-apartment-building-in-ukraine-s-sumy-kills-at-least-two",
+            "headline": "Live: Russian strike on apartment building in Ukraine's Sumy kills at least two",
+            "published_at": "2026-09-19T05:24:28Z"
           }
         ],
         "source_count": 1
-      }
-    ],
-    "top_stories": [
+      },
       {
-        "title": "US and Denmark Secure Greenland Defense Pact",
-        "summary": "The United States and Denmark have reached a new agreement concerning defense and investment initiatives in Greenland. Officials expect to formalize the arrangement during the United Nations General Assembly.",
+        "title": "US and Denmark Greenland Defense Agreement",
+        "summary": "The United States and Denmark have reached a new security and investment agreement regarding Greenland. The accord expands military cooperation and presence on the island amidst ongoing diplomatic discussions.",
         "article_ids": [
           "ac5c006736febdf0d85aea50",
           "2722f33c4db4842cb58ef001"
@@ -2775,40 +2825,26 @@
           }
         ],
         "source_count": 2
-      },
+      }
+    ],
+    "top_stories": [
       {
-        "title": "German Defense Developments and European Fighter Aircraft",
-        "summary": "Germany has received its inaugural F-35 fighter jet amid ongoing shifts in continental military cooperation. Meanwhile, broader European joint fighter development programs face significant challenges.",
+        "title": "Swedish Government Formation",
+        "summary": "Sweden's centre-left leader Andersson has been officially tasked with forming a new government following the recent national election. Political negotiations are currently underway to establish the upcoming administration.",
         "article_ids": [
-          "e2410e9bbc030b80f77ce3fe"
+          "46cb13bbc7ddfbc87f4d3b0a"
         ],
         "sources": [
           {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/germany-gets-its-first-f-35-as-europes-fighter-plans-fall-apart",
-            "headline": "Germany gets its first F-35 as Europe’s fighter plans fall apart",
-            "published_at": "2026-09-18T15:03:42Z"
-          }
-        ],
-        "source_count": 1
-      },
-      {
-        "title": "Poland Enters European Anti-Ballistic Missile Initiative",
-        "summary": "Poland has officially integrated into the European Anti-Ballistic Missile Coalition. This move strengthens regional defense capabilities in Central Europe amid rising security tensions.",
-        "article_ids": [
-          "74d107e65a618610ad7f23d5"
-        ],
-        "sources": [
-          {
-            "publisher": "Notes from Poland",
-            "url": "https://notesfrompoland.com/2026/09/18/poland-joins-european-anti-ballistic-missile-coalition",
-            "headline": "Poland joins European Anti-Ballistic Missile Coalition",
-            "published_at": "2026-09-18T14:58:01Z"
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20260918-sweden-s-centre-left-leader-andersson-tasked-with-forming-government-after-election",
+            "headline": "Sweden's centre-left leader Andersson tasked with forming government after election",
+            "published_at": "2026-09-18T16:01:11Z"
           }
         ],
         "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-09-19T07:30:41Z"
+  "last_collection_at": "2026-09-19T08:00:49Z"
 }
