@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-20T18:00:49Z",
-  "last_successful_collection_at": "2026-09-20T18:00:49Z",
+  "generated_at": "2026-09-20T18:30:46Z",
+  "last_successful_collection_at": "2026-09-20T18:30:46Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-20T18:00:49Z"
+      "at": "2026-09-20T18:30:46Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-09-20T18:00:49Z"
+      "at": "2026-09-20T18:30:46Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-20T18:00:49Z"
+      "at": "2026-09-20T18:30:46Z"
     },
     {
       "id": "euractiv",
@@ -27,51 +27,49 @@
     },
     {
       "id": "politico_europe",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-09-20T18:00:49Z"
+      "status": "error",
+      "detail": "<urlopen error [Errno 104] Connection reset by peer>",
+      "at": "2026-09-20T18:30:46Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-20T18:00:49Z"
+      "at": "2026-09-20T18:30:46Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-09-20T18:00:49Z"
+      "at": "2026-09-20T18:30:46Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-20T18:00:49Z"
+      "at": "2026-09-20T18:30:46Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-20T18:00:49Z"
+      "at": "2026-09-20T18:30:46Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-20T18:00:49Z"
+      "at": "2026-09-20T18:30:46Z"
     }
   ],
   "europe_now": [
     {
       "title": "German Regional Elections Setback",
-      "summary": "German Chancellor Friedrich Merz has described the results of regional state elections as a disaster for his party following strong gains by the far-right AfD. Despite the political setbacks and calls regarding his leadership, Merz has vowed to press ahead with reforms and stay in office.",
+      "summary": "German Chancellor Friedrich Merz labeled recent state election results a disaster for his party following strong gains by the far-right Alternative for Germany. Despite the electoral setbacks, Merz has vowed to remain in office and press ahead with necessary political reforms.",
       "article_ids": [
         "3f252495f3ffaaea3c82c02c",
         "d1d9ebffc85465a3ddbba2d6",
-        "856192f620cf272537afec4e",
-        "6f28caf3110a99029cf51171",
-        "aac63e18f191d83f7e21427f"
+        "8a095d9363a00d48d3e23642"
       ],
       "sources": [
         {
@@ -91,59 +89,7 @@
     },
     {
       "title": "Major Drone Attack on Moscow",
-      "summary": "Ukraine launched a massive drone assault targeting Moscow and surrounding areas, coinciding with the final day of voting in Russian elections. Russian officials reported the operation as the largest drone strike directed at the capital, raising regional security concerns.",
-      "article_ids": [
-        "f5f727be675799f72253d5e4",
-        "649401e920af2f25df18417c",
-        "6593cc1a93009bb59cdcb036",
-        "03df1ce2d56d2a227dd9fdee",
-        "4ef7a1a1018d99f33402f5a2"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ukraine-fires-over-1-000-drones-at-russia-in-largest-ever-attack-on-moscow",
-          "headline": "Ukraine fires over 1,000 drones at Russia in \"largest ever\" attack on Moscow",
-          "published_at": "2026-09-20T14:46:52Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
-          "headline": "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
-          "published_at": "2026-09-20T10:45:39Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "German Political Developments",
-      "summary": "German state elections have resulted in significant electoral gains for the far-right Alternative for Germany party. Chancellor Friedrich Merz acknowledged the disappointing outcome for his CDU party while committing to continue his political agenda.",
-      "article_ids": [
-        "3f252495f3ffaaea3c82c02c",
-        "d1d9ebffc85465a3ddbba2d6",
-        "d77434baf3efa8cb56d8fbcc"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss",
-          "headline": "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
-          "published_at": "2026-09-20T17:46:57Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20260920-germany-merz-vows-to-push-on-despite-setbacks",
-          "headline": "Germany: Merz vows to \"push on despite setbacks\"",
-          "published_at": "2026-09-20T17:20:15Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Escalation in Ukraine-Russia Conflict",
-      "summary": "Ukrainian forces executed a large-scale drone attack targeting infrastructure in Moscow during the conclusion of Russian elections. The coordinated barrage marks a notable escalation in airborne operations amid ongoing hostilities.",
+      "summary": "Ukraine launched a massive drone strike targeting Moscow and a regional refinery as the final day of Russian elections concluded. Local authorities reported hundreds of incoming drones in what marks one of the most extensive aerial operations of the conflict.",
       "article_ids": [
         "f5f727be675799f72253d5e4",
         "649401e920af2f25df18417c",
@@ -164,25 +110,84 @@
         }
       ],
       "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "German State Elections",
+      "summary": "German Chancellor Friedrich Merz described regional election results as a disaster for his political party. The far-right AfD secured significant gains and another potential win in the key state votes.",
+      "article_ids": [
+        "3f252495f3ffaaea3c82c02c",
+        "d77434baf3efa8cb56d8fbcc"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss",
+          "headline": "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
+          "published_at": "2026-09-20T17:46:57Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260920-germany-s-far-right-afd-makes-strong-gains-in-two-state-elections",
+          "headline": "Germany’s far-right AfD makes strong gains in two state elections",
+          "published_at": "2026-09-20T16:23:34Z"
+        }
+      ],
+      "source_count": 2
     },
     {
-      "title": "Transatlantic Security Agreement",
-      "summary": "The United States and Denmark have successfully reached a formal security agreement regarding Greenland. The accord follows ongoing diplomatic discussions concerning regional defense and strategic cooperation in the Arctic.",
+      "title": "Ukraine Drone Strikes",
+      "summary": "Ukraine launched a major drone barrage targeting Moscow and Russian infrastructure during the final day of elections. The operation involved hundreds of aerial vehicles in a substantial escalation of hostilities.",
       "article_ids": [
-        "4114694a8ff336b1236bc9e5"
+        "f5f727be675799f72253d5e4",
+        "03df1ce2d56d2a227dd9fdee"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/us-and-denmark-reach-greenland-security-deal",
-          "headline": "US and Denmark reach Greenland security deal",
-          "published_at": "2026-09-20T09:40:12Z"
+          "url": "https://www.france24.com/en/ukraine-fires-over-1-000-drones-at-russia-in-largest-ever-attack-on-moscow",
+          "headline": "Ukraine fires over 1,000 drones at Russia in \"largest ever\" attack on Moscow",
+          "published_at": "2026-09-20T14:46:52Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ukraine-drone-attack-moscow-elections",
+          "headline": "Massive Ukrainian drone attack hits Moscow on last day of Russian elections",
+          "published_at": "2026-09-20T09:23:27Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
+    {
+      "label": "deal · Greenland · Trump · US",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 4,
+      "latest_at": "2026-09-20T18:00:00Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/238539/trumps-joke-greenland-deal-offers-hope-for-us-eu-diplomacy",
+          "headline": "Trump’s joke Greenland deal offers hope for US-EU diplomacy",
+          "published_at": "2026-09-20T18:00:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260920-the-deportation-project-inside-the-trump-administration-s-secret-deals-to-expel-people-worldwide",
+          "headline": "The Deportation Project - Inside the Trump administration's secret deals to expel people worldwide",
+          "published_at": "2026-09-20T17:08:45Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss",
+          "headline": "Nato welcomes Greenland deal as Trump says it will give US 'permanent security control'",
+          "published_at": "2026-09-19T23:00:27Z"
+        }
+      ]
+    },
     {
       "label": "Germany · poll · regional · Friedrich",
       "origin": "convergence",
@@ -201,27 +206,6 @@
           "url": "https://www.france24.com/en/germany-could-regional-polls-froce-friedrich-merz-to-step-down",
           "headline": "Germany: Could regional polls froce Friedrich Merz to step down?",
           "published_at": "2026-09-20T10:26:10Z"
-        }
-      ]
-    },
-    {
-      "label": "deals · Trump",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-09-20T17:08:45Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260920-the-deportation-project-inside-the-trump-administration-s-secret-deals-to-expel-people-worldwide",
-          "headline": "The Deportation Project - Inside the Trump administration's secret deals to expel people worldwide",
-          "published_at": "2026-09-20T17:08:45Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss",
-          "headline": "Nato welcomes Greenland deal as Trump says it will give US 'permanent security control'",
-          "published_at": "2026-09-19T23:00:27Z"
         }
       ]
     },
@@ -257,6 +241,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "f714105efddd31573698989a",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Trump’s joke Greenland deal offers hope for US-EU diplomacy",
+      "url": "https://euobserver.com/238539/trumps-joke-greenland-deal-offers-hope-for-us-eu-diplomacy",
+      "published_at": "2026-09-20T18:00:00Z",
+      "collected_at": "2026-09-20T18:30:46Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "3f252495f3ffaaea3c82c02c",
       "source_id": "bbc_europe",
