@@ -284,7 +284,9 @@
     "bc0b94a2d6c1545fa10f4776": "2026-09-20T06:30:45Z",
     "16c8ad2f24f65ae03d3c743a": "2026-09-20T06:30:45Z",
     "9e0a227b9159734c55b28e7c": "2026-09-20T06:30:45Z",
-    "b005ec47de91c73d880fc34d": "2026-09-20T06:30:45Z"
+    "b005ec47de91c73d880fc34d": "2026-09-20T06:30:45Z",
+    "2775972ce59bff24b30c61ac": "2026-09-20T07:00:50Z",
+    "ebfeeadacc591c5aec981bf7": "2026-09-20T07:00:50Z"
   },
   "radar": [
     {
@@ -295,6 +297,20 @@
       "url": "https://www.france24.com/en/europe/20260920-live-russian-election-enters-final-day-in-shadow-of-war-in-ukraine",
       "published_at": "2026-09-20T05:16:20Z",
       "collected_at": "2026-09-20T05:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "2775972ce59bff24b30c61ac",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: Russian election enters final day after Ukraine targets Moscow in mass drone barrage",
+      "url": "https://www.france24.com/en/europe/20260920-live-russian-election-enters-final-day-in-shadow-of-war-in-ukraine",
+      "published_at": "2026-09-20T05:16:20Z",
+      "collected_at": "2026-09-20T07:00:50Z",
       "topics": [
         "politics",
         "security",
@@ -411,6 +427,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "ebfeeadacc591c5aec981bf7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Germans vote in elections threatening fresh blow to Merz",
+      "url": "https://www.france24.com/en/europe/20260920-germans-vote-in-elections-threatening-fresh-blow-to-merz",
+      "published_at": "2026-09-20T01:25:00Z",
+      "collected_at": "2026-09-20T07:00:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -1097,20 +1127,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "04b0ed9eb77c0bf4b85ac8ec",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Cuba hit with another nationwide blackout amid US fuel blockade",
-      "url": "https://www.france24.com/en/americas/20260919-cuba-s-power-grid-collapses-again-leaving-island-in-darkness",
-      "published_at": "2026-09-19T06:31:52Z",
-      "collected_at": "2026-09-19T07:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -1956,10 +1972,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-09-18T17:00:55Z",
-      "title": "Migration Management Operations"
-    },
-    {
       "at": "2026-09-18T17:30:44Z",
       "title": "Electoral Developments in Russia"
     },
@@ -2274,53 +2286,58 @@
     {
       "at": "2026-09-20T06:30:45Z",
       "title": "German Tax Cuts and Elections"
+    },
+    {
+      "at": "2026-09-20T07:00:50Z",
+      "title": "German Tax Cuts and Political Shifts"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Germany Cuts Energy Tax",
-        "summary": "Germany has reduced energy and fuel taxes to mitigate soaring petrol prices driven by ongoing Middle East conflicts.",
+        "title": "Russian Presidential Election Concludes Amid Ongoing Security Operations",
+        "summary": "Russia's presidential election enters its final day against the backdrop of the ongoing conflict in Ukraine and recent drone attacks targeting Moscow. The electoral process has seen significant security measures implemented across various regions.",
         "article_ids": [
-          "653ed4e60083fafcba11602f",
-          "e5ae31ec9db8ff5cb2d44975"
+          "2900408530887415f07541a3",
+          "2775972ce59bff24b30c61ac"
         ],
         "sources": [
           {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/germany-fuel-tax-middle-east-war-prices",
-            "headline": "Germany cuts fuel tax as Middle East conflicts send prices soaring",
-            "published_at": "2026-09-19T11:39:22Z"
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20260920-live-russian-election-enters-final-day-in-shadow-of-war-in-ukraine",
+            "headline": "Live: Russian election enters final day in shadow of war in Ukraine",
+            "published_at": "2026-09-20T05:16:20Z"
           },
           {
             "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20260919-germany-cuts-energy-tax-to-lower-soaring-petrol-prices",
-            "headline": "Germany cuts energy tax to lower soaring petrol prices",
-            "published_at": "2026-09-19T10:05:54Z"
+            "url": "https://www.france24.com/en/europe/20260920-live-russian-election-enters-final-day-in-shadow-of-war-in-ukraine",
+            "headline": "Live: Russian election enters final day after Ukraine targets Moscow in mass drone barrage",
+            "published_at": "2026-09-20T05:16:20Z"
           }
         ],
-        "source_count": 2
+        "source_count": 1
       },
       {
-        "title": "NATO Leadership and Regional Security",
-        "summary": "The alliance's top general stated that NATO remains fully prepared to address potential false flag operations or hybrid threats.",
+        "title": "German State Elections Get Underway",
+        "summary": "Voters across Germany are casting ballots in key state elections that pose a significant political test for Chancellor Friedrich Merz. The electoral contests follow recent federal decisions to cut energy taxes in response to soaring fuel prices.",
         "article_ids": [
-          "7decac5726fe79d1880ee019",
-          "066210d543ea43e859d660d5"
+          "ebfeeadacc591c5aec981bf7",
+          "886eafa8f113c25069f13a88",
+          "57cfee87c11f5e43110fd970"
         ],
         "sources": [
           {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/nato-ready-russia-false-flag-attack-giuseppe-cavo-dragone",
-            "headline": "NATO ‘ready’ for potential Russian false flag attack, alliance’s top general says",
-            "published_at": "2026-09-19T14:23:32Z"
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20260920-germans-vote-in-elections-threatening-fresh-blow-to-merz",
+            "headline": "Germans vote in elections threatening fresh blow to Merz",
+            "published_at": "2026-09-20T01:25:00Z"
           },
           {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/germany-carsten-breuer-nato-military-committee",
-            "headline": "Germany’s top general to lead NATO’s highest military authority",
-            "published_at": "2026-09-19T15:33:03Z"
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/germany-braces-for-key-state-elections-where-far-right-party-afd-seeks-another-breakthrough",
+            "headline": "Germany braces for key state elections where far right party AfD seeks another breakthrough",
+            "published_at": "2026-09-19T15:28:23Z"
           }
         ],
         "source_count": 1
@@ -2328,23 +2345,17 @@
     ],
     "top_stories": [
       {
-        "title": "German Tax Cuts and Elections",
-        "summary": "Germany has introduced tax reductions on energy to help consumers cope with rising fuel prices. The economic adjustment comes as the country prepares for crucial regional state elections.",
+        "title": "German Tax Cuts and Political Shifts",
+        "summary": "German authorities implemented energy tax reductions to alleviate surging petrol costs driven by external market pressures. These economic adjustments coincide with crucial state elections that carry major implications for national political leadership.",
         "article_ids": [
-          "886eafa8f113c25069f13a88",
-          "e5ae31ec9db8ff5cb2d44975"
+          "653ed4e60083fafcba11602f",
+          "57cfee87c11f5e43110fd970"
         ],
         "sources": [
           {
             "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/germany-braces-for-key-state-elections-where-far-right-party-afd-seeks-another-breakthrough",
-            "headline": "Germany braces for key state elections where far right party AfD seeks another breakthrough",
-            "published_at": "2026-09-19T15:28:23Z"
-          },
-          {
-            "publisher": "France 24 English",
             "url": "https://www.france24.com/en/europe/20260919-germany-cuts-energy-tax-to-lower-soaring-petrol-prices",
-            "headline": "Germany cuts energy tax to lower soaring petrol prices",
+            "headline": "Germany cuts energy tax to lower petrol prices as Merz faces state key elections",
             "published_at": "2026-09-19T10:05:54Z"
           }
         ],
@@ -2352,5 +2363,5 @@
       }
     ]
   },
-  "last_collection_at": "2026-09-20T06:30:45Z"
+  "last_collection_at": "2026-09-20T07:00:50Z"
 }
