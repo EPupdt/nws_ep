@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-20T14:00:48Z",
-  "last_successful_collection_at": "2026-09-20T14:00:48Z",
+  "generated_at": "2026-09-20T14:30:41Z",
+  "last_successful_collection_at": "2026-09-20T14:30:41Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-20T14:00:48Z"
+      "at": "2026-09-20T14:30:41Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-09-20T14:00:48Z"
+      "at": "2026-09-20T14:30:41Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 404: Not Found",
-      "at": "2026-09-20T14:00:48Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-09-20T14:30:41Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-20T14:00:48Z"
+      "at": "2026-09-20T14:30:41Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-20T14:00:48Z"
+      "at": "2026-09-20T14:30:41Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-09-20T14:00:48Z"
+      "at": "2026-09-20T14:30:41Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-20T14:00:48Z"
+      "at": "2026-09-20T14:30:41Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-20T14:00:48Z"
+      "at": "2026-09-20T14:30:41Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-20T14:00:48Z"
+      "at": "2026-09-20T14:30:41Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Massive Drone Attack on Moscow",
-      "summary": "Ukraine launched a major drone assault targeting Moscow and a local refinery amidst the final day of Russian elections.",
+      "title": "Massive Ukrainian Drone Attack on Moscow",
+      "summary": "Ukraine launched a major drone assault targeting Moscow as the final day of Russian elections commenced. The substantial attack created significant security concerns amidst the ongoing regional conflict.",
       "article_ids": [
         "649401e920af2f25df18417c",
         "03df1ce2d56d2a227dd9fdee"
@@ -87,8 +87,8 @@
       "source_count": 2
     },
     {
-      "title": "German Regional Elections",
-      "summary": "Voters across multiple German regions headed to the polls in regional elections that present a crucial political test for Chancellor Friedrich Merz.",
+      "title": "German Regional Elections and Political Pressures",
+      "summary": "Voters across two German regions cast ballots in elections that present a crucial political test for Chancellor Friedrich Merz. The outcomes threaten to exert further pressure on the current national leadership.",
       "article_ids": [
         "29ecd57c94285f1350700885",
         "1316632e0eb2151fa305072d"
@@ -112,8 +112,8 @@
   ],
   "top_stories": [
     {
-      "title": "US-Denmark Greenland Security Agreement",
-      "summary": "The United States and Denmark reached a security arrangement regarding Greenland. NATO officials welcomed the agreement following statements regarding permanent security control.",
+      "title": "Transatlantic Defense and Greenland Security Agreement",
+      "summary": "The United States and Denmark reached a security arrangement regarding Greenland, which NATO welcomed. Meanwhile, officials highlighted differing perspectives on the strategic implications of the pact.",
       "article_ids": [
         "4114694a8ff336b1236bc9e5",
         "51b1a486f6362bf4692a86fb"
@@ -135,17 +135,18 @@
       "source_count": 2
     },
     {
-      "title": "German Military Leadership in NATO",
-      "summary": "Germany's top general is set to take charge of NATO's highest military authority. This appointment marks a significant defense leadership development for the nation.",
+      "title": "Diplomatic Developments and Cultural Center Closures",
+      "summary": "Iran ordered the closure of a French language center in Tehran citing illegal acts. Simultaneously, French leadership engaged in diplomatic talks regarding regional cooperation and foreign ties.",
       "article_ids": [
-        "066210d543ea43e859d660d5"
+        "8f3e657b65362b787352f784",
+        "3e447487aaea1cc6a1f9b7e0"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/germany-carsten-breuer-nato-military-committee",
-          "headline": "Germany’s top general to lead NATO’s highest military authority",
-          "published_at": "2026-09-19T15:33:03Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east/20260920-iran-closes-french-language-centre-in-tehran-for-illegal-acts",
+          "headline": "Iran closes French language centre in Tehran for ‘illegal acts’",
+          "published_at": "2026-09-20T13:46:00Z"
         }
       ],
       "source_count": 1
@@ -168,6 +169,21 @@
       ]
     },
     {
+      "label": "authority · general · Germany · highest",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-09-19T15:33:03Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/germany-carsten-breuer-nato-military-committee",
+          "headline": "Germany’s top general to lead NATO’s highest military authority",
+          "published_at": "2026-09-19T15:33:03Z"
+        }
+      ]
+    },
+    {
       "label": "attack · drone · hits · major",
       "origin": "radar",
       "source_count": 1,
@@ -179,21 +195,6 @@
           "url": "https://www.france24.com/en/ukraine-hits-russia-with-major-drone-attack-targetting-refinery",
           "headline": "Ukraine hits Russia with major drone attack, targetting refinery",
           "published_at": "2026-09-20T10:24:57Z"
-        }
-      ]
-    },
-    {
-      "label": "alliance · attack · false · flag",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-09-19T14:23:32Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/nato-ready-russia-false-flag-attack-giuseppe-cavo-dragone",
-          "headline": "NATO ‘ready’ for potential Russian false flag attack, alliance’s top general says",
-          "published_at": "2026-09-19T14:23:32Z"
         }
       ]
     },
@@ -214,6 +215,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "8f3e657b65362b787352f784",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Iran closes French language centre in Tehran for ‘illegal acts’",
+      "url": "https://www.france24.com/en/middle-east/20260920-iran-closes-french-language-centre-in-tehran-for-illegal-acts",
+      "published_at": "2026-09-20T13:46:00Z",
+      "collected_at": "2026-09-20T14:30:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "5ec94af6e0d3edb4ec3baf57",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "The week in pictures: Syria protests, Céline Dion on stage and Quito wildfires",
+      "url": "https://www.france24.com/en/middle-east/20260920-the-week-in-pictures-syria-protests-c%C3%A9line-dion-on-stage-and-quito-wildfires",
+      "published_at": "2026-09-20T13:15:57Z",
+      "collected_at": "2026-09-20T14:30:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "c6305d35292e47e56bf94775",
       "source_id": "france24",
@@ -929,34 +958,6 @@
       ]
     },
     {
-      "id": "c499b28c6dd27a1dbcdc23a3",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "China is now Rwanda’s biggest export market – now comes the hard part",
-      "url": "https://www.france24.com/en/video/20260919-china-is-now-rwanda-s-biggest-export-market-%E2%80%93-now-comes-the-hard-part",
-      "published_at": "2026-09-19T13:30:55Z",
-      "collected_at": "2026-09-19T14:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e1cf2c5784d874d6848acf4f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France's Macron hosts Canadian PM Carney amid US tensions",
-      "url": "https://www.france24.com/en/france-s-macron-hosts-canadian-pm-carney-amid-us-tensions",
-      "published_at": "2026-09-19T13:25:22Z",
-      "collected_at": "2026-09-19T14:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "be4ec3df31655b1782ffdcd9",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -996,6 +997,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "8f1c3c7cc28ec554d9d444e7",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Scene set for verbal punch-up at UN in New York, as Trump and Netanyahu face critics from EU and further afield",
+      "url": "https://euobserver.com/238403/scene-set-for-verbal-punch-up-at-un-in-new-york-as-trump-and-netanyahu-face-critics-from-eu-and-further-afield",
+      "published_at": "2026-09-18T13:34:47Z",
+      "collected_at": "2026-09-20T14:30:41Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -1363,6 +1378,20 @@
       ]
     },
     {
+      "id": "31d5e14ea4eac1efdce01c5a",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The online network that offers jobs in Russia and sends people to fight in the war in Ukraine",
+      "url": "https://english.elpais.com/international/2026-09-16/the-online-network-that-offers-jobs-in-russia-and-sends-people-to-fight-in-the-war-in-ukraine.html",
+      "published_at": "2026-09-16T11:59:44Z",
+      "collected_at": "2026-09-20T14:30:41Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "e87c5a69abd9c89ffae0163e",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1724,6 +1753,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "2bd90210d81819e1457413bf",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Nacho Valle, the gallerist who traded art for sardines in New York",
+      "url": "https://english.elpais.com/culture/2026-09-10/nacho-valle-the-gallerist-who-traded-art-for-sardines-in-new-york.html",
+      "published_at": "2026-09-10T12:52:48Z",
+      "collected_at": "2026-09-20T14:30:41Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
