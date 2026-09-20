@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-20T16:30:45Z",
-  "last_successful_collection_at": "2026-09-20T16:30:45Z",
+  "generated_at": "2026-09-20T17:00:52Z",
+  "last_successful_collection_at": "2026-09-20T17:00:52Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-20T16:30:45Z"
+      "at": "2026-09-20T17:00:52Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-09-20T16:30:45Z"
+      "at": "2026-09-20T17:00:52Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-20T16:30:45Z"
+      "at": "2026-09-20T17:00:52Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,94 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-20T16:30:45Z"
+      "at": "2026-09-20T17:00:52Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-20T16:30:45Z"
+      "at": "2026-09-20T17:00:52Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-09-20T16:30:45Z"
+      "at": "2026-09-20T17:00:52Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-20T16:30:45Z"
+      "at": "2026-09-20T17:00:52Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-20T16:30:45Z"
+      "at": "2026-09-20T17:00:52Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-20T16:30:45Z"
+      "at": "2026-09-20T17:00:52Z"
     }
   ],
   "europe_now": [
     {
+      "title": "German Regional Elections and Political Fallout",
+      "summary": "Germany's far-right AfD made strong gains in two key state elections, dealing a severe blow to Chancellor Friedrich Merz. Merz admitted the outcome was a disaster while vowing to press ahead with ongoing reforms.",
+      "article_ids": [
+        "d77434baf3efa8cb56d8fbcc",
+        "6f28caf3110a99029cf51171",
+        "e9bc3384d20cf497bfd8e154",
+        "aac63e18f191d83f7e21427f"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260920-germany-s-far-right-afd-makes-strong-gains-in-two-state-elections",
+          "headline": "Germany’s far-right AfD makes strong gains in two state elections",
+          "published_at": "2026-09-20T16:23:34Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/germany-far-right-secures-another-win-in-key-regional-election-exit-poll-says",
+          "headline": "Germany’s far right secures another win in key regional election, exit poll says",
+          "published_at": "2026-09-20T16:12:54Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Ukraine Drone Attack on Moscow",
+      "summary": "Ukraine launched an unprecedented drone barrage targeting Moscow, with officials describing it as the largest attack on the Russian capital. The massive strikes coincided with the final day of regional elections across Russia.",
+      "article_ids": [
+        "f5f727be675799f72253d5e4",
+        "649401e920af2f25df18417c",
+        "03df1ce2d56d2a227dd9fdee"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ukraine-fires-over-1-000-drones-at-russia-in-largest-ever-attack-on-moscow",
+          "headline": "Ukraine fires over 1,000 drones at Russia in \"largest ever\" attack on Moscow",
+          "published_at": "2026-09-20T14:46:52Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
+          "headline": "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
+          "published_at": "2026-09-20T10:45:39Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
       "title": "German Regional Elections",
-      "summary": "Germany's far-right AfD party has secured notable victories and strong gains in two key state elections. These regional ballot outcomes present renewed political pressure and a potential major blow for Chancellor Friedrich Merz.",
+      "summary": "Voters in Germany participated in crucial state elections that posed a major political challenge for Chancellor Friedrich Merz. The far-right AfD party secured significant victories in the regional ballots.",
       "article_ids": [
         "d77434baf3efa8cb56d8fbcc",
         "e9bc3384d20cf497bfd8e154"
@@ -87,8 +138,8 @@
       "source_count": 2
     },
     {
-      "title": "Massive Drone Attack on Moscow",
-      "summary": "Ukraine launched an extensive drone barrage targeting Moscow as the final day of Russian elections concluded. The large-scale military operation included hundreds of drones hitting targets such as a local refinery.",
+      "title": "Ukraine Drone Strike on Moscow",
+      "summary": "Ukraine carried out a massive drone assault targeting areas around Moscow during the closing hours of Russian elections. The coordinated attacks represent one of the most extensive aerial incursions into the Russian capital.",
       "article_ids": [
         "f5f727be675799f72253d5e4",
         "03df1ce2d56d2a227dd9fdee"
@@ -110,76 +161,7 @@
       "source_count": 2
     }
   ],
-  "top_stories": [
-    {
-      "title": "German Regional Elections and Political Fallout",
-      "summary": "Voters across two German states participated in regional elections that could determine the political fate of Chancellor Friedrich Merz. Exit polls indicate that the far-right Alternative for Germany achieved significant electoral success in these contests.",
-      "article_ids": [
-        "d77434baf3efa8cb56d8fbcc",
-        "e9bc3384d20cf497bfd8e154"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260920-germany-s-far-right-afd-makes-strong-gains-in-two-state-elections",
-          "headline": "Germany’s far-right AfD makes strong gains in two state elections",
-          "published_at": "2026-09-20T16:23:34Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/germany-far-right-secures-another-win-in-key-regional-election-exit-poll-says",
-          "headline": "Germany’s far right secures another win in key regional election, exit poll says",
-          "published_at": "2026-09-20T16:12:54Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Ukraine Drone Strike During Russian Elections",
-      "summary": "Ukrainian forces executed a massive drone assault targeting Moscow and an oil refinery on the final day of voting in Russia. Officials described the offensive as a remarkably large aerial operation conducted amid ongoing regional conflict.",
-      "article_ids": [
-        "f5f727be675799f72253d5e4",
-        "649401e920af2f25df18417c"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ukraine-fires-over-1-000-drones-at-russia-in-largest-ever-attack-on-moscow",
-          "headline": "Ukraine fires over 1,000 drones at Russia in \"largest ever\" attack on Moscow",
-          "published_at": "2026-09-20T14:46:52Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
-          "headline": "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
-          "published_at": "2026-09-20T10:45:39Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
   "developing": [
-    {
-      "label": "German · Merz · elections · fresh",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-09-20T14:56:15Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/afd-threatens-fresh-blow-to-merz-two-german-states-hold-key-vote",
-          "headline": "AfD threatens fresh blow to Merz: Two German states hold key vote",
-          "published_at": "2026-09-20T14:56:15Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cme8xj6g2ny7o?at_medium=RSS&at_campaign=rss",
-          "headline": "German elections under way which could decide fate of Chancellor Merz",
-          "published_at": "2026-09-20T07:57:32Z"
-        }
-      ]
-    },
     {
       "label": "Deal · Greenland · security · Trump",
       "origin": "convergence",
@@ -217,6 +199,21 @@
       ]
     },
     {
+      "label": "blow · fresh · German · hold",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-09-20T14:56:15Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/afd-threatens-fresh-blow-to-merz-two-german-states-hold-key-vote",
+          "headline": "AfD threatens fresh blow to Merz: Two German states hold key vote",
+          "published_at": "2026-09-20T14:56:15Z"
+        }
+      ]
+    },
+    {
       "label": "attack · drone · hits · major",
       "origin": "radar",
       "source_count": 1,
@@ -248,6 +245,20 @@
       ]
     },
     {
+      "id": "6f28caf3110a99029cf51171",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Germany’s Merz admits ‘disaster’ in state elections, vows to press ahead with reforms",
+      "url": "https://www.france24.com/en/europe/20260920-germany-s-far-right-afd-makes-strong-gains-in-two-state-elections",
+      "published_at": "2026-09-20T16:23:34Z",
+      "collected_at": "2026-09-20T17:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "e9bc3384d20cf497bfd8e154",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -255,6 +266,20 @@
       "url": "https://www.politico.eu/article/germany-far-right-secures-another-win-in-key-regional-election-exit-poll-says",
       "published_at": "2026-09-20T16:12:54Z",
       "collected_at": "2026-09-20T16:30:45Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "aac63e18f191d83f7e21427f",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Merz calls regional election ‘disaster’ as German far right heads for 2nd win",
+      "url": "https://www.politico.eu/article/germany-far-right-secures-another-win-in-key-regional-election-exit-poll-says",
+      "published_at": "2026-09-20T16:12:54Z",
+      "collected_at": "2026-09-20T17:00:52Z",
       "topics": [
         "institutions",
         "politics",
