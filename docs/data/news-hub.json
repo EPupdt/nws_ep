@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-21T09:30:45Z",
-  "last_successful_collection_at": "2026-09-21T09:30:45Z",
+  "generated_at": "2026-09-21T10:00:53Z",
+  "last_successful_collection_at": "2026-09-21T10:00:53Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-21T09:30:45Z"
+      "at": "2026-09-21T10:00:53Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "25",
-      "at": "2026-09-21T09:30:45Z"
+      "count": "26",
+      "at": "2026-09-21T10:00:53Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-21T09:30:45Z"
+      "at": "2026-09-21T10:00:53Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-21T09:30:45Z"
+      "at": "2026-09-21T10:00:53Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-21T09:30:45Z"
+      "at": "2026-09-21T10:00:53Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-09-21T09:30:45Z"
+      "at": "2026-09-21T10:00:53Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-21T09:30:45Z"
+      "at": "2026-09-21T10:00:53Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-21T09:30:45Z"
+      "at": "2026-09-21T10:00:53Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-21T09:30:45Z"
+      "at": "2026-09-21T10:00:53Z"
     }
   ],
   "europe_now": [
     {
       "title": "German Regional Elections",
-      "summary": "Germany's CDU experienced a significant defeat in recent regional elections, highlighting shifting political dynamics across the country.",
+      "summary": "Germany's regional elections saw significant political shifts and notable gains for the far-right alongside a sharp defeat for the Christian Democratic Union. Observers and analysts are closely evaluating the broader federal ramifications following the vote.",
       "article_ids": [
-        "1571e8d14d6c509d28086395"
+        "1571e8d14d6c509d28086395",
+        "ca72a48ede19ec8409427ebd"
       ],
       "sources": [
         {
@@ -75,13 +76,44 @@
           "url": "https://www.france24.com/en/germany-cdu-suffers-a-crushing-defeat-in-the-regional-elections",
           "headline": "Germany: CDU suffers a crushing defeat in the regional elections",
           "published_at": "2026-09-21T08:44:16Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260921-five-takeaways-from-germany-s-regional-elections-after-far-right-gains",
+          "headline": "Five takeaways from Germany's regional elections after far-right gains",
+          "published_at": "2026-09-21T06:47:54Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "EU Legislation Pause",
-      "summary": "Eleven European countries have joined forces to push for a pause on the introduction of new European Union laws.",
+      "title": "Escalation in Ukraine-Russia Conflict",
+      "summary": "The ongoing conflict between Russia and Ukraine escalated further as Russian forces struck cargo vessels and port infrastructure following widespread drone attacks. Meanwhile, the ruling party in Russia maintained dominance in controlled electoral proceedings.",
+      "article_ids": [
+        "333bb745105e938089ed9a2f",
+        "0ccefabe633ed69039dcba1c"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260921-live-united-russia-dominates-in-elections-moscow-vows-revenge-after-massive-drone-attack",
+          "headline": "Live: Putin's party dominates in elections, Moscow vows revenge after massive drone attack",
+          "published_at": "2026-09-21T02:28:32Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260921-live-united-russia-dominates-in-elections-moscow-vows-revenge-after-massive-drone-attack",
+          "headline": "Live: Russia says it hit Ukrainian cargo vessels, Izmail port and logistics centre",
+          "published_at": "2026-09-21T02:28:32Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "EU Law Pause Push",
+      "summary": "A coalition of eleven countries is pushing for a formal pause on new European Union legislation. The initiative highlights growing political friction regarding the pace and scope of upcoming regulatory policies.",
       "article_ids": [
         "489efdecc591acb2459cdf72"
       ],
@@ -94,44 +126,19 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Russian Elections and Security",
-      "summary": "The ruling party in Russia maintained dominance in recent elections following a series of significant drone strikes. Authorities in Moscow have subsequently vowed retaliation in response to the attacks.",
-      "article_ids": [
-        "15282b0d592015f89f0fbc67",
-        "333bb745105e938089ed9a2f"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/russia-kremlin-party-dominates-controlled-vote",
-          "headline": "Russia: Kremlin party dominates controlled vote",
-          "published_at": "2026-09-21T08:52:25Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260921-live-united-russia-dominates-in-elections-moscow-vows-revenge-after-massive-drone-attack",
-          "headline": "Live: Putin's party dominates in elections, Moscow vows revenge after massive drone attack",
-          "published_at": "2026-09-21T02:28:32Z"
-        }
-      ],
-      "source_count": 1
     },
     {
-      "title": "Pope Francis Visit to France",
-      "summary": "Pope Leo is scheduled to visit France amid ongoing legal and social discussions surrounding abortion and euthanasia. The visit brings the pontiff into a prominently secular nation with views differing from Catholic doctrine.",
+      "title": "France-Canada Diplomatic Ties",
+      "summary": "French and Canadian leaders met at a symbolic archipelago location to inaugurate a new chapter in bilateral relations. Both officials emphasized deeper cooperation and alignment across regional and international security matters.",
       "article_ids": [
-        "5b5d38c8372a644b4def6c24"
+        "41d5df1e80648417f8940536"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260921-pope-leo-xiv-in-france-to-find-secular-country-at-odds-with-catholic-views-on-abortion-euthanasia",
-          "headline": "Pope Leo to visit a secular France at odds with Catholic views on abortion, euthanasia",
-          "published_at": "2026-09-21T09:14:05Z"
+          "url": "https://www.france24.com/en/video/20260921-macron-and-carney-hail-new-chapter-in-france-canada-ties-at-symbolic-archipelago-meeting",
+          "headline": "Macron, Carney hail new chapter in France-Canada ties at symbolic archipelago meeting",
+          "published_at": "2026-09-21T02:16:58Z"
         }
       ],
       "source_count": 1
@@ -156,6 +163,27 @@
           "url": "https://www.france24.com/en/tv-shows/business/20260921-us-china-discuss-ai-dialogue-mechanism-and-trade-ahead-of-trump-xi-summit",
           "headline": "US, China discuss AI dialogue mechanism and trade ahead of Trump-XI summit",
           "published_at": "2026-09-21T08:30:28Z"
+        }
+      ]
+    },
+    {
+      "label": "Russia · party · drone · elections",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-09-21T08:52:25Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/russia-kremlin-party-dominates-controlled-vote",
+          "headline": "Russia: Kremlin party dominates controlled vote",
+          "published_at": "2026-09-21T08:52:25Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cx4gqv239043o?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia's elections had few surprises - but how the Kremlin uses the results will be crucial",
+          "published_at": "2026-09-21T00:05:11Z"
         }
       ]
     },
@@ -198,27 +226,6 @@
           "url": "https://www.france24.com/en/ukraine-hits-russia-with-major-drone-attack-targetting-refinery",
           "headline": "Ukraine hits Russia with major drone attack, targetting refinery",
           "published_at": "2026-09-20T10:24:57Z"
-        }
-      ]
-    },
-    {
-      "label": "ICE · Texas",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-09-21T09:03:04Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/protests-erupt-after-ice-shooting-in-texas",
-          "headline": "Protests erupt after ICE shooting in Texas",
-          "published_at": "2026-09-21T09:03:04Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-09-21/ice-agent-shoots-and-wounds-venezuelan-migrant-in-texas.html",
-          "headline": "ICE agent shoots and wounds Venezuelan migrant in Texas",
-          "published_at": "2026-09-21T07:47:24Z"
         }
       ]
     }
@@ -586,6 +593,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "d2d5cceaa1871dc7e28548c7",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "UK should 'team up' with Canada in new Europe alliance, Canadian minister tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cmed7p06epxjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-21T04:00:38Z",
+      "collected_at": "2026-09-21T10:00:53Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -1429,20 +1450,6 @@
       ]
     },
     {
-      "id": "03df1ce2d56d2a227dd9fdee",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Massive Ukrainian drone attack hits Moscow on last day of Russian elections",
-      "url": "https://www.politico.eu/article/ukraine-drone-attack-moscow-elections",
-      "published_at": "2026-09-20T09:23:27Z",
-      "collected_at": "2026-09-20T09:30:47Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "29ecd57c94285f1350700885",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1481,20 +1488,6 @@
       "topics": [
         "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "61be9b43c4e788d3a80ab799",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French police arrest two Germans after 'for fun' Louvre stunt in Mona Lisa hall",
-      "url": "https://www.france24.com/en/france/20260919-two-arrested-for-louvre-stunt-for-fun-in-mona-lisa-hall",
-      "published_at": "2026-09-19T20:45:00Z",
-      "collected_at": "2026-09-20T09:30:47Z",
-      "topics": [
-        "politics",
-        "security",
         "society"
       ]
     },
@@ -1877,48 +1870,6 @@
       ]
     },
     {
-      "id": "88dc2c5da9d16f310c1e0dcc",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Russia planning “accidental” strikes on eastern NATO states, warns Poland",
-      "url": "https://notesfrompoland.com/2026/09/18/russia-planning-accidental-strikes-on-eastern-nato-states-warns-poland",
-      "published_at": "2026-09-18T09:09:39Z",
-      "collected_at": "2026-09-20T09:30:47Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "a5adfcfc9eb3cdf35a563ebd",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Berlin election shows how the EU turns its most mobile citizens into second‑class voters",
-      "url": "https://euobserver.com/237623/berlin-election-shows-how-the-eu-turns-its-most-mobile-citizens-into-secondclass-voters",
-      "published_at": "2026-09-18T08:33:27Z",
-      "collected_at": "2026-09-20T09:30:47Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "99224a25210eea8459641f86",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Warm words on Canada's EU 'associate membership' but no guarantees",
-      "url": "https://www.bbc.co.uk/news/articles/crlyqg1ekj4po?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-17T16:59:43Z",
-      "collected_at": "2026-09-20T09:30:47Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "b80404ec399c31c2f0206dc6",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2199,20 +2150,6 @@
       ]
     },
     {
-      "id": "90855423dcc1bd109fe7b75e",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "China overtakes Germany as Poland’s biggest source of imports for first time",
-      "url": "https://notesfrompoland.com/2026/09/16/china-overtakes-germany-as-polands-biggest-source-of-imports-for-first-time",
-      "published_at": "2026-09-16T08:04:09Z",
-      "collected_at": "2026-09-20T09:30:47Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "d7d245f31eb055aeacc189f9",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2336,20 +2273,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "24ec7b8a93975641da3e6fb3",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Why a fresh wave of North Korean soldiers may fight in Russia's war in Ukraine",
-      "url": "https://www.bbc.co.uk/news/articles/cgl7zrnxxy6o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-13T23:16:33Z",
-      "collected_at": "2026-09-20T09:30:47Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
