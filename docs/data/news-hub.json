@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-22T05:00:56Z",
-  "last_successful_collection_at": "2026-09-22T05:00:56Z",
+  "generated_at": "2026-09-22T05:30:41Z",
+  "last_successful_collection_at": "2026-09-22T05:30:41Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-22T05:00:56Z"
+      "at": "2026-09-22T05:30:41Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-09-22T05:00:56Z"
+      "at": "2026-09-22T05:30:41Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-22T05:00:56Z"
+      "at": "2026-09-22T05:30:41Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-22T05:00:56Z"
+      "at": "2026-09-22T05:30:41Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-22T05:00:56Z"
+      "at": "2026-09-22T05:30:41Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-09-22T05:00:56Z"
+      "at": "2026-09-22T05:30:41Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-22T05:00:56Z"
+      "at": "2026-09-22T05:30:41Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-22T05:00:56Z"
+      "at": "2026-09-22T05:30:41Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-22T05:00:56Z"
+      "at": "2026-09-22T05:30:41Z"
     }
   ],
   "europe_now": [
     {
-      "title": "EU Sanctions Policy on Russian Oligarchs",
-      "summary": "European Union member states failed to reach an agreement regarding the potential lifting of sanctions on Russian oligarchs. The discussions highlight ongoing divisions within the bloc concerning diplomatic and punitive measures against Russia.",
+      "title": "EU Imposes Multi-Million Euro Penalty on Google",
+      "summary": "European authorities have issued a €403 million fine against Google for the improper handling of location data. The enforcement action underscores ongoing regulatory scrutiny of major technology corporations within the European Union.",
+      "article_ids": [
+        "8544ba5c828f3ae5b23cd67a"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260921-eu-fines-google-%E2%82%AC403-million-for-improperly-using-location-data",
+          "headline": "EU fines Google €403 million for improperly using location data",
+          "published_at": "2026-09-21T15:05:05Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Sanctions Stalemate and Security Discussions",
+      "summary": "European Union member states were unable to reach an agreement regarding the lifting of sanctions currently imposed on Russian oligarchs. Meanwhile, regional leaders continue to deliberate on strategic security responses and diplomatic alignment.",
       "article_ids": [
         "a3ed123abf7b55a10f70166e"
       ],
@@ -82,8 +98,8 @@
   ],
   "top_stories": [
     {
-      "title": "European Union Google Penalty",
-      "summary": "The European Union has imposed a fine of €403 million on Google for the improper handling of user location data. Regulatory authorities found that the company's practices breached established European data privacy laws.",
+      "title": "European Technology Enforcement",
+      "summary": "The European Union levied a fine of €403 million against Google for violating regulations regarding location data use. This penalty highlights the bloc's continuous commitment to enforcing strict compliance standards for multinational tech companies.",
       "article_ids": [
         "8544ba5c828f3ae5b23cd67a"
       ],
@@ -96,29 +112,6 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "German Political Challenges",
-      "summary": "Friedrich Merz faces intense political pressure following recent regional election setbacks for German conservatives. Observers are evaluating how these electoral losses will impact national economic reforms and government stability.",
-      "article_ids": [
-        "82ec3d932bb3c66dbabb7fe2",
-        "0d193e8c6625a01bca96a059"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/merz-s-election-setback-what-it-means-for-germany",
-          "headline": "Merz’s election setback: What it means for Germany?",
-          "published_at": "2026-09-21T15:02:19Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/angela-merkel-friedrich-merz-german-conservatives-election-losses",
-          "headline": "Merkel sidesteps German conservatives’ election losses as pressure mounts on Merz",
-          "published_at": "2026-09-21T19:52:04Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "developing": [
@@ -150,6 +143,27 @@
       ]
     },
     {
+      "label": "Merz · election · German · conservatives",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 6,
+      "latest_at": "2026-09-21T19:52:04Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/angela-merkel-friedrich-merz-german-conservatives-election-losses",
+          "headline": "Merkel sidesteps German conservatives’ election losses as pressure mounts on Merz",
+          "published_at": "2026-09-21T19:52:04Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/merz-s-election-setback-what-it-means-for-germany",
+          "headline": "Merz’s election setback: What it means for Germany?",
+          "published_at": "2026-09-21T15:02:19Z"
+        }
+      ]
+    },
+    {
       "label": "EU · deal · countries · Russia",
       "origin": "convergence",
       "source_count": 2,
@@ -171,49 +185,42 @@
       ]
     },
     {
-      "label": "war · Russia · Trump · Ukraine",
+      "label": "Trump · Macron · Putin",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 3,
-      "latest_at": "2026-09-21T16:41:08Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russia-has-lost-control-of-its-oil-sector-trump-says",
-          "headline": "Russia has ‘lost control’ of its oil industry due to Ukraine war, says Trump",
-          "published_at": "2026-09-21T16:41:08Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/238701/what-ukraine-fired-at-moscow-on-sunday-in-its-largest-air-raid-since-the-war-began-ukraine-battlefield-update-day-1670",
-          "headline": "What Ukraine fired at Moscow on Sunday, in its largest air-raid since the war began (Ukraine Battlefield update, Day 1,670)",
-          "published_at": "2026-09-21T13:54:04Z"
-        }
-      ]
-    },
-    {
-      "label": "amid · France · Fuel · price",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-09-21T14:39:19Z",
+      "latest_at": "2026-09-22T05:27:00Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-government-hosts-energy-meeting-amid-fuel-price-tensions",
-          "headline": "France: Government hosts energy meeting amid fuel price tensions",
-          "published_at": "2026-09-21T14:39:19Z"
+          "url": "https://www.france24.com/en/video/20260922-macron-has-been-trying-to-convince-trump-to-take-a-harder-line-on-putin",
+          "headline": "'Macron has been trying to convince Trump to take a harder line on Putin'",
+          "published_at": "2026-09-22T05:27:00Z"
         },
         {
           "publisher": "EUobserver",
-          "url": "https://euobserver.com/238591/listen-fuel-price-spike-reignites-push-for-eu-windfall-tax-on-oil-and-gas-profits",
-          "headline": "Listen: Fuel price spike reignites push for EU windfall tax on oil and gas profits",
-          "published_at": "2026-09-21T07:25:08Z"
+          "url": "https://euobserver.com/238663/germany-offers-a-warning-for-europe-ahead-of-2027-election-year-the-putin-trump-security-crisis-wont-necessarily-save-the-political-centre",
+          "headline": "Germany offers a warning for Europe ahead of 2027 election year: the Putin/Trump security crisis won’t necessarily save the political centre",
+          "published_at": "2026-09-21T11:29:26Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "4b72e0d8368ca586998b2af9",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'Macron has been trying to convince Trump to take a harder line on Putin'",
+      "url": "https://www.france24.com/en/video/20260922-macron-has-been-trying-to-convince-trump-to-take-a-harder-line-on-putin",
+      "published_at": "2026-09-22T05:27:00Z",
+      "collected_at": "2026-09-22T05:30:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "e319cc819be1f6e0d48016a0",
       "source_id": "politico_europe",
