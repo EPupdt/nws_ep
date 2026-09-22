@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-22T19:00:57Z",
-  "last_successful_collection_at": "2026-09-22T19:00:57Z",
+  "generated_at": "2026-09-22T19:30:44Z",
+  "last_successful_collection_at": "2026-09-22T19:30:44Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-22T19:00:57Z"
+      "at": "2026-09-22T19:30:44Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-22T19:00:57Z"
+      "at": "2026-09-22T19:30:44Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-22T19:00:57Z"
+      "at": "2026-09-22T19:30:44Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,67 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-22T19:00:57Z"
+      "at": "2026-09-22T19:30:44Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-22T19:00:57Z"
+      "at": "2026-09-22T19:30:44Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-09-22T19:00:57Z"
+      "at": "2026-09-22T19:30:44Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-22T19:00:57Z"
+      "at": "2026-09-22T19:30:44Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-22T19:00:57Z"
+      "at": "2026-09-22T19:30:44Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-22T19:00:57Z"
+      "at": "2026-09-22T19:30:44Z"
     }
   ],
   "europe_now": [
     {
-      "title": "US Military Bases in Greenland",
-      "summary": "Denmark and the United States have signed a security agreement that involves building two military bases in Greenland. The announcement highlights significant developments in Arctic security and bilateral defense cooperation.",
+      "title": "EU Sanctions Decision",
+      "summary": "The European Union has removed certain Russian billionaires and oligarchs from its sanctions list, prompting immediate anger and criticism from Ukrainian officials and European allies.",
+      "article_ids": [
+        "406277c67e7b867377583c7b",
+        "b39db21f1f65297ab92b3a9c",
+        "0ccce7065d80efcd7ec78966"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6dj4k98107do?at_medium=RSS&at_campaign=rss",
+          "headline": "Ukraine anger as EU removes Russian oligarchs from sanctions list",
+          "published_at": "2026-09-22T19:06:06Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-removes-two-russian-billionaires-from-sanctions-list",
+          "headline": "EU removes two Russian billionaires from sanctions list",
+          "published_at": "2026-09-22T14:58:32Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Greenland Security Agreement",
+      "summary": "Denmark and the United States have signed a new security agreement that includes plans for the US to build two military bases in Greenland.",
       "article_ids": [
         "a341f03738a8c17289171179",
         "ceb7d304dd5678554bc32f6b"
@@ -85,10 +109,12 @@
         }
       ],
       "source_count": 2
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "US Fighter Jet Crash in Germany",
-      "summary": "A United States military aircraft has crashed near the Spangdahlem air base in western Germany. Emergency responses and investigations into the incident are currently underway at the military facility.",
+      "title": "US Military Aircraft Incident in Germany",
+      "summary": "A military aircraft crashed at an air base located in western Germany. Emergency responses and investigations followed the incident near the Spangdahlem facility.",
       "article_ids": [
         "c1cb9453b54de76ceeef26f3",
         "e4888b9f0f2bf31beabc981f",
@@ -109,54 +135,22 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Greenland Security Agreement",
-      "summary": "Denmark and the United States have finalized a new security pact concerning Greenland. The agreement includes provisions for the construction of two military bases.",
-      "article_ids": [
-        "a341f03738a8c17289171179",
-        "ceb7d304dd5678554bc32f6b"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
-          "headline": "US to build two military bases in Greenland under new deal with Denmark",
-          "published_at": "2026-09-22T18:43:29Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/donald-trump-signs-fantastic-greenland-security-deal-denmark",
-          "headline": "Trump signs ‘fantastic’ Greenland security deal with Denmark",
-          "published_at": "2026-09-22T16:28:08Z"
-        }
-      ],
-      "source_count": 2
     },
     {
-      "title": "Military Aircraft Incident in Germany",
-      "summary": "A United States fighter jet has crashed near an air base located in western Germany. Authorities responded to the site following the aviation incident.",
+      "title": "French Energy Subsidies",
+      "summary": "France has decided to extend its fuel subsidies in order to help protect consumers from rising energy costs. This policy response comes amid broader European concerns regarding high energy prices and fiscal pressures.",
       "article_ids": [
-        "c1cb9453b54de76ceeef26f3",
-        "e4888b9f0f2bf31beabc981f"
+        "b49304e830a82f75a8508b98"
       ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/us-fighter-jet-crash-spangdahlem-air-base-germany",
-          "headline": "US fighter jet crashes at air base in western Germany",
-          "published_at": "2026-09-22T16:27:57Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/spangdahlem-military-aircraft-crashes-near-us-air-base/a-79376025?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Spangdahlem: Military aircraft crashes near US air base",
-          "published_at": "2026-09-22T14:12:00Z"
+          "url": "https://www.politico.eu/article/france-extend-fuel-subsidies-consumers-energy-prices",
+          "headline": "France extends fuel subsidies to shield consumers from skyrocketing energy prices",
+          "published_at": "2026-09-22T16:54:12Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     }
   ],
   "developing": [
@@ -215,33 +209,6 @@
       ]
     },
     {
-      "label": "EU · sanctions · Russian · oligarch",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 7,
-      "latest_at": "2026-09-22T18:00:00Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/238997/bullies-cannot-be-appeasedpressure-mounts-on-eu-to-shield-icc-from-new-us-sanctions",
-          "headline": "‘Bullies cannot be appeased’: Pressure mounts on EU to shield ICC from new US sanctions",
-          "published_at": "2026-09-22T18:00:00Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-removes-two-russian-billionaires-from-sanctions-list",
-          "headline": "EU removes two Russian billionaires from sanctions list",
-          "published_at": "2026-09-22T14:58:32Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260922-us-threatens-south-sudan-with-sanctions-over-aid-obstruction",
-          "headline": "US threatens South Sudan with sanctions over aid obstruction",
-          "published_at": "2026-09-22T13:34:04Z"
-        }
-      ]
-    },
-    {
       "label": "EU · fuel · prices · energy",
       "origin": "convergence",
       "source_count": 3,
@@ -267,9 +234,58 @@
           "published_at": "2026-09-22T08:28:22Z"
         }
       ]
+    },
+    {
+      "label": "AI · global · G20 · Trump",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-09-22T16:07:35Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/09/22/trump-rejects-global-entity-ai-oversight-01087546",
+          "headline": "Trump rejects global entity for AI oversight",
+          "published_at": "2026-09-22T16:07:35Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-09-22/you-fear-it-i-love-it-the-trumpxi-summit-will-address-ai-with-opposite-mindsets.html",
+          "headline": "You fear it, I love it: the Trump–Xi summit will address AI with opposite mindsets",
+          "published_at": "2026-09-22T13:33:27Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "0fb77944fd875f88a8f2d2de",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "British PM asks Trump to bring up Jimmy Lai with Xi",
+      "url": "https://www.politico.com/news/2026/09/22/trump-burnham-xi-lai-01087922",
+      "published_at": "2026-09-22T19:10:35Z",
+      "collected_at": "2026-09-22T19:30:44Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "406277c67e7b867377583c7b",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Ukraine anger as EU removes Russian oligarchs from sanctions list",
+      "url": "https://www.bbc.co.uk/news/articles/c6dj4k98107do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-22T19:06:06Z",
+      "collected_at": "2026-09-22T19:30:44Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "a341f03738a8c17289171179",
       "source_id": "bbc_europe",
@@ -2539,20 +2555,6 @@
       ]
     },
     {
-      "id": "56855e282be1b6a126370e6e",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Global warming slowly brought about the catastrophic collapse of the Nepalese glacier",
-      "url": "https://english.elpais.com/climate/2026-09-17/global-warming-slowly-brought-about-the-catastrophic-collapse-of-the-nepalese-glacier.html",
-      "published_at": "2026-09-17T17:33:15Z",
-      "collected_at": "2026-09-21T19:00:59Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "7489095bb28e1dc92ef154e5",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2774,20 +2776,6 @@
         "central_europe",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "f07f0a19205b2c2f8fd4749c",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Who is Umar Kremlev, the Russian magnate who paid for Donald Trump Jr.’s wedding festivities?",
-      "url": "https://english.elpais.com/international/2026-09-15/who-is-umar-kremlev-the-russian-magnate-who-paid-for-donald-trump-jrs-wedding-festivities.html",
-      "published_at": "2026-09-15T11:42:56Z",
-      "collected_at": "2026-09-22T12:00:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     }
   ]
