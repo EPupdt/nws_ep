@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-23T05:00:56Z",
-  "last_successful_collection_at": "2026-09-23T05:00:56Z",
+  "generated_at": "2026-09-23T05:30:45Z",
+  "last_successful_collection_at": "2026-09-23T05:30:45Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-23T05:00:56Z"
+      "at": "2026-09-23T05:30:45Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-23T05:00:56Z"
+      "at": "2026-09-23T05:30:45Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-23T05:00:56Z"
+      "at": "2026-09-23T05:30:45Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-23T05:00:56Z"
+      "at": "2026-09-23T05:30:45Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-23T05:00:56Z"
+      "at": "2026-09-23T05:30:45Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-09-23T05:00:56Z"
+      "at": "2026-09-23T05:30:45Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-23T05:00:56Z"
+      "at": "2026-09-23T05:30:45Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-23T05:00:56Z"
+      "at": "2026-09-23T05:30:45Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-23T05:00:56Z"
+      "at": "2026-09-23T05:30:45Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Greenland Security Agreement",
-      "summary": "Denmark and the United States signed a new security agreement involving the construction of two military bases in Greenland.",
+      "title": "US and Denmark Agree on Greenland Bases",
+      "summary": "The United States and Denmark have reached a new defense agreement to establish two military bases in Greenland. This development addresses strategic Arctic security interests and highlights growing geopolitical focus on the region.",
       "article_ids": [
         "a341f03738a8c17289171179",
         "ceb7d304dd5678554bc32f6b"
@@ -87,17 +87,17 @@
       "source_count": 2
     },
     {
-      "title": "US Fighter Jet Crash in Germany",
-      "summary": "A United States fighter jet crashed at an air base located in western Germany.",
+      "title": "Ukraine Expresses Outrage Over Sanctions Removal",
+      "summary": "Ukrainian officials have voiced strong anger following the European Union's decision to remove certain Russian oligarchs from its sanctions list. The move has sparked intense debate regarding the enforcement and consistency of EU restrictive measures against Russia.",
       "article_ids": [
-        "c1cb9453b54de76ceeef26f3"
+        "406277c67e7b867377583c7b"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/us-fighter-jet-crash-spangdahlem-air-base-germany",
-          "headline": "US fighter jet crashes at air base in western Germany",
-          "published_at": "2026-09-22T16:27:57Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6dj4k98107do?at_medium=RSS&at_campaign=rss",
+          "headline": "Ukraine anger as EU removes Russian oligarchs from sanctions list",
+          "published_at": "2026-09-22T19:06:06Z"
         }
       ],
       "source_count": 1
@@ -105,85 +105,52 @@
   ],
   "top_stories": [
     {
-      "title": "Arctic Security and Defense",
-      "summary": "Denmark and the United States concluded a new defense agreement regarding Greenland. The accord outlines plans for the construction of two military bases on the island.",
+      "title": "European Energy Pressures and Subsidies",
+      "summary": "European nations are grappling with soaring energy costs as governments implement economic relief measures. France has extended targeted fuel price support to shield consumers from skyrocketing expenses.",
       "article_ids": [
-        "675fdb449bbda063fac28849",
-        "a341f03738a8c17289171179"
+        "b49304e830a82f75a8508b98",
+        "453aa38d887a1d9b914d4b13"
       ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/donald-trump-greenland-deal-explained-denmark-arctic-security",
-          "headline": "Trump’s Greenland deal, explained",
-          "published_at": "2026-09-23T02:00:00Z"
-        },
+          "url": "https://www.politico.eu/article/france-extend-fuel-subsidies-consumers-energy-prices",
+          "headline": "France extends fuel subsidies to shield consumers from skyrocketing energy prices",
+          "published_at": "2026-09-22T16:54:12Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Arctic Security and Defense",
+      "summary": "Denmark and the United States finalized a security agreement involving Greenland to construct new military bases. The pact underscores increasing strategic cooperation and defense initiatives across the Arctic region.",
+      "article_ids": [
+        "a341f03738a8c17289171179",
+        "ceb7d304dd5678554bc32f6b"
+      ],
+      "sources": [
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
           "headline": "US to build two military bases in Greenland under new deal with Denmark",
           "published_at": "2026-09-22T18:43:29Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/donald-trump-signs-fantastic-greenland-security-deal-denmark",
+          "headline": "Trump signs ‘fantastic’ Greenland security deal with Denmark",
+          "published_at": "2026-09-22T16:28:08Z"
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "Energy Costs and Economic Relief",
-      "summary": "French authorities expanded targeted fuel price measures to shield consumers from skyrocketing costs. The decisions arrive amid broader discussions across Europe regarding energy market pressures.",
-      "article_ids": [
-        "453aa38d887a1d9b914d4b13",
-        "b49304e830a82f75a8508b98"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/business/20260922-french-government-scales-up-targeted-fuel-price-relief",
-          "headline": "French government scales up targeted fuel price relief",
-          "published_at": "2026-09-22T20:54:51Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "developing": [
     {
-      "label": "EU · Russian · sanctions · oligarchs",
-      "origin": "convergence",
-      "source_count": 4,
-      "item_count": 6,
-      "latest_at": "2026-09-22T19:06:06Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c6dj4k98107do?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukraine anger as EU removes Russian oligarchs from sanctions list",
-          "published_at": "2026-09-22T19:06:06Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/238997/bullies-cannot-be-appeasedpressure-mounts-on-eu-to-shield-icc-from-new-us-sanctions",
-          "headline": "‘Bullies cannot be appeased’: Pressure mounts on EU to shield ICC from new US sanctions",
-          "published_at": "2026-09-22T18:00:00Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-removes-two-russian-billionaires-from-sanctions-list",
-          "headline": "EU removes two Russian billionaires from sanctions list",
-          "published_at": "2026-09-22T14:58:32Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260922-eu-fails-to-reach-deal-to-lift-sanctions-on-russian-oligarchs",
-          "headline": "EU fails to reach deal to lift sanctions on Russian oligarchs",
-          "published_at": "2026-09-22T10:38:21Z"
-        }
-      ]
-    },
-    {
-      "label": "UN · Trump · Iran · speech",
+      "label": "UN · Trump · World · AI",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 9,
+      "item_count": 7,
       "latest_at": "2026-09-23T03:38:58Z",
       "sources": [
         {
@@ -259,9 +226,44 @@
           "published_at": "2026-09-22T08:28:22Z"
         }
       ]
+    },
+    {
+      "label": "Assembly · General · Guterres · UN",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 7,
+      "latest_at": "2026-09-22T21:02:47Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20260922-un-secretary-general-guterres-calls-for-interdependence-in-final-general-assembly-address",
+          "headline": "Guterres pleads for 'world built on interdependence' in final General Assembly address",
+          "published_at": "2026-09-22T21:02:47Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-09-22/trump-carries-his-battles-to-the-united-nations-general-assembly.html",
+          "headline": "Trump carries his battles to the United Nations General Assembly",
+          "published_at": "2026-09-22T09:39:57Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "56dc6de48d29ee0fd5b93307",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Trump cites national security, midterms coverage to defend press ban",
+      "url": "https://www.politico.com/news/2026/09/23/trump-press-ban-brief",
+      "published_at": "2026-09-23T05:18:24Z",
+      "collected_at": "2026-09-23T05:30:45Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "e183decb04cb16b49fdd839b",
       "source_id": "politico_europe",
@@ -2097,20 +2099,6 @@
       ]
     },
     {
-      "id": "4b72e0d8368ca586998b2af9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Macron has been trying to convince Trump to take a harder line on Putin'",
-      "url": "https://www.france24.com/en/video/20260922-macron-has-been-trying-to-convince-trump-to-take-a-harder-line-on-putin",
-      "published_at": "2026-09-22T05:27:00Z",
-      "collected_at": "2026-09-22T05:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "0e665084be1c35c7763ff2ba",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2206,76 +2194,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "53c2a131d40ed7ad83b52537",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Dinosaur fossils, the latest obsession of the ultra-rich: ‘Some enjoy knowing only they can admire it’",
-      "url": "https://english.elpais.com/science-tech/2026-09-21/dinosaur-fossils-the-latest-obsession-of-the-ultra-rich-some-enjoy-knowing-only-they-can-admire-it.html",
-      "published_at": "2026-09-20T04:00:00Z",
-      "collected_at": "2026-09-22T05:00:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "e5178df681b9154db3b0571d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The Mormon church is expanding its real-estate empire across the United States: ‘They’re opportunists in a very calculated way’",
-      "url": "https://english.elpais.com/usa/2026-09-21/the-mormon-church-is-expanding-its-real-estate-empire-across-the-united-states-theyre-opportunists-in-a-very-calculated-way.html",
-      "published_at": "2026-09-20T04:00:00Z",
-      "collected_at": "2026-09-22T05:00:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "35485aaa8a68af12f73a827a",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "From Opus Dei alumni to McKinsey consultants: The clans that run Spain’s biggest companies",
-      "url": "https://english.elpais.com/economy-and-business/2026-09-21/from-opus-dei-alumni-to-mckinsey-consultants-the-clans-that-run-spains-biggest-companies.html",
-      "published_at": "2026-09-20T04:00:00Z",
-      "collected_at": "2026-09-22T05:00:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "d1dc666f3260211afedbf2df",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The epic life of Schwarzenegger, a bodybuilder-turned-legend: ‘If he had been born in the US he would be president’",
-      "url": "https://english.elpais.com/people/2026-09-21/the-epic-life-of-schwarzenegger-a-bodybuilder-turned-legend-if-he-had-been-born-in-the-us-he-would-be-president.html",
-      "published_at": "2026-09-20T04:00:00Z",
-      "collected_at": "2026-09-22T05:00:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "664e2768bd3ec0679198b1c9",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Miami’s fairy godmother for undocumented domestic workers",
-      "url": "https://english.elpais.com/usa/2026-09-21/miamis-fairy-godmother-for-undocumented-domestic-workers.html",
-      "published_at": "2026-09-20T04:00:00Z",
-      "collected_at": "2026-09-22T05:00:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
