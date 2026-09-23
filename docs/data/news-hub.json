@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-23T12:30:51Z",
-  "last_successful_collection_at": "2026-09-23T12:30:51Z",
+  "generated_at": "2026-09-23T13:00:52Z",
+  "last_successful_collection_at": "2026-09-23T13:00:52Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-23T12:30:51Z"
+      "at": "2026-09-23T13:00:52Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "24",
-      "at": "2026-09-23T12:30:51Z"
+      "count": "22",
+      "at": "2026-09-23T13:00:52Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-23T12:30:51Z"
+      "at": "2026-09-23T13:00:52Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-23T12:30:51Z"
+      "at": "2026-09-23T13:00:52Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-23T12:30:51Z"
+      "at": "2026-09-23T13:00:52Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-09-23T12:30:51Z"
+      "at": "2026-09-23T13:00:52Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-23T12:30:51Z"
+      "at": "2026-09-23T13:00:52Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-23T12:30:51Z"
+      "at": "2026-09-23T13:00:52Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-23T12:30:51Z"
+      "at": "2026-09-23T13:00:52Z"
     }
   ],
   "europe_now": [
@@ -241,28 +241,70 @@
       ]
     },
     {
-      "label": "US · President · UN",
+      "label": "Macron · UN · remarks · speech",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-09-23T10:46:26Z",
+      "item_count": 6,
+      "latest_at": "2026-09-23T11:56:17Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/us-president-warns-tehran-at-un-but-says-talks-ongoing",
-          "headline": "US President warns Tehran at UN but says talks ongoing",
-          "published_at": "2026-09-23T10:46:26Z"
+          "url": "https://www.france24.com/en/israel-denounces-macron-s-un-remarks",
+          "headline": "Israel denounces Macron's UN remarks",
+          "published_at": "2026-09-23T11:56:17Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.com/news/2026/09/22/chinese-president-arrives-in-the-u-s-with-new-energy-leverage-as-war-rattles-global-markets-01088268",
-          "headline": "Chinese president arrives in US with new energy leverage as war rattles global markets",
-          "published_at": "2026-09-22T21:26:44Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ck1l6yyg52qvo?at_medium=RSS&at_campaign=rss",
+          "headline": "Netanyahu calls Macron's remarks on West Bank in UN speech 'grotesque'",
+          "published_at": "2026-09-23T11:30:58Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "642dcda181c2ebcb56586367",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Dramatic eviction of woman aged 87 highlights Spain's housing shortage",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgy55lm8z1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-23T12:31:31Z",
+      "collected_at": "2026-09-23T13:00:52Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "7c6dddb788725a69cc645073",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Pope Leo XIV visit expected to boost Lourdes economy",
+      "url": "https://www.france24.com/en/pope-leo-xiv-visit-expected-to-boost-lourdes-economy",
+      "published_at": "2026-09-23T12:31:16Z",
+      "collected_at": "2026-09-23T13:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e35b77d471a9fd5b76c8b1a2",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Chinese beauty products prove resilient amid US-China trade war",
+      "url": "https://www.france24.com/en/chinese-beauty-products-prove-resilient-amid-us-china-trade-war",
+      "published_at": "2026-09-23T12:29:15Z",
+      "collected_at": "2026-09-23T13:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "65878851e392096130a2ffcf",
       "source_id": "politico_europe",
@@ -334,6 +376,20 @@
       ]
     },
     {
+      "id": "4c44dd4b9542852f22ff910a",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Netanyahu calls Macron's remarks on West Bank in UN speech 'grotesque'",
+      "url": "https://www.bbc.co.uk/news/articles/ck1l6yyg52qvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-23T11:30:58Z",
+      "collected_at": "2026-09-23T13:00:52Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "65085428a8af50483f70eedf",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -400,6 +456,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "bcae2470881887e12f1d19fd",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Why is Scotland the drug deaths capital of Europe?",
+      "url": "https://www.bbc.co.uk/news/videos/cqe8xkk1jk0po?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-23T10:51:33Z",
+      "collected_at": "2026-09-23T13:00:52Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -495,6 +565,20 @@
       "url": "https://www.france24.com/en/tv-shows/press-review/20260923-fresh-drilling-for-a-lost-egyptian-queen",
       "published_at": "2026-09-23T10:31:13Z",
       "collected_at": "2026-09-23T11:00:51Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "8d515b71166630bde6c58846",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "ICC convicts Central African Republic rebel leader of crimes against humanity",
+      "url": "https://www.france24.com/en/africa/20260923-icc-convicts-central-african-republic-rebel-leader-of-crimes-against-humanity",
+      "published_at": "2026-09-23T10:27:34Z",
+      "collected_at": "2026-09-23T13:00:52Z",
       "topics": [
         "politics",
         "security",
@@ -891,6 +975,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "d419263ef350e6088f4ae288",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Germany's saviour? How Klopp is looking to turn fortunes around",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmx2z3n88z77o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-23T07:00:26Z",
+      "collected_at": "2026-09-23T13:00:52Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
