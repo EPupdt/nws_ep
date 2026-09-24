@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-24T11:30:47Z",
-  "last_successful_collection_at": "2026-09-24T11:30:47Z",
+  "generated_at": "2026-09-24T12:00:59Z",
+  "last_successful_collection_at": "2026-09-24T12:00:59Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-24T11:30:47Z"
+      "at": "2026-09-24T12:00:59Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-09-24T11:30:47Z"
+      "at": "2026-09-24T12:00:59Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-24T11:30:47Z"
+      "at": "2026-09-24T12:00:59Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,55 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-24T11:30:47Z"
+      "at": "2026-09-24T12:00:59Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-24T11:30:47Z"
+      "at": "2026-09-24T12:00:59Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-24T11:30:47Z"
+      "at": "2026-09-24T12:00:59Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-24T11:30:47Z"
+      "at": "2026-09-24T12:00:59Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-24T11:30:47Z"
+      "at": "2026-09-24T12:00:59Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-24T11:30:47Z"
+      "at": "2026-09-24T12:00:59Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Suspected Sabotage at Polish Starlink Station and Danish Warnings",
-      "summary": "Poland has reported that a fire at a Starlink ground station was the result of deliberate sabotage. Meanwhile, Denmark has issued warnings regarding an escalating security threat posed by Russia.",
+      "title": "Poland attributes Starlink station fire to sabotage amid Russian threat warnings",
+      "summary": "Polish officials have declared a fire at a Starlink ground station to be an act of sabotage. Denmark has simultaneously warned of a growing Russian threat to European security.",
       "article_ids": [
-        "8732af69fdd2879c49debd6f"
+        "c986273d1d189529d720e91b",
+        "8732af69fdd2879c49debd6f",
+        "68c761d5fd5e2f866facf511"
       ],
       "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/poland-says-starlink-fire-was-sabotage",
+          "headline": "Poland says Starlink fire was sabotage",
+          "published_at": "2026-09-24T11:47:56Z"
+        },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o?at_medium=RSS&at_campaign=rss",
@@ -77,11 +85,76 @@
           "published_at": "2026-09-24T11:16:29Z"
         }
       ],
+      "source_count": 2
+    },
+    {
+      "title": "Russia intensifies missile attacks on Kyiv as winter approaches",
+      "summary": "Russian forces have launched ballistic missile strikes on Kyiv, causing damage and casualties. Ukrainian residents are preparing for a harsh winter amid escalating attacks.",
+      "article_ids": [
+        "8fa713bdc5acdb2c130c15a8"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260924-as-moscow-steps-up-attacks-kyiv-residents-brace-for-harsh-winter",
+          "headline": "Russia slams Kyiv with ballistic missiles as Ukrainians brace for harsh winter",
+          "published_at": "2026-09-24T05:31:34Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Infrastructure sabotage and hybrid threats in Eastern Europe",
+      "summary": "A Starlink ground station in Poland was damaged by a fire that authorities have labeled as sabotage. Denmark's defense ministry has warned that such incidents reflect a broader increase in Russian hybrid activity against European infrastructure.",
+      "article_ids": [
+        "c986273d1d189529d720e91b",
+        "8732af69fdd2879c49debd6f",
+        "68c761d5fd5e2f866facf511"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/poland-says-starlink-fire-was-sabotage",
+          "headline": "Poland says Starlink fire was sabotage",
+          "published_at": "2026-09-24T11:47:56Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o?at_medium=RSS&at_campaign=rss",
+          "headline": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
+          "published_at": "2026-09-24T11:16:29Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Escalation of Russian air strikes on Ukraine",
+      "summary": "Russian ballistic missile strikes have targeted Kyiv, causing civilian casualties and infrastructure damage. Ukrainian President Volodymyr Zelenskyy has described Vladimir Putin as the primary driver of the war's expansion during a United Nations address.",
+      "article_ids": [
+        "8fa713bdc5acdb2c130c15a8",
+        "6075c31b1e0abcbb93d2aaa4"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260924-as-moscow-steps-up-attacks-kyiv-residents-brace-for-harsh-winter",
+          "headline": "Russia slams Kyiv with ballistic missiles as Ukrainians brace for harsh winter",
+          "published_at": "2026-09-24T05:31:34Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260924-ukraine-zelensky-says-putin-patient-zero-for-spreading-war",
+          "headline": "Ukraine: Zelensky says Putin 'patient zero' for spreading war",
+          "published_at": "2026-09-24T11:11:44Z"
+        }
+      ],
       "source_count": 1
     },
     {
-      "title": "EU Diplomatic Response to US Diesel Export Threat",
-      "summary": "The European Union has initiated a diplomatic push to counter potential export restrictions on diesel. European officials are engaging internationally to prevent disruptions to fuel supplies.",
+      "title": "EU-US trade tensions over diesel exports",
+      "summary": "The European Union has initiated a diplomatic campaign to counter a threatened U.S. ban on diesel exports to Europe. European officials have downplayed the immediate impact, citing alternative supply routes and existing stocks.",
       "article_ids": [
         "6b3ffd42871791c8db6d3d89",
         "b92309c9eca5489dbf452b00"
@@ -95,25 +168,29 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "Regional Conflict and Infrastructure Incidents in Eastern Europe",
-      "summary": "Authorities in Poland are investigating a suspected arson attack that targeted a local Starlink ground station. In Ukraine, residents face severe conditions as regional attacks continue.",
+      "title": "International debate on artificial intelligence regulation",
+      "summary": "Technology leaders at the United Nations have warned that unchecked artificial intelligence development poses existential risks to humanity. A Politico analysis suggests that global AI security efforts may need to proceed without U.S. participation.",
       "article_ids": [
-        "8732af69fdd2879c49debd6f",
-        "8fa713bdc5acdb2c130c15a8"
+        "8ec45663aecd05a2f01b1742",
+        "de5c2aebea10f4da77733c8a"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o?at_medium=RSS&at_campaign=rss",
-          "headline": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
-          "published_at": "2026-09-24T11:16:29Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260924-risk-to-humanity-at-un-tech-leaders-urge-caution-in-ai-development",
+          "headline": "'Risk to humanity': At UN, tech leaders urge caution in AI development",
+          "published_at": "2026-09-24T09:38:23Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/09/23/ai-securty-world-us-china-unga-01090989",
+          "headline": "The world wants to secure AI. It may have to try without the US.",
+          "published_at": "2026-09-24T04:06:57Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
@@ -145,44 +222,29 @@
       ]
     },
     {
-      "label": "AI · UN · leaders · caution",
+      "label": "airspace · helicopter · Russian · military",
       "origin": "convergence",
-      "source_count": 2,
-      "item_count": 6,
-      "latest_at": "2026-09-24T09:38:23Z",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-09-23T17:37:01Z",
       "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260924-risk-to-humanity-at-un-tech-leaders-urge-caution-in-ai-development",
-          "headline": "'Risk to humanity': At UN, tech leaders urge caution in AI development",
-          "published_at": "2026-09-24T09:38:23Z"
-        },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/dont-believe-the-doomers-europes-tech-industry-slams-ai-panic",
-          "headline": "Don’t believe the doomers: Europe’s tech industry slams AI panic",
-          "published_at": "2026-09-24T02:00:00Z"
-        }
-      ]
-    },
-    {
-      "label": "UN · Assembly · address · General",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 6,
-      "latest_at": "2026-09-24T03:11:16Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20260924-live-netanyahu-faces-un-over-gaza-as-abbas-set-to-address-assembly-by-video",
-          "headline": "Live: Netanyahu faces UN over Gaza as Abbas set to address assembly by video",
-          "published_at": "2026-09-24T03:11:16Z"
+          "url": "https://www.politico.eu/article/poland-russia-mi-8-helicopter-airspace-breach-kaliningrad",
+          "headline": "Poland scrambles jets after Russian helicopter breaches its airspace",
+          "published_at": "2026-09-23T17:37:01Z"
         },
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ck1l6yyg52qvo?at_medium=RSS&at_campaign=rss",
-          "headline": "Netanyahu calls Macron's remarks on West Bank in UN speech 'grotesque'",
-          "published_at": "2026-09-23T11:30:58Z"
+          "url": "https://www.bbc.co.uk/news/articles/c699d2dn9z0mo?at_medium=RSS&at_campaign=rss",
+          "headline": "Poland accuses Russian military helicopter of violating its airspace",
+          "published_at": "2026-09-23T15:37:20Z"
+        },
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/09/23/russian-military-helicopter-violates-polish-airspace",
+          "headline": "Russian military helicopter violates Polish airspace",
+          "published_at": "2026-09-23T13:03:26Z"
         }
       ]
     },
@@ -206,9 +268,72 @@
           "published_at": "2026-09-23T18:18:20Z"
         }
       ]
+    },
+    {
+      "label": "Australian · government · OpenAI · website",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-09-24T09:33:44Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260924-how-did-an-openai-agent-hack-into-australian-government-website",
+          "headline": "How did an OpenAI agent hack into Australian government website?",
+          "published_at": "2026-09-24T09:33:44Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/09/23/openai-australia-government-breach-01091069",
+          "headline": "OpenAI model breaches Australian government websites",
+          "published_at": "2026-09-24T00:25:11Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "7cde9735b9f2344f9eb4e2a8",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Paris Playbook summit: Live updates",
+      "url": "https://www.politico.eu/article/paris-playbook-summit-live-updates",
+      "published_at": "2026-09-24T11:55:39Z",
+      "collected_at": "2026-09-24T12:00:59Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "c986273d1d189529d720e91b",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Poland says Starlink fire was sabotage",
+      "url": "https://www.politico.eu/article/poland-says-starlink-fire-was-sabotage",
+      "published_at": "2026-09-24T11:47:56Z",
+      "collected_at": "2026-09-24T12:00:59Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "8a457d7d36038eb296d24460",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "For the first time, court orders US government to return migrant deported to Africa",
+      "url": "https://english.elpais.com/usa/2026-09-24/for-the-first-time-court-orders-us-government-to-return-migrant-deported-to-africa.html",
+      "published_at": "2026-09-24T11:29:07Z",
+      "collected_at": "2026-09-24T12:00:59Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "8732af69fdd2879c49debd6f",
       "source_id": "bbc_europe",
@@ -224,6 +349,20 @@
       ]
     },
     {
+      "id": "6075c31b1e0abcbb93d2aaa4",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ukraine: Zelensky says Putin 'patient zero' for spreading war",
+      "url": "https://www.france24.com/en/video/20260924-ukraine-zelensky-says-putin-patient-zero-for-spreading-war",
+      "published_at": "2026-09-24T11:11:44Z",
+      "collected_at": "2026-09-24T12:00:59Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "6b3ffd42871791c8db6d3d89",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -235,6 +374,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "e4423ac355ebf470e1718a9e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Donald Trump startled by the sound of a fighter jet",
+      "url": "https://www.france24.com/en/donald-trump-startled-by-the-sound-of-a-fighter-jet",
+      "published_at": "2026-09-24T11:03:29Z",
+      "collected_at": "2026-09-24T12:00:59Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -417,6 +570,20 @@
         "central_europe",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "efb771cebdddcb89000162d2",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Rare good news for Merz as Germany’s growth outlook jumps",
+      "url": "https://www.politico.eu/article/germanys-growth-outlook-jumps-along-with-need-to-fix-finances",
+      "published_at": "2026-09-24T09:04:48Z",
+      "collected_at": "2026-09-24T12:00:59Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
       ]
     },
     {
@@ -1974,20 +2141,6 @@
       ]
     },
     {
-      "id": "1dad37d8e21a7bb0a3e34db5",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Why six Nobel Prize economists back California’s Proposition 40: ‘It’s the first opportunity for the people to start reining in the power of billionaires’",
-      "url": "https://english.elpais.com/economy-and-business/2026-09-23/why-six-nobel-prize-economists-back-californias-proposition-40-its-the-first-opportunity-for-the-people-to-start-reining-in-the-power-of-billionaires.html",
-      "published_at": "2026-09-23T11:43:54Z",
-      "collected_at": "2026-09-23T12:00:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "4c44dd4b9542852f22ff910a",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1999,20 +2152,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "65085428a8af50483f70eedf",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Lula to Trump at the UN General Assembly: ‘Brazil does not fit in anyone’s backyard’",
-      "url": "https://english.elpais.com/international/2026-09-23/lula-to-trump-at-the-un-general-assembly-brazil-does-not-fit-in-anyones-backyard.html",
-      "published_at": "2026-09-23T11:29:33Z",
-      "collected_at": "2026-09-23T12:00:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -2030,62 +2169,6 @@
       ]
     },
     {
-      "id": "6cfada801a8a8dee13990aa9",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "EU Commission seeks to release Hungary’s frozen funds",
-      "url": "https://www.politico.eu/article/commission-proposed-unlocking-funding-for-hungary-frozen-under-orban",
-      "published_at": "2026-09-23T11:09:26Z",
-      "collected_at": "2026-09-23T11:30:47Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "355d8b22065d76a36c85ebc5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "China cracks down on scam centres in neighbouring Myanmar",
-      "url": "https://www.france24.com/en/tv-shows/focus/20260923-china-cracks-down-on-scam-centres-in-neighbouring-myanmar",
-      "published_at": "2026-09-23T11:01:45Z",
-      "collected_at": "2026-09-23T11:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "afbea448cef698ddadaf8298",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "When climate mitigation becomes 'political': The Guardian uncovers IPCC links to Saudi oil industry",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20260923-when-climate-mitigation-becomes-political-the-guardian-uncovers-ipcc-links-to-saudi-oil-industry",
-      "published_at": "2026-09-23T10:53:26Z",
-      "collected_at": "2026-09-23T11:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "1a3f22959c89d9c9b0c1ccee",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "When climate mitigation becomes politicised: The Guardian uncovers IPCC links to Saudi oil industry",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20260923-when-climate-mitigation-becomes-political-the-guardian-uncovers-ipcc-links-to-saudi-oil-industry",
-      "published_at": "2026-09-23T10:53:26Z",
-      "collected_at": "2026-09-23T12:00:56Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "bcae2470881887e12f1d19fd",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2096,62 +2179,6 @@
       "topics": [
         "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "5f016ee7681cc48819915b7e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Hurricane Polo churns off Mexico",
-      "url": "https://www.france24.com/en/hurricane-polo-churns-off-mexico",
-      "published_at": "2026-09-23T10:49:41Z",
-      "collected_at": "2026-09-23T11:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "c9d335d7eefc82f9753c20f9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Russia attacks four Ukrainian regions overnight",
-      "url": "https://www.france24.com/en/russia-attacks-four-ukrainian-regions-overnight",
-      "published_at": "2026-09-23T10:48:27Z",
-      "collected_at": "2026-09-23T11:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "82a40a37801a3cc9a4f64da9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US President warns Tehran at UN but says talks ongoing",
-      "url": "https://www.france24.com/en/us-president-warns-tehran-at-un-but-says-talks-ongoing",
-      "published_at": "2026-09-23T10:46:26Z",
-      "collected_at": "2026-09-23T11:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "80c66577d884b6f6bfab584f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Shame': Macron slams Trump's Gaza diplomacy in final UN speech",
-      "url": "https://www.france24.com/en/video/20260923-shame-macron-slams-trump-s-gaza-diplomacy-in-final-un-speech",
-      "published_at": "2026-09-23T10:38:36Z",
-      "collected_at": "2026-09-23T11:30:47Z",
-      "topics": [
-        "politics",
-        "security",
         "society"
       ]
     },
@@ -2223,6 +2250,34 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "28f93ab52f41a8a40eea5d3f",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland detains neo-Nazi youth planning terrorist attack on mosque and school",
+      "url": "https://notesfrompoland.com/2026/09/22/poland-detains-neo-nazi-youth-planning-terrorist-attack-on-mosque-and-school",
+      "published_at": "2026-09-22T11:53:51Z",
+      "collected_at": "2026-09-24T12:00:59Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "363962fd4636b5169150ae3b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Neither US intervention nor Communist stagnation: Harvard’s proposed plan for Cuba",
+      "url": "https://english.elpais.com/international/2026-09-22/neither-us-intervention-nor-communist-stagnation-harvards-proposed-plan-for-cuba.html",
+      "published_at": "2026-09-22T11:13:42Z",
+      "collected_at": "2026-09-24T12:00:59Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2436,48 +2491,6 @@
       ]
     },
     {
-      "id": "93f97c434ee03c181e039058",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump’s immigration policy is choking business: ‘There’s nobody to work’",
-      "url": "https://english.elpais.com/economy-and-business/2026-09-21/trumps-immigration-policy-is-choking-business-theres-nobody-to-work.html",
-      "published_at": "2026-09-21T11:09:39Z",
-      "collected_at": "2026-09-23T12:00:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "1dcde2ddd57db681c7dd8c55",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland’s Catholic church recruits priests from Africa and Asia to stave off vocations crisis",
-      "url": "https://notesfrompoland.com/2026/09/21/polands-catholic-church-recruits-priests-from-africa-and-asia-to-stave-off-vocations-crisis",
-      "published_at": "2026-09-21T11:08:32Z",
-      "collected_at": "2026-09-23T12:00:56Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "c1038c2a8c424734ab1efd83",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland to expand warning siren network along Ukraine border amid Russian attacks",
-      "url": "https://notesfrompoland.com/2026/09/21/poland-to-expand-warning-siren-network-along-ukraine-border-amid-russian-attacks",
-      "published_at": "2026-09-21T10:53:41Z",
-      "collected_at": "2026-09-23T11:30:47Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "53c2a131d40ed7ad83b52537",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2573,6 +2586,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "17f7a6342c3414d8dd8d7992",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Lionel Messi to bid farewell to Argentina national team with a final match in Buenos Aires: ‘The last tango of the world’s best player’",
+      "url": "https://english.elpais.com/sports/2026-09-16/lionel-messi-to-bid-farewell-to-argentina-national-team-with-a-final-match-in-buenos-aires-the-last-tango-of-the-worlds-best-player.html",
+      "published_at": "2026-09-16T08:54:43Z",
+      "collected_at": "2026-09-24T12:00:59Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
