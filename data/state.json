@@ -1,12 +1,5 @@
 {
   "seen": {
-    "298b747f73ce9e17b4c4bbb4": "2026-09-22T11:00:54Z",
-    "e6f184226b20f90d9bcb5219": "2026-09-22T11:00:54Z",
-    "8a4dd7b1ca64debe0f9c6eb4": "2026-09-22T11:00:54Z",
-    "f026eb5476edc0ded2457535": "2026-09-22T11:00:54Z",
-    "0433d7d1ae2088d2e9611d37": "2026-09-22T11:00:54Z",
-    "be0bcd1706f492789d2e87b8": "2026-09-22T11:00:54Z",
-    "48e04986d166ebe1198af1c8": "2026-09-22T11:00:54Z",
     "f99ea9c10b6e5da3121922f8": "2026-09-22T11:30:49Z",
     "292f5cb1ea09f5a63adf1d9f": "2026-09-22T11:30:49Z",
     "ba7a5acc32fdde3d418d695c": "2026-09-22T11:30:49Z",
@@ -383,9 +376,39 @@
     "7979d386312bee6ebe371b29": "2026-09-24T10:30:41Z",
     "d90d7cb5c28ce6b4c0471524": "2026-09-24T11:00:54Z",
     "ee06fa2da49e847aa1c1b1f9": "2026-09-24T11:00:54Z",
-    "2e9a202cbbb60d439a31b69b": "2026-09-24T11:00:54Z"
+    "2e9a202cbbb60d439a31b69b": "2026-09-24T11:00:54Z",
+    "8732af69fdd2879c49debd6f": "2026-09-24T11:30:47Z",
+    "6b3ffd42871791c8db6d3d89": "2026-09-24T11:30:47Z"
   },
   "radar": [
+    {
+      "id": "8732af69fdd2879c49debd6f",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
+      "url": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-24T11:16:29Z",
+      "collected_at": "2026-09-24T11:30:47Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "6b3ffd42871791c8db6d3d89",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "EU launches diplomatic offensive to stop Trump’s diesel export ban",
+      "url": "https://www.politico.eu/article/eu-launches-diplomatic-offensive-to-stop-trumps-diesel-export-ban",
+      "published_at": "2026-09-24T11:10:03Z",
+      "collected_at": "2026-09-24T11:30:47Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "ee06fa2da49e847aa1c1b1f9",
       "source_id": "el_pais_english",
@@ -2756,10 +2779,6 @@
   "recent_topics": [
     {
       "at": "2026-09-23T04:30:47Z",
-      "title": "Greenland Defense Agreement"
-    },
-    {
-      "at": "2026-09-23T04:30:47Z",
       "title": "French Energy Price Relief"
     },
     {
@@ -3073,39 +3092,44 @@
     {
       "at": "2026-09-24T11:00:54Z",
       "title": "Regional Security Incidents and Infrastructure Threats"
+    },
+    {
+      "at": "2026-09-24T11:30:47Z",
+      "title": "Regional Conflict and Infrastructure Incidents in Eastern Europe"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Suspected Arson Attack Hits Starlink Station in Poland",
-        "summary": "A ground station belonging to Starlink in Poland sustained damage following a fire originating from a suspected arson incident.",
+        "title": "Suspected Sabotage at Polish Starlink Station and Danish Warnings",
+        "summary": "Poland has reported that a fire at a Starlink ground station was the result of deliberate sabotage. Meanwhile, Denmark has issued warnings regarding an escalating security threat posed by Russia.",
         "article_ids": [
-          "68c761d5fd5e2f866facf511"
+          "8732af69fdd2879c49debd6f"
         ],
         "sources": [
           {
-            "publisher": "Notes from Poland",
-            "url": "https://notesfrompoland.com/2026/09/24/starlink-ground-station-in-poland-hit-by-fire-in-suspected-arson-attack",
-            "headline": "Starlink ground station in Poland hit by fire in suspected arson attack",
-            "published_at": "2026-09-24T09:21:37Z"
+            "publisher": "BBC News Europe",
+            "url": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o?at_medium=RSS&at_campaign=rss",
+            "headline": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
+            "published_at": "2026-09-24T11:16:29Z"
           }
         ],
         "source_count": 1
       },
       {
-        "title": "Russian Missile Strikes Target Kyiv",
-        "summary": "Russian forces launched ballistic missile attacks against Kyiv as residents prepare for challenging winter conditions.",
+        "title": "EU Diplomatic Response to US Diesel Export Threat",
+        "summary": "The European Union has initiated a diplomatic push to counter potential export restrictions on diesel. European officials are engaging internationally to prevent disruptions to fuel supplies.",
         "article_ids": [
-          "8fa713bdc5acdb2c130c15a8"
+          "6b3ffd42871791c8db6d3d89",
+          "b92309c9eca5489dbf452b00"
         ],
         "sources": [
           {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20260924-as-moscow-steps-up-attacks-kyiv-residents-brace-for-harsh-winter",
-            "headline": "Russia slams Kyiv with ballistic missiles as Ukrainians brace for harsh winter",
-            "published_at": "2026-09-24T05:31:34Z"
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/eu-launches-diplomatic-offensive-to-stop-trumps-diesel-export-ban",
+            "headline": "EU launches diplomatic offensive to stop Trump’s diesel export ban",
+            "published_at": "2026-09-24T11:10:03Z"
           }
         ],
         "source_count": 1
@@ -3113,23 +3137,23 @@
     ],
     "top_stories": [
       {
-        "title": "Regional Security Incidents and Infrastructure Threats",
-        "summary": "A critical satellite internet ground station located in Poland suffered a fire attributed to a suspected deliberate arson attack. Concurrently, ongoing regional hostilities involved renewed missile strikes targeting urban centers in Ukraine.",
+        "title": "Regional Conflict and Infrastructure Incidents in Eastern Europe",
+        "summary": "Authorities in Poland are investigating a suspected arson attack that targeted a local Starlink ground station. In Ukraine, residents face severe conditions as regional attacks continue.",
         "article_ids": [
-          "68c761d5fd5e2f866facf511",
+          "8732af69fdd2879c49debd6f",
           "8fa713bdc5acdb2c130c15a8"
         ],
         "sources": [
           {
-            "publisher": "Notes from Poland",
-            "url": "https://notesfrompoland.com/2026/09/24/starlink-ground-station-in-poland-hit-by-fire-in-suspected-arson-attack",
-            "headline": "Starlink ground station in Poland hit by fire in suspected arson attack",
-            "published_at": "2026-09-24T09:21:37Z"
+            "publisher": "BBC News Europe",
+            "url": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o?at_medium=RSS&at_campaign=rss",
+            "headline": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
+            "published_at": "2026-09-24T11:16:29Z"
           }
         ],
         "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-09-24T11:00:54Z"
+  "last_collection_at": "2026-09-24T11:30:47Z"
 }
