@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-24T21:00:46Z",
-  "last_successful_collection_at": "2026-09-24T21:00:46Z",
+  "generated_at": "2026-09-24T21:30:38Z",
+  "last_successful_collection_at": "2026-09-24T21:30:38Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-24T21:00:46Z"
+      "at": "2026-09-24T21:30:38Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-09-24T21:00:46Z"
+      "at": "2026-09-24T21:30:38Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-24T21:00:46Z"
+      "at": "2026-09-24T21:30:38Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-24T21:00:46Z"
+      "at": "2026-09-24T21:30:38Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-24T21:00:46Z"
+      "at": "2026-09-24T21:30:38Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-09-24T21:00:46Z"
+      "at": "2026-09-24T21:30:38Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-24T21:00:46Z"
+      "at": "2026-09-24T21:30:38Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-24T21:00:46Z"
+      "at": "2026-09-24T21:30:38Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-24T21:00:46Z"
+      "at": "2026-09-24T21:30:38Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Abbey Knife Attack in Poland",
-      "summary": "A knife attack at a Polish abbey left a priest dead and multiple individuals injured, prompting condemnation from Ukrainian leadership.",
+      "title": "French Intelligence and Drone Security",
+      "summary": "French President Emmanuel Macron stated that the CIA did not inform French services regarding potential Russian drone attacks. The remarks highlight tensions and coordination gaps in international security sharing.",
+      "article_ids": [
+        "d558cb65d809e389fb718e60"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20260924-macron-says-cia-did-not-inform-french-services-of-possible-russian-drone-attacks",
+          "headline": "Macron says 'CIA did not ​inform French services' of possible Russian drone attacks",
+          "published_at": "2026-09-24T20:38:09Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Fatal Attack at Polish Abbey",
+      "summary": "A knife attack by a Ukrainian individual at a Polish abbey left a priest dead and multiple other people injured. Ukrainian leadership strongly condemned the violent incident.",
       "article_ids": [
         "fa44959b599a37dbf28ea77b",
         "21250e2481d3c014d91f3d6f"
@@ -85,13 +101,14 @@
         }
       ],
       "source_count": 2
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Transatlantic Diesel Export Tensions",
-      "summary": "French President Emmanuel Macron stated that he pressed Donald Trump to avoid implementing a ban on diesel exports, amid widespread concerns over economic impacts.",
+      "title": "Transatlantic Trade and Diesel Exports",
+      "summary": "French President Emmanuel Macron stated that he actively pressed Donald Trump to avoid implementing a ban on diesel exports. The discussions underline ongoing trade and policy negotiations between European leaders and the United States.",
       "article_ids": [
-        "d65f9fd41831311bdb7822d8",
-        "89a6c62959ed9e980f97ec44"
+        "d65f9fd41831311bdb7822d8"
       ],
       "sources": [
         {
@@ -99,54 +116,22 @@
           "url": "https://www.politico.eu/article/emmanuel-macron-says-he-pressed-donald-trump-not-ban-diesel-exports",
           "headline": "Macron says he pressed Trump not to ban diesel exports",
           "published_at": "2026-09-24T20:20:22Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/le-pen-says-u-s-diesel-export-ban-would-have-incalculable-impact-on-french-citizens",
-          "headline": "Le Pen says US diesel export ban would have ‘incalculable’ impact on French citizens",
-          "published_at": "2026-09-24T14:48:11Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "French Political Debates and Foreign Relations",
-      "summary": "French presidential figures outlined various domestic and foreign policy positions during recent interviews and summits. Discussions included defense independence, NATO commitments, and responses to potential trade restrictions.",
-      "article_ids": [
-        "6913dda6e407f770fa0ebb49",
-        "4b54935d484e2e9545f7523b"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/4-takeaways-politico-interview-france-president-candidate-marine-le-pen-jean-luc-melenchon-gabriel-attal",
-          "headline": "4 takeaways from POLITICO’s interviews with French presidential candidates Le Pen, Mélenchon, Attal",
-          "published_at": "2026-09-24T17:25:28Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/marine-le-pen-says-she-wont-leave-nato-until-russias-war-in-ukraine-ends",
-          "headline": "Le Pen says she won’t leave NATO until Russia’s war in Ukraine ends",
-          "published_at": "2026-09-24T15:03:35Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "European Security and Hybrid Threats",
-      "summary": "European officials have raised alarms regarding increasing hybrid attacks and a dangerous escalation of security challenges involving Russia. Meanwhile, leaders continue to address border defense strategies across the continent.",
+      "title": "European Migration and Asylum Policies",
+      "summary": "Brussels and Washington are engaging in a financial race to pay African countries to host deportees. This emerging practice is transforming human migration management into a lucrative commercial enterprise.",
       "article_ids": [
-        "8c309bbe944ec76a1b751f94",
-        "6ebec15802f8e7a2f7468ef5"
+        "ff32c561097101147c10619b"
       ],
       "sources": [
         {
           "publisher": "EUobserver",
-          "url": "https://euobserver.com/239501/eus-costa-calls-out-dangerous-escalation-by-russia-amid-increasing-hybrid-attacks",
-          "headline": "EU’s Costa calls out ‘dangerous escalation’ by Russia amid increasing hybrid attacks",
-          "published_at": "2026-09-24T17:33:56Z"
+          "url": "https://euobserver.com/239412/a-global-race-between-europe-and-the-us-to-pay-african-countries-to-host-deportees-is-underway-as-human-commerce-becomes-a-lucrative-business",
+          "headline": "Deporting humans becomes big business, as Brussels and Washington race to pay African countries to take them",
+          "published_at": "2026-09-24T18:00:00Z"
         }
       ],
       "source_count": 1
@@ -257,6 +242,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "e3f8d0fe2e0cf3848986042f",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "OpenAI’s agents went rogue — its human response caused the real damage",
+      "url": "https://www.politico.eu/article/openais-agents-went-rogue-its-human-response-caused-the-real-damage",
+      "published_at": "2026-09-24T21:11:43Z",
+      "collected_at": "2026-09-24T21:30:38Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "d558cb65d809e389fb718e60",
       "source_id": "france24",
@@ -2757,20 +2756,6 @@
       "url": "https://www.dw.com/en/ever-more-israelis-moving-to-and-investing-in-cyprus/a-79330240?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-09-19T06:07:00Z",
       "collected_at": "2026-09-24T17:00:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "b16d6aefcb2c1918c3a2f2e2",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Canada and EU: A look at the bloc's special relationships",
-      "url": "https://www.dw.com/en/canada-and-eu-a-look-at-the-bloc-s-special-relationships/a-79328797?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-18T14:26:00Z",
-      "collected_at": "2026-09-24T16:30:46Z",
       "topics": [
         "politics",
         "society",
