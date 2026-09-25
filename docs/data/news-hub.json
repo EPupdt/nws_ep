@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-25T06:30:43Z",
-  "last_successful_collection_at": "2026-09-25T06:30:43Z",
+  "generated_at": "2026-09-25T07:00:51Z",
+  "last_successful_collection_at": "2026-09-25T07:00:51Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-25T06:30:43Z"
+      "at": "2026-09-25T07:00:51Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-09-25T06:30:43Z"
+      "at": "2026-09-25T07:00:51Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-25T06:30:43Z"
+      "at": "2026-09-25T07:00:51Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,107 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-25T06:30:43Z"
+      "at": "2026-09-25T07:00:51Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-25T06:30:43Z"
+      "at": "2026-09-25T07:00:51Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-09-25T06:30:43Z"
+      "at": "2026-09-25T07:00:51Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-25T06:30:43Z"
+      "at": "2026-09-25T07:00:51Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-25T06:30:43Z"
+      "at": "2026-09-25T07:00:51Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-25T06:30:43Z"
+      "at": "2026-09-25T07:00:51Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Swiss Neutrality and Russia Sanctions",
-      "summary": "Voters in Switzerland are deciding on a neutrality vote that places the nation's ongoing Russia sanctions directly on the line. The outcome will determine how far the Alpine country can lean toward Western foreign policy stances.",
+      "title": "Russian Hybrid Threats and Security",
+      "summary": "EU officials have warned of a dangerous escalation in Russian hybrid threats across the continent. Meanwhile, French leadership addressed intelligence sharing regarding potential drone security concerns.",
+      "article_ids": [
+        "8c309bbe944ec76a1b751f94",
+        "d558cb65d809e389fb718e60"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/239501/eus-costa-calls-out-dangerous-escalation-by-russia-amid-increasing-hybrid-attacks",
+          "headline": "EU’s Costa calls out ‘dangerous escalation’ by Russia amid increasing hybrid attacks",
+          "published_at": "2026-09-24T17:33:56Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20260924-macron-says-cia-did-not-inform-french-services-of-possible-russian-drone-attacks",
+          "headline": "Macron says 'CIA did not ​inform French services' of possible Russian drone attacks",
+          "published_at": "2026-09-24T20:38:09Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Attack at Polish Abbey",
+      "summary": "A fatal knife attack at a Polish abbey left a priest dead and multiple individuals injured. Ukrainian and Polish leadership condemned the violent incident.",
+      "article_ids": [
+        "fa44959b599a37dbf28ea77b",
+        "21250e2481d3c014d91f3d6f"
+      ],
+      "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/09/24/zelensky-condemns-knife-attack-by-ukrainian-at-polish-abbey-that-left-priest-dead-and-others-injured",
+          "headline": "Zelensky condemns knife attack by Ukrainian at Polish abbey that left priest dead and others injured",
+          "published_at": "2026-09-24T20:21:04Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c607lrvm41l3o?at_medium=RSS&at_campaign=rss",
+          "headline": "Priest killed and four injured in knife attack at Polish abbey",
+          "published_at": "2026-09-24T19:18:12Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "European Union Migration and Asylum Policy",
+      "summary": "European institutions and member states are increasingly engaging in external deportation agreements with African nations. This trend reflects a broader international push toward financing third-party countries to manage migrant populations.",
+      "article_ids": [
+        "ff32c561097101147c10619b"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/239412/a-global-race-between-europe-and-the-us-to-pay-african-countries-to-host-deportees-is-underway-as-human-commerce-becomes-a-lucrative-business",
+          "headline": "Deporting humans becomes big business, as Brussels and Washington race to pay African countries to take them",
+          "published_at": "2026-09-24T18:00:00Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Switzerland Neutrality and Sanctions",
+      "summary": "Voters in Switzerland are weighing the future of the nation's traditional neutrality stance. The outcome of this vote directly impacts the country's alignment with broader Western sanctions against Russia.",
       "article_ids": [
         "a2f8329291a7cd7c621fc755"
       ],
@@ -75,24 +139,6 @@
           "url": "https://www.politico.eu/article/swiss-voters-decide-how-far-neutral-alpine-nation-can-lean-west",
           "headline": "Switzerland’s neutrality vote puts Russia sanctions on the line",
           "published_at": "2026-09-25T02:43:00Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "European Security and Russian Hybrid Threats",
-      "summary": "EU officials have formally highlighted a dangerous escalation by Russia amid increasing hybrid attacks targeting member states. European leaders continue to address these ongoing security concerns through coordinated sanctions and defensive measures.",
-      "article_ids": [
-        "8c309bbe944ec76a1b751f94"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/239501/eus-costa-calls-out-dangerous-escalation-by-russia-amid-increasing-hybrid-attacks",
-          "headline": "EU’s Costa calls out ‘dangerous escalation’ by Russia amid increasing hybrid attacks",
-          "published_at": "2026-09-24T17:33:56Z"
         }
       ],
       "source_count": 1
@@ -2100,34 +2146,6 @@
       ]
     },
     {
-      "id": "cb14604583b56433f17565ef",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Germany, Netherlands and France: New European managers make their debuts",
-      "url": "https://www.france24.com/en/tv-shows/sports/20260924-germany-netherlands-and-france-new-european-managers-make-their-debuts",
-      "published_at": "2026-09-24T06:12:06Z",
-      "collected_at": "2026-09-24T06:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "8fa713bdc5acdb2c130c15a8",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Russia slams Kyiv with ballistic missiles as Ukrainians brace for harsh winter",
-      "url": "https://www.france24.com/en/europe/20260924-as-moscow-steps-up-attacks-kyiv-residents-brace-for-harsh-winter",
-      "published_at": "2026-09-24T05:31:34Z",
-      "collected_at": "2026-09-24T06:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "be57e492659cdcf8928b5b55",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2170,48 +2188,6 @@
       ]
     },
     {
-      "id": "d5894b6ef82757a5a09e5514",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Eating garden weeds to survive in Russian-occupied city cut off from food and water",
-      "url": "https://www.bbc.co.uk/news/articles/c60qxywdx4vvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-23T23:58:50Z",
-      "collected_at": "2026-09-24T07:00:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "bd996c10bef23b96daa94a48",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "'Make women feel seen': Why the Dutch have a new word for labia",
-      "url": "https://www.bbc.co.uk/news/articles/cn4klprmr0go?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-23T23:42:38Z",
-      "collected_at": "2026-09-24T07:00:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "ebc63c5bfd837eac035a9cf1",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Lidl banned from selling copycat Birkenstock sandals, Dutch court rules",
-      "url": "https://www.bbc.co.uk/news/articles/cqrm90m2g1dzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-23T21:25:01Z",
-      "collected_at": "2026-09-24T07:00:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "d90d7cb5c28ce6b4c0471524",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2222,76 +2198,6 @@
       "topics": [
         "politics",
         "security",
-        "society"
-      ]
-    },
-    {
-      "id": "68dbe6740037bd83df817f8c",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Netherlands to return to Eurovision after 2026 boycott",
-      "url": "https://www.bbc.co.uk/news/articles/c674kyg43d3lo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-23T17:17:47Z",
-      "collected_at": "2026-09-24T07:00:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "7d240374fc75abed760fdae8",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Eriksen leaves Wolfsburg by mutual consent",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm5yezn8w4xdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-23T16:47:34Z",
-      "collected_at": "2026-09-24T07:00:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "9450408c2e3f215af9aa1357",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Is Burnham right to blame Russia for spreading online disinformation?",
-      "url": "https://www.bbc.co.uk/news/articles/ckd79wldjzl4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-23T16:35:11Z",
-      "collected_at": "2026-09-24T07:00:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "f937bbd909c322851e861e2d",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Ronaldo spurred on by 1,000 goals and Portugal glory",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck4glyl0nwd6o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-23T16:26:38Z",
-      "collected_at": "2026-09-24T07:00:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "599a3a66771d085b5743b9fe",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Poland accuses Russian military helicopter of violating its airspace",
-      "url": "https://www.bbc.co.uk/news/articles/c699d2dn9z0mo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-23T15:37:20Z",
-      "collected_at": "2026-09-24T07:00:50Z",
-      "topics": [
-        "breaking",
-        "politics",
         "society"
       ]
     },
@@ -2447,20 +2353,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "1765862c90e3562e1481422a",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Lithuania ready to 'fight back' but has evacuation plans in face of Russia threats, PM tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/ck5yw8npxzrlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-22T13:49:22Z",
-      "collected_at": "2026-09-24T06:30:44Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
@@ -2653,6 +2545,20 @@
       "url": "https://english.elpais.com/culture/2026-09-19/douglas-stuart-author-if-youve-ever-known-poverty-you-never-forget-it.html",
       "published_at": "2026-09-19T04:00:00Z",
       "collected_at": "2026-09-25T05:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "c5032f7209409852fa13ca87",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Zohran Mamdani: ‘Democracy doesn’t work if people can’t afford their basic needs’",
+      "url": "https://english.elpais.com/eps/2026-09-13/zohran-mamdani-democracy-doesnt-work-if-people-cant-afford-their-basic-needs.html",
+      "published_at": "2026-09-13T04:00:00Z",
+      "collected_at": "2026-09-25T07:00:51Z",
       "topics": [
         "politics",
         "society",
