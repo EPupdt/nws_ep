@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-25T19:00:52Z",
-  "last_successful_collection_at": "2026-09-25T19:00:52Z",
+  "generated_at": "2026-09-25T19:30:48Z",
+  "last_successful_collection_at": "2026-09-25T19:30:48Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-25T19:00:52Z"
+      "at": "2026-09-25T19:30:48Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "24",
-      "at": "2026-09-25T19:00:52Z"
+      "count": "25",
+      "at": "2026-09-25T19:30:48Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-25T19:00:52Z"
+      "at": "2026-09-25T19:30:48Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,48 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-25T19:00:52Z"
+      "at": "2026-09-25T19:30:48Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-25T19:00:52Z"
+      "at": "2026-09-25T19:30:48Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-25T19:00:52Z"
+      "at": "2026-09-25T19:30:48Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-25T19:00:52Z"
+      "at": "2026-09-25T19:30:48Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-25T19:00:52Z"
+      "at": "2026-09-25T19:30:48Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-25T19:00:52Z"
+      "at": "2026-09-25T19:30:48Z"
     }
   ],
   "europe_now": [
     {
-      "title": "EU Funding for Ukraine and Ongoing Attacks",
-      "summary": "The European Union has disbursed billions of euros to support member states supplying military equipment to Ukraine, following deadly strikes in Kyiv.",
+      "title": "EU Funding and Support for Ukraine Amid Escalating Strikes",
+      "summary": "The European Union has released billions of euros to support member states supplying weapons to Ukraine following intensified attacks. Meanwhile, Ukrainian leadership has highlighted critical funding gaps and widened infrastructure targeting.",
       "article_ids": [
-        "280ee8085e4dbbb6bf0cb2a8"
+        "280ee8085e4dbbb6bf0cb2a8",
+        "19d63db70721bc116fd270d6",
+        "0707532a0230597954bbfe17",
+        "fe518a5af738427ffe000ea4"
       ],
       "sources": [
         {
@@ -75,13 +78,47 @@
           "url": "https://www.france24.com/en/europe/20260925-eu-releases-%E2%82%AC6-6-billion-for-members-arming-ukraine-as-five-killed-in-kyiv",
           "headline": "EU releases €6.6 billion for members arming Ukraine as five killed in Kyiv",
           "published_at": "2026-09-25T17:09:55Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
+          "headline": "Zelensky says Russia has widened attacks to hit Ukraine's data centres",
+          "published_at": "2026-09-25T18:02:55Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "German Student Demonstrations Against Military Service",
-      "summary": "Students across Germany have staged widespread strikes to express their opposition to proposed military service measures.",
+      "title": "Pope Leo XIV Begins Historic State Visit to France",
+      "summary": "Pope Leo XIV has arrived in Paris for his first state visit to the country in nearly two decades, carrying out addresses at UNESCO and Notre-Dame. The pontiff's schedule emphasizes cultural dialogue and warnings regarding technological developments.",
+      "article_ids": [
+        "de31f78eb3175f00712a2bcb",
+        "ce59bcd52696f9c78ca98794",
+        "1cb3e28cfe832808f269ab82",
+        "5e0100cd6faacb9edd745d3c",
+        "2e1df9f8b23c2e15b665d408"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260925-pope-in-paris-xi-in-dc-ai-at-a-crossroads",
+          "headline": "Pope in Paris, Xi in DC, AI at a Crossroads",
+          "published_at": "2026-09-25T18:52:55Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
+          "headline": "Pope warns against 'losing humanity' to AI machines",
+          "published_at": "2026-09-25T12:44:08Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "German Military Service Protests",
+      "summary": "Students across Germany have staged widespread strikes to voice their opposition to compulsory military service. The demonstrations highlight growing domestic friction regarding national defense policy.",
       "article_ids": [
         "91a0a4d5f05314b43b60fc79"
       ],
@@ -94,56 +131,38 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Pope Leo XIV's Visit to France",
-      "summary": "Pope Leo XIV has commenced an official state visit to France, addressing audiences at UNESCO and visiting Notre-Dame Cathedral. During his engagements, he has touched upon various global and ethical topics including artificial intelligence and political dialogue.",
-      "article_ids": [
-        "2e1df9f8b23c2e15b665d408",
-        "8ef80ea8836616b024afb09e",
-        "a66a2378649fb30081653f54"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
-          "headline": "Pope warns against 'losing humanity' to AI machines",
-          "published_at": "2026-09-25T12:44:08Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/war-ai-secularism-surrogacy-what-to-take-away-from-the-pope-s-speech",
-          "headline": "War, AI, secularism, surrogacy: what to take away from the Pope's speech",
-          "published_at": "2026-09-25T12:27:50Z"
-        }
-      ],
-      "source_count": 2
     },
     {
-      "title": "European Support and Sanctions Regarding Ukraine",
-      "summary": "European authorities continue to allocate financial resources for military assistance to Ukraine amidst ongoing conflict pressures. Investigations and policy discussions have also highlighted significant challenges regarding enforcement gaps in international sanctions.",
+      "title": "EU Regulatory Enforcement and Fines",
+      "summary": "The European Union has reiterated its commitment to pursuing a substantial regulatory fine against the platform X. This decision follows external backing for legal challenges brought against European digital enforcement measures.",
       "article_ids": [
-        "280ee8085e4dbbb6bf0cb2a8",
-        "fe518a5af738427ffe000ea4",
-        "675011e7a65d472c06b38213"
+        "8e2698a6a16e0308148b2763"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260925-eu-releases-%E2%82%AC6-6-billion-for-members-arming-ukraine-as-five-killed-in-kyiv",
-          "headline": "EU releases €6.6 billion for members arming Ukraine as five killed in Kyiv",
-          "published_at": "2026-09-25T17:09:55Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/if-ukraine-fails-to-order-new-drones-soon-it-risks-challenges-at-war-early-next-year-zelenskyy-said",
-          "headline": "Zelenskyy warns $27B funding gap could leave Ukraine short of weapons",
-          "published_at": "2026-09-25T13:31:13Z"
+          "url": "https://www.france24.com/en/europe/20260925-eu-vows-to-pursue-%E2%82%AC120-million-fine-on-x-after-us-backs-musk-s-court-challenge",
+          "headline": "EU vows to pursue €120 million fine on X after US backs Musk's court challenge",
+          "published_at": "2026-09-25T15:01:34Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
+    },
+    {
+      "title": "Polish Tax Rights Expansion",
+      "summary": "Poland has officially extended domestic tax rights to same-sex couples who entered into marriages abroad. The regulatory adjustment marks a notable shift in the country's legal recognition of foreign unions.",
+      "article_ids": [
+        "49ec34932b1d3511995b4dea"
+      ],
+      "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/09/25/poland-extends-tax-rights-to-same-sex-couples-with-foreign-marriages",
+          "headline": "Poland extends tax rights to same-sex couples with foreign marriages",
+          "published_at": "2026-09-25T16:32:08Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "developing": [
@@ -196,10 +215,31 @@
       ]
     },
     {
-      "label": "Court · Trump · US · allows",
+      "label": "Trump · Jinping · state · visit",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 5,
+      "item_count": 3,
+      "latest_at": "2026-09-25T16:58:08Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20260925-lots-of-pomp-but-no-progress-as-trump-and-xi-end-state-visit",
+          "headline": "Lots of pomp, but no progress as Trump and Xi end state visit",
+          "published_at": "2026-09-25T16:58:08Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-09-25/trumps-state-dinner-and-a-bald-eagle-to-honor-xi-jinping.html",
+          "headline": "Trump’s state dinner (and a bald eagle) to honor Xi Jinping",
+          "published_at": "2026-09-25T10:02:21Z"
+        }
+      ]
+    },
+    {
+      "label": "Court · US",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
       "latest_at": "2026-09-25T16:52:32Z",
       "sources": [
         {
@@ -215,30 +255,23 @@
           "published_at": "2026-09-25T11:59:56Z"
         }
       ]
-    },
-    {
-      "label": "AI · Trump",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-09-25T15:14:38Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/burnhams-ai-agenda-is-already-in-disarray-thanks-to-trump",
-          "headline": "Burnham’s AI agenda is already in disarray thanks to Trump",
-          "published_at": "2026-09-25T15:14:38Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/a-propos/20260924-trump-and-xi-meet-but-hopes-for-ai-cooperation-stay-slim",
-          "headline": "Trump and Xi meet, but hopes for AI cooperation stay slim",
-          "published_at": "2026-09-24T21:04:48Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "8c5b4d783f775e7d993c8ec2",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "East Coast braces for early-season nor’easter",
+      "url": "https://english.elpais.com/climate/2026-09-25/east-coast-braces-for-early-season-noreaster.html",
+      "published_at": "2026-09-25T19:07:55Z",
+      "collected_at": "2026-09-25T19:30:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "de31f78eb3175f00712a2bcb",
       "source_id": "france24",
@@ -265,6 +298,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "0707532a0230597954bbfe17",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Zelensky says Russia has widened attacks to hit Ukraine's data centres",
+      "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-25T18:02:55Z",
+      "collected_at": "2026-09-25T19:30:48Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -317,6 +364,34 @@
       "url": "https://www.france24.com/en/europe/20260925-eu-releases-%E2%82%AC6-6-billion-for-members-arming-ukraine-as-five-killed-in-kyiv",
       "published_at": "2026-09-25T17:09:55Z",
       "collected_at": "2026-09-25T17:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "19d63db70721bc116fd270d6",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "EU releases €6.6 billion for members arming Ukraine as seven killed in Kyiv",
+      "url": "https://www.france24.com/en/europe/20260925-eu-releases-%E2%82%AC6-6-billion-for-members-arming-ukraine-as-five-killed-in-kyiv",
+      "published_at": "2026-09-25T17:09:55Z",
+      "collected_at": "2026-09-25T19:30:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "cd222c65297a2cb51ad13f38",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Lots of pomp, but no progress as Trump and Xi end state visit",
+      "url": "https://www.france24.com/en/americas/20260925-lots-of-pomp-but-no-progress-as-trump-and-xi-end-state-visit",
+      "published_at": "2026-09-25T16:58:08Z",
+      "collected_at": "2026-09-25T19:30:48Z",
       "topics": [
         "politics",
         "security",
@@ -2032,48 +2107,6 @@
       ]
     },
     {
-      "id": "de5c620c98428877eff8debf",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Residents in West Bank's Masafer Yatta face Israeli demolitions",
-      "url": "https://www.france24.com/en/tv-shows/the-observers/20260924-residents-west-bank-masafer-yatta-israeli-demolitions",
-      "published_at": "2026-09-24T18:47:22Z",
-      "collected_at": "2026-09-24T19:00:52Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4a0d38eafcba6a960873df96",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Peter Thiel slams pope’s AI encyclical as gift to Chinese Communist Party",
-      "url": "https://www.politico.com/news/2026/09/24/peter-thiel-slams-popes-ai-encyclical-as-gift-to-chinese-communist-party-01091850",
-      "published_at": "2026-09-24T18:43:35Z",
-      "collected_at": "2026-09-24T19:00:52Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "9a275580ee225bbce60c4cea",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "EU Parliament president urges Germany to do deal in US drug pricing dispute",
-      "url": "https://www.politico.eu/article/european-parliament-president-roberta-metsola-germany-deal-us-drug-price-dispute",
-      "published_at": "2026-09-24T18:30:55Z",
-      "collected_at": "2026-09-24T19:00:52Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "06e7faa3324154172779fd4f",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2438,20 +2471,6 @@
       ]
     },
     {
-      "id": "d7ddffedd7c84e4ef6cc2df7",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "‘Bullies cannot be appeased’: Pressure mounts on EU to shield ICC from new US sanctions",
-      "url": "https://euobserver.com/238997/bullies-cannot-be-appeasedpressure-mounts-on-eu-to-shield-icc-from-new-us-sanctions",
-      "published_at": "2026-09-22T18:00:00Z",
-      "collected_at": "2026-09-24T19:00:52Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "ee8549d6346f796651c2b844",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2508,6 +2527,20 @@
       ]
     },
     {
+      "id": "56855e282be1b6a126370e6e",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Global warming slowly brought about the catastrophic collapse of the Nepalese glacier",
+      "url": "https://english.elpais.com/climate/2026-09-17/global-warming-slowly-brought-about-the-catastrophic-collapse-of-the-nepalese-glacier.html",
+      "published_at": "2026-09-17T17:33:15Z",
+      "collected_at": "2026-09-25T19:30:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "71a00af3acfdd739789c893d",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2533,6 +2566,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "c60fe527f12e9a975263ddb4",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Céline Dion duets with fan ahead of Paris comeback concert",
+      "url": "https://www.bbc.co.uk/news/videos/cm2q8gg09d1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-11T14:54:07Z",
+      "collected_at": "2026-09-25T19:30:48Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     }
   ]
