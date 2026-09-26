@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-26T10:30:40Z",
-  "last_successful_collection_at": "2026-09-26T10:30:40Z",
+  "generated_at": "2026-09-26T11:00:47Z",
+  "last_successful_collection_at": "2026-09-26T11:00:47Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-26T10:30:40Z"
+      "at": "2026-09-26T11:00:47Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-09-26T10:30:40Z"
+      "at": "2026-09-26T11:00:47Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-26T10:30:40Z"
+      "at": "2026-09-26T11:00:47Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,76 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-26T10:30:40Z"
+      "at": "2026-09-26T11:00:47Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-26T10:30:40Z"
+      "at": "2026-09-26T11:00:47Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-26T10:30:40Z"
+      "at": "2026-09-26T11:00:47Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-26T10:30:40Z"
+      "at": "2026-09-26T11:00:47Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-26T10:30:40Z"
+      "at": "2026-09-26T11:00:47Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-26T10:30:40Z"
+      "at": "2026-09-26T11:00:47Z"
     }
   ],
   "europe_now": [
     {
+      "title": "Pope Leo XIV's State Visit to France",
+      "summary": "Pope Leo XIV continues his state visit to France, drawing hundreds of thousands of worshippers for open-air mass in Paris and meeting with migrant aid groups.",
+      "article_ids": [
+        "07b23921beaafcf903dcfca0",
+        "439f08989164cb2173cf10ec",
+        "6024f646b8f5c620744d09d3",
+        "79ae73ba60a51ae03c696e2a",
+        "4eda3f30d6dcd9ecb7b92932",
+        "9ef140de9487db0584c9802f",
+        "1b341c345a28cc91f7e2307d",
+        "6f09d56d08bcfb208ecb726b",
+        "6086421d87fa80812398598b",
+        "449c908691684199a9636cf6",
+        "1a15cc13a0ea354bc4224342",
+        "de31f78eb3175f00712a2bcb"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/leo-xiv-in-paris-600-000-worshippers-excepted-for-open-air-mass",
+          "headline": "Leo XIV in Paris: 600,000 worshippers excepted for open-air mass",
+          "published_at": "2026-09-26T10:22:33Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/leo-xiv-says-in-paris-it-is-possible-to-live-together-in-dignity-and-peace",
+          "headline": "Leo XIV says in Paris it is possible 'to live together in dignity and peace'",
+          "published_at": "2026-09-26T09:57:25Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
       "title": "Explosion in Athens",
-      "summary": "An explosion near the Acropolis in Athens destroyed a building and resulted in multiple casualties. Emergency responders and authorities are handling the developing situation at the site.",
+      "summary": "An explosion near the Acropolis in Athens has resulted in at least two deaths and left several individuals missing, prompting emergency responses.",
       "article_ids": [
         "3ddefb33a796a282fd1c42e7",
         "b9dcb4577de20804450e3eb2"
@@ -85,41 +118,73 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "top_stories": [
     {
       "title": "Papal Visit to France",
-      "summary": "Pope Leo XIV arrived in France for a multi-day state visit, engaging with local authorities, religious leaders, and migrant aid centers. Large crowds have gathered across Paris for scheduled open-air masses and events.",
+      "summary": "Pope Leo XIV is currently undertaking a multi-day state visit in France. Large crowds have gathered in Paris for open-air religious services and public engagements.",
       "article_ids": [
+        "07b23921beaafcf903dcfca0",
+        "439f08989164cb2173cf10ec",
         "6024f646b8f5c620744d09d3",
         "79ae73ba60a51ae03c696e2a",
-        "9ef140de9487db0584c9802f"
+        "4eda3f30d6dcd9ecb7b92932",
+        "9ef140de9487db0584c9802f",
+        "1b341c345a28cc91f7e2307d",
+        "6f09d56d08bcfb208ecb726b",
+        "6086421d87fa80812398598b",
+        "449c908691684199a9636cf6",
+        "1a15cc13a0ea354bc4224342",
+        "de31f78eb3175f00712a2bcb"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/pope-leo-xiv-visits-france-and-meets-migrants-and-margialised-people",
-          "headline": "Pope Leo XIV visits France and meets migrants and margialised people",
-          "published_at": "2026-09-26T09:46:01Z"
+          "url": "https://www.france24.com/en/leo-xiv-in-paris-600-000-worshippers-excepted-for-open-air-mass",
+          "headline": "Leo XIV in Paris: 600,000 worshippers excepted for open-air mass",
+          "published_at": "2026-09-26T10:22:33Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/leo-xiv-in-paris-pope-arrives-in-france-on-first-state-visit-in-18-years",
-          "headline": "Leo XIV in Paris: Pope arrives in France on first state visit in 18 years",
-          "published_at": "2026-09-26T09:22:08Z"
+          "url": "https://www.france24.com/en/leo-xiv-says-in-paris-it-is-possible-to-live-together-in-dignity-and-peace",
+          "headline": "Leo XIV says in Paris it is possible 'to live together in dignity and peace'",
+          "published_at": "2026-09-26T09:57:25Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Building Explosion in Athens",
+      "summary": "A destructive blast near the Acropolis in Athens has caused multiple fatalities. Emergency services are actively addressing the aftermath of the incident.",
+      "article_ids": [
+        "3ddefb33a796a282fd1c42e7",
+        "b9dcb4577de20804450e3eb2"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss",
+          "headline": "At least two dead after explosion destroys building close to Acropolis in Athens",
+          "published_at": "2026-09-26T10:18:51Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss",
+          "headline": "One dead and five missing after explosion destroys building close to Acropolis in Athens",
+          "published_at": "2026-09-26T09:33:03Z"
         }
       ],
       "source_count": 1
     }
   ],
-  "top_stories": [
+  "developing": [
     {
-      "title": "Attacks on Ukrainian Data Centers",
-      "summary": "President Zelensky reported that Russian forces have expanded their targeting to include Ukrainian data centers. The ongoing strikes aim to disrupt ordinary civic life within the country.",
-      "article_ids": [
-        "15e6e53173e59c2dfa73f975",
-        "4a7a3255266a852b64614df9",
-        "0707532a0230597954bbfe17"
-      ],
+      "label": "Zelensky · attacks · Russia · Ukraine",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 6,
+      "latest_at": "2026-09-25T20:47:49Z",
       "sources": [
         {
           "publisher": "BBC News Europe",
@@ -128,120 +193,98 @@
           "published_at": "2026-09-25T20:47:49Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia targeting 'ordinary life' with attacks on data centres, Zelensky says",
-          "published_at": "2026-09-25T20:07:43Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260925-trump-made-final-decision-to-give-ukraine-patriot-licence-zelensky-says",
+          "headline": "Trump made ‘final decision’ to give Ukraine Patriot licence, Zelensky says",
+          "published_at": "2026-09-25T11:46:31Z"
+        },
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/09/25/poland-issues-guidance-on-responding-to-air-attacks-and-warns-of-russia-threat",
+          "headline": "Poland issues guidance on responding to air attacks and warns of Russia threat",
+          "published_at": "2026-09-25T11:09:53Z"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
-      "title": "Strait of Hormuz Proposal",
-      "summary": "Iran proposed a seven-day plan to reopen the Strait of Hormuz if specific international conditions are met. Reports indicate that Donald Trump has rejected the suggested terms.",
-      "article_ids": [
-        "3e7059bd10f694a3d1eaa003",
-        "d0a6a7c9599646763d085e3a",
-        "2cc24154739723f41071d4d4"
-      ],
+      "label": "Pope · France · visits · XIV",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 9,
+      "latest_at": "2026-09-26T09:46:01Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/middle-east-iran-proposes-hormuz-plan-donald-trump-reportedly-refuses",
-          "headline": "Middle-East: Iran proposes Hormuz plan, Donald Trump reportedly refuses",
-          "published_at": "2026-09-26T09:35:15Z"
+          "url": "https://www.france24.com/en/pope-leo-xiv-visits-france-and-meets-migrants-and-margialised-people",
+          "headline": "Pope Leo XIV visits France and meets migrants and margialised people",
+          "published_at": "2026-09-26T09:46:01Z"
         },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/pope-leo-urges-urgent-dialogue-in-warning-to-populist-forces-in-france",
+          "headline": "Pope Leo calls for dialogue as France’s populist forces eye power",
+          "published_at": "2026-09-25T13:36:18Z"
+        }
+      ]
+    },
+    {
+      "label": "Iran · Hormuz · reopen · Strait",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-09-26T09:31:17Z",
+      "sources": [
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/iran-strait-of-hormuz-reopen-us-accepts-deal",
           "headline": "Iran says Strait of Hormuz could reopen within seven days if US accepts deal",
           "published_at": "2026-09-26T09:31:17Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east/20260926-trump-reportedly-rejects-iran-s-7-day-plan-to-reopen-strait-of-hormuz",
+          "headline": "Trump reportedly rejects Iran’s 7-day plan to reopen Strait of Hormuz",
+          "published_at": "2026-09-26T02:06:07Z"
         }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
+      ]
+    },
     {
-      "label": "Ukraine · EU · Kyiv · arming",
+      "label": "Pope · AI · Paris",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 4,
-      "latest_at": "2026-09-25T17:09:55Z",
+      "latest_at": "2026-09-25T18:52:55Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260925-eu-releases-%E2%82%AC6-6-billion-for-members-arming-ukraine-as-five-killed-in-kyiv",
-          "headline": "EU releases €6.6 billion for members arming Ukraine as five killed in Kyiv",
-          "published_at": "2026-09-25T17:09:55Z"
+          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260925-pope-in-paris-xi-in-dc-ai-at-a-crossroads",
+          "headline": "Pope in Paris, Xi in DC, AI at a Crossroads",
+          "published_at": "2026-09-25T18:52:55Z"
         },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/239459/how-a-chinese-smart-sex-toys-company-fed-russian-war-tech-against-ukraine-and-exposed-an-eu-sanctions-blind-spot",
-          "headline": "How a Chinese ‘smart sex toys’ company fed Russian war tech against Ukraine — and exposed an EU sanctions blind spot",
-          "published_at": "2026-09-25T12:25:10Z"
-        }
-      ]
-    },
-    {
-      "label": "Court · US",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-09-25T16:52:32Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20260925-supreme-court-restores-trump-mass-voter-verification-system-despite-outcry",
-          "headline": "US Supreme Court allows Trump to use controversial voter 'verification' system",
-          "published_at": "2026-09-25T16:52:32Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-09-25/mexican-courts-back-us-woman-who-accused-a-fake-tijuana-clinic-of-malpractice.html",
-          "headline": "Mexican courts back US woman who accused a fake Tijuana clinic of malpractice",
-          "published_at": "2026-09-25T11:59:56Z"
-        }
-      ]
-    },
-    {
-      "label": "AI · Pope",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-09-25T12:44:08Z",
-      "sources": [
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
           "headline": "Pope warns against 'losing humanity' to AI machines",
           "published_at": "2026-09-25T12:44:08Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/war-ai-secularism-surrogacy-what-to-take-away-from-the-pope-s-speech",
-          "headline": "War, AI, secularism, surrogacy: what to take away from the Pope's speech",
-          "published_at": "2026-09-25T12:27:50Z"
-        }
-      ]
-    },
-    {
-      "label": "Catholics · flood · France · hope",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-09-25T19:57:30Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260925-i-hope-france-wakes-up-young-catholics-flood-the-streets-for-pope-leo-s-paris-visit",
-          "headline": "‘I hope France wakes up’: Young Catholics flood the streets for Pope Leo's Paris visit",
-          "published_at": "2026-09-25T19:57:30Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "07b23921beaafcf903dcfca0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Leo XIV in Paris: 600,000 worshippers excepted for open-air mass",
+      "url": "https://www.france24.com/en/leo-xiv-in-paris-600-000-worshippers-excepted-for-open-air-mass",
+      "published_at": "2026-09-26T10:22:33Z",
+      "collected_at": "2026-09-26T11:00:47Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "3ddefb33a796a282fd1c42e7",
       "source_id": "bbc_europe",
@@ -268,6 +311,48 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "1137bac0fa1d97ee992f3a93",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Middle East: An art centre for children in occupied West Bank",
+      "url": "https://www.france24.com/en/middle-east-an-art-centre-for-children-in-occupied-west-bank",
+      "published_at": "2026-09-26T10:10:46Z",
+      "collected_at": "2026-09-26T11:00:47Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "22b11041c24f02e7ca7d68c5",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "‘Super El Niño’ deepens hunger crisis in South Sudan says UN",
+      "url": "https://www.france24.com/en/video/20260926-super-el-ni%C3%B1o-deepens-hunger-crisis-in-south-sudan-says-un",
+      "published_at": "2026-09-26T10:06:43Z",
+      "collected_at": "2026-09-26T11:00:47Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "439f08989164cb2173cf10ec",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Leo XIV says in Paris it is possible 'to live together in dignity and peace'",
+      "url": "https://www.france24.com/en/leo-xiv-says-in-paris-it-is-possible-to-live-together-in-dignity-and-peace",
+      "published_at": "2026-09-26T09:57:25Z",
+      "collected_at": "2026-09-26T11:00:47Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -1811,34 +1896,6 @@
       ]
     },
     {
-      "id": "cacc6eb7b428c5ab368276d4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 Live: Pope Leo gives first address of France visit at Élysée presidential palace",
-      "url": "https://www.france24.com/en/europe/20260925-live-pope-france-first-state-visit-18-years",
-      "published_at": "2026-09-25T10:22:00Z",
-      "collected_at": "2026-09-25T10:30:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "f17fc1d76502196f8802a32c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Journalism and resistance under Taliban rule",
-      "url": "https://www.france24.com/en/tv-shows/the-51/20260925-journalism-and-resistance-under-taliban-rule",
-      "published_at": "2026-09-25T10:21:53Z",
-      "collected_at": "2026-09-25T10:30:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "a832ab1265312f4f04e5de37",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1846,62 +1903,6 @@
       "url": "https://www.france24.com/en/sport/20260925-english-spanish-italian-german-football-leagues-call-for-fifa-reform",
       "published_at": "2026-09-25T10:12:07Z",
       "collected_at": "2026-09-25T12:00:59Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "73a3354aa1fc77d8435c213b",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Netanyahu challenges half-empty UN General Assembly: Accusing Israel of genocide is the ‘biggest lie of the century’",
-      "url": "https://english.elpais.com/international/2026-09-25/netanyahu-challenges-half-empty-un-general-assembly-accusing-israel-of-genocide-is-the-biggest-lie-of-the-century.html",
-      "published_at": "2026-09-25T10:06:48Z",
-      "collected_at": "2026-09-25T10:30:43Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "22c21e7447303f66192d7689",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump’s state dinner (and a bald eagle) to honor Xi Jinping",
-      "url": "https://english.elpais.com/international/2026-09-25/trumps-state-dinner-and-a-bald-eagle-to-honor-xi-jinping.html",
-      "published_at": "2026-09-25T10:02:21Z",
-      "collected_at": "2026-09-25T10:30:43Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "77a1c25acd90604661e1f035",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Thailand rejects Daniel Sancho appeals and upholds life sentence for murder of Colombian plastic surgeon",
-      "url": "https://english.elpais.com/international/2026-09-25/thailand-rejects-daniel-sancho-appeals-and-upholds-life-sentence-for-murder-of-colombian-plastic-surgeon.html",
-      "published_at": "2026-09-25T09:06:55Z",
-      "collected_at": "2026-09-25T10:30:43Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "f17089a920f9761a43ecc34c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: Pope Leo gives first address of France visit at Élysée presidential palace",
-      "url": "https://www.france24.com/en/europe/20260925-live-pope-france-first-state-visit-18-years",
-      "published_at": "2026-09-25T01:57:04Z",
-      "collected_at": "2026-09-25T10:30:43Z",
       "topics": [
         "politics",
         "security",
@@ -2329,34 +2330,6 @@
       ]
     },
     {
-      "id": "46154014336ef1a1f934f5d6",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Tax the rich, cap the rents: the policy mix helping Europe’s left push back the far-right",
-      "url": "https://euobserver.com/238885/tax-the-rich-cap-the-rents-the-policy-mix-helping-europes-left-push-back-the-far-right",
-      "published_at": "2026-09-23T09:43:33Z",
-      "collected_at": "2026-09-25T10:30:43Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "dc601344d0668b236dd6db6a",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "New US “Fort Trump” military base in Poland “confirmed”, says President Nawrocki",
-      "url": "https://notesfrompoland.com/2026/09/23/new-us-fort-trump-military-base-in-poland-confirmed-says-president-nawrocki",
-      "published_at": "2026-09-23T09:35:47Z",
-      "collected_at": "2026-09-25T10:30:43Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "d419263ef350e6088f4ae288",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2368,6 +2341,48 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "7979d386312bee6ebe371b29",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland has begun paying benefits to same-sex couples who married abroad",
+      "url": "https://notesfrompoland.com/2026/09/22/poland-has-begun-paying-benefits-to-same-sex-couples-who-married-abroad",
+      "published_at": "2026-09-22T09:59:41Z",
+      "collected_at": "2026-09-26T11:00:47Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "253bfded5a3a4601d31ba7a6",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Spain battles climate change on several fronts",
+      "url": "https://www.bbc.co.uk/news/articles/cwg59g3vz564o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-22T09:11:48Z",
+      "collected_at": "2026-09-26T11:00:47Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "b88b8e8f1926722ec3c99d5d",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "'Swan Song': New book by Princess Diana's brother drops",
+      "url": "https://www.dw.com/en/swan-song-new-book-by-princess-diana-s-brother-drops/a-79365835?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-22T08:36:00Z",
+      "collected_at": "2026-09-26T11:00:47Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
