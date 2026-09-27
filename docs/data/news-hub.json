@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-27T05:30:44Z",
-  "last_successful_collection_at": "2026-09-27T05:30:44Z",
+  "generated_at": "2026-09-27T06:00:54Z",
+  "last_successful_collection_at": "2026-09-27T06:00:54Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-27T05:30:44Z"
+      "at": "2026-09-27T06:00:54Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-09-27T05:30:44Z"
+      "at": "2026-09-27T06:00:54Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-27T05:30:44Z"
+      "at": "2026-09-27T06:00:54Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,77 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-27T05:30:44Z"
+      "at": "2026-09-27T06:00:54Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-27T05:30:44Z"
+      "at": "2026-09-27T06:00:54Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-27T05:30:44Z"
+      "at": "2026-09-27T06:00:54Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-27T05:30:44Z"
+      "at": "2026-09-27T06:00:54Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-27T05:30:44Z"
+      "at": "2026-09-27T06:00:54Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-27T05:30:44Z"
+      "at": "2026-09-27T06:00:54Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Pope Leo XIV Celebrates Massive Paris Mass",
-      "summary": "Pope Leo XIV held a large open-air Mass in central Paris drawing hundreds of thousands of attendees. The visit also included meetings with clergy abuse victims in Lourdes.",
+      "title": "Explosion Near Athens Acropolis",
+      "summary": "A building explosion near the Acropolis in Athens resulted in six fatalities, including a British national. Emergency services and authorities responded to the site of the blast as investigations continue.",
+      "article_ids": [
+        "b6a0af652099b99f4dbb3238"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss",
+          "headline": "British national among six dead in building explosion close to Acropolis in Athens",
+          "published_at": "2026-09-26T12:47:25Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Escalation in Russia-Ukraine Conflict",
+      "summary": "At least 16 people were killed as Russian and Ukrainian forces traded deadly air strikes. The ongoing military exchanges highlight a severe escalation in regional hostilities.",
+      "article_ids": [
+        "3455d430fd3c4531c5af525e"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260926-at-least-16-people-killed-as-russia-and-ukraine-trade-deadly-air-strikes",
+          "headline": "At least 16 people killed as Russia and Ukraine trade deadly air strikes",
+          "published_at": "2026-09-26T15:40:10Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Pope Leo XIV's Visit to France",
+      "summary": "Pope Leo XIV celebrated a major open-air Mass in central Paris with hundreds of thousands of attendees. Following the gathering in Paris, the Pope traveled to Lourdes to meet with clergy sexual abuse victims.",
       "article_ids": [
         "b7a5efd6f4585629bfded3cb",
         "74b192f013a381dd359dde61"
@@ -87,45 +121,39 @@
       "source_count": 1
     },
     {
-      "title": "Deadly Building Explosion in Athens",
-      "summary": "An explosion near the Acropolis in Athens resulted in multiple fatalities, including a British national. Local authorities responded immediately to the security incident.",
+      "title": "European Energy Pressures",
+      "summary": "Ongoing conflicts in the Middle East are threatening Europe with a potential second energy crisis within five years. Policymakers and markets are closely monitoring the risks posed to regional energy security.",
       "article_ids": [
-        "b6a0af652099b99f4dbb3238"
+        "4378dd440a9c7bbf0e9ab264"
       ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss",
-          "headline": "British national among six dead in building explosion close to Acropolis in Athens",
-          "published_at": "2026-09-26T12:47:25Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [],
-  "developing": [
-    {
-      "label": "East · Middle · plan · Donald",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-09-27T04:00:00Z",
       "sources": [
         {
           "publisher": "EL PAÍS English",
           "url": "https://english.elpais.com/international/2026-09-27/middle-east-conflicts-push-europe-toward-a-second-energy-crisis-in-five-years.html",
           "headline": "Middle East conflicts push Europe toward a second energy crisis in five years",
           "published_at": "2026-09-27T04:00:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/middle-east-palestinians-plan-first-local-elections-in-20-years",
-          "headline": "Middle East: Palestinians plan first local elections in 20 years",
-          "published_at": "2026-09-26T12:29:33Z"
         }
-      ]
+      ],
+      "source_count": 1
     },
+    {
+      "title": "Russian School Propaganda Concerns",
+      "summary": "Reports indicate that educational programs and propaganda in Russian schools are increasingly preparing students for military service and sacrifice. Observers have raised significant alarms regarding the nature of these curriculum shifts.",
+      "article_ids": [
+        "6b1ed1ca88937369353b78da"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/propaganda-in-russian-schools-prepares-students-to-die-for-their-country/a-79417294?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Propaganda in Russian schools prepares students to die for their country",
+          "published_at": "2026-09-26T11:55:00Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
     {
       "label": "G20 · Putin · Trump",
       "origin": "convergence",
@@ -148,21 +176,6 @@
       ]
     },
     {
-      "label": "prepares · Propaganda · Russian · schools",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 3,
-      "latest_at": "2026-09-26T11:55:00Z",
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/propaganda-in-russian-schools-prepares-students-to-die-for-their-country/a-79417294?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Propaganda in Russian schools prepares students to die for their country",
-          "published_at": "2026-09-26T11:55:00Z"
-        }
-      ]
-    },
-    {
       "label": "aggravated · charged · Eleven · France",
       "origin": "radar",
       "source_count": 1,
@@ -174,6 +187,36 @@
           "url": "https://www.politico.eu/article/france-crepol-thomas-perotto-11-defendants-trial-racial-aggravating-factor",
           "headline": "Eleven charged with murder aggravated by speech against ‘white race’ in France",
           "published_at": "2026-09-26T12:16:48Z"
+        }
+      ]
+    },
+    {
+      "label": "AI · enthusiasm · Estonia · grappling",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-09-27T04:00:00Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-09-27/from-mamdanis-veto-to-enthusiasm-in-estonia-schools-around-the-world-are-grappling-with-the-use-of-ai.html",
+          "headline": "From Mamdani’s veto to enthusiasm in Estonia: Schools around the world are grappling with the use of AI",
+          "published_at": "2026-09-27T04:00:00Z"
+        }
+      ]
+    },
+    {
+      "label": "prepares · Propaganda · Russian · schools",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-09-26T11:55:00Z",
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/propaganda-in-russian-schools-prepares-students-to-die/a-79417294?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Propaganda in Russian schools prepares students to die",
+          "published_at": "2026-09-26T11:55:00Z"
         }
       ]
     }
@@ -621,6 +664,20 @@
       "url": "https://www.france24.com/en/france/20260926-pope-visits-lourdes-after-giant-paris-mass-to-meet-clergy-abuse-victims",
       "published_at": "2026-09-26T13:40:10Z",
       "collected_at": "2026-09-27T05:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a401afb108348f7cdc9e95b0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Pope Leo XIV visits Lourdes after giant Paris mass to meet clergy sexual abuse victims",
+      "url": "https://www.france24.com/en/france/20260926-pope-visits-lourdes-after-giant-paris-mass-to-meet-clergy-abuse-victims",
+      "published_at": "2026-09-26T13:40:10Z",
+      "collected_at": "2026-09-27T06:00:54Z",
       "topics": [
         "politics",
         "security",
@@ -1265,20 +1322,6 @@
       "url": "https://www.france24.com/en/europe/20260926-live-more-than-half-a-million-expected-at-pope-s-open-air-mass-in-paris",
       "published_at": "2026-09-26T06:59:41Z",
       "collected_at": "2026-09-26T14:30:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "689f1835deac62a7de260a81",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "CNN removed from Trump press pool, despite judge order to reinstate White House access",
-      "url": "https://www.france24.com/en/americas/20260926-cnn-removed-from-trump-press-pool-despite-judge-order-to-reinstate-white-house-access",
-      "published_at": "2026-09-26T05:56:01Z",
-      "collected_at": "2026-09-26T06:00:50Z",
       "topics": [
         "politics",
         "security",
