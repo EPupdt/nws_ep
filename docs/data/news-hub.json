@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-27T05:00:47Z",
-  "last_successful_collection_at": "2026-09-27T05:00:47Z",
+  "generated_at": "2026-09-27T05:30:44Z",
+  "last_successful_collection_at": "2026-09-27T05:30:44Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-27T05:00:47Z"
+      "at": "2026-09-27T05:30:44Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-09-27T05:00:47Z"
+      "at": "2026-09-27T05:30:44Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-27T05:00:47Z"
+      "at": "2026-09-27T05:30:44Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-27T05:00:47Z"
+      "at": "2026-09-27T05:30:44Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-27T05:00:47Z"
+      "at": "2026-09-27T05:30:44Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-27T05:00:47Z"
+      "at": "2026-09-27T05:30:44Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-27T05:00:47Z"
+      "at": "2026-09-27T05:30:44Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-27T05:00:47Z"
+      "at": "2026-09-27T05:30:44Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-27T05:00:47Z"
+      "at": "2026-09-27T05:30:44Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Explosion in Athens",
-      "summary": "A building explosion near the Acropolis in Athens resulted in six fatalities, including a British national. Emergency services and authorities responded to the site of the blast.",
+      "title": "Pope Leo XIV Celebrates Massive Paris Mass",
+      "summary": "Pope Leo XIV held a large open-air Mass in central Paris drawing hundreds of thousands of attendees. The visit also included meetings with clergy abuse victims in Lourdes.",
+      "article_ids": [
+        "b7a5efd6f4585629bfded3cb",
+        "74b192f013a381dd359dde61"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20260926-pope-leo-xiv-celebrates-open-air-mass-in-front-of-800-000-people-in-central-paris",
+          "headline": "Pope Leo XIV celebrates open-air Mass in front of 800,000 people in central Paris",
+          "published_at": "2026-09-26T20:28:37Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20260926-pope-visits-lourdes-after-giant-paris-mass-to-meet-clergy-abuse-victims",
+          "headline": "Pope Leo XIV visits Lourdes after giant Paris mass to meet clergy abuse victims",
+          "published_at": "2026-09-26T13:40:10Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Deadly Building Explosion in Athens",
+      "summary": "An explosion near the Acropolis in Athens resulted in multiple fatalities, including a British national. Local authorities responded immediately to the security incident.",
       "article_ids": [
         "b6a0af652099b99f4dbb3238"
       ],
@@ -80,48 +103,29 @@
       "source_count": 1
     }
   ],
-  "top_stories": [
+  "top_stories": [],
+  "developing": [
     {
-      "title": "Pope Leo XIV's Visit to France",
-      "summary": "Pope Leo XIV celebrated a major open-air Mass in central Paris with hundreds of thousands of attendees. During his official visit, the pontiff addressed various groups and called for the protection of migrants.",
-      "article_ids": [
-        "b7a5efd6f4585629bfded3cb",
-        "3721f93b53ba6b1320eb0d83"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260926-pope-leo-xiv-celebrates-open-air-mass-in-front-of-800-000-people-in-central-paris",
-          "headline": "Pope Leo XIV celebrates open-air Mass in front of 800,000 people in central Paris",
-          "published_at": "2026-09-26T20:28:37Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/pope-leo-xiv-calls-to-protect-migrants-during-his-official-visit-to-france",
-          "headline": "Pope Leo XIV calls to protect migrants during his official visit to France",
-          "published_at": "2026-09-26T16:16:26Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Energy Pressures and Middle East Conflicts",
-      "summary": "Ongoing conflicts in the Middle East are threatening European stability by pushing the region toward a potential second energy crisis in five years. Policymakers are closely monitoring the emerging economic and security pressures.",
-      "article_ids": [
-        "4378dd440a9c7bbf0e9ab264"
-      ],
+      "label": "East · Middle · plan · Donald",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 5,
+      "latest_at": "2026-09-27T04:00:00Z",
       "sources": [
         {
           "publisher": "EL PAÍS English",
           "url": "https://english.elpais.com/international/2026-09-27/middle-east-conflicts-push-europe-toward-a-second-energy-crisis-in-five-years.html",
           "headline": "Middle East conflicts push Europe toward a second energy crisis in five years",
           "published_at": "2026-09-27T04:00:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east-palestinians-plan-first-local-elections-in-20-years",
+          "headline": "Middle East: Palestinians plan first local elections in 20 years",
+          "published_at": "2026-09-26T12:29:33Z"
         }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
+      ]
+    },
     {
       "label": "G20 · Putin · Trump",
       "origin": "convergence",
@@ -147,7 +151,7 @@
       "label": "prepares · Propaganda · Russian · schools",
       "origin": "radar",
       "source_count": 1,
-      "item_count": 2,
+      "item_count": 3,
       "latest_at": "2026-09-26T11:55:00Z",
       "sources": [
         {
@@ -170,21 +174,6 @@
           "url": "https://www.politico.eu/article/france-crepol-thomas-perotto-11-defendants-trial-racial-aggravating-factor",
           "headline": "Eleven charged with murder aggravated by speech against ‘white race’ in France",
           "published_at": "2026-09-26T12:16:48Z"
-        }
-      ]
-    },
-    {
-      "label": "AI · enthusiasm · Estonia · grappling",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-09-27T04:00:00Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-09-27/from-mamdanis-veto-to-enthusiasm-in-estonia-schools-around-the-world-are-grappling-with-the-use-of-ai.html",
-          "headline": "From Mamdani’s veto to enthusiasm in Estonia: Schools around the world are grappling with the use of AI",
-          "published_at": "2026-09-27T04:00:00Z"
         }
       ]
     }
@@ -625,6 +614,20 @@
       ]
     },
     {
+      "id": "74b192f013a381dd359dde61",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Pope Leo XIV visits Lourdes after giant Paris mass to meet clergy abuse victims",
+      "url": "https://www.france24.com/en/france/20260926-pope-visits-lourdes-after-giant-paris-mass-to-meet-clergy-abuse-victims",
+      "published_at": "2026-09-26T13:40:10Z",
+      "collected_at": "2026-09-27T05:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "f65be19031504a36b36bd79b",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -758,6 +761,20 @@
       "url": "https://www.dw.com/en/propaganda-in-russian-schools-prepares-students-to-die/a-79417294?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-09-26T11:55:00Z",
       "collected_at": "2026-09-26T13:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "a3de4a451717cd56445befbc",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Russian students: Propaganda in school prepares them to die",
+      "url": "https://www.dw.com/en/russian-students-propaganda-in-school-prepares-them-to-die/a-79417294?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-26T11:55:00Z",
+      "collected_at": "2026-09-27T05:30:44Z",
       "topics": [
         "politics",
         "society",
@@ -1290,20 +1307,6 @@
       "url": "https://www.france24.com/en/asia-pacific/20260926-bangkok-declares-flood-disaster-after-massive-48h-downpour",
       "published_at": "2026-09-26T04:40:09Z",
       "collected_at": "2026-09-26T09:00:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "2cc24154739723f41071d4d4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Trump reportedly rejects Iran’s 7-day plan to reopen Strait of Hormuz",
-      "url": "https://www.france24.com/en/middle-east/20260926-trump-reportedly-rejects-iran-s-7-day-plan-to-reopen-strait-of-hormuz",
-      "published_at": "2026-09-26T02:06:07Z",
-      "collected_at": "2026-09-26T05:00:51Z",
       "topics": [
         "politics",
         "security",
@@ -1913,62 +1916,6 @@
       ]
     },
     {
-      "id": "35485aaa8a68af12f73a827a",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "From Opus Dei alumni to McKinsey consultants: The clans that run Spain’s biggest companies",
-      "url": "https://english.elpais.com/economy-and-business/2026-09-21/from-opus-dei-alumni-to-mckinsey-consultants-the-clans-that-run-spains-biggest-companies.html",
-      "published_at": "2026-09-20T04:00:00Z",
-      "collected_at": "2026-09-26T05:30:42Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "d1dc666f3260211afedbf2df",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The epic life of Schwarzenegger, a bodybuilder-turned-legend: ‘If he had been born in the US he would be president’",
-      "url": "https://english.elpais.com/people/2026-09-21/the-epic-life-of-schwarzenegger-a-bodybuilder-turned-legend-if-he-had-been-born-in-the-us-he-would-be-president.html",
-      "published_at": "2026-09-20T04:00:00Z",
-      "collected_at": "2026-09-26T05:30:42Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "e5178df681b9154db3b0571d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The Mormon church is expanding its real-estate empire across the United States: ‘They’re opportunists in a very calculated way’",
-      "url": "https://english.elpais.com/usa/2026-09-21/the-mormon-church-is-expanding-its-real-estate-empire-across-the-united-states-theyre-opportunists-in-a-very-calculated-way.html",
-      "published_at": "2026-09-20T04:00:00Z",
-      "collected_at": "2026-09-26T05:30:42Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "664e2768bd3ec0679198b1c9",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Miami’s fairy godmother for undocumented domestic workers",
-      "url": "https://english.elpais.com/usa/2026-09-21/miamis-fairy-godmother-for-undocumented-domestic-workers.html",
-      "published_at": "2026-09-20T04:00:00Z",
-      "collected_at": "2026-09-26T05:30:42Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "bb72201d6f2d194c30b30633",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1980,6 +1927,48 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "8f989fc7287e92cf8d0008fc",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Europe does not want to depend on foreign technology in the new digital order",
+      "url": "https://english.elpais.com/technology/2026-09-19/europe-does-not-want-to-depend-on-foreign-technology-in-the-new-digital-order.html",
+      "published_at": "2026-09-19T04:00:00Z",
+      "collected_at": "2026-09-27T05:30:44Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "38e6708e663784ac19409329",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Andrew Scott, the expert in tortured characters: ‘I join projects because of the script’",
+      "url": "https://english.elpais.com/culture/2026-09-19/andrew-scott-the-expert-in-tortured-characters-i-join-projects-because-of-the-script.html",
+      "published_at": "2026-09-19T04:00:00Z",
+      "collected_at": "2026-09-27T05:30:44Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "3c7a9aa0f1c74eff0776c0fa",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Held in hotels or detained for a year after being deported to Africa: ‘This is called human trafficking’",
+      "url": "https://english.elpais.com/international/2026-09-19/held-in-hotels-or-detained-for-a-year-after-being-deported-to-africa-this-is-called-human-trafficking.html",
+      "published_at": "2026-09-19T04:00:00Z",
+      "collected_at": "2026-09-27T05:30:44Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
