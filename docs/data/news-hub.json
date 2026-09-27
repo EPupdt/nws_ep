@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-27T06:00:54Z",
-  "last_successful_collection_at": "2026-09-27T06:00:54Z",
+  "generated_at": "2026-09-27T06:30:44Z",
+  "last_successful_collection_at": "2026-09-27T06:30:44Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-27T06:00:54Z"
+      "at": "2026-09-27T06:30:44Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-09-27T06:00:54Z"
+      "at": "2026-09-27T06:30:44Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-27T06:00:54Z"
+      "at": "2026-09-27T06:30:44Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-27T06:00:54Z"
+      "at": "2026-09-27T06:30:44Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-27T06:00:54Z"
+      "at": "2026-09-27T06:30:44Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-27T06:00:54Z"
+      "at": "2026-09-27T06:30:44Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-27T06:00:54Z"
+      "at": "2026-09-27T06:30:44Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-27T06:00:54Z"
+      "at": "2026-09-27T06:30:44Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-27T06:00:54Z"
+      "at": "2026-09-27T06:30:44Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Explosion Near Athens Acropolis",
-      "summary": "A building explosion near the Acropolis in Athens resulted in six fatalities, including a British national. Emergency services and authorities responded to the site of the blast as investigations continue.",
+      "title": "Building Explosion in Athens",
+      "summary": "A building explosion near the Acropolis in Athens resulted in six fatalities, including a British national. Emergency services and local authorities responded to the incident as investigations into the cause are underway.",
       "article_ids": [
         "b6a0af652099b99f4dbb3238"
       ],
@@ -80,26 +80,8 @@
       "source_count": 1
     },
     {
-      "title": "Escalation in Russia-Ukraine Conflict",
-      "summary": "At least 16 people were killed as Russian and Ukrainian forces traded deadly air strikes. The ongoing military exchanges highlight a severe escalation in regional hostilities.",
-      "article_ids": [
-        "3455d430fd3c4531c5af525e"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260926-at-least-16-people-killed-as-russia-and-ukraine-trade-deadly-air-strikes",
-          "headline": "At least 16 people killed as Russia and Ukraine trade deadly air strikes",
-          "published_at": "2026-09-26T15:40:10Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
       "title": "Pope Leo XIV's Visit to France",
-      "summary": "Pope Leo XIV celebrated a major open-air Mass in central Paris with hundreds of thousands of attendees. Following the gathering in Paris, the Pope traveled to Lourdes to meet with clergy sexual abuse victims.",
+      "summary": "Pope Leo XIV celebrated a massive open-air Mass in central Paris with hundreds of thousands of attendees during his official state visit. He is also scheduled to visit Lourdes to meet with victims of clergy sexual abuse.",
       "article_ids": [
         "b7a5efd6f4585629bfded3cb",
         "74b192f013a381dd359dde61"
@@ -119,10 +101,12 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "European Energy Pressures",
-      "summary": "Ongoing conflicts in the Middle East are threatening Europe with a potential second energy crisis within five years. Policymakers and markets are closely monitoring the risks posed to regional energy security.",
+      "title": "Middle East Conflicts Impact European Energy",
+      "summary": "Ongoing conflicts in the Middle East are placing significant pressure on Europe. These geopolitical developments threaten to push the continent toward a second major energy crisis within a five-year span.",
       "article_ids": [
         "4378dd440a9c7bbf0e9ab264"
       ],
@@ -137,8 +121,8 @@
       "source_count": 1
     },
     {
-      "title": "Russian School Propaganda Concerns",
-      "summary": "Reports indicate that educational programs and propaganda in Russian schools are increasingly preparing students for military service and sacrifice. Observers have raised significant alarms regarding the nature of these curriculum shifts.",
+      "title": "Russian School Propaganda Raises Security Concerns",
+      "summary": "Reports indicate that curriculum updates and propaganda within Russian schools are designed to prepare students for military service and national sacrifice. Observers view these developments as part of broader systemic tensions affecting regional security.",
       "article_ids": [
         "6b1ed1ca88937369353b78da"
       ],
@@ -678,6 +662,20 @@
       "url": "https://www.france24.com/en/france/20260926-pope-visits-lourdes-after-giant-paris-mass-to-meet-clergy-abuse-victims",
       "published_at": "2026-09-26T13:40:10Z",
       "collected_at": "2026-09-27T06:00:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "1bb32e7306d69c34bb593f18",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Pope Leo XIV visits Lourdes after Paris mass to meet clergy sexual abuse victims",
+      "url": "https://www.france24.com/en/france/20260926-pope-visits-lourdes-after-giant-paris-mass-to-meet-clergy-abuse-victims",
+      "published_at": "2026-09-26T13:40:10Z",
+      "collected_at": "2026-09-27T06:30:44Z",
       "topics": [
         "politics",
         "security",

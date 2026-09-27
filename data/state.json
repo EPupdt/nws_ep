@@ -1,6 +1,5 @@
 {
   "seen": {
-    "2aa15b2261dde76f7a564c86": "2026-09-25T06:30:43Z",
     "c5032f7209409852fa13ca87": "2026-09-25T07:00:51Z",
     "5c02106d5a8beaaf6b71cd35": "2026-09-25T08:00:52Z",
     "5cc3a326fd3b15e510b0f5f4": "2026-09-25T08:00:52Z",
@@ -308,7 +307,8 @@
     "8f989fc7287e92cf8d0008fc": "2026-09-27T05:30:44Z",
     "38e6708e663784ac19409329": "2026-09-27T05:30:44Z",
     "3c7a9aa0f1c74eff0776c0fa": "2026-09-27T05:30:44Z",
-    "a401afb108348f7cdc9e95b0": "2026-09-27T06:00:54Z"
+    "a401afb108348f7cdc9e95b0": "2026-09-27T06:00:54Z",
+    "1bb32e7306d69c34bb593f18": "2026-09-27T06:30:44Z"
   },
   "radar": [
     {
@@ -767,6 +767,20 @@
       "url": "https://www.france24.com/en/france/20260926-pope-visits-lourdes-after-giant-paris-mass-to-meet-clergy-abuse-victims",
       "published_at": "2026-09-26T13:40:10Z",
       "collected_at": "2026-09-27T06:00:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "1bb32e7306d69c34bb593f18",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Pope Leo XIV visits Lourdes after Paris mass to meet clergy sexual abuse victims",
+      "url": "https://www.france24.com/en/france/20260926-pope-visits-lourdes-after-giant-paris-mass-to-meet-clergy-abuse-victims",
+      "published_at": "2026-09-26T13:40:10Z",
+      "collected_at": "2026-09-27T06:30:44Z",
       "topics": [
         "politics",
         "security",
@@ -2218,14 +2232,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-09-25T19:30:48Z",
-      "title": "Polish Tax Rights Expansion"
-    },
-    {
-      "at": "2026-09-25T20:00:49Z",
-      "title": "German Student Protests Against Military Service"
-    },
-    {
       "at": "2026-09-25T20:00:49Z",
       "title": "EU Regulatory Fine on X"
     },
@@ -2536,14 +2542,22 @@
     {
       "at": "2026-09-27T06:00:54Z",
       "title": "Russian School Propaganda Concerns"
+    },
+    {
+      "at": "2026-09-27T06:30:44Z",
+      "title": "Middle East Conflicts Impact European Energy"
+    },
+    {
+      "at": "2026-09-27T06:30:44Z",
+      "title": "Russian School Propaganda Raises Security Concerns"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Explosion Near Athens Acropolis",
-        "summary": "A building explosion near the Acropolis in Athens resulted in six fatalities, including a British national. Emergency services and authorities responded to the site of the blast as investigations continue.",
+        "title": "Building Explosion in Athens",
+        "summary": "A building explosion near the Acropolis in Athens resulted in six fatalities, including a British national. Emergency services and local authorities responded to the incident as investigations into the cause are underway.",
         "article_ids": [
           "b6a0af652099b99f4dbb3238"
         ],
@@ -2558,26 +2572,8 @@
         "source_count": 1
       },
       {
-        "title": "Escalation in Russia-Ukraine Conflict",
-        "summary": "At least 16 people were killed as Russian and Ukrainian forces traded deadly air strikes. The ongoing military exchanges highlight a severe escalation in regional hostilities.",
-        "article_ids": [
-          "3455d430fd3c4531c5af525e"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20260926-at-least-16-people-killed-as-russia-and-ukraine-trade-deadly-air-strikes",
-            "headline": "At least 16 people killed as Russia and Ukraine trade deadly air strikes",
-            "published_at": "2026-09-26T15:40:10Z"
-          }
-        ],
-        "source_count": 1
-      }
-    ],
-    "top_stories": [
-      {
         "title": "Pope Leo XIV's Visit to France",
-        "summary": "Pope Leo XIV celebrated a major open-air Mass in central Paris with hundreds of thousands of attendees. Following the gathering in Paris, the Pope traveled to Lourdes to meet with clergy sexual abuse victims.",
+        "summary": "Pope Leo XIV celebrated a massive open-air Mass in central Paris with hundreds of thousands of attendees during his official state visit. He is also scheduled to visit Lourdes to meet with victims of clergy sexual abuse.",
         "article_ids": [
           "b7a5efd6f4585629bfded3cb",
           "74b192f013a381dd359dde61"
@@ -2597,10 +2593,12 @@
           }
         ],
         "source_count": 1
-      },
+      }
+    ],
+    "top_stories": [
       {
-        "title": "European Energy Pressures",
-        "summary": "Ongoing conflicts in the Middle East are threatening Europe with a potential second energy crisis within five years. Policymakers and markets are closely monitoring the risks posed to regional energy security.",
+        "title": "Middle East Conflicts Impact European Energy",
+        "summary": "Ongoing conflicts in the Middle East are placing significant pressure on Europe. These geopolitical developments threaten to push the continent toward a second major energy crisis within a five-year span.",
         "article_ids": [
           "4378dd440a9c7bbf0e9ab264"
         ],
@@ -2615,8 +2613,8 @@
         "source_count": 1
       },
       {
-        "title": "Russian School Propaganda Concerns",
-        "summary": "Reports indicate that educational programs and propaganda in Russian schools are increasingly preparing students for military service and sacrifice. Observers have raised significant alarms regarding the nature of these curriculum shifts.",
+        "title": "Russian School Propaganda Raises Security Concerns",
+        "summary": "Reports indicate that curriculum updates and propaganda within Russian schools are designed to prepare students for military service and national sacrifice. Observers view these developments as part of broader systemic tensions affecting regional security.",
         "article_ids": [
           "6b1ed1ca88937369353b78da"
         ],
@@ -2632,5 +2630,5 @@
       }
     ]
   },
-  "last_collection_at": "2026-09-27T06:00:54Z"
+  "last_collection_at": "2026-09-27T06:30:44Z"
 }
