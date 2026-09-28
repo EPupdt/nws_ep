@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-28T18:30:49Z",
-  "last_successful_collection_at": "2026-09-28T18:30:49Z",
+  "generated_at": "2026-09-28T19:00:55Z",
+  "last_successful_collection_at": "2026-09-28T19:00:55Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-28T18:30:49Z"
+      "at": "2026-09-28T19:00:55Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "29",
-      "at": "2026-09-28T18:30:49Z"
+      "at": "2026-09-28T19:00:55Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-28T18:30:49Z"
+      "at": "2026-09-28T19:00:55Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-28T18:30:49Z"
+      "at": "2026-09-28T19:00:55Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-28T18:30:49Z"
+      "at": "2026-09-28T19:00:55Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-28T18:30:49Z"
+      "at": "2026-09-28T19:00:55Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-28T18:30:49Z"
+      "at": "2026-09-28T19:00:55Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-28T18:30:49Z"
+      "at": "2026-09-28T19:00:55Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-28T18:30:49Z"
+      "at": "2026-09-28T19:00:55Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Suspected Bomb Plot Arrests Near UK Airbase",
-      "summary": "Five British national suspects arrested in connection with an explosives case near a UK airbase have been released on police bail.",
+      "title": "France extinguishes historic wildfire",
+      "summary": "French authorities announced the containment of the largest wildfire recorded in the country since 1949. The massive blaze burned thousands of hectares over a period of nearly ten weeks.",
+      "article_ids": [
+        "64bd13941d7c129ee20a26c4",
+        "a53df574d5e9e929e9521ea9"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/live-news/20260928-france-puts-out-largest-wildfire-since-1949",
+          "headline": "France puts out largest wildfire since 1949",
+          "published_at": "2026-09-28T17:00:08Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20260928-france-puts-out-massive-fire-that-torched-42-000-hectares-and-smouldered-for-69-days",
+          "headline": "France puts out massive fire that torched 42,000 hectares and smouldered for 69 days",
+          "published_at": "2026-09-28T17:00:08Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "UK airbase bomb plot suspects bailed",
+      "summary": "British police have released on bail five men who were previously arrested in connection with a suspected explosives plot near a military airbase. All five suspects are British nationals.",
       "article_ids": [
         "dd4048136853cd4748f83c8b",
         "c33fc55990b44049985087df"
@@ -85,10 +108,12 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Pope Leo XIV Concludes France Visit",
-      "summary": "Pope Leo XIV has finished his four-day visit to France with a final stop in Metz, issuing a plea for Europe to foster global dialogue.",
+      "title": "Pope Leo XIV concludes France visit",
+      "summary": "Pope Leo XIV finished his four-day trip to France with a final stop in Metz. His visit included appeals for global dialogue and European unity.",
       "article_ids": [
         "cf66147725c43daf29d28f9f",
         "acdc30fa50b3bf99ac04678c"
@@ -108,12 +133,10 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "Frontline Developments in Ukraine",
-      "summary": "Ukrainian forces have recently advanced on the front lines, regaining territory and capturing prisoners of war. Meanwhile, Russian drone strikes have hit historic structures in Kyiv.",
+      "title": "Frontline operations in Ukraine",
+      "summary": "Ukrainian forces recently regained territory and captured prisoners of war during frontline military operations. Meanwhile, residential areas in Kyiv faced ongoing drone attacks.",
       "article_ids": [
         "d27b2029fbbc41ad990dca02",
         "c194220f403011e1793093a2"
@@ -135,11 +158,11 @@
       "source_count": 2
     },
     {
-      "title": "Migration and EU Policy Discussions",
-      "summary": "Representatives at the Munich migration summit continued discussions regarding the EU return-hub plan. Ireland pushed for these return hubs despite a recent drop in border arrivals.",
+      "title": "EU migration policy discussions in Munich",
+      "summary": "Political figures gathered in Munich to discuss migration policy and proposed return hubs. Officials debated these measures despite recent drops in border arrivals.",
       "article_ids": [
         "c79e8a67c5a293089bfd5b6c",
-        "0c3fda1b3e1ea8b0e2e029bb"
+        "d7f6a9a79d21a5a007b86759"
       ],
       "sources": [
         {
@@ -150,7 +173,7 @@
         },
         {
           "publisher": "EUobserver",
-          "url": "https://euobserver.com/240030/we-cannot-become-complacent-ireland-pushes-return-hubs-at-munich-migration-summit-despite-drop-in-border-arrivals",
+          "url": "https://euobserver.com/240030/munich-talks-keep-eu-returnhub-plan-alive-despite-drop-in-border-arrivals-and-budget-questions",
           "headline": "Munich talks keep EU return‑hub plan alive despite drop in border arrivals and budget questions",
           "published_at": "2026-09-28T15:24:04Z"
         }
@@ -427,6 +450,20 @@
       "url": "https://www.france24.com/en/live-news/20260928-france-puts-out-largest-wildfire-since-1949",
       "published_at": "2026-09-28T17:00:08Z",
       "collected_at": "2026-09-28T18:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a53df574d5e9e929e9521ea9",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France puts out massive fire that torched 42,000 hectares and smouldered for 69 days",
+      "url": "https://www.france24.com/en/france/20260928-france-puts-out-massive-fire-that-torched-42-000-hectares-and-smouldered-for-69-days",
+      "published_at": "2026-09-28T17:00:08Z",
+      "collected_at": "2026-09-28T19:00:55Z",
       "topics": [
         "politics",
         "security",
@@ -2237,6 +2274,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "8354badcc123b964f855ae05",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Backlash over data centers tests Europe's AI ambitions",
+      "url": "https://www.dw.com/en/backlash-over-data-centers-tests-europe-s-ai-ambitions/a-79419800?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-26T18:08:00Z",
+      "collected_at": "2026-09-28T19:00:55Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
