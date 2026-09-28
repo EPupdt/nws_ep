@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-28T12:01:00Z",
-  "last_successful_collection_at": "2026-09-28T12:01:00Z",
+  "generated_at": "2026-09-28T12:30:46Z",
+  "last_successful_collection_at": "2026-09-28T12:30:46Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-28T12:01:00Z"
+      "at": "2026-09-28T12:30:46Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "27",
-      "at": "2026-09-28T12:01:00Z"
+      "at": "2026-09-28T12:30:46Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-28T12:01:00Z"
+      "at": "2026-09-28T12:30:46Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-28T12:01:00Z"
+      "at": "2026-09-28T12:30:46Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-28T12:01:00Z"
+      "at": "2026-09-28T12:30:46Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-28T12:01:00Z"
+      "at": "2026-09-28T12:30:46Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-28T12:01:00Z"
+      "at": "2026-09-28T12:30:46Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-28T12:01:00Z"
+      "at": "2026-09-28T12:30:46Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-28T12:01:00Z"
+      "at": "2026-09-28T12:30:46Z"
     }
   ],
   "europe_now": [
@@ -146,6 +146,27 @@
   ],
   "developing": [
     {
+      "label": "Pope · Ukraine · urges · war",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-09-28T12:26:58Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/pope-leo-urges-concessions-to-end-war-in-ukraine",
+          "headline": "Pope Leo urges concessions to end war in Ukraine",
+          "published_at": "2026-09-28T12:26:58Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260928-replay-pope-urges-peace-and-unity-in-europe-on-final-day-of-france-visit",
+          "headline": "REPLAY: Pope urges peace and unity in Europe on final day of France visit",
+          "published_at": "2026-09-28T10:49:23Z"
+        }
+      ]
+    },
+    {
       "label": "MTV · Swift · Taylor · VMA",
       "origin": "convergence",
       "source_count": 2,
@@ -201,24 +222,93 @@
           "published_at": "2026-09-28T10:47:38Z"
         }
       ]
-    },
-    {
-      "label": "business · UK · minister",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 3,
-      "latest_at": "2026-09-27T19:29:51Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/uk-tariffs-china-ev-review-jonathan-reynolds",
-          "headline": "Britain to keep tariffs on Chinese EVs ‘under review,’ UK business chief says",
-          "published_at": "2026-09-27T19:29:51Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "3d486558c3ce5d606b8d5ac0",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Pope Leo urges concessions to end war in Ukraine",
+      "url": "https://www.politico.eu/article/pope-leo-urges-concessions-to-end-war-in-ukraine",
+      "published_at": "2026-09-28T12:26:58Z",
+      "collected_at": "2026-09-28T12:30:46Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "8f20e46e40d1cb70922ec83f",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Ninth-century Arabic silver coins found near Viking trading centre in Poland",
+      "url": "https://notesfrompoland.com/2026/09/28/ninth-century-arabic-silver-coins-found-near-viking-trading-centre-in-poland",
+      "published_at": "2026-09-28T12:25:52Z",
+      "collected_at": "2026-09-28T12:30:46Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "ff50716de28c7190d4b9f97d",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "New bill to soften Starmer-era scrapping of jury trials, justice secretary confirms",
+      "url": "https://www.politico.eu/article/new-bill-keir-starmer-jury-trials-justice-secretary-alex-norris",
+      "published_at": "2026-09-28T12:20:28Z",
+      "collected_at": "2026-09-28T12:30:46Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "6fd349425b3e629f5abc7756",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Andy Burnham to go ‘further and faster’ than Keir Starmer on Brexit reset",
+      "url": "https://www.politico.eu/article/andy-burnham-further-faster-keir-starmer-brexit-reset-hamish-falconer",
+      "published_at": "2026-09-28T12:12:11Z",
+      "collected_at": "2026-09-28T12:30:46Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "27d58a9d4a6f6ab99bd1b2a2",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Healey admits money ‘simply not there’ but vows to back British businesses",
+      "url": "https://www.politico.eu/article/healey-admits-money-simply-not-there-but-vows-to-back-british-businesses",
+      "published_at": "2026-09-28T12:06:18Z",
+      "collected_at": "2026-09-28T12:30:46Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "15847d1bc1e33680c4a40eb3",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trump’s broken promise on crypto: a gold mine for his empire, multimillion-dollar losses for investors",
+      "url": "https://english.elpais.com/economy-and-business/2026-09-28/trumps-broken-promise-on-crypto-a-gold-mine-for-his-empire-multimillion-dollar-losses-for-investors.html",
+      "published_at": "2026-09-28T12:02:10Z",
+      "collected_at": "2026-09-28T12:30:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "a8b3a3e938f0fa14d6c8222f",
       "source_id": "france24",
@@ -1830,34 +1920,6 @@
       ]
     },
     {
-      "id": "5ee7dfadf4f7cc9c70b316f2",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Prosecutors drop case in which Wałęsa was accused of lying about being communist collaborator",
-      "url": "https://notesfrompoland.com/2026/09/25/prosecutors-drop-case-in-which-walesa-was-accused-of-lying-about-being-communist-collaborator",
-      "published_at": "2026-09-25T12:01:38Z",
-      "collected_at": "2026-09-27T12:30:45Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "f1c051ab4c16e15a277ab0c7",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Shadow fleet tankers flock back to being flagged as Russian, creating more headaches for EU states",
-      "url": "https://euobserver.com/239736/shadow-fleet-tankers-flock-back-to-being-flagged-as-russian-creating-more-headaches-for-eu-states",
-      "published_at": "2026-09-25T11:49:28Z",
-      "collected_at": "2026-09-27T12:30:45Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "0c8e8bbfef5408b16a76a4a8",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2138,6 +2200,20 @@
       ]
     },
     {
+      "id": "363962fd4636b5169150ae3b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Neither US intervention nor Communist stagnation: Harvard’s proposed plan for Cuba",
+      "url": "https://english.elpais.com/international/2026-09-22/neither-us-intervention-nor-communist-stagnation-harvards-proposed-plan-for-cuba.html",
+      "published_at": "2026-09-22T11:13:42Z",
+      "collected_at": "2026-09-28T12:30:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "253bfded5a3a4601d31ba7a6",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2187,20 +2263,6 @@
       "url": "https://english.elpais.com/international/2026-09-21/ferraris-porsches-17-guns-and-a-united-arab-emirates-residency-card-the-search-of-alejandro-betancourts-mansion-in-spain.html",
       "published_at": "2026-09-21T14:29:32Z",
       "collected_at": "2026-09-27T17:31:20Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "93f97c434ee03c181e039058",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump’s immigration policy is choking business: ‘There’s nobody to work’",
-      "url": "https://english.elpais.com/economy-and-business/2026-09-21/trumps-immigration-policy-is-choking-business-theres-nobody-to-work.html",
-      "published_at": "2026-09-21T11:09:39Z",
-      "collected_at": "2026-09-27T12:30:45Z",
       "topics": [
         "politics",
         "society",
@@ -2373,6 +2435,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "17f7a6342c3414d8dd8d7992",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Lionel Messi to bid farewell to Argentina national team with a final match in Buenos Aires: ‘The last tango of the world’s best player’",
+      "url": "https://english.elpais.com/sports/2026-09-16/lionel-messi-to-bid-farewell-to-argentina-national-team-with-a-final-match-in-buenos-aires-the-last-tango-of-the-worlds-best-player.html",
+      "published_at": "2026-09-16T08:54:43Z",
+      "collected_at": "2026-09-28T12:30:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
