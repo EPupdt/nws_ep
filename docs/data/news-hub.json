@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-28T05:30:46Z",
-  "last_successful_collection_at": "2026-09-28T05:30:46Z",
+  "generated_at": "2026-09-28T06:00:48Z",
+  "last_successful_collection_at": "2026-09-28T06:00:48Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-28T05:30:46Z"
+      "at": "2026-09-28T06:00:48Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-09-28T05:30:46Z"
+      "at": "2026-09-28T06:00:48Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-28T05:30:46Z"
+      "at": "2026-09-28T06:00:48Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,61 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-28T05:30:46Z"
+      "at": "2026-09-28T06:00:48Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-28T05:30:46Z"
+      "at": "2026-09-28T06:00:48Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-28T05:30:46Z"
+      "at": "2026-09-28T06:00:48Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-28T05:30:46Z"
+      "at": "2026-09-28T06:00:48Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-28T05:30:46Z"
+      "at": "2026-09-28T06:00:48Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-28T05:30:46Z"
+      "at": "2026-09-28T06:00:48Z"
     }
   ],
   "europe_now": [
     {
       "title": "Serbian President Resigns",
-      "summary": "Serbian President Aleksandar Vucic has stepped down from his post and is expected to run for prime minister in upcoming October elections. The sudden resignation paves the way for early political contests in the country.",
+      "summary": "Serbian President Aleksandar Vucic has resigned with expectations to run for prime minister in upcoming October elections.",
+      "article_ids": [
+        "1b0e2dceaae891c313e07b47"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260927-serbian-president-aleksandar-vucic-resigns-expected-to-run-for-prime-minister",
+          "headline": "🔴 Serbian President Aleksandar Vucic resigns, expected to run for prime minister",
+          "published_at": "2026-09-27T18:20:22Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Political Shifts in Serbia",
+      "summary": "The Serbian president has stepped down from office to position himself for a potential run for prime minister. This resignation paves the way for early elections in the country.",
       "article_ids": [
         "656eb21256c12721e9505c48",
         "1b0e2dceaae891c313e07b47"
@@ -87,55 +105,51 @@
       "source_count": 2
     },
     {
-      "title": "Swiss Neutrality Referendum",
-      "summary": "Voters in Switzerland have rejected a proposal to adopt a stricter interpretation of the nation's traditional neutrality principle. The outcome ensures that existing policy frameworks, including certain international sanctions, remain unchanged.",
+      "title": "Swiss Neutrality Vote",
+      "summary": "Voters in Switzerland have decided against enforcing a more rigorous version of their historical neutrality policy. The outcome preserves the current framework regarding international sanctions.",
       "article_ids": [
-        "0ded1b375c3a661f097b1f11",
-        "7945ce33dac4fd8ebf9d8410"
+        "5905d47df2a341c71f171c96",
+        "0ded1b375c3a661f097b1f11"
       ],
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20260927-non-why-the-swiss-rejected-stricter-neutrality",
+          "headline": "Non! Why the Swiss rejected stricter neutrality",
+          "published_at": "2026-09-27T17:33:09Z"
+        },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cm750plvwy9vo?at_medium=RSS&at_campaign=rss",
           "headline": "Switzerland rejects stricter interpretation of its neutrality",
           "published_at": "2026-09-27T16:02:17Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/swiss-reject-stricter-neutrality-principle-safeguarding-santions-against-russia",
-          "headline": "Swiss say no to hardening neutrality principle, safeguarding sanctions on Russia",
-          "published_at": "2026-09-27T13:03:29Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Papal Visit to France",
-      "summary": "Pope Leo XIV traveled to France to address various regional issues and engage with local communities. During his remarks, he emphasized the critical need to eliminate the ongoing scourge of abuse within religious institutions.",
-      "article_ids": [
-        "e027453e4548c2fb429c84b8",
-        "c87b96ae962751c700e896ee"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260928-pope-to-speak-on-united-eu-from-french-border-town",
-          "headline": "Pope to speak on EU integration from French border town of Metz",
-          "published_at": "2026-09-28T01:18:09Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cm5y5nj8ejj8o?at_medium=RSS&at_campaign=rss",
-          "headline": "Pope says 'scourge' of abuse must be rooted out as he visits Lourdes",
-          "published_at": "2026-09-27T19:47:21Z"
         }
       ],
       "source_count": 2
     }
   ],
   "developing": [
+    {
+      "label": "Lourdes · Pope · visits · Live",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 7,
+      "latest_at": "2026-09-27T19:47:21Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cm5y5nj8ejj8o?at_medium=RSS&at_campaign=rss",
+          "headline": "Pope says 'scourge' of abuse must be rooted out as he visits Lourdes",
+          "published_at": "2026-09-27T19:47:21Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20260927-pope-leo-continues-his-visit-to-france-in-lourdes",
+          "headline": "Pope Leo continues his visit to France in Lourdes",
+          "published_at": "2026-09-27T11:19:12Z"
+        }
+      ]
+    },
     {
       "label": "Russian · Ukraine · attacks · kill",
       "origin": "convergence",
@@ -196,21 +210,6 @@
           "url": "https://www.france24.com/en/northern-ireland-disputed-parade-set-for-flashpoint-after-nearly-30-years",
           "headline": "Northern Ireland: Disputed parade set for flashpoint after nearly 30 years",
           "published_at": "2026-09-27T08:33:22Z"
-        }
-      ]
-    },
-    {
-      "label": "arrest · Police · UK · base",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 3,
-      "latest_at": "2026-09-27T14:55:13Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/uk-police-arrest-5-on-suspicion-of-preparing-a-terrorist-act",
-          "headline": "UK: Police arrest 5 on suspicion of preparing a terrorist act",
-          "published_at": "2026-09-27T14:55:13Z"
         }
       ]
     }
@@ -336,6 +335,20 @@
       "url": "https://www.france24.com/en/france/20260928-pope-to-speak-on-united-eu-from-french-border-town",
       "published_at": "2026-09-28T01:18:09Z",
       "collected_at": "2026-09-28T05:30:46Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "aa9e36207598250c4fc3e070",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Pope Leo to speak on EU integration from French border town of Metz",
+      "url": "https://www.france24.com/en/france/20260928-pope-to-speak-on-united-eu-from-french-border-town",
+      "published_at": "2026-09-28T01:18:09Z",
+      "collected_at": "2026-09-28T06:00:48Z",
       "topics": [
         "politics",
         "security",
@@ -476,6 +489,20 @@
       "url": "https://www.france24.com/en/france/20260927-france-s-far-right-gains-ground-in-indirect-senate-elections",
       "published_at": "2026-09-27T19:34:30Z",
       "collected_at": "2026-09-28T05:30:46Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a90b080c90b049b539c82066",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France’s far-right National Rally gains ground in Senate, forms group for first time",
+      "url": "https://www.france24.com/en/france/20260927-france-s-far-right-gains-ground-in-indirect-senate-elections",
+      "published_at": "2026-09-27T19:34:30Z",
+      "collected_at": "2026-09-28T06:00:48Z",
       "topics": [
         "politics",
         "security",
