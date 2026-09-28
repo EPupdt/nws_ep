@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-28T14:00:55Z",
-  "last_successful_collection_at": "2026-09-28T14:00:55Z",
+  "generated_at": "2026-09-28T14:30:47Z",
+  "last_successful_collection_at": "2026-09-28T14:30:47Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-28T14:00:55Z"
+      "at": "2026-09-28T14:30:47Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "28",
-      "at": "2026-09-28T14:00:55Z"
+      "at": "2026-09-28T14:30:47Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-28T14:00:55Z"
+      "at": "2026-09-28T14:30:47Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-28T14:00:55Z"
+      "at": "2026-09-28T14:30:47Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-28T14:00:55Z"
+      "at": "2026-09-28T14:30:47Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-28T14:00:55Z"
+      "at": "2026-09-28T14:30:47Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-28T14:00:55Z"
+      "at": "2026-09-28T14:30:47Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-28T14:00:55Z"
+      "at": "2026-09-28T14:30:47Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-28T14:00:55Z"
+      "at": "2026-09-28T14:30:47Z"
     }
   ],
   "europe_now": [
@@ -148,44 +148,65 @@
   ],
   "developing": [
     {
-      "label": "Pope · Metz · speaks · France",
+      "label": "Putin · Trump",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 11,
-      "latest_at": "2026-09-28T13:56:39Z",
+      "item_count": 2,
+      "latest_at": "2026-09-28T14:20:27Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ed-miliband-distances-britain-from-us-donald-trump-g20-russia-vladimir-putin-invite",
+          "headline": "Miliband distances Britain from Trump’s G20 Putin invite",
+          "published_at": "2026-09-28T14:20:27Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/opinion/2026-09-28/how-putin-trump-and-xi-are-aiming-to-make-the-eu-fail.html",
+          "headline": "How Putin, Trump and Xi are aiming to make the EU fail",
+          "published_at": "2026-09-28T13:30:25Z"
+        }
+      ]
+    },
+    {
+      "label": "midterms · Trump",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-09-28T13:59:38Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260928-pope-touches-on-war-migration-in-speech-at-metz",
-          "headline": "Pope touches on war, migration in speech at Metz",
-          "published_at": "2026-09-28T13:56:39Z"
+          "url": "https://www.france24.com/en/video/20260928-trump-heads-to-gop-strongholds-alabama-and-oklahoma-to-campaign-for-midterms",
+          "headline": "Trump heads to GOP strongholds Alabama and Oklahoma to campaign for midterms",
+          "published_at": "2026-09-28T13:59:38Z"
         },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-09-28/trumps-obsessions-are-hurting-republicans-ahead-of-midterms.html",
+          "headline": "Trump’s obsessions are hurting Republicans ahead of midterms",
+          "published_at": "2026-09-28T08:32:49Z"
+        }
+      ]
+    },
+    {
+      "label": "Ukraine · war",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-09-28T12:26:58Z",
+      "sources": [
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/pope-leo-urges-concessions-to-end-war-in-ukraine",
           "headline": "Pope Leo urges concessions to end war in Ukraine",
           "published_at": "2026-09-28T12:26:58Z"
-        }
-      ]
-    },
-    {
-      "label": "Pope · visit · France · unity",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-09-28T10:49:23Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260928-replay-pope-urges-peace-and-unity-in-europe-on-final-day-of-france-visit",
-          "headline": "REPLAY: Pope urges peace and unity in Europe on final day of France visit",
-          "published_at": "2026-09-28T10:49:23Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cm5y5nj8ejj8o?at_medium=RSS&at_campaign=rss",
-          "headline": "Pope says 'scourge' of abuse must be rooted out as he visits Lourdes",
-          "published_at": "2026-09-27T19:47:21Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260927-russian-strikes-kill-eight-ukraine-war-moscow",
+          "headline": "Russian attacks kill eight in Ukraine after Moscow vows to continue war",
+          "published_at": "2026-09-27T21:55:28Z"
         }
       ]
     },
@@ -209,24 +230,107 @@
           "published_at": "2026-09-28T02:07:35Z"
         }
       ]
-    },
-    {
-      "label": "business · UK · minister",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 3,
-      "latest_at": "2026-09-27T19:29:51Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/uk-tariffs-china-ev-review-jonathan-reynolds",
-          "headline": "Britain to keep tariffs on Chinese EVs ‘under review,’ UK business chief says",
-          "published_at": "2026-09-27T19:29:51Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "a5bef598d648a71e1d0d8786",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Miliband distances Britain from Trump’s G20 Putin invite",
+      "url": "https://www.politico.eu/article/ed-miliband-distances-britain-from-us-donald-trump-g20-russia-vladimir-putin-invite",
+      "published_at": "2026-09-28T14:20:27Z",
+      "collected_at": "2026-09-28T14:30:47Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "c20a3e8ff62fc1c3694660f9",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "A Green pope? Vatican describes environmental destruction as an 'ecological sin'",
+      "url": "https://www.france24.com/en/tv-shows/down-to-earth/20260928-a-green-pope-vatican-describes-environmental-destruction-as-an-ecological-sin",
+      "published_at": "2026-09-28T14:19:18Z",
+      "collected_at": "2026-09-28T14:30:47Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "81bdd3bccae6f62d3de1f988",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French Senate elections: What next after far right surge?",
+      "url": "https://www.france24.com/en/video/20260928-french-senate-elections-what-next-after-far-right-surge",
+      "published_at": "2026-09-28T14:14:26Z",
+      "collected_at": "2026-09-28T14:30:47Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "65d3d99dc790968ce84f1317",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "🔴 Live: Pope Leo leads Mass at Metz Cathedral on final leg of visit to France",
+      "url": "https://www.france24.com/en/france/20260928-live-pope-leo-xiv-arrives-in-metz-for-final-stop-of-france-visit",
+      "published_at": "2026-09-28T14:14:18Z",
+      "collected_at": "2026-09-28T14:30:47Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "430c6ffd733c2322cb20b448",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Heavy rain and flooding kills dozens northern India",
+      "url": "https://www.france24.com/en/video/20260928-heavy-rain-and-flooding-kills-dozens-northern-india",
+      "published_at": "2026-09-28T14:03:23Z",
+      "collected_at": "2026-09-28T14:30:47Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a7bf7a39ae44f4a17d1bb503",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Trump heads to GOP strongholds Alabama and Oklahoma to campaign for midterms",
+      "url": "https://www.france24.com/en/video/20260928-trump-heads-to-gop-strongholds-alabama-and-oklahoma-to-campaign-for-midterms",
+      "published_at": "2026-09-28T13:59:38Z",
+      "collected_at": "2026-09-28T14:30:47Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "63e1533b63be2b8786757f62",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Pope wraps up France trip with most overtly political message of trip",
+      "url": "https://www.france24.com/en/video/20260928-pope-wraps-up-france-trip-with-most-overtly-political-message-of-trip",
+      "published_at": "2026-09-28T13:57:50Z",
+      "collected_at": "2026-09-28T14:30:47Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "36a2b01653f7e31157072267",
       "source_id": "france24",
@@ -1572,76 +1676,6 @@
       ]
     },
     {
-      "id": "d74a1735f54386391d5b54c6",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Thousands evacuated amid Bangkok floods",
-      "url": "https://www.france24.com/en/thousands-evacuated-amid-bangkok-floods",
-      "published_at": "2026-09-27T13:59:00Z",
-      "collected_at": "2026-09-27T14:00:59Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "fb48129ba6922b4646f52bb0",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "South Africa shootings leave 27 killed",
-      "url": "https://www.france24.com/en/south-africa-shootings-leave-27-killed",
-      "published_at": "2026-09-27T13:56:20Z",
-      "collected_at": "2026-09-27T14:00:59Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "bfc9e6dcd62e8fa01ade5b92",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "First Protestant march in Catholic area in nearly 30 years",
-      "url": "https://www.france24.com/en/first-protestant-march-in-catholic-area-in-nearly-30-years",
-      "published_at": "2026-09-27T13:54:28Z",
-      "collected_at": "2026-09-27T14:00:59Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "17244fee90517869f0f0d0ad",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Femicides on the rise in South Africa",
-      "url": "https://www.france24.com/en/femicides-on-the-rise-in-south-africa",
-      "published_at": "2026-09-27T13:51:12Z",
-      "collected_at": "2026-09-27T14:00:59Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "a03fc9c5f4ed08697ca905e9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Major incident at UK airbase used by US",
-      "url": "https://www.france24.com/en/major-incident-at-uk-airbase-used-by-us",
-      "published_at": "2026-09-27T13:49:45Z",
-      "collected_at": "2026-09-27T14:00:59Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "4e8776d6be80dfbb53324092",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1656,20 +1690,6 @@
       ]
     },
     {
-      "id": "d0fc7d8713cc83959726c09c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Behind the scenes of Céline Dion's high-tech comeback",
-      "url": "https://www.france24.com/en/tv-shows/tech-24/20260927-behind-the-scenes-of-c%C3%A9line-dion-s-high-tech-comeback",
-      "published_at": "2026-09-27T13:38:31Z",
-      "collected_at": "2026-09-27T14:00:59Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "51d0ae9627258d089ec66c1a",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1681,20 +1701,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "ac5082de840c516f6e58a1bf",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Five men arrested on terrorism offenses near UK airbase used for US strikes on Iran",
-      "url": "https://www.politico.eu/article/major-incident-uk-air-base-us-forces-raf-fairford",
-      "published_at": "2026-09-27T08:45:52Z",
-      "collected_at": "2026-09-27T14:00:59Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
@@ -2020,20 +2026,6 @@
       ]
     },
     {
-      "id": "e80647a9c7e99534de25286a",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Deadlock on EU pesticides bill after scientists call for pause",
-      "url": "https://euobserver.com/239810/deadlock-on-eu-pesticides-bill-after-scientists-call-for-pause",
-      "published_at": "2026-09-25T13:42:24Z",
-      "collected_at": "2026-09-27T14:00:59Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "84d7d5ac17b24397551fa162",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -2272,17 +2264,31 @@
       ]
     },
     {
-      "id": "bd03d31319fa29c14a7a0fc8",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Russian military helicopter violates Polish airspace",
-      "url": "https://notesfrompoland.com/2026/09/23/russian-military-helicopter-violates-polish-airspace",
-      "published_at": "2026-09-23T13:03:26Z",
-      "collected_at": "2026-09-27T14:00:59Z",
+      "id": "067331bfc78fe5c41e599c56",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "From Tinder to running apps: Cellphones become a front for recruitment, spying, and sabotaging the enemy",
+      "url": "https://english.elpais.com/technology/2026-09-22/from-tinder-to-running-apps-cellphones-become-a-front-for-recruitment-spying-and-sabotaging-the-enemy.html",
+      "published_at": "2026-09-22T13:34:13Z",
+      "collected_at": "2026-09-28T14:30:47Z",
       "topics": [
-        "central_europe",
         "politics",
-        "society"
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "ced28fcc10cdf6fd5323a95d",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "You fear it, I love it: the Trump–Xi summit will address AI with opposite mindsets",
+      "url": "https://english.elpais.com/international/2026-09-22/you-fear-it-i-love-it-the-trumpxi-summit-will-address-ai-with-opposite-mindsets.html",
+      "published_at": "2026-09-22T13:33:27Z",
+      "collected_at": "2026-09-28T14:30:47Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
