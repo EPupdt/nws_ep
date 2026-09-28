@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-28T04:31:19Z",
-  "last_successful_collection_at": "2026-09-28T04:31:19Z",
+  "generated_at": "2026-09-28T05:00:49Z",
+  "last_successful_collection_at": "2026-09-28T05:00:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-28T04:31:19Z"
+      "at": "2026-09-28T05:00:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-09-28T04:31:19Z"
+      "at": "2026-09-28T05:00:49Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-28T04:31:19Z"
+      "at": "2026-09-28T05:00:49Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-28T04:31:19Z"
+      "at": "2026-09-28T05:00:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-28T04:31:19Z"
+      "at": "2026-09-28T05:00:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-28T04:31:19Z"
+      "at": "2026-09-28T05:00:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-28T04:31:19Z"
+      "at": "2026-09-28T05:00:49Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-28T04:31:19Z"
+      "at": "2026-09-28T05:00:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-28T04:31:19Z"
+      "at": "2026-09-28T05:00:49Z"
     }
   ],
   "europe_now": [
     {
       "title": "Serbian President Resigns",
-      "summary": "Serbian President Aleksandar Vucic has stepped down from his position, paving the way for early elections and an expected run for prime minister.",
+      "summary": "Serbian President Aleksandar Vucic has resigned, paving the way for early elections and an anticipated run for prime minister.",
       "article_ids": [
         "656eb21256c12721e9505c48",
         "1b0e2dceaae891c313e07b47"
@@ -87,13 +87,19 @@
       "source_count": 2
     },
     {
-      "title": "Swiss Neutrality Referendum",
-      "summary": "Swiss voters have rejected a proposal to adopt a stricter interpretation of the country's neutrality, maintaining existing policies regarding sanctions.",
+      "title": "Switzerland Neutrality Vote",
+      "summary": "Swiss voters have rejected a proposal to adopt a stricter interpretation of the country's traditional neutrality principle.",
       "article_ids": [
         "0ded1b375c3a661f097b1f11",
         "7945ce33dac4fd8ebf9d8410"
       ],
       "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cm750plvwy9vo?at_medium=RSS&at_campaign=rss",
+          "headline": "Switzerland rejects stricter interpretation of its neutrality",
+          "published_at": "2026-09-27T16:02:17Z"
+        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/swiss-reject-stricter-neutrality-principle-safeguarding-santions-against-russia",
@@ -101,16 +107,16 @@
           "published_at": "2026-09-27T13:03:29Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "top_stories": [
     {
       "title": "Papal Visit to France",
-      "summary": "Pope Leo XIV continued his official journey through France with stops in Lourdes. During the visit, he emphasized the critical need to eradicate the scourge of abuse within the church.",
+      "summary": "Pope Leo XIV continued his trip to France with a visit to Lourdes. During the journey, he emphasized that the scourge of abuse must be rooted out.",
       "article_ids": [
         "c87b96ae962751c700e896ee",
-        "7450cc5ba8b2b851ce6ef804"
+        "51d0ae9627258d089ec66c1a"
       ],
       "sources": [
         {
@@ -120,39 +126,53 @@
           "published_at": "2026-09-27T19:47:21Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260927-pope-leo-continues-his-visit-to-france-in-lourdes",
-          "headline": "Pope Leo continues his visit to France in Lourdes",
-          "published_at": "2026-09-27T11:19:12Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cm5y5nj8ejj8o?at_medium=RSS&at_campaign=rss",
+          "headline": "'Scourge' of abuse must be rooted out, says Pope during Lourdes visit",
+          "published_at": "2026-09-27T11:38:03Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "European Security and Conflict",
-      "summary": "Recent Russian military strikes in Ukraine resulted in multiple fatalities following Moscow's declarations that military operations will persist. Meanwhile, interior ministers across the continent are convening to debate regional migration and security strategies.",
+      "title": "European Energy Pressures",
+      "summary": "The European Commission has called on member countries to reduce their energy demands amid surging costs. Officials are pressing for immediate gas and electricity consumption cuts.",
       "article_ids": [
-        "ae543ff90bf79139d6ed2ce8",
-        "d33ac391690cf8f4a7ed4d92"
+        "4aa7d63f0555541013b143b5"
       ],
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/239836/this-week-interior-ministers-discuss-fortress-europe-as-kallas-goes-to-syria",
-          "headline": "THIS WEEK: Interior ministers discuss Fortress Europe, as Kallas goes to Syria",
-          "published_at": "2026-09-28T04:00:00Z"
-        },
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-commission-calls-for-gas-electricity-demand-cuts",
+          "headline": "EU Commission calls on countries to cut energy demands as costs surge",
+          "published_at": "2026-09-27T14:59:40Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
+    {
+      "label": "Russian · Ukraine · attacks · kill",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-09-27T21:55:28Z",
+      "sources": [
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20260927-russian-strikes-kill-eight-ukraine-war-moscow",
           "headline": "Russian attacks kill eight in Ukraine after Moscow vows to continue war",
           "published_at": "2026-09-27T21:55:28Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/239820/lithuania-moves-to-lift-ban-on-nuclear-weapons-as-russians-do-not-attack-the-strong",
+          "headline": "Lithuania moves to lift ban on nuclear weapons as ‘Russians do not attack the strong’",
+          "published_at": "2026-09-27T09:00:00Z"
         }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
+      ]
+    },
     {
       "label": "UK · US · airbase · arrested",
       "origin": "convergence",
@@ -171,27 +191,6 @@
           "url": "https://www.politico.eu/article/major-incident-uk-air-base-us-forces-raf-fairford",
           "headline": "Major incident declared at UK air base used by US forces",
           "published_at": "2026-09-27T08:45:52Z"
-        }
-      ]
-    },
-    {
-      "label": "neutrality · Switzerland",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-09-27T16:02:17Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cm750plvwy9vo?at_medium=RSS&at_campaign=rss",
-          "headline": "Switzerland rejects stricter interpretation of its neutrality",
-          "published_at": "2026-09-27T16:02:17Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/switzerland-votes-on-country-s-neutrality",
-          "headline": "Switzerland votes on country's neutrality",
-          "published_at": "2026-09-27T08:36:49Z"
         }
       ]
     },
@@ -233,6 +232,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "ec97b6645c1ca31d3cd5843b",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Volkswagen benefited from €1.5bn in German EV subsidies as it lobbies EU to hit Chinese cars harder",
+      "url": "https://euobserver.com/239505/volkswagen-benefited-from-e1-5bn-in-german-ev-subsidies-as-it-lobbies-eu-to-hit-chinese-cars-harder",
+      "published_at": "2026-09-28T04:52:00Z",
+      "collected_at": "2026-09-28T05:00:49Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "3e9722961b72d1e861fd1adc",
       "source_id": "politico_europe",
@@ -1953,20 +1966,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "63edaa3af2d7a5d176cb00e7",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Airport malaria in Germany remains infrequent",
-      "url": "https://www.dw.com/en/airport-malaria-in-germany-remains-infrequent/a-79333920?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-18T18:23:00Z",
-      "collected_at": "2026-09-27T05:00:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
