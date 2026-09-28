@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-28T20:00:53Z",
-  "last_successful_collection_at": "2026-09-28T20:00:53Z",
+  "generated_at": "2026-09-28T20:30:44Z",
+  "last_successful_collection_at": "2026-09-28T20:30:44Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-28T20:00:53Z"
+      "at": "2026-09-28T20:30:44Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "28",
-      "at": "2026-09-28T20:00:53Z"
+      "at": "2026-09-28T20:30:44Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-28T20:00:53Z"
+      "at": "2026-09-28T20:30:44Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,77 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-28T20:00:53Z"
+      "at": "2026-09-28T20:30:44Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-28T20:00:53Z"
+      "at": "2026-09-28T20:30:44Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-28T20:00:53Z"
+      "at": "2026-09-28T20:30:44Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-28T20:00:53Z"
+      "at": "2026-09-28T20:30:44Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-28T20:00:53Z"
+      "at": "2026-09-28T20:30:44Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-28T20:00:53Z"
+      "at": "2026-09-28T20:30:44Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ukraine Regains Territory and Captures POWs in Frontline Push",
-      "summary": "Ukrainian forces have successfully reclaimed territory and captured prisoners of war during a recent frontline operation. This advance marks a significant tactical development in the ongoing conflict.",
+      "title": "Pope Leo XIV Concludes France Visit",
+      "summary": "Pope Leo XIV has finished his four-day visit to France with a final stop in Metz. During the trip, he emphasized European unity and urged the continent to foster global dialogue.",
       "article_ids": [
+        "cf66147725c43daf29d28f9f",
+        "dbdae7d643b7cbeebbaffc14"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20260928-live-pope-leo-xiv-arrives-in-metz-for-final-stop-of-france-visit",
+          "headline": "🔴 Pope Leo leaves France after ending four-day visit with plea for Europe to foster global dialogue",
+          "published_at": "2026-09-28T17:34:10Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260928-pope-leo-wraps-up-france-visit-urging-europe-to-help-combat-lies-and-deceit",
+          "headline": "Pope Leo wraps up France visit, urging Europe to help combat 'lies and deceit'",
+          "published_at": "2026-09-28T16:00:10Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Frontline Advances in Ukraine",
+      "summary": "Ukrainian forces have captured prisoners of war and regained territory during a recent frontline operation. Meanwhile, Russian strikes continue to affect urban areas, including historic sites in Kyiv.",
+      "article_ids": [
+        "d27b2029fbbc41ad990dca02",
         "c194220f403011e1793093a2"
       ],
       "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/cqj9xkdyrvgzo?at_medium=RSS&at_campaign=rss",
+          "headline": "People escape historic Kyiv building hit by Russian drone",
+          "published_at": "2026-09-28T17:04:14Z"
+        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/ukraine-russia-war-territory-pows-front-line-operation-vivaldi",
@@ -77,11 +107,13 @@
           "published_at": "2026-09-28T16:20:24Z"
         }
       ],
-      "source_count": 1
-    },
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Pope Leo XIV Concludes France Visit with Call for European Unity",
-      "summary": "Pope Leo XIV concluded his four-day visit to France with a plea for Europe to foster global dialogue and defend EU values. The papal visit emphasized the importance of unity and diplomatic engagement on the continent.",
+      "title": "Pope Leo XIV's Visit to France",
+      "summary": "Pope Leo XIV concluded his four-day tour of France with a final stop in Metz. His itinerary included addressing European values and calling for greater regional cooperation.",
       "article_ids": [
         "ecf2cbd096e040fee3ae6e99",
         "cf66147725c43daf29d28f9f"
@@ -101,32 +133,36 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "Ukrainian Arms Producers Warn of Eroding Competitive Edge",
-      "summary": "Ukrainian arms producers have warned that their competitive edge is eroding due to stringent export licence rules. The warning highlights the impact of export regulations on the local defense industry's international competitiveness.",
+      "title": "Frontline Conflict in Ukraine",
+      "summary": "Ukrainian forces recently conducted a frontline push that resulted in captured prisoners of war and recovered territory. Concurrently, ongoing attacks from Russian forces continue to impact various regions.",
       "article_ids": [
-        "dd641e08f4d5f4b71029b272"
+        "d27b2029fbbc41ad990dca02",
+        "c194220f403011e1793093a2"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ukrainian-arms-producers-warn-competitive-edge-eroding-due-to-stringent-export-licence-rules",
-          "headline": "Ukrainian arms producers warn competitive edge eroding due to stringent export licence rules",
-          "published_at": "2026-09-28T19:28:26Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/cqj9xkdyrvgzo?at_medium=RSS&at_campaign=rss",
+          "headline": "People escape historic Kyiv building hit by Russian drone",
+          "published_at": "2026-09-28T17:04:14Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ukraine-russia-war-territory-pows-front-line-operation-vivaldi",
+          "headline": "Ukraine regains territory and captures POWs in frontline push",
+          "published_at": "2026-09-28T16:20:24Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "EU Return-Hub Plan Kept Alive at Munich Migration Talks",
-      "summary": "EU officials discussed keeping the return-hub plan alive during migration talks in Munich despite a drop in border arrivals. Participants emphasized that complacency should be avoided while addressing budgetary questions for the initiative.",
+      "title": "EU Migration Policy Talks",
+      "summary": "European officials gathered in Munich to discuss migration policy and border arrivals. Discussions highlighted continued support for return-hub plans despite differing budget questions.",
       "article_ids": [
         "c79e8a67c5a293089bfd5b6c",
-        "0c3fda1b3e1ea8b0e2e029bb",
-        "d7f6a9a79d21a5a007b86759"
+        "0c3fda1b3e1ea8b0e2e029bb"
       ],
       "sources": [
         {
@@ -177,20 +213,20 @@
       "label": "French · right · Bardella · comments",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 7,
-      "latest_at": "2026-09-28T15:57:14Z",
+      "item_count": 9,
+      "latest_at": "2026-09-28T19:56:54Z",
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/french-far-right-s-bardella-denies-alleged-2013-antisemitic-comments-as-le-pen-sees-boost-in-polls",
+          "headline": "French far-right's Bardella denies alleged 2013 antisemitic comments as Le Pen sees boost in polls",
+          "published_at": "2026-09-28T19:56:54Z"
+        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/french-far-rights-bardella-refutes-reports-of-past-antisemitic-comments",
           "headline": "French far right’s Bardella denies reports he made antisemitic comments",
           "published_at": "2026-09-28T15:57:14Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260928-french-far-right-jordan-bardella-denies-alleged-2013-anti-semitic-comments-mediapart-lepen",
-          "headline": "French far right's Jordan Bardella denies alleged 2013 anti-Semitic comments",
-          "published_at": "2026-09-28T14:45:44Z"
         }
       ]
     },
@@ -238,6 +274,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "dbd1bc4d3322cea3f28239b1",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French far-right's Bardella denies alleged 2013 antisemitic comments as Le Pen sees boost in polls",
+      "url": "https://www.france24.com/en/french-far-right-s-bardella-denies-alleged-2013-antisemitic-comments-as-le-pen-sees-boost-in-polls",
+      "published_at": "2026-09-28T19:56:54Z",
+      "collected_at": "2026-09-28T20:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "b5501bc40dba1349f205e434",
       "source_id": "politico_europe",
@@ -698,6 +748,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "dbdae7d643b7cbeebbaffc14",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Pope Leo wraps up France visit, urging Europe to help combat 'lies and deceit'",
+      "url": "https://www.france24.com/en/europe/20260928-pope-leo-wraps-up-france-visit-urging-europe-to-help-combat-lies-and-deceit",
+      "published_at": "2026-09-28T16:00:10Z",
+      "collected_at": "2026-09-28T20:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -2724,34 +2788,6 @@
       "url": "https://english.elpais.com/international/2026-09-22/you-fear-it-i-love-it-the-trumpxi-summit-will-address-ai-with-opposite-mindsets.html",
       "published_at": "2026-09-22T13:33:27Z",
       "collected_at": "2026-09-28T14:30:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "1d83dc8505e3ad4370f5b0bd",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Vladimir Putin militarizes the Russian parliament",
-      "url": "https://english.elpais.com/international/2026-09-22/vladimir-putin-militarizes-the-russian-parliament.html",
-      "published_at": "2026-09-22T12:36:59Z",
-      "collected_at": "2026-09-28T14:00:55Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "363962fd4636b5169150ae3b",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Neither US intervention nor Communist stagnation: Harvard’s proposed plan for Cuba",
-      "url": "https://english.elpais.com/international/2026-09-22/neither-us-intervention-nor-communist-stagnation-harvards-proposed-plan-for-cuba.html",
-      "published_at": "2026-09-22T11:13:42Z",
-      "collected_at": "2026-09-28T12:30:46Z",
       "topics": [
         "politics",
         "society",
