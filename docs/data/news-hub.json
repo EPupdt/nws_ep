@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-29T16:00:58Z",
-  "last_successful_collection_at": "2026-09-29T16:00:58Z",
+  "generated_at": "2026-09-29T16:30:49Z",
+  "last_successful_collection_at": "2026-09-29T16:30:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-29T16:00:58Z"
+      "at": "2026-09-29T16:30:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-09-29T16:00:58Z"
+      "at": "2026-09-29T16:30:49Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-29T16:00:58Z"
+      "at": "2026-09-29T16:30:49Z"
     },
     {
       "id": "euractiv",
@@ -29,66 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-29T16:00:58Z"
+      "at": "2026-09-29T16:30:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-29T16:00:58Z"
+      "at": "2026-09-29T16:30:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-29T16:00:58Z"
+      "at": "2026-09-29T16:30:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-29T16:00:58Z"
+      "at": "2026-09-29T16:30:49Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-29T16:00:58Z"
+      "at": "2026-09-29T16:30:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-29T16:00:58Z"
+      "at": "2026-09-29T16:30:49Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Spain Bans Evictions",
-      "summary": "Spain announced a nationwide ban on evictions following widespread public protests triggered by the eviction of an 87-year-old woman. The government has simultaneously introduced new housing measures to address the growing crisis.",
-      "article_ids": [
-        "f4df38dac1f11084b1965969",
-        "80e49fa5ccfbc27065507948"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do?at_medium=RSS&at_campaign=rss",
-          "headline": "Spain announces ban on evictions after protests over 87-year-old woman's eviction",
-          "published_at": "2026-09-29T15:26:23Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do?at_medium=RSS&at_campaign=rss",
-          "headline": "Spain announces new housing measures after protests over 87-year-old woman's eviction",
-          "published_at": "2026-09-29T12:14:50Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Estonia Blames Russia for Arson Attack",
-      "summary": "Estonian authorities have officially blamed Russia for orchestrating an arson attack at a local defense company that supplies equipment to Ukraine. This incident highlights heightened security concerns and ongoing sabotage threats across the region.",
+      "title": "Estonia blames Russia for defence company arson",
+      "summary": "Estonia has formally blamed Russia for orchestrating an arson attack at a local defence company that supplies equipment to Ukraine. The incident highlights ongoing security concerns and sabotage threats across the region.",
       "article_ids": [
         "439b20314d068988e2291953"
       ],
@@ -101,12 +78,35 @@
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "Spain announces nationwide eviction ban following protests",
+      "summary": "The Spanish government has announced a ban on housing evictions after widespread public protests erupted over the removal of an elderly woman from her flat. The new measures aim to reform housing policies and address mounting social tensions.",
+      "article_ids": [
+        "70f966b9c2d35d2ead509d11",
+        "80e49fa5ccfbc27065507948"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do?at_medium=RSS&at_campaign=rss",
+          "headline": "Spain announces ban on evictions after protests over 87-year-old woman's removal from flat",
+          "published_at": "2026-09-29T16:23:58Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do?at_medium=RSS&at_campaign=rss",
+          "headline": "Spain announces new housing measures after protests over 87-year-old woman's eviction",
+          "published_at": "2026-09-29T12:14:50Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "EU Budget Negotiations and Funding Debates",
-      "summary": "Members of the European Parliament voted to approve significant new funds for the Erasmus program while frugal member states simultaneously push for broader budget reductions. Meanwhile, the European Union has moved to decrease funding for various internal programs, including women's rights organizations, as part of wider fiscal adjustments.",
+      "title": "European Union Budget Debates",
+      "summary": "Members of the European Parliament have voted for new educational funding while frugal member states simultaneously demand significant budget reductions. The broader discussions encompass various funding adjustments and cuts across different sectors.",
       "article_ids": [
         "7b344175cef0e983ac967a59",
         "630162923f8fb83e25c9c40d"
@@ -117,36 +117,23 @@
           "url": "https://euobserver.com/240375/meps-vote-for-e47bn-in-new-erasmus-funds-as-frugal-states-seek-cuts-to-eu-budget",
           "headline": "MEPs vote for €47bn in new Erasmus+ funds, as frugal states seek cuts to EU budget",
           "published_at": "2026-09-29T15:54:11Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/240210/eu-reduces-funds-for-womens-rights-groups-in-wider-budget-bonfire-of-good-causes",
-          "headline": "EU reduces funds for women’s rights groups, in wider budget bonfire of good causes",
-          "published_at": "2026-09-29T12:25:35Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "French Political Tensions and Far-Right Controversy",
-      "summary": "French far-right figures have launched legal action and accused opponents of waging a total war following severe antisemitism allegations directed at top party leadership. These political developments unfold alongside ongoing labor strikes and domestic unrest as civil servants demand increased budgetary resources.",
+      "title": "French Political and Social Tensions",
+      "summary": "French far-right figures are facing intense fallout and accusations regarding antisemitic remarks. Meanwhile, political leaders have characterized the mounting opposition attacks as a form of total war.",
       "article_ids": [
-        "e640c70bbf447143dbb28bf9",
         "3bbfd81529f3a21b465af6d3",
-        "521af71e24b9091a6c62daaa"
+        "35fbdfce43083703eb3ea106"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260929-french-civil-servants-strike-demand-additional-budgetary-resources",
-          "headline": "French civil servants strike, demand additional budgetary resources",
-          "published_at": "2026-09-29T14:40:29Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260929-french-far-right-leader-bardella-says-filed-lawsuit-over-anti-semitic-remarks-claim",
-          "headline": "French far-right leader Bardella says filed lawsuit over anti-Semitic remarks claim",
-          "published_at": "2026-09-29T11:37:35Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmn45k85gj34o?at_medium=RSS&at_campaign=rss",
+          "headline": "French hard-right leader accuses opponents of 'total war' after claims of antisemitism",
+          "published_at": "2026-09-29T12:20:02Z"
         }
       ],
       "source_count": 1
@@ -154,10 +141,10 @@
   ],
   "developing": [
     {
-      "label": "Labour · UK · conference · break",
+      "label": "Labour · conference · learned · Party",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 9,
+      "item_count": 6,
       "latest_at": "2026-09-29T13:38:00Z",
       "sources": [
         {
@@ -181,23 +168,23 @@
       ]
     },
     {
-      "label": "French · right · Bardella · anti",
+      "label": "EU · rules · countries",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 7,
-      "latest_at": "2026-09-29T14:11:21Z",
+      "item_count": 4,
+      "latest_at": "2026-09-29T16:03:56Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260929-french-far-right-leader-bardella-denies-anti-semitism-accusations",
-          "headline": "French far-right leader Bardella denies anti-Semitism accusations",
-          "published_at": "2026-09-29T14:11:21Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-countries-push-for-weaker-environmental-safeguards-in-fishing-sector-funding-rules",
+          "headline": "EU countries push for weaker environmental safeguards in fishing sector funding rules",
+          "published_at": "2026-09-29T16:03:56Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmn45k85gj34o?at_medium=RSS&at_campaign=rss",
-          "headline": "French hard-right leader accuses opponents of 'total war' after claims of antisemitism",
-          "published_at": "2026-09-29T12:20:02Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/240238/eus-centre-right-epp-seeks-asylum-opt-outs-as-commission-silent-on-new-crisis-rules",
+          "headline": "EU’s centre-right EPP seeks asylum opt-outs, as commission silent on new crisis rules",
+          "published_at": "2026-09-29T14:03:30Z"
         }
       ]
     },
@@ -245,6 +232,90 @@
     }
   ],
   "radar": [
+    {
+      "id": "70f966b9c2d35d2ead509d11",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Spain announces ban on evictions after protests over 87-year-old woman's removal from flat",
+      "url": "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-29T16:23:58Z",
+      "collected_at": "2026-09-29T16:30:49Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "5ab38ded5bcbdf0d301f67b3",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Andy Burnham keeps his options open on Brexit",
+      "url": "https://www.politico.eu/article/andy-burnham-brexit-review-uk-eu-relationship-options",
+      "published_at": "2026-09-29T16:19:49Z",
+      "collected_at": "2026-09-29T16:30:49Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "e47850f1c9c4e1ef42d69c9f",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Interdiction des exportations de diesel : Trump devrait y renoncer, positivent des responsables européens",
+      "url": "https://www.politico.eu/article/interdiction-des-exportations-de-diesel-trump-devrait-y-renoncer-positivent-des-responsables-europeens",
+      "published_at": "2026-09-29T16:14:02Z",
+      "collected_at": "2026-09-29T16:30:49Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "0f2512303cd7f82616e16d48",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "🔴 Marrakesh mayor Fatima Ezzahra El Mansouri becomes first woman prime minister of Morocco",
+      "url": "https://www.france24.com/en/africa/20260929-morocco-king-appoints-first-woman-prime-minister-el-mansouri-after-parliamentary-vote",
+      "published_at": "2026-09-29T16:09:01Z",
+      "collected_at": "2026-09-29T16:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c16e2d11573c761b872aecde",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Morocco's king appoints Marrakesh mayor El Mansouri as first woman prime minister",
+      "url": "https://www.france24.com/en/africa/20260929-morocco-king-appoints-first-woman-prime-minister-el-mansouri-after-parliamentary-vote",
+      "published_at": "2026-09-29T16:08:05Z",
+      "collected_at": "2026-09-29T16:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "11efcf082d1f772834c4c8fb",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "EU countries push for weaker environmental safeguards in fishing sector funding rules",
+      "url": "https://www.politico.eu/article/eu-countries-push-for-weaker-environmental-safeguards-in-fishing-sector-funding-rules",
+      "published_at": "2026-09-29T16:03:56Z",
+      "collected_at": "2026-09-29T16:30:49Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "7b344175cef0e983ac967a59",
       "source_id": "euobserver",
@@ -523,6 +594,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "a7d4c5444d5c0e41a5984dac",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "EU to Trump: We will keep pushing for global AI safety rules",
+      "url": "https://www.politico.eu/article/eu-to-trump-we-will-keep-pushing-for-global-ai-safety-rules",
+      "published_at": "2026-09-29T13:39:11Z",
+      "collected_at": "2026-09-29T16:30:49Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
       ]
     },
     {
@@ -2360,34 +2445,6 @@
       ]
     },
     {
-      "id": "0061b5dbb3019f187eb0f0ca",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Florida seeks injunction to hamper OpenAI development",
-      "url": "https://www.politico.com/news/2026/09/28/florida-injunction-openai-development-01095061",
-      "published_at": "2026-09-28T16:27:49Z",
-      "collected_at": "2026-09-28T16:30:46Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "354e5dcb1a5f5eedb6a607eb",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "UK Labour shouldn’t work with nationalists who want to break up UK, says Welsh secretary",
-      "url": "https://www.politico.eu/article/uk-labour-shouldnt-work-with-nationalists-who-want-to-break-up-uk-says-wales-secretary",
-      "published_at": "2026-09-28T16:27:39Z",
-      "collected_at": "2026-09-28T16:30:46Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "1c1e68200cae698f21762087",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2395,34 +2452,6 @@
       "url": "https://www.politico.eu/article/uk-labour-shouldnt-work-with-nationalists-who-want-to-break-up-uk-says-wales-secretary",
       "published_at": "2026-09-28T16:27:39Z",
       "collected_at": "2026-09-28T17:30:50Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "7e5b6e1156c9871c910e8e30",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "‘Made in everywhere’: MEPs clash over reach of EU industrial law",
-      "url": "https://euobserver.com/240092/made-in-everywhere-meps-clash-over-reach-of-eu-industrial-law",
-      "published_at": "2026-09-28T16:20:52Z",
-      "collected_at": "2026-09-28T16:30:46Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "c194220f403011e1793093a2",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Ukraine regains territory and captures POWs in frontline push",
-      "url": "https://www.politico.eu/article/ukraine-russia-war-territory-pows-front-line-operation-vivaldi",
-      "published_at": "2026-09-28T16:20:24Z",
-      "collected_at": "2026-09-28T16:30:46Z",
       "topics": [
         "institutions",
         "politics",
@@ -2444,20 +2473,6 @@
       ]
     },
     {
-      "id": "eda900c65742adf936f5091d",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Kallas regrets EU delisting of oligarchs, as Russia ‘ridicules’ Germany after UN meeting",
-      "url": "https://euobserver.com/240114/kallas-regrets-eu-delisting-of-oligarchs-as-russia-ridicules-germany-after-un-meeting",
-      "published_at": "2026-09-28T16:08:15Z",
-      "collected_at": "2026-09-28T16:30:46Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "dbdae7d643b7cbeebbaffc14",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2472,34 +2487,6 @@
       ]
     },
     {
-      "id": "acdc30fa50b3bf99ac04678c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "For a 'measured diplomatic figure', Pope Leo's visit to France has been 'deeply political'",
-      "url": "https://www.france24.com/en/for-a-measured-diplomatic-figure-pope-leo-s-visit-to-france-has-been-deeply-political",
-      "published_at": "2026-09-28T15:46:51Z",
-      "collected_at": "2026-09-28T16:30:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0c3fda1b3e1ea8b0e2e029bb",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Munich talks keep EU return‑hub plan alive despite drop in border arrivals and budget questions",
-      "url": "https://euobserver.com/240030/we-cannot-become-complacent-ireland-pushes-return-hubs-at-munich-migration-summit-despite-drop-in-border-arrivals",
-      "published_at": "2026-09-28T15:24:04Z",
-      "collected_at": "2026-09-28T16:30:46Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "d7f6a9a79d21a5a007b86759",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -2511,20 +2498,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "417791362d6f80d1de7d7662",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "UK police bail five men held over suspected bomb plot at US-run air base",
-      "url": "https://www.france24.com/en/europe/20260928-five-men-arrested-suspected-bomb-plot-uk-air-base-to-be-released-on-bail-fairford",
-      "published_at": "2026-09-28T15:01:40Z",
-      "collected_at": "2026-09-28T16:30:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -2581,6 +2554,34 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "32ff69ea642f4812005be432",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "As Merz scrambles for support, Germany's identity crisis is laid bare",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2zlqeje9zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-25T23:08:02Z",
+      "collected_at": "2026-09-29T16:30:49Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "1ce43d566a953e8c9682a4de",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Why is the Pope in France?",
+      "url": "https://www.bbc.co.uk/news/videos/cmn5ddwkr13do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-25T22:38:14Z",
+      "collected_at": "2026-09-29T16:30:49Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     }
   ]
