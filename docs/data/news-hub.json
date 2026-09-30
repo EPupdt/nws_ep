@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-30T09:30:42Z",
-  "last_successful_collection_at": "2026-09-30T09:30:42Z",
+  "generated_at": "2026-09-30T10:00:58Z",
+  "last_successful_collection_at": "2026-09-30T10:00:58Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-30T09:30:42Z"
+      "at": "2026-09-30T10:00:58Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-30T09:30:42Z"
+      "at": "2026-09-30T10:00:58Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-09-30T09:30:42Z"
+      "status": "error",
+      "detail": "HTTP Error 404: Not Found",
+      "at": "2026-09-30T10:00:58Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-30T09:30:42Z"
+      "at": "2026-09-30T10:00:58Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-30T09:30:42Z"
+      "at": "2026-09-30T10:00:58Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-30T09:30:42Z"
+      "at": "2026-09-30T10:00:58Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-30T09:30:42Z"
+      "at": "2026-09-30T10:00:58Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-30T09:30:42Z"
+      "at": "2026-09-30T10:00:58Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-30T09:30:42Z"
+      "at": "2026-09-30T10:00:58Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Escalating Student Protests in France Result in Numerous Detentions",
-      "summary": "Demonstrations and blockades staged by students across France led to more than 400 detentions amid escalating unrest. Fires and school disruptions have intensified political tensions surrounding public order and governance.",
+      "title": "Escalating Student Demonstrations in France",
+      "summary": "Student protests across France resulted in fires, road blockades, and the detention of more than 400 individuals.",
       "article_ids": [
         "230e4132daff34d0e06a44e2",
         "2280cbb03cbdfc746a13eef3"
@@ -87,11 +87,10 @@
       "source_count": 1
     },
     {
-      "title": "Russian Missile Strikes Cause Fatalities and Destruction in Kyiv",
-      "summary": "A fresh round of Russian missile attacks targeted Kyiv, resulting in multiple deaths and severe damage to infrastructure. The ongoing military campaign continues to devastate key regional industries, including the Ukrainian steel sector.",
+      "title": "Russian Missile Strikes Hit Kyiv",
+      "summary": "A fresh round of Russian military strikes on Kyiv has caused multiple casualties.",
       "article_ids": [
-        "e8fc3b51d5222790dbdebad0",
-        "7f9f63736280335943e04e19"
+        "e8fc3b51d5222790dbdebad0"
       ],
       "sources": [
         {
@@ -99,37 +98,47 @@
           "url": "https://www.france24.com/en/europe/20260930-live-several-people-killed-as-russia-launches-new-round-of-strikes-on-kyiv",
           "headline": "Live: Several people killed as Russia launches new round of strikes on Kyiv",
           "published_at": "2026-09-30T05:35:15Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cjkg7k6z9296o?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukraine's prized steel industry left in ruins by Russian missile campaign",
-          "published_at": "2026-09-29T23:33:34Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "Political Debates and Investigations in the United Kingdom and Hungary",
-      "summary": "UK political figures have suggested that rejoining the European Union should be considered as a future option. In Hungary, anti-corruption investigations and high-profile arrests are accelerating around the ruling system.",
+      "title": "EU Single Market Access",
+      "summary": "The European Union is preparing to offer single-market access to candidate countries. This initiative was announced by Ursula von der Leyen.",
       "article_ids": [
-        "390f310371531b9d21fdd612",
-        "7d6bc6e40d2143049084919a"
+        "d9281b118b7ee2d2e4d3db43"
       ],
       "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ursula-von-der-leyen-eu-offer-single-market-access-to-candidate-countries",
+          "headline": "EU to offer single-market access to candidate countries",
+          "published_at": "2026-09-30T08:39:52Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "UK Relations and European Integration",
+      "summary": "UK figure Andy Burnham stated that he will consider a push to rejoin the European Union. This move is among the options being discussed for the United Kingdom.",
+      "article_ids": [
+        "9c06a6761f2ad4cc22669eaa",
+        "390f310371531b9d21fdd612"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/andy-burnham-reconsider-push-rejoin-eu",
+          "headline": "UK’s Burnham says he’ll consider push to rejoin EU",
+          "published_at": "2026-09-30T06:30:55Z"
+        },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cmlyewr0lnj3o?at_medium=RSS&at_campaign=rss",
           "headline": "Move to rejoin EU among options for UK, says Burnham",
           "published_at": "2026-09-30T06:04:30Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/hungary-s-reckoning-with-orban-s-corrupt-system-picks-up-speed-with-high-profile-arrests/a-79473714?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Hungary's reckoning with Orban's corrupt system picks up speed with high-profile arrests",
-          "published_at": "2026-09-30T04:37:00Z"
         }
       ],
       "source_count": 2
@@ -2281,48 +2290,6 @@
       ]
     },
     {
-      "id": "ceb838ad9b568bc306ec4f72",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland changes rules of engagement for firing on foreign aircraft amid growing Russia threat",
-      "url": "https://notesfrompoland.com/2026/09/29/poland-changes-rules-of-engagement-for-firing-on-foreign-aircraft-amid-growing-russia-threat",
-      "published_at": "2026-09-29T09:56:50Z",
-      "collected_at": "2026-09-29T10:00:51Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "7b6fbc878609da414488f1a9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Video shows Iranian police beating, sexually humiliating teenage detainee",
-      "url": "https://www.france24.com/en/middle-east/20260929-iran-police-video-teenage-detainee-abuse",
-      "published_at": "2026-09-29T09:56:46Z",
-      "collected_at": "2026-09-29T10:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "43240f20add7447068756a0f",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "French debt hits 119% of GDP",
-      "url": "https://www.politico.eu/article/french-debt-reaches-119-of-gdp-hitting-new-record",
-      "published_at": "2026-09-29T09:41:15Z",
-      "collected_at": "2026-09-29T10:00:51Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "76c90506af781b724e348d47",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2365,17 +2332,31 @@
       ]
     },
     {
-      "id": "929da5cd606c9fad412d4982",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ethiopian forces claim to have retaken key Tigray town",
-      "url": "https://www.france24.com/en/ethiopian-forces-claim-tigray-town",
-      "published_at": "2026-09-28T20:32:38Z",
-      "collected_at": "2026-09-29T10:00:51Z",
+      "id": "7b35b4a626fa43895877b610",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "“Don’t blame Ukrainian nation,” says Polish priest injured in deadly knife attack",
+      "url": "https://notesfrompoland.com/2026/09/28/dont-blame-ukrainian-nation-says-polish-priest-injured-in-deadly-knife-attack",
+      "published_at": "2026-09-28T09:43:22Z",
+      "collected_at": "2026-09-30T10:00:58Z",
       "topics": [
+        "central_europe",
         "politics",
-        "security",
         "society"
+      ]
+    },
+    {
+      "id": "3f810b7701bb8ca2f3f3e5e6",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "What the new De Gaulle film leaves out on how WWII ended for eastern Europe",
+      "url": "https://euobserver.com/239930/what-the-new-de-gaulle-film-leaves-out-on-how-wwii-ended-for-eastern-europe",
+      "published_at": "2026-09-28T09:32:30Z",
+      "collected_at": "2026-09-30T10:00:58Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -2404,20 +2385,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "d00e002b9efc285665da31ce",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Lithuania moves to lift ban on nuclear weapons as ‘Russians do not attack the strong’",
-      "url": "https://euobserver.com/239820/lithuania-moves-to-lift-ban-on-nuclear-weapons-as-russians-do-not-attack-the-strong",
-      "published_at": "2026-09-27T09:00:00Z",
-      "collected_at": "2026-09-29T10:00:51Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
       ]
     },
     {
