@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-30T17:30:48Z",
-  "last_successful_collection_at": "2026-09-30T17:30:48Z",
+  "generated_at": "2026-09-30T18:00:56Z",
+  "last_successful_collection_at": "2026-09-30T18:00:56Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-30T17:30:48Z"
+      "at": "2026-09-30T18:00:56Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-30T17:30:48Z"
+      "at": "2026-09-30T18:00:56Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-09-30T17:30:48Z"
+      "at": "2026-09-30T18:00:56Z"
     },
     {
       "id": "euractiv",
@@ -29,66 +29,93 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-09-30T17:30:48Z"
+      "at": "2026-09-30T18:00:56Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-09-30T17:30:48Z"
+      "at": "2026-09-30T18:00:56Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-09-30T17:30:48Z"
+      "at": "2026-09-30T18:00:56Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-09-30T17:30:48Z"
+      "at": "2026-09-30T18:00:56Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-30T17:30:48Z"
+      "at": "2026-09-30T18:00:56Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-09-30T17:30:48Z"
+      "at": "2026-09-30T18:00:56Z"
     }
   ],
   "europe_now": [
     {
-      "title": "UK-France Migrant Deal Scrapped",
-      "summary": "France and the United Kingdom have terminated their bilateral 'one in, one out' migrant exchange arrangement. The cancellation follows a British court conviction of six smugglers for manslaughter linked to a fatal Channel crossing disaster.",
+      "title": "UK Implicates Iran in RAF Fairford Incident",
+      "summary": "The United Kingdom has stated that Iran was involved in an incident at RAF Fairford. This security development highlights rising tensions involving external actors on European military installations.",
       "article_ids": [
-        "6b60b398582c38022acfe4f0",
-        "7f24e5dfd36d56dc38250cc8"
+        "b6529571e1f542830c75ebda"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/uk-iran-raf-fairford-incident",
+          "headline": "UK says Iran involved in RAF Fairford incident",
+          "published_at": "2026-09-30T17:38:18Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Russia Launches Major Attack on Ukrainian Energy Infrastructure",
+      "summary": "Russia has carried out its largest assault on Ukraine's energy infrastructure since the spring. The widespread strikes pose significant systemic risks to regional energy stability and civilian infrastructure.",
+      "article_ids": [
+        "6990ab8ed5b8dce4f06d0987"
       ],
       "sources": [
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c6n8m33pn9djo?at_medium=RSS&at_campaign=rss",
-          "headline": "Six smugglers jailed for manslaughter over worst Channel small boats disaster",
-          "published_at": "2026-09-30T17:14:03Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260930-uk-france-one-in-one-out-migrant-exchange-deal-is-scrapped",
-          "headline": "UK-France 'one in, one out' migrant exchange deal is scrapped",
-          "published_at": "2026-09-30T17:12:12Z"
+          "url": "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia launches largest attack on Ukraine energy infrastructure since spring",
+          "published_at": "2026-09-30T12:42:34Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Eurozone Inflation Surges",
+      "summary": "Eurozone inflation has accelerated at a faster pace than previously anticipated by analysts. Economic pressures are intensifying across the region as consumer price growth exceeds forecasts.",
+      "article_ids": [
+        "4fe4ef80b877aaded43ace7c"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eurozone-inflation-heats-up-faster-than-expected",
+          "headline": "Eurozone inflation heats up faster than expected",
+          "published_at": "2026-09-30T13:40:58Z"
+        }
+      ],
+      "source_count": 1
     },
     {
-      "title": "Romanian Political Crisis Deepens",
-      "summary": "Political instability in Romania escalated after the national parliament rejected the newly nominated prime minister. The legislative vote adds further strain to the ongoing government crisis.",
+      "title": "Romanian Political Instability Deepens",
+      "summary": "The political crisis in Romania has intensified after the national parliament rejected the latest prime ministerial nominee. This legislative stalemate leaves the country facing prolonged governmental uncertainty.",
       "article_ids": [
         "d97ed7eb431011be612264ea"
       ],
@@ -103,17 +130,13 @@
       "source_count": 1
     }
   ],
-  "top_stories": [
+  "developing": [
     {
-      "title": "UK-EU Relations and Integration Debates",
-      "summary": "French President Emmanuel Macron and Spanish Prime Minister Pedro Sanchez stated during a joint conference that the United Kingdom would be welcome back in the European Union. Meanwhile, domestic political figures in the UK continue to spar over potential future integration pathways and trade discussions.",
-      "article_ids": [
-        "51c154b6df747ca6fdc7c310",
-        "bf814d8346e77cd03b6641ea",
-        "832ed1be43b30ccaf05ce6ef",
-        "7c4cdaf0d59141f1a594a850",
-        "2c86ce1cee6aba17e5e2429b"
-      ],
+      "label": "EU · UK · Macron · Burnham",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 6,
+      "latest_at": "2026-09-30T15:01:32Z",
       "sources": [
         {
           "publisher": "France 24 English",
@@ -126,36 +149,15 @@
           "url": "https://www.politico.eu/article/macron-and-sanchez-say-uk-would-be-welcome-back-in-eu",
           "headline": "Macron and Sanchez say UK would be ‘welcome’ back in EU",
           "published_at": "2026-09-30T14:35:47Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Eurozone Inflation and Economic Pressures",
-      "summary": "Consumer prices across the eurozone have accelerated at a pace that exceeds previous analyst forecasts. Financial pressures are further compounded by national budget challenges, such as France preparing to unveil its 2027 fiscal plan amid record debt levels.",
-      "article_ids": [
-        "c4d4c1288dc6053b0eee5914",
-        "4fe4ef80b877aaded43ace7c",
-        "9139e8c4ac62c4d5270441de"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20260930-france-to-unveil-2027-budget-as-debt-hits-record-high",
-          "headline": "France to unveil 2027 budget as debt hits record high",
-          "published_at": "2026-09-30T16:58:35Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eurozone-inflation-heats-up-faster-than-expected",
-          "headline": "Eurozone inflation heats up faster than expected",
-          "published_at": "2026-09-30T13:40:58Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyewr0lnj3o?at_medium=RSS&at_campaign=rss",
+          "headline": "Move to rejoin EU among options for UK, says Burnham",
+          "published_at": "2026-09-30T06:04:30Z"
         }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
+      ]
+    },
     {
       "label": "AI · companies · accord · firms",
       "origin": "convergence",
@@ -218,30 +220,37 @@
           "published_at": "2026-09-30T13:55:45Z"
         }
       ]
-    },
-    {
-      "label": "attacks · Russia",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-09-30T15:29:40Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20260930-russia-ramps-up-disinformation-attacks-on-french-media-ahead-of-2027-presidential-race",
-          "headline": "Russia ramps up disinformation attacks on French media ahead of 2027 Presidential race",
-          "published_at": "2026-09-30T15:29:40Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia launches largest attack on Ukraine energy infrastructure since spring",
-          "published_at": "2026-09-30T12:42:34Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "b6529571e1f542830c75ebda",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "UK says Iran involved in RAF Fairford incident",
+      "url": "https://www.politico.eu/article/uk-iran-raf-fairford-incident",
+      "published_at": "2026-09-30T17:38:18Z",
+      "collected_at": "2026-09-30T18:00:56Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "bdb259131c4285c974f52158",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘Diva time’: Rihanna arrives in Paris, while the industry watches the clock",
+      "url": "https://english.elpais.com/culture/2026-09-30/diva-time-rihanna-arrives-in-paris-while-the-industry-watches-the-clock.html",
+      "published_at": "2026-09-30T17:37:48Z",
+      "collected_at": "2026-09-30T18:00:56Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "6b60b398582c38022acfe4f0",
       "source_id": "bbc_europe",
@@ -572,6 +581,20 @@
       "url": "https://www.politico.eu/article/macron-and-sanchez-say-uk-would-be-welcome-back-in-eu",
       "published_at": "2026-09-30T14:35:47Z",
       "collected_at": "2026-09-30T15:01:07Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "a998f18092324a0d85c2e1ed",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Macron and Sánchez say UK would be ‘welcome’ back in EU",
+      "url": "https://www.politico.eu/article/macron-and-sanchez-say-uk-would-be-welcome-back-in-eu",
+      "published_at": "2026-09-30T14:35:47Z",
+      "collected_at": "2026-09-30T18:00:56Z",
       "topics": [
         "institutions",
         "politics",
@@ -2217,62 +2240,6 @@
       ]
     },
     {
-      "id": "755ebc901c6cc848f7653ae5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Burnham sets out 'new path' for Britain, vows to seek consensus on ties with EU",
-      "url": "https://www.france24.com/en/europe/20260929-burnham-sets-out-new-path-for-britain-vows-to-seek-consensus-on-ties-with-eu",
-      "published_at": "2026-09-29T17:54:41Z",
-      "collected_at": "2026-09-29T18:00:52Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0620cb1fd54b988cd30d93fb",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Merz says Lavrov comments show Moscow not interested in serious negotiations",
-      "url": "https://www.politico.eu/article/friedrich-merz-sergey-lavrov-russia-not-interested-serious-negotiations",
-      "published_at": "2026-09-29T17:39:56Z",
-      "collected_at": "2026-09-29T18:00:52Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "e9740ef0271469767d7d8b3a",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Three of the four Afghans who left the country to play the Chess Olympiad are detained in Kabul and face uncertain fate",
-      "url": "https://english.elpais.com/sports/2026-09-29/three-of-the-four-afghans-who-left-the-country-to-play-the-chess-olympiad-are-detained-in-kabul-and-face-uncertain-fate.html",
-      "published_at": "2026-09-29T17:36:35Z",
-      "collected_at": "2026-09-29T18:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "9b31d7a0351d5a7f116a5e9b",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "MLB seeks to bring a game to Grand Teton, drawing criticism over construction in a national park",
-      "url": "https://english.elpais.com/usa/2026-09-29/mlb-seeks-to-bring-a-game-to-grand-teton-drawing-criticism-over-construction-in-a-national-park.html",
-      "published_at": "2026-09-29T17:21:11Z",
-      "collected_at": "2026-09-29T18:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "459c91f040e151a3e329ba8a",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2280,6 +2247,20 @@
       "url": "https://www.bbc.co.uk/news/articles/cw5ym18znr0ro?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-09-29T15:40:10Z",
       "collected_at": "2026-09-30T07:00:55Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "d27b2029fbbc41ad990dca02",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "People escape historic Kyiv building hit by Russian drone",
+      "url": "https://www.bbc.co.uk/news/videos/cqj9xkdyrvgzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-28T17:04:14Z",
+      "collected_at": "2026-09-30T18:00:56Z",
       "topics": [
         "breaking",
         "politics",
@@ -2522,48 +2503,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "ecc646d7dc5d001d1f0207dd",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘Forgotten Island’ turns children’s animation into a song to friendship and roots: ‘Diversity makes us stronger’",
-      "url": "https://english.elpais.com/culture/2026-09-25/forgotten-island-turns-childrens-animation-into-a-song-to-friendship-and-roots-diversity-makes-us-stronger.html",
-      "published_at": "2026-09-25T17:13:48Z",
-      "collected_at": "2026-09-29T18:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "cd1d39159f9824033afe5513",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Dogs also prefer consonants: how our language shapes their brain",
-      "url": "https://english.elpais.com/science-tech/2026-09-25/dogs-also-prefer-consonants-how-our-language-shapes-their-brain.html",
-      "published_at": "2026-09-25T16:43:26Z",
-      "collected_at": "2026-09-29T18:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "49ec34932b1d3511995b4dea",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland extends tax rights to same-sex couples with foreign marriages",
-      "url": "https://notesfrompoland.com/2026/09/25/poland-extends-tax-rights-to-same-sex-couples-with-foreign-marriages",
-      "published_at": "2026-09-25T16:32:08Z",
-      "collected_at": "2026-09-29T18:00:52Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
       ]
     },
     {
