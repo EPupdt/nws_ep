@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-01T05:30:43Z",
-  "last_successful_collection_at": "2026-10-01T05:30:43Z",
+  "generated_at": "2026-10-01T06:00:56Z",
+  "last_successful_collection_at": "2026-10-01T06:00:56Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-01T05:30:43Z"
+      "at": "2026-10-01T06:00:56Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-01T05:30:43Z"
+      "at": "2026-10-01T06:00:56Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-01T05:30:43Z"
+      "at": "2026-10-01T06:00:56Z"
     },
     {
       "id": "euractiv",
@@ -29,66 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-01T05:30:43Z"
+      "at": "2026-10-01T06:00:56Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-01T05:30:43Z"
+      "at": "2026-10-01T06:00:56Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-01T05:30:43Z"
+      "at": "2026-10-01T06:00:56Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-01T05:30:43Z"
+      "at": "2026-10-01T06:00:56Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-01T05:30:43Z"
+      "at": "2026-10-01T06:00:56Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-01T05:30:43Z"
+      "at": "2026-10-01T06:00:56Z"
     }
   ],
   "europe_now": [
     {
-      "title": "UK and Iran Security Incident",
-      "summary": "British authorities have stated there are strong indications of Iranian involvement in an incident at the Fairford airbase.",
+      "title": "Russian Attacks on Ukrainian Energy Infrastructure",
+      "summary": "Russian forces launched a major series of strikes targeting energy infrastructure across Ukraine. The coordinated assault resulted in widespread power cuts and exacerbated existing regional vulnerabilities.",
       "article_ids": [
-        "a1760d207833e9f7f536d3eb",
-        "b6529571e1f542830c75ebda"
+        "398cc15d2e0ee57e843649f1"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260930-british-pm-alleges-there-are-strong-indications-iran-was-involved-in-fairford-airbase-incident",
-          "headline": "British PM alleges there are 'strong indications' Iran was involved in Fairford airbase incident",
-          "published_at": "2026-09-30T19:01:30Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/uk-iran-raf-fairford-incident",
-          "headline": "UK says Iran involved in RAF Fairford incident",
-          "published_at": "2026-09-30T17:38:18Z"
+          "url": "https://www.france24.com/en/europe/20261001-russia-launches-major-attack-on-ukraine-energy-grid-causing-power-cuts",
+          "headline": "Russia launches major attack on Ukraine’s energy grid, causing power cuts",
+          "published_at": "2026-10-01T02:21:15Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "Escalating Protests in France",
-      "summary": "Student protests and school blockades in France have intensified, leading to widespread clashes with police and numerous arrests.",
+      "title": "Escalation in French Student Protests",
+      "summary": "Demonstrations and school blockades across France have intensified significantly. Clashes between student protesters and law enforcement officers have led to hundreds of arrests.",
       "article_ids": [
         "4e4f453e7605098a20de2fa6",
         "09cb25483c4c99176472c729"
@@ -112,11 +105,34 @@
   ],
   "top_stories": [
     {
-      "title": "Migration and Border Policy Initiatives",
-      "summary": "Five European Union states are planning to establish their first deportation center in Africa by 2027. Meanwhile, the UK and France have scrapped their one-in, one-out migrant exchange agreement.",
+      "title": "UK-Iran Security Incident",
+      "summary": "British authorities stated there are strong indications of Iranian involvement in a security incident at an airbase. The development has heightened diplomatic tensions regarding regional security threats.",
+      "article_ids": [
+        "a1760d207833e9f7f536d3eb",
+        "b6529571e1f542830c75ebda"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20260930-british-pm-alleges-there-are-strong-indications-iran-was-involved-in-fairford-airbase-incident",
+          "headline": "British PM alleges there are 'strong indications' Iran was involved in Fairford airbase incident",
+          "published_at": "2026-09-30T19:01:30Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/uk-iran-raf-fairford-incident",
+          "headline": "UK says Iran involved in RAF Fairford incident",
+          "published_at": "2026-09-30T17:38:18Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "European Migration and Deportation Policy",
+      "summary": "Several European Union member states have announced plans to establish the bloc's first offshore deportation center in Africa by 2027. Meanwhile, judicial and policy developments regarding migration enforcement continue to evolve across various countries.",
       "article_ids": [
         "976246e2eb2b1e4909118bf1",
-        "7f24e5dfd36d56dc38250cc8"
+        "3ca00976f0ffa3427569481a"
       ],
       "sources": [
         {
@@ -124,29 +140,6 @@
           "url": "https://www.dw.com/en/five-eu-states-plan-first-deportation-center-in-africa-for-2027/a-79490162?maca=en-rss-en-eu-2092-rdf",
           "headline": "Five EU states plan first deportation center in Africa for 2027",
           "published_at": "2026-09-30T19:16:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20260930-uk-france-one-in-one-out-migrant-exchange-deal-is-scrapped",
-          "headline": "UK-France 'one in, one out' migrant exchange deal is scrapped",
-          "published_at": "2026-09-30T17:12:12Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "UK-EU Integration Debate",
-      "summary": "The debate surrounding the United Kingdom's relationship with the European Union has reopened. British political figures have discussed the possibility of revisiting integration or holding future referendums.",
-      "article_ids": [
-        "57d4a438b0ffa9492f15865f",
-        "51c154b6df747ca6fdc7c310"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/a-propos/20260930-uk-pm-burnham-reopens-divisive-debate-on-rejoining-eu",
-          "headline": "UK PM Burnham reopens divisive debate on rejoining EU",
-          "published_at": "2026-09-30T21:08:39Z"
         }
       ],
       "source_count": 1
@@ -154,65 +147,71 @@
   ],
   "developing": [
     {
-      "label": "flights · Israel · Pilots · brawl",
+      "label": "EU · UK · Burnham · Macron",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 8,
+      "latest_at": "2026-09-30T21:08:39Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/a-propos/20260930-uk-pm-burnham-reopens-divisive-debate-on-rejoining-eu",
+          "headline": "UK PM Burnham reopens divisive debate on rejoining EU",
+          "published_at": "2026-09-30T21:08:39Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/macron-and-sanchez-say-uk-would-be-welcome-back-in-eu",
+          "headline": "Macron and Sanchez say UK would be ‘welcome’ back in EU",
+          "published_at": "2026-09-30T14:35:47Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyewr0lnj3o?at_medium=RSS&at_campaign=rss",
+          "headline": "Move to rejoin EU among options for UK, says Burnham",
+          "published_at": "2026-09-30T06:04:30Z"
+        }
+      ]
+    },
+    {
+      "label": "flights · Israel · Pilots · FlyDubai",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 9,
-      "latest_at": "2026-09-30T23:27:42Z",
+      "item_count": 10,
+      "latest_at": "2026-10-01T05:58:55Z",
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east/20261001-live-flydubai-suspends-flights-to-and-from-israel-after-pilot-attack",
+          "headline": "Live: FlyDubai suspends flights to and from Israel after pilot attack",
+          "published_at": "2026-10-01T05:58:55Z"
+        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.com/news/2026/09/30/flydubai-flights-israel-pilot-stabbing-01101806",
           "headline": "FlyDubai suspends flights to and from Israel after pilot stabbing",
           "published_at": "2026-09-30T23:27:42Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/like-a-rollercoaster-passengers-describe-harrowing-flydubai-flight",
-          "headline": "Like a 'rollercoaster': passengers describe harrowing flydubai flight",
-          "published_at": "2026-09-30T21:31:34Z"
         }
       ]
     },
     {
-      "label": "Tennessee · Court · Execution · woman",
+      "label": "Christa · Execution · Pike · Tennessee",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 4,
-      "latest_at": "2026-09-30T16:03:32Z",
+      "latest_at": "2026-10-01T05:32:16Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20260930-appeals-court-halts-execution-of-tennessee-woman-less-than-two-hours-before-lethal-injection",
-          "headline": "Appeals court halts execution of Tennessee woman less than two hours before lethal injection",
-          "published_at": "2026-09-30T16:03:32Z"
+          "url": "https://www.france24.com/en/americas/20261001-execution-of-convicted-us-killer-christa-pike-fails-despite-two-lethal-injections",
+          "headline": "Execution of convicted US killer Christa Pike fails despite two lethal injections",
+          "published_at": "2026-10-01T05:32:16Z"
         },
         {
           "publisher": "EL PAÍS English",
           "url": "https://english.elpais.com/usa/2026-09-30/the-case-of-christa-pike-the-first-woman-due-to-be-executed-in-tennessee-in-over-200-years.html",
           "headline": "Execution of Christa Pike halted at the last minute by a Tennessee appeals court",
           "published_at": "2026-09-30T15:57:05Z"
-        }
-      ]
-    },
-    {
-      "label": "launches · Russia · attack · energy",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-01T02:21:15Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261001-russia-launches-major-attack-on-ukraine-energy-grid-causing-power-cuts",
-          "headline": "Russia launches major attack on Ukraine’s energy grid, causing power cuts",
-          "published_at": "2026-10-01T02:21:15Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia launches largest attack on Ukraine energy infrastructure since spring",
-          "published_at": "2026-09-30T12:42:34Z"
         }
       ]
     },
@@ -239,6 +238,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "fadcb205ce1c19cbff33da97",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: FlyDubai suspends flights to and from Israel after pilot attack",
+      "url": "https://www.france24.com/en/middle-east/20261001-live-flydubai-suspends-flights-to-and-from-israel-after-pilot-attack",
+      "published_at": "2026-10-01T05:58:55Z",
+      "collected_at": "2026-10-01T06:00:56Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "ff7bae622360692c6ea86cc3",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Execution of convicted US killer Christa Pike fails despite two lethal injections",
+      "url": "https://www.france24.com/en/americas/20261001-execution-of-convicted-us-killer-christa-pike-fails-despite-two-lethal-injections",
+      "published_at": "2026-10-01T05:32:16Z",
+      "collected_at": "2026-10-01T06:00:56Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "c3b75739b7dae9707aa61a98",
       "source_id": "politico_europe",
@@ -545,6 +572,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "51617132c58d15546061a5da",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Hegseth says US cut number of generals, admirals by 20%",
+      "url": "https://www.france24.com/en/live-news/20260930-hegseth-says-us-cut-number-of-generals-admirals-by-20",
+      "published_at": "2026-09-30T20:16:31Z",
+      "collected_at": "2026-10-01T06:00:56Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -2074,20 +2115,6 @@
       ]
     },
     {
-      "id": "e8fc3b51d5222790dbdebad0",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: Several people killed as Russia launches new round of strikes on Kyiv",
-      "url": "https://www.france24.com/en/europe/20260930-live-several-people-killed-as-russia-launches-new-round-of-strikes-on-kyiv",
-      "published_at": "2026-09-30T05:35:15Z",
-      "collected_at": "2026-09-30T06:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "edf6d7a1b0875995aebcaff7",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2183,20 +2210,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "4a9be87d94c6d6f16bff2adb",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "AI companies sign voluntary accord on safety controls with Trump",
-      "url": "https://www.france24.com/en/technology/20260929-trump-says-ai-companies-sign-voluntary-accord-on-safety-controls",
-      "published_at": "2026-09-29T22:48:07Z",
-      "collected_at": "2026-09-30T06:00:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -2508,6 +2521,20 @@
       ]
     },
     {
+      "id": "18d6da5db4907ae949498c6c",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "What would Francis of Assisi make of his fame today?",
+      "url": "https://www.dw.com/en/what-would-francis-of-assisi-make-of-his-fame-today/a-79346151?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-28T06:18:00Z",
+      "collected_at": "2026-10-01T06:00:56Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "a39ab6d3e3435832da1bce3b",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2701,6 +2728,34 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "38e6708e663784ac19409329",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Andrew Scott, the expert in tortured characters: ‘I join projects because of the script’",
+      "url": "https://english.elpais.com/culture/2026-09-19/andrew-scott-the-expert-in-tortured-characters-i-join-projects-because-of-the-script.html",
+      "published_at": "2026-09-19T04:00:00Z",
+      "collected_at": "2026-10-01T06:00:56Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "3c7a9aa0f1c74eff0776c0fa",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Held in hotels or detained for a year after being deported to Africa: ‘This is called human trafficking’",
+      "url": "https://english.elpais.com/international/2026-09-19/held-in-hotels-or-detained-for-a-year-after-being-deported-to-africa-this-is-called-human-trafficking.html",
+      "published_at": "2026-09-19T04:00:00Z",
+      "collected_at": "2026-10-01T06:00:56Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     }
   ]
