@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-01T06:00:56Z",
-  "last_successful_collection_at": "2026-10-01T06:00:56Z",
+  "generated_at": "2026-10-01T06:30:44Z",
+  "last_successful_collection_at": "2026-10-01T06:30:44Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-01T06:00:56Z"
+      "at": "2026-10-01T06:30:44Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-01T06:00:56Z"
+      "at": "2026-10-01T06:30:44Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-01T06:00:56Z"
+      "at": "2026-10-01T06:30:44Z"
     },
     {
       "id": "euractiv",
@@ -29,84 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-01T06:00:56Z"
+      "at": "2026-10-01T06:30:44Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-01T06:00:56Z"
+      "at": "2026-10-01T06:30:44Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-01T06:00:56Z"
+      "at": "2026-10-01T06:30:44Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-01T06:00:56Z"
+      "at": "2026-10-01T06:30:44Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-01T06:00:56Z"
+      "at": "2026-10-01T06:30:44Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-01T06:00:56Z"
+      "at": "2026-10-01T06:30:44Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Attacks on Ukrainian Energy Infrastructure",
-      "summary": "Russian forces launched a major series of strikes targeting energy infrastructure across Ukraine. The coordinated assault resulted in widespread power cuts and exacerbated existing regional vulnerabilities.",
+      "title": "Escalating French School Protests",
+      "summary": "Student blockades across France have led to intense clashes with law enforcement, resulting in hundreds of arrests and multiple injuries.",
       "article_ids": [
-        "398cc15d2e0ee57e843649f1"
+        "6077937c4ccf3e7d83a3d0ea",
+        "4e4f453e7605098a20de2fa6"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261001-russia-launches-major-attack-on-ukraine-energy-grid-causing-power-cuts",
-          "headline": "Russia launches major attack on Ukraine’s energy grid, causing power cuts",
-          "published_at": "2026-10-01T02:21:15Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Escalation in French Student Protests",
-      "summary": "Demonstrations and school blockades across France have intensified significantly. Clashes between student protesters and law enforcement officers have led to hundreds of arrests.",
-      "article_ids": [
-        "4e4f453e7605098a20de2fa6",
-        "09cb25483c4c99176472c729"
-      ],
-      "sources": [
+          "url": "https://www.france24.com/en/live-news/20261001-hundreds-held-dozens-wounded-as-french-school-protests-escalate",
+          "headline": "Hundreds held, dozens wounded as French school protests escalate",
+          "published_at": "2026-10-01T00:14:36Z"
+        },
         {
           "publisher": "Deutsche Welle",
           "url": "https://www.dw.com/en/france-hundreds-arrested-as-student-protests-escalate/a-79495633?maca=en-rss-en-eu-2092-rdf",
           "headline": "France: Hundreds arrested as student protests escalate",
           "published_at": "2026-09-30T23:02:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/clashes-between-french-teens-police-as-school-blockades-intensify",
-          "headline": "Clashes between French teens, police as school blockades intensify",
-          "published_at": "2026-09-30T19:07:32Z"
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "UK-Iran Security Incident",
-      "summary": "British authorities stated there are strong indications of Iranian involvement in a security incident at an airbase. The development has heightened diplomatic tensions regarding regional security threats.",
+      "title": "UK Alleges Iranian Involvement in Airbase Incident",
+      "summary": "The British government stated there are strong indications of Iranian state involvement regarding a recent security incident at RAF Fairford.",
       "article_ids": [
         "a1760d207833e9f7f536d3eb",
         "b6529571e1f542830c75ebda"
@@ -126,10 +108,28 @@
         }
       ],
       "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Swiss Glaciers Face Severe Ice Loss",
+      "summary": "Swiss glaciers have experienced a disastrous year characterized by unprecedented ice loss. This rapid environmental degradation poses an escalating threat to regional water supplies.",
+      "article_ids": [
+        "37eb95347d9e8eb56ac5dfb1"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6n9w0ypjwl9o?at_medium=RSS&at_campaign=rss",
+          "headline": "Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies",
+          "published_at": "2026-10-01T00:08:23Z"
+        }
+      ],
+      "source_count": 1
     },
     {
-      "title": "European Migration and Deportation Policy",
-      "summary": "Several European Union member states have announced plans to establish the bloc's first offshore deportation center in Africa by 2027. Meanwhile, judicial and policy developments regarding migration enforcement continue to evolve across various countries.",
+      "title": "European Migration and Border Initiatives",
+      "summary": "Several European Union member states are moving forward with plans to establish the bloc's first deportation center in Africa by 2027. Meanwhile, new EU return regulations are granting expanded enforcement powers to domestic law enforcement agencies.",
       "article_ids": [
         "976246e2eb2b1e4909118bf1",
         "3ca00976f0ffa3427569481a"
@@ -140,39 +140,18 @@
           "url": "https://www.dw.com/en/five-eu-states-plan-first-deportation-center-in-africa-for-2027/a-79490162?maca=en-rss-en-eu-2092-rdf",
           "headline": "Five EU states plan first deportation center in Africa for 2027",
           "published_at": "2026-09-30T19:16:00Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/240570/the-eus-return-regulation-makes-your-home-fair-game-for-police-and-belgium-is-racing-to-use-it",
+          "headline": "The EU’s ‘return regulation’ makes your home fair game for police — and Belgium is racing to use it",
+          "published_at": "2026-09-30T18:00:00Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
-    {
-      "label": "EU · UK · Burnham · Macron",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 8,
-      "latest_at": "2026-09-30T21:08:39Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/a-propos/20260930-uk-pm-burnham-reopens-divisive-debate-on-rejoining-eu",
-          "headline": "UK PM Burnham reopens divisive debate on rejoining EU",
-          "published_at": "2026-09-30T21:08:39Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/macron-and-sanchez-say-uk-would-be-welcome-back-in-eu",
-          "headline": "Macron and Sanchez say UK would be ‘welcome’ back in EU",
-          "published_at": "2026-09-30T14:35:47Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmlyewr0lnj3o?at_medium=RSS&at_campaign=rss",
-          "headline": "Move to rejoin EU among options for UK, says Burnham",
-          "published_at": "2026-09-30T06:04:30Z"
-        }
-      ]
-    },
     {
       "label": "flights · Israel · Pilots · FlyDubai",
       "origin": "convergence",
@@ -191,6 +170,27 @@
           "url": "https://www.politico.com/news/2026/09/30/flydubai-flights-israel-pilot-stabbing-01101806",
           "headline": "FlyDubai suspends flights to and from Israel after pilot stabbing",
           "published_at": "2026-09-30T23:27:42Z"
+        }
+      ]
+    },
+    {
+      "label": "EU · UK · Macron · Burnham",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 7,
+      "latest_at": "2026-09-30T21:08:39Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/a-propos/20260930-uk-pm-burnham-reopens-divisive-debate-on-rejoining-eu",
+          "headline": "UK PM Burnham reopens divisive debate on rejoining EU",
+          "published_at": "2026-09-30T21:08:39Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/macron-and-sanchez-say-uk-would-be-welcome-back-in-eu",
+          "headline": "Macron and Sanchez say UK would be ‘welcome’ back in EU",
+          "published_at": "2026-09-30T14:35:47Z"
         }
       ]
     },
@@ -216,28 +216,42 @@
       ]
     },
     {
-      "label": "Brexit · Burnham",
+      "label": "Russia · Ukraine · attack · energy",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-09-30T16:06:23Z",
+      "item_count": 3,
+      "latest_at": "2026-10-01T02:21:15Z",
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmlyewr0lnj3o?at_medium=RSS&at_campaign=rss",
-          "headline": "Brexit referendum 'possible' in Labour election manifesto, says Burnham",
-          "published_at": "2026-09-30T16:06:23Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261001-russia-launches-major-attack-on-ukraine-energy-grid-causing-power-cuts",
+          "headline": "Russia launches major attack on Ukraine’s energy grid, causing power cuts",
+          "published_at": "2026-10-01T02:21:15Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/nigel-farage-andy-burnham-brexit-eu-debate",
-          "headline": "Farage spoils for a Brexit brawl with Burnham",
-          "published_at": "2026-09-30T13:55:45Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss",
+          "headline": "Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
+          "published_at": "2026-09-30T23:10:06Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "c655648493b9c0a8214be49b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Portugal: Ronaldo walks away",
+      "url": "https://www.france24.com/en/tv-shows/sports/20261001-portugal-ronaldo-walks-away",
+      "published_at": "2026-10-01T06:14:53Z",
+      "collected_at": "2026-10-01T06:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "fadcb205ce1c19cbff33da97",
       "source_id": "france24",
@@ -407,6 +421,34 @@
       ]
     },
     {
+      "id": "6077937c4ccf3e7d83a3d0ea",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Hundreds held, dozens wounded as French school protests escalate",
+      "url": "https://www.france24.com/en/live-news/20261001-hundreds-held-dozens-wounded-as-french-school-protests-escalate",
+      "published_at": "2026-10-01T00:14:36Z",
+      "collected_at": "2026-10-01T06:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "37eb95347d9e8eb56ac5dfb1",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies",
+      "url": "https://www.bbc.co.uk/news/articles/c6n9w0ypjwl9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-01T00:08:23Z",
+      "collected_at": "2026-10-01T06:30:44Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "500e5fa9b76464c76de3f012",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -446,6 +488,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "7f6810a894187017212e4931",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-30T23:10:06Z",
+      "collected_at": "2026-10-01T06:30:44Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -582,6 +638,20 @@
       "url": "https://www.france24.com/en/live-news/20260930-hegseth-says-us-cut-number-of-generals-admirals-by-20",
       "published_at": "2026-09-30T20:16:31Z",
       "collected_at": "2026-10-01T06:00:56Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "189e9ed7e636e181cb87d2ea",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Pentagon’s Hegseth says 20 percent of US generals, admirals cut, ‘no fatties, no trannies’",
+      "url": "https://www.france24.com/en/americas/20260930-pentagon-s-hegseth-says-20-pct-of-us-generals-admirals-cut-no-fatties-no-trannies",
+      "published_at": "2026-09-30T20:16:31Z",
+      "collected_at": "2026-10-01T06:30:44Z",
       "topics": [
         "politics",
         "security",
@@ -2682,76 +2752,6 @@
       "url": "https://english.elpais.com/health/2026-09-24/riding-electric-scooters-multiplies-the-risk-of-serious-injuries-compared-with-cycling-or-motorcycling.html",
       "published_at": "2026-09-24T14:12:28Z",
       "collected_at": "2026-09-30T16:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "484a960acda152e514693765",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The miracle of ‘Romeo + Juliet’: How Leonardo DiCaprio, Claire Danes and Baz Luhrmann reinvented Shakespeare",
-      "url": "https://english.elpais.com/culture/2026-09-24/the-miracle-of-romeo-juliet-how-leonardo-dicaprio-claire-danes-and-baz-luhrmann-reinvented-shakespeare.html",
-      "published_at": "2026-09-24T13:40:56Z",
-      "collected_at": "2026-09-30T16:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "7b9f4a16f22db3e83bba2730",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Czech PM Andrej Babis reiterates importance of NATO for his country but rejects calls to increase defense spending",
-      "url": "https://www.dw.com/en/czech-pm-andrej-babis-reiterates-importance-of-nato-for-his-country-but-rejects-calls-to-increase-defense-spending/a-79411066?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-24T12:11:00Z",
-      "collected_at": "2026-09-30T14:00:57Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "99b228cc616105d18fcb170b",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "'Pope fever' takes hold as Pope Leo visits France",
-      "url": "https://www.dw.com/en/pope-fever-takes-hold-as-pope-leo-visits-france/a-79401291?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-24T12:03:00Z",
-      "collected_at": "2026-09-30T14:00:57Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "38e6708e663784ac19409329",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Andrew Scott, the expert in tortured characters: ‘I join projects because of the script’",
-      "url": "https://english.elpais.com/culture/2026-09-19/andrew-scott-the-expert-in-tortured-characters-i-join-projects-because-of-the-script.html",
-      "published_at": "2026-09-19T04:00:00Z",
-      "collected_at": "2026-10-01T06:00:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "3c7a9aa0f1c74eff0776c0fa",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Held in hotels or detained for a year after being deported to Africa: ‘This is called human trafficking’",
-      "url": "https://english.elpais.com/international/2026-09-19/held-in-hotels-or-detained-for-a-year-after-being-deported-to-africa-this-is-called-human-trafficking.html",
-      "published_at": "2026-09-19T04:00:00Z",
-      "collected_at": "2026-10-01T06:00:56Z",
       "topics": [
         "politics",
         "society",
