@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-01T16:01:08Z",
-  "last_successful_collection_at": "2026-10-01T16:01:08Z",
+  "generated_at": "2026-10-01T16:30:43Z",
+  "last_successful_collection_at": "2026-10-01T16:30:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-01T16:01:08Z"
+      "at": "2026-10-01T16:30:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-01T16:01:08Z"
+      "at": "2026-10-01T16:30:43Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-01T16:01:08Z"
+      "at": "2026-10-01T16:30:43Z"
     },
     {
       "id": "euractiv",
@@ -29,66 +29,92 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-01T16:01:08Z"
+      "at": "2026-10-01T16:30:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-01T16:01:08Z"
+      "at": "2026-10-01T16:30:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-10-01T16:01:08Z"
+      "at": "2026-10-01T16:30:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-01T16:01:08Z"
+      "at": "2026-10-01T16:30:43Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-01T16:01:08Z"
+      "at": "2026-10-01T16:30:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-01T16:01:08Z"
+      "at": "2026-10-01T16:30:43Z"
     }
   ],
   "europe_now": [
     {
-      "title": "French School Protests and Budget Crisis",
-      "summary": "The French government convened an emergency meeting as student demonstrations and blockades over school conditions and austerity measures turned violent. Multiple individuals were wounded and hundreds detained as clashes with riot police escalated across the country.",
+      "title": "Russian Strike on Kyiv",
+      "summary": "Russian forces targeted a busy bridge in central Kyiv during daylight hours. The attack caused significant disruptions and raised immediate security concerns in the region.",
       "article_ids": [
-        "b16a0fa17f3c13c703134e4f",
-        "51fde1d27e4ecc637599dfc1"
+        "b147dab8b21d3c140503eef5",
+        "da352b4fd023c7715657ae1b"
       ],
       "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmn8e8344v5qo?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia targets busy bridge in central Kyiv in broad daylight",
+          "published_at": "2026-10-01T14:31:03Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmn8e8344v5qo?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia targets busy bridge in central Kyiv",
+          "published_at": "2026-10-01T14:31:03Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Escalating French School Protests",
+      "summary": "Protests over school conditions in France intensified as students blocked high schools and faced riot police. The unrest led to dozens of injuries and numerous arrests, prompting government crisis meetings.",
+      "article_ids": [
+        "e44cd8fbccf97efdf7d8a3d7",
+        "35b49c68efa809ec68b2dfed",
+        "b16a0fa17f3c13c703134e4f"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/students-face-riot-police-as-protests-over-school-conditions-escalate-in-france",
+          "headline": "Students face riot police as protests over school conditions escalate in France",
+          "published_at": "2026-10-01T15:42:25Z"
+        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/france-government-crisis-meeting-student-school-blockade",
           "headline": "French government calls crisis meeting as some school blockades turn violent",
           "published_at": "2026-10-01T12:26:08Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261001-hundreds-held-dozens-wounded-as-french-school-protests-escalate",
-          "headline": "Hundreds held, dozens wounded as French school protests escalate",
-          "published_at": "2026-10-01T13:33:12Z"
         }
       ],
       "source_count": 2
-    },
+    }
+  ],
+  "top_stories": [
     {
       "title": "European Response to U.S. Diesel Pressure",
-      "summary": "Several European nations agreed on a firm and assertive coordinated response following pressure from Washington to release a major share of the bloc's diesel reserves. The demands emerged as U.S. energy officials urged the release of over a third of existing supplies.",
+      "summary": "France and several other European countries agreed on an assertive response to U.S. pressure regarding diesel reserves. The discussions follow requests from American energy officials to release significant portions of Europe's emergency stock.",
       "article_ids": [
         "c534e0bf34bd70537b3b6314",
         "e4a33c42dd6dd8c5db729291"
@@ -108,78 +134,25 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "French Fiscal Pressures",
-      "summary": "France faces intense investor scrutiny and severe budgetary strain ahead of its upcoming spending plans. Government officials are pushing for significant belt-tightening measures and public spending reforms.",
-      "article_ids": [
-        "9dd56483fdb442b313e5b6e1",
-        "bf11c1470c30705076de4dfc"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261001-france-demands-belt-tightening-in-2027-budget-as-investors-sour-on-its-debt",
-          "headline": "France demands belt-tightening in 2027 budget as investors sour on its debt",
-          "published_at": "2026-10-01T13:42:54Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261001-france-s-2027-budget-plan-puts-pressure-on-local-services",
-          "headline": "France’s 2027 budget plan puts pressure on local services",
-          "published_at": "2026-10-01T13:42:07Z"
-        }
-      ],
-      "source_count": 1
     },
     {
-      "title": "Regional Security and Defense",
-      "summary": "Estonian officials have characterized ongoing hostile incidents as acts of war rather than mere hybrid threats. Meanwhile, discussions continue regarding potential military responses and alliances to counter escalating security challenges.",
+      "title": "Criticism of EU Enlargement",
+      "summary": "German politician Wadephul publicly criticized the slow progress of European Union enlargement. He emphasized that the union has failed to deliver adequately on its expansion promises.",
       "article_ids": [
-        "9a8a63e77b6ab3d0e12b5e19",
-        "5ea45dfa19b1300ab9458340"
+        "da074cfc1acb9658c8c7e1d0"
       ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/estonia-foreign-minister-russian-attacks-hybrid-terror-sabotage",
-          "headline": "It’s war, not hybrid attacks, says Estonian foreign minister",
-          "published_at": "2026-10-01T15:02:35Z"
+          "url": "https://www.politico.eu/article/germanys-wadephul-criticizes-slow-enlargement-progress",
+          "headline": "‘We have not delivered’: Germany’s Wadephul criticizes slow EU enlargement progress",
+          "published_at": "2026-10-01T16:01:26Z"
         }
       ],
       "source_count": 1
     }
   ],
   "developing": [
-    {
-      "label": "Burnham · reopens · Brexit · debate",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 5,
-      "latest_at": "2026-10-01T15:52:26Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/thank-you-andy-farage-gloats-andy-burnham-reopens-brexit-fight",
-          "headline": "‘Thank you, Andy’: Farage gloats as Burnham reopens Brexit fight",
-          "published_at": "2026-10-01T15:52:26Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261001-burnham-reopens-brexit-debate-eu-says-uk-must-chart-its-own-path-on-future-relations",
-          "headline": "Burnham reopens Brexit debate: EU says UK must chart Its own path on future relations",
-          "published_at": "2026-10-01T09:46:53Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmlyewr0lnj3o?at_medium=RSS&at_campaign=rss",
-          "headline": "Brexit referendum 'possible' in Labour election manifesto, says Burnham",
-          "published_at": "2026-09-30T16:06:23Z"
-        }
-      ]
-    },
     {
       "label": "Russia · Ukraine · doubles · EU",
       "origin": "convergence",
@@ -208,37 +181,10 @@
       ]
     },
     {
-      "label": "France · Students · escalate · protests",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-10-01T13:35:20Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261001-students-face-riot-police-as-protests-over-school-conditions-escalate-in-france",
-          "headline": "Students face riot police as protests over school conditions escalate in France",
-          "published_at": "2026-10-01T13:35:20Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/cwy8z8rney97o?at_medium=RSS&at_campaign=rss",
-          "headline": "Watch: Why are students protesting at schools in France?",
-          "published_at": "2026-10-01T12:31:18Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/france-hundreds-arrested-as-student-protests-escalate/a-79495633?maca=en-rss-en-eu-2092-rdf",
-          "headline": "France: Hundreds arrested as student protests escalate",
-          "published_at": "2026-09-30T23:02:00Z"
-        }
-      ]
-    },
-    {
       "label": "flight · FlyDubai · Israel · pilot",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 11,
+      "item_count": 10,
       "latest_at": "2026-10-01T13:38:15Z",
       "sources": [
         {
@@ -254,9 +200,65 @@
           "published_at": "2026-09-30T23:27:42Z"
         }
       ]
+    },
+    {
+      "label": "Christa · Pike · injections · lethal",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 5,
+      "latest_at": "2026-10-01T11:41:36Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261001-tennessee-death-row-inmate-christa-pike-survives-two-lethal-injections",
+          "headline": "Tennessee death row inmate Christa Pike survives two lethal injections",
+          "published_at": "2026-10-01T11:41:36Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-10-01/christa-pike-still-alive-after-receiving-two-lethal-injections-in-tennessee.html",
+          "headline": "Christa Pike still alive after receiving two lethal injections in Tennessee",
+          "published_at": "2026-10-01T08:59:32Z"
+        }
+      ]
+    },
+    {
+      "label": "Burnham · reopens · debate · EU",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-10-01T15:52:26Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/thank-you-andy-farage-gloats-andy-burnham-reopens-brexit-fight",
+          "headline": "‘Thank you, Andy’: Farage gloats as Burnham reopens Brexit fight",
+          "published_at": "2026-10-01T15:52:26Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261001-burnham-reopens-brexit-debate-eu-says-uk-must-chart-its-own-path-on-future-relations",
+          "headline": "Burnham reopens Brexit debate: EU says UK must chart Its own path on future relations",
+          "published_at": "2026-10-01T09:46:53Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "da074cfc1acb9658c8c7e1d0",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "‘We have not delivered’: Germany’s Wadephul criticizes slow EU enlargement progress",
+      "url": "https://www.politico.eu/article/germanys-wadephul-criticizes-slow-enlargement-progress",
+      "published_at": "2026-10-01T16:01:26Z",
+      "collected_at": "2026-10-01T16:30:43Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "be6ff805cc1914470e74bb13",
       "source_id": "politico_europe",
@@ -286,6 +288,20 @@
       ]
     },
     {
+      "id": "e44cd8fbccf97efdf7d8a3d7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Students face riot police as protests over school conditions escalate in France",
+      "url": "https://www.france24.com/en/students-face-riot-police-as-protests-over-school-conditions-escalate-in-france",
+      "published_at": "2026-10-01T15:42:25Z",
+      "collected_at": "2026-10-01T16:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "f2e7ddbae5db06553ec5d202",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -297,6 +313,34 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "35b49c68efa809ec68b2dfed",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Teens block high schools across France, demand better conditions",
+      "url": "https://www.france24.com/en/video/20261001-teens-block-high-schools-across-france-demand-better-conditions",
+      "published_at": "2026-10-01T15:25:57Z",
+      "collected_at": "2026-10-01T16:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "1f6dd81a6e93024c81c057fc",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Rethinking traditional designs: A French twist on the kimono",
+      "url": "https://www.france24.com/en/tv-shows/entre-nous/20261001-rethinking-traditional-designs-a-french-twist-on-the-kimono",
+      "published_at": "2026-10-01T15:16:45Z",
+      "collected_at": "2026-10-01T16:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -405,6 +449,20 @@
       "url": "https://www.bbc.co.uk/news/articles/cmn8e8344v5qo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-01T14:31:03Z",
       "collected_at": "2026-10-01T15:00:56Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "da352b4fd023c7715657ae1b",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Russia targets busy bridge in central Kyiv",
+      "url": "https://www.bbc.co.uk/news/articles/cmn8e8344v5qo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-01T14:31:03Z",
+      "collected_at": "2026-10-01T16:30:43Z",
       "topics": [
         "breaking",
         "politics",
@@ -2700,34 +2758,6 @@
       "title": "Feather trapped in dinosaur droppings provides new clues about why some birds survived extinction",
       "url": "https://english.elpais.com/science-tech/2026-09-10/a-feather-trapped-in-dinosaur-droppings-provides-new-clues-about-why-some-birds-survived-extinction.html",
       "published_at": "2026-09-10T15:59:54Z",
-      "collected_at": "2026-10-01T15:30:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "7efa220b5e933242e3c5f85f",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Héctor Socas, astrophysicist: ‘If a more advanced civilization contacted us, they should be more afraid of us than we are of them’",
-      "url": "https://english.elpais.com/science-tech/2026-09-09/hector-socas-astrophysicist-if-a-more-advanced-civilization-contacted-us-they-should-be-more-afraid-of-us-than-we-are-of-them.html",
-      "published_at": "2026-09-09T18:32:09Z",
-      "collected_at": "2026-10-01T15:30:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "8442dda57a3758ee99638760",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Zhang Ziyu, the 2.23-meter World Cup sensation",
-      "url": "https://english.elpais.com/sports/2026-09-09/zhang-ziyu-the-223-meter-world-cup-sensation.html",
-      "published_at": "2026-09-09T13:50:39Z",
       "collected_at": "2026-10-01T15:30:48Z",
       "topics": [
         "politics",
