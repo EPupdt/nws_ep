@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-01T09:00:52Z",
-  "last_successful_collection_at": "2026-10-01T09:00:52Z",
+  "generated_at": "2026-10-01T09:30:46Z",
+  "last_successful_collection_at": "2026-10-01T09:30:46Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-01T09:00:52Z"
+      "at": "2026-10-01T09:30:46Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-01T09:00:52Z"
+      "at": "2026-10-01T09:30:46Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 404: Not Found",
-      "at": "2026-10-01T09:00:52Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-10-01T09:30:46Z"
     },
     {
       "id": "euractiv",
@@ -29,59 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-01T09:00:52Z"
+      "at": "2026-10-01T09:30:46Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-01T09:00:52Z"
+      "at": "2026-10-01T09:30:46Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-01T09:00:52Z"
+      "at": "2026-10-01T09:30:46Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-01T09:00:52Z"
+      "at": "2026-10-01T09:30:46Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-01T09:00:52Z"
+      "at": "2026-10-01T09:30:46Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-01T09:00:52Z"
+      "at": "2026-10-01T09:30:46Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Attacks Target Ukraine's Infrastructure",
-      "summary": "Russian forces have initiated a major assault against energy infrastructure in Ukraine, resulting in widespread power outages. Security and institutional developments indicate continued intense conflict in the region.",
-      "article_ids": [
-        "398cc15d2e0ee57e843649f1"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261001-russia-launches-major-attack-on-ukraine-energy-grid-causing-power-cuts",
-          "headline": "Russia launches major attack on Ukraine’s energy grid, causing power cuts",
-          "published_at": "2026-10-01T02:21:15Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
       "title": "Escalation in French School Protests",
-      "summary": "Student demonstrations across France have intensified into violent clashes, leading to numerous arrests and injuries among law enforcement officers. The ongoing unrest represents a significant domestic security challenge.",
+      "summary": "Hundreds of students have been detained and dozens of law enforcement officers injured as widespread school protests escalated across France. The civil unrest has drawn significant domestic security concerns and extensive regional media coverage.",
       "article_ids": [
         "6077937c4ccf3e7d83a3d0ea",
         "7cb8253b9814533d43b06a5d"
@@ -101,28 +85,44 @@
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "Latvian Security Detains Espionage Suspects",
+      "summary": "Law enforcement authorities in Latvia have detained a couple suspected of conducting espionage activities on behalf of Russia. The operation highlights ongoing regional security vulnerabilities surrounding critical defense installations.",
+      "article_ids": [
+        "424c89144616eb8757604c9b"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/latvia-detains-two-suspected-russia-spies-nato-base-surveillance",
+          "headline": "Latvia detains couple suspected of spying for Russia",
+          "published_at": "2026-10-01T09:16:28Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "European Migration and Border Initiatives",
-      "summary": "Several European Union member states are advancing plans to establish the bloc's first deportation facility in Africa by 2027. This initiative forms part of wider ongoing discussions regarding regional migration and border control policies.",
+      "title": "French Fiscal Tightening Measures",
+      "summary": "The French prime minister is scheduled to unveil a stringent 2027 budget aimed at curbing national expenditures. Planned austerity measures within the upcoming financial plan feature frozen wage levels alongside the introduction of new taxes.",
       "article_ids": [
-        "976246e2eb2b1e4909118bf1"
+        "61384a9a2759cb81462493d2"
       ],
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/five-eu-states-plan-first-deportation-center-in-africa-for-2027/a-79490162?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Five EU states plan first deportation center in Africa for 2027",
-          "published_at": "2026-09-30T19:16:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261001-french-pm-to-present-belt-tightening-2027-budget-including-frozen-wages-and-new-taxes",
+          "headline": "French PM to present belt-tightening 2027 budget, including frozen wages and new taxes",
+          "published_at": "2026-10-01T09:20:27Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Swiss Glacial Ice Loss",
-      "summary": "Scientific reports indicate that Swiss glaciers have experienced a disastrous year characterized by record ice loss. This severe environmental decline poses a direct threat to future regional water supplies.",
+      "title": "Severe Swiss Glacial Ice Loss",
+      "summary": "Scientific reports indicate that Swiss glaciers have experienced a disastrous year characterized by unprecedented ice loss. This severe environmental degradation poses an escalating threat to regional water supplies and long-term ecological stability.",
       "article_ids": [
         "37eb95347d9e8eb56ac5dfb1"
       ],
@@ -142,7 +142,7 @@
       "label": "flights · FlyDubai · Israel · pilot",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 6,
+      "item_count": 7,
       "latest_at": "2026-10-01T05:58:55Z",
       "sources": [
         {
@@ -181,49 +181,105 @@
       ]
     },
     {
-      "label": "Christa · Execution · Pike · Tennessee",
+      "label": "Christa · Pike · Tennessee · Execution",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-10-01T05:32:16Z",
+      "item_count": 5,
+      "latest_at": "2026-10-01T08:59:32Z",
       "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-10-01/christa-pike-still-alive-after-receiving-two-lethal-injections-in-tennessee.html",
+          "headline": "Christa Pike still alive after receiving two lethal injections in Tennessee",
+          "published_at": "2026-10-01T08:59:32Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/americas/20261001-execution-of-convicted-us-killer-christa-pike-fails-despite-two-lethal-injections",
           "headline": "Execution of convicted US killer Christa Pike fails despite two lethal injections",
           "published_at": "2026-10-01T05:32:16Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-09-30/the-case-of-christa-pike-the-first-woman-due-to-be-executed-in-tennessee-in-over-200-years.html",
-          "headline": "Execution of Christa Pike halted at the last minute by a Tennessee appeals court",
-          "published_at": "2026-09-30T15:57:05Z"
         }
       ]
     },
     {
-      "label": "AI · chatbots",
+      "label": "Russia · Ukraine · attack · doubles",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-10-01T06:51:00Z",
+      "item_count": 4,
+      "latest_at": "2026-10-01T02:21:15Z",
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/239963/ai-chatbots-turn-users-most-intimate-data-into-a-potential-goldmine-for-advertisers-researchers-warn",
-          "headline": "AI chatbots turn users’ most intimate data into a potential goldmine for advertisers, researchers warn",
-          "published_at": "2026-10-01T06:51:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261001-russia-launches-major-attack-on-ukraine-energy-grid-causing-power-cuts",
+          "headline": "Russia launches major attack on Ukraine’s energy grid, causing power cuts",
+          "published_at": "2026-10-01T02:21:15Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/meet-america-trump-s-ai-chatbot-changes-answers-after-challenging-his-claims-1",
-          "headline": "Meet 'America': Trump’s AI chatbot changes answers after challenging his claims",
-          "published_at": "2026-09-30T20:08:13Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss",
+          "headline": "Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
+          "published_at": "2026-09-30T23:10:06Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "61384a9a2759cb81462493d2",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French PM to present belt-tightening 2027 budget, including frozen wages and new taxes",
+      "url": "https://www.france24.com/en/france/20261001-french-pm-to-present-belt-tightening-2027-budget-including-frozen-wages-and-new-taxes",
+      "published_at": "2026-10-01T09:20:27Z",
+      "collected_at": "2026-10-01T09:30:46Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "424c89144616eb8757604c9b",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Latvia detains couple suspected of spying for Russia",
+      "url": "https://www.politico.eu/article/latvia-detains-two-suspected-russia-spies-nato-base-surveillance",
+      "published_at": "2026-10-01T09:16:28Z",
+      "collected_at": "2026-10-01T09:30:46Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "9be7db0cca6b0cbc9dd12392",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Panic aboard flight FZ1073 to Tel Aviv: ‘We’ve just neutralized the terrorist. We need help’",
+      "url": "https://english.elpais.com/international/2026-10-01/panic-aboard-flight-fz1073-to-tel-aviv-weve-just-neutralized-the-terrorist-we-need-help.html",
+      "published_at": "2026-10-01T09:04:44Z",
+      "collected_at": "2026-10-01T09:30:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "4d61528ab8bbcbc02c9752ff",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Christa Pike still alive after receiving two lethal injections in Tennessee",
+      "url": "https://english.elpais.com/usa/2026-10-01/christa-pike-still-alive-after-receiving-two-lethal-injections-in-tennessee.html",
+      "published_at": "2026-10-01T08:59:32Z",
+      "collected_at": "2026-10-01T09:30:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "cd824a49f623b78d2553b170",
       "source_id": "euobserver",
@@ -323,6 +379,20 @@
       ]
     },
     {
+      "id": "79118169b1070e3efd40a58c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Portugal's Ronaldo walks away amid tensions with coach",
+      "url": "https://www.france24.com/en/tv-shows/sports/20261001-portugal-ronaldo-walks-away",
+      "published_at": "2026-10-01T06:14:53Z",
+      "collected_at": "2026-10-01T09:30:46Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "fadcb205ce1c19cbff33da97",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -330,6 +400,20 @@
       "url": "https://www.france24.com/en/middle-east/20261001-live-flydubai-suspends-flights-to-and-from-israel-after-pilot-attack",
       "published_at": "2026-10-01T05:58:55Z",
       "collected_at": "2026-10-01T06:00:56Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "cd06ed443b51fe731235e286",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: FlyDubai suspends flights to Israel, Indian pilot hailed as 'hero' for fending off attack",
+      "url": "https://www.france24.com/en/middle-east/20261001-live-flydubai-suspends-flights-to-and-from-israel-after-pilot-attack",
+      "published_at": "2026-10-01T05:58:55Z",
+      "collected_at": "2026-10-01T09:30:46Z",
       "topics": [
         "politics",
         "security",
@@ -2017,34 +2101,6 @@
       ]
     },
     {
-      "id": "6d5d709e1c3ab37251baba77",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Tensions mount as South Korea demands apology from North over mine blast",
-      "url": "https://www.france24.com/en/video/20260930-tensions-mount-as-south-korea-demands-apology-from-north-over-mine-blast",
-      "published_at": "2026-09-30T09:14:47Z",
-      "collected_at": "2026-09-30T09:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "38d95251c5e8a2c906644b05",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Attention turns to economy on final day of Macron’s visit to Spain",
-      "url": "https://www.france24.com/en/video/20260930-attention-turns-to-economy-on-final-day-of-macron-s-visit-to-spain",
-      "published_at": "2026-09-30T09:13:14Z",
-      "collected_at": "2026-09-30T09:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "00138133fb6bc4cd0a34dfef",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2129,20 +2185,6 @@
       ]
     },
     {
-      "id": "0d4a3dbeed7910e6b862d154",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Still the same far right? Le Pen's National Rally denies fresh anti-Semitism claims",
-      "url": "https://www.france24.com/en/tv-shows/the-debate/20260929-still-the-same-far-right-le-pen-s-national-rally-denies-fresh-antisemitism-claims",
-      "published_at": "2026-09-29T23:19:41Z",
-      "collected_at": "2026-09-30T09:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "2d0e85da7cbaedca2dd6f3e7",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2157,20 +2199,6 @@
       ]
     },
     {
-      "id": "a4fb4264d00645c98206f0cb",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "AI companies sign voluntary accord on safety with Trump",
-      "url": "https://www.france24.com/en/technology/20260929-trump-says-ai-companies-sign-voluntary-accord-on-safety-controls",
-      "published_at": "2026-09-29T22:48:07Z",
-      "collected_at": "2026-09-30T09:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "26efe4d84e37821c714a5667",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2178,20 +2206,6 @@
       "url": "https://www.france24.com/en/ugandan-coronation-under-social-media-scrutiny",
       "published_at": "2026-09-29T20:22:04Z",
       "collected_at": "2026-09-30T10:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "98e0039016153fc3c2e54cca",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Mystery over UK airbase scare as police find petrol but no explosives",
-      "url": "https://www.france24.com/en/europe/20260929-mystery-over-uk-airbase-scare-as-police-find-quantity-of-petrol-but-no-explosives",
-      "published_at": "2026-09-29T19:05:41Z",
-      "collected_at": "2026-09-30T09:30:42Z",
       "topics": [
         "politics",
         "security",
@@ -2238,6 +2252,20 @@
         "central_europe",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "8084b93c3db722bd9f1685ad",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "UK: US government questions bail for Fairford base suspects",
+      "url": "https://www.dw.com/en/uk-us-government-questions-bail-for-fairford-base-suspects/a-79468803?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-29T08:17:00Z",
+      "collected_at": "2026-10-01T09:30:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
