@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-01T06:30:44Z",
-  "last_successful_collection_at": "2026-10-01T06:30:44Z",
+  "generated_at": "2026-10-01T07:00:55Z",
+  "last_successful_collection_at": "2026-10-01T07:00:55Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-01T06:30:44Z"
+      "at": "2026-10-01T07:00:55Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-01T06:30:44Z"
+      "at": "2026-10-01T07:00:55Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-01T06:30:44Z"
+      "at": "2026-10-01T07:00:55Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-01T06:30:44Z"
+      "at": "2026-10-01T07:00:55Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-01T06:30:44Z"
+      "at": "2026-10-01T07:00:55Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-01T06:30:44Z"
+      "at": "2026-10-01T07:00:55Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-01T06:30:44Z"
+      "at": "2026-10-01T07:00:55Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-01T06:30:44Z"
+      "at": "2026-10-01T07:00:55Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-01T06:30:44Z"
+      "at": "2026-10-01T07:00:55Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Escalating French School Protests",
-      "summary": "Student blockades across France have led to intense clashes with law enforcement, resulting in hundreds of arrests and multiple injuries.",
+      "title": "Escalation of French School Protests",
+      "summary": "Student protests across France have intensified, leading to widespread clashes with police, numerous arrests, and several injuries among officers. The demonstrations have involved school blockades and significant civil unrest.",
       "article_ids": [
         "6077937c4ccf3e7d83a3d0ea",
+        "7cb8253b9814533d43b06a5d",
         "4e4f453e7605098a20de2fa6"
       ],
       "sources": [
@@ -87,8 +88,51 @@
       "source_count": 2
     },
     {
-      "title": "UK Alleges Iranian Involvement in Airbase Incident",
-      "summary": "The British government stated there are strong indications of Iranian state involvement regarding a recent security incident at RAF Fairford.",
+      "title": "Russian Strikes on Ukrainian Energy Grid",
+      "summary": "Russia launched a major military attack targeting Ukraine's energy infrastructure, resulting in widespread power outages. This assault adds further strain to Ukraine's resources amid ongoing conflict.",
+      "article_ids": [
+        "398cc15d2e0ee57e843649f1",
+        "7f6810a894187017212e4931",
+        "4afe2cbc4ed1b34aa1595f3d"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261001-russia-launches-major-attack-on-ukraine-energy-grid-causing-power-cuts",
+          "headline": "Russia launches major attack on Ukraine’s energy grid, causing power cuts",
+          "published_at": "2026-10-01T02:21:15Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss",
+          "headline": "Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
+          "published_at": "2026-09-30T23:10:06Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "European Migration and Deportation Policy",
+      "summary": "Five European Union member states have announced plans to establish the bloc's first deportation center in Africa by 2027. Meanwhile, related regional border and return policy initiatives continue to advance.",
+      "article_ids": [
+        "976246e2eb2b1e4909118bf1",
+        "3ca00976f0ffa3427569481a"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/five-eu-states-plan-first-deportation-center-in-africa-for-2027/a-79490162?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Five EU states plan first deportation center in Africa for 2027",
+          "published_at": "2026-09-30T19:16:00Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "UK-Iran Security Incident",
+      "summary": "The British Prime Minister stated there are strong indications pointing to Iranian involvement in an incident at the Fairford airbase. UK authorities continue to investigate the security breach.",
       "article_ids": [
         "a1760d207833e9f7f536d3eb",
         "b6529571e1f542830c75ebda"
@@ -105,47 +149,6 @@
           "url": "https://www.politico.eu/article/uk-iran-raf-fairford-incident",
           "headline": "UK says Iran involved in RAF Fairford incident",
           "published_at": "2026-09-30T17:38:18Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Swiss Glaciers Face Severe Ice Loss",
-      "summary": "Swiss glaciers have experienced a disastrous year characterized by unprecedented ice loss. This rapid environmental degradation poses an escalating threat to regional water supplies.",
-      "article_ids": [
-        "37eb95347d9e8eb56ac5dfb1"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c6n9w0ypjwl9o?at_medium=RSS&at_campaign=rss",
-          "headline": "Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies",
-          "published_at": "2026-10-01T00:08:23Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "European Migration and Border Initiatives",
-      "summary": "Several European Union member states are moving forward with plans to establish the bloc's first deportation center in Africa by 2027. Meanwhile, new EU return regulations are granting expanded enforcement powers to domestic law enforcement agencies.",
-      "article_ids": [
-        "976246e2eb2b1e4909118bf1",
-        "3ca00976f0ffa3427569481a"
-      ],
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/five-eu-states-plan-first-deportation-center-in-africa-for-2027/a-79490162?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Five EU states plan first deportation center in Africa for 2027",
-          "published_at": "2026-09-30T19:16:00Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/240570/the-eus-return-regulation-makes-your-home-fair-game-for-police-and-belgium-is-racing-to-use-it",
-          "headline": "The EU’s ‘return regulation’ makes your home fair game for police — and Belgium is racing to use it",
-          "published_at": "2026-09-30T18:00:00Z"
         }
       ],
       "source_count": 2
@@ -177,7 +180,7 @@
       "label": "EU · UK · Macron · Burnham",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 7,
+      "item_count": 6,
       "latest_at": "2026-09-30T21:08:39Z",
       "sources": [
         {
@@ -216,28 +219,42 @@
       ]
     },
     {
-      "label": "Russia · Ukraine · attack · energy",
+      "label": "AI · chatbots",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-01T02:21:15Z",
+      "item_count": 2,
+      "latest_at": "2026-10-01T06:51:00Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261001-russia-launches-major-attack-on-ukraine-energy-grid-causing-power-cuts",
-          "headline": "Russia launches major attack on Ukraine’s energy grid, causing power cuts",
-          "published_at": "2026-10-01T02:21:15Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/239963/ai-chatbots-turn-users-most-intimate-data-into-a-potential-goldmine-for-advertisers-researchers-warn",
+          "headline": "AI chatbots turn users’ most intimate data into a potential goldmine for advertisers, researchers warn",
+          "published_at": "2026-10-01T06:51:00Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss",
-          "headline": "Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
-          "published_at": "2026-09-30T23:10:06Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/meet-america-trump-s-ai-chatbot-changes-answers-after-challenging-his-claims-1",
+          "headline": "Meet 'America': Trump’s AI chatbot changes answers after challenging his claims",
+          "published_at": "2026-09-30T20:08:13Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "9c399664e02e1f95bda7f642",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "AI chatbots turn users’ most intimate data into a potential goldmine for advertisers, researchers warn",
+      "url": "https://euobserver.com/239963/ai-chatbots-turn-users-most-intimate-data-into-a-potential-goldmine-for-advertisers-researchers-warn",
+      "published_at": "2026-10-01T06:51:00Z",
+      "collected_at": "2026-10-01T07:00:55Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "c655648493b9c0a8214be49b",
       "source_id": "france24",
@@ -428,6 +445,20 @@
       "url": "https://www.france24.com/en/live-news/20261001-hundreds-held-dozens-wounded-as-french-school-protests-escalate",
       "published_at": "2026-10-01T00:14:36Z",
       "collected_at": "2026-10-01T06:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "7cb8253b9814533d43b06a5d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Hundreds of students detained, dozens of officers injured in French school protests",
+      "url": "https://www.france24.com/en/france/20261001-hundreds-of-students-detained-dozens-of-officers-injured-in-french-school-protests",
+      "published_at": "2026-10-01T00:14:36Z",
+      "collected_at": "2026-10-01T07:00:55Z",
       "topics": [
         "politics",
         "security",
@@ -2157,48 +2188,6 @@
       ]
     },
     {
-      "id": "65104a697a8f2b7d26cec559",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "2027 AFCON qualifiers: first win for Patrick Vieira and Senegal",
-      "url": "https://www.france24.com/en/tv-shows/sports/20260930-2027-afcon-qualifiers-first-win-for-patrick-vieira-and-senegal",
-      "published_at": "2026-09-30T06:15:59Z",
-      "collected_at": "2026-09-30T06:30:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "390f310371531b9d21fdd612",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Move to rejoin EU among options for UK, says Burnham",
-      "url": "https://www.bbc.co.uk/news/articles/cmlyewr0lnj3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-30T06:04:30Z",
-      "collected_at": "2026-09-30T06:30:45Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "edf6d7a1b0875995aebcaff7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "G20 trade officials meet under shadow of tariffs, overcapacity",
-      "url": "https://www.france24.com/en/live-news/20260930-g20-trade-officials-meet-under-shadow-of-tariffs-overcapacity",
-      "published_at": "2026-09-30T05:29:56Z",
-      "collected_at": "2026-09-30T06:30:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "4465eacfdeccb5fffd0a44d4",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2238,20 +2227,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "7f9f63736280335943e04e19",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Ukraine's prized steel industry left in ruins by Russian missile campaign",
-      "url": "https://www.bbc.co.uk/news/articles/cjkg7k6z9296o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-29T23:33:34Z",
-      "collected_at": "2026-09-30T06:30:45Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
@@ -2360,6 +2335,34 @@
       "url": "https://www.bbc.co.uk/news/articles/cw5ym18znr0ro?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-09-29T15:40:10Z",
       "collected_at": "2026-09-30T07:00:55Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "7377e357097f86bd0b589e64",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Czech Republic ready for Wembley 30 years after Euro '96",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yeqj0g4ygo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-29T05:10:25Z",
+      "collected_at": "2026-10-01T07:00:55Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "8aa9c6322688427e3f8bb60c",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Migrants using longer, more dangerous routes across Channel",
+      "url": "https://www.bbc.co.uk/news/articles/c6y8zzdjmrgvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-29T00:42:15Z",
+      "collected_at": "2026-10-01T07:00:55Z",
       "topics": [
         "breaking",
         "politics",
