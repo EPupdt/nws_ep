@@ -1,6 +1,5 @@
 {
   "seen": {
-    "c5032f7209409852fa13ca87": "2026-09-29T07:30:47Z",
     "49324fb98268a9e0bdb5efeb": "2026-09-29T08:30:47Z",
     "b78678e7ee78a36b5e44d4b3": "2026-09-29T08:30:47Z",
     "13a8a39e7ced6af76c09b022": "2026-09-29T08:30:47Z",
@@ -380,7 +379,9 @@
     "7cb8253b9814533d43b06a5d": "2026-10-01T07:00:55Z",
     "9c399664e02e1f95bda7f642": "2026-10-01T07:00:55Z",
     "84c205c3f633767e790983d8": "2026-10-01T07:30:43Z",
-    "889f14450140ef551b9d32a8": "2026-10-01T07:30:43Z"
+    "889f14450140ef551b9d32a8": "2026-10-01T07:30:43Z",
+    "c917df92cb87cfd02ba2af97": "2026-10-01T08:00:50Z",
+    "c5032f7209409852fa13ca87": "2026-10-01T08:00:50Z"
   },
   "radar": [
     {
@@ -699,6 +700,20 @@
       "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-09-30T23:10:06Z",
       "collected_at": "2026-10-01T06:30:44Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "c917df92cb87cfd02ba2af97",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Rosenberg: Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-30T23:10:06Z",
+      "collected_at": "2026-10-01T08:00:50Z",
       "topics": [
         "breaking",
         "politics",
@@ -2316,20 +2331,6 @@
       ]
     },
     {
-      "id": "f3f4d21700a34ac0f8319d55",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "What the gaps in Andy Burnham’s speech reveal",
-      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/what-the-gaps-in-andy-burnhams-speech-reveal",
-      "published_at": "2026-09-30T07:24:07Z",
-      "collected_at": "2026-09-30T07:30:51Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "dde3e8141da6f8555cebecec",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2888,17 +2889,23 @@
         "society",
         "economy"
       ]
+    },
+    {
+      "id": "c5032f7209409852fa13ca87",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Zohran Mamdani: ‘Democracy doesn’t work if people can’t afford their basic needs’",
+      "url": "https://english.elpais.com/eps/2026-09-13/zohran-mamdani-democracy-doesnt-work-if-people-cant-afford-their-basic-needs.html",
+      "published_at": "2026-09-13T04:00:00Z",
+      "collected_at": "2026-10-01T08:00:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
     }
   ],
   "recent_topics": [
-    {
-      "at": "2026-09-30T06:00:49Z",
-      "title": "European Union Budget Debates"
-    },
-    {
-      "at": "2026-09-30T06:00:49Z",
-      "title": "Political Controversies and Investigations in Hungary and France"
-    },
     {
       "at": "2026-09-30T06:30:45Z",
       "title": "European Union Budgetary Debates"
@@ -3210,14 +3217,22 @@
     {
       "at": "2026-10-01T07:30:43Z",
       "title": "Security Developments and UK-Iran Relations"
+    },
+    {
+      "at": "2026-10-01T08:00:50Z",
+      "title": "European Migration and Deportation Policy"
+    },
+    {
+      "at": "2026-10-01T08:00:50Z",
+      "title": "Swiss Glacial Ice Loss"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Escalating Student Demonstrations in France",
-        "summary": "Protests across French schools have intensified, resulting in numerous arrests and injuries among law enforcement officers. Authorities continue to monitor the unrest as student blockades cause widespread disruption.",
+        "title": "Escalation of French School Protests",
+        "summary": "Student protests across France have escalated significantly, resulting in widespread blockades and violent clashes with law enforcement. Authorities report that hundreds of individuals have been detained and dozens of officers injured during the demonstrations.",
         "article_ids": [
           "6077937c4ccf3e7d83a3d0ea",
           "7cb8253b9814533d43b06a5d"
@@ -3239,8 +3254,49 @@
         "source_count": 1
       },
       {
-        "title": "Swiss Glaciers Experience Record Ice Loss",
-        "summary": "Scientific assessments reveal a disastrous year of ice melt for Swiss glaciers. This severe depletion poses a significant threat to long-term regional water supplies.",
+        "title": "Russian Attack on Ukrainian Energy Infrastructure",
+        "summary": "Russia has launched a major military offensive targeting Ukraine's energy grid, resulting in widespread power outages across the country. This systemic assault deepens the energy crisis as Ukraine's resources face severe depletion.",
+        "article_ids": [
+          "398cc15d2e0ee57e843649f1",
+          "4afe2cbc4ed1b34aa1595f3d"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20261001-russia-launches-major-attack-on-ukraine-energy-grid-causing-power-cuts",
+            "headline": "Russia launches major attack on Ukraine’s energy grid, causing power cuts",
+            "published_at": "2026-10-01T02:21:15Z"
+          },
+          {
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/ukraines-war-chest-is-running-low-at-the-worst-possible-moment",
+            "headline": "Ukraine’s war chest is running low at the worst possible moment",
+            "published_at": "2026-09-30T20:00:00Z"
+          }
+        ],
+        "source_count": 2
+      }
+    ],
+    "top_stories": [
+      {
+        "title": "European Migration and Deportation Policy",
+        "summary": "Five European Union member states are moving forward with plans to establish the bloc's first deportation center in Africa by 2027. This initiative marks a significant shift in external border management and migration policy.",
+        "article_ids": [
+          "976246e2eb2b1e4909118bf1"
+        ],
+        "sources": [
+          {
+            "publisher": "Deutsche Welle",
+            "url": "https://www.dw.com/en/five-eu-states-plan-first-deportation-center-in-africa-for-2027/a-79490162?maca=en-rss-en-eu-2092-rdf",
+            "headline": "Five EU states plan first deportation center in Africa for 2027",
+            "published_at": "2026-09-30T19:16:00Z"
+          }
+        ],
+        "source_count": 1
+      },
+      {
+        "title": "Swiss Glacial Ice Loss",
+        "summary": "Swiss glaciers have experienced a disastrous year characterized by severe ice loss. Experts warn that this rapid melting poses a direct threat to regional water supplies.",
         "article_ids": [
           "37eb95347d9e8eb56ac5dfb1"
         ],
@@ -3254,42 +3310,7 @@
         ],
         "source_count": 1
       }
-    ],
-    "top_stories": [
-      {
-        "title": "European Migration and Deportation Initiatives",
-        "summary": "Several European Union member states are advancing plans to establish the bloc's first deportation center in Africa. Meanwhile, national policy adjustments and regulations surrounding migrant returns are drawing increased scrutiny.",
-        "article_ids": [
-          "976246e2eb2b1e4909118bf1",
-          "3ca00976f0ffa3427569481a"
-        ],
-        "sources": [
-          {
-            "publisher": "Deutsche Welle",
-            "url": "https://www.dw.com/en/five-eu-states-plan-first-deportation-center-in-africa-for-2027/a-79490162?maca=en-rss-en-eu-2092-rdf",
-            "headline": "Five EU states plan first deportation center in Africa for 2027",
-            "published_at": "2026-09-30T19:16:00Z"
-          }
-        ],
-        "source_count": 1
-      },
-      {
-        "title": "Security Developments and UK-Iran Relations",
-        "summary": "The British Prime Minister has pointed to strong indications of Iranian involvement in a recent security incident at an airbase. Investigations and diplomatic responses remain active following the event.",
-        "article_ids": [
-          "a1760d207833e9f7f536d3eb"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20260930-british-pm-alleges-there-are-strong-indications-iran-was-involved-in-fairford-airbase-incident",
-            "headline": "British PM alleges there are 'strong indications' Iran was involved in Fairford airbase incident",
-            "published_at": "2026-09-30T19:01:30Z"
-          }
-        ],
-        "source_count": 1
-      }
     ]
   },
-  "last_collection_at": "2026-10-01T07:30:43Z"
+  "last_collection_at": "2026-10-01T08:00:50Z"
 }
