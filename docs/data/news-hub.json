@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-01T18:30:46Z",
-  "last_successful_collection_at": "2026-10-01T18:30:46Z",
+  "generated_at": "2026-10-01T19:00:56Z",
+  "last_successful_collection_at": "2026-10-01T19:00:56Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-01T18:30:46Z"
+      "at": "2026-10-01T19:00:56Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-10-01T18:30:46Z"
+      "at": "2026-10-01T19:00:56Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-01T18:30:46Z"
+      "at": "2026-10-01T19:00:56Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-01T18:30:46Z"
+      "at": "2026-10-01T19:00:56Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-01T18:30:46Z"
+      "at": "2026-10-01T19:00:56Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-10-01T18:30:46Z"
+      "at": "2026-10-01T19:00:56Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-01T18:30:46Z"
+      "at": "2026-10-01T19:00:56Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-01T18:30:46Z"
+      "at": "2026-10-01T19:00:56Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-01T18:30:46Z"
+      "at": "2026-10-01T19:00:56Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Strike on Kyiv Bridge",
-      "summary": "Russian forces launched a direct daylight attack targeting a busy bridge situated in central Kyiv. The strike adds to the ongoing escalation of military aggression against critical Ukrainian urban infrastructure.",
+      "title": "Russian Threats Over Kaliningrad",
+      "summary": "Vladimir Putin warned western nations that Russia is prepared to utilize all available weapons to protect Kaliningrad amid rising regional tensions.",
+      "article_ids": [
+        "43993f4c8a9cc9b53c71da73"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqg7k7v499jjo?at_medium=RSS&at_campaign=rss",
+          "headline": "Putin warns West that Russia is ready to use every weapon to protect Kaliningrad",
+          "published_at": "2026-10-01T18:09:03Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Russian Strikes on Kyiv",
+      "summary": "Russian forces launched a daylight attack targeting a busy bridge located in central Kyiv, causing heightened security concerns.",
       "article_ids": [
         "b147dab8b21d3c140503eef5",
         "da352b4fd023c7715657ae1b"
@@ -85,15 +101,17 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Escalating Student Protests in France",
-      "summary": "High school students across France blockaded campuses and clashed with riot police amid mounting anger over deteriorating school conditions. The demonstrations coincide with intense political friction surrounding upcoming national budget constraints.",
+      "title": "French Budget Pressures and Student Protests",
+      "summary": "France faces significant financial scrutiny and investor pressure regarding its upcoming debt and austerity measures for the 2027 budget. Meanwhile, student demonstrations against school conditions have escalated into clashes with riot police across the country.",
       "article_ids": [
+        "b4cb6f8649d85014c36ca0cd",
         "e44cd8fbccf97efdf7d8a3d7",
         "35b49c68efa809ec68b2dfed",
-        "6744928f98c2de30b3e65e55",
-        "51fde1d27e4ecc637599dfc1"
+        "9dd56483fdb442b313e5b6e1"
       ],
       "sources": [
         {
@@ -110,19 +128,15 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "European Response to US Diesel Demands",
-      "summary": "France and several other European nations have agreed on an assertive stance following pressure from Washington regarding fuel reserves. U.S. energy officials had previously requested that European partners release a substantial portion of their stored diesel supplies.",
+      "title": "European Response to U.S. Diesel Pressure",
+      "summary": "France and several other European nations have reached an agreement on an assertive and firm response to American pressure regarding diesel reserves. The coordinated stance addresses demands driven by United States officials concerning regional energy supplies.",
       "article_ids": [
         "3e707f0cec6cb0119182f4ed",
         "6e16a994d1241e442d629639",
         "c534e0bf34bd70537b3b6314",
-        "f24b2c2a0be72c48d653f043",
-        "8d97552aecb67b925baf4222",
-        "e4a33c42dd6dd8c5db729291"
+        "f24b2c2a0be72c48d653f043"
       ],
       "sources": [
         {
@@ -139,14 +153,15 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "developing": [
     {
-      "title": "EU Financial Support and Enlargement for Ukraine",
-      "summary": "The European Union and Ukraine finalized an agreement to accelerate a €45 billion loan payout planned for 2027. Meanwhile, senior European officials have openly criticized the slow pace of broader EU enlargement initiatives.",
-      "article_ids": [
-        "c161debdf6cb51276552149d",
-        "da074cfc1acb9658c8c7e1d0"
-      ],
+      "label": "EU · 2027 · Ukraine",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-10-01T16:46:39Z",
       "sources": [
         {
           "publisher": "POLITICO Europe",
@@ -155,16 +170,19 @@
           "published_at": "2026-10-01T16:46:39Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/germanys-wadephul-criticizes-slow-enlargement-progress",
-          "headline": "‘We have not delivered’: Germany’s Wadephul criticizes slow EU enlargement progress",
-          "published_at": "2026-10-01T16:01:26Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/239313/eu-accession-of-moldova-and-ukraine-is-alternative-to-nato-as-russia-draws-new-iron-curtain-in-europe",
+          "headline": "EU accession of Moldova and Ukraine is alternative to Nato, as Russia draws new Iron Curtain in Europe",
+          "published_at": "2026-10-01T10:03:00Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/five-eu-states-plan-first-deportation-center-in-africa-for-2027/a-79490162?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Five EU states plan first deportation center in Africa for 2027",
+          "published_at": "2026-09-30T19:16:00Z"
         }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
+      ]
+    },
     {
       "label": "flight · FlyDubai · Israel · pilot",
       "origin": "convergence",
@@ -227,30 +245,37 @@
           "published_at": "2026-10-01T08:59:32Z"
         }
       ]
-    },
-    {
-      "label": "Burnham · reopens · debate · EU",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-10-01T15:52:26Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/thank-you-andy-farage-gloats-andy-burnham-reopens-brexit-fight",
-          "headline": "‘Thank you, Andy’: Farage gloats as Burnham reopens Brexit fight",
-          "published_at": "2026-10-01T15:52:26Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261001-burnham-reopens-brexit-debate-eu-says-uk-must-chart-its-own-path-on-future-relations",
-          "headline": "Burnham reopens Brexit debate: EU says UK must chart Its own path on future relations",
-          "published_at": "2026-10-01T09:46:53Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "9741d5a760bed6fe3fbd0e22",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "As Germany’s far right rises, weakened Merz looks to project strength and resolve against Putin",
+      "url": "https://www.politico.eu/article/germany-far-right-friedrich-merz-project-strength-resolve-against-vladimir-putin",
+      "published_at": "2026-10-01T18:48:14Z",
+      "collected_at": "2026-10-01T19:00:56Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "9a45986bd67f224edf2122d4",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "EU ministers explore new emergency migration measures",
+      "url": "https://www.politico.eu/article/eu-ministers-new-emergency-migration-measures-ceuta-spain-morocco",
+      "published_at": "2026-10-01T18:31:15Z",
+      "collected_at": "2026-10-01T19:00:56Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "43993f4c8a9cc9b53c71da73",
       "source_id": "bbc_europe",
@@ -287,6 +312,20 @@
       "url": "https://www.politico.eu/article/british-iranian-man-arrest-raf-fairford-investigation",
       "published_at": "2026-10-01T17:59:47Z",
       "collected_at": "2026-10-01T18:30:46Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "b4cb6f8649d85014c36ca0cd",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Un budget “réversible” ? Ce que le prochain gouvernement pourra vraiment défaire",
+      "url": "https://www.politico.eu/article/un-budget-reversible-ce-que-le-prochain-gouvernement-pourra-vraiment-defaire",
+      "published_at": "2026-10-01T17:43:23Z",
+      "collected_at": "2026-10-01T19:00:56Z",
       "topics": [
         "institutions",
         "politics",
@@ -2016,34 +2055,6 @@
       ]
     },
     {
-      "id": "49b7edeaee7a77463cabc64b",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Attempted hijacking of Tel Aviv-bound plane revives specter of threat dating back to the 1970s",
-      "url": "https://english.elpais.com/international/2026-09-30/attempted-hijacking-of-tel-aviv-bound-plane-revives-specter-of-threat-dating-back-to-the-1970s.html",
-      "published_at": "2026-09-30T18:32:28Z",
-      "collected_at": "2026-09-30T19:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "3ca00976f0ffa3427569481a",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "The EU’s ‘return regulation’ makes your home fair game for police — and Belgium is racing to use it",
-      "url": "https://euobserver.com/240570/the-eus-return-regulation-makes-your-home-fair-game-for-police-and-belgium-is-racing-to-use-it",
-      "published_at": "2026-09-30T18:00:00Z",
-      "collected_at": "2026-09-30T18:30:46Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "5f7f03c3f539073e9bfab02e",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2097,6 +2108,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "a5251121c94e4e11ed11b9a7",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Frugal EU states seeking budget cuts are shooting their own regions in the foot",
+      "url": "https://euobserver.com/240275/eu-states-seeking-budget-cuts-are-shooting-their-own-regions-in-the-foot",
+      "published_at": "2026-09-29T18:00:00Z",
+      "collected_at": "2026-10-01T19:00:56Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -2475,34 +2500,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "b31c5b576f7173525f07919d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The founders of On, the phenomenon attracting Kylian Mbappé and Zendaya: ‘Cost is not a limiting factor; our followers are willing to pay’",
-      "url": "https://english.elpais.com/lifestyle/2026-09-28/the-founders-of-on-the-phenomenon-attracting-kylian-mbappe-and-zendaya-cost-is-not-a-limiting-factor-our-followers-are-willing-to-pay.html",
-      "published_at": "2026-09-28T18:14:20Z",
-      "collected_at": "2026-09-30T19:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "8cf7774ebd584f09674be3ee",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "From Yemen to Ethiopia and Europe: Everything is connected",
-      "url": "https://euobserver.com/240101/from-yemen-to-ethiopia-and-europe-everything-is-connected",
-      "published_at": "2026-09-28T18:00:00Z",
-      "collected_at": "2026-09-30T19:00:52Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
       ]
     },
     {
