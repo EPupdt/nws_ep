@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-01T10:30:43Z",
-  "last_successful_collection_at": "2026-10-01T10:30:43Z",
+  "generated_at": "2026-10-01T11:00:59Z",
+  "last_successful_collection_at": "2026-10-01T11:00:59Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-01T10:30:43Z"
+      "at": "2026-10-01T11:00:59Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-01T10:30:43Z"
+      "at": "2026-10-01T11:00:59Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-01T10:30:43Z"
+      "at": "2026-10-01T11:00:59Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-01T10:30:43Z"
+      "at": "2026-10-01T11:00:59Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-01T10:30:43Z"
+      "at": "2026-10-01T11:00:59Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
-      "count": "58",
-      "at": "2026-10-01T10:30:43Z"
+      "count": "57",
+      "at": "2026-10-01T11:00:59Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-01T10:30:43Z"
+      "at": "2026-10-01T11:00:59Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-01T10:30:43Z"
+      "at": "2026-10-01T11:00:59Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-01T10:30:43Z"
+      "at": "2026-10-01T11:00:59Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Strikes on Ukrainian Energy",
-      "summary": "Russia launched a major military attack targeting Ukraine's energy infrastructure, resulting in widespread power outages.",
+      "title": "Russian Attacks on Ukrainian Infrastructure",
+      "summary": "Russia launched a major strike targeting Ukraine's energy grid, resulting in widespread power outages. The ongoing military aggression highlights the severe security situation in the region.",
       "article_ids": [
-        "398cc15d2e0ee57e843649f1"
+        "398cc15d2e0ee57e843649f1",
+        "7f6810a894187017212e4931"
       ],
       "sources": [
         {
@@ -75,6 +76,28 @@
           "url": "https://www.france24.com/en/europe/20261001-russia-launches-major-attack-on-ukraine-energy-grid-causing-power-cuts",
           "headline": "Russia launches major attack on Ukraine’s energy grid, causing power cuts",
           "published_at": "2026-10-01T02:21:15Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss",
+          "headline": "Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
+          "published_at": "2026-09-30T23:10:06Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Swiss Glacial Ice Loss",
+      "summary": "Swiss glaciers experienced disastrous ice loss over the past year, threatening regional water supplies and environmental stability. Scientific assessments point to extreme weather impacts on the Alpine landscape.",
+      "article_ids": [
+        "37eb95347d9e8eb56ac5dfb1"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6n9w0ypjwl9o?at_medium=RSS&at_campaign=rss",
+          "headline": "Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies",
+          "published_at": "2026-10-01T00:08:23Z"
         }
       ],
       "source_count": 1
@@ -82,8 +105,47 @@
   ],
   "top_stories": [
     {
-      "title": "French Protests and Budget",
-      "summary": "Escalating school demonstrations in France resulted in numerous student detentions and officer injuries amid civil unrest. Meanwhile, the French government prepared a strict new budget featuring frozen wages and additional taxes.",
+      "title": "Russian Strikes Target Ukrainian Power Grid",
+      "summary": "Russia carried out a major military assault targeting energy infrastructure in Ukraine, which resulted in widespread power cuts. Security assessments indicate that Moscow continues to escalate its campaign against the country.",
+      "article_ids": [
+        "398cc15d2e0ee57e843649f1",
+        "7f6810a894187017212e4931"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261001-russia-launches-major-attack-on-ukraine-energy-grid-causing-power-cuts",
+          "headline": "Russia launches major attack on Ukraine’s energy grid, causing power cuts",
+          "published_at": "2026-10-01T02:21:15Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss",
+          "headline": "Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
+          "published_at": "2026-09-30T23:10:06Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Swiss Glaciers Suffer Record Ice Loss",
+      "summary": "Scientific reports indicate that Swiss glaciers endured a disastrous year of melting and severe ice loss. Environmental experts warn that this accelerating decline poses a direct threat to future water supplies.",
+      "article_ids": [
+        "37eb95347d9e8eb56ac5dfb1"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6n9w0ypjwl9o?at_medium=RSS&at_campaign=rss",
+          "headline": "Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies",
+          "published_at": "2026-10-01T00:08:23Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "French School Protests and Budget Tightening",
+      "summary": "Escalating demonstrations involving student blockades at French schools led to numerous detentions and injuries among law enforcement officers. Meanwhile, the French government prepared a belt-tightening 2027 budget featuring frozen wages and new taxes.",
       "article_ids": [
         "61384a9a2759cb81462493d2",
         "7cb8253b9814533d43b06a5d"
@@ -105,17 +167,17 @@
       "source_count": 1
     },
     {
-      "title": "Swiss Glacial Ice Loss",
-      "summary": "Glaciers in Switzerland have experienced a disastrous year characterized by severe and record-breaking ice loss. Experts warn that this rapid melting trend poses a significant long-term threat to regional water supplies.",
+      "title": "Latvia Detains Suspected Russian Spies",
+      "summary": "Security authorities in Latvia detained a couple suspected of conducting espionage and surveillance activities targeting a NATO base. The operation underscores ongoing vigilance regarding foreign intelligence threats within the Baltic region.",
       "article_ids": [
-        "37eb95347d9e8eb56ac5dfb1"
+        "424c89144616eb8757604c9b"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c6n9w0ypjwl9o?at_medium=RSS&at_campaign=rss",
-          "headline": "Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies",
-          "published_at": "2026-10-01T00:08:23Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/latvia-detains-two-suspected-russia-spies-nato-base-surveillance",
+          "headline": "Latvia detains couple suspected of spying for Russia",
+          "published_at": "2026-10-01T09:16:28Z"
         }
       ],
       "source_count": 1
@@ -220,6 +282,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "926fcf19ee1b4dfca03d4eb8",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trump rides to the rescue for Republicans in the midterms but Paxton doubts his effectiveness",
+      "url": "https://english.elpais.com/usa/2026-10-01/trump-rides-to-the-rescue-for-republicans-in-the-midterms-but-paxton-doubts-his-effectiveness.html",
+      "published_at": "2026-10-01T10:43:24Z",
+      "collected_at": "2026-10-01T11:00:59Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "dfbe4cc8e11ebd13ae3c8c04",
       "source_id": "euobserver",
@@ -2027,20 +2103,6 @@
       ]
     },
     {
-      "id": "53498769571243f6c0409282",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'People have been buying into the detoxification of the National Rally.' says Andrew Smith",
-      "url": "https://www.france24.com/en/tv-shows/perspective/20260930-people-have-been-buying-into-the-detoxification-of-the-national-rally-says-andrew-smith",
-      "published_at": "2026-09-30T10:58:31Z",
-      "collected_at": "2026-09-30T11:00:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "223b94d69077b9526ad2993d",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2069,62 +2131,6 @@
       ]
     },
     {
-      "id": "a2861b52312f8b49903ffca7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Medicine prices soar in Iran as US blockade and sanctions hit hard",
-      "url": "https://www.france24.com/en/video/20260930-medicine-prices-soar-in-iran-as-us-blockade-and-sanctions-hit-hard",
-      "published_at": "2026-09-30T10:39:05Z",
-      "collected_at": "2026-09-30T11:00:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "2ae7c99fed7a7ebee57dd95c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Argentina shuns meat as purchasing plummets under Milei",
-      "url": "https://www.france24.com/en/video/20260930-argentina-shuns-meat-as-purchasing-plummets-under-milei",
-      "published_at": "2026-09-30T10:37:59Z",
-      "collected_at": "2026-09-30T11:00:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "21a75ce4cd88915b6cc656bf",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'A face lift once a month': Growing pressure to conform amid the rise of Korea's 'K-Beauty'",
-      "url": "https://www.france24.com/en/video/20260930-a-face-lift-once-a-month-growing-pressure-to-conform-amid-the-rise-of-korea-s-k-beauty",
-      "published_at": "2026-09-30T10:35:34Z",
-      "collected_at": "2026-09-30T11:00:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "166d895c0b533d853ae23ea8",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Man City scandal: 'Sham' deals and inflated revenues",
-      "url": "https://www.france24.com/en/video/20260930-man-city-scandal-sham-deals-and-inflated-revenues",
-      "published_at": "2026-09-30T10:34:09Z",
-      "collected_at": "2026-09-30T11:00:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "186a2bfb94bb6e98344e12c1",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2136,104 +2142,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "15c82fc1096286cad2790cd2",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Democrats regain ground with Latino voters ahead of the midterms",
-      "url": "https://english.elpais.com/usa/2026-09-30/democrats-regain-ground-with-latino-voters-ahead-of-the-midterms.html",
-      "published_at": "2026-09-30T10:21:26Z",
-      "collected_at": "2026-09-30T10:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "a8a7a86ab6ffc3ece653773d",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Was Netanyahu warned of October 7 Hamas attacks?",
-      "url": "https://www.france24.com/en/video/20260930-was-netanyahu-warned-of-october-7-hamas-attacks",
-      "published_at": "2026-09-30T10:12:34Z",
-      "collected_at": "2026-09-30T10:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "27ea6bcfe9f9a62bdbc88655",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "[Interview] 70% of Montenegro supports EU membership – so will it happen in 2028? We ask lead MEP Marjan Šarec",
-      "url": "https://euobserver.com/239373/interview-70-of-montenegro-supports-eu-membership-so-will-it-happen-in-2028-we-ask-lead-mep-marjan-sarec",
-      "published_at": "2026-09-30T10:11:48Z",
-      "collected_at": "2026-09-30T10:30:44Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "ca61df7a438ec1c97a4b08d5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Fatima Ezzahra El Mansouri named Morocco's first woman PM",
-      "url": "https://www.france24.com/en/video/20260930-fatima-ezzahra-el-mansouri-named-morocco-s-first-woman-pm",
-      "published_at": "2026-09-30T09:56:25Z",
-      "collected_at": "2026-09-30T10:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "28d06038c6d145f30608c9d9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ethiopia's last Jews dream of visa for Israel",
-      "url": "https://www.france24.com/en/tv-shows/focus/20260930-ethiopia-s-last-jews-dream-of-visa-for-israel",
-      "published_at": "2026-09-30T09:55:38Z",
-      "collected_at": "2026-09-30T10:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "f1873703ab1a5f052592e6ec",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "US Treasury targets ‘Mayito Flaco’ network, including Baja California governor’s ex-husband",
-      "url": "https://english.elpais.com/international/2026-09-30/us-treasury-targets-mayito-flaco-network-including-baja-california-governors-ex-husband.html",
-      "published_at": "2026-09-30T09:32:59Z",
-      "collected_at": "2026-09-30T10:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "6bdc40690be4e21a42d66680",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Eurovision seeks to expand brand despite frictions",
-      "url": "https://www.dw.com/en/eurovision-seeks-to-expand-brand-despite-frictions/a-79401752?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-30T09:18:00Z",
-      "collected_at": "2026-09-30T11:00:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
@@ -2279,48 +2187,6 @@
       ]
     },
     {
-      "id": "00138133fb6bc4cd0a34dfef",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Federal government files assault charges against Wilber Garcés, the migrant shot by an ICE agent in Austin",
-      "url": "https://english.elpais.com/usa/2026-09-30/federal-government-files-assault-charges-against-wilber-garces-the-migrant-shot-by-an-ice-agent-in-austin.html",
-      "published_at": "2026-09-30T08:57:33Z",
-      "collected_at": "2026-09-30T10:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "95f8e7e1775fcfc533d00dd7",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Spanish royals host gala dinner for Emmanuel Macron: ‘We are this old continent that underestimates itself. But we’re not doing that badly’",
-      "url": "https://english.elpais.com/spain/2026-09-30/spanish-royals-host-gala-dinner-for-emmanuel-macron-we-are-this-old-continent-that-underestimates-itself-but-were-not-doing-that-badly.html",
-      "published_at": "2026-09-30T08:35:35Z",
-      "collected_at": "2026-09-30T11:00:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "ab3006eb234fe95231381759",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Pilots on UAE-Israel flight hospitalised after cockpit brawl forces emergency landing",
-      "url": "https://www.france24.com/en/middle-east/20260930-israel-bound-flight-diverted-to-saudi-arabia-after-brawl-between-pilots",
-      "published_at": "2026-09-30T08:25:17Z",
-      "collected_at": "2026-09-30T11:00:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "d1d911be0fc8672e5436d943",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2363,13 +2229,13 @@
       ]
     },
     {
-      "id": "2d0e85da7cbaedca2dd6f3e7",
+      "id": "2d3c117e5c963f0d237bec9f",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "Six Flags closes the ‘X2’ roller coaster in California following reports of a potential risk of brain damage",
-      "url": "https://english.elpais.com/usa/2026-09-29/six-flags-closes-the-x2-roller-coaster-in-california-following-reports-of-a-potential-risk-of-brain-damage.html",
-      "published_at": "2026-09-29T23:02:00Z",
-      "collected_at": "2026-09-30T11:00:53Z",
+      "title": "More Republicans warn nominating Ken Paxton was a ‘mistake’ and expect Texas Senate seat to be lost",
+      "url": "https://english.elpais.com/usa/2026-09-29/more-republicans-warn-nominating-ken-paxton-was-a-mistake-and-expect-texas-senate-seat-to-be-lost.html",
+      "published_at": "2026-09-29T10:43:32Z",
+      "collected_at": "2026-10-01T11:00:59Z",
       "topics": [
         "politics",
         "society",
@@ -2377,17 +2243,17 @@
       ]
     },
     {
-      "id": "26efe4d84e37821c714a5667",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ugandan coronation comes under social media scrutiny",
-      "url": "https://www.france24.com/en/ugandan-coronation-under-social-media-scrutiny",
-      "published_at": "2026-09-29T20:22:04Z",
-      "collected_at": "2026-09-30T10:30:44Z",
+      "id": "6d610693d580f37f0f2011cf",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Lady Gaga, Lena Dunham and surrogacy: Why isn’t it causing a scandal in the United States?",
+      "url": "https://english.elpais.com/society/2026-09-29/lady-gaga-lena-dunham-and-surrogacy-why-isnt-it-causing-a-scandal-in-the-united-states.html",
+      "published_at": "2026-09-29T09:57:57Z",
+      "collected_at": "2026-10-01T11:00:59Z",
       "topics": [
         "politics",
-        "security",
-        "society"
+        "society",
+        "economy"
       ]
     },
     {
@@ -2668,20 +2534,6 @@
         "central_europe",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "d62e7d0c0927568f7d32da81",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Maricarmen, elderly woman evicted from home in Spain, becomes a global symbol for housing activists",
-      "url": "https://english.elpais.com/spain/2026-09-28/maricarmen-elderly-woman-evicted-from-home-in-spain-becomes-a-global-symbol-for-housing-activists.html",
-      "published_at": "2026-09-28T10:32:32Z",
-      "collected_at": "2026-09-30T11:00:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
