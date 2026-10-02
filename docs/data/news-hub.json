@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-02T10:00:50Z",
-  "last_successful_collection_at": "2026-10-02T10:00:50Z",
+  "generated_at": "2026-10-02T10:30:44Z",
+  "last_successful_collection_at": "2026-10-02T10:30:44Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-02T10:00:50Z"
+      "at": "2026-10-02T10:30:44Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-10-02T10:00:50Z"
+      "at": "2026-10-02T10:30:44Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-02T10:00:50Z"
+      "at": "2026-10-02T10:30:44Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,69 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-02T10:00:50Z"
+      "at": "2026-10-02T10:30:44Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-02T10:00:50Z"
+      "at": "2026-10-02T10:30:44Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-10-02T10:00:50Z"
+      "at": "2026-10-02T10:30:44Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-02T10:00:50Z"
+      "at": "2026-10-02T10:30:44Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-02T10:00:50Z"
+      "at": "2026-10-02T10:30:44Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-02T10:00:50Z"
+      "at": "2026-10-02T10:30:44Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Escalating Student Protests in France",
-      "summary": "France has closed hundreds of high schools as student demonstrations escalate. The unrest coincides with the introduction of a new cost-cutting government budget.",
+      "title": "France considers strategic fuel reserve release under US pressure",
+      "summary": "France is examining the potential release of a significant portion of its oil and diesel reserves following pressure from the United States. This executive deliberation follows discussions surrounding European fuel reserves and potential trade impacts.",
+      "article_ids": [
+        "c12398516ca3884fa6df7d89",
+        "349d6d2c48777753be1b3ce7"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/france-floats-major-release-of-oil-and-diesel-reserves-in-response-to-us-pressure",
+          "headline": "France floats major oil and diesel reserve release in response to US pressure",
+          "published_at": "2026-10-02T09:23:54Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/diesel-sous-la-pression-des-etats-unis-lexecutif-envisage-de-liberer-une-part-importante-de-ses-reserves",
+          "headline": "Diesel : sous la pression des Etats-Unis, l’exécutif envisage de libérer une part importante de ses réserves",
+          "published_at": "2026-10-02T10:01:09Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Escalating student demonstrations lead to widespread French high school closures",
+      "summary": "Hundreds of high schools across France remain closed as student protests continue to escalate and turn violent. Authorities are managing the widespread disruptions tied to the ongoing demonstrations.",
       "article_ids": [
         "7fcb01b995702d409f0ea318",
-        "a956b339d20f1d55ecb6f4be",
-        "7fdc6b4"
+        "a956b339d20f1d55ecb6f4be"
       ],
       "sources": [
         {
@@ -86,58 +108,35 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "US Pressure on European Diesel Reserves",
-      "summary": "The United States is pressing European nations to immediately release diesel reserves amid threats of an export ban. In response, France is considering a major release of oil and diesel supplies.",
-      "article_ids": [
-        "c12398516ca3884fa6df7d89",
-        "aecf7ebcc581fb4da68cfa5d"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/france-floats-major-release-of-oil-and-diesel-reserves-in-response-to-us-pressure",
-          "headline": "France floats major oil and diesel reserve release in response to US pressure",
-          "published_at": "2026-10-02T09:23:54Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261001-us-europe-diesel-reserves-fuel-prices",
-          "headline": "US presses Europe to release 'immediately' diesel reserves as Trump threatens export ban",
-          "published_at": "2026-10-01T22:08:51Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "Russian Security Threats and Infrastructure Attacks",
-      "summary": "Russian forces continue military strikes against Ukrainian infrastructure, including attacks on Kyiv's bridges. Meanwhile, investigations into a failed attack in Leipzig have uncovered a broader campaign of hostile operations directed at Europe.",
+      "title": "Regional Security and Infrastructure Attacks",
+      "summary": "Russian military strikes continue to target critical infrastructure in Kyiv, including the Southern Bridge. Meanwhile, investigations into a failed attack in Leipzig have exposed a broader network of Russian security threats across the region.",
       "article_ids": [
-        "2d4f837bb4f4b86280bb37fd",
-        "d5d0165d31c8553010c747a1"
+        "8814d26c40f02c621a86afa1",
+        "d7c724a7a4e5a3980ae22e06"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20261002-live-russia-hits-kyiv-s-southern-bridge-as-moscow-continues-to-pound-capital",
-          "headline": "Live: Russia hits Kyiv’s Southern Bridge again as Moscow continues to pound capital",
+          "headline": "Live: Russia hits Kyiv’s Southern Bridge as Moscow continues to pound capital",
           "published_at": "2026-10-02T05:30:42Z"
         },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/failed-attack-leipzig-wider-russia-campaign-attacks",
-          "headline": "How a failed attack in Leipzig revealed a wider Russian campaign",
+          "headline": "How a failed attack in Leipzig revealed a wider Russian campaign of attacks",
           "published_at": "2026-10-02T04:00:00Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "Turkish Financial Scandal and Arrests",
-      "summary": "A major stock market scandal in Turkey has impacted nearly half a million investors. Law enforcement authorities have executed multiple arrests, and an AKP politician has resigned as a result.",
+      "title": "Turkish Financial Market Scandal and Arrests",
+      "summary": "A major stock market scandal in Turkey has impacted nearly half a million investors and prompted multiple police arrests. The developments have also led to the resignation of an AKP politician amid ongoing investigations.",
       "article_ids": [
         "6586e2b65629f441f677f7b8"
       ],
@@ -154,23 +153,23 @@
   ],
   "developing": [
     {
-      "label": "EU · chief · NATO",
+      "label": "Brexit · Burnham · deals · EU",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-02T05:00:00Z",
+      "item_count": 4,
+      "latest_at": "2026-10-02T10:28:42Z",
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/speed-up-eu-health-security-prep-says-nato-chief-medic",
-          "headline": "Speed up EU health security prep, says NATO chief medic",
-          "published_at": "2026-10-02T05:00:00Z"
+          "url": "https://www.politico.eu/article/tories-andy-burnham-eu-pandering-threatens-post-brexit-trade-deals",
+          "headline": "Tories warn Burnham’s EU ‘pandering’ will shred post-Brexit trade deals",
+          "published_at": "2026-10-02T10:28:42Z"
         },
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/239313/eu-accession-of-moldova-and-ukraine-is-alternative-to-nato-as-russia-draws-new-iron-curtain-in-europe",
-          "headline": "EU accession of Moldova and Ukraine is alternative to Nato, as Russia draws new Iron Curtain in Europe",
-          "published_at": "2026-10-01T10:03:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261001-migration-deal-really-a-scheme-around-political-diplomacy-between-uk-france-in-post-brexit-era-1",
+          "headline": "Migration deal: 'Really a scheme around political diplomacy between UK & France in post-Brexit era'",
+          "published_at": "2026-10-01T22:27:09Z"
         }
       ]
     },
@@ -239,6 +238,48 @@
     }
   ],
   "radar": [
+    {
+      "id": "c772ca83d54ddcf3dc48c6ce",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Tories warn Burnham’s EU ‘pandering’ will shred post-Brexit trade deals",
+      "url": "https://www.politico.eu/article/tories-andy-burnham-eu-pandering-threatens-post-brexit-trade-deals",
+      "published_at": "2026-10-02T10:28:42Z",
+      "collected_at": "2026-10-02T10:30:44Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "a1bb0f4de6ff6bcfe12c292a",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘The truth is Cuba has already fallen’: the United States’ strategy to subdue the island",
+      "url": "https://english.elpais.com/international/2026-10-02/the-truth-is-cuba-has-already-fallen-the-united-states-strategy-to-subdue-the-island.html",
+      "published_at": "2026-10-02T10:13:00Z",
+      "collected_at": "2026-10-02T10:30:44Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "349d6d2c48777753be1b3ce7",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Diesel : sous la pression des Etats-Unis, l’exécutif envisage de libérer une part importante de ses réserves",
+      "url": "https://www.politico.eu/article/diesel-sous-la-pression-des-etats-unis-lexecutif-envisage-de-liberer-une-part-importante-de-ses-reserves",
+      "published_at": "2026-10-02T10:01:09Z",
+      "collected_at": "2026-10-02T10:30:44Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "bcf68a5bebfe18445bf6b22d",
       "source_id": "france24",
@@ -394,6 +435,20 @@
       ]
     },
     {
+      "id": "79d1994e33e08e4f10d95c53",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Alejandro G. Iñárritu: ‘Tom Cruise loved this film because it freed him from the handsome, strong man that he is’",
+      "url": "https://english.elpais.com/culture/2026-10-02/alejandro-g-inarritu-tom-cruise-loved-this-film-because-it-freed-him-from-the-handsome-strong-man-that-he-is.html",
+      "published_at": "2026-10-02T08:45:53Z",
+      "collected_at": "2026-10-02T10:30:44Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "97fcd07b706d9d27b759dcd3",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -433,6 +488,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "8cc8bf4c764f3f707a724e09",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trump says he is following Brazil’s elections ‘very closely’",
+      "url": "https://english.elpais.com/international/2026-10-02/trump-says-he-is-following-brazils-elections-very-closely.html",
+      "published_at": "2026-10-02T07:56:14Z",
+      "collected_at": "2026-10-02T10:30:44Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -1864,174 +1933,6 @@
       ]
     },
     {
-      "id": "dfbe4cc8e11ebd13ae3c8c04",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "EU accession of Moldova and Ukraine is alternative to Nato, as Russia draws new Iron Curtain in Europe",
-      "url": "https://euobserver.com/239313/eu-accession-of-moldova-and-ukraine-is-alternative-to-nato-as-russia-draws-new-iron-curtain-in-europe",
-      "published_at": "2026-10-01T10:03:00Z",
-      "collected_at": "2026-10-01T10:30:43Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "f43ab772d528acf0b6644edd",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Why are French students blocking their school entrances?",
-      "url": "https://www.france24.com/en/video/20261001-why-are-french-students-blocking-their-school-entrances",
-      "published_at": "2026-10-01T10:00:58Z",
-      "collected_at": "2026-10-01T10:30:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "2633b986d9c1fe4d4007cde0",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Israel's Netanyahu says co-pilot tried to crash Tel Aviv-bound plane",
-      "url": "https://www.france24.com/en/tv-shows/press-review/20261001-israel-s-netanyahu-says-co-pilot-tried-to-crash-tel-aviv-bound-plane",
-      "published_at": "2026-10-01T10:00:45Z",
-      "collected_at": "2026-10-01T10:30:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "a4fe0685ba8447795b473609",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Xavier Becerra and Steve Hilton clash in CNN debate on economy, AI, and ICE raids in California governor’s race",
-      "url": "https://english.elpais.com/usa/2026-10-01/xavier-becerra-and-steve-hilton-clash-in-cnn-debate-on-economy-ai-and-ice-raids-in-california-governors-race.html",
-      "published_at": "2026-10-01T10:00:38Z",
-      "collected_at": "2026-10-01T10:30:43Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "db709275dca3b71191c00157",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Brazil elections: Can Lula’s anti-poverty record win over voters?",
-      "url": "https://www.france24.com/en/video/20261001-brazil-elections-can-lula-s-anti-poverty-record-win-over-voters",
-      "published_at": "2026-10-01T09:51:18Z",
-      "collected_at": "2026-10-01T10:00:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "eee704da6fc49d192fe3fd44",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Burnham reopens Brexit debate: EU says UK must chart Its own path on future relations",
-      "url": "https://www.france24.com/en/video/20261001-burnham-reopens-brexit-debate-eu-says-uk-must-chart-its-own-path-on-future-relations",
-      "published_at": "2026-10-01T09:46:53Z",
-      "collected_at": "2026-10-01T10:00:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e6a7839029ae145c73fcae36",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Tennessee death row inmate Christa Pike survives execution attempt",
-      "url": "https://www.france24.com/en/video/20261001-tennessee-death-row-inmate-christa-pike-survives-execution-attempt",
-      "published_at": "2026-10-01T09:44:03Z",
-      "collected_at": "2026-10-01T10:00:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "b342cda2a224aec530b19e3a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Hegseth 'state of the force' speech: US to cut number of generals, admirals by 20%",
-      "url": "https://www.france24.com/en/video/20261001-hegseth-state-of-the-force-speech-us-to-cut-number-of-generals-admirals-by-20",
-      "published_at": "2026-10-01T09:42:10Z",
-      "collected_at": "2026-10-01T10:00:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4bcb6537f41c3ee7eb5c7ef5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Attacker's motive remain unknown after FlyDubai flight to Israel escapes disaster",
-      "url": "https://www.france24.com/en/video/20261001-attacker-s-motive-remain-unknown-after-flydubai-flight-to-israel-escapes-disaster",
-      "published_at": "2026-10-01T09:40:16Z",
-      "collected_at": "2026-10-01T10:00:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "3aa896736b823f1a3b9c947f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Flydubai flight: How airlines prepare for emergencies?",
-      "url": "https://www.france24.com/en/video/20261001-flydubai-flight-how-airlines-prepare-for-emergencies",
-      "published_at": "2026-10-01T09:39:17Z",
-      "collected_at": "2026-10-01T10:00:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "b85c3738ff29d2b7ae1776fd",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Europe’s children will inherit public-health crisis from new EU pesticide approvals",
-      "url": "https://euobserver.com/240266/europes-children-will-inherit-public-health-crisis-from-new-eu-pesticide-approvals",
-      "published_at": "2026-10-01T09:37:00Z",
-      "collected_at": "2026-10-01T10:00:54Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "3405ebeef2f0cd870e1f4d56",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Burnham ‘really concerned’ if Man City’s UAE owners sell club after breaking rules",
-      "url": "https://www.politico.eu/article/burnham-really-concerned-if-man-city-owners-sell-up-after-rule-breaches",
-      "published_at": "2026-10-01T09:35:53Z",
-      "collected_at": "2026-10-01T10:00:54Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "f7f2c6489fbd8aedc9dab013",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2109,20 +2010,6 @@
       "url": "https://www.france24.com/en/france/20261001-hundreds-of-students-detained-dozens-of-officers-injured-in-french-school-protests",
       "published_at": "2026-10-01T00:14:36Z",
       "collected_at": "2026-10-01T13:00:52Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "5772c2d48a4c4e49b33d3414",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Meet 'America': Trump's AI chatbot changes answers after challenging his claims",
-      "url": "https://www.france24.com/en/meet-america-trump-s-ai-chatbot-changes-answers-after-challenging-his-claims-1",
-      "published_at": "2026-09-30T20:08:13Z",
-      "collected_at": "2026-10-01T10:00:54Z",
       "topics": [
         "politics",
         "security",
@@ -2533,20 +2420,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "ceb838ad9b568bc306ec4f72",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland changes rules of engagement for firing on foreign aircraft amid growing Russia threat",
-      "url": "https://notesfrompoland.com/2026/09/29/poland-changes-rules-of-engagement-for-firing-on-foreign-aircraft-amid-growing-russia-threat",
-      "published_at": "2026-09-29T09:56:50Z",
-      "collected_at": "2026-10-01T10:00:54Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
       ]
     },
     {
