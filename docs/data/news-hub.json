@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-02T08:30:42Z",
-  "last_successful_collection_at": "2026-10-02T08:30:42Z",
+  "generated_at": "2026-10-02T09:00:54Z",
+  "last_successful_collection_at": "2026-10-02T09:00:54Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-02T08:30:42Z"
+      "at": "2026-10-02T09:00:54Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-10-02T08:30:42Z"
+      "at": "2026-10-02T09:00:54Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-02T08:30:42Z"
+      "at": "2026-10-02T09:00:54Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-02T08:30:42Z"
+      "at": "2026-10-02T09:00:54Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-02T08:30:42Z"
+      "at": "2026-10-02T09:00:54Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-10-02T08:30:42Z"
+      "at": "2026-10-02T09:00:54Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-02T08:30:42Z"
+      "at": "2026-10-02T09:00:54Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-02T08:30:42Z"
+      "at": "2026-10-02T09:00:54Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-02T08:30:42Z"
+      "at": "2026-10-02T09:00:54Z"
     }
   ],
   "europe_now": [
     {
-      "title": "French School Protests and Budget Unrest",
-      "summary": "Protests across France have led to school closures and unrest as the government unveils a new cost-cutting budget. Hundreds of educational institutions remain shut amid growing public demonstrations over financial pressures.",
+      "title": "US Diesel Demands on Europe",
+      "summary": "United States officials have pressured European nations to release diesel reserves immediately, accompanied by threats of a potential export ban that could destabilize fuel supplies.",
+      "article_ids": [
+        "aecf7ebcc581fb4da68cfa5d",
+        "ac07a0049f03407cc26e4124"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261001-us-europe-diesel-reserves-fuel-prices",
+          "headline": "US presses Europe to release 'immediately' diesel reserves as Trump threatens export ban",
+          "published_at": "2026-10-01T22:08:51Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261001-us-europe-diesel-reserves-fuel-prices",
+          "headline": "US presses Europe to release diesel reserves 'immediately' as Trump threatens export ban",
+          "published_at": "2026-10-01T22:08:51Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "French School Protests and Budget Pressures",
+      "summary": "Hundreds of schools in France remained closed as nationwide student demonstrations turned violent amid the government's unveiling of a new cost-cutting budget.",
       "article_ids": [
         "e1c21541bee954877e49ea89",
         "a956b339d20f1d55ecb6f4be"
@@ -85,35 +108,12 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "US Diesel Demands and European Reserves",
-      "summary": "Washington has pressured European nations to immediately release their diesel reserves while threatening export restrictions. European policymakers are weighing responses to the potential fuel supply disruption.",
-      "article_ids": [
-        "aecf7ebcc581fb4da68cfa5d",
-        "c127a444e9faa352b1d60322"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261001-us-europe-diesel-reserves-fuel-prices",
-          "headline": "US presses Europe to release 'immediately' diesel reserves as Trump threatens export ban",
-          "published_at": "2026-10-01T22:08:51Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/europes-diesel-counterpunch",
-          "headline": "Europe’s diesel counterpunch",
-          "published_at": "2026-10-02T05:00:00Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "Russian Campaign and Regional Security",
-      "summary": "Recent attacks in the European region, including strikes on infrastructure in Kyiv and a failed operation in Leipzig, have exposed a wider campaign of hostile activity. Security officials and analysts continue to monitor escalating hybrid threats.",
+      "title": "Wider Russian Security Threats",
+      "summary": "Investigations into a failed attack in Leipzig have uncovered a broader campaign of operations directed by Russia across European territory. Meanwhile, continuous military strikes by Russian forces have targeted critical infrastructure, including bridges in the Ukrainian capital.",
       "article_ids": [
         "8814d26c40f02c621a86afa1",
         "d7c724a7a4e5a3980ae22e06"
@@ -135,8 +135,8 @@
       "source_count": 2
     },
     {
-      "title": "Turkish Financial Scandal",
-      "summary": "A major stock market scandal in Turkey has impacted nearly half a million investors. Local authorities have executed several arrests and a ruling party politician has stepped down following the fallout.",
+      "title": "Turkish Financial Market Scandal",
+      "summary": "A major stock market controversy in Turkey has directly impacted roughly half a million investors across the region. Law enforcement authorities have executed several arrests in connection with the scandal, prompting a high-profile political resignation.",
       "article_ids": [
         "6586e2b65629f441f677f7b8"
       ],
@@ -195,27 +195,6 @@
       ]
     },
     {
-      "label": "Christa · Pike · Tennessee · injections",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-10-01T11:41:36Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261001-tennessee-death-row-inmate-christa-pike-survives-two-lethal-injections",
-          "headline": "Tennessee death row inmate Christa Pike survives two lethal injections",
-          "published_at": "2026-10-01T11:41:36Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-10-01/christa-pike-still-alive-after-receiving-two-lethal-injections-in-tennessee.html",
-          "headline": "Christa Pike still alive after receiving two lethal injections in Tennessee",
-          "published_at": "2026-10-01T08:59:32Z"
-        }
-      ]
-    },
-    {
       "label": "2027 · French · belt · budget",
       "origin": "convergence",
       "source_count": 2,
@@ -233,6 +212,27 @@
           "url": "https://www.france24.com/en/france/20261001-french-pm-to-present-belt-tightening-2027-budget-including-frozen-wages-and-new-taxes",
           "headline": "French PM to present belt-tightening 2027 budget, including frozen wages and new taxes",
           "published_at": "2026-10-01T09:20:27Z"
+        }
+      ]
+    },
+    {
+      "label": "EU · migration · ministers",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-10-02T00:54:00Z",
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/eu-ministers-mull-new-ways-to-curb-irregular-migration/a-79509375?maca=en-rss-en-eu-2092-rdf",
+          "headline": "EU ministers mull new ways to curb irregular migration",
+          "published_at": "2026-10-02T00:54:00Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-ministers-new-emergency-migration-measures-ceuta-spain-morocco",
+          "headline": "EU ministers explore new emergency migration measures",
+          "published_at": "2026-10-01T18:31:15Z"
         }
       ]
     }
@@ -1947,20 +1947,6 @@
       ]
     },
     {
-      "id": "cd824a49f623b78d2553b170",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Inside Poland’s fake student scheme: cheap labour, bogus visas and Russian ties",
-      "url": "https://euobserver.com/239684/pro-russian-figures-linked-to-polish-universities-selling-paperwork-for-schengen-visas",
-      "published_at": "2026-10-01T08:34:00Z",
-      "collected_at": "2026-10-01T09:00:52Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "79118169b1070e3efd40a58c",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2056,6 +2042,34 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "b2e957448963690b47af8f97",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Listen: Did the Spanish government address the protesters’ demands on housing?",
+      "url": "https://euobserver.com/240472/listen-did-the-spanish-government-address-the-protesters-demands-on-housing",
+      "published_at": "2026-09-30T08:36:26Z",
+      "collected_at": "2026-10-02T09:00:54Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "4bff79c471f820319debb050",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Divided EU cyber defence faces real-life Russian and Chinese threats",
+      "url": "https://euobserver.com/240301/divided-eu-cyber-defence-faces-real-life-russian-and-chinese-threats",
+      "published_at": "2026-09-30T08:32:13Z",
+      "collected_at": "2026-10-02T09:00:54Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -2451,48 +2465,6 @@
       ]
     },
     {
-      "id": "fb90a4ce77b35d822f862313",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Private money follows profit, not ruins in Ukraine’s EU-backed reconstruction",
-      "url": "https://euobserver.com/240165/private-money-follows-profit-not-ruins-in-ukraines-eu-backed-reconstruction",
-      "published_at": "2026-09-29T08:44:36Z",
-      "collected_at": "2026-10-01T09:00:52Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "456777de2ab115e9b441648c",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Listen: Can EU countries agree on the next long-term budget?",
-      "url": "https://euobserver.com/240175/listen-can-eu-countries-agree-on-the-next-long-term-budget",
-      "published_at": "2026-09-29T08:43:39Z",
-      "collected_at": "2026-10-01T09:00:52Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "43495f72b79a1163e987a8f6",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Belarusian convicted for preparing arson in Poland on behalf of foreign intelligence",
-      "url": "https://notesfrompoland.com/2026/09/29/belarusian-convicted-for-preparing-arson-in-poland-on-behalf-of-foreign-intelligence",
-      "published_at": "2026-09-29T08:18:41Z",
-      "collected_at": "2026-10-01T09:00:52Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "8084b93c3db722bd9f1685ad",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2591,6 +2563,34 @@
       ]
     },
     {
+      "id": "d5894b6ef82757a5a09e5514",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Eating garden weeds to survive in Russian-occupied city cut off from food and water",
+      "url": "https://www.bbc.co.uk/news/articles/c60qxywdx4vvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-23T23:58:50Z",
+      "collected_at": "2026-10-02T09:00:54Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "bd996c10bef23b96daa94a48",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "'Make women feel seen': Why the Dutch have a new word for labia",
+      "url": "https://www.bbc.co.uk/news/articles/cn4klprmr0go?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-23T23:42:38Z",
+      "collected_at": "2026-10-02T09:00:54Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "d1dc666f3260211afedbf2df",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2598,6 +2598,20 @@
       "url": "https://english.elpais.com/people/2026-09-21/the-epic-life-of-schwarzenegger-a-bodybuilder-turned-legend-if-he-had-been-born-in-the-us-he-would-be-president.html",
       "published_at": "2026-09-20T04:00:00Z",
       "collected_at": "2026-10-02T06:00:51Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "9e0a227b9159734c55b28e7c",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "EL PAÍS offers free Spanish lessons with Gymglish",
+      "url": "https://english.elpais.com/economy-and-business/2021-11-15/el-pais-offers-free-spanish-lessons-with-gymglish.html",
+      "published_at": "2021-11-15T14:10:11Z",
+      "collected_at": "2026-10-02T09:00:54Z",
       "topics": [
         "politics",
         "society",
