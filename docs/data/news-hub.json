@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-02T12:30:40Z",
-  "last_successful_collection_at": "2026-10-02T12:30:40Z",
+  "generated_at": "2026-10-02T13:00:49Z",
+  "last_successful_collection_at": "2026-10-02T13:00:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-02T12:30:40Z"
+      "at": "2026-10-02T13:00:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "26",
-      "at": "2026-10-02T12:30:40Z"
+      "count": "22",
+      "at": "2026-10-02T13:00:49Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-02T12:30:40Z"
+      "at": "2026-10-02T13:00:49Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,68 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-02T12:30:40Z"
+      "at": "2026-10-02T13:00:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-02T12:30:40Z"
+      "at": "2026-10-02T13:00:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-10-02T12:30:40Z"
+      "at": "2026-10-02T13:00:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-02T12:30:40Z"
+      "at": "2026-10-02T13:00:49Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-02T12:30:40Z"
+      "at": "2026-10-02T13:00:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-02T12:30:40Z"
+      "at": "2026-10-02T13:00:49Z"
     }
   ],
   "europe_now": [
     {
-      "title": "French student protests and school closures",
-      "summary": "Hundreds of French high schools have been closed as student demonstrations escalate. Protesters are calling for respect, dignity, and better working conditions.",
+      "title": "EU Rejects US Diesel Export Threats",
+      "summary": "The European Union has strongly rejected US pressure and threats to ban diesel exports unless European nations release more of their fuel reserves.",
       "article_ids": [
-        "7fcb01b995702d409f0ea318",
+        "17f7d32f7f91746d5a537c54",
+        "866ad6e7ba87694bbf17157f"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261002-eu-fully-rejects-us-threat-to-ban-diesel-exports-unless-bloc-releases-more-fuel-stocks",
+          "headline": "EU ‘fully rejects’ US threat to ban diesel exports unless bloc releases more fuel stocks",
+          "published_at": "2026-10-02T11:15:16Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/g7-to-hold-emergency-talks-over-possible-diesel-release",
+          "headline": "G7 to hold emergency talks over possible diesel release",
+          "published_at": "2026-10-02T11:01:20Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Escalating Student Protests in France",
+      "summary": "Hundreds of high schools across France remain closed as student protests against government policies turn increasingly disruptive and widespread.",
+      "article_ids": [
+        "e8c126a5b30cc84385c30579",
         "a956b339d20f1d55ecb6f4be"
       ],
       "sources": [
@@ -79,13 +102,15 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "EU rejects US diesel export threats",
-      "summary": "The European Union has strongly rejected US threats to ban diesel exports unless the bloc releases additional fuel stocks. Meanwhile, France is reportedly considering releasing a portion of its reserves following the pressure.",
+      "title": "Transatlantic Fuel Pressures",
+      "summary": "The European Union has formally rejected threats from the United States regarding diesel export restrictions. Meanwhile, European nations are considering their options for fuel reserves amidst intense diplomatic pressure.",
       "article_ids": [
         "17f7d32f7f91746d5a537c54",
-        "c12398516ca3884fa6df7d89"
+        "866ad6e7ba87694bbf17157f"
       ],
       "sources": [
         {
@@ -96,50 +121,26 @@
         },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/france-floats-major-release-of-oil-and-diesel-reserves-in-response-to-us-pressure",
-          "headline": "France floats major oil and diesel reserve release in response to US pressure",
-          "published_at": "2026-10-02T09:23:54Z"
+          "url": "https://www.politico.eu/article/g7-to-hold-emergency-talks-over-possible-diesel-release",
+          "headline": "G7 to hold emergency talks over possible diesel release",
+          "published_at": "2026-10-02T11:01:20Z"
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Political corruption investigations in Hungary",
-      "summary": "Magyar has waived his own immunity as Hungary targets billions in alleged fraud. Two former Orbán ministers are currently in custody.",
-      "article_ids": [
-        "e672d2f5e1ac369b93d19c5a"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/240728/magyar-waives-his-own-immunity-as-hungary-targets-billions-in-alleged-fraud-and-two-former-orban-ministers-in-custody-day-143-of-the-tisza-government",
-          "headline": "Magyar waives his own immunity, as Hungary targets billions in alleged fraud and two former Orbán ministers in custody (Day 143 of the Tisza government)",
-          "published_at": "2026-10-02T11:38:26Z"
-        }
-      ],
-      "source_count": 1
     },
     {
-      "title": "French austerity budget and public backlash",
-      "summary": "France has unveiled a cost-cutting budget that includes measures likely to impact pensioners. The belt-tightening fiscal plan has coincided with growing student protests and school closures.",
+      "title": "French Budget and Protests",
+      "summary": "The French government has unveiled a new cost-cutting budget aimed at belt-tightening. This fiscal policy has triggered widespread student protests and school closures across the country.",
       "article_ids": [
-        "e1c21541bee954877e49ea89",
-        "bbc0464f03fe900138debf72"
+        "e8c126a5b30cc84385c30579",
+        "e1c21541bee954877e49ea89"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/business/20261002-france-unveils-cost-cutting-budget-amid-protests",
-          "headline": "France unveils cost-cutting budget amid protests",
-          "published_at": "2026-10-02T08:08:51Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261002-french-pensioners-set-to-feel-pinch-under-belt-tightening-budget",
-          "headline": "French pensioners set to feel pinch under belt-tightening budget",
-          "published_at": "2026-10-02T09:34:47Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c69wzjjxex8po?at_medium=RSS&at_campaign=rss",
+          "headline": "School protests send shivers down French government's spine",
+          "published_at": "2026-10-02T12:43:02Z"
         }
       ],
       "source_count": 1
@@ -147,23 +148,23 @@
   ],
   "developing": [
     {
-      "label": "France · schools · protests · conditions",
+      "label": "Kyiv · Russia · Bridge · Live",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 6,
-      "latest_at": "2026-10-02T09:11:50Z",
+      "item_count": 5,
+      "latest_at": "2026-10-02T05:30:42Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261002-france-closes-400-high-schools-as-teens-protests-escalate",
-          "headline": "France closes 400 high schools as teens protests escalate",
-          "published_at": "2026-10-02T09:11:50Z"
+          "url": "https://www.france24.com/en/europe/20261002-live-russia-hits-kyiv-s-southern-bridge-as-moscow-continues-to-pound-capital",
+          "headline": "Live: Russia hits Kyiv’s Southern Bridge as Moscow continues to pound capital",
+          "published_at": "2026-10-02T05:30:42Z"
         },
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/cwy8z8rney97o?at_medium=RSS&at_campaign=rss",
-          "headline": "Watch: Why are students protesting at schools in France?",
-          "published_at": "2026-10-01T12:31:18Z"
+          "url": "https://www.bbc.co.uk/news/articles/cmn8e8344v5qo?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia targets busy bridge in central Kyiv in broad daylight",
+          "published_at": "2026-10-01T14:31:03Z"
         }
       ]
     },
@@ -189,49 +190,77 @@
       ]
     },
     {
-      "label": "French · protests · school · students",
+      "label": "Brazil · election",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-10-02T10:02:33Z",
+      "item_count": 3,
+      "latest_at": "2026-10-02T11:34:37Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/amid-french-school-protests-students-seek-respect-dignity-and-decent-working-conditions",
-          "headline": "Amid French school protests, students seek 'respect, dignity and decent working conditions'",
-          "published_at": "2026-10-02T10:02:33Z"
+          "url": "https://www.france24.com/en/tv-shows/focus/20261002-what-s-real-and-what-s-fake-how-ai-is-impacting-brazil-s-election-race",
+          "headline": "What's real and what's fake? How AI is impacting Brazil's election race",
+          "published_at": "2026-10-02T11:34:37Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c6d080d1e3l4o?at_medium=RSS&at_campaign=rss",
-          "headline": "Fires break out at French schools as students protest nationwide",
-          "published_at": "2026-10-01T19:19:00Z"
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-10-02/trump-says-he-is-following-brazils-elections-very-closely.html",
+          "headline": "Trump says he is following Brazil’s elections ‘very closely’",
+          "published_at": "2026-10-02T07:56:14Z"
         }
       ]
     },
     {
-      "label": "Bridge · Kyiv · Russia · busy",
+      "label": "arrests · half · investors · market",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-10-02T05:30:42Z",
+      "item_count": 3,
+      "latest_at": "2026-10-02T04:32:00Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261002-live-russia-hits-kyiv-s-southern-bridge-as-moscow-continues-to-pound-capital",
-          "headline": "Live: Russia hits Kyiv’s Southern Bridge as Moscow continues to pound capital",
-          "published_at": "2026-10-02T05:30:42Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/turkey-s-stock-market-scandal-affects-nearly-half-a-million-investors-police-have-made-several-arrests-and-an-akp-politician-has-resigned/a-79494710?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Turkey's stock market scandal affects nearly half a million investors. Police have made several arrests and an AKP politician has resigned.",
+          "published_at": "2026-10-02T04:32:00Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmn8e8344v5qo?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia targets busy bridge in central Kyiv in broad daylight",
-          "published_at": "2026-10-01T14:31:03Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261001-uk-police-arrest-dual-uk-iranian-national-over-fairford-air-base-incident",
+          "headline": "UK police arrest dual UK-Iranian national over Fairford air base incident",
+          "published_at": "2026-10-01T19:40:45Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "5dd1645c0147bf719957a30e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Paraguay, a tax and political haven for Brazil's far right",
+      "url": "https://www.france24.com/en/tv-shows/reporters/20261002-paraguay-a-tax-and-political-haven-for-brazil-s-far-right",
+      "published_at": "2026-10-02T12:48:41Z",
+      "collected_at": "2026-10-02T13:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e8c126a5b30cc84385c30579",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "School protests send shivers down French government's spine",
+      "url": "https://www.bbc.co.uk/news/articles/c69wzjjxex8po?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-02T12:43:02Z",
+      "collected_at": "2026-10-02T13:00:49Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "6f477a7ba0f8904e253b93f3",
       "source_id": "el_pais_english",
@@ -328,6 +357,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "866ad6e7ba87694bbf17157f",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "G7 to hold emergency talks over possible diesel release",
+      "url": "https://www.politico.eu/article/g7-to-hold-emergency-talks-over-possible-diesel-release",
+      "published_at": "2026-10-02T11:01:20Z",
+      "collected_at": "2026-10-02T13:00:49Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
       ]
     },
     {
@@ -793,6 +836,20 @@
       ]
     },
     {
+      "id": "bcf65b41f4e7af5d56119517",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Egypt warned Israel of 'major' Hamas attack: 'No world where Netanyahu's not aware' (Vivian Salama)",
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20261002-egypt-warned-israel-of-major-hamas-attack-no-world-where-netanyahu-s-not-aware-vivian-salama",
+      "published_at": "2026-10-02T06:08:44Z",
+      "collected_at": "2026-10-02T13:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "8bb0fcde613170071b590cb3",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -863,6 +920,20 @@
       ]
     },
     {
+      "id": "9545cd2131d028d931540eeb",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: Kyiv in ‘very dramatic situation’ as Russia steps up bombing, mayor says",
+      "url": "https://www.france24.com/en/europe/20261002-live-russia-hits-kyiv-s-southern-bridge-as-moscow-continues-to-pound-capital",
+      "published_at": "2026-10-02T05:30:42Z",
+      "collected_at": "2026-10-02T13:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "c127a444e9faa352b1d60322",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -919,6 +990,20 @@
       ]
     },
     {
+      "id": "b8e434fbe0fb5ce813abaa16",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Turkey: Stock market scandal hits half a million investors",
+      "url": "https://www.dw.com/en/turkey-stock-market-scandal-hits-half-a-million-investors/a-79494710?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-02T04:32:00Z",
+      "collected_at": "2026-10-02T13:00:49Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "d7c724a7a4e5a3980ae22e06",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -958,6 +1043,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "cdc52480a5a62d6276cdecc2",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Seoul warns 'further action' if Ukraine does not apologise over prisoner-of-war row",
+      "url": "https://www.bbc.co.uk/news/articles/cm1dld14weero?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-02T03:09:13Z",
+      "collected_at": "2026-10-02T13:00:49Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -2053,48 +2152,6 @@
       ]
     },
     {
-      "id": "b16a0fa17f3c13c703134e4f",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "French government calls crisis meeting as some school blockades turn violent",
-      "url": "https://www.politico.eu/article/france-government-crisis-meeting-student-school-blockade",
-      "published_at": "2026-10-01T12:26:08Z",
-      "collected_at": "2026-10-01T12:30:46Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "40681322a5246243b96fa144",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "María Corina Machado’s party stakes its strategy on the uncertain return of its leader",
-      "url": "https://english.elpais.com/international/2026-10-01/maria-corina-machados-party-stakes-its-strategy-on-the-uncertain-return-of-its-leader.html",
-      "published_at": "2026-10-01T12:14:55Z",
-      "collected_at": "2026-10-01T12:30:46Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "e68ac266eae3fee32b9602c2",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Tanker transits through Strait of Hormuz approach prewar figures",
-      "url": "https://english.elpais.com/international/2026-10-01/tanker-transits-through-strait-of-hormuz-approach-prewar-figures.html",
-      "published_at": "2026-10-01T11:37:46Z",
-      "collected_at": "2026-10-01T12:30:46Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "8e060fda8923d844014ebae6",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2106,20 +2163,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "296735cd11691deea5b231b9",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "France increases defense budget despite strained public finances",
-      "url": "https://www.politico.eu/article/france-increases-defense-budget-despite-strained-public-finances",
-      "published_at": "2026-10-01T11:30:27Z",
-      "collected_at": "2026-10-01T12:30:46Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
@@ -2137,20 +2180,6 @@
       ]
     },
     {
-      "id": "7c264658f08074e0c324dd3a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Transport suspended in some cities as French school protests continue",
-      "url": "https://www.france24.com/en/france/20261001-hundreds-of-students-detained-dozens-of-officers-injured-in-french-school-protests",
-      "published_at": "2026-10-01T00:14:36Z",
-      "collected_at": "2026-10-01T12:30:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "f84275cd84c5574ea1472796",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2161,6 +2190,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "9139e8c4ac62c4d5270441de",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Inflation hits 4% in Poland as fuel prices surge",
+      "url": "https://notesfrompoland.com/2026/09/30/inflation-hits-4-in-poland-as-fuel-prices-surge",
+      "published_at": "2026-09-30T12:25:19Z",
+      "collected_at": "2026-10-02T13:00:49Z",
+      "topics": [
+        "central_europe",
+        "politics",
         "society"
       ]
     },
