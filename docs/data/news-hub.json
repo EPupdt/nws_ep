@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-02T15:30:43Z",
-  "last_successful_collection_at": "2026-10-02T15:30:43Z",
+  "generated_at": "2026-10-02T16:01:00Z",
+  "last_successful_collection_at": "2026-10-02T16:01:00Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-02T15:30:43Z"
+      "at": "2026-10-02T16:01:00Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-02T15:30:43Z"
+      "at": "2026-10-02T16:01:00Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-02T15:30:43Z"
+      "at": "2026-10-02T16:01:00Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,94 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-02T15:30:43Z"
+      "at": "2026-10-02T16:01:00Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-02T15:30:43Z"
+      "at": "2026-10-02T16:01:00Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-10-02T15:30:43Z"
+      "at": "2026-10-02T16:01:00Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-02T15:30:43Z"
+      "at": "2026-10-02T16:01:00Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-02T15:30:43Z"
+      "at": "2026-10-02T16:01:00Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-02T15:30:43Z"
+      "at": "2026-10-02T16:01:00Z"
     }
   ],
   "europe_now": [
     {
-      "title": "G7 Diesel Release and US Pressure",
-      "summary": "G7 members have agreed to release 100 million barrels of diesel following pressure and threats from the United States regarding export bans. The European Union initially rejected threats from the US concerning fuel restrictions before emergency talks led to the coordinated stock release.",
+      "title": "G7 diesel release following US pressure",
+      "summary": "G7 members agreed to release 100 million barrels of diesel following pressure and threats from the United States regarding export bans.",
+      "article_ids": [
+        "c2f9a2a334eec09bae4d34d2",
+        "17f7d32f7f91746d5a537c54"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261002-eu-fully-rejects-us-threat-to-ban-diesel-exports-unless-bloc-releases-more-fuel-stocks",
+          "headline": "G7 members will release 100 million barrels of diesel after US threatens export ban",
+          "published_at": "2026-10-02T11:15:16Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261002-eu-fully-rejects-us-threat-to-ban-diesel-exports-unless-bloc-releases-more-fuel-stocks",
+          "headline": "EU ‘fully rejects’ US threat to ban diesel exports unless bloc releases more fuel stocks",
+          "published_at": "2026-10-02T11:15:16Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Escalating school protests in France",
+      "summary": "Escalating student protests across France led to clashes with police as authorities struggled to maintain control over the demonstrations.",
+      "article_ids": [
+        "9802b1f1ca3da9d3d8e8c8d3",
+        "5633c3a57cefa727cb6d8db6"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261002-students-and-police-clash-as-france-struggles-to-quell-school-protests",
+          "headline": "Students and police clash as France struggles to quell school protests",
+          "published_at": "2026-10-02T13:40:56Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261002-apocalyptic-scenes-as-france-school-protests-escalate",
+          "headline": "'Apocalyptic scenes' as France school protests escalate",
+          "published_at": "2026-10-02T13:42:17Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "G7 diesel release",
+      "summary": "G7 members will release 100 million barrels of diesel following pressure from the United States. The European Union initially rejected threats from the United States to ban diesel exports.",
       "article_ids": [
         "17f7d32f7f91746d5a537c54",
-        "c2f9a2a334eec09bae4d34d2",
-        "866ad6e7ba87694bbf17157f"
+        "c2f9a2a334eec09bae4d34d2"
       ],
       "sources": [
         {
@@ -79,66 +126,40 @@
           "published_at": "2026-10-02T11:15:16Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/g7-to-hold-emergency-talks-over-possible-diesel-release",
-          "headline": "G7 to hold emergency talks over possible diesel release",
-          "published_at": "2026-10-02T11:01:20Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261002-eu-fully-rejects-us-threat-to-ban-diesel-exports-unless-bloc-releases-more-fuel-stocks",
+          "headline": "G7 members will release 100 million barrels of diesel after US threatens export ban",
+          "published_at": "2026-10-02T11:15:16Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "Escalating French School Protests",
-      "summary": "School protests across France have escalated significantly, resulting in clashes between students and police. Students are demonstrating over working conditions and dignity, creating mounting pressure for the French government.",
+      "title": "French school protests",
+      "summary": "Students and police clashed as France struggled to quell escalating school protests. Demonstrating students are seeking respect, dignity, and decent working conditions.",
       "article_ids": [
-        "5633c3a57cefa727cb6d8db6",
         "9802b1f1ca3da9d3d8e8c8d3",
         "cafbf6f12cec8a999bedbecc"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261002-apocalyptic-scenes-as-france-school-protests-escalate",
-          "headline": "'Apocalyptic scenes' as France school protests escalate",
-          "published_at": "2026-10-02T13:42:17Z"
-        },
-        {
-          "publisher": "France 24 English",
           "url": "https://www.france24.com/en/video/20261002-students-and-police-clash-as-france-struggles-to-quell-school-protests",
           "headline": "Students and police clash as France struggles to quell school protests",
           "published_at": "2026-10-02T13:40:56Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Spanish Housing Protests and Political Pressures",
-      "summary": "Spanish Prime Minister Sánchez lost a key housing crisis vote following a high-profile eviction. Demonstrations regarding housing issues have been raging across the country ahead of the parliamentary action.",
-      "article_ids": [
-        "3bb56e829ac078b81e82feff",
-        "17e1cb7931195c623cdeb517"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c623dlk4y75mo?at_medium=RSS&at_campaign=rss",
-          "headline": "Spanish PM Sánchez loses key housing crisis vote after eviction of woman, 87",
-          "published_at": "2026-10-02T15:30:12Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261002-spain-housing-protests-rage-ahead-of-key-government-vote",
-          "headline": "Spain housing protests rage ahead of key government vote",
-          "published_at": "2026-10-02T12:54:02Z"
+          "url": "https://www.france24.com/en/amid-french-school-protests-students-seek-respect-dignity-and-decent-working-conditions",
+          "headline": "Amid French school protests, students seek 'respect, dignity and decent working conditions'",
+          "published_at": "2026-10-02T10:02:33Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "EU Budget Cuts Opposition",
-      "summary": "A coalition of 17 countries has joined forces to formally oppose upcoming cuts to the European Union budget. The unified resistance highlights growing fiscal friction among member states regarding institutional spending plans.",
+      "title": "Opposition to EU budget cuts",
+      "summary": "Seventeen countries have joined forces to oppose proposed EU budget cuts. The collaborative resistance highlights growing friction among member states regarding fiscal policies.",
       "article_ids": [
         "443c3f3e5adf4d0c44c20edf"
       ],
@@ -154,6 +175,33 @@
     }
   ],
   "developing": [
+    {
+      "label": "housing · Spain · Sánchez · vote",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 4,
+      "latest_at": "2026-10-02T15:30:12Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c623dlk4y75mo?at_medium=RSS&at_campaign=rss",
+          "headline": "Spanish PM Sánchez loses key housing crisis vote after eviction of woman, 87",
+          "published_at": "2026-10-02T15:30:12Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261002-spain-housing-protests-rage-ahead-of-key-government-vote",
+          "headline": "Spain housing protests rage ahead of key government vote",
+          "published_at": "2026-10-02T12:54:02Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/spains-sanchez-weighs-calling-snap-election-as-housing-defeat-looms",
+          "headline": "Spain’s Sánchez weighs calling snap election as housing defeat looms",
+          "published_at": "2026-10-02T09:33:32Z"
+        }
+      ]
+    },
     {
       "label": "Brazil · elections · Bolsonaro · candidate",
       "origin": "convergence",
@@ -176,48 +224,6 @@
       ]
     },
     {
-      "label": "French · protests · School · students",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-10-02T12:43:02Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c69wzjjxex8po?at_medium=RSS&at_campaign=rss",
-          "headline": "School protests send shivers down French government's spine",
-          "published_at": "2026-10-02T12:43:02Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/amid-french-school-protests-students-seek-respect-dignity-and-decent-working-conditions",
-          "headline": "Amid French school protests, students seek 'respect, dignity and decent working conditions'",
-          "published_at": "2026-10-02T10:02:33Z"
-        }
-      ]
-    },
-    {
-      "label": "Brexit · Burnham · deals · EU",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-10-02T10:28:42Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/tories-andy-burnham-eu-pandering-threatens-post-brexit-trade-deals",
-          "headline": "Tories warn Burnham’s EU ‘pandering’ will shred post-Brexit trade deals",
-          "published_at": "2026-10-02T10:28:42Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261001-migration-deal-really-a-scheme-around-political-diplomacy-between-uk-france-in-post-brexit-era-1",
-          "headline": "Migration deal: 'Really a scheme around political diplomacy between UK & France in post-Brexit era'",
-          "published_at": "2026-10-01T22:27:09Z"
-        }
-      ]
-    },
-    {
       "label": "Bardella · French · antisemitic · messages",
       "origin": "convergence",
       "source_count": 2,
@@ -235,6 +241,27 @@
           "url": "https://www.france24.com/en/video/20261002-french-website-publishes-evidence-for-antisemitism-claims-against-bardella",
           "headline": "French website publishes evidence for antisemitism claims against Bardella",
           "published_at": "2026-10-02T09:27:41Z"
+        }
+      ]
+    },
+    {
+      "label": "Brexit · deals · EU · post",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-10-02T10:28:42Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/tories-andy-burnham-eu-pandering-threatens-post-brexit-trade-deals",
+          "headline": "Tories warn Burnham’s EU ‘pandering’ will shred post-Brexit trade deals",
+          "published_at": "2026-10-02T10:28:42Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261001-migration-deal-really-a-scheme-around-political-diplomacy-between-uk-france-in-post-brexit-era-1",
+          "headline": "Migration deal: 'Really a scheme around political diplomacy between UK & France in post-Brexit era'",
+          "published_at": "2026-10-01T22:27:09Z"
         }
       ]
     }
@@ -325,6 +352,20 @@
       ]
     },
     {
+      "id": "1f1d86b6364f904c80b04c9b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The popping of the Cristiano Ronaldo bubble",
+      "url": "https://english.elpais.com/sports/2026-10-02/the-popping-of-the-cristiano-ronaldo-bubble.html",
+      "published_at": "2026-10-02T14:59:36Z",
+      "collected_at": "2026-10-02T16:01:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "aa6405064639aea986fca99f",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -378,6 +419,20 @@
         "central_europe",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "04b5c6c810dc5abdbd09cf7b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Debts are strangling Brazilian families despite a slight economic improvement",
+      "url": "https://english.elpais.com/international/2026-10-02/debts-are-strangling-brazilian-families-despite-a-slight-economic-improvement.html",
+      "published_at": "2026-10-02T14:28:33Z",
+      "collected_at": "2026-10-02T16:01:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2019,34 +2074,6 @@
       ]
     },
     {
-      "id": "9a8a63e77b6ab3d0e12b5e19",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "It’s war, not hybrid attacks, says Estonian foreign minister",
-      "url": "https://www.politico.eu/article/estonia-foreign-minister-russian-attacks-hybrid-terror-sabotage",
-      "published_at": "2026-10-01T15:02:35Z",
-      "collected_at": "2026-10-01T15:30:48Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "a8c6171e6dab9afe1bf34ba4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Cameroon govt announces payments as teachers strike continues",
-      "url": "https://www.france24.com/en/video/20261001-cameroon-govt-announces-payments-as-teachers-strike-continues",
-      "published_at": "2026-10-01T14:56:25Z",
-      "collected_at": "2026-10-01T15:30:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "f24b2c2a0be72c48d653f043",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2058,20 +2085,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "b5dc6fba42b3ca44542d0aec",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "A blessing or a curse? New Caledonia's dwindling nickel industry",
-      "url": "https://www.france24.com/en/tv-shows/focus/20261001-a-blessing-or-a-curse-new-caledonia-s-dwindling-nickel-industry",
-      "published_at": "2026-10-01T14:39:34Z",
-      "collected_at": "2026-10-01T15:30:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -2089,31 +2102,17 @@
       ]
     },
     {
-      "id": "1e79c73500c0a4f05ef14bb5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Sheer devastation: '80 percent of Gazan infrastructure has been destroyed'",
-      "url": "https://www.france24.com/en/sheer-devastation-80-percent-of-gazan-infrastructure-has-been-destroyed",
-      "published_at": "2026-10-01T14:16:41Z",
-      "collected_at": "2026-10-01T15:30:48Z",
+      "id": "c49e2f8607f2711e603b0ae2",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Where Russian maps place the occupiers, and where they really are — an overview of parts of the front (Ukraine Battlefield update, Day 1,679)",
+      "url": "https://euobserver.com/240588/where-russian-maps-place-the-occupiers-and-where-they-really-are-an-overview-of-parts-of-the-front-ukraine-battlefield-update-day-1679",
+      "published_at": "2026-09-30T14:54:44Z",
+      "collected_at": "2026-10-02T16:01:00Z",
       "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0734a8d581559198c7359346",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Tennessee governor halts executions after Christa Pike survives two lethal injections",
-      "url": "https://english.elpais.com/usa/2026-10-01/christa-pike-still-alive-after-receiving-two-lethal-injections-in-tennessee.html",
-      "published_at": "2026-10-01T08:59:32Z",
-      "collected_at": "2026-10-01T15:30:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -2138,6 +2137,20 @@
       "url": "https://english.elpais.com/culture/2026-09-30/surviving-hurricane-otis-mexican-director-jorge-michel-grau-crafts-ambitious-film-about-two-sailors-who-lived-to-tell-the-tale.html",
       "published_at": "2026-09-30T14:45:07Z",
       "collected_at": "2026-10-02T15:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "0288c290cdfda70b4a8d1911",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "One in seven Latin American children threatened by El Niño: ‘This crisis can be mitigated’",
+      "url": "https://english.elpais.com/climate/2026-09-30/one-in-seven-latin-american-children-threatened-by-el-nino-this-crisis-can-be-mitigated.html",
+      "published_at": "2026-09-30T14:33:50Z",
+      "collected_at": "2026-10-02T16:01:00Z",
       "topics": [
         "politics",
         "society",
@@ -2338,6 +2351,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "4fa4e0c148e05c4d1ea7f805",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Hungary's reckoning with Orban's corrupt system picks up speed",
+      "url": "https://www.dw.com/en/hungary-s-reckoning-with-orban-s-corrupt-system-picks-up-speed/a-79473714?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-30T04:37:00Z",
+      "collected_at": "2026-10-02T16:01:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -2576,20 +2603,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "4e8776d6be80dfbb53324092",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "European cities seek ways of boosting affordable housing",
-      "url": "https://www.dw.com/en/european-cities-seek-ways-of-boosting-affordable-housing/a-79438939?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-27T13:47:00Z",
-      "collected_at": "2026-10-01T15:30:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
