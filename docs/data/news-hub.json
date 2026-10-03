@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-03T10:00:47Z",
-  "last_successful_collection_at": "2026-10-03T10:00:47Z",
+  "generated_at": "2026-10-03T10:30:41Z",
+  "last_successful_collection_at": "2026-10-03T10:30:41Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-03T10:00:47Z"
+      "at": "2026-10-03T10:30:41Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-03T10:00:47Z"
+      "at": "2026-10-03T10:30:41Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-03T10:00:47Z"
+      "at": "2026-10-03T10:30:41Z"
     },
     {
       "id": "euractiv",
@@ -29,85 +29,68 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-03T10:00:47Z"
+      "at": "2026-10-03T10:30:41Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-03T10:00:47Z"
+      "at": "2026-10-03T10:30:41Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-03T10:00:47Z"
+      "at": "2026-10-03T10:30:41Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-03T10:00:47Z"
+      "at": "2026-10-03T10:30:41Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-03T10:00:47Z"
+      "at": "2026-10-03T10:30:41Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-03T10:00:47Z"
+      "at": "2026-10-03T10:30:41Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Strikes Target Kyiv Bridges",
-      "summary": "Russian forces launched attacks striking major bridges across the Dnipro river in Kyiv. Ukrainian officials and international reporters confirmed the assault on critical transportation infrastructure.",
+      "title": "Russian Missile Attacks Target Infrastructure in Kyiv",
+      "summary": "Russian forces launched consecutive strikes against major bridges and logistics hubs in Kyiv. Ukrainian officials reported significant infrastructure damage as ongoing military assaults persist in the region.",
       "article_ids": [
+        "414c3b10af48004304dc9d73",
         "dd289942b6b239bf0ac009e0",
         "1ed8137e3111f69f3b6273da",
         "3ce7d2fca2cb3d2ce3fddb0e"
       ],
       "sources": [
         {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/russia-hits-major-kyiv-bridge-logistics-hub-in-latest-attack",
+          "headline": "Russia hits major Kyiv bridge, logistics hub in latest attack",
+          "published_at": "2026-10-03T10:04:32Z"
+        },
+        {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20261003-russia-strikes-another-major-bridge-in-kyiv",
           "headline": "Russia strikes another major bridge across Kyiv's Dnipro river",
           "published_at": "2026-10-03T06:40:29Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia strikes second major bridge in Kyiv, mayor says",
-          "published_at": "2026-10-03T06:27:15Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "G7 Energy Reserves and Diesel Release",
-      "summary": "G7 nations released diesel and fuel stocks following pressure regarding energy policies and market stability. European officials addressed the move while denying that the bloc capitulated to external demands.",
-      "article_ids": [
-        "3cc296f6017e27fd1f10a56b"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/240914/g7-releases-diesel-stocks-after-trump-pressure-eu-denies-caving",
-          "headline": "G7 releases diesel stocks after Trump pressure, EU denies caving",
-          "published_at": "2026-10-02T16:59:05Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Spanish Parliament Housing Rejection",
-      "summary": "The Spanish parliament rejected a proposed housing bill amidst ongoing protests across the country. The legislative defeat followed public backlash and intense political debate surrounding the nation's housing crisis.",
+      "title": "Spanish Parliament Rejects Key Housing Legislation Amid Protests",
+      "summary": "Spain's parliament defeated a contentious housing bill following widespread public protests and political pressure. The legislative failure comes amid heightened scrutiny over housing policies and recent eviction controversies.",
       "article_ids": [
         "10888ca938e3e14fe21062e3",
         "3bb56e829ac078b81e82feff"
@@ -127,10 +110,28 @@
         }
       ],
       "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "G7 Energy Reserves and Market Policy",
+      "summary": "G7 nations moved to release diesel stocks following intense pressure regarding energy supplies. European officials have maintained that the coordinated release was managed independently despite external market demands.",
+      "article_ids": [
+        "3cc296f6017e27fd1f10a56b"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/240914/g7-releases-diesel-stocks-after-trump-pressure-eu-denies-caving",
+          "headline": "G7 releases diesel stocks after Trump pressure, EU denies caving",
+          "published_at": "2026-10-02T16:59:05Z"
+        }
+      ],
+      "source_count": 1
     },
     {
       "title": "Latvian Electoral Outcome",
-      "summary": "Latvian Prime Minister secured a victory in an election held against the backdrop of regional tensions involving Russia. Observers characterized the political outcome as bittersweet due to the complex security environment.",
+      "summary": "Latvia's Prime Minister secured a political victory in an election overshadowed by regional security concerns. The political outcome reflects voter sentiment amid broader geopolitical tensions involving Russia.",
       "article_ids": [
         "5e6f01444b33485420f9775d"
       ],
@@ -171,7 +172,7 @@
       "label": "French · protests · School",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
+      "item_count": 2,
       "latest_at": "2026-10-03T09:25:58Z",
       "sources": [
         {
@@ -226,6 +227,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "414c3b10af48004304dc9d73",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Russia hits major Kyiv bridge, logistics hub in latest attack",
+      "url": "https://www.politico.eu/article/russia-hits-major-kyiv-bridge-logistics-hub-in-latest-attack",
+      "published_at": "2026-10-03T10:04:32Z",
+      "collected_at": "2026-10-03T10:30:41Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "4b6800fad58f7178db5ecc08",
       "source_id": "france24",
@@ -1459,48 +1474,6 @@
       ]
     },
     {
-      "id": "bcf68a5bebfe18445bf6b22d",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "As Europe's balance of power shifts eastward, France & Spain seek to 'reinforce their own positions'",
-      "url": "https://www.france24.com/en/video/20261002-as-europe-s-balance-of-power-shifts-eastward-france-spain-seek-to-reinforce-their-own-positions-1",
-      "published_at": "2026-10-02T09:49:33Z",
-      "collected_at": "2026-10-02T10:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "53363c8e0c3ecb9a00dece07",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Matisse comes to Amsterdam in major new show",
-      "url": "https://www.france24.com/en/video/20261002-matisse-comes-to-amsterdam-in-major-new-show",
-      "published_at": "2026-10-02T09:48:56Z",
-      "collected_at": "2026-10-02T10:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "420250629e90ad0d55c0dbc7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Lula and Bolsonaro in dead heat as Brazil goes to polls",
-      "url": "https://www.france24.com/en/video/20261002-lula-and-bolsonaro-in-dead-heat-as-brazil-goes-to-polls",
-      "published_at": "2026-10-02T09:47:20Z",
-      "collected_at": "2026-10-02T10:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "05494cad41587bb7ecb4ee41",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1515,34 +1488,6 @@
       ]
     },
     {
-      "id": "bbc0464f03fe900138debf72",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French pensioners set to feel pinch under belt-tightening budget",
-      "url": "https://www.france24.com/en/video/20261002-french-pensioners-set-to-feel-pinch-under-belt-tightening-budget",
-      "published_at": "2026-10-02T09:34:47Z",
-      "collected_at": "2026-10-02T10:00:50Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "b4754adc5becb1655ecb793d",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Spain’s Sánchez weighs calling snap election as housing defeat looms",
-      "url": "https://www.politico.eu/article/spains-sanchez-weighs-calling-snap-election-as-housing-defeat-looms",
-      "published_at": "2026-10-02T09:33:32Z",
-      "collected_at": "2026-10-02T10:00:50Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "80e11d81834a72d07ae33442",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1550,20 +1495,6 @@
       "url": "https://www.politico.eu/article/spains-sanchez-weighs-calling-snap-election-as-housing-defeat-looms",
       "published_at": "2026-10-02T09:33:32Z",
       "collected_at": "2026-10-02T14:00:51Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "c12398516ca3884fa6df7d89",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "France floats major oil and diesel reserve release in response to US pressure",
-      "url": "https://www.politico.eu/article/france-floats-major-release-of-oil-and-diesel-reserves-in-response-to-us-pressure",
-      "published_at": "2026-10-02T09:23:54Z",
-      "collected_at": "2026-10-02T10:00:50Z",
       "topics": [
         "institutions",
         "politics",
@@ -1596,20 +1527,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "97fcd07b706d9d27b759dcd3",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Europe’s Affordable Housing Act must look beyond short-term rentals",
-      "url": "https://euobserver.com/240606/europes-affordable-housing-act-must-look-beyond-short-term-rentals",
-      "published_at": "2026-10-02T08:35:00Z",
-      "collected_at": "2026-10-02T10:00:50Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
       ]
     },
     {
@@ -1694,6 +1611,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "b85c3738ff29d2b7ae1776fd",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Europe’s children will inherit public-health crisis from new EU pesticide approvals",
+      "url": "https://euobserver.com/240266/europes-children-will-inherit-public-health-crisis-from-new-eu-pesticide-approvals",
+      "published_at": "2026-10-01T09:37:00Z",
+      "collected_at": "2026-10-03T10:30:41Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -2114,6 +2045,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "ceb838ad9b568bc306ec4f72",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland changes rules of engagement for firing on foreign aircraft amid growing Russia threat",
+      "url": "https://notesfrompoland.com/2026/09/29/poland-changes-rules-of-engagement-for-firing-on-foreign-aircraft-amid-growing-russia-threat",
+      "published_at": "2026-09-29T09:56:50Z",
+      "collected_at": "2026-10-03T10:30:41Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
       ]
     },
     {
