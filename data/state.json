@@ -1,14 +1,5 @@
 {
   "seen": {
-    "2329a08a2f32f7bf453f74b8": "2026-10-01T12:00:55Z",
-    "f7f2c6489fbd8aedc9dab013": "2026-10-01T12:00:55Z",
-    "d57ee85d3e8140d7b846967c": "2026-10-01T12:00:55Z",
-    "467e16be597bdb74ecbfcd27": "2026-10-01T12:00:55Z",
-    "7c264658f08074e0c324dd3a": "2026-10-01T12:30:46Z",
-    "b16a0fa17f3c13c703134e4f": "2026-10-01T12:30:46Z",
-    "296735cd11691deea5b231b9": "2026-10-01T12:30:46Z",
-    "40681322a5246243b96fa144": "2026-10-01T12:30:46Z",
-    "e68ac266eae3fee32b9602c2": "2026-10-01T12:30:46Z",
     "a2e95dfc8f930700f2d50097": "2026-10-01T13:00:52Z",
     "f84275cd84c5574ea1472796": "2026-10-01T13:00:52Z",
     "984592b84c24f2a07aa29a85": "2026-10-01T13:00:52Z",
@@ -325,9 +316,25 @@
     "aa6818e7327dd04f1cb6d6b5": "2026-10-03T11:00:47Z",
     "dfbe4cc8e11ebd13ae3c8c04": "2026-10-03T11:00:47Z",
     "2d3c117e5c963f0d237bec9f": "2026-10-03T11:30:43Z",
-    "b5ab7fc488a1c12e1d9b5150": "2026-10-03T12:00:52Z"
+    "b5ab7fc488a1c12e1d9b5150": "2026-10-03T12:00:52Z",
+    "116129a7225d9e4585817d13": "2026-10-03T12:30:48Z",
+    "467e16be597bdb74ecbfcd27": "2026-10-03T12:30:48Z"
   },
   "radar": [
+    {
+      "id": "116129a7225d9e4585817d13",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Protesters across Spain demand action over housing crisis",
+      "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-03T12:16:15Z",
+      "collected_at": "2026-10-03T12:30:48Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "b5ab7fc488a1c12e1d9b5150",
       "source_id": "bbc_europe",
@@ -1449,6 +1456,20 @@
       ]
     },
     {
+      "id": "467e16be597bdb74ecbfcd27",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Listen: How does Trump’s AI pact compare with the EU?",
+      "url": "https://euobserver.com/240706/listen-how-does-trumps-ai-pact-compare-with-the-eu",
+      "published_at": "2026-10-01T11:51:49Z",
+      "collected_at": "2026-10-03T12:30:48Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "dfbe4cc8e11ebd13ae3c8c04",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1778,20 +1799,6 @@
       "url": "https://notesfrompoland.com/2026/09/30/inflation-hits-4-in-poland-as-fuel-prices-surge",
       "published_at": "2026-09-30T12:25:19Z",
       "collected_at": "2026-10-02T13:00:49Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "c607fdceb5b90e759b98414b",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "US ambassador inaugurates planned Polish-American Centre at Kraków’s Kościuszko Mound",
-      "url": "https://notesfrompoland.com/2026/09/30/us-ambassador-inaugurates-planned-polish-american-centre-at-krakows-kosciuszko-mound",
-      "published_at": "2026-09-30T11:32:31Z",
-      "collected_at": "2026-10-02T12:30:40Z",
       "topics": [
         "central_europe",
         "politics",
@@ -2165,14 +2172,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-10-02T10:30:44Z",
-      "title": "Turkish Financial Market Scandal and Arrests"
-    },
-    {
-      "at": "2026-10-02T11:00:49Z",
-      "title": "French Student Protests"
-    },
-    {
       "at": "2026-10-02T11:00:49Z",
       "title": "Turkish Stock Market Scandal"
     },
@@ -2483,6 +2482,14 @@
     {
       "at": "2026-10-03T12:00:52Z",
       "title": "Latvian Electoral Outcome"
+    },
+    {
+      "at": "2026-10-03T12:30:48Z",
+      "title": "G7 Energy and Fuel Policies"
+    },
+    {
+      "at": "2026-10-03T12:30:48Z",
+      "title": "Latvian Electoral Outcome"
     }
   ],
   "alerts": [],
@@ -2490,12 +2497,10 @@
     "europe_now": [
       {
         "title": "Russian Strikes Target Kyiv Bridges",
-        "summary": "Russian attacks have hit major bridges in Kyiv, including a second key crossing in the capital city. The strikes are part of an ongoing escalation affecting vital infrastructure and regional logistics.",
+        "summary": "Russian forces struck a major bridge in Kyiv's capital, marking the second critical bridge targeted in recent attacks.",
         "article_ids": [
           "b5ab7fc488a1c12e1d9b5150",
-          "414c3b10af48004304dc9d73",
-          "dd289942b6b239bf0ac009e0",
-          "1ed8137e3111f69f3b6273da"
+          "414c3b10af48004304dc9d73"
         ],
         "sources": [
           {
@@ -2514,8 +2519,33 @@
         "source_count": 2
       },
       {
-        "title": "G7 Diesel and Energy Reserves Release",
-        "summary": "G7 nations have moved to release diesel stocks following policy pressures, while the European Union has denied caving to demands. The coordinated move addresses broader energy market stability and supply concerns.",
+        "title": "Spanish Parliament Rejects Housing Bill Amid Protests",
+        "summary": "Spain's parliament rejected a proposed housing bill as demonstrators organized nationwide protests demanding immediate action over the housing crisis.",
+        "article_ids": [
+          "116129a7225d9e4585817d13",
+          "10888ca938e3e14fe21062e3"
+        ],
+        "sources": [
+          {
+            "publisher": "BBC News Europe",
+            "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
+            "headline": "Protesters across Spain demand action over housing crisis",
+            "published_at": "2026-10-03T12:16:15Z"
+          },
+          {
+            "publisher": "Deutsche Welle",
+            "url": "https://www.dw.com/en/spain-s-parliament-rejects-housing-bill-as-protests-continue/a-79522683?maca=en-rss-en-eu-2092-rdf",
+            "headline": "Spain's parliament rejects housing bill as protests continue",
+            "published_at": "2026-10-02T16:39:00Z"
+          }
+        ],
+        "source_count": 2
+      }
+    ],
+    "top_stories": [
+      {
+        "title": "G7 Energy and Fuel Policies",
+        "summary": "G7 nations released diesel and oil reserves following political pressure. European officials denied that the bloc caved to external demands during the discussions.",
         "article_ids": [
           "3cc296f6017e27fd1f10a56b"
         ],
@@ -2528,28 +2558,10 @@
           }
         ],
         "source_count": 1
-      }
-    ],
-    "top_stories": [
-      {
-        "title": "Spanish Parliament Rejects Housing Bill",
-        "summary": "The Spanish parliament has voted to reject a prominent housing bill amid ongoing public protests. Lawmakers faced continued pressure as legislative opposition blocked the proposed measures.",
-        "article_ids": [
-          "10888ca938e3e14fe21062e3"
-        ],
-        "sources": [
-          {
-            "publisher": "Deutsche Welle",
-            "url": "https://www.dw.com/en/spain-s-parliament-rejects-housing-bill-as-protests-continue/a-79522683?maca=en-rss-en-eu-2092-rdf",
-            "headline": "Spain's parliament rejects housing bill as protests continue",
-            "published_at": "2026-10-02T16:39:00Z"
-          }
-        ],
-        "source_count": 1
       },
       {
         "title": "Latvian Electoral Outcome",
-        "summary": "Latvia's Prime Minister has secured a bittersweet victory in an election held against the backdrop of regional tensions involving Russia. The electoral results highlight shifting political dynamics within the Baltic state.",
+        "summary": "The Latvian prime minister navigated a complex electoral landscape against a backdrop of regional security concerns. The political outcome left leaders facing a bittersweet victory.",
         "article_ids": [
           "5e6f01444b33485420f9775d"
         ],
@@ -2565,5 +2577,5 @@
       }
     ]
   },
-  "last_collection_at": "2026-10-03T12:00:52Z"
+  "last_collection_at": "2026-10-03T12:30:48Z"
 }
