@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-03T15:30:44Z",
-  "last_successful_collection_at": "2026-10-03T15:30:44Z",
+  "generated_at": "2026-10-03T16:00:48Z",
+  "last_successful_collection_at": "2026-10-03T16:00:48Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-03T15:30:44Z"
+      "at": "2026-10-03T16:00:48Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-03T15:30:44Z"
+      "at": "2026-10-03T16:00:48Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-03T15:30:44Z"
+      "at": "2026-10-03T16:00:48Z"
     },
     {
       "id": "euractiv",
@@ -29,48 +29,47 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-03T15:30:44Z"
+      "at": "2026-10-03T16:00:48Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-03T15:30:44Z"
+      "at": "2026-10-03T16:00:48Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-03T15:30:44Z"
+      "at": "2026-10-03T16:00:48Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-03T15:30:44Z"
+      "at": "2026-10-03T16:00:48Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-03T15:30:44Z"
+      "at": "2026-10-03T16:00:48Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-03T15:30:44Z"
+      "at": "2026-10-03T16:00:48Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Attacks Strike Infrastructure in Kyiv and Spark Airspace Violation in Moldova",
-      "summary": "Russian forces targeted a major bridge and logistics hub in Kyiv while attack debris landed in neighboring Moldova during an airspace violation. Moldovan leadership strongly condemned the latest cross-border security breach amid ongoing regional hostilities.",
+      "title": "Russian Strike on Kyiv Infrastructure",
+      "summary": "Russian forces launched an attack hitting a major bridge across the Dnipro river in Kyiv. This constitutes a severe escalation affecting critical capital infrastructure.",
       "article_ids": [
         "b5ab7fc488a1c12e1d9b5150",
-        "87414fac55e89da66c173788",
-        "414c3b10af48004304dc9d73",
-        "dd289942b6b239bf0ac009e0"
+        "dd289942b6b239bf0ac009e0",
+        "1ed8137e3111f69f3b6273da"
       ],
       "sources": [
         {
@@ -80,44 +79,59 @@
           "published_at": "2026-10-03T11:48:41Z"
         },
         {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261003-russia-strikes-another-major-bridge-in-kyiv",
+          "headline": "Russia strikes another major bridge across Kyiv's Dnipro river",
+          "published_at": "2026-10-03T06:40:29Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Moldovan Airspace Violation",
+      "summary": "Moldova experienced a fresh airspace violation as attack debris struck its territory. President Maia Sandu strongly condemned Russia following the incident.",
+      "article_ids": [
+        "87414fac55e89da66c173788"
+      ],
+      "sources": [
+        {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/maia-sandu-slams-russia-as-attack-debris-hits-moldova-in-latest-airspace-violation",
           "headline": "Sandu slams Russia as attack debris hits Moldova in latest airspace violation",
           "published_at": "2026-10-03T12:50:53Z"
         }
       ],
-      "source_count": 2
-    },
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Housing Protests and Legislative Rejections Stir Political Uncertainty in Spain",
-      "summary": "Fresh protests erupted across Spain after lawmakers rejected proposed housing relief measures in parliament. The escalating crisis has intensified political pressure, with potential implications for Prime Minister Pedro Sánchez's government.",
+      "title": "Spanish Housing Protests and Legislative Defeat",
+      "summary": "Lawmakers in Spain rejected proposed housing relief measures, triggering large-scale public protests across the country. The ongoing housing crisis has also fueled speculation regarding a potential snap election.",
       "article_ids": [
         "1e0417094a23f2e32078dcbf",
         "7a55cd63ce3d3c8a7f2fc824",
-        "116129a7225d9e4585817d13",
-        "c6b898bcd2ad35fd96e5207d"
+        "116129a7225d9e4585817d13"
       ],
       "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/spaniards-protest-housing-crisis-as-pedro-sanchez-weighs-snap-vote",
-          "headline": "Spaniards protest housing crisis as Sánchez weighs snap vote",
-          "published_at": "2026-10-03T15:17:04Z"
-        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20261003-fresh-protests-over-housing-flare-spain-after-lawmakers-reject-relief-measures",
           "headline": "Fresh protests over housing flare in Spain after lawmakers reject relief measures",
           "published_at": "2026-10-03T13:20:35Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
+          "headline": "Protesters across Spain demand action over housing crisis",
+          "published_at": "2026-10-03T12:16:15Z"
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
+    },
     {
       "title": "Latvian Electoral Outcome",
-      "summary": "Prime Minister Andris Kulbergs secured a bittersweet victory in Latvia's national elections. The political outcome unfolded against a tense backdrop of heightened regional security concerns involving Russia.",
+      "summary": "Latvia's Prime Minister secured a victory in an election overshadowed by regional security concerns involving Russia. The political outcome reflects a complex mandate for the returning leadership.",
       "article_ids": [
         "5e6f01444b33485420f9775d"
       ],
@@ -127,38 +141,6 @@
           "url": "https://www.politico.eu/article/latvia-prime-minister-andris-kulbergs-faces-bittersweet-victory-election-2026",
           "headline": "Latvian PM faces bittersweet victory in election backdropped by Russia",
           "published_at": "2026-10-03T02:00:00Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Polish Nuclear Strategy Updates",
-      "summary": "Poland has officially updated its national nuclear energy strategy. The revised plans include notable delays regarding the anticipated launch dates for its first two nuclear power plants.",
-      "article_ids": [
-        "0b606a175f8a091fb1956064"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/10/03/poland-updates-nuclear-strategy-with-delays-to-launch-of-first-two-plants",
-          "headline": "Poland updates nuclear strategy with delays to launch of first two plants",
-          "published_at": "2026-10-03T15:00:59Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Security Threat Charge in the UK",
-      "summary": "A suspect linked to the Widdecombe murder investigation has been formally charged with planning a terrorist act against politician Nigel Farage. British authorities announced the updated charges following ongoing security inquiries.",
-      "article_ids": [
-        "b56f9efe3f641e57299b7926"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/anne-widdecombe-murder-suspect-charged-with-planning-terror-act-on-nigel-farage",
-          "headline": "Widdecombe murder suspect charged with planning terror act on Nigel Farage",
-          "published_at": "2026-10-03T09:03:48Z"
         }
       ],
       "source_count": 1
@@ -217,22 +199,36 @@
       ]
     },
     {
-      "label": "bill · continue · housing · parliament",
+      "label": "Barricades · blame · French · game",
       "origin": "radar",
       "source_count": 1,
       "item_count": 1,
-      "latest_at": "2026-10-02T16:39:00Z",
+      "latest_at": "2026-10-03T09:25:58Z",
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/spain-s-parliament-rejects-housing-bill-as-protests-continue/a-79522683?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Spain's parliament rejects housing bill as protests continue",
-          "published_at": "2026-10-02T16:39:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/the-debate/20261003-barricades-the-blame-game-the-french-school-protests",
+          "headline": "Barricades & the blame game: the French school protests",
+          "published_at": "2026-10-03T09:25:58Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "f48adc63e585ebbe1a44bb4c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Italy’s Ustica enigma: Can French files solve mystery crash blamed on stray missile?",
+      "url": "https://www.france24.com/en/europe/20261003-italy-ustica-enigma-can-french-files-solve-mystery-crash-blamed-on-stray-missile-gaddafi",
+      "published_at": "2026-10-03T15:42:45Z",
+      "collected_at": "2026-10-03T16:00:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "1e0417094a23f2e32078dcbf",
       "source_id": "politico_europe",
@@ -269,6 +265,20 @@
       "url": "https://www.france24.com/en/middle-east/20261003-houthis-blame-saudi-air-strikes-loud-blasts-rock-yemen-capital-sanaa",
       "published_at": "2026-10-03T14:31:30Z",
       "collected_at": "2026-10-03T15:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "dd734cbc4bd2883d21c2c679",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Loud blasts rock Sanaa as Houthis accuse Saudi forces of pounding Yemeni capital",
+      "url": "https://www.france24.com/en/middle-east/20261003-houthis-blame-saudi-air-strikes-loud-blasts-rock-yemen-capital-sanaa",
+      "published_at": "2026-10-03T14:31:30Z",
+      "collected_at": "2026-10-03T16:00:48Z",
       "topics": [
         "politics",
         "security",
@@ -1662,6 +1672,20 @@
       ]
     },
     {
+      "id": "4e8776d6be80dfbb53324092",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "European cities seek ways of boosting affordable housing",
+      "url": "https://www.dw.com/en/european-cities-seek-ways-of-boosting-affordable-housing/a-79438939?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-27T13:47:00Z",
+      "collected_at": "2026-10-03T16:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "5b6bb265879d8e54f7028af5",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1774,6 +1798,34 @@
       ]
     },
     {
+      "id": "7609d7bb3f433af573b3bae8",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "How Venezuela pushed aside a local oil company to make way for new US partners: ‘They simply took the assets and disappeared’",
+      "url": "https://english.elpais.com/international/2026-09-09/how-venezuela-pushed-aside-a-local-oil-company-to-make-way-for-new-us-partners-they-simply-took-the-assets-and-disappeared.html",
+      "published_at": "2026-09-10T19:47:57Z",
+      "collected_at": "2026-10-03T16:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "e2a0eef90a3ff72c6fc9e610",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Feather trapped in dinosaur droppings provides new clues about why some birds survived extinction",
+      "url": "https://english.elpais.com/science-tech/2026-09-10/a-feather-trapped-in-dinosaur-droppings-provides-new-clues-about-why-some-birds-survived-extinction.html",
+      "published_at": "2026-09-10T15:59:54Z",
+      "collected_at": "2026-10-03T16:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "2bd90210d81819e1457413bf",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1781,6 +1833,34 @@
       "url": "https://english.elpais.com/culture/2026-09-10/nacho-valle-the-gallerist-who-traded-art-for-sardines-in-new-york.html",
       "published_at": "2026-09-10T12:52:48Z",
       "collected_at": "2026-10-02T16:30:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "7efa220b5e933242e3c5f85f",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Héctor Socas, astrophysicist: ‘If a more advanced civilization contacted us, they should be more afraid of us than we are of them’",
+      "url": "https://english.elpais.com/science-tech/2026-09-09/hector-socas-astrophysicist-if-a-more-advanced-civilization-contacted-us-they-should-be-more-afraid-of-us-than-we-are-of-them.html",
+      "published_at": "2026-09-09T18:32:09Z",
+      "collected_at": "2026-10-03T16:00:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "8442dda57a3758ee99638760",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Zhang Ziyu, the 2.23-meter World Cup sensation",
+      "url": "https://english.elpais.com/sports/2026-09-09/zhang-ziyu-the-223-meter-world-cup-sensation.html",
+      "published_at": "2026-09-09T13:50:39Z",
+      "collected_at": "2026-10-03T16:00:48Z",
       "topics": [
         "politics",
         "society",
