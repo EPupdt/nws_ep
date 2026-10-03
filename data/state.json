@@ -340,9 +340,24 @@
     "37eb95347d9e8eb56ac5dfb1": "2026-10-03T06:31:17Z",
     "903970648bd8e533dca9b643": "2026-10-03T06:31:17Z",
     "f6d8756ac2062ed1d927ecaa": "2026-10-03T06:31:17Z",
-    "1c9ff025b14abd7f022a1c2a": "2026-10-03T06:31:17Z"
+    "1c9ff025b14abd7f022a1c2a": "2026-10-03T06:31:17Z",
+    "dd289942b6b239bf0ac009e0": "2026-10-03T07:00:48Z"
   },
   "radar": [
+    {
+      "id": "dd289942b6b239bf0ac009e0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russia strikes another major bridge across Kyiv's Dnipro river",
+      "url": "https://www.france24.com/en/europe/20261003-russia-strikes-another-major-bridge-in-kyiv",
+      "published_at": "2026-10-03T06:40:29Z",
+      "collected_at": "2026-10-03T07:00:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "1ed8137e3111f69f3b6273da",
       "source_id": "bbc_europe",
@@ -2559,14 +2574,6 @@
   "recent_topics": [
     {
       "at": "2026-10-02T06:30:49Z",
-      "title": "US demands European diesel reserves amid export ban threat"
-    },
-    {
-      "at": "2026-10-02T06:30:49Z",
-      "title": "Turkey stock market scandal affects nearly half a million investors"
-    },
-    {
-      "at": "2026-10-02T06:30:49Z",
       "title": "Failed Leipzig attack reveals wider Russian campaign"
     },
     {
@@ -2876,37 +2883,45 @@
     {
       "at": "2026-10-03T06:31:17Z",
       "title": "G7 Energy Reserves Release"
+    },
+    {
+      "at": "2026-10-03T07:00:48Z",
+      "title": "European Coalition Resists EU Budget Reductions"
+    },
+    {
+      "at": "2026-10-03T07:00:48Z",
+      "title": "G7 Energy Reserves Release and Market Policy"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Russian Missile Attacks Target Kyiv Bridges",
-        "summary": "Russian forces launched a new offensive striking a second major bridge in Kyiv amid ongoing conflict. Ukrainian authorities and international observers report shifting tactics as the assault on critical infrastructure intensifies.",
+        "title": "Russian Strikes Target Infrastructure in Kyiv",
+        "summary": "Russian forces launched missile attacks against major bridges across the Dnipro river in Kyiv. Ukrainian authorities and international observers reported significant escalation in the ongoing military conflict affecting urban infrastructure.",
         "article_ids": [
-          "1ed8137e3111f69f3b6273da",
-          "3ce7d2fca2cb3d2ce3fddb0e"
+          "dd289942b6b239bf0ac009e0",
+          "1ed8137e3111f69f3b6273da"
         ],
         "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20261003-russia-strikes-another-major-bridge-in-kyiv",
+            "headline": "Russia strikes another major bridge across Kyiv's Dnipro river",
+            "published_at": "2026-10-03T06:40:29Z"
+          },
           {
             "publisher": "BBC News Europe",
             "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
             "headline": "Russia strikes second major bridge in Kyiv, mayor says",
             "published_at": "2026-10-03T06:27:15Z"
-          },
-          {
-            "publisher": "EUobserver",
-            "url": "https://euobserver.com/240876/the-war-changes-yet-again-ukrainians-use-domestic-missile-for-first-time-as-russians-launch-assault-on-bridges-ukraine-battlefield-update-day-1681",
-            "headline": "The war changes yet again: Ukrainians use domestic missile for first time as Russians launch assault on bridges (Ukraine Battlefield update, Day 1,681)",
-            "published_at": "2026-10-02T16:29:22Z"
           }
         ],
         "source_count": 2
       },
       {
-        "title": "Spanish Housing Bill Defeat",
-        "summary": "The Spanish parliament rejected a key affordable housing bill following protests and the eviction of an elderly resident. This legislative defeat deals a major blow to Prime Minister Pedro Sánchez's government.",
+        "title": "Spanish Parliament Defeats Housing Legislation",
+        "summary": "Lawmakers in Spain rejected key affordable housing bills proposed by the government amid ongoing public protests. The legislative defeat creates political pressure for Prime Minister Pedro Sánchez's administration.",
         "article_ids": [
           "10888ca938e3e14fe21062e3",
           "3bb56e829ac078b81e82feff",
@@ -2931,11 +2946,26 @@
     ],
     "top_stories": [
       {
-        "title": "G7 Energy Reserves Release",
-        "summary": "G7 nations agreed to a major release of oil and diesel stocks following pressure from the United States. European officials have denied caving to external demands regarding the emergency energy measures.",
+        "title": "European Coalition Resists EU Budget Reductions",
+        "summary": "Seventeen European nations joined forces to oppose proposed budget cuts by the European Union. The coordinated political push highlights mounting friction among member states regarding fiscal policy.",
         "article_ids": [
-          "3cc296f6017e27fd1f10a56b",
-          "88337c2a480d073d70f2e980"
+          "443c3f3e5adf4d0c44c20edf"
+        ],
+        "sources": [
+          {
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/17-countries-join-forces-to-oppose-eu-budget-cuts",
+            "headline": "17 countries join forces to oppose EU budget cuts",
+            "published_at": "2026-10-02T14:39:01Z"
+          }
+        ],
+        "source_count": 1
+      },
+      {
+        "title": "G7 Energy Reserves Release and Market Policy",
+        "summary": "G7 nations released diesel and energy stocks following international pressure and ongoing supply concerns. European officials addressed the intervention while navigating complex regional energy policies.",
+        "article_ids": [
+          "3cc296f6017e27fd1f10a56b"
         ],
         "sources": [
           {
@@ -2943,17 +2973,11 @@
             "url": "https://euobserver.com/240914/g7-releases-diesel-stocks-after-trump-pressure-eu-denies-caving",
             "headline": "G7 releases diesel stocks after Trump pressure, EU denies caving",
             "published_at": "2026-10-02T16:59:05Z"
-          },
-          {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/trump-says-europe-agrees-to-release-massive-amount-of-diesel",
-            "headline": "G7 agrees major release of oil stocks following pressure from the US",
-            "published_at": "2026-10-02T14:16:12Z"
           }
         ],
-        "source_count": 2
+        "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-10-03T06:31:17Z"
+  "last_collection_at": "2026-10-03T07:00:48Z"
 }
