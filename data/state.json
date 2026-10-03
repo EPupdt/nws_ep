@@ -318,9 +318,39 @@
     "2d3c117e5c963f0d237bec9f": "2026-10-03T11:30:43Z",
     "b5ab7fc488a1c12e1d9b5150": "2026-10-03T12:00:52Z",
     "116129a7225d9e4585817d13": "2026-10-03T12:30:48Z",
-    "467e16be597bdb74ecbfcd27": "2026-10-03T12:30:48Z"
+    "467e16be597bdb74ecbfcd27": "2026-10-03T12:30:48Z",
+    "c6b898bcd2ad35fd96e5207d": "2026-10-03T13:00:48Z",
+    "87414fac55e89da66c173788": "2026-10-03T13:00:48Z"
   },
   "radar": [
+    {
+      "id": "87414fac55e89da66c173788",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Sandu slams Russia as attack debris hits Moldova in latest airspace violation",
+      "url": "https://www.politico.eu/article/maia-sandu-slams-russia-as-attack-debris-hits-moldova-in-latest-airspace-violation",
+      "published_at": "2026-10-03T12:50:53Z",
+      "collected_at": "2026-10-03T13:00:48Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "c6b898bcd2ad35fd96e5207d",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Will Spain's housing crisis lead to a snap election?",
+      "url": "https://www.bbc.co.uk/news/videos/cmgj9vz2zxelo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-03T12:26:30Z",
+      "collected_at": "2026-10-03T13:00:48Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "116129a7225d9e4585817d13",
       "source_id": "bbc_europe",
@@ -2172,14 +2202,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-10-02T11:00:49Z",
-      "title": "Turkish Stock Market Scandal"
-    },
-    {
-      "at": "2026-10-02T11:00:49Z",
-      "title": "French Cost-Cutting Budget"
-    },
-    {
       "at": "2026-10-02T11:30:44Z",
       "title": "French Budget and Protests"
     },
@@ -2490,17 +2512,27 @@
     {
       "at": "2026-10-03T12:30:48Z",
       "title": "Latvian Electoral Outcome"
+    },
+    {
+      "at": "2026-10-03T13:00:48Z",
+      "title": "Spanish Housing Legislation Rejection"
+    },
+    {
+      "at": "2026-10-03T13:00:48Z",
+      "title": "Latvian Election Outcome"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Russian Strikes Target Kyiv Bridges",
-        "summary": "Russian forces struck a major bridge in Kyiv's capital, marking the second critical bridge targeted in recent attacks.",
+        "title": "Russian Strikes Hit Kyiv Infrastructure",
+        "summary": "Russian attacks have struck a major bridge and logistics hub in Kyiv, marking significant escalation in infrastructure targeting within Ukraine's capital.",
         "article_ids": [
           "b5ab7fc488a1c12e1d9b5150",
-          "414c3b10af48004304dc9d73"
+          "414c3b10af48004304dc9d73",
+          "dd289942b6b239bf0ac009e0",
+          "1ed8137e3111f69f3b6273da"
         ],
         "sources": [
           {
@@ -2519,18 +2551,37 @@
         "source_count": 2
       },
       {
-        "title": "Spanish Parliament Rejects Housing Bill Amid Protests",
-        "summary": "Spain's parliament rejected a proposed housing bill as demonstrators organized nationwide protests demanding immediate action over the housing crisis.",
+        "title": "Moldova Airspace Violation",
+        "summary": "Moldovan President Maia Sandu condemned Russia after attack debris landed in Moldova during recent airspace violations.",
         "article_ids": [
+          "87414fac55e89da66c173788"
+        ],
+        "sources": [
+          {
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/maia-sandu-slams-russia-as-attack-debris-hits-moldova-in-latest-airspace-violation",
+            "headline": "Sandu slams Russia as attack debris hits Moldova in latest airspace violation",
+            "published_at": "2026-10-03T12:50:53Z"
+          }
+        ],
+        "source_count": 1
+      }
+    ],
+    "top_stories": [
+      {
+        "title": "Spanish Housing Legislation Rejection",
+        "summary": "The Spanish parliament has rejected a proposed housing bill as protesters take to the streets demanding urgent action over the housing crisis. Demonstrators across Spain continue to call for reform following the legislative defeat.",
+        "article_ids": [
+          "c6b898bcd2ad35fd96e5207d",
           "116129a7225d9e4585817d13",
           "10888ca938e3e14fe21062e3"
         ],
         "sources": [
           {
             "publisher": "BBC News Europe",
-            "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
-            "headline": "Protesters across Spain demand action over housing crisis",
-            "published_at": "2026-10-03T12:16:15Z"
+            "url": "https://www.bbc.co.uk/news/videos/cmgj9vz2zxelo?at_medium=RSS&at_campaign=rss",
+            "headline": "Will Spain's housing crisis lead to a snap election?",
+            "published_at": "2026-10-03T12:26:30Z"
           },
           {
             "publisher": "Deutsche Welle",
@@ -2540,28 +2591,10 @@
           }
         ],
         "source_count": 2
-      }
-    ],
-    "top_stories": [
-      {
-        "title": "G7 Energy and Fuel Policies",
-        "summary": "G7 nations released diesel and oil reserves following political pressure. European officials denied that the bloc caved to external demands during the discussions.",
-        "article_ids": [
-          "3cc296f6017e27fd1f10a56b"
-        ],
-        "sources": [
-          {
-            "publisher": "EUobserver",
-            "url": "https://euobserver.com/240914/g7-releases-diesel-stocks-after-trump-pressure-eu-denies-caving",
-            "headline": "G7 releases diesel stocks after Trump pressure, EU denies caving",
-            "published_at": "2026-10-02T16:59:05Z"
-          }
-        ],
-        "source_count": 1
       },
       {
-        "title": "Latvian Electoral Outcome",
-        "summary": "The Latvian prime minister navigated a complex electoral landscape against a backdrop of regional security concerns. The political outcome left leaders facing a bittersweet victory.",
+        "title": "Latvian Election Outcome",
+        "summary": "Latvian Prime Minister Andris Kulbergs faces a bittersweet victory in an election backdropped by regional tensions involving Russia. The electoral outcome highlights shifting political dynamics in the Baltic region.",
         "article_ids": [
           "5e6f01444b33485420f9775d"
         ],
@@ -2577,5 +2610,5 @@
       }
     ]
   },
-  "last_collection_at": "2026-10-03T12:30:48Z"
+  "last_collection_at": "2026-10-03T13:00:48Z"
 }
