@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-03T16:30:51Z",
-  "last_successful_collection_at": "2026-10-03T16:30:51Z",
+  "generated_at": "2026-10-03T17:00:51Z",
+  "last_successful_collection_at": "2026-10-03T17:00:51Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-03T16:30:51Z"
+      "at": "2026-10-03T17:00:51Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-03T16:30:51Z"
+      "at": "2026-10-03T17:00:51Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-03T16:30:51Z"
+      "at": "2026-10-03T17:00:51Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,54 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-03T16:30:51Z"
+      "at": "2026-10-03T17:00:51Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-03T16:30:51Z"
+      "at": "2026-10-03T17:00:51Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-03T16:30:51Z"
+      "at": "2026-10-03T17:00:51Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-03T16:30:51Z"
+      "at": "2026-10-03T17:00:51Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-03T16:30:51Z"
+      "at": "2026-10-03T17:00:51Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-03T16:30:51Z"
+      "at": "2026-10-03T17:00:51Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Security Threat Charge in the UK",
-      "summary": "Two Iranian nationals have been formally charged in connection with an alleged bomb plot targeting Britain's Jewish community.",
+      "title": "UK Remands Two Iranians Over Alleged Terror Plot",
+      "summary": "British authorities have remanded two Iranian nationals facing charges related to an alleged bomb plot targeting the Jewish community in the United Kingdom.",
       "article_ids": [
+        "224ea8863770c2d291912be7",
         "74a9e1df3a294af226cf09a4"
       ],
       "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/uk-remands-2-iranians-over-alleged-antisemitic-terror-plot/a-79532184?maca=en-rss-en-eu-2092-rdf",
+          "headline": "UK remands 2 Iranians over alleged antisemitic terror plot",
+          "published_at": "2026-10-03T16:10:00Z"
+        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/two-iranians-charged-with-alleged-bomb-plot-against-britains-jewish-community",
@@ -77,11 +84,11 @@
           "published_at": "2026-10-03T16:01:51Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Moldova Airspace Violation",
-      "summary": "Moldovan President Maia Sandu strongly condemned Russia following an incident where attack debris landed in the country during a fresh airspace violation.",
+      "title": "Debris Hits Moldova in Latest Airspace Violation",
+      "summary": "Moldovan leadership strongly condemned Russia following an incident where attack debris struck national territory during ongoing regional aerial strikes.",
       "article_ids": [
         "87414fac55e89da66c173788"
       ],
@@ -98,12 +105,39 @@
   ],
   "top_stories": [
     {
-      "title": "Ukrainian Infrastructure Attacks",
-      "summary": "Russian forces launched a series of strikes hitting a major bridge and a logistics hub in Ukraine's capital. This escalation marks the targeting of a second major bridge across the Dnipro river in Kyiv.",
+      "title": "Housing Protests Erupt Across Spain",
+      "summary": "Tens of thousands of demonstrators gathered across Spain to protest a severe housing crisis following a legislative defeat for relief measures in parliament. Prime Minister Pedro Sánchez is currently weighing the possibility of a snap election amid the mounting public pressure.",
+      "article_ids": [
+        "1e0417094a23f2e32078dcbf",
+        "37e27f856b74f06f7a89dd3d",
+        "7a55cd63ce3d3c8a7f2fc824",
+        "c6b898bcd2ad35fd96e5207d",
+        "116129a7225d9e4585817d13"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/spaniards-protest-housing-crisis-as-pedro-sanchez-weighs-snap-vote",
+          "headline": "Spaniards protest housing crisis as Sánchez weighs snap vote",
+          "published_at": "2026-10-03T15:17:04Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
+          "headline": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
+          "published_at": "2026-10-03T13:34:11Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Russian Strikes Hit Kyiv Infrastructure",
+      "summary": "Russian military forces targeted a second major bridge across the Dnipro river in the Ukrainian capital of Kyiv. The assault marks the latest in a series of severe strikes impacting local infrastructure and transport hubs.",
       "article_ids": [
         "b5ab7fc488a1c12e1d9b5150",
         "414c3b10af48004304dc9d73",
-        "dd289942b6b239bf0ac009e0"
+        "dd289942b6b239bf0ac009e0",
+        "1ed8137e3111f69f3b6273da"
       ],
       "sources": [
         {
@@ -117,30 +151,6 @@
           "url": "https://www.politico.eu/article/russia-hits-major-kyiv-bridge-logistics-hub-in-latest-attack",
           "headline": "Russia hits major Kyiv bridge, logistics hub in latest attack",
           "published_at": "2026-10-03T10:04:32Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Spanish Housing Protests",
-      "summary": "Demonstrators across Spain organized widespread protests demanding urgent government intervention to address the escalating housing crisis. The demonstrations intensified after lawmakers rejected proposed legislative relief measures.",
-      "article_ids": [
-        "1e0417094a23f2e32078dcbf",
-        "7a55cd63ce3d3c8a7f2fc824",
-        "116129a7225d9e4585817d13"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261003-fresh-protests-over-housing-flare-spain-after-lawmakers-reject-relief-measures",
-          "headline": "Fresh protests over housing flare in Spain after lawmakers reject relief measures",
-          "published_at": "2026-10-03T13:20:35Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
-          "headline": "Protesters across Spain demand action over housing crisis",
-          "published_at": "2026-10-03T12:16:15Z"
         }
       ],
       "source_count": 2
@@ -199,22 +209,36 @@
       ]
     },
     {
-      "label": "Barricades · blame · French · game",
+      "label": "flare · Fresh · housing · lawmakers",
       "origin": "radar",
       "source_count": 1,
       "item_count": 1,
-      "latest_at": "2026-10-03T09:25:58Z",
+      "latest_at": "2026-10-03T13:20:35Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/the-debate/20261003-barricades-the-blame-game-the-french-school-protests",
-          "headline": "Barricades & the blame game: the French school protests",
-          "published_at": "2026-10-03T09:25:58Z"
+          "url": "https://www.france24.com/en/europe/20261003-fresh-protests-over-housing-flare-spain-after-lawmakers-reject-relief-measures",
+          "headline": "Fresh protests over housing flare in Spain after lawmakers reject relief measures",
+          "published_at": "2026-10-03T13:20:35Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "224ea8863770c2d291912be7",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "UK remands 2 Iranians over alleged antisemitic terror plot",
+      "url": "https://www.dw.com/en/uk-remands-2-iranians-over-alleged-antisemitic-terror-plot/a-79532184?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-03T16:10:00Z",
+      "collected_at": "2026-10-03T17:00:51Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
     {
       "id": "74a9e1df3a294af226cf09a4",
       "source_id": "politico_europe",
@@ -296,6 +320,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "37e27f856b74f06f7a89dd3d",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
+      "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-03T13:34:11Z",
+      "collected_at": "2026-10-03T17:00:51Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
