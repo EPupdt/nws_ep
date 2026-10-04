@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-04T10:00:44Z",
-  "last_successful_collection_at": "2026-10-04T10:00:44Z",
+  "generated_at": "2026-10-04T10:30:43Z",
+  "last_successful_collection_at": "2026-10-04T10:30:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-04T10:00:44Z"
+      "at": "2026-10-04T10:30:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-04T10:00:44Z"
+      "at": "2026-10-04T10:30:43Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-04T10:00:44Z"
+      "at": "2026-10-04T10:30:43Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,49 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-04T10:00:44Z"
+      "at": "2026-10-04T10:30:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-04T10:00:44Z"
+      "at": "2026-10-04T10:30:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-10-04T10:00:44Z"
+      "at": "2026-10-04T10:30:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-04T10:00:44Z"
+      "at": "2026-10-04T10:30:43Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-04T10:00:44Z"
+      "at": "2026-10-04T10:30:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-04T10:00:44Z"
+      "at": "2026-10-04T10:30:43Z"
     }
   ],
   "europe_now": [
     {
-      "title": "German Chancellor Visits Kyiv Amid Russian Strikes",
-      "summary": "German Chancellor Friedrich Merz traveled to Kyiv for discussions with Ukrainian leadership while fresh Russian drone and missile attacks targeted infrastructure in the capital.",
+      "title": "Russian Strike on Kyiv During German Chancellor's Visit",
+      "summary": "German Chancellor Friedrich Merz traveled to Kyiv for discussions with President Volodymyr Zelensky regarding ongoing support as Russian strikes hit Ukrainian infrastructure and a bridge in the capital.",
       "article_ids": [
         "99c574582f3d28e0da0fe4f7",
         "f3448a33272cef8d6394de17",
+        "f5b7b6692b65ffadbf108d2d",
+        "d30d4526c7b7b5e5ba0804d2",
+        "63ba28adf84e3143130fca5e",
         "c465566a197045c11738fb0d"
       ],
       "sources": [
@@ -88,12 +91,40 @@
       "source_count": 2
     },
     {
+      "title": "General Election Held in Bosnia and Herzegovina",
+      "summary": "Citizens in Bosnia and Herzegovina cast their ballots in a general election held amid deeply entrenched wartime divisions, ethnic tensions, and the looming influence of pro-Russian politicians.",
+      "article_ids": [
+        "19e754a639bed3f32b75c22a",
+        "bc9fc636001a292e52c9ece7",
+        "f3d95e7f6e203fb25bf97641",
+        "dc8beced388b8509c7e0a968"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/bosnia-herzegovina-votes-amid-divisive-campaigns-eu-bid/a-79535336?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Bosnia-Herzegovina votes amid divisive campaigns, EU bid",
+          "published_at": "2026-10-04T09:30:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/bosnia-votes-in-general-election-with-wartime-divisions-still-dominating",
+          "headline": "Bosnia votes in general election with wartime divisions still dominating",
+          "published_at": "2026-10-04T06:51:38Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
       "title": "Latvian Parliamentary Election Results",
-      "summary": "Partial election results in Latvia indicate that the pro-Ukraine incumbent party leads the parliamentary vote as coalition partners face potential setbacks.",
+      "summary": "Prime Minister Andris Kulbergs and his pro-Ukraine party secured a leading position in the recent Latvian parliamentary elections. The electoral outcome strengthens the prospects for maintaining a pro-Ukraine governing coalition.",
       "article_ids": [
         "737542def8426f161ac4a3d6",
         "b03ab10655ac9b3df1cfc05f",
-        "7b2b81ea494ab21cf18d3130"
+        "7b2b81ea494ab21cf18d3130",
+        "ee4d6242313125eab43255aa"
       ],
       "sources": [
         {
@@ -110,15 +141,14 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "Security Threat Charges in the United Kingdom",
-      "summary": "British authorities remanded two Iranian nationals following charges related to an alleged antisemitic terror plot. The case highlights heightened security monitoring regarding threats against the UK's Jewish community.",
+      "title": "Security Threat Arrests in the United Kingdom",
+      "summary": "British authorities remanded two Iranian nationals following charges related to an alleged antisemitic bomb plot targeting the Jewish community in the United Kingdom. The ongoing investigation highlights heightened security measures against planned attacks.",
       "article_ids": [
         "224ea8863770c2d291912be7",
-        "74a9e1df3a294af226cf09a4"
+        "74a9e1df3a294af226cf09a4",
+        "b11c5a3be93925703fa3e359"
       ],
       "sources": [
         {
@@ -135,29 +165,6 @@
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "Elections in Bosnia and Herzegovina",
-      "summary": "Citizens in Bosnia and Herzegovina cast their ballots in a general election defined by enduring wartime divisions. The political landscape remains heavily influenced by simmering ethnic tensions and prominent pro-Russian figures.",
-      "article_ids": [
-        "bc9fc636001a292e52c9ece7",
-        "dc8beced388b8509c7e0a968"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/bosnia-votes-in-general-election-with-wartime-divisions-still-dominating",
-          "headline": "Bosnia votes in general election with wartime divisions still dominating",
-          "published_at": "2026-10-04T06:51:38Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261004-polls-open-in-bosnia-and-herzegovina-as-pro-russian-politician-looms-large-over-race",
-          "headline": "Bosnians vote as pro-Russian politician looms large over election and ethnic tensions simmer",
-          "published_at": "2026-10-04T05:55:38Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "developing": [
@@ -231,17 +238,17 @@
       ]
     },
     {
-      "label": "attacks · cities · Germany · Kyiv",
+      "label": "Bosnians · ethnic · large · looms",
       "origin": "radar",
       "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-10-04T07:58:36Z",
+      "item_count": 2,
+      "latest_at": "2026-10-04T05:55:38Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/germany-s-merz-visits-kyiv-as-russia-steps-up-attacks-on-ukrainian-cities",
-          "headline": "Germany's Merz visits Kyiv as Russia steps up attacks on Ukrainian cities",
-          "published_at": "2026-10-04T07:58:36Z"
+          "url": "https://www.france24.com/en/europe/20261004-polls-open-in-bosnia-and-herzegovina-as-pro-russian-politician-looms-large-over-race",
+          "headline": "Bosnians vote as pro-Russian politician looms large and ethnic tensions simmer",
+          "published_at": "2026-10-04T05:55:38Z"
         }
       ]
     }
@@ -287,6 +294,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "19e754a639bed3f32b75c22a",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Bosnia-Herzegovina votes amid divisive campaigns, EU bid",
+      "url": "https://www.dw.com/en/bosnia-herzegovina-votes-amid-divisive-campaigns-eu-bid/a-79535336?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-04T09:30:00Z",
+      "collected_at": "2026-10-04T10:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -710,6 +731,20 @@
       ]
     },
     {
+      "id": "ee4d6242313125eab43255aa",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Latvia's PM on track to lead pro-Ukraine coalition after parliamentary election victory",
+      "url": "https://www.france24.com/en/europe/20261003-latvia-elections-pm-kulbergs-pro-ukraine-party-ahead-coalition-partners-stumble",
+      "published_at": "2026-10-03T20:58:30Z",
+      "collected_at": "2026-10-04T10:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "1890938efec53d6c3a6c335d",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -801,6 +836,20 @@
       "url": "https://www.politico.eu/article/two-iranians-charged-with-alleged-bomb-plot-against-britains-jewish-community",
       "published_at": "2026-10-03T16:01:51Z",
       "collected_at": "2026-10-03T16:30:51Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "b11c5a3be93925703fa3e359",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "2 Iranians charged with alleged bomb plot against Britain’s Jewish community",
+      "url": "https://www.politico.eu/article/two-iranians-charged-with-alleged-bomb-plot-against-britains-jewish-community",
+      "published_at": "2026-10-03T16:01:51Z",
+      "collected_at": "2026-10-04T10:30:43Z",
       "topics": [
         "institutions",
         "politics",
@@ -990,48 +1039,6 @@
       ]
     },
     {
-      "id": "414c3b10af48004304dc9d73",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Russia hits major Kyiv bridge, logistics hub in latest attack",
-      "url": "https://www.politico.eu/article/russia-hits-major-kyiv-bridge-logistics-hub-in-latest-attack",
-      "published_at": "2026-10-03T10:04:32Z",
-      "collected_at": "2026-10-03T10:30:41Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "4b6800fad58f7178db5ecc08",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Flavio Bolsonaro: In the name of the father, sons, and holy ideology",
-      "url": "https://www.france24.com/en/americas/20261003-flavio-bolsonaro-in-the-name-of-the-father-sons-and-holy-ideology",
-      "published_at": "2026-10-03T09:48:12Z",
-      "collected_at": "2026-10-03T10:00:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "8585f37d5681ab1480de79d3",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Barricades & the blame game: the French school protests",
-      "url": "https://www.france24.com/en/tv-shows/the-debate/20261003-barricades-the-blame-game-the-french-school-protests",
-      "published_at": "2026-10-03T09:25:58Z",
-      "collected_at": "2026-10-03T10:00:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "f6191d5d3de228eea28c80bf",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1109,6 +1116,20 @@
       "url": "https://euobserver.com/240322/why-young-men-are-drawn-to-the-far-right-and-young-women-to-the-far-left",
       "published_at": "2026-10-02T08:58:07Z",
       "collected_at": "2026-10-04T09:30:43Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "97fcd07b706d9d27b759dcd3",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Europe’s Affordable Housing Act must look beyond short-term rentals",
+      "url": "https://euobserver.com/240606/europes-affordable-housing-act-must-look-beyond-short-term-rentals",
+      "published_at": "2026-10-02T08:35:00Z",
+      "collected_at": "2026-10-04T10:30:43Z",
       "topics": [
         "institutions",
         "policy",
@@ -1368,20 +1389,6 @@
       ]
     },
     {
-      "id": "b85c3738ff29d2b7ae1776fd",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Europe’s children will inherit public-health crisis from new EU pesticide approvals",
-      "url": "https://euobserver.com/240266/europes-children-will-inherit-public-health-crisis-from-new-eu-pesticide-approvals",
-      "published_at": "2026-10-01T09:37:00Z",
-      "collected_at": "2026-10-03T10:30:41Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "ef8e365ce0b1f55eac29a093",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1603,34 +1610,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "ceb838ad9b568bc306ec4f72",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland changes rules of engagement for firing on foreign aircraft amid growing Russia threat",
-      "url": "https://notesfrompoland.com/2026/09/29/poland-changes-rules-of-engagement-for-firing-on-foreign-aircraft-amid-growing-russia-threat",
-      "published_at": "2026-09-29T09:56:50Z",
-      "collected_at": "2026-10-03T10:30:41Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "8084b93c3db722bd9f1685ad",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "UK: US government questions bail for Fairford base suspects",
-      "url": "https://www.dw.com/en/uk-us-government-questions-bail-for-fairford-base-suspects/a-79468803?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-29T08:17:00Z",
-      "collected_at": "2026-10-03T10:00:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
