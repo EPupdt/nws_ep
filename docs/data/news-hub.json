@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-05T19:04:40Z",
-  "last_successful_collection_at": "2026-10-05T19:04:40Z",
+  "generated_at": "2026-10-05T19:31:31Z",
+  "last_successful_collection_at": "2026-10-05T19:31:31Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-05T19:04:40Z"
+      "at": "2026-10-05T19:31:31Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-10-05T19:04:40Z"
+      "at": "2026-10-05T19:31:31Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-05T19:04:40Z"
+      "at": "2026-10-05T19:31:31Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,78 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-05T19:04:40Z"
+      "at": "2026-10-05T19:31:31Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-05T19:04:40Z"
+      "at": "2026-10-05T19:31:31Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-10-05T19:04:40Z"
+      "at": "2026-10-05T19:31:31Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-05T19:04:40Z"
+      "at": "2026-10-05T19:31:31Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-05T19:04:40Z"
+      "at": "2026-10-05T19:31:31Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-05T19:04:40Z"
+      "at": "2026-10-05T19:31:31Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Spanish Snap Elections and Housing Policy",
-      "summary": "Prime Minister Pedro Sánchez is focusing heavily on housing initiatives as Spain faces a snap election following a rent crisis. The political maneuver aims to counter the surging influence of the far-right ahead of the upcoming national ballot.",
+      "title": "Severe weather hits Catalonia",
+      "summary": "A severe storm described as a mini-hurricane resulted in at least two fatalities in Catalonia. Emergency responses and local assessments are ongoing following the destructive weather event.",
+      "article_ids": [
+        "e6f1a6724d9cd2f96605d52e"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261005-spain-mini-hurricane-kills-at-least-two-people-in-catalonia",
+          "headline": "Spain: 'Mini-hurricane' kills at least two people in Catalonia",
+          "published_at": "2026-10-05T13:58:00Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "French student protests escalate",
+      "summary": "Demonstrations across French high schools have continued to cause disruptions with more large gatherings planned. Authorities are adjusting their strategies as students report ongoing tensions and security incidents.",
+      "article_ids": [
+        "840df799215a273cdeaac60b",
+        "820facdf3c0960705f99b744"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261005-french-school-protests-continue-with-larger-demonstrations-set-for-tuesday",
+          "headline": "French school protests continue with larger demonstrations set for Tuesday",
+          "published_at": "2026-10-05T15:03:22Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Spanish political developments",
+      "summary": "Prime Minister Pedro Sánchez is focusing heavily on housing policy ahead of the upcoming snap election. The electoral race involves intense campaigning as parties address rent crises and political shifts.",
       "article_ids": [
         "ff6cadcbd8877e1ff0777e6e",
         "0199613b2db0956b70eb7dbd"
@@ -87,27 +122,8 @@
       "source_count": 2
     },
     {
-      "title": "Escalating Student Demonstrations in France",
-      "summary": "High school protests in France have continued to trigger unrest and security challenges for the government. Student groups are predicting further escalations and larger demonstrations in the coming days.",
-      "article_ids": [
-        "b31b34c2308b9f4ad84f4397",
-        "840df799215a273cdeaac60b"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261005-french-high-school-students-predict-escalation-of-protests",
-          "headline": "French high school students predict escalation of protests",
-          "published_at": "2026-10-05T15:57:51Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "EU Trade Defense and Strategy",
-      "summary": "European leaders are pushing for enhanced measures to protect the bloc against unfair trade practices. Germany and France are seeking the implementation of a new rapid response tool to handle external trade threats.",
+      "title": "EU trade and economic defense",
+      "summary": "Leaders in France and Germany are pressing for more robust European Union measures to handle unfair trade practices. Proposals include establishing a rapid response tool to manage external trade threats more effectively.",
       "article_ids": [
         "8f67c36acc27ee1f1a257b9a",
         "20d4e4c867017d935545e68e"
@@ -124,29 +140,6 @@
           "url": "https://www.france24.com/en/europe/20261005-france-germany-seek-new-eu-rapid-response-tool-against-trade-threats",
           "headline": "France, Germany seek new EU rapid response tool against trade threats",
           "published_at": "2026-10-05T17:01:26Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Digital Rights and AI Regulation",
-      "summary": "Reports indicate that dozens of female European Parliament members have been targeted by deepfake pornography and AI applications. Lawmakers are intensifying pressure on EU leadership to strictly enforce upcoming bans.",
-      "article_ids": [
-        "8b8ca4ec4cd62a71918066da",
-        "807672779144de193497dc6c"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/female-european-parliament-lawmakers-targeted-deepfake-porn",
-          "headline": "50 members of European Parliament targeted by deepfake porn, report says",
-          "published_at": "2026-10-05T16:54:02Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/241185/women-meps-targeted-by-ai-nudifier-apps-push-eu-leaders-to-enforce-december-ban",
-          "headline": "Women MEPs targeted by AI ‘nudifier’ apps push EU leaders to enforce December ban",
-          "published_at": "2026-10-05T16:30:59Z"
         }
       ],
       "source_count": 2
@@ -177,6 +170,27 @@
           "url": "https://www.bbc.co.uk/news/videos/c83vqk2k2k20o?at_medium=RSS&at_campaign=rss",
           "headline": "How Spain's housing crisis has resulted in an early general election",
           "published_at": "2026-10-05T09:03:30Z"
+        }
+      ]
+    },
+    {
+      "label": "protests · Schools · French · Student",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 10,
+      "latest_at": "2026-10-05T15:57:51Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261005-french-high-school-students-predict-escalation-of-protests",
+          "headline": "French high school students predict escalation of protests",
+          "published_at": "2026-10-05T15:57:51Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/hundreds-of-french-schools-closed-amid-protests/a-79542656?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Hundreds of French schools closed amid protests",
+          "published_at": "2026-10-05T05:48:00Z"
         }
       ]
     },
@@ -221,30 +235,37 @@
           "published_at": "2026-10-05T13:00:14Z"
         }
       ]
-    },
-    {
-      "label": "Bosnia · elections · divisive · Herzegovina",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-10-05T15:58:59Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/241041/putin-and-vucic-dominate-bosnia-elections-as-eu-fades-out-of-view",
-          "headline": "Putin and Vučić dominate Bosnia elections, as EU fades out of view",
-          "published_at": "2026-10-05T15:58:59Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/bosnia-election-new-technology-might-have-stopped-votes-being-cast-on-behalf-of-dead-voters-but-the-result-remains-unchanged/a-79544717?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Bosnia election: New technology might have stopped votes being cast on behalf of dead voters, but the result remains unchanged",
-          "published_at": "2026-10-05T10:23:00Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "3184f2c5f05e9c5960ac13ac",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russian officials say 'situation under control' after plague reports",
+      "url": "https://www.france24.com/en/russian-officials-say-situation-under-control-after-plague-reports",
+      "published_at": "2026-10-05T19:19:10Z",
+      "collected_at": "2026-10-05T19:31:31Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "8bac5b18b034ec62773aca13",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Saudi-backed Yemeni forces expel the Houthis from several areas around key strait, officials say",
+      "url": "https://www.france24.com/en/saudi-backed-yemeni-forces-expel-the-houthis-from-several-areas-around-key-strait-officials-say",
+      "published_at": "2026-10-05T19:17:05Z",
+      "collected_at": "2026-10-05T19:31:31Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "14f64bf29d45c7e25b33b94b",
       "source_id": "france24",
@@ -299,6 +320,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "e0bc55dd22b91a628a0caa9d",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Sam Altman à Decoded : “Le monde devrait accepter que certaines choses négatives se produisent” face aux bénéfices de l’IA",
+      "url": "https://www.politico.eu/article/sam-altman-a-decoded-le-monde-devrait-accepter-que-certaines-choses-negatives-se-produisent-face-aux-benefices-de-lia",
+      "published_at": "2026-10-05T18:11:56Z",
+      "collected_at": "2026-10-05T19:31:31Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
       ]
     },
     {
@@ -1912,20 +1947,6 @@
       ]
     },
     {
-      "id": "27d0c316e529d1f176642c90",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Polls close in Bosnia-Herzegovina's divisive election",
-      "url": "https://www.dw.com/en/polls-close-in-bosnia-herzegovina-s-divisive-election/a-79535336?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-04T19:15:00Z",
-      "collected_at": "2026-10-04T19:30:42Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "ab1b6b7243773a52338ac576",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1954,20 +1975,6 @@
       ]
     },
     {
-      "id": "b18a6ad95507ce09119a34a8",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Hundreds of schools to shut Monday as France braces for more student protests",
-      "url": "https://www.france24.com/en/france/20261004-up-to-500-french-schools-to-be-totally-or-partly-closed-monday-due-to-protests",
-      "published_at": "2026-10-04T12:50:45Z",
-      "collected_at": "2026-10-04T19:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "0aa0b51aeed464ef2a87b55b",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1982,20 +1989,6 @@
       ]
     },
     {
-      "id": "9f91f9169f9cabf2aca34983",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ethiopia controls Tigray capital as regional rivals meet in Egypt",
-      "url": "https://www.france24.com/en/live-news/20261004-ethiopia-controls-tigray-capital-as-regional-rivals-meet-in-egypt",
-      "published_at": "2026-10-04T10:22:43Z",
-      "collected_at": "2026-10-04T19:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "4c0aa6e64da889336683f677",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2003,20 +1996,6 @@
       "url": "https://www.france24.com/en/africa/20261004-ethiopian-federal-forces-control-tigray-capital-as-regional-rivals-meet-in-egypt",
       "published_at": "2026-10-04T10:22:43Z",
       "collected_at": "2026-10-05T03:30:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "99ce8cc52fba0e3ca08a524b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Merz unveils new aid for Ukraine as Russia strikes Kyiv during German leader's visit",
-      "url": "https://www.france24.com/en/europe/20261004-merz-unveils-new-aid-for-ukraine-as-russia-strikes-kyiv-during-german-leader-s-visit",
-      "published_at": "2026-10-04T08:38:43Z",
-      "collected_at": "2026-10-04T19:30:42Z",
       "topics": [
         "politics",
         "security",
