@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-05T03:30:45Z",
-  "last_successful_collection_at": "2026-10-05T03:30:45Z",
+  "generated_at": "2026-10-05T04:00:46Z",
+  "last_successful_collection_at": "2026-10-05T04:00:46Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-05T03:30:45Z"
+      "at": "2026-10-05T04:00:46Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-05T03:30:45Z"
+      "at": "2026-10-05T04:00:46Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-05T03:30:45Z"
+      "at": "2026-10-05T04:00:46Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-05T03:30:45Z"
+      "at": "2026-10-05T04:00:46Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-05T03:30:45Z"
+      "at": "2026-10-05T04:00:46Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-10-05T03:30:45Z"
+      "at": "2026-10-05T04:00:46Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-05T03:30:45Z"
+      "at": "2026-10-05T04:00:46Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-05T03:30:45Z"
+      "at": "2026-10-05T04:00:46Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-05T03:30:45Z"
+      "at": "2026-10-05T04:00:46Z"
     }
   ],
   "europe_now": [
     {
-      "title": "German Chancellor Visits Kyiv Amid Russian Strikes",
-      "summary": "German Chancellor Merz traveled to Kyiv to meet with Ukrainian officials while Russian airstrikes hit the capital. Officials emphasized that Ukraine will continue to require substantial international support.",
+      "title": "Latvian Elections and Regional Security",
+      "summary": "Latvian Prime Minister maintained power as the ongoing Russia-Ukraine war heavily influenced the parliamentary election outcomes.",
+      "article_ids": [
+        "5b3107e79a313c4879050aff"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/240937/latvian-pm-holds-onto-power-as-russia-ukraine-war-shapes-election",
+          "headline": "Latvian PM holds onto power as Russia-Ukraine war shapes election",
+          "published_at": "2026-10-04T18:00:00Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "German Chancellor Kyiv Visit",
+      "summary": "Russian strikes hit Kyiv during the German Chancellor's visit, highlighting the continuous security threats and the ongoing need for international support.",
       "article_ids": [
         "846c2ce699d43cde71af05d8",
         "99c574582f3d28e0da0fe4f7"
@@ -85,31 +101,15 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "US Withdraws Bombers from British Base",
-      "summary": "The United States military has withdrawn all B-1 bombers from the RAF Fairford military base in Britain. The Pentagon announced the relocation following ongoing security and strategic reassessments.",
-      "article_ids": [
-        "ecd8a7ff72a2775e53833952"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261004-us-bombers-raf-fairford-uk-pentagon",
-          "headline": "US withdraws all B-1 bombers from British military base RAF Fairford",
-          "published_at": "2026-10-04T22:50:23Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "Elections and Political Shifts in Europe",
-      "summary": "Nationalist parties have secured leading positions following the divisive general election in Bosnia and Herzegovina. Meanwhile, the Latvian prime minister successfully maintained power as regional security concerns heavily influenced the parliamentary vote.",
+      "title": "Elections in Bosnia and Herzegovina",
+      "summary": "Bosnia and Herzegovina held a divisive general election that concluded with nationalist parties leading the results. Polling locations closed as citizens completed their votes amidst high political tensions.",
       "article_ids": [
         "df4cb4de1460416923447e1d",
-        "5b3107e79a313c4879050aff"
+        "27d0c316e529d1f176642c90"
       ],
       "sources": [
         {
@@ -119,45 +119,21 @@
           "published_at": "2026-10-04T22:55:00Z"
         },
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/240937/latvian-pm-holds-onto-power-as-russia-ukraine-war-shapes-election",
-          "headline": "Latvian PM holds onto power as Russia-Ukraine war shapes election",
-          "published_at": "2026-10-04T18:00:00Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/polls-close-in-bosnia-herzegovina-s-divisive-election/a-79535336?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Polls close in Bosnia-Herzegovina's divisive election",
+          "published_at": "2026-10-04T19:15:00Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "Escalation in the Ukraine Conflict",
-      "summary": "Moscow announced plans to increase military strikes on Ukraine following recent vows from Kyiv to target Russian oil refineries. The ongoing conflict continues to draw intense diplomatic engagement and security responses from European leaders.",
+      "title": "Brazilian Presidential Election",
+      "summary": "Brazil's high-stakes presidential election progressed toward a runoff after initial voting concluded. Candidates competed closely as preliminary reports showed Bolsonaro leading ahead of Lula.",
       "article_ids": [
-        "74ac5aa4eef57dbe904fd6bd",
-        "846c2ce699d43cde71af05d8"
+        "63bc27892e515d6078142d28",
+        "0aa0b51aeed464ef2a87b55b"
       ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/moscow-says-it-will-step-up-strikes-on-ukraine-after-kyiv-vows-to-hit-russian-oil-refineries",
-          "headline": "Moscow says it will step up strikes on Ukraine after Kyiv vows to hit Russian oil refineries",
-          "published_at": "2026-10-04T13:10:23Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/german-chancellor-in-kyiv-ukraine-will-need-our-support",
-          "headline": "German Chancellor in Kyiv: \"Ukraine will need our support\"",
-          "published_at": "2026-10-04T14:37:56Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
-    {
-      "label": "Bolsonaro · Lula · Brazil · election",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 10,
-      "latest_at": "2026-10-05T00:18:35Z",
       "sources": [
         {
           "publisher": "France 24 English",
@@ -166,13 +142,16 @@
           "published_at": "2026-10-05T00:18:35Z"
         },
         {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-10-04/moral-panic-evangelical-fury-and-a-culture-war-the-bolsonaro-formula-threatens-lulas-re-election-bid.html",
-          "headline": "Moral panic, evangelical fury and a culture war: The Bolsonaro formula threatens Lula’s re-election bid",
-          "published_at": "2026-10-04T04:00:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20261004-brazilians-start-voting-in-tight-election-between-lula-and-flavio-bolsonaro",
+          "headline": "Polls close in Brazil's high-stakes election pitting Lula against Flavio Bolsonaro",
+          "published_at": "2026-10-04T11:17:45Z"
         }
-      ]
-    },
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
     {
       "label": "Kyiv · EU · war",
       "origin": "convergence",
@@ -223,9 +202,38 @@
           "published_at": "2026-10-05T02:00:00Z"
         }
       ]
+    },
+    {
+      "label": "military · US",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 2,
+      "latest_at": "2026-10-04T22:50:23Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261004-us-bombers-raf-fairford-uk-pentagon",
+          "headline": "US withdraws all B-1 bombers from British military base RAF Fairford",
+          "published_at": "2026-10-04T22:50:23Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "114ea77aa3068d71a2a0a176",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Deutschland im Verteidigungsmodus",
+      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/deutschland-im-verteidigungsmodus",
+      "published_at": "2026-10-05T03:30:00Z",
+      "collected_at": "2026-10-05T04:00:46Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "df9bcd510670c550e044e5d0",
       "source_id": "politico_europe",
@@ -1760,6 +1768,20 @@
       "url": "https://www.dw.com/en/latvians-head-to-the-polls-with-russia-on-their-minds/a-79477614?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-10-01T17:57:00Z",
       "collected_at": "2026-10-04T06:00:51Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "4e4f453e7605098a20de2fa6",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "France: Hundreds arrested as student protests escalate",
+      "url": "https://www.dw.com/en/france-hundreds-arrested-as-student-protests-escalate/a-79495633?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-09-30T23:02:00Z",
+      "collected_at": "2026-10-05T04:00:46Z",
       "topics": [
         "politics",
         "society",
