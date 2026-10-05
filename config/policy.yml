@@ -8,6 +8,10 @@ max_radar_items: 180
 max_llm_items: 45
 top_story_count: 5
 max_europe_now: 2
+llm_retry:
+  max_retries: 2
+  base_delay_seconds: 1
+  max_retry_wait_seconds: 60
 schedule_bands:
   weekday:
     - start: "05:30"

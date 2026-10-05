@@ -31,4 +31,10 @@ The workflow is triggered every 15 minutes by the external cron-job.org job, eva
 
 For migration, architecture, active diagnostics and the WordPress roadmap, see [HANDOFF_NEW_PC.md](HANDOFF_NEW_PC.md).
 
+## LLM retries and audit
+
+Gemini remains the primary model; OpenRouter accepts only `openrouter/free` or explicit `:free` IDs. Each model retries transient 429/503 errors at most twice, using exponential backoff with jitter. `Retry-After` supports seconds and HTTP dates. The cumulative retry wait is limited to 60 seconds per model; when the provider asks for a longer wait, collection proceeds to fallback instead of retrying early. Recognised daily quota exhaustion and 404 errors go directly to fallback. Settings are in `config/policy.yml` under `llm_retry`.
+
+OpenRouter error objects are handled even with HTTP 200. Each monthly selection-log entry includes `llm_attempts`: requested and actual model (when returned), attempt number, outcome, HTTP status, provider error code/type and retry delay. Missing keys and excluded non-free models are recorded as skipped. Raw response/error bodies, prompts and credentials are not stored in this audit. The existing final `model` field and keep-previous-selection behavior remain compatible.
+
 Before using GitHub Pages, configure the repository's Pages source as **Deploy from a branch → main → /docs**. This makes the preview available at `https://epupdt.github.io/nws_ep/`; it is not yet the EuropePulse.eu integration.
