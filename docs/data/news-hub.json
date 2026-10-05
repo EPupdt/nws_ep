@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-05T13:00:51Z",
-  "last_successful_collection_at": "2026-10-05T13:00:51Z",
+  "generated_at": "2026-10-05T13:30:44Z",
+  "last_successful_collection_at": "2026-10-05T13:30:44Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-05T13:00:51Z"
+      "at": "2026-10-05T13:30:44Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-10-05T13:00:51Z"
+      "at": "2026-10-05T13:30:44Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 404: Not Found",
-      "at": "2026-10-05T13:00:51Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-10-05T13:30:44Z"
     },
     {
       "id": "euractiv",
@@ -29,70 +29,61 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-05T13:00:51Z"
+      "at": "2026-10-05T13:30:44Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-05T13:00:51Z"
+      "at": "2026-10-05T13:30:44Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-10-05T13:00:51Z"
+      "at": "2026-10-05T13:30:44Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-05T13:00:51Z"
+      "at": "2026-10-05T13:30:44Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-05T13:00:51Z"
+      "at": "2026-10-05T13:30:44Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-05T13:00:51Z"
+      "at": "2026-10-05T13:30:44Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Spanish Prime Minister Calls Snap General Election",
-      "summary": "Spanish Prime Minister Pedro Sánchez has called a snap general election for November 29 following widespread protests regarding the country's housing crisis. The decision comes as mounting pressure from nationwide demonstrations forces a significant political shift.",
+      "title": "Spanish Early General Election",
+      "summary": "Spanish Prime Minister Pedro Sánchez has called an early general election following ongoing housing protests and related political developments across the country.",
       "article_ids": [
-        "fee84fde470727f1ec6fe754",
-        "e3245e61b9a852b403a29d38",
-        "a930828812bc2571ffc04733"
+        "159fd8965cb4a1976225e138"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261005-spanish-pm-sanchez-calls-snap-election-for-november-29",
-          "headline": "🔴Spanish PM Sanchez calls snap election for November 29",
-          "published_at": "2026-10-05T07:19:56Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/spain-pedro-sanchez-calls-snap-elections",
-          "headline": "Spain’s Sánchez calls snap elections for Nov. 29",
-          "published_at": "2026-10-05T07:13:21Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_medium=RSS&at_campaign=rss",
+          "headline": "Spanish PM Sánchez calls early election after housing protests",
+          "published_at": "2026-10-05T08:54:25Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "German Intelligence Chief Warns of Russian Conflict Risk",
-      "summary": "Germany's intelligence chief has warned that the country risks being drawn into a violent conflict with Russia. Meanwhile, European institutions are monitoring a suspected plague outbreak in Russia closely.",
+      "title": "German Intelligence Warning on Russia",
+      "summary": "The German intelligence chief has issued a warning that Germany risks being drawn into a violent conflict with Russia.",
       "article_ids": [
-        "cc85528b25777aa324c5059d",
-        "5516c72a05b0f7031430db59"
+        "cc85528b25777aa324c5059d"
       ],
       "sources": [
         {
@@ -100,12 +91,6 @@
           "url": "https://www.politico.eu/article/germany-risks-being-drawn-violent-conflict-russia-says-german-intelligence-chief",
           "headline": "Germany risks being drawn into ‘violent conflict’ with Russia, spy chief warns",
           "published_at": "2026-10-05T10:49:17Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-very-closely-monitoring-suspected-plague-in-russia",
-          "headline": "Suspected plague in Russia puts EU on alert",
-          "published_at": "2026-10-05T10:47:55Z"
         }
       ],
       "source_count": 1
@@ -113,35 +98,18 @@
   ],
   "top_stories": [
     {
-      "title": "Spanish Snap Elections",
-      "summary": "Spanish Prime Minister Pedro Sánchez has called early general elections for November 29. The decision follows nationwide demonstrations and growing political pressure over the housing crisis.",
-      "article_ids": [
-        "fee84fde470727f1ec6fe754",
-        "e3245e61b9a852b403a29d38"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261005-spanish-pm-sanchez-calls-snap-election-for-november-29",
-          "headline": "🔴Spanish PM Sanchez calls snap election for November 29",
-          "published_at": "2026-10-05T07:19:56Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
       "title": "French School Protests",
-      "summary": "Student protests have swept through France, leading to widespread school closures. Hundreds of French high schools are slated to remain closed as demonstrations continue.",
+      "summary": "Student protests continue to cause widespread disruptions across educational institutions in France. Hundreds of schools are scheduled to close as authorities attempt to regain control of the situation.",
       "article_ids": [
-        "37776b3e88d1963190996205",
+        "2c2d4e068ae2e775f7776fad",
         "a7801ca474895828817884c6"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/a-week-in-france/20261005-schools-shuttered-as-student-protests-sweep-through-france",
-          "headline": "Schools shuttered as student protests sweep through France",
-          "published_at": "2026-10-05T09:22:41Z"
+          "url": "https://www.france24.com/en/video/20261005-france-high-school-protests-can-the-government-regain-control",
+          "headline": "France high school protests: Can the government regain control?",
+          "published_at": "2026-10-05T13:03:41Z"
         },
         {
           "publisher": "France 24 English",
@@ -153,42 +121,42 @@
       "source_count": 1
     },
     {
-      "title": "Bosnia Election Technology",
-      "summary": "New voting technology utilized in Bosnia's election may have prevented ballots from being cast on behalf of deceased voters. However, officials noted that the overall election result remains unchanged.",
+      "title": "Spanish Snap Elections",
+      "summary": "Prime Minister Pedro Sánchez announced an early general election amidst mounting public pressure and protests regarding the national housing crisis. Political stakeholders are preparing for significant electoral engagement across various regions.",
       "article_ids": [
-        "ce56f53506fdb1e2db48ceca",
-        "120048z"
+        "ff6cadcbd8877e1ff0777e6e",
+        "159fd8965cb4a1976225e138"
       ],
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/bosnia-election-new-technology-might-have-stopped-votes-being-cast-on-behalf-of-dead-voters-but-the-result-remains-unchanged/a-79544717?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Bosnia election: New technology might have stopped votes being cast on behalf of dead voters, but the result remains unchanged",
-          "published_at": "2026-10-05T10:23:00Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/pedro-sanchez-bets-housing-mantle-ahead-spain-election",
+          "headline": "Sánchez bets it all on housing ahead of Spain’s snap election",
+          "published_at": "2026-10-05T13:24:11Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_medium=RSS&at_campaign=rss",
+          "headline": "Spanish PM Sánchez calls early election after housing protests",
+          "published_at": "2026-10-05T08:54:25Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
     {
-      "label": "Bolsonaro · Brazil · Lula · heads",
+      "label": "Bolsonaro · Lula · Brazil · election",
       "origin": "convergence",
-      "source_count": 3,
-      "item_count": 10,
-      "latest_at": "2026-10-05T10:41:20Z",
+      "source_count": 2,
+      "item_count": 5,
+      "latest_at": "2026-10-05T12:54:49Z",
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/240995/trump-cheers-bolsonaro-jrs-advance-on-lula-in-brazil-but-eu-fears-for-mercosur-alliance",
-          "headline": "Trump cheers Bolsonaro Jr’s advance on Lula in Brazil, but EU fears for Mercosur alliance",
-          "published_at": "2026-10-05T10:41:20Z"
-        },
-        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261005-brazil-heads-to-run-off-as-bolsonaro-pulls-off-shock-first-place-finish-in-first-round",
-          "headline": "Brazil heads to run-off as Bolsonaro pulls off shock first place finish in first round",
-          "published_at": "2026-10-05T09:38:59Z"
+          "url": "https://www.france24.com/en/very-bad-result-for-lula-bolsonaro-is-far-more-effective-at-speaking-to-that-growing-middle-class",
+          "headline": "'Very bad result for Lula: Bolsonaro is far more effective at speaking to that growing middle class'",
+          "published_at": "2026-10-05T12:54:49Z"
         },
         {
           "publisher": "EL PAÍS English",
@@ -199,58 +167,176 @@
       ]
     },
     {
-      "label": "Kyiv · Ukraine",
+      "label": "election · PM · calls · Sanchez",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-10-05T08:42:29Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261005-spanish-pm-sanchez-calls-snap-election-amid-housing-crisis",
+          "headline": "Spanish PM Sanchez calls snap election amid housing crisis",
+          "published_at": "2026-10-05T08:42:29Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/240937/latvian-pm-holds-onto-power-as-russia-ukraine-war-shapes-election",
+          "headline": "Latvian PM holds onto power as Russia-Ukraine war shapes election",
+          "published_at": "2026-10-04T18:00:00Z"
+        }
+      ]
+    },
+    {
+      "label": "fear · Trump",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-10-04T14:37:56Z",
+      "latest_at": "2026-10-05T13:05:12Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/german-chancellor-in-kyiv-ukraine-will-need-our-support",
-          "headline": "German Chancellor in Kyiv: \"Ukraine will need our support\"",
-          "published_at": "2026-10-04T14:37:56Z"
+          "url": "https://www.france24.com/en/video/20261005-trump-heads-to-nebraska-as-republicans-fear-strongholds-could-flip",
+          "headline": "Trump heads to Nebraska as Republicans fear strongholds could flip",
+          "published_at": "2026-10-05T13:05:12Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/moscow-says-it-will-step-up-strikes-on-ukraine-after-kyiv-vows-to-hit-russian-oil-refineries",
-          "headline": "Moscow says it will step up strikes on Ukraine after Kyiv vows to hit Russian oil refineries",
-          "published_at": "2026-10-04T13:10:23Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/240995/trump-cheers-bolsonaro-jrs-advance-on-lula-in-brazil-but-eu-fears-for-mercosur-alliance",
+          "headline": "Trump cheers Bolsonaro Jr’s advance on Lula in Brazil, but EU fears for Mercosur alliance",
+          "published_at": "2026-10-05T10:41:20Z"
         }
       ]
     },
     {
-      "label": "base · bombers · US · withdraws",
+      "label": "Bosnia · election · divisive · Herzegovina",
       "origin": "radar",
       "source_count": 1,
       "item_count": 3,
-      "latest_at": "2026-10-05T09:49:23Z",
+      "latest_at": "2026-10-05T10:23:00Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261005-us-withdraws-all-bombers-from-uk-base-at-centre-of-suspected-terror-attack",
-          "headline": "US withdraws all bombers from UK base at centre of suspected terror attack",
-          "published_at": "2026-10-05T09:49:23Z"
-        }
-      ]
-    },
-    {
-      "label": "EU · Parliament",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 2,
-      "latest_at": "2026-10-05T02:00:00Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/meet-the-4-lawmakers-vying-to-lead-the-green-charge-in-the-eu-parliament",
-          "headline": "Meet the 4 lawmakers vying to lead the Green charge in the EU Parliament",
-          "published_at": "2026-10-05T02:00:00Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/bosnia-election-new-technology-might-have-stopped-votes-being-cast-on-behalf-of-dead-voters-but-the-result-remains-unchanged/a-79544717?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Bosnia election: New technology might have stopped votes being cast on behalf of dead voters, but the result remains unchanged",
+          "published_at": "2026-10-05T10:23:00Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "ff6cadcbd8877e1ff0777e6e",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Sánchez bets it all on housing ahead of Spain’s snap election",
+      "url": "https://www.politico.eu/article/pedro-sanchez-bets-housing-mantle-ahead-spain-election",
+      "published_at": "2026-10-05T13:24:11Z",
+      "collected_at": "2026-10-05T13:30:44Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "5007394bde1e64f70d2f1d55",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Trump heads to Nebraska as Republicans fear strongholds could flip",
+      "url": "https://www.france24.com/en/video/20261005-trump-heads-to-nebraska-as-republicans-fear-strongholds-could-flip",
+      "published_at": "2026-10-05T13:05:12Z",
+      "collected_at": "2026-10-05T13:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "2c2d4e068ae2e775f7776fad",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France high school protests: Can the government regain control?",
+      "url": "https://www.france24.com/en/video/20261005-france-high-school-protests-can-the-government-regain-control",
+      "published_at": "2026-10-05T13:03:41Z",
+      "collected_at": "2026-10-05T13:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "34158956b1adbed2638f70cb",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Japan bids farewell to Asian Games after fortnight of turmoil and records",
+      "url": "https://www.france24.com/en/video/20261005-japan-bids-farewell-to-asian-games-after-fortnight-of-turmoil-and-records",
+      "published_at": "2026-10-05T13:01:56Z",
+      "collected_at": "2026-10-05T13:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "ca10215d6533563efd36a647",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US bombers leave UK air base amid 'new threats': What we know so far",
+      "url": "https://www.france24.com/en/video/20261005-us-bombers-leave-uk-air-base-amid-new-threats-what-we-know-so-far",
+      "published_at": "2026-10-05T13:00:14Z",
+      "collected_at": "2026-10-05T13:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "bb528d6cd3a287d8f0727fa2",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ethiopian govt retakes Tigray capital as rebels pull out",
+      "url": "https://www.france24.com/en/video/20261005-ethiopian-govt-retakes-tigray-capital-as-rebels-pull-out",
+      "published_at": "2026-10-05T12:57:25Z",
+      "collected_at": "2026-10-05T13:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "58ccc9f770f8ecb7701eb376",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'Very bad result for Lula: Bolsonaro is far more effective at speaking to that growing middle class'",
+      "url": "https://www.france24.com/en/very-bad-result-for-lula-bolsonaro-is-far-more-effective-at-speaking-to-that-growing-middle-class",
+      "published_at": "2026-10-05T12:54:49Z",
+      "collected_at": "2026-10-05T13:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "6b01656219fcb6c28abb294b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Brazil presidential election: 'Bolsonaro being ahead is a surprise,' researcher says",
+      "url": "https://www.france24.com/en/tv-shows/perspective/20261005-brazil-presidential-election-bolsonaro-being-ahead-is-a-surprise-researcher-says",
+      "published_at": "2026-10-05T12:52:32Z",
+      "collected_at": "2026-10-05T13:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "2cccda3ae73d87f594cdab58",
       "source_id": "el_pais_english",
