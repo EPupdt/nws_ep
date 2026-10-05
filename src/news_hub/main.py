@@ -3,11 +3,15 @@ from __future__ import annotations
 import hashlib
 import html
 import json
+import math
 import os
+import random
 import re
 import sys
+import time
 from dataclasses import dataclass, asdict
 from datetime import UTC, datetime, timedelta
+from email.utils import parsedate_to_datetime
 from http.client import IncompleteRead
 from pathlib import Path
 from typing import Any
@@ -201,6 +205,14 @@ def valid_selection(value: Any, max_top_stories: int, max_europe_now: int) -> bo
     )
 
 
+def sanitize_llm_detail(detail: str, key: str) -> str:
+    for secret in (key, os.getenv("GEMINI_API_KEY"), os.getenv("OR_API_KEY")):
+        if secret:
+            detail = detail.replace(secret, "[REDACTED]")
+    detail = re.sub(r"(?i)([?&]key=)[^&\s\"\\]+", r"\1[REDACTED]", detail)
+    return " ".join(detail.split())[:400]
+
+
 def safe_llm_error_detail(error: Exception, key: str) -> str:
     """Return a short diagnostic without exposing credentials."""
     detail = ""
@@ -211,10 +223,7 @@ def safe_llm_error_detail(error: Exception, key: str) -> str:
             pass
     if not detail:
         detail = str(error)
-    if key:
-        detail = detail.replace(key, "[REDACTED]")
-    detail = re.sub(r"(?i)([?&]key=)[^&\s\"\\]+", r"\1[REDACTED]", detail)
-    return " ".join(detail.split())[:400]
+    return sanitize_llm_detail(detail, key)
 
 
 def log_llm_failure(provider: str, model: str, detail: str, status: int | None = None) -> None:
@@ -235,7 +244,79 @@ def load_json_response(response: Any) -> Any:
             raise error
 
 
-def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent_topics: list[dict[str, Any]]) -> tuple[dict[str, Any], str]:
+def retry_after_seconds(value: str | None) -> float | None:
+    """Retry-After supports both seconds and an HTTP date."""
+    if not value:
+        return None
+    try:
+        seconds = float(value)
+    except ValueError:
+        try:
+            date = parsedate_to_datetime(value)
+            seconds = (date - utcnow()).total_seconds()
+        except (TypeError, ValueError, OverflowError):
+            return None
+    return max(0.0, seconds) if math.isfinite(seconds) else None
+
+
+class LlmApiError(Exception):
+    def __init__(self, http_status: int, payload: Any, retry_after: str | None = None,
+                 fallback_detail: str = "API request failed"):
+        error = payload.get("error") if isinstance(payload, dict) else None
+        error = error if isinstance(error, dict) else {}
+        code = error.get("code", http_status)
+        self.status = (code if http_status < 400 and isinstance(code, int) and not isinstance(code, bool)
+                       else http_status)
+        self.http_status = http_status
+        metadata = error.get("metadata")
+        metadata = metadata if isinstance(metadata, dict) else {}
+        error_type = metadata.get("error_type") or error.get("status")
+        self.error_type = error_type if isinstance(error_type, str) else "api_error"
+        detail = json.dumps(error, ensure_ascii=False) if error else fallback_detail
+        # Daily quota exhaustion will not recover after a short delay.
+        normalized = re.sub(r"[^a-z0-9]", "", detail.lower())
+        self.daily_quota = self.status == 429 and any(
+            marker in normalized for marker in ("perday", "dailyquota", "dailylimit"))
+        self.retry_after = retry_after_seconds(retry_after)
+        super().__init__(detail)
+
+
+def llm_request(request: Request) -> tuple[Any, int]:
+    try:
+        with urlopen(request, timeout=30) as response:
+            result = load_json_response(response)
+            status = getattr(response, "status", 200)
+            headers = getattr(response, "headers", None)
+            retry_after = headers.get("Retry-After") if headers else None
+    except HTTPError as error:
+        try:
+            detail = error.read(2048).decode("utf-8", errors="replace")
+        except (AttributeError, OSError):
+            detail = str(error)
+        try:
+            payload = json.loads(detail)
+        except ValueError:
+            payload = None
+        retry_after = error.headers.get("Retry-After") if error.headers else None
+        raise LlmApiError(error.code, payload, retry_after, detail) from error
+    if isinstance(result, dict) and "error" in result:
+        raise LlmApiError(status, result, retry_after)
+    return result, status
+
+
+def llm_retry_delay(error: LlmApiError, attempt: int, waited: float,
+                    retry: dict[str, Any]) -> float | None:
+    if error.status not in (429, 503) or error.daily_quota or attempt > retry.get("max_retries", 2):
+        return None
+    delay = error.retry_after
+    if delay is None:
+        delay = retry.get("base_delay_seconds", 1) * 2 ** (attempt - 1) + random.uniform(0, 0.5)
+    # Never shorten the provider's requested wait to fit our budget; use fallback instead.
+    return delay if waited + delay <= retry.get("max_retry_wait_seconds", 60) else None
+
+
+def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent_topics: list[dict[str, Any]],
+                  attempt_log: list[dict[str, Any]] | None = None) -> tuple[dict[str, Any], str]:
     """Return empty selection on any model/network/JSON failure; collection remains authoritative."""
     if not articles:
         return {"europe_now": [], "top_stories": []}, "not-run"
@@ -250,44 +331,76 @@ def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent
         "recent_topics": recent_topics[-30:], "articles": articles,
     }
     raw = json.dumps(prompt, ensure_ascii=False)
+    audit = attempt_log if attempt_log is not None else []
+    retry = policy.get("llm_retry", {})
     attempts: list[tuple[str, str, str]] = []
     if os.getenv("GEMINI_API_KEY"):
         attempts.append(("gemini", policy["models"]["gemini"], os.environ["GEMINI_API_KEY"]))
+    else:
+        audit.append({"provider": "gemini", "requested_model": policy["models"]["gemini"],
+                      "outcome": "skipped", "reason": "missing-api-key"})
     if os.getenv("OR_API_KEY"):
         for model in policy["models"]["openrouter"]:
             if model != "openrouter/free" and not model.endswith(":free"):
+                audit.append({"provider": "openrouter", "requested_model": model,
+                              "outcome": "skipped", "reason": "non-free-model"})
                 continue
             attempts.append(("openrouter", model, os.environ["OR_API_KEY"]))
+    else:
+        audit.append({"provider": "openrouter", "outcome": "skipped", "reason": "missing-api-key"})
     for provider, model, key in attempts:
-        try:
-            if provider == "gemini":
-                endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-                body = {"contents": [{"parts": [{"text": raw}]}], "generationConfig": {"responseMimeType": "application/json", "temperature": 0.1}}
-                request = Request(endpoint, data=json.dumps(body).encode(),
-                                  headers={"Content-Type": "application/json", "x-goog-api-key": key}, method="POST")
-                with urlopen(request, timeout=30) as response:
-                    result = load_json_response(response)
-                text = result["candidates"][0]["content"]["parts"][0]["text"]
-            else:
-                body = {"model": model, "messages": [{"role": "user", "content": raw}], "temperature": 0.1,
-                        "response_format": {"type": "json_object"}}
-                request = Request("https://openrouter.ai/api/v1/chat/completions", data=json.dumps(body).encode(),
-                                  headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json", "HTTP-Referer": "https://europepulse.eu"}, method="POST")
-                with urlopen(request, timeout=30) as response:
-                    result = load_json_response(response)
-                text = result["choices"][0]["message"]["content"]
-            if not isinstance(text, str) or not text.strip():
-                log_llm_failure(provider, model, "empty-or-non-text response")
-                continue
-            selected = json.loads(text)
-            if valid_selection(selected, policy["top_story_count"], policy["max_europe_now"]):
-                return selected, f"{provider}:{model}"
-            log_llm_failure(provider, model, "response failed schema validation")
-        except HTTPError as error:
-            log_llm_failure(provider, model, safe_llm_error_detail(error, key), error.code)
-        except (URLError, TimeoutError, IncompleteRead, ValueError, KeyError, IndexError, TypeError, json.JSONDecodeError) as error:
-            log_llm_failure(provider, model, safe_llm_error_detail(error, key))
-            continue
+        if provider == "gemini":
+            endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+            body = {"contents": [{"parts": [{"text": raw}]}], "generationConfig": {"responseMimeType": "application/json", "temperature": 0.1}}
+            request = Request(endpoint, data=json.dumps(body).encode(),
+                              headers={"Content-Type": "application/json", "x-goog-api-key": key}, method="POST")
+        else:
+            body = {"model": model, "messages": [{"role": "user", "content": raw}], "temperature": 0.1,
+                    "response_format": {"type": "json_object"}}
+            request = Request("https://openrouter.ai/api/v1/chat/completions", data=json.dumps(body).encode(),
+                              headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json", "HTTP-Referer": "https://europepulse.eu"}, method="POST")
+        waited = 0.0
+        for attempt in range(1, retry.get("max_retries", 2) + 2):
+            record: dict[str, Any] = {"provider": provider, "requested_model": model, "attempt": attempt}
+            audit.append(record)
+            try:
+                result, status = llm_request(request)
+                record["http_status"] = status
+                if not isinstance(result, dict):
+                    raise ValueError("non-object API response")
+                actual_model = result.get("modelVersion" if provider == "gemini" else "model")
+                if isinstance(actual_model, str):
+                    record["actual_model"] = sanitize_llm_detail(actual_model, key)
+                if provider == "gemini":
+                    text = result["candidates"][0]["content"]["parts"][0]["text"]
+                else:
+                    text = result["choices"][0]["message"]["content"]
+                if not isinstance(text, str) or not text.strip():
+                    record["outcome"] = "empty-response"
+                    log_llm_failure(provider, model, "empty-or-non-text response")
+                    break
+                selected = json.loads(text)
+                if valid_selection(selected, policy["top_story_count"], policy["max_europe_now"]):
+                    record["outcome"] = "success"
+                    return selected, f"{provider}:{model}"
+                record["outcome"] = "invalid-selection"
+                log_llm_failure(provider, model, "response failed schema validation")
+                break
+            except LlmApiError as error:
+                # Do not persist raw error bodies: providers can echo private prompt excerpts.
+                record.update(outcome="api-error", http_status=error.http_status, error_code=error.status,
+                              error_type=sanitize_llm_detail(error.error_type, key), daily_quota=error.daily_quota)
+                log_llm_failure(provider, model, safe_llm_error_detail(error, key), error.status)
+                delay = llm_retry_delay(error, attempt, waited, retry)
+                if delay is None:
+                    break
+                record["retry_delay_seconds"] = delay
+                waited += delay
+                time.sleep(delay)
+            except (OSError, IncompleteRead, ValueError, KeyError, IndexError, TypeError) as error:
+                record.update(outcome="response-error", error_type=type(error).__name__)
+                log_llm_failure(provider, model, safe_llm_error_detail(error, key))
+                break
     return {"europe_now": [], "top_stories": []}, "failed"
 
 
@@ -422,8 +535,9 @@ def main() -> None:
     state["radar"] = radar[:policy["max_radar_items"]]
     # Think-tank material is useful context in the Radar, but not breaking-news input.
     candidates = [item for item in state["radar"] if "analysis" not in item.get("topics", [])][:policy["max_llm_items"]]
+    llm_attempts: list[dict[str, Any]] = []
     if new_articles:
-        selection, model = llm_selection(candidates, policy, state.get("recent_topics", []))
+        selection, model = llm_selection(candidates, policy, state.get("recent_topics", []), llm_attempts)
         selection = enrich_selection(selection, state["radar"])
         if selection["europe_now"] or selection["top_stories"]:
             state["last_selection"] = selection
@@ -473,7 +587,7 @@ def main() -> None:
     with (LOG_DIR / f"{now:%Y-%m}.jsonl").open("a", encoding="utf-8") as log:
         log.write(json.dumps({"at": iso(now), "model": model, "input_count": len(candidates), "new_items": len(new_articles),
                               "top_story_count": len(selection["top_stories"]), "alert_count": len(selection["europe_now"]),
-                              "developing_count": len(developing)}, ensure_ascii=False) + "\n")
+                              "developing_count": len(developing), "llm_attempts": llm_attempts}, ensure_ascii=False) + "\n")
     print(f"Collected {len(all_articles)} items; {len(new_articles)} new; model={model}; developing={len(developing)}")
 
 
