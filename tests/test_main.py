@@ -202,6 +202,35 @@ class LlmRetryTests(unittest.TestCase):
         self.assertEqual([1, 2], [call.args[0] for call in sleeps])
         self.assertEqual([1, 2, 3, 1], [record["attempt"] for record in audit])
 
+    def test_new_gemini_unavailable_uses_previous_gemini_before_openrouter(self):
+        policy = {**self.policy, "models": {
+            **self.policy["models"], "gemini_fallbacks": ["gemini-3.5-flash-lite"]}}
+        for status in (404, 429, 503):
+            with self.subTest(status=status):
+                count = 1 if status == 404 else 3
+                selected, model, audit, calls, sleeps, _ = self.select(
+                    [*[self.error(status) for _ in range(count)],
+                     self.response(actual_model="gemini-3.5-flash-lite")], policy=policy)
+                self.assertEqual(self.selection, selected)
+                self.assertEqual("gemini:gemini-3.5-flash-lite", model)
+                self.assertEqual(count + 1, len(calls))
+                self.assertTrue(all("gemini-3.8-flash:generateContent" in call.args[0].full_url
+                                    for call in calls[:-1]))
+                self.assertIn("gemini-3.5-flash-lite:generateContent", calls[-1].args[0].full_url)
+                self.assertEqual("gemini-3.5-flash-lite", audit[-1]["actual_model"])
+                self.assertEqual("success", audit[-1]["outcome"])
+
+    def test_openrouter_still_follows_both_gemini_models(self):
+        policy = {**self.policy, "models": {
+            **self.policy["models"], "gemini_fallbacks": ["gemini-3.5-flash-lite"]}}
+        selected, model, audit, calls, sleeps, _ = self.select(
+            [self.error(404), self.error(404), self.response("openrouter")], policy=policy)
+        self.assertEqual(self.selection, selected)
+        self.assertEqual("openrouter:openrouter/free", model)
+        self.assertEqual(["gemini-3.8-flash", "gemini-3.5-flash-lite", "openrouter/free"],
+                         [record["requested_model"] for record in audit])
+        self.assertEqual([], sleeps)
+
     def test_both_providers_exhaust_retries_and_return_failed(self):
         selected, model, audit, calls, sleeps, _ = self.select([self.error(429) for _ in range(6)])
         self.assertEqual("failed", model)

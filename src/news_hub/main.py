@@ -334,11 +334,13 @@ def llm_selection(articles: list[dict[str, Any]], policy: dict[str, Any], recent
     audit = attempt_log if attempt_log is not None else []
     retry = policy.get("llm_retry", {})
     attempts: list[tuple[str, str, str]] = []
-    if os.getenv("GEMINI_API_KEY"):
-        attempts.append(("gemini", policy["models"]["gemini"], os.environ["GEMINI_API_KEY"]))
-    else:
-        audit.append({"provider": "gemini", "requested_model": policy["models"]["gemini"],
-                      "outcome": "skipped", "reason": "missing-api-key"})
+    gemini_models = [policy["models"]["gemini"], *policy["models"].get("gemini_fallbacks", [])]
+    for model in gemini_models:
+        if os.getenv("GEMINI_API_KEY"):
+            attempts.append(("gemini", model, os.environ["GEMINI_API_KEY"]))
+        else:
+            audit.append({"provider": "gemini", "requested_model": model,
+                          "outcome": "skipped", "reason": "missing-api-key"})
     if os.getenv("OR_API_KEY"):
         for model in policy["models"]["openrouter"]:
             if model != "openrouter/free" and not model.endswith(":free"):
