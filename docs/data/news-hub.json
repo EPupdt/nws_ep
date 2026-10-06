@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-06T11:00:53Z",
-  "last_successful_collection_at": "2026-10-06T11:00:53Z",
+  "generated_at": "2026-10-06T11:30:46Z",
+  "last_successful_collection_at": "2026-10-06T11:30:46Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-06T11:00:53Z"
+      "at": "2026-10-06T11:30:46Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "23",
-      "at": "2026-10-06T11:00:53Z"
+      "count": "20",
+      "at": "2026-10-06T11:30:46Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-06T11:00:53Z"
+      "at": "2026-10-06T11:30:46Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-06T11:00:53Z"
+      "at": "2026-10-06T11:30:46Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-06T11:00:53Z"
+      "at": "2026-10-06T11:30:46Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-10-06T11:00:53Z"
+      "at": "2026-10-06T11:30:46Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-06T11:00:53Z"
+      "at": "2026-10-06T11:30:46Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-06T11:00:53Z"
+      "at": "2026-10-06T11:30:46Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-06T11:00:53Z"
+      "at": "2026-10-06T11:30:46Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Mass Student Demonstrations and Unrest in France",
-      "summary": "Tens of thousands of students and union members are marching across major French cities, with significant clashes reported in Paris, Lyon, and Strasbourg. The widespread protests and growing societal friction highlight deep-seated public discontent and security concerns.",
+      "title": "Former German Intelligence Chief Arrested for Espionage",
+      "summary": "German authorities have arrested a former head of the country's spy agency on preliminary charges of treason and espionage. The high-profile arrest highlights growing concerns regarding national security and internal subversion within European institutions.",
+      "article_ids": [
+        "75db557fdd5fe627274ab5b3",
+        "b5207dd992bd06623f640ce9"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o?at_medium=RSS&at_campaign=rss",
+          "headline": "Former German spy chief arrested for espionage and treason",
+          "published_at": "2026-10-06T10:05:42Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/former-german-spy-chief-bnd-arrested-for-treason-and-espionage-august-hanning",
+          "headline": "Former German spy chief arrested for treason and espionage",
+          "published_at": "2026-10-06T09:40:33Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Mass Student Protests and Unrest Spread Across France",
+      "summary": "Thousands of students and union members have taken to the streets across French cities, leading to clashes with police and significant disruptions. The demonstrations coincide with escalating political debates surrounding national fiscal stability and public infrastructure.",
       "article_ids": [
         "e602afc036673e76de9fca30",
         "c69c70a06b2bd4ee4a31ce5f"
@@ -85,38 +108,38 @@
         }
       ],
       "source_count": 2
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Major Ukrainian Drone Strike Targets Moscow",
-      "summary": "Ukrainian forces launched one of the largest drone attacks on Moscow in two years, severely disrupting regional operations and escalating aerial warfare. The major strike deep within Russian territory underscores the intensifying conflict and expanding security risks.",
+      "title": "Escalating Aerial Attacks Impact Russia and Ukraine",
+      "summary": "Ukrainian forces targeted Moscow with one of the largest drone assaults seen in two years. Meanwhile, separate strikes in regions like Kharkiv and the Black Sea have resulted in casualties and infrastructure damage.",
       "article_ids": [
-        "ef93fcad8281e666e4ae92e9",
-        "745d1364187ea4e93c5104cb"
+        "0066b569e1898e0a1b5ab467",
+        "ef93fcad8281e666e4ae92e9"
       ],
       "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss",
+          "headline": "Ship sinks and crew missing after Black Sea drone attack",
+          "published_at": "2026-10-06T10:37:19Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20261006-massive-ukrainian-drone-attack-targets-moscow-russian-officials-say",
           "headline": "Ukraine hits Moscow with one of the largest drone attacks in two years",
           "published_at": "2026-10-06T06:11:43Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261006-massive-ukrainian-drone-attack-targets-moscow-russian-officials-say",
-          "headline": "Ukraine hits Moscow with one of its largest drone attacks in two years",
-          "published_at": "2026-10-06T06:11:43Z"
         }
       ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
+      "source_count": 2
+    },
     {
-      "title": "Geopolitical Defense Preparations in Central Europe",
-      "summary": "Poland and Lithuania are actively organizing emergency evacuation logistics to handle potential refugee flows in the event of armed conflict. Regional authorities are scaling up defense measures to ensure preparedness along their borders.",
+      "title": "Regional Defense Preparations in Central and Eastern Europe",
+      "summary": "Poland and Lithuania are actively organizing contingency measures to manage potential civilian displacement near their borders. Security experts note a broader intensification of gray-zone activities and hybrid threats across the continent.",
       "article_ids": [
-        "730a0104728d593b5345c395",
-        "cb5590023bd3b76cbab602b8"
+        "93901d4a415baa2bb1c69f61",
+        "730a0104728d593b5345c395"
       ],
       "sources": [
         {
@@ -124,45 +147,6 @@
           "url": "https://notesfrompoland.com/2026/10/06/poland-and-lithuania-prepare-for-one-million-baltic-refugees-entering-poland-in-event-of-war",
           "headline": "Poland and Lithuania prepare for one million Baltic refugees entering Poland in event of war",
           "published_at": "2026-10-06T09:58:11Z"
-        },
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/10/06/poland-and-lithuania-prepare-for-one-million-baltic-refugees-entering-poland-in-event-of-war",
-          "headline": "Poland and Lithuania prepare to evacuate one million Baltic residents to Poland in event of war",
-          "published_at": "2026-10-06T09:58:11Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "German Espionage Investigation Involves Former Official",
-      "summary": "A former German intelligence chief has been formally arrested on suspicion of treason and espionage activities. The high-profile security case has triggered urgent institutional reviews within German state agencies.",
-      "article_ids": [
-        "b5207dd992bd06623f640ce9"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/former-german-spy-chief-bnd-arrested-for-treason-and-espionage-august-hanning",
-          "headline": "Former German spy chief arrested for treason and espionage",
-          "published_at": "2026-10-06T09:40:33Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "French Fiscal Pressures and Political Debates",
-      "summary": "French political figures are proposing substantial budgetary savings and structural reforms to avert a national debt default. These fiscal warnings and economic strains are stirring broader anxieties across European financial markets.",
-      "article_ids": [
-        "4534775f67a5954aa6060cf0",
-        "3851b157e8333f84ba7ed613"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261006-le-pen-vows-%E2%82%AC140-billion-savings-if-elected-to-prevent-french-default",
-          "headline": "Le Pen vows €140 billion savings if elected to prevent French 'default'",
-          "published_at": "2026-10-06T09:52:46Z"
         }
       ],
       "source_count": 1
@@ -224,10 +208,10 @@
       ]
     },
     {
-      "label": "plague · Russia",
+      "label": "plague · Russia · death",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 3,
+      "item_count": 4,
       "latest_at": "2026-10-06T10:30:22Z",
       "sources": [
         {
@@ -244,9 +228,9 @@
         },
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cv5yn3nwp5n5o?at_medium=RSS&at_campaign=rss",
-          "headline": "US 'watching closely' after plague researcher dies in Russia",
-          "published_at": "2026-10-05T21:33:49Z"
+          "url": "https://www.bbc.co.uk/news/videos/cw4g1r1k1d0ro?at_medium=RSS&at_campaign=rss",
+          "headline": "What is Russia saying about death of woman linked to plague lab?",
+          "published_at": "2026-10-06T07:58:53Z"
         }
       ]
     },
@@ -280,6 +264,48 @@
   ],
   "radar": [
     {
+      "id": "33f96d88b9d12bd2ad12a21e",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Tensions mount on Mexico-US border amid drones and shootouts",
+      "url": "https://english.elpais.com/international/2026-10-06/tensions-mount-on-mexico-us-border-amid-drones-and-shootouts.html",
+      "published_at": "2026-10-06T11:13:40Z",
+      "collected_at": "2026-10-06T11:30:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "93901d4a415baa2bb1c69f61",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Philip Ingram sees Russia, China and Iran stepping up ‘gray zone’ activities across UK and Europe",
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20261006-philip-ingram-sees-russia-china-and-iran-stepping-up-gray-zone-activities-across-uk-and-europe",
+      "published_at": "2026-10-06T11:13:12Z",
+      "collected_at": "2026-10-06T11:30:46Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "88f1b3af669f16daf492249b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Key points from the Supreme Court in the case against the oil companies. What is being judged? What are the repercussions?",
+      "url": "https://english.elpais.com/economy-and-business/2026-10-06/key-points-from-the-supreme-court-in-the-case-against-the-oil-companies-what-is-being-judged-what-are-the-repercussions.html",
+      "published_at": "2026-10-06T11:04:27Z",
+      "collected_at": "2026-10-06T11:30:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "21633f44c890a428b4188fd2",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -308,6 +334,20 @@
       ]
     },
     {
+      "id": "0066b569e1898e0a1b5ab467",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Ship sinks and crew missing after Black Sea drone attack",
+      "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-06T10:37:19Z",
+      "collected_at": "2026-10-06T11:30:46Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "ee1b78c3e6b828d4599b1c9d",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -332,6 +372,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f76e854a283c6938eca24dac",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Watch: At the scene of protests on the streets of Lille",
+      "url": "https://www.bbc.co.uk/news/videos/c6reyz98gz2no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-06T10:22:42Z",
+      "collected_at": "2026-10-06T11:30:46Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -388,6 +442,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "75db557fdd5fe627274ab5b3",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Former German spy chief arrested for espionage and treason",
+      "url": "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-06T10:05:42Z",
+      "collected_at": "2026-10-06T11:30:46Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -669,6 +737,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "6b29edfa226d96235a13c24f",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "What is Russia saying about death of woman linked to plague lab?",
+      "url": "https://www.bbc.co.uk/news/videos/cw4g1r1k1d0ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-06T07:58:53Z",
+      "collected_at": "2026-10-06T11:30:46Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -2408,6 +2490,20 @@
       ]
     },
     {
+      "id": "05494cad41587bb7ecb4ee41",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Jahel Queralt, essayist: ‘Those who most criticize meritocracy are those who need it the least’",
+      "url": "https://english.elpais.com/society/2026-10-02/jahel-queralt-essayist-those-who-most-criticize-meritocracy-are-those-who-need-it-the-least.html",
+      "published_at": "2026-10-02T19:25:39Z",
+      "collected_at": "2026-10-06T11:30:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "a1bb0f4de6ff6bcfe12c292a",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2604,6 +2700,20 @@
       ]
     },
     {
+      "id": "f1873703ab1a5f052592e6ec",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "US Treasury targets ‘Mayito Flaco’ network, including Baja California governor’s ex-husband",
+      "url": "https://english.elpais.com/international/2026-09-30/us-treasury-targets-mayito-flaco-network-including-baja-california-governors-ex-husband.html",
+      "published_at": "2026-09-30T09:32:59Z",
+      "collected_at": "2026-10-06T11:30:46Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "ef8e365ce0b1f55eac29a093",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2667,48 +2777,6 @@
       "url": "https://english.elpais.com/sports/2026-09-29/three-of-the-four-afghans-who-left-the-country-to-play-the-chess-olympiad-are-detained-in-kabul-and-face-uncertain-fate.html",
       "published_at": "2026-09-29T17:36:35Z",
       "collected_at": "2026-10-05T18:30:42Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "0e3a7a0c6253e1590c40de02",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "EU court rejects Poland’s request to suspend implementation of Mercosur trade deal",
-      "url": "https://notesfrompoland.com/2026/09/29/eu-court-rejects-polands-request-to-suspend-implementation-of-mercosur-trade-deal",
-      "published_at": "2026-09-29T16:57:50Z",
-      "collected_at": "2026-10-05T18:01:05Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "4b1a855e2d57a7ab59ce0ab1",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Johnny Cross, ‘the vegan butcher’: ‘I’ve been in the world 34 years and I’ve never eaten meat or fish, and I’m alive, I’m healthy’",
-      "url": "https://english.elpais.com/lifestyle/2026-09-29/johnny-cross-the-vegan-butcher-ive-been-in-the-world-34-years-and-ive-never-eaten-meat-or-fish-and-im-alive-im-healthy.html",
-      "published_at": "2026-09-29T14:04:46Z",
-      "collected_at": "2026-10-05T15:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "9e0a227b9159734c55b28e7c",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "EL PAÍS offers free Spanish lessons with Gymglish",
-      "url": "https://english.elpais.com/economy-and-business/2021-11-15/el-pais-offers-free-spanish-lessons-with-gymglish.html",
-      "published_at": "2021-11-15T14:10:11Z",
-      "collected_at": "2026-10-06T10:00:47Z",
       "topics": [
         "politics",
         "society",
