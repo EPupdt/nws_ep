@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-06T14:00:54Z",
-  "last_successful_collection_at": "2026-10-06T14:00:54Z",
+  "generated_at": "2026-10-06T14:30:44Z",
+  "last_successful_collection_at": "2026-10-06T14:30:44Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-06T14:00:54Z"
+      "at": "2026-10-06T14:30:44Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-06T14:00:54Z"
+      "at": "2026-10-06T14:30:44Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-06T14:00:54Z"
+      "at": "2026-10-06T14:30:44Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-06T14:00:54Z"
+      "at": "2026-10-06T14:30:44Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-06T14:00:54Z"
+      "at": "2026-10-06T14:30:44Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-10-06T14:00:54Z"
+      "at": "2026-10-06T14:30:44Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-06T14:00:54Z"
+      "at": "2026-10-06T14:30:44Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-06T14:00:54Z"
+      "at": "2026-10-06T14:30:44Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-06T14:00:54Z"
+      "at": "2026-10-06T14:30:44Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Former German Intelligence Official Arrested for Espionage",
-      "summary": "A former German spy chief has been arrested on charges of espionage and treason. The high-profile security case highlights ongoing concerns regarding intelligence integrity and foreign influence.",
+      "title": "Escalating Student Demonstrations and Unrest in France",
+      "summary": "Thousands of students have marched across various French cities, resulting in reported clashes and a heavy security presence.",
+      "article_ids": [
+        "e602afc036673e76de9fca30",
+        "31f241150a5984ad6b5d2f07"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261006-live-tens-of-thousands-expected-at-paris-protests-as-unions-join-students",
+          "headline": "🔴 Live: Thousands of students march across France as clashes reported in Lyon and Strasbourg",
+          "published_at": "2026-10-06T10:40:47Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261006-heavy-police-presence-as-students-set-to-march-in-paris",
+          "headline": "'Heavy police presence' as students set to march in Paris",
+          "published_at": "2026-10-06T12:57:07Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Arrest of Former German Intelligence Official on Treason Charges",
+      "summary": "A former German spy chief has been arrested by authorities on charges of espionage and treason.",
       "article_ids": [
         "75db557fdd5fe627274ab5b3"
       ],
@@ -78,13 +101,37 @@
         }
       ],
       "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Black Sea Maritime Security Incidents",
+      "summary": "Recent drone attacks in the Black Sea region have impacted maritime traffic and hit multiple ships. Search operations are underway for missing crew members following these vessel strikes.",
+      "article_ids": [
+        "6ee35f271fc27382083377ee",
+        "0066b569e1898e0a1b5ab467"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261006-bulgaria-searches-for-missing-crew-as-drones-hit-two-more-black-sea-ships",
+          "headline": "Bulgaria searches for missing crew as drones hit two Black Sea ships",
+          "published_at": "2026-10-06T10:24:45Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss",
+          "headline": "Ship sinks and crew missing after Black Sea drone attack",
+          "published_at": "2026-10-06T10:37:19Z"
+        }
+      ],
+      "source_count": 2
     },
     {
-      "title": "Poland and Lithuania Enhance Regional Defense Measures",
-      "summary": "Poland and Lithuania are actively preparing for potential security contingencies, including plans related to the relocation of residents in the event of war. These regional defense preparations underline heightened strategic anxieties across Central and Eastern Europe.",
+      "title": "Regional Defense and Refugee Contingency Planning",
+      "summary": "Poland and Lithuania are actively enhancing their regional defense preparations and security measures. Authorities are preparing for potential scenarios involving the movement of up to one million refugees in the event of a conflict.",
       "article_ids": [
-        "730a0104728d593b5345c395",
-        "cb5590023bd3b76cbab602b8"
+        "730a0104728d593b5345c395"
       ],
       "sources": [
         {
@@ -92,65 +139,9 @@
           "url": "https://notesfrompoland.com/2026/10/06/poland-and-lithuania-prepare-for-one-million-baltic-refugees-entering-poland-in-event-of-war",
           "headline": "Poland and Lithuania prepare for one million Baltic refugees entering Poland in event of war",
           "published_at": "2026-10-06T09:58:11Z"
-        },
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/10/06/poland-and-lithuania-prepare-for-one-million-baltic-refugees-entering-poland-in-event-of-war",
-          "headline": "Poland and Lithuania prepare to evacuate one million Baltic residents to Poland in event of war",
-          "published_at": "2026-10-06T09:58:11Z"
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Student Protests and Social Unrest in France",
-      "summary": "Thousands of students have marched across France, leading to clashes in cities such as Lyon and Strasbourg. The demonstrations reflect growing public discontent and have prompted a heavy police presence in Paris and other urban centers.",
-      "article_ids": [
-        "31f241150a5984ad6b5d2f07",
-        "e602afc036673e76de9fca30",
-        "21633f44c890a428b4188fd2"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261006-heavy-police-presence-as-students-set-to-march-in-paris",
-          "headline": "'Heavy police presence' as students set to march in Paris",
-          "published_at": "2026-10-06T12:57:07Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261006-live-tens-of-thousands-expected-at-paris-protests-as-unions-join-students",
-          "headline": "🔴 Live: Thousands of students march across France as clashes reported in Lyon and Strasbourg",
-          "published_at": "2026-10-06T10:40:47Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "French Fiscal Pressures and Political Platforms",
-      "summary": "Political figures in France have unveiled proposed economic platforms centered on substantial spending cuts aimed at preventing a national financial default. These fiscal debates occur amid wider pressures on French sovereign debt and public services.",
-      "article_ids": [
-        "cfab4fbfd01befce4eee3e29",
-        "4534775f67a5954aa6060cf0",
-        "813f5296954a0caeb99fc105"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/le-pen-unveils-economic-platform-stuffed-with-eye-watering-cuts-but-few-new-ideas",
-          "headline": "France’s Le Pen unveils economic platform stuffed with cuts — but few new ideas",
-          "published_at": "2026-10-06T12:09:23Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261006-le-pen-vows-%E2%82%AC140-billion-savings-if-elected-to-prevent-french-default",
-          "headline": "Le Pen vows €140 billion savings if elected to prevent French 'default'",
-          "published_at": "2026-10-06T09:52:46Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "developing": [
@@ -188,10 +179,10 @@
       ]
     },
     {
-      "label": "Russia · Ukraine · strikes · drone",
+      "label": "Russia · Ukraine",
       "origin": "convergence",
-      "source_count": 4,
-      "item_count": 5,
+      "source_count": 3,
+      "item_count": 3,
       "latest_at": "2026-10-06T13:13:38Z",
       "sources": [
         {
@@ -211,20 +202,14 @@
           "url": "https://www.france24.com/en/video/20261006-at-least-6-dead-as-russia-strikes-ukraine-s-kharkiv",
           "headline": "At least 6 dead as Russia strikes Ukraine’s Kharkiv",
           "published_at": "2026-10-06T09:29:28Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/241119/russias-army-making-no-progress-on-the-ground-but-kyivs-old-bridges-are-vulnerable-to-drone-strikes-ukraine-battlefield-update-day-1684",
-          "headline": "Russia’s army making no progress on the ground, but Kyiv’s old bridges are vulnerable to drone strikes (Ukraine Battlefield update, day 1,684)",
-          "published_at": "2026-10-05T14:04:29Z"
         }
       ]
     },
     {
-      "label": "Students · protest · France · school",
+      "label": "Students · protest · France · claims",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 9,
+      "item_count": 8,
       "latest_at": "2026-10-06T12:26:59Z",
       "sources": [
         {
@@ -264,6 +249,118 @@
     }
   ],
   "radar": [
+    {
+      "id": "dac737365d3f24cb5eef05f7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French students: What do they want?",
+      "url": "https://www.france24.com/en/tv-shows/entre-nous/20261006-french-students-what-do-they-want",
+      "published_at": "2026-10-06T14:16:32Z",
+      "collected_at": "2026-10-06T14:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "7f11d68e1c2668ef90725d50",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland detains senior managers from state oil giant Orlen over pre-election fuel price cuts",
+      "url": "https://notesfrompoland.com/2026/10/06/poland-detains-senior-managers-from-state-oil-giant-orlen-over-pre-election-fuel-price-cuts",
+      "published_at": "2026-10-06T14:14:32Z",
+      "collected_at": "2026-10-06T14:30:44Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "0efdf5d5452e556057c53fdf",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ethiopia 'fears Tigray conflict could get out of control'",
+      "url": "https://www.france24.com/en/video/20261006-ethiopia-fears-tigray-conflict-could-get-out-of-control",
+      "published_at": "2026-10-06T14:11:00Z",
+      "collected_at": "2026-10-06T14:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e940d6e671c76f2fc104ebcf",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ukrainian drones kill two, hit fuel hub in one of biggest attacks on Moscow region",
+      "url": "https://www.france24.com/en/video/20261006-ukrainian-drones-kill-two-hit-fuel-hub-in-one-of-biggest-attacks-on-moscow-region",
+      "published_at": "2026-10-06T14:07:51Z",
+      "collected_at": "2026-10-06T14:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c318ba1ac729f695cf7b736f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "India opposition parties rally for election chief’s exit over voter list changes",
+      "url": "https://www.france24.com/en/video/20261006-india-opposition-parties-rally-for-election-chief-s-exit-over-voter-list-changes",
+      "published_at": "2026-10-06T14:06:37Z",
+      "collected_at": "2026-10-06T14:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "8175ec1ae00df23841f2dab5",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Greens probe conduct complaint against Deputy Leader Mothin Ali",
+      "url": "https://www.politico.eu/article/greens-probe-conduct-complaint-against-deputy-leader-mothin-ali",
+      "published_at": "2026-10-06T14:05:44Z",
+      "collected_at": "2026-10-06T14:30:44Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "94fff465e08804c0d5d697b0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Separatists win Quebec election with promise to hold vote on independence",
+      "url": "https://www.france24.com/en/video/20261006-separatists-win-quebec-election-with-promise-to-hold-vote-on-independence",
+      "published_at": "2026-10-06T14:04:37Z",
+      "collected_at": "2026-10-06T14:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "b56b0790b1f9b5632a4ca4f1",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'They Stole a City' author Lauren Collins on how Wilmington coup was 'covered up'",
+      "url": "https://www.france24.com/en/tv-shows/perspective/20261006-they-stole-a-city-author-lauren-collins-on-how-wilmington-coup-was-covered-up",
+      "published_at": "2026-10-06T13:53:53Z",
+      "collected_at": "2026-10-06T14:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "52d303012da393b8528b978d",
       "source_id": "euobserver",
@@ -2670,62 +2767,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "9139e8c4ac62c4d5270441de",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Inflation hits 4% in Poland as fuel prices surge",
-      "url": "https://notesfrompoland.com/2026/09/30/inflation-hits-4-in-poland-as-fuel-prices-surge",
-      "published_at": "2026-09-30T12:25:19Z",
-      "collected_at": "2026-10-06T14:00:54Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "401bf30b114087a8648cbcc4",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The yield on the US 10-year Treasury reached its highest level in two decades. Why should you care?",
-      "url": "https://english.elpais.com/economy-and-business/2026-09-30/the-yield-on-the-us-10-year-treasury-reached-its-highest-level-in-two-decades-why-should-you-care.html",
-      "published_at": "2026-09-30T11:13:38Z",
-      "collected_at": "2026-10-06T12:30:42Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "f1873703ab1a5f052592e6ec",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "US Treasury targets ‘Mayito Flaco’ network, including Baja California governor’s ex-husband",
-      "url": "https://english.elpais.com/international/2026-09-30/us-treasury-targets-mayito-flaco-network-including-baja-california-governors-ex-husband.html",
-      "published_at": "2026-09-30T09:32:59Z",
-      "collected_at": "2026-10-06T11:30:46Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "15847d1bc1e33680c4a40eb3",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump’s broken promise on crypto: a gold mine for his empire, multimillion-dollar losses for investors",
-      "url": "https://english.elpais.com/economy-and-business/2026-09-28/trumps-broken-promise-on-crypto-a-gold-mine-for-his-empire-multimillion-dollar-losses-for-investors.html",
-      "published_at": "2026-09-28T12:02:10Z",
-      "collected_at": "2026-10-06T14:00:54Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     }
   ]
