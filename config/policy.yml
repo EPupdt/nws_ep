@@ -29,6 +29,9 @@ schedule_bands:
       every_minutes: 20
 models:
   gemini: gemini-3.8-flash
+  # Retain the proven free-tier model if the newer model is unavailable.
+  gemini_fallbacks:
+    - gemini-3.5-flash-lite
   openrouter:
     # OpenRouter's free-only router. Never replace this with a paid model ID.
     - openrouter/free
