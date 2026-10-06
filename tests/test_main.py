@@ -44,7 +44,7 @@ class LlmSelectionTests(unittest.TestCase):
     policy = {
         "max_europe_now": 2,
         "top_story_count": 5,
-        "models": {"gemini": "gemini-3.5-flash-lite", "openrouter": ["openrouter/free"]},
+        "models": {"gemini": "gemini-3.8-flash", "openrouter": ["openrouter/free"]},
     }
     articles = [{"id": "article-1", "title": "Example", "excerpt": "Example", "url": "https://example.com"}]
 
@@ -109,7 +109,7 @@ class LlmSelectionTests(unittest.TestCase):
                 selected, model = news_main.llm_selection(self.articles, self.policy, [])
 
         self.assertEqual(selection, selected)
-        self.assertEqual("gemini:gemini-3.5-flash-lite", model)
+        self.assertEqual("gemini:gemini-3.8-flash", model)
 
     def test_truncated_json_falls_back_without_crashing(self):
         selection = {
@@ -220,7 +220,7 @@ class LlmRetryTests(unittest.TestCase):
 
     def test_retry_after_seconds_is_respected(self):
         _, model, audit, _, sleeps, _ = self.select([self.error(429, {"Retry-After": "7"}), self.response()])
-        self.assertEqual("gemini:gemini-3.5-flash-lite", model)
+        self.assertEqual("gemini:gemini-3.8-flash", model)
         self.assertEqual([7], [call.args[0] for call in sleeps])
         self.assertEqual(7, audit[0]["retry_delay_seconds"])
 
@@ -282,7 +282,7 @@ class LlmRetryTests(unittest.TestCase):
 
     def test_missing_keys_and_paid_models_are_skipped(self):
         for keys, policy in (({}, self.policy), ({"OR_API_KEY": self.keys["OR_API_KEY"]},
-                {**self.policy, "models": {"gemini": "gemini-3.5-flash-lite", "openrouter": ["paid/model"]}})):
+                {**self.policy, "models": {"gemini": "gemini-3.8-flash", "openrouter": ["paid/model"]}})):
             _, model, audit, calls, sleeps, _ = self.select([], keys, policy)
             self.assertEqual("failed", model)
             self.assertEqual([], calls)
