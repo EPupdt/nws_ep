@@ -377,9 +377,39 @@
     "4a57eda4423902602b81a837": "2026-10-06T20:00:49Z",
     "b957b5c502d2c8a0052687cf": "2026-10-06T20:00:49Z",
     "e28ab7067c570420acaa5fa9": "2026-10-06T20:00:49Z",
-    "875017ebaaecd23f58ba954d": "2026-10-06T20:00:49Z"
+    "875017ebaaecd23f58ba954d": "2026-10-06T20:00:49Z",
+    "09c44562656ce4a8dd450e79": "2026-10-06T20:30:42Z",
+    "141e140b3a137d72e50f425a": "2026-10-06T20:30:42Z"
   },
   "radar": [
+    {
+      "id": "09c44562656ce4a8dd450e79",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Greens promise ‘campaign mode’ and continuity under new leaders",
+      "url": "https://www.politico.eu/article/greens-terry-reintke-nicu-stefanuta-new-leadership-european-parliament",
+      "published_at": "2026-10-06T20:22:56Z",
+      "collected_at": "2026-10-06T20:30:42Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "141e140b3a137d72e50f425a",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Sweden to deploy Patriot air defence systems to Poland",
+      "url": "https://notesfrompoland.com/2026/10/06/sweden-to-deploy-patriot-air-defence-systems-to-poland",
+      "published_at": "2026-10-06T20:06:03Z",
+      "collected_at": "2026-10-06T20:30:42Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "e5be9aae85213e0fe12a09f3",
       "source_id": "france24",
@@ -2383,20 +2413,6 @@
       ]
     },
     {
-      "id": "bb2d899cee9059c1d4546804",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Sanchez chose 'best moment in a sea of troubles' to call for snap election, analyst says",
-      "url": "https://www.france24.com/en/sanchez-chose-best-moment-in-a-sea-of-troubles-to-call-for-snap-election-analyst-says",
-      "published_at": "2026-10-05T19:31:33Z",
-      "collected_at": "2026-10-05T20:01:18Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "b02ea20fced88a650c1ff268",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2885,31 +2901,9 @@
         "politics",
         "society"
       ]
-    },
-    {
-      "id": "3519931c4fbadf1d12229751",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Eric Sadin: ‘AI reeks of death’",
-      "url": "https://english.elpais.com/culture/2026-10-01/eric-sadin-ai-reeks-of-death.html",
-      "published_at": "2026-10-01T19:57:39Z",
-      "collected_at": "2026-10-06T04:00:49Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
     }
   ],
   "recent_topics": [
-    {
-      "at": "2026-10-05T19:04:40Z",
-      "title": "Digital Rights and AI Regulation"
-    },
-    {
-      "at": "2026-10-05T19:31:31Z",
-      "title": "Spanish political developments"
-    },
     {
       "at": "2026-10-05T19:31:31Z",
       "title": "EU trade and economic defense"
@@ -3221,14 +3215,38 @@
     {
       "at": "2026-10-06T20:00:49Z",
       "title": "EU budget strategy and expansion policy"
+    },
+    {
+      "at": "2026-10-06T20:30:42Z",
+      "title": "Mass Student Protests and Unrest Across France"
+    },
+    {
+      "at": "2026-10-06T20:30:42Z",
+      "title": "European Union Budget and Expansion Policy Debates"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "German ex-spy chief arrested on treason and espionage charges",
-        "summary": "A former German intelligence official has been arrested on suspicion of espionage and treason involving leaked BND files. The high-profile security investigation highlights potential vulnerabilities within federal intelligence operations.",
+        "title": "Sweden to Deploy Patriot Air Defence Systems to Poland",
+        "summary": "Sweden is set to deploy Patriot air defence systems to Poland to enhance regional security measures. The announcement comes amid ongoing security developments across Central Europe.",
+        "article_ids": [
+          "141e140b3a137d72e50f425a"
+        ],
+        "sources": [
+          {
+            "publisher": "Notes from Poland",
+            "url": "https://notesfrompoland.com/2026/10/06/sweden-to-deploy-patriot-air-defence-systems-to-poland",
+            "headline": "Sweden to deploy Patriot air defence systems to Poland",
+            "published_at": "2026-10-06T20:06:03Z"
+          }
+        ],
+        "source_count": 1
+      },
+      {
+        "title": "German Former Spy Chief Arrested on Espionage and Treason Charges",
+        "summary": "A former head of German intelligence has been arrested over suspected espionage and treason allegations involving leaked state files. The investigation highlights significant internal security concerns within the country.",
         "article_ids": [
           "ff6a301ab042ff07485c8bed",
           "dce073219b7c27273f1b066c"
@@ -3248,15 +3266,16 @@
           }
         ],
         "source_count": 2
-      },
+      }
+    ],
+    "top_stories": [
       {
-        "title": "Widespread student protests and clashes escalate across France",
-        "summary": "Tens of thousands of students, teachers, and union members have taken to the streets in demonstrations across France to demand better learning conditions. The protests have resulted in clashes with police, prompting government officials to address public safety and school disruptions.",
+        "title": "Mass Student Protests and Unrest Across France",
+        "summary": "Tens of thousands of students, teachers, and union members have staged large demonstrations across France to demand improved learning conditions and educational funding. The mass movement has triggered clashes and widespread debate regarding government spending and public security responses.",
         "article_ids": [
           "225d046ed2c1097e5eccbb2e",
           "4a57eda4423902602b81a837",
-          "dc39d85ae535086890ab89df",
-          "9b199b681d8a1165f91bfe16"
+          "a272f3595943b53a9d6cf6ec"
         ],
         "sources": [
           {
@@ -3273,61 +3292,13 @@
           }
         ],
         "source_count": 1
-      }
-    ],
-    "top_stories": [
-      {
-        "title": "German intelligence espionage investigation",
-        "summary": "German authorities have detained a former intelligence chief over suspected treason and espionage related to classified files. The ongoing investigation focuses on the unauthorized leakage of sensitive information from the federal intelligence service.",
-        "article_ids": [
-          "ff6a301ab042ff07485c8bed",
-          "dce073219b7c27273f1b066c"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/german-ex-spy-chief-arrested-for-suspected-espionage-treason",
-            "headline": "German ex-spy chief arrested for suspected espionage, treason",
-            "published_at": "2026-10-06T19:42:27Z"
-          },
-          {
-            "publisher": "EUobserver",
-            "url": "https://euobserver.com/241332/german-ex-spy-chief-arrested-over-espionage-and-treason-allegations-involving-leaked-bnd-files",
-            "headline": "German ex-spy chief arrested over espionage and treason allegations involving leaked BND files",
-            "published_at": "2026-10-06T14:39:26Z"
-          }
-        ],
-        "source_count": 2
       },
       {
-        "title": "Mass student demonstrations in France",
-        "summary": "Tens of thousands of students and union members participated in widespread demonstrations across France to protest educational conditions. Prime Minister Sebastien Lecornu defended police handling of the demonstrations following reports of injuries and escalating tensions.",
-        "article_ids": [
-          "4a57eda4423902602b81a837",
-          "dc39d85ae535086890ab89df",
-          "a272f3595943b53a9d6cf6ec"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/students-unions-and-teachers-in-mass-movement-to-demand-better-learning-conditions",
-            "headline": "Students, unions and teachers in mass movement to demand better learning conditions",
-            "published_at": "2026-10-06T19:39:39Z"
-          },
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/video/20261006-tens-of-thousands-demand-better-education-in-demonstrations-across-france",
-            "headline": "Tens of thousands demand better education in demonstrations across France",
-            "published_at": "2026-10-06T16:04:34Z"
-          }
-        ],
-        "source_count": 1
-      },
-      {
-        "title": "EU budget strategy and expansion policy",
-        "summary": "European Commission officials and members of the European Parliament are debating major funding plans and structural safeguards ahead of an upcoming summit. Proposed measures include long-term restrictions for future member states to address internal political and financial concerns.",
+        "title": "European Union Budget and Expansion Policy Debates",
+        "summary": "European Commission leaders and members of the European Parliament are actively defending a substantial multi-trillion euro spending plan ahead of an upcoming summit. Simultaneously, officials are proposing lengthy safeguards for prospective member states to address internal bloc concerns regarding future expansion.",
         "article_ids": [
           "62d809efaa5abf53f3a7768e",
+          "b7461758c53e7e80b9ae9f9c",
           "f296e5a464402c7bf800d711"
         ],
         "sources": [
@@ -3336,17 +3307,11 @@
             "url": "https://euobserver.com/241396/commission-seeks-15-year-safeguards-on-future-member-states-but-says-reforms-wont-create-two-tier-eu",
             "headline": "Commission seeks 15-year safeguards on future member states, but says reforms won’t create two-tier EU",
             "published_at": "2026-10-06T18:29:52Z"
-          },
-          {
-            "publisher": "EUobserver",
-            "url": "https://euobserver.com/241381/von-der-leyen-joins-meps-in-defence-of-eus-e2-trillion-spending-plan-ahead-of-summit",
-            "headline": "Von der Leyen joins MEPs in defence of EU’s €2 trillion spending plan ahead of summit",
-            "published_at": "2026-10-06T15:48:23Z"
           }
         ],
         "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-10-06T20:00:49Z"
+  "last_collection_at": "2026-10-06T20:30:42Z"
 }
