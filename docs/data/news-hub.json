@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-06T04:00:49Z",
-  "last_successful_collection_at": "2026-10-06T04:00:49Z",
+  "generated_at": "2026-10-06T04:30:48Z",
+  "last_successful_collection_at": "2026-10-06T04:30:48Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-06T04:00:49Z"
+      "at": "2026-10-06T04:30:48Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-10-06T04:00:49Z"
+      "at": "2026-10-06T04:30:48Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-06T04:00:49Z"
+      "at": "2026-10-06T04:30:48Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,71 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-06T04:00:49Z"
+      "at": "2026-10-06T04:30:48Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-06T04:00:49Z"
+      "at": "2026-10-06T04:30:48Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-10-06T04:00:49Z"
+      "at": "2026-10-06T04:30:48Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-06T04:00:49Z"
+      "at": "2026-10-06T04:30:48Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-06T04:00:49Z"
+      "at": "2026-10-06T04:30:48Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-06T04:00:49Z"
+      "at": "2026-10-06T04:30:48Z"
     }
   ],
   "europe_now": [
     {
-      "title": "French debt concerns drive euro down",
-      "summary": "Growing concerns regarding French national debt levels have caused the euro to drop to a 17-month low against the US dollar. Financial markets are increasingly reacting to the fiscal stability issues originating in France.",
+      "title": "Spanish political shifts",
+      "summary": "Prime Minister Pedro Sánchez announced a snap election, setting off a swift campaign centered heavily on housing policy and national political stability. The upcoming vote carries significant implications for the broader European political balance and regional governance.",
       "article_ids": [
+        "1e4bd7d9a6f17d1e5d5a4112",
+        "c9fb38abecd4b6b020298595"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/spanish-election-threatens-brussels-political-balance-pedro-sanchez-socialists-european-parliament",
+          "headline": "Spanish election threatens to blow up Brussels’ political balance",
+          "published_at": "2026-10-06T02:18:45Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "French protests and economic strain",
+      "summary": "Student demonstrations and union-backed rallies in Paris have intensified amid reports of violent clashes and widespread public disruption. Concurrently, mounting sovereign debt concerns have placed downward pressure on the euro, stirring anxieties reminiscent of past financial crises.",
+      "article_ids": [
+        "27fbcf0946f8befa59e942a8",
         "0f21e33efeaf6664e0be5b66"
       ],
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261006-live-tens-of-thousands-expected-at-paris-protests-as-unions-join-students",
+          "headline": "Live: Tens of thousands expected at Paris protests as unions join students",
+          "published_at": "2026-10-06T02:31:54Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/tv-shows/business/20261005-euro-falls-to-17-month-low-against-the-usd-on-french-debt-concerns",
@@ -78,12 +102,15 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Spanish snap election dynamics",
-      "summary": "Prime Minister Pedro Sánchez has called for a snap election while focusing heavily on national housing policies. Observers note that the upcoming electoral contest carries significant implications for the broader political balance in Brussels.",
+      "title": "Spanish Snap Elections",
+      "summary": "Prime Minister Pedro Sánchez called a snap election in a strategic move amid ongoing domestic and international challenges. Analysts note that the campaign will focus heavily on economic pressures, housing crises, and the potential inclusion of the far-right in governance.",
       "article_ids": [
         "1e4bd7d9a6f17d1e5d5a4112",
+        "bb2d899cee9059c1d4546804",
         "0199613b2db0956b70eb7dbd"
       ],
       "sources": [
@@ -101,15 +128,14 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "French Student Demonstrations",
-      "summary": "Tens of thousands of participants are expected in Paris as labor unions join ongoing student protests. Political figures have expressed conflicting stances regarding the demonstrations amidst reports of violent clashes.",
+      "title": "French Student Protests and Economic Pressures",
+      "summary": "Tens of thousands of participants are expected in Paris as labor unions join ongoing student demonstrations and walkouts. Meanwhile, growing anxieties regarding national debt levels have contributed to the euro falling to a 17-month low against the US dollar.",
       "article_ids": [
         "27fbcf0946f8befa59e942a8",
-        "445f07e483ea323bb581f5ae"
+        "3851b157e8333f84ba7ed613",
+        "0f21e33efeaf6664e0be5b66"
       ],
       "sources": [
         {
@@ -119,27 +145,28 @@
           "published_at": "2026-10-06T02:31:54Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/france-jean-luc-melenchon-doubles-down-student-protests-despite-violent-clashes",
-          "headline": "France’s Mélenchon doubles down on student protests despite violent clashes",
-          "published_at": "2026-10-06T02:00:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/business/20261005-euro-falls-to-17-month-low-against-the-usd-on-french-debt-concerns",
+          "headline": "Euro falls to 17-month low against the USD on French debt concerns",
+          "published_at": "2026-10-05T20:51:22Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "AI Regulation and Deepfake Concerns",
-      "summary": "Recent reports reveal that dozens of European Parliament members have been targeted by deepfake pornography and unauthorized applications. Lawmakers are pressing European leaders to enforce protective bans ahead of schedule.",
+      "title": "Digital Rights and AI Regulation",
+      "summary": "Reports revealing that dozens of female European lawmakers were targeted by deepfake pornography have intensified calls for strict digital enforcement. Officials and affected representatives are actively pushing leaders to fully enforce upcoming regulatory bans on malicious AI applications.",
       "article_ids": [
+        "97160147aeecf713eded526a",
         "8b8ca4ec4cd62a71918066da",
         "807672779144de193497dc6c"
       ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/female-european-parliament-lawmakers-targeted-deepfake-porn",
-          "headline": "50 members of European Parliament targeted by deepfake porn, report says",
-          "published_at": "2026-10-05T16:54:02Z"
+          "url": "https://www.politico.eu/article/europol-ai-new-weapons-new-privacy-risks-reboots-for-the-era",
+          "headline": "New weapons, new risks: Europe’s AI policing plan stokes privacy concerns",
+          "published_at": "2026-10-05T17:28:14Z"
         },
         {
           "publisher": "EUobserver",
@@ -189,14 +216,14 @@
       "label": "election · Spain · snap · housing",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 7,
-      "latest_at": "2026-10-05T17:48:14Z",
+      "item_count": 9,
+      "latest_at": "2026-10-06T04:05:00Z",
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/spain-rent-crisis-donald-trump-5-things-snap-election",
-          "headline": "From the rent crisis to Trump: 5 things that will shape Spain’s snap election",
-          "published_at": "2026-10-05T17:48:14Z"
+          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/how-spains-snap-election-could-blow-up-brussels",
+          "headline": "How Spain’s snap election could blow up Brussels",
+          "published_at": "2026-10-06T04:05:00Z"
         },
         {
           "publisher": "EL PAÍS English",
@@ -256,6 +283,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "53784e269f046639a48ec7f2",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "How Spain’s snap election could blow up Brussels",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/how-spains-snap-election-could-blow-up-brussels",
+      "published_at": "2026-10-06T04:05:00Z",
+      "collected_at": "2026-10-06T04:30:48Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "419eda624cea7a4e9f8c5e84",
       "source_id": "politico_europe",
@@ -1993,48 +2034,6 @@
       ]
     },
     {
-      "id": "93a0323c8af9f22356142b4d",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "The race for the EU’s plum diplomatic jobs begins",
-      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-race-for-the-eus-plum-diplomatic-jobs-begins",
-      "published_at": "2026-10-05T04:05:00Z",
-      "collected_at": "2026-10-05T04:30:45Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "c6727a6fa741afca13d8cf33",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Securing energy and trade flows in geo-economic conflicts",
-      "url": "https://www.politico.eu/sponsored-content/securing-energy-and-trade-flows-in-geo-economic-conflicts",
-      "published_at": "2026-10-05T04:00:00Z",
-      "collected_at": "2026-10-05T04:30:45Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "07af5940f634e7119c6d9278",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Push to ban EU left group over French riots",
-      "url": "https://www.politico.eu/article/push-to-ban-eu-left-group-over-french-riots",
-      "published_at": "2026-10-05T04:00:00Z",
-      "collected_at": "2026-10-05T04:30:45Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "228b009c9680d5bd9edfdc87",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2060,6 +2059,90 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "5174c36a5aa6c37c0a25746a",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "AI’s top leaders, like children afraid of a bully",
+      "url": "https://english.elpais.com/technology/2026-10-03/ais-top-leaders-like-children-afraid-of-a-bully.html",
+      "published_at": "2026-10-04T04:00:00Z",
+      "collected_at": "2026-10-06T04:30:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "12aff6a6e6d0d664f2e8a440",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Carl Cederström, sociologist: ‘Wellness has become a corporate tool. It doesn’t make you happier; just more productive’",
+      "url": "https://english.elpais.com/health/2026-10-04/carl-cederstrom-sociologist-wellness-has-become-a-corporate-tool-it-doesnt-make-you-happier-just-more-productive.html",
+      "published_at": "2026-10-04T04:00:00Z",
+      "collected_at": "2026-10-06T04:30:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "19a8c8f65d00044e9d3830bf",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The migration routes of pollution: How ozone, Saharan dust and wildfire smoke cross borders",
+      "url": "https://english.elpais.com/climate/2026-10-04/the-migration-routes-of-pollution-how-ozone-saharan-dust-and-wildfire-smoke-cross-borders.html",
+      "published_at": "2026-10-04T04:00:00Z",
+      "collected_at": "2026-10-06T04:30:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "06aebc4831cfe65921713c22",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Lili Reinhart, the actress looking for success away from Hollywood clichés",
+      "url": "https://english.elpais.com/culture/2026-10-04/lili-reinhart-the-actress-looking-for-success-away-from-hollywood-cliches.html",
+      "published_at": "2026-10-04T04:00:00Z",
+      "collected_at": "2026-10-06T04:30:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "e659e5234e34d5362cd62d9a",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Has Trump’s luck run out? Now who will woo the Latino vote...",
+      "url": "https://english.elpais.com/opinion/2026-10-03/has-trumps-luck-run-out-now-who-will-woo-the-latino-vote.html",
+      "published_at": "2026-10-04T04:00:00Z",
+      "collected_at": "2026-10-06T04:30:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "4d3422b9b1b85a23734b4408",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Shell companies, Kyrgyz firms, and cryptocurrencies: The Kremlin’s phantom network to evade sanctions",
+      "url": "https://english.elpais.com/international/2026-10-03/shell-companies-kyrgyz-firms-and-cryptocurrencies-the-kremlins-phantom-network-to-evade-sanctions.html",
+      "published_at": "2026-10-04T04:00:00Z",
+      "collected_at": "2026-10-06T04:30:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
