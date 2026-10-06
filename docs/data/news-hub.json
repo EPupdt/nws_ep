@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-05T21:58:06Z",
-  "last_successful_collection_at": "2026-10-05T21:58:06Z",
+  "generated_at": "2026-10-06T03:30:40Z",
+  "last_successful_collection_at": "2026-10-06T03:30:40Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-05T21:58:06Z"
+      "at": "2026-10-06T03:30:40Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-10-05T21:58:06Z"
+      "at": "2026-10-06T03:30:40Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-05T21:58:06Z"
+      "at": "2026-10-06T03:30:40Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,119 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-05T21:58:06Z"
+      "at": "2026-10-06T03:30:40Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-05T21:58:06Z"
+      "at": "2026-10-06T03:30:40Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-10-05T21:58:06Z"
+      "at": "2026-10-06T03:30:40Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-05T21:58:06Z"
+      "at": "2026-10-06T03:30:40Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-05T21:58:06Z"
+      "at": "2026-10-06T03:30:40Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-05T21:58:06Z"
+      "at": "2026-10-06T03:30:40Z"
     }
   ],
   "europe_now": [
     {
-      "title": "France and Germany propose new rapid response trade tool",
-      "summary": "France and Germany are seeking a new European Union rapid response mechanism to address unfair trade threats. The initiative aims to enhance the bloc's defensive capabilities against external economic pressures.",
+      "title": "French Student Demonstrations",
+      "summary": "Demonstrations involving students and unions are drawing tens of thousands of participants in Paris amid ongoing unrest and security concerns. Political figures have taken conflicting stances on the escalating protests and subsequent clashes.",
       "article_ids": [
+        "27fbcf0946f8befa59e942a8",
+        "445f07e483ea323bb581f5ae"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261006-live-tens-of-thousands-expected-at-paris-protests-as-unions-join-students",
+          "headline": "Live: Tens of thousands expected at Paris protests as unions join students",
+          "published_at": "2026-10-06T02:31:54Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/france-jean-luc-melenchon-doubles-down-student-protests-despite-violent-clashes",
+          "headline": "France’s Mélenchon doubles down on student protests despite violent clashes",
+          "published_at": "2026-10-06T02:00:00Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Spanish Snap Elections",
+      "summary": "Prime Minister Pedro Sánchez has called a snap election with a heavy focus on housing policy in an effort to counter political challenges. This sudden electoral cycle threatens to alter the existing political balance within the European Parliament.",
+      "article_ids": [
+        "1e4bd7d9a6f17d1e5d5a4112",
+        "0199613b2db0956b70eb7dbd"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/spanish-election-threatens-brussels-political-balance-pedro-sanchez-socialists-european-parliament",
+          "headline": "Spanish election threatens to blow up Brussels’ political balance",
+          "published_at": "2026-10-06T02:18:45Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/241155/spains-54-day-sprint-to-the-polls-can-sanchezs-housing-gamble-stop-the-far-right-from-entering-into-government",
+          "headline": "Spain’s 54-day sprint to the polls: can Sánchez’s housing gamble stop the far-right from entering into government?",
+          "published_at": "2026-10-05T15:29:55Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "French Debt Concerns Impact Markets",
+      "summary": "Growing concerns regarding French national debt have caused the euro to fall to a 17-month low against the US dollar. Analysts note that these economic anxieties are stirring memories of past euro crisis periods.",
+      "article_ids": [
+        "3851b157e8333f84ba7ed613",
+        "0f21e33efeaf6664e0be5b66"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/business/20261005-euro-falls-to-17-month-low-against-the-usd-on-french-debt-concerns",
+          "headline": "Euro falls to 17-month low against the USD on French debt concerns",
+          "published_at": "2026-10-05T20:51:22Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "EU Trade Defense and Strategy",
+      "summary": "German and French leaders are pushing for tougher measures and a new rapid response tool to handle unfair global trade practices. This initiative aims to strengthen the European Union's economic defense strategies against external threats.",
+      "article_ids": [
+        "8f67c36acc27ee1f1a257b9a",
         "20d4e4c867017d935545e68e"
       ],
       "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/merz-macron-seek-tougher-eu-measures-against-unfair-trade/a-79554905?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Merz, Macron seek tougher EU measures against unfair trade",
+          "published_at": "2026-10-05T17:23:00Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20261005-france-germany-seek-new-eu-rapid-response-tool-against-trade-threats",
@@ -77,21 +149,21 @@
           "published_at": "2026-10-05T17:01:26Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "European Parliament members targeted in deepfake report",
-      "summary": "A new report reveals that dozens of female European Parliament members have been targeted by deepfake pornography and artificial intelligence nudifier apps. Lawmakers are urgently pushing EU leaders to enforce stricter regulations ahead of schedule.",
+      "title": "Digital Rights and AI Regulation",
+      "summary": "Lawmakers are pushing European leaders to strictly enforce upcoming bans following reports that dozens of female European Parliament members were targeted by deepfake applications. Meanwhile, new European AI policing plans continue to draw scrutiny over privacy risks.",
       "article_ids": [
-        "8b8ca4ec4cd62a71918066da",
+        "97160147aeecf713eded526a",
         "807672779144de193497dc6c"
       ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/female-european-parliament-lawmakers-targeted-deepfake-porn",
-          "headline": "50 members of European Parliament targeted by deepfake porn, report says",
-          "published_at": "2026-10-05T16:54:02Z"
+          "url": "https://www.politico.eu/article/europol-ai-new-weapons-new-privacy-risks-reboots-for-the-era",
+          "headline": "New weapons, new risks: Europe’s AI policing plan stokes privacy concerns",
+          "published_at": "2026-10-05T17:28:14Z"
         },
         {
           "publisher": "EUobserver",
@@ -103,15 +175,40 @@
       "source_count": 2
     }
   ],
-  "top_stories": [
+  "developing": [
     {
-      "title": "French student demonstrations and related security concerns",
-      "summary": "French high school students have continued staging demonstrations across the country, with participants predicting further escalations. Meanwhile, authorities and experts have raised concerns regarding the security response and the spread of false claims online.",
-      "article_ids": [
-        "840df799215a273cdeaac60b",
-        "820facdf3c0960705f99b744",
-        "cd7bf6f16d2c805e263b7a2a"
-      ],
+      "label": "election · Spain · snap · housing",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 7,
+      "latest_at": "2026-10-05T17:48:14Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/spain-rent-crisis-donald-trump-5-things-snap-election",
+          "headline": "From the rent crisis to Trump: 5 things that will shape Spain’s snap election",
+          "published_at": "2026-10-05T17:48:14Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/opinion/2026-10-05/spains-snap-elections-let-the-voters-have-their-say.html",
+          "headline": "Spain’s snap elections: Let the voters have their say",
+          "published_at": "2026-10-05T12:20:29Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/c83vqk2k2k20o?at_medium=RSS&at_campaign=rss",
+          "headline": "How Spain's housing crisis has resulted in an early general election",
+          "published_at": "2026-10-05T09:03:30Z"
+        }
+      ]
+    },
+    {
+      "label": "French · protests · school · closed",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 5,
+      "latest_at": "2026-10-05T15:03:22Z",
       "sources": [
         {
           "publisher": "France 24 English",
@@ -120,44 +217,18 @@
           "published_at": "2026-10-05T15:03:22Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-has-fallen-far-right-figures-fuel-islamophobic-claims-with-false-student-protest-videos-1",
-          "headline": "‘France has fallen’: Far-right figures fuel Islamophobic claims with false student protest videos",
-          "published_at": "2026-10-05T20:10:15Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/hundreds-of-french-schools-closed-amid-protests/a-79542656?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Hundreds of French schools closed amid protests",
+          "published_at": "2026-10-05T05:48:00Z"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
-      "title": "Spain's upcoming snap election and housing focus",
-      "summary": "Spanish Prime Minister Pedro Sánchez has called for a snap election while prioritizing housing policies to address ongoing economic challenges. Political analysts note that the sudden electoral sprint serves as a strategic maneuver amidst broader European market pressures.",
-      "article_ids": [
-        "0199613b2db0956b70eb7dbd",
-        "c9fb38abecd4b6b020298595"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/241155/spains-54-day-sprint-to-the-polls-can-sanchezs-housing-gamble-stop-the-far-right-from-entering-into-government",
-          "headline": "Spain’s 54-day sprint to the polls: can Sánchez’s housing gamble stop the far-right from entering into government?",
-          "published_at": "2026-10-05T15:29:55Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/spain-rent-crisis-donald-trump-5-things-snap-election",
-          "headline": "From the rent crisis to Trump: 5 things that will shape Spain’s snap election",
-          "published_at": "2026-10-05T17:48:14Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
-    {
-      "label": "Bolsonaros · Brazil · elections · heads",
+      "label": "Bolsonaros · Brazil · elections · right",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 6,
+      "item_count": 4,
       "latest_at": "2026-10-05T18:44:35Z",
       "sources": [
         {
@@ -175,10 +246,10 @@
       ]
     },
     {
-      "label": "bomber · US · base · UK",
+      "label": "bomber · UK · US · base",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
+      "item_count": 3,
       "latest_at": "2026-10-05T18:36:17Z",
       "sources": [
         {
@@ -194,51 +265,149 @@
           "published_at": "2026-10-05T13:00:14Z"
         }
       ]
-    },
-    {
-      "label": "Bosnia · elections · Nationalists · remains",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-10-05T15:58:59Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/241041/putin-and-vucic-dominate-bosnia-elections-as-eu-fades-out-of-view",
-          "headline": "Putin and Vučić dominate Bosnia elections, as EU fades out of view",
-          "published_at": "2026-10-05T15:58:59Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/bosnia-election-new-technology-might-have-stopped-votes-being-cast-on-behalf-of-dead-voters-but-the-result-remains-unchanged/a-79544717?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Bosnia election: New technology might have stopped votes being cast on behalf of dead voters, but the result remains unchanged",
-          "published_at": "2026-10-05T10:23:00Z"
-        }
-      ]
-    },
-    {
-      "label": "EU · Push",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-05T18:00:00Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/241202/why-made-in-europe-could-push-burnhams-uk-back-into-europe",
-          "headline": "Why ‘Made in Europe’ could push Burnham’s UK back into the EU’s arms",
-          "published_at": "2026-10-05T18:00:00Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/push-to-ban-eu-left-group-over-french-riots",
-          "headline": "Push to ban EU left group over French riots",
-          "published_at": "2026-10-05T04:00:00Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "419eda624cea7a4e9f8c5e84",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Der erste Machtbeweis der AfD in Magdeburg",
+      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/der-erste-machtbeweis-der-afd-in-magdeburg",
+      "published_at": "2026-10-06T03:30:00Z",
+      "collected_at": "2026-10-06T03:30:40Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "c1b9a293e7f344e8f2061719",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Trump targets tax-free diesel as Republicans approach midterms",
+      "url": "https://www.france24.com/en/americas/20261006-trump-targets-tax-free-diesel-as-republicans-approach-midterms",
+      "published_at": "2026-10-06T03:08:02Z",
+      "collected_at": "2026-10-06T03:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "27fbcf0946f8befa59e942a8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: Tens of thousands expected at Paris protests as unions join students",
+      "url": "https://www.france24.com/en/europe/20261006-live-tens-of-thousands-expected-at-paris-protests-as-unions-join-students",
+      "published_at": "2026-10-06T02:31:54Z",
+      "collected_at": "2026-10-06T03:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "1e4bd7d9a6f17d1e5d5a4112",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Spanish election threatens to blow up Brussels’ political balance",
+      "url": "https://www.politico.eu/article/spanish-election-threatens-brussels-political-balance-pedro-sanchez-socialists-european-parliament",
+      "published_at": "2026-10-06T02:18:45Z",
+      "collected_at": "2026-10-06T03:30:40Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "e8639fb014019b71e550bfc3",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Tories want to duck Burnham’s social care fight",
+      "url": "https://www.politico.eu/article/andy-burnham-kemi-badenoch-jeremy-hunt-tories-social-care-fight",
+      "published_at": "2026-10-06T02:02:00Z",
+      "collected_at": "2026-10-06T03:30:40Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "3851b157e8333f84ba7ed613",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "France’s debt troubles stir memories of the euro crisis",
+      "url": "https://www.politico.eu/article/france-debt-trouble-memories-euro-crisis",
+      "published_at": "2026-10-06T02:00:00Z",
+      "collected_at": "2026-10-06T03:30:40Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "445f07e483ea323bb581f5ae",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "France’s Mélenchon doubles down on student protests despite violent clashes",
+      "url": "https://www.politico.eu/article/france-jean-luc-melenchon-doubles-down-student-protests-despite-violent-clashes",
+      "published_at": "2026-10-06T02:00:00Z",
+      "collected_at": "2026-10-06T03:30:40Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "195158abd328fd6167384e41",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Trump approves firing-squad execution of Fort Hood shooter Nidal Hasan",
+      "url": "https://www.france24.com/en/americas/20261006-trump-approves-firing-squad-execution-of-fort-hood-shooter-nidal-hasan",
+      "published_at": "2026-10-06T01:31:37Z",
+      "collected_at": "2026-10-06T03:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "03437ab69b4f075ca7862bec",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Switching on brain cells: the Nobel-winning science of optogenetics",
+      "url": "https://www.france24.com/en/switching-on-brain-cells-the-nobel-winning-science-of-optogenetics",
+      "published_at": "2026-10-05T21:56:30Z",
+      "collected_at": "2026-10-06T03:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "886718932a721f9ccba93ece",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Quebec votes as separatist surge poses test for Canada PM",
+      "url": "https://www.france24.com/en/quebec-votes-as-separatist-surge-poses-test-for-canada-pm",
+      "published_at": "2026-10-05T21:36:57Z",
+      "collected_at": "2026-10-06T03:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "af3051f8bb44dfed733eed33",
       "source_id": "france24",
@@ -499,6 +668,20 @@
       "url": "https://www.politico.eu/article/spain-rent-crisis-donald-trump-5-things-snap-election",
       "published_at": "2026-10-05T17:48:14Z",
       "collected_at": "2026-10-05T18:01:05Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "97160147aeecf713eded526a",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "New weapons, new risks: Europe’s AI policing plan stokes privacy concerns",
+      "url": "https://www.politico.eu/article/europol-ai-new-weapons-new-privacy-risks-reboots-for-the-era",
+      "published_at": "2026-10-05T17:28:14Z",
+      "collected_at": "2026-10-06T03:30:40Z",
       "topics": [
         "institutions",
         "politics",
@@ -2599,160 +2782,6 @@
       "url": "https://english.elpais.com/lifestyle/2026-09-29/johnny-cross-the-vegan-butcher-ive-been-in-the-world-34-years-and-ive-never-eaten-meat-or-fish-and-im-alive-im-healthy.html",
       "published_at": "2026-09-29T14:04:46Z",
       "collected_at": "2026-10-05T15:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "32378969060140db352088b7",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "UK PM Burnham seeks 'hope again' at Labour Party conference",
-      "url": "https://www.dw.com/en/uk-pm-burnham-seeks-hope-again-at-labour-party-conference/a-79473376?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-29T13:38:00Z",
-      "collected_at": "2026-10-05T14:30:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "5c3da8e51d18c8b0aa02de67",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "'I was lured into a trap': Evan Gershkovich on moment that led to 16 months in Russian jail",
-      "url": "https://www.bbc.co.uk/news/articles/ck9qr8jy8ynyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-29T12:43:04Z",
-      "collected_at": "2026-10-05T14:30:47Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "b2073c8b380a783d1a7c3567",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Albania: As corruption cases multiply, experts question whether the anti-corruption drive is addressing the causes or just the symptoms.",
-      "url": "https://www.dw.com/en/albania-as-corruption-cases-multiply-experts-question-whether-the-anti-corruption-drive-is-addressing-the-causes-or-just-the-symptoms/a-79473031?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-29T11:59:00Z",
-      "collected_at": "2026-10-05T14:30:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "2d3c117e5c963f0d237bec9f",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "More Republicans warn nominating Ken Paxton was a ‘mistake’ and expect Texas Senate seat to be lost",
-      "url": "https://english.elpais.com/usa/2026-09-29/more-republicans-warn-nominating-ken-paxton-was-a-mistake-and-expect-texas-senate-seat-to-be-lost.html",
-      "published_at": "2026-09-29T10:43:32Z",
-      "collected_at": "2026-10-05T11:30:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "8084b93c3db722bd9f1685ad",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "UK: US government questions bail for Fairford base suspects",
-      "url": "https://www.dw.com/en/uk-us-government-questions-bail-for-fairford-base-suspects/a-79468803?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-29T08:17:00Z",
-      "collected_at": "2026-10-05T10:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "7377e357097f86bd0b589e64",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Czech Republic ready for Wembley 30 years after Euro '96",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yeqj0g4ygo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-29T05:10:25Z",
-      "collected_at": "2026-10-05T08:00:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "8aa9c6322688427e3f8bb60c",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Migrants using longer, more dangerous routes across Channel",
-      "url": "https://www.bbc.co.uk/news/articles/c6y8zzdjmrgvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-29T00:42:15Z",
-      "collected_at": "2026-10-05T08:00:50Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "dc5e6110fb2415bd381cdf5c",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Watch: RAF Fairford suspects are bailed, what happens now?",
-      "url": "https://www.bbc.co.uk/news/videos/cw33kxk3707jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-28T19:28:54Z",
-      "collected_at": "2026-10-05T03:30:45Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "b31c5b576f7173525f07919d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The founders of On, the phenomenon attracting Kylian Mbappé and Zendaya: ‘Cost is not a limiting factor; our followers are willing to pay’",
-      "url": "https://english.elpais.com/lifestyle/2026-09-28/the-founders-of-on-the-phenomenon-attracting-kylian-mbappe-and-zendaya-cost-is-not-a-limiting-factor-our-followers-are-willing-to-pay.html",
-      "published_at": "2026-09-28T18:14:20Z",
-      "collected_at": "2026-10-05T03:30:45Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "18d6da5db4907ae949498c6c",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "What would Francis of Assisi make of his fame today?",
-      "url": "https://www.dw.com/en/what-would-francis-of-assisi-make-of-his-fame-today/a-79346151?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-09-28T06:18:00Z",
-      "collected_at": "2026-10-05T07:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "39272e759f49770307cd83d5",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Naomi Lautier: The pure talent of a 14-year-old creator living between autism and the art world",
-      "url": "https://english.elpais.com/culture/2026-09-27/naomi-lautier-the-pure-talent-of-a-14-year-old-creator-living-between-autism-and-the-art-world.html",
-      "published_at": "2026-09-27T04:00:00Z",
-      "collected_at": "2026-10-05T05:30:46Z",
       "topics": [
         "politics",
         "society",
