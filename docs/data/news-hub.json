@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-07T19:00:49Z",
-  "last_successful_collection_at": "2026-10-07T19:00:49Z",
+  "generated_at": "2026-10-07T19:30:40Z",
+  "last_successful_collection_at": "2026-10-07T19:30:40Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-07T19:00:49Z"
+      "at": "2026-10-07T19:30:40Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "22",
-      "at": "2026-10-07T19:00:49Z"
+      "count": "23",
+      "at": "2026-10-07T19:30:40Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-07T19:00:49Z"
+      "at": "2026-10-07T19:30:40Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-07T19:00:49Z"
+      "at": "2026-10-07T19:30:40Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-07T19:00:49Z"
+      "at": "2026-10-07T19:30:40Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-10-07T19:00:49Z"
+      "at": "2026-10-07T19:30:40Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-07T19:00:49Z"
+      "at": "2026-10-07T19:30:40Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-07T19:00:49Z"
+      "at": "2026-10-07T19:30:40Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-07T19:00:49Z"
+      "at": "2026-10-07T19:30:40Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Missile Attack in Ukraine",
-      "summary": "A large-scale Russian missile strike resulted in significant casualties, including children killed while sleeping in a residential block of flats. Ukrainian leadership condemned the attacks as the death toll across incidents continued to rise.",
+      "title": "France suspends stun grenade usage during protests",
+      "summary": "The French government has suspended the use of stun grenades following student protests where a demonstrator sustained severe injuries. Authorities are addressing mounting public unrest regarding school policies, fuel prices, and agricultural concerns.",
+      "article_ids": [
+        "a2a51fa4977efce926f35bb4",
+        "59908e8e9bd07c93d3518661"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261007-france-suspends-the-use-of-stun-grenades-after-student-protester-loses-hand",
+          "headline": "France suspends the use of stun grenades after student protester loses hand",
+          "published_at": "2026-10-07T17:05:08Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261007-france-government-suspends-stun-grenade-use-in-school-protests",
+          "headline": "France: Government suspends stun grenade use in school protests",
+          "published_at": "2026-10-07T16:15:54Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Deadly missile strikes impact Ukrainian residential areas",
+      "summary": "Large-scale Russian missile attacks have resulted in significant casualties, destroying apartment blocks and prompting condemnation from Ukrainian leadership. Officials report numerous fatalities and injuries as emergency services respond to the devastation.",
       "article_ids": [
         "358c8337356728fd7b36c747",
         "bc6122ed355a143fc8f22144"
@@ -85,38 +108,15 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "France Student Protests and Government Response",
-      "summary": "The French government suspended the use of stun grenades during escalating school protests following a severe injury to a student protester. Meanwhile, French authorities summoned the Iranian ambassador over allegations of spreading disinformation regarding the ongoing demonstrations.",
-      "article_ids": [
-        "f15b20f62dabeed6544e16e9",
-        "a2a51fa4977efce926f35bb4",
-        "59908e8e9bd07c93d3518661"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261007-france-summons-iranian-ambassador-over-disinformation-on-student-protests",
-          "headline": "France summons Iranian ambassador over 'disinformation' on student protests",
-          "published_at": "2026-10-07T17:23:52Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261007-france-suspends-the-use-of-stun-grenades-after-student-protester-loses-hand",
-          "headline": "France suspends the use of stun grenades after student protester loses hand",
-          "published_at": "2026-10-07T17:05:08Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "European Union Enlargement Reforms",
-      "summary": "The European Commission introduced comprehensive internal reforms designed to prepare the trading bloc for upcoming member expansions. These strategic changes seek to ensure institutional readiness as new countries move closer to accession.",
+      "title": "European Union Policy and Strategy",
+      "summary": "The European Commission has introduced structural reforms to prepare the bloc for upcoming enlargement initiatives. Meanwhile, European Union member states have agreed to release new oil reserves only following formal assessments by the International Energy Agency.",
       "article_ids": [
-        "56e71b237f41b5f6d40304dc"
+        "56e71b237f41b5f6d40304dc",
+        "6bf0ceb60f411051429bb9a6"
       ],
       "sources": [
         {
@@ -131,23 +131,44 @@
   ],
   "developing": [
     {
-      "label": "plague · Russia · death · Putin",
+      "label": "France · protests · Student · grenades",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 5,
-      "latest_at": "2026-10-07T13:43:19Z",
+      "item_count": 10,
+      "latest_at": "2026-10-07T17:23:52Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261007-russia-warns-against-spreading-false-information-reports-emerge-second-plague-case",
-          "headline": "Russia warns against spreading 'false information' as reports emerge of second plague case",
-          "published_at": "2026-10-07T13:43:19Z"
+          "url": "https://www.france24.com/en/france/20261007-france-summons-iranian-ambassador-over-disinformation-on-student-protests",
+          "headline": "France summons Iranian ambassador over 'disinformation' on student protests",
+          "published_at": "2026-10-07T17:23:52Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/world-health-organization-who-information-pneumonia-russia-plague",
-          "headline": "WHO seeks clarity on second pneumonia case in Russia amid plague fears",
-          "published_at": "2026-10-07T11:29:48Z"
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-10-07/student-protests-in-france-in-pictures.html",
+          "headline": "Student protests in France, in pictures",
+          "published_at": "2026-10-07T10:36:02Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko?at_medium=RSS&at_campaign=rss",
+          "headline": "France halts use of stun grenades after boy's hand blown off in student protests",
+          "published_at": "2026-10-07T09:56:34Z"
+        }
+      ]
+    },
+    {
+      "label": "plague · Trump · death · Putin",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 6,
+      "latest_at": "2026-10-07T19:04:48Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/trump-says-we-don-t-think-russian-plague-is-bio-weapon",
+          "headline": "Trump says 'we don't think' Russian plague is bio-weapon",
+          "published_at": "2026-10-07T19:04:48Z"
         },
         {
           "publisher": "BBC News Europe",
@@ -198,30 +219,51 @@
           "published_at": "2026-10-07T05:56:19Z"
         }
       ]
-    },
-    {
-      "label": "EU · Iran · oil",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-07T17:00:51Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/241568/if-it-worked-with-ukraine-why-not-also-iran-green-meps-urge-eu-to-tax-oil-super-profits",
-          "headline": "If it worked with Ukraine, why not also Iran? Green MEPs urge EU to tax oil super profits",
-          "published_at": "2026-10-07T17:00:51Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-countries-will-release-fresh-oil-stocks-only-after-iea-assessment",
-          "headline": "EU countries will release fresh oil stocks only after top agency assessment",
-          "published_at": "2026-10-07T15:51:13Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "921e423c7e2a682697d68005",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Spanish pensioner whose eviction sparked nationwide protests dies, union says",
+      "url": "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-07T19:27:34Z",
+      "collected_at": "2026-10-07T19:30:40Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "5f148a98378b405bb9efbeca",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Evicted pensioner Maricarmen Abascal, heart of Spain's housing protests, dies",
+      "url": "https://www.france24.com/en/europe/20261007-evicted-pensioner-maricarmen-abascal-heart-of-spain-housing-protests-has-died",
+      "published_at": "2026-10-07T19:19:07Z",
+      "collected_at": "2026-10-07T19:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "d519a301f36cf6db983f4bb4",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Trump says 'we don't think' Russian plague is bio-weapon",
+      "url": "https://www.france24.com/en/trump-says-we-don-t-think-russian-plague-is-bio-weapon",
+      "published_at": "2026-10-07T19:04:48Z",
+      "collected_at": "2026-10-07T19:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "82a09ecdbc341d646fe96b86",
       "source_id": "politico_europe",
@@ -2379,20 +2421,6 @@
       ]
     },
     {
-      "id": "62d809efaa5abf53f3a7768e",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Commission seeks 15-year safeguards on future member states, but says reforms won’t create two-tier EU",
-      "url": "https://euobserver.com/241396/commission-seeks-15-year-safeguards-on-future-member-states-but-says-reforms-wont-create-two-tier-eu",
-      "published_at": "2026-10-06T18:29:52Z",
-      "collected_at": "2026-10-06T19:00:52Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "d9527a67a8a8add1116de27d",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2404,20 +2432,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "b7461758c53e7e80b9ae9f9c",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "EU seeks ways to make expansion more palatable to members",
-      "url": "https://www.dw.com/en/eu-seeks-ways-to-make-expansion-more-palatable-to-members/a-79567297?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-06T18:02:00Z",
-      "collected_at": "2026-10-06T19:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
@@ -2726,20 +2740,6 @@
         "central_europe",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "fc2a214061195dab5b4273e7",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Bosnia and Herzegovina is still shaped by war, separatism, EU ambitions",
-      "url": "https://www.dw.com/en/bosnia-and-herzegovina-is-still-shaped-by-war-separatism-eu-ambitions/a-79523557?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-03T06:51:00Z",
-      "collected_at": "2026-10-07T18:01:28Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     }
   ]
