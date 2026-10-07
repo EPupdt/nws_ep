@@ -388,9 +388,24 @@
     "e2a0eef90a3ff72c6fc9e610": "2026-10-07T16:00:55Z",
     "7efa220b5e933242e3c5f85f": "2026-10-07T16:00:55Z",
     "8442dda57a3758ee99638760": "2026-10-07T16:00:55Z",
-    "0b606a175f8a091fb1956064": "2026-10-07T16:00:55Z"
+    "0b606a175f8a091fb1956064": "2026-10-07T16:00:55Z",
+    "59908e8e9bd07c93d3518661": "2026-10-07T16:30:42Z"
   },
   "radar": [
+    {
+      "id": "59908e8e9bd07c93d3518661",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France: Government suspends stun grenade use in school protests",
+      "url": "https://www.france24.com/en/video/20261007-france-government-suspends-stun-grenade-use-in-school-protests",
+      "published_at": "2026-10-07T16:15:54Z",
+      "collected_at": "2026-10-07T16:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "fa90cc1ffe6723a0c82ccc65",
       "source_id": "france24",
@@ -2900,14 +2915,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-10-06T14:30:44Z",
-      "title": "Black Sea Maritime Security Incidents"
-    },
-    {
-      "at": "2026-10-06T14:30:44Z",
-      "title": "Regional Defense and Refugee Contingency Planning"
-    },
-    {
       "at": "2026-10-06T15:00:54Z",
       "title": "Escalating Student Protests and Social Unrest in France"
     },
@@ -3218,6 +3225,14 @@
     {
       "at": "2026-10-07T16:00:55Z",
       "title": "French Agricultural Impact"
+    },
+    {
+      "at": "2026-10-07T16:30:42Z",
+      "title": "EU Enlargement Reforms"
+    },
+    {
+      "at": "2026-10-07T16:30:42Z",
+      "title": "Agricultural Impacts in France"
     }
   ],
   "alerts": [],
@@ -3225,7 +3240,7 @@
     "europe_now": [
       {
         "title": "Russian Attacks and Hybrid Threats",
-        "summary": "Large-scale Russian attacks resulted in numerous casualties across Ukraine, drawing strong condemnation from leadership. Meanwhile, drone strikes on cargo ships in the Black Sea highlighted expanding regional security risks.",
+        "summary": "Large-scale Russian attacks resulted in at least 24 deaths, prompting strong condemnation from Ukrainian leadership. Meanwhile, recent drone strikes on Black Sea cargo ships highlight an expanding arc of regional security threats.",
         "article_ids": [
           "bc6122ed355a143fc8f22144",
           "f8b1d32aaa5ef4652d996289"
@@ -3247,8 +3262,27 @@
         "source_count": 2
       },
       {
-        "title": "European Union Enlargement Reforms",
-        "summary": "The European Commission introduced new institutional reforms aimed at preparing the bloc for future member states. These measures address structural adjustments necessary for upcoming enlargement processes.",
+        "title": "French School Protests and Government Response",
+        "summary": "The French government suspended the use of stun grenades amidst ongoing student demonstrations and associated unrest. Authorities also summoned the Iranian ambassador to address alleged disinformation regarding the protests.",
+        "article_ids": [
+          "59908e8e9bd07c93d3518661",
+          "fa90cc1ffe6723a0c82ccc65"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/middle-east/20261007-middle-east-live-houthis-target-airport-in-yemen-as-israel-marks-october-7-anniversary",
+            "headline": "🔴 Live: France summons Iranian ambassador over 'disinformation' on student protests",
+            "published_at": "2026-10-07T15:52:25Z"
+          }
+        ],
+        "source_count": 1
+      }
+    ],
+    "top_stories": [
+      {
+        "title": "EU Enlargement Reforms",
+        "summary": "The European Commission has tabled new institutional reforms to prepare the bloc for upcoming enlargement. These measures aim to adapt current structures for the integration of prospective member states.",
         "article_ids": [
           "56e71b237f41b5f6d40304dc"
         ],
@@ -3261,28 +3295,10 @@
           }
         ],
         "source_count": 1
-      }
-    ],
-    "top_stories": [
-      {
-        "title": "German Espionage Investigation",
-        "summary": "Authorities are investigating serious espionage and treason allegations involving the former head of Germany's intelligence service. The unfolding case has raised significant concerns regarding internal security.",
-        "article_ids": [
-          "bbc383aa89391a5b99e74452"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20261007-what-we-know-about-espionage-treason-allegations-against-germany-s-ex-spy-chief",
-            "headline": "What we know about espionage, treason allegations against Germany's ex-spy chief",
-            "published_at": "2026-10-07T14:06:59Z"
-          }
-        ],
-        "source_count": 1
       },
       {
-        "title": "French Agricultural Impact",
-        "summary": "Record summer heatwaves and reduced cultivation areas are expected to push the French wine harvest to historic lows. Industry observers note that the environmental strain severely impacts overall production output.",
+        "title": "Agricultural Impacts in France",
+        "summary": "Record summer heatwaves and reduced cultivation areas are expected to drive French wine harvest volumes down to historic lows. The sharp decline underscores mounting environmental pressures on regional agriculture.",
         "article_ids": [
           "4e24c50876fad3c1696277bb"
         ],
@@ -3298,5 +3314,5 @@
       }
     ]
   },
-  "last_collection_at": "2026-10-07T16:00:55Z"
+  "last_collection_at": "2026-10-07T16:30:42Z"
 }
