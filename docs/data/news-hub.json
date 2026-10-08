@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-08T14:01:05Z",
-  "last_successful_collection_at": "2026-10-08T14:01:05Z",
+  "generated_at": "2026-10-08T14:30:51Z",
+  "last_successful_collection_at": "2026-10-08T14:30:51Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-08T14:01:05Z"
+      "at": "2026-10-08T14:30:51Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-08T14:01:05Z"
+      "at": "2026-10-08T14:30:51Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-10-08T14:01:05Z"
+      "status": "error",
+      "detail": "<unknown>:2:416: not well-formed (invalid token)",
+      "at": "2026-10-08T14:30:51Z"
     },
     {
       "id": "euractiv",
@@ -29,50 +29,47 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-08T14:01:05Z"
+      "at": "2026-10-08T14:30:51Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-08T14:01:05Z"
+      "at": "2026-10-08T14:30:51Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-10-08T14:01:05Z"
+      "at": "2026-10-08T14:30:51Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-08T14:01:05Z"
+      "at": "2026-10-08T14:30:51Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-08T14:01:05Z"
+      "at": "2026-10-08T14:30:51Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-08T14:01:05Z"
+      "at": "2026-10-08T14:30:51Z"
     }
   ],
   "europe_now": [
     {
       "title": "Deadly Russian Strike in Ukraine",
-      "summary": "At least 30 people were killed in a single Russian strike targeting buses in Ukraine, amid an escalation of deadly attacks. Officials reported that the surge in strikes also affected Ukrainian infrastructure.",
+      "summary": "A heavy Russian strike on buses and surging attacks across Ukraine have resulted in at least 30 fatalities. Officials report that the escalation highlights intensifying military pressure in the region.",
       "article_ids": [
         "fceffa01eec41ce0f2fa3b08",
         "d4cd3aea6d901f2b918cb9f5",
-        "b0c1b67dd48cfb64edbf365e",
-        "db482f8b90976ecaea57d24f",
-        "a6f15e378c9b8d6274f23e3c",
-        "0946e56499e1268d2687ff46"
+        "b0c1b67dd48cfb64edbf365e"
       ],
       "sources": [
         {
@@ -91,8 +88,33 @@
       "source_count": 2
     },
     {
-      "title": "UK and Germany Security Talks",
-      "summary": "UK officials visited Berlin to meet with German leaders and establish cooperative defense measures. The discussions centered on strengthening joint responses against cyberattacks and regional threats.",
+      "title": "School Knife Attack in Poland",
+      "summary": "A fatal knife attack at a Polish school has claimed the life of a caretaker and injured teachers, marking a second violent incident over two consecutive days. Local authorities and emergency services responded immediately to the scene.",
+      "article_ids": [
+        "92ceebc944324862e860c24f",
+        "54683ae9b0d4d3badf6b26e4"
+      ],
+      "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/10/08/one-person-killed-in-second-school-knife-attack-in-poland-in-two-days",
+          "headline": "One person killed in second school knife attack in Poland in two days",
+          "published_at": "2026-10-08T10:50:53Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cq2e9xjv0jm2o?at_medium=RSS&at_campaign=rss",
+          "headline": "Caretaker killed and two teachers injured in knife attack at Poland school",
+          "published_at": "2026-10-08T10:49:46Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "UK-Germany Security Partnership",
+      "summary": "The leaders of the United Kingdom and Germany have met in Berlin to enhance bilateral defense and cybersecurity cooperation. Both nations agreed to tackle emerging security threats jointly through coordinated strategic initiatives.",
       "article_ids": [
         "a838d8b1aef5d41a99f0f0dc",
         "2475f6f9ccdca9b7177ed321",
@@ -113,12 +135,10 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "Passing of Spanish Housing Protest Figure",
-      "summary": "An 87-year-old pensioner whose eviction previously sparked widespread protests in Spain has passed away. Her death has renewed national focus on housing rights and ongoing demonstrations.",
+      "title": "Passing of Spanish Housing Symbol",
+      "summary": "Maricarmen, an 87-year-old pensioner whose eviction became a prominent symbol of Spain's housing crisis, has passed away. Her death has reignited widespread public demonstrations and discussions regarding tenant protections across the country.",
       "article_ids": [
         "859d9d886d5b7361be83d0e7",
         "ccae38633ba2600eb9de4199",
@@ -139,29 +159,6 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "School Knife Attack in Poland",
-      "summary": "A fatal knife attack at a school in Poland resulted in the death of a caretaker and injuries to teachers. The incident followed a similar violent occurrence at a Polish school within a span of two days.",
-      "article_ids": [
-        "92ceebc944324862e860c24f",
-        "54683ae9b0d4d3badf6b26e4"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/10/08/one-person-killed-in-second-school-knife-attack-in-poland-in-two-days",
-          "headline": "One person killed in second school knife attack in Poland in two days",
-          "published_at": "2026-10-08T10:50:53Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cq2e9xjv0jm2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Caretaker killed and two teachers injured in knife attack at Poland school",
-          "published_at": "2026-10-08T10:49:46Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "developing": [
@@ -2340,104 +2337,6 @@
       ]
     },
     {
-      "id": "ae3e3eba5166523df25fc0df",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Mistral, le retour dans la course du champion de l’Elysée",
-      "url": "https://www.politico.eu/podcast/playbook-paris-podcast/mistral-le-retour-dans-la-course-du-champion-de-lelysee",
-      "published_at": "2026-10-07T14:28:15Z",
-      "collected_at": "2026-10-07T14:30:42Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "69ba7f9bee07689d336de68f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Scars from Oct. 7 fuel deep divisions over Netanyahu ahead of Israeli election",
-      "url": "https://www.france24.com/en/video/20261007-scars-from-oct-7-fuel-deep-divisions-over-netanyahu-ahead-of-israeli-election",
-      "published_at": "2026-10-07T14:23:22Z",
-      "collected_at": "2026-10-07T14:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "5c55b484e43c3daea9bf7959",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "African tourists cancelling trip as xenophobia shadows South Africa's appeal",
-      "url": "https://www.france24.com/en/video/20261007-african-tourists-cancelling-trip-as-xenophobia-shadows-south-africa-s-appeal",
-      "published_at": "2026-10-07T14:22:11Z",
-      "collected_at": "2026-10-07T14:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "7be10224afdf83c054b378f1",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Zelensky condemns 'vile' large-scale Russian attacks that killed 22",
-      "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-07T14:21:45Z",
-      "collected_at": "2026-10-07T14:30:42Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "31d59bc17e4d513fdf8878ff",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Brit adventurer back on UK soil after 28-year round-the-world walk",
-      "url": "https://www.france24.com/en/video/20261007-brit-adventurer-back-on-uk-soil-after-28-year-round-the-world-walk",
-      "published_at": "2026-10-07T14:19:06Z",
-      "collected_at": "2026-10-07T14:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "b69701f44db88154d724f3b1",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "New Comoros law bans foreign nationals from certain jobs",
-      "url": "https://www.france24.com/en/video/20261007-new-comoros-law-bans-foreign-nationals-from-certain-jobs",
-      "published_at": "2026-10-07T14:17:30Z",
-      "collected_at": "2026-10-07T14:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "25c76f23c7b23418ded1e23e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "A new 'Les Mis': This week in French film",
-      "url": "https://www.france24.com/en/tv-shows/arts24/20261007-a-new-les-mis-this-week-in-french-film",
-      "published_at": "2026-10-07T14:12:35Z",
-      "collected_at": "2026-10-07T14:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "dffaa72c90845c6e1ec2dd5f",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2449,20 +2348,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "bbc383aa89391a5b99e74452",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "What we know about espionage, treason allegations against Germany's ex-spy chief",
-      "url": "https://www.france24.com/en/europe/20261007-what-we-know-about-espionage-treason-allegations-against-germany-s-ex-spy-chief",
-      "published_at": "2026-10-07T14:06:59Z",
-      "collected_at": "2026-10-07T14:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -2494,20 +2379,6 @@
       ]
     },
     {
-      "id": "2d3b64b45f7a63220617458f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Historic lows expected for French wine harvest after record summer heatwaves",
-      "url": "https://www.france24.com/en/france/20261007-historic-lows-expected-for-french-wine-harvest-after-record-summer-heatwaves",
-      "published_at": "2026-10-07T13:08:45Z",
-      "collected_at": "2026-10-07T14:30:42Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "13569cc3a69999d958616081",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2518,6 +2389,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "7f11d68e1c2668ef90725d50",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland detains senior managers from state oil giant Orlen over pre-election fuel price cuts",
+      "url": "https://notesfrompoland.com/2026/10/06/poland-detains-senior-managers-from-state-oil-giant-orlen-over-pre-election-fuel-price-cuts",
+      "published_at": "2026-10-06T14:14:32Z",
+      "collected_at": "2026-10-08T14:30:51Z",
+      "topics": [
+        "central_europe",
+        "politics",
         "society"
       ]
     },
