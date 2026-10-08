@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-08T14:30:51Z",
-  "last_successful_collection_at": "2026-10-08T14:30:51Z",
+  "generated_at": "2026-10-08T15:00:49Z",
+  "last_successful_collection_at": "2026-10-08T15:00:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-08T14:30:51Z"
+      "at": "2026-10-08T15:00:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-08T14:30:51Z"
+      "at": "2026-10-08T15:00:49Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:2:416: not well-formed (invalid token)",
-      "at": "2026-10-08T14:30:51Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-10-08T15:00:49Z"
     },
     {
       "id": "euractiv",
@@ -29,96 +29,71 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-08T14:30:51Z"
+      "at": "2026-10-08T15:00:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-08T14:30:51Z"
+      "at": "2026-10-08T15:00:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-10-08T14:30:51Z"
+      "at": "2026-10-08T15:00:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-08T14:30:51Z"
+      "at": "2026-10-08T15:00:49Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-08T14:30:51Z"
+      "at": "2026-10-08T15:00:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-08T14:30:51Z"
+      "at": "2026-10-08T15:00:49Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Deadly Russian Strike in Ukraine",
-      "summary": "A heavy Russian strike on buses and surging attacks across Ukraine have resulted in at least 30 fatalities. Officials report that the escalation highlights intensifying military pressure in the region.",
+      "title": "Escalating Russian Strikes in Ukraine",
+      "summary": "Recent Russian attacks in the Donbas region and on transport infrastructure have resulted in dozens of civilian casualties, reflecting an intensification of military strikes.",
       "article_ids": [
         "fceffa01eec41ce0f2fa3b08",
         "d4cd3aea6d901f2b918cb9f5",
-        "b0c1b67dd48cfb64edbf365e"
+        "b0c1b67dd48cfb64edbf365e",
+        "db482f8b90976ecaea57d24f"
       ],
       "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/russia-kills-30-civilians-single-strike-donbas-ukraine",
+          "headline": "‘Targets of terror’: Russia kills 30 in single strike in Donbas",
+          "published_at": "2026-10-08T13:48:56Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/video/20261008-30-dead-in-strike-on-ukraine-bus-as-russian-attacks-intensify",
           "headline": "30 dead in strike on Ukraine bus as Russian attacks intensify",
           "published_at": "2026-10-08T13:44:30Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
-          "headline": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
-          "published_at": "2026-10-08T12:43:56Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "School Knife Attack in Poland",
-      "summary": "A fatal knife attack at a Polish school has claimed the life of a caretaker and injured teachers, marking a second violent incident over two consecutive days. Local authorities and emergency services responded immediately to the scene.",
-      "article_ids": [
-        "92ceebc944324862e860c24f",
-        "54683ae9b0d4d3badf6b26e4"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/10/08/one-person-killed-in-second-school-knife-attack-in-poland-in-two-days",
-          "headline": "One person killed in second school knife attack in Poland in two days",
-          "published_at": "2026-10-08T10:50:53Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cq2e9xjv0jm2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Caretaker killed and two teachers injured in knife attack at Poland school",
-          "published_at": "2026-10-08T10:49:46Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "UK-Germany Security Partnership",
-      "summary": "The leaders of the United Kingdom and Germany have met in Berlin to enhance bilateral defense and cybersecurity cooperation. Both nations agreed to tackle emerging security threats jointly through coordinated strategic initiatives.",
+      "title": "UK-Germany Security Talks",
+      "summary": "Officials from the United Kingdom and Germany are meeting in Berlin to advance bilateral cooperation on defense and cybersecurity threats.",
       "article_ids": [
         "a838d8b1aef5d41a99f0f0dc",
-        "2475f6f9ccdca9b7177ed321",
-        "39df9a4f978b91e99b782a2f"
+        "2475f6f9ccdca9b7177ed321"
       ],
       "sources": [
         {
@@ -128,17 +103,19 @@
           "published_at": "2026-10-08T12:14:51Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261008-uk-germany-to-launch-partnership-to-counter-cyberattacks-as-burnham-visits-berlin",
-          "headline": "UK, Germany to launch partnership to counter cyberattacks as Burnham visits Berlin",
-          "published_at": "2026-10-08T09:58:15Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmwyq34qexdzo?at_medium=RSS&at_campaign=rss",
+          "headline": "German chancellor greets Burnham with military honours on Berlin visit",
+          "published_at": "2026-10-08T10:48:15Z"
         }
       ],
-      "source_count": 2
-    },
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Passing of Spanish Housing Symbol",
-      "summary": "Maricarmen, an 87-year-old pensioner whose eviction became a prominent symbol of Spain's housing crisis, has passed away. Her death has reignited widespread public demonstrations and discussions regarding tenant protections across the country.",
+      "title": "Spanish Housing Protests and Mourning",
+      "summary": "Maricarmen, an 87-year-old pensioner whose eviction sparked widespread protests in Spain, has passed away at age 87. Activists and citizens continue to mourn her passing while highlighting national housing concerns.",
       "article_ids": [
         "859d9d886d5b7361be83d0e7",
         "ccae38633ba2600eb9de4199",
@@ -159,75 +136,33 @@
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "Nobel Prize in Literature",
+      "summary": "Canadian poet and writer Anne Carson has been awarded the 2026 Nobel Prize in Literature. Her recognition highlights a major international literary achievement.",
+      "article_ids": [
+        "177799a50f38089fd98cf0be",
+        "68f932cfddcce3e6a1f7ff1d",
+        "777bd82305f0bb90b07f145b"
+      ],
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/culture/2026-10-08/canadian-poet-anne-carson-wins-the-2026-nobel-prize-in-literature.html",
+          "headline": "Canadian poet Anne Carson wins the 2026 Nobel Prize in Literature",
+          "published_at": "2026-10-08T11:18:34Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261008-nobel-prize-in-literature-awarded-to-canada-anne-carson",
+          "headline": "🔴Nobel Prize in Literature awarded to Canada’s Anne Carson",
+          "published_at": "2026-10-08T11:05:51Z"
+        }
+      ],
+      "source_count": 2
     }
   ],
   "developing": [
-    {
-      "label": "French · School · protests · minister",
-      "origin": "convergence",
-      "source_count": 4,
-      "item_count": 8,
-      "latest_at": "2026-10-08T12:48:22Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261008-french-teens-keep-up-school-blockades-despite-prime-minister-s-pledge-to-act",
-          "headline": "French teens keep up school blockades despite prime minister's pledge to act",
-          "published_at": "2026-10-08T12:48:22Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/241687/french-school-protests-to-continue-after-prime-minister-ignores-demands",
-          "headline": "French school protests to continue, after prime minister ignores demands",
-          "published_at": "2026-10-08T09:21:56Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-          "headline": "'Come all the way' back to EU, French finance minister tells UK",
-          "published_at": "2026-10-08T04:02:26Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/france-prime-minister-sebastien-lecornu-schools-fuel-agriculture-speech",
-          "headline": "French PM tries to defuse anger over schools, fuel and agriculture in sweeping speech",
-          "published_at": "2026-10-07T18:45:33Z"
-        }
-      ]
-    },
-    {
-      "label": "Ukraine · Korea · recalls · South",
-      "origin": "convergence",
-      "source_count": 4,
-      "item_count": 4,
-      "latest_at": "2026-10-08T13:06:07Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/south-korea-recalls-ambassador-from-ukraine-amid-prisoner-of-war-scandal",
-          "headline": "South Korea recalls Ukraine ambassador in prisoner of war row",
-          "published_at": "2026-10-08T13:06:07Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/south-korea-recalls-ukraine-ambassador-amid-pow-dispute/a-79590511?maca=en-rss-en-eu-2092-rdf",
-          "headline": "South Korea recalls Ukraine ambassador amid POW dispute",
-          "published_at": "2026-10-08T10:55:00Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ckwy48rrz95vo?at_medium=RSS&at_campaign=rss",
-          "headline": "South Korea recalls Ukraine envoy over prisoner-of-war row",
-          "published_at": "2026-10-08T09:56:02Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/241538/ukraine-forces-becoming-more-agile-under-new-commander-in-chief-drapatyi-who-is-also-drafting-a-grand-strategy-for-the-war-ukraine-battlefield-update-day-1686",
-          "headline": "Ukraine forces becoming more agile under new commander-in-chief Drapatyi, who is also drafting a ‘grand strategy’ for the war (Ukraine Battlefield update, Day 1,686)",
-          "published_at": "2026-10-07T14:51:39Z"
-        }
-      ]
-    },
     {
       "label": "France · protests · student · school",
       "origin": "convergence",
@@ -256,28 +191,124 @@
       ]
     },
     {
-      "label": "Anne · Carson · Literature · Nobel",
+      "label": "Korea · recalls · South · Ukraine",
       "origin": "convergence",
-      "source_count": 2,
+      "source_count": 3,
       "item_count": 3,
-      "latest_at": "2026-10-08T11:18:34Z",
+      "latest_at": "2026-10-08T13:06:07Z",
       "sources": [
         {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/culture/2026-10-08/canadian-poet-anne-carson-wins-the-2026-nobel-prize-in-literature.html",
-          "headline": "Canadian poet Anne Carson wins the 2026 Nobel Prize in Literature",
-          "published_at": "2026-10-08T11:18:34Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/south-korea-recalls-ambassador-from-ukraine-amid-prisoner-of-war-scandal",
+          "headline": "South Korea recalls Ukraine ambassador in prisoner of war row",
+          "published_at": "2026-10-08T13:06:07Z"
         },
         {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/south-korea-recalls-ukraine-ambassador-amid-pow-dispute/a-79590511?maca=en-rss-en-eu-2092-rdf",
+          "headline": "South Korea recalls Ukraine ambassador amid POW dispute",
+          "published_at": "2026-10-08T10:55:00Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ckwy48rrz95vo?at_medium=RSS&at_campaign=rss",
+          "headline": "South Korea recalls Ukraine envoy over prisoner-of-war row",
+          "published_at": "2026-10-08T09:56:02Z"
+        }
+      ]
+    },
+    {
+      "label": "French · minister · school",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-10-08T12:48:22Z",
+      "sources": [
+        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261008-nobel-prize-in-literature-awarded-to-canada-anne-carson",
-          "headline": "🔴Nobel Prize in Literature awarded to Canada’s Anne Carson",
-          "published_at": "2026-10-08T11:05:51Z"
+          "url": "https://www.france24.com/en/video/20261008-french-teens-keep-up-school-blockades-despite-prime-minister-s-pledge-to-act",
+          "headline": "French teens keep up school blockades despite prime minister's pledge to act",
+          "published_at": "2026-10-08T12:48:22Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
+          "headline": "'Come all the way' back to EU, French finance minister tells UK",
+          "published_at": "2026-10-08T04:02:26Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/france-prime-minister-sebastien-lecornu-schools-fuel-agriculture-speech",
+          "headline": "French PM tries to defuse anger over schools, fuel and agriculture in sweeping speech",
+          "published_at": "2026-10-07T18:45:33Z"
+        }
+      ]
+    },
+    {
+      "label": "French · Protest · School · students",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 6,
+      "latest_at": "2026-10-08T14:00:10Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/french-connections/20261008-protest-culture-why-do-french-students-repeatedly-rise-up",
+          "headline": "Protest culture: Why do French students repeatedly rise up?",
+          "published_at": "2026-10-08T14:00:10Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/241687/french-school-protests-to-continue-after-prime-minister-ignores-demands",
+          "headline": "French school protests to continue, after prime minister ignores demands",
+          "published_at": "2026-10-08T09:21:56Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "d3c257a97cf2bcbcbb81db8e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Search warrants for former prince Andrew's homes were unlawful, UK court rules",
+      "url": "https://www.france24.com/en/europe/20261008-search-warrants-for-former-prince-andrew-homes-were-unlawful-uk-court-rules",
+      "published_at": "2026-10-08T14:09:08Z",
+      "collected_at": "2026-10-08T15:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "3f2e54805d3ff4ac6aacb295",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "China trade talks test EU’s appetite for tougher action",
+      "url": "https://www.politico.eu/article/china-trade-talks-eu-appetite-tougher-action",
+      "published_at": "2026-10-08T14:05:36Z",
+      "collected_at": "2026-10-08T15:00:49Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "304857b136e57cb08b42ba27",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Protest culture: Why do French students repeatedly rise up?",
+      "url": "https://www.france24.com/en/tv-shows/french-connections/20261008-protest-culture-why-do-french-students-repeatedly-rise-up",
+      "published_at": "2026-10-08T14:00:10Z",
+      "collected_at": "2026-10-08T15:00:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "43ea3367c83a0079ace26d2d",
       "source_id": "el_pais_english",
@@ -524,6 +555,20 @@
       "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-08T12:43:56Z",
       "collected_at": "2026-10-08T13:00:52Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "04d8bd83a45df9fbf3e3ca83",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Italy approves elections overhaul as opposition accuse Meloni of 'scam'",
+      "url": "https://www.bbc.co.uk/news/articles/c6zxjdw8rdl5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-08T12:32:12Z",
+      "collected_at": "2026-10-08T15:00:49Z",
       "topics": [
         "breaking",
         "politics",
