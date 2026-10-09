@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-09T17:30:45Z",
-  "last_successful_collection_at": "2026-10-09T17:30:45Z",
+  "generated_at": "2026-10-09T18:00:49Z",
+  "last_successful_collection_at": "2026-10-09T18:00:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-09T17:30:45Z"
+      "at": "2026-10-09T18:00:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "25",
-      "at": "2026-10-09T17:30:45Z"
+      "count": "26",
+      "at": "2026-10-09T18:00:49Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-09T17:30:45Z"
+      "at": "2026-10-09T18:00:49Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,60 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-09T17:30:45Z"
+      "at": "2026-10-09T18:00:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-09T17:30:45Z"
+      "at": "2026-10-09T18:00:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-10-09T17:30:45Z"
+      "at": "2026-10-09T18:00:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-09T17:30:45Z"
+      "at": "2026-10-09T18:00:49Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-09T17:30:45Z"
+      "at": "2026-10-09T18:00:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-09T17:30:45Z"
+      "at": "2026-10-09T18:00:49Z"
     }
   ],
-  "europe_now": [
+  "europe_now": [],
+  "top_stories": [
     {
-      "title": "Montenegro Detains Russian War-Blogger",
-      "summary": "NATO member Montenegro has detained a prominent Russian war-blogger on suspicion of orchestrating hybrid disruption activities. The individual was taken into custody amidst ongoing battlefield developments in Ukraine.",
+      "title": "EU Strategic Mining and Recycling Designations",
+      "summary": "The European Union has expanded its strategic resource inventory by adding dozens of mining and recycling facilities. The expansion proceeds even as financing shortfalls for these projects remain unresolved.",
+      "article_ids": [
+        "db3cf880d08f348a643c4753"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/242079/eu-puts-46-more-mines-and-recycling-plants-on-strategic-list-without-closing-funding-gap",
+          "headline": "EU puts 46 more mines and recycling plants on ‘strategic’ list, without closing funding gap",
+          "published_at": "2026-10-09T14:14:25Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Montenegro Custody of Russian Military Blogger",
+      "summary": "Law enforcement in Montenegro has detained Russian military blogger Rybar on suspicion of organizing hybrid operations. The action marks a notable security development in the NATO member nation.",
       "article_ids": [
         "b8f370ce207e9d0817ab0f26"
       ],
@@ -80,76 +97,36 @@
       "source_count": 1
     },
     {
-      "title": "US Imposes Sanctions on International Criminal Court",
-      "summary": "The International Criminal Court is facing a severe test of resilience following the implementation of sweeping sanctions by the United States. Observers note that these measures present significant operational challenges for the judicial institution.",
+      "title": "Ukrainian Strikes on Russian Tech Operations",
+      "summary": "Ukrainian military attacks have targeted data facilities inside Russia. The disruptions have hindered the regular services of major Russian search engine Yandex.",
       "article_ids": [
-        "c51055a073046b7b40d5308c",
-        "0c9b1a2ccfc9ed08caaa654e"
+        "d4d03af371c3bdd34ceba491"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/live-news/20261009-us-sanctions-on-icc-a-test-of-resilience",
-          "headline": "US sanctions on ICC: a 'test of resilience'",
-          "published_at": "2026-10-09T15:19:41Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261009-international-criminal-court-faces-test-of-resilience-as-us-imposes-sweeping-sanctions",
-          "headline": "International Criminal Court faces 'test of resilience' as US imposes sweeping sanctions",
-          "published_at": "2026-10-09T15:19:41Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro?at_medium=RSS&at_campaign=rss",
+          "headline": "Russian search engine Yandex struggles after Ukrainian strikes on data centres",
+          "published_at": "2026-10-09T17:14:44Z"
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "EU and China Trade Discussions",
-      "summary": "The European Union trade chief has described recent talks in Beijing as a crucial first step toward avoiding a broader trade conflict. Meanwhile, official announcements confirmed that both sides have reached an understanding regarding hybrid vehicles.",
-      "article_ids": [
-        "cc549945b30904728f1edbbb",
-        "cef003b86fac5cd328b61238"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/242093/eu-trade-chief-hails-crucial-first-step-as-beijing-talks-avoid-trade-war",
-          "headline": "EU trade chief hails ‘crucial first step’ as Beijing talks avoid trade war",
-          "published_at": "2026-10-09T14:51:42Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/china-und-die-eu-haben-nach-angaben-pekings-eine-einigung-zu-hybrid-autos-erzielt",
-          "headline": "China und die EU haben nach Angaben Pekings eine Einigung zu Hybrid-Autos erzielt",
-          "published_at": "2026-10-09T12:12:30Z"
-        }
-      ],
-      "source_count": 2
     },
     {
-      "title": "Franco-German Relations",
-      "summary": "Leaders from France and Germany recently held discussions aimed at injecting new momentum into bilateral cooperation and European affairs. Additionally, officials are working to address ongoing challenges surrounding their collaborative military equipment initiatives.",
+      "title": "German Espionage Accusations",
+      "summary": "A detained former head of German intelligence has rejected allegations that he conducted espionage for Moscow. He directed sharp criticism toward his former intelligence organization in response to the claims.",
       "article_ids": [
-        "586486f7a50377208db86785",
-        "be70d0e922b124622a62a270",
-        "c885e0f3158d4144d1518c7c"
+        "6eb0bab88095c3320313078a"
       ],
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/franco-german-relations-steinmeier-and-macron-say-their-farewells-and-create-a-new-momentum-for-europe/a-79618635?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Franco-German relations: Steinmeier and Macron say their farewells and create a new momentum for Europe",
-          "published_at": "2026-10-09T15:17:00Z"
-        },
-        {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/france-germany-joint-tank-project-mgcs",
-          "headline": "France, Germany try to save face on joint tank project",
-          "published_at": "2026-10-09T12:42:32Z"
+          "url": "https://www.politico.eu/article/arrested-german-august-hanning-lashes-out-bnd-russia-spy-allegations",
+          "headline": "Arrested German spy chief lashed out at his old agency over allegations he spied for Russia",
+          "published_at": "2026-10-09T14:01:23Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     }
   ],
   "developing": [
@@ -239,6 +216,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "d4d03af371c3bdd34ceba491",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Russian search engine Yandex struggles after Ukrainian strikes on data centres",
+      "url": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-09T17:14:44Z",
+      "collected_at": "2026-10-09T18:00:49Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "f13255fbba928e527efb16e4",
       "source_id": "france24",
@@ -2256,90 +2247,6 @@
       ]
     },
     {
-      "id": "04915f279753ebdfee54ed55",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Lollapalooza Chile 2027: Charli XCX, Travis Scott and The Killers headline the lineup of artists for the festival",
-      "url": "https://english.elpais.com/culture/2026-10-08/lollapalooza-chile-2027-charli-xcx-travis-scott-and-the-killers-headline-the-lineup-of-artists-for-the-festival.html",
-      "published_at": "2026-10-08T17:19:43Z",
-      "collected_at": "2026-10-08T17:30:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "7bc5856092743b73e47c3b3a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Canadian poet and essayist Anne Carson wins Nobel Prize in literature",
-      "url": "https://www.france24.com/en/video/20261008-canadian-poet-and-essayist-anne-carson-wins-nobel-prize-in-literature",
-      "published_at": "2026-10-08T17:12:57Z",
-      "collected_at": "2026-10-08T17:30:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "9b83de0aaa7b6de626b96386",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Russian attack on Ukraine busses part of 'a steady increase in attacks on civilians'",
-      "url": "https://www.france24.com/en/video/20261008-russian-attack-on-ukraine-busses-part-of-a-steady-increase-in-attacks-on-civilians",
-      "published_at": "2026-10-08T17:11:25Z",
-      "collected_at": "2026-10-08T17:30:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "1e1524875503c13b4a598e1e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "The Russian-occupied town in Ukraine facing starvation",
-      "url": "https://www.france24.com/en/video/20261008-the-russian-occupied-town-in-ukraine-facing-starvation",
-      "published_at": "2026-10-08T17:09:55Z",
-      "collected_at": "2026-10-08T17:30:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "3abca29b920ccc483a9e7ea2",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "As elections near, how are French political parties reacting to student protests?",
-      "url": "https://www.france24.com/en/video/20261008-as-elections-near-how-are-french-political-parties-reacting-to-student-protests",
-      "published_at": "2026-10-08T17:08:20Z",
-      "collected_at": "2026-10-08T17:30:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "f0b558d16f4f79593ca2b7c0",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "EU pulls sponsorship from Disinfo2026 event in Lithuania",
-      "url": "https://www.dw.com/en/eu-pulls-sponsorship-from-disinfo2026-event-in-lithuania/a-79599615?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-08T16:20:00Z",
-      "collected_at": "2026-10-08T17:30:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "2d5663137cd7e95de3047795",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2351,6 +2258,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "d6493a4d71e53a61a62fdd72",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Gerhard Schröder visits latest Russian employer, Hyperglobus",
+      "url": "https://www.dw.com/en/gerhard-schröder-visits-latest-russian-employer-hyperglobus/a-79583018?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-07T16:39:00Z",
+      "collected_at": "2026-10-09T18:00:49Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -2687,6 +2608,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "37e27f856b74f06f7a89dd3d",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
+      "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-04T03:42:15Z",
+      "collected_at": "2026-10-09T18:00:49Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
