@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-10T09:30:38Z",
-  "last_successful_collection_at": "2026-10-10T09:30:38Z",
+  "generated_at": "2026-10-10T10:00:48Z",
+  "last_successful_collection_at": "2026-10-10T10:00:48Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-10T09:30:38Z"
+      "at": "2026-10-10T10:00:48Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-10-10T09:30:38Z"
+      "at": "2026-10-10T10:00:48Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-10-10T09:30:38Z"
+      "status": "error",
+      "detail": "<unknown>:2:418: not well-formed (invalid token)",
+      "at": "2026-10-10T10:00:48Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-10T09:30:38Z"
+      "at": "2026-10-10T10:00:48Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-10T09:30:38Z"
+      "at": "2026-10-10T10:00:48Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-10T09:30:38Z"
+      "at": "2026-10-10T10:00:48Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-10T09:30:38Z"
+      "at": "2026-10-10T10:00:48Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-10T09:30:38Z"
+      "at": "2026-10-10T10:00:48Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-10T09:30:38Z"
+      "at": "2026-10-10T10:00:48Z"
     }
   ],
   "europe_now": [
     {
       "title": "Russian Strikes on Zaporizhzhia",
-      "summary": "Recent Russian strikes on Ukraine's Zaporizhzhia have resulted in at least seven fatalities, including children, highlighting ongoing security crises in the region.",
+      "summary": "Recent Russian military strikes on Ukraine's Zaporizhzhia region resulted in at least seven fatalities, including children. Emergency response operations and local security assessments are ongoing following the attacks.",
       "article_ids": [
         "f0f4a6ce6305f67d39e02192"
       ],
@@ -80,8 +80,8 @@
       "source_count": 1
     },
     {
-      "title": "Proposed EU Budget Reductions",
-      "summary": "A new Irish proposal suggests slashing the European Union budget by €159 billion, marking a significant development in regional institutional policy.",
+      "title": "EU Budget Proposal Reductions",
+      "summary": "A new Irish proposal suggests cutting the European Union budget significantly by €159 billion. Member states are currently reviewing the potential impacts of these reductions on regional financing and policy initiatives.",
       "article_ids": [
         "4e1ce85dbe57b762dfdf10fb"
       ],
@@ -98,24 +98,17 @@
   ],
   "top_stories": [
     {
-      "title": "Diplomatic Efforts on Ukraine Conflict",
-      "summary": "Representatives from the United States, Europe, and Ukraine have engaged in constructive discussions regarding a joint plan to end the war. These talks reflect ongoing international coordination to address the ongoing security crisis.",
+      "title": "Sanctions Investigations on Czech Asset Ownership",
+      "summary": "Investigators have been examining Czech Vanadium to determine its true ownership structure. The inquiry focuses on tracing possible links to Russian oligarch Abramovich regarding potential sanctions evasion.",
       "article_ids": [
-        "cf7b3d267268b06ca645c53b",
-        "de49cf317e56deceb55c449b"
+        "90df52b732515fa6ea8f314c"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20261010-us-ukrainians-europeans-discuss-new-ideas-to-end-war-diesel",
-          "headline": "'Constructive discussions': US, Europe and Ukraine work on joint plan to end war",
-          "published_at": "2026-10-10T07:47:39Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20261010-us-ukrainians-europeans-discuss-new-ideas-to-end-war-diesel",
-          "headline": "US, Europe and Ukraine hold 'constructive discussions' on joint plan to end war",
-          "published_at": "2026-10-10T07:47:39Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/241042/who-really-owns-czech-vanadium-investigators-trace-possible-sanctions-evasion-links-to-russian-oligarch-abramovich",
+          "headline": "Who really owns Czech Vanadium? Investigators trace possible sanctions-evasion links to Russian oligarch Abramovich’",
+          "published_at": "2026-10-10T08:53:00Z"
         }
       ],
       "source_count": 1
@@ -1895,20 +1888,6 @@
       ]
     },
     {
-      "id": "f98a205de8667873a2bb09fc",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘ICE out!’: New Yorkers protest shooting of a migrant in the city",
-      "url": "https://english.elpais.com/usa/2026-10-09/ice-out-new-yorkers-protest-shooting-of-a-migrant-in-the-city.html",
-      "published_at": "2026-10-09T09:09:18Z",
-      "collected_at": "2026-10-09T09:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "f44a9133d880961813a6e660",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1937,48 +1916,6 @@
       ]
     },
     {
-      "id": "43f6702ffa2b2f9576863d8f",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Agrochemical lobbyists are defending a toxic model of agriculture that is heading for collapse",
-      "url": "https://euobserver.com/241450/agrochemical-lobbyists-are-defending-a-toxic-model-of-agriculture-that-is-heading-for-collapse",
-      "published_at": "2026-10-09T09:06:00Z",
-      "collected_at": "2026-10-09T09:30:38Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "93f3c0bbc72806b1c23dfbf7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 South Africa's Navanethem ‘Navi’ Pillay wins 2026 Nobel Peace Prize",
-      "url": "https://www.france24.com/en/europe/20261009-south-africa-s-navanethem-navi-pillay-wins-2026-nobel-peace-prize",
-      "published_at": "2026-10-09T09:04:43Z",
-      "collected_at": "2026-10-09T09:30:38Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "079c4b43ad474a27618e464a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "South Africa's Navanethem ‘Navi’ Pillay wins 2026 Nobel Peace Prize",
-      "url": "https://www.france24.com/en/europe/20261009-south-africa-s-navanethem-navi-pillay-wins-2026-nobel-peace-prize",
-      "published_at": "2026-10-09T09:03:34Z",
-      "collected_at": "2026-10-09T09:30:38Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "746cf1882d30d6e4759d7cb7",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1990,34 +1927,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "9444a5235fd33aca17393087",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The Pentagon will broadcast the first firing-squad execution since 1945",
-      "url": "https://english.elpais.com/usa/2026-10-09/the-pentagon-will-broadcast-the-first-firing-squad-execution-since-1945.html",
-      "published_at": "2026-10-09T08:51:18Z",
-      "collected_at": "2026-10-09T09:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "25effb0baba3bf0f2017e552",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Bosnia and Herzegovina will soon have a new Grand Mufti",
-      "url": "https://www.dw.com/en/bosnia-and-herzegovina-will-soon-have-a-new-grand-mufti/a-79604402?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-09T08:20:00Z",
-      "collected_at": "2026-10-09T09:30:38Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
@@ -2060,6 +1969,34 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "63fc502439e24bb6d4b00998",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "French school protests to continue, after prime minister ignores demands",
+      "url": "https://euobserver.com/241687/french-school-protests-to-continue-after-prime-minister-ignores-demands",
+      "published_at": "2026-10-08T09:21:56Z",
+      "collected_at": "2026-10-10T10:00:48Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "05d86f19006f446b865d7711",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "EU disowns Vilnius event that warned of US political interference, but France maintains support",
+      "url": "https://euobserver.com/241678/eu-disowns-vilnius-event-that-warned-of-us-political-interference-but-france-maintains-support",
+      "published_at": "2026-10-08T09:13:51Z",
+      "collected_at": "2026-10-10T10:00:48Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
