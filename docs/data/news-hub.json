@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-10T10:00:48Z",
-  "last_successful_collection_at": "2026-10-10T10:00:48Z",
+  "generated_at": "2026-10-10T10:30:40Z",
+  "last_successful_collection_at": "2026-10-10T10:30:40Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-10T10:00:48Z"
+      "at": "2026-10-10T10:30:40Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-10-10T10:00:48Z"
+      "at": "2026-10-10T10:30:40Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:2:418: not well-formed (invalid token)",
-      "at": "2026-10-10T10:00:48Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-10-10T10:30:40Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-10T10:00:48Z"
+      "at": "2026-10-10T10:30:40Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-10T10:00:48Z"
+      "at": "2026-10-10T10:30:40Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-10T10:00:48Z"
+      "at": "2026-10-10T10:30:40Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-10T10:00:48Z"
+      "at": "2026-10-10T10:30:40Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-10T10:00:48Z"
+      "at": "2026-10-10T10:30:40Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-10T10:00:48Z"
+      "at": "2026-10-10T10:30:40Z"
     }
   ],
   "europe_now": [
     {
       "title": "Russian Strikes on Zaporizhzhia",
-      "summary": "Recent Russian military strikes on Ukraine's Zaporizhzhia region resulted in at least seven fatalities, including children. Emergency response operations and local security assessments are ongoing following the attacks.",
+      "summary": "Russian strikes on Ukraine's Zaporizhzhia region resulted in at least seven deaths, including children.",
       "article_ids": [
         "f0f4a6ce6305f67d39e02192"
       ],
@@ -80,8 +80,33 @@
       "source_count": 1
     },
     {
-      "title": "EU Budget Proposal Reductions",
-      "summary": "A new Irish proposal suggests cutting the European Union budget significantly by €159 billion. Member states are currently reviewing the potential impacts of these reductions on regional financing and policy initiatives.",
+      "title": "US and Europe Peace Discussions",
+      "summary": "Officials from the United States, Europe, and Ukraine engaged in discussions to formulate a joint plan aimed at ending the conflict.",
+      "article_ids": [
+        "cf7b3d267268b06ca645c53b",
+        "de49cf317e56deceb55c449b"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20261010-us-ukrainians-europeans-discuss-new-ideas-to-end-war-diesel",
+          "headline": "'Constructive discussions': US, Europe and Ukraine work on joint plan to end war",
+          "published_at": "2026-10-10T07:47:39Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20261010-us-ukrainians-europeans-discuss-new-ideas-to-end-war-diesel",
+          "headline": "US, Europe and Ukraine hold 'constructive discussions' on joint plan to end war",
+          "published_at": "2026-10-10T07:47:39Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "EU Budget Proposal",
+      "summary": "A new proposal introduced by Ireland suggests a substantial reduction in the European Union budget. The planned cuts amount to €159 billion.",
       "article_ids": [
         "4e1ce85dbe57b762dfdf10fb"
       ],
@@ -91,24 +116,6 @@
           "url": "https://www.politico.eu/article/eu-budget-slashed-by-e159b-in-new-irish-proposal",
           "headline": "EU budget slashed by €159B in new Irish proposal",
           "published_at": "2026-10-10T08:22:16Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Sanctions Investigations on Czech Asset Ownership",
-      "summary": "Investigators have been examining Czech Vanadium to determine its true ownership structure. The inquiry focuses on tracing possible links to Russian oligarch Abramovich regarding potential sanctions evasion.",
-      "article_ids": [
-        "90df52b732515fa6ea8f314c"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/241042/who-really-owns-czech-vanadium-investigators-trace-possible-sanctions-evasion-links-to-russian-oligarch-abramovich",
-          "headline": "Who really owns Czech Vanadium? Investigators trace possible sanctions-evasion links to Russian oligarch Abramovich’",
-          "published_at": "2026-10-10T08:53:00Z"
         }
       ],
       "source_count": 1
@@ -146,7 +153,7 @@
       "label": "Peace · Prize · Navi · Nobel",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 10,
+      "item_count": 9,
       "latest_at": "2026-10-10T09:25:54Z",
       "sources": [
         {
@@ -164,17 +171,17 @@
       ]
     },
     {
-      "label": "France · Protests · students",
+      "label": "student · French · protests · France",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-09T18:28:40Z",
+      "item_count": 7,
+      "latest_at": "2026-10-10T10:20:54Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261009-france-protests-israel-s-politically-charged-remembrance-ethopia-ukraine",
-          "headline": "France Protests, Israel's 'politically charged' remembrance, Ethopia, Ukraine",
-          "published_at": "2026-10-09T18:28:40Z"
+          "url": "https://www.france24.com/en/france/20261010-injuries-french-student-protests-draw-scrutiny-to-police-tactics",
+          "headline": "Severe injuries at French student protests draw scrutiny to police tactics",
+          "published_at": "2026-10-10T10:20:54Z"
         },
         {
           "publisher": "BBC News Europe",
@@ -207,6 +214,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "6a84233f4cb744f56764b6ce",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Severe injuries at French student protests draw scrutiny to police tactics",
+      "url": "https://www.france24.com/en/france/20261010-injuries-french-student-protests-draw-scrutiny-to-police-tactics",
+      "published_at": "2026-10-10T10:20:54Z",
+      "collected_at": "2026-10-10T10:30:40Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "59daf42128b908613bc5007a",
       "source_id": "france24",
@@ -1846,34 +1867,6 @@
       ]
     },
     {
-      "id": "7b7c94a554e408cebd27e914",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Hegseth says Fort Hood shooter's military execution will be 'livestreamed'",
-      "url": "https://www.france24.com/en/tv-shows/press-review/20261009-hegseth-says-fort-hood-shooter-s-military-execution-will-be-livestreamed",
-      "published_at": "2026-10-09T09:39:39Z",
-      "collected_at": "2026-10-09T10:00:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "beab2b279cfd760e0d2dcf07",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Pentagon to broadcast first firing-squad military execution since 1945",
-      "url": "https://english.elpais.com/usa/2026-10-09/the-pentagon-will-broadcast-the-first-firing-squad-execution-since-1945.html",
-      "published_at": "2026-10-09T09:33:13Z",
-      "collected_at": "2026-10-09T10:00:48Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "8aaa356fceb627e15009f2a7",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1888,20 +1881,6 @@
       ]
     },
     {
-      "id": "f44a9133d880961813a6e660",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Thieves steal 30,000 wine bottles worth €5m in Italy, reports say",
-      "url": "https://www.bbc.co.uk/news/articles/cme3xl8ln2vko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-09T09:09:03Z",
-      "collected_at": "2026-10-09T10:00:48Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "0d8cab80ccf5094d83216c88",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1912,20 +1891,6 @@
       "topics": [
         "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "746cf1882d30d6e4759d7cb7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "South Africa's Navi Pillay wins 2026 Nobel Peace Prize",
-      "url": "https://www.france24.com/en/europe/20261009-south-africa-s-navanethem-navi-pillay-wins-2026-nobel-peace-prize",
-      "published_at": "2026-10-09T09:03:34Z",
-      "collected_at": "2026-10-09T10:00:48Z",
-      "topics": [
-        "politics",
-        "security",
         "society"
       ]
     },
@@ -2011,6 +1976,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "8cef6b1d1bf93080d1cc9a88",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Middle Corridor: Can Bulgaria be a safe gateway for Asian imports to the EU?",
+      "url": "https://www.dw.com/en/middle-corridor-can-bulgaria-be-a-safe-gateway-for-asian-imports-to-the-eu/a-79584530?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-08T08:38:00Z",
+      "collected_at": "2026-10-10T10:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -2238,6 +2217,34 @@
       ]
     },
     {
+      "id": "896f7129f66a5ea1720301de",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Fear and disruption for Ukraine's rail passengers as Russia escalates drone attacks",
+      "url": "https://www.bbc.co.uk/news/articles/cr4g1qxzwyj1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-06T09:48:37Z",
+      "collected_at": "2026-10-10T10:30:40Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "57e08500d35d8ef75597f139",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Venezuela confirms it did not seek Nicolás Maduro’s release or request immunity to prevent US trial",
+      "url": "https://english.elpais.com/international/2026-10-06/venezuela-confirms-it-did-not-seek-nicolas-maduros-release-or-request-immunity-to-prevent-us-trial.html",
+      "published_at": "2026-10-06T09:20:46Z",
+      "collected_at": "2026-10-10T10:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "b02ea20fced88a650c1ff268",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2455,6 +2462,20 @@
       "url": "https://english.elpais.com/usa/2026-09-21/from-airbnb-to-stray-cats-trumps-childhood-home-in-queens-sells-for-2-million.html",
       "published_at": "2026-09-21T14:29:55Z",
       "collected_at": "2026-10-09T19:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "9e0a227b9159734c55b28e7c",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "EL PAÍS offers free Spanish lessons with Gymglish",
+      "url": "https://english.elpais.com/economy-and-business/2021-11-15/el-pais-offers-free-spanish-lessons-with-gymglish.html",
+      "published_at": "2021-11-15T14:10:11Z",
+      "collected_at": "2026-10-10T10:30:40Z",
       "topics": [
         "politics",
         "society",
