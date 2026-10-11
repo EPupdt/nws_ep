@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-11T16:00:52Z",
-  "last_successful_collection_at": "2026-10-11T16:00:52Z",
+  "generated_at": "2026-10-11T16:30:43Z",
+  "last_successful_collection_at": "2026-10-11T16:30:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-11T16:00:52Z"
+      "at": "2026-10-11T16:30:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-10-11T16:00:52Z"
+      "at": "2026-10-11T16:30:43Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-11T16:00:52Z"
+      "at": "2026-10-11T16:30:43Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-11T16:00:52Z"
+      "at": "2026-10-11T16:30:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-11T16:00:52Z"
+      "at": "2026-10-11T16:30:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-11T16:00:52Z"
+      "at": "2026-10-11T16:30:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-11T16:00:52Z"
+      "at": "2026-10-11T16:30:43Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-11T16:00:52Z"
+      "at": "2026-10-11T16:30:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-11T16:00:52Z"
+      "at": "2026-10-11T16:30:43Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Assassination Plot Warning Against Polish Prime Minister",
-      "summary": "Polish police and security services issued warnings regarding an alleged assassination plot targeting Prime Minister Donald Tusk. Authorities subsequently arrested a suspect connected to the security threat.",
+      "title": "Polish Security Threat",
+      "summary": "Polish police and security services have issued warnings regarding a potential assassination plot targeting Prime Minister Donald Tusk. Authorities have subsequently arrested a man in connection with the alleged threat.",
       "article_ids": [
         "2c2e4049fa4d0374819269da",
         "52de82456721932619fd6826",
@@ -88,8 +88,58 @@
       "source_count": 2
     },
     {
-      "title": "Announcements Concerning Pope Leo's Upcoming Lung Surgery",
-      "summary": "The Vatican and Pope Leo disclosed that the pontiff is scheduled to undergo an operation for an early-stage lung nodule. Media outlets provided ongoing updates regarding the planned medical procedure.",
+      "title": "Energy Infrastructure Stances in Ukraine Conflict",
+      "summary": "President Volodymyr Zelenskyy stated that Ukraine is prepared to halt strikes on Russian energy infrastructure if Moscow ceases its attacks on Ukrainian facilities. Meanwhile, international reactions continue following statements regarding an energy ceasefire and leadership changes.",
+      "article_ids": [
+        "9856bf100b9953c8b7a589da",
+        "b071aafc33e8cce349968c30",
+        "dd233b22e6bf6bcc9bab10d4"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/trump-announces-energy-ceasefire-between-russia-and-ukraine/a-79634509?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Trump announces 'energy ceasefire' between Russia and Ukraine",
+          "published_at": "2026-10-11T14:47:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261011-ukraine-ready-halt-refinery-strikes-if-moscow-stops-energy-attacks-zelensky-says",
+          "headline": "Ukraine ready to halt refinery strikes if Moscow stops energy attacks, Zelensky says",
+          "published_at": "2026-10-11T10:21:07Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Spanish Election Campaigns Open Amid Housing Crisis Protests",
+      "summary": "Prime Minister Pedro Sánchez and other political leaders have officially launched their electoral campaigns in Spain. The campaign openings have been heavily overshadowed by widespread public demonstrations demanding solutions to the ongoing housing crisis.",
+      "article_ids": [
+        "2ddf64b184da6863cedba97c",
+        "7510dc1ca30266dfd1adcc73",
+        "508f0e89b7231ce4e59c2aa1"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261011-spain-s%C3%A1nchez-and-feij%C3%B3o-launch-campaigns",
+          "headline": "Spain: Sánchez and Feijóo launch campaigns",
+          "published_at": "2026-10-11T10:23:38Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261011-spanish-pm-begins-vote-campaign-overshadowed-by-housing-protests",
+          "headline": "Spanish PM begins vote campaign overshadowed by housing protests",
+          "published_at": "2026-10-11T08:37:13Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Vatican Health Announcements",
+      "summary": "Pope Leo publicly announced that he is scheduled to undergo a surgical procedure for an early-stage lung nodule. The Vatican disclosed the upcoming operation following the pontiff's personal statement.",
       "article_ids": [
         "8377781f972485bae653fbe9",
         "1941b8fc04da3d1d59ed2bbf",
@@ -112,78 +162,7 @@
       "source_count": 1
     }
   ],
-  "top_stories": [
-    {
-      "title": "Ukraine Conflict and Infrastructure Ceasefire Discussions",
-      "summary": "International leaders discussed developments surrounding potential pauses on energy infrastructure strikes between Russia and Ukraine. Ukrainian officials indicated readiness to halt refinery strikes under specific mutual conditions.",
-      "article_ids": [
-        "b071aafc33e8cce349968c30",
-        "675c623c91765e44f5dbec10",
-        "dd233b22e6bf6bcc9bab10d4"
-      ],
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/trump-announces-energy-ceasefire-between-russia-and-ukraine/a-79634509?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Trump announces 'energy ceasefire' between Russia and Ukraine",
-          "published_at": "2026-10-11T14:47:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261011-trump-says-russia-and-ukraine-agree-energy-ceasefire",
-          "headline": "Trump says Russia, Ukraine agree to energy ceasefire – 'news for me', Zelensky says",
-          "published_at": "2026-10-11T14:39:26Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Spanish Election Campaigns and Housing Demonstrations",
-      "summary": "Political leaders in Spain officially launched their electoral campaigns as demonstrations regarding the national housing crisis unfolded. The public protests formed a prominent backdrop to the opening of political events.",
-      "article_ids": [
-        "2ddf64b184da6863cedba97c",
-        "7510dc1ca30266dfd1adcc73",
-        "508f0e89b7231ce4e59c2aa1"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261011-spain-s%C3%A1nchez-and-feij%C3%B3o-launch-campaigns",
-          "headline": "Spain: Sánchez and Feijóo launch campaigns",
-          "published_at": "2026-10-11T10:23:38Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261011-spanish-pm-begins-vote-campaign-overshadowed-by-housing-protests",
-          "headline": "Spanish PM begins vote campaign overshadowed by housing protests",
-          "published_at": "2026-10-11T08:37:13Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
   "developing": [
-    {
-      "label": "diesel · kill · Russian · Trump",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-11T10:10:20Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261011-trump-zelensky-clash-over-diesel-deal-as-russian-strikes-kill-21",
-          "headline": "Trump, Zelensky clash over diesel deal as Russian strikes kill 21",
-          "published_at": "2026-10-11T10:10:20Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
-          "headline": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
-          "published_at": "2026-10-10T20:51:12Z"
-        }
-      ]
-    },
     {
       "label": "EU · Russian",
       "origin": "convergence",
@@ -221,6 +200,21 @@
       ]
     },
     {
+      "label": "clash · deal · diesel · kill",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-10-11T10:10:20Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261011-trump-zelensky-clash-over-diesel-deal-as-russian-strikes-kill-21",
+          "headline": "Trump, Zelensky clash over diesel deal as Russian strikes kill 21",
+          "published_at": "2026-10-11T10:10:20Z"
+        }
+      ]
+    },
+    {
       "label": "amid · campaign · crisis · election",
       "origin": "radar",
       "source_count": 1,
@@ -237,6 +231,48 @@
     }
   ],
   "radar": [
+    {
+      "id": "d100ffbefb1b4f2ad81ec3e4",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Protesters seeking India election chief's ouster detained, as 'cockroach' leaders released",
+      "url": "https://www.france24.com/en/video/20261011-protesters-seeking-india-election-chief-s-ouster-detained-as-cockroach-leaders-released",
+      "published_at": "2026-10-11T16:08:39Z",
+      "collected_at": "2026-10-11T16:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "b943be85ac47d14dd25ed54b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Saudi-led coalition says new attack at Riyadh airport causes fire, day after strike kills 12",
+      "url": "https://www.france24.com/en/video/20261011-saudi-led-coalition-says-new-attack-at-riyadh-airport-causes-fire-day-after-strike-kills-12",
+      "published_at": "2026-10-11T16:07:13Z",
+      "collected_at": "2026-10-11T16:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "9856bf100b9953c8b7a589da",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Trump's energy ceasefire announcement was 'news for me' (Zelensky)",
+      "url": "https://www.france24.com/en/video/20261011-trump-s-energy-ceasefire-announcement-was-news-for-me-zelensky",
+      "published_at": "2026-10-11T16:04:20Z",
+      "collected_at": "2026-10-11T16:30:43Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "11fe7553cdff14b03132f012",
       "source_id": "politico_europe",
@@ -1176,76 +1212,6 @@
       ]
     },
     {
-      "id": "2e501ee79646713ac668d58b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "India protests: New 'cockroach' movement leader named",
-      "url": "https://www.france24.com/en/video/20261010-india-protests-new-cockroach-movement-leader-named",
-      "published_at": "2026-10-10T16:14:56Z",
-      "collected_at": "2026-10-10T16:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "43feacdbeb011f9e0d5991f7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "South Africa: Anti-migrant unrest flares in Durban",
-      "url": "https://www.france24.com/en/video/20261010-south-africa-anti-migrant-unrest-flares-in-durban",
-      "published_at": "2026-10-10T16:12:21Z",
-      "collected_at": "2026-10-10T16:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "11d888d227b5fc2e5f4f6b74",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Kenya: Ebola tests negative as contact tracing continues",
-      "url": "https://www.france24.com/en/video/20261010-kenya-ebola-tests-negative-as-contact-tracing-continues",
-      "published_at": "2026-10-10T16:10:53Z",
-      "collected_at": "2026-10-10T16:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "200e9e92d5c6b1fb865366be",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Abbas postpones Palestinian elections, sets presidential poll for September 2027",
-      "url": "https://www.france24.com/en/video/20261010-abbas-postpones-palestinian-elections-sets-presidential-poll-for-september-2027",
-      "published_at": "2026-10-10T16:09:13Z",
-      "collected_at": "2026-10-10T16:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "b0900b779b2f941c7142df02",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Midterms: \"It does look like the Republicans will lose control of the House of Representatives\"",
-      "url": "https://www.france24.com/en/video/20261010-midterms-it-does-look-like-the-republicans-will-lose-control-of-the-house-of-representatives",
-      "published_at": "2026-10-10T16:04:13Z",
-      "collected_at": "2026-10-10T16:30:41Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "d093538de3e73658f55e26ed",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1635,48 +1601,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "60c1974611ddc97f55e057f1",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Polish man suspected of helping Russian plot to assassinate Zelensky sentenced to 5.5 years",
-      "url": "https://notesfrompoland.com/2026/10/08/polish-man-suspected-of-helping-russian-plot-to-assassinate-zelensky-sentenced-to-5-5-years",
-      "published_at": "2026-10-08T15:58:23Z",
-      "collected_at": "2026-10-10T16:30:41Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "acc27441fff7bd0537729c92",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "EU let member states rewrite targets after they had sought recovery-fund payment, auditors find",
-      "url": "https://euobserver.com/241815/eu-let-member-states-rewrite-targets-after-they-had-sought-recovery-fund-payment-auditors-find",
-      "published_at": "2026-10-08T15:43:58Z",
-      "collected_at": "2026-10-10T16:30:41Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "1d243b8305c546f88d7a8245",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "EU trade chief Šefčovič has no cards to play on China ‘ultimatum’ trip",
-      "url": "https://euobserver.com/241842/eu-trade-chief-sefcovic-faces-the-reality-of-brussels-weak-trade-hand",
-      "published_at": "2026-10-08T15:32:32Z",
-      "collected_at": "2026-10-10T16:30:41Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
       ]
     },
     {
