@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-11T07:30:44Z",
-  "last_successful_collection_at": "2026-10-11T07:30:44Z",
+  "generated_at": "2026-10-11T08:00:51Z",
+  "last_successful_collection_at": "2026-10-11T08:00:51Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-11T07:30:44Z"
+      "at": "2026-10-11T08:00:51Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-10-11T07:30:44Z"
+      "at": "2026-10-11T08:00:51Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-11T07:30:44Z"
+      "at": "2026-10-11T08:00:51Z"
     },
     {
       "id": "euractiv",
@@ -29,60 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-11T07:30:44Z"
+      "at": "2026-10-11T08:00:51Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-11T07:30:44Z"
+      "at": "2026-10-11T08:00:51Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-11T07:30:44Z"
+      "at": "2026-10-11T08:00:51Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-11T07:30:44Z"
+      "at": "2026-10-11T08:00:51Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-11T07:30:44Z"
+      "at": "2026-10-11T08:00:51Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-11T07:30:44Z"
+      "at": "2026-10-11T08:00:51Z"
     }
   ],
-  "europe_now": [],
-  "top_stories": [
+  "europe_now": [
     {
-      "title": "Formation of Russian Combat Battalion from Ukrainian Captives",
-      "summary": "Russian military authorities have organized a battalion composed of Ukrainian prisoners of war and defectors to fight against Ukrainian forces. The initiative reflects an effort to deploy captured personnel directly onto the battlefield.",
+      "title": "Russian Strikes and Sanctions Friction",
+      "summary": "Recent Russian aerial attacks targeting Ukrainian regions have resulted in numerous fatalities, including children. Meanwhile, political friction has intensified following a newly announced diesel agreement.",
       "article_ids": [
-        "11e47a562b3028d02999394e"
+        "cc11a2803504a86e0a7a4775",
+        "d093538de3e73658f55e26ed"
       ],
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ukrainian-prisoners-of-war-and-defectors-have-been-gathered-into-a-russian-battalion-to-face-ukrainian-forces-why-and-how/a-79629555?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Ukrainian prisoners of war and defectors have been gathered into a Russian battalion to face Ukrainian forces — why? And how?",
-          "published_at": "2026-10-11T06:38:00Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+          "headline": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
+          "published_at": "2026-10-10T20:51:12Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261010-trump-zelensky-clash-over-diesel-deal-as-russian-strikes-on-ukraine-kill-21-including-children",
+          "headline": "Trump, Zelensky clash over diesel deal as Russian strikes on Ukraine kill 21, including children",
+          "published_at": "2026-10-10T13:39:42Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "European Union Security Measures Against Russian Hybrid Tactics",
-      "summary": "The European Union is preparing travel restrictions targeting Russian citizens in an effort to curb hybrid security threats. European concerns have intensified following reports that Russian networks are enlisting amateur saboteurs and recruits through messaging platforms to conduct operations across the continent.",
+      "title": "EU Security Measures Against Russian Hybrid Tactics",
+      "summary": "European Union authorities are considering new travel restrictions targeting Russian nationals to counter ongoing hybrid threats. Security experts have also highlighted how foreign actors utilize online platforms and amateur operatives for operations across the continent.",
       "article_ids": [
         "7a4cfe11a4669b64e2e4e81c",
         "a4627980dffdcb63376bef08"
@@ -96,21 +102,22 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Russian Aerial Strikes on Ukraine and Sanctions Friction",
-      "summary": "A Russian glide bomb attack on the city of Zaporizhzhia claimed the lives of at least twenty people. The assault coincided with diplomatic tensions after United States leadership agreed to ease diesel restrictions on Moscow despite strong objections from Ukrainian officials.",
+      "title": "Conflict Escalation in Ukraine",
+      "summary": "Russian military operations in Ukraine continue to cause significant casualties through intensive bombing campaigns. Political leaders have engaged in sharp disputes regarding international fuel agreements and diplomatic strategy.",
       "article_ids": [
-        "a06fb889e63831781072cbf7",
         "cc11a2803504a86e0a7a4775",
         "d093538de3e73658f55e26ed"
       ],
       "sources": [
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
-          "published_at": "2026-10-10T14:24:14Z"
+          "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+          "headline": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
+          "published_at": "2026-10-10T20:51:12Z"
         },
         {
           "publisher": "France 24 English",
@@ -123,6 +130,27 @@
     }
   ],
   "developing": [
+    {
+      "label": "Trump · Zelensky",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-10-10T17:39:46Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261010-live-russian-strikes-on-ukraine-zaporizhzhia-kill-least-seven-including-children",
+          "headline": "🔴 Live: Trump lashes out at Zelensky, says Ukraine needs new president who will agree to end war",
+          "published_at": "2026-10-10T17:39:46Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+          "published_at": "2026-10-10T14:24:14Z"
+        }
+      ]
+    },
     {
       "label": "diesel · Russia",
       "origin": "convergence",
@@ -160,21 +188,6 @@
       ]
     },
     {
-      "label": "girl · including · kill · Russian",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-10-10T15:56:49Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261010-war-in-ukraine-russian-strikes-kill-15-including-a-young-girl",
-          "headline": "War in Ukraine: Russian strikes kill 15, including a young girl",
-          "published_at": "2026-10-10T15:56:49Z"
-        }
-      ]
-    },
-    {
       "label": "draw · French · injuries · police",
       "origin": "radar",
       "source_count": 1,
@@ -191,6 +204,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "508f0e89b7231ce4e59c2aa1",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Spanish PM Sanchez kicks off election campaign amid housing crisis protests",
+      "url": "https://www.france24.com/en/europe/20261011-spanish-pm-sanchez-kicks-off-election-campaign-amid-housing-crisis-protests",
+      "published_at": "2026-10-11T07:46:57Z",
+      "collected_at": "2026-10-11T08:00:51Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "11e47a562b3028d02999394e",
       "source_id": "dw_europe",
@@ -1081,34 +1108,6 @@
       "url": "https://www.france24.com/en/europe/20261010-all-human-emotion-french-astronaut-sophie-adenot-first-words-since-returning-earth",
       "published_at": "2026-10-10T08:09:18Z",
       "collected_at": "2026-10-10T09:30:38Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "aa8395e82646f533c079aabe",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Kann VW gerettet werden? Ein Gespräch mit Olaf Lies",
-      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/kann-vw-gerettet-werden-ein-gesprach-mit-olaf-lies",
-      "published_at": "2026-10-10T08:00:00Z",
-      "collected_at": "2026-10-10T08:00:48Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "cf7b3d267268b06ca645c53b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Constructive discussions': US, Europe and Ukraine work on joint plan to end war",
-      "url": "https://www.france24.com/en/americas/20261010-us-ukrainians-europeans-discuss-new-ideas-to-end-war-diesel",
-      "published_at": "2026-10-10T07:47:39Z",
-      "collected_at": "2026-10-10T08:00:48Z",
       "topics": [
         "politics",
         "security",
