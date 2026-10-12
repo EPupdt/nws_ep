@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-12T16:00:58Z",
-  "last_successful_collection_at": "2026-10-12T16:00:58Z",
+  "generated_at": "2026-10-12T16:30:44Z",
+  "last_successful_collection_at": "2026-10-12T16:30:44Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-12T16:00:58Z"
+      "at": "2026-10-12T16:30:44Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-10-12T16:00:58Z"
+      "at": "2026-10-12T16:30:44Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-12T16:00:58Z"
+      "at": "2026-10-12T16:30:44Z"
     },
     {
       "id": "euractiv",
@@ -29,48 +29,69 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-12T16:00:58Z"
+      "at": "2026-10-12T16:30:44Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-12T16:00:58Z"
+      "at": "2026-10-12T16:30:44Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-12T16:00:58Z"
+      "at": "2026-10-12T16:30:44Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-12T16:00:58Z"
+      "at": "2026-10-12T16:30:44Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-12T16:00:58Z"
+      "at": "2026-10-12T16:30:44Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-12T16:00:58Z"
+      "at": "2026-10-12T16:30:44Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Cyberattack Disrupts French Supermarket Refrigeration",
-      "summary": "An unprecedented cyberattack targeted refrigeration units across hundreds of French supermarkets, disrupting operations and food storage.",
+      "title": "NATO Warning and Security Developments",
+      "summary": "NATO's top military commander has issued a warning to Russia regarding alleged sabotage activities. Meanwhile, a trial has opened in Warsaw involving individuals accused of carrying out arson attacks on Russian orders.",
+      "article_ids": [
+        "ce58d8e402a5d33ed2bb3a36",
+        "8f69e0b429edf6bfbaeb0fdc"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/replay-nato-s-top-military-commander-warns-russia-over-alleged-sabotage",
+          "headline": "REPLAY: NATO's top military commander warns Russia over alleged sabotage",
+          "published_at": "2026-10-12T12:26:20Z"
+        },
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/10/12/four-go-on-trial-in-warsaw-over-arson-attacks-carried-out-on-russian-orders",
+          "headline": "Four go on trial in Warsaw over arson attacks carried out on Russian orders",
+          "published_at": "2026-10-12T13:25:22Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Cyberattack Impacts French Infrastructure",
+      "summary": "Supermarkets in France have experienced operational disruptions after a cyberattack targeted their refrigeration systems. Authorities and affected entities are managing the fallout from the digital security breach.",
       "article_ids": [
         "eb5f7569c7d3d633838f78ea",
-        "8487eb4181131091f7b5a143",
-        "0d25a0c34f7441f9009c63fe",
-        "9f9428b4f09ca1bc901b0c60"
+        "8487eb4181131091f7b5a143"
       ],
       "sources": [
         {
@@ -87,28 +108,12 @@
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "EU Approves Major Sanctions Package Against Russia",
-      "summary": "The European Union has formally approved its largest package of sanctions against Russia since the invasion of Ukraine began.",
-      "article_ids": [
-        "ddd4f42dbbfd9f7c3c82345a"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-approves-biggest-russia-sanctions-package-since-invasion-began",
-          "headline": "EU approves biggest Russia sanctions package since invasion began",
-          "published_at": "2026-10-12T13:52:05Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
       "title": "UK and EU Schedule Brexit Reset Summit",
-      "summary": "The United Kingdom and the European Union have scheduled a formal Brexit reset summit for November 20. Officials from both sides intend to use the upcoming meeting to re-engage on key bilateral policy matters.",
+      "summary": "The United Kingdom and the European Union have officially scheduled a reset summit for November 20. Discussions are expected to focus on renewing bilateral cooperation and addressing post-Brexit relations.",
       "article_ids": [
         "f0a9df0291bc284445d9c868"
       ],
@@ -123,17 +128,17 @@
       "source_count": 1
     },
     {
-      "title": "Arson Trial Opens in Warsaw Over Russian-Ordered Attacks",
-      "summary": "Four individuals have gone on trial in Warsaw in connection with arson attacks carried out on Russian orders. Prosecutors and security officials continue to scrutinize foreign interference operations across the region.",
+      "title": "EU Approves Major Sanctions Package Against Russia",
+      "summary": "The European Union has formally approved its largest package of sanctions against Russia since the onset of the conflict. The measures aim to further restrict economic support for Moscow's military operations.",
       "article_ids": [
-        "8f69e0b429edf6bfbaeb0fdc"
+        "ddd4f42dbbfd9f7c3c82345a"
       ],
       "sources": [
         {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/10/12/four-go-on-trial-in-warsaw-over-arson-attacks-carried-out-on-russian-orders",
-          "headline": "Four go on trial in Warsaw over arson attacks carried out on Russian orders",
-          "published_at": "2026-10-12T13:25:22Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-approves-biggest-russia-sanctions-package-since-invasion-began",
+          "headline": "EU approves biggest Russia sanctions package since invasion began",
+          "published_at": "2026-10-12T13:52:05Z"
         }
       ],
       "source_count": 1
@@ -141,45 +146,18 @@
   ],
   "developing": [
     {
-      "label": "Russia · Ukraine · ceasefire · energy",
-      "origin": "convergence",
-      "source_count": 4,
-      "item_count": 6,
-      "latest_at": "2026-10-12T14:43:36Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/242324/tanks-vs-drones-battle-exposes-lie-in-russias-map-of-territorial-gains-as-ukraine-once-again-bombs-yandex-data-centres-ukraine-battlefield-update-day-1691",
-          "headline": "Tanks vs. drones battle exposes lie in Russia’s map of territorial gains, as Ukraine once again bombs Yandex data centres (Ukraine Battlefield update, day 1,691)",
-          "published_at": "2026-10-12T14:43:36Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/ukraine-fm-andrii-sybiha-russias-war-budget-makes-the-case-for-using-frozen-assets-now",
-          "headline": "Ukraine’s FM: Russia’s war budget makes the case for using frozen assets now",
-          "published_at": "2026-10-12T11:28:21Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/zelensky-says-surprised-to-hear-about-trump-s-energy-ceasefire-between-ukraine-and-russia",
-          "headline": "Zelensky says surprised to hear about Trump's 'energy ceasefire' between Ukraine and Russia",
-          "published_at": "2026-10-12T10:19:32Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump says Ukraine and Russia have agreed 'energy ceasefire'",
-          "published_at": "2026-10-11T18:58:26Z"
-        }
-      ]
-    },
-    {
-      "label": "Trump · ceasefire · energy · Zelensky",
+      "label": "ceasefire · energy · Trump · Ukraine",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 7,
-      "latest_at": "2026-10-12T12:24:12Z",
+      "item_count": 14,
+      "latest_at": "2026-10-12T15:51:30Z",
       "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/crd9321ygqw8o?at_medium=RSS&at_campaign=rss",
+          "headline": "Watch: What could Trump's energy ceasefire mean for Ukraine?",
+          "published_at": "2026-10-12T15:51:30Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/ukraine-zelensky-says-learned-of-trump-s-energy-ceasefire-through-media",
@@ -191,12 +169,33 @@
           "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/wie-trumps-olkrise-zur-ukraine-frage-wird",
           "headline": "Wie Trumps Ölkrise zur Ukraine-Frage wird",
           "published_at": "2026-10-12T03:30:00Z"
+        }
+      ]
+    },
+    {
+      "label": "election · leader · Interview · sees",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 4,
+      "latest_at": "2026-10-12T16:03:43Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/242337/interview-spanish-socialist-mep-sees-no-other-leader-than-sanchez-as-housing-and-immigration-dominate-snap-election",
+          "headline": "[Interview] Spanish socialist MEP sees no other leader than Sánchez, as housing and immigration dominate snap election",
+          "published_at": "2026-10-12T16:03:43Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
-          "published_at": "2026-10-11T21:36:40Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/india-s-opposition-leader-marches-with-thousands-against-election-chief",
+          "headline": "India's opposition leader marches with thousands against election chief",
+          "published_at": "2026-10-12T15:14:36Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/frances-and-spains-far-rights-unite-ahead-of-key-elections",
+          "headline": "French, Spanish far-right leaders unite ahead of key elections",
+          "published_at": "2026-10-12T13:09:05Z"
         }
       ]
     },
@@ -251,6 +250,90 @@
   ],
   "radar": [
     {
+      "id": "360e4ab3f55dd9f79e799d13",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France: Fire destroys historic covered food market in Paris",
+      "url": "https://www.france24.com/en/france-fire-destroys-historic-covered-food-market-in-paris",
+      "published_at": "2026-10-12T16:23:53Z",
+      "collected_at": "2026-10-12T16:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "9b20cbe900a625e4960bb27c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Thousands of Indians march to Supreme Court to oust election chief",
+      "url": "https://www.france24.com/en/thousands-of-indians-march-to-supreme-court-to-oust-election-chief",
+      "published_at": "2026-10-12T16:23:06Z",
+      "collected_at": "2026-10-12T16:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "99293147bb3d61a489858f5b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Saudi Arabia extends Riyadh aiport suspension, vows deadly response to Houthis strikes",
+      "url": "https://www.france24.com/en/saudi-arabia-extends-riyadh-aiport-suspension-vows-deadly-response-to-houthis-strikes",
+      "published_at": "2026-10-12T16:21:57Z",
+      "collected_at": "2026-10-12T16:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "75ef4e47a3b755dc4d7df0e0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Chinese cars vs Europe: Who will win the battle for the market?",
+      "url": "https://www.france24.com/en/chinese-cars-vs-europe-who-will-win-the-battle-for-the-market",
+      "published_at": "2026-10-12T16:20:54Z",
+      "collected_at": "2026-10-12T16:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "0bdb625b9b5474823abe41e7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "The revival of a classic: Citroën unveils new electric version of its 2CV",
+      "url": "https://www.france24.com/en/video/20261012-the-revival-of-a-classic-citro%C3%ABn-unveils-new-electric-version-of-its-2cv",
+      "published_at": "2026-10-12T16:08:18Z",
+      "collected_at": "2026-10-12T16:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "b2f0f7f94767aeade749fae3",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "[Interview] Spanish socialist MEP sees no other leader than Sánchez, as housing and immigration dominate snap election",
+      "url": "https://euobserver.com/242337/interview-spanish-socialist-mep-sees-no-other-leader-than-sanchez-as-housing-and-immigration-dominate-snap-election",
+      "published_at": "2026-10-12T16:03:43Z",
+      "collected_at": "2026-10-12T16:30:44Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "2770e4d012ea801eabd4aec1",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -265,6 +348,20 @@
       ]
     },
     {
+      "id": "80f5d56c3265b07aebffd071",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Midterms 2026: Turning Point and the battle for Charlie Kirk’s legacy",
+      "url": "https://www.france24.com/en/video/20261012-midterms-2026-turning-point-and-the-battle-for-charlie-kirk-s-legacy",
+      "published_at": "2026-10-12T15:59:52Z",
+      "collected_at": "2026-10-12T16:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "49b0764db199a76ff389055e",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -276,6 +373,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "9728764bf8b64bc6ae43dc30",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Watch: What could Trump's energy ceasefire mean for Ukraine?",
+      "url": "https://www.bbc.co.uk/news/videos/crd9321ygqw8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-12T15:51:30Z",
+      "collected_at": "2026-10-12T16:30:44Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -776,6 +887,20 @@
       "url": "https://www.france24.com/en/video/20261012-russian-continues-to-strike-ukraine-despite-trump-s-announcement-of-an-energy-ceasefire",
       "published_at": "2026-10-12T12:12:51Z",
       "collected_at": "2026-10-12T12:30:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "9b9d8178d49c2e5aa2256bba",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ukraine: Russian strikes continue despite Trump's 'energy ceasefire'",
+      "url": "https://www.france24.com/en/video/20261012-russian-continues-to-strike-ukraine-despite-trump-s-announcement-of-an-energy-ceasefire",
+      "published_at": "2026-10-12T12:12:51Z",
+      "collected_at": "2026-10-12T16:30:44Z",
       "topics": [
         "politics",
         "security",
@@ -1875,48 +2000,6 @@
       ]
     },
     {
-      "id": "d100ffbefb1b4f2ad81ec3e4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Protesters seeking India election chief's ouster detained, as 'cockroach' leaders released",
-      "url": "https://www.france24.com/en/video/20261011-protesters-seeking-india-election-chief-s-ouster-detained-as-cockroach-leaders-released",
-      "published_at": "2026-10-11T16:08:39Z",
-      "collected_at": "2026-10-11T16:30:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "b943be85ac47d14dd25ed54b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Saudi-led coalition says new attack at Riyadh airport causes fire, day after strike kills 12",
-      "url": "https://www.france24.com/en/video/20261011-saudi-led-coalition-says-new-attack-at-riyadh-airport-causes-fire-day-after-strike-kills-12",
-      "published_at": "2026-10-11T16:07:13Z",
-      "collected_at": "2026-10-11T16:30:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "9856bf100b9953c8b7a589da",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Trump's energy ceasefire announcement was 'news for me' (Zelensky)",
-      "url": "https://www.france24.com/en/video/20261011-trump-s-energy-ceasefire-announcement-was-news-for-me-zelensky",
-      "published_at": "2026-10-11T16:04:20Z",
-      "collected_at": "2026-10-11T16:30:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "57a0a5314f27dcb85123b70a",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2309,6 +2392,20 @@
       ]
     },
     {
+      "id": "60c1974611ddc97f55e057f1",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Polish man suspected of helping Russian plot to assassinate Zelensky sentenced to 5.5 years",
+      "url": "https://notesfrompoland.com/2026/10/08/polish-man-suspected-of-helping-russian-plot-to-assassinate-zelensky-sentenced-to-5-5-years",
+      "published_at": "2026-10-08T15:58:23Z",
+      "collected_at": "2026-10-12T16:30:44Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "43ea3367c83a0079ace26d2d",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2666,34 +2763,6 @@
       "url": "https://english.elpais.com/usa/2026-10-05/the-most-relevant-initiatives-that-will-appear-on-the-ballots-in-novembers-midterm-elections.html",
       "published_at": "2026-10-05T17:55:39Z",
       "collected_at": "2026-10-11T19:00:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "22a8acec0aecab72ce33618f",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Maxx yourself, squeeze yourself dry: The unhealthy obsession with optimizing everything",
-      "url": "https://english.elpais.com/society/2026-10-04/maxx-yourself-squeeze-yourself-dry-the-unhealthy-obsession-with-optimizing-everything.html",
-      "published_at": "2026-10-04T04:00:00Z",
-      "collected_at": "2026-10-11T19:00:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "12aff6a6e6d0d664f2e8a440",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Carl Cederström, sociologist: ‘Wellness has become a corporate tool. It doesn’t make you happier; just more productive’",
-      "url": "https://english.elpais.com/health/2026-10-04/carl-cederstrom-sociologist-wellness-has-become-a-corporate-tool-it-doesnt-make-you-happier-just-more-productive.html",
-      "published_at": "2026-10-04T04:00:00Z",
-      "collected_at": "2026-10-12T05:00:55Z",
       "topics": [
         "politics",
         "society",
