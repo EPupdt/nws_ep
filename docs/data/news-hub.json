@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-12T06:00:53Z",
-  "last_successful_collection_at": "2026-10-12T06:00:53Z",
+  "generated_at": "2026-10-12T06:30:46Z",
+  "last_successful_collection_at": "2026-10-12T06:30:46Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-12T06:00:53Z"
+      "at": "2026-10-12T06:30:46Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-12T06:00:53Z"
+      "at": "2026-10-12T06:30:46Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-12T06:00:53Z"
+      "at": "2026-10-12T06:30:46Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,69 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-12T06:00:53Z"
+      "at": "2026-10-12T06:30:46Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-12T06:00:53Z"
+      "at": "2026-10-12T06:30:46Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-12T06:00:53Z"
+      "at": "2026-10-12T06:30:46Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-12T06:00:53Z"
+      "at": "2026-10-12T06:30:46Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-12T06:00:53Z"
+      "at": "2026-10-12T06:30:46Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-12T06:00:53Z"
+      "at": "2026-10-12T06:30:46Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Energy Ceasefire Announcement",
-      "summary": "Former US President Donald Trump stated that Russia and Ukraine have agreed to an energy ceasefire. Ukrainian President Volodymyr Zelenskyy noted the announcement came as news to him, while official Russian response has remained absent.",
+      "title": "Poland Detains Suspect Over Alleged Plot Against Prime Minister Tusk",
+      "summary": "Polish authorities have detained a man suspected of plotting the assassination of Prime Minister Donald Tusk. The security incident highlights ongoing domestic threats and concerns regarding the online glorification of violence.",
+      "article_ids": [
+        "645497adf039484634289c28",
+        "ff8b408ffd7df2739a18a9d3"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
+          "headline": "Poland detains man suspected of planning assassination of PM Tusk",
+          "published_at": "2026-10-11T17:27:24Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ckp8gyd65z2go?at_medium=RSS&at_campaign=rss",
+          "headline": "Poland stabbings driven by online glorification of violence, Tusk says",
+          "published_at": "2026-10-11T15:18:52Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "US President Announces Unilateral Russia-Ukraine Energy Ceasefire",
+      "summary": "Former US President Donald Trump has unilaterally announced an energy ceasefire agreement between Russia and Ukraine. Ukrainian President Volodymyr Zelensky acknowledged the development, though reports indicate strikes on power infrastructure have continued.",
       "article_ids": [
         "53b269b8289fb008ff788f6a",
+        "ffc489ed967f032b69f0cafe",
         "1eb30222ea27236d54d537b6"
       ],
       "sources": [
@@ -80,15 +104,17 @@
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump says Ukraine and Russia have agreed 'energy ceasefire'",
-          "published_at": "2026-10-11T18:58:26Z"
+          "headline": "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants",
+          "published_at": "2026-10-11T21:36:40Z"
         }
       ],
       "source_count": 2
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "French Primary Election Result",
-      "summary": "Raphaël Glucksmann won the French center-left primary election with 66 percent of the vote. He will now serve as the candidate for the upcoming presidential race.",
+      "title": "French Left-Wing Primary Outcome",
+      "summary": "MEP Raphaël Glucksmann won the French center-left primary with 66 percent of the vote. He will now serve as the primary candidate for the upcoming presidential election.",
       "article_ids": [
         "9d083200822f24a4cbcef1e7",
         "216787d36eb08b0838ca3ca5"
@@ -108,12 +134,10 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "Kraków Mayoral Election",
-      "summary": "An independent candidate defeated the candidate backed by Polish Prime Minister Donald Tusk in the Kraków mayoral election runoff. The result marks a notable political setback for the prime minister.",
+      "title": "Kraków Mayoral Election Result",
+      "summary": "An independent candidate defeated Prime Minister Donald Tusk's candidate in the Kraków mayoral runoff election. The local vote outcome represents a notable political setback for the prime minister.",
       "article_ids": [
         "bfb3defa89f849a626e0fbf5",
         "8ead491247e2bc742399837e"
@@ -130,29 +154,6 @@
           "url": "https://www.politico.eu/article/lukasz-gibala-wins-krakow-mayoral-runoff-donald-tusk-setback",
           "headline": "Independent wins Kraków mayoral race in setback for PM Tusk",
           "published_at": "2026-10-11T20:32:22Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "EU Budget Discussions",
-      "summary": "Members of the European Parliament have criticized proposed Irish EU budget plans, warning that substantial funding cuts risk historic failure. The European Commission also cautioned that these spending reductions could weaken the bloc's broader crisis response capabilities.",
-      "article_ids": [
-        "d60a791013a43456a68639b4",
-        "08af2d60a3ee85bcde1506c0"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-budget-cuts-crisis-response-funds-commission-warns",
-          "headline": "Ireland’s budget cuts weaken EU, Commission warns",
-          "published_at": "2026-10-11T20:00:54Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/242145/meps-warn-irish-eu-budget-plan-is-shortsighted-and-risks-historic-failure-as-cuts-of-e141bn-spare-farm-and-cohesion-funds",
-          "headline": "MEPs warn Irish EU budget plan is ‘short‑sighted’ and risks ‘historic failure’ as cuts of €141bn spare farm and cohesion funds",
-          "published_at": "2026-10-11T18:30:00Z"
         }
       ],
       "source_count": 2
@@ -177,6 +178,27 @@
           "url": "https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo?at_medium=RSS&at_campaign=rss",
           "headline": "Pope Leo to have surgery after lump found on lung",
           "published_at": "2026-10-11T13:38:55Z"
+        }
+      ]
+    },
+    {
+      "label": "budget · EU · cuts · warns",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-10-12T04:30:00Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-eu-budget-battle-just-got-nastier",
+          "headline": "The EU budget battle just got nastier",
+          "published_at": "2026-10-12T04:30:00Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/242145/meps-warn-irish-eu-budget-plan-is-shortsighted-and-risks-historic-failure-as-cuts-of-e141bn-spare-farm-and-cohesion-funds",
+          "headline": "MEPs warn Irish EU budget plan is ‘short‑sighted’ and risks ‘historic failure’ as cuts of €141bn spare farm and cohesion funds",
+          "published_at": "2026-10-11T18:30:00Z"
         }
       ]
     },
@@ -219,27 +241,6 @@
           "url": "https://www.politico.eu/article/parliament-split-on-eu-climate-rules-opens-way-for-conservative-deal-with-far-right",
           "headline": "Parliament split on EU climate rules opens way for conservative deal with far right",
           "published_at": "2026-10-11T16:00:00Z"
-        }
-      ]
-    },
-    {
-      "label": "Russian · strikes",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-10-11T14:38:10Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
-          "published_at": "2026-10-11T14:38:10Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261011-trump-zelensky-clash-over-diesel-deal-as-russian-strikes-kill-21",
-          "headline": "Trump, Zelensky clash over diesel deal as Russian strikes kill 21",
-          "published_at": "2026-10-11T10:10:20Z"
         }
       ]
     }
@@ -456,6 +457,20 @@
       ]
     },
     {
+      "id": "ffc489ed967f032b69f0cafe",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants",
+      "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T21:36:40Z",
+      "collected_at": "2026-10-12T06:30:46Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "bfb3defa89f849a626e0fbf5",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -589,6 +604,20 @@
       "url": "https://www.france24.com/en/tv-shows/spotlight/20261011-a-profile-of-rapha%C3%ABl-glucksmann-the-man-who-wants-to-be-french-president",
       "published_at": "2026-10-11T17:50:02Z",
       "collected_at": "2026-10-11T18:00:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "de20739ccdd789f39edf25c9",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Raphaël Glucksmann, the man who wants to be French president",
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20261011-a-profile-of-rapha%C3%ABl-glucksmann-the-man-who-wants-to-be-french-president",
+      "published_at": "2026-10-11T17:50:02Z",
+      "collected_at": "2026-10-12T06:30:46Z",
       "topics": [
         "politics",
         "security",
