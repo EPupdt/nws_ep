@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-12T19:00:57Z",
-  "last_successful_collection_at": "2026-10-12T19:00:57Z",
+  "generated_at": "2026-10-12T19:30:42Z",
+  "last_successful_collection_at": "2026-10-12T19:30:42Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-12T19:00:57Z"
+      "at": "2026-10-12T19:30:42Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-10-12T19:00:57Z"
+      "at": "2026-10-12T19:30:42Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-12T19:00:57Z"
+      "at": "2026-10-12T19:30:42Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-12T19:00:57Z"
+      "at": "2026-10-12T19:30:42Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-12T19:00:57Z"
+      "at": "2026-10-12T19:30:42Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-12T19:00:57Z"
+      "at": "2026-10-12T19:30:42Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-12T19:00:57Z"
+      "at": "2026-10-12T19:30:42Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-12T19:00:57Z"
+      "at": "2026-10-12T19:30:42Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-12T19:00:57Z"
+      "at": "2026-10-12T19:30:42Z"
     }
   ],
   "europe_now": [
     {
+      "title": "UK Implicates Iran in RAF Fairford Incident",
+      "summary": "British authorities have stated that Iran is highly likely to be behind the security incident at RAF Fairford. The development highlights rising security concerns regarding state-sponsored threats within Europe.",
+      "article_ids": [
+        "bc91ea2e9f76a15be5de15b0",
+        "49b0764db199a76ff389055e"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/uk-iran-highly-likely-to-be-behind-raf-fairford-incident/a-79645941?maca=en-rss-en-eu-2092-rdf",
+          "headline": "UK: Iran 'highly likely' to be behind RAF Fairford incident",
+          "published_at": "2026-10-12T19:02:00Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/burnham-irans-irgc-highly-likely-behind-raf-fairford-terror-plot",
+          "headline": "Burnham: Iran’s IRGC ‘highly likely’ to be behind RAF Fairford terror plot",
+          "published_at": "2026-10-12T15:57:15Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
       "title": "EU Approves Major Sanctions Against Russia",
-      "summary": "The European Union has given its approval to the largest package of restrictive measures against Russia since the full-scale invasion commenced. This systemic decision aims to further isolate Moscow's economy.",
+      "summary": "The European Union has given formal approval to its largest package of sanctions against Russia since the invasion began. The sweeping measures aim to increase economic pressure on Moscow amid ongoing conflict.",
       "article_ids": [
         "ddd4f42dbbfd9f7c3c82345a"
       ],
@@ -78,10 +101,12 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "top_stories": [
     {
       "title": "Cyberattack Disrupts French Supermarket Refrigeration",
-      "summary": "A targeted digital assault impacted commercial refrigeration systems across multiple French supermarkets, creating significant operational challenges. Authorities and technical teams are addressing the infrastructure disruption.",
+      "summary": "A cyberattack targeted commercial refrigerators across French supermarkets, creating operational challenges for the retail sector. Officials are responding to the digital disruption affecting food storage systems.",
       "article_ids": [
         "eb5f7569c7d3d633838f78ea",
         "8487eb4181131091f7b5a143"
@@ -101,12 +126,10 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "UK and EU Schedule Reset Summit",
-      "summary": "Diplomatic officials from the United Kingdom and the European Union have finalized plans to convene a high-level summit on November 20. The upcoming meeting is designed to recalibrate bilateral relations following years of post-Brexit friction.",
+      "title": "UK and EU Schedule Brexit Reset Summit",
+      "summary": "The United Kingdom and the European Union have officially agreed to hold a high-level Brexit reset summit on November 20. Leaders from both sides plan to discuss future cooperation and bilateral relations.",
       "article_ids": [
         "f0a9df0291bc284445d9c868"
       ],
@@ -116,22 +139,6 @@
           "url": "https://www.politico.eu/article/andy-burnham-antonio-costa-uk-eu-brexit-reset-summit-november",
           "headline": "UK and EU agree to hold Brexit ‘reset’ summit on Nov. 20",
           "published_at": "2026-10-12T14:55:39Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Warsaw Arson Trial Commences",
-      "summary": "Four individuals have appeared in a Warsaw court to face legal proceedings regarding coordinated arson incidents. Prosecutors state these hostile operations were executed under direct orders from Russian handlers.",
-      "article_ids": [
-        "8f69e0b429edf6bfbaeb0fdc"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/10/12/four-go-on-trial-in-warsaw-over-arson-attacks-carried-out-on-russian-orders",
-          "headline": "Four go on trial in Warsaw over arson attacks carried out on Russian orders",
-          "published_at": "2026-10-12T13:25:22Z"
         }
       ],
       "source_count": 1
@@ -230,6 +237,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "bc91ea2e9f76a15be5de15b0",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "UK: Iran 'highly likely' to be behind RAF Fairford incident",
+      "url": "https://www.dw.com/en/uk-iran-highly-likely-to-be-behind-raf-fairford-incident/a-79645941?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-12T19:02:00Z",
+      "collected_at": "2026-10-12T19:30:42Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
     {
       "id": "87849ce9ca1d17cfeb9da783",
       "source_id": "el_pais_english",
@@ -2023,20 +2044,6 @@
       ]
     },
     {
-      "id": "1eb30222ea27236d54d537b6",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Trump says Ukraine and Russia have agreed 'energy ceasefire'",
-      "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-11T18:58:26Z",
-      "collected_at": "2026-10-11T19:30:40Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "811f4066c1ca8a631029d3b8",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -2118,20 +2125,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "37303c9a1797ec03918b8baf",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Pope Leo to have surgery after lump found on lung",
-      "url": "https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-11T13:38:55Z",
-      "collected_at": "2026-10-11T19:30:40Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
