@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-12T09:30:43Z",
-  "last_successful_collection_at": "2026-10-12T09:30:43Z",
+  "generated_at": "2026-10-12T10:00:53Z",
+  "last_successful_collection_at": "2026-10-12T10:00:53Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-12T09:30:43Z"
+      "at": "2026-10-12T10:00:53Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-10-12T09:30:43Z"
+      "at": "2026-10-12T10:00:53Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-10-12T09:30:43Z"
+      "status": "error",
+      "detail": "<unknown>:2:424: not well-formed (invalid token)",
+      "at": "2026-10-12T10:00:53Z"
     },
     {
       "id": "euractiv",
@@ -29,114 +29,67 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-12T09:30:43Z"
+      "at": "2026-10-12T10:00:53Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-12T09:30:43Z"
+      "at": "2026-10-12T10:00:53Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-12T09:30:43Z"
+      "at": "2026-10-12T10:00:53Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-12T09:30:43Z"
+      "at": "2026-10-12T10:00:53Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-12T09:30:43Z"
+      "at": "2026-10-12T10:00:53Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-12T09:30:43Z"
+      "at": "2026-10-12T10:00:53Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Trump's Announced Energy Ceasefire",
-      "summary": "President Trump announced an energy ceasefire between Russia and Ukraine, which received a cautious welcome from Ukrainian President Volodymyr Zelensky while official Russian sources remained silent.",
+      "title": "Energy Ceasefire Announcement",
+      "summary": "European leaders reacted to a unilaterally announced Russia-Ukraine energy ceasefire as oil prices fell following the declaration. While Ukrainian officials noted a lack of specific details and ongoing attacks on power infrastructure, EU diplomats stated they would evaluate the arrangement once it proves stable.",
       "article_ids": [
-        "85994602ad067a67af1ec6a2",
-        "1eb30222ea27236d54d537b6"
+        "1eb30222ea27236d54d537b6",
+        "53b269b8289fb008ff788f6a",
+        "997a09d5b15d077c34c480c5"
       ],
       "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261012-trump-touts-surprise-energy-ceasefire-%E2%80%93-zelensky-says-he-hasn-t-seen-details-moscow-silent",
-          "headline": "Trump touts surprise 'energy ceasefire' – Zelensky says he hasn't seen details, Moscow silent",
-          "published_at": "2026-10-12T09:19:32Z"
-        },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
           "headline": "Trump says Ukraine and Russia have agreed 'energy ceasefire'",
           "published_at": "2026-10-11T18:58:26Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "French Left-Wing Primary Outcome",
-      "summary": "Raphaël Glucksmann won the French center-left primary election with 66 percent of the vote, securing his position as a candidate for the upcoming presidential race.",
-      "article_ids": [
-        "9d083200822f24a4cbcef1e7",
-        "216787d36eb08b0838ca3ca5"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/raphael-glucksmann-wins-french-center-left-primary-2027-presidential-candidate",
-          "headline": "MEP Glucksmann wins French center-left primary, becoming candidate for presidency",
-          "published_at": "2026-10-11T18:11:52Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261011-rapha%C3%ABl-glucksmann-wins-french-primary-with-66-of-vote",
-          "headline": "🔴 Raphaël Glucksmann wins French left-wing primary with 66% of vote",
-          "published_at": "2026-10-11T17:45:32Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Kraków Mayoral Election",
-      "summary": "An independent candidate defeated Prime Minister Donald Tusk's preferred candidate in the Kraków mayoral runoff election. This result serves as a notable political setback for the Polish prime minister.",
-      "article_ids": [
-        "bfb3defa89f849a626e0fbf5",
-        "8ead491247e2bc742399837e"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/10/11/independent-beats-pm-tusks-candidate-in-krakow-mayoral-election",
-          "headline": "Independent beats PM Tusk’s candidate in Kraków mayoral election",
-          "published_at": "2026-10-11T21:16:04Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/lukasz-gibala-wins-krakow-mayoral-runoff-donald-tusk-setback",
-          "headline": "Independent wins Kraków mayoral race in setback for PM Tusk",
-          "published_at": "2026-10-11T20:32:22Z"
+          "url": "https://www.france24.com/en/europe/20261012-live-oil-prices-fall-after-trump-unilaterally-announces-russia-ukraine-energy-ceasefire",
+          "headline": "Live: Oil prices fall after Trump unilaterally announces Russia-Ukraine 'energy ceasefire'",
+          "published_at": "2026-10-12T05:29:41Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "EU Budget Discussions",
-      "summary": "European lawmakers and officials have raised concerns and criticisms regarding recent proposed budget cuts and financial planning. Critics warn that the measures risk creating significant setbacks for the bloc's policy priorities.",
+      "title": "EU Budget Discussions and Funding Disputes",
+      "summary": "Members of the European Parliament criticized proposed Irish EU budget plans, warning that substantial cuts risk causing historic failures in crisis response funding. European Commission warnings accompanied these debates, highlighting how reduced financial allocations weaken overall bloc readiness.",
       "article_ids": [
         "d60a791013a43456a68639b4",
         "08af2d60a3ee85bcde1506c0"
@@ -158,7 +111,76 @@
       "source_count": 2
     }
   ],
+  "top_stories": [
+    {
+      "title": "French Left-Wing Primary Outcome",
+      "summary": "Raphaël Glucksmann won the French center-left primary election, securing 66 percent of the vote to become a candidate for the presidency. Observers and profile coverage highlighted his emerging national political ambitions following the decisive internal party victory.",
+      "article_ids": [
+        "9d083200822f24a4cbcef1e7",
+        "216787d36eb08b0838ca3ca5"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/raphael-glucksmann-wins-french-center-left-primary-2027-presidential-candidate",
+          "headline": "MEP Glucksmann wins French center-left primary, becoming candidate for presidency",
+          "published_at": "2026-10-11T18:11:52Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261011-rapha%C3%ABl-glucksmann-wins-french-primary-with-66-of-vote",
+          "headline": "🔴 Raphaël Glucksmann wins French left-wing primary with 66% of vote",
+          "published_at": "2026-10-11T17:45:32Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Kraków Mayoral Election",
+      "summary": "An independent candidate successfully defeated Prime Minister Donald Tusk's candidate in the Kraków mayoral runoff election. This local election outcome represents a notable political setback for the prime minister's broader national agenda.",
+      "article_ids": [
+        "bfb3defa89f849a626e0fbf5",
+        "8ead491247e2bc742399837e"
+      ],
+      "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/10/11/independent-beats-pm-tusks-candidate-in-krakow-mayoral-election",
+          "headline": "Independent beats PM Tusk’s candidate in Kraków mayoral election",
+          "published_at": "2026-10-11T21:16:04Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/lukasz-gibala-wins-krakow-mayoral-runoff-donald-tusk-setback",
+          "headline": "Independent wins Kraków mayoral race in setback for PM Tusk",
+          "published_at": "2026-10-11T20:32:22Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
   "developing": [
+    {
+      "label": "Russian · Trump · strikes · announcement",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-10-12T09:51:50Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/europe-rebukes-donald-trump-russia-diesel-imports-ukraine-support",
+          "headline": "‘This deal doesn’t help’: Europe slams Trump’s plan to buy Russian diesel",
+          "published_at": "2026-10-12T09:51:50Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261011-trump-says-russia-and-ukraine-agree-energy-ceasefire",
+          "headline": "New Russian strikes following Trump's announcement of Russia-Ukraine energy ceasefire",
+          "published_at": "2026-10-11T14:39:26Z"
+        }
+      ]
+    },
     {
       "label": "EU · leaders · evil · Gaza",
       "origin": "convergence",
@@ -202,27 +224,6 @@
       ]
     },
     {
-      "label": "EU · Russia",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-10-12T05:29:41Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261012-live-oil-prices-fall-after-trump-unilaterally-announces-russia-ukraine-energy-ceasefire",
-          "headline": "Live: EU’s top diplomat says she will welcome Russia-Ukraine energy ceasefire ‘when it holds’",
-          "published_at": "2026-10-12T05:29:41Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/242012/this-week-leaders-to-focus-on-economy-at-eu-summit-in-shadow-of-russia-threat-and-middle-east-turmoil",
-          "headline": "This WEEK: Leaders to focus on economy at EU summit, in shadow of Russia threat and Middle East turmoil",
-          "published_at": "2026-10-12T04:00:00Z"
-        }
-      ]
-    },
-    {
       "label": "EU · rights · rule",
       "origin": "convergence",
       "source_count": 2,
@@ -245,6 +246,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "04157f46dc288962083b7225",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "‘This deal doesn’t help’: Europe slams Trump’s plan to buy Russian diesel",
+      "url": "https://www.politico.eu/article/europe-rebukes-donald-trump-russia-diesel-imports-ukraine-support",
+      "published_at": "2026-10-12T09:51:50Z",
+      "collected_at": "2026-10-12T10:00:53Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "715faabf51ec2b4fd014b528",
       "source_id": "france24",
@@ -1394,34 +1409,6 @@
       ]
     },
     {
-      "id": "8edbb573423c68658eb920af",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴At least 109 migrants dead, more than 100 missing after boat capsizes off Djibouti",
-      "url": "https://www.france24.com/en/africa/20261011-at-least-hundred-migrants-dead-scores-missing-after-boat-capsizes-off-djibouti",
-      "published_at": "2026-10-11T09:43:01Z",
-      "collected_at": "2026-10-11T10:00:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "1a22c179a15fb28526aeae57",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "At least 109 migrants dead, more than 100 missing after boat capsizes off Djibouti",
-      "url": "https://www.france24.com/en/africa/20261011-at-least-hundred-migrants-dead-scores-missing-after-boat-capsizes-off-djibouti",
-      "published_at": "2026-10-11T09:24:40Z",
-      "collected_at": "2026-10-11T09:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "5d9b04ea66d748417a5cfed8",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1429,62 +1416,6 @@
       "url": "https://www.france24.com/en/africa/20261011-at-least-hundred-migrants-dead-scores-missing-after-boat-capsizes-off-djibouti",
       "published_at": "2026-10-11T09:24:40Z",
       "collected_at": "2026-10-11T14:00:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "88d83550be34315051606e77",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Going bankrupt': Iran shopkeepers struggle as war dims demand",
-      "url": "https://www.france24.com/en/video/20261011-going-bankrupt-iran-shopkeepers-struggle-as-war-dims-demand",
-      "published_at": "2026-10-11T09:22:37Z",
-      "collected_at": "2026-10-11T09:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e5cceea2a986466d2d70e911",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Trump urges Zelensky replacement as diesel row rages",
-      "url": "https://www.france24.com/en/video/20261011-trump-urges-zelensky-replacement-as-diesel-row-rages",
-      "published_at": "2026-10-11T09:21:59Z",
-      "collected_at": "2026-10-11T09:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4c5258a9ae714018d3d0611d",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "At least 4 dead as cyclone Isaias drenches southern US",
-      "url": "https://www.france24.com/en/video/20261011-at-least-4-dead-as-cyclone-isaias-drenches-southern-us",
-      "published_at": "2026-10-11T09:18:48Z",
-      "collected_at": "2026-10-11T09:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "74d42706c3e1ecc24be89581",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France's Seixas claims Il Lombardia glory after world championship heartbreak",
-      "url": "https://www.france24.com/en/tv-shows/sports/20261011-france-s-seixas-claims-il-lombardia-glory-after-world-championship-heartbreak",
-      "published_at": "2026-10-11T09:13:07Z",
-      "collected_at": "2026-10-11T09:30:44Z",
       "topics": [
         "politics",
         "security",
@@ -1531,48 +1462,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "c2f58c72075b588a0a5ab2f3",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Escalating fighting in Yemen worsens food security crisis",
-      "url": "https://www.france24.com/en/escalating-fighting-in-yemen-worsens-food-security-crisis",
-      "published_at": "2026-10-11T06:34:05Z",
-      "collected_at": "2026-10-11T09:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "6c012f04660d5fb1d3251fb1",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Saudi Arabia threatens 'decisive' response after Riyadh airport strike kills at least 12",
-      "url": "https://www.france24.com/en/middle-east/20261011-riyadh-airport-strike-kills-12-saudi-arabia-threatens-decisive-response",
-      "published_at": "2026-10-11T06:21:50Z",
-      "collected_at": "2026-10-11T10:00:48Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "12930aca8f96127f288acfff",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Riyadh airport strike kills 12, Saudi Arabia threatens 'decisive' response",
-      "url": "https://www.france24.com/en/video/20261011-at-least-twelve-killed-multiple-people-wounded-in-attack-on-riyadh-airport-1",
-      "published_at": "2026-10-11T05:16:22Z",
-      "collected_at": "2026-10-11T09:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -1923,34 +1812,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "43f6702ffa2b2f9576863d8f",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Agrochemical lobbyists are defending a toxic model of agriculture that is heading for collapse",
-      "url": "https://euobserver.com/241450/agrochemical-lobbyists-are-defending-a-toxic-model-of-agriculture-that-is-heading-for-collapse",
-      "published_at": "2026-10-09T09:06:00Z",
-      "collected_at": "2026-10-11T09:30:44Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "25effb0baba3bf0f2017e552",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Bosnia and Herzegovina will soon have a new Grand Mufti",
-      "url": "https://www.dw.com/en/bosnia-and-herzegovina-will-soon-have-a-new-grand-mufti/a-79604402?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-09T08:20:00Z",
-      "collected_at": "2026-10-11T09:30:44Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
