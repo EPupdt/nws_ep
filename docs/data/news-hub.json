@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-13T11:30:48Z",
-  "last_successful_collection_at": "2026-10-13T11:30:48Z",
+  "generated_at": "2026-10-13T12:00:56Z",
+  "last_successful_collection_at": "2026-10-13T12:00:56Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-13T11:30:48Z"
+      "at": "2026-10-13T12:00:56Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-13T11:30:48Z"
+      "at": "2026-10-13T12:00:56Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-13T11:30:48Z"
+      "at": "2026-10-13T12:00:56Z"
     },
     {
       "id": "euractiv",
@@ -29,78 +29,47 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-13T11:30:48Z"
+      "at": "2026-10-13T12:00:56Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-13T11:30:48Z"
+      "at": "2026-10-13T12:00:56Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-13T11:30:48Z"
+      "at": "2026-10-13T12:00:56Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-13T11:30:48Z"
+      "at": "2026-10-13T12:00:56Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-13T11:30:48Z"
+      "at": "2026-10-13T12:00:56Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-13T11:30:48Z"
+      "at": "2026-10-13T12:00:56Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Black Sea Drone Attack",
-      "summary": "The Bulgarian prime minister summoned the Russian ambassador following a drone attack that sank a ship in the Black Sea.",
+      "title": "French supermarkets crippled by cyberattack",
+      "summary": "Hackers disrupted refrigeration systems across hundreds of French supermarkets, spoiling millions of euros of food and causing fires.",
       "article_ids": [
-        "29afefc3f96b89fe043c86ab",
-        "a2302f19b5559456d5f174dd",
-        "2eaac9c9cdc429b9ade412e8"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
-          "headline": "Bulgarian PM summons Russian ambassador after ship sinks in Black Sea drone attack",
-          "published_at": "2026-10-13T10:57:17Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
-          "headline": "Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack",
-          "published_at": "2026-10-13T10:57:17Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Supermarket Cyberattack in France",
-      "summary": "A cyberattack targeted hundreds of French supermarkets by manipulating refrigeration systems, causing fires and spoiling food.",
-      "article_ids": [
-        "97a98e425d8bbeb1b9b8b095",
         "d951c313b46afd8e8861edb5"
       ],
       "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261013-hackers-heat-french-supermarket-fridges-sparking-fires-and-spoiling-food",
-          "headline": "Hackers heat French supermarket fridges, sparking fires and spoiling food",
-          "published_at": "2026-10-13T11:13:14Z"
-        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/cyberattack-hits-hundreds-of-french-supermarkets-spoiling-millions-of-euros-in-food",
@@ -109,51 +78,118 @@
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "Black Sea drone attack triggers Bulgarian diplomatic protest",
+      "summary": "A ship sank in a drone attack in the Black Sea, prompting Bulgaria's prime minister to summon the Russian ambassador.",
+      "article_ids": [
+        "29afefc3f96b89fe043c86ab"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
+          "headline": "Bulgarian PM summons Russian ambassador after ship sinks in Black Sea drone attack",
+          "published_at": "2026-10-13T10:57:17Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "Sabotage Investigations in Poland and Germany",
-      "summary": "German authorities detained individuals suspected of sabotaging a Starlink station located in Poland on behalf of Russia. The incident highlights ongoing cross-border security concerns regarding critical infrastructure.",
+      "title": "EU energy policy debate",
+      "summary": "The head of Engie warned that reversing green energy contracts would be a mistake. The warning highlights current debates over energy policy and security across the EU.",
       "article_ids": [
-        "5b5d34d3fdc212eec3e19aad"
+        "a0930a71f7bebedd6e120de7"
       ],
       "sources": [
         {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/10/13/germany-detains-turks-suspected-of-sabotaging-starlink-station-in-poland-on-behalf-of-russia",
-          "headline": "Germany detains Turks suspected of sabotaging Starlink station in Poland on behalf of Russia",
-          "published_at": "2026-10-13T09:04:55Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/engie-backtracking-energy-mistake-budget",
+          "headline": "Backtracking on green energy contracts would be a mistake, warns Engie boss",
+          "published_at": "2026-10-13T11:25:29Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Student Demonstrations in France",
-      "summary": "France faced fresh nationwide student demonstrations concerning school conditions and educational policies. Climate activist Greta Thunberg joined the teenage protesters during the mobilization.",
+      "title": "French political stance on EU reforms",
+      "summary": "Edouard Philippe stated that Marine Le Pen's proposals would significantly alter the European Union. His remarks highlight ongoing debate over EU integration within French politics.",
       "article_ids": [
-        "2723d6c95a389143c7d6e538",
-        "d942f3090725980a4d99613f",
-        "db5dfb29cd3fd0644e9f7676"
+        "660cf7981f232f8ee9a4eb22"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-climate-activist-greta-thunberg-joins-teens-on-new-day-of-school-protests",
-          "headline": "France: climate activist Greta Thunberg joins teens on new day of school protests",
-          "published_at": "2026-10-13T10:40:53Z"
-        },
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/edouard-philippe-le-pen-eu-proposals-euroskeptic",
+          "headline": "France’s Philippe says Le Pen’s EU proposals would ‘crack open’ bloc",
+          "published_at": "2026-10-13T11:09:09Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "EU migration policy",
+      "summary": "Ursula von der Leyen urged leaders to adopt stricter migration controls in a recent letter. The call reflects broader efforts to manage migration flows across member states.",
+      "article_ids": [
+        "dbd5c3731a645fc384968145"
+      ],
+      "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-braces-for-fresh-nationwide-student-demonstrations",
-          "headline": "France braces for fresh nationwide student demonstrations",
-          "published_at": "2026-10-13T08:58:46Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ursula-von-der-leyen-calls-for-tough-migration-measures-in-letter-to-leaders",
+          "headline": "Ursula von der Leyen calls for tough migration measures in letter to leaders",
+          "published_at": "2026-10-13T10:17:25Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Automotive industry cooperation",
+      "summary": "A Franco-German agreement on automotive standards is expected within days, according to EU industry representative Stephane Sejourne. The deal aims to strengthen the 'Made in Europe' label for vehicles.",
+      "article_ids": [
+        "0143f8960258383657a764ea"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/franco-german-deal-on-cars-and-made-in-europe-is-hours-or-days-away-says-eu-industry-boss-stephane-sejourne",
+          "headline": "Franco–German deal on cars and ‘Made in Europe’ is ‘hours or days’ away, says EU industry boss",
+          "published_at": "2026-10-13T09:26:24Z"
         }
       ],
       "source_count": 1
     }
   ],
   "developing": [
+    {
+      "label": "food · French · supermarket · Cyberattack",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 7,
+      "latest_at": "2026-10-13T11:13:14Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261013-hackers-heat-french-supermarket-fridges-sparking-fires-and-spoiling-food",
+          "headline": "Hackers heat French supermarket fridges, sparking fires and spoiling food",
+          "published_at": "2026-10-13T11:13:14Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
+          "headline": "Fridges in French supermarkets hit by cyber attack",
+          "published_at": "2026-10-12T14:30:09Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/french-supermarkets-face-food-crisis-after-cyberattack-hits-refrigerators",
+          "headline": "French supermarkets face food crisis after cyberattack hits refrigerators",
+          "published_at": "2026-10-12T13:47:15Z"
+        }
+      ]
+    },
     {
       "label": "EU · sanctions · US",
       "origin": "convergence",
@@ -222,30 +258,23 @@
           "published_at": "2026-10-13T07:30:27Z"
         }
       ]
-    },
-    {
-      "label": "Ceuta · Morocco · Spain",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-13T09:22:44Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/spain-s-king-visits-ceuta-amid-tensions-with-morocco",
-          "headline": "Spain’s king visits Ceuta amid tensions with Morocco",
-          "published_at": "2026-10-13T09:22:44Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-ceuta-fears-shaping-spains-election",
-          "headline": "The Ceuta fears shaping Spain’s election",
-          "published_at": "2026-10-13T04:30:00Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "4bfbe03947a2def4e56c9d20",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Pressure mounts on Maduro’s inner circle after Álex Saab ally is turned over to the US",
+      "url": "https://english.elpais.com/international/2026-10-13/pressure-mounts-on-maduros-inner-circle-after-alex-saab-ally-is-turned-over-to-the-us.html",
+      "published_at": "2026-10-13T11:34:41Z",
+      "collected_at": "2026-10-13T12:00:56Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "a0930a71f7bebedd6e120de7",
       "source_id": "politico_europe",
