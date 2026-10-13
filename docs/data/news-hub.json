@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-13T20:30:47Z",
-  "last_successful_collection_at": "2026-10-13T20:30:47Z",
+  "generated_at": "2026-10-13T21:00:55Z",
+  "last_successful_collection_at": "2026-10-13T21:00:55Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-13T20:30:47Z"
+      "at": "2026-10-13T21:00:55Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-13T20:30:47Z"
+      "at": "2026-10-13T21:00:55Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-13T20:30:47Z"
+      "at": "2026-10-13T21:00:55Z"
     },
     {
       "id": "euractiv",
@@ -29,48 +29,112 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-13T20:30:47Z"
+      "at": "2026-10-13T21:00:55Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-13T20:30:47Z"
+      "at": "2026-10-13T21:00:55Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-13T20:30:47Z"
+      "at": "2026-10-13T21:00:55Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-13T20:30:47Z"
+      "at": "2026-10-13T21:00:55Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-13T20:30:47Z"
+      "at": "2026-10-13T21:00:55Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-13T20:30:47Z"
+      "at": "2026-10-13T21:00:55Z"
     }
   ],
   "europe_now": [
     {
-      "title": "King of Spain Visits Ceuta",
-      "summary": "King Felipe VI visited Ceuta, declaring that the territory is an inalienable part of Spain amid ongoing diplomatic tensions with Morocco concerning migration.",
+      "title": "Pope Leo Undergoes Surgery for Lung Nodules",
+      "summary": "The Vatican announced that Pope Leo underwent successful surgery for a cancerous lung nodule.",
+      "article_ids": [
+        "28129046cd45ba18118ff885",
+        "948d9afb8385f0b1edb29fa8"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261012-what-we-know-about-pope-leo-xiv-planned-lung-operation-this-week",
+          "headline": "🔴 Surgery on Pope Leo's cancerous lung nodule went well, Vatican says",
+          "published_at": "2026-10-13T20:44:58Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
+          "headline": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
+          "published_at": "2026-10-13T20:22:23Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Attempted Attack on Polish Prime Minister Prevented",
+      "summary": "Authorities have charged a man in connection with plotting an attack against the Polish prime minister.",
+      "article_ids": [
+        "153bd56a1ec7790f9b0d61b6"
+      ],
+      "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/10/13/man-charged-with-plotting-attack-on-polish-pm",
+          "headline": "Man charged with plotting attack on Polish PM",
+          "published_at": "2026-10-13T20:38:48Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Nationwide Student Protests in France",
+      "summary": "Tens of thousands of students and high schoolers have rallied across France in ongoing demonstrations regarding education conditions and youth concerns. The protests in cities such as Paris have seen significant turnouts, road blockades, and clashes with security forces.",
+      "article_ids": [
+        "51bed96eceab22c7799b2c3b",
+        "6c3e9316beb0922e48eca9eb",
+        "a447bfb566c416b7d632a274"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261013-tens-of-thousands-rally-across-france-as-high-school-protests-gather-strength",
+          "headline": "Tens of thousands rally across France as high school protests gather strength",
+          "published_at": "2026-10-13T18:21:39Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-student-anger-rages-as-tear-gas-and-fires-hit-paris",
+          "headline": "France: Student anger rages as tear gas and fires hit Paris",
+          "published_at": "2026-10-13T16:03:37Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Spanish Monarchy Reasserts Sovereignty over Ceuta",
+      "summary": "King Felipe VI visited the Spanish enclave of Ceuta amid heightened diplomatic tensions and migration pressures involving Morocco. During the visit, the Spanish monarch emphasized that the territory's sovereignty and territorial integrity are entirely non-negotiable.",
       "article_ids": [
         "271afd645f7902fd3daa71bb",
         "15210d6334f69cfd012f9097",
-        "9774d3ff761f83ea70e69c1c",
-        "5271efb4652c6676337c9e3b"
+        "9774d3ff761f83ea70e69c1c"
       ],
       "sources": [
         {
@@ -87,79 +151,6 @@
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "Nationwide Student Demonstrations in France",
-      "summary": "Tens of thousands of students and youth rallied across France in ongoing protests concerning education conditions and government policies, resulting in clashes in Paris.",
-      "article_ids": [
-        "dd8c6652190a83a417735fa6",
-        "51bed96eceab22c7799b2c3b",
-        "4622564daa296b0aa2f67f44",
-        "a447bfb566c416b7d632a274",
-        "6c3e9316beb0922e48eca9eb",
-        "860a344e0ecef9245bfa40a3",
-        "4b930f2aba675a91258bfa53",
-        "4ab7f60b63027b03cb2b2c7a"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/ckg5jqg1npd7o?at_medium=RSS&at_campaign=rss",
-          "headline": "'If we don't scream, they won't listen to us': Student protesters speak to BBC in Paris",
-          "published_at": "2026-10-13T18:23:22Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261013-tens-of-thousands-rally-across-france-as-high-school-protests-gather-strength",
-          "headline": "Tens of thousands rally across France as high school protests gather strength",
-          "published_at": "2026-10-13T18:21:39Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "European Reactions to US Policy and Russia",
-      "summary": "European allies have raised concerns regarding recent US actions, including a diesel deal with Russia that has drawn parliamentary and diplomatic scrutiny. Lawmakers and officials argue that Western partners must maintain unified pressure and preserve strategic leverage against Moscow.",
-      "article_ids": [
-        "e4ee99f2278ff77d9383565d",
-        "008112680b8de4dab74c7ff6",
-        "d292d05032e9ceed91dbd79a",
-        "792a92cd35a08e08ace031ec",
-        "1392636e3b73438c98e917e7"
-      ],
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ukraine-and-the-us-what-s-next-after-trump-s-diesel-deal-with-russia/a-79650785?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Ukraine and the US: What's next after Trump’s diesel deal with Russia?",
-          "published_at": "2026-10-13T18:51:00Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/trump-russia-oil-deal-senate-opposition",
-          "headline": "US senators tell Trump to rescind Russian diesel deal",
-          "published_at": "2026-10-13T17:20:40Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "EU Migration Strategy and External Partnerships",
-      "summary": "European leaders continue to debate union stability and migration management through financial arrangements with North African nations. Ursula von der Leyen pledged additional funding to regional regimes to manage migration flows toward Europe.",
-      "article_ids": [
-        "71bc3b2e37412b7d8194fced"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/242504/von-der-leyen-pledges-more-cash-for-egypt-and-libya-regimes-to-keep-sudanese-genocide-victims-out-of-europe",
-          "headline": "Von der Leyen pledges more cash for Egypt and Libya regimes to keep Sudanese genocide victims out of Europe",
-          "published_at": "2026-10-13T14:58:26Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "developing": [
@@ -197,23 +188,50 @@
       ]
     },
     {
-      "label": "Trump · Greece · US · ally",
+      "label": "Student · Paris · protesters · France",
       "origin": "convergence",
       "source_count": 3,
       "item_count": 5,
-      "latest_at": "2026-10-13T17:16:27Z",
+      "latest_at": "2026-10-13T18:23:22Z",
       "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/ckg5jqg1npd7o?at_medium=RSS&at_campaign=rss",
+          "headline": "'If we don't scream, they won't listen to us': Student protesters speak to BBC in Paris",
+          "published_at": "2026-10-13T18:23:22Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261013-student-protesters-tell-police-to-join-them-in-paris-demonstrations",
+          "headline": "Student protesters tell police to join them in Paris demonstrations",
+          "published_at": "2026-10-13T17:04:12Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/242416/listen-could-the-eu-shield-the-icc-from-us-sanctions",
+          "headline": "Listen: Could the EU shield the ICC from US sanctions?",
+          "published_at": "2026-10-13T08:00:33Z"
+        }
+      ]
+    },
+    {
+      "label": "Greece · Trump · ambassador · resign",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 4,
+      "latest_at": "2026-10-13T20:29:15Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/trump-asks-greece-ambassador-to-resign-amid-ethics-scandal",
+          "headline": "Trump asks Greece ambassador to resign amid ethics scandal",
+          "published_at": "2026-10-13T20:29:15Z"
+        },
         {
           "publisher": "EL PAÍS English",
           "url": "https://english.elpais.com/usa/2026-10-13/us-ambassador-to-greece-resigns-over-corruption-after-pressure-from-trump.html",
           "headline": "US ambassador to Greece resigns over corruption after pressure from Trump",
           "published_at": "2026-10-13T17:16:27Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20261013-transactional-diplomacy-greece-positioning-itself-as-the-us-most-reliable-ally-in-the-region",
-          "headline": "'Transactional diplomacy': Greece positioning itself as Trump’s most 'reliable ally in the region'",
-          "published_at": "2026-10-13T11:41:50Z"
         },
         {
           "publisher": "BBC News Europe",
@@ -249,30 +267,65 @@
           "published_at": "2026-10-13T02:00:00Z"
         }
       ]
-    },
-    {
-      "label": "lung · Pope · surgery · hospital",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-10-13T20:22:23Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
-          "headline": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-          "published_at": "2026-10-13T20:22:23Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/pope-leo-xiv-admitted-to-hospital-for-lung-surgery",
-          "headline": "Pope Leo XIV admitted to hospital for lung surgery",
-          "published_at": "2026-10-13T09:20:56Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "28129046cd45ba18118ff885",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "🔴 Surgery on Pope Leo's cancerous lung nodule went well, Vatican says",
+      "url": "https://www.france24.com/en/europe/20261012-what-we-know-about-pope-leo-xiv-planned-lung-operation-this-week",
+      "published_at": "2026-10-13T20:44:58Z",
+      "collected_at": "2026-10-13T21:00:55Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "153bd56a1ec7790f9b0d61b6",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Man charged with plotting attack on Polish PM",
+      "url": "https://notesfrompoland.com/2026/10/13/man-charged-with-plotting-attack-on-polish-pm",
+      "published_at": "2026-10-13T20:38:48Z",
+      "collected_at": "2026-10-13T21:00:55Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "1714a68918235ee082e05054",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Former gang leader sentenced to minimum 40 years for Tupac killing",
+      "url": "https://www.france24.com/en/former-gang-leader-sentenced-to-minimum-40-years-for-tupac-killing",
+      "published_at": "2026-10-13T20:33:25Z",
+      "collected_at": "2026-10-13T21:00:55Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "796491c9c3374b10ea7be4f9",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Trump asks Greece ambassador to resign amid ethics scandal",
+      "url": "https://www.france24.com/en/trump-asks-greece-ambassador-to-resign-amid-ethics-scandal",
+      "published_at": "2026-10-13T20:29:15Z",
+      "collected_at": "2026-10-13T21:00:55Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "948d9afb8385f0b1edb29fa8",
       "source_id": "bbc_europe",
@@ -284,6 +337,34 @@
       "topics": [
         "breaking",
         "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "6a7779859ea644b95164f83b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Kabila launches new coalition with M23",
+      "url": "https://www.france24.com/en/kabila-launches-new-coalition-with-m23",
+      "published_at": "2026-10-13T20:21:31Z",
+      "collected_at": "2026-10-13T21:00:55Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "deb63a35f1d68cd1ec8cc5b5",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French MPs pass sweeping bill to combat sexual and gender-based violence",
+      "url": "https://www.france24.com/en/french-mps-pass-sweeping-bill-to-combat-sexual-and-gender-based-violence",
+      "published_at": "2026-10-13T20:03:43Z",
+      "collected_at": "2026-10-13T21:00:55Z",
+      "topics": [
+        "politics",
+        "security",
         "society"
       ]
     },
@@ -565,6 +646,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "b7821037c122514b1c53b82f",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "How Maroš Šefčovič talked his way to a China trade breakthrough",
+      "url": "https://www.politico.eu/article/how-maros-sefcovic-talked-his-way-to-a-china-trade-breakthrough",
+      "published_at": "2026-10-13T16:43:40Z",
+      "collected_at": "2026-10-13T21:00:55Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
       ]
     },
     {
