@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-13T06:00:52Z",
-  "last_successful_collection_at": "2026-10-13T06:00:52Z",
+  "generated_at": "2026-10-13T06:30:51Z",
+  "last_successful_collection_at": "2026-10-13T06:30:51Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-13T06:00:52Z"
+      "at": "2026-10-13T06:30:51Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "28",
-      "at": "2026-10-13T06:00:52Z"
+      "count": "21",
+      "at": "2026-10-13T06:30:51Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-13T06:00:52Z"
+      "at": "2026-10-13T06:30:51Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-13T06:00:52Z"
+      "at": "2026-10-13T06:30:51Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-13T06:00:52Z"
+      "at": "2026-10-13T06:30:51Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-13T06:00:52Z"
+      "at": "2026-10-13T06:30:51Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-13T06:00:52Z"
+      "at": "2026-10-13T06:30:51Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-13T06:00:52Z"
+      "at": "2026-10-13T06:30:51Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-13T06:00:52Z"
+      "at": "2026-10-13T06:30:51Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Germany and Italy Request EU Emergency Brake",
-      "summary": "Germany and Italy have formally requested an emergency brake power to stop new EU legislation. The proposal aims to give member states more control over upcoming EU laws.",
+      "title": "UK Summons Iranian Ambassador Over RAF Base Security Incident",
+      "summary": "Britain summoned the Iranian ambassador after the UK stated it was highly likely Iran was involved in a security incident at the RAF Fairford air base, though Tehran denied involvement.",
+      "article_ids": [
+        "28244c8a4c82d0bfaeed471e",
+        "bc91ea2e9f76a15be5de15b0"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261012-tehran-denies-involvement-in-uk-fairford-air-base-incident-as-britain-summons-iranian-ambassador",
+          "headline": "Tehran denies involvement in UK Fairford air base incident as Britain summons Iranian ambassador",
+          "published_at": "2026-10-12T20:23:04Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/uk-iran-highly-likely-to-be-behind-raf-fairford-incident/a-79645941?maca=en-rss-en-eu-2092-rdf",
+          "headline": "UK: Iran 'highly likely' to be behind RAF Fairford incident",
+          "published_at": "2026-10-12T19:02:00Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Germany and Italy Propose EU Legislative Emergency Brake",
+      "summary": "Germany and Italy formally requested an emergency brake power that would allow member states to halt the implementation of new European Union laws.",
       "article_ids": [
         "9bfa7727af1e028e7f8649d5"
       ],
@@ -78,28 +101,29 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "UK Summons Iranian Ambassador Over RAF Base Incident",
-      "summary": "The United Kingdom has summoned the Iranian ambassador following a security incident at an RAF base. Tehran has denied any involvement in the security breach at Fairford.",
-      "article_ids": [
-        "28244c8a4c82d0bfaeed471e"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261012-tehran-denies-involvement-in-uk-fairford-air-base-incident-as-britain-summons-iranian-ambassador",
-          "headline": "Tehran denies involvement in UK Fairford air base incident as Britain summons Iranian ambassador",
-          "published_at": "2026-10-12T20:23:04Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "French Supermarkets Hit by Cyberattack",
-      "summary": "French supermarkets experienced widespread refrigerator shutdowns following an unprecedented cyberattack. The disruption impacted refrigeration systems across multiple store locations.",
+      "title": "Ukraine Energy Infrastructure Attacks",
+      "summary": "Russian bombardments impacted multiple Ukrainian energy facilities following the announcement of a proposed ceasefire. Ukrainian President Volodymyr Zelenskyy noted that several energy sites have been targeted amid ongoing discussions.",
+      "article_ids": [
+        "df5065b04fedacaa02f32eb1",
+        "c88c17a63960c5cd778ae0f7"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
+          "headline": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+          "published_at": "2026-10-12T17:32:13Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "French Supermarket Cyberattack",
+      "summary": "An unprecedented cyberattack targeted French supermarkets and triggered widespread refrigerator shutdowns across the country. Authorities and companies responded to the digital disruption affecting commercial cooling systems.",
       "article_ids": [
         "2f7ab3d6cd3ca7e5a8895174"
       ],
@@ -114,20 +138,27 @@
       "source_count": 1
     },
     {
-      "title": "Arrests Made in Germany Over Polish Starlink Station Fire",
-      "summary": "Polish authorities reported the arrests of two Turkish citizens in Germany regarding a fire at a Starlink station last month. The suspects are linked to the sabotage investigation.",
+      "title": "French Political Primaries",
+      "summary": "French presidential hopeful Raphaël Glucksmann secured a primary victory as he launched his campaign. He stated that the battle has begun to unite the fragmented and divided political left ahead of the presidential election.",
       "article_ids": [
-        "9e351feee6a11f712400e914"
+        "f88cde963d544181e107e40c",
+        "ce54dd200e4284bf576c6752"
       ],
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/poland-reports-arrests-of-2-turkish-citizens-in-germany-in-connection-with-starlink-station-fire-last-month/a-79646138?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Poland reports arrests of 2 Turkish citizens in Germany in connection with Starlink station fire last month",
-          "published_at": "2026-10-12T18:05:00Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/france-raphael-glucksmann-notched-crushing-primary-victory-needs-more-allies-win-the-presidency",
+          "headline": "France’s Glucksmann notched a crushing primary victory. But he needs more allies to win the presidency.",
+          "published_at": "2026-10-13T02:00:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261012-french-presidential-candidate-glucksmann-says-battle-begins-to-unite-fragmented-left",
+          "headline": "French presidential candidate Glucksmann says 'battle begins' to unite fragmented left",
+          "published_at": "2026-10-12T17:07:25Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
@@ -153,48 +184,6 @@
       ]
     },
     {
-      "label": "primary · France · Glucksmann · left",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-13T02:00:00Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/france-raphael-glucksmann-notched-crushing-primary-victory-needs-more-allies-win-the-presidency",
-          "headline": "France’s Glucksmann notched a crushing primary victory. But he needs more allies to win the presidency.",
-          "published_at": "2026-10-13T02:00:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/who-is-raphael-glucksmann-winner-of-the-french-left-presidential-primary",
-          "headline": "Who is Raphael Glucksmann, winner of the French left presidential primary?",
-          "published_at": "2026-10-12T10:14:51Z"
-        }
-      ]
-    },
-    {
-      "label": "NATO · Russia · commander · warns",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-12T16:11:52Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/natos-plans-against-russia-with-or-without-america",
-          "headline": "NATO’s top general lays out plan to fight Russia — with or without America",
-          "published_at": "2026-10-12T16:11:52Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/replay-nato-s-top-military-commander-warns-russia-over-alleged-sabotage",
-          "headline": "REPLAY: NATO's top military commander warns Russia over alleged sabotage",
-          "published_at": "2026-10-12T12:26:20Z"
-        }
-      ]
-    },
-    {
       "label": "election · Interview · leader · sees",
       "origin": "convergence",
       "source_count": 2,
@@ -214,9 +203,79 @@
           "published_at": "2026-10-12T13:09:05Z"
         }
       ]
+    },
+    {
+      "label": "general · Russia",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-10-13T05:02:34Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c9y7lgg2vdggo?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia's offensive ability is broken, Kyiv's former top general tells BBC",
+          "published_at": "2026-10-13T05:02:34Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/natos-plans-against-russia-with-or-without-america",
+          "headline": "NATO’s top general lays out plan to fight Russia — with or without America",
+          "published_at": "2026-10-12T16:11:52Z"
+        }
+      ]
+    },
+    {
+      "label": "Europe · Russia",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-10-13T03:10:12Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261013-russia-says-europe-bought-320-billion-in-hydrocarbons-since-2022",
+          "headline": "Russia says Europe bought $320 billion in hydrocarbons since 2022",
+          "published_at": "2026-10-13T03:10:12Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/europe-pushes-tougher-line-russia-split-with-trump",
+          "headline": "Europe pushes tougher line on Russia in growing split with Trump",
+          "published_at": "2026-10-12T20:19:44Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "329e46400e35e10242a8e3f1",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "What is holding back Cyprus's Schengen ambitions?",
+      "url": "https://www.dw.com/en/what-is-holding-back-cyprus-s-schengen-ambitions/a-79641488?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-13T06:26:00Z",
+      "collected_at": "2026-10-13T06:30:51Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "4a8205687bb795feb76097aa",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Russia's offensive ability is broken, Kyiv's former top general tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c9y7lgg2vdggo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T05:02:34Z",
+      "collected_at": "2026-10-13T06:30:51Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "94a59daac5046b321ad9b8ec",
       "source_id": "politico_europe",
@@ -270,6 +329,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "dbcdfd678d6fc971a4a72912",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Man rescued after being trapped in Sardinian cave for 26 hours",
+      "url": "https://www.bbc.co.uk/news/articles/cw98zgy3466qo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T02:45:29Z",
+      "collected_at": "2026-10-13T06:30:51Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -340,6 +413,34 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "d88b783cf2e63d44c63d1a98",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Why the prime minister wants to talk about Brexit again",
+      "url": "https://www.bbc.co.uk/news/articles/cxvgdql2y7zqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T01:27:59Z",
+      "collected_at": "2026-10-13T06:30:51Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "7c21f87800fc9cf27b3159bb",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Trump says Kimberly Guilfoyle could be fired as Greece envoy after alleged misconduct",
+      "url": "https://www.bbc.co.uk/news/articles/cjkgedexp6zgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T00:10:15Z",
+      "collected_at": "2026-10-13T06:30:51Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -2052,20 +2153,6 @@
       ]
     },
     {
-      "id": "53b269b8289fb008ff788f6a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: Oil prices fall after Trump unilaterally announces Russia-Ukraine 'energy ceasefire'",
-      "url": "https://www.france24.com/en/europe/20261012-live-oil-prices-fall-after-trump-unilaterally-announces-russia-ukraine-energy-ceasefire",
-      "published_at": "2026-10-12T05:29:41Z",
-      "collected_at": "2026-10-12T06:00:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "997a09d5b15d077c34c480c5",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2164,20 +2251,6 @@
       ]
     },
     {
-      "id": "ffc489ed967f032b69f0cafe",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants",
-      "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-11T21:36:40Z",
-      "collected_at": "2026-10-12T06:30:46Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "811f4066c1ca8a631029d3b8",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -2203,20 +2276,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "de20739ccdd789f39edf25c9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Raphaël Glucksmann, the man who wants to be French president",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261011-a-profile-of-rapha%C3%ABl-glucksmann-the-man-who-wants-to-be-french-president",
-      "published_at": "2026-10-11T17:50:02Z",
-      "collected_at": "2026-10-12T06:30:46Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -2430,6 +2489,20 @@
       ]
     },
     {
+      "id": "c79189cd6954e1e7ceb6cecb",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "New evidence gives family hope after death in Spain",
+      "url": "https://www.bbc.co.uk/news/articles/c317jy2vx4l1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-09T05:11:46Z",
+      "collected_at": "2026-10-13T06:30:51Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "b0c1b67dd48cfb64edbf365e",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2619,6 +2692,20 @@
       "url": "https://english.elpais.com/culture/2026-10-06/do-tutankhamun-and-nefertiti-share-a-tomb.html",
       "published_at": "2026-10-06T19:25:45Z",
       "collected_at": "2026-10-13T03:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "4e7b79259329decc15fd129f",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Victor Glover, Artemis 2 pilot: ‘This race, for us, is not about beating China to the Moon. We will, but this race is to get humans to Mars’",
+      "url": "https://english.elpais.com/science-tech/2026-10-03/victor-glover-artemis-2-pilot-this-race-for-us-is-not-about-beating-china-to-the-moon-we-will-but-this-race-is-to-get-humans-to-mars.html",
+      "published_at": "2026-10-03T04:00:00Z",
+      "collected_at": "2026-10-13T06:30:51Z",
       "topics": [
         "politics",
         "society",
