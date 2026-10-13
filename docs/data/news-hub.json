@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-13T11:00:51Z",
-  "last_successful_collection_at": "2026-10-13T11:00:51Z",
+  "generated_at": "2026-10-13T11:30:48Z",
+  "last_successful_collection_at": "2026-10-13T11:30:48Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-13T11:00:51Z"
+      "at": "2026-10-13T11:30:48Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-13T11:00:51Z"
+      "at": "2026-10-13T11:30:48Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-13T11:00:51Z"
+      "at": "2026-10-13T11:30:48Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-13T11:00:51Z"
+      "at": "2026-10-13T11:30:48Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-13T11:00:51Z"
+      "at": "2026-10-13T11:30:48Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-13T11:00:51Z"
+      "at": "2026-10-13T11:30:48Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-13T11:00:51Z"
+      "at": "2026-10-13T11:30:48Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-13T11:00:51Z"
+      "at": "2026-10-13T11:30:48Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-13T11:00:51Z"
+      "at": "2026-10-13T11:30:48Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Black Sea Maritime Attack",
-      "summary": "Bulgaria summoned the Russian ambassador after a ship sank following a drone attack in the Black Sea. The incident heightens regional maritime security concerns.",
+      "title": "Black Sea Drone Attack",
+      "summary": "The Bulgarian prime minister summoned the Russian ambassador following a drone attack that sank a ship in the Black Sea.",
       "article_ids": [
         "29afefc3f96b89fe043c86ab",
+        "a2302f19b5559456d5f174dd",
         "2eaac9c9cdc429b9ade412e8"
       ],
       "sources": [
@@ -80,15 +81,40 @@
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
-          "headline": "Ship sinks in new drone attack off Bulgaria, PM summons Russian ambassador",
-          "published_at": "2026-10-13T08:52:48Z"
+          "headline": "Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack",
+          "published_at": "2026-10-13T10:57:17Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Sabotage Arrests in Germany and Poland",
-      "summary": "German authorities detained suspects accused of sabotaging a Starlink station in Poland on behalf of Russia. The cross-border arrests highlight growing infrastructure security risks.",
+      "title": "Supermarket Cyberattack in France",
+      "summary": "A cyberattack targeted hundreds of French supermarkets by manipulating refrigeration systems, causing fires and spoiling food.",
+      "article_ids": [
+        "97a98e425d8bbeb1b9b8b095",
+        "d951c313b46afd8e8861edb5"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261013-hackers-heat-french-supermarket-fridges-sparking-fires-and-spoiling-food",
+          "headline": "Hackers heat French supermarket fridges, sparking fires and spoiling food",
+          "published_at": "2026-10-13T11:13:14Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/cyberattack-hits-hundreds-of-french-supermarkets-spoiling-millions-of-euros-in-food",
+          "headline": "Cyberattack hits hundreds of French supermarkets, spoiling millions of euros in food",
+          "published_at": "2026-10-13T09:15:02Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Sabotage Investigations in Poland and Germany",
+      "summary": "German authorities detained individuals suspected of sabotaging a Starlink station located in Poland on behalf of Russia. The incident highlights ongoing cross-border security concerns regarding critical infrastructure.",
       "article_ids": [
         "5b5d34d3fdc212eec3e19aad"
       ],
@@ -101,56 +127,30 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "French Infrastructure and Social Unrest",
-      "summary": "A widespread cyberattack disrupted operations across numerous French supermarkets and spoiled large quantities of food. Meanwhile, students launched nationwide demonstrations accompanied by climate activists.",
+      "title": "Student Demonstrations in France",
+      "summary": "France faced fresh nationwide student demonstrations concerning school conditions and educational policies. Climate activist Greta Thunberg joined the teenage protesters during the mobilization.",
       "article_ids": [
-        "d951c313b46afd8e8861edb5",
-        "db5dfb29cd3fd0644e9f7676",
-        "2a9f68a5acbbe5f550d6d45d"
+        "2723d6c95a389143c7d6e538",
+        "d942f3090725980a4d99613f",
+        "db5dfb29cd3fd0644e9f7676"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/cyberattack-hits-hundreds-of-french-supermarkets-spoiling-millions-of-euros-in-food",
-          "headline": "Cyberattack hits hundreds of French supermarkets, spoiling millions of euros in food",
-          "published_at": "2026-10-13T09:15:02Z"
+          "url": "https://www.france24.com/en/france-climate-activist-greta-thunberg-joins-teens-on-new-day-of-school-protests",
+          "headline": "France: climate activist Greta Thunberg joins teens on new day of school protests",
+          "published_at": "2026-10-13T10:40:53Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261013-live-france-braces-for-fresh-nationwide-protests-over-school-conditions",
-          "headline": "🔴 Live: Greta Thunberg joins French student protests ahead of nationwide rallies",
-          "published_at": "2026-10-13T08:16:10Z"
+          "url": "https://www.france24.com/en/france-braces-for-fresh-nationwide-student-demonstrations",
+          "headline": "France braces for fresh nationwide student demonstrations",
+          "published_at": "2026-10-13T08:58:46Z"
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Spanish Public Security Anxieties",
-      "summary": "Spanish King visited Ceuta amid ongoing geopolitical friction involving Morocco. Recent polling data indicates that a notable portion of the Spanish public fears the territorial tensions could escalate into armed conflict.",
-      "article_ids": [
-        "2398c06f903ac47fd0a64ddd",
-        "508ac3685b9ec014e299b177",
-        "5727a6befe5b19f2899dd7f1"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/spain-s-king-visits-ceuta-amid-tensions-with-morocco",
-          "headline": "Spain’s king visits Ceuta amid tensions with Morocco",
-          "published_at": "2026-10-13T09:22:44Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/poll-spaniards-say-ceuta-crisis-could-lead-to-armed-conflict-with-morocco",
-          "headline": "Poll: Spaniards say Ceuta crisis could spark armed conflict with Morocco",
-          "published_at": "2026-10-13T02:00:00Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "developing": [
@@ -203,49 +203,119 @@
       ]
     },
     {
-      "label": "media · Social",
+      "label": "forecast · IMF · 2026 · global",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-10-13T10:00:48Z",
+      "item_count": 3,
+      "latest_at": "2026-10-13T09:32:37Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ethiopia-social-media-becomes-a-battleground-for-propaganda",
-          "headline": "Ethiopia: Social media becomes a battleground for propaganda",
-          "published_at": "2026-10-13T10:00:48Z"
+          "url": "https://www.france24.com/en/tv-shows/business/20261013-imf-global-economic-forecast-shows-resilience-under-strain",
+          "headline": "IMF global economic forecast shows 'resilience under strain'",
+          "published_at": "2026-10-13T09:32:37Z"
         },
         {
           "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-10-12/up-to-10-years-in-prison-for-criticizing-cubas-government-on-social-media-how-the-castro-regime-punishes-dissent.html",
-          "headline": "Up to 10 years in prison for criticizing Cuba’s government on social media: How the Castro regime punishes dissent",
-          "published_at": "2026-10-12T13:06:49Z"
+          "url": "https://english.elpais.com/economy-and-business/2026-10-13/imf-forecasts-us-inflation-will-pick-up-in-2026-before-easing-next-year.html",
+          "headline": "IMF forecasts US inflation will pick up in 2026 before easing next year",
+          "published_at": "2026-10-13T07:30:27Z"
         }
       ]
     },
     {
-      "label": "deal · EU",
+      "label": "Ceuta · Morocco · Spain",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-10-13T09:26:24Z",
+      "item_count": 3,
+      "latest_at": "2026-10-13T09:22:44Z",
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/franco-german-deal-on-cars-and-made-in-europe-is-hours-or-days-away-says-eu-industry-boss-stephane-sejourne",
-          "headline": "Franco–German deal on cars and ‘Made in Europe’ is ‘hours or days’ away, says EU industry boss",
-          "published_at": "2026-10-13T09:26:24Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/spain-s-king-visits-ceuta-amid-tensions-with-morocco",
+          "headline": "Spain’s king visits Ceuta amid tensions with Morocco",
+          "published_at": "2026-10-13T09:22:44Z"
         },
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/242366/meps-dont-have-to-meekly-accept-an-eu-budget-deal-but-will-they-go-to-war-over-e141bn-in-cuts",
-          "headline": "MEPs don’t have to meekly accept an EU budget deal, but will they go to war over €141bn in cuts?",
-          "published_at": "2026-10-12T18:00:00Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-ceuta-fears-shaping-spains-election",
+          "headline": "The Ceuta fears shaping Spain’s election",
+          "published_at": "2026-10-13T04:30:00Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "a0930a71f7bebedd6e120de7",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Backtracking on green energy contracts would be a mistake, warns Engie boss",
+      "url": "https://www.politico.eu/article/engie-backtracking-energy-mistake-budget",
+      "published_at": "2026-10-13T11:25:29Z",
+      "collected_at": "2026-10-13T11:30:48Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "97a98e425d8bbeb1b9b8b095",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Hackers heat French supermarket fridges, sparking fires and spoiling food",
+      "url": "https://www.france24.com/en/video/20261013-hackers-heat-french-supermarket-fridges-sparking-fires-and-spoiling-food",
+      "published_at": "2026-10-13T11:13:14Z",
+      "collected_at": "2026-10-13T11:30:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "660cf7981f232f8ee9a4eb22",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "France’s Philippe says Le Pen’s EU proposals would ‘crack open’ bloc",
+      "url": "https://www.politico.eu/article/edouard-philippe-le-pen-eu-proposals-euroskeptic",
+      "published_at": "2026-10-13T11:09:09Z",
+      "collected_at": "2026-10-13T11:30:48Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "a1d73d2bd00a687aebe667be",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "India’s youth-led Cockroach movement defies protest ban",
+      "url": "https://www.france24.com/en/india-s-youth-led-cockroach-movement-defies-protest-ban",
+      "published_at": "2026-10-13T11:00:18Z",
+      "collected_at": "2026-10-13T11:30:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "b3742c35fc67cb9d38ebaaf3",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "The Times: How Infantino's 'second salary' paid for luxury life in Miami",
+      "url": "https://www.france24.com/en/tv-shows/press-review/20261013-the-times-how-infantino-s-second-salary-paid-for-luxury-life-in-miami",
+      "published_at": "2026-10-13T10:59:23Z",
+      "collected_at": "2026-10-13T11:30:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "29afefc3f96b89fe043c86ab",
       "source_id": "bbc_europe",
@@ -258,6 +328,34 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "a2302f19b5559456d5f174dd",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack",
+      "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T10:57:17Z",
+      "collected_at": "2026-10-13T11:30:48Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "fdb358ed76e50f6cf4977269",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Why Democrats think they can finally flip Texas in the Senate",
+      "url": "https://english.elpais.com/usa/2026-10-13/why-democrats-think-they-can-finally-flip-texas-in-the-senate.html",
+      "published_at": "2026-10-13T10:49:44Z",
+      "collected_at": "2026-10-13T11:30:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -356,6 +454,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "9dfc6aa91021de7ec2313d92",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "How much AI is in Spain’s bestselling books?",
+      "url": "https://english.elpais.com/technology/2026-10-13/how-much-ai-is-in-spains-bestselling-books.html",
+      "published_at": "2026-10-13T09:46:31Z",
+      "collected_at": "2026-10-13T11:30:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -527,6 +639,20 @@
       ]
     },
     {
+      "id": "1987a3fbd62b1c395f3a3866",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "More than 70 progressive economists form alliance to promote a fairer distribution of wealth",
+      "url": "https://english.elpais.com/economy-and-business/2026-10-13/more-than-70-progressive-economists-form-alliance-to-promote-a-fairer-distribution-of-wealth.html",
+      "published_at": "2026-10-13T08:27:26Z",
+      "collected_at": "2026-10-13T11:30:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "db5dfb29cd3fd0644e9f7676",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -566,6 +692,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "1074997eb5cfc8d01b6c28fc",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "IMF forecasts US inflation will pick up in 2026 before easing next year",
+      "url": "https://english.elpais.com/economy-and-business/2026-10-13/imf-forecasts-us-inflation-will-pick-up-in-2026-before-easing-next-year.html",
+      "published_at": "2026-10-13T07:30:27Z",
+      "collected_at": "2026-10-13T11:30:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -884,6 +1024,20 @@
       "url": "https://www.france24.com/en/europe/20261012-what-we-know-about-pope-leo-xiv-planned-lung-operation-this-week",
       "published_at": "2026-10-12T22:20:59Z",
       "collected_at": "2026-10-13T05:30:42Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "7741a2baaeebad5d5f89f005",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Pope Leo arrives at hospital for lung nodule surgery",
+      "url": "https://www.france24.com/en/europe/20261012-what-we-know-about-pope-leo-xiv-planned-lung-operation-this-week",
+      "published_at": "2026-10-12T22:20:59Z",
+      "collected_at": "2026-10-13T11:30:48Z",
       "topics": [
         "politics",
         "security",
@@ -2123,202 +2277,6 @@
       ]
     },
     {
-      "id": "bd6e753ae51af738284572c6",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Ukraine’s FM: Russia’s war budget makes the case for using frozen assets now",
-      "url": "https://www.politico.eu/article/ukraine-fm-andrii-sybiha-russias-war-budget-makes-the-case-for-using-frozen-assets-now",
-      "published_at": "2026-10-12T11:28:21Z",
-      "collected_at": "2026-10-12T11:30:47Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "68a136870b8759dd7139fbed",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 Live: NATO commander Grynkewich warns Russia attack would be 'utterly futile'",
-      "url": "https://www.france24.com/en/europe/20261012-live-oil-prices-fall-after-trump-unilaterally-announces-russia-ukraine-energy-ceasefire",
-      "published_at": "2026-10-12T11:25:42Z",
-      "collected_at": "2026-10-12T11:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "7a826e2697298b3b8df80992",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Netanyahu demands probe into Israeli anonymous whistleblowers in 'NAZA' documentary",
-      "url": "https://www.france24.com/en/netanyahu-demands-probe-into-israeli-anonymous-whistleblowers-in-naza-documentary",
-      "published_at": "2026-10-12T11:17:27Z",
-      "collected_at": "2026-10-12T11:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "31c3288ef7c5adcb0a2a87d2",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "At the epicenter of the mysterious health alert in Siberia: ‘Plague? There’s no panic, people are calm’",
-      "url": "https://english.elpais.com/international/2026-10-12/at-the-epicenter-of-the-mysterious-health-alert-in-siberia-plague-theres-no-panic-people-are-calm.html",
-      "published_at": "2026-10-12T11:06:32Z",
-      "collected_at": "2026-10-12T11:30:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "9eabdff673dbe66d18897246",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump: On the defensive in the polls, uncontrolled at rallies",
-      "url": "https://english.elpais.com/usa/2026-10-12/trump-on-the-defensive-in-the-polls-uncontrolled-at-rallies.html",
-      "published_at": "2026-10-12T11:06:19Z",
-      "collected_at": "2026-10-12T11:30:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "68232fdf319c79600f81787e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Prison 'Games of Hope' olympics in Italy unite inmates and staff",
-      "url": "https://www.france24.com/en/prison-games-of-hope-olympics-in-italy-unite-inmates-and-staff",
-      "published_at": "2026-10-12T10:54:23Z",
-      "collected_at": "2026-10-12T11:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4b8cb92e62843c14d4e9f463",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Poland: Police foils alleged assassination attempt against PM",
-      "url": "https://www.france24.com/en/poland-police-foils-alleged-assassination-attempt-against-pm",
-      "published_at": "2026-10-12T10:52:11Z",
-      "collected_at": "2026-10-12T11:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "221aed7c54c54fbd31119d59",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Trump’s NATO envoy calls for moving military forces east as US reviews troops in Europe",
-      "url": "https://www.politico.eu/article/donald-trump-nato-envoy-matthew-whitaker-calls-for-moving-military-forces-east-as-us-reviews-troops-in-europe",
-      "published_at": "2026-10-12T10:52:10Z",
-      "collected_at": "2026-10-12T11:02:10Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "f6709654ba295a6338a5029b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Illegal detentions' in India, as protesters allege foul play at Electoral Commission",
-      "url": "https://www.france24.com/en/tv-shows/press-review/20261012-illegal-detentions-in-india-as-protesters-allege-foul-play-at-electoral-commission",
-      "published_at": "2026-10-12T10:51:05Z",
-      "collected_at": "2026-10-12T11:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "3bd2b06493d3d3b85e9bd365",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "‘Made in Europe’ wind, solar, and nuclear power can protect us from future energy shocks",
-      "url": "https://euobserver.com/242252/made-in-europe-wind-solar-and-nuclear-power-can-protect-us-from-future-energy-shocks",
-      "published_at": "2026-10-12T10:35:13Z",
-      "collected_at": "2026-10-12T11:02:10Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "64e4d818eef96e206a36a39b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Fire ravages oldest covered food market in Paris",
-      "url": "https://www.france24.com/en/video/20261012-fire-ravages-oldest-covered-food-market-in-paris",
-      "published_at": "2026-10-12T10:31:22Z",
-      "collected_at": "2026-10-12T11:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "1a2a54f1d65057dd486e58de",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Fire destroys historic French market of Enfants-Rouges in Paris",
-      "url": "https://www.france24.com/en/fire-destroys-historic-french-market-of-enfants-rouges-in-paris",
-      "published_at": "2026-10-12T10:28:09Z",
-      "collected_at": "2026-10-12T11:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "d574973d62cb6e2c7a031b92",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Experts warn of ‘legal loophole’ surrounding Cornell 7 sexual assault case",
-      "url": "https://english.elpais.com/usa/2026-10-12/experts-warn-of-legal-loophole-surrounding-cornell-7-sexual-assault-case.html",
-      "published_at": "2026-10-12T09:15:37Z",
-      "collected_at": "2026-10-12T11:30:47Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "95751bef6ca9623ced6d8d53",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: NATO's top military commander speaks at Warsaw Security Forum",
-      "url": "https://www.france24.com/en/europe/20261012-live-oil-prices-fall-after-trump-unilaterally-announces-russia-ukraine-energy-ceasefire",
-      "published_at": "2026-10-12T05:29:41Z",
-      "collected_at": "2026-10-12T11:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "29ee17f3b050eae65e39a0b7",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2466,6 +2424,20 @@
       "url": "https://english.elpais.com/international/2026-10-11/students-recruited-via-telegram-amateur-saboteurs-and-hitmen-how-russia-outsources-its-operations-in-europe.html",
       "published_at": "2026-10-11T04:00:00Z",
       "collected_at": "2026-10-13T04:30:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "0b0ff420e574d9b01e0fc7d5",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Sarah Schulman, writer: ‘Perpetrators now present themselves as victims’",
+      "url": "https://english.elpais.com/culture/2026-10-11/sarah-schulman-writer-perpetrators-now-present-themselves-as-victims.html",
+      "published_at": "2026-10-11T04:00:00Z",
+      "collected_at": "2026-10-13T11:30:48Z",
       "topics": [
         "politics",
         "society",
@@ -2725,41 +2697,13 @@
       ]
     },
     {
-      "id": "92ceebc944324862e860c24f",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "One person killed in second school knife attack in Poland in two days",
-      "url": "https://notesfrompoland.com/2026/10/08/one-person-killed-in-second-school-knife-attack-in-poland-in-two-days",
-      "published_at": "2026-10-08T10:50:53Z",
-      "collected_at": "2026-10-12T11:02:10Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "3eaa0c07a0892325498da8dd",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland launches €114m fund to support space technology firms",
-      "url": "https://notesfrompoland.com/2026/10/08/poland-launches-e114m-fund-to-support-space-technology-firms",
-      "published_at": "2026-10-08T10:46:34Z",
-      "collected_at": "2026-10-12T11:02:10Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "bd70e4b7bdf94833cfef6c79",
+      "id": "49b55bdfcde144cbf1887a3f",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "Gina Hinojosa gains ground in Texas governor’s race as Democratic leaders push for more campaign funding",
-      "url": "https://english.elpais.com/usa/2026-10-08/gina-hinojosa-gains-ground-in-texas-governors-race-as-democratic-leaders-push-for-more-campaign-funding.html",
-      "published_at": "2026-10-08T09:53:58Z",
-      "collected_at": "2026-10-12T11:02:10Z",
+      "title": "Eva Marie Saint: the Hitchcock muse whose career spanned nearly eight decades",
+      "url": "https://english.elpais.com/culture/2026-10-07/eva-marie-saint-the-hitchcock-muse-whose-career-spanned-nearly-eight-decades.html",
+      "published_at": "2026-10-07T09:29:34Z",
+      "collected_at": "2026-10-13T11:30:48Z",
       "topics": [
         "politics",
         "society",
