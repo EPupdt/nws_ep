@@ -340,9 +340,40 @@
     "0f751671b412c6343a6a7b71": "2026-10-13T10:30:47Z",
     "0d5884576c23a1e87a502da0": "2026-10-13T10:30:47Z",
     "b2aeff99fa5969b29264f92c": "2026-10-13T10:30:47Z",
-    "dbd5c3731a645fc384968145": "2026-10-13T10:30:47Z"
+    "dbd5c3731a645fc384968145": "2026-10-13T10:30:47Z",
+    "29afefc3f96b89fe043c86ab": "2026-10-13T11:00:51Z",
+    "2723d6c95a389143c7d6e538": "2026-10-13T11:00:51Z",
+    "2a9f68a5acbbe5f550d6d45d": "2026-10-13T11:00:51Z"
   },
   "radar": [
+    {
+      "id": "29afefc3f96b89fe043c86ab",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Bulgarian PM summons Russian ambassador after ship sinks in Black Sea drone attack",
+      "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T10:57:17Z",
+      "collected_at": "2026-10-13T11:00:51Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "2723d6c95a389143c7d6e538",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France: climate activist Greta Thunberg joins teens on new day of school protests",
+      "url": "https://www.france24.com/en/france-climate-activist-greta-thunberg-joins-teens-on-new-day-of-school-protests",
+      "published_at": "2026-10-13T10:40:53Z",
+      "collected_at": "2026-10-13T11:00:51Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "dbd5c3731a645fc384968145",
       "source_id": "politico_europe",
@@ -659,6 +690,20 @@
       "url": "https://www.france24.com/en/europe/20261013-live-france-braces-for-fresh-nationwide-protests-over-school-conditions",
       "published_at": "2026-10-13T06:44:27Z",
       "collected_at": "2026-10-13T08:30:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "2a9f68a5acbbe5f550d6d45d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: Greta Thunberg joins French students on new day of nationwide protests",
+      "url": "https://www.france24.com/en/europe/20261013-live-france-braces-for-fresh-nationwide-protests-over-school-conditions",
+      "published_at": "2026-10-13T06:44:27Z",
+      "collected_at": "2026-10-13T11:00:51Z",
       "topics": [
         "politics",
         "security",
@@ -2824,14 +2869,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-10-12T08:30:46Z",
-      "title": "EU Budget and Funding Debates"
-    },
-    {
-      "at": "2026-10-12T09:00:58Z",
-      "title": "Kraków Mayoral Election Setback"
-    },
-    {
       "at": "2026-10-12T09:00:58Z",
       "title": "EU Budget and Funding Debates"
     },
@@ -3142,18 +3179,33 @@
     {
       "at": "2026-10-13T10:30:47Z",
       "title": "Spanish Public Security Concerns"
+    },
+    {
+      "at": "2026-10-13T11:00:51Z",
+      "title": "French Infrastructure and Social Unrest"
+    },
+    {
+      "at": "2026-10-13T11:00:51Z",
+      "title": "Spanish Public Security Anxieties"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Security Incident Near Bulgaria",
-        "summary": "A maritime incident involving a sunken ship following a drone attack near Bulgaria prompted the prime minister to summon the Russian ambassador.",
+        "title": "Black Sea Maritime Attack",
+        "summary": "Bulgaria summoned the Russian ambassador after a ship sank following a drone attack in the Black Sea. The incident heightens regional maritime security concerns.",
         "article_ids": [
+          "29afefc3f96b89fe043c86ab",
           "2eaac9c9cdc429b9ade412e8"
         ],
         "sources": [
+          {
+            "publisher": "BBC News Europe",
+            "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
+            "headline": "Bulgarian PM summons Russian ambassador after ship sinks in Black Sea drone attack",
+            "published_at": "2026-10-13T10:57:17Z"
+          },
           {
             "publisher": "BBC News Europe",
             "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
@@ -3162,12 +3214,10 @@
           }
         ],
         "source_count": 1
-      }
-    ],
-    "top_stories": [
+      },
       {
-        "title": "Sabotage Investigation in Poland",
-        "summary": "German authorities have detained Turkish individuals suspected of sabotaging a Starlink station located in Poland on behalf of Russia. The incident highlights ongoing concerns regarding critical infrastructure security in central Europe.",
+        "title": "Sabotage Arrests in Germany and Poland",
+        "summary": "German authorities detained suspects accused of sabotaging a Starlink station in Poland on behalf of Russia. The cross-border arrests highlight growing infrastructure security risks.",
         "article_ids": [
           "5b5d34d3fdc212eec3e19aad"
         ],
@@ -3180,13 +3230,40 @@
           }
         ],
         "source_count": 1
+      }
+    ],
+    "top_stories": [
+      {
+        "title": "French Infrastructure and Social Unrest",
+        "summary": "A widespread cyberattack disrupted operations across numerous French supermarkets and spoiled large quantities of food. Meanwhile, students launched nationwide demonstrations accompanied by climate activists.",
+        "article_ids": [
+          "d951c313b46afd8e8861edb5",
+          "db5dfb29cd3fd0644e9f7676",
+          "2a9f68a5acbbe5f550d6d45d"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/cyberattack-hits-hundreds-of-french-supermarkets-spoiling-millions-of-euros-in-food",
+            "headline": "Cyberattack hits hundreds of French supermarkets, spoiling millions of euros in food",
+            "published_at": "2026-10-13T09:15:02Z"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20261013-live-france-braces-for-fresh-nationwide-protests-over-school-conditions",
+            "headline": "🔴 Live: Greta Thunberg joins French student protests ahead of nationwide rallies",
+            "published_at": "2026-10-13T08:16:10Z"
+          }
+        ],
+        "source_count": 1
       },
       {
-        "title": "Spanish Public Security Concerns",
-        "summary": "Recent polling data indicates that Spanish citizens harbor significant anxieties regarding the Ceuta crisis and potential geopolitical conflicts. Meanwhile, the King of Spain visited the region amid ongoing bilateral tensions with Morocco.",
+        "title": "Spanish Public Security Anxieties",
+        "summary": "Spanish King visited Ceuta amid ongoing geopolitical friction involving Morocco. Recent polling data indicates that a notable portion of the Spanish public fears the territorial tensions could escalate into armed conflict.",
         "article_ids": [
           "2398c06f903ac47fd0a64ddd",
-          "508ac3685b9ec014e299b177"
+          "508ac3685b9ec014e299b177",
+          "5727a6befe5b19f2899dd7f1"
         ],
         "sources": [
           {
@@ -3206,5 +3283,5 @@
       }
     ]
   },
-  "last_collection_at": "2026-10-13T10:30:47Z"
+  "last_collection_at": "2026-10-13T11:00:51Z"
 }

@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-13T10:30:47Z",
-  "last_successful_collection_at": "2026-10-13T10:30:47Z",
+  "generated_at": "2026-10-13T11:00:51Z",
+  "last_successful_collection_at": "2026-10-13T11:00:51Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-13T10:30:47Z"
+      "at": "2026-10-13T11:00:51Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-13T10:30:47Z"
+      "at": "2026-10-13T11:00:51Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-13T10:30:47Z"
+      "at": "2026-10-13T11:00:51Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,54 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-13T10:30:47Z"
+      "at": "2026-10-13T11:00:51Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-13T10:30:47Z"
+      "at": "2026-10-13T11:00:51Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-13T10:30:47Z"
+      "at": "2026-10-13T11:00:51Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-13T10:30:47Z"
+      "at": "2026-10-13T11:00:51Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-13T10:30:47Z"
+      "at": "2026-10-13T11:00:51Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-13T10:30:47Z"
+      "at": "2026-10-13T11:00:51Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Security Incident Near Bulgaria",
-      "summary": "A maritime incident involving a sunken ship following a drone attack near Bulgaria prompted the prime minister to summon the Russian ambassador.",
+      "title": "Black Sea Maritime Attack",
+      "summary": "Bulgaria summoned the Russian ambassador after a ship sank following a drone attack in the Black Sea. The incident heightens regional maritime security concerns.",
       "article_ids": [
+        "29afefc3f96b89fe043c86ab",
         "2eaac9c9cdc429b9ade412e8"
       ],
       "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
+          "headline": "Bulgarian PM summons Russian ambassador after ship sinks in Black Sea drone attack",
+          "published_at": "2026-10-13T10:57:17Z"
+        },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
@@ -78,12 +85,10 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "Sabotage Investigation in Poland",
-      "summary": "German authorities have detained Turkish individuals suspected of sabotaging a Starlink station located in Poland on behalf of Russia. The incident highlights ongoing concerns regarding critical infrastructure security in central Europe.",
+      "title": "Sabotage Arrests in Germany and Poland",
+      "summary": "German authorities detained suspects accused of sabotaging a Starlink station in Poland on behalf of Russia. The cross-border arrests highlight growing infrastructure security risks.",
       "article_ids": [
         "5b5d34d3fdc212eec3e19aad"
       ],
@@ -96,13 +101,40 @@
         }
       ],
       "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "French Infrastructure and Social Unrest",
+      "summary": "A widespread cyberattack disrupted operations across numerous French supermarkets and spoiled large quantities of food. Meanwhile, students launched nationwide demonstrations accompanied by climate activists.",
+      "article_ids": [
+        "d951c313b46afd8e8861edb5",
+        "db5dfb29cd3fd0644e9f7676",
+        "2a9f68a5acbbe5f550d6d45d"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/cyberattack-hits-hundreds-of-french-supermarkets-spoiling-millions-of-euros-in-food",
+          "headline": "Cyberattack hits hundreds of French supermarkets, spoiling millions of euros in food",
+          "published_at": "2026-10-13T09:15:02Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261013-live-france-braces-for-fresh-nationwide-protests-over-school-conditions",
+          "headline": "🔴 Live: Greta Thunberg joins French student protests ahead of nationwide rallies",
+          "published_at": "2026-10-13T08:16:10Z"
+        }
+      ],
+      "source_count": 1
     },
     {
-      "title": "Spanish Public Security Concerns",
-      "summary": "Recent polling data indicates that Spanish citizens harbor significant anxieties regarding the Ceuta crisis and potential geopolitical conflicts. Meanwhile, the King of Spain visited the region amid ongoing bilateral tensions with Morocco.",
+      "title": "Spanish Public Security Anxieties",
+      "summary": "Spanish King visited Ceuta amid ongoing geopolitical friction involving Morocco. Recent polling data indicates that a notable portion of the Spanish public fears the territorial tensions could escalate into armed conflict.",
       "article_ids": [
         "2398c06f903ac47fd0a64ddd",
-        "508ac3685b9ec014e299b177"
+        "508ac3685b9ec014e299b177",
+        "5727a6befe5b19f2899dd7f1"
       ],
       "sources": [
         {
@@ -122,33 +154,6 @@
     }
   ],
   "developing": [
-    {
-      "label": "French · supermarkets · Cyberattack · refrigerator",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 6,
-      "latest_at": "2026-10-13T09:15:02Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/cyberattack-hits-hundreds-of-french-supermarkets-spoiling-millions-of-euros-in-food",
-          "headline": "Cyberattack hits hundreds of French supermarkets, spoiling millions of euros in food",
-          "published_at": "2026-10-13T09:15:02Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
-          "headline": "Fridges in French supermarkets hit by cyber attack",
-          "published_at": "2026-10-12T14:30:09Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/french-supermarkets-face-food-crisis-after-cyberattack-hits-refrigerators",
-          "headline": "French supermarkets face food crisis after cyberattack hits refrigerators",
-          "published_at": "2026-10-12T13:47:15Z"
-        }
-      ]
-    },
     {
       "label": "EU · sanctions · US",
       "origin": "convergence",
@@ -198,28 +203,77 @@
       ]
     },
     {
-      "label": "Trump · US · critic · Democratic",
+      "label": "media · Social",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-13T09:57:35Z",
+      "item_count": 2,
+      "latest_at": "2026-10-13T10:00:48Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/us-immigration-authorities-raid-home-of-democratic-trump-critic-ilhan-omar",
-          "headline": "US immigration authorities raid home of Democratic Trump critic Ilhan Omar",
-          "published_at": "2026-10-13T09:57:35Z"
+          "url": "https://www.france24.com/en/ethiopia-social-media-becomes-a-battleground-for-propaganda",
+          "headline": "Ethiopia: Social media becomes a battleground for propaganda",
+          "published_at": "2026-10-13T10:00:48Z"
         },
         {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-10-12/up-to-10-years-in-prison-for-criticizing-cubas-government-on-social-media-how-the-castro-regime-punishes-dissent.html",
+          "headline": "Up to 10 years in prison for criticizing Cuba’s government on social media: How the Castro regime punishes dissent",
+          "published_at": "2026-10-12T13:06:49Z"
+        }
+      ]
+    },
+    {
+      "label": "deal · EU",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-10-13T09:26:24Z",
+      "sources": [
+        {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/donald-trump-nato-envoy-matthew-whitaker-calls-for-moving-military-forces-east-as-us-reviews-troops-in-europe",
-          "headline": "Trump’s NATO envoy calls for moving military forces east as US reviews troops in Europe",
-          "published_at": "2026-10-12T10:52:10Z"
+          "url": "https://www.politico.eu/article/franco-german-deal-on-cars-and-made-in-europe-is-hours-or-days-away-says-eu-industry-boss-stephane-sejourne",
+          "headline": "Franco–German deal on cars and ‘Made in Europe’ is ‘hours or days’ away, says EU industry boss",
+          "published_at": "2026-10-13T09:26:24Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/242366/meps-dont-have-to-meekly-accept-an-eu-budget-deal-but-will-they-go-to-war-over-e141bn-in-cuts",
+          "headline": "MEPs don’t have to meekly accept an EU budget deal, but will they go to war over €141bn in cuts?",
+          "published_at": "2026-10-12T18:00:00Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "29afefc3f96b89fe043c86ab",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Bulgarian PM summons Russian ambassador after ship sinks in Black Sea drone attack",
+      "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T10:57:17Z",
+      "collected_at": "2026-10-13T11:00:51Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "2723d6c95a389143c7d6e538",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France: climate activist Greta Thunberg joins teens on new day of school protests",
+      "url": "https://www.france24.com/en/france-climate-activist-greta-thunberg-joins-teens-on-new-day-of-school-protests",
+      "published_at": "2026-10-13T10:40:53Z",
+      "collected_at": "2026-10-13T11:00:51Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "dbd5c3731a645fc384968145",
       "source_id": "politico_europe",
@@ -536,6 +590,20 @@
       "url": "https://www.france24.com/en/europe/20261013-live-france-braces-for-fresh-nationwide-protests-over-school-conditions",
       "published_at": "2026-10-13T06:44:27Z",
       "collected_at": "2026-10-13T08:30:45Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "2a9f68a5acbbe5f550d6d45d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: Greta Thunberg joins French students on new day of nationwide protests",
+      "url": "https://www.france24.com/en/europe/20261013-live-france-braces-for-fresh-nationwide-protests-over-school-conditions",
+      "published_at": "2026-10-13T06:44:27Z",
+      "collected_at": "2026-10-13T11:00:51Z",
       "topics": [
         "politics",
         "security",
