@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-14T05:30:52Z",
-  "last_successful_collection_at": "2026-10-14T05:30:52Z",
+  "generated_at": "2026-10-14T06:01:05Z",
+  "last_successful_collection_at": "2026-10-14T06:01:05Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-14T05:30:52Z"
+      "at": "2026-10-14T06:01:05Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-14T05:30:52Z"
+      "at": "2026-10-14T06:01:05Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-14T05:30:52Z"
+      "at": "2026-10-14T06:01:05Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-14T05:30:52Z"
+      "at": "2026-10-14T06:01:05Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-14T05:30:52Z"
+      "at": "2026-10-14T06:01:05Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-14T05:30:52Z"
+      "at": "2026-10-14T06:01:05Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-14T05:30:52Z"
+      "at": "2026-10-14T06:01:05Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-14T05:30:52Z"
+      "at": "2026-10-14T06:01:05Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-14T05:30:52Z"
+      "at": "2026-10-14T06:01:05Z"
     }
   ],
   "europe_now": [
     {
       "title": "Student Protests in France",
-      "summary": "Tens of thousands of young demonstrators have rallied across France amid escalating high school and student protests. Protesters in Paris and other cities have engaged in demonstrations reflecting widespread youth discontent.",
+      "summary": "Tens of thousands of students and high schoolers have rallied across France, leading to widespread demonstrations and clashes in Paris. Protesters are demanding government action amid growing youth frustration and economic anxiety.",
       "article_ids": [
         "51bed96eceab22c7799b2c3b",
         "dd8c6652190a83a417735fa6"
@@ -88,12 +88,18 @@
     },
     {
       "title": "Security Threat in Poland",
-      "summary": "Authorities in Poland have charged a man with plotting an attack targeting the country's prime minister. The security incident unfolds as regional officials address heightened geopolitical risks.",
+      "summary": "A man has been officially charged with plotting an assassination attack against the Polish prime minister. The security incident highlights heightened tensions and threats facing national leadership in Central Europe.",
       "article_ids": [
         "153bd56a1ec7790f9b0d61b6",
         "e4ee99f2278ff77d9383565d"
       ],
       "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/10/13/man-charged-with-plotting-attack-on-polish-pm",
+          "headline": "Man charged with plotting attack on Polish PM",
+          "published_at": "2026-10-13T20:38:48Z"
+        },
         {
           "publisher": "Deutsche Welle",
           "url": "https://www.dw.com/en/ukraine-allies-in-poland-after-starlink-sabotage-trump-diesel-deal/a-79653869?maca=en-rss-en-eu-2092-rdf",
@@ -101,13 +107,36 @@
           "published_at": "2026-10-13T18:51:00Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "Spanish Sovereignty Visit",
-      "summary": "The King of Spain traveled to Ceuta to emphasize that the territory's sovereignty and territorial integrity are non-negotiable. The royal visit comes amid ongoing diplomatic tensions and migration pressures involving North Africa.",
+      "title": "Pope Leo Lung Surgery",
+      "summary": "Pope Leo XIV has successfully undergone a surgical operation to remove a cancerous growth from his lung. The Vatican confirmed the procedure following his recent lung cancer diagnosis.",
+      "article_ids": [
+        "9b7ee9958f826bd5aa6bf62a",
+        "948d9afb8385f0b1edb29fa8"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/pope-leo-has-cancerous-growth-removed-in-lung-operation",
+          "headline": "Pope Leo has cancerous growth removed in lung operation",
+          "published_at": "2026-10-13T21:23:45Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
+          "headline": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
+          "published_at": "2026-10-13T20:22:23Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Spanish Sovereignty in Ceuta",
+      "summary": "The King of Spain visited the enclave of Ceuta to emphasize that the territory's sovereignty and territorial integrity are non-negotiable. The royal visit comes amid regional tensions and migration pressures involving Morocco.",
       "article_ids": [
         "271afd645f7902fd3daa71bb",
         "15210d6334f69cfd012f9097"
@@ -129,43 +158,13 @@
       "source_count": 2
     },
     {
-      "title": "Papal Health Update",
-      "summary": "Pope Leo underwent a successful surgery to remove a cancerous lung growth at a medical facility. The Vatican confirmed that the procedure on the pontiff's lung nodule went well.",
+      "title": "US-Russia Diesel Deal Scrutiny",
+      "summary": "European leaders and US lawmakers have raised significant concerns regarding a newly announced diesel agreement between the United States and Russia. Critics warn that the arrangement could undermine existing sanctions and weaken Western leverage.",
       "article_ids": [
-        "9b7ee9958f826bd5aa6bf62a",
-        "28129046cd45ba18118ff885"
+        "008112680b8de4dab74c7ff6",
+        "1392636e3b73438c98e917e7"
       ],
       "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/pope-leo-has-cancerous-growth-removed-in-lung-operation",
-          "headline": "Pope Leo has cancerous growth removed in lung operation",
-          "published_at": "2026-10-13T21:23:45Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261012-what-we-know-about-pope-leo-xiv-planned-lung-operation-this-week",
-          "headline": "🔴 Surgery on Pope Leo's cancerous lung nodule went well, Vatican says",
-          "published_at": "2026-10-13T20:44:58Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
-    {
-      "label": "Trump · US · diesel · Greece",
-      "origin": "convergence",
-      "source_count": 4,
-      "item_count": 9,
-      "latest_at": "2026-10-14T03:23:40Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20261014-trump-asks-us-ambassador-to-greece-kimberly-guilfoyle-to-resign-over-allegations",
-          "headline": "Trump asks US ambassador to Greece Kimberly Guilfoyle to resign over allegations",
-          "published_at": "2026-10-14T03:23:40Z"
-        },
         {
           "publisher": "Deutsche Welle",
           "url": "https://www.dw.com/en/ukraine-and-the-us-what-s-next-after-trump-s-diesel-deal-with-russia/a-79650785?maca=en-rss-en-eu-2092-rdf",
@@ -177,15 +176,12 @@
           "url": "https://www.politico.eu/article/trump-russia-oil-deal-senate-opposition",
           "headline": "US senators tell Trump to rescind Russian diesel deal",
           "published_at": "2026-10-13T17:20:40Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-10-13/us-ambassador-to-greece-resigns-over-corruption-after-pressure-from-trump.html",
-          "headline": "US ambassador to Greece resigns over corruption after pressure from Trump",
-          "published_at": "2026-10-13T17:16:27Z"
         }
-      ]
-    },
+      ],
+      "source_count": 2
+    }
+  ],
+  "developing": [
     {
       "label": "AI · MI5 · risk · Russia",
       "origin": "convergence",
@@ -214,49 +210,84 @@
       ]
     },
     {
-      "label": "Champions · League · Arsenal · Giroud",
+      "label": "Arsenal · Champions · League · Lille",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-14T02:00:00Z",
+      "item_count": 5,
+      "latest_at": "2026-10-14T05:49:21Z",
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/sports/20261014-champions-league-arsenal-leave-no-chance-to-lille-and-olivier-giroud",
+          "headline": "Champions League: Arsenal leave no chance to Lille and Olivier Giroud",
+          "published_at": "2026-10-14T05:49:21Z"
+        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/ukraine-brings-war-effort-football-champions-league-shakhtar-donetsk",
           "headline": "Ukraine brings war effort to football’s Champions League",
           "published_at": "2026-10-14T02:00:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/sports/20261013-champions-league-olivier-giroud-makes-arsenal-return-with-lille",
-          "headline": "Champions League: Olivier Giroud makes Arsenal return with Lille",
-          "published_at": "2026-10-13T06:23:51Z"
         }
       ]
     },
     {
-      "label": "attack · PM · ambassador · drone",
+      "label": "employee · OpenAI · allegedly · arrests",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 3,
-      "latest_at": "2026-10-13T20:38:48Z",
+      "latest_at": "2026-10-13T23:49:41Z",
       "sources": [
         {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/10/13/man-charged-with-plotting-attack-on-polish-pm",
-          "headline": "Man charged with plotting attack on Polish PM",
-          "published_at": "2026-10-13T20:38:48Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/technology/20261013-fbi-arrests-saudi-openai-employee-for-allegedly-bugging-san-francisco-office",
+          "headline": "FBI arrests Saudi OpenAI employee for allegedly bugging San Francisco office",
+          "published_at": "2026-10-13T23:49:41Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/2026/10/13/openai-employee-arrested-and-charged-over-hidden-recording-01117275",
+          "headline": "OpenAI employee arrested and charged over hidden recording",
+          "published_at": "2026-10-13T22:30:40Z"
+        }
+      ]
+    },
+    {
+      "label": "Ceuta · royals · Spanish · visit",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-10-13T15:17:00Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261013-spanish-royals-visit-ceuta-amid-tensions-with-morocco-over-migrant-influx",
+          "headline": "Spanish royals visit Ceuta amid tensions with Morocco over migrant influx",
+          "published_at": "2026-10-13T15:17:00Z"
         },
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
-          "headline": "Bulgarian PM summons Russian ambassador after ship sinks in Black Sea drone attack",
-          "published_at": "2026-10-13T10:57:17Z"
+          "url": "https://www.bbc.co.uk/news/articles/cmp3g47gqvzeo?at_medium=RSS&at_campaign=rss",
+          "headline": "Spanish royals make rare visit to Ceuta after migrant crisis",
+          "published_at": "2026-10-13T12:12:51Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "12f3c88f76e9b852c1817f11",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Champions League: Arsenal leave no chance to Lille and Olivier Giroud",
+      "url": "https://www.france24.com/en/tv-shows/sports/20261014-champions-league-arsenal-leave-no-chance-to-lille-and-olivier-giroud",
+      "published_at": "2026-10-14T05:49:21Z",
+      "collected_at": "2026-10-14T06:01:05Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "1bc3a14f1d1b48b0d85c6bbb",
       "source_id": "euobserver",
@@ -293,6 +324,20 @@
       "url": "https://www.france24.com/en/middle-east/20261014-live-saudi-arabia-reports-aramco-building-hit-and-four-wounded-in-houthi-missile-attacks",
       "published_at": "2026-10-14T03:39:11Z",
       "collected_at": "2026-10-14T04:00:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "cc549b81922ac84ce50f4bb9",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "What we know about Pope Leo XIV's lung cancer diagnosis",
+      "url": "https://www.france24.com/en/europe/20261014-what-we-know-about-pope-leo-xiv-s-lung-cancer-operation",
+      "published_at": "2026-10-14T03:35:41Z",
+      "collected_at": "2026-10-14T06:01:05Z",
       "topics": [
         "politics",
         "security",
@@ -391,6 +436,20 @@
       "url": "https://www.france24.com/en/technology/20261013-fbi-arrests-saudi-openai-employee-for-allegedly-bugging-san-francisco-office",
       "published_at": "2026-10-13T23:49:41Z",
       "collected_at": "2026-10-14T05:30:52Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "2fa813c4c88b4061fadbb08c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "FBI arrests Saudi OpenAI employee for allegedly bugging San Francisco office",
+      "url": "https://www.france24.com/en/americas/20261013-fbi-arrests-saudi-openai-employee-for-allegedly-bugging-san-francisco-office",
+      "published_at": "2026-10-13T23:49:41Z",
+      "collected_at": "2026-10-14T06:01:05Z",
       "topics": [
         "politics",
         "security",
@@ -2733,34 +2792,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "12aff6a6e6d0d664f2e8a440",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Carl Cederström, sociologist: ‘Wellness has become a corporate tool. It doesn’t make you happier; just more productive’",
-      "url": "https://english.elpais.com/health/2026-10-04/carl-cederstrom-sociologist-wellness-has-become-a-corporate-tool-it-doesnt-make-you-happier-just-more-productive.html",
-      "published_at": "2026-10-04T04:00:00Z",
-      "collected_at": "2026-10-14T05:30:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "06aebc4831cfe65921713c22",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Lili Reinhart, the actress looking for success away from Hollywood clichés",
-      "url": "https://english.elpais.com/culture/2026-10-04/lili-reinhart-the-actress-looking-for-success-away-from-hollywood-cliches.html",
-      "published_at": "2026-10-04T04:00:00Z",
-      "collected_at": "2026-10-14T05:30:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     }
   ]
