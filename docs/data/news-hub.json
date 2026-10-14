@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-14T18:30:47Z",
-  "last_successful_collection_at": "2026-10-14T18:30:47Z",
+  "generated_at": "2026-10-14T19:00:52Z",
+  "last_successful_collection_at": "2026-10-14T19:00:52Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-14T18:30:47Z"
+      "at": "2026-10-14T19:00:52Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "29",
-      "at": "2026-10-14T18:30:47Z"
+      "at": "2026-10-14T19:00:52Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-14T18:30:47Z"
+      "at": "2026-10-14T19:00:52Z"
     },
     {
       "id": "euractiv",
@@ -29,48 +29,54 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-14T18:30:47Z"
+      "at": "2026-10-14T19:00:52Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-14T18:30:47Z"
+      "at": "2026-10-14T19:00:52Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-10-14T18:30:47Z"
+      "at": "2026-10-14T19:00:52Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-14T18:30:47Z"
+      "at": "2026-10-14T19:00:52Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-14T18:30:47Z"
+      "at": "2026-10-14T19:00:52Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-14T18:30:47Z"
+      "at": "2026-10-14T19:00:52Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Albanian Protests Escalate",
-      "summary": "Demonstrations in Tirana have intensified, resulting in fires at the Education Ministry and targeted destruction of businesses and government buildings. The escalating unrest highlights growing political and social tensions in the country.",
+      "title": "Escalating Student Protests in Albania",
+      "summary": "Protests in Albania's capital have escalated sharply, resulting in significant property damage and a fire at the Education Ministry. Demonstrators have taken to the streets as political tensions rise across the country.",
       "article_ids": [
         "aa9a6790d2bdcabbe32d01cf",
         "3f7629642127a8df7d690744"
       ],
       "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/albania-protests-escalate-students-torch-businesses-government-buildings",
+          "headline": "Albania’s capital burns as protests escalate",
+          "published_at": "2026-10-14T17:57:14Z"
+        },
         {
           "publisher": "Deutsche Welle",
           "url": "https://www.dw.com/en/albania-fire-at-education-ministry-as-students-protest/a-79661193?maca=en-rss-en-eu-2092-rdf",
@@ -78,14 +84,14 @@
           "published_at": "2026-10-14T14:56:00Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Ukraine Military Operations and Starlink Disruptions",
-      "summary": "Ukrainian officials have raised serious concerns regarding communication limitations and Starlink service slowdowns that threaten military missions. Observers and officers have likened the operational impact to significant strategic disruptions during ongoing conflict.",
+      "title": "Ukraine Raises Alarms Over Starlink Restrictions",
+      "summary": "Ukrainian military officials and aides have warned that restrictions and slowdowns on Starlink services are severely disrupting drone strikes and military missions. Kyiv is urgently asking the US, SpaceX, and NATO for clarification.",
       "article_ids": [
         "a02fbf7036b8bd6b5a475001",
-        "d9f77cb35230f52a3a72a7b7"
+        "f6ecd1ee022191401782de30"
       ],
       "sources": [
         {
@@ -95,10 +101,10 @@
           "published_at": "2026-10-14T15:29:44Z"
         },
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/242722/musk-joins-trump-and-putins-new-axis-of-evil-as-starlink-grounds-ukraines-medium-range-drones-ukraine-battlefield-update-day-1693",
-          "headline": "Musk joins Trump and Putin’s new axis of evil, as Starlink grounds Ukraine’s medium-range drones (Ukraine Battlefield update, Day 1,693)",
-          "published_at": "2026-10-14T13:19:55Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261014-ukraine-asking-us-spacex-and-nato-to-clarify-starlink-limitations",
+          "headline": "Ukraine asking US, SpaceX and NATO to clarify Starlink limitations",
+          "published_at": "2026-10-14T13:52:20Z"
         }
       ],
       "source_count": 2
@@ -106,28 +112,33 @@
   ],
   "top_stories": [
     {
-      "title": "Spanish Sovereignty and Royal Engagements",
-      "summary": "Spanish monarchs have conducted a key official visit to the enclave of Ceuta. During the tour, the king publicly reasserted the territory's status as an inalienable part of Spain.",
+      "title": "Ukraine Military Operations and Technology Challenges",
+      "summary": "Ukrainian officers have warned that restrictions on Starlink are severely impacting military operations and drone strikes. Officials are seeking urgent clarification from international partners regarding the service limitations.",
       "article_ids": [
-        "732be6b0a5a6e06211df43c9",
-        "1601"
+        "a02fbf7036b8bd6b5a475001",
+        "f6ecd1ee022191401782de30"
       ],
       "sources": [
         {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ukraine-starlink-restrictions-disrupt-drone-strikes",
+          "headline": "Ukrainian officers warn Starlink slowdown ‘comparable to a nuclear strike against us’",
+          "published_at": "2026-10-14T15:29:44Z"
+        },
+        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261014-ceuta-an-inalienable-part-of-spain-king-says-on-key-visit",
-          "headline": "Ceuta an 'inalienable' part of Spain, king says on key visit",
-          "published_at": "2026-10-14T13:58:45Z"
+          "url": "https://www.france24.com/en/video/20261014-ukraine-asking-us-spacex-and-nato-to-clarify-starlink-limitations",
+          "headline": "Ukraine asking US, SpaceX and NATO to clarify Starlink limitations",
+          "published_at": "2026-10-14T13:52:20Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Papal Health Updates",
-      "summary": "Medical personnel report that the Pope is currently walking and recovering as expected following recent surgery. Public updates continue to monitor his ongoing medical status.",
+      "title": "Papal Health and Recovery Status",
+      "summary": "Medical professionals report that the Pope is walking and recovering as expected following recent surgery. Updates confirm his ongoing recuperation process is progressing favorably.",
       "article_ids": [
-        "6b0b178f6150e61f52d601b1",
-        "380e8f6bb5016a49ab008d0e"
+        "6b0b178f6150e61f52d601b1"
       ],
       "sources": [
         {
@@ -135,18 +146,45 @@
           "url": "https://www.bbc.co.uk/news/articles/cwx28r0zvm6lo?at_medium=RSS&at_campaign=rss",
           "headline": "Pope walking and recovering 'as expected' after surgery, doctors say",
           "published_at": "2026-10-14T15:12:46Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/cwyvrmp9qgrgo?at_medium=RSS&at_campaign=rss",
-          "headline": "What we know about the Pope's lung cancer diagnosis",
-          "published_at": "2026-10-14T12:37:33Z"
         }
       ],
       "source_count": 1
     }
   ],
   "developing": [
+    {
+      "label": "Ukraine · Zelensky · live · Starlink",
+      "origin": "convergence",
+      "source_count": 4,
+      "item_count": 9,
+      "latest_at": "2026-10-14T17:25:18Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmx23q4dwvneo?at_medium=RSS&at_campaign=rss",
+          "headline": "Burnham treads carefully with Zelensky visit, balancing Trump and Ukraine",
+          "published_at": "2026-10-14T17:25:18Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/242722/musk-joins-trump-and-putins-new-axis-of-evil-as-starlink-grounds-ukraines-medium-range-drones-ukraine-battlefield-update-day-1693",
+          "headline": "Musk joins Trump and Putin’s new axis of evil, as Starlink grounds Ukraine’s medium-range drones (Ukraine Battlefield update, Day 1,693)",
+          "published_at": "2026-10-14T13:19:55Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261014-live-ukraine-massive-russian-attack-on-energy-facilities-at-least-six-dead",
+          "headline": "🔴Ukraine live: Russia's 'targeted' strikes on energy leave 600,000 without power, Zelensky says",
+          "published_at": "2026-10-14T06:23:02Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/andy-burnham-ukraine-support-volodymyr-zelenskyy-uk-trip",
+          "headline": "Burnham pledges ‘rock-solid support’ for Ukraine as Zelenskyy makes UK trip",
+          "published_at": "2026-10-13T21:30:00Z"
+        }
+      ]
+    },
     {
       "label": "China · EU · bringing · production",
       "origin": "convergence",
@@ -196,49 +234,56 @@
       ]
     },
     {
-      "label": "ambassador · Greece · Trump · Guilfoyle",
+      "label": "Pope · cancer · diagnosis · lung",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 5,
-      "latest_at": "2026-10-14T09:35:51Z",
+      "latest_at": "2026-10-14T12:37:33Z",
       "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/cwyvrmp9qgrgo?at_medium=RSS&at_campaign=rss",
+          "headline": "What we know about the Pope's lung cancer diagnosis",
+          "published_at": "2026-10-14T12:37:33Z"
+        },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261014-trump-fires-greece-ambassador-guilfoyle-over-ethics-scandal",
-          "headline": "Trump fires Greece ambassador Guilfoyle over ethics scandal",
-          "published_at": "2026-10-14T09:35:51Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cr5ynplvpg7lo?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
-          "published_at": "2026-10-13T19:23:28Z"
-        }
-      ]
-    },
-    {
-      "label": "front · Ukraine · line · restrictions",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-14T15:36:50Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/242617/black-sea-becomes-new-front-in-russia-ukraine-wars-on-grain-exports-with-no-alternative-eu-route-to-get-shipments-out",
-          "headline": "Black Sea becomes new front in Russia-Ukraine wars on grain exports, with no alternative EU route to get shipments out",
-          "published_at": "2026-10-14T15:36:50Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
-          "headline": "Starlink restrictions affecting Ukraine's front line operations, Kyiv says",
-          "published_at": "2026-10-14T11:32:07Z"
+          "url": "https://www.france24.com/en/video/20261014-faithful-pray-for-pope-leo-after-lung-cancer-diagnosis",
+          "headline": "Faithful pray for Pope Leo after lung cancer diagnosis",
+          "published_at": "2026-10-14T10:55:06Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "9a8cc818755546c70f2e1f9b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Medellín begins demolition of a house owned by Pablo Escobar where alleged ‘satanic rituals’ took place",
+      "url": "https://english.elpais.com/international/2026-10-14/medellin-begins-demolition-of-a-house-owned-by-pablo-escobar-where-alleged-satanic-rituals-took-place.html",
+      "published_at": "2026-10-14T18:43:52Z",
+      "collected_at": "2026-10-14T19:00:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "ea46a5c2595e5adb1eb59b27",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Le Pen vows to downsize EU as she brings contribution cut fight to Brussels",
+      "url": "https://www.politico.eu/article/le-pen-downsize-eu-contribution-cut-brussels",
+      "published_at": "2026-10-14T18:35:43Z",
+      "collected_at": "2026-10-14T19:00:52Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "7a6aa4f83cae7b96ee9a074c",
       "source_id": "euobserver",
