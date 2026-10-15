@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-15T15:01:10Z",
-  "last_successful_collection_at": "2026-10-15T15:01:10Z",
+  "generated_at": "2026-10-15T15:30:44Z",
+  "last_successful_collection_at": "2026-10-15T15:30:44Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-15T15:01:10Z"
+      "at": "2026-10-15T15:30:44Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-15T15:01:10Z"
+      "at": "2026-10-15T15:30:44Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-15T15:01:10Z"
+      "at": "2026-10-15T15:30:44Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,47 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-15T15:01:10Z"
+      "at": "2026-10-15T15:30:44Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-15T15:01:10Z"
+      "at": "2026-10-15T15:30:44Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
-      "count": "58",
-      "at": "2026-10-15T15:01:10Z"
+      "count": "59",
+      "at": "2026-10-15T15:30:44Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-15T15:01:10Z"
+      "at": "2026-10-15T15:30:44Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-15T15:01:10Z"
+      "at": "2026-10-15T15:30:44Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-15T15:01:10Z"
+      "at": "2026-10-15T15:30:44Z"
     }
   ],
   "europe_now": [
     {
-      "title": "NATO Allies Convene Following Drone Strikes on Black Sea Shipping",
-      "summary": "Drone attacks have ignited commercial vessels off the coast of Romania, leaving multiple crew members unaccounted for. In response to the growing threat to regional shipping lanes, NATO member states are convening to coordinate security measures.",
+      "title": "Black Sea Maritime Incident",
+      "summary": "Seven crew members remain missing after a drone attack caused a major fire on a tanker off the coast of Romania. NATO allies are scheduled to convene to address the escalating security risks to regional shipping.",
       "article_ids": [
         "27d2b9f55ae228807911eaae",
-        "bd1c0e6e1e5c92c33afafa35"
+        "bd1c0e6e1e5c92c33afafa35",
+        "b175f0d065efd6b8df16c436"
       ],
       "sources": [
         {
@@ -85,40 +86,13 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Black Sea Drone Strikes Trigger Search Operations and Allied Talks",
-      "summary": "Drone strikes ignited fires on shipping vessels off the Romanian coast, leaving several crew members missing at sea. Following the incidents, NATO member countries arranged a meeting to address maritime security hazards in the Black Sea.",
-      "article_ids": [
-        "27d2b9f55ae228807911eaae",
-        "bd1c0e6e1e5c92c33afafa35",
-        "b175f0d065efd6b8df16c436"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/nato-black-sea-drone-attack-ship-meet",
-          "headline": "NATO allies to meet over Black Sea drone attacks on shipping",
-          "published_at": "2026-10-15T13:41:08Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/romania-2-ships-on-fire-in-black-sea-7-crew-missing/a-79667003?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Romania: 2 ships on fire in Black Sea, 7 crew missing",
-          "published_at": "2026-10-15T11:27:00Z"
-        }
-      ],
-      "source_count": 2
     },
     {
-      "title": "Student Protests Escalate in Albania with Attacks on EU Campus",
-      "summary": "Demonstrators across Albania have staged large-scale protests demanding the resignation of the prime minister amid discontent over jobs and education. During the demonstrations, a branch campus of the College of Europe was subjected to looting and set on fire.",
+      "title": "Albanian Student Protests",
+      "summary": "Demonstrations in Albania have escalated sharply, resulting in clashes with police and the looting of an EU campus facility. Protestors continue to demand the resignation of the prime minister amid the unrest.",
       "article_ids": [
         "f64da33e2f0a09810063bc92",
-        "b1efee8569ca039a926649bc",
-        "bfdf6d4b3d81b1ae3f48291f"
+        "b1efee8569ca039a926649bc"
       ],
       "sources": [
         {
@@ -135,15 +109,51 @@
         }
       ],
       "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Black Sea Maritime Security",
+      "summary": "A drone strike caused a severe fire on a tanker operating off the Romanian coastline, leaving several crew members missing. Defense allies are preparing to discuss the security implications of these maritime attacks.",
+      "article_ids": [
+        "27d2b9f55ae228807911eaae",
+        "bd1c0e6e1e5c92c33afafa35"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/nato-black-sea-drone-attack-ship-meet",
+          "headline": "NATO allies to meet over Black Sea drone attacks on shipping",
+          "published_at": "2026-10-15T13:41:08Z"
+        }
+      ],
+      "source_count": 1
     },
     {
-      "title": "EU Leaders Navigate Tensions Over Budgetary Allocations and Trade",
-      "summary": "European Union leaders are meeting to debate the bloc's long-term budget framework and ongoing financial assistance for Ukraine. Member states showed alignment on adopting stronger trade defense measures toward China, though divisions remain over carbon pricing rules.",
+      "title": "Unrest in Albania",
+      "summary": "Anti-government demonstrations in Albania have turned increasingly destructive as protesters clash with police forces. Educational infrastructure, including an EU campus building, suffered significant damage during the disturbances.",
       "article_ids": [
-        "849afc4fa9c88d0f225f29bf",
-        "15bd1f23b518ef2a80f6e63d",
-        "0eff8e3a26befac19ffa880a"
+        "89f496f6e51b48c170056d85",
+        "f64da33e2f0a09810063bc92"
       ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261015-police-and-protesters-face-off-in-albania-on-third-day-of-anti-govt-demonstrations",
+          "headline": "Police and protesters face off in Albania on third day of anti-govt demonstrations",
+          "published_at": "2026-10-15T15:02:30Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
+    {
+      "label": "EU · leaders · budget · China",
+      "origin": "convergence",
+      "source_count": 4,
+      "item_count": 13,
+      "latest_at": "2026-10-15T14:02:54Z",
       "sources": [
         {
           "publisher": "EUobserver",
@@ -153,37 +163,29 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261015-eu-leaders-to-clash-over-long-term-budget-ukraine-support",
-          "headline": "EU leaders to clash over long-term budget, Ukraine support",
-          "published_at": "2026-10-15T10:11:14Z"
+          "url": "https://www.france24.com/en/tv-shows/business/20261015-china-north-korea-open-long-delayed-trade-bridge",
+          "headline": "China, North Korea open long-delayed trade bridge",
+          "published_at": "2026-10-15T12:20:08Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/eu-summit-to-focus-on-china-ukraine-and-bloc-budget/a-79665338?maca=en-rss-en-eu-2092-rdf",
+          "headline": "EU summit to focus on China, Ukraine and bloc budget",
+          "published_at": "2026-10-15T06:43:00Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/eu-leaders-face-off-over-the-budget",
+          "headline": "EU leaders face off over the budget",
+          "published_at": "2026-10-15T04:00:00Z"
         }
-      ],
-      "source_count": 2
+      ]
     },
     {
-      "title": "Renewed Drone Operations Target Russian Energy Infrastructure",
-      "summary": "Ukrainian leadership confirmed the continuation of military strikes aimed at disrupting Russian petroleum refining facilities. Russian authorities subsequently reported that a domestic refinery had been struck by an attack.",
-      "article_ids": [
-        "46225332de17850faf8e12af",
-        "930dd42f2d6e05261ba09f2e"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261015-ukraine-s-zelensky-defies-trump-with-russian-refinery-strikes",
-          "headline": "Ukraine's Zelensky defies Trump with Russian refinery strikes",
-          "published_at": "2026-10-15T12:34:17Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
-    {
-      "label": "Ukraine · Russia · Live · strikes",
+      "label": "Russia · Ukraine · strikes · Black",
       "origin": "convergence",
       "source_count": 4,
-      "item_count": 8,
+      "item_count": 5,
       "latest_at": "2026-10-15T12:03:51Z",
       "sources": [
         {
@@ -213,17 +215,17 @@
       ]
     },
     {
-      "label": "Ukraine · Musk · US · behind",
+      "label": "Ukraine · US · Musk · Starlink",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 9,
-      "latest_at": "2026-10-15T12:39:04Z",
+      "item_count": 12,
+      "latest_at": "2026-10-15T14:59:39Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261015-elon-musk-and-donald-trump-what-their-growing-ties-mean-for-ukraine",
-          "headline": "Elon Musk and Donald Trump: What their growing ties mean for Ukraine",
-          "published_at": "2026-10-15T12:39:04Z"
+          "url": "https://www.france24.com/en/video/20261015-ukraine-struggles-with-starlink-and-us-satellite-data-as-missiles-hit-kyiv",
+          "headline": "Ukraine struggles with Starlink and US satellite data as missiles hit Kyiv",
+          "published_at": "2026-10-15T14:59:39Z"
         },
         {
           "publisher": "BBC News Europe",
@@ -234,49 +236,140 @@
       ]
     },
     {
-      "label": "Russian · security",
+      "label": "Trump · Ukraine · Zelensky",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-10-15T14:09:37Z",
+      "item_count": 3,
+      "latest_at": "2026-10-15T12:39:04Z",
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russia-federal-security-service-detain-sweden-citizen-espionage",
-          "headline": "Russian security service detains Swedish citizen for espionage",
-          "published_at": "2026-10-15T14:09:37Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261015-elon-musk-and-donald-trump-what-their-growing-ties-mean-for-ukraine",
+          "headline": "Elon Musk and Donald Trump: What their growing ties mean for Ukraine",
+          "published_at": "2026-10-15T12:39:04Z"
         },
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/242692/europes-reliance-on-us-gas-is-as-serious-a-risk-to-eu-and-ukrainian-security-as-its-addiction-to-russian-gas-used-to-be",
-          "headline": "Europe’s reliance on US gas is as serious a risk to EU and Ukrainian security as its addiction to Russian gas used to be",
-          "published_at": "2026-10-14T18:00:00Z"
-        }
-      ]
-    },
-    {
-      "label": "bring · EU",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-10-15T08:20:33Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/242817/listen-will-andy-burnham-manage-to-bring-the-uk-back-into-the-eu",
-          "headline": "Listen: Will Andy Burnham manage to bring the UK back into the EU?",
-          "published_at": "2026-10-15T08:20:33Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/le-pen-downsize-eu-contribution-cut-brussels",
-          "headline": "Le Pen vows to downsize EU as she brings contribution cut fight to Brussels",
-          "published_at": "2026-10-14T18:35:43Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmx23q4dwvneo?at_medium=RSS&at_campaign=rss",
+          "headline": "Burnham treads carefully with Zelensky visit, balancing Trump and Ukraine",
+          "published_at": "2026-10-14T17:25:18Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "de26b1de553380664aa4d72b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The cost of basic groceries, measured in wages: 1.2 hours of work in Ireland and a month in the Central African Republic",
+      "url": "https://english.elpais.com/international/2026-10-15/the-cost-of-basic-groceries-measured-in-wages-12-hours-of-work-in-ireland-and-a-month-in-the-central-african-republic.html",
+      "published_at": "2026-10-15T15:14:22Z",
+      "collected_at": "2026-10-15T15:30:44Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "16edf66696a7c5a8d368e775",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "West Nile virus creeps north in record year for EU cases",
+      "url": "https://www.politico.eu/article/west-nile-virus-creeps-north-in-record-year-for-eu-cases",
+      "published_at": "2026-10-15T15:12:36Z",
+      "collected_at": "2026-10-15T15:30:44Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "9bfc21c6d5b903ba3b4de9aa",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France charges teen shooter citing revenge for bullying in school",
+      "url": "https://www.france24.com/en/video/20261015-france-charges-teen-shooter-citing-revenge-for-bullying-in-school",
+      "published_at": "2026-10-15T15:06:36Z",
+      "collected_at": "2026-10-15T15:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "2dbf043a014ed2cd3855be82",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US consumer inflation hotter than expected as midterms loom",
+      "url": "https://www.france24.com/en/video/20261015-us-consumer-inflation-hotter-than-expected-as-midterms-loom",
+      "published_at": "2026-10-15T15:05:25Z",
+      "collected_at": "2026-10-15T15:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "6d60d2590e064d65db9047bd",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Israel ex-security chief sues Netanyahu over October 7 claims",
+      "url": "https://www.france24.com/en/video/20261015-israel-ex-security-chief-sues-netanyahu-over-october-7-claims",
+      "published_at": "2026-10-15T15:04:02Z",
+      "collected_at": "2026-10-15T15:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "89f496f6e51b48c170056d85",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Police and protesters face off in Albania on third day of anti-govt demonstrations",
+      "url": "https://www.france24.com/en/video/20261015-police-and-protesters-face-off-in-albania-on-third-day-of-anti-govt-demonstrations",
+      "published_at": "2026-10-15T15:02:30Z",
+      "collected_at": "2026-10-15T15:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "b4d318777d1e5ee8e0755ee6",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Former US generals push to stop 'barbaric' firing squad execution livestream",
+      "url": "https://www.france24.com/en/video/20261015-former-us-generals-push-to-stop-barbaric-firing-squad-execution-livestream",
+      "published_at": "2026-10-15T15:01:29Z",
+      "collected_at": "2026-10-15T15:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "d13234af7418eb70cd27087a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ukraine struggles with Starlink and US satellite data as missiles hit Kyiv",
+      "url": "https://www.france24.com/en/video/20261015-ukraine-struggles-with-starlink-and-us-satellite-data-as-missiles-hit-kyiv",
+      "published_at": "2026-10-15T14:59:39Z",
+      "collected_at": "2026-10-15T15:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "59e2b550a453b64f817eb962",
       "source_id": "france24",
@@ -331,6 +424,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "ed0aac6e5a3694b0f78162b4",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Sofía Monsalve, UN special rapporteur on the right to food: ‘Famine is being normalized by dehumanizing a population’",
+      "url": "https://english.elpais.com/international/2026-10-15/sofia-monsalve-un-special-rapporteur-on-the-right-to-food-famine-is-being-normalized-by-dehumanizing-a-population.html",
+      "published_at": "2026-10-15T14:40:04Z",
+      "collected_at": "2026-10-15T15:30:44Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -474,6 +581,20 @@
       ]
     },
     {
+      "id": "42e7b79c219969a5c0750bc1",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Working to change the culture from within in Argentine women’s soccer",
+      "url": "https://english.elpais.com/sports/2026-10-15/working-to-change-the-culture-from-within-in-argentine-womens-soccer.html",
+      "published_at": "2026-10-15T13:07:54Z",
+      "collected_at": "2026-10-15T15:30:44Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "c9199e3c4061295779cf763a",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -485,6 +606,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "261689f7a0b882c8501a5b69",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The researchers who achieved Chile’s first cloned horse: ‘It would not be complicated to clone humans; the only limitation is ethical’",
+      "url": "https://english.elpais.com/international/2026-10-15/the-researchers-who-achieved-chiles-first-cloned-horse-it-would-not-be-complicated-to-clone-humans-the-only-limitation-is-ethical.html",
+      "published_at": "2026-10-15T12:42:21Z",
+      "collected_at": "2026-10-15T15:30:44Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -541,6 +676,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "60b230a6dc5781c3056bc43c",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Colombia’s left flexes its muscles in first street protests against De la Espriella",
+      "url": "https://english.elpais.com/international/2026-10-15/colombias-left-flexes-its-muscles-in-first-street-protests-against-de-la-espriella.html",
+      "published_at": "2026-10-15T12:29:35Z",
+      "collected_at": "2026-10-15T15:30:44Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -1237,6 +1386,20 @@
       "url": "https://euobserver.com/242640/he-seemed-happy-families-still-waiting-for-news-of-vanished-ceuta-migrants-as-eu-leaders-discuss-stronger-borders",
       "published_at": "2026-10-15T05:36:00Z",
       "collected_at": "2026-10-15T06:01:00Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "7d6fe8470e76f9ab007fb74c",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "‘He seemed happy’: families still waiting for news of vanished Ceuta migrants, as EU leaders discuss stronger borders",
+      "url": "https://euobserver.com/242640/he-seemed-happy-families-still-waiting-for-news-of-vanished-ceuta-migrants-as-eu-leaders-discuss-stronger-borders",
+      "published_at": "2026-10-15T05:36:00Z",
+      "collected_at": "2026-10-15T15:30:44Z",
       "topics": [
         "institutions",
         "policy",
@@ -2609,104 +2772,6 @@
       "url": "https://english.elpais.com/international/2026-10-11/students-recruited-via-telegram-amateur-saboteurs-and-hitmen-how-russia-outsources-its-operations-in-europe.html",
       "published_at": "2026-10-11T04:00:00Z",
       "collected_at": "2026-10-15T04:30:49Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "0b0ff420e574d9b01e0fc7d5",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Sarah Schulman, writer: ‘Perpetrators now present themselves as victims’",
-      "url": "https://english.elpais.com/culture/2026-10-11/sarah-schulman-writer-perpetrators-now-present-themselves-as-victims.html",
-      "published_at": "2026-10-11T04:00:00Z",
-      "collected_at": "2026-10-15T12:00:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "1dd5d851ca0e7f64bf1910c6",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Nord Stream trial: How German police followed the evidence - to Ukraine",
-      "url": "https://www.bbc.co.uk/news/articles/c317ke5ngrq7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T04:51:57Z",
-      "collected_at": "2026-10-14T15:30:56Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "81c76889448f34d19a9077a8",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "'Everyone hates the police' – what France's school protests reveal about a divided nation",
-      "url": "https://www.bbc.co.uk/news/articles/crq5nlqnn184o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-09T23:24:33Z",
-      "collected_at": "2026-10-14T15:30:56Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "f45788af21c357c7e11ad999",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
-      "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-09T22:30:22Z",
-      "collected_at": "2026-10-14T15:30:56Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "8ac363588483d2dbff33453f",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Uniqlo doubles Inditex’s growth rate as it targets the top spot in global fashion",
-      "url": "https://english.elpais.com/economy-and-business/2026-10-09/uniqlo-doubles-inditexs-growth-rate-as-it-targets-the-top-spot-in-global-fashion.html",
-      "published_at": "2026-10-09T13:55:12Z",
-      "collected_at": "2026-10-15T15:01:10Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "4d2d13e7a1116aa22a8e8392",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Poland: Lifeline for Ukrainian refugees confronts donor fatigue and online abuse as anti-Ukrainian sentiment grows",
-      "url": "https://www.dw.com/en/poland-lifeline-for-ukrainian-refugees-confronts-donor-fatigue-and-online-abuse-as-anti-ukrainian-sentiment-grows/a-79613292?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-09T12:50:00Z",
-      "collected_at": "2026-10-15T14:00:58Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "984592b84c24f2a07aa29a85",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The just-world hypothesis and other mental traps that guide us, but that we can avoid",
-      "url": "https://english.elpais.com/eps/2026-10-01/the-just-world-hypothesis-and-other-mental-traps-that-guide-us-but-that-we-can-avoid.html",
-      "published_at": "2026-10-01T12:42:55Z",
-      "collected_at": "2026-10-15T15:01:10Z",
       "topics": [
         "politics",
         "society",
