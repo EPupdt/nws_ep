@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-16T05:00:54Z",
-  "last_successful_collection_at": "2026-10-16T05:00:54Z",
+  "generated_at": "2026-10-16T05:30:43Z",
+  "last_successful_collection_at": "2026-10-16T05:30:43Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-16T05:00:54Z"
+      "at": "2026-10-16T05:30:43Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-10-16T05:00:54Z"
+      "at": "2026-10-16T05:30:43Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-16T05:00:54Z"
+      "at": "2026-10-16T05:30:43Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,44 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-16T05:00:54Z"
+      "at": "2026-10-16T05:30:43Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-16T05:00:54Z"
+      "at": "2026-10-16T05:30:43Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-10-16T05:00:54Z"
+      "at": "2026-10-16T05:30:43Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-16T05:00:54Z"
+      "at": "2026-10-16T05:30:43Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-16T05:00:54Z"
+      "at": "2026-10-16T05:30:43Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-16T05:00:54Z"
+      "at": "2026-10-16T05:30:43Z"
     }
   ],
-  "europe_now": [
+  "europe_now": [],
+  "top_stories": [
     {
-      "title": "Channel Tunnel Entryway Collision Injures 19",
-      "summary": "Nineteen people suffered injuries when a minibus collided with a stationary train on the French side of the Channel Tunnel entrance. Emergency services responded to the incident, which caused significant disruptions in the transport hub.",
+      "title": "Channel Tunnel Transport Collision",
+      "summary": "A bus crashed into a stationary train on the French side of the Channel Tunnel entrance. Officials confirmed that nineteen individuals sustained injuries during the collision.",
       "article_ids": [
         "514cc9bc6ea6232c87091b84",
         "43d3c59f4892e18fc4d686d1"
@@ -87,54 +88,14 @@
       "source_count": 2
     },
     {
-      "title": "Black Sea Drone Incident Leaves Several Missing",
-      "summary": "At least seven individuals are reported missing off the coast of Romania following a series of recent drone attacks in the Black Sea region. Security officials continue to monitor the maritime area amid escalating military tensions.",
+      "title": "European Diplomacy and Transatlantic Tensions Over Ukraine",
+      "summary": "Ukrainian President Volodymyr Zelensky appealed to European partners to solidify their support in the wake of wavering American commitments. European officials expressed dismay after Donald Trump condemned renewed Ukrainian drone strikes against Russian petroleum refineries.",
       "article_ids": [
-        "45bf42f89d33af09ff2e0e50"
+        "89139747f88da353d791c659",
+        "7fb6eb4126127703fb258b98",
+        "be8a7f56f7e612166daf2789",
+        "7993a81d63482bb1e616a35c"
       ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/seven-missing-off-romania-after-latest-black-sea-drone-attacks",
-          "headline": "Seven missing off Romania after latest Black Sea drone attacks",
-          "published_at": "2026-10-15T19:04:12Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Franco-German Agreement on Car Emissions Regulations",
-      "summary": "France and Germany successfully reached a new compromise to ease strict European Union car emissions rules following initial delays and discord. This agreement addresses major industrial concerns within the bloc while shaping future environmental policy.",
-      "article_ids": [
-        "17d45021db4e72d703dca627",
-        "e32d8aa59b9498677dd03192"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261015-france-and-germany-agree-to-ease-eu-car-emissions-rules-in-new-deal",
-          "headline": "France and Germany agree to ease EU car emissions rules in new deal",
-          "published_at": "2026-10-15T23:48:57Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/franco-german-made-in-europe-deal-delays-car-emissions",
-          "headline": "Late discord delays Franco-German deal on Made in Europe, car emissions",
-          "published_at": "2026-10-15T21:22:12Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
-    {
-      "label": "Ukraine · Trump · strikes · Zelensky",
-      "origin": "convergence",
-      "source_count": 4,
-      "item_count": 11,
-      "latest_at": "2026-10-16T01:50:10Z",
       "sources": [
         {
           "publisher": "France 24 English",
@@ -144,21 +105,64 @@
         },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/trump-putin-terrible-alliance-threatens-strain-eu-resolve-ukraine",
-          "headline": "Trump and Putin’s ‘terrible’ alliance threatens to strain EU’s resolve on Ukraine",
-          "published_at": "2026-10-16T00:39:32Z"
-        },
+          "url": "https://www.politico.eu/article/petteri-orpo-finland-slams-donald-trump-siding-with-vladimir-putin-against-ukraine",
+          "headline": "‘No logic’: Finland slams Trump for siding with Putin against Ukraine",
+          "published_at": "2026-10-15T19:21:45Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "European Union Summit Disagreements Over Budget Timeline",
+      "summary": "Leaders within the European Union postponed formal budget negotiations until November following heated disagreements at the Brussels summit. Several national leaders emphasized that an agreement on the financial framework must be finalized before the year concludes.",
+      "article_ids": [
+        "8c9962c00aa24ff4c4a0bfdf",
+        "d727cb5a8740dd925fc6e25d",
+        "a15cb727de6a534e1817dc83",
+        "2e524c91a7303cb64b63b8ee"
+      ],
+      "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/242927/zelensky-has-had-enough-ukrainians-strike-refineries-again-without-starlink-ukraine-battlefield-update-day-1694",
-          "headline": "Zelensky has had enough. Ukrainians strike refineries again — without Starlink (Ukraine Battlefield update, day 1,694)",
-          "published_at": "2026-10-15T15:32:06Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/budget-showdown-november-antonio-costa-deal-european-council-summit",
+          "headline": "Budget showdown slips to November as Costa pushes for quick deal",
+          "published_at": "2026-10-16T00:56:56Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
+    {
+      "label": "missing · Romania · attacks · drone",
+      "origin": "convergence",
+      "source_count": 4,
+      "item_count": 8,
+      "latest_at": "2026-10-15T19:04:12Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/seven-missing-off-romania-after-latest-black-sea-drone-attacks",
+          "headline": "Seven missing off Romania after latest Black Sea drone attacks",
+          "published_at": "2026-10-15T19:04:12Z"
         },
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
-          "published_at": "2026-10-15T12:03:51Z"
+          "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss",
+          "headline": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
+          "published_at": "2026-10-15T14:51:30Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/nato-black-sea-drone-attack-ship-meet",
+          "headline": "NATO allies to meet over Black Sea drone attacks on shipping",
+          "published_at": "2026-10-15T13:41:08Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/romania-2-ships-on-fire-in-black-sea-7-crew-missing/a-79667003?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Romania: 2 ships on fire in Black Sea, 7 crew missing",
+          "published_at": "2026-10-15T11:27:00Z"
         }
       ]
     },
@@ -190,6 +194,33 @@
       ]
     },
     {
+      "label": "EU · deal · leaders · agree",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 5,
+      "latest_at": "2026-10-15T23:48:57Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261015-france-and-germany-agree-to-ease-eu-car-emissions-rules-in-new-deal",
+          "headline": "France and Germany agree to ease EU car emissions rules in new deal",
+          "published_at": "2026-10-15T23:48:57Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/243045/pressure-mounts-on-eu-leaders-to-strike-a-budget-deal-by-december",
+          "headline": "Pressure mounts on EU leaders to strike a budget deal by December",
+          "published_at": "2026-10-15T22:03:22Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/emmanuel-macron-euco-eu-leaders-they-need-budget-end-of-year",
+          "headline": "Macron warns EU leaders they need to agree budget by end of year",
+          "published_at": "2026-10-15T18:21:52Z"
+        }
+      ]
+    },
+    {
       "label": "Ukraine · War · Russia · Starlink",
       "origin": "convergence",
       "source_count": 2,
@@ -207,27 +238,6 @@
           "url": "https://www.france24.com/en/tv-shows/press-review/20261015-american-abandonment-threatens-ukraine-s-civilians-in-war-against-russia",
           "headline": "'American abandonment' threatens Ukraine's civilians in war against Russia",
           "published_at": "2026-10-15T11:09:09Z"
-        }
-      ]
-    },
-    {
-      "label": "budget · EU",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-15T20:33:18Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/eu-member-states-set-for-budget-clash",
-          "headline": "EU member states set for budget clash",
-          "published_at": "2026-10-15T20:33:18Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-budget-cyprus-president-euco-summit-politico",
-          "headline": "Shorten EU budget to 3 or 4 years, Cyprus president tells POLITICO",
-          "published_at": "2026-10-15T20:21:15Z"
         }
       ]
     }
@@ -2723,6 +2733,34 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "46266003fff3496a42ba1a2d",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "A journey to Ningde, the Chinese city turned world capital of batteries for electric cars",
+      "url": "https://english.elpais.com/economy-and-business/2026-10-10/a-journey-to-ningde-the-chinese-city-turned-world-capital-of-batteries-for-electric-cars.html",
+      "published_at": "2026-10-10T04:00:00Z",
+      "collected_at": "2026-10-16T05:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "568c377a66a4b15874fe89ad",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Eleni Aggelakopoulou, chief conservator at the Acropolis in Athens: ‘I, too, have cried in front of the Parthenon’",
+      "url": "https://english.elpais.com/culture/2026-10-10/eleni-aggelakopoulou-chief-conservator-at-the-acropolis-in-athens-i-too-have-cried-in-front-of-the-parthenon.html",
+      "published_at": "2026-10-10T04:00:00Z",
+      "collected_at": "2026-10-16T05:30:43Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     }
   ]
