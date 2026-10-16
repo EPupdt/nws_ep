@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-16T07:30:44Z",
-  "last_successful_collection_at": "2026-10-16T07:30:44Z",
+  "generated_at": "2026-10-16T08:00:57Z",
+  "last_successful_collection_at": "2026-10-16T08:00:57Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-16T07:30:44Z"
+      "at": "2026-10-16T08:00:57Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-10-16T07:30:44Z"
+      "at": "2026-10-16T08:00:57Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-16T07:30:44Z"
+      "at": "2026-10-16T08:00:57Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-16T07:30:44Z"
+      "at": "2026-10-16T08:00:57Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-16T07:30:44Z"
+      "at": "2026-10-16T08:00:57Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-10-16T07:30:44Z"
+      "at": "2026-10-16T08:00:57Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-16T07:30:44Z"
+      "at": "2026-10-16T08:00:57Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-16T07:30:44Z"
+      "at": "2026-10-16T08:00:57Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-16T07:30:44Z"
+      "at": "2026-10-16T08:00:57Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Black Sea Maritime Incident",
-      "summary": "Seven people are missing off the coast of Romania following recent drone attacks in the Black Sea region.",
+      "title": "Black Sea Maritime Security Incidents",
+      "summary": "Seven individuals are reported missing off the coast of Romania following recent drone attacks in the Black Sea region.",
       "article_ids": [
         "45bf42f89d33af09ff2e0e50"
       ],
@@ -81,9 +81,11 @@
     },
     {
       "title": "Channel Tunnel Transport Incident",
-      "summary": "A minibus crashed into a train at the French entrance of the Channel Tunnel, resulting in 19 injuries.",
+      "summary": "A minibus collided with a train at the entrance of the Channel Tunnel on the French side, resulting in nineteen injuries.",
       "article_ids": [
-        "514cc9bc6ea6232c87091b84"
+        "514cc9bc6ea6232c87091b84",
+        "54463cb454522a290d722745",
+        "43d3c59f4892e18fc4d686d1"
       ],
       "sources": [
         {
@@ -91,18 +93,25 @@
           "url": "https://www.france24.com/en/europe/20261016-19-injured-as-minibus-crashes-into-train-at-channel-tunnel-entrance",
           "headline": "19 injured as minibus crashes into train at Channel Tunnel entrance",
           "published_at": "2026-10-16T00:53:16Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss",
+          "headline": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured",
+          "published_at": "2026-10-15T21:12:14Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "European Union Budget Negotiations",
-      "summary": "European Union leaders face mounting pressure and internal divisions as discussions regarding the bloc's budget extend toward November. Emmanuel Macron and other leaders have emphasized the necessity of finalizing an agreement before the end of the year.",
+      "title": "EU Budget and Policy Negotiations",
+      "summary": "European Union leaders are experiencing internal divisions and delays regarding the bloc's budget timeline and upcoming funding decisions. Antonio Costa continues efforts to secure a formal agreement amidst diverging proposals from member states.",
       "article_ids": [
         "8c9962c00aa24ff4c4a0bfdf",
-        "a15cb727de6a534e1817dc83"
+        "d727cb5a8740dd925fc6e25d",
+        "2e524c91a7303cb64b63b8ee"
       ],
       "sources": [
         {
@@ -112,18 +121,19 @@
           "published_at": "2026-10-16T00:56:56Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/emmanuel-macron-euco-eu-leaders-they-need-budget-end-of-year",
-          "headline": "Macron warns EU leaders they need to agree budget by end of year",
-          "published_at": "2026-10-15T18:21:52Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/243045/pressure-mounts-on-eu-leaders-to-strike-a-budget-deal-by-december",
+          "headline": "Pressure mounts on EU leaders to strike a budget deal by December",
+          "published_at": "2026-10-15T22:03:22Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
       "title": "Franco-German Emissions Agreement",
-      "summary": "France and Germany reached a new agreement to ease European Union car emissions rules following earlier delays caused by policy discord. The compromise addresses key automotive regulatory concerns between the two nations.",
+      "summary": "France and Germany reached a new cooperative understanding aimed at easing strict European Union car emissions regulations. However, the final implementation process faced temporary domestic political objections within governing coalitions.",
       "article_ids": [
+        "f9f0ca9d91f701996420c86b",
         "17d45021db4e72d703dca627",
         "e32d8aa59b9498677dd03192"
       ],
@@ -146,10 +156,10 @@
   ],
   "developing": [
     {
-      "label": "Ukraine · Trump · strikes · Zelensky",
+      "label": "Ukraine · Trump · Zelensky · calls",
       "origin": "convergence",
-      "source_count": 4,
-      "item_count": 11,
+      "source_count": 3,
+      "item_count": 8,
       "latest_at": "2026-10-16T01:50:10Z",
       "sources": [
         {
@@ -160,42 +170,15 @@
         },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/trump-putin-terrible-alliance-threatens-strain-eu-resolve-ukraine",
-          "headline": "Trump and Putin’s ‘terrible’ alliance threatens to strain EU’s resolve on Ukraine",
-          "published_at": "2026-10-16T00:39:32Z"
+          "url": "https://www.politico.eu/article/petteri-orpo-finland-slams-donald-trump-siding-with-vladimir-putin-against-ukraine",
+          "headline": "‘No logic’: Finland slams Trump for siding with Putin against Ukraine",
+          "published_at": "2026-10-15T19:21:45Z"
         },
         {
           "publisher": "EUobserver",
           "url": "https://euobserver.com/242927/zelensky-has-had-enough-ukrainians-strike-refineries-again-without-starlink-ukraine-battlefield-update-day-1694",
           "headline": "Zelensky has had enough. Ukrainians strike refineries again — without Starlink (Ukraine Battlefield update, day 1,694)",
           "published_at": "2026-10-15T15:32:06Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
-          "published_at": "2026-10-15T12:03:51Z"
-        }
-      ]
-    },
-    {
-      "label": "EU · summit · leaders · gas",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 6,
-      "latest_at": "2026-10-16T04:00:00Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/eu-summit-runs-out-of-gas",
-          "headline": "EU summit runs out of gas",
-          "published_at": "2026-10-16T04:00:00Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/242983/zelensky-urges-unity-more-money-for-ukraine-and-sanctions-on-russia-ahead-of-key-summit-with-eu-leaders",
-          "headline": "Zelensky urges unity, more money for Ukraine and sanctions on Russia ahead of key summit with EU leaders",
-          "published_at": "2026-10-15T16:47:27Z"
         }
       ]
     },
@@ -240,9 +223,72 @@
           "published_at": "2026-10-15T10:23:45Z"
         }
       ]
+    },
+    {
+      "label": "EU · gas · summit",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-10-16T04:00:00Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/eu-summit-runs-out-of-gas",
+          "headline": "EU summit runs out of gas",
+          "published_at": "2026-10-16T04:00:00Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/242838/at-this-summit-the-eu-is-throwing-its-values-out-of-the-window-on-asylum",
+          "headline": "At this summit, the EU is throwing its values out of the window on asylum",
+          "published_at": "2026-10-15T10:21:28Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "ee74a0371a9dca2670b1e60f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France’s student protests: Larger crowds risk overshadowing students’ demands",
+      "url": "https://www.france24.com/en/france-s-student-protests-larger-crowds-risk-overshadowing-students-demands",
+      "published_at": "2026-10-16T07:41:39Z",
+      "collected_at": "2026-10-16T08:00:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f9f0ca9d91f701996420c86b",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Deutsch-Französische Einigung zu „Made in Europe“ und Autoabgasen verzögert sich – SPD erhebt Einwände",
+      "url": "https://www.politico.eu/article/deutsch-franzoesische-einigung-zu-made-in-europe-und-autoabgasen-verzoegert-sich-spd-erhebt-einwaende",
+      "published_at": "2026-10-16T07:35:00Z",
+      "collected_at": "2026-10-16T08:00:57Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "78dc2a08685dcd9bf34b627a",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "EU leaders to resume talks on the bloc’s security — from Ukraine to defense",
+      "url": "https://www.politico.eu/article/eu-leaders-talk-energy-crisis-and-budget-european-council-summit-live-updates",
+      "published_at": "2026-10-16T07:33:16Z",
+      "collected_at": "2026-10-16T08:00:57Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "2f009f5ed42403f56e9ade4a",
       "source_id": "politico_europe",
@@ -2274,20 +2320,6 @@
       ]
     },
     {
-      "id": "1a76bb922997641be35f374f",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "The extremes of Reform: What will Farage do?",
-      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/the-extremes-of-reform-what-will-farage-do",
-      "published_at": "2026-10-15T07:35:05Z",
-      "collected_at": "2026-10-15T08:00:53Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "c8ea9b636ec95d334ce1099a",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2382,6 +2414,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "4587e8793aa6429a9b2f3c78",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+      "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-14T13:41:51Z",
+      "collected_at": "2026-10-16T08:00:57Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
