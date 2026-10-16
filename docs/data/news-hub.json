@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-16T05:30:43Z",
-  "last_successful_collection_at": "2026-10-16T05:30:43Z",
+  "generated_at": "2026-10-16T06:00:56Z",
+  "last_successful_collection_at": "2026-10-16T06:00:56Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-16T05:30:43Z"
+      "at": "2026-10-16T06:00:56Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-10-16T05:30:43Z"
+      "at": "2026-10-16T06:00:56Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-16T05:30:43Z"
+      "at": "2026-10-16T06:00:56Z"
     },
     {
       "id": "euractiv",
@@ -29,44 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-16T05:30:43Z"
+      "at": "2026-10-16T06:00:56Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-16T05:30:43Z"
+      "at": "2026-10-16T06:00:56Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-10-16T05:30:43Z"
+      "at": "2026-10-16T06:00:56Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-16T05:30:43Z"
+      "at": "2026-10-16T06:00:56Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-16T05:30:43Z"
+      "at": "2026-10-16T06:00:56Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-16T05:30:43Z"
+      "at": "2026-10-16T06:00:56Z"
     }
   ],
-  "europe_now": [],
-  "top_stories": [
+  "europe_now": [
     {
-      "title": "Channel Tunnel Transport Collision",
-      "summary": "A bus crashed into a stationary train on the French side of the Channel Tunnel entrance. Officials confirmed that nineteen individuals sustained injuries during the collision.",
+      "title": "Channel Tunnel Transport Incident",
+      "summary": "Nineteen people sustained injuries when a minibus collided with a train parked near the entrance on the French side of the Channel Tunnel. Emergency response teams and transport authorities addressed the collision, causing regional transit disruptions.",
       "article_ids": [
         "514cc9bc6ea6232c87091b84",
         "43d3c59f4892e18fc4d686d1"
@@ -88,13 +87,63 @@
       "source_count": 2
     },
     {
-      "title": "European Diplomacy and Transatlantic Tensions Over Ukraine",
-      "summary": "Ukrainian President Volodymyr Zelensky appealed to European partners to solidify their support in the wake of wavering American commitments. European officials expressed dismay after Donald Trump condemned renewed Ukrainian drone strikes against Russian petroleum refineries.",
+      "title": "Franco-German Car Emissions Agreement",
+      "summary": "France and Germany reached a formal agreement to ease European Union car emissions rules following intense negotiations. The policy adjustment addresses contentious automotive standards and aims to resolve late-stage discord among member states.",
+      "article_ids": [
+        "17d45021db4e72d703dca627",
+        "e32d8aa59b9498677dd03192"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261015-france-and-germany-agree-to-ease-eu-car-emissions-rules-in-new-deal",
+          "headline": "France and Germany agree to ease EU car emissions rules in new deal",
+          "published_at": "2026-10-15T23:48:57Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/franco-german-made-in-europe-deal-delays-car-emissions",
+          "headline": "Late discord delays Franco-German deal on Made in Europe, car emissions",
+          "published_at": "2026-10-15T21:22:12Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "European Union Budget and Summit Negotiations",
+      "summary": "European leaders faced deep divisions and extended arguments during summit discussions regarding the bloc's budget timeline. Pressure mounted from officials like Emmanuel Macron and Antonio Costa to secure an agreement before upcoming deadlines.",
+      "article_ids": [
+        "8c9962c00aa24ff4c4a0bfdf",
+        "d727cb5a8740dd925fc6e25d",
+        "2e524c91a7303cb64b63b8ee",
+        "a15cb727de6a534e1817dc83"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/budget-showdown-november-antonio-costa-deal-european-council-summit",
+          "headline": "Budget showdown slips to November as Costa pushes for quick deal",
+          "published_at": "2026-10-16T00:56:56Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/antonio-costa-angers-eu-leaders-splits-mar-euco-summit",
+          "headline": "Costa angers EU leaders as splits mar summit",
+          "published_at": "2026-10-16T00:03:30Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ukraine Conflict and Transatlantic Relations",
+      "summary": "President Zelenskyy rallied European allies for increased financial support and unity as international tensions over the conflict intensified. Meanwhile, criticism emerged across European capitals regarding statements from US leadership concerning infrastructure strikes and alliances.",
       "article_ids": [
         "89139747f88da353d791c659",
+        "7993a81d63482bb1e616a35c",
         "7fb6eb4126127703fb258b98",
-        "be8a7f56f7e612166daf2789",
-        "7993a81d63482bb1e616a35c"
+        "be8a7f56f7e612166daf2789"
       ],
       "sources": [
         {
@@ -105,31 +154,12 @@
         },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/petteri-orpo-finland-slams-donald-trump-siding-with-vladimir-putin-against-ukraine",
-          "headline": "‘No logic’: Finland slams Trump for siding with Putin against Ukraine",
-          "published_at": "2026-10-15T19:21:45Z"
+          "url": "https://www.politico.eu/article/trump-putin-terrible-alliance-threatens-strain-eu-resolve-ukraine",
+          "headline": "Trump and Putin’s ‘terrible’ alliance threatens to strain EU’s resolve on Ukraine",
+          "published_at": "2026-10-16T00:39:32Z"
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "European Union Summit Disagreements Over Budget Timeline",
-      "summary": "Leaders within the European Union postponed formal budget negotiations until November following heated disagreements at the Brussels summit. Several national leaders emphasized that an agreement on the financial framework must be finalized before the year concludes.",
-      "article_ids": [
-        "8c9962c00aa24ff4c4a0bfdf",
-        "d727cb5a8740dd925fc6e25d",
-        "a15cb727de6a534e1817dc83",
-        "2e524c91a7303cb64b63b8ee"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/budget-showdown-november-antonio-costa-deal-european-council-summit",
-          "headline": "Budget showdown slips to November as Costa pushes for quick deal",
-          "published_at": "2026-10-16T00:56:56Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "developing": [
@@ -194,33 +224,6 @@
       ]
     },
     {
-      "label": "EU · deal · leaders · agree",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 5,
-      "latest_at": "2026-10-15T23:48:57Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261015-france-and-germany-agree-to-ease-eu-car-emissions-rules-in-new-deal",
-          "headline": "France and Germany agree to ease EU car emissions rules in new deal",
-          "published_at": "2026-10-15T23:48:57Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/243045/pressure-mounts-on-eu-leaders-to-strike-a-budget-deal-by-december",
-          "headline": "Pressure mounts on EU leaders to strike a budget deal by December",
-          "published_at": "2026-10-15T22:03:22Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/emmanuel-macron-euco-eu-leaders-they-need-budget-end-of-year",
-          "headline": "Macron warns EU leaders they need to agree budget by end of year",
-          "published_at": "2026-10-15T18:21:52Z"
-        }
-      ]
-    },
-    {
       "label": "Ukraine · War · Russia · Starlink",
       "origin": "convergence",
       "source_count": 2,
@@ -240,9 +243,44 @@
           "published_at": "2026-10-15T11:09:09Z"
         }
       ]
+    },
+    {
+      "label": "budget · EU",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-10-15T20:33:18Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/eu-member-states-set-for-budget-clash",
+          "headline": "EU member states set for budget clash",
+          "published_at": "2026-10-15T20:33:18Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-budget-cyprus-president-euco-summit-politico",
+          "headline": "Shorten EU budget to 3 or 4 years, Cyprus president tells POLITICO",
+          "published_at": "2026-10-15T20:21:15Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "e96ff3d7148dfefd357208f8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Marseille woes continue with a second consecutive Europa League defeat",
+      "url": "https://www.france24.com/en/tv-shows/sports/20261016-marseille-woes-continue-with-a-second-consecutive-europa-league-defeat",
+      "published_at": "2026-10-16T05:41:13Z",
+      "collected_at": "2026-10-16T06:00:56Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "a4a63c0b4b332ec0f46c35fa",
       "source_id": "politico_europe",
@@ -2281,20 +2319,6 @@
       "url": "https://www.france24.com/en/europe/20261015-ukraine-live-romania-probes-possible-drone-attack-on-tanker",
       "published_at": "2026-10-15T03:52:46Z",
       "collected_at": "2026-10-15T09:30:45Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "d9b9a293a240734f5fa19d6c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "EU leaders head into high-stakes budget battle as elections loom",
-      "url": "https://www.france24.com/en/europe/20261015-eu-leaders-head-for-showdown-over-bloc-budget",
-      "published_at": "2026-10-15T01:59:23Z",
-      "collected_at": "2026-10-15T05:30:46Z",
       "topics": [
         "politics",
         "security",
