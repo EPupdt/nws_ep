@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-16T18:01:04Z",
-  "last_successful_collection_at": "2026-10-16T18:01:04Z",
+  "generated_at": "2026-10-16T18:30:49Z",
+  "last_successful_collection_at": "2026-10-16T18:30:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-16T18:01:04Z"
+      "at": "2026-10-16T18:30:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-10-16T18:01:04Z"
+      "at": "2026-10-16T18:30:49Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-16T18:01:04Z"
+      "at": "2026-10-16T18:30:49Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,47 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-16T18:01:04Z"
+      "at": "2026-10-16T18:30:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-16T18:01:04Z"
+      "at": "2026-10-16T18:30:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-10-16T18:01:04Z"
+      "at": "2026-10-16T18:30:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-16T18:01:04Z"
+      "at": "2026-10-16T18:30:49Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-16T18:01:04Z"
+      "at": "2026-10-16T18:30:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-16T18:01:04Z"
+      "at": "2026-10-16T18:30:49Z"
     }
   ],
-  "europe_now": [
+  "europe_now": [],
+  "top_stories": [
     {
-      "title": "EU Leaders Summit and Border Policy",
-      "summary": "At least 16 European Union states have confirmed their support for a new proposal allowing member nations to close borders and freeze asylum applications. Meanwhile, leaders are gathered at a high-level summit in Brussels addressing critical regional security, migration, and financial support frameworks.",
+      "title": "EU Leaders Focus on Regional Security and Migration",
+      "summary": "European Union leaders gathered for a summit addressing ongoing support for Ukraine and regional security challenges. Simultaneously, several member states urged the bloc to adopt a tougher stance on irregular migration.",
       "article_ids": [
         "d2a4a9ee25caf1b6326dd358",
-        "52a29cbb84a5bf91afc00531"
+        "25a67aad579335eb3ef894d8"
       ],
       "sources": [
         {
@@ -78,43 +79,17 @@
           "published_at": "2026-10-16T16:30:49Z"
         },
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/243110/16-eu-states-confirmed-on-board-for-plan-to-let-countries-close-border-borders-and-freeze-asylum",
-          "headline": "16 EU states confirmed on board for plan to let countries close borders and freeze asylum",
-          "published_at": "2026-10-16T11:48:50Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/denmark-italy-poland-push-eu-tougher-irregular-migration-crackdown",
+          "headline": "Denmark, Italy, Poland urge EU leaders to harden stance on irregular migration",
+          "published_at": "2026-10-16T12:50:30Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "Ukraine Conflict and International Tensions",
-      "summary": "Ukrainian forces have achieved significant battlefield advances while confronting sharp international political friction regarding ongoing defense strategies and external policy shifts. President Volodymyr Zelenskyy has actively defended the nation's right to strike back against Russian aggression amidst critical diplomatic exchanges in Brussels.",
-      "article_ids": [
-        "056a08aff155f8126869d0ed",
-        "b8ad430abf23d31c422902ad",
-        "0b7ad60174e78cabcd694fcf"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
-          "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-          "published_at": "2026-10-16T16:00:30Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/243149/russian-air-force-suffers-worst-day-since-operation-spiderweb-as-ukraine-destroys-su-34-strike-aircraft-on-the-ground-ukraine-battlefield-update-day-1695",
-          "headline": "Russian air force suffers worst day since Operation Spiderweb, as Ukraine destroys Su-34 strike aircraft on the ground (Ukraine Battlefield update, Day 1,695)",
-          "published_at": "2026-10-16T14:34:58Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Franco-German Automotive and Industrial Policy",
-      "summary": "France and Germany are pursuing independent regulatory frameworks for the automotive sector that fall outside standard European Union industrial legislation. Both nations are seeking specific rules to protect local manufacturing capabilities under distinct cooperative agreements.",
+      "title": "Franco-German Industrial and Automotive Push",
+      "summary": "France and Germany moved to establish their own industrial policy rules for cars outside standard EU frameworks. The initiative aims to shape regional manufacturing standards amidst broader economic and technological shifts.",
       "article_ids": [
         "ce029e165f634785595249cc"
       ],
@@ -127,30 +102,6 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Migration Policy and Border Control Developments",
-      "summary": "Several European countries are urging the union to adopt a much stricter approach toward managing irregular migration and border security. Poland recently decided to drop a controversial legislative proposal that would have criminalized providing humanitarian assistance to migrants following public backlash.",
-      "article_ids": [
-        "464508e93a163250fd193ec9",
-        "25a67aad579335eb3ef894d8",
-        "52a29cbb84a5bf91afc00531"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/10/16/poland-drops-proposal-to-criminalise-providing-help-to-illegal-migrants-following-outcry",
-          "headline": "Poland drops proposal to criminalise providing help to illegal migrants following outcry",
-          "published_at": "2026-10-16T14:38:51Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/denmark-italy-poland-push-eu-tougher-irregular-migration-crackdown",
-          "headline": "Denmark, Italy, Poland urge EU leaders to harden stance on irregular migration",
-          "published_at": "2026-10-16T12:50:30Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "developing": [
@@ -215,6 +166,33 @@
       ]
     },
     {
+      "label": "Ukraine · disgrace · Russian · strike",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-10-16T14:34:58Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/243149/russian-air-force-suffers-worst-day-since-operation-spiderweb-as-ukraine-destroys-su-34-strike-aircraft-on-the-ground-ukraine-battlefield-update-day-1695",
+          "headline": "Russian air force suffers worst day since Operation Spiderweb, as Ukraine destroys Su-34 strike aircraft on the ground (Ukraine Battlefield update, Day 1,695)",
+          "published_at": "2026-10-16T14:34:58Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/trump-slams-ukraine-decision-resume-energy-strikes-russia-disgrace",
+          "headline": "Trump slams Ukraine’s decision to resume energy strikes as a ‘disgrace’",
+          "published_at": "2026-10-16T10:35:49Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261016-live-trump-calls-renewed-ukraine-attacks-on-russian-oil-refineries-a-disgrace",
+          "headline": "Live: Trump calls renewed Ukraine attacks on Russian oil refineries 'a disgrace'",
+          "published_at": "2026-10-16T01:50:10Z"
+        }
+      ]
+    },
+    {
       "label": "Ukraine · Starlink · Zelensky · Brussels",
       "origin": "convergence",
       "source_count": 2,
@@ -234,30 +212,23 @@
           "published_at": "2026-10-16T09:48:22Z"
         }
       ]
-    },
-    {
-      "label": "Channel · train · Tunnel · crashes",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-16T00:53:16Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261016-19-injured-as-minibus-crashes-into-train-at-channel-tunnel-entrance",
-          "headline": "19 injured as minibus crashes into train at Channel Tunnel entrance",
-          "published_at": "2026-10-16T00:53:16Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss",
-          "headline": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured",
-          "published_at": "2026-10-15T21:12:14Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "abde0c4e46cb84282bd5152a",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Hijab ban at schools in Azerbaijan: What's behind the rare wave of protests?",
+      "url": "https://www.dw.com/en/hijab-ban-at-schools-in-azerbaijan-what-s-behind-the-rare-wave-of-protests/a-79683716?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-16T17:46:00Z",
+      "collected_at": "2026-10-16T18:30:49Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
     {
       "id": "d2a4a9ee25caf1b6326dd358",
       "source_id": "politico_europe",
@@ -2121,6 +2092,20 @@
       ]
     },
     {
+      "id": "7a6aa4f83cae7b96ee9a074c",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Europe’s reliance on US gas is as serious a risk to EU and Ukrainian security as its addiction to Russian gas used to be",
+      "url": "https://euobserver.com/242692/europes-reliance-on-us-gas-is-as-serious-a-risk-to-eu-and-ukrainian-security-as-its-addiction-to-russian-gas-used-to-be",
+      "published_at": "2026-10-14T18:00:00Z",
+      "collected_at": "2026-10-16T18:30:49Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "4512beff09c8df99d54614bc",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -2412,6 +2397,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "9e351feee6a11f712400e914",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Poland reports arrests of 2 Turkish citizens in Germany in connection with Starlink station fire last month",
+      "url": "https://www.dw.com/en/poland-reports-arrests-of-2-turkish-citizens-in-germany-in-connection-with-starlink-station-fire-last-month/a-79646138?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-12T18:05:00Z",
+      "collected_at": "2026-10-16T18:30:49Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
