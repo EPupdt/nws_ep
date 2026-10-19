@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-19T19:30:47Z",
-  "last_successful_collection_at": "2026-10-19T19:30:47Z",
+  "generated_at": "2026-10-19T20:00:57Z",
+  "last_successful_collection_at": "2026-10-19T20:00:57Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-19T19:30:47Z"
+      "at": "2026-10-19T20:00:57Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "31",
-      "at": "2026-10-19T19:30:47Z"
+      "at": "2026-10-19T20:00:57Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:2:436: not well-formed (invalid token)",
-      "at": "2026-10-19T19:30:47Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-10-19T20:00:57Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,47 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-19T19:30:47Z"
+      "at": "2026-10-19T20:00:57Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-19T19:30:47Z"
+      "at": "2026-10-19T20:00:57Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-10-19T19:30:47Z"
+      "at": "2026-10-19T20:00:57Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-19T19:30:47Z"
+      "at": "2026-10-19T20:00:57Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-19T19:30:47Z"
+      "at": "2026-10-19T20:00:57Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-19T19:30:47Z"
+      "at": "2026-10-19T20:00:57Z"
     }
   ],
   "europe_now": [
     {
-      "title": "French Curfews Announced Amid Ongoing Unrest",
-      "summary": "French authorities have announced localized curfews and warned of potential emergency measures following a weekend of widespread looting and violent demonstrations.",
+      "title": "Curfews Imposed Following Weekend Riots in France",
+      "summary": "French authorities have announced localized curfews in areas affected by severe civil unrest and looting over the weekend. Prime Minister Sébastien Lecornu indicated readiness to declare a state of emergency if the security situation does not stabilize.",
       "article_ids": [
-        "6f14826dc20d781236842a38",
-        "da566c9ebe4215fddf1f1ad4",
-        "ae0134ac969e052cd3122e7e"
+        "daf5ae9ae0c494d32e9a3257",
+        "ae0134ac969e052cd3122e7e",
+        "e111697359bfe733ece0377b"
       ],
       "sources": [
         {
@@ -77,13 +77,19 @@
           "url": "https://www.politico.eu/article/france-sebastien-lecornu-partial-curfews-riots-protests",
           "headline": "French PM orders ‘localized’ curfews in response to looting and unrest",
           "published_at": "2026-10-19T13:12:09Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261019-french-pm-says-could-declare-state-of-emergency-over-unrest-if-needed",
+          "headline": "French PM Lecornu says ready to declare state of emergency 'if needed'",
+          "published_at": "2026-10-19T12:51:21Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Russian Military Satellite Tracks Finnish Spy Satellite",
-      "summary": "Reports indicate that a Russian military satellite has been tracking a Finnish orbital asset, raising concerns regarding security tensions and potential space conflicts in Europe.",
+      "title": "Space Security Tensions Rise in Eastern Europe",
+      "summary": "Reports indicate that a Russian military satellite has been tracking a Finnish spy satellite in orbit. Analysts warn that such actions could lead to unprecedented confrontations in space related to the ongoing conflict in Ukraine.",
       "article_ids": [
         "f7e2907ae8af1e3d1c8950e6",
         "6adf9c972cdb6189a8cf9ddb"
@@ -107,12 +113,12 @@
   ],
   "top_stories": [
     {
-      "title": "Civil Unrest and Security Measures in France",
-      "summary": "France has implemented localized curfews after a weekend marked by violent riots and extensive looting. Prime Minister Lecornu indicated readiness to declare a state of emergency if the security situation demands it.",
+      "title": "French Civil Unrest and Political Response",
+      "summary": "France has introduced localized curfews and ordered online resellers to crack down on stolen goods following a weekend of violent protests. Political figures across the spectrum are reacting to the security crisis as discussions of a potential state of emergency continue.",
       "article_ids": [
+        "daf5ae9ae0c494d32e9a3257",
         "6f14826dc20d781236842a38",
-        "ae0134ac969e052cd3122e7e",
-        "e111697359bfe733ece0377b"
+        "865b15c6f0a0ae117c99e959"
       ],
       "sources": [
         {
@@ -122,21 +128,21 @@
           "published_at": "2026-10-19T17:09:26Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261019-french-pm-says-could-declare-state-of-emergency-over-unrest-if-needed",
-          "headline": "French PM Lecornu says ready to declare state of emergency 'if needed'",
-          "published_at": "2026-10-19T12:51:21Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/france-orders-online-resellers-crack-down-stolen-goods-after-looting",
+          "headline": "After looting spree, France tells online resellers to crack down on traffic of stolen goods",
+          "published_at": "2026-10-19T16:09:40Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Regional Defense and Space Security Concerns",
-      "summary": "Defense analysts are monitoring orbital movements as a Russian military satellite stalks a Finnish asset. Meanwhile, intelligence sharing restrictions continue to impact Ukrainian defense operations.",
+      "title": "Ukraine Defense and Technological Developments",
+      "summary": "Ukrainian forces recently executed a drone-based evacuation of a wounded soldier in what is described as a world-first operation. Meanwhile, officials have raised concerns regarding speed limits and intelligence restrictions related to external satellite and communication systems.",
       "article_ids": [
+        "4267377a8f7760c133541cc2",
         "9e273314dba51cdf6f9c9cb9",
-        "f7e2907ae8af1e3d1c8950e6",
-        "6adf9c972cdb6189a8cf9ddb"
+        "379e94dcb24341f68a83251a"
       ],
       "sources": [
         {
@@ -146,10 +152,10 @@
           "published_at": "2026-10-19T18:23:50Z"
         },
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/243568/russias-kosmos-military-satellite-stalks-finnish-spy-satellite-in-what-could-see-the-first-strike-in-a-ukraine-star-wars-a-preview-of-war-in-space-ukraine-battlefield-update-day-1698",
-          "headline": "Russia’s KOSMOS military satellite stalks Finnish spy satellite, in what could see the first strike in a Ukraine star wars — a preview of war in space (Ukraine Battlefield update, day 1,698)",
-          "published_at": "2026-10-19T14:21:47Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261019-ukraine-deploys-drone-airlift-wounded-soldier-world-first-operation",
+          "headline": "Ukraine deploys drone to airlift wounded soldier in 'world-first' operation",
+          "published_at": "2026-10-19T15:44:42Z"
         }
       ],
       "source_count": 2
@@ -184,37 +190,31 @@
       ]
     },
     {
-      "label": "France · riots",
+      "label": "France · weekend · protest · unrest",
       "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-10-19T10:11:13Z",
+      "source_count": 2,
+      "item_count": 13,
+      "latest_at": "2026-10-19T19:56:15Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/press-review/20261019-shame-anger-chaos-papers-react-to-polarising-riots-in-france",
-          "headline": "'Shame', 'anger', 'chaos': Papers react to polarising riots in France",
-          "published_at": "2026-10-19T10:11:13Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/france-gabriel-attal-social-media-blackout-riot",
-          "headline": "France riots: Presidential hopeful Attal pitches social media blackout",
-          "published_at": "2026-10-19T10:10:31Z"
+          "url": "https://www.france24.com/en/france/20261019-france-faces-reckoning-public-order-policing-after-violent-protest-weekend",
+          "headline": "France faces reckoning with public order policing after violent protest weekend",
+          "published_at": "2026-10-19T19:56:15Z"
         },
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
-          "headline": "Macron calls for 'calm and order' after riots across France",
-          "published_at": "2026-10-18T20:33:21Z"
+          "url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss",
+          "headline": "Katya Adler: France's government under pressure after weekend of widespread violence",
+          "published_at": "2026-10-19T07:46:54Z"
         }
       ]
     },
     {
-      "label": "French · riots · looting · calls",
+      "label": "French · riots · weekend",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 5,
+      "item_count": 3,
       "latest_at": "2026-10-19T13:43:27Z",
       "sources": [
         {
@@ -232,28 +232,84 @@
       ]
     },
     {
-      "label": "France · weekend · government · pressure",
+      "label": "Paris · riots",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-19T13:25:43Z",
+      "item_count": 2,
+      "latest_at": "2026-10-19T19:06:20Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261019-france-police-and-protesters-clash-violently-over-the-weekend",
-          "headline": "France: Police and protesters clash violently over the weekend",
-          "published_at": "2026-10-19T13:25:43Z"
+          "url": "https://www.france24.com/en/paris-weekend-riots-raise-concerns-for-tourism-industry",
+          "headline": "Paris weekend riots raise concerns for tourism industry",
+          "published_at": "2026-10-19T19:06:20Z"
         },
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss",
-          "headline": "Katya Adler: France's government under pressure after weekend of widespread violence",
-          "published_at": "2026-10-19T07:46:54Z"
+          "url": "https://www.bbc.co.uk/news/videos/cmn5vey19q3go?at_medium=RSS&at_campaign=rss",
+          "headline": "Watch: Shops looted and restaurants gutted in Paris riots",
+          "published_at": "2026-10-19T06:40:35Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "51de2d8ec59e9ac6728f46d8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France faces reckoning with public order policing after violent protest weekend",
+      "url": "https://www.france24.com/en/france/20261019-france-faces-reckoning-public-order-policing-after-violent-protest-weekend",
+      "published_at": "2026-10-19T19:56:15Z",
+      "collected_at": "2026-10-19T20:00:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f6b090162b24f532566c2828",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French far-right seeks to capitalise on protests with calls for law and order",
+      "url": "https://www.france24.com/en/french-far-right-seeks-to-capitalise-on-protests-with-calls-for-law-and-order",
+      "published_at": "2026-10-19T19:41:46Z",
+      "collected_at": "2026-10-19T20:00:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "97d37d48662739d34cb327b8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russia-China-US summit would prolong the war, Kyiv says",
+      "url": "https://www.france24.com/en/russia-china-us-summit-would-prolong-the-war-kyiv-says",
+      "published_at": "2026-10-19T19:21:00Z",
+      "collected_at": "2026-10-19T20:00:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "21857812d53403985145461b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Paris weekend riots raise concerns for tourism industry",
+      "url": "https://www.france24.com/en/paris-weekend-riots-raise-concerns-for-tourism-industry",
+      "published_at": "2026-10-19T19:06:20Z",
+      "collected_at": "2026-10-19T20:00:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "1314942563ba3214a25cecf2",
       "source_id": "el_pais_english",
@@ -266,6 +322,34 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "4267377a8f7760c133541cc2",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Zelensky says Starshield speed limits slowing down frontline response",
+      "url": "https://www.france24.com/en/zelensky-says-starshield-speed-limits-slowing-down-frontline-response",
+      "published_at": "2026-10-19T18:45:57Z",
+      "collected_at": "2026-10-19T20:00:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "daf5ae9ae0c494d32e9a3257",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Bulgaria seeks suspects in Germany after Starlink sabotage",
+      "url": "https://www.dw.com/en/bulgaria-seeks-suspects-in-germany-after-starlink-sabotage/a-79706745?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-19T18:45:00Z",
+      "collected_at": "2026-10-19T20:00:57Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
