@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-19T18:30:59Z",
-  "last_successful_collection_at": "2026-10-19T18:30:59Z",
+  "generated_at": "2026-10-19T19:00:58Z",
+  "last_successful_collection_at": "2026-10-19T19:00:58Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-19T18:30:59Z"
+      "at": "2026-10-19T19:00:58Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "31",
-      "at": "2026-10-19T18:30:59Z"
+      "at": "2026-10-19T19:00:58Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-10-19T18:30:59Z"
+      "status": "error",
+      "detail": "<unknown>:2:436: not well-formed (invalid token)",
+      "at": "2026-10-19T19:00:58Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-19T18:30:59Z"
+      "at": "2026-10-19T19:00:58Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-19T18:30:59Z"
+      "at": "2026-10-19T19:00:58Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-10-19T18:30:59Z"
+      "at": "2026-10-19T19:00:58Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-19T18:30:59Z"
+      "at": "2026-10-19T19:00:58Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-19T18:30:59Z"
+      "at": "2026-10-19T19:00:58Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-19T18:30:59Z"
+      "at": "2026-10-19T19:00:58Z"
     }
   ],
   "europe_now": [
     {
-      "title": "French Curfews and Unrest Response",
-      "summary": "Following a weekend of violent protests and looting, French authorities announced localized curfews in central Paris and other affected cities. Prime Minister Sébastien Lecornu indicated readiness to declare a state of emergency if the security situation demands it.",
+      "title": "France Imposes Curfews Amid Nationwide Unrest",
+      "summary": "French authorities implemented localized curfews following a weekend marked by extensive looting, violent clashes, and civil disturbances. Prime Minister Sébastien Lecornu indicated readiness to declare a state of emergency if the security situation demands it.",
       "article_ids": [
         "6f14826dc20d781236842a38",
         "ae0134ac969e052cd3122e7e",
@@ -88,8 +88,8 @@
       "source_count": 2
     },
     {
-      "title": "Space Security Concerns in Eastern Europe",
-      "summary": "Reports highlight escalating orbital tensions as a Russian military satellite actively tracks a Finnish spy satellite. Analysts warn this activity points to growing risks of confrontation in space related to the ongoing conflict in Ukraine.",
+      "title": "Russian Satellite Movements Raise Space Security Concerns",
+      "summary": "Reports emerged regarding a Russian military satellite tracking a Finnish spy satellite in orbit. Observers warn this activity could heighten tensions concerning regional defense and security in Eastern Europe.",
       "article_ids": [
         "f7e2907ae8af1e3d1c8950e6",
         "6adf9c972cdb6189a8cf9ddb"
@@ -111,7 +111,55 @@
       "source_count": 1
     }
   ],
-  "top_stories": [],
+  "top_stories": [
+    {
+      "title": "Civil Unrest and Security Measures in France",
+      "summary": "French officials announced localized curfews and ordered online resellers to crack down on the sale of stolen items following widespread looting. Prime Minister Sébastien Lecornu noted that the government remains prepared to escalate security responses if the ongoing unrest continues.",
+      "article_ids": [
+        "6f14826dc20d781236842a38",
+        "865b15c6f0a0ae117c99e959",
+        "e111697359bfe733ece0377b"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261019-live-french-pm-lecornu-calls-for-partial-curfews-in-cities-hit-by-riots-and-looting",
+          "headline": "🔴 France issues curfew for parts of central Paris",
+          "published_at": "2026-10-19T17:09:26Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/france-orders-online-resellers-crack-down-stolen-goods-after-looting",
+          "headline": "After looting spree, France tells online resellers to crack down on traffic of stolen goods",
+          "published_at": "2026-10-19T16:09:40Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Orbital Tracking and Regional Defense",
+      "summary": "Military analysts highlighted potential space security risks as a Russian satellite was reported tracking a Finnish reconnaissance satellite. The development adds a new dimension to ongoing defense monitoring and geopolitical friction in Europe.",
+      "article_ids": [
+        "f7e2907ae8af1e3d1c8950e6",
+        "6adf9c972cdb6189a8cf9ddb"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/243568/russias-kosmos-military-satellite-stalks-finnish-spy-satellite-in-what-could-see-the-first-strike-in-a-ukraine-star-wars-a-preview-of-war-in-space-ukraine-battlefield-update-day-1698",
+          "headline": "Russia’s KOSMOS military satellite stalks Finnish spy satellite, in what could see the first strike in a Ukraine star wars — a preview of war in space (Ukraine Battlefield update, day 1,698)",
+          "published_at": "2026-10-19T14:21:47Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/243568/russias-kosmos-military-satellite-stalks-finnish-spy-satellite-in-what-could-see-the-first-strike-in-a-ukraine-star-wars-a-preview-of-war-in-space-ukraine-battlefield-update-day-1698",
+          "headline": "Russia’s KOSMOS military satellite stalks Finnish spy satellite, in what could see the first strike in a Ukraine star wars (Ukraine Battlefield update, day 1,698)",
+          "published_at": "2026-10-19T14:21:47Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
   "developing": [
     {
       "label": "US · tells · Zelensky",
@@ -1758,48 +1806,6 @@
       ]
     },
     {
-      "id": "350b621b9f99a5c5c461916b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Macron says 'nothing justifies' violence in protests during address to nation",
-      "url": "https://www.france24.com/en/france/20261018-macron-says-nothing-justifies-violence-in-protests-during-address-to-nation",
-      "published_at": "2026-10-18T18:44:15Z",
-      "collected_at": "2026-10-18T19:00:52Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "7569af6ab162bcf230b0fa31",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Security Sunday: Russlands Angriffe im Schwarzen Meer – mit Moritz Brake",
-      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-sunday-russlands-angriffe-im-schwarzen-meer-mit-moritz-brake",
-      "published_at": "2026-10-18T18:41:34Z",
-      "collected_at": "2026-10-18T19:00:52Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "b1a8e9a30a8473e97046860d",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "REPLAY: French President Emmanuel Macron addresses the nation after unrest",
-      "url": "https://www.france24.com/en/video/20261018-replay-french-president-emmanuel-macron-addresses-the-nation-after-unrest",
-      "published_at": "2026-10-18T18:33:34Z",
-      "collected_at": "2026-10-18T19:00:52Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "4080612aa2868b87a16574c2",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2080,20 +2086,6 @@
       ]
     },
     {
-      "id": "abde0c4e46cb84282bd5152a",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Hijab ban at schools in Azerbaijan: What's behind the rare wave of protests?",
-      "url": "https://www.dw.com/en/hijab-ban-at-schools-in-azerbaijan-what-s-behind-the-rare-wave-of-protests/a-79683716?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-16T17:46:00Z",
-      "collected_at": "2026-10-18T19:00:52Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "d9dcf3c6110bc5130d6a0e71",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -2101,6 +2093,20 @@
       "url": "https://euobserver.com/243110/16-eu-states-confirmed-on-board-for-plan-to-let-countries-close-border-borders-and-freeze-asylum",
       "published_at": "2026-10-16T11:48:50Z",
       "collected_at": "2026-10-19T07:00:57Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "424c030ce660c7abad21d196",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "EU is bankrolling border drones while starving the watchdogs meant to stop abuses",
+      "url": "https://euobserver.com/242885/eu-pours-millions-into-border-drones-while-rights-monitors-go-unfunded",
+      "published_at": "2026-10-15T18:00:00Z",
+      "collected_at": "2026-10-19T19:00:58Z",
       "topics": [
         "institutions",
         "policy",
