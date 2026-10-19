@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-19T09:00:54Z",
-  "last_successful_collection_at": "2026-10-19T09:00:54Z",
+  "generated_at": "2026-10-19T09:30:44Z",
+  "last_successful_collection_at": "2026-10-19T09:30:44Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-19T09:00:54Z"
+      "at": "2026-10-19T09:30:44Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "28",
-      "at": "2026-10-19T09:00:54Z"
+      "at": "2026-10-19T09:30:44Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-10-19T09:00:54Z"
+      "status": "error",
+      "detail": "<unknown>:2:436: not well-formed (invalid token)",
+      "at": "2026-10-19T09:30:44Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,47 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-19T09:00:54Z"
+      "at": "2026-10-19T09:30:44Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-19T09:00:54Z"
+      "at": "2026-10-19T09:30:44Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-10-19T09:00:54Z"
+      "at": "2026-10-19T09:30:44Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-19T09:00:54Z"
+      "at": "2026-10-19T09:30:44Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-19T09:00:54Z"
+      "at": "2026-10-19T09:30:44Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-19T09:00:54Z"
+      "at": "2026-10-19T09:30:44Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Widespread Unrest and Protests Across France",
-      "summary": "France faces severe civil unrest following violent protests that resulted in significant property damage and political fallout. President Emmanuel Macron has condemned the violence and rejected the interior minister's resignation offer as student demonstrations and security responses continue.",
+      "title": "Widespread Civil Unrest in France",
+      "summary": "France is facing severe nationwide protests and civil unrest that have led to widespread violence, property damage, and intense political pressure on the government. President Emmanuel Macron has condemned the unbridled violence, while security forces struggle to restore order amidst ongoing student demonstrations and riots.",
       "article_ids": [
         "4c65237e0684f043feb3292a",
         "ba12960545fa903b1a141a66",
-        "dd566be8ac8cad608ac4a4ff"
+        "31a8034b2085a44582703b36"
       ],
       "sources": [
         {
@@ -86,52 +86,35 @@
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "Escalation of Conflict and Diplomatic Pressures in Ukraine",
-      "summary": "Russian strikes continue to target Kyiv amid intensifying diplomatic discussions involving international leaders regarding peace negotiations and support. Ukrainian officials and international observers address ongoing security challenges and strategic defense preparations.",
-      "article_ids": [
-        "1cdf84bc99d390b1510f51d9",
-        "705db8c10f43fb67cec3ee61"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261019-live-russian-strikes-pound-kyiv-as-rubio-denies-us-paused-intel-sharing-with-ukraine",
-          "headline": "Russia pounds Kyiv as Rubio urges Ukraine's Zelensky to 'focus' on ending the war",
-          "published_at": "2026-10-19T06:00:06Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "Civil Unrest in France",
-      "summary": "French authorities are responding to extensive rioting and protests that have impacted multiple cities. President Emmanuel Macron addressed the nation to demand calm and accountability following the widespread destruction.",
+      "title": "French Government Under Pressure Following Protests",
+      "summary": "President Emmanuel Macron rejected the interior minister's offer to resign after police admitted they lost control during a weekend of intense demonstrations. The government faces mounting political fallout as authorities work to address structural grievances and widespread public disorder.",
       "article_ids": [
-        "ba12960545fa903b1a141a66",
-        "31a8034b2085a44582703b36"
+        "dd566be8ac8cad608ac4a4ff",
+        "d5b199e0edc85ea6314c130f"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss",
-          "headline": "Katya Adler: France's government under pressure after weekend of widespread violence",
-          "published_at": "2026-10-19T07:46:54Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261019-live-france-macron-slams-unbridled-violence-protests-weekend-unrest",
+          "headline": "Live: French minister admits police 'lost control' of protests as Macron rejects his offer to resign",
+          "published_at": "2026-10-19T05:15:32Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
-          "headline": "Macron calls for 'calm and order' after riots across France",
-          "published_at": "2026-10-18T20:33:21Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261019-live-france-macron-slams-unbridled-violence-protests-weekend-unrest",
+          "headline": "🔴 Live: Macron rejects French interior minister's resignation after weekend of unrest",
+          "published_at": "2026-10-19T05:18:07Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Ukraine Conflict Developments",
-      "summary": "Kyiv has been subjected to heavy Russian bombardment as international discussions regarding war strategies continue. Ukrainian leadership has maintained high-level diplomatic contacts with foreign allies.",
+      "title": "Escalating Tensions and Diplomatic Pressures in Ukraine",
+      "summary": "Russian forces have intensified aerial bombardments targeting Kyiv amidst ongoing international diplomatic maneuvers regarding peace negotiations. Ukrainian leadership continues high-level talks with international partners while navigating complex shifts in foreign policy and security support.",
       "article_ids": [
         "1cdf84bc99d390b1510f51d9",
         "705db8c10f43fb67cec3ee61"
@@ -148,6 +131,27 @@
     }
   ],
   "developing": [
+    {
+      "label": "France · Macron",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-10-18T20:33:21Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
+          "headline": "Macron calls for 'calm and order' after riots across France",
+          "published_at": "2026-10-18T20:33:21Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/emmanuel-macron-transparency-france-protest-unrest",
+          "headline": "Macron vows looters will ‘pay’ in France after protests turn violent",
+          "published_at": "2026-10-18T19:14:23Z"
+        }
+      ]
+    },
     {
       "label": "Russia · Trump",
       "origin": "convergence",
@@ -210,30 +214,23 @@
           "published_at": "2026-10-18T16:51:32Z"
         }
       ]
-    },
-    {
-      "label": "attack · drone · Petersburg",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-10-18T12:03:23Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261018-ukraine-sets-saint-petersburg-refinery-ablaze-in-large-scale-drone-attack",
-          "headline": "Ukrainian drone attack on Saint Petersburg kills one, sets refinery ablaze",
-          "published_at": "2026-10-18T12:03:23Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/ukraine-strikes-oil-facility-st-petersburg-part-massive-drone-attack",
-          "headline": "Ukraine strikes oil facility in St. Petersburg as part of ‘massive’ drone attack",
-          "published_at": "2026-10-18T10:40:31Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "9604fc3f1026d98b91ddb80f",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Europe’s new Franco-German auto deal will protect combustion engines, not European jobs",
+      "url": "https://euobserver.com/243425/europes-new-franco-german-auto-deal-will-protect-combustion-engines-not-european-jobs",
+      "published_at": "2026-10-19T09:21:40Z",
+      "collected_at": "2026-10-19T09:30:44Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "4c65237e0684f043feb3292a",
       "source_id": "france24",
@@ -1257,90 +1254,6 @@
       ]
     },
     {
-      "id": "bd71224e455c4a5ebea036a5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France: Protests \"brought the entire population together for a common purpose\"",
-      "url": "https://www.france24.com/en/video/20261018-france-protests-brought-the-entire-population-together-for-a-common-purpose",
-      "published_at": "2026-10-18T09:05:03Z",
-      "collected_at": "2026-10-18T09:30:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "c482939594aa86fd86474322",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France: Who took part in Saturday's protests?",
-      "url": "https://www.france24.com/en/video/20261018-france-who-took-part-in-saturday-s-protests",
-      "published_at": "2026-10-18T09:03:18Z",
-      "collected_at": "2026-10-18T09:30:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "3910001119fc2aaf78d22870",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France: Who was behind the violence at Saturday's protests?",
-      "url": "https://www.france24.com/en/video/20261018-france-who-was-behind-the-violence-at-saturday-s-protests",
-      "published_at": "2026-10-18T09:01:22Z",
-      "collected_at": "2026-10-18T09:30:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "9cabac1cd3df753798d0f4bf",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France protests: Did the government make the wrong decisions?",
-      "url": "https://www.france24.com/en/video/20261018-france-protests-did-the-government-make-the-wrong-decisions",
-      "published_at": "2026-10-18T09:00:22Z",
-      "collected_at": "2026-10-18T09:30:43Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "56e73e8dfbb1591d8d23def9",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Europe can’t lead on nature at COP17 while cutting biodiversity cash at home",
-      "url": "https://euobserver.com/242632/europe-cant-lead-on-nature-at-cop17-while-cutting-biodiversity-cash-at-home",
-      "published_at": "2026-10-18T09:00:00Z",
-      "collected_at": "2026-10-18T09:30:43Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "ae7be089734fd7e01ac4725b",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "How reliant is Ukraine on the US-controlled Starlink internet service?",
-      "url": "https://www.dw.com/en/how-reliant-is-ukraine-on-the-us-controlled-starlink-internet-service/a-79689729?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-18T08:58:00Z",
-      "collected_at": "2026-10-18T09:30:43Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "ac3fd9ff49993fa749ed1798",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1348,20 +1261,6 @@
       "url": "https://www.france24.com/en/tv-shows/sports/20261018-ligue-1-psg-back-on-top-of-ligue-1-after-stunning-strasbourg-comeback",
       "published_at": "2026-10-18T08:48:15Z",
       "collected_at": "2026-10-18T11:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "5eec20fffa24acfd12938ca2",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: Police arrested more than 1,800 people during French protests, interior minister says",
-      "url": "https://www.france24.com/en/europe/20261018-live-vance-blames-immigration-for-violence-during-protests-in-france",
-      "published_at": "2026-10-18T03:09:25Z",
-      "collected_at": "2026-10-18T09:30:43Z",
       "topics": [
         "politics",
         "security",
@@ -1880,20 +1779,6 @@
       "url": "https://euobserver.com/240984/too-many-lawyers-the-problem-with-europes-human-rights-ngos",
       "published_at": "2026-10-16T09:17:56Z",
       "collected_at": "2026-10-18T10:00:50Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "f03c93418b35b1cbbf8d07f9",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Listen: Are the Gilets Jaunes in France making a comeback?",
-      "url": "https://euobserver.com/243068/listen-are-the-gilets-jaunes-in-france-making-a-comeback",
-      "published_at": "2026-10-16T08:35:45Z",
-      "collected_at": "2026-10-18T09:30:43Z",
       "topics": [
         "institutions",
         "policy",
