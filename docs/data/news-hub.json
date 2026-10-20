@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-20T14:30:48Z",
-  "last_successful_collection_at": "2026-10-20T14:30:48Z",
+  "generated_at": "2026-10-20T15:01:03Z",
+  "last_successful_collection_at": "2026-10-20T15:01:03Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-20T14:30:48Z"
+      "at": "2026-10-20T15:01:03Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-20T14:30:48Z"
+      "at": "2026-10-20T15:01:03Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-10-20T14:30:48Z"
+      "status": "error",
+      "detail": "<unknown>:2:418: not well-formed (invalid token)",
+      "at": "2026-10-20T15:01:03Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-20T14:30:48Z"
+      "at": "2026-10-20T15:01:03Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-20T14:30:48Z"
+      "at": "2026-10-20T15:01:03Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-10-20T14:30:48Z"
+      "at": "2026-10-20T15:01:03Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-20T14:30:48Z"
+      "at": "2026-10-20T15:01:03Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-20T14:30:48Z"
+      "at": "2026-10-20T15:01:03Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-20T14:30:48Z"
+      "at": "2026-10-20T15:01:03Z"
     }
   ],
   "europe_now": [
@@ -181,6 +181,27 @@
       ]
     },
     {
+      "label": "Arctic · EU · strategy",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-10-20T14:40:39Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/243804/eu-vows-to-stop-buying-arctic-oil-and-gas-but-drops-ban-from-its-new-strategy",
+          "headline": "EU vows to stop buying Arctic oil and gas, but drops ban from its new strategy",
+          "published_at": "2026-10-20T14:40:39Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261020-eu-unveils-strategy-to-bolster-arctic-presence-amid-pressure-from-russia-and-the-us",
+          "headline": "EU unveils strategy to bolster Arctic presence amid pressure from Russia and the US",
+          "published_at": "2026-10-20T01:35:24Z"
+        }
+      ]
+    },
+    {
       "label": "drone · soldier · Ukraine",
       "origin": "convergence",
       "source_count": 2,
@@ -221,30 +242,23 @@
           "published_at": "2026-10-19T18:00:00Z"
         }
       ]
-    },
-    {
-      "label": "EU · unveil",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-10-20T10:01:16Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/afd-alternative-for-germany-alice-weidel-plan-downsize-eu",
-          "headline": "AfD’s Alice Weidel to unveil plan to downsize the EU",
-          "published_at": "2026-10-20T10:01:16Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261020-eu-unveils-strategy-to-bolster-arctic-presence-amid-pressure-from-russia-and-the-us",
-          "headline": "EU unveils strategy to bolster Arctic presence amid pressure from Russia and the US",
-          "published_at": "2026-10-20T01:35:24Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "ac39de3e7128ad328ad41962",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "EU vows to stop buying Arctic oil and gas, but drops ban from its new strategy",
+      "url": "https://euobserver.com/243804/eu-vows-to-stop-buying-arctic-oil-and-gas-but-drops-ban-from-its-new-strategy",
+      "published_at": "2026-10-20T14:40:39Z",
+      "collected_at": "2026-10-20T15:01:03Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "91196b16d61567032652d90d",
       "source_id": "france24",
@@ -323,6 +337,20 @@
       "url": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-20T13:51:40Z",
       "collected_at": "2026-10-20T14:00:59Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "485614e85f3f3511339671ce",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Zelensky and US envoys holding Oslo talks as Rubio denies withholding intelligence",
+      "url": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-20T13:51:40Z",
+      "collected_at": "2026-10-20T15:01:03Z",
       "topics": [
         "breaking",
         "politics",
@@ -1912,146 +1940,6 @@
       ]
     },
     {
-      "id": "cd68314c1262a3a70d278a7e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Four soldiers dead, dozens injured in fire at Canada military base",
-      "url": "https://www.france24.com/en/video/20261019-four-soldiers-dead-dozens-injured-in-fire-at-canada-military-base",
-      "published_at": "2026-10-19T14:25:09Z",
-      "collected_at": "2026-10-19T15:00:55Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "6adf9c972cdb6189a8cf9ddb",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Russia’s KOSMOS military satellite stalks Finnish spy satellite, in what could see the first strike in a Ukraine star wars (Ukraine Battlefield update, day 1,698)",
-      "url": "https://euobserver.com/243568/russias-kosmos-military-satellite-stalks-finnish-spy-satellite-in-what-could-see-the-first-strike-in-a-ukraine-star-wars-a-preview-of-war-in-space-ukraine-battlefield-update-day-1698",
-      "published_at": "2026-10-19T14:21:47Z",
-      "collected_at": "2026-10-19T15:00:55Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "ac55c1bffb1feee90a2a04ae",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French PM says 'ultra-left' seeking 'deep unrest' ahead of election",
-      "url": "https://www.france24.com/en/video/20261019-french-pm-says-ultra-left-seeking-deep-unrest-ahead-of-election",
-      "published_at": "2026-10-19T14:20:25Z",
-      "collected_at": "2026-10-19T15:00:55Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "fc0f0743b10cc0737e9b9dda",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Brazil court orders Meta to prove it gives Lula, Bolsonaro campaign content equal treatment",
-      "url": "https://www.france24.com/en/americas/20261019-brazil-court-orders-meta-prove-gives-lula-bolsonaro-campaign-content-equal-treatment",
-      "published_at": "2026-10-19T14:16:05Z",
-      "collected_at": "2026-10-19T15:00:55Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "41cdf49c09b202c279390867",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France protests draw global attention: Trump, Vance blame immigration for unrest",
-      "url": "https://www.france24.com/en/video/20261019-france-protests-draw-global-attention-trump-vance-blame-immigration-for-unrest",
-      "published_at": "2026-10-19T14:04:26Z",
-      "collected_at": "2026-10-19T15:00:55Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "ba2a765446a666836a7c1c77",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Macron kicks off three-day Gulf tour, seeks securing fuel supplies amid crisis",
-      "url": "https://www.france24.com/en/video/20261019-macron-kicks-off-three-day-gulf-tour-seeks-securing-fuel-supplies-amid-crisis",
-      "published_at": "2026-10-19T14:02:57Z",
-      "collected_at": "2026-10-19T15:00:55Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e75a2e14d4dc80d70b821b3a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Drone attacks kill scores in Sudan's West Kordofan state and capital Khartoum",
-      "url": "https://www.france24.com/en/africa/20261019-drone-attack-near-southern-sudan-market-kills-scores",
-      "published_at": "2026-10-19T14:00:04Z",
-      "collected_at": "2026-10-19T15:00:55Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0dc55252458019568e062c84",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US midterms elections: Why data centers are becoming a key issue",
-      "url": "https://www.france24.com/en/video/20261019-us-midterms-elections-why-data-centers-are-becoming-a-key-issue",
-      "published_at": "2026-10-19T13:59:29Z",
-      "collected_at": "2026-10-19T15:00:55Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "6d2b1ed52a046685b38a1a0b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France: Police and protesters clash violently over the weekend",
-      "url": "https://www.france24.com/en/video/20261019-france-police-and-protesters-clash-violently-over-the-weekend",
-      "published_at": "2026-10-19T13:25:43Z",
-      "collected_at": "2026-10-19T15:00:55Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e111697359bfe733ece0377b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French PM Lecornu says ready to declare state of emergency 'if needed'",
-      "url": "https://www.france24.com/en/france/20261019-french-pm-says-could-declare-state-of-emergency-over-unrest-if-needed",
-      "published_at": "2026-10-19T12:51:21Z",
-      "collected_at": "2026-10-19T15:00:55Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "1b49663a330d9c0a39f0dcf6",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2290,6 +2178,20 @@
       ]
     },
     {
+      "id": "378da265adac20815b4b5af3",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Albania: Students demand political change and resignation of Prime Minister Edi Rama",
+      "url": "https://www.dw.com/en/albania-students-demand-political-change-and-resignation-of-prime-minister-edi-rama/a-79682217?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-16T14:23:00Z",
+      "collected_at": "2026-10-20T15:01:03Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "de6264c80438e70c013ff13a",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2511,20 +2413,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "6c9ebd0ed0ec0f21b7112cdf",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Ukraine finds remains of 30 people in search for victims of massacre by Polish WWII partisans",
-      "url": "https://notesfrompoland.com/2026/10/15/ukraine-finds-remains-of-30-people-in-search-for-victims-of-massacre-by-polish-wwii-partisans",
-      "published_at": "2026-10-15T13:43:10Z",
-      "collected_at": "2026-10-19T15:00:55Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
       ]
     },
     {
