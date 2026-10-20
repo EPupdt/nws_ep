@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-20T15:01:03Z",
-  "last_successful_collection_at": "2026-10-20T15:01:03Z",
+  "generated_at": "2026-10-20T15:30:50Z",
+  "last_successful_collection_at": "2026-10-20T15:30:50Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-20T15:01:03Z"
+      "at": "2026-10-20T15:30:50Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-20T15:01:03Z"
+      "at": "2026-10-20T15:30:50Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "<unknown>:2:418: not well-formed (invalid token)",
-      "at": "2026-10-20T15:01:03Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-10-20T15:30:50Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-20T15:01:03Z"
+      "at": "2026-10-20T15:30:50Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-20T15:01:03Z"
+      "at": "2026-10-20T15:30:50Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-10-20T15:01:03Z"
+      "at": "2026-10-20T15:30:50Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-20T15:01:03Z"
+      "at": "2026-10-20T15:30:50Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-20T15:01:03Z"
+      "at": "2026-10-20T15:30:50Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-20T15:01:03Z"
+      "at": "2026-10-20T15:30:50Z"
     }
   ],
   "europe_now": [
@@ -181,6 +181,27 @@
       ]
     },
     {
+      "label": "French · PM · massive · cities",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 5,
+      "latest_at": "2026-10-20T14:54:15Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261020-french-pm-vows-massive-police-deployment-for-new-demonstrations-saturday",
+          "headline": "French PM vows 'massive' police deployment for new demonstrations Saturday",
+          "published_at": "2026-10-20T14:54:15Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
+          "headline": "French cities calm overnight after curfews imposed to quell violence, PM says",
+          "published_at": "2026-10-20T06:35:57Z"
+        }
+      ]
+    },
+    {
       "label": "Arctic · EU · strategy",
       "origin": "convergence",
       "source_count": 2,
@@ -221,30 +242,51 @@
           "published_at": "2026-10-19T15:44:42Z"
         }
       ]
-    },
-    {
-      "label": "election · Spain",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-10-20T10:44:17Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/spains-conservatives-in-talks-with-far-right-vox",
-          "headline": "Spain’s conservatives in talks with far-right Vox over election deal",
-          "published_at": "2026-10-20T10:44:17Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/243589/why-spains-left-missed-the-chance-to-unite-ahead-of-novembers-snap-election",
-          "headline": "Why Spain’s Left missed the chance to unite ahead of November’s snap election",
-          "published_at": "2026-10-19T18:00:00Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "26c1cc90af220197537c7502",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "From fine wine to no alcohol: The changing world of French sommeliers",
+      "url": "https://www.france24.com/en/tv-shows/france-in-focus/20261020-from-fine-wine-to-no-alcohol-the-changing-world-of-french-sommeliers",
+      "published_at": "2026-10-20T14:54:22Z",
+      "collected_at": "2026-10-20T15:30:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "3924a4888c522553c0946b2c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French PM vows 'massive' police deployment for new demonstrations Saturday",
+      "url": "https://www.france24.com/en/video/20261020-french-pm-vows-massive-police-deployment-for-new-demonstrations-saturday",
+      "published_at": "2026-10-20T14:54:15Z",
+      "collected_at": "2026-10-20T15:30:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "477e8f77357a3fe6cdc69eaf",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "October 17 riots in France: Who's responsible?",
+      "url": "https://www.france24.com/en/tv-shows/entre-nous/20261020-october-17-riots-in-france-who-s-responsible",
+      "published_at": "2026-10-20T14:41:07Z",
+      "collected_at": "2026-10-20T15:30:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "ac39de3e7128ad328ad41962",
       "source_id": "euobserver",
@@ -257,6 +299,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "6491239b7cbd3b42ea104cb7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French Justice Minister promises 'extremely firm' punishment for rioters",
+      "url": "https://www.france24.com/en/video/20261020-french-justice-minister-promises-extremely-firm-punishment-for-rioters",
+      "published_at": "2026-10-20T14:37:03Z",
+      "collected_at": "2026-10-20T15:30:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -2161,6 +2217,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "464508e93a163250fd193ec9",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland drops proposal to criminalise providing help to illegal migrants following outcry",
+      "url": "https://notesfrompoland.com/2026/10/16/poland-drops-proposal-to-criminalise-providing-help-to-illegal-migrants-following-outcry",
+      "published_at": "2026-10-16T14:38:51Z",
+      "collected_at": "2026-10-20T15:30:50Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
       ]
     },
     {
