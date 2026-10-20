@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-20T21:00:51Z",
-  "last_successful_collection_at": "2026-10-20T21:00:51Z",
+  "generated_at": "2026-10-20T21:30:49Z",
+  "last_successful_collection_at": "2026-10-20T21:30:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-20T21:00:51Z"
+      "at": "2026-10-20T21:30:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-20T21:00:51Z"
+      "at": "2026-10-20T21:30:49Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-20T21:00:51Z"
+      "at": "2026-10-20T21:30:49Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,63 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-20T21:00:51Z"
+      "at": "2026-10-20T21:30:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-20T21:00:51Z"
+      "at": "2026-10-20T21:30:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-10-20T21:00:51Z"
+      "at": "2026-10-20T21:30:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-20T21:00:51Z"
+      "at": "2026-10-20T21:30:49Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-20T21:00:51Z"
+      "at": "2026-10-20T21:30:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-20T21:00:51Z"
+      "at": "2026-10-20T21:30:49Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Severe Civil Unrest and Security Measures in France",
-      "summary": "French authorities have ordered a new curfew in parts of Paris and initiated immediate trials for hundreds of individuals following widespread civil unrest. Prime Minister has blamed ultra-left groups for the violence and promised a massive police deployment for upcoming demonstrations.",
+      "title": "Poland Eases Abortion Laws in Legislative Challenge",
+      "summary": "Poland's government has voted to ease existing abortion restrictions in a direct challenge to the nation's conservative president. The legislative advancement marks a notable policy shift in the country's reproductive rights landscape.",
+      "article_ids": [
+        "f77f60fee5e2a10e131c2c0f"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/poland-parliament-eases-abortion-laws-ichallenge-conservative-president",
+          "headline": "Poland’s government votes to ease abortion laws in challenge to conservative president",
+          "published_at": "2026-10-20T20:25:31Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "France Imposes Curfews and Prepares Massive Security Response",
+      "summary": "French authorities have ordered local curfews and announced massive police deployments following days of civil unrest and rioting across city centers. Hundreds of individuals involved in the disturbances are being fast-tracked through immediate trials.",
       "article_ids": [
         "0dc7669140f8dcc6b620b883",
         "05f8b463563411ee981b9e4b",
-        "91196b16d61567032652d90d"
+        "a7106357a0a6924efc44f0c3"
       ],
       "sources": [
         {
@@ -86,14 +102,16 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Ukraine and US Officials Hold Defense Diplomacy Talks in Oslo",
-      "summary": "President Volodymyr Zelensky met with United States envoys in Oslo for high-stakes discussions amid diplomatic friction over defense coordination and intelligence sharing. While Zelensky expressed urgency regarding military delays, US officials maintained that Washington is not attempting to undermine Ukraine's security.",
+      "title": "Ukraine Diplomacy and US Defense Coordination",
+      "summary": "Ukrainian President Volodymyr Zelensky traveled to Oslo to engage in high-level defense talks with United States envoys. Discussions focused on intelligence sharing coordination and ongoing military support challenges amidst the ongoing conflict.",
       "article_ids": [
         "27899de07473da5e9a90de21",
-        "a11952c9a8a55584c455ecf1",
-        "e678b7a25a25abafa9a067d5"
+        "ad6e02185c587944e704ebc6",
+        "a11952c9a8a55584c455ecf1"
       ],
       "sources": [
         {
@@ -110,40 +128,6 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Polish Parliament Advances Abortion Law Reform",
-      "summary": "Poland’s government voted to ease existing abortion laws in a direct legislative challenge to the country's conservative president. The decision marks a significant shift in the nation's social policy and parliamentary dynamics.",
-      "article_ids": [
-        "f77f60fee5e2a10e131c2c0f"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/poland-parliament-eases-abortion-laws-ichallenge-conservative-president",
-          "headline": "Poland’s government votes to ease abortion laws in challenge to conservative president",
-          "published_at": "2026-10-20T20:25:31Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Romania Establishes New Government and Political Truce",
-      "summary": "Romania's ongoing political crisis has been temporarily paused following the formation of a new government. The newly established administration has secured a six-month political truce.",
-      "article_ids": [
-        "2400e6d0289942a42e38f97f"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/romania-political-crisis-gets-6-month-truce-as-new-government-formed-luca-niculescu",
-          "headline": "Romania’s political crisis gets 6-month truce as new government formed",
-          "published_at": "2026-10-20T13:54:01Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "developing": [
@@ -175,44 +159,23 @@
       ]
     },
     {
-      "label": "Curfews · France · imposes · protests",
+      "label": "French · PM · massive · police",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 10,
-      "latest_at": "2026-10-20T16:09:44Z",
+      "item_count": 7,
+      "latest_at": "2026-10-20T20:05:44Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261020-france-local-curfews-imposed-after-protests",
-          "headline": "France: Local curfews imposed after protests",
-          "published_at": "2026-10-20T16:09:44Z"
+          "url": "https://www.france24.com/en/french-pm-vows-massive-police-deployment-for-new-demonstrations",
+          "headline": "French PM vows 'massive' police deployment for new demonstrations",
+          "published_at": "2026-10-20T20:05:44Z"
         },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
           "headline": "French cities calm overnight after curfews imposed to quell violence, PM says",
           "published_at": "2026-10-20T06:35:57Z"
-        }
-      ]
-    },
-    {
-      "label": "French · media · police · alight",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-10-20T16:50:49Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261020-how-french-police-are-harnessing-social-media-to-identify-looters",
-          "headline": "How French police are harnessing social media to identify looters",
-          "published_at": "2026-10-20T16:50:49Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
-          "headline": "Suspect arrested after historic town hall set alight - French media",
-          "published_at": "2026-10-20T11:47:39Z"
         }
       ]
     },
@@ -236,9 +199,114 @@
           "published_at": "2026-10-20T15:50:52Z"
         }
       ]
+    },
+    {
+      "label": "France · unrest · gain",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-10-20T13:54:13Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261020-midterms-trump-seizes-on-unrest-in-france-for-political-gain",
+          "headline": "Midterms: Trump seizes on unrest in France for political gain",
+          "published_at": "2026-10-20T13:54:13Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-10-20/who-stands-to-gain-from-frances-unrest.html",
+          "headline": "Who stands to gain from France’s unrest?",
+          "published_at": "2026-10-20T10:33:59Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "b1557b55fb952ce5cc3082b3",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Egypt involvement in Yemen 'may actually weaken Cairo's regional role', expert says",
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20261020-egypt-involvement-in-yemen-may-actually-weaken-egypt-s-regional-role-expert-says",
+      "published_at": "2026-10-20T21:18:48Z",
+      "collected_at": "2026-10-20T21:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "82a5a634ab7559da632c9dcd",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "PSG end Barcelona's winning run as Liverpool fight back against Villarreal",
+      "url": "https://www.france24.com/en/sport/20261020-psg-end-barcelona-winning-run-as-liverpool-fight-back-against-villarreal",
+      "published_at": "2026-10-20T21:17:50Z",
+      "collected_at": "2026-10-20T21:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "00a021f83d73600dcb6bb0f4",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Lula's campaign seeks to disqualify Bolsonoro from Brazil presidential vote over Meta 'interference'",
+      "url": "https://www.france24.com/en/americas/20261020-lula-campaign-seeks-disqualify-bolsonoro-from-brazil-presidential-vote-over-meta-interference",
+      "published_at": "2026-10-20T20:59:51Z",
+      "collected_at": "2026-10-20T21:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "eee2f92569952917a09e19b4",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Egypt involvement in Yemen 'may actually weaken Cairo's regional role', expert says",
+      "url": "https://www.france24.com/en/egypt-involvement-in-yemen-may-actually-weaken-egypt-s-regional-role-expert-says",
+      "published_at": "2026-10-20T20:57:29Z",
+      "collected_at": "2026-10-20T21:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c636488f3967f6f647bdd264",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US regulators certify Boeing 737 Max 10 after years of delay",
+      "url": "https://www.france24.com/en/tv-shows/business/20261020-us-regulators-certify-boeing-737-max-10-after-years-of-delay",
+      "published_at": "2026-10-20T20:46:03Z",
+      "collected_at": "2026-10-20T21:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f1769a5c8085e2ee327d9350",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "‘I’m alive’: Paris street medic isn’t dead, despite viral claims he was killed by police",
+      "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261020-i-m-alive-paris-street-medic-isn-t-dead-despite-viral-claims-he-was-killed-by-police",
+      "published_at": "2026-10-20T20:43:22Z",
+      "collected_at": "2026-10-20T21:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "f77f60fee5e2a10e131c2c0f",
       "source_id": "politico_europe",
@@ -251,6 +319,62 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "ba6b298e4e6869da406df6ef",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Trump campaigning in Republican strongholds amid slide in polls",
+      "url": "https://www.france24.com/en/trump-campaigning-in-republican-strongholds-amid-slide-in-polls",
+      "published_at": "2026-10-20T20:13:03Z",
+      "collected_at": "2026-10-20T21:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "86ef9d31db6f63c755710676",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Italy sends troops, toughens security laws after Milan clashes",
+      "url": "https://www.france24.com/en/italy-sends-troops-toughens-security-laws-after-milan-clashes",
+      "published_at": "2026-10-20T20:09:52Z",
+      "collected_at": "2026-10-20T21:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a7106357a0a6924efc44f0c3",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French PM vows 'massive' police deployment for new demonstrations",
+      "url": "https://www.france24.com/en/french-pm-vows-massive-police-deployment-for-new-demonstrations",
+      "published_at": "2026-10-20T20:05:44Z",
+      "collected_at": "2026-10-20T21:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "4fcfc955c17a40c79290962e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'Netanyahu is fighting for his political career', expert says a week ahead of crucial vote",
+      "url": "https://www.france24.com/en/netanyahu-is-fighting-for-his-political-career-expert-says-a-week-ahead-of-crucial-vote",
+      "published_at": "2026-10-20T20:03:50Z",
+      "collected_at": "2026-10-20T21:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -1962,20 +2086,6 @@
       ]
     },
     {
-      "id": "124cb6681f54e023b56e3489",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "EU Parliament launches probe into fake email seeking to sway internal election",
-      "url": "https://www.politico.eu/article/eu-parliament-launches-probe-into-fake-email-seeking-to-sway-internal-election",
-      "published_at": "2026-10-19T20:54:57Z",
-      "collected_at": "2026-10-19T21:00:53Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "8913d8dd53aed407afc1fa83",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2039,48 +2149,6 @@
       "url": "https://www.france24.com/en/le-pen-trying-to-use-these-events-to-push-her-popularity-expert-says",
       "published_at": "2026-10-19T20:53:11Z",
       "collected_at": "2026-10-20T10:00:57Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0b2250e34d924c7b9533398c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Art crime detective Arthur Brand warns: 'All museums have been, and will be, victims of theft'",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261019-art-crime-detective-arthur-brand-warns-all-museums-have-been-and-will-be-victims-of-theft",
-      "published_at": "2026-10-19T20:16:10Z",
-      "collected_at": "2026-10-19T21:00:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "206848230adf4eae5f9c3da0",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France riots: AI photos falsely depict elderly couple ‘stripped and robbed’",
-      "url": "https://www.france24.com/en/france-riots-ai-photos-falsely-depict-elderly-couple-stripped-and-robbed-1",
-      "published_at": "2026-10-19T20:06:36Z",
-      "collected_at": "2026-10-19T21:00:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "ad335f9627f902c3d4f49550",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French far right seeks to capitalise on protests with calls for law and order",
-      "url": "https://www.france24.com/en/french-far-right-seeks-to-capitalise-on-protests-with-calls-for-law-and-order",
-      "published_at": "2026-10-19T19:41:46Z",
-      "collected_at": "2026-10-19T21:00:53Z",
       "topics": [
         "politics",
         "security",
@@ -2669,34 +2737,6 @@
       "url": "https://english.elpais.com/culture/2026-10-14/kevin-bacon-im-still-100-focused-on-improving-transcending-and-doing-something-impactful.html",
       "published_at": "2026-10-14T10:11:20Z",
       "collected_at": "2026-10-20T11:30:45Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "0ed53caffdbb00ae800b9259",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Fact check: Misleading graph about alleged Russian bot activity",
-      "url": "https://www.dw.com/en/fact-check-misleading-graph-about-alleged-russian-bot-activity/a-79651769?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-14T09:08:00Z",
-      "collected_at": "2026-10-20T13:00:58Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "fb6bc701458940d80930ca17",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Two dozen children vs Pablo Escobar’s hippo: The legal battle to get to a Colombian school",
-      "url": "https://english.elpais.com/international/2026-09-28/two-dozen-children-vs-pablo-escobars-hippo-the-legal-battle-to-get-to-a-colombian-school.html",
-      "published_at": "2026-09-28T15:54:25Z",
-      "collected_at": "2026-10-20T19:00:55Z",
       "topics": [
         "politics",
         "society",
