@@ -1,8 +1,5 @@
 {
   "seen": {
-    "fcbbb9154fc7c56eecde7850": "2026-10-18T07:00:54Z",
-    "c3a7aa4b6853cfc40b4d6f15": "2026-10-18T07:00:54Z",
-    "f0f7b7d0d6b9a5f193d38074": "2026-10-18T07:00:54Z",
     "73f43007f7435ccdc6ff42b4": "2026-10-18T07:30:47Z",
     "5aece50e7100f73e937ead1e": "2026-10-18T08:00:53Z",
     "5c7f8699a6ae5db1f532c193": "2026-10-18T08:00:53Z",
@@ -301,7 +298,9 @@
     "c0eb5652299639ec7d6503c5": "2026-10-20T05:00:49Z",
     "15893b49688cbbd3c8aba064": "2026-10-20T06:00:55Z",
     "db20f6e9f4c304294eba091c": "2026-10-20T06:30:48Z",
-    "12aff6a6e6d0d664f2e8a440": "2026-10-20T06:30:48Z"
+    "12aff6a6e6d0d664f2e8a440": "2026-10-20T06:30:48Z",
+    "fcbbb9154fc7c56eecde7850": "2026-10-20T07:00:56Z",
+    "c3a7aa4b6853cfc40b4d6f15": "2026-10-20T07:00:56Z"
   },
   "radar": [
     {
@@ -2111,6 +2110,34 @@
       ]
     },
     {
+      "id": "c3a7aa4b6853cfc40b4d6f15",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "They fled Russia, but the West sent them back",
+      "url": "https://www.bbc.co.uk/news/articles/c6x23qpzjklwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-16T04:57:28Z",
+      "collected_at": "2026-10-20T07:00:56Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "fcbbb9154fc7c56eecde7850",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Are student protests being manipulated ahead of France's presidential election?",
+      "url": "https://www.bbc.co.uk/news/articles/c8zxlyg965r3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-15T23:25:06Z",
+      "collected_at": "2026-10-20T07:00:56Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "43d3c59f4892e18fc4d686d1",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2589,14 +2616,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-10-18T19:00:52Z",
-      "title": "Czech Senate Election Results"
-    },
-    {
-      "at": "2026-10-18T19:00:52Z",
-      "title": "Diplomatic Condemnation Over West Bank Attack"
-    },
-    {
       "at": "2026-10-18T19:30:46Z",
       "title": "French Unrest and Political Fallout"
     },
@@ -2907,17 +2926,27 @@
     {
       "at": "2026-10-20T06:30:48Z",
       "title": "Ukraine Defense and Support"
+    },
+    {
+      "at": "2026-10-20T07:00:56Z",
+      "title": "French Public Security Measures"
+    },
+    {
+      "at": "2026-10-20T07:00:56Z",
+      "title": "Regional Defense and Geopolitical Tensions"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "French Curfews and Security Measures",
-        "summary": "Curfews have been implemented in Paris and other French cities following a weekend of riots and widespread looting. French authorities have also ordered online marketplaces to crack down on the resale of stolen goods.",
+        "title": "Curfews Imposed Across French Cities",
+        "summary": "Authorities in France have implemented localized curfews in Paris and other urban areas following a weekend of widespread rioting and looting. The Prime Minister reported that these emergency measures helped maintain public order overnight.",
         "article_ids": [
           "f278305ff8ffcd8b203d1ac0",
-          "865b15c6f0a0ae117c99e959"
+          "51580100bbfcf417fe278bed",
+          "15893b49688cbbd3c8aba064",
+          "6f14826dc20d781236842a38"
         ],
         "sources": [
           {
@@ -2925,13 +2954,19 @@
             "url": "https://www.france24.com/en/europe/20261020-live-curfews-come-into-effect-around-france-to-combat-looting",
             "headline": "Live: Curfews come into effect around France to combat looting",
             "published_at": "2026-10-20T02:51:36Z"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20261020-live-curfews-come-into-effect-around-france-to-combat-looting",
+            "headline": "Live: Curfews come into effect in Paris and other French cities after rioting",
+            "published_at": "2026-10-20T02:51:36Z"
           }
         ],
         "source_count": 1
       },
       {
-        "title": "Severe Flooding in Spain",
-        "summary": "Torrential rain across eastern regions of Spain has caused severe floods resulting in four fatalities. The adverse weather conditions have significantly impacted local infrastructure and communities.",
+        "title": "Severe Flooding Impacts Eastern Spain",
+        "summary": "Torrential rainfall across eastern regions of Spain has triggered severe floods, resulting in at least four fatalities. The extreme weather events have heavily disrupted affected communities and drawn significant emergency responses.",
         "article_ids": [
           "b9984fb37860ca80287f5a4a"
         ],
@@ -2948,19 +2983,14 @@
     ],
     "top_stories": [
       {
-        "title": "French Civil Unrest",
-        "summary": "French cities implemented localized curfews following a weekend marked by extensive rioting and looting. The Prime Minister reported that these emergency measures helped maintain public order overnight.",
+        "title": "French Public Security Measures",
+        "summary": "The French government has introduced localized curfews and instructed online marketplaces to crack down on the resale of stolen goods. Officials noted that these security interventions have been effective in reducing overnight looting and restoring order.",
         "article_ids": [
-          "51580100bbfcf417fe278bed",
-          "15893b49688cbbd3c8aba064"
+          "15893b49688cbbd3c8aba064",
+          "229dc6a365abda61d2e2f9bb",
+          "865b15c6f0a0ae117c99e959"
         ],
         "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20261020-live-curfews-come-into-effect-around-france-to-combat-looting",
-            "headline": "Live: Curfews come into effect in Paris and other French cities after rioting",
-            "published_at": "2026-10-20T02:51:36Z"
-          },
           {
             "publisher": "France 24 English",
             "url": "https://www.france24.com/en/europe/20261020-live-curfews-come-into-effect-around-france-to-combat-looting",
@@ -2971,18 +3001,20 @@
         "source_count": 1
       },
       {
-        "title": "Ukraine Defense and Support",
-        "summary": "President Zelensky accused the United States of delaying essential missile deliveries amid escalating regional tensions. Additionally, Ukrainian officials expressed concern that restricted intelligence sharing is negatively impacting frontline defense efforts.",
+        "title": "Regional Defense and Geopolitical Tensions",
+        "summary": "Ukrainian leadership has raised concerns regarding delivery speeds and intelligence sharing limitations impacting frontline military operations. Meanwhile, the European Union has introduced a new strategy to enhance its presence in the Arctic.",
         "article_ids": [
           "e6366c5f898a727f7ba34433",
+          "db20f6e9f4c304294eba091c",
+          "4267377a8f7760c133541cc2",
           "9e273314dba51cdf6f9c9cb9"
         ],
         "sources": [
           {
             "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20261020-zelensky-accuses-us-of-delaying-missile-deliveries-as-tensions-rise",
-            "headline": "Zelensky accuses US of delaying missile deliveries as tensions rise",
-            "published_at": "2026-10-20T01:56:59Z"
+            "url": "https://www.france24.com/en/europe/20261020-eu-unveils-strategy-to-bolster-arctic-presence-amid-pressure-from-russia-and-the-us",
+            "headline": "EU unveils strategy to bolster Arctic presence amid pressure from Russia and the US",
+            "published_at": "2026-10-20T01:35:24Z"
           },
           {
             "publisher": "BBC News Europe",
@@ -2995,5 +3027,5 @@
       }
     ]
   },
-  "last_collection_at": "2026-10-20T06:30:48Z"
+  "last_collection_at": "2026-10-20T07:00:56Z"
 }
