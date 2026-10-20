@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-20T12:00:54Z",
-  "last_successful_collection_at": "2026-10-20T12:00:54Z",
+  "generated_at": "2026-10-20T12:30:49Z",
+  "last_successful_collection_at": "2026-10-20T12:30:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-20T12:00:54Z"
+      "at": "2026-10-20T12:30:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-10-20T12:00:54Z"
+      "at": "2026-10-20T12:30:49Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-20T12:00:54Z"
+      "at": "2026-10-20T12:30:49Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-20T12:00:54Z"
+      "at": "2026-10-20T12:30:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-20T12:00:54Z"
+      "at": "2026-10-20T12:30:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-10-20T12:00:54Z"
+      "at": "2026-10-20T12:30:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-20T12:00:54Z"
+      "at": "2026-10-20T12:30:49Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-20T12:00:54Z"
+      "at": "2026-10-20T12:30:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-20T12:00:54Z"
+      "at": "2026-10-20T12:30:49Z"
     }
   ],
   "europe_now": [
     {
-      "title": "French Curfews and Security Measures",
-      "summary": "France has implemented targeted curfews following a weekend of widespread violence, looting, and civil unrest.",
+      "title": "France Imposes Curfews Following Weekend Unrest",
+      "summary": "French authorities have introduced targeted curfews following a weekend marked by widespread violence, looting, and arson incidents. Government officials report that the initial night under these new security restrictions proceeded calmly.",
       "article_ids": [
         "ac60904c6e65cc72cfa5c47e",
         "d52ce2d5d5680572bb337566"
@@ -87,10 +87,11 @@
       "source_count": 1
     },
     {
-      "title": "Zelensky Prepares for Oslo Talks",
-      "summary": "Ukrainian leadership is preparing for diplomatic talks in Oslo involving US envoys amid ongoing security and intelligence discussions.",
+      "title": "Ukraine Diplomatic and Defense Preparations",
+      "summary": "Ukrainian leadership is preparing for high-level talks in Oslo involving United States envoys. Meanwhile, regional security concerns continue as Polish authorities detain a military reservist on suspicion of espionage.",
       "article_ids": [
-        "cdbaf60c2034f6eeaaf86ad5"
+        "cdbaf60c2034f6eeaaf86ad5",
+        "789f47590195ccf2e91878d1"
       ],
       "sources": [
         {
@@ -98,25 +99,31 @@
           "url": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss",
           "headline": "Zelensky prepares for Oslo talks with US envoys as Rubio denies withholding intelligence",
           "published_at": "2026-10-20T11:30:59Z"
+        },
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/10/20/poland-detains-polish-ukrainian-military-reservist-on-suspicion-of-espionage",
+          "headline": "Poland detains Polish-Ukrainian military reservist on suspicion of espionage",
+          "published_at": "2026-10-20T09:08:41Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "Civil Unrest in France",
-      "summary": "French cities experienced a night under targeted curfews following days of severe rioting and looting. Retailers have begun filing insurance claims while authorities assess the broader political and social fallout.",
+      "title": "French Civil Unrest and Security Response",
+      "summary": "France has implemented localized curfews and increased security deployments following severe weekend riots and commercial looting. Retailers have begun submitting insurance claims while leaders grapple with public discontent over economic pressures.",
       "article_ids": [
-        "d4e077b2ca7460df34104f74",
+        "ac60904c6e65cc72cfa5c47e",
         "e5a03e1084bf2b43f713733c"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261020-france-first-night-under-targeted-curfews-passed-calmly",
-          "headline": "France first night under targeted curfews passes calmly",
-          "published_at": "2026-10-20T10:01:39Z"
+          "url": "https://www.france24.com/en/tv-shows/press-review/20261020-france-imposes-curfews-after-weekend-violence-but-is-it-too-much-or-too-little",
+          "headline": "France imposes curfews after weekend violence, but is it too much or too little?",
+          "published_at": "2026-10-20T11:47:03Z"
         },
         {
           "publisher": "France 24 English",
@@ -215,6 +222,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "885445016da551c99a17fd9d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Niger, Mali and Burkina Faso resume dialogue with ECOWAS regional bloc",
+      "url": "https://www.france24.com/en/video/20261020-niger-mali-and-burkina-faso-resume-dialogue-with-ecowas-regional-bloc",
+      "published_at": "2026-10-20T12:21:24Z",
+      "collected_at": "2026-10-20T12:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "2c8a1bae36ff66369b8cbb3f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Kenyan cult leader found guilty of murder",
+      "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20261020-kenyan-cult-leader-found-guilty-of-murder",
+      "published_at": "2026-10-20T12:15:27Z",
+      "collected_at": "2026-10-20T12:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "ccd31d3dc935049fee919e85",
       "source_id": "politico_europe",
@@ -1882,62 +1917,6 @@
       ]
     },
     {
-      "id": "38bbf5df75221858e7c9bda6",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "The multiple sclerosis gap Europe cannot afford to ignore",
-      "url": "https://www.politico.eu/sponsored-content/the-multiple-sclerosis-gap-europe-cannot-afford-to-ignore",
-      "published_at": "2026-10-19T12:08:45Z",
-      "collected_at": "2026-10-19T12:30:46Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "37cdc005d8018f84c32f0b61",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Adipositas: Sparen kann für den Staat teuer werden",
-      "url": "https://www.politico.eu/sponsored-content/adipositas-sparen-kann-fuer-den-staat-teuer-werden",
-      "published_at": "2026-10-19T12:04:31Z",
-      "collected_at": "2026-10-19T12:30:46Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "0bac0615b81bfdf524ee994d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Living with 230 data centers on the doorstep: ‘Nobody warned us what was going to happen’",
-      "url": "https://english.elpais.com/economy-and-business/2026-10-19/living-with-230-data-centers-on-the-doorstep-nobody-warned-us-what-was-going-to-happen.html",
-      "published_at": "2026-10-19T11:55:57Z",
-      "collected_at": "2026-10-19T12:30:46Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "f8cf1986d1eaf89194f5fdc6",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Lithuania says Ukrainian drone that struck car entered its airspace from Poland",
-      "url": "https://notesfrompoland.com/2026/10/19/lithuania-says-ukrainian-drone-that-struck-car-entered-its-airspace-from-poland",
-      "published_at": "2026-10-19T11:53:47Z",
-      "collected_at": "2026-10-19T12:00:59Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "799a08e0c6a6bb8dfe55b371",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2176,20 +2155,6 @@
       ]
     },
     {
-      "id": "0e6805843910120ed8edab9c",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Russia wants blackout in Ukraine as winter comes — Zelenskyy",
-      "url": "https://www.dw.com/en/russia-wants-blackout-in-ukraine-as-winter-comes-zelenskyy/a-79686703?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-17T11:34:00Z",
-      "collected_at": "2026-10-19T12:00:59Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "7e728f5e6536a0d8a628d8c0",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2400,20 +2365,6 @@
       ]
     },
     {
-      "id": "b175f0d065efd6b8df16c436",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Romania: 2 ships on fire in Black Sea, 7 crew missing",
-      "url": "https://www.dw.com/en/romania-2-ships-on-fire-in-black-sea-7-crew-missing/a-79667003?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-15T14:34:00Z",
-      "collected_at": "2026-10-19T12:30:46Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "6c9ebd0ed0ec0f21b7112cdf",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -2537,20 +2488,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "9dfc6aa91021de7ec2313d92",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "How much AI is in Spain’s bestselling books?",
-      "url": "https://english.elpais.com/technology/2026-10-13/how-much-ai-is-in-spains-bestselling-books.html",
-      "published_at": "2026-10-13T09:46:31Z",
-      "collected_at": "2026-10-19T12:30:46Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
