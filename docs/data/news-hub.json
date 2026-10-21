@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-21T08:00:55Z",
-  "last_successful_collection_at": "2026-10-21T08:00:55Z",
+  "generated_at": "2026-10-21T08:30:49Z",
+  "last_successful_collection_at": "2026-10-21T08:30:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-21T08:00:55Z"
+      "at": "2026-10-21T08:30:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-10-21T08:00:55Z"
+      "at": "2026-10-21T08:30:49Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-21T08:00:55Z"
+      "at": "2026-10-21T08:30:49Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,128 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-21T08:00:55Z"
+      "at": "2026-10-21T08:30:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-21T08:00:55Z"
+      "at": "2026-10-21T08:30:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-10-21T08:00:55Z"
+      "at": "2026-10-21T08:30:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-21T08:00:55Z"
+      "at": "2026-10-21T08:30:49Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-21T08:00:55Z"
+      "at": "2026-10-21T08:30:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-21T08:00:55Z"
+      "at": "2026-10-21T08:30:49Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Poland legalizes abortion access in parliamentary vote",
-      "summary": "Polish lawmakers approved legislation liberalizing the country's strict abortion laws, marking a significant shift in reproductive rights policy. The reform faces potential opposition from the conservative president, who holds veto power over the measure.",
+      "title": "US Envoy Engages With Ukraine and Russia",
+      "summary": "Ukrainian President Volodymyr Zelensky stated that intelligence sharing is operational following discussions with a US envoy, who is now scheduled to meet with Vladimir Putin in Russia.",
+      "article_ids": [
+        "9eb483aeec5c86ac00716d5a",
+        "8f2e3f885fd08c11a55446bb"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+          "headline": "Zelensky says intelligence sharing 'works now' as US envoy to meet Putin in Russia",
+          "published_at": "2026-10-21T08:18:53Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+          "headline": "US envoy arrives in Russia ahead of meeting with Putin as Zelensky says intelligence sharing 'works now'",
+          "published_at": "2026-10-21T06:37:55Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "French Authorities Enforce Security Measures Amid Civil Unrest",
+      "summary": "France has implemented new curfews and prepared heavy security deployments as the government responds to ongoing nationwide civil unrest and demonstrations.",
+      "article_ids": [
+        "0dc7669140f8dcc6b620b883",
+        "05f8b463563411ee981b9e4b"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/hundreds-put-on-immediate-trial-for-ransacking-city-centres-across-france",
+          "headline": "Hundreds put on immediate trial for ransacking city centres across France",
+          "published_at": "2026-10-20T19:05:25Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Diplomatic and Security Developments in Ukraine",
+      "summary": "Ukrainian President Volodymyr Zelensky confirmed that intelligence sharing is currently functioning following diplomatic engagements with US representatives. Meanwhile, international partners continue discussing broader financial support frameworks for Ukraine.",
+      "article_ids": [
+        "9eb483aeec5c86ac00716d5a",
+        "30e9baa91c23287b1968e5d0"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+          "headline": "Zelensky says intelligence sharing 'works now' as US envoy to meet Putin in Russia",
+          "published_at": "2026-10-21T08:18:53Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-to-press-canada-and-uk-for-more-ukraine-funding",
+          "headline": "EU to press Canada and UK for more Ukraine funding",
+          "published_at": "2026-10-21T02:00:00Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Civil Unrest and Government Response in France",
+      "summary": "French authorities have instituted new curfews and prepared massive police deployments in response to ongoing nationwide riots. Hundreds of individuals involved in urban unrest have been put on immediate trial.",
+      "article_ids": [
+        "0dc7669140f8dcc6b620b883",
+        "05f8b463563411ee981b9e4b"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/hundreds-put-on-immediate-trial-for-ransacking-city-centres-across-france",
+          "headline": "Hundreds put on immediate trial for ransacking city centres across France",
+          "published_at": "2026-10-20T19:05:25Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Polish Parliament Advances Legislative Reforms",
+      "summary": "The Polish parliament has approved measures to liberalize the country's abortion laws, presenting a direct challenge to the conservative president. Additionally, Polish leaders recently condemned foreign remarks downplaying the contributions of allies.",
       "article_ids": [
         "38cdcac05644108b9b3a8b97",
-        "f77f60fee5e2a10e131c2c0f"
+        "4af0ec1b557409985ab3e4e5"
       ],
       "sources": [
         {
@@ -78,17 +160,17 @@
           "published_at": "2026-10-21T07:41:48Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/poland-parliament-eases-abortion-laws-ichallenge-conservative-president",
-          "headline": "Poland’s government votes to ease abortion laws in challenge to conservative president",
-          "published_at": "2026-10-20T20:25:31Z"
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/10/20/polish-leaders-condemn-hegseths-scandalous-remarks-downplaying-role-of-us-allies-in-afghanistan",
+          "headline": "Polish leaders condemn Hegseth’s “scandalous” remarks downplaying role of US allies in Afghanistan",
+          "published_at": "2026-10-20T19:52:13Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "Italy deploys military and tightens security after Milan clashes",
-      "summary": "Italian authorities announced the deployment of 500 soldiers and new security measures following violent protests in Milan. The government responded to widespread unrest with enhanced law enforcement protocols across urban centers.",
+      "title": "Italian Security Enhancements",
+      "summary": "Italy announced new security measures and deployed hundreds of soldiers following recent riots in Milan. The legislative and security actions aim to restore public order in major urban centers.",
       "article_ids": [
         "f80d355947d2767c64054423",
         "86ef9d31db6f63c755710676"
@@ -105,81 +187,6 @@
           "url": "https://www.france24.com/en/italy-sends-troops-toughens-security-laws-after-milan-clashes",
           "headline": "Italy sends troops, toughens security laws after Milan clashes",
           "published_at": "2026-10-20T20:09:52Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Ukraine diplomatic engagements intensify amid shifting US stance",
-      "summary": "Ukrainian officials reported progress in intelligence cooperation with the United States following meetings between President Zelenskyy and American envoys. These developments occur alongside ongoing negotiations involving European partners and regional security discussions.",
-      "article_ids": [
-        "8f2e3f885fd08c11a55446bb",
-        "5e9eb31375687c470af519e9",
-        "27899de07473da5e9a90de21",
-        "d75450d905a9766946c54b71"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
-          "headline": "US envoy arrives in Russia ahead of meeting with Putin as Zelensky says intelligence sharing 'works now'",
-          "published_at": "2026-10-21T06:37:55Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/zelenskiy-meets-witkoff-as-us-ukraine-relations-sink-to-new-lows",
-          "headline": "Zelensky meets Witkoff as US-Ukraine relations sink to new lows",
-          "published_at": "2026-10-20T19:06:57Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "French government escalates response to nationwide civil unrest",
-      "summary": "Prime Minister Lecornu announced plans for large-scale police deployments during upcoming demonstrations, while Paris imposed localized curfews to manage ongoing disturbances. Hundreds of individuals faced immediate trials for property damage and public disorder charges.",
-      "article_ids": [
-        "aed794547409eafede1fdb3d",
-        "05f8b463563411ee981b9e4b",
-        "00a021f83d73600dcb6bb0f4",
-        "a7106357a0a6924efc44f0c3"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261021-live-french-pm-lecornu-to-meet-with-unions-ahead-of-new-protests",
-          "headline": "Live: French PM Lecornu to meet with unions ahead of new protests",
-          "published_at": "2026-10-21T00:45:06Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/new-paris-curfew-ordered-in-parts-of-city-from-2100-gmt-tuesday",
-          "headline": "New Paris curfew ordered in parts of city from 2100 GMT Tuesday",
-          "published_at": "2026-10-20T19:01:31Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "EU seeks expanded international funding for Ukraine support",
-      "summary": "Brussels initiated discussions with Canada and the United Kingdom to secure additional financial contributions for Ukrainian defense and reconstruction efforts. Officials emphasized the need for sustained allied commitment amid evolving geopolitical tensions.",
-      "article_ids": [
-        "866017226f2824d7424e3631",
-        "30e9baa91c23287b1968e5d0"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/brussels-goes-looking-for-billions-to-fund-ukraine",
-          "headline": "Brussels goes looking for billions to fund Ukraine",
-          "published_at": "2026-10-21T04:05:00Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-to-press-canada-and-uk-for-more-ukraine-funding",
-          "headline": "EU to press Canada and UK for more Ukraine funding",
-          "published_at": "2026-10-21T02:00:00Z"
         }
       ],
       "source_count": 1
@@ -250,28 +257,56 @@
       ]
     },
     {
-      "label": "France · riots",
+      "label": "Champions · League",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-10-21T06:50:40Z",
+      "latest_at": "2026-10-21T08:21:38Z",
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss",
-          "headline": "Katya Adler: France divided over who to blame for riots and what to learn from them",
-          "published_at": "2026-10-21T06:50:40Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/sports/20261021-champions-league-paris-defeat-barcelona-but-lose-3-major-players-to-injuries",
+          "headline": "Champions League: Paris defeat Barcelona but lose 3 major players to injuries",
+          "published_at": "2026-10-21T08:21:38Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/entre-nous/20261020-october-17-riots-in-france-who-s-responsible",
-          "headline": "October 17 riots in France: Who's responsible?",
-          "published_at": "2026-10-20T14:41:07Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/sport/football/articles/ckg5je34l0q5o?at_medium=RSS&at_campaign=rss",
+          "headline": "No jeopardy but loads of fun - Champions League sets new goals record",
+          "published_at": "2026-10-20T23:03:11Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "4995f4ab7068de069510fe16",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Champions League: Paris defeat Barcelona but lose 3 major players to injuries",
+      "url": "https://www.france24.com/en/tv-shows/sports/20261021-champions-league-paris-defeat-barcelona-but-lose-3-major-players-to-injuries",
+      "published_at": "2026-10-21T08:21:38Z",
+      "collected_at": "2026-10-21T08:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "9eb483aeec5c86ac00716d5a",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Zelensky says intelligence sharing 'works now' as US envoy to meet Putin in Russia",
+      "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-21T08:18:53Z",
+      "collected_at": "2026-10-21T08:30:49Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "38cdcac05644108b9b3a8b97",
       "source_id": "notes_from_poland",
@@ -2219,16 +2254,16 @@
       ]
     },
     {
-      "id": "b965873dd93e9559f414c008",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Alberta votes to remain part of Canada in victory for PM Carney",
-      "url": "https://www.france24.com/en/americas/20261019-alberta-votes-to-remain-part-of-canada-in-victory-for-pm-carney",
-      "published_at": "2026-10-19T14:45:23Z",
-      "collected_at": "2026-10-20T08:30:45Z",
+      "id": "ba12960545fa903b1a141a66",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Katya Adler: France's government under pressure after weekend of widespread violence",
+      "url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T07:46:54Z",
+      "collected_at": "2026-10-21T08:30:49Z",
       "topics": [
+        "breaking",
         "politics",
-        "security",
         "society"
       ]
     },
@@ -2408,20 +2443,6 @@
       "url": "https://www.dw.com/en/how-reliant-is-ukraine-on-the-us-controlled-starlink-internet-service/a-79689729?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-10-18T08:58:00Z",
       "collected_at": "2026-10-20T09:30:59Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "5aece50e7100f73e937ead1e",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Populist Czech PM Babis goes empty-handed in Senate elections",
-      "url": "https://www.dw.com/en/populist-czech-pm-babis-goes-empty-handed-in-senate-elections/a-79690934?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-18T07:03:00Z",
-      "collected_at": "2026-10-20T08:01:00Z",
       "topics": [
         "politics",
         "society",
