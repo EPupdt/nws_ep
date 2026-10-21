@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-21T13:30:49Z",
-  "last_successful_collection_at": "2026-10-21T13:30:49Z",
+  "generated_at": "2026-10-21T14:00:57Z",
+  "last_successful_collection_at": "2026-10-21T14:00:57Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-21T13:30:49Z"
+      "at": "2026-10-21T14:00:57Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "22",
-      "at": "2026-10-21T13:30:49Z"
+      "count": "21",
+      "at": "2026-10-21T14:00:57Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-21T13:30:49Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-10-21T14:00:57Z"
     },
     {
       "id": "euractiv",
@@ -29,54 +29,97 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-21T13:30:49Z"
+      "at": "2026-10-21T14:00:57Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-21T13:30:49Z"
+      "at": "2026-10-21T14:00:57Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-10-21T13:30:49Z"
+      "at": "2026-10-21T14:00:57Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-21T13:30:49Z"
+      "at": "2026-10-21T14:00:57Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-21T13:30:49Z"
+      "at": "2026-10-21T14:00:57Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-21T13:30:49Z"
+      "at": "2026-10-21T14:00:57Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Italy deploys army and tightens security laws",
-      "summary": "Italy has deployed military personnel into Milan and approved stringent new anti-riot laws following recent violent demonstrations.",
+      "title": "Prosecutor searches far-right group offices in EU Parliament",
+      "summary": "A prosecutor searched far-right group offices in the European Parliament. The search targets the group's offices within the EU legislature.",
       "article_ids": [
-        "21f9db6dd5c6add2f00621db",
-        "bc605df01f4da68b801bed86"
+        "5df9a112bb47ad7206976ad3"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/patriots-european-parliament-office-search-eu-funds-mismanagement",
+          "headline": "Prosecutor searches far-right group offices in EU Parliament",
+          "published_at": "2026-10-21T13:52:02Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "EU energy sanctions will stay despite US diesel deal, von der Leyen says",
+      "summary": "EU Commission President von der Leyen confirmed that Russia energy sanctions will stay in place. The decision persists despite a US-Russia diesel agreement.",
+      "article_ids": [
+        "6be18d759df201867c5a1dab"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-ursula-von-der-leyen-russia-energy-sanctions-us-diesel-deal",
+          "headline": "Russia energy sanctions will stay despite US diesel deal, von der Leyen says",
+          "published_at": "2026-10-21T09:31:27Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "REPLAY: French union leaders urges strikes after meeting with PM Lecornu",
+      "summary": "French union leaders met with the prime minister and called for strike action. The discussion focused on labor issues.",
+      "article_ids": [
+        "b464528e06cf36c5e2483e0c"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261021-italy-deploys-troops-into-milan-in-response-to-recent-riots",
-          "headline": "Italy deploys troops into Milan in response to recent riots",
-          "published_at": "2026-10-21T10:08:24Z"
-        },
+          "url": "https://www.france24.com/en/replay-french-union-leaders-urges-strikes-after-meeting-with-pm-lecornu",
+          "headline": "REPLAY: French union leaders urges strikes after meeting with PM Lecornu",
+          "published_at": "2026-10-21T13:30:24Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Italy deploys army and approves tougher anti-riot laws after violence",
+      "summary": "Italian authorities deployed army forces and approved tougher anti-riot laws. The measures come after recent violence.",
+      "article_ids": [
+        "bc605df01f4da68b801bed86"
+      ],
+      "sources": [
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/italy-deploys-army-and-approves-tougher-anti-riot-laws-after-violence",
@@ -87,33 +130,29 @@
       "source_count": 1
     },
     {
-      "title": "France faces civil unrest and military site drone sightings",
-      "summary": "France is experiencing nationwide riots and civil unrest, accompanied by reports of suspicious drones flying over military sites.",
+      "title": "US sanctions on ICC are 'a shock' and 'unacceptable', Nobel peace laureate Navi Pillay says",
+      "summary": "US sanctions on the International Criminal Court were called a shock and unacceptable by Navi Pillay. The remarks were issued regarding the sanctions.",
       "article_ids": [
-        "a41146222b0607eb6be0812a",
-        "ccf870a0a6438e25e9bfaeca",
-        "0a9b9cb2a496ec1a2c56f1c2"
+        "8e869ebdea42ace68a600f36"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/suspicious-drone-fly-over-france-military-site",
-          "headline": "Suspicious drones spotted flying over French military sites",
-          "published_at": "2026-10-21T11:03:13Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261021-us-sanctions-on-icc-are-a-shock-and-unacceptable-nobel-peace-laureate-navi-pillay-says",
+          "headline": "US sanctions on ICC are 'a shock' and 'unacceptable', Nobel peace laureate Navi Pillay says",
+          "published_at": "2026-10-21T13:11:50Z"
         }
       ],
       "source_count": 1
     }
   ],
-  "top_stories": [
+  "developing": [
     {
-      "title": "US Diplomatic Engagement in Russia and Ukraine",
-      "summary": "US envoy Steve Witkoff traveled to Russia to meet with Vladimir Putin following discussions with Ukrainian leadership. During the diplomatic visit, Russia released jailed American citizen Stephen Hubbard.",
-      "article_ids": [
-        "04d59b9613c1d200de7e13f9",
-        "4713eecf47cec49f6aa39eb3",
-        "8be16608e5beb1c6f6b90a5e"
-      ],
+      "label": "US · envoy · Russia · Putin",
+      "origin": "convergence",
+      "source_count": 5,
+      "item_count": 21,
+      "latest_at": "2026-10-21T11:39:25Z",
       "sources": [
         {
           "publisher": "BBC News Europe",
@@ -123,77 +162,63 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/us-envoy-steve-witkoff-thanks-vladimir-putin-for-diesel-deal-at-ukraine-talks-in-russia",
-          "headline": "US envoy Steve Witkoff thanks Vladimir Putin for diesel deal at Ukraine talks in Russia",
-          "published_at": "2026-10-21T11:07:35Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Polish Parliamentary Legislative Reforms",
-      "summary": "The Polish parliament has approved legislation aimed at liberalizing the country's abortion laws. Meanwhile, Poland has also condemned a Ukrainian region for honoring historical figures associated with World War II massacres.",
-      "article_ids": [
-        "cdc059fc578e0ee7e7068a02",
-        "38cdcac05644108b9b3a8b97"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/10/21/poland-condemns-ukrainian-region-for-honouring-figures-associated-with-wwii-massacres-of-poles",
-          "headline": "Poland condemns Ukrainian region for honouring figures associated with WWII massacres of Poles",
-          "published_at": "2026-10-21T09:35:45Z"
+          "url": "https://www.france24.com/en/ukraine-talks-us-envoy-meets-vladimir-putin-in-russia",
+          "headline": "Ukraine talks: US envoy meets Vladimir Putin in Russia",
+          "published_at": "2026-10-21T11:04:31Z"
         },
         {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/10/21/parliament-approves-liberalisation-of-polands-abortion-laws",
-          "headline": "Parliament approves liberalisation of Poland’s abortion laws",
-          "published_at": "2026-10-21T07:41:48Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
-    {
-      "label": "French · riots · weekend",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-10-21T12:07:14Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/press-review/20261021-who-are-the-vandals-ask-the-french-press-after-weekend-riots",
-          "headline": "'Who are the vandals?' ask the French press after weekend riots",
-          "published_at": "2026-10-21T12:07:14Z"
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/culture/2026-10-21/patti-smith-calls-on-citizens-to-use-the-power-of-their-vote-against-trumps-deplorable-leadership.html",
+          "headline": "Patti Smith calls on citizens to use the power of their vote against Trump’s ‘deplorable leadership’",
+          "published_at": "2026-10-21T09:46:15Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/macron-slams-unacceptable-and-stupid-comments-after-trump-pins-french-riots-on-immigration",
-          "headline": "Macron slams ‘stupid’ comments after Trump pins French riots on immigration",
-          "published_at": "2026-10-21T11:35:45Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/russia-frees-jailed-american-stephen-hubbard-us-envoy-says/a-79719452?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Russia frees jailed American Stephen Hubbard, US envoy says",
+          "published_at": "2026-10-21T09:42:00Z"
         }
       ]
     },
     {
-      "label": "France · riots · Leader",
+      "label": "Putin · Witkoff · Russia · US",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 5,
+      "latest_at": "2026-10-21T12:00:09Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/us-special-envoy-witkoff-to-putin-you-are-a-humanitarian-i-salute-that",
+          "headline": "Witkoff to Putin: ‘You are a humanitarian … I salute that’",
+          "published_at": "2026-10-21T12:00:09Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/us-envoy-steve-witkoff-thanks-vladimir-putin-for-diesel-deal-at-ukraine-talks-in-russia",
+          "headline": "US envoy Steve Witkoff thanks Vladimir Putin for diesel deal at Ukraine talks in Russia",
+          "published_at": "2026-10-21T11:07:35Z"
+        }
+      ]
+    },
+    {
+      "label": "case · Ebola · Nigeria · spread",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 4,
-      "latest_at": "2026-10-21T11:48:11Z",
+      "latest_at": "2026-10-21T13:28:52Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261021-macron-says-world-leaders-have-made-stupid-comments-on-france-riots-based-on-fake-ai-videos",
-          "headline": "Macron says world leaders have made 'stupid' comments on France riots based on fake AI videos",
-          "published_at": "2026-10-21T11:48:11Z"
+          "url": "https://www.france24.com/en/video/20261021-nigeria-records-its-first-ebola-case-amid-rapid-regional-spread",
+          "headline": "Nigeria records its first Ebola case amid rapid regional spread",
+          "published_at": "2026-10-21T13:28:52Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss",
-          "headline": "Katya Adler: France divided over who to blame for riots and what to learn from them",
-          "published_at": "2026-10-21T06:50:40Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/nigeria-confirms-ebola-case-drc-congo-outbreak-spreads",
+          "headline": "Nigeria confirms Ebola case, as Congo outbreak spreads",
+          "published_at": "2026-10-21T09:37:53Z"
         }
       ]
     },
@@ -217,30 +242,93 @@
           "published_at": "2026-10-20T23:03:11Z"
         }
       ]
-    },
-    {
-      "label": "Zelensky · despite · loggerheads · optimism",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-10-20T20:00:57Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
-          "published_at": "2026-10-20T20:00:57Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261020-zelensky-oslo-for-talks-with-us-envoys-ukraine-claims-missile-holdup",
-          "headline": "Ukraine ‘losing people and time’, Zelensky says after Oslo talks",
-          "published_at": "2026-10-20T14:11:29Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "5df9a112bb47ad7206976ad3",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Prosecutor searches far-right group offices in EU Parliament",
+      "url": "https://www.politico.eu/article/patriots-european-parliament-office-search-eu-funds-mismanagement",
+      "published_at": "2026-10-21T13:52:02Z",
+      "collected_at": "2026-10-21T14:00:57Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "a2a296c919bf31b549dd9dfb",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "South African former police chief accused of sex trafficking denied bail",
+      "url": "https://www.france24.com/en/video/20261021-south-african-former-police-chief-accused-of-sex-trafficking-denied-bail",
+      "published_at": "2026-10-21T13:44:25Z",
+      "collected_at": "2026-10-21T14:00:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "b464528e06cf36c5e2483e0c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "REPLAY: French union leaders urges strikes after meeting with PM Lecornu",
+      "url": "https://www.france24.com/en/replay-french-union-leaders-urges-strikes-after-meeting-with-pm-lecornu",
+      "published_at": "2026-10-21T13:30:24Z",
+      "collected_at": "2026-10-21T14:00:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "13bfdddda5ff2671d997a12f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Nigeria records its first Ebola case amid rapid regional spread",
+      "url": "https://www.france24.com/en/video/20261021-nigeria-records-its-first-ebola-case-amid-rapid-regional-spread",
+      "published_at": "2026-10-21T13:28:52Z",
+      "collected_at": "2026-10-21T14:00:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "faf8d13fd09259b03b7dd6de",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "What makes a great Halloween cake?",
+      "url": "https://www.france24.com/en/tv-shows/entre-nous/20261021-what-makes-a-great-halloween-cake",
+      "published_at": "2026-10-21T13:28:09Z",
+      "collected_at": "2026-10-21T14:00:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "8e869ebdea42ace68a600f36",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US sanctions on ICC are 'a shock' and 'unacceptable', Nobel peace laureate Navi Pillay says",
+      "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261021-us-sanctions-on-icc-are-a-shock-and-unacceptable-nobel-peace-laureate-navi-pillay-says",
+      "published_at": "2026-10-21T13:11:50Z",
+      "collected_at": "2026-10-21T14:00:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "b254b0c9d04bca9a743c7d87",
       "source_id": "el_pais_english",
@@ -574,6 +662,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "357b4b09287de0b329ac32d8",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Murder arrest over British tourist's Greece death",
+      "url": "https://www.bbc.co.uk/news/articles/cmd6d7y19el1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-21T10:03:56Z",
+      "collected_at": "2026-10-21T14:00:57Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -2659,48 +2761,6 @@
       "collected_at": "2026-10-20T17:00:58Z",
       "topics": [
         "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "99f9040f37bbece1d76b64e2",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "US-Russia ‘diesel deal’ could open door to wider sanctions relief, Zelensky warns as EU vows to keep supporting Ukraine",
-      "url": "https://euobserver.com/243170/us-russia-diesel-deal-could-open-door-to-wider-sanctions-relief-zelensky-warns-as-eu-vows-to-keep-supporting-ukraine",
-      "published_at": "2026-10-16T15:23:27Z",
-      "collected_at": "2026-10-20T16:00:57Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "ce029e165f634785595249cc",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Germany and France want own ‘Made in Europe’ rules for cars, outside EU industrial policy",
-      "url": "https://euobserver.com/243155/germany-and-france-want-own-made-in-europe-rules-for-cars-outside-eu-industry-law",
-      "published_at": "2026-10-16T15:19:26Z",
-      "collected_at": "2026-10-20T16:00:57Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "464508e93a163250fd193ec9",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland drops proposal to criminalise providing help to illegal migrants following outcry",
-      "url": "https://notesfrompoland.com/2026/10/16/poland-drops-proposal-to-criminalise-providing-help-to-illegal-migrants-following-outcry",
-      "published_at": "2026-10-16T14:38:51Z",
-      "collected_at": "2026-10-20T15:30:50Z",
-      "topics": [
-        "central_europe",
         "politics",
         "society"
       ]
