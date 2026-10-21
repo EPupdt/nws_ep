@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-21T17:00:59Z",
-  "last_successful_collection_at": "2026-10-21T17:00:59Z",
+  "generated_at": "2026-10-21T17:30:46Z",
+  "last_successful_collection_at": "2026-10-21T17:30:46Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-21T17:00:59Z"
+      "at": "2026-10-21T17:30:46Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-10-21T17:00:59Z"
+      "at": "2026-10-21T17:30:46Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-21T17:00:59Z"
+      "at": "2026-10-21T17:30:46Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-21T17:00:59Z"
+      "at": "2026-10-21T17:30:46Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-21T17:00:59Z"
+      "at": "2026-10-21T17:30:46Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-10-21T17:00:59Z"
+      "at": "2026-10-21T17:30:46Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-21T17:00:59Z"
+      "at": "2026-10-21T17:30:46Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-21T17:00:59Z"
+      "at": "2026-10-21T17:30:46Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-21T17:00:59Z"
+      "at": "2026-10-21T17:30:46Z"
     }
   ],
-  "europe_now": [],
-  "top_stories": [
+  "europe_now": [
     {
       "title": "Civil Unrest and Security Measures in France",
-      "summary": "French authorities continue to grapple with widespread civil unrest and protests across the nation. Prime Minister Lecornu met with union leaders who subsequently urged strikes.",
+      "summary": "France faces ongoing nationwide riots, prompting political tensions and preparations for another weekend of protests. President Macron has rejected external claims blaming migrants for the unrest.",
       "article_ids": [
         "bd43f7e607c80862128cc008",
-        "7d29e4710fb09e00cea68b79"
+        "fb504c64da99b5f2addd3f97"
       ],
       "sources": [
         {
@@ -80,42 +79,60 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/replay-french-union-leaders-urges-strikes-after-meeting-with-pm-lecornu",
-          "headline": "REPLAY: French union leaders urge strikes after meeting with PM Lecornu",
-          "published_at": "2026-10-21T13:30:24Z"
+          "url": "https://www.france24.com/en/video/20261021-macron-rejects-trump-s-claims-blaming-migrants-for-french-riots",
+          "headline": "Macron rejects Trump’s claims blaming migrants for French riots",
+          "published_at": "2026-10-21T15:29:48Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Diplomatic and Security Developments Concerning Ukraine",
-      "summary": "The Kremlin announced readiness to resume three-way talks involving the US and Ukraine in mid-November. Meanwhile, the European Union is seeking additional international funding to support Ukraine's defense efforts.",
+      "title": "Cyber-Security Disruption Across Europe",
+      "summary": "Websites have been taken down across Europe and worldwide following the issuance of a critical cyber-security update. Authorities are managing the widespread technical impacts.",
       "article_ids": [
-        "11367b93e095902c8de2dfb4",
-        "f94ee285a0c70d2cadd81479"
+        "4ccb7178f07719839fb64a02"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/kremlin-says-ready-to-resume-3-way-talks-with-us-and-ukraine-mid-november",
-          "headline": "Kremlin says 'ready' to resume 3-way talks with US and Ukraine mid-November",
-          "published_at": "2026-10-21T15:51:32Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
+          "headline": "Websites taken down across Europe as critical cyber-security update issued",
+          "published_at": "2026-10-21T15:11:11Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Ukraine War and Diplomatic Talks",
+      "summary": "The Kremlin stated readiness to resume talks with the US and Ukraine to end the war. Meanwhile, Ukrainian President Zelensky has proposed freezing the front line as an initial step toward peace negotiations.",
+      "article_ids": [
+        "3a54272f805ed57350a28b7a",
+        "5f8b2ed74fb7031269035ff9"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia says it is ready to resume talks with Ukraine and US to end war",
+          "published_at": "2026-10-21T16:29:35Z"
         },
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/244118/eu-looks-to-uk-canada-and-japan-to-plug-e70bn-hole-in-funding-for-ukraines-2027-war-effort",
-          "headline": "EU looks to UK, Canada, and Japan to plug €70bn hole in funding for Ukraine’s 2027 war effort",
-          "published_at": "2026-10-21T15:45:40Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261021-zelensky-proposes-freezing-front-with-russia-first-step-peace-talks",
+          "headline": "Zelensky proposes freezing front with Russia as first step to peace talks",
+          "published_at": "2026-10-21T14:46:44Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "European Parliament Offices Searched in Graft Investigation",
-      "summary": "Prosecutors conducted searches at European Parliament offices as part of an ongoing investigation into financial mismanagement. The inquiry specifically targets the far-right Patriots bloc.",
+      "title": "European Parliament Graft Investigation",
+      "summary": "Prosecutors searched the European Parliament offices of the far-right Patriots bloc. The operation is part of an ongoing financial mismanagement probe involving the political group.",
       "article_ids": [
-        "216b47f13954bc38fdcf5860",
-        "670b6ff0a3c928cdd77d8fda"
+        "670b6ff0a3c928cdd77d8fda",
+        "5df9a112bb47ad7206976ad3"
       ],
       "sources": [
         {
@@ -123,44 +140,23 @@
           "url": "https://www.france24.com/en/europe/20261021-prosecutors-search-european-parliament-offices-of-far-right-patriots-bloc-in-graft-probe",
           "headline": "Prosecutors search European Parliament offices of far-right Patriots bloc in graft probe",
           "published_at": "2026-10-21T15:07:45Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/patriots-european-parliament-office-search-eu-funds-mismanagement",
+          "headline": "Prosecutor searches far-right group offices in EU Parliament",
+          "published_at": "2026-10-21T13:52:02Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
     {
-      "label": "French · Arabia · Macron · Saudi",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 6,
-      "latest_at": "2026-10-21T15:54:08Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/french-president-macron-lands-in-saudi-arabia-on-surprise-solidarity-visit",
-          "headline": "French President Macron lands in Saudi Arabia on surprise 'solidarity' visit",
-          "published_at": "2026-10-21T15:54:08Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/macron-slams-unacceptable-and-stupid-comments-after-trump-pins-french-riots-on-immigration",
-          "headline": "Macron slams ‘stupid’ comments after Trump pins French riots on immigration",
-          "published_at": "2026-10-21T11:35:45Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/uk-fighter-jets-to-protect-saudi-arabia-from-houthi-attacks/a-79718467?maca=en-rss-en-eu-2092-rdf",
-          "headline": "UK fighter jets to protect Saudi Arabia from Houthi attacks",
-          "published_at": "2026-10-21T01:23:00Z"
-        }
-      ]
-    },
-    {
-      "label": "France · riots · Leader · amid",
+      "label": "France · riots · amid · Leader",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 5,
+      "item_count": 4,
       "latest_at": "2026-10-21T15:29:42Z",
       "sources": [
         {
@@ -218,9 +214,44 @@
           "published_at": "2026-10-20T23:03:11Z"
         }
       ]
+    },
+    {
+      "label": "Arabia · attacks · Houthi · Macron",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-10-21T17:09:37Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/macron-visits-riyadh-show-solidarity-amid-houthi-attacks-ease-tensions-home-via-fuel-deal",
+          "headline": "Macron visits Riyadh to show solidarity amid Houthi attacks, ease tensions at home via fuel deal",
+          "published_at": "2026-10-21T17:09:37Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/uk-fighter-jets-to-protect-saudi-arabia-from-houthi-attacks/a-79718467?maca=en-rss-en-eu-2092-rdf",
+          "headline": "UK fighter jets to protect Saudi Arabia from Houthi attacks",
+          "published_at": "2026-10-21T01:23:00Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "b29f721cf0f33e02b9fd9157",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Macron visits Riyadh to show solidarity amid Houthi attacks, ease tensions at home via fuel deal",
+      "url": "https://www.france24.com/en/macron-visits-riyadh-show-solidarity-amid-houthi-attacks-ease-tensions-home-via-fuel-deal",
+      "published_at": "2026-10-21T17:09:37Z",
+      "collected_at": "2026-10-21T17:30:46Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "d159fc5bed7ebb8bbe3062af",
       "source_id": "france24",
