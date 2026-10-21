@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-21T11:00:56Z",
-  "last_successful_collection_at": "2026-10-21T11:00:56Z",
+  "generated_at": "2026-10-21T11:30:44Z",
+  "last_successful_collection_at": "2026-10-21T11:30:44Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-21T11:00:56Z"
+      "at": "2026-10-21T11:30:44Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-21T11:00:56Z"
+      "at": "2026-10-21T11:30:44Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-21T11:00:56Z"
+      "at": "2026-10-21T11:30:44Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,120 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-21T11:00:56Z"
+      "at": "2026-10-21T11:30:44Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-21T11:00:56Z"
+      "at": "2026-10-21T11:30:44Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-10-21T11:00:56Z"
+      "at": "2026-10-21T11:30:44Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-21T11:00:56Z"
+      "at": "2026-10-21T11:30:44Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-21T11:00:56Z"
+      "at": "2026-10-21T11:30:44Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-21T11:00:56Z"
+      "at": "2026-10-21T11:30:44Z"
     }
   ],
   "europe_now": [
     {
-      "title": "French Security Response to Civil Unrest",
-      "summary": "The French government has announced a massive police deployment ahead of upcoming demonstrations following recent civil unrest and social tensions. Authorities are emphasizing strict security measures to prevent chaos during the planned protests.",
+      "title": "US Envoy Meets Vladimir Putin in Russia Following Talks with Zelensky",
+      "summary": "A United States envoy has traveled to Russia for high-level talks with President Vladimir Putin following discussions with Ukrainian leadership. Concurrently, Russian state media reported the release of a jailed American citizen during these diplomatic engagements.",
+      "article_ids": [
+        "8be16608e5beb1c6f6b90a5e",
+        "3f312749eebc94fbcc09a150",
+        "89c57e5686bc6dc481c1615a"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ukraine-talks-us-envoy-meets-vladimir-putin-in-russia",
+          "headline": "Ukraine talks: US envoy meets Vladimir Putin in Russia",
+          "published_at": "2026-10-21T11:04:31Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
+          "headline": "US citizen Stephen Hubbard freed by Russia and 'on his way home', Trump says",
+          "published_at": "2026-10-21T10:52:00Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "French Government Escalates Security Measures Amid Civil Unrest",
+      "summary": "France is deploying additional security forces and preparing for further demonstrations as the prime minister addresses nationwide social unrest. Meanwhile, authorities are also investigating suspicious drone sightings over multiple military installations.",
+      "article_ids": [
+        "ccf870a0a6438e25e9bfaeca",
+        "0a9b9cb2a496ec1a2c56f1c2"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/suspicious-drone-fly-over-france-military-site",
+          "headline": "Suspicious drones spotted flying over French military sites",
+          "published_at": "2026-10-21T11:03:13Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261021-french-prime-minister-vows-massive-police-deployment-for-new-demonstrations",
+          "headline": "French Prime Minister vows 'massive' police deployment for new demonstrations",
+          "published_at": "2026-10-21T10:25:03Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Diplomatic and Security Developments Surrounding Ukraine",
+      "summary": "High-level diplomatic contacts involving American representatives have taken place in both Kyiv and Moscow. European Union leaders continue to coordinate financial support and maintain strict energy sanctions against Russia.",
+      "article_ids": [
+        "8be16608e5beb1c6f6b90a5e",
+        "6be18d759df201867c5a1dab",
+        "2ba9a914f79adfbfc095ee99"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ukraine-talks-us-envoy-meets-vladimir-putin-in-russia",
+          "headline": "Ukraine talks: US envoy meets Vladimir Putin in Russia",
+          "published_at": "2026-10-21T11:04:31Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-ursula-von-der-leyen-russia-energy-sanctions-us-diesel-deal",
+          "headline": "Russia energy sanctions will stay despite US diesel deal, von der Leyen says",
+          "published_at": "2026-10-21T09:31:27Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Civil Unrest and Enhanced Security Measures in Western Europe",
+      "summary": "French officials are increasing police deployments and meeting with union representatives as social tensions persist. In Italy, the government has responded to recent urban violence by deploying troops and enacting stricter anti-riot laws.",
       "article_ids": [
         "0a9b9cb2a496ec1a2c56f1c2",
-        "6917ee5543360ae0da4ccda2"
+        "21f9db6dd5c6add2f00621db",
+        "bc605df01f4da68b801bed86"
       ],
       "sources": [
         {
@@ -79,83 +153,35 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/french-pm-vows-stronger-security-as-country-prepares-for-more-protests",
-          "headline": "French PM vows stronger security as country prepares for more protests",
-          "published_at": "2026-10-21T09:01:44Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Italian Security Measures Following Riots",
-      "summary": "Italy has approved tougher anti-riot legislation and deployed hundreds of troops into Milan to restore order after recent violent disturbances. The military deployment marks a significant escalation in the government's domestic security response.",
-      "article_ids": [
-        "21f9db6dd5c6add2f00621db",
-        "bc605df01f4da68b801bed86"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
           "url": "https://www.france24.com/en/video/20261021-italy-deploys-troops-into-milan-in-response-to-recent-riots",
           "headline": "Italy deploys troops into Milan in response to recent riots",
           "published_at": "2026-10-21T10:08:24Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/italy-deploys-army-and-approves-tougher-anti-riot-laws-after-violence",
-          "headline": "Italy deploys army and approves tougher anti-riot laws after violence",
-          "published_at": "2026-10-21T08:57:04Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "US Envoy Diplomatic Engagements",
-      "summary": "A United States envoy has held discussions with Ukrainian leadership regarding ongoing defense and intelligence cooperation. Following these positive talks, the envoy traveled to Russia for high-level meetings.",
-      "article_ids": [
-        "cee379c4ca102f2070ebd027",
-        "2ba9a914f79adfbfc095ee99"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ukraine-talks-what-progress-after-us-envoy-met-with-zelensky",
-          "headline": "Ukraine talks: What progress after US envoy met with Zelensky?",
-          "published_at": "2026-10-21T09:58:36Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261021-us-envoy-witkoff-to-meet-putin-in-russia-after-positive-talks-with-zelensky",
-          "headline": "US envoy Witkoff to meet Putin in Russia after 'positive' talks with Zelensky",
-          "published_at": "2026-10-21T04:29:24Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "European Union Ukraine Funding and Sanctions",
-      "summary": "European Union officials are actively seeking expanded international financial support from allies to sustain assistance for Ukraine. Meanwhile, leadership has confirmed that existing energy sanctions against Russia will remain in place.",
+      "title": "Legislative Developments on Abortion Laws in Europe",
+      "summary": "The Polish parliament has advanced initiatives aimed at liberalizing the country's existing legal framework regarding abortion. In contrast, the ruling prince of Liechtenstein recently exercised a veto against a proposed abortion bill.",
       "article_ids": [
-        "6be18d759df201867c5a1dab",
-        "30e9baa91c23287b1968e5d0"
+        "3562782bf988f22fc12f3c67",
+        "38cdcac05644108b9b3a8b97"
       ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-ursula-von-der-leyen-russia-energy-sanctions-us-diesel-deal",
-          "headline": "Russia energy sanctions will stay despite US diesel deal, von der Leyen says",
-          "published_at": "2026-10-21T09:31:27Z"
+          "url": "https://www.politico.eu/article/liechtenstein-prince-vetoes-abortion-bill",
+          "headline": "Liechtenstein prince vetoes abortion bill",
+          "published_at": "2026-10-21T10:43:29Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-to-press-canada-and-uk-for-more-ukraine-funding",
-          "headline": "EU to press Canada and UK for more Ukraine funding",
-          "published_at": "2026-10-21T02:00:00Z"
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/10/21/parliament-approves-liberalisation-of-polands-abortion-laws",
+          "headline": "Parliament approves liberalisation of Poland’s abortion laws",
+          "published_at": "2026-10-21T07:41:48Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
@@ -223,28 +249,70 @@
       ]
     },
     {
-      "label": "EU · climate · Europe",
+      "label": "EU · UK",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 3,
-      "latest_at": "2026-10-20T19:15:19Z",
+      "latest_at": "2026-10-21T02:00:00Z",
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/europe-conservatives-new-targets-campaign-weaken-eu-climate-laws",
-          "headline": "Europe’s conservatives have 2 new targets in their campaign to weaken EU climate laws",
-          "published_at": "2026-10-20T19:15:19Z"
+          "url": "https://www.politico.eu/article/eu-to-press-canada-and-uk-for-more-ukraine-funding",
+          "headline": "EU to press Canada and UK for more Ukraine funding",
+          "published_at": "2026-10-21T02:00:00Z"
         },
         {
           "publisher": "EUobserver",
-          "url": "https://euobserver.com/243837/meps-push-to-use-eu-regional-funds-for-affordable-housing-and-climateproofing-cities",
-          "headline": "MEPs push to use EU regional funds for affordable housing and climate‑proofing cities",
-          "published_at": "2026-10-20T16:33:38Z"
+          "url": "https://euobserver.com/243824/meps-open-arms-to-a-uk-rejoin-to-correct-brexit-mistake",
+          "headline": "MEPs open arms to UK rejoining EU to ‘correct’ Brexit mistake",
+          "published_at": "2026-10-20T16:10:38Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "8be16608e5beb1c6f6b90a5e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ukraine talks: US envoy meets Vladimir Putin in Russia",
+      "url": "https://www.france24.com/en/ukraine-talks-us-envoy-meets-vladimir-putin-in-russia",
+      "published_at": "2026-10-21T11:04:31Z",
+      "collected_at": "2026-10-21T11:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "ccf870a0a6438e25e9bfaeca",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Suspicious drones spotted flying over French military sites",
+      "url": "https://www.politico.eu/article/suspicious-drone-fly-over-france-military-site",
+      "published_at": "2026-10-21T11:03:13Z",
+      "collected_at": "2026-10-21T11:30:44Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "1d24edc03e4129b1e1fe46da",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Egypt mulls joining Saudi Arabia in war against Houthis",
+      "url": "https://www.france24.com/en/egypt-mulls-joining-saudi-arabia-in-war-against-houthis",
+      "published_at": "2026-10-21T11:02:21Z",
+      "collected_at": "2026-10-21T11:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "3f312749eebc94fbcc09a150",
       "source_id": "bbc_europe",
