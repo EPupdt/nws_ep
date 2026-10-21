@@ -360,9 +360,24 @@
     "b0f16dfb8cf916cad327101d": "2026-10-21T03:30:47Z",
     "c3e31a1d62583f3dff41f2cc": "2026-10-21T03:30:47Z",
     "3fc2a8a04e74466741318af4": "2026-10-21T03:30:47Z",
-    "87849ce9ca1d17cfeb9da783": "2026-10-21T03:30:47Z"
+    "87849ce9ca1d17cfeb9da783": "2026-10-21T03:30:47Z",
+    "5e9eb31375687c470af519e9": "2026-10-21T04:00:53Z"
   },
   "radar": [
+    {
+      "id": "5e9eb31375687c470af519e9",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'",
+      "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-21T03:59:18Z",
+      "collected_at": "2026-10-21T04:00:53Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "1369782f88e567921f832bac",
       "source_id": "politico_europe",
@@ -2868,31 +2883,9 @@
         "politics",
         "society"
       ]
-    },
-    {
-      "id": "2e524c91a7303cb64b63b8ee",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Pressure mounts on EU leaders to strike a budget deal by December",
-      "url": "https://euobserver.com/243045/pressure-mounts-on-eu-leaders-to-strike-a-budget-deal-by-december",
-      "published_at": "2026-10-15T22:03:22Z",
-      "collected_at": "2026-10-20T04:00:59Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
     }
   ],
   "recent_topics": [
-    {
-      "at": "2026-10-19T17:30:52Z",
-      "title": "Civil Unrest and Protests in Europe"
-    },
-    {
-      "at": "2026-10-19T17:30:52Z",
-      "title": "Regional Defense and Space Security"
-    },
     {
       "at": "2026-10-19T18:00:55Z",
       "title": "Civil Unrest in France"
@@ -3204,39 +3197,22 @@
     {
       "at": "2026-10-21T03:30:47Z",
       "title": "Ukraine Defense Diplomacy in Norway"
+    },
+    {
+      "at": "2026-10-21T04:00:53Z",
+      "title": "French Unrest and Government Response"
+    },
+    {
+      "at": "2026-10-21T04:00:53Z",
+      "title": "Ukraine Diplomacy and Defense Coordination"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "France Security Response and Curfews",
-        "summary": "France has implemented local curfews and initiated immediate trials for individuals involved in city-center disturbances following widespread protests. Prime Minister Lecornu has engaged with trade unions and announced plans for a significant police deployment ahead of further demonstrations.",
-        "article_ids": [
-          "aed794547409eafede1fdb3d",
-          "0dc7669140f8dcc6b620b883",
-          "05f8b463563411ee981b9e4b",
-          "a7106357a0a6924efc44f0c3"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20261021-live-french-pm-lecornu-to-meet-with-unions-ahead-of-new-protests",
-            "headline": "Live: French PM Lecornu to meet with unions ahead of new protests",
-            "published_at": "2026-10-21T00:45:06Z"
-          },
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/hundreds-put-on-immediate-trial-for-ransacking-city-centres-across-france",
-            "headline": "Hundreds put on immediate trial for ransacking city centres across France",
-            "published_at": "2026-10-20T19:05:25Z"
-          }
-        ],
-        "source_count": 1
-      },
-      {
-        "title": "Italy Security Measures Following Milan Clashes",
-        "summary": "The Italian government has introduced heightened security legislation and deployed 500 soldiers in response to recent rioting and clashes in Milan. These measures aim to restore public order and address escalating civil unrest in major urban areas.",
+        "title": "Italy deploys troops and tightens security",
+        "summary": "Following recent unrest in Milan, the Italian government announced new security measures that include the deployment of 500 soldiers. The administration is also toughening security laws in response to the clashes.",
         "article_ids": [
           "f80d355947d2767c64054423",
           "86ef9d31db6f63c755710676"
@@ -3256,12 +3232,10 @@
           }
         ],
         "source_count": 1
-      }
-    ],
-    "top_stories": [
+      },
       {
-        "title": "Poland Abortion Law Reform",
-        "summary": "The Polish parliament has voted to ease abortion regulations in a direct challenge to the nation's conservative president. This legislative move marks a significant shift in the country's social policy.",
+        "title": "Poland's parliament advances abortion law reform",
+        "summary": "Lawmakers in Poland have voted to ease the country's abortion laws, presenting a direct challenge to the conservative president. The legislative move marks a significant political shift regarding reproductive rights.",
         "article_ids": [
           "f77f60fee5e2a10e131c2c0f"
         ],
@@ -3274,10 +3248,37 @@
           }
         ],
         "source_count": 1
+      }
+    ],
+    "top_stories": [
+      {
+        "title": "French Unrest and Government Response",
+        "summary": "French authorities have ordered local curfews and initiated immediate trials for individuals involved in city center disturbances. Prime Minister Lecornu is engaging with labor unions while planning a substantial police presence for upcoming demonstrations.",
+        "article_ids": [
+          "aed794547409eafede1fdb3d",
+          "0dc7669140f8dcc6b620b883",
+          "05f8b463563411ee981b9e4b",
+          "947d5594f3873d1414a7e927"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20261021-live-french-pm-lecornu-to-meet-with-unions-ahead-of-new-protests",
+            "headline": "Live: French PM Lecornu to meet with unions ahead of new protests",
+            "published_at": "2026-10-21T00:45:06Z"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/new-paris-curfew-ordered-in-parts-of-city-from-2100-gmt-tuesday",
+            "headline": "New Paris curfew ordered in parts of city from 2100 GMT Tuesday",
+            "published_at": "2026-10-20T19:01:31Z"
+          }
+        ],
+        "source_count": 1
       },
       {
-        "title": "Ukraine Defense Diplomacy in Norway",
-        "summary": "President Volodymyr Zelensky held discussions with U.S. representatives in Oslo regarding intelligence sharing and defense coordination. Meanwhile, the European Union is urging international partners such as Canada and the UK to increase financial support for Ukraine.",
+        "title": "Ukraine Diplomacy and Defense Coordination",
+        "summary": "Ukrainian leadership engaged in diplomatic discussions in Norway involving US representatives regarding intelligence sharing. Meanwhile, European Union officials are actively seeking increased financial contributions for Ukraine from partners like Canada and the UK.",
         "article_ids": [
           "30e9baa91c23287b1968e5d0",
           "27899de07473da5e9a90de21",
@@ -3301,5 +3302,5 @@
       }
     ]
   },
-  "last_collection_at": "2026-10-21T03:30:47Z"
+  "last_collection_at": "2026-10-21T04:00:53Z"
 }
