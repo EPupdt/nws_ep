@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-22T08:30:40Z",
-  "last_successful_collection_at": "2026-10-22T08:30:40Z",
+  "generated_at": "2026-10-22T09:00:54Z",
+  "last_successful_collection_at": "2026-10-22T09:00:54Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-22T08:30:40Z"
+      "at": "2026-10-22T09:00:54Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-22T08:30:40Z"
+      "at": "2026-10-22T09:00:54Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-22T08:30:40Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-10-22T09:00:54Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-22T08:30:40Z"
+      "at": "2026-10-22T09:00:54Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-22T08:30:40Z"
+      "at": "2026-10-22T09:00:54Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-10-22T08:30:40Z"
+      "at": "2026-10-22T09:00:54Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-22T08:30:40Z"
+      "at": "2026-10-22T09:00:54Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-22T08:30:40Z"
+      "at": "2026-10-22T09:00:54Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-22T08:30:40Z"
+      "at": "2026-10-22T09:00:54Z"
     }
   ],
   "europe_now": [
     {
-      "title": "EU Prosecutors Raid Far-Right Group's Offices",
-      "summary": "European prosecutors conducted searches at European Parliament offices belonging to the far-right Patriots for Europe group in Brussels and Strasbourg. The investigation centers on alleged misuse of parliamentary funds.",
+      "title": "EU Prosecutors Raid Far-Right Group Offices",
+      "summary": "European prosecutors conducted raids on the European Parliament offices of the Patriots for Europe group in Brussels and Strasbourg. The searches were carried out as part of an investigation into the alleged misuse of parliamentary funds.",
       "article_ids": [
         "1202d71c9d2a127803923ef5",
         "725a3e928d94a9844d00a103"
@@ -87,8 +87,49 @@
       "source_count": 2
     },
     {
-      "title": "France Bans Protests Amid Continuing Unrest",
-      "summary": "Paris authorities have implemented a ban on protests following a wave of violent civil unrest and riots across the country. The ongoing turmoil has driven French bond yields to a 24-year high.",
+      "title": "Ireland Votes on Overseas Peacekeeping Mandate",
+      "summary": "Irish voters went to the polls in a referendum regarding overseas peacekeeping missions. The outcome of the vote decides whether to end the requirement for UN approval before deploying troops abroad.",
+      "article_ids": [
+        "f77a67fd1e39f6e1cbe25d37"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261022-ireland-votes-un-veto-overseas-peacekeeping-missions",
+          "headline": "Ireland votes to end UN approval requirement for overseas peacekeeping missions",
+          "published_at": "2026-10-22T00:35:35Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Diplomatic Developments in Ukraine Conflict",
+      "summary": "Russian strikes hit Kyiv as Moscow signaled a readiness to resume peace talks with Washington and Kyiv. Meanwhile, European leaders and officials continue to debate diplomatic strategies and representation in ongoing negotiations.",
+      "article_ids": [
+        "e1048f840eb6fe9251367f95",
+        "e6ce7d468f0a78e4cc5bcfda"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
+          "headline": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
+          "published_at": "2026-10-22T01:51:03Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/putin-agrees-to-resume-three-way-talks-with-kyiv-and-washington",
+          "headline": "Putin agrees to resume three-way talks with Kyiv and Washington",
+          "published_at": "2026-10-21T19:32:52Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Civil Unrest and Security Measures in France",
+      "summary": "French authorities implemented protest bans in Paris following a period of violent domestic unrest. The ongoing security situation has generated significant economic repercussions, including a rise in French bond yields.",
       "article_ids": [
         "cf53269f87250263f6f453f3",
         "9045029427da54bb924f5a4a"
@@ -110,15 +151,13 @@
       "source_count": 1
     }
   ],
-  "top_stories": [
+  "developing": [
     {
-      "title": "Diplomatic Developments in Ukraine Conflict",
-      "summary": "Russia agreed to resume three-way talks involving Kyiv and Washington as part of renewed international diplomatic efforts. Simultaneously, overnight strikes and missile attacks hit targets including Kyiv and Pavlohrad.",
-      "article_ids": [
-        "201e288d2808c926659d6c3a",
-        "e1048f840eb6fe9251367f95",
-        "e6ce7d468f0a78e4cc5bcfda"
-      ],
+      "label": "Putin · Ukraine · envoy · Russia",
+      "origin": "convergence",
+      "source_count": 4,
+      "item_count": 7,
+      "latest_at": "2026-10-22T05:54:29Z",
       "sources": [
         {
           "publisher": "France 24 English",
@@ -127,32 +166,25 @@
           "published_at": "2026-10-22T05:54:29Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
-          "headline": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
-          "published_at": "2026-10-22T01:51:03Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Irish Peacekeeping Referendum",
-      "summary": "Voters in Ireland participated in a referendum regarding the nation's overseas military engagements. The decision centers on removing the requirement for UN approval before deploying peacekeeping missions.",
-      "article_ids": [
-        "f77a67fd1e39f6e1cbe25d37"
-      ],
-      "sources": [
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/talking-to-vladimir-putin-europe-seeks-a-negotiator-in-chief-for-ukraine",
+          "headline": "Talking to Putin: Europe seeks a negotiator-in-chief for Ukraine",
+          "published_at": "2026-10-21T19:53:50Z"
+        },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261022-ireland-votes-un-veto-overseas-peacekeeping-missions",
-          "headline": "Ireland votes to end UN approval requirement for overseas peacekeeping missions",
-          "published_at": "2026-10-22T00:35:35Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/trump-putin-and-xi-at-one-table-without-ukraine-what-moscow-wants-from-the-proposal-and-why-beijing-might-agree/a-79726190?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Trump, Putin and Xi at one table, without Ukraine. What Moscow wants from the proposal and why Beijing might agree.",
+          "published_at": "2026-10-21T19:32:00Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/244153/human-cost-of-putins-war-emerging-in-death-fields-of-russian-soldiers-in-dobropillia-ukraine-battlefield-update-day-1700",
+          "headline": "Human cost of Putin’s war emerging in ‘death fields’ of Russian soldiers in Dobropillia (Ukraine Battlefield update, day 1,700)",
+          "published_at": "2026-10-21T15:14:21Z"
         }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
+      ]
+    },
     {
       "label": "French · riots · protests · accounts",
       "origin": "convergence",
@@ -215,30 +247,37 @@
           "published_at": "2026-10-21T13:23:02Z"
         }
       ]
-    },
-    {
-      "label": "cancer · further · lung · Pope",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-10-21T21:41:19Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261021-pope-leo-doctors-treatment-lung-cancer",
-          "headline": "Pope Leo XIV needs no further lung cancer treatment, Vatican says",
-          "published_at": "2026-10-21T21:41:19Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss",
-          "headline": "Pope does not need further treatment after lung cancer surgery",
-          "published_at": "2026-10-21T20:09:10Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "3fbe484bfd27e83f2670dfde",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Polish parliament liberalises abortion law – but conservative president likely to veto changes",
+      "url": "https://euobserver.com/244109/polish-parliament-liberalises-abortion-law-but-conservative-president-likely-to-veto-changes",
+      "published_at": "2026-10-22T08:42:17Z",
+      "collected_at": "2026-10-22T09:00:54Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "bd76819e6ea20be71bfec313",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Bulgaria: Concerns about security in the Black Sea dominate presidential election campaign",
+      "url": "https://www.dw.com/en/bulgaria-concerns-about-security-in-the-black-sea-dominate-presidential-election-campaign/a-79729094?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-22T08:31:00Z",
+      "collected_at": "2026-10-22T09:00:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
     {
       "id": "37cdc005d8018f84c32f0b61",
       "source_id": "politico_europe",
@@ -251,6 +290,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "e8b6d18f86d602627cfb593a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Europe's wave of anger: How far will youth-led protests go?",
+      "url": "https://www.france24.com/en/tv-shows/the-debate/20261022-europe-s-wave-of-anger-how-far-will-youth-led-protests-go",
+      "published_at": "2026-10-22T08:12:29Z",
+      "collected_at": "2026-10-22T09:00:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -373,6 +426,20 @@
       "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
       "published_at": "2026-10-22T02:28:48Z",
       "collected_at": "2026-10-22T03:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "07f122702b2ba0b2d5a12dcb",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: Macron meets with French intelligence services ahead of new wave of protests",
+      "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
+      "published_at": "2026-10-22T02:28:48Z",
+      "collected_at": "2026-10-22T09:00:54Z",
       "topics": [
         "politics",
         "security",
@@ -513,6 +580,20 @@
       "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20261021-sudan-s-war-escalates-as-un-warns-of-wider-regional-crisis",
       "published_at": "2026-10-21T22:41:43Z",
       "collected_at": "2026-10-22T03:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "6557887a782c24de9798a008",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Sudan's war escalates as UN warns of wider regional crisis",
+      "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20261021-sudan-s-war-escalates-as-un-warns-of-wider-regional-crisis",
+      "published_at": "2026-10-21T22:41:43Z",
+      "collected_at": "2026-10-22T09:00:54Z",
       "topics": [
         "politics",
         "security",
@@ -2172,20 +2253,6 @@
       ]
     },
     {
-      "id": "4995f4ab7068de069510fe16",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Champions League: Paris defeat Barcelona but lose 3 major players to injuries",
-      "url": "https://www.france24.com/en/tv-shows/sports/20261021-champions-league-paris-defeat-barcelona-but-lose-3-major-players-to-injuries",
-      "published_at": "2026-10-21T08:21:38Z",
-      "collected_at": "2026-10-21T08:30:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "42a4d8cae6265ac85b6c1d75",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2196,20 +2263,6 @@
       "topics": [
         "politics",
         "security",
-        "society"
-      ]
-    },
-    {
-      "id": "9eb483aeec5c86ac00716d5a",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Zelensky says intelligence sharing 'works now' as US envoy to meet Putin in Russia",
-      "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T08:18:53Z",
-      "collected_at": "2026-10-21T08:30:49Z",
-      "topics": [
-        "breaking",
-        "politics",
         "society"
       ]
     },
@@ -2620,20 +2673,6 @@
       ]
     },
     {
-      "id": "ba12960545fa903b1a141a66",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Katya Adler: France's government under pressure after weekend of widespread violence",
-      "url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-19T07:46:54Z",
-      "collected_at": "2026-10-21T08:30:49Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "5aece50e7100f73e937ead1e",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2729,34 +2768,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "271afd645f7902fd3daa71bb",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "King of Spain in Ceuta: ‘Sovereignty and territorial integrity are not negotiable, and faced with any risk, our duty is their defense’",
-      "url": "https://english.elpais.com/spain/2026-10-13/king-of-spain-in-ceuta-sovereignty-and-territorial-integrity-are-not-negotiable-and-faced-with-any-risk-our-duty-is-their-defense.html",
-      "published_at": "2026-10-13T19:57:20Z",
-      "collected_at": "2026-10-22T04:30:45Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "b728e8d504ed418df10b678e",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "From Airbnb to stray cats: Trump’s childhood home in Queens sells for $2 million",
-      "url": "https://english.elpais.com/usa/2026-09-21/from-airbnb-to-stray-cats-trumps-childhood-home-in-queens-sells-for-2-million.html",
-      "published_at": "2026-09-21T14:29:55Z",
-      "collected_at": "2026-10-22T04:30:45Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     }
   ]
