@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-22T05:00:48Z",
-  "last_successful_collection_at": "2026-10-22T05:00:48Z",
+  "generated_at": "2026-10-22T05:30:42Z",
+  "last_successful_collection_at": "2026-10-22T05:30:42Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-22T05:00:48Z"
+      "at": "2026-10-22T05:30:42Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-22T05:00:48Z"
+      "at": "2026-10-22T05:30:42Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-22T05:00:48Z"
+      "at": "2026-10-22T05:30:42Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-22T05:00:48Z"
+      "at": "2026-10-22T05:30:42Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-22T05:00:48Z"
+      "at": "2026-10-22T05:30:42Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-10-22T05:00:48Z"
+      "at": "2026-10-22T05:30:42Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-22T05:00:48Z"
+      "at": "2026-10-22T05:30:42Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-22T05:00:48Z"
+      "at": "2026-10-22T05:30:42Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-22T05:00:48Z"
+      "at": "2026-10-22T05:30:42Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Paris Unrest Measures",
-      "summary": "Authorities in Paris have banned protests following recent violent demonstrations and civil unrest. The civil disruptions have also caused French bond yields to climb to a 24-year high.",
+      "title": "Paris Enforces Protest Ban Following Unrest",
+      "summary": "Paris authorities have implemented a ban on protests following a period of violent unrest and demonstrations. Financial indicators showed significant market reaction as French bond yields reached a 24-year high.",
       "article_ids": [
         "cf53269f87250263f6f453f3",
         "9045029427da54bb924f5a4a"
@@ -87,8 +87,8 @@
       "source_count": 1
     },
     {
-      "title": "European Parliament Raids",
-      "summary": "European Union prosecutors have conducted searches at the European Parliament offices of a far-right political group in Brussels and Strasbourg. The investigation centers on allegations regarding the misuse of parliamentary funds.",
+      "title": "EU Prosecutors Search Parliamentary Offices",
+      "summary": "European prosecutors conducted raids on the parliamentary offices of a far-right political group in Brussels and Strasbourg. The searches were carried out as part of an investigation into the alleged misuse of parliamentary funds.",
       "article_ids": [
         "1202d71c9d2a127803923ef5",
         "725a3e928d94a9844d00a103"
@@ -112,35 +112,11 @@
   ],
   "top_stories": [
     {
-      "title": "Civil Unrest and Security Measures in France",
-      "summary": "Paris authorities banned demonstrations after experiencing violent protests and widespread unrest. Financial markets responded to the instability as French bond yields reached a 24-year high.",
-      "article_ids": [
-        "cf53269f87250263f6f453f3",
-        "9045029427da54bb924f5a4a"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
-          "headline": "Live: Paris bans protests after violent unrest as Macron takes swipe at Trump",
-          "published_at": "2026-10-22T02:28:48Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/french-bond-yields-hit-24-year-high-after-unrest",
-          "headline": "French bond yields hit 24-year high after unrest",
-          "published_at": "2026-10-21T20:43:53Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Diplomatic Developments in the Ukraine Conflict",
-      "summary": "Russia announced its readiness to resume three-way peace talks involving Ukraine and the United States. Meanwhile, missile strikes hit Kyiv as international leaders debated diplomatic strategies for ending the war.",
+      "title": "Diplomatic Developments in Ukraine Conflict",
+      "summary": "Russia indicated its willingness to engage in resumed talks alongside Ukraine and the United States. Meanwhile, military strikes targeted Kyiv while discussions regarding potential diplomatic solutions continued.",
       "article_ids": [
         "e1048f840eb6fe9251367f95",
-        "3b2ac0b8fe09283813c5fd75",
-        "11367b93e095902c8de2dfb4"
+        "e6ce7d468f0a78e4cc5bcfda"
       ],
       "sources": [
         {
@@ -150,39 +126,43 @@
           "published_at": "2026-10-22T01:51:03Z"
         },
         {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/putin-agrees-to-resume-three-way-talks-with-kyiv-and-washington",
+          "headline": "Putin agrees to resume three-way talks with Kyiv and Washington",
+          "published_at": "2026-10-21T19:32:52Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
+    {
+      "label": "Ukraine · talks · US · Russia",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 14,
+      "latest_at": "2026-10-22T04:05:00Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/who-speaks-for-europe-in-the-ukraine-peace-talks",
+          "headline": "Who speaks for Europe in the Ukraine peace talks?",
+          "published_at": "2026-10-22T04:05:00Z"
+        },
+        {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
           "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
           "published_at": "2026-10-21T21:27:41Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "European Parliament Financial Investigation",
-      "summary": "EU prosecutors executed raids on the European Parliament offices of the far-right Patriots for Europe group. The searches were conducted in Brussels and Strasbourg as part of an inquiry into suspected misuse of parliamentary funds.",
-      "article_ids": [
-        "1202d71c9d2a127803923ef5",
-        "725a3e928d94a9844d00a103"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/eu-prosecutors-search-european-parliament-offices-of-far-right-group",
-          "headline": "EU prosecutors search European Parliament offices of far-right group",
-          "published_at": "2026-10-21T20:21:16Z"
         },
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/244196/eu-prosecutors-raid-far-right-patriots-for-europe-offices-in-brussels-and-strasbourg-over-alleged-misuse-of-parliament-funds",
-          "headline": "EU prosecutors raid far-right Patriots for Europe offices in Brussels and Strasbourg over alleged misuse of parliament funds",
-          "published_at": "2026-10-21T20:02:50Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/kremlin-says-ready-to-resume-3-way-talks-with-us-and-ukraine-mid-november",
+          "headline": "Kremlin says 'ready' to resume 3-way talks with US and Ukraine mid-November",
+          "published_at": "2026-10-21T15:51:32Z"
         }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
+      ]
+    },
     {
       "label": "Russia · Zelensky · envoy · intelligence",
       "origin": "convergence",
@@ -249,27 +229,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss",
           "headline": "Katya Adler: France divided over who to blame for riots and what to learn from them",
           "published_at": "2026-10-21T06:50:40Z"
-        }
-      ]
-    },
-    {
-      "label": "Trump · US · citizen · freed",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-21T22:11:27Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20261021-trump-admin-destroying-us-democracy-with-autocratic-terrorist-version-of-christian-nationalism",
-          "headline": "Trump admin 'destroying' US democracy with 'autocratic, terrorist version of Christian nationalism'",
-          "published_at": "2026-10-21T22:11:27Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
-          "headline": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
-          "published_at": "2026-10-21T11:39:25Z"
         }
       ]
     }
@@ -423,6 +382,20 @@
       "url": "https://www.france24.com/en/sport/20261022-real-madrid-thrash-rb-leipzig-as-mbappe-scores-in-champions-league-win",
       "published_at": "2026-10-22T00:11:37Z",
       "collected_at": "2026-10-22T03:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e9fa5c49d14723f368cb651f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Real Madrid thrash RB Leipzig as Mbappé scores in Champions League win",
+      "url": "https://www.france24.com/en/sport/20261022-real-madrid-thrash-rb-leipzig-as-mbappe-scores-in-champions-league-win",
+      "published_at": "2026-10-22T00:11:37Z",
+      "collected_at": "2026-10-22T05:30:42Z",
       "topics": [
         "politics",
         "security",
@@ -2611,6 +2584,76 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "18f53c15066ca7a4648e83de",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "From Ukraine to the Strait of Hormuz, the second energy crisis in five years is undermining resistance to the green transition",
+      "url": "https://english.elpais.com/climate/2026-10-18/from-ukraine-to-the-strait-of-hormuz-the-second-energy-crisis-in-five-years-is-undermining-resistance-to-the-green-transition.html",
+      "published_at": "2026-10-18T04:00:00Z",
+      "collected_at": "2026-10-22T05:30:42Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "bb5dc4cc179b00ff1251278d",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Could the Guggenheim in New York have been pink? Debunking the white and gray myths of modern architecture",
+      "url": "https://english.elpais.com/culture/2026-10-18/could-the-guggenheim-in-new-york-have-been-pink-debunking-the-white-and-gray-myths-of-modern-architecture.html",
+      "published_at": "2026-10-18T04:00:00Z",
+      "collected_at": "2026-10-22T05:30:42Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "2891730552983e76610bf48f",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Foucault, the pyrotechnician who stood by trans people",
+      "url": "https://english.elpais.com/culture/2026-10-18/foucault-the-pyrotechnician-who-stood-by-trans-people.html",
+      "published_at": "2026-10-18T04:00:00Z",
+      "collected_at": "2026-10-22T05:30:42Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "1ee179661c5a3ab75a11eee9",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Monica Barbaro: The dancer who quietly became a Hollywood star",
+      "url": "https://english.elpais.com/people/2026-10-18/monica-barbaro-the-dancer-who-quietly-became-a-hollywood-star.html",
+      "published_at": "2026-10-18T04:00:00Z",
+      "collected_at": "2026-10-22T05:30:42Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "c0eb5652299639ec7d6503c5",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Mark Galeotti, organized crime expert: ‘The road to hell is paved with good intentions. So is the path to techno-authoritarianism’",
+      "url": "https://english.elpais.com/technology/2026-10-18/mark-galeotti-organized-crime-expert-the-road-to-hell-is-paved-with-good-intentions-so-is-the-path-to-techno-authoritarianism.html",
+      "published_at": "2026-10-18T04:00:00Z",
+      "collected_at": "2026-10-22T05:30:42Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
