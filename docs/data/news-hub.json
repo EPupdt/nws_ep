@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-22T06:00:51Z",
-  "last_successful_collection_at": "2026-10-22T06:00:51Z",
+  "generated_at": "2026-10-22T06:30:49Z",
+  "last_successful_collection_at": "2026-10-22T06:30:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-22T06:00:51Z"
+      "at": "2026-10-22T06:30:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-22T06:00:51Z"
+      "at": "2026-10-22T06:30:49Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-22T06:00:51Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-10-22T06:30:49Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-22T06:00:51Z"
+      "at": "2026-10-22T06:30:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-22T06:00:51Z"
+      "at": "2026-10-22T06:30:49Z"
     },
     {
       "id": "el_pais_english",
-      "status": "error",
-      "detail": "The read operation timed out",
-      "at": "2026-10-22T06:00:51Z"
+      "status": "ok",
+      "count": "56",
+      "at": "2026-10-22T06:30:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-22T06:00:51Z"
+      "at": "2026-10-22T06:30:49Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-22T06:00:51Z"
+      "at": "2026-10-22T06:30:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-22T06:00:51Z"
+      "at": "2026-10-22T06:30:49Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Violent Unrest and Protests in France",
-      "summary": "Paris implemented a ban on protests following severe civil unrest and riots that drove French bond yields to a 24-year high. Meanwhile, investigations indicated that pro-russian digital networks worked to amplify public anger during the demonstrations.",
+      "title": "France Imposes Protest Bans Amid Unrest",
+      "summary": "Authorities in Paris implemented a ban on public demonstrations following intense periods of violent civil unrest. Meanwhile, economic fallout from the turmoil pushed French bond yields to a 24-year high.",
       "article_ids": [
         "cf53269f87250263f6f453f3",
-        "9045029427da54bb924f5a4a",
-        "d6d946a91171f3798d88a2d4"
+        "9045029427da54bb924f5a4a"
       ],
       "sources": [
         {
@@ -88,38 +87,11 @@
       "source_count": 1
     },
     {
-      "title": "Developments in Ukraine War and Peace Talks",
-      "summary": "Russian missiles struck Kyiv as the Kremlin expressed readiness to resume three-way peace talks involving Ukraine and the United States. However, European officials and leaders remain cautious regarding the immediate prospects for a negotiated settlement.",
-      "article_ids": [
-        "e1048f840eb6fe9251367f95",
-        "3b2ac0b8fe09283813c5fd75",
-        "0738b08772d01e26afc8e9df"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
-          "headline": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
-          "published_at": "2026-10-22T01:51:03Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
-          "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
-          "published_at": "2026-10-21T21:27:41Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "European Parliament Offices Searched in Graft Investigation",
-      "summary": "EU prosecutors conducted raids on the offices of the far-right Patriots for Europe group located in Brussels and Strasbourg. The searches were carried out as part of an investigation into the alleged misuse of parliamentary funds.",
+      "title": "EU Prosecutors Raid Far-Right Group Offices",
+      "summary": "European Union authorities conducted searches at European Parliament offices linked to a far-right political group. The investigative actions stem from allegations regarding the misuse of parliamentary funding.",
       "article_ids": [
         "1202d71c9d2a127803923ef5",
-        "725a3e928d94a9844d00a103",
-        "239e1cb6d37a30da7c1d11bb"
+        "725a3e928d94a9844d00a103"
       ],
       "sources": [
         {
@@ -136,12 +108,38 @@
         }
       ],
       "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Diplomatic Developments in Ukraine Conflict",
+      "summary": "Moscow signaled potential readiness for diplomatic discussions regarding the ongoing conflict in Ukraine. The Kremlin indicated a willingness to engage in three-way talks involving regional and international counterparts.",
+      "article_ids": [
+        "e1048f840eb6fe9251367f95",
+        "12ffb7141a0b9c66317565de"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
+          "headline": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
+          "published_at": "2026-10-22T01:51:03Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/russia-ready-talks-end-ukraine-war",
+          "headline": "Russia ready for 3-way talks on Ukraine war, Kremlin says",
+          "published_at": "2026-10-21T18:13:23Z"
+        }
+      ],
+      "source_count": 2
     },
     {
-      "title": "Irish Referendum on Overseas Peacekeeping",
-      "summary": "Voters in Ireland approved a measure to eliminate the United Nation approval requirement for overseas peacekeeping missions. This legislative change alters how the country deploys its military personnel abroad.",
+      "title": "Irish Referendum on Peacekeeping Missions",
+      "summary": "Electorates in Ireland participated in a vote to determine the future framework for foreign deployments. The referendum successfully removed the mandate requiring approval from the United Nations for overseas peacekeeping operations.",
       "article_ids": [
-        "f77a67fd1e39f6e1cbe25d37"
+        "f77a67fd1e39f6e1cbe25d37",
+        "60051"
       ],
       "sources": [
         {
@@ -152,9 +150,58 @@
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "EU Border Rights and Agency Warnings",
+      "summary": "The fundamental rights agency for the European Union issued cautionary statements regarding potential hazards at regional borders. Officials highlighted mounting challenges and pressures testing established humanitarian protocols.",
+      "article_ids": [
+        "7d06b6f7a10c7f6c22a58f4c"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-ceuta-migration-crisis-tests-border-human-rights",
+          "headline": "Serious risks at EU borders, fundamental rights agency warns",
+          "published_at": "2026-10-22T06:00:00Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "developing": [
+    {
+      "label": "Putin · Ukraine · envoy · Russia",
+      "origin": "convergence",
+      "source_count": 4,
+      "item_count": 7,
+      "latest_at": "2026-10-22T05:54:29Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261022-war-in-ukraine-under-bombardment-the-city-that-refuses-to-bow-to-putin",
+          "headline": "Ukraine’s Pavlohrad refuses to yield to Putin despite unrelenting bombardment",
+          "published_at": "2026-10-22T05:54:29Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/talking-to-vladimir-putin-europe-seeks-a-negotiator-in-chief-for-ukraine",
+          "headline": "Talking to Putin: Europe seeks a negotiator-in-chief for Ukraine",
+          "published_at": "2026-10-21T19:53:50Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/trump-putin-and-xi-at-one-table-without-ukraine-what-moscow-wants-from-the-proposal-and-why-beijing-might-agree/a-79726190?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Trump, Putin and Xi at one table, without Ukraine. What Moscow wants from the proposal and why Beijing might agree.",
+          "published_at": "2026-10-21T19:32:00Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/244153/human-cost-of-putins-war-emerging-in-death-fields-of-russian-soldiers-in-dobropillia-ukraine-battlefield-update-day-1700",
+          "headline": "Human cost of Putin’s war emerging in ‘death fields’ of Russian soldiers in Dobropillia (Ukraine Battlefield update, day 1,700)",
+          "published_at": "2026-10-21T15:14:21Z"
+        }
+      ]
+    },
     {
       "label": "Russia · Zelensky · envoy · intelligence",
       "origin": "convergence",
@@ -223,30 +270,23 @@
           "published_at": "2026-10-21T06:50:40Z"
         }
       ]
-    },
-    {
-      "label": "Trump · US · citizen · freed",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-21T22:11:27Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20261021-trump-admin-destroying-us-democracy-with-autocratic-terrorist-version-of-christian-nationalism",
-          "headline": "Trump admin 'destroying' US democracy with 'autocratic, terrorist version of Christian nationalism'",
-          "published_at": "2026-10-21T22:11:27Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
-          "headline": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
-          "published_at": "2026-10-21T11:39:25Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "398926ebcb6b1bae8442d3f4",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Manchester United blown out of the water by Como in Champions League rout",
+      "url": "https://www.france24.com/en/tv-shows/sports/20261022-manchester-united-blown-out-of-the-water-by-como-in-champions-league-rout",
+      "published_at": "2026-10-22T06:13:33Z",
+      "collected_at": "2026-10-22T06:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "7d06b6f7a10c7f6c22a58f4c",
       "source_id": "politico_europe",
@@ -259,6 +299,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "201e288d2808c926659d6c3a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ukraine’s Pavlohrad refuses to yield to Putin despite unrelenting bombardment",
+      "url": "https://www.france24.com/en/europe/20261022-war-in-ukraine-under-bombardment-the-city-that-refuses-to-bow-to-putin",
+      "published_at": "2026-10-22T05:54:29Z",
+      "collected_at": "2026-10-22T06:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -381,6 +435,20 @@
       "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
       "published_at": "2026-10-22T01:51:03Z",
       "collected_at": "2026-10-22T03:30:44Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "d207d5f4df323c6016ed527a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russia and Ukraine trade strikes overnight as Moscow signals readiness for peace talks",
+      "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
+      "published_at": "2026-10-22T01:51:03Z",
+      "collected_at": "2026-10-22T06:30:49Z",
       "topics": [
         "politics",
         "security",
@@ -801,6 +869,20 @@
       "url": "https://www.france24.com/en/culture/20261021-canadian-publisher-drops-author-orelien-after-confirming-he-used-ai-in-debut-novel",
       "published_at": "2026-10-21T17:32:54Z",
       "collected_at": "2026-10-21T18:00:58Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "21f7af28e9086d785c4135e1",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Government and corporate websites go dark as AI exposes critical security flaws",
+      "url": "https://www.france24.com/en/technology/20261021-government-and-corporate-websites-go-dark-as-ai-exposes-critical-security-flaws",
+      "published_at": "2026-10-21T17:15:51Z",
+      "collected_at": "2026-10-22T06:30:49Z",
       "topics": [
         "politics",
         "security",
@@ -2180,20 +2262,6 @@
       ]
     },
     {
-      "id": "2ba9a914f79adfbfc095ee99",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US envoy Witkoff to meet Putin in Russia after 'positive' talks with Zelensky",
-      "url": "https://www.france24.com/en/europe/20261021-us-envoy-witkoff-to-meet-putin-in-russia-after-positive-talks-with-zelensky",
-      "published_at": "2026-10-21T04:29:24Z",
-      "collected_at": "2026-10-21T06:00:56Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "200224d8de120f841e17641b",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2278,20 +2346,6 @@
       ]
     },
     {
-      "id": "a820fbe865b11ba43d14f19b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Brazil’s presidential candidates push to have one another disqualified ahead of run-off",
-      "url": "https://www.france24.com/en/americas/20261020-lula-campaign-seeks-disqualify-bolsonoro-from-brazil-presidential-vote-over-meta-interference",
-      "published_at": "2026-10-20T20:59:51Z",
-      "collected_at": "2026-10-21T06:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "b1b6c450adf4f4cf29c24c40",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2317,20 +2371,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "9fed824449b78c885d749e79",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "New EU plan for Arctic warily eyes influence of Russia, US",
-      "url": "https://www.dw.com/en/new-eu-plan-for-arctic-warily-eyes-influence-of-russia-us/a-79715219?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-20T16:44:00Z",
-      "collected_at": "2026-10-21T06:00:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
