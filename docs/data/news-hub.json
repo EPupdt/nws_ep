@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-22T05:30:42Z",
-  "last_successful_collection_at": "2026-10-22T05:30:42Z",
+  "generated_at": "2026-10-22T06:00:51Z",
+  "last_successful_collection_at": "2026-10-22T06:00:51Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-22T05:30:42Z"
+      "at": "2026-10-22T06:00:51Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-22T05:30:42Z"
+      "at": "2026-10-22T06:00:51Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-10-22T05:30:42Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-10-22T06:00:51Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,47 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-22T05:30:42Z"
+      "at": "2026-10-22T06:00:51Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-22T05:30:42Z"
+      "at": "2026-10-22T06:00:51Z"
     },
     {
       "id": "el_pais_english",
-      "status": "ok",
-      "count": "56",
-      "at": "2026-10-22T05:30:42Z"
+      "status": "error",
+      "detail": "The read operation timed out",
+      "at": "2026-10-22T06:00:51Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-22T05:30:42Z"
+      "at": "2026-10-22T06:00:51Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-22T05:30:42Z"
+      "at": "2026-10-22T06:00:51Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-22T05:30:42Z"
+      "at": "2026-10-22T06:00:51Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Paris Enforces Protest Ban Following Unrest",
-      "summary": "Paris authorities have implemented a ban on protests following a period of violent unrest and demonstrations. Financial indicators showed significant market reaction as French bond yields reached a 24-year high.",
+      "title": "Violent Unrest and Protests in France",
+      "summary": "Paris implemented a ban on protests following severe civil unrest and riots that drove French bond yields to a 24-year high. Meanwhile, investigations indicated that pro-russian digital networks worked to amplify public anger during the demonstrations.",
       "article_ids": [
         "cf53269f87250263f6f453f3",
-        "9045029427da54bb924f5a4a"
+        "9045029427da54bb924f5a4a",
+        "d6d946a91171f3798d88a2d4"
       ],
       "sources": [
         {
@@ -87,11 +88,38 @@
       "source_count": 1
     },
     {
-      "title": "EU Prosecutors Search Parliamentary Offices",
-      "summary": "European prosecutors conducted raids on the parliamentary offices of a far-right political group in Brussels and Strasbourg. The searches were carried out as part of an investigation into the alleged misuse of parliamentary funds.",
+      "title": "Developments in Ukraine War and Peace Talks",
+      "summary": "Russian missiles struck Kyiv as the Kremlin expressed readiness to resume three-way peace talks involving Ukraine and the United States. However, European officials and leaders remain cautious regarding the immediate prospects for a negotiated settlement.",
+      "article_ids": [
+        "e1048f840eb6fe9251367f95",
+        "3b2ac0b8fe09283813c5fd75",
+        "0738b08772d01e26afc8e9df"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
+          "headline": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
+          "published_at": "2026-10-22T01:51:03Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+          "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+          "published_at": "2026-10-21T21:27:41Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "European Parliament Offices Searched in Graft Investigation",
+      "summary": "EU prosecutors conducted raids on the offices of the far-right Patriots for Europe group located in Brussels and Strasbourg. The searches were carried out as part of an investigation into the alleged misuse of parliamentary funds.",
       "article_ids": [
         "1202d71c9d2a127803923ef5",
-        "725a3e928d94a9844d00a103"
+        "725a3e928d94a9844d00a103",
+        "239e1cb6d37a30da7c1d11bb"
       ],
       "sources": [
         {
@@ -108,61 +136,25 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "Diplomatic Developments in Ukraine Conflict",
-      "summary": "Russia indicated its willingness to engage in resumed talks alongside Ukraine and the United States. Meanwhile, military strikes targeted Kyiv while discussions regarding potential diplomatic solutions continued.",
+      "title": "Irish Referendum on Overseas Peacekeeping",
+      "summary": "Voters in Ireland approved a measure to eliminate the United Nation approval requirement for overseas peacekeeping missions. This legislative change alters how the country deploys its military personnel abroad.",
       "article_ids": [
-        "e1048f840eb6fe9251367f95",
-        "e6ce7d468f0a78e4cc5bcfda"
+        "f77a67fd1e39f6e1cbe25d37"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
-          "headline": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
-          "published_at": "2026-10-22T01:51:03Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/putin-agrees-to-resume-three-way-talks-with-kyiv-and-washington",
-          "headline": "Putin agrees to resume three-way talks with Kyiv and Washington",
-          "published_at": "2026-10-21T19:32:52Z"
+          "url": "https://www.france24.com/en/europe/20261022-ireland-votes-un-veto-overseas-peacekeeping-missions",
+          "headline": "Ireland votes to end UN approval requirement for overseas peacekeeping missions",
+          "published_at": "2026-10-22T00:35:35Z"
         }
       ],
       "source_count": 1
     }
   ],
   "developing": [
-    {
-      "label": "Ukraine · talks · US · Russia",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 14,
-      "latest_at": "2026-10-22T04:05:00Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/who-speaks-for-europe-in-the-ukraine-peace-talks",
-          "headline": "Who speaks for Europe in the Ukraine peace talks?",
-          "published_at": "2026-10-22T04:05:00Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
-          "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
-          "published_at": "2026-10-21T21:27:41Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/kremlin-says-ready-to-resume-3-way-talks-with-us-and-ukraine-mid-november",
-          "headline": "Kremlin says 'ready' to resume 3-way talks with US and Ukraine mid-November",
-          "published_at": "2026-10-21T15:51:32Z"
-        }
-      ]
-    },
     {
       "label": "Russia · Zelensky · envoy · intelligence",
       "origin": "convergence",
@@ -231,9 +223,44 @@
           "published_at": "2026-10-21T06:50:40Z"
         }
       ]
+    },
+    {
+      "label": "Trump · US · citizen · freed",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-10-21T22:11:27Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20261021-trump-admin-destroying-us-democracy-with-autocratic-terrorist-version-of-christian-nationalism",
+          "headline": "Trump admin 'destroying' US democracy with 'autocratic, terrorist version of Christian nationalism'",
+          "published_at": "2026-10-21T22:11:27Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
+          "headline": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
+          "published_at": "2026-10-21T11:39:25Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "7d06b6f7a10c7f6c22a58f4c",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Serious risks at EU borders, fundamental rights agency warns",
+      "url": "https://www.politico.eu/article/eu-ceuta-migration-crisis-tests-border-human-rights",
+      "published_at": "2026-10-22T06:00:00Z",
+      "collected_at": "2026-10-22T06:00:51Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "ec2432fe8de33b8780ae5d3a",
       "source_id": "politico_europe",
