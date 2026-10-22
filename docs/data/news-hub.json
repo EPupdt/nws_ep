@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-22T16:00:58Z",
-  "last_successful_collection_at": "2026-10-22T16:00:58Z",
+  "generated_at": "2026-10-22T16:30:49Z",
+  "last_successful_collection_at": "2026-10-22T16:30:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-22T16:00:58Z"
+      "at": "2026-10-22T16:30:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-22T16:00:58Z"
+      "at": "2026-10-22T16:30:49Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-22T16:00:58Z"
+      "at": "2026-10-22T16:30:49Z"
     },
     {
       "id": "euractiv",
@@ -29,48 +29,77 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-22T16:00:58Z"
+      "at": "2026-10-22T16:30:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-22T16:00:58Z"
+      "at": "2026-10-22T16:30:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-10-22T16:00:58Z"
+      "at": "2026-10-22T16:30:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-22T16:00:58Z"
+      "at": "2026-10-22T16:30:49Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-22T16:00:58Z"
+      "at": "2026-10-22T16:30:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-22T16:00:58Z"
+      "at": "2026-10-22T16:30:49Z"
     }
   ],
-  "europe_now": [],
-  "top_stories": [
+  "europe_now": [
     {
-      "title": "Intensified strikes and diplomatic moves in Ukraine",
-      "summary": "Military actions persist in the Ukraine conflict. Diplomatic efforts are simultaneously underway to seek resolution.",
+      "title": "France limits protests amid unrest",
+      "summary": "French authorities said weekend protests would be limited to union demonstrations. The prime minister met with political party leaders as unrest continued.",
       "article_ids": [
+        "f76b7abaf922d2f96be28443",
+        "df4bd3defdbe1d55251b974f"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/emmanuel-macron-france-non-union-protests-banned-saturday",
+          "headline": "Non-union protests to be banned Saturday in France, Macron says",
+          "published_at": "2026-10-22T12:00:00Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss",
+          "headline": "French weekend protests to be limited to union demos only, says Macron",
+          "published_at": "2026-10-22T13:02:14Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Russia and Ukraine exchange strikes",
+      "summary": "Russia and Ukraine exchanged strikes after a US envoy visited the Kremlin. Russia agreed to resume trilateral peace talks on the Ukraine war.",
+      "article_ids": [
+        "8de9460925c8b397babc0d68",
         "2a5e8be8459d644ad869b7d4"
       ],
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ukraine-and-russia-exchange-strikes-after-us-envoy-visit-to-the-kremlin",
+          "headline": "Ukraine and Russia exchange strikes after US envoy visit to the Kremlin",
+          "published_at": "2026-10-22T15:50:09Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/russia-agrees-to-resume-trilateral-peace-talks-on-ukraine-war",
@@ -81,61 +110,64 @@
       "source_count": 1
     }
   ],
-  "developing": [
+  "top_stories": [
     {
-      "label": "EU · rights · human · prize",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 5,
-      "latest_at": "2026-10-22T11:24:47Z",
+      "title": "European Union human rights prize to International Criminal Court",
+      "summary": "The International Criminal Court received the European Union top human rights prize. The award was reported as an act that defied Donald Trump sanctions.",
+      "article_ids": [
+        "16f81cbc12859ac1b4c89b73"
+      ],
       "sources": [
         {
           "publisher": "EUobserver",
           "url": "https://euobserver.com/244343/international-criminal-court-wins-eus-top-human-rights-prize-in-defiance-of-trumps-sanctions",
           "headline": "International Criminal Court wins EU’s top human rights prize in defiance of Trump’s sanctions",
           "published_at": "2026-10-22T11:24:47Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261022-international-criminal-court-wins-eu-s-sakharov-human-rights-prize",
-          "headline": "🔴 International Criminal Court wins EU's Sakharov human rights prize",
-          "published_at": "2026-10-22T10:11:23Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/icc-wins-eu-parliaments-human-rights-prize",
-          "headline": "Trump-sanctioned ICC wins EU Parliament’s human rights prize",
-          "published_at": "2026-10-22T09:23:36Z"
         }
-      ]
+      ],
+      "source_count": 1
     },
     {
-      "label": "case · France · human · Shamonda",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-10-22T13:14:26Z",
+      "title": "European Parliament delays methane regulations",
+      "summary": "The European Parliament backed a delay of three years for methane regulations. The delay was triple the length proposed by the European Commission.",
+      "article_ids": [
+        "c5e9657518541baff2822c92"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/244375/meps-back-three-year-methane-delay-triple-what-the-eu-commission-wanted",
+          "headline": "MEPs back three-year methane delay, triple what the EU Commission wanted",
+          "published_at": "2026-10-22T12:25:06Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "France restricts protests amid unrest",
+      "summary": "French authorities announced limits on protests for the weekend. The French president said protests would be limited to union demonstrations.",
+      "article_ids": [
+        "f76b7abaf922d2f96be28443",
+        "df4bd3defdbe1d55251b974f"
+      ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/first-known-human-case-of-shamonda-virus-reported-in-france",
-          "headline": "First known human case of Shamonda virus confirmed in France",
-          "published_at": "2026-10-22T13:14:26Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261022-france-reports-first-human-case-of-shamonda-virus-but-says-there-s-no-public-health-risk",
-          "headline": "France reports first human case of Shamonda virus, but says there's no public health risk",
-          "published_at": "2026-10-22T12:22:56Z"
+          "url": "https://www.politico.eu/article/emmanuel-macron-france-non-union-protests-banned-saturday",
+          "headline": "Non-union protests to be banned Saturday in France, Macron says",
+          "published_at": "2026-10-22T12:00:00Z"
         },
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c6reyx1d9ge9o?at_medium=RSS&at_campaign=rss",
-          "headline": "First human case of Shamonda virus detected in France, officials say",
-          "published_at": "2026-10-22T11:04:14Z"
+          "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss",
+          "headline": "French weekend protests to be limited to union demos only, says Macron",
+          "published_at": "2026-10-22T13:02:14Z"
         }
-      ]
-    },
+      ],
+      "source_count": 2
+    }
+  ],
+  "developing": [
     {
       "label": "Putin · Ukraine",
       "origin": "convergence",
@@ -164,28 +196,112 @@
       ]
     },
     {
-      "label": "France · protests · Macron · coming",
+      "label": "Brussels · EU",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-10-22T13:15:01Z",
+      "item_count": 3,
+      "latest_at": "2026-10-22T11:48:06Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261022-what-is-happening-in-france-unpacking-the-recent-waves-of-protests",
-          "headline": "What is happening in France? Unpacking the recent waves of protests",
-          "published_at": "2026-10-22T13:15:01Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/brussels-proposes-delaying-tuition-fee-demand-till-after-uk-eu-summit",
+          "headline": "Brussels proposes delaying tuition fee demand till after UK-EU summit",
+          "published_at": "2026-10-22T11:48:06Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/243679/brussels-is-moving-to-ban-street-advertising-by-fossil-fuel-firms-the-eu-officials-who-live-there-should-take-note",
+          "headline": "Brussels is moving to ban street advertising by fossil-fuel firms – the EU officials who live there should take note",
+          "published_at": "2026-10-22T10:26:59Z"
+        }
+      ]
+    },
+    {
+      "label": "movement · Serbia · student",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-10-22T14:33:06Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmq8n3v94ql3o?at_medium=RSS&at_campaign=rss",
+          "headline": "Why a student protest movement is challenging 12 years of Vučić rule in Serbia",
+          "published_at": "2026-10-22T14:33:06Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/244185/serbias-election-can-a-student-led-movement-of-hope-overcome-vucics-hollowed-out-political-system",
+          "headline": "Serbia’s election: can a student-led movement of hope overcome Vučić’s hollowed-out political system?",
+          "published_at": "2026-10-22T09:18:43Z"
+        }
+      ]
+    },
+    {
+      "label": "border · EU",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-10-22T14:24:40Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/244422/a-bigger-eu-border-force-frontex-is-set-to-be-unveiled-with-emphasis-on-deportations",
+          "headline": "A bigger EU border force Frontex is set to be unveiled with emphasis on deportations",
+          "published_at": "2026-10-22T14:24:40Z"
         },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/emmanuel-macron-france-non-union-protests-banned-saturday",
-          "headline": "Non-union protests to be banned Saturday in France, Macron says",
-          "published_at": "2026-10-22T12:00:00Z"
+          "url": "https://www.politico.eu/article/eu-ceuta-migration-crisis-tests-border-human-rights",
+          "headline": "Serious risks at EU borders, fundamental rights agency warns",
+          "published_at": "2026-10-22T06:00:00Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "30f0c227b9781995f8baf1b8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "🔴Live: Authorities in Lyon and Marseille ban all protests Saturday",
+      "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
+      "published_at": "2026-10-22T16:03:29Z",
+      "collected_at": "2026-10-22T16:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c5430939d503aa8678b57d56",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French shopkeepers fear new looting in upcoming protests",
+      "url": "https://www.france24.com/en/french-shopkeepers-fear-new-looting-in-upcoming-protests",
+      "published_at": "2026-10-22T15:51:39Z",
+      "collected_at": "2026-10-22T16:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "8de9460925c8b397babc0d68",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ukraine and Russia exchange strikes after US envoy visit to the Kremlin",
+      "url": "https://www.france24.com/en/ukraine-and-russia-exchange-strikes-after-us-envoy-visit-to-the-kremlin",
+      "published_at": "2026-10-22T15:50:09Z",
+      "collected_at": "2026-10-22T16:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "10f21d1db93ad7dffe3d0dd1",
       "source_id": "france24",
@@ -418,6 +534,20 @@
       "url": "https://www.france24.com/en/video/20261022-what-is-happening-in-france-unpacking-the-recent-waves-of-protests",
       "published_at": "2026-10-22T13:15:01Z",
       "collected_at": "2026-10-22T13:30:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "59792b70bdc2e16f61a3998f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France: 'Legitimate' grievances over education & inflation risk being overshadowed by violent unrest",
+      "url": "https://www.france24.com/en/video/20261022-what-is-happening-in-france-unpacking-the-recent-waves-of-protests",
+      "published_at": "2026-10-22T13:15:01Z",
+      "collected_at": "2026-10-22T16:30:49Z",
       "topics": [
         "politics",
         "security",
@@ -1839,20 +1969,6 @@
       ]
     },
     {
-      "id": "3a54272f805ed57350a28b7a",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Russia says it is ready to resume talks with Ukraine and US to end war",
-      "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T16:29:35Z",
-      "collected_at": "2026-10-21T16:30:44Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "239e1cb6d37a30da7c1d11bb",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1864,48 +1980,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "b3f375613598b7e84140f7bd",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "World set to breach 1.5°C warming limit set by Paris Climate Agreement",
-      "url": "https://www.france24.com/en/video/20261021-world-set-to-breach-1-5%C2%B0c-warming-limit-set-by-paris-climate-agreement",
-      "published_at": "2026-10-21T15:56:42Z",
-      "collected_at": "2026-10-21T16:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "da7e9faec2ed7cbf99728f37",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French President Macron lands in Saudi Arabia on surprise 'solidarity' visit",
-      "url": "https://www.france24.com/en/french-president-macron-lands-in-saudi-arabia-on-surprise-solidarity-visit",
-      "published_at": "2026-10-21T15:54:08Z",
-      "collected_at": "2026-10-21T16:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "11367b93e095902c8de2dfb4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Kremlin says 'ready' to resume 3-way talks with US and Ukraine mid-November",
-      "url": "https://www.france24.com/en/kremlin-says-ready-to-resume-3-way-talks-with-us-and-ukraine-mid-november",
-      "published_at": "2026-10-21T15:51:32Z",
-      "collected_at": "2026-10-21T16:30:44Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -1979,6 +2053,20 @@
       ]
     },
     {
+      "id": "2935b5404d0857eadc131257",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Testosterone fever: the only hormone that has an ideology",
+      "url": "https://english.elpais.com/health/2026-10-20/testosterone-fever-the-only-hormone-that-has-an-ideology.html",
+      "published_at": "2026-10-20T15:28:10Z",
+      "collected_at": "2026-10-22T16:30:49Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "ac39de3e7128ad328ad41962",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1990,6 +2078,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "1a58ae6571823fa7541f32a2",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘Promising Young Woman’: a prescient film about how elite universities shield rapists",
+      "url": "https://english.elpais.com/education/2026-10-20/promising-young-woman-a-prescient-film-about-how-elite-universities-shield-rapists.html",
+      "published_at": "2026-10-20T14:06:31Z",
+      "collected_at": "2026-10-22T16:30:49Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
