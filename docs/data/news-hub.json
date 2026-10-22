@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-22T09:00:54Z",
-  "last_successful_collection_at": "2026-10-22T09:00:54Z",
+  "generated_at": "2026-10-22T09:30:48Z",
+  "last_successful_collection_at": "2026-10-22T09:30:48Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-22T09:00:54Z"
+      "at": "2026-10-22T09:30:48Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-22T09:00:54Z"
+      "at": "2026-10-22T09:30:48Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-22T09:00:54Z"
+      "at": "2026-10-22T09:30:48Z"
     },
     {
       "id": "euractiv",
@@ -29,126 +29,95 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-22T09:00:54Z"
+      "at": "2026-10-22T09:30:48Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-22T09:00:54Z"
+      "at": "2026-10-22T09:30:48Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-10-22T09:00:54Z"
+      "at": "2026-10-22T09:30:48Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-22T09:00:54Z"
+      "at": "2026-10-22T09:30:48Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-22T09:00:54Z"
+      "at": "2026-10-22T09:30:48Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-22T09:00:54Z"
+      "at": "2026-10-22T09:30:48Z"
     }
   ],
-  "europe_now": [
+  "europe_now": [],
+  "top_stories": [
     {
-      "title": "EU Prosecutors Raid Far-Right Group Offices",
-      "summary": "European prosecutors conducted raids on the European Parliament offices of the Patriots for Europe group in Brussels and Strasbourg. The searches were carried out as part of an investigation into the alleged misuse of parliamentary funds.",
+      "title": "Polish Parliament Approves Abortion Reform",
+      "summary": "Poland's parliament has voted in favor of legislation to ease the country's strict abortion rules. The measure is widely expected to be vetoed by the nation's conservative president.",
       "article_ids": [
-        "1202d71c9d2a127803923ef5",
-        "725a3e928d94a9844d00a103"
+        "3fbe484bfd27e83f2670dfde"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/eu-prosecutors-search-european-parliament-offices-of-far-right-group",
-          "headline": "EU prosecutors search European Parliament offices of far-right group",
-          "published_at": "2026-10-21T20:21:16Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/244109/polish-parliament-liberalises-abortion-law-but-conservative-president-likely-to-veto-changes",
+          "headline": "Polish parliament liberalises abortion law – but conservative president likely to veto changes",
+          "published_at": "2026-10-22T08:42:17Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "European Parliament Honors International Criminal Court",
+      "summary": "The European Parliament has awarded its annual human rights prize to the International Criminal Court. The tribunal had previously been subjected to sanctions by Donald Trump.",
+      "article_ids": [
+        "4ca0fd167db682e7eca5f5ef"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/icc-wins-eu-parliaments-human-rights-prize",
+          "headline": "Trump-sanctioned ICC wins EU Parliament’s human rights prize",
+          "published_at": "2026-10-22T09:23:36Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Vatican Issues Health Update on Pope Leo XIV",
+      "summary": "The Vatican announced that Pope Leo XIV does not require additional treatment following surgery for lung cancer. Medical teams confirmed that no further therapeutic interventions are necessary for the pontiff.",
+      "article_ids": [
+        "44ce6b7cfecde15c6a55d134",
+        "57ab6cceb70e6a18a6622eca"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss",
+          "headline": "Pope does not need further treatment after lung cancer surgery",
+          "published_at": "2026-10-21T20:09:10Z"
         },
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/244196/eu-prosecutors-raid-far-right-patriots-for-europe-offices-in-brussels-and-strasbourg-over-alleged-misuse-of-parliament-funds",
-          "headline": "EU prosecutors raid far-right Patriots for Europe offices in Brussels and Strasbourg over alleged misuse of parliament funds",
-          "published_at": "2026-10-21T20:02:50Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261021-pope-leo-doctors-treatment-lung-cancer",
+          "headline": "Pope Leo XIV needs no further lung cancer treatment, Vatican says",
+          "published_at": "2026-10-21T21:41:19Z"
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "Ireland Votes on Overseas Peacekeeping Mandate",
-      "summary": "Irish voters went to the polls in a referendum regarding overseas peacekeeping missions. The outcome of the vote decides whether to end the requirement for UN approval before deploying troops abroad.",
-      "article_ids": [
-        "f77a67fd1e39f6e1cbe25d37"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261022-ireland-votes-un-veto-overseas-peacekeeping-missions",
-          "headline": "Ireland votes to end UN approval requirement for overseas peacekeeping missions",
-          "published_at": "2026-10-22T00:35:35Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Diplomatic Developments in Ukraine Conflict",
-      "summary": "Russian strikes hit Kyiv as Moscow signaled a readiness to resume peace talks with Washington and Kyiv. Meanwhile, European leaders and officials continue to debate diplomatic strategies and representation in ongoing negotiations.",
-      "article_ids": [
-        "e1048f840eb6fe9251367f95",
-        "e6ce7d468f0a78e4cc5bcfda"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
-          "headline": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
-          "published_at": "2026-10-22T01:51:03Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/putin-agrees-to-resume-three-way-talks-with-kyiv-and-washington",
-          "headline": "Putin agrees to resume three-way talks with Kyiv and Washington",
-          "published_at": "2026-10-21T19:32:52Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Civil Unrest and Security Measures in France",
-      "summary": "French authorities implemented protest bans in Paris following a period of violent domestic unrest. The ongoing security situation has generated significant economic repercussions, including a rise in French bond yields.",
-      "article_ids": [
-        "cf53269f87250263f6f453f3",
-        "9045029427da54bb924f5a4a"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
-          "headline": "Live: Paris bans protests after violent unrest as Macron takes swipe at Trump",
-          "published_at": "2026-10-22T02:28:48Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/french-bond-yields-hit-24-year-high-after-unrest",
-          "headline": "French bond yields hit 24-year high after unrest",
-          "published_at": "2026-10-21T20:43:53Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "developing": [
@@ -186,10 +155,58 @@
       ]
     },
     {
-      "label": "French · riots · protests · accounts",
+      "label": "Ukraine · talks · Russia · US",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 13,
+      "latest_at": "2026-10-22T04:05:00Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/who-speaks-for-europe-in-the-ukraine-peace-talks",
+          "headline": "Who speaks for Europe in the Ukraine peace talks?",
+          "published_at": "2026-10-22T04:05:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
+          "headline": "Russia and Ukraine trade strikes overnight as Moscow signals readiness for peace talks",
+          "published_at": "2026-10-22T01:51:03Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+          "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+          "published_at": "2026-10-21T21:27:41Z"
+        }
+      ]
+    },
+    {
+      "label": "Macron · French · Trump · Live",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 5,
+      "item_count": 4,
+      "latest_at": "2026-10-22T02:28:48Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
+          "headline": "Live: Paris bans protests after violent unrest as Macron takes swipe at Trump",
+          "published_at": "2026-10-22T02:28:48Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/macron-slams-unacceptable-and-stupid-comments-after-trump-pins-french-riots-on-immigration",
+          "headline": "Macron slams ‘stupid’ comments after Trump pins French riots on immigration",
+          "published_at": "2026-10-21T11:35:45Z"
+        }
+      ]
+    },
+    {
+      "label": "French · riots · accounts · amplified",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
       "latest_at": "2026-10-21T21:25:55Z",
       "sources": [
         {
@@ -205,51 +222,79 @@
           "published_at": "2026-10-21T14:04:28Z"
         }
       ]
-    },
-    {
-      "label": "Trump · US · citizen · freed",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-21T22:11:27Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20261021-trump-admin-destroying-us-democracy-with-autocratic-terrorist-version-of-christian-nationalism",
-          "headline": "Trump admin 'destroying' US democracy with 'autocratic, terrorist version of Christian nationalism'",
-          "published_at": "2026-10-21T22:11:27Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
-          "headline": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
-          "published_at": "2026-10-21T11:39:25Z"
-        }
-      ]
-    },
-    {
-      "label": "AI · Publishers · Brussels · London",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-21T17:32:54Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/culture/20261021-canadian-publisher-drops-author-orelien-after-confirming-he-used-ai-in-debut-novel",
-          "headline": "Canadian publisher drops author Orelien after confirming he used AI in debut novel",
-          "published_at": "2026-10-21T17:32:54Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/publishers-press-brussels-and-london-to-stop-metas-new-ai-terms",
-          "headline": "Publishers press Brussels and London to stop Meta’s new AI terms",
-          "published_at": "2026-10-21T13:23:02Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "4ca0fd167db682e7eca5f5ef",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Trump-sanctioned ICC wins EU Parliament’s human rights prize",
+      "url": "https://www.politico.eu/article/icc-wins-eu-parliaments-human-rights-prize",
+      "published_at": "2026-10-22T09:23:36Z",
+      "collected_at": "2026-10-22T09:30:48Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "cc461d32b58798301f7eaabf",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Serbia’s election: can a student-led movement of hope overcome Vučić’s hollowed-out political system?",
+      "url": "https://euobserver.com/244185/serbias-election-can-a-student-led-movement-of-hope-overcome-vucics-hollowed-out-political-system",
+      "published_at": "2026-10-22T09:18:43Z",
+      "collected_at": "2026-10-22T09:30:48Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "9f2ff9779c6db713551d163e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Meta's Zuckerberg pitches AI successes to investors with 26% rise in quarterly revenue",
+      "url": "https://www.france24.com/en/tv-shows/business/20261022-meta-s-zuckerberg-pitches-ai-successes-to-investors-with-26-rise-in-quarterly-revenue",
+      "published_at": "2026-10-22T09:18:14Z",
+      "collected_at": "2026-10-22T09:30:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a039e237a3d1e051bdea4d6e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'Popular dissatisfaction' across Europe: 'Promises of more economic growth haven't come true'",
+      "url": "https://www.france24.com/en/video/20261022-popular-dissatisfaction-across-europe-promises-of-more-economic-growth-haven-t-come-true-1",
+      "published_at": "2026-10-22T09:01:59Z",
+      "collected_at": "2026-10-22T09:30:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "7b0a8470dea6c691365d36b5",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "US and Israel develop plans to attack Iran after the midterms",
+      "url": "https://english.elpais.com/international/2026-10-22/us-and-israel-develop-plans-to-attack-iran-after-the-midterms.html",
+      "published_at": "2026-10-22T09:00:17Z",
+      "collected_at": "2026-10-22T09:30:48Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "3fbe484bfd27e83f2670dfde",
       "source_id": "euobserver",
@@ -440,6 +485,20 @@
       "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
       "published_at": "2026-10-22T02:28:48Z",
       "collected_at": "2026-10-22T09:00:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "09cf555cf5bec99677f4aee4",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: Lyon bans 'all demonstrations' in France's third-largest city Saturday",
+      "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
+      "published_at": "2026-10-22T02:28:48Z",
+      "collected_at": "2026-10-22T09:30:48Z",
       "topics": [
         "politics",
         "security",
@@ -2127,90 +2186,6 @@
       ]
     },
     {
-      "id": "418ffa28e7f2b3182c8a64fd",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Russia frees US citizen Stephen Hubbard, state media reports",
-      "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T09:22:23Z",
-      "collected_at": "2026-10-21T09:30:47Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "89c57e5686bc6dc481c1615a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 Russia releases US citizen accused of fighting for Ukraine",
-      "url": "https://www.france24.com/en/europe/20261021-us-envoy-witkoff-to-meet-putin-in-russia-after-positive-talks-with-zelensky",
-      "published_at": "2026-10-21T09:21:44Z",
-      "collected_at": "2026-10-21T09:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "b505e9528c83713da9ccc348",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Women lead the charge for Saudi contemporary art",
-      "url": "https://www.france24.com/en/tv-shows/arts24/20261021-women-lead-the-charge-for-saudi-contemporary-art",
-      "published_at": "2026-10-21T09:20:59Z",
-      "collected_at": "2026-10-21T09:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "95a1741cbf3e86abf08e4984",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "‘I’m 42 and I’ve spent my entire adult life held captive by Bibi’ – can Israel finally break free of Netanyahu, as Hungary did of Orbán?",
-      "url": "https://euobserver.com/243796/im-42-and-ive-spent-my-entire-adult-life-held-captive-by-bibi-can-israel-finally-break-free-of-netanyahu-as-hungary-did-of-orban",
-      "published_at": "2026-10-21T09:15:26Z",
-      "collected_at": "2026-10-21T09:30:47Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "6917ee5543360ae0da4ccda2",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French PM vows stronger security as country prepares for more protests",
-      "url": "https://www.france24.com/en/french-pm-vows-stronger-security-as-country-prepares-for-more-protests",
-      "published_at": "2026-10-21T09:01:44Z",
-      "collected_at": "2026-10-21T09:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "bc605df01f4da68b801bed86",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Italy deploys army and approves tougher anti-riot laws after violence",
-      "url": "https://www.france24.com/en/italy-deploys-army-and-approves-tougher-anti-riot-laws-after-violence",
-      "published_at": "2026-10-21T08:57:04Z",
-      "collected_at": "2026-10-21T09:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "9b687c810858288fa83c472b",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2225,20 +2200,6 @@
       ]
     },
     {
-      "id": "4b6e5d39568ef919d4ba531a",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "The value assessment of cancer medicines must account for how trials have changed",
-      "url": "https://www.politico.eu/sponsored-content/the-value-assessment-of-cancer-medicines-must-account-for-how-trials-have-changed",
-      "published_at": "2026-10-21T08:52:53Z",
-      "collected_at": "2026-10-21T09:01:00Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "f2d316343a97c12642f67225",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2250,48 +2211,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "42a4d8cae6265ac85b6c1d75",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Champions League: Paris defeat Barcelona but lose three major players to injuries",
-      "url": "https://www.france24.com/en/tv-shows/sports/20261021-champions-league-paris-defeat-barcelona-but-lose-3-major-players-to-injuries",
-      "published_at": "2026-10-21T08:21:38Z",
-      "collected_at": "2026-10-21T09:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "c8bbe7b8ca84350c19444c8d",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "US envoy to meet Putin after 'positive' talks with Zelenskyy",
-      "url": "https://www.dw.com/en/us-envoy-to-meet-putin-after-positive-talks-with-zelenskyy/a-79719452?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-21T06:46:00Z",
-      "collected_at": "2026-10-21T09:01:00Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "200224d8de120f841e17641b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US envoy Witkoff meets Putin in Russia after 'positive' talks with Zelensky",
-      "url": "https://www.france24.com/en/europe/20261021-us-envoy-witkoff-to-meet-putin-in-russia-after-positive-talks-with-zelensky",
-      "published_at": "2026-10-21T04:29:24Z",
-      "collected_at": "2026-10-21T09:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -2333,34 +2252,6 @@
       "topics": [
         "politics",
         "security",
-        "society"
-      ]
-    },
-    {
-      "id": "1bd8c57e5c8d696abb8fc038",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "No jeopardy but loads of fun - is new Champions League format a success?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckg5je34l0q5o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-20T23:03:11Z",
-      "collected_at": "2026-10-21T09:01:00Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "b1b6c450adf4f4cf29c24c40",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Trump and Zelensky appear at loggerheads despite new optimism",
-      "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-20T20:00:57Z",
-      "collected_at": "2026-10-21T09:01:00Z",
-      "topics": [
-        "breaking",
-        "politics",
         "society"
       ]
     },
