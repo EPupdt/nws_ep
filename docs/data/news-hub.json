@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-22T08:00:49Z",
-  "last_successful_collection_at": "2026-10-22T08:00:49Z",
+  "generated_at": "2026-10-22T08:30:40Z",
+  "last_successful_collection_at": "2026-10-22T08:30:40Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-22T08:00:49Z"
+      "at": "2026-10-22T08:30:40Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-22T08:00:49Z"
+      "at": "2026-10-22T08:30:40Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-10-22T08:00:49Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-10-22T08:30:40Z"
     },
     {
       "id": "euractiv",
@@ -29,68 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-22T08:00:49Z"
+      "at": "2026-10-22T08:30:40Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-22T08:00:49Z"
+      "at": "2026-10-22T08:30:40Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-10-22T08:00:49Z"
+      "at": "2026-10-22T08:30:40Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-22T08:00:49Z"
+      "at": "2026-10-22T08:30:40Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-22T08:00:49Z"
+      "at": "2026-10-22T08:30:40Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-22T08:00:49Z"
+      "at": "2026-10-22T08:30:40Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Strikes Hit Kyiv Amid Diplomatic Moves",
-      "summary": "Russian missile strikes targeted Kyiv overnight following Moscow's declared readiness to join trilateral peace discussions with Ukraine and the United States. Ukrainian authorities also reported ongoing heavy shelling against the city of Pavlohrad.",
+      "title": "EU Prosecutors Raid Far-Right Group's Offices",
+      "summary": "European prosecutors conducted searches at European Parliament offices belonging to the far-right Patriots for Europe group in Brussels and Strasbourg. The investigation centers on alleged misuse of parliamentary funds.",
       "article_ids": [
-        "e1048f840eb6fe9251367f95",
-        "d207d5f4df323c6016ed527a",
-        "3b2ac0b8fe09283813c5fd75",
-        "201e288d2808c926659d6c3a"
+        "1202d71c9d2a127803923ef5",
+        "725a3e928d94a9844d00a103"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
-          "headline": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
-          "published_at": "2026-10-22T01:51:03Z"
+          "url": "https://www.france24.com/en/eu-prosecutors-search-european-parliament-offices-of-far-right-group",
+          "headline": "EU prosecutors search European Parliament offices of far-right group",
+          "published_at": "2026-10-21T20:21:16Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
-          "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
-          "published_at": "2026-10-21T21:27:41Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/244196/eu-prosecutors-raid-far-right-patriots-for-europe-offices-in-brussels-and-strasbourg-over-alleged-misuse-of-parliament-funds",
+          "headline": "EU prosecutors raid far-right Patriots for Europe offices in Brussels and Strasbourg over alleged misuse of parliament funds",
+          "published_at": "2026-10-21T20:02:50Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "Paris Imposes Demonstration Ban Following Clashes",
-      "summary": "Authorities in Paris instituted a ban on demonstrations after unrest and property destruction swept through the French capital. The ongoing instability has disrupted public order and contributed to rising yields on French sovereign debt.",
+      "title": "France Bans Protests Amid Continuing Unrest",
+      "summary": "Paris authorities have implemented a ban on protests following a wave of violent civil unrest and riots across the country. The ongoing turmoil has driven French bond yields to a 24-year high.",
       "article_ids": [
         "cf53269f87250263f6f453f3",
         "9045029427da54bb924f5a4a"
@@ -114,61 +112,32 @@
   ],
   "top_stories": [
     {
-      "title": "Diplomatic Efforts and Continued Combat in Ukraine",
-      "summary": "Moscow signaled its willingness to participate in tripartite negotiations alongside Washington and Kyiv, even as cross-border missile strikes continued to target Ukrainian urban centers. Meanwhile, European leaders face questions over their diplomatic representation in potential peace discussions.",
+      "title": "Diplomatic Developments in Ukraine Conflict",
+      "summary": "Russia agreed to resume three-way talks involving Kyiv and Washington as part of renewed international diplomatic efforts. Simultaneously, overnight strikes and missile attacks hit targets including Kyiv and Pavlohrad.",
       "article_ids": [
+        "201e288d2808c926659d6c3a",
         "e1048f840eb6fe9251367f95",
-        "d207d5f4df323c6016ed527a",
-        "3b2ac0b8fe09283813c5fd75",
-        "e6ce7d468f0a78e4cc5bcfda",
-        "ec2432fe8de33b8780ae5d3a",
-        "2b6fa04d84d54ee56de3bd2f"
+        "e6ce7d468f0a78e4cc5bcfda"
       ],
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261022-war-in-ukraine-under-bombardment-the-city-that-refuses-to-bow-to-putin",
+          "headline": "Ukraine’s Pavlohrad refuses to yield to Putin despite unrelenting bombardment",
+          "published_at": "2026-10-22T05:54:29Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
           "headline": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
           "published_at": "2026-10-22T01:51:03Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
-          "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
-          "published_at": "2026-10-21T21:27:41Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Civil Unrest and Repercussions in France",
-      "summary": "French officials prohibited public gatherings across Paris after persistent riots provoked sharp domestic political reactions and economic pressure on national bonds. Researchers also observed coordinated online campaigns from external networks seeking to magnify civil discontent.",
-      "article_ids": [
-        "cf53269f87250263f6f453f3",
-        "9045029427da54bb924f5a4a",
-        "d6d946a91171f3798d88a2d4",
-        "cc33b8cb459d67dea8700f2d",
-        "e9f2dfc915644e23988af18e"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
-          "headline": "Live: Paris bans protests after violent unrest as Macron takes swipe at Trump",
-          "published_at": "2026-10-22T02:28:48Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/french-bond-yields-hit-24-year-high-after-unrest",
-          "headline": "French bond yields hit 24-year high after unrest",
-          "published_at": "2026-10-21T20:43:53Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Irish Peacekeeping Referendum Decision",
-      "summary": "Voters in Ireland approved a measure altering requirements for deploying national defense personnel on foreign peacekeeping missions. The outcome removes the necessity of securing United Nations authorization prior to sending troops abroad.",
+      "title": "Irish Peacekeeping Referendum",
+      "summary": "Voters in Ireland participated in a referendum regarding the nation's overseas military engagements. The decision centers on removing the requirement for UN approval before deploying peacekeeping missions.",
       "article_ids": [
         "f77a67fd1e39f6e1cbe25d37"
       ],
@@ -181,85 +150,9 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "EU Human Rights Warning Regarding Border Controls",
-      "summary": "The European Union's fundamental rights agency issued a warning pointing to severe legal and humanitarian risks emerging at external frontiers. The appraisal highlights tensions surrounding border management and the treatment of arriving migrants.",
-      "article_ids": [
-        "7d06b6f7a10c7f6c22a58f4c"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-ceuta-migration-crisis-tests-border-human-rights",
-          "headline": "Serious risks at EU borders, fundamental rights agency warns",
-          "published_at": "2026-10-22T06:00:00Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "developing": [
-    {
-      "label": "Putin · Ukraine · envoy · Russia",
-      "origin": "convergence",
-      "source_count": 4,
-      "item_count": 7,
-      "latest_at": "2026-10-22T05:54:29Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261022-war-in-ukraine-under-bombardment-the-city-that-refuses-to-bow-to-putin",
-          "headline": "Ukraine’s Pavlohrad refuses to yield to Putin despite unrelenting bombardment",
-          "published_at": "2026-10-22T05:54:29Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/talking-to-vladimir-putin-europe-seeks-a-negotiator-in-chief-for-ukraine",
-          "headline": "Talking to Putin: Europe seeks a negotiator-in-chief for Ukraine",
-          "published_at": "2026-10-21T19:53:50Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/trump-putin-and-xi-at-one-table-without-ukraine-what-moscow-wants-from-the-proposal-and-why-beijing-might-agree/a-79726190?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Trump, Putin and Xi at one table, without Ukraine. What Moscow wants from the proposal and why Beijing might agree.",
-          "published_at": "2026-10-21T19:32:00Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/244153/human-cost-of-putins-war-emerging-in-death-fields-of-russian-soldiers-in-dobropillia-ukraine-battlefield-update-day-1700",
-          "headline": "Human cost of Putin’s war emerging in ‘death fields’ of Russian soldiers in Dobropillia (Ukraine Battlefield update, day 1,700)",
-          "published_at": "2026-10-21T15:14:21Z"
-        }
-      ]
-    },
-    {
-      "label": "Russia · talks · Zelensky",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-10-21T14:46:44Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261021-zelensky-proposes-freezing-front-with-russia-first-step-peace-talks",
-          "headline": "Zelensky proposes freezing front with Russia as first step to peace talks",
-          "published_at": "2026-10-21T14:46:44Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/russia-frees-jailed-american-stephen-hubbard-during-witkoff-talks/a-79719452?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Russia frees jailed American Stephen Hubbard during Witkoff talks",
-          "published_at": "2026-10-21T09:42:00Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
-          "headline": "Zelensky says intelligence sharing 'works now' as US envoy to meet Putin in Russia",
-          "published_at": "2026-10-21T08:18:53Z"
-        }
-      ]
-    },
     {
       "label": "French · riots · protests · accounts",
       "origin": "convergence",
@@ -301,9 +194,65 @@
           "published_at": "2026-10-21T11:39:25Z"
         }
       ]
+    },
+    {
+      "label": "AI · Publishers · Brussels · London",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-10-21T17:32:54Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/culture/20261021-canadian-publisher-drops-author-orelien-after-confirming-he-used-ai-in-debut-novel",
+          "headline": "Canadian publisher drops author Orelien after confirming he used AI in debut novel",
+          "published_at": "2026-10-21T17:32:54Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/publishers-press-brussels-and-london-to-stop-metas-new-ai-terms",
+          "headline": "Publishers press Brussels and London to stop Meta’s new AI terms",
+          "published_at": "2026-10-21T13:23:02Z"
+        }
+      ]
+    },
+    {
+      "label": "cancer · further · lung · Pope",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-10-21T21:41:19Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261021-pope-leo-doctors-treatment-lung-cancer",
+          "headline": "Pope Leo XIV needs no further lung cancer treatment, Vatican says",
+          "published_at": "2026-10-21T21:41:19Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss",
+          "headline": "Pope does not need further treatment after lung cancer surgery",
+          "published_at": "2026-10-21T20:09:10Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "37cdc005d8018f84c32f0b61",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Adipositas: Sparen kann für den Staat teuer werden",
+      "url": "https://www.politico.eu/sponsored-content/adipositas-sparen-kann-fuer-den-staat-teuer-werden",
+      "published_at": "2026-10-22T08:17:53Z",
+      "collected_at": "2026-10-22T08:30:40Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "1ec3d0515d97e1493fb5405e",
       "source_id": "politico_europe",
@@ -2265,20 +2214,6 @@
       ]
     },
     {
-      "id": "38cdcac05644108b9b3a8b97",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Parliament approves liberalisation of Poland’s abortion laws",
-      "url": "https://notesfrompoland.com/2026/10/21/parliament-approves-liberalisation-of-polands-abortion-laws",
-      "published_at": "2026-10-21T07:41:48Z",
-      "collected_at": "2026-10-21T08:00:55Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "c8bbe7b8ca84350c19444c8d",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2696,6 +2631,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "5aece50e7100f73e937ead1e",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Populist Czech PM Babis goes empty-handed in Senate elections",
+      "url": "https://www.dw.com/en/populist-czech-pm-babis-goes-empty-handed-in-senate-elections/a-79690934?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-18T07:03:00Z",
+      "collected_at": "2026-10-22T08:30:40Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
