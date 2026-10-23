@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-23T16:30:50Z",
-  "last_successful_collection_at": "2026-10-23T16:30:50Z",
+  "generated_at": "2026-10-23T17:01:04Z",
+  "last_successful_collection_at": "2026-10-23T17:01:04Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-23T16:30:50Z"
+      "at": "2026-10-23T17:01:04Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-10-23T16:30:50Z"
+      "at": "2026-10-23T17:01:04Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-23T16:30:50Z"
+      "at": "2026-10-23T17:01:04Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-23T16:30:50Z"
+      "at": "2026-10-23T17:01:04Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-23T16:30:50Z"
+      "at": "2026-10-23T17:01:04Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-10-23T16:30:50Z"
+      "at": "2026-10-23T17:01:04Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-23T16:30:50Z"
+      "at": "2026-10-23T17:01:04Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-23T16:30:50Z"
+      "at": "2026-10-23T17:01:04Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-23T16:30:50Z"
+      "at": "2026-10-23T17:01:04Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Paris Shooting Investigated as Terror Attack",
-      "summary": "French authorities and anti-terror prosecutors are investigating a deadly shooting near Paris that left one person dead and four others wounded as a suspected act of terrorism and hate crime.",
+      "title": "Security Escalation in France",
+      "summary": "French authorities have tightened restrictions and banned specific protests following a deadly shooting near Paris that is currently being investigated as a terrorist attack. President Emmanuel Macron has held meetings with student union representatives as the country faces heightened civil security measures.",
       "article_ids": [
         "38eab53bac4ab29edd78f8bc",
-        "c58d13f444a8874d4e407a05"
+        "7a1042d564caf465289a1a73"
       ],
       "sources": [
         {
@@ -79,16 +79,58 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261023-french-prosecutors-investigate-paris-shooting-as-suspected-terror-attack",
-          "headline": "French prosecutors investigate Paris shooting as suspected terror attack",
-          "published_at": "2026-10-23T11:08:26Z"
+          "url": "https://www.france24.com/en/french-authorities-tighten-restrictions-and-ban-specific-protests",
+          "headline": "French authorities tighten restrictions and ban specific protests",
+          "published_at": "2026-10-23T13:55:40Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Black Sea Drone Strike on Vessel",
-      "summary": "A drone strike hit a ship in the Black Sea near Romania, resulting in the death of at least one sailor and raising security concerns for regional maritime infrastructure.",
+      "title": "Ukraine and Russia Prisoner Exchange",
+      "summary": "Ukraine and Russia have each completed an exchange of 270 prisoners of war amidst ongoing regional conflicts and diplomatic developments.",
+      "article_ids": [
+        "8af8baa2ca707ab2d1a5c300"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ukraine-russia-exchange-270-prisoners-war-zelenskyy-putin-trump",
+          "headline": "Ukraine and Russia each exchange 270 prisoners of war",
+          "published_at": "2026-10-23T13:31:40Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "French Civil Unrest and Security Measures",
+      "summary": "French authorities implemented strict protest bans and security mobilizations following a deadly shooting near Paris. President Emmanuel Macron engaged with student union representatives to address ongoing demonstrations and public safety concerns.",
+      "article_ids": [
+        "38eab53bac4ab29edd78f8bc",
+        "476e075fc211c349c3bfc75b",
+        "7a1042d564caf465289a1a73"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261023-french-prosecutors-investigate-paris-shooting-as-suspected-terror-attack",
+          "headline": "🔴 Deadly shooting west of Paris ‘clearly terrorist’ attack, French interior minister says",
+          "published_at": "2026-10-23T14:43:33Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/french-protests-president-emmanuel-macron-meets-student-unions-representatives",
+          "headline": "French protests: President Emmanuel Macron meets student unions representatives",
+          "published_at": "2026-10-23T14:26:41Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Black Sea Maritime Incident",
+      "summary": "A drone strike hit a ship in the Black Sea near Romania, resulting in at least one sailor's death. This event underscores ongoing regional security risks associated with the conflict.",
       "article_ids": [
         "3a42d6baee0e810cb05f0839"
       ],
@@ -101,38 +143,12 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "French Security and Civil Unrest",
-      "summary": "French authorities have implemented strict security measures and banned specific student protests following recent clashes and looting. Meanwhile, the government faces mounting socioeconomic pressures and awaits an expected credit rating downgrade.",
-      "article_ids": [
-        "7a1042d564caf465289a1a73",
-        "60a9a17184cff380ad5c340b"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/french-authorities-tighten-restrictions-and-ban-specific-protests",
-          "headline": "French authorities tighten restrictions and ban specific protests",
-          "published_at": "2026-10-23T13:55:40Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-awaits-moody-s-verdict-downgrade-widely-expected-as-debt-fears-grow",
-          "headline": "France awaits Moody's verdict: Downgrade widely expected as debt fears grow",
-          "published_at": "2026-10-23T13:10:24Z"
-        }
-      ],
-      "source_count": 1
     },
     {
-      "title": "Ukraine Conflict and Regional Security",
-      "summary": "Ukraine and Russia have completed a prisoner exchange involving 270 individuals from each side. At the same time, ongoing military engagements continue to impact regional infrastructure and transportation networks.",
+      "title": "Ukraine and Russia Prisoner Swap",
+      "summary": "Ukraine and Russia carried out a mutual exchange of 270 prisoners of war. The diplomatic development unfolded amid continuous military engagements across the region.",
       "article_ids": [
-        "8af8baa2ca707ab2d1a5c300",
-        "c2efff579e2d6298a3945d48"
+        "8af8baa2ca707ab2d1a5c300"
       ],
       "sources": [
         {
@@ -140,63 +156,42 @@
           "url": "https://www.politico.eu/article/ukraine-russia-exchange-270-prisoners-war-zelenskyy-putin-trump",
           "headline": "Ukraine and Russia each exchange 270 prisoners of war",
           "published_at": "2026-10-23T13:31:40Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
+    {
+      "label": "Ukraine · Moscow · peace · Russia",
+      "origin": "convergence",
+      "source_count": 4,
+      "item_count": 4,
+      "latest_at": "2026-10-23T15:07:29Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/244704/moscow-elites-pleased-with-us-envoy-witkoff-and-far-from-agreeing-to-peace-ukraine-battlefield-update-day-1702",
+          "headline": "Moscow elites pleased with US envoy Witkoff and far from agreeing to peace (Ukraine Battlefield update, Day 1,702)",
+          "published_at": "2026-10-23T15:07:29Z"
         },
         {
           "publisher": "Deutsche Welle",
           "url": "https://www.dw.com/en/ukraine-tries-to-shut-moscow-s-airports-with-drone-strikes-on-russia/a-79737469?maca=en-rss-en-eu-2092-rdf",
           "headline": "Ukraine tries to shut Moscow's airports with drone strikes on Russia",
           "published_at": "2026-10-23T14:23:00Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
-    {
-      "label": "elections · Ahead · Iran · Israeli",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-10-23T15:22:00Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/243681/interview-removing-netanyahu-wont-curb-right-wing-israeli-nationalism-says-expert-ahead-of-tuesdays-knesset-elections",
-          "headline": "[Interview] Ousting Netanyahu won’t curb right-wing Israeli nationalism, says expert ahead of Tuesday’s Knesset elections",
-          "published_at": "2026-10-23T15:22:00Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-10-23/netanyahu-stakes-his-re-election-on-the-promise-of-another-war-with-iran-and-opposition-to-arab-parties.html",
-          "headline": "Netanyahu stakes his re-election on the promise of another war with Iran and opposition to Arab parties",
-          "published_at": "2026-10-23T10:56:28Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ahead-of-us-and-israeli-elections-3-day-joint-attack-on-iran-would-not-radically-change-conflict",
-          "headline": "Ahead of US and Israeli elections, 3-day joint attack on Iran 'would not radically change conflict'",
-          "published_at": "2026-10-22T16:36:26Z"
-        }
-      ]
-    },
-    {
-      "label": "Italy · Trucker · buffalo · cost",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-10-22T20:54:15Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/business/20261022-italy-s-trucker-protests-halt-buffalo-mozzarella-production-cost-producers-%E2%82%AC3m",
-          "headline": "Italy's trucker protests halt buffalo mozzarella production, cost producers €3m",
-          "published_at": "2026-10-22T20:54:15Z"
+          "url": "https://www.france24.com/en/europe/20261023-us-offers-mixed-messages-on-limits-to-ukraine-s-starshield-system",
+          "headline": "US offers mixed messages on limits to Ukraine's Starshield system",
+          "published_at": "2026-10-23T06:22:59Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/giorgia-melonu-italy-naples-trucker-blockades-southern-italy-ramp-up-pressure",
-          "headline": "Trucker blockades in southern Italy ramp up pressure on Meloni",
-          "published_at": "2026-10-22T16:52:14Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/c9146p1vx888o?at_medium=RSS&at_campaign=rss",
+          "headline": "Ukraine hit by strikes after Russia agrees to new peace talks",
+          "published_at": "2026-10-22T17:49:13Z"
         }
       ]
     },
@@ -241,9 +236,44 @@
           "published_at": "2026-10-23T08:09:47Z"
         }
       ]
+    },
+    {
+      "label": "elections · Netanyahu",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-10-23T15:22:00Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/243681/interview-removing-netanyahu-wont-curb-right-wing-israeli-nationalism-says-expert-ahead-of-tuesdays-knesset-elections",
+          "headline": "[Interview] Ousting Netanyahu won’t curb right-wing Israeli nationalism, says expert ahead of Tuesday’s Knesset elections",
+          "published_at": "2026-10-23T15:22:00Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-10-23/netanyahu-stakes-his-re-election-on-the-promise-of-another-war-with-iran-and-opposition-to-arab-parties.html",
+          "headline": "Netanyahu stakes his re-election on the promise of another war with Iran and opposition to Arab parties",
+          "published_at": "2026-10-23T10:56:28Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "69e5408d03bb6799f08245bf",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "🔴 Live: French student groups call for protests to continue after meeting with Macron",
+      "url": "https://www.france24.com/en/europe/20261023-macron-meets-with-student-representatives-and-law-enforcement-ahead-of-new-protests",
+      "published_at": "2026-10-23T16:31:44Z",
+      "collected_at": "2026-10-23T17:01:04Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "14f3d4b6f22b98044c28cc81",
       "source_id": "france24",
@@ -924,6 +954,20 @@
       "url": "https://www.france24.com/en/france/20261023-french-prosecutors-investigate-paris-shooting-as-suspected-terror-attack",
       "published_at": "2026-10-23T11:08:26Z",
       "collected_at": "2026-10-23T15:30:51Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "38ac26dd3fca1bab712b3961",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France’s Macron arrives in Trappes after ‘racist terrorist attack’",
+      "url": "https://www.france24.com/en/france/20261023-french-prosecutors-investigate-paris-shooting-as-suspected-terror-attack",
+      "published_at": "2026-10-23T11:08:26Z",
+      "collected_at": "2026-10-23T17:01:04Z",
       "topics": [
         "politics",
         "security",
@@ -2618,6 +2662,20 @@
       "url": "https://english.elpais.com/culture/2026-10-13/steve-mcqueen-artist-we-live-in-an-era-dominated-by-fear-i-am-interested-in-love.html",
       "published_at": "2026-10-13T14:21:13Z",
       "collected_at": "2026-10-23T16:30:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "dffaa72c90845c6e1ec2dd5f",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The Madrid bear sculpture meant for a Miami roundabout that ended up inside a restaurant instead",
+      "url": "https://english.elpais.com/international/2026-10-07/the-madrid-bear-sculpture-meant-for-a-miami-roundabout-that-ended-up-inside-a-restaurant-instead.html",
+      "published_at": "2026-10-07T14:09:26Z",
+      "collected_at": "2026-10-23T17:01:04Z",
       "topics": [
         "politics",
         "society",
