@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-23T07:30:50Z",
-  "last_successful_collection_at": "2026-10-23T07:30:50Z",
+  "generated_at": "2026-10-23T08:01:03Z",
+  "last_successful_collection_at": "2026-10-23T08:01:03Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-23T07:30:50Z"
+      "at": "2026-10-23T08:01:03Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-10-23T07:30:50Z"
+      "at": "2026-10-23T08:01:03Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-23T07:30:50Z"
+      "at": "2026-10-23T08:01:03Z"
     },
     {
       "id": "euractiv",
@@ -29,48 +29,56 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-23T07:30:50Z"
+      "at": "2026-10-23T08:01:03Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-23T07:30:50Z"
+      "at": "2026-10-23T08:01:03Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-10-23T07:30:50Z"
+      "at": "2026-10-23T08:01:03Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-23T07:30:50Z"
+      "at": "2026-10-23T08:01:03Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-23T07:30:50Z"
+      "at": "2026-10-23T08:01:03Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-23T07:30:50Z"
+      "at": "2026-10-23T08:01:03Z"
     }
   ],
   "europe_now": [
     {
-      "title": "French Authorities Extend Curfew and Ban Protests",
-      "summary": "Officials in France have prolonged a nighttime curfew in specific areas of Paris alongside implementing total protest bans in Marseille and Lyon. These measures follow intense civil unrest and rioting across major urban centers.",
+      "title": "French Authorities Expand Curfews and Meeting Restrictions Amid Protests",
+      "summary": "French authorities extended nightly curfews in parts of Paris and banned protests in cities including Marseille and Lyon following recent riots. President Emmanuel Macron engaged with student representatives and law enforcement officials to address the escalating civil unrest.",
       "article_ids": [
+        "95cabe1564a464c00d66e7e1",
         "7620157bc12243b4d8b48124",
+        "f7dc3b3af4769641ecf1701b",
         "91a1754c9798cc90303654fb"
       ],
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261023-french-authorities-seek-to-ban-protests-macron-to-meet-students-on-friday",
+          "headline": "French authorities seek to ban protests: Macron to meet students on Friday",
+          "published_at": "2026-10-23T07:53:57Z"
+        },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss",
@@ -78,13 +86,14 @@
           "published_at": "2026-10-22T19:25:26Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Italian Trucker Blockades Disrupt Regional Supply Chains",
-      "summary": "Ongoing transport blockades staged by truck drivers across southern Italy are creating severe economic pressure and halting essential manufacturing operations. The localized disruptions have already inflicted millions of euros in damages on regional producers.",
+      "title": "Transport Protests in Italy Disrupt Supply Chains and Pressure Government",
+      "summary": "Trucker blockades across southern Italy severely disrupted agricultural supply chains, halting the production of buffalo mozzarella and accumulating millions of euros in losses. The widespread demonstrations have significantly increased political pressure on Prime Minister Giorgia Meloni's administration.",
       "article_ids": [
         "79efde9039684b09c902a70f",
+        "0fbae4740c8f63e52afdd696",
         "e1d569d2c6b58a41cd9e7e21"
       ],
       "sources": [
@@ -106,10 +115,27 @@
   ],
   "top_stories": [
     {
-      "title": "Ukraine Conflict and Strategic Infrastructure",
-      "summary": "Ukrainian officials reported continued deadly attacks despite recent commitments from Moscow regarding prospective peace talks. Meanwhile, international attention remains focused on diplomatic discussions surrounding communication networks used in the ongoing conflict.",
+      "title": "International Criminal Court Receives European Human Rights Recognition",
+      "summary": "The International Criminal Court received a prominent European human rights prize. The recognition comes despite intense criticism and pressure directed at the tribunal from Washington.",
+      "article_ids": [
+        "6addbdac386e4aeb5e3444e3"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/targeted-by-trump-international-criminal-court-wins-top-eu-rights-prize",
+          "headline": "Targeted by Trump, International Criminal Court wins top EU rights prize",
+          "published_at": "2026-10-22T18:55:57Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ukraine Conflict and Infrastructure Developments",
+      "summary": "Ukraine faced a wave of new military strikes despite ongoing discussions regarding peace talks. Meanwhile, international attention focused on network accessibility and communications infrastructure stability within the country.",
       "article_ids": [
         "c02aa1e6568ded0d99af73d7",
+        "1e738697c8a3de9092dc8a30",
         "a111844bcea3b493883dada3"
       ],
       "sources": [
@@ -121,32 +147,9 @@
         },
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/c9146p1vx888o?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukraine hit by strikes after Russia agrees to new peace talks",
-          "published_at": "2026-10-22T17:49:13Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "International Criminal Court Receives European Recognition",
-      "summary": "The International Criminal Court has been awarded a prominent European human rights distinction amid ongoing geopolitical pressures from external leaders. European institutions continue to signal strong institutional backing for the tribunal's mandate.",
-      "article_ids": [
-        "b91ab80ca8422bcc295aeabf",
-        "6addbdac386e4aeb5e3444e3"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/can-europe-save-the-worlds-war-crimes-court-from-trump",
-          "headline": "Can Europe save the world’s war crimes court from Trump?",
-          "published_at": "2026-10-23T02:10:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/targeted-by-trump-international-criminal-court-wins-top-eu-rights-prize",
-          "headline": "Targeted by Trump, International Criminal Court wins top EU rights prize",
-          "published_at": "2026-10-22T18:55:57Z"
+          "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump says Musk has restored access to Ukraine's Starlink network",
+          "published_at": "2026-10-22T21:42:39Z"
         }
       ],
       "source_count": 2
@@ -177,6 +180,33 @@
           "url": "https://euobserver.com/244185/serbias-election-can-a-student-led-movement-of-hope-overcome-vucics-hollowed-out-political-system",
           "headline": "Serbia’s election: can a student-led movement of hope overcome Vučić’s hollowed-out political system?",
           "published_at": "2026-10-22T09:18:43Z"
+        }
+      ]
+    },
+    {
+      "label": "Russia · Ukraine · agrees · peace",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-10-22T17:49:13Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/c9146p1vx888o?at_medium=RSS&at_campaign=rss",
+          "headline": "Ukraine hit by strikes after Russia agrees to new peace talks",
+          "published_at": "2026-10-22T17:49:13Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/244400/drones-buzz-overhead-and-enemy-wi-fi-everywhere-ukrainian-veterans-describe-how-they-survived-in-russias-kill-zone-ukraine-battlefield-update-day-1701",
+          "headline": "Drones buzz overhead and enemy wi-fi everywhere: Ukrainian veterans describe how they survived in Russia’s ‘kill zone’ (Ukraine Battlefield update, Day 1,701)",
+          "published_at": "2026-10-22T14:38:47Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/russia-agrees-to-resume-trilateral-peace-talks-on-ukraine-war",
+          "headline": "Russia agrees to resume trilateral peace talks on Ukraine war",
+          "published_at": "2026-10-22T14:19:27Z"
         }
       ]
     },
@@ -221,30 +251,23 @@
           "published_at": "2026-10-22T10:33:15Z"
         }
       ]
-    },
-    {
-      "label": "Trump · Ukraine",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-10-22T21:42:39Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump says Musk has restored access to Ukraine's Starlink network",
-          "published_at": "2026-10-22T21:42:39Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russia-launches-massive-strikes-on-ukraine-us-donald-trump-says-peace-is-closer-than-ever",
-          "headline": "Russia launches massive strikes on Ukraine as Trump says peace is closer than ever",
-          "published_at": "2026-10-22T09:49:04Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "95cabe1564a464c00d66e7e1",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French authorities seek to ban protests: Macron to meet students on Friday",
+      "url": "https://www.france24.com/en/video/20261023-french-authorities-seek-to-ban-protests-macron-to-meet-students-on-friday",
+      "published_at": "2026-10-23T07:53:57Z",
+      "collected_at": "2026-10-23T08:01:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "f08cbeace6100c05cb58d332",
       "source_id": "france24",
@@ -439,6 +462,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "8a6220da00dce3f67be520bd",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "New York City votes to ban Central Park horse-drawn carriages after decades of debate",
+      "url": "https://www.france24.com/en/americas/20261023-new-york-city-votes-to-ban-central-park-horse-drawn-carriages-after-decades-of-debate",
+      "published_at": "2026-10-23T00:18:53Z",
+      "collected_at": "2026-10-23T08:01:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -2038,6 +2075,20 @@
       ]
     },
     {
+      "id": "38cdcac05644108b9b3a8b97",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Parliament approves liberalisation of Poland’s abortion laws",
+      "url": "https://notesfrompoland.com/2026/10/21/parliament-approves-liberalisation-of-polands-abortion-laws",
+      "published_at": "2026-10-21T07:41:48Z",
+      "collected_at": "2026-10-23T08:01:03Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "83f2bdcca9d3ec0994621729",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2220,20 +2271,6 @@
       ]
     },
     {
-      "id": "c65977542a191cc3a948df56",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "My son has disappeared off the face of the earth fighting for Russia",
-      "url": "https://www.bbc.co.uk/news/articles/c60e325g7p87o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-20T13:02:09Z",
-      "collected_at": "2026-10-22T08:00:49Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "122956bc3db825a4b21b6ea3",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2371,20 +2408,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "c62171c85ffa21e8c1e7d8fa",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Seventh day of violent clashes between Albanian protesters and police",
-      "url": "https://www.bbc.co.uk/news/articles/cmy4xjlpqgd3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-20T02:45:05Z",
-      "collected_at": "2026-10-22T08:00:49Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
