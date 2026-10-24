@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-24T15:00:57Z",
-  "last_successful_collection_at": "2026-10-24T15:00:57Z",
+  "generated_at": "2026-10-24T15:30:45Z",
+  "last_successful_collection_at": "2026-10-24T15:30:45Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-24T15:00:57Z"
+      "at": "2026-10-24T15:30:45Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-10-24T15:00:57Z"
+      "at": "2026-10-24T15:30:45Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-24T15:00:57Z"
+      "at": "2026-10-24T15:30:45Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,48 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-24T15:00:57Z"
+      "at": "2026-10-24T15:30:45Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-24T15:00:57Z"
+      "at": "2026-10-24T15:30:45Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-10-24T15:00:57Z"
+      "at": "2026-10-24T15:30:45Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-24T15:00:57Z"
+      "at": "2026-10-24T15:30:45Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-24T15:00:57Z"
+      "at": "2026-10-24T15:30:45Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-24T15:00:57Z"
+      "at": "2026-10-24T15:30:45Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Mass Demonstrations and Heavy Security in France",
-      "summary": "Authorities deployed tens of thousands of police officers across French cities as citizens organized new waves of protests and demonstrations. Law enforcement personnel utilized tear gas in several urban centers amid heightened tensions and route changes.",
+      "title": "Massive Police Deployment and Clashes During French Protests",
+      "summary": "France deployed tens of thousands of security personnel as hundreds of demonstrations took place across various cities. Police used tear gas against protesters amidst high national tensions following previous riots.",
       "article_ids": [
         "023e04943fd7fbfb7be2737a",
-        "014e12441dc21842e7fba419"
+        "014e12441dc21842e7fba419",
+        "3ec8c57034206c54d9330b83",
+        "f8f596055606ce8a3d51122e"
       ],
       "sources": [
         {
@@ -87,11 +89,12 @@
       "source_count": 2
     },
     {
-      "title": "Ukraine Communications Infrastructure Stabilization",
-      "summary": "Ukrainian officials confirmed that satellite internet connections across the country have returned to stable operation levels following recent network limitations. Defense representatives noted that high-speed connectivity has been successfully restored.",
+      "title": "Ukraine Reports Stable Communications Infrastructure",
+      "summary": "Ukrainian officials confirmed that connections through satellite networks have returned to normal high-speed functionality. This update follows previous network limitations and restrictions affecting communications.",
       "article_ids": [
         "3b28bf63ac280fc89a358e6d",
-        "1e27143f354025ff0c1d66f7"
+        "1e27143f354025ff0c1d66f7",
+        "c2dc92bc99e86129af555d9a"
       ],
       "sources": [
         {
@@ -112,11 +115,12 @@
   ],
   "top_stories": [
     {
-      "title": "Civil Unrest Across France",
-      "summary": "Cities throughout France experienced widespread protests accompanied by a heavy police deployment and the closure of major cultural sites. Security forces arrested numerous individuals and seized weapons on the sidelines of the demonstrations.",
+      "title": "Civil Unrest and Security Operations in France",
+      "summary": "Authorities deployed heavy security forces across French cities to manage widespread demonstrations and high public tensions. Demonstrators gathered in multiple locations as authorities responded with tactical operations and crowd control measures.",
       "article_ids": [
         "023e04943fd7fbfb7be2737a",
-        "c47f6bdea30418a9466ead02"
+        "014e12441dc21842e7fba419",
+        "f8f596055606ce8a3d51122e"
       ],
       "sources": [
         {
@@ -126,20 +130,21 @@
           "published_at": "2026-10-24T14:41:05Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261024-live-hundreds-of-protests-expected-in-france-amid-high-tensions-and-heavy-police-presence",
-          "headline": "Live: French police seize weapons and arrest 135 people on the sidelines of new protests",
-          "published_at": "2026-10-24T04:59:58Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/france-police-deploy-protests",
+          "headline": "70,000 police forces deployed in France for tense day of protests",
+          "published_at": "2026-10-24T11:41:22Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Ukraine Network Recovery",
-      "summary": "The Ukrainian government reported that satellite communication links are functioning normally following previous service disruptions. Defense authorities validated the complete restoration of high-speed network performance.",
+      "title": "Ukraine Network Infrastructure Recovery",
+      "summary": "Defense officials in Ukraine announced that satellite network connections are fully operational again. The stabilization comes after a period of reported limits and restrictions on critical communication channels.",
       "article_ids": [
         "3b28bf63ac280fc89a358e6d",
-        "1e27143f354025ff0c1d66f7"
+        "1e27143f354025ff0c1d66f7",
+        "c2dc92bc99e86129af555d9a"
       ],
       "sources": [
         {
@@ -156,6 +161,29 @@
         }
       ],
       "source_count": 2
+    },
+    {
+      "title": "Arrest Following Incident at Historical German Site",
+      "summary": "Law enforcement officials made an arrest in connection with a fire at a prominent historical location. The incident occurred at a mountaintop retreat associated with Adolf Hitler.",
+      "article_ids": [
+        "44528e610fd60317b35bf365",
+        "c02dba03a1a61d7be73f6077"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+          "headline": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
+          "published_at": "2026-10-24T15:21:44Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+          "headline": "Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat",
+          "published_at": "2026-10-24T11:23:59Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "developing": [
@@ -223,22 +251,36 @@
       ]
     },
     {
-      "label": "election · Interview",
+      "label": "cost · expected · heavy · Italy",
       "origin": "radar",
       "source_count": 1,
-      "item_count": 2,
-      "latest_at": "2026-10-24T07:00:00Z",
+      "item_count": 1,
+      "latest_at": "2026-10-24T07:08:54Z",
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/244554/interview-bulgarias-presidential-election-becomes-a-test-of-rumen-radevs-grip-on-power",
-          "headline": "[Interview] Bulgaria’s presidential election becomes a test of Rumen Radev’s grip on power",
-          "published_at": "2026-10-24T07:00:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261024-protests-against-cost-of-living-expected-in-italy-under-heavy-security",
+          "headline": "Protests against cost of living expected in Italy under heavy security",
+          "published_at": "2026-10-24T07:08:54Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "44528e610fd60317b35bf365",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
+      "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-24T15:21:44Z",
+      "collected_at": "2026-10-24T15:30:45Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "023e04943fd7fbfb7be2737a",
       "source_id": "france24",
@@ -457,6 +499,20 @@
       "url": "https://www.politico.eu/article/france-police-deploy-protests",
       "published_at": "2026-10-24T11:41:22Z",
       "collected_at": "2026-10-24T14:30:54Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "3ec8c57034206c54d9330b83",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "French police fires tear gas in multiple cities as marches come to an end",
+      "url": "https://www.politico.eu/article/france-police-deploy-protests",
+      "published_at": "2026-10-24T11:41:22Z",
+      "collected_at": "2026-10-24T15:30:45Z",
       "topics": [
         "institutions",
         "politics",
@@ -1346,34 +1402,6 @@
       ]
     },
     {
-      "id": "c2efff579e2d6298a3945d48",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Ukraine tries to shut Moscow's airports with drone strikes on Russia",
-      "url": "https://www.dw.com/en/ukraine-tries-to-shut-moscow-s-airports-with-drone-strikes-on-russia/a-79737469?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-23T14:23:00Z",
-      "collected_at": "2026-10-23T15:01:00Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "a2a911517f9dbe35b82c2884",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "New EU-wide asylum law ends up in court in Italy",
-      "url": "https://euobserver.com/244651/new-eu-wide-asylum-law-ends-up-in-court-in-italy",
-      "published_at": "2026-10-23T14:22:27Z",
-      "collected_at": "2026-10-23T15:01:00Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "1d7ffe5c155ea36066438c7d",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1497,6 +1525,34 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "d7b1f345d1d4307ba6198431",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Why a student protest movement is challenging 12 years of Vučić rule in Serbia",
+      "url": "https://www.bbc.co.uk/news/articles/cmq8n3v94ql3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T06:26:25Z",
+      "collected_at": "2026-10-24T15:30:45Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "5a81fa000786b8602ee931d0",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Drones buzz overhead and enemy wi-fi everywhere: Ukrainian veterans describe how they survived in Russia’s ‘kill zone’ (Ukraine Battlefield update, Day 1,701)",
+      "url": "https://euobserver.com/244400/drones-buzz-overhead-and-enemy-wi-fi-everywhere-ukrainian-veterans-describe-how-they-survived-in-russias-kill-zone-ukraine-battlefield-update-day-1701",
+      "published_at": "2026-10-22T14:38:47Z",
+      "collected_at": "2026-10-24T15:30:45Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -1836,48 +1892,6 @@
       ]
     },
     {
-      "id": "7cc923fa4e980bb60e094189",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Scientists alarmed by dozens of whale deaths along Argentina’s coast",
-      "url": "https://english.elpais.com/climate/2026-10-21/scientists-alarmed-by-dozens-of-whale-deaths-along-argentinas-coast.html",
-      "published_at": "2026-10-21T14:37:16Z",
-      "collected_at": "2026-10-23T15:01:00Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "c64d8cdea81e609a0cf6fa0e",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "New York City International Book Fair kicks off with 160 events, twice as many as last year",
-      "url": "https://english.elpais.com/culture/2026-10-21/new-york-city-international-book-fair-kicks-off-with-160-events-twice-as-many-as-last-year.html",
-      "published_at": "2026-10-21T14:36:08Z",
-      "collected_at": "2026-10-23T15:01:00Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "55f575c8090fb10dd165fb85",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Russia arrests German man, calls him a Ukraine 'mercenary'",
-      "url": "https://www.dw.com/en/russia-arrests-german-man-calls-him-a-ukraine-mercenary/a-79723871?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-21T14:17:00Z",
-      "collected_at": "2026-10-23T15:01:00Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "4de3c7c671d0706b74a67ab1",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2004,31 +2018,17 @@
       ]
     },
     {
-      "id": "7c6e6645b37c25cb8edc1d4e",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Deep Purple: the final solo of an endless war",
-      "url": "https://english.elpais.com/culture/2026-10-19/deep-purple-the-final-solo-of-an-endless-war.html",
-      "published_at": "2026-10-19T14:18:07Z",
-      "collected_at": "2026-10-23T15:01:00Z",
+      "id": "05e3287fb576509f246419ac",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "France: Young voters blase about Glucksmann's Socialists",
+      "url": "https://www.dw.com/en/france-young-voters-blase-about-glucksmann-s-socialists/a-79684159?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-18T13:31:00Z",
+      "collected_at": "2026-10-24T15:30:45Z",
       "topics": [
         "politics",
         "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "1df108dbf7b9378df421ac59",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Are the French riots a warning of an intense election to come?",
-      "url": "https://www.bbc.co.uk/news/videos/ckzd60dy746qo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-19T13:43:27Z",
-      "collected_at": "2026-10-23T15:01:00Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
+        "security"
       ]
     },
     {
@@ -2099,6 +2099,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "e76c81abc99866d3dbf73138",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘Violent, disgusting and a tour de force’: ‘Henry’, the film that held up a mirror to society",
+      "url": "https://english.elpais.com/culture/2026-10-14/violent-disgusting-and-a-tour-de-force-henry-the-film-that-held-up-a-mirror-to-society.html",
+      "published_at": "2026-10-14T13:11:47Z",
+      "collected_at": "2026-10-24T15:30:45Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
