@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-25T16:01:01Z",
-  "last_successful_collection_at": "2026-10-25T16:01:01Z",
+  "generated_at": "2026-10-25T16:30:51Z",
+  "last_successful_collection_at": "2026-10-25T16:30:51Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-25T16:01:01Z"
+      "at": "2026-10-25T16:30:51Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-10-25T16:01:01Z"
+      "at": "2026-10-25T16:30:51Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-10-25T16:01:01Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-10-25T16:30:51Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-25T16:01:01Z"
+      "at": "2026-10-25T16:30:51Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-25T16:01:01Z"
+      "at": "2026-10-25T16:30:51Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-10-25T16:01:01Z"
+      "at": "2026-10-25T16:30:51Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-25T16:01:01Z"
+      "at": "2026-10-25T16:30:51Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-25T16:01:01Z"
+      "at": "2026-10-25T16:30:51Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-25T16:01:01Z"
+      "at": "2026-10-25T16:30:51Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Mass Unrest and Arrests in France",
-      "summary": "Mass protests across France resulted in over 1,300 arrests following clashes amid widespread demonstrations. Authorities and political figures are responding as security forces manage the ongoing unrest.",
+      "title": "Mass Unrest and Arrests Across France",
+      "summary": "Nationwide demonstrations in France have resulted in over 1,300 arrests following clashes during large protests. Authorities and political figures are responding to the escalating security situation as public mobilization continues.",
       "article_ids": [
         "9cf273cf78bec064f9b9d04c",
         "2d3acfcf9b61d156ff860875"
@@ -87,8 +87,8 @@
       "source_count": 2
     },
     {
-      "title": "Elections in Serbia and Bulgaria",
-      "summary": "Serbia is holding parliamentary elections while facing a student movement challenging the populist leadership. Meanwhile, Bulgaria is conducting presidential elections amid political divisions regarding the ongoing war in Ukraine.",
+      "title": "Electoral Contests in Eastern Europe",
+      "summary": "Citizens in Serbia and Bulgaria are heading to the polls for parliamentary and presidential elections amid significant regional issues. Early reports from Serbia indicate a record high turnout as voters participate in the ongoing electoral process.",
       "article_ids": [
         "e479f09dbb7105570df345fd",
         "c101d1c0bf28dbefcd806a05",
@@ -113,20 +113,13 @@
   ],
   "top_stories": [
     {
-      "title": "Civil Unrest and Political Impact in France",
-      "summary": "Nationwide demonstrations in France have led to more than 1,300 arrests following violent clashes during protests. Far-right leaders are actively leveraging the civil unrest as part of their upcoming presidential campaigns.",
+      "title": "Civil Unrest in France",
+      "summary": "Authorities reported that more than 1,300 individuals were arrested following widespread weekend demonstrations and subsequent clashes across France. Far-right leader Marine Le Pen sought to leverage the ongoing unrest during her presidential campaign launch.",
       "article_ids": [
         "9eef9356309bb5d55c0e96ac",
-        "bb771d1316476b4ba4b4688d",
         "9cf273cf78bec064f9b9d04c"
       ],
       "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/france-hundreds-arrested-after-nationwide-protests/live-79748223?maca=en-rss-en-eu-2092-rdf",
-          "headline": "France: Hundreds arrested after nationwide protests",
-          "published_at": "2026-10-25T12:05:00Z"
-        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/france/20261025-at-least-1-300-people-arrested-in-mass-weekend-protests-across-france",
@@ -134,11 +127,11 @@
           "published_at": "2026-10-25T11:02:41Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "Electoral Contests Across Eastern Europe",
-      "summary": "Serbia has initiated parliamentary elections as the populist leadership confronts an organized student movement. Bulgaria is also holding presidential elections amid notable public divisions concerning the conflict in Ukraine.",
+      "title": "Electoral Developments in Eastern Europe",
+      "summary": "Serbia held a parliamentary election featuring a populist leader facing a student movement alongside early reports of record high turnout. Meanwhile, Bulgaria conducted presidential elections amidst internal divisions regarding the ongoing conflict in Ukraine.",
       "article_ids": [
         "e479f09dbb7105570df345fd",
         "c101d1c0bf28dbefcd806a05",
@@ -1201,6 +1194,20 @@
       ]
     },
     {
+      "id": "3131979dc66ec4ca44fbecb3",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "[Interview] Ousting Netanyahu won’t curb right-wing Israeli nationalism, says expert ahead of Tuesday’s Knesset elections",
+      "url": "https://euobserver.com/243681/interview-removing-netanyahu-wont-curb-right-wing-israeli-nationalism-says-expert-ahead-of-tuesdays-knesset-elections",
+      "published_at": "2026-10-23T15:22:00Z",
+      "collected_at": "2026-10-25T16:30:51Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "5c43fb2b6eb508848f0aa356",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1964,6 +1971,20 @@
       "url": "https://english.elpais.com/culture/2026-10-17/the-story-of-billy-childish-a-tormented-british-punk-icon-professional-art-kills-art.html",
       "published_at": "2026-10-17T04:00:00Z",
       "collected_at": "2026-10-25T05:30:53Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "cbc0022366ab2272d2a0c2f6",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Steve McQueen, artist: ‘We live in an era dominated by fear; I am interested in love’",
+      "url": "https://english.elpais.com/culture/2026-10-13/steve-mcqueen-artist-we-live-in-an-era-dominated-by-fear-i-am-interested-in-love.html",
+      "published_at": "2026-10-13T14:21:13Z",
+      "collected_at": "2026-10-25T16:30:51Z",
       "topics": [
         "politics",
         "society",
