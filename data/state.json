@@ -254,7 +254,9 @@
     "d6b26fc8d08a175d8eda5032": "2026-10-25T20:01:00Z",
     "374c63e97759b9b760ac5ef1": "2026-10-25T20:01:00Z",
     "891a25535d0f198503477730": "2026-10-25T20:01:00Z",
-    "294233aada0adea9fa85a316": "2026-10-25T20:01:00Z"
+    "294233aada0adea9fa85a316": "2026-10-25T20:01:00Z",
+    "e873ebe8530003d0f4c71b77": "2026-10-25T20:30:52Z",
+    "21fa766e372c5b9584d521c0": "2026-10-25T20:30:52Z"
   },
   "radar": [
     {
@@ -353,6 +355,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "21fa766e372c5b9584d521c0",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Canada and Europe want to reshape the global order. But whose vision will prevail?",
+      "url": "https://www.politico.eu/article/canada-and-europe-want-to-reshape-the-global-order-but-whose-vision-will-prevail",
+      "published_at": "2026-10-25T17:00:00Z",
+      "collected_at": "2026-10-25T20:30:52Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
       ]
     },
     {
@@ -601,6 +617,20 @@
       "url": "https://www.france24.com/en/americas/20261025-live-voting-under-way-across-brazil-in-tight-presidential-run-off-between-lula-and-bolsonaro",
       "published_at": "2026-10-25T12:46:02Z",
       "collected_at": "2026-10-25T15:01:01Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e873ebe8530003d0f4c71b77",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Brazil’s Supreme Court extends the voting hours in the runoff between Lula and Bolsonaro",
+      "url": "https://www.france24.com/en/americas/20261025-live-voting-under-way-across-brazil-in-tight-presidential-run-off-between-lula-and-bolsonaro",
+      "published_at": "2026-10-25T12:46:02Z",
+      "collected_at": "2026-10-25T20:30:52Z",
       "topics": [
         "politics",
         "security",
@@ -2038,14 +2068,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-10-24T17:30:51Z",
-      "title": "Arrest Following Fire at Historical German Site"
-    },
-    {
-      "at": "2026-10-24T18:00:58Z",
-      "title": "Civil Unrest in France"
-    },
-    {
       "at": "2026-10-24T18:00:58Z",
       "title": "Ukraine Network Recovery"
     },
@@ -2356,6 +2378,14 @@
     {
       "at": "2026-10-25T20:01:00Z",
       "title": "Electoral Developments in Serbia"
+    },
+    {
+      "at": "2026-10-25T20:30:52Z",
+      "title": "Marine Le Pen Launches Presidential Campaign"
+    },
+    {
+      "at": "2026-10-25T20:30:52Z",
+      "title": "Investigation Following Paris Suburb Shooting"
     }
   ],
   "alerts": [],
@@ -2363,17 +2393,17 @@
     "europe_now": [
       {
         "title": "Mass Unrest and Arrests Across France",
-        "summary": "More than 1,300 people have been arrested following mass demonstrations and clashes across France. The widespread protests have prompted significant security responses and heightened political tensions.",
+        "summary": "Nationwide demonstrations in France resulted in hundreds of thousands of protesters marching against the government, leading to over 1,300 arrests amid sporadic clashes. Authorities and police responded to widespread unrest across multiple cities as public discontent escalated significantly.",
         "article_ids": [
-          "9cf273cf78bec064f9b9d04c",
+          "74c0934781653ed74cd9ea0b",
           "2d3acfcf9b61d156ff860875"
         ],
         "sources": [
           {
             "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/france/20261025-at-least-1-300-people-arrested-in-mass-weekend-protests-across-france",
-            "headline": "At least 1,300 people arrested in mass weekend protests across France",
-            "published_at": "2026-10-25T11:02:41Z"
+            "url": "https://www.france24.com/en/france-1-314-arrested-during-protests-across-the-country",
+            "headline": "France: 1.314 arrested during protests across the country",
+            "published_at": "2026-10-25T16:32:57Z"
           },
           {
             "publisher": "BBC News Europe",
@@ -2385,43 +2415,8 @@
         "source_count": 2
       },
       {
-        "title": "Starlink Service Restrictions in Ukraine",
-        "summary": "SpaceX restricted satellite connectivity in Ukraine before restoring the service. The temporary disruption has raised concerns regarding critical infrastructure and communications security in the region.",
-        "article_ids": [
-          "2794b6dcadbe794f60a152c1"
-        ],
-        "sources": [
-          {
-            "publisher": "BBC News Europe",
-            "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
-            "headline": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-            "published_at": "2026-10-25T08:15:24Z"
-          }
-        ],
-        "source_count": 1
-      }
-    ],
-    "top_stories": [
-      {
-        "title": "French Presidential Campaign Kick-Off",
-        "summary": "Far-right leader Marine Le Pen officially launched her presidential campaign in Orléans. She is actively attempting to leverage ongoing national unrest and position herself as a primary protector for the country.",
-        "article_ids": [
-          "d6b26fc8d08a175d8eda5032",
-          "2bb8aad3065e8bb06a5e8a69"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/video/20261025-marine-le-pen-launches-presidential-campaign-in-orl%C3%A9ans",
-            "headline": "Marine Le Pen launches presidential campaign in Orléans",
-            "published_at": "2026-10-25T19:45:40Z"
-          }
-        ],
-        "source_count": 1
-      },
-      {
-        "title": "Electoral Developments in Serbia",
-        "summary": "Early reports from ongoing elections in Serbia indicate a record high voter turnout. Citizens are participating in substantial numbers amid heightened regional interest.",
+        "title": "High Turnout Reported in Serbian Elections",
+        "summary": "Early reports from polling stations indicate a record high voter turnout as electoral contests take place in Serbia. Citizens turned out in large numbers to cast their ballots amid heightened regional and political focus.",
         "article_ids": [
           "e479f09dbb7105570df345fd"
         ],
@@ -2435,7 +2430,49 @@
         ],
         "source_count": 1
       }
+    ],
+    "top_stories": [
+      {
+        "title": "Marine Le Pen Launches Presidential Campaign",
+        "summary": "Far-right leader Marine Le Pen officially kicked off her presidential campaign in Orléans. She is seeking to leverage ongoing national unrest and position herself as a primary protector of the country.",
+        "article_ids": [
+          "d6b26fc8d08a175d8eda5032",
+          "a02abfa37bfa3fd39b1c243e"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/video/20261025-marine-le-pen-launches-presidential-campaign-in-orl%C3%A9ans",
+            "headline": "Marine Le Pen launches presidential campaign in Orléans",
+            "published_at": "2026-10-25T19:45:40Z"
+          }
+        ],
+        "source_count": 1
+      },
+      {
+        "title": "Investigation Following Paris Suburb Shooting",
+        "summary": "The suspect involved in a deadly shooting incident in a Paris suburb has been transferred for psychiatric observation. Authorities noted that the individual had drugs in their system at the time of the event.",
+        "article_ids": [
+          "76f557030988b51e9b6ded9c",
+          "8efed22cc5e8f94c12c0d350"
+        ],
+        "sources": [
+          {
+            "publisher": "BBC News Europe",
+            "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
+            "headline": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+            "published_at": "2026-10-25T15:32:51Z"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/france/20261025-suspect-in-racist-gun-attack-near-paris-transferred-to-psychiatric-unit",
+            "headline": "Suspect in racist Paris shooting transferred to psychiatric unit, had drugs in his system",
+            "published_at": "2026-10-25T10:36:42Z"
+          }
+        ],
+        "source_count": 2
+      }
     ]
   },
-  "last_collection_at": "2026-10-25T20:01:00Z"
+  "last_collection_at": "2026-10-25T20:30:52Z"
 }
