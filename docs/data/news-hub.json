@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-25T07:00:57Z",
-  "last_successful_collection_at": "2026-10-25T07:00:57Z",
+  "generated_at": "2026-10-25T07:30:51Z",
+  "last_successful_collection_at": "2026-10-25T07:30:51Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-25T07:00:57Z"
+      "at": "2026-10-25T07:30:51Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-25T07:00:57Z"
+      "at": "2026-10-25T07:30:51Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-25T07:00:57Z"
+      "at": "2026-10-25T07:30:51Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-25T07:00:57Z"
+      "at": "2026-10-25T07:30:51Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-25T07:00:57Z"
+      "at": "2026-10-25T07:30:51Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-10-25T07:00:57Z"
+      "at": "2026-10-25T07:30:51Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-25T07:00:57Z"
+      "at": "2026-10-25T07:30:51Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-25T07:00:57Z"
+      "at": "2026-10-25T07:30:51Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-25T07:00:57Z"
+      "at": "2026-10-25T07:30:51Z"
     }
   ],
   "europe_now": [
     {
-      "title": "France protests and security response",
-      "summary": "Mass protests took place in France, with police deploying thousands of officers. The clashes led to nearly 1,000 arrests during a further day of demonstrations.",
+      "title": "Mass Protests and Clashes Across France",
+      "summary": "France has experienced widespread demonstrations resulting in nearly 1,000 arrests following clashes with security forces. Authorities deployed tens of thousands of police officers nationwide to manage the unrest.",
       "article_ids": [
-        "6ce57111358e5911a824494d"
+        "6ce57111358e5911a824494d",
+        "49334f542e23789e953d134f"
       ],
       "sources": [
         {
@@ -80,17 +81,17 @@
       "source_count": 1
     },
     {
-      "title": "Ukraine Starlink network recovery",
-      "summary": "Ukraine reported that its Starlink service remained stable after limits were applied. The disruption was part of the country's network recovery efforts.",
+      "title": "Parliamentary Elections Underway in Serbia",
+      "summary": "Serbia has initiated its parliamentary elections amidst a prominent student movement challenging the country's populist leadership. The vote comes during a period of heightened domestic political tension.",
       "article_ids": [
-        "3b28bf63ac280fc89a358e6d"
+        "c03dc27468dc54e4a897ade2"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukraine says Starlink connection 'now stable' after network limits",
-          "published_at": "2026-10-24T12:12:40Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261025-serbia-holds-parliamentary-election-as-populist-leader-vucic-faces-student-movement",
+          "headline": "Serbia holds parliamentary election as populist leader Vucic faces student movement",
+          "published_at": "2026-10-25T07:14:50Z"
         }
       ],
       "source_count": 1
@@ -98,10 +99,11 @@
   ],
   "top_stories": [
     {
-      "title": "France protests and security response",
-      "summary": "Mass protests took place in France, with police deploying thousands of officers. The clashes led to nearly 1,000 arrests during a further day of demonstrations.",
+      "title": "Civil Unrest in France",
+      "summary": "Mass protests across French cities have led to nearly 1,000 arrests following clashes with law enforcement. Authorities maintained a heavy security presence nationwide as demonstrations continued.",
       "article_ids": [
-        "6ce57111358e5911a824494d"
+        "6ce57111358e5911a824494d",
+        "4f66f732f1e5aa3ba7abc119"
       ],
       "sources": [
         {
@@ -114,8 +116,24 @@
       "source_count": 1
     },
     {
-      "title": "Ukraine Starlink network recovery",
-      "summary": "Ukraine reported that its Starlink service remained stable after limits were applied. The disruption was part of the country's network recovery efforts.",
+      "title": "Elections in Serbia",
+      "summary": "Serbia has started holding parliamentary elections as the populist leader Vucic faces a growing student movement. The electoral process takes place amidst significant political contestation.",
+      "article_ids": [
+        "c03dc27468dc54e4a897ade2"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261025-serbia-holds-parliamentary-election-as-populist-leader-vucic-faces-student-movement",
+          "headline": "Serbia holds parliamentary election as populist leader Vucic faces student movement",
+          "published_at": "2026-10-25T07:14:50Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Ukraine Satellite Communications",
+      "summary": " Ukrainian officials reported that Starlink connection links have stabilized following previous network limits. The recovery comes as the country's communication infrastructure addresses ongoing challenges.",
       "article_ids": [
         "3b28bf63ac280fc89a358e6d"
       ],
@@ -125,6 +143,22 @@
           "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
           "headline": "Ukraine says Starlink connection 'now stable' after network limits",
           "published_at": "2026-10-24T12:12:40Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Mediterranean Maritime Agreements",
+      "summary": "A new maritime boundary deal between Turkey and Libya has generated diplomatic friction with Greece and the European Union. Regional stakeholders have raised concerns over the implications of the agreement.",
+      "article_ids": [
+        "91c8eda5746abcf3b7ddee10"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/turkey-s-new-deal-on-mediterranean-maritime-boundaries-with-libya-is-exacerbating-issues-with-greece-and-the-eu/a-79745971?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Turkey's new deal on Mediterranean maritime boundaries with Libya is exacerbating issues with Greece and the EU",
+          "published_at": "2026-10-24T14:09:00Z"
         }
       ],
       "source_count": 1
@@ -195,22 +229,36 @@
       ]
     },
     {
-      "label": "cost · Italy · living · Protests",
+      "label": "change · minute · Paris · Protest",
       "origin": "radar",
       "source_count": 1,
       "item_count": 2,
-      "latest_at": "2026-10-24T17:12:54Z",
+      "latest_at": "2026-10-24T13:18:52Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/italy-hit-by-new-cost-of-living-protests",
-          "headline": "Italy hit by new cost of living protests",
-          "published_at": "2026-10-24T17:12:54Z"
+          "url": "https://www.france24.com/en/paris-protest-starts-at-porte-d-italie-after-last-minute-change-to-the-route",
+          "headline": "Paris: Protest starts at Porte d'Italie, after last-minute change to the route",
+          "published_at": "2026-10-24T13:18:52Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "c03dc27468dc54e4a897ade2",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Serbia holds parliamentary election as populist leader Vucic faces student movement",
+      "url": "https://www.france24.com/en/europe/20261025-serbia-holds-parliamentary-election-as-populist-leader-vucic-faces-student-movement",
+      "published_at": "2026-10-25T07:14:50Z",
+      "collected_at": "2026-10-25T07:30:51Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "5ea8751b9ed4076c47df98d9",
       "source_id": "france24",
@@ -1150,20 +1198,6 @@
       ]
     },
     {
-      "id": "7346e5b0821adfe035885b6f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French police deploy in large numbers, major Paris museums close ahead of new protests",
-      "url": "https://www.france24.com/en/france/20261024-french-police-deploy-in-big-numbers-and-paris-shuts-major-museums-ahead-of-new-protests",
-      "published_at": "2026-10-24T05:27:48Z",
-      "collected_at": "2026-10-24T07:00:59Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "822db6ab866bae7106417b05",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1724,6 +1758,20 @@
       ]
     },
     {
+      "id": "83f2bdcca9d3ec0994621729",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Katya Adler: France divided over who to blame for riots and what to learn from them",
+      "url": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-21T06:50:40Z",
+      "collected_at": "2026-10-25T07:30:51Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "4af0ec1b557409985ab3e4e5",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -1861,6 +1909,34 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "b4a9c7291cb79a660cd41099",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Watch: Shops looted and restaurants gutted in Paris riots",
+      "url": "https://www.bbc.co.uk/news/videos/cmn5vey19q3go?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T06:40:35Z",
+      "collected_at": "2026-10-25T07:30:51Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "fad40ae8d56caec53c179c95",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "What Earth's sixth mass extinction event means for humans",
+      "url": "https://www.dw.com/en/what-earth-s-sixth-mass-extinction-event-means-for-humans/a-79680410?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-19T05:48:00Z",
+      "collected_at": "2026-10-25T07:30:51Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
