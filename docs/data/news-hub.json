@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-26T20:01:41Z",
-  "last_successful_collection_at": "2026-10-26T20:01:41Z",
+  "generated_at": "2026-10-26T20:30:55Z",
+  "last_successful_collection_at": "2026-10-26T20:30:55Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-26T20:01:41Z"
+      "at": "2026-10-26T20:30:55Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-10-26T20:01:41Z"
+      "at": "2026-10-26T20:30:55Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-26T20:01:41Z"
+      "at": "2026-10-26T20:30:55Z"
     },
     {
       "id": "euractiv",
@@ -29,68 +29,95 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-26T20:01:41Z"
+      "at": "2026-10-26T20:30:55Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-26T20:01:41Z"
+      "at": "2026-10-26T20:30:55Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "63",
-      "at": "2026-10-26T20:01:41Z"
+      "at": "2026-10-26T20:30:55Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-26T20:01:41Z"
+      "at": "2026-10-26T20:30:55Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-26T20:01:41Z"
+      "at": "2026-10-26T20:30:55Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-26T20:01:41Z"
+      "at": "2026-10-26T20:30:55Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Serbia Student Movement Electoral Victory",
-      "summary": "Serbia's student-led opposition movement has secured a parliamentary majority following a concession from leaders. This outcome establishes a political realignment ahead of upcoming presidential polling.",
+      "title": "Serbian student movement wins parliamentary majority",
+      "summary": "Serbia's student-led opposition movement has secured a parliamentary majority following an election triumph. President Vucic has conceded defeat, setting the stage for a presidential showdown in December.",
       "article_ids": [
+        "2720399ea732482729b491b8",
         "b2d172daacf3389b183b3aff",
         "9a40adb8280254d1020884c9"
       ],
       "sources": [
         {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/serbian-student-movement-eyes-power-after-election-triumph",
+          "headline": "Serbian student movement eyes power after election triumph",
+          "published_at": "2026-10-26T19:48:10Z"
+        },
+        {
           "publisher": "EUobserver",
           "url": "https://euobserver.com/244879/serbias-student-protestors-win-parliamentary-majority-setting-scene-for-showdown-with-vucic-for-decembers-presidential-poll",
           "headline": "Serbia’s student protestors win parliamentary majority – setting scene for showdown with Vučić for December’s presidential poll",
           "published_at": "2026-10-26T14:25:25Z"
-        },
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Serbian Political Realignment",
+      "summary": "Serbia's student-led opposition movement secured a parliamentary majority in a major political shift. The unexpected election outcome sets up a high-stakes presidential showdown scheduled for December.",
+      "article_ids": [
+        "2720399ea732482729b491b8",
+        "b2d172daacf3389b183b3aff"
+      ],
+      "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/serbia-s-vucic-concedes-defeat-to-the-student-led-movement-what-s-next",
-          "headline": "Serbia's Vucic concedes defeat to the student-led movement: What's next?",
-          "published_at": "2026-10-26T14:12:08Z"
+          "url": "https://www.france24.com/en/serbian-student-movement-eyes-power-after-election-triumph",
+          "headline": "Serbian student movement eyes power after election triumph",
+          "published_at": "2026-10-26T19:48:10Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/244879/serbias-student-protestors-win-parliamentary-majority-setting-scene-for-showdown-with-vucic-for-decembers-presidential-poll",
+          "headline": "Serbia’s student protestors win parliamentary majority – setting scene for showdown with Vučić for December’s presidential poll",
+          "published_at": "2026-10-26T14:25:25Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "French Student Demonstrations and Government Response",
-      "summary": "Student unions in France continue their mobilization and protests despite meetings with government officials. The French administration is working to formulate concrete measures to address the ongoing demonstrations.",
+      "title": "French Unrest and Government Response",
+      "summary": "French student union leaders have called for continued mobilization following discussions with the prime minister. President Macron has ruled out implementing a state of emergency while promising concrete measures to address protesters' demands.",
       "article_ids": [
         "835b8e8dde12751603f3bba9",
+        "ba7aeedde67b8cb44dd23483",
         "528f79755432bf21e4284bbe"
       ],
       "sources": [
@@ -102,47 +129,12 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261026-french-president-promises-concrete-measures-in-response-to-french-students-demands",
-          "headline": "Macron promises 'concrete measures' in response to French students' demands",
-          "published_at": "2026-10-26T14:39:15Z"
+          "url": "https://www.france24.com/en/video/20261026-france-protests-macron-rules-out-state-of-emergency-%E2%80%93-for-now",
+          "headline": "France protests: Macron rules out state of emergency – for now",
+          "published_at": "2026-10-26T16:16:44Z"
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "European Security and Defense Warnings",
-      "summary": "European defense ministers have publicly warned that leadership in Moscow is not genuinely seeking peace. Meanwhile, regional officials continue to evaluate the broader security implications for the continent.",
-      "article_ids": [
-        "a507c7b5197590aa6ca34fe7"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/european-defense-ministers-warn-putin-isnt-looking-for-peace",
-          "headline": "European defense ministers warn Putin isn’t looking for peace",
-          "published_at": "2026-10-26T19:25:52Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "European Union Institutional Shifts",
-      "summary": "Administrative changes within the European Commission are moving closer to implementation under the leadership of Ursula von der Leyen. Observers note that these institutional developments coincide with rising political polarization across member states.",
-      "article_ids": [
-        "0be5a513a7830b095a918f7f",
-        "c2325fbddbc6554e98998ead"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/ursula-von-der-leyen-big-eu-commission-shake-up-moves-a-step-closer",
-          "headline": "Von der Leyen’s big Commission shake-up moves a step closer",
-          "published_at": "2026-10-26T13:56:29Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "developing": [
@@ -195,27 +187,6 @@
       ]
     },
     {
-      "label": "defeat · election · Vucic · Belgrade",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-10-26T13:19:40Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261026-belgrade-in-rapture-as-serbian-students-topple-vucic-in-historic-election",
-          "headline": "Belgrade in rapture as Serbian students topple Vucic in historic election",
-          "published_at": "2026-10-26T13:19:40Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/c8x23x1yn6w6o?at_medium=RSS&at_campaign=rss",
-          "headline": "Joy and disbelief on Serbian streets as Vučić concedes election defeat",
-          "published_at": "2026-10-25T22:59:00Z"
-        }
-      ]
-    },
-    {
       "label": "Lula · victory",
       "origin": "convergence",
       "source_count": 2,
@@ -235,9 +206,44 @@
           "published_at": "2026-10-26T08:41:47Z"
         }
       ]
+    },
+    {
+      "label": "Canada · EU",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-10-26T05:05:00Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/its-complicated-the-status-of-eu-canada-relations",
+          "headline": "It’s complicated: The status of EU-Canada relations",
+          "published_at": "2026-10-26T05:05:00Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/244625/this-week-the-eus-new-canada-offer-cash-for-farmers-and-trumps-diesel-deal",
+          "headline": "THIS WEEK: the EU’s new Canada offer, cash for farmers and Russia’s Lavrov returns to G20?",
+          "published_at": "2026-10-26T05:00:00Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "2720399ea732482729b491b8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Serbian student movement eyes power after election triumph",
+      "url": "https://www.france24.com/en/serbian-student-movement-eyes-power-after-election-triumph",
+      "published_at": "2026-10-26T19:48:10Z",
+      "collected_at": "2026-10-26T20:30:55Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "9eded4c5369973a48f0c609d",
       "source_id": "el_pais_english",
@@ -582,6 +588,20 @@
       "url": "https://www.france24.com/en/middle-east/20261026-jordan-arrests-three-following-deadly-terror-attack-on-church",
       "published_at": "2026-10-26T15:12:52Z",
       "collected_at": "2026-10-26T15:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "705cbe6f38f68bfe6a3cd78a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Jordan arrests three following deadly church terror attack; retaliates with strikes on Syria",
+      "url": "https://www.france24.com/en/middle-east/20261026-jordan-arrests-three-following-deadly-terror-attack-on-church",
+      "published_at": "2026-10-26T15:12:52Z",
+      "collected_at": "2026-10-26T20:30:55Z",
       "topics": [
         "politics",
         "security",
@@ -1905,20 +1925,6 @@
       ]
     },
     {
-      "id": "21fa766e372c5b9584d521c0",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Canada and Europe want to reshape the global order. But whose vision will prevail?",
-      "url": "https://www.politico.eu/article/canada-and-europe-want-to-reshape-the-global-order-but-whose-vision-will-prevail",
-      "published_at": "2026-10-25T17:00:00Z",
-      "collected_at": "2026-10-25T20:30:52Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "01e20ca3a14c64d49a05ca49",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1929,20 +1935,6 @@
       "topics": [
         "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "e873ebe8530003d0f4c71b77",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Brazil’s Supreme Court extends the voting hours in the runoff between Lula and Bolsonaro",
-      "url": "https://www.france24.com/en/americas/20261025-live-voting-under-way-across-brazil-in-tight-presidential-run-off-between-lula-and-bolsonaro",
-      "published_at": "2026-10-25T12:46:02Z",
-      "collected_at": "2026-10-25T20:30:52Z",
-      "topics": [
-        "politics",
-        "security",
         "society"
       ]
     },
