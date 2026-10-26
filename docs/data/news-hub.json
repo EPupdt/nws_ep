@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-26T05:01:01Z",
-  "last_successful_collection_at": "2026-10-26T05:01:01Z",
+  "generated_at": "2026-10-26T05:30:55Z",
+  "last_successful_collection_at": "2026-10-26T05:30:55Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-26T05:01:01Z"
+      "at": "2026-10-26T05:30:55Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-10-26T05:01:01Z"
+      "at": "2026-10-26T05:30:55Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-26T05:01:01Z"
+      "at": "2026-10-26T05:30:55Z"
     },
     {
       "id": "euractiv",
@@ -29,71 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-26T05:01:01Z"
+      "at": "2026-10-26T05:30:55Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-26T05:01:01Z"
+      "at": "2026-10-26T05:30:55Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-10-26T05:01:01Z"
+      "at": "2026-10-26T05:30:55Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-26T05:01:01Z"
+      "at": "2026-10-26T05:30:55Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-26T05:01:01Z"
+      "at": "2026-10-26T05:30:55Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-26T05:01:01Z"
+      "at": "2026-10-26T05:30:55Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Mass Protests and Unrest across French Cities",
-      "summary": "France has experienced widespread demonstrations resulting in over a thousand arrests and significant security deployments in major cities. Far-right leader Marine Le Pen launched her presidential campaign by attempting to leverage the ongoing unrest.",
-      "article_ids": [
-        "74c0934781653ed74cd9ea0b",
-        "bb771d1316476b4ba4b4688d",
-        "a02abfa37bfa3fd39b1c243e"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-1-314-arrested-during-protests-across-the-country",
-          "headline": "France: 1.314 arrested during protests across the country",
-          "published_at": "2026-10-25T16:32:57Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/france-hundreds-arrested-after-nationwide-protests/live-79748223?maca=en-rss-en-eu-2092-rdf",
-          "headline": "France: Hundreds arrested after nationwide protests",
-          "published_at": "2026-10-25T12:05:00Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Historic Electoral Defeat in Serbia",
-      "summary": "Longtime Serbian leader Aleksandar Vučić has conceded defeat following snap parliamentary elections marked by record-high voter turnout. The outcome followed intense public mobilization and student-led protest movements in the country.",
+      "title": "Serbia Election Concession",
+      "summary": "Longtime ruler Aleksandar Vučić has conceded defeat following a parliamentary election characterized by record turnout and widespread student-led protests.",
       "article_ids": [
         "b9b0d8e4d8d97f73d43ff0f2",
-        "2bf186f319a855f76646cbe4",
-        "c6b54a5c1b4dff53cded1062"
+        "2bf186f319a855f76646cbe4"
       ],
       "sources": [
         {
@@ -110,16 +85,38 @@
         }
       ],
       "source_count": 2
+    },
+    {
+      "title": "France Nationwide Protests and Arrests",
+      "summary": "French authorities reported over 1,300 arrests following widespread nationwide demonstrations and civil unrest that heavily affected major cities.",
+      "article_ids": [
+        "74c0934781653ed74cd9ea0b",
+        "bb771d1316476b4ba4b4688d"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-1-314-arrested-during-protests-across-the-country",
+          "headline": "France: 1.314 arrested during protests across the country",
+          "published_at": "2026-10-25T16:32:57Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/france-hundreds-arrested-after-nationwide-protests/live-79748223?maca=en-rss-en-eu-2092-rdf",
+          "headline": "France: Hundreds arrested after nationwide protests",
+          "published_at": "2026-10-25T12:05:00Z"
+        }
+      ],
+      "source_count": 2
     }
   ],
   "top_stories": [
     {
       "title": "French Presidential Campaign Developments",
-      "summary": "Far-right leader Marine Le Pen officially initiated her presidential bid in Orléans while positioning herself as a national protector amid ongoing civil unrest. Meanwhile, recent polling figures indicated a shift in candidate standing among prospective voters.",
+      "summary": "Far-right leader Marine Le Pen officially launched her presidential campaign in Orléans, seeking to capitalize on recent domestic unrest. Meanwhile, fresh polling data indicated a decline in support for rival candidate Édouard Philippe.",
       "article_ids": [
         "8846eed2e1890291f3d5b605",
-        "d6b26fc8d08a175d8eda5032",
-        "2bb8aad3065e8bb06a5e8a69"
+        "d6b26fc8d08a175d8eda5032"
       ],
       "sources": [
         {
@@ -139,11 +136,10 @@
     },
     {
       "title": "Political Transition in Serbia",
-      "summary": "Serbia experienced a historic political shift as high voter turnout characterized snap parliamentary contests. The prolonged political era concluded as the incumbent ruler formally acknowledged defeat in response to popular demonstrations.",
+      "summary": "Aleksandar Vučić conceded defeat in a historic snap election following strong mobilization by a student-led protest movement. The peaceful transition in Serbia stood in sharp contrast to ongoing civil unrest observed in other European nations.",
       "article_ids": [
         "b9b0d8e4d8d97f73d43ff0f2",
-        "2bf186f319a855f76646cbe4",
-        "e479f09dbb7105570df345fd"
+        "a74834d9f52848377867eed8"
       ],
       "sources": [
         {
@@ -153,10 +149,10 @@
           "published_at": "2026-10-26T01:07:05Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261025-serbia-s-vucic-concedes-defeat-in-historic-snap-election-with-record-turnout",
-          "headline": "Serbia's Vucic concedes defeat in historic snap election with record turnout",
-          "published_at": "2026-10-25T21:24:42Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/244833/peaceful-demise-of-vucic-in-serbia-stands-in-contrast-to-second-weekend-of-riots-in-french-cities",
+          "headline": "Peaceful demise of Vučić in Serbia stands in contrast to second weekend of riots in French cities",
+          "published_at": "2026-10-25T21:41:20Z"
         }
       ],
       "source_count": 2
@@ -181,6 +177,27 @@
           "url": "https://www.france24.com/en/france/20261025-suspect-in-racist-gun-attack-near-paris-transferred-to-psychiatric-unit",
           "headline": "Suspect in racist gun attack near Paris transferred to psychiatric unit",
           "published_at": "2026-10-25T10:36:42Z"
+        }
+      ]
+    },
+    {
+      "label": "Canada · EU",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-10-26T05:05:00Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/its-complicated-the-status-of-eu-canada-relations",
+          "headline": "It’s complicated: The status of EU-Canada relations",
+          "published_at": "2026-10-26T05:05:00Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/244625/this-week-the-eus-new-canada-offer-cash-for-farmers-and-trumps-diesel-deal",
+          "headline": "THIS WEEK: the EU’s new Canada offer, cash for farmers and Russia’s Lavrov returns to G20?",
+          "published_at": "2026-10-26T05:00:00Z"
         }
       ]
     },
@@ -225,24 +242,37 @@
           "published_at": "2026-10-25T09:00:00Z"
         }
       ]
-    },
-    {
-      "label": "campaign · France · presidential",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 3,
-      "latest_at": "2026-10-25T17:12:50Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-le-pen-seeks-to-leverage-unrest-in-presidential-campaign-kick-off",
-          "headline": "France: Le Pen seeks to leverage unrest in presidential campaign kick-off",
-          "published_at": "2026-10-25T17:12:50Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "d772401154e162a632232251",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "It’s complicated: The status of EU-Canada relations",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/its-complicated-the-status-of-eu-canada-relations",
+      "published_at": "2026-10-26T05:05:00Z",
+      "collected_at": "2026-10-26T05:30:55Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "45af523dc919db9c0b2a7918",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "THIS WEEK: the EU’s new Canada offer, cash for farmers and Russia’s Lavrov returns to G20?",
+      "url": "https://euobserver.com/244625/this-week-the-eus-new-canada-offer-cash-for-farmers-and-trumps-diesel-deal",
+      "published_at": "2026-10-26T05:00:00Z",
+      "collected_at": "2026-10-26T05:30:55Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "97133bbed67ff63e952bf259",
       "source_id": "politico_europe",
@@ -1630,20 +1660,6 @@
       ]
     },
     {
-      "id": "24cfbcf12ddf40731fc3b900",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "[EXCLUSIVE] Leaked WhatsApps between ex-EU commissioner Reynders and senior Belgian spy reveal attempts to bury allegations of his possible Russia ties",
-      "url": "https://euobserver.com/243287/exclusive-leaked-whatsapps-between-ex-eu-commissioner-reynders-and-senior-belgian-spy-reveal-attempts-to-bury-allegations-of-his-possible-russia-ties",
-      "published_at": "2026-10-23T05:00:00Z",
-      "collected_at": "2026-10-25T05:30:53Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "04e5ca656b81f48fcc2792c7",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2036,41 +2052,13 @@
       ]
     },
     {
-      "id": "0b4fc95b9d4a5eff955d0eda",
+      "id": "1ee179661c5a3ab75a11eee9",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "Thomas Piketty: 'The future billionaires are preparing for us is dystopian'",
-      "url": "https://english.elpais.com/economy-and-business/2026-10-17/thomas-piketty-the-future-billionaires-are-preparing-for-us-is-dystopian.html",
-      "published_at": "2026-10-17T04:00:00Z",
-      "collected_at": "2026-10-25T05:30:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "c3232ab459b5dd62a7e0be73",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Mediums, horoscopes, tarot... how much does modern mysticism have to do with neoliberal individualism?",
-      "url": "https://english.elpais.com/lifestyle/2026-10-17/mediums-horoscopes-tarot-how-much-does-modern-mysticism-have-to-do-with-neoliberal-individualism.html",
-      "published_at": "2026-10-17T04:00:00Z",
-      "collected_at": "2026-10-25T05:30:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "433992979e2f8ae7b4798274",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The story of Billy Childish, a tormented British punk icon: ‘Professional art kills art’",
-      "url": "https://english.elpais.com/culture/2026-10-17/the-story-of-billy-childish-a-tormented-british-punk-icon-professional-art-kills-art.html",
-      "published_at": "2026-10-17T04:00:00Z",
-      "collected_at": "2026-10-25T05:30:53Z",
+      "title": "Monica Barbaro: The dancer who quietly became a Hollywood star",
+      "url": "https://english.elpais.com/people/2026-10-18/monica-barbaro-the-dancer-who-quietly-became-a-hollywood-star.html",
+      "published_at": "2026-10-18T04:00:00Z",
+      "collected_at": "2026-10-26T05:30:55Z",
       "topics": [
         "politics",
         "society",
@@ -2099,20 +2087,6 @@
       "url": "https://english.elpais.com/culture/2026-10-13/steve-mcqueen-artist-we-live-in-an-era-dominated-by-fear-i-am-interested-in-love.html",
       "published_at": "2026-10-13T14:21:13Z",
       "collected_at": "2026-10-25T16:30:51Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "7a4cfe11a4669b64e2e4e81c",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Students recruited via Telegram, amateur saboteurs and hitmen: How Russia outsources its operations in Europe",
-      "url": "https://english.elpais.com/international/2026-10-11/students-recruited-via-telegram-amateur-saboteurs-and-hitmen-how-russia-outsources-its-operations-in-europe.html",
-      "published_at": "2026-10-11T04:00:00Z",
-      "collected_at": "2026-10-25T05:30:53Z",
       "topics": [
         "politics",
         "society",
