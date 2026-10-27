@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-27T12:01:05Z",
-  "last_successful_collection_at": "2026-10-27T12:01:05Z",
+  "generated_at": "2026-10-27T12:30:57Z",
+  "last_successful_collection_at": "2026-10-27T12:30:57Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-27T12:01:05Z"
+      "at": "2026-10-27T12:30:57Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-10-27T12:01:05Z"
+      "at": "2026-10-27T12:30:57Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-27T12:01:05Z"
+      "at": "2026-10-27T12:30:57Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,45 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-27T12:01:05Z"
+      "at": "2026-10-27T12:30:57Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-27T12:01:05Z"
+      "at": "2026-10-27T12:30:57Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "63",
-      "at": "2026-10-27T12:01:05Z"
+      "at": "2026-10-27T12:30:57Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-27T12:01:05Z"
+      "at": "2026-10-27T12:30:57Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-27T12:01:05Z"
+      "at": "2026-10-27T12:30:57Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-27T12:01:05Z"
+      "at": "2026-10-27T12:30:57Z"
     }
   ],
-  "europe_now": [],
-  "top_stories": [
+  "europe_now": [
     {
-      "title": "French Policy and Labor Developments",
-      "summary": "French members of parliament are scheduled to vote on a new amnesty plan concerning undocumented workers. Meanwhile, student union leaders have pledged to continue their mobilization following recent government concessions and ongoing protests.",
+      "title": "French MPs Consider Undocumented Workers Amnesty Plan",
+      "summary": "French members of parliament are scheduled to vote on a new Sánchez-style amnesty initiative concerning undocumented workers. The policy proposal has drawn significant attention across domestic political circles.",
       "article_ids": [
-        "a1fff164819a58987082e2f3",
-        "23ba75241d8cc05e2c8a8d9f"
+        "a1fff164819a58987082e2f3"
       ],
       "sources": [
         {
@@ -77,22 +75,16 @@
           "url": "https://www.politico.eu/article/france-vote-amnesty-plan-undocumented-workers",
           "headline": "French MPs will vote on Sánchez-style amnesty plan for undocumented workers",
           "published_at": "2026-10-27T11:46:57Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261027-french-protests-student-union-leaders-vow-to-keep-mobilising",
-          "headline": "French protests: Student union leaders vow to keep mobilising",
-          "published_at": "2026-10-27T11:18:22Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "International Relations and Regional Dialogues",
-      "summary": "The leaders of Finland and Norway have engaged in direct diplomatic discussions with Russian President Vladimir Putin. Concurrently, farming ministers across the European Union have agreed to grant member states more national control over specific agricultural funds as part of ongoing reforms.",
+      "title": "Nordic Leaders Hold Direct Discussions with Putin",
+      "summary": "The leaders of Finland and Norway have engaged in direct talks with Russian President Vladimir Putin. The high-level diplomatic contact addresses regional security and ongoing geopolitical tensions.",
       "article_ids": [
         "f98e4996b70f313f89e6669b",
-        "302ef99c2b334d9e48728be4"
+        "cadf01ae421f5145aef4dfcf"
       ],
       "sources": [
         {
@@ -102,43 +94,65 @@
           "published_at": "2026-10-27T09:59:14Z"
         },
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/245084/farming-ministers-agree-on-more-national-control-of-eu-funds-as-part-of-cap-reforms",
-          "headline": "Farming ministers agree on more national control of EU funds as part of CAP reforms",
-          "published_at": "2026-10-27T11:02:21Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/leader-finland-alexander-stubb-and-norway-jonas-gahr-store-talk-to-russia-vladimir-putin",
+          "headline": "Leaders of Finland and Norway hold direct talks with Putin",
+          "published_at": "2026-10-27T09:59:14Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "French Government Concessions and Student Unrest",
+      "summary": "French authorities have introduced recent concessions directed at student groups amid ongoing demonstrations. Student union leaders have nevertheless vowed to continue their mobilization efforts despite the government response.",
+      "article_ids": [
+        "9df4a1a5fa5271fa2a958eb6",
+        "23ba75241d8cc05e2c8a8d9f"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/french-government-concessions-to-students-tactically-shrewd-but-risk-creating-new-set-of-problems",
+          "headline": "French government concessions to students 'tactically shrewd' but risk creating new set of problems",
+          "published_at": "2026-10-27T11:35:23Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261027-french-protests-student-union-leaders-vow-to-keep-mobilising",
+          "headline": "French protests: Student union leaders vow to keep mobilising",
+          "published_at": "2026-10-27T11:18:22Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Kylian Mbappé Backlash and Brand Fallout",
+      "summary": "Kylian Mbappé faced widespread criticism and was dropped by multiple major Chinese brands following a controversial remark regarding Mao. The player subsequently issued an apology for the ill-judged comment.",
+      "article_ids": [
+        "a19ef168b6763f67393d31bf",
+        "73be754b6a096c5e0c4b0856",
+        "c8da7266363279988acf06e4"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
+          "headline": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
+          "published_at": "2026-10-27T12:02:20Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/kylian-mbappe-dropped-by-chinese-brands-over-dictator-comment",
+          "headline": "Mbappé apologizes after being dropped by Chinese brands over ‘dictator’ comment",
+          "published_at": "2026-10-27T10:38:15Z"
         }
       ],
       "source_count": 2
     }
   ],
   "developing": [
-    {
-      "label": "Mbappé · brands · Chinese · joke",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 7,
-      "latest_at": "2026-10-27T10:38:15Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/kylian-mbappe-dropped-by-chinese-brands-over-dictator-comment",
-          "headline": "Kylian Mbappé dropped by Chinese brands over ‘dictator’ comment",
-          "published_at": "2026-10-27T10:38:15Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
-          "headline": "Mbappé dropped by major Chinese brands drop as backlash grows over Mao joke",
-          "published_at": "2026-10-27T10:19:13Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/sports/20261027-harry-kane-wins-ballon-d-or-with-kylian-mbapp%C3%A9-in-second-ahead-of-lamine-yamal",
-          "headline": "Harry Kane wins Ballon d’Or, with Kylian Mbappé in second ahead of Lamine Yamal",
-          "published_at": "2026-10-27T08:17:08Z"
-        }
-      ]
-    },
     {
       "label": "Bolsonaro · Brazil · Lula · Comeback",
       "origin": "convergence",
@@ -167,31 +181,10 @@
       ]
     },
     {
-      "label": "French · Student · PM · protests",
+      "label": "election · Israeli · open · Polls",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 12,
-      "latest_at": "2026-10-27T11:35:23Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/french-government-concessions-to-students-tactically-shrewd-but-risk-creating-new-set-of-problems",
-          "headline": "French government concessions to students 'tactically shrewd' but risk creating new set of problems",
-          "published_at": "2026-10-27T11:35:23Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/government-concessions-fail-to-convince-french-students-to-stop-protests",
-          "headline": "French government fails to convince students to stop protests",
-          "published_at": "2026-10-26T19:02:22Z"
-        }
-      ]
-    },
-    {
-      "label": "election · Israeli · Arab · open",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 7,
+      "item_count": 6,
       "latest_at": "2026-10-27T11:14:33Z",
       "sources": [
         {
@@ -207,9 +200,93 @@
           "published_at": "2026-10-27T09:28:13Z"
         }
       ]
+    },
+    {
+      "label": "Serbia · student · December · majority",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-10-27T08:22:00Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20261027-they-should-be-afraid-serbia-s-student-led-victory-over-vu%C4%8Di%C4%87-sends-warning-to-corrupt-leaders",
+          "headline": "'They should be afraid': Serbia's student-led victory over Vučić sends warning to 'corrupt' leaders",
+          "published_at": "2026-10-27T08:22:00Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/244879/serbias-student-protestors-win-parliamentary-majority-setting-scene-for-showdown-with-vucic-for-decembers-presidential-poll",
+          "headline": "Serbia’s student protestors win parliamentary majority – setting scene for showdown with Vučić for December’s presidential poll",
+          "published_at": "2026-10-26T14:25:25Z"
+        }
+      ]
+    },
+    {
+      "label": "East · election · Middle · Netanyahu",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-10-27T09:21:44Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-10-27/netanyahus-future-hangs-in-the-balance-in-a-decisive-election-for-the-entire-middle-east.html",
+          "headline": "Netanyahu’s future hangs in the balance in a decisive election for the entire Middle East",
+          "published_at": "2026-10-27T09:21:44Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
+          "headline": "Mecca pact nations hold talks with Iran to prevent renewed Middle East war",
+          "published_at": "2026-10-26T23:24:17Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "1db045840dbd605f6ca87353",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'Get the Flock out': Americans respond to AI cameras in bipartisan backlash",
+      "url": "https://www.france24.com/en/americas/20261027-united-states-get-the-flock-out-americans-respond-to-ai-cameras-in-bipartisan-backlash-midterm-elections",
+      "published_at": "2026-10-27T12:26:54Z",
+      "collected_at": "2026-10-27T12:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "d9f49c2bd68ca7c81161a515",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ballon d’Or winner Harry Kane delivers emotional acceptance speech",
+      "url": "https://www.france24.com/en/ballon-d-or-winner-harry-kane-delivers-emotional-acceptance-speech",
+      "published_at": "2026-10-27T12:20:50Z",
+      "collected_at": "2026-10-27T12:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a19ef168b6763f67393d31bf",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
+      "url": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-27T12:02:20Z",
+      "collected_at": "2026-10-27T12:30:57Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "9cba8c8b2ac04eaa9c3be2d1",
       "source_id": "france24",
@@ -512,6 +589,20 @@
       "url": "https://www.politico.eu/article/kylian-mbappe-dropped-by-chinese-brands-over-dictator-comment",
       "published_at": "2026-10-27T10:38:15Z",
       "collected_at": "2026-10-27T11:01:14Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "73be754b6a096c5e0c4b0856",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Mbappé apologizes after being dropped by Chinese brands over ‘dictator’ comment",
+      "url": "https://www.politico.eu/article/kylian-mbappe-dropped-by-chinese-brands-over-dictator-comment",
+      "published_at": "2026-10-27T10:38:15Z",
+      "collected_at": "2026-10-27T12:30:57Z",
       "topics": [
         "institutions",
         "politics",
@@ -2157,118 +2248,6 @@
       ]
     },
     {
-      "id": "8c7e2540df039371abb43c72",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Lula beats Bolsonaro in Brazil runoff: What does it mean for Donald Trump?",
-      "url": "https://www.france24.com/en/video/20261026-lula-beats-bolsonaro-in-brazil-runoff-what-does-it-mean-for-donald-trump",
-      "published_at": "2026-10-26T11:50:55Z",
-      "collected_at": "2026-10-26T12:01:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "eabad92cca1b0f7e478af503",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Liz Truss claims Brits would be on Mars by 2040 if she hadn’t been ousted",
-      "url": "https://www.politico.eu/article/liz-truss-claims-brits-would-be-on-mars-by-2040-if-she-hadnt-been-ousted",
-      "published_at": "2026-10-26T11:49:49Z",
-      "collected_at": "2026-10-26T12:01:07Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "e747ff75dd77546f2bc996f4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US midterms: Trump's gains among Latino voters in Texas at risk",
-      "url": "https://www.france24.com/en/video/20261026-us-midterms-trump-s-gains-among-latino-voters-in-texas-at-risk",
-      "published_at": "2026-10-26T11:42:21Z",
-      "collected_at": "2026-10-26T12:01:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "3f58a5ec2615d83cad063839",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Israeli election seen as a referendum: For or against Netanyahu?",
-      "url": "https://www.france24.com/en/tv-shows/focus/20261026-israeli-election-seen-as-a-referendum-for-or-against-netanyahu",
-      "published_at": "2026-10-26T11:40:25Z",
-      "collected_at": "2026-10-26T12:01:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "3ad135c103c6504420807172",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "How Trump could challenge or undermine the midterm election results",
-      "url": "https://english.elpais.com/usa/2026-10-26/how-trump-could-challenge-or-undermine-the-midterm-election-results.html",
-      "published_at": "2026-10-26T11:37:30Z",
-      "collected_at": "2026-10-26T12:01:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "106789dd00f8aabf5ab451fa",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Czech government approves first step to scrapping TV and radio licence fees in 4.36am vote, sparking protests",
-      "url": "https://euobserver.com/244873/czech-government-approves-first-step-to-scrapping-tv-and-radio-licence-fees-in-4-36am-vote-sparking-protests",
-      "published_at": "2026-10-26T11:29:49Z",
-      "collected_at": "2026-10-26T12:01:07Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "758538f855392cbc876c27ea",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The story of baby Poppy: From surrogate birth to youngest victim of Los Angeles’ ‘house of horrors’",
-      "url": "https://english.elpais.com/usa/2026-10-26/the-story-of-baby-poppy-from-surrogate-birth-to-youngest-victim-of-los-angeles-house-of-horrors.html",
-      "published_at": "2026-10-26T10:12:31Z",
-      "collected_at": "2026-10-26T12:01:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "daa32e96b777042d0ce020d3",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Lula pulls off a historic comeback in Brazil and leads the left to victory over Flávio Bolsonaro",
-      "url": "https://english.elpais.com/international/2026-10-26/lula-pulls-off-a-historic-comeback-in-brazil-and-leads-the-left-to-victory-over-jair-bolsonaro.html",
-      "published_at": "2026-10-26T07:12:49Z",
-      "collected_at": "2026-10-26T12:01:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "95b92798cdf25a52ea83225e",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2476,6 +2455,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "8220a451abfe60d54cfe372c",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Serbia: Hope, tension and apprehension as voters prepare to elect new parliament",
+      "url": "https://www.dw.com/en/serbia-hope-tension-and-apprehension-as-voters-prepare-to-elect-new-parliament/a-79738102?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-23T11:43:00Z",
+      "collected_at": "2026-10-27T12:30:57Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
