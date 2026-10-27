@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-27T04:30:48Z",
-  "last_successful_collection_at": "2026-10-27T04:30:48Z",
+  "generated_at": "2026-10-27T05:01:00Z",
+  "last_successful_collection_at": "2026-10-27T05:01:00Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-27T04:30:48Z"
+      "at": "2026-10-27T05:01:00Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-10-27T04:30:48Z"
+      "at": "2026-10-27T05:01:00Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-27T04:30:48Z"
+      "at": "2026-10-27T05:01:00Z"
     },
     {
       "id": "euractiv",
@@ -29,48 +29,54 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-27T04:30:48Z"
+      "at": "2026-10-27T05:01:00Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-27T04:30:48Z"
+      "at": "2026-10-27T05:01:00Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "63",
-      "at": "2026-10-27T04:30:48Z"
+      "at": "2026-10-27T05:01:00Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-27T04:30:48Z"
+      "at": "2026-10-27T05:01:00Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-27T04:30:48Z"
+      "at": "2026-10-27T05:01:00Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-27T04:30:48Z"
+      "at": "2026-10-27T05:01:00Z"
     }
   ],
   "europe_now": [
     {
-      "title": "European Defense and Security Warnings",
-      "summary": "European defense ministers have issued warnings regarding regional stability and security concerns involving Russia. Major NATO powers have also pledged to enhance their defense responsibilities while reaffirming their alliance with the United States.",
+      "title": "European Defense Warnings and NATO Commitment",
+      "summary": "European defense ministers and officials have warned that Russia is not seeking peace, prompting major NATO powers to pledge a greater regional defense responsibility while reaffirming their alliance with the United States.",
       "article_ids": [
         "a507c7b5197590aa6ca34fe7",
         "86aaf0d550bc8108d615e4c9"
       ],
       "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/european-defense-ministers-warn-putin-isnt-looking-for-peace",
+          "headline": "European defense ministers warn Putin isn’t looking for peace",
+          "published_at": "2026-10-26T19:25:52Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20261026-europe-nato-defence-responsibility-us-alliance",
@@ -78,14 +84,14 @@
           "published_at": "2026-10-26T23:33:06Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "French Unrest and Government Response",
-      "summary": "Ongoing student protests and civil unrest in France have continued despite government concessions and meetings between officials and student union leaders. The French government faces continuous pressure as leaders rule out a state of emergency for now.",
+      "title": "French Student Unrest and Government Response",
+      "summary": "French student union leaders have called for ongoing mobilization and protests after government concessions failed to halt demonstrations, though President Macron has ruled out implementing a state of emergency for now.",
       "article_ids": [
         "835b8e8dde12751603f3bba9",
-        "13c7651ce34da7cf4c72c09c"
+        "ba7aeedde67b8cb44dd23483"
       ],
       "sources": [
         {
@@ -96,9 +102,9 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261026-french-student-union-leaders-call-for-continued-mobilisation-after-meeting-pm",
-          "headline": "French student union leaders call for 'continued mobilisation' after meeting PM",
-          "published_at": "2026-10-26T17:37:05Z"
+          "url": "https://www.france24.com/en/video/20261026-france-protests-macron-rules-out-state-of-emergency-%E2%80%93-for-now",
+          "headline": "France protests: Macron rules out state of emergency – for now",
+          "published_at": "2026-10-26T16:16:44Z"
         }
       ],
       "source_count": 2
@@ -107,7 +113,7 @@
   "top_stories": [
     {
       "title": "US-EU Trade Relations",
-      "summary": "A US trade official warned that a critical trade truce between the United States and the European Union is currently at risk over a multi-billion dollar Airbus loan dispute. Both sides continue to monitor economic policies closely as regulatory pressures mount.",
+      "summary": "A United States official warned that the current trade truce with the European Union is being put at risk by a multibillion-dollar Airbus loan. This dispute highlights ongoing transatlantic commercial tensions.",
       "article_ids": [
         "93c28acb0345bf7bde342325"
       ],
@@ -122,8 +128,8 @@
       "source_count": 1
     },
     {
-      "title": "European Union Border Policy Overhaul",
-      "summary": "Frontex is set to receive new legislative powers allowing for deportations beyond European Union borders in the latest institutional overhaul. This regulatory shift aims to strengthen enforcement capabilities across member states.",
+      "title": "European Union Border Policy",
+      "summary": "Frontex is preparing to receive new powers that will allow the agency to carry out deportations beyond European Union borders. This overhaul represents the latest major shift in regional migration management.",
       "article_ids": [
         "f9ac7a6116d8a1b2298210cd"
       ],
@@ -1948,76 +1954,6 @@
       ]
     },
     {
-      "id": "97133bbed67ff63e952bf259",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Putins Schattenflotte: Warum greift Deutschland nicht durch?",
-      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/putins-schattenflotte-warum-greift-deutschland-nicht-durch",
-      "published_at": "2026-10-26T04:15:00Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "8846eed2e1890291f3d5b605",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "French presidential hopeful Philippe slips in new poll",
-      "url": "https://www.politico.eu/article/french-presidential-candidate-edouard-philippe-slipping-in-new-poll",
-      "published_at": "2026-10-26T03:00:00Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "49357a7bd140b8c89de692dc",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "4 reasons Andy Burnham’s MPs are feeling more cheerful — and the pitfalls ahead",
-      "url": "https://www.politico.eu/article/4-reasons-andy-burnham-mps-feeling-more-cheerful-plus-pitfalls-ahead",
-      "published_at": "2026-10-26T03:00:00Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "03c94515728299ba125c4e1b",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "SONDAGE EXCLUSIF 2027. La chute de Philippe, relégué derrière Mélenchon",
-      "url": "https://www.politico.eu/article/sondage-exclusif-2027-la-chute-de-philippe-relegue-derriere-melenchon",
-      "published_at": "2026-10-26T03:00:00Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "6dd4bfbd70a261bd2a6bfe19",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 Live: Bolsonaro refuses to recognise Brazil election results",
-      "url": "https://www.france24.com/en/americas/20261025-live-voting-under-way-across-brazil-in-tight-presidential-run-off-between-lula-and-bolsonaro",
-      "published_at": "2026-10-26T02:01:30Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "4e8ecfabf608aab7b42dfd28",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2025,20 +1961,6 @@
       "url": "https://www.bbc.co.uk/sport/formula1/articles/c6wyvnlx0erxo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-26T01:24:51Z",
       "collected_at": "2026-10-26T08:01:06Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "b9b0d8e4d8d97f73d43ff0f2",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Elation across Serbia after veteran ruler Vučić concedes to student-led protest movement",
-      "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-26T01:07:05Z",
-      "collected_at": "2026-10-26T04:30:53Z",
       "topics": [
         "breaking",
         "politics",
@@ -2060,20 +1982,6 @@
       ]
     },
     {
-      "id": "d19d6e3c8ca1cbd10590ec8d",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "What challenges await Brazil's Lula in his fourth term as president?",
-      "url": "https://www.france24.com/en/americas/20261026-what-challenges-await-brazil-s-lula-in-his-fourth-term-as-president",
-      "published_at": "2026-10-26T00:52:54Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "be6fb86d68e8fe473d22110a",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2084,34 +1992,6 @@
       "topics": [
         "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "f0ecaa23d55226e035a0bb4e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Brazil's Lula beats odds and seals re-election, rival Bolsonaro demands annulment",
-      "url": "https://www.france24.com/en/americas/20261026-brazil-s-president-lula-da-silva-beats-flavio-bolsonaro-to-win-re-election",
-      "published_at": "2026-10-26T00:23:59Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "d623ce730098330ee1ebc1d9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 Live: Brazil's President Lula da Silva beats Flavio Bolsonaro in run-off to win re-election",
-      "url": "https://www.france24.com/en/americas/20261025-live-voting-under-way-across-brazil-in-tight-presidential-run-off-between-lula-and-bolsonaro",
-      "published_at": "2026-10-26T00:12:55Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "politics",
-        "security",
         "society"
       ]
     },
@@ -2130,20 +2010,6 @@
       ]
     },
     {
-      "id": "61ad050f1a3f20dd5b0d00c6",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Report: IDF chief pushes back on Netanyahu's order",
-      "url": "https://www.france24.com/en/video/20261025-report-idf-pushes-back-on-netanyahu-s-order",
-      "published_at": "2026-10-25T23:24:14Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "a3dd6fd1d0a6d60c66d2abfa",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2155,48 +2021,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "a74834d9f52848377867eed8",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Peaceful demise of Vučić in Serbia stands in contrast to second weekend of riots in French cities",
-      "url": "https://euobserver.com/244833/peaceful-demise-of-vucic-in-serbia-stands-in-contrast-to-second-weekend-of-riots-in-french-cities",
-      "published_at": "2026-10-25T21:41:20Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "2bf186f319a855f76646cbe4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Serbia's Vucic concedes defeat in historic snap election with record turnout",
-      "url": "https://www.france24.com/en/europe/20261025-serbia-s-vucic-concedes-defeat-in-historic-snap-election-with-record-turnout",
-      "published_at": "2026-10-25T21:24:42Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "c6b54a5c1b4dff53cded1062",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Serbia’s Vučić concedes defeat after tense parliamentary elections",
-      "url": "https://www.politico.eu/article/serbia-aleksandar-vucic-concedes-defeat-after-tense-parliamentary-elections",
-      "published_at": "2026-10-25T21:18:11Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
@@ -2214,20 +2038,6 @@
       ]
     },
     {
-      "id": "7c6918144b4b52d0477e844c",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "France: The sickest man of Europe",
-      "url": "https://www.politico.eu/article/france-the-sickest-man-of-europe",
-      "published_at": "2026-10-25T18:45:47Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "01e20ca3a14c64d49a05ca49",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2242,20 +2052,6 @@
       ]
     },
     {
-      "id": "449fd899d07b36b4ecc1fc07",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Lula thanks voters for his victory, Flavio Bolsonaro does not recognize the results",
-      "url": "https://www.france24.com/en/americas/20261025-live-voting-under-way-across-brazil-in-tight-presidential-run-off-between-lula-and-bolsonaro",
-      "published_at": "2026-10-25T12:46:02Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "1755f8e768af0b9d2961c9e3",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2266,6 +2062,104 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c0d2ac92859cb065204acd60",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Bunkers, ransoms and threats of mutilation: Peru’s kidnapping surge",
+      "url": "https://english.elpais.com/international/2026-10-25/bunkers-ransoms-and-threats-of-mutilation-perus-kidnapping-surge.html",
+      "published_at": "2026-10-25T04:00:00Z",
+      "collected_at": "2026-10-27T05:01:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "8ebf3d66c5ffa51a13e40d95",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘They should leave us alone and go away’: Indigenous leaders protest against nature conservation projects that are forcing them off their land",
+      "url": "https://english.elpais.com/climate/2026-10-25/they-should-leave-us-alone-and-go-away-indigenous-leaders-protest-against-nature-conservation-projects-that-are-forcing-them-off-their-land.html",
+      "published_at": "2026-10-25T04:00:00Z",
+      "collected_at": "2026-10-27T05:01:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "865802be2d8e077c91a7f377",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Squeezing the clouds: Aboard the small plane making it rain in drought-stricken Honduras",
+      "url": "https://english.elpais.com/international/2026-10-25/squeezing-the-clouds-aboard-the-small-plane-making-it-rain-in-drought-stricken-honduras.html",
+      "published_at": "2026-10-25T04:00:00Z",
+      "collected_at": "2026-10-27T05:01:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "96c54a9a3600ffb7d2fe32d0",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Peter Thiel, the tech oligarch who believes in the Antichrist",
+      "url": "https://english.elpais.com/technology/2026-10-25/peter-thiel-the-tech-oligarch-who-believes-in-the-antichrist.html",
+      "published_at": "2026-10-25T04:00:00Z",
+      "collected_at": "2026-10-27T05:01:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "6de806cdb6a638babe175eb5",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Zoe Kazan takes on her grandfather’s legacy in ‘East of Eden’",
+      "url": "https://english.elpais.com/people/2026-10-25/zoe-kazan-takes-on-her-grandfathers-legacy-in-east-of-eden.html",
+      "published_at": "2026-10-25T04:00:00Z",
+      "collected_at": "2026-10-27T05:01:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "e13dd1ce46ca28aaaeeb9548",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Kathleen Belew, historian: ‘Trump is using and benefiting from the white power movement’",
+      "url": "https://english.elpais.com/usa/2026-10-25/kathleen-belew-historian-trump-is-using-and-benefiting-from-the-white-power-movement.html",
+      "published_at": "2026-10-25T04:00:00Z",
+      "collected_at": "2026-10-27T05:01:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "46190e4854fdb780229d9c45",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Watch: BBC in Paris as police charge protesters and use tear gas during unrest",
+      "url": "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-24T19:37:35Z",
+      "collected_at": "2026-10-27T05:01:00Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -2298,6 +2192,20 @@
       ]
     },
     {
+      "id": "2a1d8ac4061aac05d1262e5d",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Robert Reich: ‘Capitalism is compatible with democracy as long as democracy is in the driver’s seat’",
+      "url": "https://english.elpais.com/usa/2026-10-24/robert-reich-capitalism-is-compatible-with-democracy-as-long-as-democracy-is-in-the-drivers-seat.html",
+      "published_at": "2026-10-24T14:00:00Z",
+      "collected_at": "2026-10-27T05:01:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "fe7e6f3ffb4b723f96b7860e",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -2323,118 +2231,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "e32d798050183458665868b9",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Same voters, different outcomes: How gerrymandering works in the United States",
-      "url": "https://english.elpais.com/usa/2026-10-24/same-voters-different-outcomes-how-gerrymandering-works-in-the-united-states.html",
-      "published_at": "2026-10-24T04:00:00Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "28d72e70f39e38a7fdee1a0a",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Rural America tests the reach of the Democratic wave: ‘I’d like to see some political change’",
-      "url": "https://english.elpais.com/usa/2026-10-24/rural-america-tests-the-reach-of-the-democratic-wave-id-like-to-see-some-political-change.html",
-      "published_at": "2026-10-24T04:00:00Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "d4d67bf1f7649185f159862d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Political ads made with AI break into the midterms campaign",
-      "url": "https://english.elpais.com/usa/2026-10-24/political-ads-made-with-ai-break-into-the-midterms-campaign.html",
-      "published_at": "2026-10-24T04:00:00Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "18250cf8588a73ceb1e156b5",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Caro Quintero: The legendary drug lord with whom the US will ultimately strike a deal",
-      "url": "https://english.elpais.com/international/2026-10-24/caro-quintero-the-legendary-drug-lord-with-whom-the-us-will-ultimately-strike-a-deal.html",
-      "published_at": "2026-10-24T04:00:00Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "c38b02acf8f6aa10e4e1c1a6",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Julián Delgado Lopera, writer: ‘Trans and queer language is poetic’",
-      "url": "https://english.elpais.com/culture/2026-10-24/julian-delgado-lopera-writer-trans-and-queer-language-is-poetic.html",
-      "published_at": "2026-10-24T04:00:00Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "1bd66d505ec9c0327599b408",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Studio Ghibli’s obsession with food: Preparing and tasting every bite before drawing it",
-      "url": "https://english.elpais.com/culture/2026-10-24/studio-ghiblis-obsession-with-food-preparing-and-tasting-every-bite-before-drawing-it.html",
-      "published_at": "2026-10-24T04:00:00Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "42add0b25c4cbd3b38596e2d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Sodium, the new white gold?",
-      "url": "https://english.elpais.com/climate/2026-10-24/sodium-the-new-white-gold.html",
-      "published_at": "2026-10-24T04:00:00Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "4b8b7da41b00e76d3a58761c",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Mikey Madison, the shy horse rider who won an Oscar and is back in a big way",
-      "url": "https://english.elpais.com/people/2026-10-24/mikey-madison-the-shy-horse-rider-who-won-an-oscar-and-is-back-in-a-big-way.html",
-      "published_at": "2026-10-24T04:00:00Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -2466,20 +2262,6 @@
       ]
     },
     {
-      "id": "e44c8bf9d7a4a112f9745b49",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Freed US citizen was tortured in Russian jail, former Ukrainian prisoners say",
-      "url": "https://www.bbc.co.uk/news/articles/cx7vpmn6qzmlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-23T20:18:13Z",
-      "collected_at": "2026-10-26T04:30:53Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "7453c197fc32068a9d836584",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2487,6 +2269,20 @@
       "url": "https://www.dw.com/en/serbia-tens-of-thousands-rally-ahead-of-elections/a-79738420?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-10-23T03:15:00Z",
       "collected_at": "2026-10-26T10:01:04Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "f149d1c8c38747d4da41d3f3",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Albania's student protests are only getting bigger",
+      "url": "https://www.dw.com/en/albania-s-student-protests-are-only-getting-bigger/a-79735213?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-22T19:18:00Z",
+      "collected_at": "2026-10-27T05:01:00Z",
       "topics": [
         "politics",
         "society",
@@ -2690,17 +2486,17 @@
       ]
     },
     {
-      "id": "85563aac5ef22493d99e0798",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Trump, Putin and Xi at one table, without Ukraine. What Moscow wants from the proposal and why Beijing might agree.",
-      "url": "https://www.dw.com/en/trump-putin-and-xi-at-one-table-without-ukraine-what-moscow-wants-from-the-proposal-and-why-beijing-might-agree/a-79726190?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-21T19:32:00Z",
-      "collected_at": "2026-10-26T04:30:53Z",
+      "id": "4af0ec1b557409985ab3e4e5",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Polish leaders condemn Hegseth’s “scandalous” remarks downplaying role of US allies in Afghanistan",
+      "url": "https://notesfrompoland.com/2026/10/20/polish-leaders-condemn-hegseths-scandalous-remarks-downplaying-role-of-us-allies-in-afghanistan",
+      "published_at": "2026-10-20T19:52:13Z",
+      "collected_at": "2026-10-27T05:01:00Z",
       "topics": [
+        "central_europe",
         "politics",
-        "society",
-        "security"
+        "society"
       ]
     },
     {
@@ -2743,6 +2539,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "7160240b8cca6c7ddf59c829",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "'Very upsetting': Residents in shock after historic French town hall set alight",
+      "url": "https://www.bbc.co.uk/news/videos/c9dr8kem27zeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-18T22:22:51Z",
+      "collected_at": "2026-10-27T05:01:00Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     }
   ]
