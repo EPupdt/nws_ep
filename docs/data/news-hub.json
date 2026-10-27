@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-27T09:01:03Z",
-  "last_successful_collection_at": "2026-10-27T09:01:03Z",
+  "generated_at": "2026-10-27T09:30:53Z",
+  "last_successful_collection_at": "2026-10-27T09:30:53Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-27T09:01:03Z"
+      "at": "2026-10-27T09:30:53Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-10-27T09:01:03Z"
+      "at": "2026-10-27T09:30:53Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-27T09:01:03Z"
+      "at": "2026-10-27T09:30:53Z"
     },
     {
       "id": "euractiv",
@@ -29,48 +29,54 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-27T09:01:03Z"
+      "at": "2026-10-27T09:30:53Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-27T09:01:03Z"
+      "at": "2026-10-27T09:30:53Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "63",
-      "at": "2026-10-27T09:01:03Z"
+      "at": "2026-10-27T09:30:53Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-27T09:01:03Z"
+      "at": "2026-10-27T09:30:53Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-27T09:01:03Z"
+      "at": "2026-10-27T09:30:53Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-27T09:01:03Z"
+      "at": "2026-10-27T09:30:53Z"
     }
   ],
   "europe_now": [
     {
-      "title": "European Defense Posture and Warnings",
-      "summary": "European defense ministers have issued warnings regarding ongoing security threats, emphasizing the need for robust deterrence. Meanwhile, major NATO powers have pledged to assume greater defense responsibilities while reaffirming their alliance with the United States.",
+      "title": "European Defense Warnings on Russia",
+      "summary": "European defense ministers have issued warnings stating that Russian leadership is not currently looking for peace. Officials emphasize the ongoing security challenges facing the continent as NATO powers pledge a greater defense role.",
       "article_ids": [
         "a507c7b5197590aa6ca34fe7",
         "86aaf0d550bc8108d615e4c9"
       ],
       "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/european-defense-ministers-warn-putin-isnt-looking-for-peace",
+          "headline": "European defense ministers warn Putin isn’t looking for peace",
+          "published_at": "2026-10-26T19:25:52Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20261026-europe-nato-defence-responsibility-us-alliance",
@@ -78,36 +84,82 @@
           "published_at": "2026-10-26T23:33:06Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "French Student Demonstrations and Government Policy",
-      "summary": "Student unions in France have maintained calls for continued mobilization following discussions with the prime minister over education reform proposals. Government concessions have thus far failed to halt the ongoing protests and unrest across the country.",
+      "title": "Serbian Political Shift",
+      "summary": "A student-led movement in Serbia has achieved a notable election triumph following concerns over vote fraud. The development has sent significant warnings to established political figures in the region.",
       "article_ids": [
-        "835b8e8dde12751603f3bba9",
-        "13c7651ce34da7cf4c72c09c"
+        "3389cd96d633addef0e4ea8c",
+        "2720399ea732482729b491b8"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/government-concessions-fail-to-convince-french-students-to-stop-protests",
-          "headline": "French government fails to convince students to stop protests",
-          "published_at": "2026-10-26T19:02:22Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20261027-they-should-be-afraid-serbia-s-student-led-victory-over-vu%C4%8Di%C4%87-sends-warning-to-corrupt-leaders",
+          "headline": "'They should be afraid': Serbia's student-led victory over Vučić sends warning to 'corrupt' leaders",
+          "published_at": "2026-10-27T08:22:00Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261026-french-student-union-leaders-call-for-continued-mobilisation-after-meeting-pm",
-          "headline": "French student union leaders call for 'continued mobilisation' after meeting PM",
-          "published_at": "2026-10-26T17:37:05Z"
+          "url": "https://www.france24.com/en/serbian-student-movement-eyes-power-after-election-triumph",
+          "headline": "Serbian student movement eyes power after election triumph",
+          "published_at": "2026-10-26T19:48:10Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     }
   ],
   "top_stories": [
     {
+      "title": "European Defense Posture",
+      "summary": "Major European NATO powers have pledged to take on a greater responsibility for regional defense while reaffirming their alliance with the United States. Meanwhile, European defense ministers warned that Russian leadership is showing no genuine interest in peace.",
+      "article_ids": [
+        "86aaf0d550bc8108d615e4c9",
+        "a507c7b5197590aa6ca34fe7"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261026-europe-nato-defence-responsibility-us-alliance",
+          "headline": "Europe's top NATO powers pledge greater defence role, reaffirm US alliance",
+          "published_at": "2026-10-26T23:33:06Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/european-defense-ministers-warn-putin-isnt-looking-for-peace",
+          "headline": "European defense ministers warn Putin isn’t looking for peace",
+          "published_at": "2026-10-26T19:25:52Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Serbian Political Realignment",
+      "summary": "A student movement in Serbia has gained momentum following an election triumph driven by anti-corruption sentiment. Observers note thattracking election irregularities played a notable role in shaping the final outcome.",
+      "article_ids": [
+        "3389cd96d633addef0e4ea8c",
+        "b1a4ebda4811997b70d0c2a2"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20261027-they-should-be-afraid-serbia-s-student-led-victory-over-vu%C4%8Di%C4%87-sends-warning-to-corrupt-leaders",
+          "headline": "'They should be afraid': Serbia's student-led victory over Vučić sends warning to 'corrupt' leaders",
+          "published_at": "2026-10-27T08:22:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261026-serbia-elections-tracking-fraud-had-an-impact-on-results-vote-fraud",
+          "headline": "Serbia’s elections: 'Tracking fraud for sure had an impact on the results'",
+          "published_at": "2026-10-26T21:49:17Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
       "title": "Transatlantic Trade Relations",
-      "summary": "A United States trade official has warned that the existing US-EU trade truce is currently at risk over a multi-billion dollar loan involving Airbus. This development highlights ongoing economic tensions between Brussels and Washington regarding industrial subsidies.",
+      "summary": "A United States official warned that the existing US-EU trade truce is currently at risk over a multi-billion-dollar Airbus loan dispute. The situation highlights ongoing tensions regarding transatlantic commercial policy.",
       "article_ids": [
         "93c28acb0345bf7bde342325"
       ],
@@ -120,30 +172,14 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "European Union Border Policy",
-      "summary": "The European Union's Frontex agency is set to receive expanded powers allowing for deportations beyond external EU borders under a new policy overhaul. This institutional shift aims to strengthen the bloc's management of migration and border enforcement.",
-      "article_ids": [
-        "f9ac7a6116d8a1b2298210cd"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/frontex-set-for-new-powers-to-deport-beyond-eu-borders-in-latest-overhaul",
-          "headline": "Frontex set for new powers to deport beyond EU borders in latest overhaul",
-          "published_at": "2026-10-26T21:50:19Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "developing": [
     {
-      "label": "Bolsonaro · Brazil · Lula · opposition",
+      "label": "Bolsonaro · Brazil · Lula · Comeback",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 5,
+      "item_count": 6,
       "latest_at": "2026-10-27T08:08:45Z",
       "sources": [
         {
@@ -167,23 +203,44 @@
       ]
     },
     {
-      "label": "Serbia · student · poll · December",
+      "label": "election · Netanyahu · referendum · seen",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-10-27T08:22:00Z",
+      "item_count": 10,
+      "latest_at": "2026-10-27T09:21:44Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20261027-they-should-be-afraid-serbia-s-student-led-victory-over-vu%C4%8Di%C4%87-sends-warning-to-corrupt-leaders",
-          "headline": "'They should be afraid': Serbia's student-led victory over Vučić sends warning to 'corrupt' leaders",
-          "published_at": "2026-10-27T08:22:00Z"
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-10-27/netanyahus-future-hangs-in-the-balance-in-a-decisive-election-for-the-entire-middle-east.html",
+          "headline": "Netanyahu’s future hangs in the balance in a decisive election for the entire Middle East",
+          "published_at": "2026-10-27T09:21:44Z"
         },
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/244879/serbias-student-protestors-win-parliamentary-majority-setting-scene-for-showdown-with-vucic-for-decembers-presidential-poll",
-          "headline": "Serbia’s student protestors win parliamentary majority – setting scene for showdown with Vučić for December’s presidential poll",
-          "published_at": "2026-10-26T14:25:25Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/polls-open-in-israeli-election-seen-as-referendum-on-netanyahu",
+          "headline": "Polls open in Israeli election seen as referendum on Netanyahu",
+          "published_at": "2026-10-27T07:14:17Z"
+        }
+      ]
+    },
+    {
+      "label": "French · students · PM · concrete",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 8,
+      "latest_at": "2026-10-26T19:02:22Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/government-concessions-fail-to-convince-french-students-to-stop-protests",
+          "headline": "French government fails to convince students to stop protests",
+          "published_at": "2026-10-26T19:02:22Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261026-french-student-union-leaders-call-for-continued-mobilisation-after-meeting-pm",
+          "headline": "French student union leaders call for 'continued mobilisation' after meeting PM",
+          "published_at": "2026-10-26T17:37:05Z"
         }
       ]
     },
@@ -191,7 +248,7 @@
       "label": "Ballon · wins · Harry · Kane",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
+      "item_count": 5,
       "latest_at": "2026-10-27T08:17:08Z",
       "sources": [
         {
@@ -207,30 +264,37 @@
           "published_at": "2026-10-26T23:14:39Z"
         }
       ]
-    },
-    {
-      "label": "Lula · America · Brazil · election",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-26T18:30:48Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-10-26/latin-americas-left-celebrates-lulas-victory-the-pele-of-progressivism.html",
-          "headline": "Latin America’s left celebrates Lula’s victory: ‘The Pelé of progressivism’",
-          "published_at": "2026-10-26T18:30:48Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/leaders-across-americas-react-to-brazil-president-lula-s-re-election",
-          "headline": "Leaders across Americas react to Brazil President Lula's re-election",
-          "published_at": "2026-10-26T17:05:04Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "aa9fc79f99bfc92f32dfc15c",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Nigel Farage says Reform candidates won’t be banned for backing Tommy Robinson online",
+      "url": "https://www.politico.eu/article/nigel-farage-says-reform-candidates-wont-be-banned-for-backing-tommy-robinson-online",
+      "published_at": "2026-10-27T09:25:13Z",
+      "collected_at": "2026-10-27T09:30:53Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "3125ac8b1d58100c0ba13285",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Netanyahu’s future hangs in the balance in a decisive election for the entire Middle East",
+      "url": "https://english.elpais.com/international/2026-10-27/netanyahus-future-hangs-in-the-balance-in-a-decisive-election-for-the-entire-middle-east.html",
+      "published_at": "2026-10-27T09:21:44Z",
+      "collected_at": "2026-10-27T09:30:53Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "3389cd96d633addef0e4ea8c",
       "source_id": "france24",
@@ -253,6 +317,20 @@
       "url": "https://www.france24.com/en/tv-shows/sports/20261027-harry-kane-wins-ballon-d-or-with-kylian-mbapp%C3%A9-in-second-ahead-of-lamine-yamal",
       "published_at": "2026-10-27T08:17:08Z",
       "collected_at": "2026-10-27T08:30:48Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "5dce4a3a75ab22d6b87b42c1",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Harry Kane wins Ballon d'Or, with Kylian Mbappé second ahead of Lamine Yamal",
+      "url": "https://www.france24.com/en/tv-shows/sports/20261027-harry-kane-wins-ballon-d-or-with-kylian-mbapp%C3%A9-in-second-ahead-of-lamine-yamal",
+      "published_at": "2026-10-27T08:17:08Z",
+      "collected_at": "2026-10-27T09:30:53Z",
       "topics": [
         "politics",
         "security",
@@ -729,6 +807,20 @@
       "url": "https://www.france24.com/en/tv-shows/the-debate/20261026-comeback-kid-how-did-brazil-veteran-leader-lula-upset-bolsonaro",
       "published_at": "2026-10-26T19:22:18Z",
       "collected_at": "2026-10-26T20:01:41Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f011105e3e6c0d20e1897183",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Comeback kid: How did Brazil's veteran leader Lula upset Bolsonaro?",
+      "url": "https://www.france24.com/en/tv-shows/the-debate/20261026-comeback-kid-how-did-brazil-veteran-leader-lula-upset-bolsonaro",
+      "published_at": "2026-10-26T19:22:18Z",
+      "collected_at": "2026-10-27T09:30:53Z",
       "topics": [
         "politics",
         "security",
@@ -1968,34 +2060,6 @@
       ]
     },
     {
-      "id": "33dd7ddf8b023a737ac1ef85",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Lula's historic comeback is a defeat for Trump",
-      "url": "https://english.elpais.com/opinion/2026-10-26/lulas-historic-comeback-is-a-defeat-for-trump.html",
-      "published_at": "2026-10-26T08:34:25Z",
-      "collected_at": "2026-10-26T09:01:06Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "9763742088e4b35937ae2c0b",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Bolsonaro refuses to concede defeat in Brazil and calls for result to be annulled",
-      "url": "https://english.elpais.com/international/2026-10-26/bolsonaro-refuses-to-concede-defeat-in-brazil-and-calls-for-result-to-be-annulled.html",
-      "published_at": "2026-10-26T07:56:08Z",
-      "collected_at": "2026-10-26T09:01:06Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "daa32e96b777042d0ce020d3",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2077,6 +2141,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "ff0f8cfd0c12d9f0993720b0",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Israel’s election may disappoint everyone, as Brussels and Washington face a hard reckoning with a more ‘centrist’ leader",
+      "url": "https://euobserver.com/244572/israels-election-may-disappoint-everyone-and-brussels-andwashington-face-a-hard-reckoningwith-a-more-centrist-leader",
+      "published_at": "2026-10-25T09:00:00Z",
+      "collected_at": "2026-10-27T09:30:53Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
