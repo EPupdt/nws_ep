@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-28T14:31:00Z",
-  "last_successful_collection_at": "2026-10-28T14:31:00Z",
+  "generated_at": "2026-10-28T15:01:06Z",
+  "last_successful_collection_at": "2026-10-28T15:01:06Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-28T14:31:00Z"
+      "at": "2026-10-28T15:01:06Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-10-28T14:31:00Z"
+      "at": "2026-10-28T15:01:06Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-28T14:31:00Z"
+      "at": "2026-10-28T15:01:06Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-28T14:31:00Z"
+      "at": "2026-10-28T15:01:06Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-28T14:31:00Z"
+      "at": "2026-10-28T15:01:06Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "63",
-      "at": "2026-10-28T14:31:00Z"
+      "at": "2026-10-28T15:01:06Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-28T14:31:00Z"
+      "at": "2026-10-28T15:01:06Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-28T14:31:00Z"
+      "at": "2026-10-28T15:01:06Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-28T14:31:00Z"
+      "at": "2026-10-28T15:01:06Z"
     }
   ],
   "europe_now": [
@@ -132,6 +132,27 @@
   ],
   "developing": [
     {
+      "label": "Spain · train · high · speed",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 17,
+      "latest_at": "2026-10-28T14:34:15Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261028-spain-dozens-killed-after-one-high-speed-train-slams-into-another",
+          "headline": "Spain: Dozens killed after one high-speed train slams into another",
+          "published_at": "2026-10-28T14:34:15Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/spain/2026-10-28/what-is-the-lzb-signaling-system-one-of-the-key-factors-in-the-fatal-train-accident-in-spain.html",
+          "headline": "What is the LZB signaling system, one of the key factors in the fatal train accident in Spain?",
+          "published_at": "2026-10-28T14:07:39Z"
+        }
+      ]
+    },
+    {
       "label": "Bolsonaro · Brazil · Flavio · US",
       "origin": "convergence",
       "source_count": 2,
@@ -156,7 +177,7 @@
       "label": "Israel · Netanyahu · Eisenkot · elections",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 6,
+      "item_count": 5,
       "latest_at": "2026-10-28T10:20:00Z",
       "sources": [
         {
@@ -193,30 +214,65 @@
           "published_at": "2026-10-27T22:11:08Z"
         }
       ]
-    },
-    {
-      "label": "Bolsonaros · Brazilian · cancelled · candidate",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-28T12:42:18Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-10-28/the-bolsonaros-a-family-at-odds-with-the-brazilian-justice-system.html",
-          "headline": "The Bolsonaros, a family at odds with the Brazilian justice system",
-          "published_at": "2026-10-28T12:42:18Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20261027-defeated-brazilian-candidate-flavio-bolsonaro-passports-cancelled-whereabouts-unknown",
-          "headline": "Defeated Brazilian candidate Flavio Bolsonaro's passports cancelled, whereabouts unknown",
-          "published_at": "2026-10-27T16:33:13Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "ab15b192a6a98716d7f3d461",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "EU set to scrap ‘associate member’ offer for Canada",
+      "url": "https://www.politico.eu/article/eu-set-to-scrap-associate-member-status-offer-for-canada",
+      "published_at": "2026-10-28T14:50:24Z",
+      "collected_at": "2026-10-28T15:01:06Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "be70fcbcef37ca5aab44791b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "REPLAY: Spanish Transport Minister gives press conference on train crash",
+      "url": "https://www.france24.com/en/video/20261028-replay-spanish-transport-minister-gives-press-conference-on-train-crash",
+      "published_at": "2026-10-28T14:43:33Z",
+      "collected_at": "2026-10-28T15:01:06Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "9b247a76271f2c072a7f7707",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Spain: Dozens killed after one high-speed train slams into another",
+      "url": "https://www.france24.com/en/video/20261028-spain-dozens-killed-after-one-high-speed-train-slams-into-another",
+      "published_at": "2026-10-28T14:34:15Z",
+      "collected_at": "2026-10-28T15:01:06Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "700e160648c17a37a5068ede",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Spain: At least 64 dead in high-speed train crash",
+      "url": "https://www.france24.com/en/video/20261028-spain-at-least-64-dead-in-high-speed-train-crash",
+      "published_at": "2026-10-28T14:33:17Z",
+      "collected_at": "2026-10-28T15:01:06Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "ebda61ab35320e277fa725fe",
       "source_id": "el_pais_english",
@@ -2164,6 +2220,20 @@
       ]
     },
     {
+      "id": "77dee73d4d70cf2c5fea586c",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Ukrainian offensive creeping forward in south-east, near Velyka Novosilka (Ukraine Battlefield update, Day 1,705)",
+      "url": "https://euobserver.com/245005/ukrainians-offensive-creeping-forward-in-south-east-near-velyka-novosilka-ukraine-battlefield-update-day-1705",
+      "published_at": "2026-10-26T14:48:40Z",
+      "collected_at": "2026-10-28T15:01:06Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "1279b203a4b6096e93a0f976",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2189,6 +2259,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "c94c7673bf67e2dfc7e0fbd6",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Serbia’s student protestors win parliamentary majority – setting scene for showdown with Vučić in December’s presidential poll",
+      "url": "https://euobserver.com/244879/serbias-student-protestors-win-parliamentary-majority-setting-scene-for-showdown-with-vucic-for-decembers-presidential-poll",
+      "published_at": "2026-10-26T14:25:25Z",
+      "collected_at": "2026-10-28T15:01:06Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
