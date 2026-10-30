@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-30T21:01:04Z",
-  "last_successful_collection_at": "2026-10-30T21:01:04Z",
+  "generated_at": "2026-10-30T21:30:55Z",
+  "last_successful_collection_at": "2026-10-30T21:30:55Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-30T21:01:04Z"
+      "at": "2026-10-30T21:30:55Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "24",
-      "at": "2026-10-30T21:01:04Z"
+      "count": "25",
+      "at": "2026-10-30T21:30:55Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-30T21:01:04Z"
+      "at": "2026-10-30T21:30:55Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,67 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-30T21:01:04Z"
+      "at": "2026-10-30T21:30:55Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-30T21:01:04Z"
+      "at": "2026-10-30T21:30:55Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-10-30T21:01:04Z"
+      "at": "2026-10-30T21:30:55Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-30T21:01:04Z"
+      "at": "2026-10-30T21:30:55Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-30T21:01:04Z"
+      "at": "2026-10-30T21:30:55Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-30T21:01:04Z"
+      "at": "2026-10-30T21:30:55Z"
     }
   ],
   "europe_now": [
     {
+      "title": "Constitutional Court Crisis in Poland",
+      "summary": "Police were deployed amid a stand-off and leadership disputes as government-backed judges sought to oust the chief justice of Poland's top court.",
+      "article_ids": [
+        "439d41fa7bdb38d628c8e0ab",
+        "2fe7eb5584c4947ecc774b03",
+        "3fefa1a817344986840c01f5"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/tusk-nawrocki-battle-escalates-chief-judge-ousted-from-polands-top-court",
+          "headline": "Tusk-Nawrocki battle escalates as chief judge is ousted from Poland’s top court",
+          "published_at": "2026-10-30T21:12:50Z"
+        },
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/10/30/chaos-at-polands-constitutional-court-as-government-backed-judges-seek-to-oust-chief-justice",
+          "headline": "Chaos at Poland’s constitutional court as government-backed judges seek to oust chief justice",
+          "published_at": "2026-10-30T20:55:24Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
       "title": "Russian Media Crackdown",
-      "summary": "Independent Russian media outlet Novaya Gazeta has ceased publication following mounting pressure and a crackdown by authorities.",
+      "summary": "The prominent Russian newspaper Novaya Gazeta has ceased publication under mounting pressure and a crackdown from Kremlin authorities.",
       "article_ids": [
         "8f5662d85fdf36f23aad4f7e",
         "52040c001a87743f920fa323"
@@ -85,37 +109,15 @@
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "Spanish Transport Scrutiny",
-      "summary": "Spain's transport minister is facing calls to resign following a deadly train crash that has prompted intense national scrutiny.",
-      "article_ids": [
-        "f39494c897154c1dbf5a2bdc",
-        "a89f62af568f1aa50b96ed20"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261030-spanish-transport-minister-faces-calls-to-quit-after-deadly-train-crash",
-          "headline": "Spanish transport minister faces calls to quit after deadly train crash",
-          "published_at": "2026-10-30T14:21:39Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261030-spain-working-to-identify-train-crash-dead-as-relatives-anguish-grows",
-          "headline": "Spain working to identify train crash dead as relatives' anguish grows",
-          "published_at": "2026-10-30T15:34:20Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
       "title": "Ukraine Humanitarian Evacuation",
-      "summary": "Hundreds of stranded residents were evacuated from the Russian-occupied town of Oleshky during a rare ceasefire window. The truce offered limited opportunities to deliver essential humanitarian assistance to the devastated area.",
+      "summary": "A rare ceasefire allowed hundreds of stranded residents to evacuate from the Russian-occupied Ukrainian town of Oleshky. The brief truce provided limited opportunities to deliver basic humanitarian assistance to the devastated area.",
       "article_ids": [
         "b75728265cda1543881ad79a",
+        "4ad5e623973783b9dbb82b5e",
         "40240d29859ecf065ede7a6a"
       ],
       "sources": [
@@ -128,30 +130,58 @@
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-          "headline": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+          "headline": "Ceasefire allows evacuation from devastated Russian-occupied Oleshky",
           "published_at": "2026-10-30T16:26:11Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "Constitutional Court Tensions in Poland",
-      "summary": "Government-backed judges have moved to oust the chief justice of Poland's constitutional court. The dispute has created significant institutional chaos within the judicial body.",
+      "title": "Spanish Transport Incident",
+      "summary": "The Spanish transport minister is facing increasing calls to resign following a deadly train crash. Authorities are working to identify the victims as the anguish among relatives continues to grow.",
       "article_ids": [
-        "2fe7eb5584c4947ecc774b03"
+        "a89f62af568f1aa50b96ed20",
+        "f39494c897154c1dbf5a2bdc"
       ],
       "sources": [
         {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/10/30/chaos-at-polands-constitutional-court-as-government-backed-judges-seek-to-oust-chief-justice",
-          "headline": "Chaos at Poland’s constitutional court as government-backed judges seek to oust chief justice",
-          "published_at": "2026-10-30T20:55:24Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261030-spanish-transport-minister-faces-calls-to-quit-after-deadly-train-crash",
+          "headline": "Spanish transport minister faces calls to quit after deadly train crash",
+          "published_at": "2026-10-30T14:21:39Z"
         }
       ],
       "source_count": 1
     }
   ],
   "developing": [
+    {
+      "label": "Spain · train · crash",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 5,
+      "latest_at": "2026-10-30T15:34:20Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261030-spain-working-to-identify-train-crash-dead-as-relatives-anguish-grows",
+          "headline": "Spain working to identify train crash dead as relatives' anguish grows",
+          "published_at": "2026-10-30T15:34:20Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/spain/2026-10-30/spains-high-speed-train-control-center-state-of-the-art-software-and-tremendous-pressure.html",
+          "headline": "Spain’s high-speed train control center: state-of-the-art software and tremendous pressure",
+          "published_at": "2026-10-30T14:51:48Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
+          "headline": "What we know so far about deadly Spain train crash",
+          "published_at": "2026-10-29T22:14:39Z"
+        }
+      ]
+    },
     {
       "label": "Midterms · US · Trump",
       "origin": "convergence",
@@ -170,6 +200,27 @@
           "url": "https://english.elpais.com/usa/2026-10-30/trump-administration-intensifies-legal-challenges-four-days-before-the-midterms.html",
           "headline": "Trump administration intensifies legal challenges four days before the midterms",
           "published_at": "2026-10-30T14:59:40Z"
+        }
+      ]
+    },
+    {
+      "label": "Canada · Carney · Europe · Mark",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 5,
+      "latest_at": "2026-10-30T20:55:00Z",
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/mark-carney-canada-has-learned-we-are-overdependent-on-the-us/a-79811469?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Mark Carney: Canada has 'learned we are overdependent on the US'",
+          "published_at": "2026-10-30T20:55:00Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/mark-carney-puts-deadline-on-eu-associate-membership-push",
+          "headline": "Mark Carney puts deadline on EU ‘associate membership’ push",
+          "published_at": "2026-10-30T19:11:14Z"
         }
       ]
     },
@@ -193,51 +244,23 @@
           "published_at": "2026-10-30T10:19:54Z"
         }
       ]
-    },
-    {
-      "label": "estate · Real",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-10-30T20:09:21Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-10-30/ugly-unloved-and-controversial-the-real-estate-fiasco-of-pariss-tallest-skyscraper.html",
-          "headline": "Ugly, unloved and controversial: The real estate fiasco of Paris’s tallest skyscraper",
-          "published_at": "2026-10-30T20:09:21Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/across-africa-real-estate-scams-growing-in-ivory-coast",
-          "headline": "Across Africa: Real estate scams growing in Ivory Coast",
-          "published_at": "2026-10-29T21:43:05Z"
-        }
-      ]
-    },
-    {
-      "label": "high · Spain · speed",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-10-30T13:03:34Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss",
-          "headline": "Spain transport minister says he won't resign over high-speed rail disaster",
-          "published_at": "2026-10-30T13:03:34Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/spain-train-railways-political-liability-after-deadly-crashes",
-          "headline": "Everything that went wrong with Spain’s high-speed railways",
-          "published_at": "2026-10-29T21:21:13Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "439d41fa7bdb38d628c8e0ab",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Tusk-Nawrocki battle escalates as chief judge is ousted from Poland’s top court",
+      "url": "https://www.politico.eu/article/tusk-nawrocki-battle-escalates-chief-judge-ousted-from-polands-top-court",
+      "published_at": "2026-10-30T21:12:50Z",
+      "collected_at": "2026-10-30T21:30:55Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "2fe7eb5584c4947ecc774b03",
       "source_id": "notes_from_poland",
@@ -253,6 +276,20 @@
       ]
     },
     {
+      "id": "39d6d80942a08dd74c3450a9",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Mark Carney: Canada has 'learned we are overdependent on the US'",
+      "url": "https://www.dw.com/en/mark-carney-canada-has-learned-we-are-overdependent-on-the-us/a-79811469?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-30T20:55:00Z",
+      "collected_at": "2026-10-30T21:30:55Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "283bee192998a654844ab978",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -263,6 +300,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "3fefa1a817344986840c01f5",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Police deployed during stand-off over control of Poland's top court",
+      "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-30T20:52:01Z",
+      "collected_at": "2026-10-30T21:30:55Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
