@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-30T06:01:00Z",
-  "last_successful_collection_at": "2026-10-30T06:01:00Z",
+  "generated_at": "2026-10-30T06:30:55Z",
+  "last_successful_collection_at": "2026-10-30T06:30:55Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-30T06:01:00Z"
+      "at": "2026-10-30T06:30:55Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-10-30T06:01:00Z"
+      "at": "2026-10-30T06:30:55Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-30T06:01:00Z"
+      "at": "2026-10-30T06:30:55Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-30T06:01:00Z"
+      "at": "2026-10-30T06:30:55Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-30T06:01:00Z"
+      "at": "2026-10-30T06:30:55Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "63",
-      "at": "2026-10-30T06:01:00Z"
+      "at": "2026-10-30T06:30:55Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-30T06:01:00Z"
+      "at": "2026-10-30T06:30:55Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-30T06:01:00Z"
+      "at": "2026-10-30T06:30:55Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-30T06:01:00Z"
+      "at": "2026-10-30T06:30:55Z"
     }
   ],
   "europe_now": [
     {
       "title": "Spain Train Crash Aftermath",
-      "summary": "Following a deadly high-speed rail disaster in Spain, officials and media continue to investigate the causes and evaluate systemic safety issues. Victims of the crash include a former government minister and a young athlete.",
+      "summary": "Authorities and investigators are addressing the consequences of a major railway accident in Spain that resulted in significant casualties, including high-profile victims. Public discourse continues to scrutinize the systemic reliability and safety of the country's high-speed rail network.",
       "article_ids": [
         "0aa56e0902b0dd6a02ad1045",
         "291b9791a54b08fd64db10a6",
@@ -88,11 +88,11 @@
       "source_count": 2
     },
     {
-      "title": "France Shooting Investigation",
-      "summary": "French prosecutors stated that the suspect in a Paris suburb shooting deliberately targeted individuals of Muslim or African appearance. The ongoing investigation highlights growing concerns surrounding right-wing extremist threats.",
+      "title": "Security Concerns in France",
+      "summary": "Recent investigations into targeted violence in a Paris suburb have heightened anxieties regarding right-wing extremism across the region. Concurrently, government proposals addressing the financial liabilities of public unrest have sparked intense political debate.",
       "article_ids": [
         "d3d67dcd6967fb8667572786",
-        "cc2b8a3569dcdf0d250ae611"
+        "891079f35275a6bd81563c29"
       ],
       "sources": [
         {
@@ -100,21 +100,15 @@
           "url": "https://www.bbc.co.uk/news/articles/cmd7qjq13prpo?at_medium=RSS&at_campaign=rss",
           "headline": "Paris suburb shooting suspect targeted people of Muslim or African appearance, prosecutor says",
           "published_at": "2026-10-29T19:19:23Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261029-french-shooting-suspect-deliberately-targeted-muslims-africans",
-          "headline": "French shooting suspect deliberately targeted Muslims, Africans",
-          "published_at": "2026-10-29T18:45:57Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "EU and Canada Deepen Bilateral Ties",
-      "summary": "Leaders from the European Union and Canada met in Montreal to discuss shared geopolitical and economic challenges. Officials focused on diversifying partnerships globally without antagonizing major trade partners like the United States and China.",
+      "title": "EU and Canada Bilateral Partnership",
+      "summary": "European and Canadian officials have held discussions in Montreal focusing on strategic autonomy and diversifying partnerships. Leaders addressed the shared challenge of balancing international relations without antagonizing major global economies.",
       "article_ids": [
         "9feda50ba5349b22fad2b468",
         "9c7cbf26437529e98be2584b"
@@ -134,14 +128,15 @@
         }
       ],
       "source_count": 2
-    },
+    }
+  ],
+  "developing": [
     {
-      "title": "European Central Bank Leadership Transition",
-      "summary": "European Central Bank President Christine Lagarde stepped down from her position to speak out freely on key matters. Political and institutional analysts have begun reviewing the front-runners in line to replace her.",
-      "article_ids": [
-        "d35236965e8e0761202c9676",
-        "daaa8a43545e9eba6f1842eb"
-      ],
+      "label": "ECB · Lagarde · steps · Christine",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 6,
+      "latest_at": "2026-10-29T21:01:37Z",
       "sources": [
         {
           "publisher": "France 24 English",
@@ -150,16 +145,19 @@
           "published_at": "2026-10-29T21:01:37Z"
         },
         {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-eu-2092-rdf",
+          "headline": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
+          "published_at": "2026-10-29T10:33:00Z"
+        },
+        {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/meet-the-front-runners-to-replace-ecb-christine-lagarde",
-          "headline": "Meet the front-runners to replace Lagarde",
-          "published_at": "2026-10-29T17:22:06Z"
+          "url": "https://www.politico.eu/article/ecb-president-lagarde-to-step-down-in-february",
+          "headline": "Christine Lagarde to step down as ECB president in February",
+          "published_at": "2026-10-29T10:17:34Z"
         }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
+      ]
+    },
     {
       "label": "Russian · train · drone · kills",
       "origin": "convergence",
@@ -226,27 +224,6 @@
           "url": "https://english.elpais.com/international/2026-10-29/how-trumps-latin-american-allies-helped-flavio-bolsonaro-flee-brazil.html",
           "headline": "How Trump’s Latin American allies helped Flávio Bolsonaro flee Brazil",
           "published_at": "2026-10-29T15:51:49Z"
-        }
-      ]
-    },
-    {
-      "label": "bans · EU",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-29T17:02:50Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/245875/corrupt-foreign-officials-should-face-eu-visa-bans-and-asset-freezes-meps-and-estonia-say",
-          "headline": "Corrupt foreign officials should face EU visa-bans and asset-freezes, MEPs and Estonia say",
-          "published_at": "2026-10-29T17:02:50Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-tells-capitals-to-halt-their-national-social-media-bans-for-a-year",
-          "headline": "EU tells capitals to halt their national social media bans for a year",
-          "published_at": "2026-10-29T12:29:23Z"
         }
       ]
     }
@@ -372,6 +349,20 @@
       "url": "https://www.france24.com/en/middle-east/20261030-netanyahu-bloc-in-lead-without-majority-in-israel-election-say-official-results",
       "published_at": "2026-10-30T02:29:17Z",
       "collected_at": "2026-10-30T04:30:56Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "bcb11558852b2fafe47985e0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Netanyahu bloc leads but lacks majority, Israel's official results show",
+      "url": "https://www.france24.com/en/middle-east/20261030-netanyahu-bloc-in-lead-without-majority-in-israel-election-say-official-results",
+      "published_at": "2026-10-30T02:29:17Z",
+      "collected_at": "2026-10-30T06:30:55Z",
       "topics": [
         "politics",
         "security",
