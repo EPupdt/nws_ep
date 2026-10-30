@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-30T07:01:07Z",
-  "last_successful_collection_at": "2026-10-30T07:01:07Z",
+  "generated_at": "2026-10-30T07:30:57Z",
+  "last_successful_collection_at": "2026-10-30T07:30:57Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-30T07:01:07Z"
+      "at": "2026-10-30T07:30:57Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-10-30T07:01:07Z"
+      "at": "2026-10-30T07:30:57Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-30T07:01:07Z"
+      "at": "2026-10-30T07:30:57Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,79 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-30T07:01:07Z"
+      "at": "2026-10-30T07:30:57Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-30T07:01:07Z"
+      "at": "2026-10-30T07:30:57Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "63",
-      "at": "2026-10-30T07:01:07Z"
+      "at": "2026-10-30T07:30:57Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-30T07:01:07Z"
+      "at": "2026-10-30T07:30:57Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-30T07:01:07Z"
+      "at": "2026-10-30T07:30:57Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-30T07:01:07Z"
+      "at": "2026-10-30T07:30:57Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Spain Train Disaster Aftermath",
-      "summary": "Following a deadly high-speed train crash in Spain, officials and experts continue to investigate the causes and evaluate railway safety standards. Victims of the disaster include notable figures such as a young athlete and a former government minister.",
+      "title": "Russian Strikes and Energy Attacks",
+      "summary": "Russian military forces targeted energy infrastructure in Kyiv while humanitarian efforts proceeded toward Oleshky. The ongoing attacks continue to strain regional stability and critical civilian services.",
+      "article_ids": [
+        "edf9c9543e854eb74f7def87"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261030-live-russia-strikes-energy-facilities-kyiv-aid-convoy-heads-besieged-town-oleshky-ukraine",
+          "headline": "Russia strikes energy facilities in Kyiv as aid convoy heads for besieged town of Oleshky",
+          "published_at": "2026-10-30T07:28:16Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "French Security Concerns and Protests",
+      "summary": "French officials have warned of elevated violence risks as the nation prepares for upcoming demonstrations. Security forces remain on high alert following recent targeted incidents and social unrest.",
+      "article_ids": [
+        "4448523ca1791e4c911dd585"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261030-french-minister-warns-of-very-high-violence-risk-as-country-braces-for-halloween-protests",
+          "headline": "French minister warns of 'very high' violence risk as country braces for Halloween protests",
+          "published_at": "2026-10-30T06:57:15Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Spain Railway Disaster Aftermath",
+      "summary": "Investigations continue following a major high-speed train crash in Spain that resulted in multiple casualties. Public officials and experts are reviewing safety protocols and infrastructure management after the tragedy.",
       "article_ids": [
         "0aa56e0902b0dd6a02ad1045",
-        "7651f92a199e5c10522a20bc",
         "291b9791a54b08fd64db10a6",
         "1241405fa89582c635b1e6e1"
       ],
@@ -89,63 +122,36 @@
       "source_count": 2
     },
     {
-      "title": "Security Concerns in France",
-      "summary": "French authorities have raised warnings regarding a very high risk of violence ahead of upcoming protests and Halloween demonstrations. Meanwhile, investigators in a Paris suburb shooting confirmed that the suspect deliberately targeted individuals of Muslim or African appearance.",
+      "title": "Cryptocurrency Platform Security Breach",
+      "summary": "Binance has experienced a massive security breach resulting in a potential record-breaking financial impact. Cybersecurity experts are currently assessing the extent of the exploit and its implications for digital asset markets.",
       "article_ids": [
-        "4448523ca1791e4c911dd585",
-        "d3d67dcd6967fb8667572786",
-        "cc2b8a3569dcdf0d250ae611",
-        "891079f35275a6bd81563c29"
+        "5b06e141b7e20b255f21ba5e",
+        "4686c47049bf556410c238c5"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261030-french-minister-warns-of-very-high-violence-risk-as-country-braces-for-halloween-protests",
-          "headline": "French minister warns of 'very high' violence risk as country braces for Halloween protests",
-          "published_at": "2026-10-30T06:57:15Z"
+          "url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist",
+          "headline": "Binance security breach has $6.3 billion impact in potential record crypto heist",
+          "published_at": "2026-10-30T03:48:28Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmd7qjq13prpo?at_medium=RSS&at_campaign=rss",
-          "headline": "Paris suburb shooting suspect targeted people of Muslim or African appearance, prosecutor says",
-          "published_at": "2026-10-29T19:19:23Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist",
+          "headline": "Binance hit by $6.3 billion security breach in potential record crypto heist",
+          "published_at": "2026-10-30T03:48:28Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     }
   ],
-  "top_stories": [
+  "developing": [
     {
-      "title": "EU and Canada Deepen Bilateral Ties",
-      "summary": "European and Canadian officials met to discuss expanding bilateral cooperation and strengthening strategic partnerships. Leaders focused on shared economic challenges and ways to diversify trade without antagonizing major global powers.",
-      "article_ids": [
-        "9feda50ba5349b22fad2b468",
-        "9c7cbf26437529e98be2584b",
-        "5c04beb137b6b45add65232b"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-canada-summit-montreal-shared-challenges",
-          "headline": "Canada and Europe share challenge of diversifying without antagonizing US and China",
-          "published_at": "2026-10-30T01:51:56Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/245822/associate-or-ever-closer-association-semantics-aside-what-does-that-leave-the-eu-canada-love-in",
-          "headline": "‘Associate’ or ‘ever-closer association’? Semantics aside, what does that leave the EU-Canada love-in?",
-          "published_at": "2026-10-29T19:00:00Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "European Central Bank Leadership Transition",
-      "summary": "European Central Bank President Christine Lagarde stepped down from her position. Political analysts and financial markets are currently assessing the front-runners in line to replace her.",
-      "article_ids": [
-        "d35236965e8e0761202c9676",
-        "daaa8a43545e9eba6f1842eb"
-      ],
+      "label": "ECB · Lagarde · steps · Christine",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 6,
+      "latest_at": "2026-10-29T21:01:37Z",
       "sources": [
         {
           "publisher": "France 24 English",
@@ -154,16 +160,46 @@
           "published_at": "2026-10-29T21:01:37Z"
         },
         {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-eu-2092-rdf",
+          "headline": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
+          "published_at": "2026-10-29T10:33:00Z"
+        },
+        {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/meet-the-front-runners-to-replace-ecb-christine-lagarde",
-          "headline": "Meet the front-runners to replace Lagarde",
-          "published_at": "2026-10-29T17:22:06Z"
+          "url": "https://www.politico.eu/article/ecb-president-lagarde-to-step-down-in-february",
+          "headline": "Christine Lagarde to step down as ECB president in February",
+          "published_at": "2026-10-29T10:17:34Z"
         }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
+      ]
+    },
+    {
+      "label": "Canada · EU · Associate · closer",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 6,
+      "latest_at": "2026-10-29T19:00:00Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/245822/associate-or-ever-closer-association-semantics-aside-what-does-that-leave-the-eu-canada-love-in",
+          "headline": "‘Associate’ or ‘ever-closer association’? Semantics aside, what does that leave the EU-Canada love-in?",
+          "published_at": "2026-10-29T19:00:00Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ursula-von-der-leyen-associate-member-status-canada-eu-capitals-objections",
+          "headline": "Von der Leyen touts ‘associate member’ status for Canada over objections of EU capitals",
+          "published_at": "2026-10-29T15:18:43Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&at_campaign=rss",
+          "headline": "EU chief lays out vision for new Canada partnership at Montreal summit",
+          "published_at": "2026-10-29T15:14:34Z"
+        }
+      ]
+    },
     {
       "label": "Russian · train · drone · kills",
       "origin": "convergence",
@@ -192,70 +228,42 @@
       ]
     },
     {
-      "label": "election · midterm · America · US",
+      "label": "shooting · Paris · prosecutor · Suspect",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-30T03:30:00Z",
+      "item_count": 5,
+      "latest_at": "2026-10-29T19:19:23Z",
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/inside-americas-midterm-election-battle",
-          "headline": "Inside America’s midterm election battle",
-          "published_at": "2026-10-30T03:30:00Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmd7qjq13prpo?at_medium=RSS&at_campaign=rss",
+          "headline": "Paris suburb shooting suspect targeted people of Muslim or African appearance, prosecutor says",
+          "published_at": "2026-10-29T19:19:23Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/people-profit/20261029-a-tale-of-two-economies-how-america-s-cost-of-living-crisis-is-shaping-us-midterm-elections",
-          "headline": "A tale of two economies: How America's cost-of-living crisis is shaping US midterm elections",
-          "published_at": "2026-10-29T16:13:14Z"
-        }
-      ]
-    },
-    {
-      "label": "Americans · Trump · Ireland",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-29T17:08:46Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/reporters/20261029-ireland-becomes-refuge-for-anti-trump-americans",
-          "headline": "Ireland becomes refuge for anti-Trump Americans",
-          "published_at": "2026-10-29T17:08:46Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-10-29/how-trumps-latin-american-allies-helped-flavio-bolsonaro-flee-brazil.html",
-          "headline": "How Trump’s Latin American allies helped Flávio Bolsonaro flee Brazil",
-          "published_at": "2026-10-29T15:51:49Z"
-        }
-      ]
-    },
-    {
-      "label": "bans · EU",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-29T17:02:50Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/245875/corrupt-foreign-officials-should-face-eu-visa-bans-and-asset-freezes-meps-and-estonia-say",
-          "headline": "Corrupt foreign officials should face EU visa-bans and asset-freezes, MEPs and Estonia say",
-          "published_at": "2026-10-29T17:02:50Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-tells-capitals-to-halt-their-national-social-media-bans-for-a-year",
-          "headline": "EU tells capitals to halt their national social media bans for a year",
-          "published_at": "2026-10-29T12:29:23Z"
+          "url": "https://www.france24.com/en/video/20261029-french-shooting-suspect-deliberately-targeted-muslims-africans",
+          "headline": "French shooting suspect deliberately targeted Muslims, Africans",
+          "published_at": "2026-10-29T18:45:57Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "edf9c9543e854eb74f7def87",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russia strikes energy facilities in Kyiv as aid convoy heads for besieged town of Oleshky",
+      "url": "https://www.france24.com/en/europe/20261030-live-russia-strikes-energy-facilities-kyiv-aid-convoy-heads-besieged-town-oleshky-ukraine",
+      "published_at": "2026-10-30T07:28:16Z",
+      "collected_at": "2026-10-30T07:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "4448523ca1791e4c911dd585",
       "source_id": "france24",
@@ -2196,34 +2204,6 @@
       "url": "https://www.france24.com/en/tv-shows/sports/20261029-league-cup-liverpool-edges-chelsea-in-penalty-shoot-out",
       "published_at": "2026-10-29T06:08:31Z",
       "collected_at": "2026-10-29T10:01:03Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "afa82e69e896ce2fc2ee7c17",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "North Korea fires 'around a dozen' ballistic missiles amid rising tensions with South Korea",
-      "url": "https://www.france24.com/en/asia-pacific/20261029-north-korea-launches-around-a-dozen-ballistic-missiles-amid-rising-tensions-with-south-korea",
-      "published_at": "2026-10-29T05:04:35Z",
-      "collected_at": "2026-10-29T07:30:55Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "1949a8880469b2f542ebea3e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: Israelis await final election results, with no majority in sight",
-      "url": "https://www.france24.com/en/middle-east/20261029-live-israeli-elections-are-coming-to-a-close-with-no-majority-to-be-seen",
-      "published_at": "2026-10-29T03:36:46Z",
-      "collected_at": "2026-10-29T07:30:55Z",
       "topics": [
         "politics",
         "security",
