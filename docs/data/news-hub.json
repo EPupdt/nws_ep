@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-30T14:30:53Z",
-  "last_successful_collection_at": "2026-10-30T14:30:53Z",
+  "generated_at": "2026-10-30T15:01:17Z",
+  "last_successful_collection_at": "2026-10-30T15:01:17Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-30T14:30:53Z"
+      "at": "2026-10-30T15:01:17Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-30T14:30:53Z"
+      "at": "2026-10-30T15:01:17Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-30T14:30:53Z"
+      "at": "2026-10-30T15:01:17Z"
     },
     {
       "id": "euractiv",
@@ -29,76 +29,53 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-30T14:30:53Z"
+      "at": "2026-10-30T15:01:17Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-30T14:30:53Z"
+      "at": "2026-10-30T15:01:17Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
-      "count": "62",
-      "at": "2026-10-30T14:30:53Z"
+      "count": "58",
+      "at": "2026-10-30T15:01:17Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-30T14:30:53Z"
+      "at": "2026-10-30T15:01:17Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-30T14:30:53Z"
+      "at": "2026-10-30T15:01:17Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-30T14:30:53Z"
+      "at": "2026-10-30T15:01:17Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Spanish Railway Disaster Aftermath",
-      "summary": "Spain's transport minister stated that he will not resign following a major high-speed train disaster. Authorities continue to address the mounting death toll and demand answers regarding the incident.",
+      "title": "France Braces for Protests and Economic Contraction",
+      "summary": "France faces heightened security risks and potential violence ahead of a new wave of protests. Meanwhile, the economy minister has warned that the country could face severe financial challenges following reports of a gross domestic product contraction.",
       "article_ids": [
-        "2997f5846cbd92d77b3cf7c1",
-        "53989de84001ee25d2d398f6"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss",
-          "headline": "Spain transport minister says he won't resign over high-speed rail disaster",
-          "published_at": "2026-10-30T13:03:34Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261030-spain-demands-answers-as-train-disaster-toll-rises",
-          "headline": "Spain demands answers as train disaster toll rises",
-          "published_at": "2026-10-30T10:05:53Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "French Economic Contraction and Unrest",
-      "summary": "France's finance minister warned that the economy is heading toward a wall as new figures show a GDP contraction. Meanwhile, ongoing tensions and protests persist across the country ahead of a third weekend of demonstrations.",
-      "article_ids": [
-        "f06f5b0e657ac8c75e12d338",
+        "18bf745263a24c0592c8b4a7",
         "5e1a9499f5bbc9580cdea4a5"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261030-third-weekend-of-protests-looms-as-tensions-persist-across-france",
-          "headline": "Third weekend of protests looms as tensions persist across France",
-          "published_at": "2026-10-30T14:10:52Z"
+          "url": "https://www.france24.com/en/video/20261030-france-braces-for-new-wave-of-protests-govt-warns-of-very-high-violence-risk",
+          "headline": "France braces for new wave of protests, govt warns of 'very high' violence risk",
+          "published_at": "2026-10-30T14:35:37Z"
         },
         {
           "publisher": "POLITICO Europe",
@@ -108,47 +85,77 @@
         }
       ],
       "source_count": 2
+    },
+    {
+      "title": "Spanish Rail Disaster and Political Aftermath",
+      "summary": "Spain continues to deal with the aftermath of a deadly high-speed train disaster as authorities face mounting scrutiny and pressure. Transport officials have addressed the incident amidst ongoing investigations into the rail network's operations.",
+      "article_ids": [
+        "75dd10d07a1ee890972c3575",
+        "2997f5846cbd92d77b3cf7c1"
+      ],
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/spain/2026-10-30/spains-high-speed-train-control-center-state-of-the-art-software-and-tremendous-pressure.html",
+          "headline": "Spain’s high-speed train control center: state-of-the-art software and tremendous pressure",
+          "published_at": "2026-10-30T14:51:48Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss",
+          "headline": "Spain transport minister says he won't resign over high-speed rail disaster",
+          "published_at": "2026-10-30T13:03:34Z"
+        }
+      ],
+      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "Russian Media Closure",
-      "summary": "The prominent Russian newspaper Novaya Gazeta has shut down under intense pressure from authorities. This closure marks a significant blow to independent journalism and free press inside Russia.",
+      "title": "French Unrest and Economic Pressures",
+      "summary": "France is preparing for further protests as the government warns of a very high risk of violence. Concurrently, new figures indicate an economic contraction that has prompted warnings from the nation's economy minister.",
       "article_ids": [
-        "969b903eccf2124fe55e38f9",
-        "edee306497d721d47fe84bdc"
+        "18bf745263a24c0592c8b4a7",
+        "5e1a9499f5bbc9580cdea4a5"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss",
-          "headline": "Prominent Russian newspaper shuts down under pressure from authorities",
-          "published_at": "2026-10-30T11:23:06Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261030-france-braces-for-new-wave-of-protests-govt-warns-of-very-high-violence-risk",
+          "headline": "France braces for new wave of protests, govt warns of 'very high' violence risk",
+          "published_at": "2026-10-30T14:35:37Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261030-russia-s-bastion-of-free-press-novaya-gazeta-shuts-down-after-years-of-kremlin-pressure",
-          "headline": "Russia's bastion of free press Novaya Gazeta shuts down under Kremlin pressure",
-          "published_at": "2026-10-30T08:42:24Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/economy-minister-roland-lescure-warns-france-could-hit-the-wall-as-new-figures-show-gdp-contraction",
+          "headline": "Economy minister warns France could ‘hit the wall’ as new figures show GDP contraction",
+          "published_at": "2026-10-30T10:19:54Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "Espionage Investigation in Poland",
-      "summary": "A Russian citizen has been detained and faces spying charges in Poland. The arrest followed an incident involving the photographing of railway infrastructure.",
+      "title": "Spanish Rail Incident Scrutiny",
+      "summary": "Spain's high-speed train control center operates under intense pressure following a deadly accident on the network. The Spanish transport minister has stated that he will not resign despite growing calls to quit over the disaster.",
       "article_ids": [
-        "6d4de493040e273018104d41"
+        "75dd10d07a1ee890972c3575",
+        "2997f5846cbd92d77b3cf7c1"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russian-citizen-detained-in-poland-over-espionage",
-          "headline": "Russian citizen faces spying charges in Poland after photographing railways",
-          "published_at": "2026-10-30T13:35:45Z"
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/spain/2026-10-30/spains-high-speed-train-control-center-state-of-the-art-software-and-tremendous-pressure.html",
+          "headline": "Spain’s high-speed train control center: state-of-the-art software and tremendous pressure",
+          "published_at": "2026-10-30T14:51:48Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss",
+          "headline": "Spain transport minister says he won't resign over high-speed rail disaster",
+          "published_at": "2026-10-30T13:03:34Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
@@ -156,7 +163,7 @@
       "label": "Canada · EU · Associate",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 4,
+      "item_count": 3,
       "latest_at": "2026-10-29T19:00:00Z",
       "sources": [
         {
@@ -201,27 +208,6 @@
       ]
     },
     {
-      "label": "Spain · train · crash · deadly",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-10-29T20:50:25Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/c6vgjeg0myzgo?at_medium=RSS&at_campaign=rss",
-          "headline": "Watch: What leaked audio reveals about Spain train crash",
-          "published_at": "2026-10-29T20:50:25Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/an-absurdity-to-blame-human-error-spain-s-deadly-train-crash-should-never-have-happened",
-          "headline": "'An absurdity' to blame human error: Spain's deadly train crash 'should never' have happened",
-          "published_at": "2026-10-29T17:15:50Z"
-        }
-      ]
-    },
-    {
       "label": "dies · Patrick · Stewart · star",
       "origin": "convergence",
       "source_count": 2,
@@ -241,9 +227,114 @@
           "published_at": "2026-10-29T20:21:52Z"
         }
       ]
+    },
+    {
+      "label": "Americans · Trump · Ireland",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-10-29T17:08:46Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/reporters/20261029-ireland-becomes-refuge-for-anti-trump-americans",
+          "headline": "Ireland becomes refuge for anti-Trump Americans",
+          "published_at": "2026-10-29T17:08:46Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-10-29/how-trumps-latin-american-allies-helped-flavio-bolsonaro-flee-brazil.html",
+          "headline": "How Trump’s Latin American allies helped Flávio Bolsonaro flee Brazil",
+          "published_at": "2026-10-29T15:51:49Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "75dd10d07a1ee890972c3575",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Spain’s high-speed train control center: state-of-the-art software and tremendous pressure",
+      "url": "https://english.elpais.com/spain/2026-10-30/spains-high-speed-train-control-center-state-of-the-art-software-and-tremendous-pressure.html",
+      "published_at": "2026-10-30T14:51:48Z",
+      "collected_at": "2026-10-30T15:01:17Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "18bf745263a24c0592c8b4a7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France braces for new wave of protests, govt warns of 'very high' violence risk",
+      "url": "https://www.france24.com/en/video/20261030-france-braces-for-new-wave-of-protests-govt-warns-of-very-high-violence-risk",
+      "published_at": "2026-10-30T14:35:37Z",
+      "collected_at": "2026-10-30T15:01:17Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "d00140d86a686b6caa11761c",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "The Rutte way or the Carney method? Scaramucci says Europe’s Trump strategy is off the Mark",
+      "url": "https://www.politico.eu/article/mark-rutte-mark-carney-donald-trump-anthony-scaramucci-white-house-strategy-europe",
+      "published_at": "2026-10-30T14:32:19Z",
+      "collected_at": "2026-10-30T15:01:17Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "f89b42d6c9952078ff870b34",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Black Sea shipping under growing threats as drones hit container ships",
+      "url": "https://www.france24.com/en/black-sea-shipping-under-growing-threats-as-drones-hit-container-ships",
+      "published_at": "2026-10-30T14:27:51Z",
+      "collected_at": "2026-10-30T15:01:17Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "0e760a396e294fec311734f9",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'The Phantom of the Opera' haunts French cinemas again",
+      "url": "https://www.france24.com/en/tv-shows/arts24/20261030-the-phantom-of-the-opera-haunts-french-cinemas-again",
+      "published_at": "2026-10-30T14:24:15Z",
+      "collected_at": "2026-10-30T15:01:17Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f39494c897154c1dbf5a2bdc",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Spanish transport minister faces calls to quit after deadly train crash",
+      "url": "https://www.france24.com/en/video/20261030-spanish-transport-minister-faces-calls-to-quit-after-deadly-train-crash",
+      "published_at": "2026-10-30T14:21:39Z",
+      "collected_at": "2026-10-30T15:01:17Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "35a982bf1c4e4cdc2b45b729",
       "source_id": "euobserver",
@@ -308,6 +399,20 @@
       "url": "https://euobserver.com/245996/culture-groups-on-their-knees-after-30-funding-cut-proposed-in-next-eus-budget",
       "published_at": "2026-10-30T14:05:12Z",
       "collected_at": "2026-10-30T14:30:53Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "cfa38ec37638651d9788f6d7",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Culture groups ‘on their knees’ after 30% funding cut proposed in EU’s next budget",
+      "url": "https://euobserver.com/245996/culture-groups-on-their-knees-after-30-funding-cut-proposed-in-next-eus-budget",
+      "published_at": "2026-10-30T14:05:12Z",
+      "collected_at": "2026-10-30T15:01:17Z",
       "topics": [
         "institutions",
         "policy",
@@ -518,6 +623,20 @@
       "url": "https://www.politico.eu/article/former-united-states-ambassadors-say-america-must-stand-with-ukraine",
       "published_at": "2026-10-30T11:28:44Z",
       "collected_at": "2026-10-30T11:30:59Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "ca3e21ca5b3d7355edead4d7",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Former US ambassadors: America must stand with Ukraine",
+      "url": "https://www.politico.eu/article/former-united-states-ambassadors-say-america-must-stand-with-ukraine",
+      "published_at": "2026-10-30T11:28:44Z",
+      "collected_at": "2026-10-30T15:01:17Z",
       "topics": [
         "institutions",
         "politics",
@@ -1869,244 +1988,6 @@
       ]
     },
     {
-      "id": "621f0053104cf2d7869b171a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Spain reckons with second deadly train crash of the year ahead of national election",
-      "url": "https://www.france24.com/en/video/20261029-spain-reckons-with-second-deadly-train-crash-of-the-year-ahead-of-national-election",
-      "published_at": "2026-10-29T14:50:53Z",
-      "collected_at": "2026-10-29T15:01:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4b5ea131478e3a295ca81bd2",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Trump and Obama trade barbs in closing week of US midterm election",
-      "url": "https://www.france24.com/en/video/20261029-trump-and-obama-trade-barbs-in-closing-week-of-us-midterm-election",
-      "published_at": "2026-10-29T14:48:42Z",
-      "collected_at": "2026-10-29T15:01:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4437a1e8cb6a0055c0ea335b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Minimum wage increase could come early as France braces for protests",
-      "url": "https://www.france24.com/en/video/20261029-minimum-wage-increase-could-come-early-as-france-braces-for-protests",
-      "published_at": "2026-10-29T14:47:48Z",
-      "collected_at": "2026-10-29T15:01:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "6a2c363eff5165ec6c28736a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Real questions to be asked' after deadly train collision in Spain, journalist says",
-      "url": "https://www.france24.com/en/tv-shows/perspective/20261029-real-questions-to-be-asked-after-deadly-train-collision-in-spain-journalist-says",
-      "published_at": "2026-10-29T14:44:07Z",
-      "collected_at": "2026-10-29T15:01:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "d4ebbe19e4b124dad9702bb7",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Middlemen raked in billions of forints from Szijjártó’s Covid ventilator deals (Day 170 of the Tisza government)",
-      "url": "https://euobserver.com/245711/middlemen-raked-in-billions-of-forints-from-szijjartos-covid-ventilator-deals-day-170-of-the-tisza-government",
-      "published_at": "2026-10-29T14:39:37Z",
-      "collected_at": "2026-10-29T15:01:07Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "c3c54cbe86fa3e9025b0b541",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Russia unleashes killing spree against Ukrainian civilians on Thursday, targeting children, trains, and buses (Ukraine Battlefield update, Day 1,708)",
-      "url": "https://euobserver.com/245770/russia-unleashes-killing-spree-against-ukrainian-civilians-on-thursday-targeting-children-trains-and-buses-ukraine-battlefield-update-day-1708",
-      "published_at": "2026-10-29T14:39:15Z",
-      "collected_at": "2026-10-29T15:01:07Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "b5468d46932f38dc18b328f9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Why is Donald Trump avoiding the Epstein case at all costs?",
-      "url": "https://www.france24.com/en/video/20261029-why-is-donald-trump-avoiding-the-epstein-case-at-all-costs",
-      "published_at": "2026-10-29T14:37:59Z",
-      "collected_at": "2026-10-29T15:01:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4fc2563bf7d199245de64ae4",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Canada to join EU network of supercomputers",
-      "url": "https://www.politico.eu/article/canada-joining-eu-supercomputer-network",
-      "published_at": "2026-10-29T14:34:08Z",
-      "collected_at": "2026-10-29T15:01:07Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "6f905e9a5d841f030c54ebac",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Paris becomes an open-air museum",
-      "url": "https://www.france24.com/en/tv-shows/entre-nous/20261029-paris-becomes-an-open-air-museum",
-      "published_at": "2026-10-29T14:23:13Z",
-      "collected_at": "2026-10-29T15:01:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "fc10177bf01c36d879dd1eff",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Egypt media crackdown draws ‘lame’ response from EU Commission",
-      "url": "https://euobserver.com/245717/egypt-media-crackdown-draws-lame-response-from-eu-commission",
-      "published_at": "2026-10-29T14:21:44Z",
-      "collected_at": "2026-10-29T14:30:56Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "ddcd7b50ecc48f4a71730ed3",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Shayna Feinman, an American woman missing for two years, wrongly located in Tijuana",
-      "url": "https://english.elpais.com/international/2026-10-29/shayna-feinman-an-american-woman-missing-for-two-years-wrongly-located-in-tijuana.html",
-      "published_at": "2026-10-29T14:20:15Z",
-      "collected_at": "2026-10-29T14:30:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "6f46742471517c161d73753b",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-      "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T14:17:35Z",
-      "collected_at": "2026-10-29T15:01:07Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "a5dd588709547bb5ed004c12",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Former Spanish employment minister died in train crash",
-      "url": "https://www.politico.eu/article/former-spanish-minister-fatima-banez-died-train-crash",
-      "published_at": "2026-10-29T14:12:29Z",
-      "collected_at": "2026-10-29T14:30:56Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "6c82953c1dacc933074e6851",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Lagarde’s bandages due to a ‘little skin cancer,’ not ‘kick-boxing in Thailand’",
-      "url": "https://www.politico.eu/article/christine-lagarde-european-central-bank-bandages-skin-cancer",
-      "published_at": "2026-10-29T14:08:43Z",
-      "collected_at": "2026-10-29T14:30:56Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "e07c1403d2973ca6bbfeda57",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Shock of rail tragedy gives way to sorrow and outrage in politically divided Spain",
-      "url": "https://www.bbc.co.uk/news/articles/ckn9rq8204l0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T14:08:23Z",
-      "collected_at": "2026-10-29T14:30:56Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "7b9e4b2dac0ca6c06aed1fbe",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Russian strike on busy train platform kills at least 14 in Dnipro",
-      "url": "https://www.politico.eu/article/russia-attacks-ukrainian-civilians-in-several-regions-killing-dozens-within-few-hours",
-      "published_at": "2026-10-29T14:04:04Z",
-      "collected_at": "2026-10-29T14:30:56Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "c2e5efc042ed864ccf29652d",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Rock collapse kills two in Turkey's Cappadocia, local media reports",
-      "url": "https://www.bbc.co.uk/news/articles/cknv08nvzld4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T13:44:39Z",
-      "collected_at": "2026-10-29T15:01:07Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "8c6d88dc03978f56c64b2e91",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2135,20 +2016,6 @@
       ]
     },
     {
-      "id": "51fe06dcfe4feba477b250c2",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Carney to push for closer ties at Canada-EU summit in Montreal",
-      "url": "https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T12:27:31Z",
-      "collected_at": "2026-10-29T15:01:07Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "62e514b2c7d03a87f0c1ec6a",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2160,6 +2027,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "ebda61ab35320e277fa725fe",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Argentine man arrested for keeping his wife and three children locked up for years",
+      "url": "https://english.elpais.com/international/2026-10-28/argentine-man-arrested-for-keeping-his-wife-and-three-children-locked-up-for-years.html",
+      "published_at": "2026-10-28T14:16:38Z",
+      "collected_at": "2026-10-30T15:01:17Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2359,20 +2240,6 @@
       ]
     },
     {
-      "id": "2f1d8817b915ec64b8cea3dc",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Witness testifies Polish president discussed “making money bringing girls” to hotel where they worked 20 years ago",
-      "url": "https://notesfrompoland.com/2026/10/27/witness-testifies-polish-president-discussed-making-money-bringing-girls-to-hotel-where-they-worked-20-years-ago",
-      "published_at": "2026-10-27T14:07:24Z",
-      "collected_at": "2026-10-29T15:01:07Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "be6fb86d68e8fe473d22110a",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2438,20 +2305,6 @@
       "collected_at": "2026-10-30T08:01:06Z",
       "topics": [
         "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "6e67d6f7f97bdbe6a3308478",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Time is running out for Germany to pay Polish WWII victims the compensation they deserve [Opinion]",
-      "url": "https://notesfrompoland.com/2026/10/25/time-is-running-out-for-germany-to-pay-polish-wwii-victims-the-compensation-they-deserve-opinion",
-      "published_at": "2026-10-25T14:10:55Z",
-      "collected_at": "2026-10-29T15:01:07Z",
-      "topics": [
-        "central_europe",
         "politics",
         "society"
       ]
@@ -2552,6 +2405,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "cae5c250d47bc40a39d60cdc",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "A windowless ground-floor unit for $4,750: the AI boom pushes San Francisco rents skyward",
+      "url": "https://english.elpais.com/economy-and-business/2026-10-22/a-windowless-ground-floor-unit-for-4750-the-ai-boom-pushes-san-francisco-rents-skyward.html",
+      "published_at": "2026-10-22T13:02:56Z",
+      "collected_at": "2026-10-30T15:01:17Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
