@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-30T05:01:04Z",
-  "last_successful_collection_at": "2026-10-30T05:01:04Z",
+  "generated_at": "2026-10-30T05:30:49Z",
+  "last_successful_collection_at": "2026-10-30T05:30:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-30T05:01:04Z"
+      "at": "2026-10-30T05:30:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-10-30T05:01:04Z"
+      "at": "2026-10-30T05:30:49Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-10-30T05:01:04Z"
+      "at": "2026-10-30T05:30:49Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-10-30T05:01:04Z"
+      "at": "2026-10-30T05:30:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-10-30T05:01:04Z"
+      "at": "2026-10-30T05:30:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "63",
-      "at": "2026-10-30T05:01:04Z"
+      "at": "2026-10-30T05:30:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-10-30T05:01:04Z"
+      "at": "2026-10-30T05:30:49Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-30T05:01:04Z"
+      "at": "2026-10-30T05:30:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-10-30T05:01:04Z"
+      "at": "2026-10-30T05:30:49Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Spain Train Crash Aftermath",
-      "summary": "Following a deadly railway disaster in Spain, officials and reports continue to examine the systemic failures and infrastructure issues behind the high-speed rail network. Families and the public mourn the victims, which include notable figures, while debates intensify over accountability.",
+      "title": "Deadly Train Crash in Spain",
+      "summary": "Following a deadly train crash in Spain, officials and reports highlighted casualties including a young athlete and a former minister while questioning high-speed railway safety. The incident has drawn intense public scrutiny over the management and structural reliability of the nation's railway network.",
       "article_ids": [
         "0aa56e0902b0dd6a02ad1045",
         "291b9791a54b08fd64db10a6",
-        "7651f92a199e5c10522a20bc",
         "1241405fa89582c635b1e6e1"
       ],
       "sources": [
@@ -90,7 +89,7 @@
     },
     {
       "title": "Paris Suburb Shooting Investigation",
-      "summary": "French prosecutors report that the suspect in a Paris suburb shooting deliberately targeted individuals of Muslim or African appearance. The attack has heightened security concerns and sparked broader discussions across France regarding extremist right-wing ideologies.",
+      "summary": "A shooting incident in a Paris suburb prompted an anti-terrorism investigation after prosecutors stated the suspect deliberately targeted individuals of Muslim or African appearance. The attack has elevated security concerns and heightened discussions around extremist right-wing ideologies in France.",
       "article_ids": [
         "d3d67dcd6967fb8667572786",
         "cc2b8a3569dcdf0d250ae611",
@@ -115,12 +114,27 @@
   ],
   "top_stories": [
     {
-      "title": "EU and Canada Enhance Bilateral Engagement",
-      "summary": "European and Canadian leaders met at a summit in Montreal to discuss shared strategic challenges and economic diversification. Discussions centered on navigating relations with global powers while strengthening bilateral ties.",
+      "title": "Binance Security Breach",
+      "summary": "A massive security breach at Binance resulted in a potential record cryptocurrency heist impacting $6.3 billion. Authorities and industry watchers are assessing the extensive financial repercussions of the attack.",
+      "article_ids": [
+        "5b06e141b7e20b255f21ba5e"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist",
+          "headline": "Binance security breach has $6.3 billion impact in potential record crypto heist",
+          "published_at": "2026-10-30T03:48:28Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "EU and Canada Partnership",
+      "summary": "European and Canadian leaders engaged in bilateral talks in Montreal to navigate global challenges. Both regions discussed strategies to diversify economic ties without antagonizing major global powers.",
       "article_ids": [
         "9feda50ba5349b22fad2b468",
-        "9c7cbf26437529e98be2584b",
-        "5c04beb137b6b45add65232b"
+        "9c7cbf26437529e98be2584b"
       ],
       "sources": [
         {
@@ -137,14 +151,15 @@
         }
       ],
       "source_count": 2
-    },
+    }
+  ],
+  "developing": [
     {
-      "title": "European Central Bank Leadership Transition",
-      "summary": "ECB President Christine Lagarde has stepped down from her position to speak out freely on key matters. Analysts and policymakers are actively discussing potential front-runners to succeed her at the central bank.",
-      "article_ids": [
-        "d35236965e8e0761202c9676",
-        "daaa8a43545e9eba6f1842eb"
-      ],
+      "label": "ECB · Lagarde · steps · Christine",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 6,
+      "latest_at": "2026-10-29T21:01:37Z",
       "sources": [
         {
           "publisher": "France 24 English",
@@ -153,16 +168,19 @@
           "published_at": "2026-10-29T21:01:37Z"
         },
         {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-eu-2092-rdf",
+          "headline": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
+          "published_at": "2026-10-29T10:33:00Z"
+        },
+        {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/meet-the-front-runners-to-replace-ecb-christine-lagarde",
-          "headline": "Meet the front-runners to replace Lagarde",
-          "published_at": "2026-10-29T17:22:06Z"
+          "url": "https://www.politico.eu/article/ecb-president-lagarde-to-step-down-in-february",
+          "headline": "Christine Lagarde to step down as ECB president in February",
+          "published_at": "2026-10-29T10:17:34Z"
         }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
+      ]
+    },
     {
       "label": "Russian · train · drone · kills",
       "origin": "convergence",
@@ -229,27 +247,6 @@
           "url": "https://english.elpais.com/international/2026-10-29/how-trumps-latin-american-allies-helped-flavio-bolsonaro-flee-brazil.html",
           "headline": "How Trump’s Latin American allies helped Flávio Bolsonaro flee Brazil",
           "published_at": "2026-10-29T15:51:49Z"
-        }
-      ]
-    },
-    {
-      "label": "bans · EU",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-10-29T17:02:50Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/245875/corrupt-foreign-officials-should-face-eu-visa-bans-and-asset-freezes-meps-and-estonia-say",
-          "headline": "Corrupt foreign officials should face EU visa-bans and asset-freezes, MEPs and Estonia say",
-          "published_at": "2026-10-29T17:02:50Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-tells-capitals-to-halt-their-national-social-media-bans-for-a-year",
-          "headline": "EU tells capitals to halt their national social media bans for a year",
-          "published_at": "2026-10-29T12:29:23Z"
         }
       ]
     }
@@ -2202,20 +2199,6 @@
       ]
     },
     {
-      "id": "ee8569d7b1cb6d2ef864e4c6",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Chaos um Bellevue: Merz entgleitet die Bundespräsidenten-Frage",
-      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/chaos-um-bellevue-merz-entgleitet-die-bundesprasidenten-frage",
-      "published_at": "2026-10-29T04:30:00Z",
-      "collected_at": "2026-10-29T05:01:07Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "af58522261506ecca141bf42",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2482,13 +2465,13 @@
       ]
     },
     {
-      "id": "6de806cdb6a638babe175eb5",
+      "id": "42add0b25c4cbd3b38596e2d",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "Zoe Kazan takes on her grandfather’s legacy in ‘East of Eden’",
-      "url": "https://english.elpais.com/people/2026-10-25/zoe-kazan-takes-on-her-grandfathers-legacy-in-east-of-eden.html",
-      "published_at": "2026-10-25T04:00:00Z",
-      "collected_at": "2026-10-29T05:01:07Z",
+      "title": "Sodium, the new white gold?",
+      "url": "https://english.elpais.com/climate/2026-10-24/sodium-the-new-white-gold.html",
+      "published_at": "2026-10-24T04:00:00Z",
+      "collected_at": "2026-10-30T05:30:49Z",
       "topics": [
         "politics",
         "society",
@@ -2496,13 +2479,13 @@
       ]
     },
     {
-      "id": "e13dd1ce46ca28aaaeeb9548",
+      "id": "4b8b7da41b00e76d3a58761c",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "Kathleen Belew, historian: ‘Trump is using and benefiting from the white power movement’",
-      "url": "https://english.elpais.com/usa/2026-10-25/kathleen-belew-historian-trump-is-using-and-benefiting-from-the-white-power-movement.html",
-      "published_at": "2026-10-25T04:00:00Z",
-      "collected_at": "2026-10-29T05:01:07Z",
+      "title": "Mikey Madison, the shy horse rider who won an Oscar and is back in a big way",
+      "url": "https://english.elpais.com/people/2026-10-24/mikey-madison-the-shy-horse-rider-who-won-an-oscar-and-is-back-in-a-big-way.html",
+      "published_at": "2026-10-24T04:00:00Z",
+      "collected_at": "2026-10-30T05:30:49Z",
       "topics": [
         "politics",
         "society",
@@ -2510,27 +2493,13 @@
       ]
     },
     {
-      "id": "c0d2ac92859cb065204acd60",
+      "id": "1bd66d505ec9c0327599b408",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "Bunkers, ransoms and threats of mutilation: Peru’s kidnapping surge",
-      "url": "https://english.elpais.com/international/2026-10-25/bunkers-ransoms-and-threats-of-mutilation-perus-kidnapping-surge.html",
-      "published_at": "2026-10-25T04:00:00Z",
-      "collected_at": "2026-10-29T05:01:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "2a1d8ac4061aac05d1262e5d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Robert Reich: ‘Capitalism is compatible with democracy as long as democracy is in the driver’s seat’",
-      "url": "https://english.elpais.com/usa/2026-10-24/robert-reich-capitalism-is-compatible-with-democracy-as-long-as-democracy-is-in-the-drivers-seat.html",
-      "published_at": "2026-10-24T14:00:00Z",
-      "collected_at": "2026-10-29T05:01:07Z",
+      "title": "Studio Ghibli’s obsession with food: Preparing and tasting every bite before drawing it",
+      "url": "https://english.elpais.com/culture/2026-10-24/studio-ghiblis-obsession-with-food-preparing-and-tasting-every-bite-before-drawing-it.html",
+      "published_at": "2026-10-24T04:00:00Z",
+      "collected_at": "2026-10-30T05:30:49Z",
       "topics": [
         "politics",
         "society",
@@ -2559,6 +2528,20 @@
       "url": "https://www.dw.com/en/ukraine-tries-to-shut-moscow-s-airports-with-drone-strikes-on-russia/a-79737469?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-10-23T14:23:00Z",
       "collected_at": "2026-10-29T15:30:50Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "85563aac5ef22493d99e0798",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Trump, Putin and Xi at one table, without Ukraine. What Moscow wants from the proposal and why Beijing might agree.",
+      "url": "https://www.dw.com/en/trump-putin-and-xi-at-one-table-without-ukraine-what-moscow-wants-from-the-proposal-and-why-beijing-might-agree/a-79726190?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-21T19:32:00Z",
+      "collected_at": "2026-10-30T05:30:49Z",
       "topics": [
         "politics",
         "society",
@@ -2636,6 +2619,20 @@
       ]
     },
     {
+      "id": "271afd645f7902fd3daa71bb",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "King of Spain in Ceuta: ‘Sovereignty and territorial integrity are not negotiable, and faced with any risk, our duty is their defense’",
+      "url": "https://english.elpais.com/spain/2026-10-13/king-of-spain-in-ceuta-sovereignty-and-territorial-integrity-are-not-negotiable-and-faced-with-any-risk-our-duty-is-their-defense.html",
+      "published_at": "2026-10-13T19:57:20Z",
+      "collected_at": "2026-10-30T05:30:49Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "cbc0022366ab2272d2a0c2f6",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2657,6 +2654,20 @@
       "url": "https://english.elpais.com/international/2026-10-07/the-madrid-bear-sculpture-meant-for-a-miami-roundabout-that-ended-up-inside-a-restaurant-instead.html",
       "published_at": "2026-10-07T14:09:26Z",
       "collected_at": "2026-10-29T17:30:56Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "b728e8d504ed418df10b678e",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "From Airbnb to stray cats: Trump’s childhood home in Queens sells for $2 million",
+      "url": "https://english.elpais.com/usa/2026-09-21/from-airbnb-to-stray-cats-trumps-childhood-home-in-queens-sells-for-2-million.html",
+      "published_at": "2026-09-21T14:29:55Z",
+      "collected_at": "2026-10-30T05:30:49Z",
       "topics": [
         "politics",
         "society",
