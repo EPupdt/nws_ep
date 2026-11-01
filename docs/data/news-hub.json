@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-01T18:30:54Z",
-  "last_successful_collection_at": "2026-11-01T18:30:54Z",
+  "generated_at": "2026-11-01T19:01:00Z",
+  "last_successful_collection_at": "2026-11-01T19:01:00Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-01T18:30:54Z"
+      "at": "2026-11-01T19:01:00Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "31",
-      "at": "2026-11-01T18:30:54Z"
+      "at": "2026-11-01T19:01:00Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-01T18:30:54Z"
+      "at": "2026-11-01T19:01:00Z"
     },
     {
       "id": "euractiv",
@@ -29,66 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-01T18:30:54Z"
+      "at": "2026-11-01T19:01:00Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-01T18:30:54Z"
+      "at": "2026-11-01T19:01:00Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-11-01T18:30:54Z"
+      "at": "2026-11-01T19:01:00Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-01T18:30:54Z"
+      "at": "2026-11-01T19:01:00Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-01T18:30:54Z"
+      "at": "2026-11-01T19:01:00Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-01T18:30:54Z"
+      "at": "2026-11-01T19:01:00Z"
     }
   ],
   "europe_now": [
     {
-      "title": "German Cost of Living Protests Turn Violent",
-      "summary": "Demonstrations regarding the cost of living in Germany escalated into violent unrest, resulting in reported looting of shops.",
-      "article_ids": [
-        "29aa1fbd73acd1a29c754572",
-        "62f87b557dc3470b49f072e8"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-          "headline": "Shops looted as German cost-of-living protests turn violent",
-          "published_at": "2026-11-01T11:57:48Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-          "headline": "Shops looted as German cost of living protests turn violent",
-          "published_at": "2026-11-01T01:59:57Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
       "title": "Constitutional Showdown in Poland",
-      "summary": "Poland faced a major constitutional showdown as the European Commission voiced support for Donald Tusk amid ongoing judicial tensions.",
+      "summary": "Poland is facing a major constitutional standoff involving its judicial system. The European Commission has expressed support for Prime Minister Donald Tusk amid the ongoing political crisis.",
       "article_ids": [
         "66d248dc1c9383bd834e275e",
         "7d7dbc3867a83756a6a3ed18"
@@ -108,32 +85,47 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "Energy Infrastructure Strikes and Humanitarian Evacuations in Ukraine",
-      "summary": "Russian military strikes impacted energy infrastructure in Ukraine, leaving numerous residents without power. Meanwhile, humanitarian evacuations and returns took place during a reported truce period.",
+      "title": "Energy Infrastructure Strikes in Ukraine",
+      "summary": "Recent Russian military strikes have targeted critical infrastructure, leaving thousands of residents without electricity across Ukraine. Humanitarian efforts and evacuations continue to address the mounting civilian crisis.",
       "article_ids": [
-        "30fcea94521bf84c63292b28",
-        "9cc61175ab12bf380a89310d",
-        "6c9fdd16b462fd8e7eeb63bb"
+        "6c9fdd16b462fd8e7eeb63bb",
+        "30fcea94521bf84c63292b28"
       ],
       "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/oleshky-evacuations-during-first-humanitarian-truce-of-war-end",
-          "headline": "Oleshky: Evacuations during first humanitarian truce of war end",
-          "published_at": "2026-11-01T17:44:51Z"
-        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/russia-strikes-leave-thousands-without-power-ukraine-volodymyr-zelenskyy",
           "headline": "Russian strikes leave thousands without power in Ukraine, says Zelenskyy",
           "published_at": "2026-11-01T14:48:54Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/oleshky-evacuations-during-first-humanitarian-truce-of-war-end",
+          "headline": "Oleshky: Evacuations during first humanitarian truce of war end",
+          "published_at": "2026-11-01T17:44:51Z"
         }
       ],
       "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Elections and Regional Security in Bulgaria",
+      "summary": "Bulgarian citizens are participating in a presidential runoff election. The vote is taking place against the backdrop of heightened security concerns and regional tensions in the Black Sea area.",
+      "article_ids": [
+        "d82a9f9b068ace0cbdcc1db6"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261101-bulgarians-vote-in-presidential-runoff-amid-security-tensions-in-the-black-sea",
+          "headline": "Bulgarians vote in presidential runoff amid security tensions in the Black Sea",
+          "published_at": "2026-11-01T05:47:51Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "developing": [
@@ -174,6 +166,21 @@
       ]
     },
     {
+      "label": "cost · German · living · looted",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 2,
+      "latest_at": "2026-11-01T11:57:48Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+          "headline": "Shops looted as German cost-of-living protests turn violent",
+          "published_at": "2026-11-01T11:57:48Z"
+        }
+      ]
+    },
+    {
       "label": "crash · elections · Israeli · Lula",
       "origin": "radar",
       "source_count": 1,
@@ -185,21 +192,6 @@
           "url": "https://www.france24.com/en/europe/20261101-the-week-in-pictures-lula-s-victory-israeli-elections-and-spain-train-crash",
           "headline": "The week in pictures: Lula's victory, Israeli elections and Spain train crash",
           "published_at": "2026-11-01T11:14:42Z"
-        }
-      ]
-    },
-    {
-      "label": "across · demonstrate · Europe · Paris",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-10-31T21:29:01Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss",
-          "headline": "Thousands demonstrate in Paris as protests spread across Europe",
-          "published_at": "2026-10-31T21:29:01Z"
         }
       ]
     }
@@ -1340,6 +1332,20 @@
       ]
     },
     {
+      "id": "8c5b960b1548807fa483881c",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Evacuation from Oleshky: How are preparations going?",
+      "url": "https://www.dw.com/en/evacuation-from-oleshky-how-are-preparations-going/a-79790001?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-28T17:04:00Z",
+      "collected_at": "2026-11-01T19:01:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "def703cf089e199f7af63d05",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1655,6 +1661,20 @@
       "url": "https://www.dw.com/en/serbia-tens-of-thousands-rally-ahead-of-elections/a-79738420?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-10-23T03:15:00Z",
       "collected_at": "2026-11-01T11:30:57Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "2986bdd0cf8a364dbc15e572",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Are the French police the most violent in the EU?",
+      "url": "https://www.dw.com/en/are-the-french-police-the-most-violent-in-the-eu/a-79732855?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-22T16:01:00Z",
+      "collected_at": "2026-11-01T19:01:00Z",
       "topics": [
         "politics",
         "society",
