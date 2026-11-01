@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-01T15:01:05Z",
-  "last_successful_collection_at": "2026-11-01T15:01:05Z",
+  "generated_at": "2026-11-01T15:30:52Z",
+  "last_successful_collection_at": "2026-11-01T15:30:52Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-01T15:01:05Z"
+      "at": "2026-11-01T15:30:52Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "31",
-      "at": "2026-11-01T15:01:05Z"
+      "at": "2026-11-01T15:30:52Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-01T15:01:05Z"
+      "at": "2026-11-01T15:30:52Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-01T15:01:05Z"
+      "at": "2026-11-01T15:30:52Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-01T15:01:05Z"
+      "at": "2026-11-01T15:30:52Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-11-01T15:01:05Z"
+      "at": "2026-11-01T15:30:52Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-01T15:01:05Z"
+      "at": "2026-11-01T15:30:52Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-01T15:01:05Z"
+      "at": "2026-11-01T15:30:52Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-01T15:01:05Z"
+      "at": "2026-11-01T15:30:52Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian strikes cause power outages in Ukraine",
-      "summary": "Russian military strikes have left thousands of people across Ukraine without electricity. Ukrainian President Volodymyr Zelenskyy reported on the widespread power disruptions caused by the recent attacks.",
+      "title": "Russian Strikes Cause Power Outages in Ukraine",
+      "summary": "President Zelenskyy reported that recent Russian strikes have left thousands of people without power across Ukraine. The ongoing attacks continue to heavily impact civilian infrastructure and essential services.",
       "article_ids": [
         "6c9fdd16b462fd8e7eeb63bb"
       ],
@@ -80,8 +80,33 @@
       "source_count": 1
     },
     {
-      "title": "Constitutional showdown in Poland",
-      "summary": "Poland is facing a major constitutional crisis involving its court judges and political leadership. The European Commission has expressed its backing for Prime Minister Donald Tusk amid the ongoing legal dispute.",
+      "title": "German Protests and Civil Unrest",
+      "summary": "Cost-of-living demonstrations in Germany turned violent as shops were looted amid widespread civil unrest. Police and protesters have clashed in various locations as public demonstrations continue to spread.",
+      "article_ids": [
+        "29aa1fbd73acd1a29c754572",
+        "62f87b557dc3470b49f072e8"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+          "headline": "Shops looted as German cost-of-living protests turn violent",
+          "published_at": "2026-11-01T11:57:48Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+          "headline": "Shops looted as German cost of living protests turn violent",
+          "published_at": "2026-11-01T01:59:57Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Constitutional Showdown in Poland",
+      "summary": "Poland is facing a major constitutional showdown involving the judiciary and government authorities. The European Commission has expressed backing for Donald Tusk as he maintains a firm stance in the ongoing court dispute.",
       "article_ids": [
         "66d248dc1c9383bd834e275e",
         "7d7dbc3867a83756a6a3ed18"
@@ -101,51 +126,20 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Civil Unrest and Protests in Germany",
-      "summary": "Demonstrations addressing the cost of living in Germany have turned violent, resulting in reported looting at shops. Police forces and protesters have also clashed following youth-led demonstrations demanding increased education funding.",
-      "article_ids": [
-        "29aa1fbd73acd1a29c754572",
-        "c2d1355dce089327371b50d5"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-          "headline": "Shops looted as German cost-of-living protests turn violent",
-          "published_at": "2026-11-01T11:57:48Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261031-german-police-protesters-clash-after-gen-z-demos",
-          "headline": "'Gen Z' demonstrations across Germany demand more education funding",
-          "published_at": "2026-10-31T20:07:52Z"
-        }
-      ],
-      "source_count": 2
     },
     {
-      "title": "Demonstrations Across France",
-      "summary": "Large-scale protests have drawn hundreds of thousands of demonstrators to the streets across France. Meanwhile, student unions have announced plans for high school blockades to restart on Monday.",
+      "title": "Demonstrations and Unrest Across France",
+      "summary": "Student unions in France have announced that high school blockades will restart following a wave of widespread protests. Hundreds of thousands of demonstrators have previously participated in largely peaceful actions across the country.",
       "article_ids": [
         "2e9cfcf1a55fb703727e10ca",
-        "dc468f700b3bd677156b6595"
+        "2c9f67ce2d26d9186998dbb9"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261101-french-high-school-blockades-to-restart-on-monday-student-unions-say",
-          "headline": "French high school blockades to restart on Monday, student unions say",
-          "published_at": "2026-11-01T14:31:49Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/hundreds-of-thousands-protest-in-france-for-act-iii",
-          "headline": "Hundreds of thousands protest in France for \"Act III\"",
-          "published_at": "2026-11-01T09:35:02Z"
+          "url": "https://www.france24.com/en/france/20261031-some-320-000-demonstrators-take-part-in-largely-peaceful-protests-across-france",
+          "headline": "Some 320,000 demonstrators take part in largely peaceful protests across France",
+          "published_at": "2026-10-31T21:34:15Z"
         }
       ],
       "source_count": 1
@@ -153,17 +147,23 @@
   ],
   "developing": [
     {
-      "label": "across · demonstrators · France · largely",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-10-31T21:34:15Z",
+      "label": "France · across · protest · Hundreds",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-11-01T09:35:02Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261031-some-320-000-demonstrators-take-part-in-largely-peaceful-protests-across-france",
-          "headline": "Some 320,000 demonstrators take part in largely peaceful protests across France",
-          "published_at": "2026-10-31T21:34:15Z"
+          "url": "https://www.france24.com/en/hundreds-of-thousands-protest-in-france-for-act-iii",
+          "headline": "Hundreds of thousands protest in France for \"Act III\"",
+          "published_at": "2026-11-01T09:35:02Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/france-youth-protests-cost-of-living-spread-europe",
+          "headline": "Hundreds of thousands of protesters march across France for third week in a row",
+          "published_at": "2026-10-31T17:33:31Z"
         }
       ]
     },
@@ -942,34 +942,6 @@
       ]
     },
     {
-      "id": "32c4434bed0acfdcd01257bd",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Residents from Russian-occupied Oleshky reunite with families after evacuation operation",
-      "url": "https://www.france24.com/en/europe/20261031-evacuees-from-russian-occupied-oleshky-arrive-in-ukraine",
-      "published_at": "2026-10-31T12:45:49Z",
-      "collected_at": "2026-10-31T15:30:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0ae3c296b383d5e41ebae42e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "UK PM Burnham says 'open' to slavery apology but rules out financial reparations",
-      "url": "https://www.france24.com/en/europe/20261031-burnham-says-uk-open-to-slavery-apology-but-rules-out-financial-reparations",
-      "published_at": "2026-10-31T12:31:49Z",
-      "collected_at": "2026-10-31T15:30:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "b48a375ef7de49c48151b77d",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1075,6 +1047,20 @@
       "url": "https://euobserver.com/246038/kursk-and-krynky-operations-were-disasters-for-ukraine-new-casualty-figures-show-ukraine-battlefield-update-day-1709",
       "published_at": "2026-10-30T14:19:44Z",
       "collected_at": "2026-11-01T14:30:54Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "cfa38ec37638651d9788f6d7",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Culture groups ‘on their knees’ after 30% funding cut proposed in EU’s next budget",
+      "url": "https://euobserver.com/245996/culture-groups-on-their-knees-after-30-funding-cut-proposed-in-next-eus-budget",
+      "published_at": "2026-10-30T14:05:12Z",
+      "collected_at": "2026-11-01T15:30:52Z",
       "topics": [
         "institutions",
         "policy",
@@ -1348,62 +1334,6 @@
       ]
     },
     {
-      "id": "d4ebbe19e4b124dad9702bb7",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Middlemen raked in billions of forints from Szijjártó’s Covid ventilator deals (Day 170 of the Tisza government)",
-      "url": "https://euobserver.com/245711/middlemen-raked-in-billions-of-forints-from-szijjartos-covid-ventilator-deals-day-170-of-the-tisza-government",
-      "published_at": "2026-10-29T14:39:37Z",
-      "collected_at": "2026-10-31T15:30:49Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "c3c54cbe86fa3e9025b0b541",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Russia unleashes killing spree against Ukrainian civilians on Thursday, targeting children, trains, and buses (Ukraine Battlefield update, Day 1,708)",
-      "url": "https://euobserver.com/245770/russia-unleashes-killing-spree-against-ukrainian-civilians-on-thursday-targeting-children-trains-and-buses-ukraine-battlefield-update-day-1708",
-      "published_at": "2026-10-29T14:39:15Z",
-      "collected_at": "2026-10-31T15:30:49Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "6f46742471517c161d73753b",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-      "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T14:17:35Z",
-      "collected_at": "2026-10-31T15:30:49Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "c2e5efc042ed864ccf29652d",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Rock collapse kills two in Turkey's Cappadocia, local media reports",
-      "url": "https://www.bbc.co.uk/news/articles/cknv08nvzld4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T13:44:39Z",
-      "collected_at": "2026-10-31T15:30:49Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "62e514b2c7d03a87f0c1ec6a",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1415,6 +1345,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "ebda61ab35320e277fa725fe",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Argentine man arrested for keeping his wife and three children locked up for years",
+      "url": "https://english.elpais.com/international/2026-10-28/argentine-man-arrested-for-keeping-his-wife-and-three-children-locked-up-for-years.html",
+      "published_at": "2026-10-28T14:16:38Z",
+      "collected_at": "2026-11-01T15:30:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -1551,20 +1495,6 @@
       "url": "https://notesfrompoland.com/2026/10/27/germanys-economy-minister-hails-poland-as-example-of-great-success",
       "published_at": "2026-10-27T15:30:25Z",
       "collected_at": "2026-10-31T16:30:54Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "2f1d8817b915ec64b8cea3dc",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Witness testifies Polish president discussed “making money bringing girls” to hotel where they worked 20 years ago",
-      "url": "https://notesfrompoland.com/2026/10/27/witness-testifies-polish-president-discussed-making-money-bringing-girls-to-hotel-where-they-worked-20-years-ago",
-      "published_at": "2026-10-27T14:07:24Z",
-      "collected_at": "2026-10-31T15:30:49Z",
       "topics": [
         "central_europe",
         "politics",
@@ -1723,6 +1653,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "cae5c250d47bc40a39d60cdc",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "A windowless ground-floor unit for $4,750: the AI boom pushes San Francisco rents skyward",
+      "url": "https://english.elpais.com/economy-and-business/2026-10-22/a-windowless-ground-floor-unit-for-4750-the-ai-boom-pushes-san-francisco-rents-skyward.html",
+      "published_at": "2026-10-22T13:02:56Z",
+      "collected_at": "2026-11-01T15:30:52Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
