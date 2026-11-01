@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-01T14:01:02Z",
-  "last_successful_collection_at": "2026-11-01T14:01:02Z",
+  "generated_at": "2026-11-01T14:30:54Z",
+  "last_successful_collection_at": "2026-11-01T14:30:54Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-01T14:01:02Z"
+      "at": "2026-11-01T14:30:54Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "31",
-      "at": "2026-11-01T14:01:02Z"
+      "at": "2026-11-01T14:30:54Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-01T14:01:02Z"
+      "at": "2026-11-01T14:30:54Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-01T14:01:02Z"
+      "at": "2026-11-01T14:30:54Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-01T14:01:02Z"
+      "at": "2026-11-01T14:30:54Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-11-01T14:01:02Z"
+      "at": "2026-11-01T14:30:54Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-01T14:01:02Z"
+      "at": "2026-11-01T14:30:54Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-01T14:01:02Z"
+      "at": "2026-11-01T14:30:54Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-01T14:01:02Z"
+      "at": "2026-11-01T14:30:54Z"
     }
   ],
   "europe_now": [
     {
+      "title": "Violent Protests in Germany",
+      "summary": "Shops were looted as demonstrations regarding the cost of living turned violent in parts of Germany. The unrest follows a wave of youth-led rallies and widespread civil demonstrations across various European nations.",
+      "article_ids": [
+        "29aa1fbd73acd1a29c754572",
+        "62f87b557dc3470b49f072e8"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+          "headline": "Shops looted as German cost-of-living protests turn violent",
+          "published_at": "2026-11-01T11:57:48Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+          "headline": "Shops looted as German cost of living protests turn violent",
+          "published_at": "2026-11-01T01:59:57Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
       "title": "Constitutional Showdown in Poland",
-      "summary": "Poland is facing a major constitutional standoff involving judicial appointments and government leadership. The European Commission has voiced support for Prime Minister Donald Tusk amid the escalating political crisis.",
+      "summary": "Poland is facing a major political crisis centered around a constitutional showdown involving judges and government leadership. The European Commission has expressed explicit support for Polish Prime Minister Donald Tusk during the ongoing dispute.",
       "article_ids": [
         "66d248dc1c9383bd834e275e",
         "7d7dbc3867a83756a6a3ed18"
@@ -85,32 +108,15 @@
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "Bulgarian Presidential Runoff and Regional Security",
-      "summary": "Voters in Bulgaria are heading to the polls for a presidential runoff election. The vote takes place amid heightened security tensions in the Black Sea region.",
-      "article_ids": [
-        "d82a9f9b068ace0cbdcc1db6"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261101-bulgarians-vote-in-presidential-runoff-amid-security-tensions-in-the-black-sea",
-          "headline": "Bulgarians vote in presidential runoff amid security tensions in the Black Sea",
-          "published_at": "2026-11-01T05:47:51Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "Civil Unrest and Protests Across Europe",
-      "summary": "Widespread demonstrations and youth-led rallies have continued to sweep across multiple European nations, including France and Germany. Some of these protests over economic concerns and living costs have turned violent, resulting in clashes with law enforcement.",
+      "title": "Civil Unrest and Protests",
+      "summary": "Demonstrations involving hundreds of thousands of participants have taken place across multiple European countries. Protesters have voiced grievances ranging from economic pressures to education funding.",
       "article_ids": [
         "dc468f700b3bd677156b6595",
-        "62f87b557dc3470b49f072e8",
-        "4ac931411c5b04bf40277f7b"
+        "2c9f67ce2d26d9186998dbb9"
       ],
       "sources": [
         {
@@ -118,15 +124,32 @@
           "url": "https://www.france24.com/en/hundreds-of-thousands-protest-in-france-for-act-iii",
           "headline": "Hundreds of thousands protest in France for \"Act III\"",
           "published_at": "2026-11-01T09:35:02Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/france-youth-protests-cost-of-living-spread-europe",
-          "headline": "Hundreds of thousands of protesters march across France for third week in a row",
-          "published_at": "2026-10-31T17:33:31Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
+    },
+    {
+      "title": "Humanitarian Evacuations in Ukraine",
+      "summary": "Ukrainians have shared harrowing testimonies after returning from long periods spent in a Russia-occupied frontline city. Humanitarian efforts continue to focus on assisting evacuees from affected eastern territories.",
+      "article_ids": [
+        "a1904ec299a65d43cbfd2e53",
+        "89945caeb838126f1961aff7"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
+          "headline": "'We came back from hell', say Ukrainians after years in Russia-occupied frontline city",
+          "published_at": "2026-10-31T19:22:26Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
+          "headline": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
+          "published_at": "2026-10-31T19:22:26Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "developing": [
@@ -157,21 +180,6 @@
           "url": "https://www.france24.com/en/europe/20261101-the-week-in-pictures-lula-s-victory-israeli-elections-and-spain-train-crash",
           "headline": "The week in pictures: Lula's victory, Israeli elections and Spain train crash",
           "published_at": "2026-11-01T11:14:42Z"
-        }
-      ]
-    },
-    {
-      "label": "cost · German · living · looted",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-11-01T01:59:57Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-          "headline": "Shops looted as German cost of living protests turn violent",
-          "published_at": "2026-11-01T01:59:57Z"
         }
       ]
     },
@@ -231,6 +239,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "29aa1fbd73acd1a29c754572",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Shops looted as German cost-of-living protests turn violent",
+      "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-01T11:57:48Z",
+      "collected_at": "2026-11-01T14:30:54Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -893,34 +915,6 @@
       ]
     },
     {
-      "id": "64385682fdca9dc5b697b31f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Turkey nominates former foreign minister Sinirlioglu as UN chief",
-      "url": "https://www.france24.com/en/asia-pacific/20261031-turkey-nominates-former-foreign-minister-sinirlioglu-as-un-chief",
-      "published_at": "2026-10-31T14:28:10Z",
-      "collected_at": "2026-10-31T14:30:47Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "903085379f87edc18f6d000e",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Merz ‘surprised’ by Asian pushback to ‘Made in Europe’ plan for car industry",
-      "url": "https://www.politico.eu/article/friedrich-merz-surprised-by-asian-pushback-over-made-in-europe-car-industry",
-      "published_at": "2026-10-31T14:19:53Z",
-      "collected_at": "2026-10-31T14:30:47Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "32c4434bed0acfdcd01257bd",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -970,20 +964,6 @@
       "url": "https://www.france24.com/en/africa/20261031-senegal-hosts-africa-s-first-ever-youth-olympic-games",
       "published_at": "2026-10-31T09:37:07Z",
       "collected_at": "2026-10-31T20:30:57Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "9098e249e999ced2e56395fc",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: Some 15,000 demonstrators taking part in protests across France",
-      "url": "https://www.france24.com/en/france/20261031-live-france-braces-for-halloween-protests-government-vows-tough-response",
-      "published_at": "2026-10-31T05:53:27Z",
-      "collected_at": "2026-10-31T14:30:47Z",
       "topics": [
         "politics",
         "security",
@@ -1043,6 +1023,48 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "2997f5846cbd92d77b3cf7c1",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Spain transport minister says he won't resign over high-speed rail disaster",
+      "url": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-30T15:03:39Z",
+      "collected_at": "2026-11-01T14:30:54Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "35a982bf1c4e4cdc2b45b729",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Kursk and Krynky operations were disasters for Ukraine, new casualty figures show (Ukraine Battlefield update, Day 1,709)",
+      "url": "https://euobserver.com/246038/kursk-and-krynky-operations-were-disasters-for-ukraine-new-casualty-figures-show-ukraine-battlefield-update-day-1709",
+      "published_at": "2026-10-30T14:19:44Z",
+      "collected_at": "2026-11-01T14:30:54Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "34e6f7a1fce8a8d97be3c13b",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Polish Left seeks to end state funding of clergy’s social contributions as government reform stalls",
+      "url": "https://notesfrompoland.com/2026/10/30/polish-left-seeks-to-end-state-funding-of-priests-social-contributions-as-government-reform-stalls",
+      "published_at": "2026-10-30T13:44:27Z",
+      "collected_at": "2026-11-01T14:30:54Z",
+      "topics": [
+        "central_europe",
+        "politics",
         "society"
       ]
     },
@@ -1369,20 +1391,6 @@
       ]
     },
     {
-      "id": "93e927f2ec0131984eaeab12",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Polish bishop convicted for failing to promptly report child sex abuse allegations",
-      "url": "https://notesfrompoland.com/2026/10/29/polish-bishop-convicted-for-failing-to-promptly-report-child-sex-abuse-allegations",
-      "published_at": "2026-10-29T13:45:01Z",
-      "collected_at": "2026-10-31T14:30:47Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "c2e5efc042ed864ccf29652d",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1576,6 +1584,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "d247af2b2dccf9e88b7fd9aa",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The race for Los Angeles mayor: Two Democrats battle over housing, affordability and the Olympics",
+      "url": "https://english.elpais.com/usa/2026-10-26/the-race-for-los-angeles-mayor-two-democrats-battle-over-housing-affordability-and-the-olympics.html",
+      "published_at": "2026-10-26T13:14:32Z",
+      "collected_at": "2026-11-01T14:30:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
