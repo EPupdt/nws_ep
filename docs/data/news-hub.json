@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-02T10:30:59Z",
-  "last_successful_collection_at": "2026-11-02T10:30:59Z",
+  "generated_at": "2026-11-02T11:01:04Z",
+  "last_successful_collection_at": "2026-11-02T11:01:04Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-02T10:30:59Z"
+      "at": "2026-11-02T11:01:04Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "34",
-      "at": "2026-11-02T10:30:59Z"
+      "at": "2026-11-02T11:01:04Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-02T10:30:59Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-11-02T11:01:04Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-02T10:30:59Z"
+      "at": "2026-11-02T11:01:04Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-02T10:30:59Z"
+      "at": "2026-11-02T11:01:04Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-11-02T10:30:59Z"
+      "at": "2026-11-02T11:01:04Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-02T10:30:59Z"
+      "at": "2026-11-02T11:01:04Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-02T10:30:59Z"
+      "at": "2026-11-02T11:01:04Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-02T10:30:59Z"
+      "at": "2026-11-02T11:01:04Z"
     }
   ],
   "europe_now": [
     {
       "title": "Belgian Government Crisis",
-      "summary": "Belgian budget talks have failed, leaving the government facing a potential collapse. De Wever is poised to offer his resignation as a result of the political deadlock.",
+      "summary": "Belgian budget talks have collapsed, leading to expectations that the prime minister will offer his resignation to the king.",
       "article_ids": [
-        "f1f713553d60aa74568539c8"
+        "f1f713553d60aa74568539c8",
+        "b92fc96ffd1b9dd9f431d4b5"
       ],
       "sources": [
         {
@@ -75,13 +76,19 @@
           "url": "https://www.politico.eu/article/belgian-government-in-crisis-over-failed-budget-talks",
           "headline": "De Wever poised to offer his resignation as Belgian budget talks fail",
           "published_at": "2026-11-02T08:58:14Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/belgian-government-in-crisis-over-failed-budget-talks",
+          "headline": "King mulls De Wever’s resignation as Belgian budget talks fail",
+          "published_at": "2026-11-02T08:58:14Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Ukraine Conflict and Infrastructure Strikes",
-      "summary": "Russia and Ukraine have traded blame regarding cyber attacks and the hacking of emergency alert applications. Meanwhile, a fragile localized ceasefire in the Kherson region has ended amidst ongoing infrastructure strikes.",
+      "title": "Ukraine Conflict and Cyberattacks",
+      "summary": "As a fragile ceasefire concludes, both Russia and Ukraine have traded blame following cyberattacks targeting emergency alert applications.",
       "article_ids": [
         "820f83b7f6253693b56b89f7",
         "443567bbdf7a1b4b20e26212"
@@ -105,60 +112,60 @@
   ],
   "top_stories": [
     {
-      "title": "Ukrainian Infrastructure and Ceasefire Developments",
-      "summary": "Russian strikes have left thousands of people without power across Ukraine. Additionally, evacuations during the first humanitarian truce in the Kherson region have concluded.",
+      "title": "French Student Protests",
+      "summary": "Demonstrations and school blockades by youth groups have resumed in France on a smaller scale following the holiday break. Authorities are addressing associated civil unrest, including investigations into violent incidents directed at police.",
       "article_ids": [
-        "30fcea94521bf84c63292b28",
-        "6c9fdd16b462fd8e7eeb63bb"
+        "c8861246d6bfa753b4252237",
+        "d87e07dc2dbf59539e050739"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/oleshky-evacuations-during-first-humanitarian-truce-of-war-end",
-          "headline": "Oleshky: Evacuations during first humanitarian truce of war end",
-          "published_at": "2026-11-01T17:44:51Z"
+          "url": "https://www.france24.com/en/france/20261102-french-school-protests-resume-smaller-scale-after-holiday-break",
+          "headline": "French school protests resume on smaller scale after holiday break",
+          "published_at": "2026-11-02T10:53:39Z"
         },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russia-strikes-leave-thousands-without-power-ukraine-volodymyr-zelenskyy",
-          "headline": "Russian strikes leave thousands without power in Ukraine, says Zelenskyy",
-          "published_at": "2026-11-01T14:48:54Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Civil Unrest and Protests in France",
-      "summary": "French authorities launched an attempted murder investigation after a petrol bomb was thrown at police during demonstrations. Student unions have also announced that high school blockades are set to restart.",
-      "article_ids": [
-        "d87e07dc2dbf59539e050739",
-        "2e9cfcf1a55fb703727e10ca"
-      ],
-      "sources": [
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cwvg05z184j0o?at_medium=RSS&at_campaign=rss",
           "headline": "France launches attempted murder investigation after petrol bomb thrown at police",
           "published_at": "2026-11-02T00:15:30Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261101-french-high-school-blockades-to-restart-on-monday-student-unions-say",
-          "headline": "French high school blockades to restart on Monday, student unions say",
-          "published_at": "2026-11-01T14:31:49Z"
         }
       ],
       "source_count": 2
+    },
+    {
+      "title": "Regional Defense Concerns",
+      "summary": "NATO members have expressed growing alarm following the deployment of a major new Russian radar installation in Kaliningrad. Strategic discussions across Europe continue to focus on regional security and defense readiness.",
+      "article_ids": [
+        "f53ee4ce64a9c154d67a9f94",
+        "c612524befd8e79afdf86aae"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/russia-s-giant-new-radar-in-kaliningrad-raises-alarm-in-nato/a-79797815?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Russia's giant new radar in Kaliningrad raises alarm in NATO",
+          "published_at": "2026-11-01T20:34:00Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "developing": [
     {
-      "label": "Midterms · EU · faces · test",
+      "label": "Midterms · Trump",
       "origin": "convergence",
       "source_count": 3,
       "item_count": 4,
-      "latest_at": "2026-11-02T05:00:00Z",
+      "latest_at": "2026-11-02T10:45:22Z",
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261102-give-them-the-hammer-trump-threatens-iran-ahead-of-midterms",
+          "headline": "'Give them the hammer': Trump threatens Iran ahead of midterms",
+          "published_at": "2026-11-02T10:45:22Z"
+        },
         {
           "publisher": "EUobserver",
           "url": "https://euobserver.com/246086/this-week-eu-enlargement-report-cards-uk-defence-talks-and-us-mid-term-election",
@@ -170,12 +177,6 @@
           "url": "https://www.politico.eu/article/allies-fear-donald-trump-could-target-nato-after-midterm-loss",
           "headline": "Allies fear Trump will target NATO in case of midterm loss",
           "published_at": "2026-11-01T17:00:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/us-midterms-democrats-face-leftward-surge",
-          "headline": "US Midterms: Democrats face leftward surge",
-          "published_at": "2026-11-01T13:56:18Z"
         }
       ]
     },
@@ -201,37 +202,163 @@
       ]
     },
     {
-      "label": "Ceasefire · extension · Kherson · refuses",
+      "label": "France · protests",
       "origin": "radar",
       "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-11-01T12:41:48Z",
+      "item_count": 2,
+      "latest_at": "2026-11-02T09:57:47Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261101-localised-ceasefire-in-ukraine-s-kherson-region-set-to-end",
-          "headline": "Ceasefire in Ukraine's Kherson region set to end after Russia refuses extension",
-          "published_at": "2026-11-01T12:41:48Z"
+          "url": "https://www.france24.com/en/video/20261102-france-some-schools-blocked-as-limited-youth-protests-resume-after-holidays",
+          "headline": "France: Some schools blocked as limited youth protests resume after holidays",
+          "published_at": "2026-11-02T09:57:47Z"
         }
       ]
     },
     {
-      "label": "alarm · giant · Kaliningrad · NATO",
+      "label": "leave · power · Russian · strikes",
       "origin": "radar",
       "source_count": 1,
       "item_count": 1,
-      "latest_at": "2026-11-01T20:34:00Z",
+      "latest_at": "2026-11-01T14:48:54Z",
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/russia-s-giant-new-radar-in-kaliningrad-raises-alarm-in-nato/a-79797815?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Russia's giant new radar in Kaliningrad raises alarm in NATO",
-          "published_at": "2026-11-01T20:34:00Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/russia-strikes-leave-thousands-without-power-ukraine-volodymyr-zelenskyy",
+          "headline": "Russian strikes leave thousands without power in Ukraine, says Zelenskyy",
+          "published_at": "2026-11-01T14:48:54Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "c8861246d6bfa753b4252237",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French school protests resume on smaller scale after holiday break",
+      "url": "https://www.france24.com/en/france/20261102-french-school-protests-resume-smaller-scale-after-holiday-break",
+      "published_at": "2026-11-02T10:53:39Z",
+      "collected_at": "2026-11-02T11:01:04Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c44be62c3c917648f46316f7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'Give them the hammer': Trump threatens Iran ahead of midterms",
+      "url": "https://www.france24.com/en/video/20261102-give-them-the-hammer-trump-threatens-iran-ahead-of-midterms",
+      "published_at": "2026-11-02T10:45:22Z",
+      "collected_at": "2026-11-02T11:01:04Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "6631b764a59c9914d4072142",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'A shift in the air': Can young voters turn Texas blue?",
+      "url": "https://www.france24.com/en/video/20261102-a-shift-in-the-air-can-young-voters-turn-texas-blue",
+      "published_at": "2026-11-02T10:43:26Z",
+      "collected_at": "2026-11-02T11:01:04Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f83b162bc1886f5c082d3c7a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US midterms: Could Senate candidate James Talarico turn Texas blue?",
+      "url": "https://www.france24.com/en/video/20261102-us-midterms-could-senate-candidate-james-talarico-turn-texas-blue",
+      "published_at": "2026-11-02T10:30:43Z",
+      "collected_at": "2026-11-02T11:01:04Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c324f33a02ca49628e1b4fe2",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Freedom Fuel, the MAGA gas station chain promoted by Trump, faces growing number of complaints and fraud allegations",
+      "url": "https://english.elpais.com/usa/2026-11-02/freedom-fuel-the-maga-gas-station-chain-promoted-by-trump-faces-growing-number-of-complaints-and-fraud-allegations.html",
+      "published_at": "2026-11-02T10:26:32Z",
+      "collected_at": "2026-11-02T11:01:04Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "436d34ed53164bdfad2acffa",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ukraine and Russia both hit by cyberattacks on emergency apps",
+      "url": "https://www.france24.com/en/video/20261102-ukraine-and-russia-both-hit-by-cyberattacks-on-emergency-apps",
+      "published_at": "2026-11-02T10:20:45Z",
+      "collected_at": "2026-11-02T11:01:04Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "86804068e6aa71cc7276d7fa",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Binance users withdraw $3.4 billion after record crypto heist",
+      "url": "https://www.france24.com/en/tv-shows/business/20261102-binance-users-withdraw-3-4-billion-after-record-crypto-heist",
+      "published_at": "2026-11-02T10:18:55Z",
+      "collected_at": "2026-11-02T11:01:04Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c58ea53268ef8e32f278f529",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Midterms: Will Trump backlash lead to Democratic landslide?",
+      "url": "https://www.france24.com/en/video/20261102-midterms-will-trump-backlash-lead-to-democratic-landslide",
+      "published_at": "2026-11-02T10:11:46Z",
+      "collected_at": "2026-11-02T11:01:04Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "3d7be8a8fa92e79fff076d05",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France: Some schools blocked as limited youth protests resume after holidays",
+      "url": "https://www.france24.com/en/video/20261102-france-some-schools-blocked-as-limited-youth-protests-resume-after-holidays",
+      "published_at": "2026-11-02T09:57:47Z",
+      "collected_at": "2026-11-02T11:01:04Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "8cb261d98874a6ff25d53684",
       "source_id": "france24",
@@ -310,6 +437,20 @@
       "url": "https://www.politico.eu/article/belgian-government-in-crisis-over-failed-budget-talks",
       "published_at": "2026-11-02T08:58:14Z",
       "collected_at": "2026-11-02T09:01:06Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "b92fc96ffd1b9dd9f431d4b5",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "King mulls De Wever’s resignation as Belgian budget talks fail",
+      "url": "https://www.politico.eu/article/belgian-government-in-crisis-over-failed-budget-talks",
+      "published_at": "2026-11-02T08:58:14Z",
+      "collected_at": "2026-11-02T11:01:04Z",
       "topics": [
         "institutions",
         "politics",
@@ -944,20 +1085,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "1981aa25e83ee868be5a0f03",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "UK’s future lies in EU, says Rachel Reeves",
-      "url": "https://www.politico.eu/article/uk-future-eu-says-rachel-reeves",
-      "published_at": "2026-11-01T10:45:36Z",
-      "collected_at": "2026-11-01T11:00:57Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
