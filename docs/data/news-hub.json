@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-02T16:01:03Z",
-  "last_successful_collection_at": "2026-11-02T16:01:03Z",
+  "generated_at": "2026-11-02T16:30:57Z",
+  "last_successful_collection_at": "2026-11-02T16:30:57Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-02T16:01:03Z"
+      "at": "2026-11-02T16:30:57Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "35",
-      "at": "2026-11-02T16:01:03Z"
+      "count": "36",
+      "at": "2026-11-02T16:30:57Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-02T16:01:03Z"
+      "at": "2026-11-02T16:30:57Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-02T16:01:03Z"
+      "at": "2026-11-02T16:30:57Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-02T16:01:03Z"
+      "at": "2026-11-02T16:30:57Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-11-02T16:01:03Z"
+      "at": "2026-11-02T16:30:57Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-02T16:01:03Z"
+      "at": "2026-11-02T16:30:57Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-02T16:01:03Z"
+      "at": "2026-11-02T16:30:57Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-02T16:01:03Z"
+      "at": "2026-11-02T16:30:57Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Polish Border Security Operation",
-      "summary": "Poland has initiated a new security operation along its Russian border in direct response to intelligence reports warning of planned sabotage. Authorities are increasing defensive measures to safeguard the region against potential hybrid threats.",
+      "title": "Supermarket Freezers Hit by Cyber-Attack Across European Countries",
+      "summary": "A suspected cyber-attack has targeted shop freezers in multiple European countries, prompting security concerns across retail infrastructure. Authorities and companies are monitoring the situation as investigations into the multi-country digital breach continue.",
+      "article_ids": [
+        "d0bf4c6f188dbfb4c1e14e34",
+        "2da2353580dc6ef581b5f0c5"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
+          "headline": "Shop freezers in seven European countries hit by cyber-attack",
+          "published_at": "2026-11-02T15:12:22Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
+          "headline": "Shop freezers in seven European countries hit by suspected cyber-attack",
+          "published_at": "2026-11-02T14:11:13Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Poland Launches Border Operation Amid Sabotage Concerns",
+      "summary": "Poland has initiated a dedicated security operation along its Russian border in response to intelligence reports regarding planned sabotage. The defensive measures highlight heightened regional security concerns regarding cross-border threats.",
       "article_ids": [
         "6cf3ce50a88c53b7dfc439a9"
       ],
@@ -82,12 +105,28 @@
   ],
   "top_stories": [
     {
-      "title": "Bulgarian Presidential Election and Regional Security",
-      "summary": "Iliana Yotova has won the presidential election in Bulgaria following a competitive runoff vote. The political transition unfolds amid heightened security considerations concerning the broader Black Sea region.",
+      "title": "Cyber-Attacks Impact Retail and Emergency Services",
+      "summary": "Supermarket freezers across multiple European countries were affected by a suspected digital breach. Meanwhile, cyberattacks targeting mobile applications in Ukraine and Russia resulted in the distribution of fake emergency alerts.",
+      "article_ids": [
+        "d0bf4c6f188dbfb4c1e14e34",
+        "330b87e8acee6f8f63117530"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ukraine-and-russia-report-fake-emergency-alerts-after-cyberattacks-target-apps",
+          "headline": "Ukraine and Russia report fake emergency alerts after cyberattacks target apps",
+          "published_at": "2026-11-02T15:06:41Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Political Transitions and Border Security Measures",
+      "summary": "Iliana Iotova won the presidential runoff in Bulgaria, becoming the country's first female president amidst regional security concerns. Concurrently, Poland launched a border operation in response to reports of potential sabotage.",
       "article_ids": [
         "b3bc9c10ba67ecd89c362668",
-        "09679017a202d2805dcf2262",
-        "952e5dc43ff00e8dbe64efe7"
+        "6cf3ce50a88c53b7dfc439a9"
       ],
       "sources": [
         {
@@ -97,29 +136,13 @@
           "published_at": "2026-11-02T12:15:00Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261102-bulgaria-s-iotova-wins-presidential-runoff-vote-amid-black-sea-security-fears",
-          "headline": "Bulgaria's Iotova wins presidential runoff vote amid Black Sea security fears",
-          "published_at": "2026-11-02T11:40:27Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Regional Defense Measures in Poland",
-      "summary": "Poland has launched a specialized operation along its border with Russia following credible warnings of planned sabotage. The defensive deployment aims to secure vulnerable areas against incoming hybrid threats.",
-      "article_ids": [
-        "6cf3ce50a88c53b7dfc439a9"
-      ],
-      "sources": [
-        {
           "publisher": "Notes from Poland",
           "url": "https://notesfrompoland.com/2026/11/02/poland-launches-operation-along-russian-border-in-response-to-reports-of-planned-sabotage",
           "headline": "Poland launches operation along Russian border in response to reports of planned sabotage",
           "published_at": "2026-11-02T14:34:01Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
@@ -157,27 +180,6 @@
       ]
     },
     {
-      "label": "Ukraine · Russia · apps · emergency",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 6,
-      "latest_at": "2026-11-02T15:35:19Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/246297/many-more-evacuated-people-left-oleshky-for-ukraine-than-for-russia-prompting-putins-people-to-wonder-why-they-were-so-unloved-ukraine-battlefield-update-day-1712",
-          "headline": "Many more evacuated people left Oleshky for Ukraine than for Russia, prompting Putin’s people to wonder why they were so unloved (Ukraine Battlefield update, day 1,712)",
-          "published_at": "2026-11-02T15:35:19Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/ukraine-and-russia-report-fake-emergency-alerts-after-cyberattacks-target-apps",
-          "headline": "Ukraine and Russia report fake emergency alerts after cyberattacks target apps",
-          "published_at": "2026-11-02T15:06:41Z"
-        }
-      ]
-    },
-    {
       "label": "trek · UK · across · Bushby",
       "origin": "convergence",
       "source_count": 2,
@@ -199,28 +201,65 @@
       ]
     },
     {
-      "label": "attack · Belgium · Supermarket · Sweden",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-02T11:56:32Z",
+      "label": "break · French · protests · resume",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 2,
+      "latest_at": "2026-11-02T14:15:12Z",
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
-          "headline": "Supermarket freezers in Belgium, Sweden and Luxembourg hit by suspected cyber-attack",
-          "published_at": "2026-11-02T11:56:32Z"
-        },
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261102-french-school-protests-resume-on-smaller-scale-after-autumn-break",
+          "headline": "French school protests resume on smaller scale after autumn break",
+          "published_at": "2026-11-02T14:15:12Z"
+        }
+      ]
+    },
+    {
+      "label": "France · protests",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 2,
+      "latest_at": "2026-11-02T12:41:04Z",
+      "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/new-supermarket-hack-in-belgium-sweden-luxembourg",
-          "headline": "Hackers attack supermarket fridges in Belgium, Sweden and Luxembourg",
-          "published_at": "2026-11-02T11:19:32Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/perspective/20261102-no-political-solution-to-the-anger-in-france-expert-says-amid-ongoing-protests",
+          "headline": "'No political solution' to anger in France, expert says amid ongoing protests",
+          "published_at": "2026-11-02T12:41:04Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "04a3294973196d13487804a6",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "A musical overview of trans-European punk",
+      "url": "https://www.france24.com/en/tv-shows/arts24/20261102-a-musical-overview-of-trans-european-punk",
+      "published_at": "2026-11-02T16:05:15Z",
+      "collected_at": "2026-11-02T16:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "59aee45109867306867cbd73",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Israel's president begins process of coalition government negotiations",
+      "url": "https://www.france24.com/en/video/20261102-israel-s-president-begins-process-of-coalition-government-negotiations",
+      "published_at": "2026-11-02T15:57:00Z",
+      "collected_at": "2026-11-02T16:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "14756c160faa3527a7b0e0e7",
       "source_id": "politico_europe",
@@ -358,6 +397,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "d9c7e4c3806f512934ab726e",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hacked",
+      "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-02T14:35:01Z",
+      "collected_at": "2026-11-02T16:30:57Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -1832,48 +1885,6 @@
       ]
     },
     {
-      "id": "da2a1e180c581b8cadcc85ae",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "No extra funds for biodiversity at UN meeting, as vast majority of EU natural treasures left unprotected",
-      "url": "https://euobserver.com/246078/no-extra-funds-for-biodiversity-at-un-meeting-as-vast-majority-of-eu-natural-treasures-left-unprotected",
-      "published_at": "2026-10-30T16:03:39Z",
-      "collected_at": "2026-11-01T16:30:56Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "1ed69cc9cb9bb9d28cb3f74e",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland approves first fast-track renewable energy zones",
-      "url": "https://notesfrompoland.com/2026/10/30/poland-approves-first-fast-track-renewable-energy-zones",
-      "published_at": "2026-10-30T15:56:05Z",
-      "collected_at": "2026-11-01T16:30:56Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "83ac16224a7b90cd1a1916c4",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Belgian parliament to vote on divisive new law allowing police raids on people’s homes, if they are suspected of harbouring an undocumented migrant",
-      "url": "https://euobserver.com/246021/belgian-parliament-to-vote-on-divisive-new-law-allowing-police-raids-on-peoples-homes-if-they-are-suspected-of-harbouring-an-undocumented-migrant",
-      "published_at": "2026-10-30T15:45:13Z",
-      "collected_at": "2026-11-01T16:30:56Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "819fa08ae3caabfd8abea93e",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2154,20 +2165,6 @@
       ]
     },
     {
-      "id": "91c8eda5746abcf3b7ddee10",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Turkey's new deal on Mediterranean maritime boundaries with Libya is exacerbating issues with Greece and the EU",
-      "url": "https://www.dw.com/en/turkey-s-new-deal-on-mediterranean-maritime-boundaries-with-libya-is-exacerbating-issues-with-greece-and-the-eu/a-79745971?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-24T14:09:00Z",
-      "collected_at": "2026-11-01T16:30:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "2a1d8ac4061aac05d1262e5d",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2371,6 +2368,20 @@
       "url": "https://english.elpais.com/culture/2026-10-17/the-story-of-billy-childish-a-tormented-british-punk-icon-professional-art-kills-art.html",
       "published_at": "2026-10-17T04:00:00Z",
       "collected_at": "2026-11-02T07:01:04Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "42e7b79c219969a5c0750bc1",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Working to change the culture from within in Argentine women’s soccer",
+      "url": "https://english.elpais.com/sports/2026-10-15/working-to-change-the-culture-from-within-in-argentine-womens-soccer.html",
+      "published_at": "2026-10-15T13:07:54Z",
+      "collected_at": "2026-11-02T16:30:57Z",
       "topics": [
         "politics",
         "society",
