@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-02T10:01:05Z",
-  "last_successful_collection_at": "2026-11-02T10:01:05Z",
+  "generated_at": "2026-11-02T10:30:59Z",
+  "last_successful_collection_at": "2026-11-02T10:30:59Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-02T10:01:05Z"
+      "at": "2026-11-02T10:30:59Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "34",
-      "at": "2026-11-02T10:01:05Z"
+      "at": "2026-11-02T10:30:59Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-11-02T10:01:05Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-02T10:30:59Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-02T10:01:05Z"
+      "at": "2026-11-02T10:30:59Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-02T10:01:05Z"
+      "at": "2026-11-02T10:30:59Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-11-02T10:01:05Z"
+      "at": "2026-11-02T10:30:59Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-02T10:01:05Z"
+      "at": "2026-11-02T10:30:59Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-02T10:01:05Z"
+      "at": "2026-11-02T10:30:59Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-02T10:01:05Z"
+      "at": "2026-11-02T10:30:59Z"
     }
   ],
   "europe_now": [
@@ -961,20 +961,6 @@
       ]
     },
     {
-      "id": "ef5ddcc37187fe478cbd736e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Senegal hosts first Olympic event on African continent",
-      "url": "https://www.france24.com/en/senegal-hosts-first-olympic-event-on-african-continent",
-      "published_at": "2026-11-01T09:58:13Z",
-      "collected_at": "2026-11-01T10:30:56Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "fc59eb3509ec99bc9d174e01",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1381,34 +1367,6 @@
       ]
     },
     {
-      "id": "cdd41add4cdb9230d34bc509",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Many Cuban Americans feel betrayed by Trump, but most will still vote Republican: ‘They exploit our pain’",
-      "url": "https://english.elpais.com/usa/2026-10-30/many-cuban-americans-feel-betrayed-by-trump-but-most-will-still-vote-republican-they-exploit-our-pain.html",
-      "published_at": "2026-10-30T10:03:55Z",
-      "collected_at": "2026-11-01T10:30:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "3ede38d2dee24e2085c0f1bc",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Listen: Why is the EU introducing a new €2 charge on parcels?",
-      "url": "https://euobserver.com/245922/listen-why-is-the-eu-introducing-a-new-e2-charge-on-parcels",
-      "published_at": "2026-10-30T09:36:20Z",
-      "collected_at": "2026-11-01T10:30:56Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "e5acaae05aa09f244d19bf09",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1598,20 +1556,6 @@
       "url": "https://www.dw.com/en/russia-in-africa-what-is-putin-hoping-to-achieve/a-79781858?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-10-28T09:48:00Z",
       "collected_at": "2026-11-01T11:30:57Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "f532137a6a22298dfa7e1def",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Serbian police shoot dead assailant at Israeli Embassy",
-      "url": "https://www.dw.com/en/serbian-police-shoot-dead-assailant-at-israeli-embassy/a-79782905?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-28T08:48:00Z",
-      "collected_at": "2026-11-01T10:30:56Z",
       "topics": [
         "politics",
         "society",
@@ -1850,20 +1794,6 @@
       "url": "https://www.dw.com/en/ukraine-life-near-the-front-line-in-sloviansk/a-79722636?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-10-22T11:44:00Z",
       "collected_at": "2026-11-01T14:01:02Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "bd76819e6ea20be71bfec313",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Bulgaria: Concerns about security in the Black Sea dominate presidential election campaign",
-      "url": "https://www.dw.com/en/bulgaria-concerns-about-security-in-the-black-sea-dominate-presidential-election-campaign/a-79729094?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-22T08:31:00Z",
-      "collected_at": "2026-11-01T10:30:56Z",
       "topics": [
         "politics",
         "society",
