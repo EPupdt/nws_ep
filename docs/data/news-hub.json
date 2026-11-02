@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-02T21:01:05Z",
-  "last_successful_collection_at": "2026-11-02T21:01:05Z",
+  "generated_at": "2026-11-02T21:30:49Z",
+  "last_successful_collection_at": "2026-11-02T21:30:49Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-02T21:01:05Z"
+      "at": "2026-11-02T21:30:49Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "39",
-      "at": "2026-11-02T21:01:05Z"
+      "at": "2026-11-02T21:30:49Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-02T21:01:05Z"
+      "at": "2026-11-02T21:30:49Z"
     },
     {
       "id": "euractiv",
@@ -29,61 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-02T21:01:05Z"
+      "at": "2026-11-02T21:30:49Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-02T21:01:05Z"
+      "at": "2026-11-02T21:30:49Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-02T21:01:05Z"
+      "at": "2026-11-02T21:30:49Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-02T21:01:05Z"
+      "at": "2026-11-02T21:30:49Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-02T21:01:05Z"
+      "at": "2026-11-02T21:30:49Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-02T21:01:05Z"
+      "at": "2026-11-02T21:30:49Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Poland Initiates Border Operation Following Sabotage Warnings",
-      "summary": "Poland has deployed a new security operation along its border with Russia in direct response to intelligence warning of planned sabotage activities. The heightened defensive measures reflect ongoing regional security concerns stemming from the conflict in Eastern Europe.",
-      "article_ids": [
-        "6cf3ce50a88c53b7dfc439a9"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/02/poland-launches-operation-along-russian-border-in-response-to-reports-of-planned-sabotage",
-          "headline": "Poland launches operation along Russian border in response to reports of planned sabotage",
-          "published_at": "2026-11-02T14:34:01Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Escalating Conflict and Casualties in Ukraine",
-      "summary": "Recent Russian bombing attacks have resulted in dozens of casualties at an aid center in Ukraine, according to statements from Kyiv. Meanwhile, localized fighting has resumed in the Kherson region following the conclusion of a significant ceasefire period.",
+      "title": "Russian airstrike kills dozens at Ukrainian aid centre amid renewed fighting",
+      "summary": "A Russian bombing attack killed 26 people at an aid centre in Ukraine, according to statements from Kyiv. Meanwhile, active fighting has returned to the Kherson region following the conclusion of a prolonged ceasefire.",
       "article_ids": [
         "9f97e8272dfa32dc3c776f01",
         "15f265b519d789aacb815948"
@@ -103,10 +85,12 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Industrial Cyber Incidents and False Alerts",
-      "summary": "Retail refrigeration units across multiple European countries experienced severe disruptions following a targeted cyber incident. Additionally, cyberattacks compromised emergency applications in Ukraine and Russia, leading to the distribution of false nuclear warnings.",
+      "title": "Industrial Cyberattacks and False Alerts",
+      "summary": "Malicious cyber-attacks targeted commercial refrigeration infrastructure across multiple European countries, spoiling large quantities of food goods. Concurrently, cyber-incidents in Ukraine and Russia compromised regional alert applications and triggered unauthorized emergency warnings.",
       "article_ids": [
         "d0bf4c6f188dbfb4c1e14e34",
         "330b87e8acee6f8f63117530"
@@ -117,6 +101,29 @@
           "url": "https://www.france24.com/en/ukraine-and-russia-report-fake-emergency-alerts-after-cyberattacks-target-apps",
           "headline": "Ukraine and Russia report fake emergency alerts after cyberattacks target apps",
           "published_at": "2026-11-02T15:06:41Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Escalating Hostilities in Ukraine",
+      "summary": "A recent Russian bombing attack on an aid center in Ukraine resulted in twenty-six fatalities according to Kyiv's reports. Additionally, military engagements resumed within the Kherson region following the longest ceasefire observed in the conflict.",
+      "article_ids": [
+        "9f97e8272dfa32dc3c776f01",
+        "15f265b519d789aacb815948"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+          "headline": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+          "published_at": "2026-11-02T20:23:12Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
+          "headline": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
+          "published_at": "2026-11-02T17:33:19Z"
         }
       ],
       "source_count": 1
@@ -166,6 +173,27 @@
       ]
     },
     {
+      "label": "Bushby · Karl · home · Hull",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-11-02T20:54:38Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20261102-the-long-hull-karl-bushby-reflects-on-perseverance-best-of-humanity-on-his-28-year-journey-home",
+          "headline": "The Long Hull: Karl Bushby reflects on perseverance & 'best of humanity' on his 28-year journey home",
+          "published_at": "2026-11-02T20:54:38Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/global-pedestrian-karl-bushby-returns-home-to-uk-after-28-year-trek/a-79829564?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Global pedestrian Karl Bushby returns home to UK after 28-year trek",
+          "published_at": "2026-11-02T12:31:00Z"
+        }
+      ]
+    },
+    {
       "label": "Democrat · Michigan · Republican · critical",
       "origin": "convergence",
       "source_count": 2,
@@ -185,30 +213,23 @@
           "published_at": "2026-11-02T09:23:26Z"
         }
       ]
-    },
-    {
-      "label": "trek · UK · across · Bushby",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-02T12:31:00Z",
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/global-pedestrian-karl-bushby-returns-home-to-uk-after-28-year-trek/a-79829564?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Global pedestrian Karl Bushby returns home to UK after 28-year trek",
-          "published_at": "2026-11-02T12:31:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/live-news/20261102-uk-adventurer-ends-epic-28-year-journey-across-jungles-mountains-and-a-frozen-sea",
-          "headline": "UK adventurer ends epic 28-year trek across jungles and frozen sea",
-          "published_at": "2026-11-02T10:13:48Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "80b1419723110e743a39691d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Uganda withdrawing troops from peacekeeping mission in Somalia",
+      "url": "https://www.france24.com/en/uganda-withdrawing-troops-from-peacekeeping-mission-in-somalia",
+      "published_at": "2026-11-02T21:24:21Z",
+      "collected_at": "2026-11-02T21:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "2d61bf2469d36b3a7871d867",
       "source_id": "politico_europe",
@@ -221,6 +242,48 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "d3c3be9c03da1fbf21e07748",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "The Long Hull: Karl Bushby reflects on perseverance & 'best of humanity' on his 28-year journey home",
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20261102-the-long-hull-karl-bushby-reflects-on-perseverance-best-of-humanity-on-his-28-year-journey-home",
+      "published_at": "2026-11-02T20:54:38Z",
+      "collected_at": "2026-11-02T21:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "5cf087d5d0e8e4d84c749626",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "The Long Hull: Karl Bushby reflects on perseverance & 'best of humanity' on his 28-year journey home",
+      "url": "https://www.france24.com/en/video/20261102-the-long-hull-karl-bushby-reflects-on-perseverance-best-of-humanity-on-his-28-year-journey-home-1",
+      "published_at": "2026-11-02T20:40:05Z",
+      "collected_at": "2026-11-02T21:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "99496462920d4982b5ffc1df",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "EU says fridge attacks 'deliberate attempt to disrupt' bloc's food supply",
+      "url": "https://www.france24.com/en/eu-says-fridge-attacks-deliberate-attempt-to-disrupt-bloc-s-food-supply",
+      "published_at": "2026-11-02T20:30:07Z",
+      "collected_at": "2026-11-02T21:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -504,6 +567,20 @@
       ]
     },
     {
+      "id": "3d4f008512f2af5167d7a764",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Petition to ban French right-wing TV channel clears 600,000 signatures after racist killing",
+      "url": "https://www.france24.com/en/france/20261102-petition-to-ban-french-right-wing-tv-channel-clears-500-000-signatures-after-racist-killing",
+      "published_at": "2026-11-02T16:53:34Z",
+      "collected_at": "2026-11-02T21:30:49Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "4deb63d5d8dbccf8f1a92f91",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -525,6 +602,20 @@
       "url": "https://www.france24.com/en/video/20261102-british-adventurer-arrives-back-at-mother-s-home-after-28-year-journey",
       "published_at": "2026-11-02T16:45:04Z",
       "collected_at": "2026-11-02T17:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "0a57ceb136f7fb021579670e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Iconic Paris department store BHV Marais granted bankruptcy protection",
+      "url": "https://www.france24.com/en/france/20261102-storied-paris-department-store-bhv-marais-granted-bankruptcy-protection",
+      "published_at": "2026-11-02T16:43:48Z",
+      "collected_at": "2026-11-02T21:30:49Z",
       "topics": [
         "politics",
         "security",
@@ -2639,62 +2730,6 @@
       "url": "https://english.elpais.com/culture/2026-10-13/steve-mcqueen-artist-we-live-in-an-era-dominated-by-fear-i-am-interested-in-love.html",
       "published_at": "2026-10-13T14:21:13Z",
       "collected_at": "2026-11-02T17:30:57Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "7a4cfe11a4669b64e2e4e81c",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Students recruited via Telegram, amateur saboteurs and hitmen: How Russia outsources its operations in Europe",
-      "url": "https://english.elpais.com/international/2026-10-11/students-recruited-via-telegram-amateur-saboteurs-and-hitmen-how-russia-outsources-its-operations-in-europe.html",
-      "published_at": "2026-10-11T04:00:00Z",
-      "collected_at": "2026-11-02T07:01:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "dffaa72c90845c6e1ec2dd5f",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The Madrid bear sculpture meant for a Miami roundabout that ended up inside a restaurant instead",
-      "url": "https://english.elpais.com/international/2026-10-07/the-madrid-bear-sculpture-meant-for-a-miami-roundabout-that-ended-up-inside-a-restaurant-instead.html",
-      "published_at": "2026-10-07T14:09:26Z",
-      "collected_at": "2026-11-02T18:01:17Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "7609d7bb3f433af573b3bae8",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "How Venezuela pushed aside a local oil company to make way for new US partners: ‘They simply took the assets and disappeared’",
-      "url": "https://english.elpais.com/international/2026-09-09/how-venezuela-pushed-aside-a-local-oil-company-to-make-way-for-new-us-partners-they-simply-took-the-assets-and-disappeared.html",
-      "published_at": "2026-09-10T19:47:57Z",
-      "collected_at": "2026-11-02T20:01:06Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "7efa220b5e933242e3c5f85f",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Héctor Socas, astrophysicist: ‘If a more advanced civilization contacted us, they should be more afraid of us than we are of them’",
-      "url": "https://english.elpais.com/science-tech/2026-09-09/hector-socas-astrophysicist-if-a-more-advanced-civilization-contacted-us-they-should-be-more-afraid-of-us-than-we-are-of-them.html",
-      "published_at": "2026-09-09T18:32:09Z",
-      "collected_at": "2026-11-02T20:01:06Z",
       "topics": [
         "politics",
         "society",
