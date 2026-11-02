@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-02T20:30:54Z",
-  "last_successful_collection_at": "2026-11-02T20:30:54Z",
+  "generated_at": "2026-11-02T21:01:05Z",
+  "last_successful_collection_at": "2026-11-02T21:01:05Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-02T20:30:54Z"
+      "at": "2026-11-02T21:01:05Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "39",
-      "at": "2026-11-02T20:30:54Z"
+      "at": "2026-11-02T21:01:05Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-02T20:30:54Z"
+      "at": "2026-11-02T21:01:05Z"
     },
     {
       "id": "euractiv",
@@ -29,61 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-02T20:30:54Z"
+      "at": "2026-11-02T21:01:05Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-02T20:30:54Z"
+      "at": "2026-11-02T21:01:05Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-02T20:30:54Z"
+      "at": "2026-11-02T21:01:05Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-02T20:30:54Z"
+      "at": "2026-11-02T21:01:05Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-02T20:30:54Z"
+      "at": "2026-11-02T21:01:05Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-02T20:30:54Z"
+      "at": "2026-11-02T21:01:05Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Bombing in Ukraine",
-      "summary": "A Russian bombing attack on a Ukrainian aid center has resulted in multiple casualties, according to reports from Kyiv. The incident highlights ongoing conflict and security developments in the region.",
-      "article_ids": [
-        "9f97e8272dfa32dc3c776f01"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
-          "headline": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
-          "published_at": "2026-11-02T20:23:12Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Regional Security and Border Operations",
-      "summary": "Poland has launched a new security operation along its border with Russia in response to intelligence concerning planned sabotage activities. Meanwhile, authorities in various European regions are addressing heightened security measures and emerging digital threats.",
+      "title": "Poland Initiates Border Operation Following Sabotage Warnings",
+      "summary": "Poland has deployed a new security operation along its border with Russia in direct response to intelligence warning of planned sabotage activities. The heightened defensive measures reflect ongoing regional security concerns stemming from the conflict in Eastern Europe.",
       "article_ids": [
         "6cf3ce50a88c53b7dfc439a9"
       ],
@@ -98,34 +80,49 @@
       "source_count": 1
     }
   ],
-  "developing": [
+  "top_stories": [
     {
-      "label": "Ukraine · war · ceasefire · Kinzer",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 4,
-      "latest_at": "2026-11-02T17:33:19Z",
+      "title": "Escalating Conflict and Casualties in Ukraine",
+      "summary": "Recent Russian bombing attacks have resulted in dozens of casualties at an aid center in Ukraine, according to statements from Kyiv. Meanwhile, localized fighting has resumed in the Kherson region following the conclusion of a significant ceasefire period.",
+      "article_ids": [
+        "9f97e8272dfa32dc3c776f01",
+        "15f265b519d789aacb815948"
+      ],
       "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+          "headline": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+          "published_at": "2026-11-02T20:23:12Z"
+        },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
           "headline": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
           "published_at": "2026-11-02T17:33:19Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/246236/how-stephen-kinzers-new-bestseller-saying-washington-started-the-ukraine-war-is-topical-readable-and-wrong",
-          "headline": "How Stephen Kinzer’s new bestseller saying Washington started the Ukraine war is topical, readable – and wrong",
-          "published_at": "2026-11-02T13:41:32Z"
-        },
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Industrial Cyber Incidents and False Alerts",
+      "summary": "Retail refrigeration units across multiple European countries experienced severe disruptions following a targeted cyber incident. Additionally, cyberattacks compromised emergency applications in Ukraine and Russia, leading to the distribution of false nuclear warnings.",
+      "article_ids": [
+        "d0bf4c6f188dbfb4c1e14e34",
+        "330b87e8acee6f8f63117530"
+      ],
+      "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261102-live-russia-and-ukraine-trade-blame-cyber-attacks-fragile-ceasefire-ends",
-          "headline": "Live: Russia and Ukraine trade blame for cyber attacks as fragile ceasefire ends",
-          "published_at": "2026-11-02T06:19:40Z"
+          "url": "https://www.france24.com/en/ukraine-and-russia-report-fake-emergency-alerts-after-cyberattacks-target-apps",
+          "headline": "Ukraine and Russia report fake emergency alerts after cyberattacks target apps",
+          "published_at": "2026-11-02T15:06:41Z"
         }
-      ]
-    },
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
     {
       "label": "Midterms · US · blue · Michigan",
       "origin": "convergence",
@@ -188,9 +185,44 @@
           "published_at": "2026-11-02T09:23:26Z"
         }
       ]
+    },
+    {
+      "label": "trek · UK · across · Bushby",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-11-02T12:31:00Z",
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/global-pedestrian-karl-bushby-returns-home-to-uk-after-28-year-trek/a-79829564?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Global pedestrian Karl Bushby returns home to UK after 28-year trek",
+          "published_at": "2026-11-02T12:31:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/live-news/20261102-uk-adventurer-ends-epic-28-year-journey-across-jungles-mountains-and-a-frozen-sea",
+          "headline": "UK adventurer ends epic 28-year trek across jungles and frozen sea",
+          "published_at": "2026-11-02T10:13:48Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "2d61bf2469d36b3a7871d867",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Les lobbies du tabac mettent le paquet à Bruxelles, alors que l’UE se penche sur le secteur",
+      "url": "https://www.politico.eu/article/le-lobby-du-tabac-met-le-paquet-a-bruxelles-alors-que-lue-se-penche-sur-le-secteur",
+      "published_at": "2026-11-02T20:57:00Z",
+      "collected_at": "2026-11-02T21:01:05Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "9f97e8272dfa32dc3c776f01",
       "source_id": "bbc_europe",
@@ -1816,6 +1848,20 @@
       ]
     },
     {
+      "id": "04f94e2e61def675a60aa60e",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Serbia after Vucic: The winners are losing patience",
+      "url": "https://www.dw.com/en/serbia-after-vucic-the-winners-are-losing-patience/a-79817586?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-31T19:49:00Z",
+      "collected_at": "2026-11-02T21:01:05Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "973cafc6bf5529ef078d0747",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2348,6 +2394,34 @@
       ]
     },
     {
+      "id": "e33d4092175b5e00ad44efeb",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Prague honors Roma resistance fighters against Hitler",
+      "url": "https://www.dw.com/en/prague-honors-roma-resistance-fighters-against-hitler/a-79725015?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-25T09:17:00Z",
+      "collected_at": "2026-11-02T21:01:05Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "e99a71c0286ab056e3583e4b",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "In Bulgaria, record low voter turnout triggers a November 1 presidential run-off in a poll colored by divisions over Ukraine war",
+      "url": "https://www.dw.com/en/in-bulgaria-record-low-voter-turnout-triggers-a-november-1-presidential-run-off-in-a-poll-colored-by-divisions-over-ukraine-war/a-79753496?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-25T07:19:00Z",
+      "collected_at": "2026-11-02T21:01:05Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "6de806cdb6a638babe175eb5",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2387,6 +2461,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "bdcd80165e7d982e8208e58f",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Russia's attacks on Ukraine's capital, Kyiv, are intensifying. DW asked people on the ground what life is like",
+      "url": "https://www.dw.com/en/russia-s-attacks-on-ukraine-s-capital-kyiv-are-intensifying-dw-asked-people-on-the-ground-what-life-is-like/a-79741090?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-23T19:08:00Z",
+      "collected_at": "2026-11-02T21:01:05Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -2443,6 +2531,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "c459a75738a6d068305d5189",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Olivia Wilde’s revenge: How she got people to stop talking about everything but her work",
+      "url": "https://english.elpais.com/people/2026-10-21/olivia-wildes-revenge-how-she-got-people-to-stop-talking-about-everything-but-her-work.html",
+      "published_at": "2026-10-21T18:55:37Z",
+      "collected_at": "2026-11-02T21:01:05Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
