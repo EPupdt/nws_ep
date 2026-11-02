@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-01T20:30:48Z",
-  "last_successful_collection_at": "2026-11-01T20:30:48Z",
+  "generated_at": "2026-11-02T04:30:57Z",
+  "last_successful_collection_at": "2026-11-02T04:30:57Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-01T20:30:48Z"
+      "at": "2026-11-02T04:30:57Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "32",
-      "at": "2026-11-01T20:30:48Z"
+      "at": "2026-11-02T04:30:57Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-01T20:30:48Z"
+      "at": "2026-11-02T04:30:57Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,103 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-01T20:30:48Z"
+      "at": "2026-11-02T04:30:57Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-01T20:30:48Z"
+      "at": "2026-11-02T04:30:57Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-11-01T20:30:48Z"
+      "at": "2026-11-02T04:30:57Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-01T20:30:48Z"
+      "at": "2026-11-02T04:30:57Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-01T20:30:48Z"
+      "at": "2026-11-02T04:30:57Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-01T20:30:48Z"
+      "at": "2026-11-02T04:30:57Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Strikes and Power Disruptions in Ukraine",
-      "summary": "Russian military strikes have caused widespread power outages across Ukraine, leaving thousands of residents without electricity. Ukrainian leadership has emphasized the severe impact of these targeted attacks on critical national infrastructure.",
+      "title": "Emergency Alert App Hacking Suspicions in Ukraine",
+      "summary": "Russia and Ukraine have accused each other of hacking emergency alert applications. Ukraine has expressed strong suspicions regarding the security of its nationwide air-raid alert systems.",
       "article_ids": [
-        "6c9fdd16b462fd8e7eeb63bb"
+        "443567bbdf7a1b4b20e26212"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261102-ukraine-suspects-nationwide-air-raid-alert-app-has-been-hacked",
+          "headline": "Russia and Ukraine accuse each other of hacking emergency alert apps",
+          "published_at": "2026-11-02T01:20:44Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "New Russian Radar Installation in Kaliningrad",
+      "summary": "The deployment of a giant new radar facility by Russia in Kaliningrad has generated considerable alarm within NATO. Security officials are closely monitoring the strategic implications of the installation.",
+      "article_ids": [
+        "f53ee4ce64a9c154d67a9f94"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/russia-s-giant-new-radar-in-kaliningrad-raises-alarm-in-nato/a-79797815?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Russia's giant new radar in Kaliningrad raises alarm in NATO",
+          "published_at": "2026-11-01T20:34:00Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Polish Constitutional Conflict and Political Developments",
+      "summary": "Poland faces an intense constitutional showdown as national leaders clash over judicial appointments and institutional authority. Meanwhile, prominent political figures have launched renewed comeback bids amid polarized domestic debates.",
+      "article_ids": [
+        "699f0fd69d62936cce1c1d55",
+        "66d248dc1c9383bd834e275e"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/246148/grandfather-of-polish-right-kaczynski-stages-court-drama-and-calls-for-polexit-as-he-launches-his-2027-comeback-bid",
+          "headline": "Grandfather of Polish right Kaczyński stages court drama and calls for Polexit, as he launches his 2027 comeback bid",
+          "published_at": "2026-11-01T19:00:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/poland-rocked-by-constitutional-showdown",
+          "headline": "Poland rocked by Constitutional showdown",
+          "published_at": "2026-11-01T13:41:40Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Kherson Ceasefire Expiration and Infrastructure Strikes in Ukraine",
+      "summary": "A localized humanitarian ceasefire in the Kherson region has concluded after Russian authorities refused to extend the agreement. Concurrently, recent military strikes have severely damaged energy infrastructure, leaving thousands of Ukrainian residents without power.",
+      "article_ids": [
+        "6c9fdd16b462fd8e7eeb63bb",
+        "79239c105410d0af06803d72"
       ],
       "sources": [
         {
@@ -75,103 +133,23 @@
           "url": "https://www.politico.eu/article/russia-strikes-leave-thousands-without-power-ukraine-volodymyr-zelenskyy",
           "headline": "Russian strikes leave thousands without power in Ukraine, says Zelenskyy",
           "published_at": "2026-11-01T14:48:54Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Constitutional Dispute and Political Showdown in Poland",
-      "summary": "Poland is currently facing a significant constitutional crisis involving prominent political figures and the judiciary. The European Commission has expressed formal support for Prime Minister Donald Tusk as tensions regarding court appointments escalate.",
-      "article_ids": [
-        "66d248dc1c9383bd834e275e",
-        "7d7dbc3867a83756a6a3ed18"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/poland-rocked-by-constitutional-showdown",
-          "headline": "Poland rocked by Constitutional showdown",
-          "published_at": "2026-11-01T13:41:40Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/european-commission-backs-donald-tusk-over-poland-constitutional-court-judges",
-          "headline": "Commission backs Tusk as he vows no compromise in court showdown",
-          "published_at": "2026-11-01T11:52:15Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261101-localised-ceasefire-in-ukraine-s-kherson-region-set-to-end",
+          "headline": "Ceasefire in Ukraine's Kherson region ends after Russia refuses extension",
+          "published_at": "2026-11-01T12:41:48Z"
         }
       ],
       "source_count": 2
     }
   ],
-  "top_stories": [
-    {
-      "title": "Civil Unrest and Protests in Germany",
-      "summary": "Recent demonstrations regarding cost-of-living pressures in Germany have escalated significantly. Peaceful gatherings deteriorated into widespread violence and looting in multiple locations.",
-      "article_ids": [
-        "731e304a4e38bb647b4b7165",
-        "29aa1fbd73acd1a29c754572"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/cqgm0der7zkmo?at_medium=RSS&at_campaign=rss",
-          "headline": "Peaceful protests in Germany spiral into violence and looting",
-          "published_at": "2026-11-01T18:51:56Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Kherson Region Ceasefire and Evacuations",
-      "summary": "Humanitarian evacuations took place during a localized truce in the Kherson region of Ukraine. These temporary measures concluded following the refusal to extend the agreement.",
-      "article_ids": [
-        "30fcea94521bf84c63292b28",
-        "8bcb35720414a1f96f82c591"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/oleshky-evacuations-during-first-humanitarian-truce-of-war-end",
-          "headline": "Oleshky: Evacuations during first humanitarian truce of war end",
-          "published_at": "2026-11-01T17:44:51Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261101-localised-ceasefire-in-ukraine-s-kherson-region-set-to-end",
-          "headline": "Localised ceasefire in Ukraine's Kherson region set to end",
-          "published_at": "2026-11-01T12:41:48Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
   "developing": [
     {
-      "label": "Midterms · US · AI",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-11-01T15:11:28Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/data-centres-on-the-ballot-could-the-ai-infrastructure-shape-us-midterms",
-          "headline": "Data centres on the ballot: could the AI infrastructure shape US midterms?",
-          "published_at": "2026-11-01T15:11:28Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/opinion/2026-11-01/im-voting-for-the-first-time-in-the-midterms-and-i-used-an-ai-chatbot-to-get-informed-heres-what-i-found-out.html",
-          "headline": "I’m voting for the first time in the midterms, and I used an AI chatbot to get informed. Here’s what I found out",
-          "published_at": "2026-11-01T04:00:00Z"
-        }
-      ]
-    },
-    {
-      "label": "France · protests · largely · peaceful",
+      "label": "France · protests",
       "origin": "radar",
       "source_count": 1,
-      "item_count": 3,
+      "item_count": 2,
       "latest_at": "2026-11-01T15:50:06Z",
       "sources": [
         {
@@ -186,7 +164,7 @@
       "label": "cost · German · living · looted",
       "origin": "radar",
       "source_count": 1,
-      "item_count": 2,
+      "item_count": 1,
       "latest_at": "2026-11-01T11:57:48Z",
       "sources": [
         {
@@ -198,22 +176,149 @@
       ]
     },
     {
-      "label": "crash · elections · Israeli · Lula",
+      "label": "candidate · centre · French · Philippe",
       "origin": "radar",
       "source_count": 1,
       "item_count": 1,
-      "latest_at": "2026-11-01T11:14:42Z",
+      "latest_at": "2026-11-01T21:51:36Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261101-the-week-in-pictures-lula-s-victory-israeli-elections-and-spain-train-crash",
-          "headline": "The week in pictures: Lula's victory, Israeli elections and Spain train crash",
-          "published_at": "2026-11-01T11:14:42Z"
+          "url": "https://www.france24.com/en/france/20261101-french-presidential-candidate-philippe-rejects-centre-right-primary",
+          "headline": "French presidential candidate Édouard Philippe rejects centre-right primary",
+          "published_at": "2026-11-01T21:51:36Z"
+        }
+      ]
+    },
+    {
+      "label": "Commission · compromise · court · showdown",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-11-01T11:52:15Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/european-commission-backs-donald-tusk-over-poland-constitutional-court-judges",
+          "headline": "Commission backs Tusk as he vows no compromise in court showdown",
+          "published_at": "2026-11-01T11:52:15Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "d77805b99604cc1480076847",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Who gets to build the future of AI?",
+      "url": "https://www.politico.eu/sponsored-content/who-gets-to-build-the-future-of-ai",
+      "published_at": "2026-11-02T04:00:00Z",
+      "collected_at": "2026-11-02T04:30:57Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "443567bbdf7a1b4b20e26212",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russia and Ukraine accuse each other of hacking emergency alert apps",
+      "url": "https://www.france24.com/en/europe/20261102-ukraine-suspects-nationwide-air-raid-alert-app-has-been-hacked",
+      "published_at": "2026-11-02T01:20:44Z",
+      "collected_at": "2026-11-02T04:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "582940431a1ac1ae805167c9",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Halloween weekend shootings across US leave at least six dead, dozens wounded",
+      "url": "https://www.france24.com/en/americas/20261102-halloween-weekend-shootings-across-us-leave-at-least-six-dead-dozens-wounded",
+      "published_at": "2026-11-02T00:49:01Z",
+      "collected_at": "2026-11-02T04:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a5ce436d4185031ba94277dc",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Iran warns renewed war with US could outlast previous conflict",
+      "url": "https://www.france24.com/en/middle-east/20261102-iran-warns-renewed-war-with-us-could-outlast-previous-conflict",
+      "published_at": "2026-11-02T00:23:23Z",
+      "collected_at": "2026-11-02T04:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "41308f14613f5d5002629756",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Nine killed as business jet crashes into South Florida neighbourhood",
+      "url": "https://www.france24.com/en/americas/20261101-nine-killed-as-business-jet-crashes-into-south-florida-neighbourhood",
+      "published_at": "2026-11-01T23:45:08Z",
+      "collected_at": "2026-11-02T04:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "ff153b7b220191764d1faa1d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French presidential candidate Édouard Philippe rejects centre-right primary",
+      "url": "https://www.france24.com/en/france/20261101-french-presidential-candidate-philippe-rejects-centre-right-primary",
+      "published_at": "2026-11-01T21:51:36Z",
+      "collected_at": "2026-11-02T04:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "4d33304e6c71294e70df7704",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "UN’s peacekeeping mission in disputed Western Sahara ends after 35 years",
+      "url": "https://www.france24.com/en/africa/20261101-un-s-peacekeeping-mission-in-disputed-western-sahara-ends-after-35-years",
+      "published_at": "2026-11-01T20:37:45Z",
+      "collected_at": "2026-11-02T04:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f53ee4ce64a9c154d67a9f94",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Russia's giant new radar in Kaliningrad raises alarm in NATO",
+      "url": "https://www.dw.com/en/russia-s-giant-new-radar-in-kaliningrad-raises-alarm-in-nato/a-79797815?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-01T20:34:00Z",
+      "collected_at": "2026-11-02T04:30:57Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
     {
       "id": "51ed90182532f65b95c0119f",
       "source_id": "france24",
@@ -296,6 +401,34 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "942008a6d65fda4d4382f75f",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Allies fear Trump will target NATO in case of midterm loss",
+      "url": "https://www.politico.eu/article/allies-fear-donald-trump-could-target-nato-after-midterm-loss",
+      "published_at": "2026-11-01T17:00:00Z",
+      "collected_at": "2026-11-02T04:30:57Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "31efd99e0740cdfc8f9f60e6",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "EU and Canada’s 6-month test of commitment",
+      "url": "https://www.politico.eu/article/canada-eu-partnership-6-month-test",
+      "published_at": "2026-11-01T16:00:00Z",
+      "collected_at": "2026-11-02T04:30:57Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
       ]
     },
     {
@@ -446,6 +579,20 @@
       "url": "https://www.france24.com/en/europe/20261101-localised-ceasefire-in-ukraine-s-kherson-region-set-to-end",
       "published_at": "2026-11-01T12:41:48Z",
       "collected_at": "2026-11-01T20:00:59Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "79239c105410d0af06803d72",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ceasefire in Ukraine's Kherson region ends after Russia refuses extension",
+      "url": "https://www.france24.com/en/europe/20261101-localised-ceasefire-in-ukraine-s-kherson-region-set-to-end",
+      "published_at": "2026-11-01T12:41:48Z",
+      "collected_at": "2026-11-02T04:30:57Z",
       "topics": [
         "politics",
         "security",
@@ -677,6 +824,20 @@
       ]
     },
     {
+      "id": "fc59eb3509ec99bc9d174e01",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Robert F. Kennedy Jr.’s food fight is coming to Brussels",
+      "url": "https://www.politico.eu/article/robert-f-kennedy-jr-food-fight-coming-to-brussels",
+      "published_at": "2026-11-01T09:00:00Z",
+      "collected_at": "2026-11-02T04:30:57Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
       "id": "3a6657bb574f20b4846b56e2",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -789,6 +950,20 @@
       ]
     },
     {
+      "id": "ba4c9ed26f5f60b7f6d2d04a",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Britain and Germany’s defense cooperation plans face tough choices",
+      "url": "https://www.politico.eu/article/britain-and-germany-defense-cooperation-plans-face-tough-choices",
+      "published_at": "2026-11-01T05:00:00Z",
+      "collected_at": "2026-11-02T04:30:57Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
       "id": "62b22dd6f207d2366e76500a",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -887,13 +1062,13 @@
       ]
     },
     {
-      "id": "62f87b557dc3470b49f072e8",
+      "id": "beb92691bde17d4e929e4678",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
-      "title": "Shops looted as German cost of living protests turn violent",
-      "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-01T01:59:57Z",
-      "collected_at": "2026-11-01T04:30:55Z",
+      "title": "US approves sale of 500 Patriot missiles to Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-31T12:21:25Z",
+      "collected_at": "2026-11-02T04:30:57Z",
       "topics": [
         "breaking",
         "politics",
@@ -901,13 +1076,13 @@
       ]
     },
     {
-      "id": "afa19d0289c5b6e7b2c9d023",
+      "id": "ab7a90b3b0380bb0da95fb5f",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
-      "title": "How the downfall of Serbia's Vučiċ mirrored that of Hungary's Orbán",
-      "url": "https://www.bbc.co.uk/news/articles/c893z699q401o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-01T00:55:06Z",
-      "collected_at": "2026-11-01T04:30:55Z",
+      "title": "Police deployed during stand-off over control of top Poland court",
+      "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-31T01:11:43Z",
+      "collected_at": "2026-11-02T04:30:57Z",
       "topics": [
         "breaking",
         "politics",
@@ -915,69 +1090,27 @@
       ]
     },
     {
-      "id": "d96e1cb9581d968e84d5e47f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Testimonies from Oleshky",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261031-testimonies-from-oleshky",
-      "published_at": "2026-10-31T23:54:21Z",
-      "collected_at": "2026-11-01T04:30:55Z",
+      "id": "2fe7eb5584c4947ecc774b03",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Chaos at Poland’s constitutional court as government-backed judges seek to oust chief justice",
+      "url": "https://notesfrompoland.com/2026/10/30/chaos-at-polands-constitutional-court-as-government-backed-judges-seek-to-oust-chief-justice",
+      "published_at": "2026-10-30T20:55:24Z",
+      "collected_at": "2026-11-02T04:30:57Z",
       "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "2c9f67ce2d26d9186998dbb9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Some 320,000 demonstrators take part in largely peaceful protests across France",
-      "url": "https://www.france24.com/en/france/20261031-some-320-000-demonstrators-take-part-in-largely-peaceful-protests-across-france",
-      "published_at": "2026-10-31T21:34:15Z",
-      "collected_at": "2026-11-01T04:30:55Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "9d5c36f38d40d498f524536b",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Thousands demonstrate in Paris as protests spread across Europe",
-      "url": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-31T21:29:01Z",
-      "collected_at": "2026-11-01T04:30:55Z",
-      "topics": [
-        "breaking",
+        "central_europe",
         "politics",
         "society"
       ]
     },
     {
-      "id": "c2d1355dce089327371b50d5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Gen Z' demonstrations across Germany demand more education funding",
-      "url": "https://www.france24.com/en/europe/20261031-german-police-protesters-clash-after-gen-z-demos",
-      "published_at": "2026-10-31T20:07:52Z",
-      "collected_at": "2026-11-01T04:30:55Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "04f94e2e61def675a60aa60e",
+      "id": "048a511d05436d3dc48757b2",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
-      "title": "Serbia after Vucic: The winners are losing patience",
-      "url": "https://www.dw.com/en/serbia-after-vucic-the-winners-are-losing-patience/a-79817586?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-31T19:49:00Z",
-      "collected_at": "2026-10-31T20:30:57Z",
+      "title": "Canadian PM Mark Carney discusses talks with the EU, overdependence on the US and how to deal with Donald Trump in a DW interview.",
+      "url": "https://www.dw.com/en/canadian-pm-mark-carney-discusses-talks-with-the-eu-overdependence-on-the-us-and-how-to-deal-with-donald-trump-in-a-dw-interview/a-79811469?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-30T20:55:00Z",
+      "collected_at": "2026-11-02T04:30:57Z",
       "topics": [
         "politics",
         "society",
@@ -985,44 +1118,16 @@
       ]
     },
     {
-      "id": "89945caeb838126f1961aff7",
+      "id": "8f5662d85fdf36f23aad4f7e",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
-      "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
-      "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-31T19:22:26Z",
-      "collected_at": "2026-11-01T04:30:55Z",
+      "title": "They strangled us, says founder of Russian newspaper shut under pressure from authorities",
+      "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-30T20:41:51Z",
+      "collected_at": "2026-11-02T04:30:57Z",
       "topics": [
         "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "d360ee7e4693ec567591712e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Senegal kicks off Africa's first ever Olympics with Youth Games",
-      "url": "https://www.france24.com/en/africa/20261031-senegal-hosts-africa-s-first-ever-youth-olympic-games",
-      "published_at": "2026-10-31T09:37:07Z",
-      "collected_at": "2026-10-31T20:30:57Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "17d83aed9d4f4407d254c7b5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Interior minister says protests across France went well despite clashes with police",
-      "url": "https://www.france24.com/en/france/20261031-live-france-braces-for-halloween-protests-government-vows-tough-response",
-      "published_at": "2026-10-31T05:53:27Z",
-      "collected_at": "2026-11-01T04:30:55Z",
-      "topics": [
-        "politics",
-        "security",
         "society"
       ]
     },
@@ -1279,43 +1384,15 @@
       ]
     },
     {
-      "id": "0aa56e0902b0dd6a02ad1045",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Young athlete and former minister among victims of Spain train crash",
-      "url": "https://www.bbc.co.uk/news/articles/cr78plp1p9yvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T21:33:35Z",
-      "collected_at": "2026-11-01T04:30:55Z",
+      "id": "4a0086494e7ddd5fa290f0fb",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Turkish engineer creates live 3D pixel map of adopted hometown Warsaw",
+      "url": "https://notesfrompoland.com/2026/10/28/turkish-engineer-creates-live-3d-pixel-map-of-adopted-hometown-warsaw",
+      "published_at": "2026-10-28T21:36:45Z",
+      "collected_at": "2026-11-02T04:30:57Z",
       "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "7651f92a199e5c10522a20bc",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Watch: What leaked audio reveals about Spain train crash",
-      "url": "https://www.bbc.co.uk/news/videos/c6vgjeg0myzgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T20:50:25Z",
-      "collected_at": "2026-11-01T04:30:55Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "d3d67dcd6967fb8667572786",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Paris suburb shooting suspect targeted people of Muslim or African appearance, prosecutor says",
-      "url": "https://www.bbc.co.uk/news/articles/cmd7qjq13prpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T19:19:23Z",
-      "collected_at": "2026-11-01T04:30:55Z",
-      "topics": [
-        "breaking",
+        "central_europe",
         "politics",
         "society"
       ]
@@ -1517,6 +1594,20 @@
       ]
     },
     {
+      "id": "9eded4c5369973a48f0c609d",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "An empty airport, shuttered storefronts and abandoned hotels: The tourism decline in Tulum is worsening",
+      "url": "https://english.elpais.com/international/2026-10-26/an-empty-airport-shuttered-storefronts-and-abandoned-hotels-the-tourism-decline-in-tulum-is-worsening.html",
+      "published_at": "2026-10-26T19:27:24Z",
+      "collected_at": "2026-11-02T04:30:57Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "5d2cb43bc6c3ca2fae9e61ab",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1601,34 +1692,6 @@
       ]
     },
     {
-      "id": "e33d4092175b5e00ad44efeb",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Prague honors Roma resistance fighters against Hitler",
-      "url": "https://www.dw.com/en/prague-honors-roma-resistance-fighters-against-hitler/a-79725015?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-25T09:17:00Z",
-      "collected_at": "2026-10-31T20:30:57Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "e99a71c0286ab056e3583e4b",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "In Bulgaria, record low voter turnout triggers a November 1 presidential run-off in a poll colored by divisions over Ukraine war",
-      "url": "https://www.dw.com/en/in-bulgaria-record-low-voter-turnout-triggers-a-november-1-presidential-run-off-in-a-poll-colored-by-divisions-over-ukraine-war/a-79753496?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-25T07:19:00Z",
-      "collected_at": "2026-10-31T20:30:57Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "91c8eda5746abcf3b7ddee10",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1682,20 +1745,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "bdcd80165e7d982e8208e58f",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Russia's attacks on Ukraine's capital, Kyiv, are intensifying. DW asked people on the ground what life is like",
-      "url": "https://www.dw.com/en/russia-s-attacks-on-ukraine-s-capital-kyiv-are-intensifying-dw-asked-people-on-the-ground-what-life-is-like/a-79741090?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-23T19:08:00Z",
-      "collected_at": "2026-10-31T20:30:57Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
@@ -1808,34 +1857,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "0f229d2dffe5008f1790b80d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Geoffrey Hinton, the godfather of AI: ‘I’m not a doomer. I think there’s a 1% chance it will destroy us’",
-      "url": "https://english.elpais.com/science-tech/2026-10-21/geoffrey-hinton-the-godfather-of-ai-im-not-a-doomer-i-think-theres-a-1-chance-it-will-destroy-us.html",
-      "published_at": "2026-10-21T19:07:43Z",
-      "collected_at": "2026-10-31T20:30:57Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "c459a75738a6d068305d5189",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Olivia Wilde’s revenge: How she got people to stop talking about everything but her work",
-      "url": "https://english.elpais.com/people/2026-10-21/olivia-wildes-revenge-how-she-got-people-to-stop-talking-about-everything-but-her-work.html",
-      "published_at": "2026-10-21T18:55:37Z",
-      "collected_at": "2026-10-31T20:30:57Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
