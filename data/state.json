@@ -1,6 +1,5 @@
 {
   "seen": {
-    "ac5b2392d686b7c7d6ae32e5": "2026-11-01T06:30:48Z",
     "4d7c42816f714248cff5c93e": "2026-11-01T07:30:49Z",
     "3aed31d7f0513e5de75a427e": "2026-11-01T08:30:48Z",
     "be6fb86d68e8fe473d22110a": "2026-11-01T08:30:48Z",
@@ -320,7 +319,9 @@
     "304866c5e5cd96591c8a1e23": "2026-11-03T05:30:57Z",
     "8bb700b596ea76b272ba29a5": "2026-11-03T05:30:57Z",
     "dce1e7db92428df69e8c043c": "2026-11-03T05:30:57Z",
-    "73c0889129fa16457c066697": "2026-11-03T06:00:59Z"
+    "73c0889129fa16457c066697": "2026-11-03T06:00:59Z",
+    "c57087be42dba6d1a1aa5c12": "2026-11-03T06:30:52Z",
+    "6e8e1f499c7a2f382ee80451": "2026-11-03T06:30:52Z"
   },
   "radar": [
     {
@@ -331,6 +332,20 @@
       "url": "https://www.france24.com/en/americas/20261103-live-americans-head-to-the-polls-to-vote-in-us-midterm-elections",
       "published_at": "2026-11-03T05:45:33Z",
       "collected_at": "2026-11-03T06:00:59Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c57087be42dba6d1a1aa5c12",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Midterms live: Americans head to the polls to vote in election crucial for Trump's remaining term",
+      "url": "https://www.france24.com/en/americas/20261103-live-americans-head-to-the-polls-to-vote-in-us-midterm-elections",
+      "published_at": "2026-11-03T05:45:33Z",
+      "collected_at": "2026-11-03T06:30:52Z",
       "topics": [
         "politics",
         "security",
@@ -755,6 +770,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "6e8e1f499c7a2f382ee80451",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Streeting has ‘total confidence’ UK will hit defense spending target",
+      "url": "https://www.politico.eu/article/wes-streeting-confidence-uk-defense-spending-target",
+      "published_at": "2026-11-02T18:12:59Z",
+      "collected_at": "2026-11-03T06:30:52Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
       ]
     },
     {
@@ -2822,43 +2851,9 @@
         "energy",
         "climate"
       ]
-    },
-    {
-      "id": "8bb700b596ea76b272ba29a5",
-      "source_id": "bruegel",
-      "source_name": "Bruegel",
-      "title": "Session 6a: European trade policy beyond FTAs: what is feasible without the US and China?",
-      "url": "https://www.bruegel.org/node/12375",
-      "published_at": "2026-07-03T09:14:28Z",
-      "collected_at": "2026-11-03T05:30:57Z",
-      "topics": [
-        "analysis",
-        "economy",
-        "energy",
-        "climate"
-      ]
-    },
-    {
-      "id": "dce1e7db92428df69e8c043c",
-      "source_id": "bruegel",
-      "source_name": "Bruegel",
-      "title": "Coffee break",
-      "url": "https://www.bruegel.org/node/12374",
-      "published_at": "2026-07-03T09:13:11Z",
-      "collected_at": "2026-11-03T05:30:57Z",
-      "topics": [
-        "analysis",
-        "economy",
-        "energy",
-        "climate"
-      ]
     }
   ],
   "recent_topics": [
-    {
-      "at": "2026-11-01T18:00:59Z",
-      "title": "Energy Infrastructure Strikes in Ukraine"
-    },
     {
       "at": "2026-11-01T18:00:59Z",
       "title": "Demonstrations and Student Actions in France"
@@ -3174,36 +3169,21 @@
     {
       "at": "2026-11-03T06:00:59Z",
       "title": "European Security and Defense Exercises"
+    },
+    {
+      "at": "2026-11-03T06:30:52Z",
+      "title": "European Defense Exercises in Poland"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Industrial Cyberattacks Impact European Supply Chains",
-        "summary": "Recent cyberattacks targeting supermarket refrigeration units across Europe have raised significant concerns regarding the security of connected industrial systems and food supply continuity.",
-        "article_ids": [
-          "99496462920d4982b5ffc1df",
-          "9a89f63610830e21de1ff279",
-          "2bdf8a52f5948aae918429ed"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20261102-caught-cold-fridge-cyberattack-highlights-internet-gadget-weaknesses",
-            "headline": "Refrigeration cyberattacks highlight the risks of connecting industrial systems to the internet",
-            "published_at": "2026-11-02T17:29:48Z"
-          }
-        ],
-        "source_count": 1
-      },
-      {
-        "title": "Escalating Conflict and Casualties in Ukraine",
-        "summary": "The conclusion of a prolonged ceasefire has been followed by intensive Russian airstrikes, resulting in numerous casualties at an aid center in the Kherson region.",
+        "title": "Russian Strikes and Casualties in Ukraine",
+        "summary": "Russian military strikes in Ukraine resulted in dozens of deaths following the conclusion of a significant ceasefire period. Regional authorities reported fatalities stemming from the renewed bombing affecting humanitarian and populated areas.",
         "article_ids": [
           "da3c4f3e4edc37c2d70af571",
-          "9f97e8272dfa32dc3c776f01",
-          "15f265b519d789aacb815948"
+          "9f97e8272dfa32dc3c776f01"
         ],
         "sources": [
           {
@@ -3220,36 +3200,29 @@
           }
         ],
         "source_count": 2
-      }
-    ],
-    "top_stories": [
+      },
       {
-        "title": "Poland Constitutional Crisis",
-        "summary": "Poland is facing a deepening political crisis centered on its top court and looming elections. Multiple diplomatic figures have resigned amidst mounting domestic and European tensions.",
+        "title": "Supermarket Cyberattacks Disrupt Supply Chains",
+        "summary": "European officials flagged recent cyberattacks targeting commercial refrigeration systems as deliberate attempts to compromise the bloc's food supply. The European Commission announced plans to investigate the incidents as cybersecurity vulnerabilities in industrial infrastructure come under scrutiny.",
         "article_ids": [
-          "07ea74f045f29305b4e40f64",
-          "f45bd41b14322a86aadec953",
-          "92377a3a7a93645bf7986444"
+          "99496462920d4982b5ffc1df",
+          "9a89f63610830e21de1ff279"
         ],
         "sources": [
           {
             "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/polands-court-fight-boils-over",
-            "headline": "Poland’s court fight boils over",
-            "published_at": "2026-11-03T05:05:00Z"
-          },
-          {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/crisis-over-top-court-shapes-polands-battle-lines-before-2027-election",
-            "headline": "Crisis over top court shapes Poland’s battle lines before 2027 election",
-            "published_at": "2026-11-03T03:00:00Z"
+            "url": "https://www.politico.eu/article/european-commission-probe-supermarket-cyberattack-christophe-hansen",
+            "headline": "EU Commission to probe supermarket cyberattacks",
+            "published_at": "2026-11-02T19:20:11Z"
           }
         ],
         "source_count": 1
-      },
+      }
+    ],
+    "top_stories": [
       {
-        "title": "European Security and Defense Exercises",
-        "summary": "A newly established European military force is organizing its inaugural support exercises in Poland. These drills underscore ongoing regional security measures related to the conflict in Ukraine.",
+        "title": "European Defense Exercises in Poland",
+        "summary": "A multinational European force prepared to conduct its inaugural Ukraine support exercise within Polish territory. This defense initiative underscores heightened security cooperation among regional allies amidst ongoing geopolitical tensions.",
         "article_ids": [
           "67131b3f03a02e8aa63fe5fd"
         ],
@@ -3265,5 +3238,5 @@
       }
     ]
   },
-  "last_collection_at": "2026-11-03T06:00:59Z"
+  "last_collection_at": "2026-11-03T06:30:52Z"
 }
