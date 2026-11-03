@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-03T08:01:06Z",
-  "last_successful_collection_at": "2026-11-03T08:01:06Z",
+  "generated_at": "2026-11-03T08:31:01Z",
+  "last_successful_collection_at": "2026-11-03T08:31:01Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-03T08:01:06Z"
+      "at": "2026-11-03T08:31:01Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "39",
-      "at": "2026-11-03T08:01:06Z"
+      "at": "2026-11-03T08:31:01Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-03T08:01:06Z"
+      "at": "2026-11-03T08:31:01Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,87 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-03T08:01:06Z"
+      "at": "2026-11-03T08:31:01Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-03T08:01:06Z"
+      "at": "2026-11-03T08:31:01Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-03T08:01:06Z"
+      "at": "2026-11-03T08:31:01Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-03T08:01:06Z"
+      "at": "2026-11-03T08:31:01Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-03T08:01:06Z"
+      "at": "2026-11-03T08:31:01Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-03T08:01:06Z"
+      "at": "2026-11-03T08:31:01Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Bombing Kills Dozens in Ukraine",
-      "summary": "Recent Russian strikes in Ukraine have resulted in numerous fatalities following the conclusion of a prolonged ceasefire. Kyiv officials reported that the attacks specifically impacted an aid center, causing significant casualties.",
+      "title": "Russian Bombing Kills Dozens at Ukraine Aid Centre",
+      "summary": "Recent Russian strikes have resulted in significant casualties at an aid center in Ukraine following the conclusion of a lengthy ceasefire.",
+      "article_ids": [
+        "2937075c6a1625bf1f34554a",
+        "9f97e8272dfa32dc3c776f01",
+        "da3c4f3e4edc37c2d70af571"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+          "headline": "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
+          "published_at": "2026-11-03T07:24:12Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261103-russian-strikes-kill-26-in-ukraine-after-longest-ceasefire-ends",
+          "headline": "Russian strikes kill 26 in Ukraine after longest ceasefire ends",
+          "published_at": "2026-11-03T01:18:44Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "European Commission Probes Supermarket Cyberattacks",
+      "summary": "The European Commission is launching an investigation into cyberattacks targeting supermarket infrastructure that aimed to disrupt the bloc's food supply.",
+      "article_ids": [
+        "99496462920d4982b5ffc1df",
+        "9a89f63610830e21de1ff279",
+        "0a8f22e827b5f307d258c002"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/european-commission-probe-supermarket-cyberattack-christophe-hansen",
+          "headline": "EU Commission to probe supermarket cyberattacks",
+          "published_at": "2026-11-02T19:20:11Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Escalating Conflict in Ukraine",
+      "summary": "Russian bombing has resulted in dozens of deaths at a Ukrainian aid center following the end of the war's longest ceasefire. Kyiv reported that ongoing strikes continue to impact regional security and civilian infrastructure.",
       "article_ids": [
         "2937075c6a1625bf1f34554a",
         "da3c4f3e4edc37c2d70af571"
@@ -85,51 +129,14 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Political Crisis Deepens in Poland",
-      "summary": "Poland is experiencing an escalating institutional conflict surrounding its constitutional court system. The ongoing political tensions have prompted multiple high-ranking diplomatic resignations ahead of upcoming electoral battles.",
-      "article_ids": [
-        "07ea74f045f29305b4e40f64",
-        "92377a3a7a93645bf7986444"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/polands-court-fight-boils-over",
-          "headline": "Poland’s court fight boils over",
-          "published_at": "2026-11-03T05:05:00Z"
-        }
-      ],
-      "source_count": 1
     },
     {
-      "title": "Migration and Border Enforcement Scrutiny",
-      "summary": "Recent investigative reports reveal that Frontex-operated drones have assisted authorities in Libya and Tunisia with thousands of interceptions in the central Mediterranean. Meanwhile, regional border measures and diplomatic friction continue to affect journalists and travelers at European frontiers.",
+      "title": "Cyber Incidents Impact European Infrastructure",
+      "summary": "The European Union stated that recent attacks on supermarket freezers were a deliberate attempt to disrupt the regional food supply. The European Commission has initiated a formal probe into these supermarket cyberattacks.",
       "article_ids": [
-        "a86fd4138647a6823195e188",
-        "48208b7f0a6909d1bff95dc3"
+        "99496462920d4982b5ffc1df",
+        "9a89f63610830e21de1ff279"
       ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/246311/frontex-drones-helped-libya-and-tunisia-forcibly-return-at-least-33000-people-in-the-central-mediterranean",
-          "headline": "Frontex drones helped Libya and Tunisia forcibly return at least 33,000 people in the central Mediterranean",
-          "published_at": "2026-11-03T06:30:00Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
-    {
-      "label": "attacks · food · fridge",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-11-02T20:30:07Z",
       "sources": [
         {
           "publisher": "France 24 English",
@@ -138,24 +145,38 @@
           "published_at": "2026-11-02T20:30:07Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/cmwyvrgk9p0ro?at_medium=RSS&at_campaign=rss",
-          "headline": "'All this food is now useless': Piles of rubbish after shop freezers hit by cyber-attack",
-          "published_at": "2026-11-02T17:34:58Z"
-        },
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/european-commission-probe-supermarket-cyberattack-christophe-hansen",
+          "headline": "EU Commission to probe supermarket cyberattacks",
+          "published_at": "2026-11-02T19:20:11Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Political Crisis Deepens in Poland",
+      "summary": "Poland faces a growing domestic crisis centered around its top constitutional court and upcoming political battles. Additionally, the diplomatic fallout has led to multiple high-level ambassadorial resignations.",
+      "article_ids": [
+        "f45bd41b14322a86aadec953",
+        "92377a3a7a93645bf7986444"
+      ],
+      "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/new-supermarket-hack-in-belgium-sweden-luxembourg",
-          "headline": "Hackers attack supermarket fridges in Belgium, Sweden and Luxembourg",
-          "published_at": "2026-11-02T11:19:32Z"
+          "url": "https://www.politico.eu/article/crisis-over-top-court-shapes-polands-battle-lines-before-2027-election",
+          "headline": "Crisis over top court shapes Poland’s battle lines before 2027 election",
+          "published_at": "2026-11-03T03:00:00Z"
         }
-      ]
-    },
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
     {
       "label": "Midterms · US · head · polls",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 11,
+      "item_count": 12,
       "latest_at": "2026-11-03T05:45:33Z",
       "sources": [
         {
@@ -213,9 +234,44 @@
           "published_at": "2026-11-02T12:31:00Z"
         }
       ]
+    },
+    {
+      "label": "MAGA · Trump · loyal · supporters",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-11-02T19:17:55Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/maga-why-trump-s-most-loyal-supporters-are-turning-against-him",
+          "headline": "MAGA: Why Trump's most loyal supporters are turning against him?",
+          "published_at": "2026-11-02T19:17:55Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-11-02/freedom-fuel-the-maga-gas-station-chain-promoted-by-trump-faces-growing-number-of-complaints-and-fraud-allegations.html",
+          "headline": "Freedom Fuel, the MAGA gas station chain promoted by Trump, faces growing number of complaints and fraud allegations",
+          "published_at": "2026-11-02T10:26:32Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "5ec9fd12f8dfeaec89abe0a3",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Shabana Mahmood – her fightback kicks off",
+      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/shabana-mahmood-her-fightback-kicks-off",
+      "published_at": "2026-11-03T08:21:43Z",
+      "collected_at": "2026-11-03T08:31:01Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "2937075c6a1625bf1f34554a",
       "source_id": "bbc_europe",
@@ -227,6 +283,20 @@
       "topics": [
         "breaking",
         "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "ce8dfec590098355e48b4566",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "PSG face Villarreal as they aim to keep top Champions league spot",
+      "url": "https://www.france24.com/en/tv-shows/sports/20261103-psg-face-villarreal-as-they-aim-to-keep-top-champions-league-spot",
+      "published_at": "2026-11-03T07:18:25Z",
+      "collected_at": "2026-11-03T08:31:01Z",
+      "topics": [
+        "politics",
+        "security",
         "society"
       ]
     },
@@ -294,6 +364,20 @@
       "url": "https://www.france24.com/en/americas/20261103-live-americans-head-to-the-polls-to-vote-in-us-midterm-elections",
       "published_at": "2026-11-03T05:45:33Z",
       "collected_at": "2026-11-03T07:01:09Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "453960507db1363b4bdb5ed0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US midterms live: More than 58 million ballots cast in record early vote turnout",
+      "url": "https://www.france24.com/en/americas/20261103-live-americans-head-to-the-polls-to-vote-in-us-midterm-elections",
+      "published_at": "2026-11-03T05:45:33Z",
+      "collected_at": "2026-11-03T08:31:01Z",
       "topics": [
         "politics",
         "security",
@@ -406,6 +490,20 @@
       "url": "https://www.france24.com/en/europe/20261103-european-force-to-hold-first-ukraine-support-exercise-in-poland",
       "published_at": "2026-11-03T01:43:00Z",
       "collected_at": "2026-11-03T04:30:58Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e4142fb51729c5b9eb43051d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Europe's Gen Z protesters unite over living costs, housing and uncertainty of getting jobs",
+      "url": "https://www.france24.com/en/europe/20261103-europe-s-gen-z-protesters-unite-over-living-costs-housing-and-uncertainty-of-getting-jobs",
+      "published_at": "2026-11-03T01:21:48Z",
+      "collected_at": "2026-11-03T08:31:01Z",
       "topics": [
         "politics",
         "security",
@@ -1981,48 +2079,6 @@
       ]
     },
     {
-      "id": "d4e6df19a8883f9ee444da70",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Has Shabana Mahmood won her immigration tussle?",
-      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/has-shabana-mahmood-won-her-immigration-tussle",
-      "published_at": "2026-11-02T08:27:43Z",
-      "collected_at": "2026-11-02T08:30:56Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "63e306eb4036d67751c37c43",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Michigan Democrat stuns party to back Republican candidate in critical Senate race",
-      "url": "https://www.france24.com/en/americas/20261102-michigan-democrat-stuns-party-back-republican-candidate-critical-senate-race",
-      "published_at": "2026-11-02T08:20:48Z",
-      "collected_at": "2026-11-02T08:30:56Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "244ee1ac9db0f3a3a248daa5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Michigan Democrat's endorsement of Republican ruffles critical Senate race",
-      "url": "https://www.france24.com/en/michigan-democrat-s-endorsement-of-republican-ruffles-critical-senate-race",
-      "published_at": "2026-11-02T07:55:44Z",
-      "collected_at": "2026-11-02T08:30:56Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "4d7c42816f714248cff5c93e",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -2429,6 +2485,34 @@
       ]
     },
     {
+      "id": "be6fb86d68e8fe473d22110a",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "How a movement of students brought down Serbia's Vučić",
+      "url": "https://www.bbc.co.uk/news/articles/c574pvy82k0mo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-26T14:29:31Z",
+      "collected_at": "2026-11-03T08:31:01Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "a3dd6fd1d0a6d60c66d2abfa",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Joy and disbelief on Serbian streets as Vučić concedes election defeat",
+      "url": "https://www.bbc.co.uk/news/videos/c8x23x1yn6w6o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-25T22:59:00Z",
+      "collected_at": "2026-11-03T08:31:01Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "bb771d1316476b4ba4b4688d",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2690,21 +2774,6 @@
       "title": "Session 1b: Global monetary issues",
       "url": "https://www.bruegel.org/node/12381",
       "published_at": "2026-07-03T09:23:49Z",
-      "collected_at": "2026-11-03T05:30:57Z",
-      "topics": [
-        "analysis",
-        "economy",
-        "energy",
-        "climate"
-      ]
-    },
-    {
-      "id": "76143c5a3c61bc287c36d006",
-      "source_id": "bruegel",
-      "source_name": "Bruegel",
-      "title": "Session 2b: What would make the European Economy secure in 2030?",
-      "url": "https://www.bruegel.org/node/12380",
-      "published_at": "2026-07-03T09:22:32Z",
       "collected_at": "2026-11-03T05:30:57Z",
       "topics": [
         "analysis",
