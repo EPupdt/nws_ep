@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-03T21:01:08Z",
-  "last_successful_collection_at": "2026-11-03T21:01:08Z",
+  "generated_at": "2026-11-03T21:31:14Z",
+  "last_successful_collection_at": "2026-11-03T21:31:14Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-03T21:01:08Z"
+      "at": "2026-11-03T21:31:14Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-03T21:01:08Z"
+      "at": "2026-11-03T21:31:14Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-03T21:01:08Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-11-03T21:31:14Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,88 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-03T21:01:08Z"
+      "at": "2026-11-03T21:31:14Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-03T21:01:08Z"
+      "at": "2026-11-03T21:31:14Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-11-03T21:01:08Z"
+      "at": "2026-11-03T21:31:14Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-03T21:01:08Z"
+      "at": "2026-11-03T21:31:14Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-03T21:01:08Z"
+      "at": "2026-11-03T21:31:14Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-03T21:01:08Z"
+      "at": "2026-11-03T21:31:14Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Escalating attacks and casualties in Ukraine",
-      "summary": "Recent Russian military strikes in Ukraine targeted an aid center, a hospice, and a hospital, resulting in a rising civilian death toll. The ongoing conflict continues to strain regional stability as battlefield conditions intensify.",
+      "title": "Spanish transport minister resigns following fatal crash",
+      "summary": "The transport minister of Spain stepped down from office in the wake of a deadly train accident. The resignation follows mounting scrutiny over the rail disaster.",
+      "article_ids": [
+        "7ae6fad569e2715bcfd5f8b5",
+        "654ff25b17909c36d6a46891"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/spain-transport-minister-oscar-puente-resigns-after-deadly-train-crash",
+          "headline": "Spain’s transport minister resigns after deadly train crash",
+          "published_at": "2026-11-03T21:23:48Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
+          "headline": "Spanish transport minister resigns days after deadly train crash",
+          "published_at": "2026-11-03T20:56:32Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Security and Institutional Developments in Poland",
+      "summary": "Tensions escalated between domestic political figures regarding the country's constitutional court. Meanwhile, security authorities addressed border incidents and flight disruptions affecting national infrastructure.",
+      "article_ids": [
+        "6a7f895ed867d1f6f7efda56",
+        "8719da3e7640d2def1724f12"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/clash-intensifies-between-tusk-and-nawrocki-over-polands-top-court",
+          "headline": "Clash intensifies between Tusk and Nawrocki over Poland’s top court",
+          "published_at": "2026-11-03T20:16:05Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Conflict Impacts and Financial Strain in Ukraine",
+      "summary": "Ongoing hostilities continued to cause casualties and destruction across multiple regions in Ukraine. The prolonged conflict has also placed increasing financial burdens on households within Russia.",
       "article_ids": [
         "25f5a08066906319058674fb",
-        "56583fd4753cfad75ab5481f"
+        "87564bda09716653cbab2dd7"
       ],
       "sources": [
         {
@@ -79,61 +121,12 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261103-vile-terrorist-attack-russia-bombs-ukraine-aid-centre",
-          "headline": "‘Vile terrorist attack’: Russia bombs Ukraine aid centre",
-          "published_at": "2026-11-03T16:30:08Z"
+          "url": "https://www.france24.com/en/video/20261103-russian-households-face-increasing-financial-strain-as-war-in-ukraine-drags-on",
+          "headline": "Russian households face increasing financial strain as war in Ukraine drags on",
+          "published_at": "2026-11-03T17:05:54Z"
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Institutional clashes and domestic policy disputes in Poland and Czechia",
-      "summary": "Political tensions in Poland intensified as a disputed constitutional court held its first meeting following a government takeover by backed judges. Meanwhile, Czech public broadcasters initiated a historic strike in response to a government legislative vote to eliminate license fees.",
-      "article_ids": [
-        "8719da3e7640d2def1724f12",
-        "6a7f895ed867d1f6f7efda56",
-        "6e36bf52575242fb6e6e3f65"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/03/disputed-polish-constitutional-court-holds-first-meeting-after-takeover-by-government-backed-judges",
-          "headline": "Disputed Polish constitutional court holds first meeting after takeover by government-backed judges",
-          "published_at": "2026-11-03T18:33:46Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/clash-intensifies-between-tusk-and-nawrocki-over-polands-top-court",
-          "headline": "Clash intensifies between Tusk and Nawrocki over Poland’s top court",
-          "published_at": "2026-11-03T20:16:05Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "European strategic positioning on Ukraine negotiations",
-      "summary": "German political figures warned that European nations must secure a direct role in upcoming peace negotiations concerning Ukraine. Discussions continue across European capitals regarding future diplomatic and security strategy amid shifting international dynamics.",
-      "article_ids": [
-        "08f81d289e285e0fd9c56a6c",
-        "74714deaa2894c48e9df9047"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/germany-friedrich-merz-europe-ukraine-peace-deal-donald-trump",
-          "headline": "Germany’s Merz warns Europe must have seat at the table on Ukraine peace talks",
-          "published_at": "2026-11-03T14:48:47Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/germany-friedrich-merz-europe-ukraine-peace-deal-donald-trump",
-          "headline": "Germany’s Merz warns Europe needs seat at the table as Trump renews Ukraine talks",
-          "published_at": "2026-11-03T14:48:47Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "developing": [
@@ -167,33 +160,6 @@
           "url": "https://www.politico.eu/article/brits-want-the-democrats-to-win-the-us-midterms",
           "headline": "Poll: Brits want the Democrats to win the midterms",
           "published_at": "2026-11-03T13:22:07Z"
-        }
-      ]
-    },
-    {
-      "label": "Ukraine · Russian · kills · war",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 7,
-      "latest_at": "2026-11-03T17:05:54Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261103-russian-households-face-increasing-financial-strain-as-war-in-ukraine-drags-on",
-          "headline": "Russian households face increasing financial strain as war in Ukraine drags on",
-          "published_at": "2026-11-03T17:05:54Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/246517/russia-faces-a-strategic-crisis-and-record-losses-but-thanks-to-trump-it-sees-things-positively-ukraine-battlefield-update-day-1713",
-          "headline": "Russia faces a strategic crisis and record losses, but thanks to Trump it sees things positively (Ukraine Battlefield update, Day 1,713)",
-          "published_at": "2026-11-03T15:44:35Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
-          "headline": "Russian bombing kills 31 people at Ukraine aid centre, Kyiv says",
-          "published_at": "2026-11-03T13:26:19Z"
         }
       ]
     },
@@ -244,9 +210,72 @@
           "published_at": "2026-11-03T14:35:19Z"
         }
       ]
+    },
+    {
+      "label": "Midterms · Trump · Pool",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 6,
+      "latest_at": "2026-11-03T18:42:49Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20261103-live-americans-head-to-the-polls-to-vote-in-us-midterm-elections",
+          "headline": "🔴 Midterms live: Voting under way to determine control of Congress and the future of Trump's agenda",
+          "published_at": "2026-11-03T18:42:49Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-11-03/midterms-in-maps-and-charts-whats-at-stake-this-tuesday-and-where-trump-stands.html",
+          "headline": "Midterms, in maps and charts: What’s at stake this Tuesday and where Trump stands",
+          "published_at": "2026-11-03T11:01:40Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "7ae6fad569e2715bcfd5f8b5",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Spain’s transport minister resigns after deadly train crash",
+      "url": "https://www.politico.eu/article/spain-transport-minister-oscar-puente-resigns-after-deadly-train-crash",
+      "published_at": "2026-11-03T21:23:48Z",
+      "collected_at": "2026-11-03T21:31:14Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "e84a42135bc45ba490b002e4",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "South Africa braces for some job losses as AGOA ends",
+      "url": "https://www.france24.com/en/south-africa-braces-for-some-job-losses-as-agoa-ends",
+      "published_at": "2026-11-03T21:18:25Z",
+      "collected_at": "2026-11-03T21:31:14Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "ecc335e926b832b265df73c3",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Trump promised a 'Golden Age'. What has he delivered at home?",
+      "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261103-trump-promised-a-golden-age-what-has-he-delivered-at-home",
+      "published_at": "2026-11-03T20:56:49Z",
+      "collected_at": "2026-11-03T21:31:14Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "654ff25b17909c36d6a46891",
       "source_id": "bbc_europe",
@@ -395,6 +424,20 @@
       "url": "https://euobserver.com/246651/firefighters-from-19-countries-protest-eu-disaster-budget-cuts-in-brussels",
       "published_at": "2026-11-03T17:20:39Z",
       "collected_at": "2026-11-03T17:31:12Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "c696cce8361370ed20ed2a13",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Firefighters from 19 countries protest EU budget cuts in Brussels",
+      "url": "https://euobserver.com/246651/firefighters-from-19-countries-protest-eu-disaster-budget-cuts-in-brussels",
+      "published_at": "2026-11-03T17:20:39Z",
+      "collected_at": "2026-11-03T21:31:14Z",
       "topics": [
         "institutions",
         "policy",
@@ -2250,20 +2293,6 @@
       ]
     },
     {
-      "id": "80b1419723110e743a39691d",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Uganda withdrawing troops from peacekeeping mission in Somalia",
-      "url": "https://www.france24.com/en/uganda-withdrawing-troops-from-peacekeeping-mission-in-somalia",
-      "published_at": "2026-11-02T21:24:21Z",
-      "collected_at": "2026-11-02T21:30:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "f17ca207cf4db5d5eec1c4f3",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2271,48 +2300,6 @@
       "url": "https://www.france24.com/en/uganda-withdrawing-troops-from-peacekeeping-mission-in-somalia",
       "published_at": "2026-11-02T21:24:21Z",
       "collected_at": "2026-11-03T10:01:14Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "d3c3be9c03da1fbf21e07748",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "The Long Hull: Karl Bushby reflects on perseverance & 'best of humanity' on his 28-year journey home",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261102-the-long-hull-karl-bushby-reflects-on-perseverance-best-of-humanity-on-his-28-year-journey-home",
-      "published_at": "2026-11-02T20:54:38Z",
-      "collected_at": "2026-11-02T21:30:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "5cf087d5d0e8e4d84c749626",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "The Long Hull: Karl Bushby reflects on perseverance & 'best of humanity' on his 28-year journey home",
-      "url": "https://www.france24.com/en/video/20261102-the-long-hull-karl-bushby-reflects-on-perseverance-best-of-humanity-on-his-28-year-journey-home-1",
-      "published_at": "2026-11-02T20:40:05Z",
-      "collected_at": "2026-11-02T21:30:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "99496462920d4982b5ffc1df",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "EU says fridge attacks 'deliberate attempt to disrupt' bloc's food supply",
-      "url": "https://www.france24.com/en/eu-says-fridge-attacks-deliberate-attempt-to-disrupt-bloc-s-food-supply",
-      "published_at": "2026-11-02T20:30:07Z",
-      "collected_at": "2026-11-02T21:30:49Z",
       "topics": [
         "politics",
         "security",
@@ -2425,34 +2412,6 @@
       "url": "https://www.france24.com/en/middle-east/20261102-iran-engages-us-in-intensive-negotiations-to-avert-fresh-war-outbreak",
       "published_at": "2026-11-02T17:42:22Z",
       "collected_at": "2026-11-03T04:30:58Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "3d4f008512f2af5167d7a764",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Petition to ban French right-wing TV channel clears 600,000 signatures after racist killing",
-      "url": "https://www.france24.com/en/france/20261102-petition-to-ban-french-right-wing-tv-channel-clears-500-000-signatures-after-racist-killing",
-      "published_at": "2026-11-02T16:53:34Z",
-      "collected_at": "2026-11-02T21:30:49Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0a57ceb136f7fb021579670e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Iconic Paris department store BHV Marais granted bankruptcy protection",
-      "url": "https://www.france24.com/en/france/20261102-storied-paris-department-store-bhv-marais-granted-bankruptcy-protection",
-      "published_at": "2026-11-02T16:43:48Z",
-      "collected_at": "2026-11-02T21:30:49Z",
       "topics": [
         "politics",
         "security",
