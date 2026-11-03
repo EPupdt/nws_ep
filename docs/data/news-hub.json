@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-03T11:31:00Z",
-  "last_successful_collection_at": "2026-11-03T11:31:00Z",
+  "generated_at": "2026-11-03T12:01:07Z",
+  "last_successful_collection_at": "2026-11-03T12:01:07Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-03T11:31:00Z"
+      "at": "2026-11-03T12:01:07Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-03T11:31:00Z"
+      "at": "2026-11-03T12:01:07Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-03T11:31:00Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-11-03T12:01:07Z"
     },
     {
       "id": "euractiv",
@@ -29,84 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-03T11:31:00Z"
+      "at": "2026-11-03T12:01:07Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-03T11:31:00Z"
+      "at": "2026-11-03T12:01:07Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-03T11:31:00Z"
+      "at": "2026-11-03T12:01:07Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-03T11:31:00Z"
+      "at": "2026-11-03T12:01:07Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-03T11:31:00Z"
+      "at": "2026-11-03T12:01:07Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-03T11:31:00Z"
+      "at": "2026-11-03T12:01:07Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Threats to flights and airport disruption in Warsaw",
-      "summary": "Two airplanes encountered security threats while en route to Warsaw, leading to the brief closure of an airport. Authorities are currently addressing the incidents.",
-      "article_ids": [
-        "7cb77558c3f0da74fb31edcc"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
-          "headline": "Two planes face threats en route to Warsaw, and one airport is briefly closed",
-          "published_at": "2026-11-03T11:22:42Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Escalating strikes and casualties in Ukraine",
-      "summary": "Recent Russian military strikes in Ukraine have resulted in dozens of deaths and missing persons following an attack on an aid site. The attacks follow the conclusion of a significant ceasefire period.",
-      "article_ids": [
-        "e39937f6a3ef4b05c8b327e1",
-        "da3c4f3e4edc37c2d70af571"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261103-dozens-killed-dozens-more-missing-after-russian-strike-on-ukrainian-aid-site",
-          "headline": "Dozens killed, dozens more missing after Russian strike on Ukrainian aid site",
-          "published_at": "2026-11-03T10:58:38Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261103-russian-strikes-kill-26-in-ukraine-after-longest-ceasefire-ends",
-          "headline": "Russian strikes kill 26 in Ukraine after longest ceasefire ends",
-          "published_at": "2026-11-03T01:18:44Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "UK and EU draft trade agreement",
-      "summary": "The United Kingdom and the European Union have reached a draft agreement aimed at removing regulatory food export barriers stemming from Brexit. This arrangement seeks to streamline cross-border trade processes.",
+      "title": "UK and EU Draft Trade Agreement",
+      "summary": "The United Kingdom and the European Union have reached a draft agreement aimed at eliminating bureaucratic hurdles for food exports. The proposed framework focuses on reducing trade friction and streamlining regulatory compliance across borders.",
       "article_ids": [
         "be786b6ff6ccd5b5f90615a2"
       ],
@@ -121,30 +80,107 @@
       "source_count": 1
     },
     {
-      "title": "Political and institutional developments in Poland",
-      "summary": "A deepening crisis surrounding Poland's highest court is significantly shaping the country's political landscape ahead of upcoming elections. Additionally, a Polish journalist was detained at the Ukrainian border and given a multi-year entry ban.",
+      "title": "Security Threats Impact Flights to Warsaw",
+      "summary": "Multiple aircraft en route to Warsaw faced security threats, leading to a temporary closure of an airport. Authorities are investigating the incidents amid heightened security protocols across European transit hubs.",
       "article_ids": [
-        "f45bd41b14322a86aadec953",
-        "48208b7f0a6909d1bff95dc3"
+        "7cb77558c3f0da74fb31edcc"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+          "headline": "Two planes face threats en route to Warsaw, and one airport is briefly closed",
+          "published_at": "2026-11-03T11:22:42Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Cyber Incidents Target Food Supply Chains",
+      "summary": "Recent cyberattacks involving European freezer systems have impacted the UK food supply chain. Cybersecurity officials have highlighted these digital intrusions as a growing vulnerability for critical regional infrastructure.",
+      "article_ids": [
+        "f70d7c88ed21896c996952bc"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ckq6ndq8l6v0o?at_medium=RSS&at_campaign=rss",
+          "headline": "UK food supply chain affected by European freezer hacks, cyber chief says",
+          "published_at": "2026-11-03T11:32:47Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Escalating Conflict and Casualties in Ukraine",
+      "summary": "A Russian strike on a Ukrainian aid distribution center resulted in numerous fatalities and left many others missing. Local authorities and international observers condemned the attack on humanitarian infrastructure.",
+      "article_ids": [
+        "e39937f6a3ef4b05c8b327e1",
+        "2937075c6a1625bf1f34554a"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261103-dozens-killed-dozens-more-missing-after-russian-strike-on-ukrainian-aid-site",
+          "headline": "Dozens killed, dozens more missing after Russian strike on Ukrainian aid site",
+          "published_at": "2026-11-03T10:58:38Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+          "headline": "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
+          "published_at": "2026-11-03T07:24:12Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Eurozone Leadership Transitions",
+      "summary": "Eurozone member states have established a deadline of November 6 to nominate a replacement for European Central Bank leadership positions. Financial markets are closely monitoring the succession process for potential economic policy shifts.",
+      "article_ids": [
+        "9c43c01758950b5419f866a9"
       ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/crisis-over-top-court-shapes-polands-battle-lines-before-2027-election",
-          "headline": "Crisis over top court shapes Poland’s battle lines before 2027 election",
-          "published_at": "2026-11-03T03:00:00Z"
-        },
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/03/polish-journalist-held-at-ukraine-border-and-handed-three-year-entry-ban",
-          "headline": "Polish journalist held at Ukraine border and handed three-year entry ban",
-          "published_at": "2026-11-03T07:00:28Z"
+          "url": "https://www.politico.eu/article/eurozone-countries-to-nominate-lagarde-replacement-by-nov-6",
+          "headline": "Eurozone countries to nominate Lagarde replacement by Nov. 6",
+          "published_at": "2026-11-03T08:42:59Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     }
   ],
   "developing": [
+    {
+      "label": "Midterms · US · Live · elections",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 17,
+      "latest_at": "2026-11-03T11:35:06Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/focus/20261103-us-midterm-elections-food-stamp-crisis-a-key-campaign-issue-in-arizona",
+          "headline": "US midterm elections: Food stamp crisis a key campaign issue in Arizona",
+          "published_at": "2026-11-03T11:35:06Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-11-03/united-states-votes-in-decisive-midterms-for-trumps-mandate-seven-keys-to-the-elections.html",
+          "headline": "United States votes in decisive midterms for Trump’s mandate: Seven keys to the elections",
+          "published_at": "2026-11-03T11:03:05Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/246416/listen-whats-at-stake-for-europe-in-the-us-midterms",
+          "headline": "Listen: What’s at stake for Europe in the US midterms?",
+          "published_at": "2026-11-03T10:46:54Z"
+        }
+      ]
+    },
     {
       "label": "Ukraine · Russia · Fighting · Kherson",
       "origin": "convergence",
@@ -173,50 +209,23 @@
       ]
     },
     {
-      "label": "midterms · Europe · US",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-11-03T10:46:54Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/246416/listen-whats-at-stake-for-europe-in-the-us-midterms",
-          "headline": "Listen: What’s at stake for Europe in the US midterms?",
-          "published_at": "2026-11-03T10:46:54Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/why-europe-shouldnt-celebrate-democratic-us-midterm-victory",
-          "headline": "Why Europe shouldn’t celebrate a Democratic midterm victory",
-          "published_at": "2026-11-03T03:00:00Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-11-02/us-voters-head-to-the-polls-corruption-emerges-as-late-breaking-top-concern-in-midterms.html",
-          "headline": "US voters head to the polls: Corruption emerges as late-breaking top concern in midterms",
-          "published_at": "2026-11-02T12:18:14Z"
-        }
-      ]
-    },
-    {
-      "label": "Midterms · Trump · US · Live",
+      "label": "Midterms · Trump",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 15,
-      "latest_at": "2026-11-03T11:03:05Z",
+      "item_count": 3,
+      "latest_at": "2026-11-03T11:01:40Z",
       "sources": [
         {
           "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-11-03/united-states-votes-in-decisive-midterms-for-trumps-mandate-seven-keys-to-the-elections.html",
-          "headline": "United States votes in decisive midterms for Trump’s mandate: Seven keys to the elections",
-          "published_at": "2026-11-03T11:03:05Z"
+          "url": "https://english.elpais.com/usa/2026-11-03/midterms-in-maps-and-charts-whats-at-stake-this-tuesday-and-where-trump-stands.html",
+          "headline": "Midterms, in maps and charts: What’s at stake this Tuesday and where Trump stands",
+          "published_at": "2026-11-03T11:01:40Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261103-americans-to-vote-in-us-midterms-trump-s-republicans-scramble-to-stop-democratic-wave",
-          "headline": "Americans to vote in US midterms: Trump's Republicans scramble to stop Democratic wave",
-          "published_at": "2026-11-03T10:56:17Z"
+          "url": "https://www.france24.com/en/video/20261103-midterms-trump-uses-final-appeal-to-talk-about-troubled-reflecting-pool",
+          "headline": "Midterms: Trump uses final appeal to talk about troubled Reflecting Pool",
+          "published_at": "2026-11-03T10:29:12Z"
         }
       ]
     },
@@ -243,6 +252,76 @@
     }
   ],
   "radar": [
+    {
+      "id": "89ca6c9191a5ded14f119e4b",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Flights from UK airports among three targeted by bomb threats",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T11:50:45Z",
+      "collected_at": "2026-11-03T12:01:07Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "1ca30141c2b80886eeb43734",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US midterm elections: Food stamp crisis a key campaign issue in Arizona",
+      "url": "https://www.france24.com/en/tv-shows/focus/20261103-us-midterm-elections-food-stamp-crisis-a-key-campaign-issue-in-arizona",
+      "published_at": "2026-11-03T11:35:06Z",
+      "collected_at": "2026-11-03T12:01:07Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f70d7c88ed21896c996952bc",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "UK food supply chain affected by European freezer hacks, cyber chief says",
+      "url": "https://www.bbc.co.uk/news/articles/ckq6ndq8l6v0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T11:32:47Z",
+      "collected_at": "2026-11-03T12:01:07Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "a2e9810045c30ad15d88e7e5",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "DR Congo opposition figure Prince Epenge arrested for spreading fake news",
+      "url": "https://www.france24.com/en/video/20261103-dr-congo-opposition-figure-prince-epenge-arrested-for-spreading-fake-news",
+      "published_at": "2026-11-03T11:27:36Z",
+      "collected_at": "2026-11-03T12:01:07Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c4608237f4359ed6915abb5d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Chadian farmers suffer from intensifying drought and take stock of their losses",
+      "url": "https://www.france24.com/en/video/20261103-chadian-farmers-suffer-from-intensifying-drought-and-take-stock-of-their-losses",
+      "published_at": "2026-11-03T11:26:53Z",
+      "collected_at": "2026-11-03T12:01:07Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "7cb77558c3f0da74fb31edcc",
       "source_id": "bbc_europe",
@@ -279,6 +358,34 @@
       "url": "https://english.elpais.com/usa/2026-11-03/united-states-votes-in-decisive-midterms-for-trumps-mandate-seven-keys-to-the-elections.html",
       "published_at": "2026-11-03T11:03:05Z",
       "collected_at": "2026-11-03T11:31:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "70c7a065db06d7db4b9bb426",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "María Montserrat Alvarado, the first laywoman to head the Vatican’s communications office",
+      "url": "https://english.elpais.com/international/2026-11-03/maria-montserrat-alvarado-the-first-laywoman-to-head-the-vaticans-communications-office.html",
+      "published_at": "2026-11-03T11:02:36Z",
+      "collected_at": "2026-11-03T12:01:07Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "ee8241ab0476ad140e80247f",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Lindsay Clancy returns to court, but questions remain over new trial date and first-degree murder charges",
+      "url": "https://english.elpais.com/usa/2026-11-03/lindsay-clancy-returns-to-court-but-questions-remain-over-new-trial-date-and-first-degree-murder-charge.html",
+      "published_at": "2026-11-03T11:02:21Z",
+      "collected_at": "2026-11-03T12:01:07Z",
       "topics": [
         "politics",
         "society",
@@ -713,6 +820,20 @@
       "url": "https://www.france24.com/en/americas/20261103-live-americans-head-to-the-polls-to-vote-in-us-midterm-elections",
       "published_at": "2026-11-03T05:45:33Z",
       "collected_at": "2026-11-03T10:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "2cfdc49b63ac57c937c96fbb",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US midterms live: East coast polling stations open for pivotal election",
+      "url": "https://www.france24.com/en/americas/20261103-live-americans-head-to-the-polls-to-vote-in-us-midterm-elections",
+      "published_at": "2026-11-03T05:45:33Z",
+      "collected_at": "2026-11-03T12:01:07Z",
       "topics": [
         "politics",
         "security",
@@ -2008,20 +2129,6 @@
       ]
     },
     {
-      "id": "1c29f80095dd902c8afc1b3b",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Supermarket freezers in Belgium, Sweden and Luxembourg hit by suspected cyber-attack",
-      "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-02T11:56:32Z",
-      "collected_at": "2026-11-02T12:01:01Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "3b69022072b522aa8a3c48f8",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2092,62 +2199,6 @@
       ]
     },
     {
-      "id": "952e5dc43ff00e8dbe64efe7",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Consolidation of power': Bulgaria elects Iliana Iotova as first woman president",
-      "url": "https://www.france24.com/en/tv-shows/press-review/20261102-consolidation-of-power-bulgaria-elects-iliana-iotova-as-first-woman-president",
-      "published_at": "2026-11-02T11:29:15Z",
-      "collected_at": "2026-11-02T11:31:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "158bcf96e5c9d34a563a60da",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "First Asian hornet nest in Poland eliminated but experts warn more to appear next year",
-      "url": "https://notesfrompoland.com/2026/11/02/first-asian-hornet-nest-in-poland-eliminated-but-experts-warn-more-to-appear-next-year",
-      "published_at": "2026-11-02T11:28:14Z",
-      "collected_at": "2026-11-02T11:31:04Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "5938b4dbdb097a8922a592db",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Supermarket freezers in Belgium and Sweden hit by suspected cyber-attack",
-      "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-02T11:25:12Z",
-      "collected_at": "2026-11-02T11:31:04Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "65e63d7ff2db67d53558f7c2",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Hackers attack supermarket fridges in Belgium, Sweden and Luxembourg",
-      "url": "https://www.politico.eu/article/new-supermarket-hack-in-belgium-sweden-luxembourg",
-      "published_at": "2026-11-02T11:19:32Z",
-      "collected_at": "2026-11-02T12:01:01Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "bc2df8dac6207a5ebe952420",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2159,48 +2210,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "d36ee174c72e70fc747e7afe",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Emotional reunions as residents flee Ukraine’s Oleshky during truce",
-      "url": "https://www.france24.com/en/video/20261102-emotional-reunions-as-residents-flee-ukraine-s-oleshky-during-truce",
-      "published_at": "2026-11-02T11:19:26Z",
-      "collected_at": "2026-11-02T11:31:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4670e7a0a4c30638ef056400",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Football: China refuses to air Real Madrid game after Mbappé comment",
-      "url": "https://www.france24.com/en/video/20261102-football-china-refuses-to-air-real-madrid-game-after-mbapp%C3%A9-comment",
-      "published_at": "2026-11-02T11:09:07Z",
-      "collected_at": "2026-11-02T11:31:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "ce46be0dcc19bee22c0cf70b",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Zelensky stalls on his EU promises to protect gay rights, even as Ukraine rushes through minority-languages law",
-      "url": "https://euobserver.com/245901/zelensky-stalls-on-his-eu-promises-to-protect-gay-rights-even-as-ukraine-rushes-through-minority-languages-law",
-      "published_at": "2026-11-02T11:05:07Z",
-      "collected_at": "2026-11-02T11:31:04Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
       ]
     },
     {
@@ -2428,20 +2437,6 @@
       ]
     },
     {
-      "id": "23f21927ae3756365187e005",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Polish president in physical confrontation with judges amid power struggle at constitutional court",
-      "url": "https://notesfrompoland.com/2026/10/31/polish-president-in-physical-confrontation-with-judges-amid-power-struggle-at-constitutional-court",
-      "published_at": "2026-10-31T11:37:48Z",
-      "collected_at": "2026-11-02T12:01:01Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "ceb96527394ae3411415e638",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2645,34 +2640,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-29T11:07:35Z",
       "collected_at": "2026-11-02T18:30:51Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "d5f28cc8a871580dc0481454",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
-      "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-29T10:33:00Z",
-      "collected_at": "2026-11-02T11:31:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "6bcb80b5d11a6617eb576a77",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Girl seriously injured in wolf attack at German wildlife park",
-      "url": "https://www.bbc.co.uk/news/articles/c678prm55gzzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-28T22:08:52Z",
-      "collected_at": "2026-11-02T11:31:04Z",
       "topics": [
         "breaking",
         "politics",
