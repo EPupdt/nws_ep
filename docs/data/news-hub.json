@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-03T13:01:04Z",
-  "last_successful_collection_at": "2026-11-03T13:01:04Z",
+  "generated_at": "2026-11-03T13:30:54Z",
+  "last_successful_collection_at": "2026-11-03T13:30:54Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-03T13:01:04Z"
+      "at": "2026-11-03T13:30:54Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "22",
-      "at": "2026-11-03T13:01:04Z"
+      "count": "23",
+      "at": "2026-11-03T13:30:54Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-03T13:01:04Z"
+      "at": "2026-11-03T13:30:54Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-03T13:01:04Z"
+      "at": "2026-11-03T13:30:54Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-03T13:01:04Z"
+      "at": "2026-11-03T13:30:54Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-03T13:01:04Z"
+      "at": "2026-11-03T13:30:54Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-03T13:01:04Z"
+      "at": "2026-11-03T13:30:54Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-03T13:01:04Z"
+      "at": "2026-11-03T13:30:54Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-03T13:01:04Z"
+      "at": "2026-11-03T13:30:54Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Suspected Bomb Threats Target UK Airports and Flights to Warsaw",
-      "summary": "Flights from UK airports and planes en route to Warsaw faced security threats, leading to a brief airport closure.",
+      "title": "Cyber-attacks Impact European Supermarket Freezers",
+      "summary": "A wave of cyber-attacks has targeted supermarket freezers across nine European countries, disrupting the UK food supply chain. The cybersecurity incident has prompted heightened regional security alerts and investigations by authorities.",
+      "article_ids": [
+        "b81e91935573c2c2fb9ea87d",
+        "f70d7c88ed21896c996952bc"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cwy8lm1m59mvo?at_medium=RSS&at_campaign=rss",
+          "headline": "Europe on alert after supermarket freezers hit by cyber-attacks in nine countries",
+          "published_at": "2026-11-03T13:12:04Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ckq6ndq8l6v0o?at_medium=RSS&at_campaign=rss",
+          "headline": "UK food supply chain affected by European freezer hacks, cyber chief says",
+          "published_at": "2026-11-03T11:32:47Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Airports and Flights Targeted by Security Threats",
+      "summary": "Several flights, including those originating from UK airports and routes toward Warsaw, have faced security threats, leading to brief airport closures. Aviation authorities are maintaining heightened security measures in response to the incidents.",
       "article_ids": [
         "d2ba1b015590ae206d50433a",
         "7cb77558c3f0da74fb31edcc"
@@ -85,20 +108,45 @@
         }
       ],
       "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Escalating Conflict and Casualties in Ukraine",
+      "summary": "Russian bombing has resulted in numerous casualties at an aid center in Ukraine. Regional leaders and international monitors have reported severe destruction following the strikes.",
+      "article_ids": [
+        "694af8e1c1eb08b03f1e56ac",
+        "e39937f6a3ef4b05c8b327e1"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+          "headline": "Russian bombing kills 31 people at Ukraine aid centre, Kyiv says",
+          "published_at": "2026-11-03T13:26:19Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261103-dozens-killed-dozens-more-missing-after-russian-strike-on-ukrainian-aid-site",
+          "headline": "Dozens killed, dozens more missing after Russian strike on Ukrainian aid site",
+          "published_at": "2026-11-03T10:58:38Z"
+        }
+      ],
+      "source_count": 2
     },
     {
-      "title": "Cyber-Attack Impacts European Food Supply Chain and Meat Industry",
-      "summary": "Cyber incidents targeting European supermarket freezers have disrupted the UK meat industry and broader food supply chains.",
+      "title": "Cross-Border Cyber Incidents Affect Food Supply Chains",
+      "summary": "Supermarket freezers across nine European countries have been hit by coordinated cyber-attacks. The security breach has notably impacted the meat industry and supply chains within the United Kingdom.",
       "article_ids": [
-        "f70d7c88ed21896c996952bc",
+        "b81e91935573c2c2fb9ea87d",
         "07b1757dac1496acf416c6b7"
       ],
       "sources": [
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ckq6ndq8l6v0o?at_medium=RSS&at_campaign=rss",
-          "headline": "UK food supply chain affected by European freezer hacks, cyber chief says",
-          "published_at": "2026-11-03T11:32:47Z"
+          "url": "https://www.bbc.co.uk/news/articles/cwy8lm1m59mvo?at_medium=RSS&at_campaign=rss",
+          "headline": "Europe on alert after supermarket freezers hit by cyber-attacks in nine countries",
+          "published_at": "2026-11-03T13:12:04Z"
         },
         {
           "publisher": "BBC News Europe",
@@ -110,53 +158,19 @@
       "source_count": 1
     }
   ],
-  "top_stories": [
-    {
-      "title": "UK and European Union Trade Negotiations",
-      "summary": "The United Kingdom and the European Union have agreed on a draft deal designed to remove post-Brexit red tape concerning food exports. Officials from both sides negotiated terms aimed at streamlining cross-border agricultural trade.",
-      "article_ids": [
-        "be786b6ff6ccd5b5f90615a2"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
-          "headline": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
-          "published_at": "2026-11-03T07:53:03Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Conflict Escalation and Casualties in Ukraine",
-      "summary": "A recent Russian military strike targeted a Ukrainian aid center, resulting in numerous fatalities and injuries. Ukrainian authorities reported that twenty-nine people were killed in the bombing.",
-      "article_ids": [
-        "2937075c6a1625bf1f34554a"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
-          "headline": "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
-          "published_at": "2026-11-03T07:24:12Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
   "developing": [
     {
-      "label": "US · Midterms · elections · Live",
+      "label": "Midterms · US · Trump · elections",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 18,
-      "latest_at": "2026-11-03T12:12:06Z",
+      "item_count": 23,
+      "latest_at": "2026-11-03T13:24:32Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/us-strikes-iran-s-qeshm-island-as-midterm-elections-start",
-          "headline": "US strikes Iran's Qeshm Island as midterm elections start",
-          "published_at": "2026-11-03T12:12:06Z"
+          "url": "https://www.france24.com/en/video/20261103-what-could-happen-if-donald-trump-loses-us-midterm-elections",
+          "headline": "What could happen if Donald Trump loses US midterm elections?",
+          "published_at": "2026-11-03T13:24:32Z"
         },
         {
           "publisher": "EL PAÍS English",
@@ -173,10 +187,10 @@
       ]
     },
     {
-      "label": "midterms · Republican · Democratic · Texas",
+      "label": "Democratic · midterms · Republican · Texas",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 5,
+      "item_count": 3,
       "latest_at": "2026-11-03T12:45:24Z",
       "sources": [
         {
@@ -187,9 +201,9 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261103-americans-to-vote-in-us-midterms-trump-s-republicans-scramble-to-stop-democratic-wave",
-          "headline": "Americans to vote in US midterms: Trump's Republicans scramble to stop Democratic wave",
-          "published_at": "2026-11-03T10:56:17Z"
+          "url": "https://www.france24.com/en/video/20261103-could-texas-turn-blue-democrat-james-talarico-takes-on-republican-establishment",
+          "headline": "Could Texas turn blue? Democrat James Talarico takes on Republican establishment",
+          "published_at": "2026-11-03T10:51:14Z"
         },
         {
           "publisher": "POLITICO Europe",
@@ -200,10 +214,37 @@
       ]
     },
     {
-      "label": "Ukraine · Russia · Fighting · Kherson",
+      "label": "EU · UK",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 5,
+      "item_count": 3,
+      "latest_at": "2026-11-03T12:07:22Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-to-host-ukraine-reconstruction-talks-with-us-and-uk",
+          "headline": "EU to host Ukraine reconstruction talks with US and UK",
+          "published_at": "2026-11-03T12:07:22Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
+          "headline": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
+          "published_at": "2026-11-03T07:53:03Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/246330/whisper-it-but-the-uks-path-back-to-the-eu-is-beginning-to-take-shape",
+          "headline": "Whisper it, but the UK’s path back to the EU is beginning to take shape",
+          "published_at": "2026-11-02T19:00:00Z"
+        }
+      ]
+    },
+    {
+      "label": "Ukraine · Fighting · Kherson · Russia",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
       "latest_at": "2026-11-02T18:53:49Z",
       "sources": [
         {
@@ -217,38 +258,109 @@
           "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
           "headline": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
           "published_at": "2026-11-02T17:33:19Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/246297/many-more-evacuated-people-left-oleshky-for-ukraine-than-for-russia-prompting-putins-people-to-wonder-why-they-were-so-unloved-ukraine-battlefield-update-day-1712",
-          "headline": "Many more evacuated people left Oleshky for Ukraine than for Russia, prompting Putin’s people to wonder why they were so unloved (Ukraine Battlefield update, day 1,712)",
-          "published_at": "2026-11-02T15:35:19Z"
-        }
-      ]
-    },
-    {
-      "label": "Midterms · Trump · Pool",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-03T11:01:40Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-11-03/midterms-in-maps-and-charts-whats-at-stake-this-tuesday-and-where-trump-stands.html",
-          "headline": "Midterms, in maps and charts: What’s at stake this Tuesday and where Trump stands",
-          "published_at": "2026-11-03T11:01:40Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261103-midterms-trump-uses-final-appeal-to-talk-about-troubled-reflecting-pool",
-          "headline": "Midterms: Trump uses final appeal to talk about troubled Reflecting Pool",
-          "published_at": "2026-11-03T10:29:12Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "694af8e1c1eb08b03f1e56ac",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Russian bombing kills 31 people at Ukraine aid centre, Kyiv says",
+      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T13:26:19Z",
+      "collected_at": "2026-11-03T13:30:54Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "a137bddd6049d017591743c9",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'I love giving debut novelists a chance': Shakespeare and Company's Adam Biles",
+      "url": "https://www.france24.com/en/tv-shows/perspective/20261103-i-love-giving-debut-novelists-a-chance-shakespeare-and-company-s-adam-biles",
+      "published_at": "2026-11-03T13:24:32Z",
+      "collected_at": "2026-11-03T13:30:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c0a7398c24e9d9d73445bbbd",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "What could happen if Donald Trump loses US midterm elections?",
+      "url": "https://www.france24.com/en/video/20261103-what-could-happen-if-donald-trump-loses-us-midterm-elections",
+      "published_at": "2026-11-03T13:24:32Z",
+      "collected_at": "2026-11-03T13:30:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "62c8ab47c5be53507ac66ff5",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Poll: Brits want the Democrats to win the midterms",
+      "url": "https://www.politico.eu/article/brits-want-the-democrats-to-win-the-us-midterms",
+      "published_at": "2026-11-03T13:22:07Z",
+      "collected_at": "2026-11-03T13:30:54Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "b174417b83a26ffa21d6852b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US Midterms: Could a blue wave widen the centrist-progressive divide among Democrats ahead of 2028?",
+      "url": "https://www.france24.com/en/us-midterms-could-a-blue-wave-widen-the-centrist-progressive-divide-among-democrats-ahead-of-2028",
+      "published_at": "2026-11-03T13:19:46Z",
+      "collected_at": "2026-11-03T13:30:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "beea3dce9500a80d6c7c0255",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘Swift’ telescope to crash into Earth after NASA rescue attempt fails",
+      "url": "https://english.elpais.com/science-tech/2026-11-03/swift-telescope-to-crash-into-earth-after-nasa-rescue-attempt-fails.html",
+      "published_at": "2026-11-03T13:16:09Z",
+      "collected_at": "2026-11-03T13:30:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "b81e91935573c2c2fb9ea87d",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Europe on alert after supermarket freezers hit by cyber-attacks in nine countries",
+      "url": "https://www.bbc.co.uk/news/articles/cwy8lm1m59mvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T13:12:04Z",
+      "collected_at": "2026-11-03T13:30:54Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "f879e3c03300da4d23e03a8d",
       "source_id": "el_pais_english",
@@ -2196,20 +2308,6 @@
       ]
     },
     {
-      "id": "4293b2f1156a6324fc8b584a",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Shop freezers in six European countries hit by suspected cyber-attack",
-      "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-02T12:54:33Z",
-      "collected_at": "2026-11-02T13:01:08Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "650a050baeffd3e781dbc937",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2231,20 +2329,6 @@
       "url": "https://www.france24.com/en/video/20261102-michigan-democrat-s-endorsement-of-republican-ruffles-critical-senate-race-1",
       "published_at": "2026-11-02T12:41:56Z",
       "collected_at": "2026-11-02T13:30:55Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "2b63216b1e801fe0bacf19df",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'No political solution' to anger in France, expert says amid ongoing protests",
-      "url": "https://www.france24.com/en/tv-shows/perspective/20261102-no-political-solution-to-the-anger-in-france-expert-says-amid-ongoing-protests",
-      "published_at": "2026-11-02T12:41:04Z",
-      "collected_at": "2026-11-02T13:01:08Z",
       "topics": [
         "politics",
         "security",
@@ -2697,76 +2781,6 @@
         "central_europe",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "c2e5efc042ed864ccf29652d",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Rock collapse kills two in Turkey's Cappadocia, local media reports",
-      "url": "https://www.bbc.co.uk/news/articles/cknv08nvzld4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T13:44:39Z",
-      "collected_at": "2026-11-02T15:30:58Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "62e514b2c7d03a87f0c1ec6a",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
-      "url": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T11:07:35Z",
-      "collected_at": "2026-11-02T18:30:51Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "65bb1cccb9e6a356233a95c9",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland detains Ukrainian accused of arson attack in Romania on behalf of Russia",
-      "url": "https://notesfrompoland.com/2026/10/28/poland-detains-ukrainian-accused-of-arson-attack-in-romania-on-behalf-of-russia",
-      "published_at": "2026-10-28T11:57:26Z",
-      "collected_at": "2026-11-03T13:01:04Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "d09c0155b8801ce24c9a55a0",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump’s Great Persecution: ICE Raids Ignite Business Fears",
-      "url": "https://english.elpais.com/usa/2026-10-28/trumps-great-persecution-ice-raids-ignite-business-fears.html",
-      "published_at": "2026-10-28T10:41:39Z",
-      "collected_at": "2026-11-03T11:31:00Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "0769cd7115b786c05a71d57d",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "EU's 'Made in Europe' push unnerves global auto suppliers",
-      "url": "https://www.dw.com/en/eu-s-made-in-europe-push-unnerves-global-auto-suppliers/a-79732579?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-28T10:24:00Z",
-      "collected_at": "2026-11-03T11:31:00Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     }
   ]
