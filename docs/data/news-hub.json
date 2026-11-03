@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-03T20:01:24Z",
-  "last_successful_collection_at": "2026-11-03T20:01:24Z",
+  "generated_at": "2026-11-03T20:31:02Z",
+  "last_successful_collection_at": "2026-11-03T20:31:02Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-03T20:01:24Z"
+      "at": "2026-11-03T20:31:02Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-03T20:01:24Z"
+      "at": "2026-11-03T20:31:02Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-03T20:01:24Z"
+      "at": "2026-11-03T20:31:02Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-03T20:01:24Z"
+      "at": "2026-11-03T20:31:02Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-03T20:01:24Z"
+      "at": "2026-11-03T20:31:02Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "61",
-      "at": "2026-11-03T20:01:24Z"
+      "at": "2026-11-03T20:31:02Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-03T20:01:24Z"
+      "at": "2026-11-03T20:31:02Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-03T20:01:24Z"
+      "at": "2026-11-03T20:31:02Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-03T20:01:24Z"
+      "at": "2026-11-03T20:31:02Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Bomb threats disrupt air travel across multiple European destinations",
-      "summary": "Security incidents involving bomb threats targeted several flights across Europe, causing disruptions and leading to airport closures including in Warsaw.",
+      "title": "Bomb threats target multiple flights across Europe",
+      "summary": "Multiple flights across Europe were disrupted following a series of bomb threats targeting aircraft. Authorities responded by implementing security protocols, which included the temporary closure of Warsaw airport.",
       "article_ids": [
-        "a737b7a4a1eabf953f8086be",
-        "b2d1d67b70ff6ecd35199ac0",
-        "b6fe757cb10467b7d0052a2b"
+        "b6fe757cb10467b7d0052a2b",
+        "b2d1d67b70ff6ecd35199ac0"
       ],
       "sources": [
         {
@@ -82,8 +81,56 @@
       "source_count": 1
     },
     {
-      "title": "German leadership calls for European inclusion in Ukraine peace talks",
-      "summary": "German political figures have emphasized that European nations must secure a direct seat at the negotiating table as discussions on the future of Ukraine resume.",
+      "title": "Escalation of attacks and casualties in Ukraine",
+      "summary": "Recent Russian military strikes in Ukraine targeted an aid center, a hospice, and a hospital, resulting in an increasing death toll. The ongoing conflict continues to see heavy saturation of drones and tactical adaptations on the battlefield.",
+      "article_ids": [
+        "25f5a08066906319058674fb",
+        "67e08727af57feecd42452f8"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss",
+          "headline": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
+          "published_at": "2026-11-03T16:57:41Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261103-ukraine-and-russia-are-taking-the-war-underground-as-drones-saturate-the-battlefield",
+          "headline": "Ukraine and Russia are taking the war underground as drones saturate the battlefield",
+          "published_at": "2026-11-03T16:52:13Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Political tension in Poland over the constitutional court",
+      "summary": "A deepening institutional clash has emerged between Polish leaders regarding the country's top court. The disputed constitutional court recently convened its first meeting following a takeover by government-backed judges.",
+      "article_ids": [
+        "6a7f895ed867d1f6f7efda56",
+        "8719da3e7640d2def1724f12"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/clash-intensifies-between-tusk-and-nawrocki-over-polands-top-court",
+          "headline": "Clash intensifies between Tusk and Nawrocki over Poland’s top court",
+          "published_at": "2026-11-03T20:16:05Z"
+        },
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/11/03/disputed-polish-constitutional-court-holds-first-meeting-after-takeover-by-government-backed-judges",
+          "headline": "Disputed Polish constitutional court holds first meeting after takeover by government-backed judges",
+          "published_at": "2026-11-03T18:33:46Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "European strategic concerns regarding Ukraine peace negotiations",
+      "summary": "German political figures have publicly warned that European nations must secure a direct role in upcoming peace discussions. European leadership is actively debating future diplomatic and strategic approaches to the conflict.",
       "article_ids": [
         "08f81d289e285e0fd9c56a6c",
         "74714deaa2894c48e9df9047"
@@ -105,43 +152,9 @@
       "source_count": 1
     }
   ],
-  "top_stories": [
-    {
-      "title": "Judicial changes in Poland",
-      "summary": "The disputed Polish constitutional court convened for its initial session following a leadership change involving government-backed judges. This development highlights ongoing institutional and political shifts within the country.",
-      "article_ids": [
-        "8719da3e7640d2def1724f12"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/03/disputed-polish-constitutional-court-holds-first-meeting-after-takeover-by-government-backed-judges",
-          "headline": "Disputed Polish constitutional court holds first meeting after takeover by government-backed judges",
-          "published_at": "2026-11-03T18:33:46Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Czech broadcaster strike",
-      "summary": "Public broadcasters in the Czech Republic staged a strike in response to a government legislative vote to eliminate license fees. The action underscores deep tensions surrounding state media funding and operational independence.",
-      "article_ids": [
-        "6e36bf52575242fb6e6e3f65"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/246573/czech-public-broadcasters-hold-historic-strike-following-government-vote-to-abolish-license-fees",
-          "headline": "Czech public broadcasters hold historic strike following government vote to abolish license fees",
-          "published_at": "2026-11-03T17:56:01Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
   "developing": [
     {
-      "label": "Midterms · US · elections · Democrats",
+      "label": "Midterms · US · Election · Democrats",
       "origin": "convergence",
       "source_count": 4,
       "item_count": 30,
@@ -174,10 +187,10 @@
       ]
     },
     {
-      "label": "Ukraine · Russian · kills · aid",
+      "label": "Ukraine · Russian · kills · war",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 8,
+      "item_count": 7,
       "latest_at": "2026-11-03T17:05:54Z",
       "sources": [
         {
@@ -228,28 +241,42 @@
       ]
     },
     {
-      "label": "Midterms · Trump · Pool",
+      "label": "Trump · US · aid · billion",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 6,
-      "latest_at": "2026-11-03T18:42:49Z",
+      "item_count": 7,
+      "latest_at": "2026-11-03T17:10:42Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20261103-live-americans-head-to-the-polls-to-vote-in-us-midterm-elections",
-          "headline": "🔴 Midterms live: Voting under way to determine control of Congress and the future of Trump's agenda",
-          "published_at": "2026-11-03T18:42:49Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/greenland-greatest-gift-ever-donald-trump-us-europe",
+          "headline": "Trump says Europe gave Greenland to US as ‘greatest gift’ ever",
+          "published_at": "2026-11-03T17:10:42Z"
         },
         {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-11-03/midterms-in-maps-and-charts-whats-at-stake-this-tuesday-and-where-trump-stands.html",
-          "headline": "Midterms, in maps and charts: What’s at stake this Tuesday and where Trump stands",
-          "published_at": "2026-11-03T11:01:40Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east/20261103-trump-says-us-will-halt-4-billion-in-aid-to-israel-after-end-of-this-year",
+          "headline": "Trump says US will halt $4 billion in aid to Israel after end of this year",
+          "published_at": "2026-11-03T14:35:19Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "6a7f895ed867d1f6f7efda56",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Clash intensifies between Tusk and Nawrocki over Poland’s top court",
+      "url": "https://www.politico.eu/article/clash-intensifies-between-tusk-and-nawrocki-over-polands-top-court",
+      "published_at": "2026-11-03T20:16:05Z",
+      "collected_at": "2026-11-03T20:31:02Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "f8f28578f6443f2e80ce2006",
       "source_id": "france24",
@@ -496,6 +523,20 @@
       "url": "https://www.france24.com/en/americas/20261103-how-state-officials-prepared-for-possible-trump-interference-in-the-midterms",
       "published_at": "2026-11-03T16:41:47Z",
       "collected_at": "2026-11-03T19:31:24Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "baa7edb8af6342758aece4b8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Election officials brace for possible Trump interference in the midterms",
+      "url": "https://www.france24.com/en/americas/20261103-how-state-officials-prepared-for-possible-trump-interference-in-the-midterms",
+      "published_at": "2026-11-03T16:41:47Z",
+      "collected_at": "2026-11-03T20:31:02Z",
       "topics": [
         "politics",
         "security",
@@ -832,6 +873,20 @@
       "url": "https://www.france24.com/en/middle-east/20261103-trump-says-us-will-halt-4-billion-in-aid-to-israel-after-end-of-this-year",
       "published_at": "2026-11-03T14:35:19Z",
       "collected_at": "2026-11-03T15:31:01Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "1b955c9318fadea8647f25fe",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Trump says US will halt $4 billion in aid to Israel at the end of the year",
+      "url": "https://www.france24.com/en/middle-east/20261103-trump-says-us-will-halt-4-billion-in-aid-to-israel-after-end-of-this-year",
+      "published_at": "2026-11-03T14:35:19Z",
+      "collected_at": "2026-11-03T20:31:02Z",
       "topics": [
         "politics",
         "security",
@@ -2281,34 +2336,6 @@
       ]
     },
     {
-      "id": "9f97e8272dfa32dc3c776f01",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
-      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-02T20:23:12Z",
-      "collected_at": "2026-11-02T20:30:54Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "ab4ce5a626658a60c4ff886a",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "What if the polls are wrong? How the Democrats’ ‘blue wave’ could become a tsunami or fade into a ripple",
-      "url": "https://english.elpais.com/usa/2026-11-02/what-if-the-polls-are-wrong-how-the-democrats-blue-wave-could-become-a-tsunami-or-fade-into-a-ripple.html",
-      "published_at": "2026-11-02T20:19:38Z",
-      "collected_at": "2026-11-02T20:30:54Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "46eb2afbe684409901d6f7f5",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2414,20 +2441,6 @@
       "url": "https://www.france24.com/en/middle-east/20261102-iran-engages-us-in-intensive-negotiations-to-avert-fresh-war-outbreak",
       "published_at": "2026-11-02T17:42:22Z",
       "collected_at": "2026-11-03T04:30:58Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "96fddd1e6e6a3fe127350de5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Refrigeration cyberattacks highlight risks of connecting industry to the internet",
-      "url": "https://www.france24.com/en/europe/20261102-caught-cold-fridge-cyberattack-highlights-internet-gadget-weaknesses",
-      "published_at": "2026-11-02T17:29:48Z",
-      "collected_at": "2026-11-02T20:30:54Z",
       "topics": [
         "politics",
         "security",
