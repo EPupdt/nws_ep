@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-03T11:01:10Z",
-  "last_successful_collection_at": "2026-11-03T11:01:10Z",
+  "generated_at": "2026-11-03T11:31:00Z",
+  "last_successful_collection_at": "2026-11-03T11:31:00Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-03T11:01:10Z"
+      "at": "2026-11-03T11:31:00Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "23",
-      "at": "2026-11-03T11:01:10Z"
+      "count": "24",
+      "at": "2026-11-03T11:31:00Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-11-03T11:01:10Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-03T11:31:00Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-03T11:01:10Z"
+      "at": "2026-11-03T11:31:00Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-03T11:01:10Z"
+      "at": "2026-11-03T11:31:00Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-03T11:01:10Z"
+      "at": "2026-11-03T11:31:00Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-03T11:01:10Z"
+      "at": "2026-11-03T11:31:00Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-03T11:01:10Z"
+      "at": "2026-11-03T11:31:00Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-03T11:01:10Z"
+      "at": "2026-11-03T11:31:00Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Strike on Ukrainian Aid Site",
-      "summary": "A Russian strike on a Ukrainian aid site resulted in dozens of deaths and multiple missing persons. The attack follows the conclusion of the war's longest ceasefire.",
+      "title": "Threats to flights and airport disruption in Warsaw",
+      "summary": "Two airplanes encountered security threats while en route to Warsaw, leading to the brief closure of an airport. Authorities are currently addressing the incidents.",
+      "article_ids": [
+        "7cb77558c3f0da74fb31edcc"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+          "headline": "Two planes face threats en route to Warsaw, and one airport is briefly closed",
+          "published_at": "2026-11-03T11:22:42Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Escalating strikes and casualties in Ukraine",
+      "summary": "Recent Russian military strikes in Ukraine have resulted in dozens of deaths and missing persons following an attack on an aid site. The attacks follow the conclusion of a significant ceasefire period.",
       "article_ids": [
         "e39937f6a3ef4b05c8b327e1",
         "da3c4f3e4edc37c2d70af571"
@@ -85,10 +101,12 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "UK and EU Draft Deal on Food Exports",
-      "summary": "The United Kingdom and the European Union have agreed on a draft deal aimed at removing Brexit-related red tape regarding food exports. This initiative is designed to streamline trade processes between the two regions.",
+      "title": "UK and EU draft trade agreement",
+      "summary": "The United Kingdom and the European Union have reached a draft agreement aimed at removing regulatory food export barriers stemming from Brexit. This arrangement seeks to streamline cross-border trade processes.",
       "article_ids": [
         "be786b6ff6ccd5b5f90615a2"
       ],
@@ -101,84 +119,32 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "European Defense Exercises in Poland",
-      "summary": "European forces are organizing exercises in Poland to rehearse potential peacekeeping deployments. This event marks a significant collaborative defense effort in the region.",
-      "article_ids": [
-        "67131b3f03a02e8aa63fe5fd",
-        "3a9035d39ba37e25ef778226"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261103-european-force-to-hold-first-ukraine-support-exercise-in-poland",
-          "headline": "European force to hold first Ukraine support exercise in Poland",
-          "published_at": "2026-11-03T01:43:00Z"
-        }
-      ],
-      "source_count": 1
     },
     {
-      "title": "Political Crisis Surrounding Poland's Top Court",
-      "summary": "Poland is experiencing heightened political and institutional friction regarding its constitutional court. The ongoing standoff is shaping national battle lines ahead of upcoming elections.",
+      "title": "Political and institutional developments in Poland",
+      "summary": "A deepening crisis surrounding Poland's highest court is significantly shaping the country's political landscape ahead of upcoming elections. Additionally, a Polish journalist was detained at the Ukrainian border and given a multi-year entry ban.",
       "article_ids": [
-        "07ea74f045f29305b4e40f64",
-        "f45bd41b14322a86aadec953"
+        "f45bd41b14322a86aadec953",
+        "48208b7f0a6909d1bff95dc3"
       ],
       "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/polands-court-fight-boils-over",
-          "headline": "Poland’s court fight boils over",
-          "published_at": "2026-11-03T05:05:00Z"
-        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/crisis-over-top-court-shapes-polands-battle-lines-before-2027-election",
           "headline": "Crisis over top court shapes Poland’s battle lines before 2027 election",
           "published_at": "2026-11-03T03:00:00Z"
+        },
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/11/03/polish-journalist-held-at-ukraine-border-and-handed-three-year-entry-ban",
+          "headline": "Polish journalist held at Ukraine border and handed three-year entry ban",
+          "published_at": "2026-11-03T07:00:28Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
-    {
-      "label": "Midterms · US · Trump · Live",
-      "origin": "convergence",
-      "source_count": 4,
-      "item_count": 19,
-      "latest_at": "2026-11-03T10:56:17Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261103-americans-to-vote-in-us-midterms-trump-s-republicans-scramble-to-stop-democratic-wave",
-          "headline": "Americans to vote in US midterms: Trump's Republicans scramble to stop Democratic wave",
-          "published_at": "2026-11-03T10:56:17Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/246416/listen-whats-at-stake-for-europe-in-the-us-midterms",
-          "headline": "Listen: What’s at stake for Europe in the US midterms?",
-          "published_at": "2026-11-03T10:46:54Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-11-03/trump-wraps-up-midterms-campaign-with-bizarre-defense-of-lincoln-memorial-pool-renovation.html",
-          "headline": "Trump wraps up midterms campaign with bizarre defense of Lincoln Memorial pool renovation",
-          "published_at": "2026-11-03T09:35:32Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/why-europe-shouldnt-celebrate-democratic-us-midterm-victory",
-          "headline": "Why Europe shouldn’t celebrate a Democratic midterm victory",
-          "published_at": "2026-11-03T03:00:00Z"
-        }
-      ]
-    },
     {
       "label": "Ukraine · Russia · Fighting · Kherson",
       "origin": "convergence",
@@ -207,6 +173,54 @@
       ]
     },
     {
+      "label": "midterms · Europe · US",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-11-03T10:46:54Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/246416/listen-whats-at-stake-for-europe-in-the-us-midterms",
+          "headline": "Listen: What’s at stake for Europe in the US midterms?",
+          "published_at": "2026-11-03T10:46:54Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/why-europe-shouldnt-celebrate-democratic-us-midterm-victory",
+          "headline": "Why Europe shouldn’t celebrate a Democratic midterm victory",
+          "published_at": "2026-11-03T03:00:00Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-11-02/us-voters-head-to-the-polls-corruption-emerges-as-late-breaking-top-concern-in-midterms.html",
+          "headline": "US voters head to the polls: Corruption emerges as late-breaking top concern in midterms",
+          "published_at": "2026-11-02T12:18:14Z"
+        }
+      ]
+    },
+    {
+      "label": "Midterms · Trump · US · Live",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 15,
+      "latest_at": "2026-11-03T11:03:05Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-11-03/united-states-votes-in-decisive-midterms-for-trumps-mandate-seven-keys-to-the-elections.html",
+          "headline": "United States votes in decisive midterms for Trump’s mandate: Seven keys to the elections",
+          "published_at": "2026-11-03T11:03:05Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261103-americans-to-vote-in-us-midterms-trump-s-republicans-scramble-to-stop-democratic-wave",
+          "headline": "Americans to vote in US midterms: Trump's Republicans scramble to stop Democratic wave",
+          "published_at": "2026-11-03T10:56:17Z"
+        }
+      ]
+    },
+    {
       "label": "Bushby · home · Karl · Hull",
       "origin": "convergence",
       "source_count": 2,
@@ -226,30 +240,65 @@
           "published_at": "2026-11-02T12:31:00Z"
         }
       ]
-    },
-    {
-      "label": "Bulgaria · Iliana · Iotova · presidential",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-02T12:15:00Z",
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/how-iliana-yotova-won-the-presidential-election-in-bulgaria/a-79829019?maca=en-rss-en-eu-2092-rdf",
-          "headline": "How Iliana Yotova won the presidential election in Bulgaria",
-          "published_at": "2026-11-02T12:15:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261102-bulgaria-s-iotova-wins-presidential-runoff-vote-amid-black-sea-security-fears",
-          "headline": "Bulgaria's Iotova wins presidential runoff vote amid Black Sea security fears",
-          "published_at": "2026-11-02T11:40:27Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "7cb77558c3f0da74fb31edcc",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Two planes face threats en route to Warsaw, and one airport is briefly closed",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T11:22:42Z",
+      "collected_at": "2026-11-03T11:31:00Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "ec1e42d10e8aa344a9fb80c1",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Czech MEP Markéta Gregorová stopped at Chinese border in ‘pseudo-scare tactics’",
+      "url": "https://euobserver.com/246452/czech-mep-marketa-gregorova-stopped-at-chinese-border-in-pseudo-scare-tactics",
+      "published_at": "2026-11-03T11:04:19Z",
+      "collected_at": "2026-11-03T11:31:00Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "f331d6faaa240b4872bafb38",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "United States votes in decisive midterms for Trump’s mandate: Seven keys to the elections",
+      "url": "https://english.elpais.com/usa/2026-11-03/united-states-votes-in-decisive-midterms-for-trumps-mandate-seven-keys-to-the-elections.html",
+      "published_at": "2026-11-03T11:03:05Z",
+      "collected_at": "2026-11-03T11:31:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "fd759b62e5e189089542f5e7",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Midterms, in maps and charts: What’s at stake this Tuesday and where Trump stands",
+      "url": "https://english.elpais.com/usa/2026-11-03/midterms-in-maps-and-charts-whats-at-stake-this-tuesday-and-where-trump-stands.html",
+      "published_at": "2026-11-03T11:01:40Z",
+      "collected_at": "2026-11-03T11:31:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "e39937f6a3ef4b05c8b327e1",
       "source_id": "france24",
@@ -2631,6 +2680,48 @@
       ]
     },
     {
+      "id": "d09c0155b8801ce24c9a55a0",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trump’s Great Persecution: ICE Raids Ignite Business Fears",
+      "url": "https://english.elpais.com/usa/2026-10-28/trumps-great-persecution-ice-raids-ignite-business-fears.html",
+      "published_at": "2026-10-28T10:41:39Z",
+      "collected_at": "2026-11-03T11:31:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "0769cd7115b786c05a71d57d",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "EU's 'Made in Europe' push unnerves global auto suppliers",
+      "url": "https://www.dw.com/en/eu-s-made-in-europe-push-unnerves-global-auto-suppliers/a-79732579?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-28T10:24:00Z",
+      "collected_at": "2026-11-03T11:31:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "9c15a5aabb5fb371c8e3b476",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Russia in Africa: What is Putin hoping to achieve?",
+      "url": "https://www.dw.com/en/russia-in-africa-what-is-putin-hoping-to-achieve/a-79781858?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-28T09:48:00Z",
+      "collected_at": "2026-11-03T11:31:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "f532137a6a22298dfa7e1def",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2670,104 +2761,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "be6fb86d68e8fe473d22110a",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "How a movement of students brought down Serbia's Vučić",
-      "url": "https://www.bbc.co.uk/news/articles/c574pvy82k0mo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-26T14:29:31Z",
-      "collected_at": "2026-11-03T08:31:01Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "a3dd6fd1d0a6d60c66d2abfa",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Joy and disbelief on Serbian streets as Vučić concedes election defeat",
-      "url": "https://www.bbc.co.uk/news/videos/c8x23x1yn6w6o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-25T22:59:00Z",
-      "collected_at": "2026-11-03T08:31:01Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "bb771d1316476b4ba4b4688d",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "France: Hundreds arrested after nationwide protests",
-      "url": "https://www.dw.com/en/france-hundreds-arrested-after-nationwide-protests/live-79748223?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-25T12:05:00Z",
-      "collected_at": "2026-11-02T13:01:08Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "e33d4092175b5e00ad44efeb",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Prague honors Roma resistance fighters against Hitler",
-      "url": "https://www.dw.com/en/prague-honors-roma-resistance-fighters-against-hitler/a-79725015?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-25T09:17:00Z",
-      "collected_at": "2026-11-02T21:01:05Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "e99a71c0286ab056e3583e4b",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "In Bulgaria, record low voter turnout triggers a November 1 presidential run-off in a poll colored by divisions over Ukraine war",
-      "url": "https://www.dw.com/en/in-bulgaria-record-low-voter-turnout-triggers-a-november-1-presidential-run-off-in-a-poll-colored-by-divisions-over-ukraine-war/a-79753496?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-25T07:19:00Z",
-      "collected_at": "2026-11-02T21:01:05Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "1bd66d505ec9c0327599b408",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Studio Ghibli’s obsession with food: Preparing and tasting every bite before drawing it",
-      "url": "https://english.elpais.com/culture/2026-10-24/studio-ghiblis-obsession-with-food-preparing-and-tasting-every-bite-before-drawing-it.html",
-      "published_at": "2026-10-24T04:00:00Z",
-      "collected_at": "2026-11-03T05:30:57Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "a4210179565f951048276086",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Who actually controls Ukraine's access to Starlink?",
-      "url": "https://www.bbc.co.uk/news/videos/cqy7lvv0lvzpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-23T22:24:36Z",
-      "collected_at": "2026-11-03T10:01:14Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     }
   ]
