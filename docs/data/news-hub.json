@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-03T04:30:58Z",
-  "last_successful_collection_at": "2026-11-03T04:30:58Z",
+  "generated_at": "2026-11-03T05:01:04Z",
+  "last_successful_collection_at": "2026-11-03T05:01:04Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-03T04:30:58Z"
+      "at": "2026-11-03T05:01:04Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "39",
-      "at": "2026-11-03T04:30:58Z"
+      "at": "2026-11-03T05:01:04Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-03T04:30:58Z"
+      "at": "2026-11-03T05:01:04Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,48 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-03T04:30:58Z"
+      "at": "2026-11-03T05:01:04Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-03T04:30:58Z"
+      "at": "2026-11-03T05:01:04Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-03T04:30:58Z"
+      "at": "2026-11-03T05:01:04Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-03T04:30:58Z"
+      "at": "2026-11-03T05:01:04Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-03T04:30:58Z"
+      "at": "2026-11-03T05:01:04Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-03T04:30:58Z"
+      "at": "2026-11-03T05:01:04Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Strikes Hit Ukraine",
-      "summary": "Russian strikes killed numerous people in Ukraine following the conclusion of a significant ceasefire period. Combat and casualties have returned to regions such as Kherson as hostilities persist.",
+      "title": "Russian Strikes and Casualties in Ukraine",
+      "summary": "Russian strikes killed dozens of people in Ukraine following the conclusion of the longest ceasefire in the region. The attacks targeted humanitarian infrastructure, prompting widespread international concern.",
       "article_ids": [
         "da3c4f3e4edc37c2d70af571",
+        "99496462920d4982b5ffc1df",
+        "9f97e8272dfa32dc3c776f01",
+        "0e1811e50540bc8dd39a0077",
         "15f265b519d789aacb815948"
       ],
       "sources": [
@@ -79,19 +82,49 @@
         },
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
-          "headline": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
-          "published_at": "2026-11-02T17:33:19Z"
+          "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+          "headline": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+          "published_at": "2026-11-02T20:23:12Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "Poland Constitutional Court Crisis",
-      "summary": "Poland is experiencing an escalating political crisis surrounding its top court ahead of upcoming elections. Multiple diplomats, including the Polish ambassador to the UN, have resigned amid the ongoing dispute.",
+      "title": "Cyberattacks Disrupt European Retail Infrastructure",
+      "summary": "A wave of cyberattacks targeting commercial refrigeration systems caused significant spoilage and operational disruptions across European supermarkets. The European Commission announced plans to investigate the incidents as deliberate threats to regional supply chains.",
+      "article_ids": [
+        "9a89f63610830e21de1ff279",
+        "0a8f22e827b5f307d258c002",
+        "f12e5016c10e2f482c8cda57",
+        "2bdf8a52f5948aae918429ed",
+        "d0e6a77291e6d7a60ca41e1e",
+        "96fddd1e6e6a3fe127350de5"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/european-commission-probe-supermarket-cyberattack-christophe-hansen",
+          "headline": "EU Commission to probe supermarket cyberattacks",
+          "published_at": "2026-11-02T19:20:11Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261102-caught-cold-fridge-cyberattack-highlights-internet-gadget-weaknesses",
+          "headline": "Refrigeration cyberattacks highlight the risks of connecting industrial systems to the internet",
+          "published_at": "2026-11-02T17:29:48Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Polish Constitutional and Political Crisis",
+      "summary": "Poland faces a growing domestic political crisis centered around the constitutional court ahead of the 2027 elections. Multiple senior diplomats and ambassadors have resigned in connection with the escalating dispute.",
       "article_ids": [
         "f45bd41b14322a86aadec953",
-        "92377a3a7a93645bf7986444"
+        "92377a3a7a93645bf7986444",
+        "73ad6e9c5aeadb0fe1201ac1"
       ],
       "sources": [
         {
@@ -108,12 +141,10 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "European Support Exercises in Poland",
-      "summary": "A European military force is scheduled to conduct its first Ukraine support exercise in Poland. This regional security deployment highlights ongoing defense cooperation near Eastern European borders.",
+      "title": "European Security and Defense Exercises",
+      "summary": "European military forces are organizing their first coordinated support exercises based in Poland in response to regional tensions. These defense measures arrive alongside increased diplomatic and strategic focus on Eastern European security.",
       "article_ids": [
         "67131b3f03a02e8aa63fe5fd"
       ],
@@ -123,23 +154,6 @@
           "url": "https://www.france24.com/en/europe/20261103-european-force-to-hold-first-ukraine-support-exercise-in-poland",
           "headline": "European force to hold first Ukraine support exercise in Poland",
           "published_at": "2026-11-03T01:43:00Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Industrial Cyberattacks and Infrastructure Vulnerabilities",
-      "summary": "Recent cyberattacks targeting supermarket refrigeration systems have underscored the risks of connecting industrial devices to the internet. European officials noted that attacks on food supply infrastructure represent deliberate disruption attempts.",
-      "article_ids": [
-        "99496462920d4982b5ffc1df",
-        "2bdf8a52f5948aae918429ed"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261102-caught-cold-fridge-cyberattack-highlights-internet-gadget-weaknesses",
-          "headline": "Refrigeration cyberattacks highlight the risks of connecting industrial systems to the internet",
-          "published_at": "2026-11-02T17:29:48Z"
         }
       ],
       "source_count": 1
@@ -520,6 +534,20 @@
       "url": "https://www.politico.eu/article/wes-streeting-andy-burnham-better-tony-blair-talk-public-brexit",
       "published_at": "2026-11-02T19:34:16Z",
       "collected_at": "2026-11-03T04:30:58Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "9a89f63610830e21de1ff279",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "EU Commission to probe supermarket cyberattacks",
+      "url": "https://www.politico.eu/article/european-commission-probe-supermarket-cyberattack-christophe-hansen",
+      "published_at": "2026-11-02T19:20:11Z",
+      "collected_at": "2026-11-03T05:01:04Z",
       "topics": [
         "institutions",
         "politics",
