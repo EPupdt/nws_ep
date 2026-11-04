@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-04T09:30:56Z",
-  "last_successful_collection_at": "2026-11-04T09:30:56Z",
+  "generated_at": "2026-11-04T10:01:07Z",
+  "last_successful_collection_at": "2026-11-04T10:01:07Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-04T09:30:56Z"
+      "at": "2026-11-04T10:01:07Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-11-04T09:30:56Z"
+      "at": "2026-11-04T10:01:07Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-11-04T09:30:56Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-04T10:01:07Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-04T09:30:56Z"
+      "at": "2026-11-04T10:01:07Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-04T09:30:56Z"
+      "at": "2026-11-04T10:01:07Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-11-04T09:30:56Z"
+      "at": "2026-11-04T10:01:07Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-04T09:30:56Z"
+      "at": "2026-11-04T10:01:07Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-04T09:30:56Z"
+      "at": "2026-11-04T10:01:07Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-04T09:30:56Z"
+      "at": "2026-11-04T10:01:07Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Poland Constitutional Tribunal dispute",
-      "summary": "Discussions continue regarding the legal and institutional approach taken to reclaim Poland's Constitutional Tribunal. Observers debate the methods used by the government in addressing these constitutional matters.",
+      "title": "Poland Constitutional Tribunal",
+      "summary": "Legal analysts debate the methods used by Prime Minister Donald Tusk to reclaim Poland's Constitutional Tribunal. Observers argue over the institutional implications of these judicial reforms.",
       "article_ids": [
         "7b2098b4c2abb5045b8fccb0"
       ],
@@ -78,51 +78,28 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Western Sahara and EU-Morocco policy",
-      "summary": "European Union backing for Morocco remains conditional, with upcoming political developments in Spain anticipated to play a pivotal role. Observers are evaluating the diplomatic standing of Western Sahara within this framework.",
-      "article_ids": [
-        "08a7455205cfe8c37159e520"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/246595/is-the-western-sahara-now-friendless-no-eu-backing-for-morocco-is-conditional-and-spanish-election-will-be-pivotal",
-          "headline": "Is the Western Sahara now friendless? No, EU backing for Morocco is conditional, and Spanish election will be pivotal",
-          "published_at": "2026-11-04T05:00:00Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "European reactions to US midterm results",
-      "summary": "European capitals are closely monitoring the outcome of the United States midterm elections following major Democratic gains. Observers across Europe are assessing the potential policy shifts stemming from the changing control of Congress.",
+      "title": "US Midterm Elections",
+      "summary": "Democratic candidates secured major victories and gained control of both the House and the Senate in the United States midterm elections. The outcome reflects significant voter shifts and poses new challenges for President Trump's administration.",
       "article_ids": [
-        "d48cee16ac54ec683002d1c6",
-        "bfd8572ea16302a3406b0df5"
+        "45c4e3e5263641878b8b4382"
       ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/europe-wakes-up-to-a-blue-tsunami-in-the-us-midterms",
-          "headline": "Europe wakes up to a blue tsunami in the US midterms",
-          "published_at": "2026-11-04T06:30:00Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/five-things-europe-monitor-democrats-blitz-donald-trump-us-midterms",
-          "headline": "5 things Europe needs to monitor as Democrats blitz Trump in US midterms",
-          "published_at": "2026-11-04T05:21:25Z"
+          "url": "https://www.politico.com/storyline/live/2026/11/03/midterm-election-results",
+          "headline": "Democrats win the Senate and House as voters reject Trump",
+          "published_at": "2026-11-04T02:48:30Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "Military exercises and strategic security in Poland",
-      "summary": "Military exercises are currently underway in Poland as part of broader European strategic deployments. Analysts are examining the primary objectives and defensive significance of these drills.",
+      "title": "European Security and Exercises",
+      "summary": "European analysts and policymakers are closely examining ongoing military exercises and strategic positioning in Poland. These developments occur amid broader regional security concerns and institutional discussions.",
       "article_ids": [
         "45f04c4f8c3eecd6b8f4318d"
       ],
@@ -139,23 +116,23 @@
   ],
   "developing": [
     {
-      "label": "Democrats · Midterms · control · Blue",
+      "label": "Midterms · US · Democrat · Election",
       "origin": "convergence",
       "source_count": 4,
-      "item_count": 10,
-      "latest_at": "2026-11-04T07:51:12Z",
+      "item_count": 30,
+      "latest_at": "2026-11-04T09:43:13Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261104-blue-wave-turning-into-a-tsunami-as-democrats-take-control-of-congress",
-          "headline": "Blue wave 'turning into a tsunami' as Democrats take control of Congress",
-          "published_at": "2026-11-04T07:51:12Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/elon-musk-dealt-major-blow-in-midterm-elections-2026",
+          "headline": "Elon Musk suffers major blow in US midterms",
+          "published_at": "2026-11-04T09:43:13Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.com/storyline/live/2026/11/03/midterm-election-results",
-          "headline": "2026 Midterm Elections Live: Democrats are riding a blue wave",
-          "published_at": "2026-11-04T02:48:30Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261104-us-midterms-trump-has-done-everything-to-make-life-difficult-for-business-owners",
+          "headline": "US midterms: Trump 'has done everything to make life difficult for business owners'",
+          "published_at": "2026-11-04T08:44:21Z"
         },
         {
           "publisher": "EL PAÍS English",
@@ -165,36 +142,9 @@
         },
         {
           "publisher": "EUobserver",
-          "url": "https://euobserver.com/246612/trump-likely-to-lash-out-in-foreign-policy-if-democrats-take-congress-warns-ex-us-ambassador-to-eu",
-          "headline": "Trump likely to lash out in foreign policy if Democrats take Congress, warns ex-US ambassador to EU",
-          "published_at": "2026-11-03T16:06:21Z"
-        }
-      ]
-    },
-    {
-      "label": "Democrats · US · Carolina · North",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 4,
-      "latest_at": "2026-11-04T03:52:19Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20261104-key-us-senate-results-democrats-wrest-north-and-south-carolina-from-the-republicans",
-          "headline": "Key US Senate results: Democrats wrest North and South Carolina from the Republicans",
-          "published_at": "2026-11-04T03:52:19Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.com/storyline/live/2026/11/03/midterm-election-results",
-          "headline": "Democrats win the Senate and House as voters reject Trump",
-          "published_at": "2026-11-04T02:48:30Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/246525/what-cary-a-small-town-in-north-carolina-means-for-us-mid-term-elections-and-everyone-else-in-europe",
-          "headline": "What Cary, a small town in North Carolina, means for US mid-term elections and everyone else in Europe",
-          "published_at": "2026-11-03T19:00:00Z"
+          "url": "https://euobserver.com/246416/listen-whats-at-stake-for-europe-in-the-us-midterms",
+          "headline": "Listen: What’s at stake for Europe in the US midterms?",
+          "published_at": "2026-11-03T10:46:54Z"
         }
       ]
     },
@@ -251,9 +201,44 @@
           "published_at": "2026-11-03T16:30:08Z"
         }
       ]
+    },
+    {
+      "label": "Trump · US · aid · billion",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 8,
+      "latest_at": "2026-11-03T23:46:02Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20261103-trump-fatigue-cost-of-living-and-corruption-are-top-issues-with-us-voters-ap-survey-finds",
+          "headline": "US democracy, Trump fatigue, cost of living are top issues with voters, AP survey finds",
+          "published_at": "2026-11-03T23:46:02Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/greenland-greatest-gift-ever-donald-trump-us-europe",
+          "headline": "Trump says Europe gave Greenland to US as ‘greatest gift’ ever",
+          "published_at": "2026-11-03T17:10:42Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "d367720157fb9299994572e3",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Elon Musk suffers major blow in US midterms",
+      "url": "https://www.politico.eu/article/elon-musk-dealt-major-blow-in-midterm-elections-2026",
+      "published_at": "2026-11-04T09:43:13Z",
+      "collected_at": "2026-11-04T10:01:07Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "0b56daa449071630071a0b8d",
       "source_id": "france24",
@@ -2635,20 +2620,6 @@
       ]
     },
     {
-      "id": "d51d6a6067f88d20b74667eb",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Andrew Tate’s toxic legacy in Romania is warping its democracy",
-      "url": "https://euobserver.com/246239/andrew-tates-toxic-legacy-in-romania-is-warping-its-democracy",
-      "published_at": "2026-11-03T09:17:48Z",
-      "collected_at": "2026-11-03T09:30:58Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "7ae9fd032e8fb548324a2576",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2659,20 +2630,6 @@
       "topics": [
         "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "882677abad2c252b9db60e59",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Israeli opposition unites behind Eisenkot as Netanyahu says voters chose him for PM",
-      "url": "https://www.france24.com/en/middle-east/20261103-israeli-opposition-unites-behind-eisenkot-netanyahu-voters-chose-him-pm",
-      "published_at": "2026-11-03T09:03:29Z",
-      "collected_at": "2026-11-03T09:30:58Z",
-      "topics": [
-        "politics",
-        "security",
         "society"
       ]
     },
@@ -2688,20 +2645,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "9c2393b1599ac74e0e2f3ee9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "PSG face Villarreal as they aim to keep Champions League top spot",
-      "url": "https://www.france24.com/en/tv-shows/sports/20261103-psg-face-villarreal-as-they-aim-to-keep-top-champions-league-spot",
-      "published_at": "2026-11-03T07:18:25Z",
-      "collected_at": "2026-11-03T09:30:58Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
