@@ -1,7 +1,5 @@
 {
   "seen": {
-    "c57087be42dba6d1a1aa5c12": "2026-11-03T06:30:52Z",
-    "6e8e1f499c7a2f382ee80451": "2026-11-03T06:30:52Z",
     "ebfc079413364cf3304606f4": "2026-11-03T07:01:09Z",
     "08a641cb6a1c7fc2b05275f3": "2026-11-03T07:01:09Z",
     "d86bb9a160012b091b2e7db5": "2026-11-03T07:01:09Z",
@@ -398,9 +396,39 @@
     "635d85e80a3929afe20613dd": "2026-11-05T05:30:54Z",
     "1bd66d505ec9c0327599b408": "2026-11-05T06:01:07Z",
     "b728e8d504ed418df10b678e": "2026-11-05T06:01:07Z",
-    "271afd645f7902fd3daa71bb": "2026-11-05T06:01:07Z"
+    "271afd645f7902fd3daa71bb": "2026-11-05T06:01:07Z",
+    "50b3b2ef440c3edff408cec2": "2026-11-05T06:30:56Z",
+    "74e8ee9076199379df748246": "2026-11-05T06:30:56Z"
   },
   "radar": [
+    {
+      "id": "50b3b2ef440c3edff408cec2",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France braces for fresh protests in test for Macron's policies",
+      "url": "https://www.france24.com/en/france-braces-for-fresh-protests-in-test-for-macron-s-policies",
+      "published_at": "2026-11-05T06:24:09Z",
+      "collected_at": "2026-11-05T06:30:56Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "74e8ee9076199379df748246",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: France braces for nationwide strikes in fresh test for Macron’s policies",
+      "url": "https://www.france24.com/en/france/20261105-live-france-nationwide-strikes-living-costs",
+      "published_at": "2026-11-05T05:53:09Z",
+      "collected_at": "2026-11-05T06:30:56Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "635d85e80a3929afe20613dd",
       "source_id": "politico_europe",
@@ -2574,14 +2602,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-11-03T22:01:16Z",
-      "title": "Escalation of Conflict and Casualties in Ukraine"
-    },
-    {
-      "at": "2026-11-03T22:01:16Z",
-      "title": "Political and Institutional Disputes in Poland"
-    },
-    {
       "at": "2026-11-04T04:31:00Z",
       "title": "Polish Institutional Disputes"
     },
@@ -2892,14 +2912,64 @@
     {
       "at": "2026-11-05T06:01:07Z",
       "title": "Moldovan EU Integration and Regional Security"
+    },
+    {
+      "at": "2026-11-05T06:30:56Z",
+      "title": "Hungary Opens Communist-Era Archives"
+    },
+    {
+      "at": "2026-11-05T06:30:56Z",
+      "title": "European Union Regulatory Simplification and Sanctions"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Hungary opens communist-era secret service archives",
-        "summary": "Hungary has officially opened its historical secret police files to the public 36 years after the fall of communism. The newly accessible records shed light on past state surveillance and operations from the communist era.",
+        "title": "French Nationwide Strikes and Protests",
+        "summary": "France is preparing for nationwide strikes and fresh protests as citizens mobilize over living costs and policy challenges. The demonstrations pose a significant test for President Emmanuel Macron's administration.",
+        "article_ids": [
+          "50b3b2ef440c3edff408cec2",
+          "74e8ee9076199379df748246"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/france-braces-for-fresh-protests-in-test-for-macron-s-policies",
+            "headline": "France braces for fresh protests in test for Macron's policies",
+            "published_at": "2026-11-05T06:24:09Z"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/france/20261105-live-france-nationwide-strikes-living-costs",
+            "headline": "Live: France braces for nationwide strikes in fresh test for Macron’s policies",
+            "published_at": "2026-11-05T05:53:09Z"
+          }
+        ],
+        "source_count": 1
+      },
+      {
+        "title": "Spanish Rail Infrastructure Leadership Resignation",
+        "summary": "The head of Spanish rail infrastructure has stepped down following a fatal train crash. The incident has raised critical questions regarding railway safety and governance in the country.",
+        "article_ids": [
+          "ba967122f44898d66686acb5",
+          "b2952811f2958c082d66a316"
+        ],
+        "sources": [
+          {
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/spain-adif-president-luis-pedro-marco-de-la-pena-step-down-train-crash",
+            "headline": "Spanish rail infrastructure chief steps down after Toledo train crash",
+            "published_at": "2026-11-04T19:42:50Z"
+          }
+        ],
+        "source_count": 1
+      }
+    ],
+    "top_stories": [
+      {
+        "title": "Hungary Opens Communist-Era Archives",
+        "summary": "Hungary has officially opened its historical Communist-era secret service files after thirty-six years. The release provides new documentation regarding past state surveillance and regional history.",
         "article_ids": [
           "06f0e1da2a7241d6e1ffc484",
           "54f327f98ca2c2aa471e3f00"
@@ -2921,33 +2991,8 @@
         "source_count": 2
       },
       {
-        "title": "Spanish rail infrastructure chief steps down following train crash",
-        "summary": "The president of Spain's railway infrastructure manager has resigned following a fatal train crash near Toledo. The incident has drawn intense scrutiny regarding rail safety and infrastructure management in the country.",
-        "article_ids": [
-          "ba967122f44898d66686acb5",
-          "b2952811f2958c082d66a316"
-        ],
-        "sources": [
-          {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/spain-adif-president-luis-pedro-marco-de-la-pena-step-down-train-crash",
-            "headline": "Spanish rail infrastructure chief steps down after Toledo train crash",
-            "published_at": "2026-11-04T19:42:50Z"
-          },
-          {
-            "publisher": "EUobserver",
-            "url": "https://euobserver.com/246831/two-fatal-train-disasters-in-less-than-a-year-i-never-thought-i-would-see-this-happen-in-my-native-spain",
-            "headline": "Two fatal train disasters in less than a year: I never thought I would see this happen in my native Spain",
-            "published_at": "2026-11-04T19:00:00Z"
-          }
-        ],
-        "source_count": 2
-      }
-    ],
-    "top_stories": [
-      {
-        "title": "European Union Regulatory Policy and Sanctions",
-        "summary": "The European Commission is advancing a regulatory simplification drive that targets energy taxation and carbon emissions rules. Meanwhile, Russia has failed in its legal bid to overturn a European Union ban preventing its vessels from using regional docks and locks.",
+        "title": "European Union Regulatory Simplification and Sanctions",
+        "summary": "The European Commission is advancing a major simplification drive that targets energy tax and carbon emissions legislation. Meanwhile, Russia has failed in its legal bid to lift European bans on its vessels using regional docks and locks.",
         "article_ids": [
           "24d2b990b5c26daab3d4fef7",
           "948b7760422761474ba630f9"
@@ -2967,31 +3012,8 @@
           }
         ],
         "source_count": 1
-      },
-      {
-        "title": "Moldovan EU Integration and Regional Security",
-        "summary": "Moldova continues to be recognized as a top performer regarding European Union accession reforms despite facing persistent regional sabotage. Simultaneously, the European development bank has warned that the damaged Chernobyl nuclear site requires urgent funding.",
-        "article_ids": [
-          "23740e0a474ff17e154ca577",
-          "c7d99211fbd764304891fe07"
-        ],
-        "sources": [
-          {
-            "publisher": "EUobserver",
-            "url": "https://euobserver.com/246966/moldova-seen-as-best-performer-on-eu-accession-reforms-despite-onslaught-of-russian-sabotage",
-            "headline": "Moldova seen as ‘best performer’ on EU-accession reforms, despite onslaught of Russian sabotage",
-            "published_at": "2026-11-04T17:14:55Z"
-          },
-          {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/damage-chernobyl-nuclear-site-urgent-funding-european-development-bank",
-            "headline": "Damaged Chernobyl nuclear site needs urgent funding, warns European development bank",
-            "published_at": "2026-11-04T17:29:18Z"
-          }
-        ],
-        "source_count": 2
       }
     ]
   },
-  "last_collection_at": "2026-11-05T06:01:07Z"
+  "last_collection_at": "2026-11-05T06:30:56Z"
 }

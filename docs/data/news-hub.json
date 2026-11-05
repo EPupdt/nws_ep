@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-05T06:01:07Z",
-  "last_successful_collection_at": "2026-11-05T06:01:07Z",
+  "generated_at": "2026-11-05T06:30:56Z",
+  "last_successful_collection_at": "2026-11-05T06:30:56Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-05T06:01:07Z"
+      "at": "2026-11-05T06:30:56Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-05T06:01:07Z"
+      "at": "2026-11-05T06:30:56Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-05T06:01:07Z"
+      "at": "2026-11-05T06:30:56Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,85 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-05T06:01:07Z"
+      "at": "2026-11-05T06:30:56Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-05T06:01:07Z"
+      "at": "2026-11-05T06:30:56Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-11-05T06:01:07Z"
+      "at": "2026-11-05T06:30:56Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-05T06:01:07Z"
+      "at": "2026-11-05T06:30:56Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-05T06:01:07Z"
+      "at": "2026-11-05T06:30:56Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-05T06:01:07Z"
+      "at": "2026-11-05T06:30:56Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Hungary opens communist-era secret service archives",
-      "summary": "Hungary has officially opened its historical secret police files to the public 36 years after the fall of communism. The newly accessible records shed light on past state surveillance and operations from the communist era.",
+      "title": "French Nationwide Strikes and Protests",
+      "summary": "France is preparing for nationwide strikes and fresh protests as citizens mobilize over living costs and policy challenges. The demonstrations pose a significant test for President Emmanuel Macron's administration.",
+      "article_ids": [
+        "50b3b2ef440c3edff408cec2",
+        "74e8ee9076199379df748246"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-braces-for-fresh-protests-in-test-for-macron-s-policies",
+          "headline": "France braces for fresh protests in test for Macron's policies",
+          "published_at": "2026-11-05T06:24:09Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261105-live-france-nationwide-strikes-living-costs",
+          "headline": "Live: France braces for nationwide strikes in fresh test for Macron’s policies",
+          "published_at": "2026-11-05T05:53:09Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Spanish Rail Infrastructure Leadership Resignation",
+      "summary": "The head of Spanish rail infrastructure has stepped down following a fatal train crash. The incident has raised critical questions regarding railway safety and governance in the country.",
+      "article_ids": [
+        "ba967122f44898d66686acb5",
+        "b2952811f2958c082d66a316"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/spain-adif-president-luis-pedro-marco-de-la-pena-step-down-train-crash",
+          "headline": "Spanish rail infrastructure chief steps down after Toledo train crash",
+          "published_at": "2026-11-04T19:42:50Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Hungary Opens Communist-Era Archives",
+      "summary": "Hungary has officially opened its historical Communist-era secret service files after thirty-six years. The release provides new documentation regarding past state surveillance and regional history.",
       "article_ids": [
         "06f0e1da2a7241d6e1ffc484",
         "54f327f98ca2c2aa471e3f00"
@@ -87,33 +129,8 @@
       "source_count": 2
     },
     {
-      "title": "Spanish rail infrastructure chief steps down following train crash",
-      "summary": "The president of Spain's railway infrastructure manager has resigned following a fatal train crash near Toledo. The incident has drawn intense scrutiny regarding rail safety and infrastructure management in the country.",
-      "article_ids": [
-        "ba967122f44898d66686acb5",
-        "b2952811f2958c082d66a316"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/spain-adif-president-luis-pedro-marco-de-la-pena-step-down-train-crash",
-          "headline": "Spanish rail infrastructure chief steps down after Toledo train crash",
-          "published_at": "2026-11-04T19:42:50Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/246831/two-fatal-train-disasters-in-less-than-a-year-i-never-thought-i-would-see-this-happen-in-my-native-spain",
-          "headline": "Two fatal train disasters in less than a year: I never thought I would see this happen in my native Spain",
-          "published_at": "2026-11-04T19:00:00Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "European Union Regulatory Policy and Sanctions",
-      "summary": "The European Commission is advancing a regulatory simplification drive that targets energy taxation and carbon emissions rules. Meanwhile, Russia has failed in its legal bid to overturn a European Union ban preventing its vessels from using regional docks and locks.",
+      "title": "European Union Regulatory Simplification and Sanctions",
+      "summary": "The European Commission is advancing a major simplification drive that targets energy tax and carbon emissions legislation. Meanwhile, Russia has failed in its legal bid to lift European bans on its vessels using regional docks and locks.",
       "article_ids": [
         "24d2b990b5c26daab3d4fef7",
         "948b7760422761474ba630f9"
@@ -133,29 +150,6 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Moldovan EU Integration and Regional Security",
-      "summary": "Moldova continues to be recognized as a top performer regarding European Union accession reforms despite facing persistent regional sabotage. Simultaneously, the European development bank has warned that the damaged Chernobyl nuclear site requires urgent funding.",
-      "article_ids": [
-        "23740e0a474ff17e154ca577",
-        "c7d99211fbd764304891fe07"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/246966/moldova-seen-as-best-performer-on-eu-accession-reforms-despite-onslaught-of-russian-sabotage",
-          "headline": "Moldova seen as ‘best performer’ on EU-accession reforms, despite onslaught of Russian sabotage",
-          "published_at": "2026-11-04T17:14:55Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/damage-chernobyl-nuclear-site-urgent-funding-european-development-bank",
-          "headline": "Damaged Chernobyl nuclear site needs urgent funding, warns European development bank",
-          "published_at": "2026-11-04T17:29:18Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "developing": [
@@ -163,7 +157,7 @@
       "label": "Midterms · US · Trump · Democrats",
       "origin": "convergence",
       "source_count": 4,
-      "item_count": 37,
+      "item_count": 35,
       "latest_at": "2026-11-04T19:49:21Z",
       "sources": [
         {
@@ -263,6 +257,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "50b3b2ef440c3edff408cec2",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France braces for fresh protests in test for Macron's policies",
+      "url": "https://www.france24.com/en/france-braces-for-fresh-protests-in-test-for-macron-s-policies",
+      "published_at": "2026-11-05T06:24:09Z",
+      "collected_at": "2026-11-05T06:30:56Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "74e8ee9076199379df748246",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: France braces for nationwide strikes in fresh test for Macron’s policies",
+      "url": "https://www.france24.com/en/france/20261105-live-france-nationwide-strikes-living-costs",
+      "published_at": "2026-11-05T05:53:09Z",
+      "collected_at": "2026-11-05T06:30:56Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "635d85e80a3929afe20613dd",
       "source_id": "politico_europe",
