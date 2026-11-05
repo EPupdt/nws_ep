@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-05T10:30:56Z",
-  "last_successful_collection_at": "2026-11-05T10:30:56Z",
+  "generated_at": "2026-11-05T11:01:12Z",
+  "last_successful_collection_at": "2026-11-05T11:01:12Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-05T10:30:56Z"
+      "at": "2026-11-05T11:01:12Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-05T10:30:56Z"
+      "at": "2026-11-05T11:01:12Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-11-05T10:30:56Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-05T11:01:12Z"
     },
     {
       "id": "euractiv",
@@ -29,98 +29,48 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-05T10:30:56Z"
+      "at": "2026-11-05T11:01:12Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-05T10:30:56Z"
+      "at": "2026-11-05T11:01:12Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-11-05T10:30:56Z"
+      "at": "2026-11-05T11:01:12Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-05T10:30:56Z"
+      "at": "2026-11-05T11:01:12Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-05T10:30:56Z"
+      "at": "2026-11-05T11:01:12Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-05T10:30:56Z"
+      "at": "2026-11-05T11:01:12Z"
     }
   ],
   "europe_now": [
     {
-      "title": "European Flights Targeted by Bomb Threats",
-      "summary": "Multiple European flights received bomb threats for the second time this week, resulting in diversions including a Dublin-to-Rome flight landing in France.",
+      "title": "Bomb threats disrupt multiple European flights",
+      "summary": "Several flights across Europe received bomb threats, forcing diversions and emergency landings. Authorities treated the alerts as a serious security disruption affecting international air travel.",
       "article_ids": [
         "9c7d992c2af144a2e39273fd",
         "f075b82596e4103f1233569c",
-        "82b38edd783a7f648458815e",
+        "bd972b8e96b9c79bcb926e44",
         "aa53378b2fc8b7b34fdab196"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
-          "headline": "Multiple European flights face bomb threats for second time this week",
-          "published_at": "2026-11-05T10:08:10Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261105-dublin-rome-flight-diverted-to-france-over-bomb-threat",
-          "headline": "Dublin-Rome flight diverted to French military base over bomb threat",
-          "published_at": "2026-11-05T09:08:19Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "French National Assembly Rejects Budget Bill",
-      "summary": "The French National Assembly unanimously rejected the proposed budget bill, coinciding with nationwide strikes and protests organized by unions.",
-      "article_ids": [
-        "8a9b0f155108403613043f5f",
-        "b152e7d79dda4b39783d638d",
-        "50b3b2ef440c3edff408cec2"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/french-national-assembly-unanimously-rejects-budget-bill",
-          "headline": "French National Assembly unanimously rejects budget bill",
-          "published_at": "2026-11-05T10:13:43Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
-          "headline": "France gears up for strikes and protests as unions promise national mobilisation",
-          "published_at": "2026-11-05T09:34:48Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Security and Transport Incidents",
-      "summary": "Several flights across Europe faced bomb threats and subsequent diversions for the second time within a week. Meanwhile, the president of Spain's rail infrastructure stepped down following a train crash.",
-      "article_ids": [
-        "9c7d992c2af144a2e39273fd",
-        "f075b82596e4103f1233569c",
-        "ba967122f44898d66686acb5"
       ],
       "sources": [
         {
@@ -128,30 +78,133 @@
           "url": "https://www.dw.com/en/several-european-flights-receive-bomb-threats-some-divert/a-79861216?maca=en-rss-en-eu-2092-rdf",
           "headline": "Several European flights receive bomb threats, some divert",
           "published_at": "2026-11-05T10:10:00Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
+          "headline": "Multiple European flights face bomb threats for second time this week",
+          "published_at": "2026-11-05T10:08:10Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Political Developments and Historical Archives",
-      "summary": "Hungary officially released its communist-era secret service files thirty-six years after the fall of communism. In France, the National Assembly unanimously rejected the government's budget bill amid upcoming strikes.",
+      "title": "France prepares for nationwide strikes and protests",
+      "summary": "French unions have called for nationwide strikes and protests against government policies. Authorities are preparing for significant disruption as mobilization efforts continue.",
       "article_ids": [
-        "8a9b0f155108403613043f5f",
-        "06f0e1da2a7241d6e1ffc484",
-        "54f327f98ca2c2aa471e3f00"
+        "b152e7d79dda4b39783d638d",
+        "50b3b2ef440c3edff408cec2",
+        "74e8ee9076199379df748246"
       ],
       "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+          "headline": "France gears up for strikes and protests as unions promise national mobilisation",
+          "published_at": "2026-11-05T09:34:48Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-braces-for-fresh-protests-in-test-for-macron-s-policies",
+          "headline": "France braces for fresh protests in test for Macron's policies",
+          "published_at": "2026-11-05T06:24:09Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "European aviation security alerts",
+      "summary": "Multiple flights in Europe were targeted by bomb threats, leading to diversions and emergency responses. The incidents disrupted air travel across several countries within a short period.",
+      "article_ids": [
+        "9c7d992c2af144a2e39273fd",
+        "f075b82596e4103f1233569c",
+        "82b38edd783a7f648458815e"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/several-european-flights-receive-bomb-threats-some-divert/a-79861216?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Several European flights receive bomb threats, some divert",
+          "published_at": "2026-11-05T10:10:00Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
+          "headline": "Multiple European flights face bomb threats for second time this week",
+          "published_at": "2026-11-05T10:08:10Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "French political and social unrest",
+      "summary": "France faces nationwide strikes and protests as unions challenge government policies. The National Assembly's rejection of a budget bill has added to political uncertainty in Paris.",
+      "article_ids": [
+        "b152e7d79dda4b39783d638d",
+        "8a9b0f155108403613043f5f",
+        "50b3b2ef440c3edff408cec2"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+          "headline": "France gears up for strikes and protests as unions promise national mobilisation",
+          "published_at": "2026-11-05T09:34:48Z"
+        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/french-national-assembly-unanimously-rejects-budget-bill",
           "headline": "French National Assembly unanimously rejects budget bill",
           "published_at": "2026-11-05T10:13:43Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "EU institutional and foreign policy developments",
+      "summary": "European officials have expressed limited interest in Russian gas amid ongoing Ukraine peace negotiations. A dispute over Canada's status has exposed divisions between German and EU leadership.",
+      "article_ids": [
+        "65a11bb96aab7f12f494f45f",
+        "3c44f0cad442bd5a20066147"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/247002/no-eu-appetite-for-russian-gas-so-far-as-us-and-european-negotiators-discuss-ukraine-peace-deal",
+          "headline": "No EU appetite for Russian gas so far, as US and European negotiators discuss Ukraine peace deal",
+          "published_at": "2026-11-05T09:03:06Z"
         },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ursula-von-der-leyen-friedrich-merz-canada-european-union-associate-member",
+          "headline": "Canada spat exposes widening rift between Merz and von der Leyen",
+          "published_at": "2026-11-05T03:00:00Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Historical archives and infrastructure changes",
+      "summary": "Hungary has opened Communist-era secret service files decades after the fall of the regime. Spain's rail infrastructure chief resigned following a fatal train crash.",
+      "article_ids": [
+        "06f0e1da2a7241d6e1ffc484",
+        "54f327f98ca2c2aa471e3f00",
+        "ba967122f44898d66686acb5"
+      ],
+      "sources": [
         {
           "publisher": "Deutsche Welle",
           "url": "https://www.dw.com/en/36-years-later-hungary-opens-communist-era-secret-service-files/a-79858016?maca=en-rss-en-eu-2092-rdf",
           "headline": "36 years later: Hungary opens Communist-era secret service files",
           "published_at": "2026-11-04T19:30:00Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/hungary-releases-secret-police-files-from-communist-era",
+          "headline": "Hungary releases secret police files from communist era",
+          "published_at": "2026-11-04T18:43:55Z"
         }
       ],
       "source_count": 2
@@ -213,23 +266,23 @@
       ]
     },
     {
-      "label": "EU · European · Russian · US",
+      "label": "Texas · Democrats · beginning · Pulido",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-05T09:03:06Z",
+      "item_count": 5,
+      "latest_at": "2026-11-05T10:46:00Z",
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/247002/no-eu-appetite-for-russian-gas-so-far-as-us-and-european-negotiators-discuss-ukraine-peace-deal",
-          "headline": "No EU appetite for Russian gas so far, as US and European negotiators discuss Ukraine peace deal",
-          "published_at": "2026-11-05T09:03:06Z"
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-11-05/talarico-hinojosa-and-pulido-the-trio-with-which-the-democrats-are-beginning-to-turn-texas-purple.html",
+          "headline": "Talarico, Hinojosa and Pulido: The trio with which the Democrats are beginning to turn Texas purple",
+          "published_at": "2026-11-05T10:46:00Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/european-leaders-welcome-democrats-us-midterms-election-win",
-          "headline": "European leaders welcome Democrats' US midterms election win",
-          "published_at": "2026-11-04T17:00:09Z"
+          "url": "https://www.france24.com/en/us-midterm-elections-maybe-the-best-colour-for-texas-is-purple",
+          "headline": "US midterm elections: 'Maybe the best colour for Texas is purple'",
+          "published_at": "2026-11-04T15:45:00Z"
         }
       ]
     },
@@ -256,6 +309,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "c90f5662750ad0085d515bd6",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Talarico, Hinojosa and Pulido: The trio with which the Democrats are beginning to turn Texas purple",
+      "url": "https://english.elpais.com/usa/2026-11-05/talarico-hinojosa-and-pulido-the-trio-with-which-the-democrats-are-beginning-to-turn-texas-purple.html",
+      "published_at": "2026-11-05T10:46:00Z",
+      "collected_at": "2026-11-05T11:01:12Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "59bea6d65e36ef0c6a12caed",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "What happens now? Democrats and Republicans are beginning to map out their strategies in the wake of the electoral upheaval",
+      "url": "https://english.elpais.com/usa/2026-11-05/what-happens-now-democrats-and-republicans-are-beginning-to-map-out-their-strategies-in-the-wake-of-the-electoral-upheaval.html",
+      "published_at": "2026-11-05T10:40:44Z",
+      "collected_at": "2026-11-05T11:01:12Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "8a9b0f155108403613043f5f",
       "source_id": "politico_europe",
@@ -1783,34 +1864,6 @@
       ]
     },
     {
-      "id": "ab2555aa6b10f283bfa42da4",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Pistorius verteidigt Bevorzugung der deutschen Industrie bei Rüstungsausgaben",
-      "url": "https://www.politico.eu/article/pistorius-verteidigt-bevorzugung-der-deutschen-industrie-bei-ruestungsausgaben",
-      "published_at": "2026-11-04T10:47:02Z",
-      "collected_at": "2026-11-04T11:01:08Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "9818e4aeb2399c42a17064e0",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "The blue tsunami sparks joy, hope and mockery in Europe",
-      "url": "https://www.politico.eu/article/us-midterm-election-democrats-blue-tsunami-hope-mockery-europe",
-      "published_at": "2026-11-04T10:42:42Z",
-      "collected_at": "2026-11-04T11:01:08Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "e91a79e7645f29ae848d63ae",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1836,20 +1889,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "a1e1301a26a5a9cd67767e2a",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "What Trump’s double defeat means for the UK",
-      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/what-trumps-double-defeat-means-for-the-uk",
-      "published_at": "2026-11-04T10:28:28Z",
-      "collected_at": "2026-11-04T11:01:08Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
@@ -1909,20 +1948,6 @@
       ]
     },
     {
-      "id": "198821505ed9570a0d0ac778",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Spanish economy minister takes over transport ministry after deadly crash",
-      "url": "https://www.politico.eu/article/spanish-economy-minister-takes-over-transport-ministry-after-deadly-crash",
-      "published_at": "2026-11-04T10:11:36Z",
-      "collected_at": "2026-11-04T11:01:08Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "868c5f1de7be3aff24b680cf",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1951,20 +1976,6 @@
       ]
     },
     {
-      "id": "f41977c3854eb6e9ce75911a",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Defense chief rejects claims Germany puts its own arms industry ahead of Europe",
-      "url": "https://www.politico.eu/article/pistorius-rejects-claims-germany-puts-its-own-arms-industry-ahead-of-europe",
-      "published_at": "2026-11-04T10:05:02Z",
-      "collected_at": "2026-11-04T11:01:08Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "783107084922988d4168a1c2",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1976,20 +1987,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "6f453ad6900e564f94e2f60d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "A century later, Kansas has a Democratic senator",
-      "url": "https://english.elpais.com/usa/2026-11-04/a-century-later-kansas-has-a-democratic-senator.html",
-      "published_at": "2026-11-04T09:52:48Z",
-      "collected_at": "2026-11-04T11:01:08Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -2046,34 +2043,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "be1652e33d85f49c1f97ff77",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Abdul El‑Sayed’s victory in Michigan has the Democratic progressive wing dreaming of the White House",
-      "url": "https://english.elpais.com/usa/2026-11-04/abdul-elsayeds-victory-in-michigan-has-the-democratic-progressive-wing-dreaming-of-the-white-house.html",
-      "published_at": "2026-11-04T09:08:30Z",
-      "collected_at": "2026-11-04T11:01:08Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "6e0320bd7e1546402aff2ab3",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Trump admits bitter midterms defeat: ‘I’m a little bit surprised. I thought they’d do better’",
-      "url": "https://english.elpais.com/usa/2026-11-04/trump-admits-bitter-midterms-defeat-im-a-little-bit-surprised-i-thought-theyd-do-better.html",
-      "published_at": "2026-11-04T08:44:46Z",
-      "collected_at": "2026-11-04T11:01:08Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -2312,6 +2281,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "f532137a6a22298dfa7e1def",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Serbian police shoot dead assailant at Israeli Embassy",
+      "url": "https://www.dw.com/en/serbian-police-shoot-dead-assailant-at-israeli-embassy/a-79782905?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-28T08:48:00Z",
+      "collected_at": "2026-11-05T11:01:12Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
