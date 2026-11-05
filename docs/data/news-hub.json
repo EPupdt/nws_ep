@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-05T16:31:01Z",
-  "last_successful_collection_at": "2026-11-05T16:31:01Z",
+  "generated_at": "2026-11-05T17:01:13Z",
+  "last_successful_collection_at": "2026-11-05T17:01:13Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-05T16:31:01Z"
+      "at": "2026-11-05T17:01:13Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-11-05T16:31:01Z"
+      "at": "2026-11-05T17:01:13Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-11-05T16:31:01Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-05T17:01:13Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,91 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-05T16:31:01Z"
+      "at": "2026-11-05T17:01:13Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-05T16:31:01Z"
+      "at": "2026-11-05T17:01:13Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-11-05T16:31:01Z"
+      "at": "2026-11-05T17:01:13Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-05T16:31:01Z"
+      "at": "2026-11-05T17:01:13Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-05T16:31:01Z"
+      "at": "2026-11-05T17:01:13Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-05T16:31:01Z"
+      "at": "2026-11-05T17:01:13Z"
     }
   ],
   "europe_now": [
     {
-      "title": "France faces widespread protests and strikes over government policy",
-      "summary": "France is experiencing a wave of strikes and public protests as unions and students block transport and schools. The government is seeking to maintain order while addressing demands over the budget and economic reforms.",
+      "title": "European aviation security alerts",
+      "summary": "Malicious hoax bomb threats have targeted European airlines and airports for the third time this week, causing dozens of flights to be diverted. Authorities are investigating the coordinated campaign as security measures across the continent remain on high alert.",
+      "article_ids": [
+        "10e0122894ac6663050836c3",
+        "a03ecfcb0288843673f2e344",
+        "447d8a67fef02fc2895a8436",
+        "afe1fae5d48a9f42759c225b",
+        "37236245041d3e15bf575e4a"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261105-europe-dozens-of-flights-diverted-following-bomb-threats",
+          "headline": "Europe: Dozens of flights diverted following bomb threats",
+          "published_at": "2026-11-05T15:40:50Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Major cyberattack hits French bank",
+      "summary": "A French bank has been hit by a major cyberattack, with online hacking resulting in the theft of approximately $100 million. The incident has prompted an immediate investigation into the breach of the financial institution's security systems.",
+      "article_ids": [
+        "565baa4ebfc3d060b706a412",
+        "b062a2b8f7917eab00bb35c5"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/cyberattack-french-bank-says-online-hacking-stole-around-100-million",
+          "headline": "Cyberattack: French bank says online hacking stole around $100 million",
+          "published_at": "2026-11-05T14:09:56Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/cyberattack-french-bank-says-online-hacking-stole-around-100-million",
+          "headline": "French bank hit by cyberattack, hackers steal $100 million",
+          "published_at": "2026-11-05T14:09:56Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "French political deadlock and public protests",
+      "summary": "France is facing deepening political deadlock and widespread public unrest as new strikes and protests spread across the country. The government is struggling to prevent violence as unions demand immediate answers and the budget rejection exacerbates the instability.",
       "article_ids": [
         "141c37f0b5e388bee93bccf8",
-        "dcdd19a93a1a51590dbf4263",
-        "220e2c5a5ccc554ac1eed9ed"
+        "dcdd19a93a1a51590dbf4263"
       ],
       "sources": [
         {
@@ -86,47 +130,13 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Major cyberattack hits French bank",
-      "summary": "A major French bank has reported that an online hacking incident resulted in the theft of approximately one hundred million dollars. The incident has prompted an immediate investigation into the security breach and the movement of the stolen funds.",
-      "article_ids": [
-        "565baa4ebfc3d060b706a412"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/cyberattack-french-bank-says-online-hacking-stole-around-100-million",
-          "headline": "Cyberattack: French bank says online hacking stole around $100 million",
-          "published_at": "2026-11-05T14:09:56Z"
-        }
-      ],
-      "source_count": 1
     },
     {
-      "title": "Poland detains suspects over military exports to Russia",
-      "summary": "Polish authorities have detained six individuals on suspicion of exporting prohibited military components to Russia. The arrests highlight ongoing efforts to enforce export controls and security protocols across the European Union's eastern border.",
-      "article_ids": [
-        "40cd137f2fa9e4e68f981b1e"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/05/six-detained-in-poland-on-suspicion-of-exporting-military-components-to-russia",
-          "headline": "Six detained in Poland on suspicion of exporting military components to Russia",
-          "published_at": "2026-11-05T11:36:51Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "EU leaders urged to maintain unity on Ukraine support",
-      "summary": "Italian Prime Minister Giorgia Meloni has called on the European Union to present a unified front regarding ongoing support for Ukraine. These calls come as diplomatic efforts continue to address the conflict and its broader geopolitical implications.",
+      "title": "EU unity on Ukraine support",
+      "summary": "European leaders are navigating complex diplomatic dynamics as transatlantic discussions on Ukraine continue amidst ongoing conflict. Italian Prime Minister Giorgia Meloni has urged the European Union to maintain a unified and coordinated stance in its support for Ukraine.",
       "article_ids": [
         "516d01b0bb36c89e58181284",
-        "24a5100c744887ddd1b86c6a"
+        "c55d434a0dc761f982c89ebf"
       ],
       "sources": [
         {
@@ -134,28 +144,6 @@
           "url": "https://www.politico.eu/article/giorgia-meloni-urges-eu-unity-ukraine",
           "headline": "Meloni urges ‘disorganized’ EU to speak with one voice on Ukraine",
           "published_at": "2026-11-05T14:20:56Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/247163/details-emerge-of-russian-atrocity-dropping-three-tonne-bombs-on-civilians-at-food-bank-and-shelter-ukraine-battlefield-update-day-1715",
-          "headline": "Details emerge of Russian atrocity: dropping three-tonne bombs on civilians at food bank and shelter (Ukraine Battlefield update, Day 1,715)",
-          "published_at": "2026-11-05T14:21:55Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "MEPs face public backlash over pesticide rule changes",
-      "summary": "A recent poll shows that a huge majority of the European public is against loosening pesticide rules, putting Members of the European Parliament at odds with voters. The discrepancy highlights the growing tension between EU legislative proposals and public environmental concerns.",
-      "article_ids": [
-        "7cfc49735d9e51dd571b022c"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/247138/meps-at-odds-with-the-public-as-poll-shows-huge-majority-against-loosening-pesticide-rules",
-          "headline": "MEPs at odds with the public as poll shows huge majority against loosening pesticide rules",
-          "published_at": "2026-11-05T15:25:39Z"
         }
       ],
       "source_count": 1
@@ -166,7 +154,7 @@
       "label": "Midterms · Trump · US · Democrats",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 15,
+      "item_count": 11,
       "latest_at": "2026-11-05T15:46:48Z",
       "sources": [
         {
@@ -238,28 +226,126 @@
       ]
     },
     {
-      "label": "Europe · Russia",
+      "label": "court · EU · crisis · mediation",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-11-05T12:23:15Z",
+      "item_count": 3,
+      "latest_at": "2026-11-05T16:53:32Z",
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russia-denies-involvement-in-fridge-hacks-across-europe",
-          "headline": "Russia denies involvement in fridge hacks across Europe",
-          "published_at": "2026-11-05T12:23:15Z"
+          "url": "https://www.politico.eu/article/cbd-edibles-cant-be-labeled-organic-says-eu-court",
+          "headline": "CBD edibles can’t be labeled organic, says EU court",
+          "published_at": "2026-11-05T16:53:32Z"
         },
         {
           "publisher": "EUobserver",
-          "url": "https://euobserver.com/246925/russia-fails-in-bid-to-reverse-ban-on-its-ships-using-europes-docks-and-locks",
-          "headline": "Russia fails in bid to reverse ban on its ships using Europe’s docks and locks",
-          "published_at": "2026-11-04T16:55:06Z"
+          "url": "https://euobserver.com/247055/polish-government-is-open-to-eu-mediation-on-court-crisis-justice-minister-says",
+          "headline": "Polish government is ‘open’ to EU mediation on court crisis, justice minister says",
+          "published_at": "2026-11-05T13:53:28Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "482923f0f1db573f607521a2",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "CBD edibles can’t be labeled organic, says EU court",
+      "url": "https://www.politico.eu/article/cbd-edibles-cant-be-labeled-organic-says-eu-court",
+      "published_at": "2026-11-05T16:53:32Z",
+      "collected_at": "2026-11-05T17:01:13Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "10e0122894ac6663050836c3",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Hoax bomb threats target European airlines and airports for second time in a week",
+      "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-05T16:52:54Z",
+      "collected_at": "2026-11-05T17:01:13Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "788688d56160f6ebc784a98f",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Casavalle, the vulnerable neighborhood on the outskirts of Montevideo awaiting Pope Leo XIV",
+      "url": "https://english.elpais.com/international/2026-11-05/casavalle-the-vulnerable-neighborhood-on-the-outskirts-of-montevideo-awaiting-pope-leo-xiv.html",
+      "published_at": "2026-11-05T16:48:10Z",
+      "collected_at": "2026-11-05T17:01:13Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "1645c38ce7c5bd95de008ea1",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Canadian who went to the Moon leads a Madrid development project with 12,000 luxury homes: ‘It’s going to be extraordinary’",
+      "url": "https://english.elpais.com/science-tech/2026-11-05/canadian-who-went-to-the-moon-leads-a-madrid-development-project-with-12000-luxury-homes-its-going-to-be-extraordinary.html",
+      "published_at": "2026-11-05T16:41:50Z",
+      "collected_at": "2026-11-05T17:01:13Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "a8cdc5a21f1a0012c8916076",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "UK’s ‘tax haven empire’ costs the EU $9 billion a year",
+      "url": "https://english.elpais.com/economy-and-business/2026-11-05/uks-tax-haven-empire-costs-the-eu-9-billion-a-year.html",
+      "published_at": "2026-11-05T16:40:21Z",
+      "collected_at": "2026-11-05T17:01:13Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "ab3c940bf9551cbcc26d93b6",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Farage says he’ll meet Le Pen ‘at some point in time’",
+      "url": "https://www.politico.eu/article/nigel-farage-says-hell-meet-france-marine-le-pen-at-some-point-in-time",
+      "published_at": "2026-11-05T16:38:35Z",
+      "collected_at": "2026-11-05T17:01:13Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "3c4bdc84c34bc5019b43d066",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "La fin accélérée du macronisme au Parlement",
+      "url": "https://www.politico.eu/podcast/playbook-paris-podcast/la-fin-acceleree-du-macronisme-au-parlement",
+      "published_at": "2026-11-05T16:33:37Z",
+      "collected_at": "2026-11-05T17:01:13Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "e2d3432d25cf1cf17afbd444",
       "source_id": "france24",
@@ -2676,34 +2762,6 @@
       "url": "https://english.elpais.com/spain/2026-10-13/king-of-spain-in-ceuta-sovereignty-and-territorial-integrity-are-not-negotiable-and-faced-with-any-risk-our-duty-is-their-defense.html",
       "published_at": "2026-10-13T19:57:20Z",
       "collected_at": "2026-11-05T06:01:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "b728e8d504ed418df10b678e",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "From Airbnb to stray cats: Trump’s childhood home in Queens sells for $2 million",
-      "url": "https://english.elpais.com/usa/2026-09-21/from-airbnb-to-stray-cats-trumps-childhood-home-in-queens-sells-for-2-million.html",
-      "published_at": "2026-09-21T14:29:55Z",
-      "collected_at": "2026-11-05T06:01:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "9e0a227b9159734c55b28e7c",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "EL PAÍS offers free Spanish lessons with Gymglish",
-      "url": "https://english.elpais.com/economy-and-business/2021-11-15/el-pais-offers-free-spanish-lessons-with-gymglish.html",
-      "published_at": "2021-11-15T14:10:11Z",
-      "collected_at": "2026-11-05T14:01:04Z",
       "topics": [
         "politics",
         "society",
