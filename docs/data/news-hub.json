@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-05T11:01:12Z",
-  "last_successful_collection_at": "2026-11-05T11:01:12Z",
+  "generated_at": "2026-11-05T11:30:57Z",
+  "last_successful_collection_at": "2026-11-05T11:30:57Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-05T11:01:12Z"
+      "at": "2026-11-05T11:30:57Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-05T11:01:12Z"
+      "at": "2026-11-05T11:30:57Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-05T11:01:12Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-11-05T11:30:57Z"
     },
     {
       "id": "euractiv",
@@ -29,129 +29,71 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-05T11:01:12Z"
+      "at": "2026-11-05T11:30:57Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-05T11:01:12Z"
+      "at": "2026-11-05T11:30:57Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-11-05T11:01:12Z"
+      "at": "2026-11-05T11:30:57Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-05T11:01:12Z"
+      "at": "2026-11-05T11:30:57Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-05T11:01:12Z"
+      "at": "2026-11-05T11:30:57Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-05T11:01:12Z"
+      "at": "2026-11-05T11:30:57Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Bomb threats disrupt multiple European flights",
-      "summary": "Several flights across Europe received bomb threats, forcing diversions and emergency landings. Authorities treated the alerts as a serious security disruption affecting international air travel.",
+      "title": "Russian strike affects Ukrainian aid centre",
+      "summary": "A Russian strike on a Ukrainian aid centre resulted in dozens of deaths and missing people. Kyiv was seeking stronger air defences.",
       "article_ids": [
-        "9c7d992c2af144a2e39273fd",
-        "f075b82596e4103f1233569c",
-        "bd972b8e96b9c79bcb926e44",
-        "aa53378b2fc8b7b34fdab196"
+        "beae9ae9d11090bad2073fc7"
       ],
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/several-european-flights-receive-bomb-threats-some-divert/a-79861216?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Several European flights receive bomb threats, some divert",
-          "published_at": "2026-11-05T10:10:00Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
-          "headline": "Multiple European flights face bomb threats for second time this week",
-          "published_at": "2026-11-05T10:08:10Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261105-dozens-dead-and-missing-after-russian-strike-on-ukrainian-aid-centre",
+          "headline": "Dozens dead and missing after Russian strike on Ukrainian aid centre",
+          "published_at": "2026-11-05T10:34:55Z"
         }
       ],
-      "source_count": 2
-    },
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
     {
-      "title": "France prepares for nationwide strikes and protests",
-      "summary": "French unions have called for nationwide strikes and protests against government policies. Authorities are preparing for significant disruption as mobilization efforts continue.",
+      "title": "France confronts protests and budget rejection",
+      "summary": "French unions staged a nationwide strike as Macron's policies faced a test. The French National Assembly unanimously rejected the budget bill.",
       "article_ids": [
-        "b152e7d79dda4b39783d638d",
         "50b3b2ef440c3edff408cec2",
-        "74e8ee9076199379df748246"
+        "8a9b0f155108403613043f5f"
       ],
       "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
-          "headline": "France gears up for strikes and protests as unions promise national mobilisation",
-          "published_at": "2026-11-05T09:34:48Z"
-        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/france-braces-for-fresh-protests-in-test-for-macron-s-policies",
           "headline": "France braces for fresh protests in test for Macron's policies",
           "published_at": "2026-11-05T06:24:09Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "European aviation security alerts",
-      "summary": "Multiple flights in Europe were targeted by bomb threats, leading to diversions and emergency responses. The incidents disrupted air travel across several countries within a short period.",
-      "article_ids": [
-        "9c7d992c2af144a2e39273fd",
-        "f075b82596e4103f1233569c",
-        "82b38edd783a7f648458815e"
-      ],
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/several-european-flights-receive-bomb-threats-some-divert/a-79861216?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Several European flights receive bomb threats, some divert",
-          "published_at": "2026-11-05T10:10:00Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
-          "headline": "Multiple European flights face bomb threats for second time this week",
-          "published_at": "2026-11-05T10:08:10Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "French political and social unrest",
-      "summary": "France faces nationwide strikes and protests as unions challenge government policies. The National Assembly's rejection of a budget bill has added to political uncertainty in Paris.",
-      "article_ids": [
-        "b152e7d79dda4b39783d638d",
-        "8a9b0f155108403613043f5f",
-        "50b3b2ef440c3edff408cec2"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
-          "headline": "France gears up for strikes and protests as unions promise national mobilisation",
-          "published_at": "2026-11-05T09:34:48Z"
         },
         {
           "publisher": "POLITICO Europe",
@@ -163,11 +105,10 @@
       "source_count": 2
     },
     {
-      "title": "EU institutional and foreign policy developments",
-      "summary": "European officials have expressed limited interest in Russian gas amid ongoing Ukraine peace negotiations. A dispute over Canada's status has exposed divisions between German and EU leadership.",
+      "title": "EU weighs energy and Ukraine peace talks",
+      "summary": "There was little appetite for Russian gas in the EU so far. US and European negotiators discussed a Ukraine peace deal.",
       "article_ids": [
-        "65a11bb96aab7f12f494f45f",
-        "3c44f0cad442bd5a20066147"
+        "65a11bb96aab7f12f494f45f"
       ],
       "sources": [
         {
@@ -175,24 +116,61 @@
           "url": "https://euobserver.com/247002/no-eu-appetite-for-russian-gas-so-far-as-us-and-european-negotiators-discuss-ukraine-peace-deal",
           "headline": "No EU appetite for Russian gas so far, as US and European negotiators discuss Ukraine peace deal",
           "published_at": "2026-11-05T09:03:06Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "EU examines Big Tech and AI oversight",
+      "summary": "UN experts warned about Big Tech influence over Ireland's digital oversight. An EU lawmaker warned that cutting off US tech led to deaths.",
+      "article_ids": [
+        "7a32ca8daa8e98eb7c45208a"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/stop-using-u-s-tech-eu-lawmaker-warns-over-starlink-risks",
+          "headline": "‘Stop using US tech’: EU lawmaker says Starlink service cutoff led to deaths",
+          "published_at": "2026-11-05T10:49:23Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
+    {
+      "label": "blood · French · bank · Cyberattack",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 4,
+      "latest_at": "2026-11-05T10:25:41Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261105-cyberattack-hits-french-blood-bank-site-no-blood-products-compromised",
+          "headline": "Cyberattack hits French blood bank site, no blood products compromised",
+          "published_at": "2026-11-05T10:25:41Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
+          "headline": "French blood storage impacted by freezer hacks as theories swirl about culprits",
+          "published_at": "2026-11-04T16:26:15Z"
         },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/ursula-von-der-leyen-friedrich-merz-canada-european-union-associate-member",
-          "headline": "Canada spat exposes widening rift between Merz and von der Leyen",
-          "published_at": "2026-11-05T03:00:00Z"
+          "url": "https://www.politico.eu/article/fridge-hacks-hit-french-blood-banks",
+          "headline": "Fridge hacks also hit French blood banks",
+          "published_at": "2026-11-04T13:37:30Z"
         }
-      ],
-      "source_count": 2
+      ]
     },
     {
-      "title": "Historical archives and infrastructure changes",
-      "summary": "Hungary has opened Communist-era secret service files decades after the fall of the regime. Spain's rail infrastructure chief resigned following a fatal train crash.",
-      "article_ids": [
-        "06f0e1da2a7241d6e1ffc484",
-        "54f327f98ca2c2aa471e3f00",
-        "ba967122f44898d66686acb5"
-      ],
+      "label": "files · Hungary · Secret · police",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 4,
+      "latest_at": "2026-11-04T19:30:00Z",
       "sources": [
         {
           "publisher": "Deutsche Welle",
@@ -205,17 +183,20 @@
           "url": "https://www.politico.eu/article/hungary-releases-secret-police-files-from-communist-era",
           "headline": "Hungary releases secret police files from communist era",
           "published_at": "2026-11-04T18:43:55Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c977p01kgmmko?at_medium=RSS&at_campaign=rss",
+          "headline": "Secret police files released in Hungary, 47 years after fall of communism",
+          "published_at": "2026-11-04T15:28:18Z"
         }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
+      ]
+    },
     {
-      "label": "Midterms · Trump · Democrats · US",
+      "label": "Midterms · Trump",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 14,
+      "item_count": 3,
       "latest_at": "2026-11-05T09:50:12Z",
       "sources": [
         {
@@ -225,90 +206,146 @@
           "published_at": "2026-11-05T09:50:12Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/the-debate/20261104-blue-wave-across-america-do-us-midterms-signal-beginning-of-the-end-for-trump",
-          "headline": "Blue wave across America: do US midterms signal beginning of the end for Trump?",
-          "published_at": "2026-11-04T19:49:21Z"
-        },
-        {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/midterms-5-points-que-leurope-doit-surveiller-apres-lecrasante-victoire-des-democrates-face-a-trump",
           "headline": "Midterms : 5 points que l’Europe doit surveiller après l’écrasante victoire des démocrates face à Trump",
           "published_at": "2026-11-04T17:55:27Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261104-trump-after-the-midterms-gridlock-impeachment-and-succession",
+          "headline": "Trump after the midterms: Gridlock, impeachment and succession?",
+          "published_at": "2026-11-04T15:54:58Z"
         }
       ]
     },
     {
-      "label": "blood · French · banks · hacks",
+      "label": "bomb · Dublin · flight · Rome",
       "origin": "convergence",
       "source_count": 3,
       "item_count": 3,
-      "latest_at": "2026-11-04T16:26:15Z",
+      "latest_at": "2026-11-05T09:50:03Z",
       "sources": [
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
-          "headline": "French blood storage impacted by freezer hacks as theories swirl about culprits",
-          "published_at": "2026-11-04T16:26:15Z"
+          "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
+          "headline": "Dublin to Rome flight diverted after bomb threat",
+          "published_at": "2026-11-05T09:50:03Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/dublin-rome-flight-lands-in-france-amid-bomb-threat/a-79861216?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Dublin-Rome flight lands in France amid bomb threat",
+          "published_at": "2026-11-05T09:10:00Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261104-french-blood-banks-foil-new-cyberattack-targeting-refrigerators",
-          "headline": "French blood banks foil new cyberattack targeting refrigerators",
-          "published_at": "2026-11-04T15:10:17Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/fridge-hacks-hit-french-blood-banks",
-          "headline": "Fridge hacks also hit French blood banks",
-          "published_at": "2026-11-04T13:37:30Z"
-        }
-      ]
-    },
-    {
-      "label": "Texas · Democrats · beginning · Pulido",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-11-05T10:46:00Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-11-05/talarico-hinojosa-and-pulido-the-trio-with-which-the-democrats-are-beginning-to-turn-texas-purple.html",
-          "headline": "Talarico, Hinojosa and Pulido: The trio with which the Democrats are beginning to turn Texas purple",
-          "published_at": "2026-11-05T10:46:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/us-midterm-elections-maybe-the-best-colour-for-texas-is-purple",
-          "headline": "US midterm elections: 'Maybe the best colour for Texas is purple'",
-          "published_at": "2026-11-04T15:45:00Z"
-        }
-      ]
-    },
-    {
-      "label": "election · MAGA · movement · Trump",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-04T17:49:34Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/once-in-a-generation-event-historic-election-a-shocking-repudiation-of-trump-the-maga-movement",
-          "headline": "'Once-in-a-generation event: Historic election a shocking repudiation of Trump & the MAGA movement'",
-          "published_at": "2026-11-04T17:49:34Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/246872/lame-duck-or-angry-duck-europes-leadership-largely-silent-on-trumps-election-disaster-fearing-backlash",
-          "headline": "Lame duck or angry duck? Europe’s leadership largely silent on Trump’s election disaster, fearing backlash",
-          "published_at": "2026-11-04T15:19:42Z"
+          "url": "https://www.france24.com/en/europe/20261105-dublin-rome-flight-diverted-to-france-over-bomb-threat",
+          "headline": "Dublin-Rome flight diverted to French military base over bomb threat",
+          "published_at": "2026-11-05T09:08:19Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "6c10e05006758ecc53563906",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US Midterms: Democrats say ready to negotiate and promise big changes",
+      "url": "https://www.france24.com/en/video/20261105-us-midterms-democrats-say-ready-to-negotiate-and-promise-big-changes",
+      "published_at": "2026-11-05T11:22:34Z",
+      "collected_at": "2026-11-05T11:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "05555b8c322df722e7ca630e",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Bomb threats target at least 12 more European flights",
+      "url": "https://www.politico.eu/article/more-european-flights-targeted-by-bomb-threats",
+      "published_at": "2026-11-05T11:21:42Z",
+      "collected_at": "2026-11-05T11:30:57Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "99eefdccf923f71889beb376",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "‘Skip the TED talk’: Iran trolls Vance over midterm defeat analysis",
+      "url": "https://www.politico.eu/article/skip-the-ted-talk-iran-mohammad-bagher-ghalibaf-trolls-us-jd-vance-over-midterm-defeat-analysis",
+      "published_at": "2026-11-05T11:14:06Z",
+      "collected_at": "2026-11-05T11:30:57Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "1c6377b60dd276a1845a577c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Houthi missiles fired at Medina intercepted, Saudi coalition says",
+      "url": "https://www.france24.com/en/middle-east/20261105-houthi-missiles-fired-at-medina-intercepted-saudi-coalition-says",
+      "published_at": "2026-11-05T11:07:22Z",
+      "collected_at": "2026-11-05T11:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "7d16c07cc102f0fdaf62667d",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Gina Hinojosa’s Mexican roots: A family of lawyers and a past in the Huasteca Potosina",
+      "url": "https://english.elpais.com/usa/2026-11-05/gina-hinojosas-mexican-roots-a-family-of-lawyers-and-a-past-in-the-huasteca-potosina.html",
+      "published_at": "2026-11-05T11:03:44Z",
+      "collected_at": "2026-11-05T11:30:57Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "7a32ca8daa8e98eb7c45208a",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "‘Stop using US tech’: EU lawmaker says Starlink service cutoff led to deaths",
+      "url": "https://www.politico.eu/article/stop-using-u-s-tech-eu-lawmaker-warns-over-starlink-risks",
+      "published_at": "2026-11-05T10:49:23Z",
+      "collected_at": "2026-11-05T11:30:57Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "dc8cf38b14394f6976d4927c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "South Africans eager to vote as local elections put failing services in focus",
+      "url": "https://www.france24.com/en/video/20261105-south-africans-eager-to-vote-as-local-elections-put-failing-services-in-focus",
+      "published_at": "2026-11-05T10:48:38Z",
+      "collected_at": "2026-11-05T11:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "c90f5662750ad0085d515bd6",
       "source_id": "el_pais_english",
@@ -324,6 +361,34 @@
       ]
     },
     {
+      "id": "02eeee141e660a0ff2301e8d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Football legend Cristiano Ronaldo announces international retirement",
+      "url": "https://www.france24.com/en/sport/20261105-football-legend-cristiano-ronaldo-announces-international-retirement",
+      "published_at": "2026-11-05T10:45:21Z",
+      "collected_at": "2026-11-05T11:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "5b066f1332ca135683998962",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Sudan accuses Ethiopia of allowing RSF drone launches from its territory",
+      "url": "https://www.france24.com/en/video/20261105-sudan-accuses-ethiopia-of-allowing-rsf-drone-launches-from-its-territory",
+      "published_at": "2026-11-05T10:42:55Z",
+      "collected_at": "2026-11-05T11:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "59bea6d65e36ef0c6a12caed",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -335,6 +400,118 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "5fd7b80c35f5230a290191a4",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "UN experts warn of Big Tech influence over Ireland’s digital oversight",
+      "url": "https://www.politico.eu/article/un-experts-warn-for-big-tech-influence-over-irelands-tech-oversight",
+      "published_at": "2026-11-05T10:38:53Z",
+      "collected_at": "2026-11-05T11:30:57Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "286c6dd65cb46539d864814f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ethiopian families fleeing conflict face difficulties with food access",
+      "url": "https://www.france24.com/en/video/20261105-ethiopian-families-fleeing-conflict-face-difficulties-with-food-access",
+      "published_at": "2026-11-05T10:38:41Z",
+      "collected_at": "2026-11-05T11:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "beae9ae9d11090bad2073fc7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Dozens dead and missing after Russian strike on Ukrainian aid centre",
+      "url": "https://www.france24.com/en/video/20261105-dozens-dead-and-missing-after-russian-strike-on-ukrainian-aid-centre",
+      "published_at": "2026-11-05T10:34:55Z",
+      "collected_at": "2026-11-05T11:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "5be197d06c392b7d198289e7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Zelensky in Spain for talks with world leaders as Kyiv seeks to strengthen air defences",
+      "url": "https://www.france24.com/en/video/20261105-zelensky-in-spain-for-talks-with-world-leaders-as-kyiv-seeks-to-strengthen-air-defences",
+      "published_at": "2026-11-05T10:32:12Z",
+      "collected_at": "2026-11-05T11:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f8351410a6b58934b31dffbf",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Israel president urges compromise after divisive election",
+      "url": "https://www.france24.com/en/video/20261105-israel-president-urges-compromise-after-divisive-election",
+      "published_at": "2026-11-05T10:30:49Z",
+      "collected_at": "2026-11-05T11:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "0710429c3ad4ee28b21ce112",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "After midterm stinging defeat, Trump is left to weigh his next move in Iran war",
+      "url": "https://www.france24.com/en/video/20261105-after-midterm-stinging-defeat-trump-is-left-to-weigh-his-next-move-in-iran-war",
+      "published_at": "2026-11-05T10:27:32Z",
+      "collected_at": "2026-11-05T11:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "cace8c0f883e8b4408680e53",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Cyberattack hits French blood bank site, no blood products compromised",
+      "url": "https://www.france24.com/en/video/20261105-cyberattack-hits-french-blood-bank-site-no-blood-products-compromised",
+      "published_at": "2026-11-05T10:25:41Z",
+      "collected_at": "2026-11-05T11:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "557c271b8907db331da643a0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Students blockade schools, universities as France braces for mass rallies",
+      "url": "https://www.france24.com/en/video/20261105-students-blockade-schools-universities-as-france-braces-for-mass-rallies",
+      "published_at": "2026-11-05T10:24:41Z",
+      "collected_at": "2026-11-05T11:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -569,6 +746,20 @@
       "url": "https://www.france24.com/en/france/20261105-live-france-nationwide-strikes-living-costs",
       "published_at": "2026-11-05T05:53:09Z",
       "collected_at": "2026-11-05T06:30:56Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "af678e220e4af1fe987448af",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: French unions stage nationwide strike in fresh test for Macron’s policies",
+      "url": "https://www.france24.com/en/france/20261105-live-france-nationwide-strikes-living-costs",
+      "published_at": "2026-11-05T05:53:09Z",
+      "collected_at": "2026-11-05T11:30:57Z",
       "topics": [
         "politics",
         "security",
@@ -1724,62 +1915,6 @@
       ]
     },
     {
-      "id": "c457a3110b10db9c63764c59",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US midterms: Trump reacts to the Democrats’ sweeping victory",
-      "url": "https://www.france24.com/en/video/20261104-us-midterms-trump-reacts-to-the-democrats-sweeping-victory",
-      "published_at": "2026-11-04T11:24:24Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "5a50b808cc4edbdadc4b6b98",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ethiopia expands hydropower ambitions",
-      "url": "https://www.france24.com/en/video/20261104-ethiopia-expands-hydropower-ambitions",
-      "published_at": "2026-11-04T11:19:36Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "2ee0192cebaeae0cfb0f05b5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "From Kansas to Texas, Democrats win big in Republican heartlands",
-      "url": "https://www.france24.com/en/video/20261104-from-kansas-to-texas-democrats-win-big-in-republican-heartlands",
-      "published_at": "2026-11-04T11:15:51Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "ac102ae864a86b18bbc01df4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US midterms bring surge of historic firsts for women and members of minority groups",
-      "url": "https://www.france24.com/en/americas/20261104-us-midterms-bring-surge-of-historic-firsts-women-members-minority-groups",
-      "published_at": "2026-11-04T11:15:39Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "44ddb7df040df4f1b8fae90f",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1787,258 +1922,6 @@
       "url": "https://www.france24.com/en/americas/20261104-us-midterms-bring-surge-of-historic-firsts-women-members-minority-groups",
       "published_at": "2026-11-04T11:15:39Z",
       "collected_at": "2026-11-04T13:30:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "00ea5aa673cdd80095b4459a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "South Korea pushes digital detox for young people addicted to screens",
-      "url": "https://www.france24.com/en/tv-shows/focus/20261104-south-korea-pushes-digital-detox-for-young-people-addicted-to-screens",
-      "published_at": "2026-11-04T11:14:16Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "74b4acd6f1c71e707fee2361",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Midterms: Trump acknowledges role of Iran war, congratulates Dems",
-      "url": "https://www.france24.com/en/video/20261104-midterms-trump-acknowledges-role-of-iran-war-congratulates-dems",
-      "published_at": "2026-11-04T11:13:53Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "8c3f48db267dff8ea86fc62e",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The US takes its anti-narcotics war onto Venezuelan soil with a drone strike against the ELN",
-      "url": "https://english.elpais.com/international/2026-11-04/the-us-takes-its-anti-narcotics-war-onto-venezuelan-soil-with-a-drone-strike-against-the-eln.html",
-      "published_at": "2026-11-04T11:12:41Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "c8014d273207e6109689fe35",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "International Commission of Jurists criticises takeover of Polish constitutional court",
-      "url": "https://notesfrompoland.com/2026/11/04/international-commission-of-jurists-criticises-takeover-of-polish-constitutional-court",
-      "published_at": "2026-11-04T11:05:52Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "c665698b7d7fd981c374f7d1",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US voters back abortion rights and reject Trump's gerrymandering in state ballot measures",
-      "url": "https://www.france24.com/en/americas/20261104-us-voters-back-abortion-rights-and-reject-trump-s-gerrymandering-in-state-ballot-measures",
-      "published_at": "2026-11-04T10:49:40Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e91a79e7645f29ae848d63ae",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Markets react with caution to Democrats' victory in US midterms",
-      "url": "https://www.france24.com/en/tv-shows/business/20261104-markets-react-with-caution-to-democrats-victory-in-us-midterms",
-      "published_at": "2026-11-04T10:40:31Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "cbbc233ba0555adc25c3bb66",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Champions League: Paris Saint-Germain make easy work of Villarreal",
-      "url": "https://www.france24.com/en/tv-shows/sports/20261104-champions-league-paris-saint-germain-make-easy-work-of-villarreal",
-      "published_at": "2026-11-04T10:31:25Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e55836b97cf66ee1b1e58d5e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "DR Congo residents sue Chinese mining giant for widespread pollution",
-      "url": "https://www.france24.com/en/video/20261104-dr-congo-residents-sue-chinese-mining-giant-for-widespread-pollution",
-      "published_at": "2026-11-04T10:22:47Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "012ac8c99b9322e286d3201a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "30 million South Africans registered to vote across nine provinces",
-      "url": "https://www.france24.com/en/video/20261104-30-million-south-africans-registered-to-vote-across-nine-provinces",
-      "published_at": "2026-11-04T10:20:37Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "ef1d2fa3ac4624cf4616298f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Sudanese Arab refugees face hostility and distrust after fleeing to Chad",
-      "url": "https://www.france24.com/en/video/20261104-sudanese-arab-refugees-face-hostility-and-distrust-after-fleeing-to-chad",
-      "published_at": "2026-11-04T10:18:55Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "a1cd35316aaf5c44efd31342",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Washington excludes South Africa and Rwanda from US duty-free trade deal",
-      "url": "https://www.france24.com/en/video/20261104-washington-excludes-south-africa-and-rwanda-from-us-duty-free-trade-deal",
-      "published_at": "2026-11-04T10:15:40Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "868c5f1de7be3aff24b680cf",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'A generational win' for Dems as blue wave sweeps midterms",
-      "url": "https://www.france24.com/en/video/20261104-a-generational-win-for-dems-as-blue-wave-sweeps-midterms",
-      "published_at": "2026-11-04T10:11:03Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "beb00aca067c7691d8881303",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Abdul El-Sayed set to become first Muslim senator after win in Michigan",
-      "url": "https://www.france24.com/en/video/20261104-abdul-el-sayed-set-to-become-first-muslim-senator-after-win-in-michigan",
-      "published_at": "2026-11-04T10:09:52Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "783107084922988d4168a1c2",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Blue tsunami' in US midterms 'pummels GOP out of power'",
-      "url": "https://www.france24.com/en/tv-shows/press-review/20261104-blue-tsunami-in-us-midterms-pummels-gop-out-of-power",
-      "published_at": "2026-11-04T09:53:27Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "ba4002b1c47a007045d91814",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Why the Democrats routed the Republicans in the US midterm elections",
-      "url": "https://www.france24.com/en/americas/20261104-why-the-democrats-routed-republicans-us-midterm-elections",
-      "published_at": "2026-11-04T09:41:10Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "daf65e6fd838ca436e8dc7f8",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Iran war, Epstein, impeachment? What will Democrats do with control of Congress?",
-      "url": "https://www.france24.com/en/video/20261104-iran-war-epstein-impeachment-what-will-democrats-do-with-control-of-congress",
-      "published_at": "2026-11-04T09:26:55Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "9253fe4abaf2d2b66946fcbd",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US midterms: Will Trump stick to his word and accept results?",
-      "url": "https://www.france24.com/en/video/20261104-us-midterms-will-trump-stick-to-his-word-and-accept-results",
-      "published_at": "2026-11-04T09:24:02Z",
-      "collected_at": "2026-11-04T11:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "c3322573e75bbff22910a599",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US midterms latest results: Mississippi Senate race 'neck and neck'",
-      "url": "https://www.france24.com/en/video/20261104-us-midterms-latest-results-mississippi-senate-race-neck-and-neck",
-      "published_at": "2026-11-04T09:22:56Z",
-      "collected_at": "2026-11-04T11:30:54Z",
       "topics": [
         "politics",
         "security",
