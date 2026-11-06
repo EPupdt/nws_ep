@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-06T11:31:01Z",
-  "last_successful_collection_at": "2026-11-06T11:31:01Z",
+  "generated_at": "2026-11-06T12:01:09Z",
+  "last_successful_collection_at": "2026-11-06T12:01:09Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-06T11:31:01Z"
+      "at": "2026-11-06T12:01:09Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "22",
-      "at": "2026-11-06T11:31:01Z"
+      "count": "21",
+      "at": "2026-11-06T12:01:09Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-06T11:31:01Z"
+      "at": "2026-11-06T12:01:09Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-06T11:31:01Z"
+      "at": "2026-11-06T12:01:09Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-06T11:31:01Z"
+      "at": "2026-11-06T12:01:09Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-11-06T11:31:01Z"
+      "at": "2026-11-06T12:01:09Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-06T11:31:01Z"
+      "at": "2026-11-06T12:01:09Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-06T11:31:01Z"
+      "at": "2026-11-06T12:01:09Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-06T11:31:01Z"
+      "at": "2026-11-06T12:01:09Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Black Sea Region Security Risk",
-      "summary": "European Commission President Ursula von der Leyen is scheduled to travel to the Black Sea amid an ongoing wave of lethal drone attacks in the area.",
+      "title": "EU Accuses TikTok of Algorithm Design Flaws",
+      "summary": "The European Union has formally accused TikTok of designing its recommendation algorithm in a way that creates problematic digital pathways. Regulators indicate this practice breaches existing digital service rules across the bloc.",
+      "article_ids": [
+        "15c39fa366e03e97fd2c4df9"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-accuses-tiktok-of-breaching-digital-rules-because-algorithm-creates-rabbit-holes",
+          "headline": "EU accuses TikTok of designing algorithm that creates ‘rabbit holes’",
+          "published_at": "2026-11-06T10:59:43Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Commission President Visits Black Sea Region Amid Attacks",
+      "summary": "European Commission President Ursula von der Leyen is scheduled to travel to the Black Sea region. The visit coincides with an escalating wave of fatal drone attacks in the area.",
       "article_ids": [
         "8ac310cd3c8e66d528f5df6a"
       ],
@@ -82,19 +98,36 @@
   ],
   "top_stories": [
     {
-      "title": "Regional Security and Leadership Warnings",
-      "summary": "Lithuanian President Gitanas Nausėda stated that he does not trust Russian leadership and warned that provocations by Vladimir Putin will continue. Meanwhile, European Commission President Ursula von der Leyen plans to visit the Black Sea following a series of deadly drone strikes.",
+      "title": "Mass Demonstrations and Social Unrest in France",
+      "summary": "Large crowds have gathered across France to participate in sweeping protests demanding higher wages. Meanwhile, a separate tragic incident in eastern France involved a school bus crash resulting in multiple casualties.",
       "article_ids": [
-        "8ac310cd3c8e66d528f5df6a",
-        "f72a8c75587a442d882b879a"
+        "2ee0e6c11d112ba0613912f2",
+        "c32a6f1262cc9ff7b1cb87a2"
       ],
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/ursula-von-der-leyen-to-visit-black-sea-amid-wave-of-deadly-drone-attacks",
-          "headline": "Von der Leyen to visit Black Sea amid deadly drone attacks",
-          "published_at": "2026-11-06T11:05:01Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261106-mass-protests-sweep-france-as-huge-crowds-demand-higher-wages",
+          "headline": "Mass protests sweep France as huge crowds demand higher wages",
+          "published_at": "2026-11-06T10:05:40Z"
         },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261106-at-least-two-killed-16-injured-in-school-bus-accident-in-eastern-france",
+          "headline": "At least two killed, 16 injured in school bus accident in eastern France",
+          "published_at": "2026-11-06T10:37:42Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Regional Security and Geopolitical Warnings",
+      "summary": "Lithuanian President Gitanas Nauseda has publicly warned that provocations by Vladimir Putin are expected to persist. In related geopolitical developments, European markets reacted sharply following political shifts abroad.",
+      "article_ids": [
+        "f72a8c75587a442d882b879a",
+        "ddf8aef611b993d0a1830dde"
+      ],
+      "sources": [
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/lithuania-president-gitanas-nauseda-vladimir-putin-provocation",
@@ -103,26 +136,63 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Judicial and Institutional Reform Debates",
-      "summary": "Poland's deputy prime minister has put forward a proposal for a constitutional reset to address an ongoing crisis surrounding the country's top court. In related regional governance discussions, observers are examining whether recent political uprisings and judicial shifts in Eastern Europe can alter long-term state operations.",
-      "article_ids": [
-        "3a3d99f9952e75555b7691f6",
-        "3467873be23ac4ea1e86278e"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/247121/after-students-voted-out-vucic-can-serbias-uprising-against-evil-change-how-the-state-really-works",
-          "headline": "After students voted out Vučić, can Serbia’s uprising against ‘evil’ change how the state really works?",
-          "published_at": "2026-11-06T10:05:11Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "developing": [
+    {
+      "label": "EU · crisis · court · mediation",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 5,
+      "latest_at": "2026-11-06T11:48:49Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/talking-europe/20261106-europe-s-crisis-of-discontent-student-and-cost-of-living-protests-spread-across-eu",
+          "headline": "Europe's crisis of discontent: Student and cost-of-living protests spread across EU",
+          "published_at": "2026-11-06T11:48:49Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/economy-and-business/2026-11-05/uks-tax-haven-empire-costs-the-eu-9-billion-a-year.html",
+          "headline": "UK’s ‘tax haven empire’ costs the EU $9 billion a year",
+          "published_at": "2026-11-05T16:40:21Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/247055/polish-government-is-open-to-eu-mediation-on-court-crisis-justice-minister-says",
+          "headline": "Polish government is ‘open’ to EU mediation on court crisis, justice minister says",
+          "published_at": "2026-11-05T13:53:28Z"
+        }
+      ]
+    },
+    {
+      "label": "US · midterm · Trump · defeat",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 5,
+      "latest_at": "2026-11-06T11:00:30Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-11-06/trumps-defeat-fuels-concerns-in-israel-over-the-future-of-its-alliance-with-the-us.html",
+          "headline": "Trump’s defeat fuels concerns in Israel over the future of its alliance with the US",
+          "published_at": "2026-11-06T11:00:30Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261106-us-republicans-face-reckoning-after-major-midterm-election-defeat",
+          "headline": "US Republicans face reckoning after major midterm election defeat",
+          "published_at": "2026-11-06T10:37:55Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/how-to-curry-favor-with-the-next-us-president-without-annoying-trump",
+          "headline": "How to curry favor with the next US president — without annoying Trump",
+          "published_at": "2026-11-06T04:00:00Z"
+        }
+      ]
+    },
     {
       "label": "House · Democrats · White · delegations",
       "origin": "convergence",
@@ -176,51 +246,107 @@
           "published_at": "2026-11-05T14:21:55Z"
         }
       ]
-    },
-    {
-      "label": "France · protests · demand · unions",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-11-06T10:05:40Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261106-mass-protests-sweep-france-as-huge-crowds-demand-higher-wages",
-          "headline": "Mass protests sweep France as huge crowds demand higher wages",
-          "published_at": "2026-11-06T10:05:40Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
-          "headline": "France holds new strikes and protests as unions demand immediate answers",
-          "published_at": "2026-11-05T13:04:04Z"
-        }
-      ]
-    },
-    {
-      "label": "court · crisis · Polish · EU",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-11-06T08:29:30Z",
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/06/polish-deputy-pm-proposes-constitutional-reset-to-resolve-crisis-around-top-court",
-          "headline": "Polish deputy PM proposes “constitutional reset” to resolve crisis around top court",
-          "published_at": "2026-11-06T08:29:30Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/247055/polish-government-is-open-to-eu-mediation-on-court-crisis-justice-minister-says",
-          "headline": "Polish government is ‘open’ to EU mediation on court crisis, justice minister says",
-          "published_at": "2026-11-05T13:53:28Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "b5cb78aeee0ec37a65d57b62",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Self-styled 'king of Germany' goes on trial accused of heading criminal group",
+      "url": "https://www.bbc.co.uk/news/articles/c5zjxxmz7mxro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-06T12:00:14Z",
+      "collected_at": "2026-11-06T12:01:09Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "f5d1a20248aef4d9c399fb39",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Sustaining Europe’s Biosimilar Leadership and Impact",
+      "url": "https://www.politico.eu/sponsored-content/sustaining-europes-biosimilar-leadership-and-impact",
+      "published_at": "2026-11-06T12:00:00Z",
+      "collected_at": "2026-11-06T12:01:09Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "3c3b8692712364a9d8fa083d",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The women behind the Democratic wave transforming US politics",
+      "url": "https://english.elpais.com/usa/2026-11-06/the-women-behind-the-democratic-wave-transforming-us-politics.html",
+      "published_at": "2026-11-06T11:49:08Z",
+      "collected_at": "2026-11-06T12:01:09Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "a2502c78f75d1ca5522c170d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Europe's crisis of discontent: Student and cost-of-living protests spread across EU",
+      "url": "https://www.france24.com/en/tv-shows/talking-europe/20261106-europe-s-crisis-of-discontent-student-and-cost-of-living-protests-spread-across-eu",
+      "published_at": "2026-11-06T11:48:49Z",
+      "collected_at": "2026-11-06T12:01:09Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "8b87a2953eea0d45bafa28dc",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The surreal journey of Salvador Dalí’s legs in a cardboard box: A window into the DNA of human creativity",
+      "url": "https://english.elpais.com/science-tech/2026-11-06/the-surreal-journey-of-salvador-dalis-legs-in-a-cardboard-box-a-window-into-the-dna-of-human-creativity.html",
+      "published_at": "2026-11-06T11:48:47Z",
+      "collected_at": "2026-11-06T12:01:09Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "00765c064fe0a22d73a6cd7d",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Belgian king refuses Bart De Wever’s resignation",
+      "url": "https://www.politico.eu/article/king-philippe-refuses-prime-minister-bart-de-wever-resignation",
+      "published_at": "2026-11-06T11:43:58Z",
+      "collected_at": "2026-11-06T12:01:09Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "7e53f975be8eb8ad6a17ca19",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French 2027 presidential elections: Why Melenchon is a Gen Z favourite",
+      "url": "https://www.france24.com/en/french-2027-presidential-elections-why-melenchon-is-a-gen-z-favourite",
+      "published_at": "2026-11-06T11:43:31Z",
+      "collected_at": "2026-11-06T12:01:09Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "8ac310cd3c8e66d528f5df6a",
       "source_id": "politico_europe",
@@ -229,6 +355,34 @@
       "url": "https://www.politico.eu/article/ursula-von-der-leyen-to-visit-black-sea-amid-wave-of-deadly-drone-attacks",
       "published_at": "2026-11-06T11:05:01Z",
       "collected_at": "2026-11-06T11:31:01Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "cf2c4974be96575377273da8",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trump’s defeat fuels concerns in Israel over the future of its alliance with the US",
+      "url": "https://english.elpais.com/international/2026-11-06/trumps-defeat-fuels-concerns-in-israel-over-the-future-of-its-alliance-with-the-us.html",
+      "published_at": "2026-11-06T11:00:30Z",
+      "collected_at": "2026-11-06T12:01:09Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "15c39fa366e03e97fd2c4df9",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "EU accuses TikTok of designing algorithm that creates ‘rabbit holes’",
+      "url": "https://www.politico.eu/article/eu-accuses-tiktok-of-breaching-digital-rules-because-algorithm-creates-rabbit-holes",
+      "published_at": "2026-11-06T10:59:43Z",
+      "collected_at": "2026-11-06T12:01:09Z",
       "topics": [
         "institutions",
         "politics",
@@ -261,6 +415,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "a5b0c2ad2ac3fd345435601b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Pete Hegseth, under fire from Republicans over his role in the Iran war",
+      "url": "https://english.elpais.com/usa/2026-11-06/pete-hegseth-under-fire-from-republicans-over-his-role-in-the-iran-war.html",
+      "published_at": "2026-11-06T10:38:25Z",
+      "collected_at": "2026-11-06T12:01:09Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2056,104 +2224,6 @@
       ]
     },
     {
-      "id": "57d786bb2a0de0a650435331",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "A midterms of firsts: Records set for women, Black people, gay people, Muslims, Latinos and Indigenous people",
-      "url": "https://english.elpais.com/usa/2026-11-05/a-midterms-of-firsts-records-set-for-women-black-people-gay-people-muslims-latinos-and-indigenous-people.html",
-      "published_at": "2026-11-05T11:48:55Z",
-      "collected_at": "2026-11-05T12:01:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "40cd137f2fa9e4e68f981b1e",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Six detained in Poland on suspicion of exporting military components to Russia",
-      "url": "https://notesfrompoland.com/2026/11/05/six-detained-in-poland-on-suspicion-of-exporting-military-components-to-russia",
-      "published_at": "2026-11-05T11:36:51Z",
-      "collected_at": "2026-11-05T12:01:04Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "f85772dc39eb48f9e13031b0",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Multiple European flights targeted by bomb threats for second time this week",
-      "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-05T11:36:27Z",
-      "collected_at": "2026-11-05T12:01:04Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "5150609433ae7c17748db3bb",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Bomb threats cause major flight disruptions across Europe",
-      "url": "https://www.france24.com/en/video/20261105-bomb-threats-cause-major-flight-disruptions-across-europe",
-      "published_at": "2026-11-05T11:32:13Z",
-      "collected_at": "2026-11-05T12:01:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "22939e82af1c2fafd95705bf",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US midterms: Elon Musk fails $440 million bet as Republicans lose",
-      "url": "https://www.france24.com/en/video/20261105-us-midterms-elon-musk-fails-440-million-bet-as-republicans-lose",
-      "published_at": "2026-11-05T11:29:35Z",
-      "collected_at": "2026-11-05T12:01:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "4603f9880bef4fd98eeba3bf",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Hong Kong activist jailed for 10 more years for collusion with foreign forces",
-      "url": "https://www.france24.com/en/video/20261105-hong-kong-activist-jailed-for-10-more-years-for-collusion-with-foreign-forces",
-      "published_at": "2026-11-05T11:29:09Z",
-      "collected_at": "2026-11-05T12:01:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e5e4fb700e4b5ccbec60652b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Route du Rhum 2026: Sailors forced to abandon race for various reasons",
-      "url": "https://www.france24.com/en/video/20261105-route-du-rhum-2026-sailors-forced-to-abandon-race-for-various-reasons",
-      "published_at": "2026-11-05T11:25:52Z",
-      "collected_at": "2026-11-05T12:01:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "6eea230d6691bb233c060ec7",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2263,6 +2333,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "f7125b63a33a6de3a52d6786",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Spain’s transportation minister steps down over train crash to try to save the Socialist campaign ahead of elections",
+      "url": "https://english.elpais.com/spain/2026-11-04/spains-transportation-minister-steps-down-over-train-crash-to-try-to-save-the-socialist-campaign-ahead-of-elections.html",
+      "published_at": "2026-11-04T11:51:58Z",
+      "collected_at": "2026-11-06T12:01:09Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2483,6 +2567,34 @@
       "url": "https://english.elpais.com/health/2026-10-31/neurodivergent-the-trendy-label-for-brains-that-depart-from-the-norm.html",
       "published_at": "2026-10-31T04:00:00Z",
       "collected_at": "2026-11-06T06:01:05Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "d5f28cc8a871580dc0481454",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
+      "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-10-29T10:33:00Z",
+      "collected_at": "2026-11-06T12:01:09Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "9b687c810858288fa83c472b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Chinese women seek to break out of traditional roles",
+      "url": "https://english.elpais.com/international/2026-10-21/chinese-women-seek-to-break-out-of-traditional-roles.html",
+      "published_at": "2026-10-21T08:53:13Z",
+      "collected_at": "2026-11-06T12:01:09Z",
       "topics": [
         "politics",
         "society",
