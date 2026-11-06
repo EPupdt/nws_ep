@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-06T15:01:09Z",
-  "last_successful_collection_at": "2026-11-06T15:01:09Z",
+  "generated_at": "2026-11-06T15:31:03Z",
+  "last_successful_collection_at": "2026-11-06T15:31:03Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-06T15:01:09Z"
+      "at": "2026-11-06T15:31:03Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-06T15:01:09Z"
+      "at": "2026-11-06T15:31:03Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-06T15:01:09Z"
+      "at": "2026-11-06T15:31:03Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-06T15:01:09Z"
+      "at": "2026-11-06T15:31:03Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-06T15:01:09Z"
+      "at": "2026-11-06T15:31:03Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "55",
-      "at": "2026-11-06T15:01:09Z"
+      "at": "2026-11-06T15:31:03Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-06T15:01:09Z"
+      "at": "2026-11-06T15:31:03Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-06T15:01:09Z"
+      "at": "2026-11-06T15:31:03Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-06T15:01:09Z"
+      "at": "2026-11-06T15:31:03Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Belgian Prime Minister's Resignation Refused by King",
-      "summary": "King Philippe of Belgium has formally refused the resignation offered by Prime Minister Bart De Wever. The political development follows ongoing government deliberations and institutional challenges in the country.",
+      "title": "EU prosecutors open investigations into Spanish rail",
+      "summary": "European prosecutors have launched a potential 110 million euro fraud probe into Spain's railway infrastructure following a second lethal crash. This action marks a significant institutional intervention in national transport safety and fund management.",
+      "article_ids": [
+        "f7262b8ca708db6332523d05",
+        "fc1760f2db269bbf0c6bf3fb"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/247457/eu-prosecutors-launch-possible-e110m-fraud-probe-into-spains-railways-after-second-lethal-crash",
+          "headline": "EU prosecutors launch possible €110m fraud probe into Spain’s railways, after second lethal crash",
+          "published_at": "2026-11-06T15:06:21Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-prosecutors-open-second-fraud-probe-spain-high-speed-rail-fatal-crash",
+          "headline": "EU prosecutors open second fraud probe into Spanish high-speed rail",
+          "published_at": "2026-11-06T14:28:29Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Belgian Prime Minister resignation refused",
+      "summary": "King Philippe of Belgium has formally refused the resignation offered by Prime Minister Bart De Wever. The political development avoids an immediate institutional crisis within the federal government.",
       "article_ids": [
         "00765c064fe0a22d73a6cd7d",
         "c63b61ff8f437feeb7c1b38a"
@@ -89,18 +112,41 @@
   ],
   "top_stories": [
     {
-      "title": "French Political and Economic Pressures",
-      "summary": "France faces growing economic pressure as rising debt costs threaten national stability amidst ongoing protests and reform debates. Meanwhile, the French far left has officially incorporated proposals to leave NATO into its presidential platform.",
+      "title": "European regulatory and security developments",
+      "summary": "European Commission President Ursula von der Leyen is scheduled to visit the Black Sea region amid a wave of deadly drone attacks. Meanwhile, European Union states have backed a one-year delay for methane regulations while keeping the option open for further extensions.",
       "article_ids": [
-        "af50189abd2c85b94f2fdd53",
+        "8ac310cd3c8e66d528f5df6a",
+        "4626082252cbd7fe607f86a5"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ursula-von-der-leyen-to-visit-black-sea-amid-wave-of-deadly-drone-attacks",
+          "headline": "Von der Leyen to visit Black Sea amid deadly drone attacks",
+          "published_at": "2026-11-06T11:05:01Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/247446/eu-states-back-one-year-methane-delay-but-leave-door-open-for-more",
+          "headline": "EU states back one-year methane delay, but leave door open for more",
+          "published_at": "2026-11-06T14:23:32Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "French political shifts and platform changes",
+      "summary": "French far-left politician Jean-Luc Mélenchon has formally enshrined leaving NATO in his official presidential platform alongside a confrontational stance toward Brussels. These proposals form part of the broader political maneuvering ahead of the 2027 presidential elections.",
+      "article_ids": [
+        "ecfd817ad5c3fda1e41a6af8",
         "d67916541bd33cc265ec5143"
       ],
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/protests-and-reforms-france-s-rising-debt-costs-threaten-stability/a-79865654?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Protests and reforms: France's rising debt costs threaten stability",
-          "published_at": "2026-11-06T14:37:00Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/france-presidential-candidate-melenchon-previews-eu-confrontation-in-presidential-platform",
+          "headline": "Mélenchon squares up to Brussels in election manifesto",
+          "published_at": "2026-11-06T12:48:10Z"
         },
         {
           "publisher": "POLITICO Europe",
@@ -109,40 +155,23 @@
           "published_at": "2026-11-06T12:02:32Z"
         }
       ],
-      "source_count": 2
-    },
-    {
-      "title": "European Union Regulatory and Environmental Actions",
-      "summary": "European Union member states have backed a one-year delay on methane regulations while leaving the door open for potential further extensions. Separately, EU prosecutors have opened a second fraud investigation concerning Spanish high-speed rail.",
-      "article_ids": [
-        "4626082252cbd7fe607f86a5",
-        "fc1760f2db269bbf0c6bf3fb"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/247446/eu-states-back-one-year-methane-delay-but-leave-door-open-for-more",
-          "headline": "EU states back one-year methane delay, but leave door open for more",
-          "published_at": "2026-11-06T14:23:32Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-prosecutors-open-second-fraud-probe-spain-high-speed-rail-fatal-crash",
-          "headline": "EU prosecutors open second fraud probe into Spanish high-speed rail",
-          "published_at": "2026-11-06T14:28:29Z"
-        }
-      ],
-      "source_count": 2
+      "source_count": 1
     }
   ],
   "developing": [
     {
-      "label": "Trump · US · deal",
+      "label": "Trump · deal · EU · Ukraine",
       "origin": "convergence",
-      "source_count": 3,
-      "item_count": 5,
-      "latest_at": "2026-11-06T13:38:36Z",
+      "source_count": 4,
+      "item_count": 7,
+      "latest_at": "2026-11-06T15:11:19Z",
       "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/247519/trump-vows-beautiful-russia-deal-as-eu-agonises-over-which-envoy-to-send-to-ukraine-peace-talks",
+          "headline": "Trump vows ‘beautiful’ Russia deal, as EU agonises over which envoy to send to Ukraine peace talks",
+          "published_at": "2026-11-06T15:11:19Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/americas/20261106-trump-stillborn-diesel-deal-why-russian-oil-tankers-are-not-heading-to-the-us",
@@ -150,37 +179,10 @@
           "published_at": "2026-11-06T13:38:36Z"
         },
         {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-11-06/trumps-defeat-fuels-concerns-in-israel-over-the-future-of-its-alliance-with-the-us.html",
-          "headline": "Trump’s defeat fuels concerns in Israel over the future of its alliance with the US",
-          "published_at": "2026-11-06T11:00:30Z"
-        },
-        {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/donald-trump-europe-ukraine-deal-vladimir-putin-envoy-kirill-dmitriev",
           "headline": "Trump teases ‘beautiful’ deal covering ‘all of Europe’ after meeting Putin’s envoy",
           "published_at": "2026-11-06T10:04:57Z"
-        }
-      ]
-    },
-    {
-      "label": "Russians · Ukraine · attack · Ukrainian",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-11-06T14:29:51Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/247493/russians-repel-attack-by-ukrainian-ground-robots-armed-with-rpgs-in-futuristic-assault-ukraine-battlefield-update-day-1716",
-          "headline": "Russians repel attack by Ukrainian ground-robots armed with RPGs, in futuristic assault (Ukraine Battlefield update, Day 1,716)",
-          "published_at": "2026-11-06T14:29:51Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261106-death-toll-rises-to-50-in-russian-attack-on-aid-distribution-point-in-ukraine",
-          "headline": "Death toll rises to 50 in Russian attack on aid distribution ‌point in Ukraine",
-          "published_at": "2026-11-06T10:15:12Z"
         },
         {
           "publisher": "BBC News Europe",
@@ -191,31 +193,64 @@
       ]
     },
     {
-      "label": "midterms · US · election · Hegseth",
+      "label": "France · Protests",
       "origin": "convergence",
-      "source_count": 2,
+      "source_count": 3,
       "item_count": 4,
-      "latest_at": "2026-11-06T13:15:54Z",
+      "latest_at": "2026-11-06T14:37:00Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261106-us-defence-secretary-pete-hegseth-s-future-in-question-after-midterms-setback",
-          "headline": "US Defence Secretary Pete Hegseth's future in question after midterms setback",
-          "published_at": "2026-11-06T13:15:54Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/protests-and-reforms-france-s-rising-debt-costs-threaten-stability/a-79865654?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Protests and reforms: France's rising debt costs threaten stability",
+          "published_at": "2026-11-06T14:37:00Z"
         },
         {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-11-06/pete-hegseth-under-fire-from-republicans-over-his-role-in-the-iran-war.html",
-          "headline": "Pete Hegseth, under fire from Republicans over his role in the Iran war",
-          "published_at": "2026-11-06T10:38:25Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261106-mass-protests-sweep-france-as-huge-crowds-demand-higher-wages",
+          "headline": "Mass protests sweep France as huge crowds demand higher wages",
+          "published_at": "2026-11-06T10:05:40Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/cqy7ll65r1eko?at_medium=RSS&at_campaign=rss",
+          "headline": "Why are new strikes and protests taking place in France?",
+          "published_at": "2026-11-05T18:43:06Z"
         }
       ]
     },
     {
-      "label": "Democrats · Midterms · victory",
+      "label": "America · Pope · Latin · trip",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-11-06T14:58:24Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261106-pope-leo-embarks-on-latin-america-trip-with-a-first-stop-in-uruguay",
+          "headline": "Pope Leo embarks on Latin America trip with a first stop in Uruguay",
+          "published_at": "2026-11-06T14:58:24Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-11-06/trump-looms-over-pope-leo-xivs-first-visit-to-the-americas.html",
+          "headline": "Trump looms over Pope Leo XIV’s first visit to the Americas",
+          "published_at": "2026-11-06T12:41:31Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss",
+          "headline": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+          "published_at": "2026-11-06T00:02:57Z"
+        }
+      ]
+    },
+    {
+      "label": "Democrats · Midterms",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
+      "item_count": 3,
       "latest_at": "2026-11-06T13:15:27Z",
       "sources": [
         {
@@ -234,6 +269,76 @@
     }
   ],
   "radar": [
+    {
+      "id": "525fcc4228a0cf3b4c52ed87",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Trump vows ‘beautiful’ Russia deal, as EU agonises over which envoy to send to Ukraine peace talks",
+      "url": "https://euobserver.com/247519/trump-vows-beautiful-russia-deal-as-eu-agonises-over-which-envoy-to-send-to-ukraine-peace-talks",
+      "published_at": "2026-11-06T15:11:19Z",
+      "collected_at": "2026-11-06T15:31:03Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "f7262b8ca708db6332523d05",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "EU prosecutors launch possible €110m fraud probe into Spain’s railways, after second lethal crash",
+      "url": "https://euobserver.com/247457/eu-prosecutors-launch-possible-e110m-fraud-probe-into-spains-railways-after-second-lethal-crash",
+      "published_at": "2026-11-06T15:06:21Z",
+      "collected_at": "2026-11-06T15:31:03Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "abbe9920e53452831160c0d8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "China keeps a close eye on US midterm shake-up",
+      "url": "https://www.france24.com/en/tv-shows/access-asia/20261106-china-keeps-a-close-eye-on-us-midterm-shake-up",
+      "published_at": "2026-11-06T15:03:23Z",
+      "collected_at": "2026-11-06T15:31:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c8f1c61bcb80bff5f670ca3c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Pope Leo embarks on Latin America trip with a first stop in Uruguay",
+      "url": "https://www.france24.com/en/video/20261106-pope-leo-embarks-on-latin-america-trip-with-a-first-stop-in-uruguay",
+      "published_at": "2026-11-06T14:58:24Z",
+      "collected_at": "2026-11-06T15:31:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "ceccb4eb8d6419cb90cea874",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "California governor to grant clemency to all 548 death row inmates in state",
+      "url": "https://www.france24.com/en/video/20261106-california-governor-to-grant-clemency-to-all-548-death-row-inmates-in-state",
+      "published_at": "2026-11-06T14:54:44Z",
+      "collected_at": "2026-11-06T15:31:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "af50189abd2c85b94f2fdd53",
       "source_id": "dw_europe",
@@ -722,6 +827,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "1e3d71f538520393898b5b02",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Israel's Eisenkot claims 'progress' in coalition talks as opposition eases on ultra-Orthodox draft",
+      "url": "https://www.france24.com/en/middle-east/20261106-israel-s-eisenkot-claims-significant-progress-in-coalition-talks-as-opposition-eases-on-ultra-orthodox-draft",
+      "published_at": "2026-11-06T11:43:55Z",
+      "collected_at": "2026-11-06T15:31:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -2153,20 +2272,6 @@
       ]
     },
     {
-      "id": "8e80499c99457192c29d9fa3",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Israel's main Arab list backs Eisenkot to form government after election",
-      "url": "https://www.france24.com/en/middle-east/20261105-israel-main-arab-list-backs-eisenkot-to-form-government-after-election",
-      "published_at": "2026-11-05T14:43:59Z",
-      "collected_at": "2026-11-05T15:01:17Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "4bb8f97400dd6e13f21814f6",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2174,34 +2279,6 @@
       "url": "https://www.france24.com/en/middle-east/20261105-israel-main-arab-list-backs-eisenkot-to-form-government-after-election",
       "published_at": "2026-11-05T14:43:59Z",
       "collected_at": "2026-11-05T17:31:01Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "5095f2d85827f52f38b3d1df",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "France, US clash over G7 effort on AI safety",
-      "url": "https://www.politico.eu/article/france-us-clash-ai-safety-talks-a-g7",
-      "published_at": "2026-11-05T14:37:21Z",
-      "collected_at": "2026-11-05T15:01:17Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "3d575dee1fc3c8fb71e575a4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Bringing the magic of Harry Potter to life through music",
-      "url": "https://www.france24.com/en/tv-shows/entre-nous/20261105-bringing-the-magic-of-harry-potter-to-life-through-music",
-      "published_at": "2026-11-05T14:30:51Z",
-      "collected_at": "2026-11-05T15:01:17Z",
       "topics": [
         "politics",
         "security",
@@ -2251,34 +2328,6 @@
       ]
     },
     {
-      "id": "0b5be26ae116b3d0a9a06448",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Bombings, extraditions, and militarized cities mark De la Espriella’s first 90 days in charge of security",
-      "url": "https://english.elpais.com/international/2026-11-05/bombings-extraditions-and-militarized-cities-mark-de-la-espriellas-first-90-days-in-charge-of-security.html",
-      "published_at": "2026-11-05T13:51:41Z",
-      "collected_at": "2026-11-05T15:01:17Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "12dee9a9ca9f53b75f1578b7",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Woman accusing Gustavo Petro of trading contracts for sex posts intimate video of the two",
-      "url": "https://english.elpais.com/international/2026-11-05/woman-accusing-gustavo-petro-of-trading-contracts-for-sex-posts-intimate-video-of-the-two.html",
-      "published_at": "2026-11-05T13:20:03Z",
-      "collected_at": "2026-11-05T15:01:17Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "ea1cfbb06c10eb15f76a04c2",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2293,20 +2342,6 @@
       ]
     },
     {
-      "id": "aa28c2035ba519bde6737dc8",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Ronaldo retires from Portugal duty",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cme8rxx2e1w9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-05T12:28:01Z",
-      "collected_at": "2026-11-05T15:01:17Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "5ba260677df93e3fc6115b0c",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2314,20 +2349,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cme8rxx2e1w9o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-05T12:28:01Z",
       "collected_at": "2026-11-06T04:30:58Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "dfeb68308a800a68b0203357",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Kremlin: 'Trump will continue his foreign policy'",
-      "url": "https://www.bbc.co.uk/news/videos/c6y93zzwwq93o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-05T12:10:17Z",
-      "collected_at": "2026-11-05T15:01:17Z",
       "topics": [
         "breaking",
         "politics",
@@ -2363,15 +2384,15 @@
       ]
     },
     {
-      "id": "fa142685489acbe96e86a781",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Pound rises to its highest level since the Brexit referendum",
-      "url": "https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-05T04:21:35Z",
-      "collected_at": "2026-11-05T15:01:17Z",
+      "id": "da2e5b0987cc346552bfde01",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "“Democracy won in America”: Polish leaders react to US midterm election results",
+      "url": "https://notesfrompoland.com/2026/11/04/democracy-won-in-america-polish-leaders-react-to-us-midterm-election-results",
+      "published_at": "2026-11-04T15:05:08Z",
+      "collected_at": "2026-11-06T15:31:03Z",
       "topics": [
-        "breaking",
+        "central_europe",
         "politics",
         "society"
       ]
@@ -2517,20 +2538,6 @@
       ]
     },
     {
-      "id": "5639610a248deb7feed74d41",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Daron Acemoglu: ‘If Democrats think everything can go back to normal, it will be a dangerous victory’",
-      "url": "https://english.elpais.com/usa/2026-11-03/daron-acemoglu-if-democrats-think-everything-can-go-back-to-normal-it-will-be-a-dangerous-victory.html",
-      "published_at": "2026-11-03T14:21:57Z",
-      "collected_at": "2026-11-05T15:01:17Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "82a1c49e7287e19e03691e1d",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2556,6 +2563,34 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "6cf3ce50a88c53b7dfc439a9",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland launches operation along Russian border in response to reports of planned sabotage",
+      "url": "https://notesfrompoland.com/2026/11/02/poland-launches-operation-along-russian-border-in-response-to-reports-of-planned-sabotage",
+      "published_at": "2026-11-02T14:34:01Z",
+      "collected_at": "2026-11-06T15:31:03Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "26c4016b5719e37ec401c1b7",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Goodbye screens, hello rings: The new generation of inconspicuous devices",
+      "url": "https://english.elpais.com/technology/2026-11-02/goodbye-screens-hello-rings-the-new-generation-of-inconspicuous-devices.html",
+      "published_at": "2026-11-02T14:17:56Z",
+      "collected_at": "2026-11-06T15:31:03Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
