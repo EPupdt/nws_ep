@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-06T10:30:52Z",
-  "last_successful_collection_at": "2026-11-06T10:30:52Z",
+  "generated_at": "2026-11-06T11:01:10Z",
+  "last_successful_collection_at": "2026-11-06T11:01:10Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-06T10:30:52Z"
+      "at": "2026-11-06T11:01:10Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-11-06T10:30:52Z"
+      "at": "2026-11-06T11:01:10Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-06T10:30:52Z"
+      "at": "2026-11-06T11:01:10Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-06T10:30:52Z"
+      "at": "2026-11-06T11:01:10Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-06T10:30:52Z"
+      "at": "2026-11-06T11:01:10Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-11-06T10:30:52Z"
+      "at": "2026-11-06T11:01:10Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-06T10:30:52Z"
+      "at": "2026-11-06T11:01:10Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-06T10:30:52Z"
+      "at": "2026-11-06T11:01:10Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-06T10:30:52Z"
+      "at": "2026-11-06T11:01:10Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Attack on Aid Point in Ukraine",
-      "summary": "The death toll has risen to 50 following a Russian attack on an aid distribution point in Ukraine. Officials reported significant casualties from the ongoing strike.",
+      "title": "Fatal School Bus Crash in France",
+      "summary": "An accident involving a school bus in eastern France has resulted in multiple fatalities and numerous injuries. Emergency officials and local authorities have responded to the ongoing crisis.",
+      "article_ids": [
+        "c32a6f1262cc9ff7b1cb87a2",
+        "8bc0b2decde0babeb32d713a"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261106-at-least-two-killed-16-injured-in-school-bus-accident-in-eastern-france",
+          "headline": "At least two killed, 16 injured in school bus accident in eastern France",
+          "published_at": "2026-11-06T10:37:42Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
+          "headline": "Two dead after bus crashes in France, officials say",
+          "published_at": "2026-11-06T10:20:46Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Escalating Casualties in Ukraine",
+      "summary": "The death toll from a Russian attack targeting an aid distribution point in Ukraine has risen significantly. Regional authorities continue to report on the mounting humanitarian impact of the conflict.",
       "article_ids": [
         "655df109e4ae602b6446f27f"
       ],
@@ -78,31 +101,14 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Trump Comments on Europe After Meeting Putin Envoy",
-      "summary": "Donald Trump teased a comprehensive deal covering Europe following a meeting with Vladimir Putin's envoy Kirill Dmitriev. The remarks have drawn significant attention across European political institutions.",
-      "article_ids": [
-        "5007cf61036d29ef26367b2b"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/donald-trump-europe-ukraine-deal-vladimir-putin-envoy-kirill-dmitriev",
-          "headline": "Trump teases ‘beautiful’ deal covering ‘all of Europe’ after meeting Putin’s envoy",
-          "published_at": "2026-11-06T10:04:57Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "Mass Protests and Unrest in France",
-      "summary": "Large crowds have gathered across France to participate in mass protests demanding higher wages. Public and private sector workers have united to push for policy changes amid ongoing social unrest.",
+      "title": "Mass Demonstrations in France",
+      "summary": "Large crowds have gathered across France to participate in mass protests demanding higher wages. The demonstrations are part of wider social unrest currently affecting the country.",
       "article_ids": [
-        "2ee0e6c11d112ba0613912f2",
-        "54a66ea9f03beaae568edf8f"
+        "2ee0e6c11d112ba0613912f2"
       ],
       "sources": [
         {
@@ -115,17 +121,24 @@
       "source_count": 1
     },
     {
-      "title": "Political Developments in Serbia",
-      "summary": "Students have successfully voted out Vučić, sparking an uprising aimed at reforming state governance. The movement is questioning how political and judicial institutions will operate moving forward.",
+      "title": "Polish Judicial and Institutional Developments",
+      "summary": "A Polish deputy prime minister has put forward a proposal for a constitutional reset to address an ongoing crisis involving the country's top court. Separately, ancient Vandal artifacts were anonymously handed over to a Polish museum.",
       "article_ids": [
-        "3a3d99f9952e75555b7691f6"
+        "0ebe27280a06c86ac53da6f8",
+        "3467873be23ac4ea1e86278e"
       ],
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/247121/after-students-voted-out-vucic-can-serbias-uprising-against-evil-change-how-the-state-really-works",
-          "headline": "After students voted out Vučić, can Serbia’s uprising against ‘evil’ change how the state really works?",
-          "published_at": "2026-11-06T10:05:11Z"
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/11/06/2000-year-old-vandal-artefacts-anonymously-handed-to-polish-museum",
+          "headline": "2,000-year-old Vandal artefacts anonymously handed to Polish museum",
+          "published_at": "2026-11-06T10:11:12Z"
+        },
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/11/06/polish-deputy-pm-proposes-constitutional-reset-to-resolve-crisis-around-top-court",
+          "headline": "Polish deputy PM proposes “constitutional reset” to resolve crisis around top court",
+          "published_at": "2026-11-06T08:29:30Z"
         }
       ],
       "source_count": 1
@@ -133,52 +146,31 @@
   ],
   "developing": [
     {
-      "label": "Midterms · US · Democrats · election",
+      "label": "Midterms · US · election · Republicans",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 7,
-      "latest_at": "2026-11-06T09:37:30Z",
+      "item_count": 9,
+      "latest_at": "2026-11-06T10:37:55Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20261106-live-european-stocks-plunge-after-us-midterm-election-results-shock-markets",
-          "headline": "Live: European stocks plunge after US midterm election results shock markets",
-          "published_at": "2026-11-06T09:37:30Z"
+          "url": "https://www.france24.com/en/video/20261106-us-republicans-face-reckoning-after-major-midterm-election-defeat",
+          "headline": "US Republicans face reckoning after major midterm election defeat",
+          "published_at": "2026-11-06T10:37:55Z"
         },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/us-voters-warning-to-european-politicians",
-          "headline": "US voters’ warning to European politicians",
-          "published_at": "2026-11-06T03:15:00Z"
+          "url": "https://www.politico.eu/article/skip-the-ted-talk-iran-mohammad-bagher-ghalibaf-trolls-us-jd-vance-over-midterm-defeat-analysis",
+          "headline": "‘Skip the TED talk’: Iran trolls Vance over midterm defeat analysis",
+          "published_at": "2026-11-05T11:14:06Z"
         }
       ]
     },
     {
-      "label": "court · crisis · Polish · EU",
+      "label": "international · Ronaldo · Cristiano · Portugal",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-11-06T08:29:30Z",
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/06/polish-deputy-pm-proposes-constitutional-reset-to-resolve-crisis-around-top-court",
-          "headline": "Polish deputy PM proposes “constitutional reset” to resolve crisis around top court",
-          "published_at": "2026-11-06T08:29:30Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/247055/polish-government-is-open-to-eu-mediation-on-court-crisis-justice-minister-says",
-          "headline": "Polish government is ‘open’ to EU mediation on court crisis, justice minister says",
-          "published_at": "2026-11-05T13:53:28Z"
-        }
-      ]
-    },
-    {
-      "label": "international · Ronaldo · Cristiano · announces",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
+      "item_count": 3,
       "latest_at": "2026-11-06T07:32:03Z",
       "sources": [
         {
@@ -192,6 +184,27 @@
           "url": "https://www.bbc.co.uk/sport/football/articles/cme8rxx2e1w9o?at_medium=RSS&at_campaign=rss",
           "headline": "Portugal great Ronaldo retires from international duty",
           "published_at": "2026-11-05T12:28:01Z"
+        }
+      ]
+    },
+    {
+      "label": "Serbia · Students",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-11-06T10:05:11Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/247121/after-students-voted-out-vucic-can-serbias-uprising-against-evil-change-how-the-state-really-works",
+          "headline": "After students voted out Vučić, can Serbia’s uprising against ‘evil’ change how the state really works?",
+          "published_at": "2026-11-06T10:05:11Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/after-the-landslide-victory-of-the-students-list-serbia-s-judiciary-springs-into-life-after-years-of-stalled-and-unresolved-cases-and-investigations/a-79868652?maca=en-rss-en-eu-2092-rdf",
+          "headline": "After the landslide victory of the Students' List, Serbia's judiciary springs into life after years of stalled and unresolved cases and investigations",
+          "published_at": "2026-11-05T17:00:00Z"
         }
       ]
     },
@@ -218,6 +231,76 @@
     }
   ],
   "radar": [
+    {
+      "id": "7c0eee0a202619eb64d2e541",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Israel president to announce Sunday who will form new government",
+      "url": "https://www.france24.com/en/video/20261106-israel-president-to-announce-sunday-who-will-form-new-government",
+      "published_at": "2026-11-06T10:39:11Z",
+      "collected_at": "2026-11-06T11:01:10Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "11c98e113bf0aef9e17e542d",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Listen: The mental health toll of Europe’s migration policies",
+      "url": "https://euobserver.com/247374/listen-the-mental-health-toll-of-europes-migration-policies",
+      "published_at": "2026-11-06T10:38:01Z",
+      "collected_at": "2026-11-06T11:01:10Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "7111330a53c1288e975f1f32",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US Republicans face reckoning after major midterm election defeat",
+      "url": "https://www.france24.com/en/video/20261106-us-republicans-face-reckoning-after-major-midterm-election-defeat",
+      "published_at": "2026-11-06T10:37:55Z",
+      "collected_at": "2026-11-06T11:01:10Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c32a6f1262cc9ff7b1cb87a2",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "At least two killed, 16 injured in school bus accident in eastern France",
+      "url": "https://www.france24.com/en/france/20261106-at-least-two-killed-16-injured-in-school-bus-accident-in-eastern-france",
+      "published_at": "2026-11-06T10:37:42Z",
+      "collected_at": "2026-11-06T11:01:10Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a73698adc83a080db4f5c434",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Pollution, shortages, crime: Daily life in Pakistan's megacity Karachi",
+      "url": "https://www.france24.com/en/tv-shows/focus/20261106-pollution-shortages-crime-daily-life-in-pakistan-s-megacity-karachi",
+      "published_at": "2026-11-06T10:32:02Z",
+      "collected_at": "2026-11-06T11:01:10Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "8bc0b2decde0babeb32d713a",
       "source_id": "bbc_europe",
@@ -2347,48 +2430,6 @@
       ]
     },
     {
-      "id": "8a9b0f155108403613043f5f",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "French National Assembly unanimously rejects budget bill",
-      "url": "https://www.politico.eu/article/french-national-assembly-unanimously-rejects-budget-bill",
-      "published_at": "2026-11-05T10:13:43Z",
-      "collected_at": "2026-11-05T10:30:56Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "feab190658d9978dbee558c9",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Europe should beware of buying America’s increasingly unaccountable AI killing-machines",
-      "url": "https://euobserver.com/246875/europe-should-beware-of-buying-americas-increasingly-unaccountable-ai-killing-machines",
-      "published_at": "2026-11-05T10:13:00Z",
-      "collected_at": "2026-11-05T10:30:56Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "9c7d992c2af144a2e39273fd",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Several European flights receive bomb threats, some divert",
-      "url": "https://www.dw.com/en/several-european-flights-receive-bomb-threats-some-divert/a-79861216?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-05T10:10:00Z",
-      "collected_at": "2026-11-05T10:30:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "9b09bc43e0445c35dfac4c47",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2400,34 +2441,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "f075b82596e4103f1233569c",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Multiple European flights face bomb threats for second time this week",
-      "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-05T10:08:10Z",
-      "collected_at": "2026-11-05T10:30:56Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "8c115b720931d89bfef97784",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Farage’s Reform gets serious on defense",
-      "url": "https://www.politico.eu/article/nigel-farage-reform-uk-gets-serious-on-defense",
-      "published_at": "2026-11-05T10:02:08Z",
-      "collected_at": "2026-11-05T10:30:56Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
@@ -2497,20 +2510,6 @@
       "topics": [
         "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "cfffc32861311b9eb6e9e4e9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Trump's second-term playbook: Fake news, AI and attacks on his critics",
-      "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261104-trump-s-second-term-playbook-fake-news-ai-and-attacks-on-his-critics",
-      "published_at": "2026-11-04T20:44:52Z",
-      "collected_at": "2026-11-05T10:30:56Z",
-      "topics": [
-        "politics",
-        "security",
         "society"
       ]
     },
@@ -2669,20 +2668,6 @@
       ]
     },
     {
-      "id": "6bb157c88c547ab0e3bda4af",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Susan Sarandon: ‘Sometimes people call me a communist. I think that’s just their way of saying someone is out of their mind’",
-      "url": "https://english.elpais.com/culture/2026-11-01/susan-sarandon-sometimes-people-call-me-a-communist-i-think-thats-just-their-way-of-saying-someone-is-out-of-their-mind.html",
-      "published_at": "2026-11-02T14:40:38Z",
-      "collected_at": "2026-11-05T10:30:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "f53ee4ce64a9c154d67a9f94",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2708,20 +2693,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "e5575fbd1b6e57e569214c19",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "My testosterone levels are low… so what? Why the ‘softboy’ is suddenly being celebrated",
-      "url": "https://english.elpais.com/lifestyle/2026-11-01/my-testosterone-levels-are-low-so-what-why-the-softboy-is-suddenly-being-celebrated.html",
-      "published_at": "2026-11-01T04:00:00Z",
-      "collected_at": "2026-11-05T10:30:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
