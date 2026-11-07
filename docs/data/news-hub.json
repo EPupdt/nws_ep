@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-06T22:30:57Z",
-  "last_successful_collection_at": "2026-11-06T22:30:57Z",
+  "generated_at": "2026-11-07T04:31:00Z",
+  "last_successful_collection_at": "2026-11-07T04:31:00Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-06T22:30:57Z"
+      "at": "2026-11-07T04:31:00Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-11-06T22:30:57Z"
+      "at": "2026-11-07T04:31:00Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-06T22:30:57Z"
+      "at": "2026-11-07T04:31:00Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-06T22:30:57Z"
+      "at": "2026-11-07T04:31:00Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-06T22:30:57Z"
+      "at": "2026-11-07T04:31:00Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "55",
-      "at": "2026-11-06T22:30:57Z"
+      "at": "2026-11-07T04:31:00Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-06T22:30:57Z"
+      "at": "2026-11-07T04:31:00Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-06T22:30:57Z"
+      "at": "2026-11-07T04:31:00Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-06T22:30:57Z"
+      "at": "2026-11-07T04:31:00Z"
     }
   ],
   "europe_now": [
     {
-      "title": "EU Prosecutors Launch Fraud Investigation into Spanish Railways",
-      "summary": "European public prosecutors have opened a significant fraud inquiry into Spanish rail authorities following fatal railway accidents. The investigation examines potential misuse of funding linked to high-speed rail infrastructure management.",
+      "title": "EU Railway Fraud Investigation in Spain",
+      "summary": "European prosecutors have launched a fraud investigation into Spanish railway authorities following a lethal crash and concerns over public funds.",
       "article_ids": [
         "38c3207958f0308dfd5cf73a",
         "f7262b8ca708db6332523d05",
@@ -73,16 +73,16 @@
       ],
       "sources": [
         {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o?at_medium=RSS&at_campaign=rss",
+          "headline": "Spain's rail authorities face European fraud probe after Urda rail disaster",
+          "published_at": "2026-11-06T17:44:02Z"
+        },
+        {
           "publisher": "EUobserver",
           "url": "https://euobserver.com/247457/eu-prosecutors-launch-possible-e110m-fraud-probe-into-spains-railways-after-second-lethal-crash",
           "headline": "EU prosecutors launch possible €110m fraud probe into Spain’s railways, after second lethal crash",
           "published_at": "2026-11-06T15:06:21Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-prosecutors-open-second-fraud-probe-spain-high-speed-rail-fatal-crash",
-          "headline": "EU prosecutors open second fraud probe into Spanish high-speed rail",
-          "published_at": "2026-11-06T14:28:29Z"
         }
       ],
       "source_count": 2
@@ -90,24 +90,8 @@
   ],
   "top_stories": [
     {
-      "title": "Schengen Area Asylum Dispute",
-      "summary": "Italy continues to obstruct asylum returns from other European Union member states. This ongoing resistance deepens a diplomatic dispute that poses a direct threat to the stability of the Schengen area.",
-      "article_ids": [
-        "5a7c0d02a730b90c3e85637d"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/247568/italy-still-obstructing-asylum-returns-from-other-eu-states-amid-simmering-dispute-that-threatens-schengen",
-          "headline": "Italy still obstructing asylum returns from other EU states amid simmering dispute that threatens Schengen",
-          "published_at": "2026-11-06T16:21:07Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
       "title": "German Presidential Nomination",
-      "summary": "Conservative leader Friedrich Merz and his political allies are poised to nominate Germany's first female president. Ilse Aigner is the prospective candidate selected by the conservative camp for the role.",
+      "summary": "Conservative leader Friedrich Merz's party is poised to nominate Germany's first female president. The potential historic selection marks a significant political milestone for the country.",
       "article_ids": [
         "fb5ce7a2ebd5c2997a4c522b"
       ],
@@ -120,14 +104,30 @@
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "Schengen Area Asylum Dispute",
+      "summary": "Italy continues to obstruct asylum returns from other European Union member states. The ongoing disagreement poses a direct threat to the stability of the Schengen area.",
+      "article_ids": [
+        "5a7c0d02a730b90c3e85637d"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/247568/italy-still-obstructing-asylum-returns-from-other-eu-states-amid-simmering-dispute-that-threatens-schengen",
+          "headline": "Italy still obstructing asylum returns from other EU states amid simmering dispute that threatens Schengen",
+          "published_at": "2026-11-06T16:21:07Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "developing": [
     {
       "label": "US · midterms · Trump · election",
       "origin": "convergence",
-      "source_count": 4,
-      "item_count": 13,
+      "source_count": 3,
+      "item_count": 12,
       "latest_at": "2026-11-06T18:49:19Z",
       "sources": [
         {
@@ -147,39 +147,6 @@
           "url": "https://english.elpais.com/international/2026-11-06/trumps-defeat-fuels-concerns-in-israel-over-the-future-of-its-alliance-with-the-us.html",
           "headline": "Trump’s defeat fuels concerns in Israel over the future of its alliance with the US",
           "published_at": "2026-11-06T11:00:30Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/how-to-curry-favor-with-the-next-us-president-without-annoying-trump",
-          "headline": "How to curry favor with the next US president — without annoying Trump",
-          "published_at": "2026-11-06T04:00:00Z"
-        }
-      ]
-    },
-    {
-      "label": "America · Pope · Latin · stop",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 4,
-      "latest_at": "2026-11-06T21:14:49Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20261106-pope-leo-arrives-in-uruguay-for-first-stop-on-12-day-south-america-tour",
-          "headline": "Pope Leo arrives in Uruguay for first stop on 12-day South America tour",
-          "published_at": "2026-11-06T21:14:49Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-11-06/trump-looms-over-pope-leo-xivs-first-visit-to-the-americas.html",
-          "headline": "Trump looms over Pope Leo XIV’s first visit to the Americas",
-          "published_at": "2026-11-06T12:41:31Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss",
-          "headline": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
-          "published_at": "2026-11-06T00:02:57Z"
         }
       ]
     },
@@ -205,23 +172,44 @@
       ]
     },
     {
-      "label": "Trump · beautiful · Europe · plan",
+      "label": "America · Pope · stop · Uruguay",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 3,
-      "latest_at": "2026-11-06T17:58:32Z",
+      "latest_at": "2026-11-06T21:14:49Z",
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/jared-kushner-european-security-plan-is-not-convincing-europe",
-          "headline": "Trump’s ‘big, beautiful’ European security plan isn’t convincing Europe",
-          "published_at": "2026-11-06T17:58:32Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20261106-pope-leo-arrives-in-uruguay-for-first-stop-on-12-day-south-america-tour",
+          "headline": "Pope Leo arrives in Uruguay for first stop on 12-day South America tour",
+          "published_at": "2026-11-06T21:14:49Z"
         },
         {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-11-06/trump-looms-over-pope-leo-xivs-first-visit-to-the-americas.html",
+          "headline": "Trump looms over Pope Leo XIV’s first visit to the Americas",
+          "published_at": "2026-11-06T12:41:31Z"
+        }
+      ]
+    },
+    {
+      "label": "Democrats · Midterms",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-11-06T13:15:27Z",
+      "sources": [
+        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20261106-marco-rubio-denies-resignation-2028-white-house",
-          "headline": "Rubio denies plans to resign, says working for Trump until end of term has 'always been my plan'",
-          "published_at": "2026-11-06T00:24:59Z"
+          "url": "https://www.france24.com/en/video/20261106-tech-giants-lose-1-trillion-in-one-day-after-democrats-victory-in-midterms",
+          "headline": "Tech giants lose $1 trillion in one day after Democrats victory in midterms",
+          "published_at": "2026-11-06T13:15:27Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-11-06/men-under-30-led-the-shift-toward-the-democrats-in-the-midterms.html",
+          "headline": "Men under 30 led the shift toward the Democrats in the midterms",
+          "published_at": "2026-11-06T11:59:55Z"
         }
       ]
     }
@@ -1768,104 +1756,6 @@
       ]
     },
     {
-      "id": "2888afa443cd6f405f155e68",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Trump’s final two years: Is the UK ready?",
-      "url": "https://www.politico.eu/podcast/westminster-insider/trumps-final-two-years-is-the-uk-ready",
-      "published_at": "2026-11-06T04:00:00Z",
-      "collected_at": "2026-11-06T04:30:58Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "3b408b21c886df44c49caaaa",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "How to curry favor with the next US president — without annoying Trump",
-      "url": "https://www.politico.eu/article/how-to-curry-favor-with-the-next-us-president-without-annoying-trump",
-      "published_at": "2026-11-06T04:00:00Z",
-      "collected_at": "2026-11-06T04:30:58Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "4698a412c3fdfe11951276aa",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "US voters’ warning to European politicians",
-      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/us-voters-warning-to-european-politicians",
-      "published_at": "2026-11-06T03:15:00Z",
-      "collected_at": "2026-11-06T04:30:58Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "9f2d4bdfe17ede744979914b",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "The curse of Liz Truss brings down the MAGA movement",
-      "url": "https://www.politico.eu/article/curse-liz-truss-maga-movement",
-      "published_at": "2026-11-06T03:00:00Z",
-      "collected_at": "2026-11-06T04:30:58Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "3c83d566ff44f0b685b73ef6",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "From Madrid to MAGA: How Spain’s Vox forged a right-wing network with global reach",
-      "url": "https://www.politico.eu/article/from-madrid-to-maga-how-spains-vox-forged-a-right-wing-network-with-global-reach",
-      "published_at": "2026-11-06T03:00:00Z",
-      "collected_at": "2026-11-06T04:30:58Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "9caceb36f8a6762ae647e375",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Don’t try to ‘please the dictator,’ Estonian leader urges Europe about Putin",
-      "url": "https://www.politico.eu/article/estonia-prime-minister-kristen-michal-europe-vladimir-putin-russia",
-      "published_at": "2026-11-06T03:00:00Z",
-      "collected_at": "2026-11-06T04:30:58Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "6d8ce8dcb2be80ed30b5d039",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Marco Rubio denies plans to resign as 2028 speculation grows",
-      "url": "https://www.france24.com/en/americas/20261106-marco-rubio-denies-resignation-2028-white-house",
-      "published_at": "2026-11-06T00:24:59Z",
-      "collected_at": "2026-11-06T04:30:58Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "6c5156c4e1009387f9395b10",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1890,20 +1780,6 @@
       "topics": [
         "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "b66e13242389d68d64766dec",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Three in four displaced people live in climate danger zones, UN says",
-      "url": "https://www.france24.com/en/environment/20261105-un-displaced-people-climate-risks",
-      "published_at": "2026-11-05T23:34:08Z",
-      "collected_at": "2026-11-06T04:30:58Z",
-      "topics": [
-        "politics",
-        "security",
         "society"
       ]
     },
@@ -1947,20 +1823,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "6691e7d0ba76a91e37c5baa5",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Andy Burnham’s cost-of-living COP",
-      "url": "https://www.politico.eu/article/andy-burnham-cost-of-living-cop",
-      "published_at": "2026-11-05T19:00:00Z",
-      "collected_at": "2026-11-06T04:30:58Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
@@ -2059,20 +1921,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "5ba260677df93e3fc6115b0c",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Portugal great Ronaldo retires from international duty",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cme8rxx2e1w9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-05T12:28:01Z",
-      "collected_at": "2026-11-06T04:30:58Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
@@ -2395,6 +2243,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "afa19d0289c5b6e7b2c9d023",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "How the downfall of Serbia's Vučiċ mirrored that of Hungary's Orbán",
+      "url": "https://www.bbc.co.uk/news/articles/c893z699q401o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-01T00:55:06Z",
+      "collected_at": "2026-11-07T04:31:00Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
