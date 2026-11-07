@@ -359,9 +359,39 @@
     "304866c5e5cd96591c8a1e23": "2026-11-07T07:01:11Z",
     "8bb700b596ea76b272ba29a5": "2026-11-07T07:01:11Z",
     "dce1e7db92428df69e8c043c": "2026-11-07T07:01:11Z",
-    "48208b7f0a6909d1bff95dc3": "2026-11-07T08:01:07Z"
+    "48208b7f0a6909d1bff95dc3": "2026-11-07T08:01:07Z",
+    "426464e0f26fce4fcff96543": "2026-11-07T08:30:56Z",
+    "fcd12c4ce0030223ed3469a7": "2026-11-07T08:30:56Z"
   },
   "radar": [
+    {
+      "id": "426464e0f26fce4fcff96543",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Amid protests, France's rising debt costs threaten stability",
+      "url": "https://www.dw.com/en/amid-protests-france-s-rising-debt-costs-threaten-stability/a-79865654?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-07T08:16:00Z",
+      "collected_at": "2026-11-07T08:30:56Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "fcd12c4ce0030223ed3469a7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Moscow strikes Kyiv as Ukraine prepares for talks with Russia and the US",
+      "url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us",
+      "published_at": "2026-11-07T08:08:44Z",
+      "collected_at": "2026-11-07T08:30:56Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "8aa473b618bb982482e15cc7",
       "source_id": "politico_europe",
@@ -1945,20 +1975,6 @@
       ]
     },
     {
-      "id": "10d93106826f07c5b0f3ecef",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Cristiano Ronaldo brings his international football career to an end",
-      "url": "https://www.france24.com/en/tv-shows/sports/20261106-cristiano-ronaldo-brings-his-international-football-career-to-an-end",
-      "published_at": "2026-11-06T07:32:03Z",
-      "collected_at": "2026-11-06T08:01:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "ec439d40918aee7f4c9c9b61",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2741,14 +2757,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-11-05T21:30:58Z",
-      "title": "EU Budget Negotiations and Corporate Contributions"
-    },
-    {
-      "at": "2026-11-05T21:30:58Z",
-      "title": "Judicial Reforms and Investigations in Serbia"
-    },
-    {
       "at": "2026-11-05T22:01:09Z",
       "title": "Serbian Judicial Investigations"
     },
@@ -3059,14 +3067,22 @@
     {
       "at": "2026-11-07T08:01:07Z",
       "title": "German Presidential Nomination Developments"
+    },
+    {
+      "at": "2026-11-07T08:30:56Z",
+      "title": "France faces economic and political pressures"
+    },
+    {
+      "at": "2026-11-07T08:30:56Z",
+      "title": "Schengen area confronts asylum return disputes"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "EU Prosecutors Open Fraud Investigation Into Spanish Rail System",
-        "summary": "European prosecutors have launched a fraud inquiry concerning Spain's railway authorities following a second fatal crash on the network.",
+        "title": "EU prosecutors open fraud investigation into Spanish railways",
+        "summary": "European prosecutors have launched a potential 110 million euro fraud probe into Spain's rail authorities following a lethal crash. The investigation examines systemic issues within the national transport infrastructure.",
         "article_ids": [
           "38c3207958f0308dfd5cf73a",
           "f7262b8ca708db6332523d05"
@@ -3090,8 +3106,25 @@
     ],
     "top_stories": [
       {
-        "title": "Schengen Area Asylum Disputes",
-        "summary": "Italy continues to obstruct asylum returns from other European Union states. This ongoing disagreement creates significant pressure on the Schengen area framework.",
+        "title": "France faces economic and political pressures",
+        "summary": "Rising debt costs and ongoing protests are threatening the financial stability of France. Meanwhile, injured protesters are moving to take legal action against the interior minister over allegations of police brutality.",
+        "article_ids": [
+          "426464e0f26fce4fcff96543",
+          "5537729d0309b2a01aaf6307"
+        ],
+        "sources": [
+          {
+            "publisher": "Deutsche Welle",
+            "url": "https://www.dw.com/en/amid-protests-france-s-rising-debt-costs-threaten-stability/a-79865654?maca=en-rss-en-eu-2092-rdf",
+            "headline": "Amid protests, France's rising debt costs threaten stability",
+            "published_at": "2026-11-07T08:16:00Z"
+          }
+        ],
+        "source_count": 1
+      },
+      {
+        "title": "Schengen area confronts asylum return disputes",
+        "summary": "Simmering political disagreements are posing a threat to the Schengen zone as member states clash over border policies. Italy continues to obstruct asylum returns from other European Union nations.",
         "article_ids": [
           "5a7c0d02a730b90c3e85637d"
         ],
@@ -3104,24 +3137,8 @@
           }
         ],
         "source_count": 1
-      },
-      {
-        "title": "German Presidential Nomination Developments",
-        "summary": "Merz's conservatives are preparing to put forward Germany's first woman president. Ilse Aigner is positioned as the nominee for the role.",
-        "article_ids": [
-          "fb5ce7a2ebd5c2997a4c522b"
-        ],
-        "sources": [
-          {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/merz-conservatives-poised-nominate-ilse-aigner-first-woman-president-germany",
-            "headline": "Merz’s conservatives poised to nominate Germany’s first woman president",
-            "published_at": "2026-11-06T20:02:13Z"
-          }
-        ],
-        "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-11-07T08:01:07Z"
+  "last_collection_at": "2026-11-07T08:30:56Z"
 }
