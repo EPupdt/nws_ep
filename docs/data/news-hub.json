@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-07T16:30:56Z",
-  "last_successful_collection_at": "2026-11-07T16:30:56Z",
+  "generated_at": "2026-11-07T17:01:10Z",
+  "last_successful_collection_at": "2026-11-07T17:01:10Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-07T16:30:56Z"
+      "at": "2026-11-07T17:01:10Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-11-07T16:30:56Z"
+      "at": "2026-11-07T17:01:10Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-07T16:30:56Z"
+      "at": "2026-11-07T17:01:10Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,67 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-07T16:30:56Z"
+      "at": "2026-11-07T17:01:10Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-07T16:30:56Z"
+      "at": "2026-11-07T17:01:10Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "55",
-      "at": "2026-11-07T16:30:56Z"
+      "at": "2026-11-07T17:01:10Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-07T16:30:56Z"
+      "at": "2026-11-07T17:01:10Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-07T16:30:56Z"
+      "at": "2026-11-07T17:01:10Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-07T16:30:56Z"
+      "at": "2026-11-07T17:01:10Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Mass Shooting in Kraków",
-      "summary": "Police report that at least five people have been killed in a shooting incident around the historic market square in the Polish city of Kraków.",
+      "title": "Massive Russian Strikes Hit Kyiv",
+      "summary": "Moscow launched massive overnight air strikes against Kyiv and the surrounding region while Ukraine prepares for upcoming diplomatic talks with international partners. Multiple sources confirmed the heavy bombardment of the Ukrainian capital.",
+      "article_ids": [
+        "291859f6ef77906d4a0dcfc6",
+        "fcd12c4ce0030223ed3469a7",
+        "d323e107db95a893a50f277f"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261107-russia-launches-massive-strike-on-kyiv-1",
+          "headline": "Russia launches massive strike on Kyiv",
+          "published_at": "2026-11-07T12:15:21Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us",
+          "headline": "Moscow strikes Kyiv as Ukraine prepares for talks with Russia and the US",
+          "published_at": "2026-11-07T08:08:44Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Fatal Shooting Reported in Kraków",
+      "summary": "At least five people were killed in a shooting near the historical market square of the Polish city of Kraków. Polish police and local media confirmed the fatalities resulting from the violent incident.",
       "article_ids": [
         "1f81edd5b6763609d68c141f",
         "443f6870f3b1f5aa18bd3f95",
@@ -86,39 +110,14 @@
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "Airstrikes Hit Kyiv Amid Diplomatic Preparations",
-      "summary": "Russian forces launched a massive overnight air strike on Kyiv and the surrounding region as Ukraine prepares for upcoming trilateral talks with Russia and the United States.",
-      "article_ids": [
-        "291859f6ef77906d4a0dcfc6",
-        "ac9601d5c4978ef17f429488",
-        "fcd12c4ce0030223ed3469a7"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261107-russia-launches-massive-strike-on-kyiv-1",
-          "headline": "Russia launches massive strike on Kyiv",
-          "published_at": "2026-11-07T12:15:21Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-air-strikes-ahead-of-trilateral-talks/a-79883851?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Ukraine: Russia hits Kyiv with air strikes ahead of trilateral talks",
-          "published_at": "2026-11-07T09:21:00Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "France Domestic Pressures",
-      "summary": "France faces ongoing nationwide protests and economic strain as demonstrators and groups urge mass disobedience. Meanwhile, political figures navigate upcoming presidential campaigns and debt stability concerns.",
+      "title": "France Faces Nationwide Protests and Economic Pressures",
+      "summary": "France braced for further nationwide demonstrations as participants urged mass disobedience over cost-of-living issues. Meanwhile, rising national debt costs threaten the broader economic stability of the country.",
       "article_ids": [
         "0a0cdcb348a5f8bf3c5ecfdf",
-        "3c60f11c8c70478141e36bcd",
         "426464e0f26fce4fcff96543"
       ],
       "sources": [
@@ -138,11 +137,10 @@
       "source_count": 2
     },
     {
-      "title": "Poland Credit Outlook Shift",
-      "summary": "Rating agency S&P has shifted Poland's credit outlook to negative and lowered its currency rating. This financial update comes alongside security developments involving a fatal shooting in Kraków.",
+      "title": "Poland Credit Outlook Shifted to Negative",
+      "summary": "Rating agency S&P adjusted Poland's economic outlook to negative and lowered its currency rating. The recent financial evaluation reflects growing concerns over the nation's fiscal trajectory.",
       "article_ids": [
-        "8678159fd53f296423b97f21",
-        "1f81edd5b6763609d68c141f"
+        "8678159fd53f296423b97f21"
       ],
       "sources": [
         {
@@ -150,12 +148,6 @@
           "url": "https://notesfrompoland.com/2026/11/07/rating-agency-sp-shifts-polands-credit-outlook-to-negative-and-lowers-currency-rating",
           "headline": "Rating agency S&P shifts Poland’s credit outlook to negative and lowers currency rating",
           "published_at": "2026-11-07T12:17:54Z"
-        },
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/07/fatalities-reported-in-shooting-on-historical-market-square-in-krakow",
-          "headline": "Five killed in shooting around market square in Polish city of Kraków",
-          "published_at": "2026-11-07T15:40:50Z"
         }
       ],
       "source_count": 1
@@ -205,31 +197,10 @@
       ]
     },
     {
-      "label": "Brussels · EU",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-11-07T09:00:00Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/247592/a-photograph-allows-us-to-really-stare-new-brussels-exhibition-documents-modern-human-slavery-ahead-of-eu-parliament-debate",
-          "headline": "‘A photograph allows us to really stare’: new Brussels exhibition documents modern human slavery, ahead of EU Parliament debate",
-          "published_at": "2026-11-07T09:00:00Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-capitals-urge-brussels-to-swiftly-sign-electricity-deal-with-uk",
-          "headline": "EU capitals urge Brussels to ‘swiftly’ sign electricity deal with UK",
-          "published_at": "2026-11-06T16:50:07Z"
-        }
-      ]
-    },
-    {
-      "label": "Mélenchon · presidential · campaign · French",
+      "label": "Mélenchon · presidential · French · left",
       "origin": "radar",
       "source_count": 1,
-      "item_count": 3,
+      "item_count": 4,
       "latest_at": "2026-11-07T14:44:24Z",
       "sources": [
         {
@@ -237,6 +208,21 @@
           "url": "https://www.france24.com/en/france/20261107-french-presidential-hopeful-m%C3%A9lenchon-launches-campaign-by-vowing-lower-retirement-age",
           "headline": "French presidential hopeful Mélenchon set to launch campaign by vowing to lower retirement age",
           "published_at": "2026-11-07T14:44:24Z"
+        }
+      ]
+    },
+    {
+      "label": "ahead · hits · Kyiv · Russia",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-11-07T09:21:00Z",
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-air-strikes-ahead-of-trilateral-talks/a-79883851?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Ukraine: Russia hits Kyiv with air strikes ahead of trilateral talks",
+          "published_at": "2026-11-07T09:21:00Z"
         }
       ]
     }
@@ -334,6 +320,20 @@
       "url": "https://www.france24.com/en/france/20261107-french-presidential-hopeful-m%C3%A9lenchon-launches-campaign-by-vowing-lower-retirement-age",
       "published_at": "2026-11-07T14:44:24Z",
       "collected_at": "2026-11-07T16:01:04Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c53f2c104f9a68e2aa7092c8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "🔴 Watch live: 'We must change everything,' French far-left presidential candidate Mélenchon says",
+      "url": "https://www.france24.com/en/france/20261107-french-presidential-hopeful-m%C3%A9lenchon-launches-campaign-by-vowing-lower-retirement-age",
+      "published_at": "2026-11-07T14:44:24Z",
+      "collected_at": "2026-11-07T17:01:10Z",
       "topics": [
         "politics",
         "security",
@@ -1167,34 +1167,6 @@
       ]
     },
     {
-      "id": "dc0e3a9baadd20bd455b0bf7",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Spain and the Netherlands battle over ECB presidency",
-      "url": "https://www.politico.eu/article/dutch-and-spanish-battle-over-ecb-presidency",
-      "published_at": "2026-11-06T16:24:31Z",
-      "collected_at": "2026-11-06T16:31:02Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "5a7c0d02a730b90c3e85637d",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Italy still obstructing asylum returns from other EU states amid simmering dispute that threatens Schengen",
-      "url": "https://euobserver.com/247568/italy-still-obstructing-asylum-returns-from-other-eu-states-amid-simmering-dispute-that-threatens-schengen",
-      "published_at": "2026-11-06T16:21:07Z",
-      "collected_at": "2026-11-06T16:31:02Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "c7976fd5077cebc81ef6bcca",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1237,17 +1209,17 @@
       ]
     },
     {
-      "id": "2f59f1085900a50bb0ca1de4",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French 2027 presidential elections: Why Mélenchon is a Gen Z favourite",
-      "url": "https://www.france24.com/en/french-2027-presidential-elections-why-melenchon-is-a-gen-z-favourite",
-      "published_at": "2026-11-06T11:43:31Z",
-      "collected_at": "2026-11-06T16:31:02Z",
+      "id": "e2d7e2ae034bb1787e6d9d50",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Chinese spy suspect walks free after Prague court acquittal, while Czech spy suspect in China remains behind bars",
+      "url": "https://euobserver.com/246959/chinese-spy-suspect-walks-free-after-prague-court-acquittal-while-czech-spy-suspect-in-china-remains-behind-bars",
+      "published_at": "2026-11-05T16:01:07Z",
+      "collected_at": "2026-11-07T17:01:10Z",
       "topics": [
-        "politics",
-        "security",
-        "society"
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -1503,6 +1475,20 @@
       ]
     },
     {
+      "id": "a3e1c93241f8b6633f7b3121",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Could the AI boom make borrowing more expensive in Europe?",
+      "url": "https://www.dw.com/en/could-the-ai-boom-make-borrowing-more-expensive-in-europe/a-79511985?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-03T10:27:00Z",
+      "collected_at": "2026-11-07T17:01:10Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "48208b7f0a6909d1bff95dc3",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -1598,6 +1584,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "b924ecd5df4102e7e7a797cd",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Ethnic Germans in Kazakhstan face legacy of the Soviet Union",
+      "url": "https://www.dw.com/en/ethnic-germans-in-kazakhstan-face-legacy-of-the-soviet-union/a-79754048?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-01T13:00:00Z",
+      "collected_at": "2026-11-07T17:01:10Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -1790,20 +1790,6 @@
       "url": "https://english.elpais.com/sports/2026-10-20/the-knicks-defend-their-title-as-the-thunder-and-spurs-lead-the-chase.html",
       "published_at": "2026-10-20T09:32:44Z",
       "collected_at": "2026-11-07T14:01:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "42e7b79c219969a5c0750bc1",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Working to change the culture from within in Argentine women’s soccer",
-      "url": "https://english.elpais.com/sports/2026-10-15/working-to-change-the-culture-from-within-in-argentine-womens-soccer.html",
-      "published_at": "2026-10-15T13:07:54Z",
-      "collected_at": "2026-11-06T16:31:02Z",
       "topics": [
         "politics",
         "society",
