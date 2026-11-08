@@ -261,9 +261,25 @@
     "f7262b8ca708db6332523d05": "2026-11-08T16:01:15Z",
     "26c4016b5719e37ec401c1b7": "2026-11-08T16:01:15Z",
     "7cc923fa4e980bb60e094189": "2026-11-08T16:01:15Z",
-    "da2e5b0987cc346552bfde01": "2026-11-08T16:01:15Z"
+    "da2e5b0987cc346552bfde01": "2026-11-08T16:01:15Z",
+    "891da229528ff90861f3daed": "2026-11-08T16:30:56Z",
+    "967c83404aa5b3216708063d": "2026-11-08T16:30:56Z"
   },
   "radar": [
+    {
+      "id": "891da229528ff90861f3daed",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "The week in pictures: US midterms 'Blue Wave', French protests and Dakar Youth Olympics",
+      "url": "https://www.france24.com/en/europe/20261108-the-week-in-pictures-trump-midterms-debacle-french-protests-dakar-youth-olympics",
+      "published_at": "2026-11-08T16:21:34Z",
+      "collected_at": "2026-11-08T16:30:56Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "c73cca71a6ab8550dad3596c",
       "source_id": "france24",
@@ -622,6 +638,20 @@
       "url": "https://www.france24.com/en/europe/20261108-poland-launches-terrorism-probe-into-krakow-mass-shooting",
       "published_at": "2026-11-08T08:59:56Z",
       "collected_at": "2026-11-08T11:31:00Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "967c83404aa5b3216708063d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Yemen's Houthis claim attack on Aramco building in Riyadh's financial district",
+      "url": "https://www.france24.com/en/middle-east/20261108-yemen-s-houthis-claim-attack-on-aramco-building-in-riyadh-s-financial-district",
+      "published_at": "2026-11-08T08:11:54Z",
+      "collected_at": "2026-11-08T16:30:56Z",
       "topics": [
         "politics",
         "security",
@@ -2144,10 +2174,6 @@
   "recent_topics": [
     {
       "at": "2026-11-07T08:30:56Z",
-      "title": "France faces economic and political pressures"
-    },
-    {
-      "at": "2026-11-07T08:30:56Z",
       "title": "Schengen area confronts asylum return disputes"
     },
     {
@@ -2461,19 +2487,21 @@
     {
       "at": "2026-11-08T16:01:15Z",
       "title": "European Diplomacy on Ukraine"
+    },
+    {
+      "at": "2026-11-08T16:30:56Z",
+      "title": "Ukraine Diplomatic Engagement"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Poland Mass Shooting and Terrorism Probe",
-        "summary": "Prosecutors have launched a terrorism investigation following a shooting incident in Kraków that resulted in multiple fatalities. The country remains in shock as authorities uncover additional bodies connected to the gunman.",
+        "title": "Poland Launches Terrorism Investigation After Mass Shooting in Kraków",
+        "summary": "Polish prosecutors have initiated a terrorism investigation following a shooting incident in Kraków that left multiple people dead. The event has prompted widespread shock and national mourning.",
         "article_ids": [
           "a10d7181bac81e89c6b6d63c",
-          "c51c378c98374c2fb262f2cd",
           "67ff12d8197adc9a9fb8c0db",
-          "a5f664aec39a943e33cae5d5",
           "f19c9eca76925d3a67ac8b19"
         ],
         "sources": [
@@ -2493,8 +2521,33 @@
         "source_count": 2
       },
       {
-        "title": "Ukraine Conflict and Diplomatic Talks",
-        "summary": "Russian strikes on energy infrastructure have left hundreds of thousands without power in eastern Ukraine. Meanwhile, French officials confirmed that European representatives will participate in upcoming US-mediated talks in Abu Dhabi.",
+        "title": "European Representation Set for US-Mediated Ukraine Talks in Abu Dhabi",
+        "summary": "According to the French foreign minister, European representatives will participate in upcoming peace negotiations regarding Ukraine hosted in Abu Dhabi. These discussions are part of broader international diplomatic efforts.",
+        "article_ids": [
+          "a83191710caf57058da6662f",
+          "f4328545798a243cf5cdda83"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20261108-europe-will-take-part-us-mediated-ukraine-peace-talks-abu-dhabi-french-fm-says",
+            "headline": "Europe will take part in US-mediated Ukraine talks in Abu Dhabi, French FM says",
+            "published_at": "2026-11-08T14:16:31Z"
+          },
+          {
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/europe-will-be-represented-in-abu-dhabi-talks-on-ukraine-french-foreign-minister-jean-noel-barrot-says",
+            "headline": "Europe will be represented in Abu Dhabi talks on Ukraine, French foreign minister says",
+            "published_at": "2026-11-08T14:03:28Z"
+          }
+        ],
+        "source_count": 2
+      }
+    ],
+    "top_stories": [
+      {
+        "title": "Ukraine Diplomatic Engagement",
+        "summary": "France announced that European officials will participate in US-mediated peace talks concerning Ukraine in Abu Dhabi. Meanwhile, ongoing military strikes continue to severely impact civilian energy infrastructure within Ukraine.",
         "article_ids": [
           "a83191710caf57058da6662f",
           "f4328545798a243cf5cdda83",
@@ -2516,32 +2569,7 @@
         ],
         "source_count": 2
       }
-    ],
-    "top_stories": [
-      {
-        "title": "European Diplomacy on Ukraine",
-        "summary": "European officials announced participation in upcoming diplomatic negotiations regarding the conflict in Ukraine. These discussions are set to be mediated by the United States.",
-        "article_ids": [
-          "a83191710caf57058da6662f",
-          "f4328545798a243cf5cdda83"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/europe/20261108-europe-will-take-part-us-mediated-ukraine-peace-talks-abu-dhabi-french-fm-says",
-            "headline": "Europe will take part in US-mediated Ukraine talks in Abu Dhabi, French FM says",
-            "published_at": "2026-11-08T14:16:31Z"
-          },
-          {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/europe-will-be-represented-in-abu-dhabi-talks-on-ukraine-french-foreign-minister-jean-noel-barrot-says",
-            "headline": "Europe will be represented in Abu Dhabi talks on Ukraine, French foreign minister says",
-            "published_at": "2026-11-08T14:03:28Z"
-          }
-        ],
-        "source_count": 2
-      }
     ]
   },
-  "last_collection_at": "2026-11-08T16:01:15Z"
+  "last_collection_at": "2026-11-08T16:30:56Z"
 }
