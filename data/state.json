@@ -1,7 +1,5 @@
 {
   "seen": {
-    "ac06f4f5cd9d9b363c8d8f45": "2026-11-06T07:01:09Z",
-    "433992979e2f8ae7b4798274": "2026-11-06T07:01:09Z",
     "c37becaed6e7297a2ce092b9": "2026-11-06T07:30:54Z",
     "03ac38bea0f39c2f7865d2c0": "2026-11-06T07:30:54Z",
     "fc3dbf3c09a1f1392bbd7c6e": "2026-11-06T07:30:54Z",
@@ -291,7 +289,8 @@
     "dc63f7b214a52bb5cfde7e54": "2026-11-08T06:01:08Z",
     "4bbde84bae1b7cf46f38ba41": "2026-11-08T06:01:08Z",
     "110f90cab5db2a35a6edbec2": "2026-11-08T06:30:59Z",
-    "e4c50f7eb3070eab824f1c61": "2026-11-08T06:30:59Z"
+    "e4c50f7eb3070eab824f1c61": "2026-11-08T06:30:59Z",
+    "433992979e2f8ae7b4798274": "2026-11-08T07:01:11Z"
   },
   "radar": [
     {
@@ -1877,6 +1876,20 @@
       ]
     },
     {
+      "id": "433992979e2f8ae7b4798274",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The story of Billy Childish, a tormented British punk icon: ‘Professional art kills art’",
+      "url": "https://english.elpais.com/culture/2026-10-17/the-story-of-billy-childish-a-tormented-british-punk-icon-professional-art-kills-art.html",
+      "published_at": "2026-10-17T04:00:00Z",
+      "collected_at": "2026-11-08T07:01:11Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "43ea3367c83a0079ace26d2d",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2056,14 +2069,6 @@
     }
   ],
   "recent_topics": [
-    {
-      "at": "2026-11-06T16:01:09Z",
-      "title": "French Political Shifts and Security Concerns"
-    },
-    {
-      "at": "2026-11-06T16:31:02Z",
-      "title": "European Central Bank Leadership"
-    },
     {
       "at": "2026-11-06T16:31:02Z",
       "title": "Renewable Energy Disparities"
@@ -2375,14 +2380,39 @@
     {
       "at": "2026-11-08T06:30:59Z",
       "title": "French Political Campaign"
+    },
+    {
+      "at": "2026-11-08T07:01:11Z",
+      "title": "Kraków Shooting Incident"
+    },
+    {
+      "at": "2026-11-08T07:01:11Z",
+      "title": "Polish Credit Rating Shift"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "S&P Shifts Poland Credit Outlook",
-        "summary": "Rating agency S&P adjusted Poland's credit outlook to negative and lowered its currency rating.",
+        "title": "Mass Shooting in Kraków",
+        "summary": "At least six people were killed in a shooting incident in Kraków, with the government stating the gunman held far-right views. Police and local authorities responded to the historical market square following the security threat.",
+        "article_ids": [
+          "d8c5f88debdae3104eebeac9",
+          "368f03db7051b4acf9177e28"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
+            "headline": "Gunman who killed at least six people in Krakow had ‘far-right’ views, Polish government says",
+            "published_at": "2026-11-07T15:23:48Z"
+          }
+        ],
+        "source_count": 1
+      },
+      {
+        "title": "Poland Credit Outlook Downgraded",
+        "summary": "Rating agency S&P shifted Poland's credit outlook to negative and lowered its currency rating. The adjustment reflects emerging economic pressures and rating agency assessments for the country.",
         "article_ids": [
           "8678159fd53f296423b97f21"
         ],
@@ -2399,29 +2429,39 @@
     ],
     "top_stories": [
       {
-        "title": "French Political Campaign",
-        "summary": "Jean-Luc Mélenchon launched his presidential campaign with a manifesto focusing on major structural reforms. The far-left politician highlighted proposals such as lowering the retirement age.",
+        "title": "Kraków Shooting Incident",
+        "summary": "A gunman killed multiple individuals in Kraków during a violent security incident on the city's historical market square. Government officials reported that the perpetrator was associated with far-right ideologies.",
         "article_ids": [
-          "1344779ca35fba6690f0ca67",
-          "3c60f11c8c70478141e36bcd"
+          "d8c5f88debdae3104eebeac9",
+          "368f03db7051b4acf9177e28"
         ],
         "sources": [
           {
             "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/tv-shows/spotlight/20261107-france-unbowed-s-m%C3%A9lenchon-unveils-a-shared-future-manifesto-ahead-of-2027-presidential-race",
-            "headline": "France Unbowed’s Mélenchon unveils ‘A Shared Future’ manifesto ahead of 2027 presidential race",
-            "published_at": "2026-11-07T19:58:43Z"
-          },
+            "url": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
+            "headline": "Gunman who killed at least six people in Krakow had ‘far-right’ views, Polish government says",
+            "published_at": "2026-11-07T15:23:48Z"
+          }
+        ],
+        "source_count": 1
+      },
+      {
+        "title": "Polish Credit Rating Shift",
+        "summary": "Rating agency S&P downgraded Poland's currency rating while shifting the country's credit outlook to negative. This financial adjustment highlights growing concerns over the nation's economic stability.",
+        "article_ids": [
+          "8678159fd53f296423b97f21"
+        ],
+        "sources": [
           {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/france/20261107-french-presidential-hopeful-m%C3%A9lenchon-launches-campaign-by-vowing-lower-retirement-age",
-            "headline": "French presidential hopeful Mélenchon set to launch campaign by vowing to lower retirement age",
-            "published_at": "2026-11-07T14:44:24Z"
+            "publisher": "Notes from Poland",
+            "url": "https://notesfrompoland.com/2026/11/07/rating-agency-sp-shifts-polands-credit-outlook-to-negative-and-lowers-currency-rating",
+            "headline": "Rating agency S&P shifts Poland’s credit outlook to negative and lowers currency rating",
+            "published_at": "2026-11-07T12:17:54Z"
           }
         ],
         "source_count": 1
       }
     ]
   },
-  "last_collection_at": "2026-11-08T06:30:59Z"
+  "last_collection_at": "2026-11-08T07:01:11Z"
 }

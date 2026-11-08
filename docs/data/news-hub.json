@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-08T06:30:59Z",
-  "last_successful_collection_at": "2026-11-08T06:30:59Z",
+  "generated_at": "2026-11-08T07:01:11Z",
+  "last_successful_collection_at": "2026-11-08T07:01:11Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-08T06:30:59Z"
+      "at": "2026-11-08T07:01:11Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-11-08T06:30:59Z"
+      "at": "2026-11-08T07:01:11Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-08T06:30:59Z"
+      "at": "2026-11-08T07:01:11Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,60 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-08T06:30:59Z"
+      "at": "2026-11-08T07:01:11Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-08T06:30:59Z"
+      "at": "2026-11-08T07:01:11Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "55",
-      "at": "2026-11-08T06:30:59Z"
+      "at": "2026-11-08T07:01:11Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-08T06:30:59Z"
+      "at": "2026-11-08T07:01:11Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-08T06:30:59Z"
+      "at": "2026-11-08T07:01:11Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-08T06:30:59Z"
+      "at": "2026-11-08T07:01:11Z"
     }
   ],
   "europe_now": [
     {
-      "title": "S&P Shifts Poland Credit Outlook",
-      "summary": "Rating agency S&P adjusted Poland's credit outlook to negative and lowered its currency rating.",
+      "title": "Mass Shooting in Kraków",
+      "summary": "At least six people were killed in a shooting incident in Kraków, with the government stating the gunman held far-right views. Police and local authorities responded to the historical market square following the security threat.",
+      "article_ids": [
+        "d8c5f88debdae3104eebeac9",
+        "368f03db7051b4acf9177e28"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
+          "headline": "Gunman who killed at least six people in Krakow had ‘far-right’ views, Polish government says",
+          "published_at": "2026-11-07T15:23:48Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Poland Credit Outlook Downgraded",
+      "summary": "Rating agency S&P shifted Poland's credit outlook to negative and lowered its currency rating. The adjustment reflects emerging economic pressures and rating agency assessments for the country.",
       "article_ids": [
         "8678159fd53f296423b97f21"
       ],
@@ -82,51 +99,40 @@
   ],
   "top_stories": [
     {
-      "title": "French Political Campaign",
-      "summary": "Jean-Luc Mélenchon launched his presidential campaign with a manifesto focusing on major structural reforms. The far-left politician highlighted proposals such as lowering the retirement age.",
+      "title": "Kraków Shooting Incident",
+      "summary": "A gunman killed multiple individuals in Kraków during a violent security incident on the city's historical market square. Government officials reported that the perpetrator was associated with far-right ideologies.",
       "article_ids": [
-        "1344779ca35fba6690f0ca67",
-        "3c60f11c8c70478141e36bcd"
+        "d8c5f88debdae3104eebeac9",
+        "368f03db7051b4acf9177e28"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20261107-france-unbowed-s-m%C3%A9lenchon-unveils-a-shared-future-manifesto-ahead-of-2027-presidential-race",
-          "headline": "France Unbowed’s Mélenchon unveils ‘A Shared Future’ manifesto ahead of 2027 presidential race",
-          "published_at": "2026-11-07T19:58:43Z"
-        },
+          "url": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
+          "headline": "Gunman who killed at least six people in Krakow had ‘far-right’ views, Polish government says",
+          "published_at": "2026-11-07T15:23:48Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Polish Credit Rating Shift",
+      "summary": "Rating agency S&P downgraded Poland's currency rating while shifting the country's credit outlook to negative. This financial adjustment highlights growing concerns over the nation's economic stability.",
+      "article_ids": [
+        "8678159fd53f296423b97f21"
+      ],
+      "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261107-french-presidential-hopeful-m%C3%A9lenchon-launches-campaign-by-vowing-lower-retirement-age",
-          "headline": "French presidential hopeful Mélenchon set to launch campaign by vowing to lower retirement age",
-          "published_at": "2026-11-07T14:44:24Z"
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/11/07/rating-agency-sp-shifts-polands-credit-outlook-to-negative-and-lowers-currency-rating",
+          "headline": "Rating agency S&P shifts Poland’s credit outlook to negative and lowers currency rating",
+          "published_at": "2026-11-07T12:17:54Z"
         }
       ],
       "source_count": 1
     }
   ],
   "developing": [
-    {
-      "label": "killed · Polish · shooting · city",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 9,
-      "latest_at": "2026-11-07T15:40:50Z",
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/07/fatalities-reported-in-shooting-on-historical-market-square-in-krakow",
-          "headline": "Five killed in shooting around market square in Polish city of Kraków",
-          "published_at": "2026-11-07T15:40:50Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
-          "headline": "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
-          "published_at": "2026-11-07T15:26:49Z"
-        }
-      ]
-    },
     {
       "label": "France · mass · disobedience · Live",
       "origin": "convergence",
@@ -181,6 +187,21 @@
           "url": "https://www.france24.com/en/video/20261107-we-must-change-everything-french-far-left-leader-m%C3%A9lenchon-launches-presidential-programme",
           "headline": "'We must change everything': French far-left leader Mélenchon launches presidential programme",
           "published_at": "2026-11-07T17:30:04Z"
+        }
+      ]
+    },
+    {
+      "label": "airlines · bogus · bomb · foreign",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-11-07T16:33:53Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers",
+          "headline": "France investigating if bogus bomb threats against airlines linked to 'foreign powers'",
+          "published_at": "2026-11-07T16:33:53Z"
         }
       ]
     }
@@ -1762,6 +1783,20 @@
       "url": "https://english.elpais.com/sports/2026-10-20/the-knicks-defend-their-title-as-the-thunder-and-spurs-lead-the-chase.html",
       "published_at": "2026-10-20T09:32:44Z",
       "collected_at": "2026-11-07T14:01:07Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "433992979e2f8ae7b4798274",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The story of Billy Childish, a tormented British punk icon: ‘Professional art kills art’",
+      "url": "https://english.elpais.com/culture/2026-10-17/the-story-of-billy-childish-a-tormented-british-punk-icon-professional-art-kills-art.html",
+      "published_at": "2026-10-17T04:00:00Z",
+      "collected_at": "2026-11-08T07:01:11Z",
       "topics": [
         "politics",
         "society",
