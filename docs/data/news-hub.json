@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-08T11:31:00Z",
-  "last_successful_collection_at": "2026-11-08T11:31:00Z",
+  "generated_at": "2026-11-08T12:01:11Z",
+  "last_successful_collection_at": "2026-11-08T12:01:11Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-08T11:31:00Z"
+      "at": "2026-11-08T12:01:11Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-08T11:31:00Z"
+      "at": "2026-11-08T12:01:11Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-08T11:31:00Z"
+      "at": "2026-11-08T12:01:11Z"
     },
     {
       "id": "euractiv",
@@ -29,60 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-08T11:31:00Z"
+      "at": "2026-11-08T12:01:11Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-08T11:31:00Z"
+      "at": "2026-11-08T12:01:11Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "55",
-      "at": "2026-11-08T11:31:00Z"
+      "at": "2026-11-08T12:01:11Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-08T11:31:00Z"
+      "at": "2026-11-08T12:01:11Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-08T11:31:00Z"
+      "at": "2026-11-08T12:01:11Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-08T11:31:00Z"
+      "at": "2026-11-08T12:01:11Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Mass Shooting in Poland",
-      "summary": "Authorities launched a terrorism probe following a mass shooting incident in Kraków that resulted in multiple fatalities. Additional bodies were subsequently discovered at the suspect's residence as the investigation continued.",
-      "article_ids": [
-        "f19c9eca76925d3a67ac8b19",
-        "d8c5f88debdae3104eebeac9"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261108-poland-launches-terrorism-probe-into-krakow-mass-shooting",
-          "headline": "Poland launches terrorism probe into mass shooting in Krakow",
-          "published_at": "2026-11-08T08:59:56Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Energy Infrastructure Strikes in Ukraine",
-      "summary": "Recent military strikes conducted by Russia caused significant power outages affecting hundreds of thousands of residents in eastern Ukraine. The disruption targeted regional energy infrastructure, plunging large areas into darkness.",
+      "title": "Russian Infrastructure Strikes Impact Eastern Ukraine",
+      "summary": "Recent Russian military strikes targeting energy infrastructure have left approximately 600,000 residents without power in eastern Ukraine. The ongoing attacks continue to exacerbate severe humanitarian and utility challenges in the region.",
       "article_ids": [
         "60880984ff5bb12184c2c12f"
       ],
@@ -99,8 +82,25 @@
   ],
   "top_stories": [
     {
-      "title": "Attacks on Ukrainian Infrastructure",
-      "summary": "Russian military strikes impacted eastern Ukraine, leaving hundreds of thousands of people without electricity. The raids severely damaged local power networks in the region.",
+      "title": "Kraków Shooting Incident",
+      "summary": "Authorities in Poland have opened a terrorism probe following a deadly shooting incident in Kraków. Additional bodies were subsequently discovered during follow-up searches connected to the suspect.",
+      "article_ids": [
+        "f19c9eca76925d3a67ac8b19",
+        "d8c5f88debdae3104eebeac9"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261108-poland-launches-terrorism-probe-into-krakow-mass-shooting",
+          "headline": "Poland launches terrorism probe into mass shooting in Krakow",
+          "published_at": "2026-11-08T08:59:56Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Energy Infrastructure Attacks in Ukraine",
+      "summary": "Widespread Russian strikes have left hundreds of thousands of people in eastern Ukraine without electricity. The targeted attacks heavily disrupt regional infrastructure and basic utility services.",
       "article_ids": [
         "60880984ff5bb12184c2c12f"
       ],
@@ -1207,6 +1207,20 @@
       ]
     },
     {
+      "id": "b5cb78aeee0ec37a65d57b62",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Self-styled 'king of Germany' goes on trial accused of heading criminal group",
+      "url": "https://www.bbc.co.uk/news/articles/c5zjxxmz7mxro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-06T16:16:46Z",
+      "collected_at": "2026-11-08T12:01:11Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "58ecbb3ae3d8dac85d8c6850",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1218,6 +1232,34 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "3c3b8692712364a9d8fa083d",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The women behind the Democratic wave transforming US politics",
+      "url": "https://english.elpais.com/usa/2026-11-06/the-women-behind-the-democratic-wave-transforming-us-politics.html",
+      "published_at": "2026-11-06T11:49:08Z",
+      "collected_at": "2026-11-08T12:01:11Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "8b87a2953eea0d45bafa28dc",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The surreal journey of Salvador Dalí’s legs in a cardboard box: A window into the DNA of human creativity",
+      "url": "https://english.elpais.com/science-tech/2026-11-06/the-surreal-journey-of-salvador-dalis-legs-in-a-cardboard-box-a-window-into-the-dna-of-human-creativity.html",
+      "published_at": "2026-11-06T11:48:47Z",
+      "collected_at": "2026-11-08T12:01:11Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -1529,20 +1571,6 @@
       ]
     },
     {
-      "id": "40cd137f2fa9e4e68f981b1e",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Six detained in Poland on suspicion of exporting military components to Russia",
-      "url": "https://notesfrompoland.com/2026/11/05/six-detained-in-poland-on-suspicion-of-exporting-military-components-to-russia",
-      "published_at": "2026-11-05T11:36:51Z",
-      "collected_at": "2026-11-07T12:01:08Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "122ca9b9a4cec8ee8fd79a63",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1568,6 +1596,34 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "f7125b63a33a6de3a52d6786",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Spain’s transportation minister steps down over train crash to try to save the Socialist campaign ahead of elections",
+      "url": "https://english.elpais.com/spain/2026-11-04/spains-transportation-minister-steps-down-over-train-crash-to-try-to-save-the-socialist-campaign-ahead-of-elections.html",
+      "published_at": "2026-11-04T11:51:58Z",
+      "collected_at": "2026-11-08T12:01:11Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "c8014d273207e6109689fe35",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "International Commission of Jurists criticises takeover of Polish constitutional court",
+      "url": "https://notesfrompoland.com/2026/11/04/international-commission-of-jurists-criticises-takeover-of-polish-constitutional-court",
+      "published_at": "2026-11-04T11:05:52Z",
+      "collected_at": "2026-11-08T12:01:11Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
       ]
     },
     {
@@ -1893,20 +1949,6 @@
       ]
     },
     {
-      "id": "0769cd7115b786c05a71d57d",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "EU's 'Made in Europe' push unnerves global auto suppliers",
-      "url": "https://www.dw.com/en/eu-s-made-in-europe-push-unnerves-global-auto-suppliers/a-79732579?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-10-28T10:24:00Z",
-      "collected_at": "2026-11-07T12:01:08Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "9eded4c5369973a48f0c609d",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1914,6 +1956,20 @@
       "url": "https://english.elpais.com/international/2026-10-26/an-empty-airport-shuttered-storefronts-and-abandoned-hotels-the-tourism-decline-in-tulum-is-worsening.html",
       "published_at": "2026-10-26T19:27:24Z",
       "collected_at": "2026-11-08T05:30:59Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "9b687c810858288fa83c472b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Chinese women seek to break out of traditional roles",
+      "url": "https://english.elpais.com/international/2026-10-21/chinese-women-seek-to-break-out-of-traditional-roles.html",
+      "published_at": "2026-10-21T08:53:13Z",
+      "collected_at": "2026-11-08T12:01:11Z",
       "topics": [
         "politics",
         "society",
