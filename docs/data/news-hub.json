@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-10T18:01:11Z",
-  "last_successful_collection_at": "2026-11-10T18:01:11Z",
+  "generated_at": "2026-11-10T18:31:06Z",
+  "last_successful_collection_at": "2026-11-10T18:31:06Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-10T18:01:11Z"
+      "at": "2026-11-10T18:31:06Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-10T18:01:11Z"
+      "at": "2026-11-10T18:31:06Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-10T18:01:11Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-11-10T18:31:06Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-10T18:01:11Z"
+      "at": "2026-11-10T18:31:06Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-10T18:01:11Z"
+      "at": "2026-11-10T18:31:06Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-11-10T18:01:11Z"
+      "at": "2026-11-10T18:31:06Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-10T18:01:11Z"
+      "at": "2026-11-10T18:31:06Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-10T18:01:11Z"
+      "at": "2026-11-10T18:31:06Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-10T18:01:11Z"
+      "at": "2026-11-10T18:31:06Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Ukraine Peace Negotiations Resume in Abu Dhabi",
-      "summary": "Delegations have convened in Abu Dhabi for US-mediated negotiations aimed at ending the Russia-Ukraine war. Officials from multiple sides have characterized the opening discussions as constructive and productive.",
+      "title": "Ukraine Peace Talks Open in Abu Dhabi",
+      "summary": "Trilateral peace negotiations regarding the conflict in Ukraine commenced in Abu Dhabi. Officials from participating nations described the initial day of discussions as constructive and productive.",
       "article_ids": [
         "c66c617980a2200fe61577f1",
-        "70b7a91cc43b34f07bebf752",
-        "17e72f945d7c8bf79b5fd306"
+        "70b7a91cc43b34f07bebf752"
       ],
       "sources": [
         {
@@ -79,22 +78,79 @@
           "published_at": "2026-11-10T17:29:36Z"
         },
         {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+          "headline": "First day of Ukraine peace talks 'very productive', US says",
+          "published_at": "2026-11-10T14:36:57Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "EU Commission Security Talks Following Airport Hoaxes",
+      "summary": "The European Commission announced plans to host security talks following a week of bomb hoaxes that disrupted numerous airports and flights across the continent. Authorities are reviewing regional aviation security and infrastructure protection measures.",
+      "article_ids": [
+        "5d6249196a89f3232b3c6973"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/248019/eu-commission-to-host-security-talks-after-week-of-bomb-hoaxes-that-hit-20-airports-and-dozens-of-european-flights",
+          "headline": "EU Commission to host security talks after week of bomb hoaxes that hit 20 airports and dozens of European flights",
+          "published_at": "2026-11-10T14:47:21Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Ukraine Peace Negotiations",
+      "summary": "Trilateral peace talks concerning the conflict in Ukraine opened in Abu Dhabi. Participating officials characterized the first day of discussions as constructive.",
+      "article_ids": [
+        "c66c617980a2200fe61577f1"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+          "headline": "First day of Ukraine peace talks constructive, Zelensky says",
+          "published_at": "2026-11-10T17:29:36Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "French Police Investigation",
+      "summary": "French law enforcement conducted searches at the Ritz and properties linked to Al Fayed as part of a human trafficking investigation. Several arrests were reported in connection with the ongoing probe.",
+      "article_ids": [
+        "dba535a769f0bc64d9c0b553",
+        "e7e6598cd38028021885f79b"
+      ],
+      "sources": [
+        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261110-us-mediated-talks-on-ending-russia-ukraine-war-begin-in-abu-dhabi",
-          "headline": "US-mediated talks on ending Russia-Ukraine war begin in Abu Dhabi",
-          "published_at": "2026-11-10T13:29:45Z"
+          "url": "https://www.france24.com/en/france/20261110-french-police-search-ritz-glitzy-al-fayed-properties-in-women-trafficking-probe",
+          "headline": "French police search Ritz, glitzy Al Fayed properties in women-trafficking probe",
+          "published_at": "2026-11-10T17:37:35Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wvwyrd4ywo?at_medium=RSS&at_campaign=rss",
+          "headline": "Arrests made in Mohamed Al Fayed probe in France, police say",
+          "published_at": "2026-11-10T14:29:00Z"
         }
       ],
       "source_count": 2
-    },
+    }
+  ],
+  "developing": [
     {
-      "title": "Iran Denies Involvement in French Supermarket Cyberattack",
-      "summary": "Tehran has formally rejected accusations that it was behind recent cyberattacks targeting supermarket refrigerators in France. Following the incident and subsequent denials, French authorities summoned the Iranian ambassador.",
-      "article_ids": [
-        "8cd75850fc9c8525a21dbcaa",
-        "6f5d8d20340c0785ab12a514",
-        "7b9cd4aef89c17b5c01976d3"
-      ],
+      "label": "Iran · France · cyberattacks · fridge",
+      "origin": "convergence",
+      "source_count": 4,
+      "item_count": 7,
+      "latest_at": "2026-11-10T15:57:00Z",
       "sources": [
         {
           "publisher": "Deutsche Welle",
@@ -107,56 +163,21 @@
           "url": "https://www.politico.eu/article/iran-denies-role-in-cyberattacks-on-supermarket-refrigerators",
           "headline": "Iran denies role in cyberattacks on French supermarket refrigerators",
           "published_at": "2026-11-10T15:54:16Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Ukraine Peace Talks",
-      "summary": "Initial discussions in the ongoing trilateral peace negotiations have begun in Abu Dhabi. Ukrainian leadership and international observers have reported positive momentum from the opening sessions.",
-      "article_ids": [
-        "c66c617980a2200fe61577f1",
-        "70b7a91cc43b34f07bebf752",
-        "17e72f945d7c8bf79b5fd306"
-      ],
-      "sources": [
+        },
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
-          "headline": "First day of Ukraine peace talks constructive, Zelensky says",
-          "published_at": "2026-11-10T17:29:36Z"
+          "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+          "headline": "Iran rejects French claims it was behind supermarket fridge hacking",
+          "published_at": "2026-11-10T13:45:13Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261110-us-mediated-talks-on-ending-russia-ukraine-war-begin-in-abu-dhabi",
-          "headline": "US-mediated talks on ending Russia-Ukraine war begin in Abu Dhabi",
-          "published_at": "2026-11-10T13:29:45Z"
+          "url": "https://www.france24.com/en/video/20261110-france-vows-tough-response-to-freezer-cyberattack-blamed-on-iran",
+          "headline": "France vows tough response to freezer cyberattack blamed on Iran",
+          "published_at": "2026-11-10T10:51:57Z"
         }
-      ],
-      "source_count": 2
+      ]
     },
-    {
-      "title": "Cyberattack and Sabotage Response",
-      "summary": "France summoned the Iranian ambassador after denying Tehran's involvement in a digital sabotage incident affecting supermarket refrigeration systems. Meanwhile, broader European security discussions continue regarding infrastructure vulnerabilities and transit incidents.",
-      "article_ids": [
-        "8cd75850fc9c8525a21dbcaa",
-        "6f5d8d20340c0785ab12a514",
-        "7b9cd4aef89c17b5c01976d3"
-      ],
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/iran-denies-role-in-fridge-hack-france-summons-ambassador/a-79910206?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Iran denies role in fridge hack, France summons ambassador",
-          "published_at": "2026-11-10T15:57:00Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
     {
       "label": "Hegseth · impeachment · Pete · chief",
       "origin": "convergence",
@@ -219,30 +240,51 @@
           "published_at": "2026-11-10T05:38:53Z"
         }
       ]
-    },
-    {
-      "label": "billionaires · California · reject · wealth",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-10T11:20:09Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261110-california-voters-reject-measure-to-tax-the-wealth-of-billionaires",
-          "headline": "California voters reject measure to tax the wealth of billionaires",
-          "published_at": "2026-11-10T11:20:09Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-11-10/california-rejects-proposal-to-tax-the-wealth-of-states-billionaires.html",
-          "headline": "California rejects proposal to tax the wealth of state’s billionaires",
-          "published_at": "2026-11-10T11:06:22Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "ea8c6f10411db19861188d38",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Filming amongst body bags: New Colombian president’s comms campaign sparks backlash",
+      "url": "https://www.france24.com/en/americas/20261110-filming-amongst-body-bags-new-colombian-president-s-comms-campaign-sparks-backlash",
+      "published_at": "2026-11-10T18:18:30Z",
+      "collected_at": "2026-11-10T18:31:06Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f702652ef5a4ef6a7ec31618",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Ukraine : Mélenchon embarrassé",
+      "url": "https://www.politico.eu/podcast/playbook-paris-podcast/ukraine-melenchon-embarrasse",
+      "published_at": "2026-11-10T18:02:30Z",
+      "collected_at": "2026-11-10T18:31:06Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "368ff07e04a238fd340d58ce",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Victims of Nazi war in Poland call on Germany for support",
+      "url": "https://www.dw.com/en/victims-of-nazi-war-in-poland-call-on-germany-for-support/a-79909311?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-10T17:53:00Z",
+      "collected_at": "2026-11-10T18:31:06Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
     {
       "id": "227a97620c9437dd6cb7e6d3",
       "source_id": "politico_europe",
@@ -255,6 +297,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "dba535a769f0bc64d9c0b553",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French police search Ritz, glitzy Al Fayed properties in women-trafficking probe",
+      "url": "https://www.france24.com/en/france/20261110-french-police-search-ritz-glitzy-al-fayed-properties-in-women-trafficking-probe",
+      "published_at": "2026-11-10T17:37:35Z",
+      "collected_at": "2026-11-10T18:31:06Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -727,6 +783,20 @@
       "url": "https://www.france24.com/en/middle-east/20261110-live-new-israeli-parliament-sworn-in-eisenkot-aims-to-form-government-netanyahu-knesset",
       "published_at": "2026-11-10T14:40:16Z",
       "collected_at": "2026-11-10T16:01:12Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "be86b3f8c5a20da385493b53",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Israel live: Netanyahu bloc targets Arab lawmakers as new parliament is sworn in",
+      "url": "https://www.france24.com/en/middle-east/20261110-live-new-israeli-parliament-sworn-in-eisenkot-aims-to-form-government-netanyahu-knesset",
+      "published_at": "2026-11-10T14:40:16Z",
+      "collected_at": "2026-11-10T18:31:06Z",
       "topics": [
         "politics",
         "security",
@@ -2218,34 +2288,6 @@
       ]
     },
     {
-      "id": "c9f0038c84bc1a045cc2d872",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Russia's leading independent newspaper closes after eviction",
-      "url": "https://www.bbc.co.uk/news/videos/cvrlylj9r11go?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-09T18:08:07Z",
-      "collected_at": "2026-11-09T18:30:57Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "bf127a589a0dc2e4c55d4525",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Turkey steel factory blast kills at least 16 people",
-      "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-09T18:04:01Z",
-      "collected_at": "2026-11-09T18:30:57Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "bafc0fdea120875cf9a02ea7",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2715,34 +2757,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cm3vq4wyeld1o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-06T06:00:46Z",
       "collected_at": "2026-11-10T07:31:03Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "adcdb24890f7cfe6164a1fa9",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Brigitte Bardot inheritance row deepens after private letter to partner leaked",
-      "url": "https://www.bbc.co.uk/news/articles/ck1ex56e5q8wo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-04T16:31:14Z",
-      "collected_at": "2026-11-10T18:01:11Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "73f437118a1bd37990c59587",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Secret police files released in Hungary, 37 years after fall of communism",
-      "url": "https://www.bbc.co.uk/news/articles/c977p01kgmmko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-04T15:28:18Z",
-      "collected_at": "2026-11-10T18:01:11Z",
       "topics": [
         "breaking",
         "politics",
