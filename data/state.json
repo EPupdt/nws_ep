@@ -366,9 +366,39 @@
     "3487493119de2cbc7657fe0d": "2026-11-11T19:30:57Z",
     "76b28b0a080c9245dca6ac13": "2026-11-11T19:30:57Z",
     "7898b3bba4f05cb692d730e9": "2026-11-11T19:30:57Z",
-    "b22c98c0fb030e6f6683862a": "2026-11-11T19:30:57Z"
+    "b22c98c0fb030e6f6683862a": "2026-11-11T19:30:57Z",
+    "a343335499678dbb8c10e386": "2026-11-11T20:01:02Z",
+    "cb3c042be30e85396a4de59c": "2026-11-11T20:01:02Z"
   },
   "radar": [
+    {
+      "id": "a343335499678dbb8c10e386",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Clashes in Barcelona as thousands join Spain general strike",
+      "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-11T19:59:48Z",
+      "collected_at": "2026-11-11T20:01:02Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "cb3c042be30e85396a4de59c",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "‘The only way to get this done’: Why the US wants Europe at Ukraine talks next time",
+      "url": "https://www.politico.eu/article/why-the-us-wants-europe-at-ukraine-talks-next-time",
+      "published_at": "2026-11-11T19:53:57Z",
+      "collected_at": "2026-11-11T20:01:02Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "3487493119de2cbc7657fe0d",
       "source_id": "euobserver",
@@ -2682,14 +2712,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-11-10T17:31:00Z",
-      "title": "Deadly Motorway Pile-Ups in Bulgaria"
-    },
-    {
-      "at": "2026-11-10T17:31:00Z",
-      "title": "Espionage and Sabotage Arrests in Poland"
-    },
-    {
       "at": "2026-11-10T18:01:11Z",
       "title": "Ukraine Peace Talks"
     },
@@ -3000,58 +3022,49 @@
     {
       "at": "2026-11-11T19:30:57Z",
       "title": "German Military Misconduct Investigation"
+    },
+    {
+      "at": "2026-11-11T20:01:02Z",
+      "title": "Russia-Ukraine Negotiations"
+    },
+    {
+      "at": "2026-11-11T20:01:02Z",
+      "title": "German Military Misconduct"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "Russia-Ukraine Talks Shift to Security",
-        "summary": "Negotiations between Russia and Ukraine have transitioned to addressing post-war security frameworks. However, the discussions concluded without achieving a formal breakthrough.",
+        "title": "Spain General Strike",
+        "summary": "Thousands of participants joined Spain's first general strike in fourteen years, causing widespread disruption and clashes in Barcelona over housing costs and national political pressures.",
         "article_ids": [
-          "5ce921fe0aafdf4c87a3fa1b"
-        ],
-        "sources": [
-          {
-            "publisher": "BBC News Europe",
-            "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
-            "headline": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-            "published_at": "2026-11-11T15:05:11Z"
-          }
-        ],
-        "source_count": 1
-      },
-      {
-        "title": "General Strike Disrupts Spain",
-        "summary": "Spain is experiencing widespread disruption during its first general strike in fourteen years, with protesters organizing over housing costs and economic pressures.",
-        "article_ids": [
+          "a343335499678dbb8c10e386",
           "eb011f508c4f6d01751907bd",
           "981b57531cf1430193673dd1"
         ],
         "sources": [
           {
+            "publisher": "BBC News Europe",
+            "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+            "headline": "Clashes in Barcelona as thousands join Spain general strike",
+            "published_at": "2026-11-11T19:59:48Z"
+          },
+          {
             "publisher": "France 24 English",
             "url": "https://www.france24.com/en/spain-general-strike-over-housing-costs-before-national-election",
             "headline": "Spain: General strike over housing costs before national election",
             "published_at": "2026-11-11T15:54:40Z"
-          },
-          {
-            "publisher": "BBC News Europe",
-            "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-            "headline": "Spain sees widespread disruption in first general strike for 14 years",
-            "published_at": "2026-11-11T14:06:27Z"
           }
         ],
         "source_count": 2
-      }
-    ],
-    "top_stories": [
+      },
       {
-        "title": "School Bomb Hoaxes",
-        "summary": "Numerous educational institutions across Italy, Ireland, and the UK have been disrupted by coordinated bomb threats. Authorities are currently investigating the incidents as suspected hoaxes.",
+        "title": "European School Bomb Threats",
+        "summary": "Hundreds of schools across Italy, Ireland, and the United Kingdom were disrupted by security alerts and suspected bomb hoaxes.",
         "article_ids": [
           "1c53b61262a76fb82f41f502",
-          "0eaadc2a162ee79607cf0f2e"
+          "f2b1f943984df2cea9e1e68b"
         ],
         "sources": [
           {
@@ -3059,19 +3072,38 @@
             "url": "https://www.politico.eu/article/bomb-threats-disrupting-hundreds-schools-italy-ireland-uk",
             "headline": "Bomb threats hit hundreds of schools in Italy, Ireland and UK",
             "published_at": "2026-11-11T16:41:13Z"
+          }
+        ],
+        "source_count": 1
+      }
+    ],
+    "top_stories": [
+      {
+        "title": "Russia-Ukraine Negotiations",
+        "summary": "Delegations shifted discussions toward post-war security matters during US-led talks. The negotiations ultimately concluded without achieving a major breakthrough.",
+        "article_ids": [
+          "cb3c042be30e85396a4de59c",
+          "5ce921fe0aafdf4c87a3fa1b"
+        ],
+        "sources": [
+          {
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/why-the-us-wants-europe-at-ukraine-talks-next-time",
+            "headline": "‘The only way to get this done’: Why the US wants Europe at Ukraine talks next time",
+            "published_at": "2026-11-11T19:53:57Z"
           },
           {
             "publisher": "BBC News Europe",
-            "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
-            "headline": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
-            "published_at": "2026-11-11T12:30:29Z"
+            "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+            "headline": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+            "published_at": "2026-11-11T15:05:11Z"
           }
         ],
         "source_count": 2
       },
       {
-        "title": "German Military Misconduct Investigation",
-        "summary": "A newly published study has revealed widespread and systemic sexual misconduct within the German armed forces. The findings highlight significant internal challenges for the country's military organization.",
+        "title": "German Military Misconduct",
+        "summary": "A newly published study concerning the German armed forces uncovered instances of systemic sexual misconduct. The findings highlight significant internal challenges within the military institution.",
         "article_ids": [
           "309a30aafd47aa7213b12c3e"
         ],
@@ -3087,5 +3119,5 @@
       }
     ]
   },
-  "last_collection_at": "2026-11-11T19:30:57Z"
+  "last_collection_at": "2026-11-11T20:01:02Z"
 }
