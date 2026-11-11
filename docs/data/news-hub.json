@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-11T06:30:56Z",
-  "last_successful_collection_at": "2026-11-11T06:30:56Z",
+  "generated_at": "2026-11-11T07:01:08Z",
+  "last_successful_collection_at": "2026-11-11T07:01:08Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-11T06:30:56Z"
+      "at": "2026-11-11T07:01:08Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-11T06:30:56Z"
+      "at": "2026-11-11T07:01:08Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-11T06:30:56Z"
+      "at": "2026-11-11T07:01:08Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,68 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-11T06:30:56Z"
+      "at": "2026-11-11T07:01:08Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-11T06:30:56Z"
+      "at": "2026-11-11T07:01:08Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-11-11T06:30:56Z"
+      "at": "2026-11-11T07:01:08Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-11T06:30:56Z"
+      "at": "2026-11-11T07:01:08Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-11T06:30:56Z"
+      "at": "2026-11-11T07:01:08Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-11T06:30:56Z"
+      "at": "2026-11-11T07:01:08Z"
     }
   ],
   "europe_now": [
     {
-      "title": "US-Mediated Ukraine Peace Talks Continue in Abu Dhabi",
-      "summary": "Ukrainian and Russian delegations have entered a second day of United States-mediated negotiations in Abu Dhabi following initial constructive discussions. President Zelenskyy has urged European leaders to quickly select a representative to participate in the ongoing diplomatic process.",
+      "title": "US Soldier Arrested in Britain Over Alleged Russian Espionage",
+      "summary": "British counterterrorism police arrested a US soldier in Britain on suspicion of assisting Russian intelligence and spying.",
+      "article_ids": [
+        "8324f1255d8d560844ad597d",
+        "2226e54e4328311d1972e719"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261110-us-soldier-arrested-in-britain-on-suspicion-of-assisting-russian-intelligence",
+          "headline": "US soldier arrested in Britain on suspicion of assisting Russian intelligence",
+          "published_at": "2026-11-10T20:23:04Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/british-counterterrorism-police-arrest-us-soldier-accused-of-spying-on-behalf-of-russia/a-79913240?maca=en-rss-en-eu-2092-rdf",
+          "headline": "British counterterrorism police arrest US soldier accused of spying on behalf of Russia",
+          "published_at": "2026-11-10T19:35:00Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Ukraine and Russia Hold Mediated Peace Talks",
+      "summary": "Ukraine and Russia are holding a second day of US-mediated talks in Abu Dhabi following constructive initial discussions.",
       "article_ids": [
         "4de27e5b9be158a3e682ff02",
-        "2e624f409a82b88b03e2a090",
-        "7a89baa8ccf56777be36e981",
         "c66c617980a2200fe61577f1"
       ],
       "sources": [
@@ -80,34 +101,10 @@
           "published_at": "2026-11-11T03:22:45Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/zelenskyy-tells-europe-pick-negotiator-peace-talks-russia-ukraine",
-          "headline": "Zelenskyy tells Europe to hurry up and pick a rep for peace talks with Russia",
-          "published_at": "2026-11-10T22:09:28Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "US Soldier Arrested in Britain Over Alleged Russian Espionage",
-      "summary": "British counterterrorism police have arrested a United States soldier on suspicion of assisting Russian intelligence operations. United States authorities also filed related charges concerning an alleged terror plot directed at a Royal Air Force base.",
-      "article_ids": [
-        "5da591d0d81cd78d8bae0dbd",
-        "8324f1255d8d560844ad597d",
-        "2226e54e4328311d1972e719"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20261110-us-iranian-operatives-raf-fairford-terror-plot",
-          "headline": "US charges three 'Iranian operatives' over RAF Fairford terror plot",
-          "published_at": "2026-11-10T22:26:36Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/british-counterterrorism-police-arrest-us-soldier-accused-of-spying-on-behalf-of-russia/a-79913240?maca=en-rss-en-eu-2092-rdf",
-          "headline": "British counterterrorism police arrest US soldier accused of spying on behalf of Russia",
-          "published_at": "2026-11-10T19:35:00Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+          "headline": "First day of Ukraine peace talks constructive, Zelensky says",
+          "published_at": "2026-11-10T17:29:36Z"
         }
       ],
       "source_count": 2
@@ -115,12 +112,11 @@
   ],
   "top_stories": [
     {
-      "title": "Ukraine Peace Negotiations",
-      "summary": "Delegations from Ukraine and Russia are holding a second consecutive day of talks in Abu Dhabi mediated by the United States. Ukrainian officials previously described the initial discussions as constructive while urging Europe to establish formal representation.",
+      "title": "Ukraine and Russia Peace Negotiations",
+      "summary": "Ukraine and Russia are holding a second day of US-mediated talks in Abu Dhabi. The ongoing discussions follow constructive meetings that previously touched on potential prisoner exchanges.",
       "article_ids": [
         "4de27e5b9be158a3e682ff02",
-        "2e624f409a82b88b03e2a090",
-        "7a89baa8ccf56777be36e981"
+        "e8d540491c04645c7053fb4e"
       ],
       "sources": [
         {
@@ -131,53 +127,35 @@
         },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/zelenskyy-tells-europe-pick-negotiator-peace-talks-russia-ukraine",
-          "headline": "Zelenskyy tells Europe to hurry up and pick a rep for peace talks with Russia",
-          "published_at": "2026-11-10T22:09:28Z"
+          "url": "https://www.politico.eu/article/ukraine-russia-discuss-prisoner-swap-deal-constructive-talks",
+          "headline": "Ukraine and Russia discuss prisoner swap deal during ‘constructive’ talks",
+          "published_at": "2026-11-10T19:31:46Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "Espionage and Security Investigations",
-      "summary": "British counterterrorism officers arrested a United States soldier who is suspected of gathering intelligence for Russia. Simultaneously, United States federal prosecutors charged three operatives in connection with a security threat targeting a British air base.",
+      "title": "Security and Espionage Investigations",
+      "summary": "British counterterrorism police arrested a US soldier in Britain on suspicion of assisting Russian intelligence. Meanwhile, US authorities charged three operatives over a terror plot at a UK airbase.",
       "article_ids": [
-        "5da591d0d81cd78d8bae0dbd",
         "8324f1255d8d560844ad597d",
-        "2226e54e4328311d1972e719"
+        "80613c536904c8beec4a8017"
       ],
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/british-counterterrorism-police-arrest-us-soldier-accused-of-spying-on-behalf-of-russia/a-79913240?maca=en-rss-en-eu-2092-rdf",
-          "headline": "British counterterrorism police arrest US soldier accused of spying on behalf of Russia",
-          "published_at": "2026-11-10T19:35:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261110-us-soldier-arrested-in-britain-on-suspicion-of-assisting-russian-intelligence",
+          "headline": "US soldier arrested in Britain on suspicion of assisting Russian intelligence",
+          "published_at": "2026-11-10T20:23:04Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20261110-us-iranian-operatives-raf-fairford-terror-plot",
+          "headline": "US charges three 'Iranian operatives' over terror plot at UK Fairford airbase",
+          "published_at": "2026-11-10T22:26:36Z"
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "EU Policy and Trade Initiatives",
-      "summary": "The European Commission is advancing new regulatory proposals aimed at curbing harmful online commerce practices through digital fairness legislation. Meanwhile, the European Union and the United Kingdom are nearing a carbon market agreement ahead of an upcoming summit in Dublin.",
-      "article_ids": [
-        "5c3d2ca3214fc0afaf220081",
-        "49f6fb9234f6c7d2cbab00ba"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/248253/euuk-carbon-market-deal-close-with-uk-courting-access-to-made-in-europe-before-dublin-summit",
-          "headline": "EU‑UK carbon market deal close, with UK courting access to ‘Made in Europe’ before Dublin summit",
-          "published_at": "2026-11-11T06:27:00Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/brussels-takes-on-the-evils-of-online-commerce-digital-fairness-act-commission",
-          "headline": "Brussels takes on the evils of online commerce",
-          "published_at": "2026-11-10T19:45:24Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "developing": [
@@ -211,6 +189,33 @@
           "url": "https://www.france24.com/en/video/20261110-france-vows-tough-response-to-freezer-cyberattack-blamed-on-iran",
           "headline": "France vows tough response to freezer cyberattack blamed on Iran",
           "published_at": "2026-11-10T10:51:57Z"
+        }
+      ]
+    },
+    {
+      "label": "EU · Europe · summit · carbon",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 4,
+      "latest_at": "2026-11-11T06:27:00Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/248253/euuk-carbon-market-deal-close-with-uk-courting-access-to-made-in-europe-before-dublin-summit",
+          "headline": "EU‑UK carbon market deal close, with UK courting access to ‘Made in Europe’ before Dublin summit",
+          "published_at": "2026-11-11T06:27:00Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/turkey-libya-maritime-deal-raises-greece-tensions-eu-leaders-summit",
+          "headline": "Turkey-Greece maritime spat threatens to spill into EU summit",
+          "published_at": "2026-11-11T03:00:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe-not-going-anywhere-g7-summit-a-signal-to-russians-that-europe-is-standing-behind-ukraine",
+          "headline": "'Europe not going anywhere': G7 summit a 'signal to Russians' that Europe is standing behind Ukraine",
+          "published_at": "2026-11-10T21:57:47Z"
         }
       ]
     },
@@ -253,27 +258,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cxdd8vvll870o?at_medium=RSS&at_campaign=rss",
           "headline": "PSNI to support gardaí amid huge security operation for EU meetings",
           "published_at": "2026-11-10T15:37:28Z"
-        }
-      ]
-    },
-    {
-      "label": "Pentagon · US",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-11-10T20:18:01Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/poland-says-pentagon-backs-permanent-us-base-with-trump-decision-due-in-december",
-          "headline": "Poland says Pentagon backs permanent US base, with Trump decision due in December",
-          "published_at": "2026-11-10T20:18:01Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261110-us-pentagon-chief-pete-hegseth-calls-impeachment-moves-a-farce",
-          "headline": "US Pentagon chief Pete Hegseth calls impeachment moves 'a farce'",
-          "published_at": "2026-11-10T16:43:39Z"
         }
       ]
     }
@@ -469,6 +453,20 @@
       "url": "https://www.france24.com/en/americas/20261110-us-iranian-operatives-raf-fairford-terror-plot",
       "published_at": "2026-11-10T22:26:36Z",
       "collected_at": "2026-11-10T22:30:58Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "80613c536904c8beec4a8017",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US charges three 'Iranian operatives' over terror plot at UK Fairford airbase",
+      "url": "https://www.france24.com/en/americas/20261110-us-iranian-operatives-raf-fairford-terror-plot",
+      "published_at": "2026-11-10T22:26:36Z",
+      "collected_at": "2026-11-11T07:01:08Z",
       "topics": [
         "politics",
         "security",
@@ -2184,20 +2182,6 @@
       ]
     },
     {
-      "id": "5a8ea16d2878775ea7b3fdef",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: Ukraine, Russia and US to resume peace talks in Abu Dhabi",
-      "url": "https://www.france24.com/en/europe/20261110-live-ukraine-russia-and-us-to-resume-peace-talks-in-abu-dhabi",
-      "published_at": "2026-11-10T06:09:26Z",
-      "collected_at": "2026-11-10T06:31:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "7f39e5ac8959121d9983d26a",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2237,20 +2221,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "7dea7ae4f3dd4fec4913c1b3",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "[Investigation] Thousands deported with Frontex help never see promised EU reintegration money",
-      "url": "https://euobserver.com/246767/thousands-deported-with-frontex-help-never-see-promised-eu-reintegration-money",
-      "published_at": "2026-11-10T06:00:00Z",
-      "collected_at": "2026-11-10T06:31:04Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
       ]
     },
     {
@@ -2559,6 +2529,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "1bd66d505ec9c0327599b408",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Studio Ghibli’s obsession with food: Preparing and tasting every bite before drawing it",
+      "url": "https://english.elpais.com/culture/2026-10-24/studio-ghiblis-obsession-with-food-preparing-and-tasting-every-bite-before-drawing-it.html",
+      "published_at": "2026-10-24T04:00:00Z",
+      "collected_at": "2026-11-11T07:01:08Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
