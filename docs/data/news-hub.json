@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-11T10:30:57Z",
-  "last_successful_collection_at": "2026-11-11T10:30:57Z",
+  "generated_at": "2026-11-11T11:01:10Z",
+  "last_successful_collection_at": "2026-11-11T11:01:10Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-11T10:30:57Z"
+      "at": "2026-11-11T11:01:10Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-11T10:30:57Z"
+      "at": "2026-11-11T11:01:10Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-11-11T10:30:57Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-11T11:01:10Z"
     },
     {
       "id": "euractiv",
@@ -29,59 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-11T10:30:57Z"
+      "at": "2026-11-11T11:01:10Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-11T10:30:57Z"
+      "at": "2026-11-11T11:01:10Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "55",
-      "at": "2026-11-11T10:30:57Z"
+      "at": "2026-11-11T11:01:10Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-11T10:30:57Z"
+      "at": "2026-11-11T11:01:10Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-11T10:30:57Z"
+      "at": "2026-11-11T11:01:10Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-11T10:30:57Z"
+      "at": "2026-11-11T11:01:10Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Severe Storm Forces Disruptions and Closures Across Portugal",
-      "summary": "Portuguese officials have shut down schools and major public events, including a prominent technology conference, as the country prepares for an incoming severe storm. The emergency precautions are aimed at mitigating risks to public safety amid severe weather warnings.",
-      "article_ids": [
-        "bee80567a7acfd8b36515d59"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/portugal-shuts-schools-tech-conference-as-it-braces-for-storm",
-          "headline": "Portugal shuts schools, tech conference as it braces for storm",
-          "published_at": "2026-11-11T10:02:00Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "UK Detains US Soldier Over Suspected Espionage for Russia",
-      "summary": "Authorities in the United Kingdom have taken an American soldier into custody on suspicion of conducting espionage on behalf of Russia. The arrest highlights active joint security efforts responding to alleged hostile intelligence operations within Europe.",
+      "title": "UK Authorities Detain American Service Member on Russian Espionage Allegations",
+      "summary": "British law enforcement officials have detained an American soldier over suspected espionage activities linked to Russia. The investigation highlights ongoing security concerns regarding intelligence threats within allied military ranks.",
       "article_ids": [
         "9887d8f49cde9f950c3fd214"
       ],
@@ -91,6 +75,22 @@
           "url": "https://www.france24.com/en/uk-authorities-arrests-us-soldier-suspected-of-spying-for-russia",
           "headline": "UK authorities arrest US soldier suspected of spying for Russia",
           "published_at": "2026-11-11T09:41:06Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Portugal Braces for Severe Storm With School and Event Closures",
+      "summary": "Portuguese authorities have suspended classes and canceled major tech conferences as the country prepares for severe weather conditions. Emergency measures have been put in place to protect the public from approaching storms.",
+      "article_ids": [
+        "bee80567a7acfd8b36515d59"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/portugal-shuts-schools-tech-conference-as-it-braces-for-storm",
+          "headline": "Portugal shuts schools, tech conference as it braces for storm",
+          "published_at": "2026-11-11T10:02:00Z"
         }
       ],
       "source_count": 1
@@ -98,72 +98,53 @@
   ],
   "top_stories": [
     {
-      "title": "Portugal Braces for Severe Storm With School and Event Closures",
-      "summary": "Authorities in Portugal have ordered the closure of educational institutions and suspended major gatherings, including a major tech conference, in response to severe storm warnings. The emergency measures are designed to safeguard residents and infrastructure against anticipated hazardous weather conditions.",
+      "title": "Spain General Strike and Housing Crisis",
+      "summary": "Spanish labor unions have initiated the country's first general strike in over a decade to protest severe housing affordability pressures. The widespread demonstrations have thrust the national housing crisis to the forefront of upcoming political elections.",
       "article_ids": [
-        "bee80567a7acfd8b36515d59"
+        "95890a9fa8d9fdc85e016b3e",
+        "7b2d6da713c72ddb586c382a"
       ],
       "sources": [
         {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/spain/2026-11-11/spains-unions-call-the-first-general-strike-in-14-years.html",
+          "headline": "Spain’s unions call the first general strike in 14 years",
+          "published_at": "2026-11-11T09:30:00Z"
+        },
+        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/portugal-shuts-schools-tech-conference-as-it-braces-for-storm",
-          "headline": "Portugal shuts schools, tech conference as it braces for storm",
-          "published_at": "2026-11-11T10:02:00Z"
+          "url": "https://www.france24.com/en/europe/20261111-spain-general-strike-puts-housing-crisis-centre-upcoming-elections",
+          "headline": "Spain’s general strike puts housing crisis at centre of upcoming elections",
+          "published_at": "2026-11-11T08:29:33Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "UK Authorities Detain American Service Member on Russian Espionage Allegations",
-      "summary": "British law enforcement officials have arrested a United States soldier suspected of passing intelligence to the Russian government. The security operation represents a significant counter-intelligence development involving allied military personnel stationed abroad.",
+      "title": "Ukraine Peace Negotiations",
+      "summary": "Representatives from Ukraine and Russia are participating in consecutive days of United States-mediated diplomatic discussions in Abu Dhabi. Ukrainian leadership has simultaneously urged European partners to quickly select a representative for ongoing peace talks.",
       "article_ids": [
-        "9887d8f49cde9f950c3fd214"
+        "4de27e5b9be158a3e682ff02",
+        "7a89baa8ccf56777be36e981"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/uk-authorities-arrests-us-soldier-suspected-of-spying-for-russia",
-          "headline": "UK authorities arrest US soldier suspected of spying for Russia",
-          "published_at": "2026-11-11T09:41:06Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
-    {
-      "label": "Iran · cyberattacks · denies · France",
-      "origin": "convergence",
-      "source_count": 4,
-      "item_count": 4,
-      "latest_at": "2026-11-10T15:57:00Z",
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/iran-denies-role-in-fridge-hack-france-summons-ambassador/a-79910206?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Iran denies role in fridge hack, France summons ambassador",
-          "published_at": "2026-11-10T15:57:00Z"
+          "url": "https://www.france24.com/en/europe/20261111-live-ukraine-russia-hold-second-day-of-us-mediated-talks-in-abu-dhabi",
+          "headline": "LIVE: Ukraine, Russia hold second day of US mediated talks in Abu Dhabi",
+          "published_at": "2026-11-11T03:22:45Z"
         },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/iran-denies-role-in-cyberattacks-on-supermarket-refrigerators",
-          "headline": "Iran denies role in cyberattacks on French supermarket refrigerators",
-          "published_at": "2026-11-10T15:54:16Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
-          "headline": "Iran rejects French claims it was behind supermarket fridge hacking",
-          "published_at": "2026-11-10T13:45:13Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261110-france-vows-tough-response-to-freezer-cyberattack-blamed-on-iran",
-          "headline": "France vows tough response to freezer cyberattack blamed on Iran",
-          "published_at": "2026-11-10T10:51:57Z"
+          "url": "https://www.politico.eu/article/zelenskyy-tells-europe-pick-negotiator-peace-talks-russia-ukraine",
+          "headline": "Zelenskyy tells Europe to hurry up and pick a rep for peace talks with Russia",
+          "published_at": "2026-11-10T22:09:28Z"
         }
-      ]
-    },
+      ],
+      "source_count": 2
+    }
+  ],
+  "developing": [
     {
       "label": "Ukraine · Russians · talks · charming",
       "origin": "convergence",
@@ -192,10 +173,37 @@
       ]
     },
     {
-      "label": "Hegseth · Republicans · effort · impeach",
+      "label": "Iran · denies · French · fridge",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-11-10T15:57:00Z",
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/iran-denies-role-in-fridge-hack-france-summons-ambassador/a-79910206?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Iran denies role in fridge hack, France summons ambassador",
+          "published_at": "2026-11-10T15:57:00Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/iran-denies-role-in-cyberattacks-on-supermarket-refrigerators",
+          "headline": "Iran denies role in cyberattacks on French supermarket refrigerators",
+          "published_at": "2026-11-10T15:54:16Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+          "headline": "Iran rejects French claims it was behind supermarket fridge hacking",
+          "published_at": "2026-11-10T13:45:13Z"
+        }
+      ]
+    },
+    {
+      "label": "Hegseth · effort · impeachment · Republicans",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 7,
+      "item_count": 6,
       "latest_at": "2026-11-11T09:55:04Z",
       "sources": [
         {
@@ -2112,90 +2120,6 @@
       ]
     },
     {
-      "id": "db3d59dff99b3e483d76d035",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France vows tough response to freezer cyberattack blamed on Iran",
-      "url": "https://www.france24.com/en/video/20261110-france-vows-tough-response-to-freezer-cyberattack-blamed-on-iran",
-      "published_at": "2026-11-10T10:51:57Z",
-      "collected_at": "2026-11-10T11:01:09Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "45b7264e055f7ac77de5a25e",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Seniors rock the stage: Greek theater seeks to show that 'art has no age'",
-      "url": "https://www.france24.com/en/video/20261110-seniors-rock-the-stage-greek-theater-seeks-to-show-that-art-has-no-age",
-      "published_at": "2026-11-10T10:50:39Z",
-      "collected_at": "2026-11-10T11:01:09Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e4c97de5cdcb87469faac5c2",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Peru gets ready to welcome Pope Leo XIV on his South America tour",
-      "url": "https://www.france24.com/en/video/20261110-peru-gets-ready-to-welcome-pope-leo-xiv-on-his-south-america-tour",
-      "published_at": "2026-11-10T10:48:57Z",
-      "collected_at": "2026-11-10T11:01:09Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "1e4096ce61ee044d80b92181",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US Republican Thomas Massie launches bid to impeach Pete Hegseth",
-      "url": "https://www.france24.com/en/video/20261110-us-republican-thomas-massie-launches-bid-to-impeach-pete-hegseth",
-      "published_at": "2026-11-10T10:42:42Z",
-      "collected_at": "2026-11-10T11:01:09Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "a1ffc61add70eea825aba93f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Russia and Ukraine hold US-backed talks after Trump says broad deal is possible",
-      "url": "https://www.france24.com/en/video/20261110-russia-and-ukraine-hold-us-backed-talks-after-trump-says-broad-deal-is-possible",
-      "published_at": "2026-11-10T10:40:40Z",
-      "collected_at": "2026-11-10T11:01:09Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "9fa86b2fa7d9989dcbbf1b5b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "China's 'impossible to ignore' tech rise on display at Web Summit in Lisbon",
-      "url": "https://www.france24.com/en/tv-shows/business/20261110-china-s-impossible-to-ignore-tech-rise-on-display-at-web-summit-in-lisbon",
-      "published_at": "2026-11-10T10:22:50Z",
-      "collected_at": "2026-11-10T11:01:09Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "1f2f1eb3ac7e76fe0193ce66",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2207,62 +2131,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "43d4c4c240ae5a6ce90e45f2",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Inspiring Senegal's next generation: Free tickets bring children to Dakar 2026",
-      "url": "https://www.france24.com/en/video/20261110-inspiring-senegal-s-next-generation-free-tickets-bring-children-to-dakar-2026",
-      "published_at": "2026-11-10T10:17:53Z",
-      "collected_at": "2026-11-10T11:01:09Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "5aeb62fa1be1ff2905752596",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "South Africa's ANC slumps to worst-ever election result",
-      "url": "https://www.france24.com/en/video/20261110-south-africa-s-anc-slumps-to-worst-ever-election-result",
-      "published_at": "2026-11-10T10:15:54Z",
-      "collected_at": "2026-11-10T11:01:09Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "d03f40b6e12916ae536d405a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ugandan former intelligence officer exposes alleged army abuses",
-      "url": "https://www.france24.com/en/video/20261110-ugandan-former-intelligence-officer-exposes-alleged-army-abuses",
-      "published_at": "2026-11-10T10:14:06Z",
-      "collected_at": "2026-11-10T11:01:09Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "105fe798480fb805a9258573",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "EU anger as Malta vetoes €13bn EU‑wide tobacco tax overhaul",
-      "url": "https://euobserver.com/247993/eu-anger-as-malta-vetoes-e13bn-euwide-tobacco-tax-overhaul",
-      "published_at": "2026-11-10T10:10:55Z",
-      "collected_at": "2026-11-10T10:31:04Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
       ]
     },
     {
@@ -2280,20 +2148,6 @@
       ]
     },
     {
-      "id": "3d4361b197351fafc20f5472",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Fact check: Online disinformation rife after Krakow mass shooting",
-      "url": "https://www.dw.com/en/fact-check-online-disinformation-rife-after-krakow-mass-shooting/a-79900620?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-10T10:02:00Z",
-      "collected_at": "2026-11-10T10:31:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "8d0100fa76f9f43d7410a944",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2305,20 +2159,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "1bedee085b7b95d07f343845",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Israel's new parliament to be sworn in as Eisenkot prepares government",
-      "url": "https://www.france24.com/en/middle-east/20261110-israel-s-new-parliament-to-be-sworn-in-as-eisenkot-forms-government",
-      "published_at": "2026-11-10T09:17:56Z",
-      "collected_at": "2026-11-10T11:01:09Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -2378,17 +2218,17 @@
       ]
     },
     {
-      "id": "e7856cf221ebb5bcc6fe2f04",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: US envoy urges new security framework to secure peace in Ukraine amid trilateral talks",
-      "url": "https://www.france24.com/en/europe/20261110-live-ukraine-russia-and-us-to-resume-peace-talks-in-abu-dhabi",
-      "published_at": "2026-11-10T06:09:26Z",
-      "collected_at": "2026-11-10T10:31:04Z",
+      "id": "784f6b739bc3e51dbd5bbc1a",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "US, Russia and Ukraine wrap up Abu Dhabi talks",
+      "url": "https://www.dw.com/en/us-russia-and-ukraine-wrap-up-abu-dhabi-talks/live-79906232?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-10T07:09:00Z",
+      "collected_at": "2026-11-11T11:01:10Z",
       "topics": [
         "politics",
-        "security",
-        "society"
+        "society",
+        "security"
       ]
     },
     {
@@ -2490,20 +2330,6 @@
       ]
     },
     {
-      "id": "c61d7a75a188322e7595c06a",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Europe’s democratic renewal is coming from the margins — and Brussels still isn’t listening",
-      "url": "https://euobserver.com/247287/europes-democratic-renewal-is-coming-from-the-margins-and-brussels-still-isnt-listening",
-      "published_at": "2026-11-08T10:00:00Z",
-      "collected_at": "2026-11-10T10:31:04Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "2883888aa61f9a70eb5882f5",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2588,20 +2414,6 @@
       ]
     },
     {
-      "id": "0ebe27280a06c86ac53da6f8",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "2,000-year-old Vandal artefacts anonymously handed to Polish museum",
-      "url": "https://notesfrompoland.com/2026/11/06/2000-year-old-vandal-artefacts-anonymously-handed-to-polish-museum",
-      "published_at": "2026-11-06T10:11:12Z",
-      "collected_at": "2026-11-10T10:31:04Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "06f0e1da2a7241d6e1ffc484",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2613,6 +2425,34 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "6bb157c88c547ab0e3bda4af",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Susan Sarandon: ‘Sometimes people call me a communist. I think that’s just their way of saying someone is out of their mind’",
+      "url": "https://english.elpais.com/culture/2026-11-01/susan-sarandon-sometimes-people-call-me-a-communist-i-think-thats-just-their-way-of-saying-someone-is-out-of-their-mind.html",
+      "published_at": "2026-11-02T14:40:38Z",
+      "collected_at": "2026-11-11T11:01:10Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "e5575fbd1b6e57e569214c19",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "My testosterone levels are low… so what? Why the ‘softboy’ is suddenly being celebrated",
+      "url": "https://english.elpais.com/lifestyle/2026-11-01/my-testosterone-levels-are-low-so-what-why-the-softboy-is-suddenly-being-celebrated.html",
+      "published_at": "2026-11-01T04:00:00Z",
+      "collected_at": "2026-11-11T11:01:10Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
