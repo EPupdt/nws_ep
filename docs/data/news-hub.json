@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-12T12:31:00Z",
-  "last_successful_collection_at": "2026-11-12T12:31:00Z",
+  "generated_at": "2026-11-12T13:01:09Z",
+  "last_successful_collection_at": "2026-11-12T13:01:09Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-12T12:31:00Z"
+      "at": "2026-11-12T13:01:09Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-11-12T12:31:00Z"
+      "at": "2026-11-12T13:01:09Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-12T12:31:00Z"
+      "at": "2026-11-12T13:01:09Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,69 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-12T12:31:00Z"
+      "at": "2026-11-12T13:01:09Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-12T12:31:00Z"
+      "at": "2026-11-12T13:01:09Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-11-12T12:31:00Z"
+      "at": "2026-11-12T13:01:09Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-12T12:31:00Z"
+      "at": "2026-11-12T13:01:09Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-12T12:31:00Z"
+      "at": "2026-11-12T13:01:09Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-12T12:31:00Z"
+      "at": "2026-11-12T13:01:09Z"
     }
   ],
   "europe_now": [
     {
-      "title": "US Diplomatic Mission and Starlink Disruptions in Ukraine",
-      "summary": "United States envoys arrived in Moscow to meet with Vladimir Putin following peace discussions in Abu Dhabi. Concurrently, Ukrainian authorities reported ongoing operational disruptions to the military communication network.",
+      "title": "Suspected School Bomb Hoaxes Cause Evacuations in Italy",
+      "summary": "Suspected bomb threats forced fresh evacuations of Italian schools as similar security disruptions spread across Europe.",
+      "article_ids": [
+        "ce1c360aef0f0159399690a1",
+        "f2486073fc0475e9dc857283"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
+          "headline": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
+          "published_at": "2026-11-12T12:39:39Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261112-thousands-of-schools-evacuated-in-italy-as-bomb-threats-spread-across-europe",
+          "headline": "Thousands of schools evacuated in Italy as bomb threats spread across Europe",
+          "published_at": "2026-11-12T11:08:54Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "US Envoys Meet Putin in Moscow as Ukraine Reports Starlink Disruptions",
+      "summary": "United States envoys arrived in Moscow to meet with Vladimir Putin following peace talks in Abu Dhabi. Meanwhile, Ukrainian officials reported new military disruptions to the Starlink satellite network.",
       "article_ids": [
         "24cc44453ed4ba0fcee63025",
-        "533aeff35779e865f9010487",
-        "f5fcabb0c2264b2895163d70"
+        "533aeff35779e865f9010487"
       ],
       "sources": [
         {
@@ -86,14 +108,23 @@
         }
       ],
       "source_count": 2
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Mass Demonstrations and General Strike in Spain",
-      "summary": "Millions of individuals participated in nationwide protests and the first general strike in fourteen years across Spain. The demonstrations centered on widespread public grievances concerning housing conditions and led to localized clashes.",
+      "title": "Spain General Strike and Protests",
+      "summary": "Millions of individuals participated in Spain's first general strike in fourteen years. Demonstrations over housing and economic conditions resulted in widespread street protests and clashes.",
       "article_ids": [
+        "842dda1f6c0d4ef0ce2ddda5",
         "f9b67860f78c8e33b46aede0"
       ],
       "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/spain/2026-11-12/spains-general-strike-draws-uneven-participation-and-large-street-protests.html",
+          "headline": "Spain’s general strike draws uneven participation and large street protests",
+          "published_at": "2026-11-12T12:52:02Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/video/20261112-millions-join-spain-s-first-general-strike-in-14-years-as-anger-over-housing-leads-to-clashes",
@@ -101,52 +132,27 @@
           "published_at": "2026-11-12T10:33:28Z"
         }
       ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
+      "source_count": 2
+    },
     {
-      "title": "Polish Legal and Political Investigations",
-      "summary": "Poland formally indicted a Ukrainian national on charges of participating in rail sabotage ordered by Russia. Additionally, a Polish deputy foreign minister faced criminal charges relating to the alleged misappropriation of millions of zloty.",
+      "title": "Poland Security and Legal Developments",
+      "summary": "Poland officially dismissed Russian assertions regarding the dismantling of a spy network as disinformation. Additionally, Polish authorities indicted a Ukrainian citizen for allegedly assisting in rail sabotage operations.",
       "article_ids": [
-        "7ede5ece83362b71e3beb55b",
-        "a555e9c90f2cbbad0da930f8"
+        "e0e64f0875ff340f37620c3c",
+        "7ede5ece83362b71e3beb55b"
       ],
       "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/11/12/poland-dismisses-russias-claim-of-breaking-up-polish-spy-network-as-disinformation",
+          "headline": "Poland dismisses Russia’s claim of breaking up Polish spy network as “disinformation”",
+          "published_at": "2026-11-12T12:39:35Z"
+        },
         {
           "publisher": "Notes from Poland",
           "url": "https://notesfrompoland.com/2026/11/12/poland-indicts-ukrainian-man-for-assisting-in-rail-sabotage-on-behalf-of-russia",
           "headline": "Poland indicts Ukrainian man for assisting in rail sabotage on behalf of Russia",
           "published_at": "2026-11-12T10:48:36Z"
-        },
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/12/polish-deputy-foreign-minister-charged-over-alleged-misappropriation-of-millions-of-zloty",
-          "headline": "Polish deputy foreign minister charged over alleged misappropriation of millions of zloty",
-          "published_at": "2026-11-12T08:30:00Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Security Disruptions and Hoax Threats",
-      "summary": "Numerous schools across Italy and other European regions were forced to evacuate following widespread bomb alerts. Authorities categorized these incidents as part of broader hybrid security threats impacting public infrastructure.",
-      "article_ids": [
-        "f2486073fc0475e9dc857283",
-        "6d39c99f0a34842b33b0470e"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261112-thousands-of-schools-evacuated-in-italy-as-bomb-threats-spread-across-europe",
-          "headline": "Thousands of schools evacuated in Italy as bomb threats spread across Europe",
-          "published_at": "2026-11-12T11:08:54Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261112-hybrid-warfare-hoax-bomb-alerts-sent-to-schools-in-italy-uk-in-latest-disruption",
-          "headline": "Hybrid warfare: Hoax bomb alerts sent to schools in Italy, UK in latest disruption",
-          "published_at": "2026-11-12T10:20:02Z"
         }
       ],
       "source_count": 1
@@ -171,27 +177,6 @@
           "url": "https://english.elpais.com/usa/2026-11-12/nvidia-moves-toward-replacing-jensen-huang-as-ceo-following-revelation-of-a-new-extramarital-affair.html",
           "headline": "Nvidia moves toward replacing Jensen Huang as CEO following revelation of a new extramarital affair",
           "published_at": "2026-11-12T09:29:34Z"
-        }
-      ]
-    },
-    {
-      "label": "EU · Consumers · rules",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-11T15:08:20Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/european-gaming-firms-say-new-eu-consumer-rules-will-cripple-the-industry-digital-fairness-act",
-          "headline": "European gaming firms say new EU consumer rules will ‘cripple’ the industry",
-          "published_at": "2026-11-11T15:08:20Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/248327/interview-new-dark-pattern-rules-are-ambitious-and-will-take-time-to-become-eu-law-law-professor-says",
-          "headline": "[Interview] New dark-pattern rules are ambitious and will take time to become EU law, professor says",
-          "published_at": "2026-11-11T14:25:00Z"
         }
       ]
     },
@@ -236,9 +221,86 @@
           "published_at": "2026-11-12T08:25:01Z"
         }
       ]
+    },
+    {
+      "label": "Israeli · settler",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-11-11T20:58:55Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261111-france-turns-back-israeli-settler-representative-upon-arrival-in-paris",
+          "headline": "France turns back Israeli settler representative upon arrival in Paris",
+          "published_at": "2026-11-11T20:58:55Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/248241/the-olive-branch-is-a-universal-symbol-of-peace-but-the-west-banks-autumn-olive-harvest-is-open-season-for-israeli-settlers-to-pillage-and-kill",
+          "headline": "The olive branch is a universal symbol of peace – but the West Bank’s autumn olive harvest is open season for Israeli settlers to pillage and kill",
+          "published_at": "2026-11-11T19:00:00Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "842dda1f6c0d4ef0ce2ddda5",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Spain’s general strike draws uneven participation and large street protests",
+      "url": "https://english.elpais.com/spain/2026-11-12/spains-general-strike-draws-uneven-participation-and-large-street-protests.html",
+      "published_at": "2026-11-12T12:52:02Z",
+      "collected_at": "2026-11-12T13:01:09Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "ce1c360aef0f0159399690a1",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
+      "url": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-12T12:39:39Z",
+      "collected_at": "2026-11-12T13:01:09Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "e0e64f0875ff340f37620c3c",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland dismisses Russia’s claim of breaking up Polish spy network as “disinformation”",
+      "url": "https://notesfrompoland.com/2026/11/12/poland-dismisses-russias-claim-of-breaking-up-polish-spy-network-as-disinformation",
+      "published_at": "2026-11-12T12:39:35Z",
+      "collected_at": "2026-11-12T13:01:09Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "16264c5f4c75ca3463bb8cea",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘Endeavour,’ the first space shuttle to be seen in a museum, finds permanent home in Los Angeles",
+      "url": "https://english.elpais.com/usa/2026-11-12/endeavour-the-first-space-shuttle-to-be-seen-in-a-museum-finds-permanent-home-in-los-angeles.html",
+      "published_at": "2026-11-12T12:30:22Z",
+      "collected_at": "2026-11-12T13:01:09Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "24cc44453ed4ba0fcee63025",
       "source_id": "bbc_europe",
@@ -2214,62 +2276,6 @@
       ]
     },
     {
-      "id": "858ca4eabf93c783af876ccc",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "US to seek Putin’s ‘blessing’ for Europe to join Ukraine talks",
-      "url": "https://www.politico.eu/article/u-s-to-seek-putins-blessing-for-europe-to-join-ukraine-talks",
-      "published_at": "2026-11-11T12:18:29Z",
-      "collected_at": "2026-11-11T12:31:04Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "c105958dbed3d4d3a83a944b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US House votes to derail impeachment of Defense Secretary Hegseth",
-      "url": "https://www.france24.com/en/us-house-votes-to-derail-impeachment-of-defense-secretary-hegseth",
-      "published_at": "2026-11-11T12:17:22Z",
-      "collected_at": "2026-11-11T12:31:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "10b36fd230594947516f027d",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Violent clashes near the Sudanese border: At least 65 dead in western Ethiopia",
-      "url": "https://www.france24.com/en/violent-clashes-near-the-sudanese-border-at-least-65-dead-in-western-ethiopia",
-      "published_at": "2026-11-11T12:07:35Z",
-      "collected_at": "2026-11-11T12:31:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "feddbc76642681e2f3c7c275",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "UK comedian David Walliams accused of grooming and sexual harassment",
-      "url": "https://www.france24.com/en/tv-shows/press-review/20261111-uk-comedian-david-walliams-accused-of-grooming-and-sexual-harassment",
-      "published_at": "2026-11-11T11:56:59Z",
-      "collected_at": "2026-11-11T12:31:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "4db6d97d59432d253c88da75",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2277,20 +2283,6 @@
       "url": "https://www.france24.com/en/welcome-home-peru-awaits-pope-leo-s-emotional-homecoming",
       "published_at": "2026-11-11T11:53:43Z",
       "collected_at": "2026-11-11T13:01:11Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "1026662b895dfcf56f662c50",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Threats targeting UK and Irish schools dismissed as a hoax",
-      "url": "https://www.france24.com/en/europe/20261111-hundreds-of-schools-in-italy-evacuated-after-receiving-bomb-threats",
-      "published_at": "2026-11-11T10:57:35Z",
-      "collected_at": "2026-11-11T12:31:04Z",
       "topics": [
         "politics",
         "security",
@@ -2337,6 +2329,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "60c06ee7f183e4244ccc9007",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Daniel Ortega reappears in Nicaragua looking weakened after more than two months of absence",
+      "url": "https://english.elpais.com/international/2026-11-10/daniel-ortega-reappears-in-nicaragua-looking-weakened-after-more-than-two-months-of-absence.html",
+      "published_at": "2026-11-10T12:15:43Z",
+      "collected_at": "2026-11-12T13:01:09Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2393,20 +2399,6 @@
         "central_europe",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "fb227c61e4e2c99062a43e3b",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "US, Russia, Ukraine wrap up Abu Dhabi talks with prisoner exchange",
-      "url": "https://www.dw.com/en/us-russia-ukraine-wrap-up-abu-dhabi-talks-with-prisoner-exchange/live-79906232?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-10T07:09:00Z",
-      "collected_at": "2026-11-11T12:31:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
@@ -2627,6 +2619,48 @@
       "url": "https://english.elpais.com/culture/2026-11-08/paul-smith-still-at-the-top-of-fashion-at-80-i-dress-very-famous-people-but-i-think-of-them-as-ordinary-people.html",
       "published_at": "2026-11-08T04:00:00Z",
       "collected_at": "2026-11-12T05:31:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "8b87a2953eea0d45bafa28dc",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The surreal journey of Salvador Dalí’s legs in a cardboard box: A window into the DNA of human creativity",
+      "url": "https://english.elpais.com/science-tech/2026-11-06/the-surreal-journey-of-salvador-dalis-legs-in-a-cardboard-box-a-window-into-the-dna-of-human-creativity.html",
+      "published_at": "2026-11-06T11:48:47Z",
+      "collected_at": "2026-11-12T13:01:09Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "f7125b63a33a6de3a52d6786",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Spain’s transportation minister steps down over train crash to try to save the Socialist campaign ahead of elections",
+      "url": "https://english.elpais.com/spain/2026-11-04/spains-transportation-minister-steps-down-over-train-crash-to-try-to-save-the-socialist-campaign-ahead-of-elections.html",
+      "published_at": "2026-11-04T11:51:58Z",
+      "collected_at": "2026-11-12T13:01:09Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "9b687c810858288fa83c472b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Chinese women seek to break out of traditional roles",
+      "url": "https://english.elpais.com/international/2026-10-21/chinese-women-seek-to-break-out-of-traditional-roles.html",
+      "published_at": "2026-10-21T08:53:13Z",
+      "collected_at": "2026-11-12T13:01:09Z",
       "topics": [
         "politics",
         "society",
