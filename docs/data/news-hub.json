@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-13T18:01:06Z",
-  "last_successful_collection_at": "2026-11-13T18:01:06Z",
+  "generated_at": "2026-11-13T18:31:05Z",
+  "last_successful_collection_at": "2026-11-13T18:31:05Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-13T18:01:06Z"
+      "at": "2026-11-13T18:31:05Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-13T18:01:06Z"
+      "at": "2026-11-13T18:31:05Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-13T18:01:06Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-11-13T18:31:05Z"
     },
     {
       "id": "euractiv",
@@ -29,70 +29,69 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-13T18:01:06Z"
+      "at": "2026-11-13T18:31:05Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-13T18:01:06Z"
+      "at": "2026-11-13T18:31:05Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-11-13T18:01:06Z"
+      "at": "2026-11-13T18:31:05Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-13T18:01:06Z"
+      "at": "2026-11-13T18:31:05Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-13T18:01:06Z"
+      "at": "2026-11-13T18:31:05Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-13T18:01:06Z"
+      "at": "2026-11-13T18:31:05Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Microsoft Outage Spurs European Tech Dependency Debates",
-      "summary": "A widespread Microsoft outage has disrupted services globally and renewed political calls within Europe to reduce reliance on American technology. European institutions reported surviving the disruption largely unscathed while regional systems experienced significant setbacks.",
+      "title": "Microsoft Outage Disrupts Services Globally",
+      "summary": "A massive Microsoft outage caused widespread disruptions across multiple countries, affecting digital infrastructure and renewing discussions surrounding reliance on foreign technology.",
       "article_ids": [
-        "671e435e3fb4b7f9847e24d2",
         "09b4af935b35188cf14b0d23",
-        "51c8f672b5e55557c5b1e931"
+        "eab34470c01a77345bab0cc1",
+        "671e435e3fb4b7f9847e24d2"
       ],
       "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/microsoft-outage-renews-european-calls-to-detox-from-us-tech",
-          "headline": "Microsoft outage renews European calls to detox from US tech",
-          "published_at": "2026-11-13T17:32:11Z"
-        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/technology/20261113-major-microsoft-outlook-outage-disrupts-services-in-74-countries",
           "headline": "🔴 Live: Microsoft reports 'improvements' to Outlook services in North America, Europe",
           "published_at": "2026-11-13T14:02:01Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/technology/2026-11-13/microsoft-fails-to-restore-services-after-more-than-12-hours-of-global-disruption.html",
+          "headline": "Microsoft services are beginning to return to normal after global outage of over 18 hours",
+          "published_at": "2026-11-13T13:56:19Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "German Intelligence Granted Expanded Powers for Hybrid Threats",
-      "summary": "German intelligence agencies have been given new legal authorities aimed at addressing foreign hybrid threats and security challenges. The legislative update forms part of broader regional adjustments to European security and defense architectures.",
+      "title": "German Intelligence Granted Expanded Powers",
+      "summary": "German intelligence agencies have been given new legislative authorities to combat foreign hybrid threats and enhance national security measures.",
       "article_ids": [
-        "56f1cd1eba06eb9ee8df9a35",
-        "9a7365e27dc7a218eb8f5f0f"
+        "56f1cd1eba06eb9ee8df9a35"
       ],
       "sources": [
         {
@@ -108,53 +107,90 @@
   "top_stories": [
     {
       "title": "Ukraine Conflict and Regional Diplomacy",
-      "summary": "Ongoing peace negotiations and military developments continue to shape the trajectory of the conflict involving Russia and Ukraine. Official databases and battlefield reports indicate mounting casualties and sustained military engagements across multiple fronts.",
+      "summary": "Peace negotiations and diplomatic discussions concerning the ongoing war in Ukraine continue to develop amid heavy fighting. Official databases indicate high casualty counts on the Russian side as military engagements persist.",
       "article_ids": [
-        "cdd3a825bc90608a8b30f50d",
-        "1a66827e0e27f5099294abd6",
+        "195410da60b60cc40fd68033",
+        "0f94b6260ff557299aae36db",
         "abed31cd80ac0761b1609034"
       ],
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/248830/russian-aviations-losing-streak-continues-with-three-aircraft-and-their-crews-lost-near-st-petersburg-ukraine-battlefield-update-day-1723",
-          "headline": "Russian aviation’s losing streak continues, with three aircraft and their crews lost near St Petersburg (Ukraine Battlefield update, Day 1,723)",
-          "published_at": "2026-11-13T17:13:19Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/what-vladimir-putin-won-in-abu-dhabi-ukraine-peace-talks",
+          "headline": "What Vladimir Putin won in Abu Dhabi Ukraine peace talks",
+          "published_at": "2026-11-13T16:18:55Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-11-13/more-than-450000-fighters-on-the-russian-side-have-died-since-the-start-of-the-war-according-to-official-database.html",
+          "headline": "More than 450,000 fighters on the Russian side have died since the start of the war, according to official database",
+          "published_at": "2026-11-13T12:55:43Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "developing": [
+    {
+      "label": "Ukraine · Russia · peace · EU",
+      "origin": "convergence",
+      "source_count": 4,
+      "item_count": 19,
+      "latest_at": "2026-11-13T17:28:54Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261113-as-eu-grapples-with-fierce-ai-competition-summit-overshadowed-by-elusive-ukraine-russia-peace-deal-1",
+          "headline": "As EU grapples with fierce AI competition, summit overshadowed by elusive Ukraine-Russia peace deal",
+          "published_at": "2026-11-13T17:28:54Z"
         },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
           "headline": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
           "published_at": "2026-11-13T16:40:31Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Ukrainian Refugees Transition to Long-Term Settlement",
-      "summary": "Ukrainian refugees residing in Poland are increasingly confronting the realities of long-term integration as temporary arrangements give way to permanent stays. Local institutions and research initiatives continue to monitor and support these demographic shifts.",
-      "article_ids": [
-        "af8293d4a25128e17e08cf17",
-        "38d33242e3a3a1f85a6d201e"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/13/poland-research-hub-launched-at-oxford-university",
-          "headline": "Poland research hub launched at Oxford University",
-          "published_at": "2026-11-13T16:38:36Z"
         },
         {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/13/temporary-no-longer-ukrainian-refugees-in-poland-confront-the-long-term",
-          "headline": "Temporary no longer: Ukrainian refugees in Poland confront the long term",
-          "published_at": "2026-11-13T12:38:06Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-countries-to-announce-deportation-hub-deal-with-rwanda",
+          "headline": "EU countries to announce deportation hub deal with Rwanda",
+          "published_at": "2026-11-13T16:23:33Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/eu-leaders-tussle-over-who-to-send-to-ukraine-russia-peace-talks/a-79935468?maca=en-rss-en-eu-2092-rdf",
+          "headline": "EU leaders tussle over who to send to Ukraine, Russia peace talks",
+          "published_at": "2026-11-12T22:00:00Z"
         }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
+      ]
+    },
+    {
+      "label": "Europe · Putin · peace · talks",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 4,
+      "latest_at": "2026-11-13T18:14:04Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/why-europe-failed-to-find-a-superhero-to-take-on-vladimir-putin",
+          "headline": "Why Europe failed to find a superhero to take on Putin",
+          "published_at": "2026-11-13T18:14:04Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261113-us-ukraine-say-europe-to-join-peace-talks-as-putin-sticks-to-hardline-stance",
+          "headline": "US, Ukraine say Europe to join peace talks as Putin sticks to hardline stance",
+          "published_at": "2026-11-13T10:59:10Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/248586/europes-self-styled-pacifists-are-helping-putin-freeze-ukrainians-out",
+          "headline": "Europe’s self-styled pacifists are helping Putin freeze Ukrainians in their homes",
+          "published_at": "2026-11-12T19:00:00Z"
+        }
+      ]
+    },
     {
       "label": "Nvidia · scandal · Huang · CEO",
       "origin": "convergence",
@@ -196,51 +232,65 @@
           "published_at": "2026-11-13T10:40:11Z"
         }
       ]
-    },
-    {
-      "label": "Europe · Russia · expert · illegal",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-11-13T15:23:56Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/248747/interview-do-not-be-afraid-be-prepared-estonian-prime-minister-kristen-michal-on-how-to-defend-europe-from-russia",
-          "headline": "[Interview] ‘Do not be afraid, be prepared’: Estonian prime minister Kristen Michal on how to defend Europe from Russia",
-          "published_at": "2026-11-13T15:23:56Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/a-propos/20261112-russia-using-illegal-and-unethical-means-knows-europe-won-t-use-same-means-back-expert-says",
-          "headline": "Russia using 'illegal and unethical means, knows Europe won't use same means back', expert says",
-          "published_at": "2026-11-12T22:19:34Z"
-        }
-      ]
-    },
-    {
-      "label": "Putin · Ukrainians · coming · grid",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-13T09:26:32Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/winter-is-coming-putin-seeks-to-hammer-ukrainians-their-power-grid-their-water-supplies",
-          "headline": "Winter is coming: Putin seeks to 'hammer Ukrainians, their power grid, their water supplies'",
-          "published_at": "2026-11-13T09:26:32Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/248586/europes-self-styled-pacifists-are-helping-putin-freeze-ukrainians-out",
-          "headline": "Europe’s self-styled pacifists are helping Putin freeze Ukrainians in their homes",
-          "published_at": "2026-11-12T19:00:00Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "4c6d1fe2e4951940cbcc4eea",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "What we know about China's military exercises around Taiwan",
+      "url": "https://www.france24.com/en/asia-pacific/20261113-chinese-army-military-exercises-taiwan",
+      "published_at": "2026-11-13T18:19:19Z",
+      "collected_at": "2026-11-13T18:31:05Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "ba534708602013c0bdfd894c",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Why Europe failed to find a superhero to take on Putin",
+      "url": "https://www.politico.eu/article/why-europe-failed-to-find-a-superhero-to-take-on-vladimir-putin",
+      "published_at": "2026-11-13T18:14:04Z",
+      "collected_at": "2026-11-13T18:31:05Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "195410da60b60cc40fd68033",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Le Pen offers to meet Zelenskyy in Brussels",
+      "url": "https://www.politico.eu/article/france-marine-le-pen-offers-to-meet-ukraine-volodymyr-zelenskyy-in-brussels",
+      "published_at": "2026-11-13T18:07:50Z",
+      "collected_at": "2026-11-13T18:31:05Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "ca6f00a63567d60ed80db6e5",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'We have done all our homework' to get EU candidate status: Kosovo's PM Albin Kurti",
+      "url": "https://www.france24.com/en/tv-shows/talking-europe/20261113-we-have-done-all-our-homework-to-get-eu-candidate-status-kosovo-s-pm-albin-kurti",
+      "published_at": "2026-11-13T17:46:16Z",
+      "collected_at": "2026-11-13T18:31:05Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "671e435e3fb4b7f9847e24d2",
       "source_id": "politico_europe",
@@ -267,6 +317,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "006c8393316f5af31c503063",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "As EU grapples with fierce AI competition, summit overshadowed by elusive Ukraine-Russia peace deal",
+      "url": "https://www.france24.com/en/video/20261113-as-eu-grapples-with-fierce-ai-competition-summit-overshadowed-by-elusive-ukraine-russia-peace-deal-1",
+      "published_at": "2026-11-13T17:28:54Z",
+      "collected_at": "2026-11-13T18:31:05Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -2076,20 +2140,6 @@
       ]
     },
     {
-      "id": "d02d51044951f914133f5893",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
-      "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-12T18:28:59Z",
-      "collected_at": "2026-11-12T18:31:00Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "2b93328d5603186cc54edf94",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2115,118 +2165,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "63cd7bb7ad3fd80117778140",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Scientists create largest-ever map of brain region tied to Parkinson’s, Alzheimer’s, schizophrenia and autism",
-      "url": "https://english.elpais.com/science-tech/2026-11-12/scientists-create-largest-ever-map-of-brain-region-tied-to-parkinsons-alzheimers-schizophrenia-and-autism.html",
-      "published_at": "2026-11-12T17:50:31Z",
-      "collected_at": "2026-11-12T18:31:00Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "3f8fdc73c18ebd5fa96e3169",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Israel to ban far-left French politician Jean-Luc Mélenchon from entry",
-      "url": "https://www.france24.com/en/middle-east/20261112-israel-to-ban-far-left-french-politician-jean-luc-m%C3%A9lenchon-from-entry",
-      "published_at": "2026-11-12T17:43:03Z",
-      "collected_at": "2026-11-12T18:01:09Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "8b6e34611b3feb98ed0740df",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "EU Parliament asked to lift immunity of German far-right MEP accused of baseball‑bat attack on teen",
-      "url": "https://euobserver.com/248700/eu-parliament-asked-to-lift-immunity-of-german-far-right-mep-accused-of-baseballbat-attack-on-teen",
-      "published_at": "2026-11-12T17:42:53Z",
-      "collected_at": "2026-11-12T18:01:09Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "07ba9fd9d71bead9e13a0cd6",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "‘Labelled terrorists’: How France is using anti-terror powers to deter protests",
-      "url": "https://www.france24.com/en/france/20261112-labelled-terrorists-france-authorities-used-anti-terrorism-powers-to-deter-protests",
-      "published_at": "2026-11-12T17:32:06Z",
-      "collected_at": "2026-11-12T18:01:09Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "06b7f286e2427639b2d0fe18",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "With Russia’s front collapsing, Putin is weaponising the Dnipro River by using it to slice Ukraine in two (Ukraine Battlefield update, Day 1,722)",
-      "url": "https://euobserver.com/248654/with-russias-front-collapsing-putin-is-weaponising-the-dnipro-river-by-using-it-to-slice-ukraine-in-two-ukraine-battlefield-update-day-1722",
-      "published_at": "2026-11-12T17:28:21Z",
-      "collected_at": "2026-11-12T18:01:09Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "6a97a1f9f0e3b5c997798c74",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The mystery of the Japanese bacteria living on Rembrandt’s ‘The Night Watch’",
-      "url": "https://english.elpais.com/science-tech/2026-11-12/the-mystery-of-the-japanese-bacteria-living-on-rembrandts-the-night-watch.html",
-      "published_at": "2026-11-12T16:33:08Z",
-      "collected_at": "2026-11-12T18:31:00Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "bcc8616f33e5922d0d08beed",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Hungary eases abortion restrictions in women's rights overhaul",
-      "url": "https://www.dw.com/en/hungary-eases-abortion-restrictions-in-women-s-rights-overhaul/a-79931614?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-12T16:13:00Z",
-      "collected_at": "2026-11-12T18:31:00Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "59831da6196826c392e95bbd",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Grenade blast outside TV network puts Colombia’s media on edge",
-      "url": "https://english.elpais.com/international/2026-11-12/grenade-blast-outside-tv-network-puts-colombias-media-on-edge.html",
-      "published_at": "2026-11-12T15:54:17Z",
-      "collected_at": "2026-11-12T18:31:00Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
