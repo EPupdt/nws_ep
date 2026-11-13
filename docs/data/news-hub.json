@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-13T17:30:58Z",
-  "last_successful_collection_at": "2026-11-13T17:30:58Z",
+  "generated_at": "2026-11-13T18:01:06Z",
+  "last_successful_collection_at": "2026-11-13T18:01:06Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-13T17:30:58Z"
+      "at": "2026-11-13T18:01:06Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-13T17:30:58Z"
+      "at": "2026-11-13T18:01:06Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-11-13T17:30:58Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-13T18:01:06Z"
     },
     {
       "id": "euractiv",
@@ -29,45 +29,70 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-13T17:30:58Z"
+      "at": "2026-11-13T18:01:06Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-13T17:30:58Z"
+      "at": "2026-11-13T18:01:06Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-11-13T17:30:58Z"
+      "at": "2026-11-13T18:01:06Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-13T17:30:58Z"
+      "at": "2026-11-13T18:01:06Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-13T17:30:58Z"
+      "at": "2026-11-13T18:01:06Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-13T17:30:58Z"
+      "at": "2026-11-13T18:01:06Z"
     }
   ],
   "europe_now": [
     {
-      "title": "German intelligence granted enhanced powers",
-      "summary": "German security services have received new legislative authorities to address foreign hybrid threats. This development reflects growing security concerns across European states regarding cross-border interference.",
+      "title": "Microsoft Outage Spurs European Tech Dependency Debates",
+      "summary": "A widespread Microsoft outage has disrupted services globally and renewed political calls within Europe to reduce reliance on American technology. European institutions reported surviving the disruption largely unscathed while regional systems experienced significant setbacks.",
       "article_ids": [
-        "56f1cd1eba06eb9ee8df9a35"
+        "671e435e3fb4b7f9847e24d2",
+        "09b4af935b35188cf14b0d23",
+        "51c8f672b5e55557c5b1e931"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/microsoft-outage-renews-european-calls-to-detox-from-us-tech",
+          "headline": "Microsoft outage renews European calls to detox from US tech",
+          "published_at": "2026-11-13T17:32:11Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/technology/20261113-major-microsoft-outlook-outage-disrupts-services-in-74-countries",
+          "headline": "🔴 Live: Microsoft reports 'improvements' to Outlook services in North America, Europe",
+          "published_at": "2026-11-13T14:02:01Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "German Intelligence Granted Expanded Powers for Hybrid Threats",
+      "summary": "German intelligence agencies have been given new legal authorities aimed at addressing foreign hybrid threats and security challenges. The legislative update forms part of broader regional adjustments to European security and defense architectures.",
+      "article_ids": [
+        "56f1cd1eba06eb9ee8df9a35",
+        "9a7365e27dc7a218eb8f5f0f"
       ],
       "sources": [
         {
@@ -78,62 +103,47 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Microsoft global outage disrupts services",
-      "summary": "Major disruptions affecting Microsoft Outlook and related services persisted across multiple regions including Europe for over eighteen hours. Technology providers have begun reporting gradual service restorations and improvements.",
-      "article_ids": [
-        "09b4af935b35188cf14b0d23",
-        "eab34470c01a77345bab0cc1"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/technology/20261113-major-microsoft-outlook-outage-disrupts-services-in-74-countries",
-          "headline": "🔴 Live: Microsoft reports 'improvements' to Outlook services in North America, Europe",
-          "published_at": "2026-11-13T14:02:01Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/technology/2026-11-13/microsoft-fails-to-restore-services-after-more-than-12-hours-of-global-disruption.html",
-          "headline": "Microsoft services are beginning to return to normal after global outage of over 18 hours",
-          "published_at": "2026-11-13T13:56:19Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "Ukraine conflict and peace talks",
-      "summary": "Diplomatic efforts and ongoing negotiations regarding the war in Ukraine continue alongside continued military engagements. Official databases indicate significant casualties on the Russian side since the conflict began.",
+      "title": "Ukraine Conflict and Regional Diplomacy",
+      "summary": "Ongoing peace negotiations and military developments continue to shape the trajectory of the conflict involving Russia and Ukraine. Official databases and battlefield reports indicate mounting casualties and sustained military engagements across multiple fronts.",
       "article_ids": [
+        "cdd3a825bc90608a8b30f50d",
         "1a66827e0e27f5099294abd6",
         "abed31cd80ac0761b1609034"
       ],
       "sources": [
         {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/248830/russian-aviations-losing-streak-continues-with-three-aircraft-and-their-crews-lost-near-st-petersburg-ukraine-battlefield-update-day-1723",
+          "headline": "Russian aviation’s losing streak continues, with three aircraft and their crews lost near St Petersburg (Ukraine Battlefield update, Day 1,723)",
+          "published_at": "2026-11-13T17:13:19Z"
+        },
+        {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
           "headline": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
           "published_at": "2026-11-13T16:40:31Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-11-13/more-than-450000-fighters-on-the-russian-side-have-died-since-the-start-of-the-war-according-to-official-database.html",
-          "headline": "More than 450,000 fighters on the Russian side have died since the start of the war, according to official database",
-          "published_at": "2026-11-13T12:55:43Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "Ukrainian refugees in Poland",
-      "summary": "Refugees from Ukraine residing in Poland are increasingly confronting the long-term realities of displacement rather than temporary stays. Communities and researchers are adapting to support these evolving settlement patterns.",
+      "title": "Ukrainian Refugees Transition to Long-Term Settlement",
+      "summary": "Ukrainian refugees residing in Poland are increasingly confronting the realities of long-term integration as temporary arrangements give way to permanent stays. Local institutions and research initiatives continue to monitor and support these demographic shifts.",
       "article_ids": [
+        "af8293d4a25128e17e08cf17",
         "38d33242e3a3a1f85a6d201e"
       ],
       "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/11/13/poland-research-hub-launched-at-oxford-university",
+          "headline": "Poland research hub launched at Oxford University",
+          "published_at": "2026-11-13T16:38:36Z"
+        },
         {
           "publisher": "Notes from Poland",
           "url": "https://notesfrompoland.com/2026/11/13/temporary-no-longer-ukrainian-refugees-in-poland-confront-the-long-term",
@@ -231,6 +241,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "671e435e3fb4b7f9847e24d2",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Microsoft outage renews European calls to detox from US tech",
+      "url": "https://www.politico.eu/article/microsoft-outage-renews-european-calls-to-detox-from-us-tech",
+      "published_at": "2026-11-13T17:32:11Z",
+      "collected_at": "2026-11-13T18:01:06Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "9a7365e27dc7a218eb8f5f0f",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "The dangers of revising Europe's security architecture",
+      "url": "https://www.dw.com/en/the-dangers-of-revising-europe-s-security-architecture/a-79943049?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-13T17:30:00Z",
+      "collected_at": "2026-11-13T18:01:06Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
     {
       "id": "cdd3a825bc90608a8b30f50d",
       "source_id": "euobserver",
@@ -2150,62 +2188,6 @@
       ]
     },
     {
-      "id": "c3fec0aee61cf23ca82094e3",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "De grandes villes européennes demandent à l’UE d’interdire les filtres des cigarettes",
-      "url": "https://www.politico.eu/article/de-grandes-villes-europeennes-demandent-a-lue-dinterdire-les-filtres-des-cigarettes",
-      "published_at": "2026-11-12T17:20:22Z",
-      "collected_at": "2026-11-12T17:31:02Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "c19bb0897d168e7be6c0b8c1",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Can the EU make it harder to trick consumers online?",
-      "url": "https://www.dw.com/en/can-the-eu-make-it-harder-to-trick-consumers-online/a-79933447?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-12T17:19:00Z",
-      "collected_at": "2026-11-12T17:31:02Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "d202513647e64ee65a757577",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Concentration of power & wealth: Do tech CEOs have more authority, influence than elected officials?",
-      "url": "https://www.france24.com/en/video/20261112-concentration-of-power-wealth-do-tech-ceos-have-more-authority-influence-than-elected-officials",
-      "published_at": "2026-11-12T16:49:25Z",
-      "collected_at": "2026-11-12T17:31:02Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e75a1d7c5dc7a9bc8fceb830",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Russia's Vladimir Putin suggests no Ukraine compromise in meeting with US envoys",
-      "url": "https://www.france24.com/en/video/20261112-russia-s-vladimir-putin-suggests-no-ukraine-compromise-in-meeting-with-us-envoys",
-      "published_at": "2026-11-12T16:46:14Z",
-      "collected_at": "2026-11-12T17:31:02Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "6a97a1f9f0e3b5c997798c74",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2416,20 +2398,6 @@
       ]
     },
     {
-      "id": "c66c617980a2200fe61577f1",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "First day of Ukraine peace talks constructive, Zelensky says",
-      "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-10T21:21:55Z",
-      "collected_at": "2026-11-12T17:31:02Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "319414b0893a0805e081ba46",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2483,20 +2451,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "eb86936ffd467334f754a7dd",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Inside devastated front-line city that Russia wants Ukraine to give up",
-      "url": "https://www.bbc.co.uk/news/articles/cq0memrywvzro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-10T17:00:11Z",
-      "collected_at": "2026-11-12T17:31:02Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
