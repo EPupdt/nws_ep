@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-13T14:31:05Z",
-  "last_successful_collection_at": "2026-11-13T14:31:05Z",
+  "generated_at": "2026-11-13T15:01:06Z",
+  "last_successful_collection_at": "2026-11-13T15:01:06Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-13T14:31:05Z"
+      "at": "2026-11-13T15:01:06Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-13T14:31:05Z"
+      "at": "2026-11-13T15:01:06Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-13T14:31:05Z"
+      "at": "2026-11-13T15:01:06Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-13T14:31:05Z"
+      "at": "2026-11-13T15:01:06Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-13T14:31:05Z"
+      "at": "2026-11-13T15:01:06Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-11-13T14:31:05Z"
+      "at": "2026-11-13T15:01:06Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-13T14:31:05Z"
+      "at": "2026-11-13T15:01:06Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-13T14:31:05Z"
+      "at": "2026-11-13T15:01:06Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-13T14:31:05Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-13T15:01:06Z"
     }
   ],
-  "europe_now": [
+  "europe_now": [],
+  "top_stories": [
     {
-      "title": "Microsoft Services Outage",
-      "summary": "Major disruptions to Microsoft and Outlook services affected users across Europe and globally for over 18 hours. Companies and platforms reported recovery efforts, with officials noting no initial signs of a cyberattack.",
+      "title": "Microsoft Outlook Outage",
+      "summary": "Major disruptions to Microsoft services entered their second day across Europe and North America. Tech companies and affected institutions reported ongoing efforts to restore normal operations.",
       "article_ids": [
         "09b4af935b35188cf14b0d23",
-        "eab34470c01a77345bab0cc1",
         "00812b74ac6cf92fbd90c460"
       ],
       "sources": [
@@ -79,23 +79,39 @@
           "published_at": "2026-11-13T14:02:01Z"
         },
         {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/technology/2026-11-13/microsoft-fails-to-restore-services-after-more-than-12-hours-of-global-disruption.html",
-          "headline": "Microsoft services are beginning to return to normal after global outage of over 18 hours",
-          "published_at": "2026-11-13T13:56:19Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261113-one-of-the-biggest-outages-ever-disruption-to-microsoft-services-enters-second-day",
+          "headline": "'One of the biggest outages ever': Disruption to Microsoft services enters second day",
+          "published_at": "2026-11-13T09:59:22Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "Ukraine Peace Talks and Regional Developments",
-      "summary": "Ukrainian and United States officials indicated that European nations are set to join upcoming peace negotiations with Russia. Meanwhile, ongoing conflict reports highlight heavy personnel losses and continued security incidents within Russia.",
+      "title": "Ukraine Peace Negotiations",
+      "summary": "European officials are set to join upcoming diplomatic negotiations regarding the conflict in Ukraine. Meanwhile, reports indicate that most local citizens remain skeptical about the potential for a formal peace deal.",
       "article_ids": [
         "fd8051db967096819c4497d7",
-        "e10c1268f88128ce8dd7aa0b",
-        "7b997a2adfd6dd4a54d56c99",
-        "527a00bfa95cc63d0b2ea60a"
+        "7b997a2adfd6dd4a54d56c99"
       ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261113-us-ukraine-say-europe-to-join-peace-talks-as-putin-sticks-to-hardline-stance",
+          "headline": "US, Ukraine say Europe to join peace talks as Putin sticks to hardline stance",
+          "published_at": "2026-11-13T10:59:10Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
+    {
+      "label": "peace · Russia · talks · Ukraine",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 6,
+      "latest_at": "2026-11-13T14:14:14Z",
       "sources": [
         {
           "publisher": "France 24 English",
@@ -108,93 +124,12 @@
           "url": "https://www.bbc.co.uk/news/articles/c5gm3gnwl42eo?at_medium=RSS&at_campaign=rss",
           "headline": "Russia hit by second car bomb in as many days as peace talks continue",
           "published_at": "2026-11-13T13:11:23Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Microsoft Service Disruptions",
-      "summary": "Microsoft services experienced widespread outages lasting over 18 hours across multiple countries and regions. The company reported gradual service improvements and stated there was no indication of malicious cyber activity.",
-      "article_ids": [
-        "09b4af935b35188cf14b0d23",
-        "eab34470c01a77345bab0cc1",
-        "00812b74ac6cf92fbd90c460"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/technology/20261113-major-microsoft-outlook-outage-disrupts-services-in-74-countries",
-          "headline": "🔴 Live: Microsoft reports 'improvements' to Outlook services in North America, Europe",
-          "published_at": "2026-11-13T14:02:01Z"
         },
         {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/technology/2026-11-13/microsoft-fails-to-restore-services-after-more-than-12-hours-of-global-disruption.html",
-          "headline": "Microsoft services are beginning to return to normal after global outage of over 18 hours",
-          "published_at": "2026-11-13T13:56:19Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Ukraine Diplomatic and Conflict Updates",
-      "summary": "Ukrainian and American sources stated that European countries will participate in upcoming peace negotiations regarding the war with Russia. Concurrently, reports indicate significant casualties and ongoing military developments on the ground.",
-      "article_ids": [
-        "fd8051db967096819c4497d7",
-        "abed31cd80ac0761b1609034",
-        "7b997a2adfd6dd4a54d56c99",
-        "527a00bfa95cc63d0b2ea60a"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261113-most-ukrainians-think-there-s-no-chance-of-a-peace-deal-with-russia",
-          "headline": "Most Ukrainians 'think there's no chance of a peace deal' with Russia",
-          "published_at": "2026-11-13T14:14:14Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-11-13/more-than-450000-fighters-on-the-russian-side-have-died-since-the-start-of-the-war-according-to-official-database.html",
-          "headline": "More than 450,000 fighters on the Russian side have died since the start of the war, according to official database",
-          "published_at": "2026-11-13T12:55:43Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
-    {
-      "label": "Ukraine · talks · Europe · Putin",
-      "origin": "convergence",
-      "source_count": 5,
-      "item_count": 16,
-      "latest_at": "2026-11-13T10:59:10Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261113-us-ukraine-say-europe-to-join-peace-talks-as-putin-sticks-to-hardline-stance",
-          "headline": "US, Ukraine say Europe to join peace talks as Putin sticks to hardline stance",
-          "published_at": "2026-11-13T10:59:10Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/sviatlana-tsikhanouskaya-urges-europe-include-belarus-ukraine-peace-negotiations",
-          "headline": "Dissident leader wants Europe to consider Belarus in broader Ukraine peace deal",
-          "published_at": "2026-11-13T03:00:00Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
-          "headline": "US envoys meet Zelensky in Dublin after talks with Putin in Moscow",
-          "published_at": "2026-11-12T21:00:42Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/248586/europes-self-styled-pacifists-are-helping-putin-freeze-ukrainians-out",
-          "headline": "Europe’s self-styled pacifists are helping Putin freeze Ukrainians in their homes",
-          "published_at": "2026-11-12T19:00:00Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/eu-leaders-tussle-over-who-to-send-to-ukraine-russia-peace-talks/a-79935468?maca=en-rss-en-eu-2092-rdf",
+          "headline": "EU leaders tussle over who to send to Ukraine, Russia peace talks",
+          "published_at": "2026-11-12T22:00:00Z"
         }
       ]
     },
@@ -223,7 +158,7 @@
       "label": "Pope · XIV · Peruvians · country",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 6,
+      "item_count": 5,
       "latest_at": "2026-11-13T10:55:09Z",
       "sources": [
         {
@@ -263,6 +198,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "623dabaec004842dcdaa8c5e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Roger Waters launches heartfelt plea for 'an end to the genocide in Gaza'",
+      "url": "https://www.france24.com/en/tv-shows/arts24/20261113-roger-waters-launches-heartfelt-plea-for-an-end-to-the-genocide-in-gaza",
+      "published_at": "2026-11-13T14:45:00Z",
+      "collected_at": "2026-11-13T15:01:06Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "bf62fcaac74e1aa237693d93",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'Devastated wasteland': Haitian security forces regain control of stadium from gangs",
+      "url": "https://www.france24.com/en/video/20261113-devastated-wasteland-haitian-security-forces-regain-control-of-stadium-from-gangs",
+      "published_at": "2026-11-13T14:37:07Z",
+      "collected_at": "2026-11-13T15:01:06Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "f90276f575ca0f50903b0579",
       "source_id": "france24",
@@ -2752,36 +2715,6 @@
       "title": "Session 2b: What would make the European Economy secure in 2030?",
       "url": "https://www.bruegel.org/node/12380",
       "published_at": "2026-07-03T09:22:32Z",
-      "collected_at": "2026-11-13T14:31:05Z",
-      "topics": [
-        "analysis",
-        "economy",
-        "energy",
-        "climate"
-      ]
-    },
-    {
-      "id": "f36c6e1eec887d0c4440b1c9",
-      "source_id": "bruegel",
-      "source_name": "Bruegel",
-      "title": "Coffee break",
-      "url": "https://www.bruegel.org/node/12379",
-      "published_at": "2026-07-03T09:21:33Z",
-      "collected_at": "2026-11-13T14:31:05Z",
-      "topics": [
-        "analysis",
-        "economy",
-        "energy",
-        "climate"
-      ]
-    },
-    {
-      "id": "f146d1b8cdec80f00d59f44d",
-      "source_id": "bruegel",
-      "source_name": "Bruegel",
-      "title": "Session 1a: Europe's digital sovereignty: lessons from China's AI quest",
-      "url": "https://www.bruegel.org/node/12377",
-      "published_at": "2026-07-03T09:19:55Z",
       "collected_at": "2026-11-13T14:31:05Z",
       "topics": [
         "analysis",
