@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-14T19:01:07Z",
-  "last_successful_collection_at": "2026-11-14T19:01:07Z",
+  "generated_at": "2026-11-14T19:31:01Z",
+  "last_successful_collection_at": "2026-11-14T19:31:01Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-14T19:01:07Z"
+      "at": "2026-11-14T19:31:01Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-11-14T19:01:07Z"
+      "at": "2026-11-14T19:31:01Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-14T19:01:07Z"
+      "at": "2026-11-14T19:31:01Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-14T19:01:07Z"
+      "at": "2026-11-14T19:31:01Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-14T19:01:07Z"
+      "at": "2026-11-14T19:31:01Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-11-14T19:01:07Z"
+      "at": "2026-11-14T19:31:01Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-14T19:01:07Z"
+      "at": "2026-11-14T19:31:01Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-14T19:01:07Z"
+      "at": "2026-11-14T19:31:01Z"
     },
     {
       "id": "bruegel",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-14T19:01:07Z"
+      "status": "ok",
+      "count": "10",
+      "at": "2026-11-14T19:31:01Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Italy fines Meta over privacy and data access",
-      "summary": "Italian authorities have issued a massive financial penalty against Meta following investigations into privacy violations and the handling of user photos. The enforcement action highlights ongoing regulatory scrutiny of major technology companies operating within the European Union.",
+      "title": "Italy fines Meta for privacy violations",
+      "summary": "Italian authorities have imposed an 805 million euro fine on Meta following an investigation into data and photo access practices. The regulatory penalty addresses significant violations of regional privacy laws.",
       "article_ids": [
         "97d1beb6bfb9f2b39bb341b6",
         "978e536823f1e3033200ff8a"
@@ -88,7 +88,7 @@
     },
     {
       "title": "Mass demonstrations and security deployments across France",
-      "summary": "Authorities in France have mobilized tens of thousands of police personnel to manage widespread anti-government protests across the country. Demonstrators have taken to the streets for a fifth consecutive weekend to voice grievances concerning living costs and law enforcement practices.",
+      "summary": "France has experienced widespread anti-government protests, prompting heavy police deployment and mobilization in major cities. Demonstrators have taken to the streets to voice concerns over economic conditions and policing methods.",
       "article_ids": [
         "6f4ec52686634cd5b9ebc00b",
         "c909c439d27fdda866db744f",
@@ -113,8 +113,33 @@
   ],
   "top_stories": [
     {
-      "title": "Corruption investigation in Hungary uncovers millions in hidden cash",
-      "summary": "Hungarian authorities conducting an investigation into an Orbán-era minister discovered nearly twenty million euros in concealed and buried cash. The significant financial seizure marks a major development in the ongoing anti-corruption probe.",
+      "title": "Ukraine Territorial Proposals and Security Discussions",
+      "summary": "President Volodymyr Zelenskyy stated that international partners suggested potential territorial concessions regarding the Donbas region in exchange for security guarantees or NATO membership. Ukrainian leadership is weighing these proposals against national security priorities and potential referendums.",
+      "article_ids": [
+        "c0eebca7b0326ca5c1e1bde6",
+        "fad46c0ffbebf7ed9e1d3ee5",
+        "27684fe26a993a9f0b60bfe0",
+        "b83c9e4a9fe473f3f614d3fa"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ukraine-zelenskyy-says-security-deal-could-go-to-referendum/a-79947535?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Ukraine: Zelenskyy says security deal could go to referendum",
+          "published_at": "2026-11-14T11:40:00Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/us-suggested-ukraine-could-give-up-donbas-for-nato-membership-zelenskyy-says",
+          "headline": "US suggested Ukraine could give up Donbas for NATO membership, Zelenskyy says",
+          "published_at": "2026-11-14T10:48:19Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Anti-Corruption Investigation in Hungary Uncovers Millions in Cash",
+      "summary": "Hungarian authorities uncovered nearly 20 million euros in hidden and buried cash during an ongoing financial investigation involving an Orbán-era minister. The high-profile inquiry has drawn substantial public attention across the region.",
       "article_ids": [
         "16ea66c0713217c168db0b4d",
         "a29f73005831a0cbd70a33a4"
@@ -131,30 +156,6 @@
           "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo?at_medium=RSS&at_campaign=rss",
           "headline": "Hungarian authorities uncover $20m during probe of Orbán-era minister",
           "published_at": "2026-11-14T10:42:20Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Diplomatic discussions and security proposals concerning the Ukraine conflict",
-      "summary": "President Volodymyr Zelenskyy indicated that potential security arrangements and territorial proposals involving NATO membership could be submitted to a public referendum. International discussions continue to address potential security guarantees and territorial adjustments for the region.",
-      "article_ids": [
-        "c0eebca7b0326ca5c1e1bde6",
-        "fad46c0ffbebf7ed9e1d3ee5",
-        "27684fe26a993a9f0b60bfe0"
-      ],
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ukraine-zelenskyy-says-security-deal-could-go-to-referendum/a-79947535?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Ukraine: Zelenskyy says security deal could go to referendum",
-          "published_at": "2026-11-14T11:40:00Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/us-suggested-ukraine-could-give-up-donbas-for-nato-membership-zelenskyy-says",
-          "headline": "US suggested Ukraine could give up Donbas for NATO membership, Zelenskyy says",
-          "published_at": "2026-11-14T10:48:19Z"
         }
       ],
       "source_count": 2
@@ -1304,20 +1305,6 @@
       ]
     },
     {
-      "id": "4dce8d27bf7e231781d48cb6",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "EU deal on Ukraine talks overshadows AI-focused summit in Dublin",
-      "url": "https://www.politico.eu/article/eu-deal-on-ukraine-talks-overshadows-ai-focused-summit-in-dublin",
-      "published_at": "2026-11-13T19:10:16Z",
-      "collected_at": "2026-11-13T19:31:00Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "faad820061dd3e0cf7419622",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1329,20 +1316,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "ec53c8e1bce7390ffdba3100",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "EU leaders hand Ukraine peace talks to France, Germany, UK, Italy, Poland plus Brussels – instead of a single envoy",
-      "url": "https://euobserver.com/248871/eu-leaders-hand-ukraine-peace-talks-to-france-germany-uk-italy-poland-plus-brussels-instead-of-a-single-envoy",
-      "published_at": "2026-11-13T18:54:38Z",
-      "collected_at": "2026-11-13T19:01:11Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
       ]
     },
     {
@@ -1413,6 +1386,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "ea9dd72308c15526b70ac0c4",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Europe’s self-styled pacifists are helping Putin freeze Ukrainians in their homes",
+      "url": "https://euobserver.com/248586/europes-self-styled-pacifists-are-helping-putin-freeze-ukrainians-out",
+      "published_at": "2026-11-12T19:00:00Z",
+      "collected_at": "2026-11-14T19:31:01Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
@@ -1752,20 +1739,6 @@
       ]
     },
     {
-      "id": "3487493119de2cbc7657fe0d",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "The olive branch is a universal symbol of peace – but the West Bank’s autumn olive harvest is open season for Israeli settlers to pillage and kill",
-      "url": "https://euobserver.com/248241/the-olive-branch-is-a-universal-symbol-of-peace-but-the-west-banks-autumn-olive-harvest-is-open-season-for-israeli-settlers-to-pillage-and-kill",
-      "published_at": "2026-11-11T19:00:00Z",
-      "collected_at": "2026-11-13T19:31:00Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "368ff07e04a238fd340d58ce",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1791,6 +1764,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "3b4101d0bd6cb59056238a45",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "How Ueno, the Paraguayan bank that promised customers 40% cashback, went bust",
+      "url": "https://english.elpais.com/economy-and-business/2026-11-10/how-ueno-the-paraguayan-bank-that-promised-customers-40-cashback-went-bust.html",
+      "published_at": "2026-11-10T16:56:54Z",
+      "collected_at": "2026-11-14T19:31:01Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -1948,20 +1935,6 @@
       ]
     },
     {
-      "id": "76b28b0a080c9245dca6ac13",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Milo Quifes, the breakout star of ‘La Bola Negra’: ‘I’m tired of having to come out of the closet over and over again’",
-      "url": "https://english.elpais.com/culture/2026-11-09/milo-quifes-the-breakout-star-of-la-bola-negra-im-tired-of-having-to-come-out-of-the-closet-over-and-over-again.html",
-      "published_at": "2026-11-09T19:08:21Z",
-      "collected_at": "2026-11-13T19:31:00Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "09d27b82dcd0eee21cee0bf1",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1987,6 +1960,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "8d92758434d9ca8ed97bdc59",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Karl Deisseroth, Nobel Prize in Physiology or Medicine: ‘ Advanced AI models could infer the activity of the brain’",
+      "url": "https://english.elpais.com/science-tech/2026-11-09/karl-deisseroth-nobel-prize-in-physiology-or-medicine-advanced-ai-models-could-infer-the-activity-of-the-brain.html",
+      "published_at": "2026-11-09T12:16:21Z",
+      "collected_at": "2026-11-14T19:31:01Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2130,34 +2117,6 @@
       ]
     },
     {
-      "id": "ee74270888717af781b16f9e",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Armenia's selective prosecution: A threat to EU relations?",
-      "url": "https://www.dw.com/en/armenia-s-selective-prosecution-a-threat-to-eu-relations/a-79878159?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-07T18:36:00Z",
-      "collected_at": "2026-11-13T19:31:00Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "b22c98c0fb030e6f6683862a",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Michel Houellebecq, novelist: ‘It’s exhausting being called a fascist writer, but you eventually resign yourself to it’",
-      "url": "https://english.elpais.com/culture/2026-11-07/michel-houellebecq-novelist-its-exhausting-being-called-a-fascist-writer-but-you-eventually-resign-yourself-to-it.html",
-      "published_at": "2026-11-07T04:00:00Z",
-      "collected_at": "2026-11-13T19:31:00Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "b1d6584f8352e1a4a74d99de",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2186,20 +2145,6 @@
       ]
     },
     {
-      "id": "7898b3bba4f05cb692d730e9",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Nick Rhodes from Duran Duran: ‘I want to vomit when they ask about social‑media numbers’",
-      "url": "https://english.elpais.com/culture/2026-11-04/nick-rhodes-from-duran-duran-i-want-to-vomit-when-they-ask-about-socialmedia-numbers.html",
-      "published_at": "2026-11-04T18:34:22Z",
-      "collected_at": "2026-11-13T19:31:00Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "f7125b63a33a6de3a52d6786",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2207,6 +2152,34 @@
       "url": "https://english.elpais.com/spain/2026-11-04/spains-transportation-minister-steps-down-over-train-crash-to-try-to-save-the-socialist-campaign-ahead-of-elections.html",
       "published_at": "2026-11-04T11:51:58Z",
       "collected_at": "2026-11-14T13:31:04Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "18b0a97dce975920b442bddb",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Michael C. Hall: ‘Twenty years have passed for Dexter and for me, and with age come struggles, wisdom, battle scars...’",
+      "url": "https://english.elpais.com/culture/2026-11-02/michael-c-hall-twenty-years-have-passed-for-dexter-and-for-me-and-with-age-come-struggles-wisdom-battle-scars.html",
+      "published_at": "2026-11-02T17:19:28Z",
+      "collected_at": "2026-11-14T19:31:01Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "4dfb0ddff0f4284577bdf20b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Ten European countries share evidence on alleged torture of Gaza flotilla activists",
+      "url": "https://english.elpais.com/international/2026-11-02/ten-european-countries-share-evidence-on-alleged-torture-of-gaza-flotilla-activists.html",
+      "published_at": "2026-11-02T15:29:00Z",
+      "collected_at": "2026-11-14T19:31:01Z",
       "topics": [
         "politics",
         "society",
@@ -2242,13 +2215,13 @@
       ]
     },
     {
-      "id": "9ea252bfa1d68d21549af20f",
+      "id": "ceb96527394ae3411415e638",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "Small avocado growers’ strike cuts Mexican exports to the United States",
-      "url": "https://english.elpais.com/economy-and-business/2026-10-28/small-avocado-growers-strike-cuts-mexican-exports-to-the-united-states.html",
-      "published_at": "2026-10-28T17:43:50Z",
-      "collected_at": "2026-11-13T21:01:12Z",
+      "title": "Ugly, unloved and controversial: The real estate fiasco of Paris’s tallest skyscraper",
+      "url": "https://english.elpais.com/international/2026-10-30/ugly-unloved-and-controversial-the-real-estate-fiasco-of-pariss-tallest-skyscraper.html",
+      "published_at": "2026-10-30T20:09:21Z",
+      "collected_at": "2026-11-14T19:31:01Z",
       "topics": [
         "politics",
         "society",
@@ -2256,13 +2229,13 @@
       ]
     },
     {
-      "id": "def703cf089e199f7af63d05",
+      "id": "9ea252bfa1d68d21549af20f",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "Christopher Lloyd, the legendary Doc from ‘Back to the Future’, opens up about his addictions in his memoir",
-      "url": "https://english.elpais.com/culture/2026-10-28/christopher-lloyd-the-legendary-doc-from-back-to-the-future-opens-up-about-his-addictions-in-his-memoir.html",
-      "published_at": "2026-10-28T15:17:08Z",
-      "collected_at": "2026-11-13T19:31:00Z",
+      "title": "Small avocado growers’ strike cuts Mexican exports to the United States",
+      "url": "https://english.elpais.com/economy-and-business/2026-10-28/small-avocado-growers-strike-cuts-mexican-exports-to-the-united-states.html",
+      "published_at": "2026-10-28T17:43:50Z",
+      "collected_at": "2026-11-13T21:01:12Z",
       "topics": [
         "politics",
         "society",
@@ -2333,6 +2306,20 @@
       "url": "https://english.elpais.com/culture/2026-10-13/steve-mcqueen-artist-we-live-in-an-era-dominated-by-fear-i-am-interested-in-love.html",
       "published_at": "2026-10-13T14:21:13Z",
       "collected_at": "2026-11-14T19:01:07Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "dffaa72c90845c6e1ec2dd5f",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The Madrid bear sculpture meant for a Miami roundabout that ended up inside a restaurant instead",
+      "url": "https://english.elpais.com/international/2026-10-07/the-madrid-bear-sculpture-meant-for-a-miami-roundabout-that-ended-up-inside-a-restaurant-instead.html",
+      "published_at": "2026-10-07T14:09:26Z",
+      "collected_at": "2026-11-14T19:31:01Z",
       "topics": [
         "politics",
         "society",
