@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-14T08:01:09Z",
-  "last_successful_collection_at": "2026-11-14T08:01:09Z",
+  "generated_at": "2026-11-14T08:30:58Z",
+  "last_successful_collection_at": "2026-11-14T08:30:58Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-14T08:01:09Z"
+      "at": "2026-11-14T08:30:58Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-14T08:01:09Z"
+      "at": "2026-11-14T08:30:58Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-14T08:01:09Z"
+      "at": "2026-11-14T08:30:58Z"
     },
     {
       "id": "euractiv",
@@ -29,77 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-14T08:01:09Z"
+      "at": "2026-11-14T08:30:58Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-14T08:01:09Z"
+      "at": "2026-11-14T08:30:58Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-11-14T08:01:09Z"
+      "at": "2026-11-14T08:30:58Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-14T08:01:09Z"
+      "at": "2026-11-14T08:30:58Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-14T08:01:09Z"
+      "at": "2026-11-14T08:30:58Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-14T08:01:09Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-14T08:30:58Z"
     }
   ],
   "europe_now": [
     {
-      "title": "EU Leadership Strategy for Ukraine Negotiations",
-      "summary": "European Union leaders decided to delegate upcoming peace negotiations regarding Ukraine to a coalition of five major member states and Brussels rather than appointing a single envoy.",
-      "article_ids": [
-        "ec53c8e1bce7390ffdba3100"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/248871/eu-leaders-hand-ukraine-peace-talks-to-france-germany-uk-italy-poland-plus-brussels-instead-of-a-single-envoy",
-          "headline": "EU leaders hand Ukraine peace talks to France, Germany, UK, Italy, Poland plus Brussels – instead of a single envoy",
-          "published_at": "2026-11-13T18:54:38Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Microsoft Digital Infrastructure Recovery",
-      "summary": "Microsoft confirmed that consumer products have fully recovered following a major global technical outage, while business services continue their restoration process.",
-      "article_ids": [
-        "620199bf3b4c6d3c581374ca"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/technology/20261114-microsoft-says-consumer-products-fully-recovered-business-services-improving",
-          "headline": "Microsoft says consumer products 'fully recovered', business services improving",
-          "published_at": "2026-11-14T06:07:56Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Global Technology Outage and European Reliance",
-      "summary": "A widespread technology disruption involving Microsoft systems prompted renewed discussions across Europe regarding software dependence on American infrastructure. Software engineers and corporate providers worked continuously to restore fully functional status to impacted consumer and enterprise networks.",
+      "title": "Microsoft Recovers From Global Outage",
+      "summary": "Microsoft confirmed that its consumer products have fully recovered and business services are steadily improving following a major worldwide technology disruption. The incident has reignited discussions across Europe regarding the continent's heavy reliance on United States technology infrastructure.",
       "article_ids": [
         "191b8590c8452e0e9135bb16",
         "671e435e3fb4b7f9847e24d2"
@@ -119,29 +85,48 @@
         }
       ],
       "source_count": 2
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Diplomatic Approaches to Ukraine Conflict",
-      "summary": "European officials structured their diplomatic representation for upcoming peace talks by selecting multiple major powers to handle negotiations. Meanwhile, regional leaders continued evaluating security frameworks and strategic responses to ongoing hostilities.",
+      "title": "European Diplomatic Framework for Ukraine",
+      "summary": "European Union leaders have designated a group of major powers alongside Brussels to manage upcoming Ukraine peace negotiations instead of appointing a single envoy. Meanwhile, leaders and officials continue to debate the diplomatic strategy and representation required for regional security.",
       "article_ids": [
-        "3364bea31fc4a9e7e0209695",
-        "ec53c8e1bce7390ffdba3100"
+        "ec53c8e1bce7390ffdba3100",
+        "3364bea31fc4a9e7e0209695"
       ],
       "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks",
-          "headline": "France among five major powers to represent EU in Ukraine talks",
-          "published_at": "2026-11-13T21:38:52Z"
-        },
         {
           "publisher": "EUobserver",
           "url": "https://euobserver.com/248871/eu-leaders-hand-ukraine-peace-talks-to-france-germany-uk-italy-poland-plus-brussels-instead-of-a-single-envoy",
           "headline": "EU leaders hand Ukraine peace talks to France, Germany, UK, Italy, Poland plus Brussels – instead of a single envoy",
           "published_at": "2026-11-13T18:54:38Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks",
+          "headline": "France among five major powers to represent EU in Ukraine talks",
+          "published_at": "2026-11-13T21:38:52Z"
         }
       ],
       "source_count": 2
+    },
+    {
+      "title": "Global Air Traffic Restoration",
+      "summary": "United States aviation authorities lifted a nationwide ground stop that had previously forced thousands of flight cancellations due to communication issues. Flights have gradually resumed as normal operations are restored across the country.",
+      "article_ids": [
+        "04dd8b270e89a53baaacdbb4",
+        "6c6cf453677183047a17fac6"
+      ],
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-11-14/united-states-resumes-air-traffic-after-nearly-five-hour-shutdown-that-forced-6000-flight-cancellations.html",
+          "headline": "United States resumes air traffic after nearly five-hour shutdown that forced 6,000 flight cancellations",
+          "published_at": "2026-11-14T04:48:23Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "developing": [
@@ -149,7 +134,7 @@
       "label": "flights · US · ground · stop",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 6,
+      "item_count": 7,
       "latest_at": "2026-11-14T02:50:21Z",
       "sources": [
         {
@@ -512,6 +497,34 @@
       ]
     },
     {
+      "id": "199b32d2a0cad6b4d60d946e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US flights resume gradually amid further cancellations",
+      "url": "https://www.france24.com/en/americas/20261113-us-air-travel-resumption-will-take-time-after-hours-long-stop",
+      "published_at": "2026-11-13T22:43:22Z",
+      "collected_at": "2026-11-14T08:30:58Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "ccf907a0189518cccdfccdc2",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France hold on for thrilling Nations Championship win over South Africa",
+      "url": "https://www.france24.com/en/sport/20261113-france-hold-on-for-thrilling-nations-championship-win-over-south-africa",
+      "published_at": "2026-11-13T22:39:21Z",
+      "collected_at": "2026-11-14T08:30:58Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "86f275740b1faf52fb455aae",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -705,6 +718,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "6f64e82d4d8ef2904df3bbd7",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Estonia bans Russian athletes as backlash intensifies",
+      "url": "https://www.bbc.co.uk/sport/articles/cm4gn9lvlgy2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-13T17:54:33Z",
+      "collected_at": "2026-11-14T08:30:58Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -1856,34 +1883,6 @@
       ]
     },
     {
-      "id": "42566e26e1fcdc2ebd508e47",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Who will inherit 007's licence to thrill? 'The world is not enough' in the hunt for James Bond",
-      "url": "https://www.france24.com/en/who-will-inherit-007-s-licence-to-thrill-the-world-is-not-enough-in-the-hunt-for-james-bond",
-      "published_at": "2026-11-13T07:04:10Z",
-      "collected_at": "2026-11-13T08:01:20Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "46df9ec4edf3543c5af425f8",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "2027 AFCON Qualifiers: Top guns Senegal, Cameroon, Ivory Coast deliver",
-      "url": "https://www.france24.com/en/tv-shows/sports/20261113-2027-afcon-qualifiers-top-guns-senegal-cameroon-ivory-coast-deliver",
-      "published_at": "2026-11-13T06:59:59Z",
-      "collected_at": "2026-11-13T08:01:20Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "870ffe5faf77c0a2be1a5d0d",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1909,20 +1908,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "7d51cdabb1a16b342d8f99d5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Microsoft struggles to repair global Outlook outage, says no sign of 'malicious activity'",
-      "url": "https://www.france24.com/en/technology/20261113-major-microsoft-outlook-outage-disrupts-services-in-74-countries",
-      "published_at": "2026-11-13T03:44:22Z",
-      "collected_at": "2026-11-13T08:01:20Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -1982,34 +1967,6 @@
       ]
     },
     {
-      "id": "671a2c2d6187f968c58cc04d",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Will the Eurovision Song Contest succeed in Asia?",
-      "url": "https://www.bbc.co.uk/news/videos/cxvg23n59y1ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-13T02:24:11Z",
-      "collected_at": "2026-11-13T08:01:20Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "e2f128e8683f0261ac9d36ca",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-      "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-13T02:01:35Z",
-      "collected_at": "2026-11-13T08:01:20Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "f62dc36fb9deb60cd9ce0860",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2048,6 +2005,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a555e9c90f2cbbad0da930f8",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Polish deputy foreign minister charged over alleged misappropriation of millions of zloty",
+      "url": "https://notesfrompoland.com/2026/11/12/polish-deputy-foreign-minister-charged-over-alleged-misappropriation-of-millions-of-zloty",
+      "published_at": "2026-11-12T08:30:00Z",
+      "collected_at": "2026-11-14T08:30:58Z",
+      "topics": [
+        "central_europe",
+        "politics",
         "society"
       ]
     },
@@ -2245,20 +2216,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "a537b287af9269a0ca6acb26",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Brilliant Noskova dismantles Gauff to reach WTA Finals last four",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cvglwllpxddro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-10T23:59:03Z",
-      "collected_at": "2026-11-13T08:01:20Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
