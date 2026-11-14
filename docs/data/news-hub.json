@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-14T11:31:01Z",
-  "last_successful_collection_at": "2026-11-14T11:31:01Z",
+  "generated_at": "2026-11-14T12:01:11Z",
+  "last_successful_collection_at": "2026-11-14T12:01:11Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-14T11:31:01Z"
+      "at": "2026-11-14T12:01:11Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-11-14T11:31:01Z"
+      "at": "2026-11-14T12:01:11Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-14T11:31:01Z"
+      "at": "2026-11-14T12:01:11Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,94 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-14T11:31:01Z"
+      "at": "2026-11-14T12:01:11Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-14T11:31:01Z"
+      "at": "2026-11-14T12:01:11Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-11-14T11:31:01Z"
+      "at": "2026-11-14T12:01:11Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-14T11:31:01Z"
+      "at": "2026-11-14T12:01:11Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-14T11:31:01Z"
+      "at": "2026-11-14T12:01:11Z"
     },
     {
       "id": "bruegel",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-14T11:31:01Z"
+      "status": "ok",
+      "count": "10",
+      "at": "2026-11-14T12:01:11Z"
     }
   ],
   "europe_now": [
     {
-      "title": "US Proposal on Ukraine Peace Talks",
-      "summary": "Ukrainian officials reported that the United States suggested Ukraine could cede the Donbas region in exchange for NATO membership. European diplomats are actively navigating these unfolding peace negotiation frameworks.",
+      "title": "Ukraine Considers Security Accord Referendum",
+      "summary": "President Zelenskyy announced that any future security agreement regarding Ukraine could be submitted to a public referendum. Meanwhile, discussions surrounding potential territorial arrangements continue to generate intense diplomatic engagement across European capitals.",
+      "article_ids": [
+        "c0eebca7b0326ca5c1e1bde6",
+        "fad46c0ffbebf7ed9e1d3ee5"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ukraine-zelenskyy-says-security-deal-could-go-to-referendum/a-79947535?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Ukraine: Zelenskyy says security deal could go to referendum",
+          "published_at": "2026-11-14T11:40:00Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/us-suggested-ukraine-could-give-up-donbas-for-nato-membership-zelenskyy-says",
+          "headline": "US suggested Ukraine could give up Donbas for NATO membership, Zelenskyy says",
+          "published_at": "2026-11-14T10:48:19Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Anti-Government Protests Drive High Security Deployment in France",
+      "summary": "France has mobilized tens of thousands of security personnel as nationwide anti-government demonstrations persist for a fifth consecutive week. Protestors have raised concerns regarding economic pressures and policing methods amidst mounting societal tensions.",
+      "article_ids": [
+        "c909c439d27fdda866db744f",
+        "6f4ec52686634cd5b9ebc00b"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261114-live-france-mobilises-in-fifth-wave-of-student-protests",
+          "headline": "Live: France deploys 70,000 police for new wave of anti-government protests",
+          "published_at": "2026-11-14T07:09:32Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-protests-for-fifth-saturday-against-living-costs-and-heavy-handed-policing",
+          "headline": "France protests for fifth Saturday against living costs and heavy-handed policing",
+          "published_at": "2026-11-14T10:15:42Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Diplomatic Developments in the Ukraine Conflict",
+      "summary": "Ukrainian leadership stated that international negotiators have floated proposals involving territorial adjustments in exchange for security guarantees. European nations are actively coordinating their diplomatic strategies and representation for ongoing peace negotiations.",
       "article_ids": [
         "fad46c0ffbebf7ed9e1d3ee5",
-        "27684fe26a993a9f0b60bfe0",
-        "b83c9e4a9fe473f3f614d3fa"
+        "3364bea31fc4a9e7e0209695"
       ],
       "sources": [
         {
@@ -79,38 +126,20 @@
           "published_at": "2026-11-14T10:48:19Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-          "headline": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-          "published_at": "2026-11-14T10:30:38Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks",
+          "headline": "France among five major powers to represent EU in Ukraine talks",
+          "published_at": "2026-11-13T21:38:52Z"
         }
       ],
       "source_count": 2
     },
     {
-      "title": "Finland Rejects NATO Demands",
-      "summary": "Finland formally rejected reported Russian demands to leave NATO as a condition for regional peace talks. European security strategies continue to confront major geopolitical pressures regarding territorial integrity.",
-      "article_ids": [
-        "1d4eca42dea39615a53fa933"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/finland-rejects-reported-russian-demand-to-leave-nato-as-part-of-peace-talks",
-          "headline": "Finland rejects reported Russian demand to leave NATO as part of peace talks",
-          "published_at": "2026-11-14T09:57:48Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Global Technology Outage and Recovery",
-      "summary": "Widespread Microsoft software outages created severe global disruptions across multiple critical industries, including healthcare. Consumer products have since fully recovered while business services work toward stabilization.",
+      "title": "Global Technology Infrastructure Disruptions",
+      "summary": "Widespread technical outages originating from Microsoft software issues caused significant disruptions across international industries and healthcare services. Technology providers have reported a gradual restoration of normal operations following the global incidents.",
       "article_ids": [
         "7da3b06cf244a8198e5c9f52",
-        "620199bf3b4c6d3c581374ca"
+        "191b8590c8452e0e9135bb16"
       ],
       "sources": [
         {
@@ -122,71 +151,14 @@
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/technology/20261114-microsoft-says-consumer-products-fully-recovered-business-services-improving",
-          "headline": "Microsoft says consumer products 'fully recovered', business services improving",
+          "headline": "Microsoft says all services 'fully recovered' after global outage",
           "published_at": "2026-11-14T06:07:56Z"
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "US Aviation Shutdown and Restoration",
-      "summary": "Data router overloads forced a nationwide ground stop that cancelled thousands of flights across the United States. Federal aviation authorities subsequently lifted the restriction, allowing normal operations to gradually resume.",
-      "article_ids": [
-        "04dd8b270e89a53baaacdbb4",
-        "1218da86f2d210d34eb703f4",
-        "805ec11cef2a614f1ced27f7"
-      ],
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-11-14/united-states-resumes-air-traffic-after-nearly-five-hour-shutdown-that-forced-6000-flight-cancellations.html",
-          "headline": "United States resumes air traffic after nearly five-hour shutdown that forced 6,000 flight cancellations",
-          "published_at": "2026-11-14T04:48:23Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/us-nationwide-flight-ground-stop-our-routers-got-overloaded-with-data",
-          "headline": "US nationwide flight ground stop: \"Our routers got overloaded with data\"",
-          "published_at": "2026-11-14T10:14:09Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "developing": [
-    {
-      "label": "Ukraine · peace · talks · EU",
-      "origin": "convergence",
-      "source_count": 4,
-      "item_count": 7,
-      "latest_at": "2026-11-14T10:00:00Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/248713/nuclear-weapons-the-elephant-in-the-room-in-ukraine-peace-talks",
-          "headline": "Nuclear weapons – the elephant in the room in Ukraine peace talks",
-          "published_at": "2026-11-14T10:00:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks",
-          "headline": "France among five major powers to represent EU in Ukraine talks",
-          "published_at": "2026-11-13T21:38:52Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-deal-on-ukraine-talks-overshadows-ai-focused-summit-in-dublin",
-          "headline": "EU deal on Ukraine talks overshadows AI-focused summit in Dublin",
-          "published_at": "2026-11-13T19:10:16Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
-          "headline": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
-          "published_at": "2026-11-13T16:40:31Z"
-        }
-      ]
-    },
     {
       "label": "China · House · meeting · Putin",
       "origin": "convergence",
@@ -215,23 +187,44 @@
       ]
     },
     {
-      "label": "Huang · Jensen · Nvidia · scandal",
+      "label": "flight · US · stop · ground",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-11-14T10:20:11Z",
+      "item_count": 10,
+      "latest_at": "2026-11-14T10:14:09Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/can-nvidia-survive-without-tech-titan-jensen-huang",
-          "headline": "Can Nvidia survive without tech titan Jensen Huang?",
-          "published_at": "2026-11-14T10:20:11Z"
+          "url": "https://www.france24.com/en/us-nationwide-flight-ground-stop-our-routers-got-overloaded-with-data",
+          "headline": "US nationwide flight ground stop: \"Our routers got overloaded with data\"",
+          "published_at": "2026-11-14T10:14:09Z"
         },
         {
           "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-11-13/congress-demands-answers-over-nvidia-espionage-allegations-and-jensen-huang-scandal.html",
-          "headline": "Congress demands answers over Nvidia espionage allegations and Jensen Huang scandal",
-          "published_at": "2026-11-13T11:34:07Z"
+          "url": "https://english.elpais.com/usa/2026-11-14/all-flights-grounded-across-the-us-over-extraordinary-circumstances-and-security-concerns.html",
+          "headline": "All flights grounded across the US over ‘extraordinary circumstances and security concerns’",
+          "published_at": "2026-11-14T01:16:51Z"
+        }
+      ]
+    },
+    {
+      "label": "Donbas · NATO · Ukraine · US",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-11-14T10:30:38Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+          "headline": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+          "published_at": "2026-11-14T10:30:38Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership",
+          "headline": "US proposed Ukraine cedes Donbas in exchange for joining NATO, Zelensky says",
+          "published_at": "2026-11-14T10:30:04Z"
         }
       ]
     },
@@ -258,6 +251,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "c0eebca7b0326ca5c1e1bde6",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Ukraine: Zelenskyy says security deal could go to referendum",
+      "url": "https://www.dw.com/en/ukraine-zelenskyy-says-security-deal-could-go-to-referendum/a-79947535?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-14T11:40:00Z",
+      "collected_at": "2026-11-14T12:01:11Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
     {
       "id": "efa992817f68125b4090724a",
       "source_id": "france24",
@@ -1729,20 +1736,6 @@
       ]
     },
     {
-      "id": "f96e81a497b2999d00eadec8",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "A toy, an energy drink or a hair oil: the unusual places where you can encounter a severe allergic reaction",
-      "url": "https://english.elpais.com/health/2026-11-13/a-toy-an-energy-drink-or-a-hair-oil-the-unusual-places-where-you-can-encounter-a-severe-allergic-reaction.html",
-      "published_at": "2026-11-13T11:44:33Z",
-      "collected_at": "2026-11-13T12:01:02Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "db96221fe13a459d9707a70e",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1757,20 +1750,6 @@
       ]
     },
     {
-      "id": "d51da866872381f0981d41f2",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Congress demands answers over Nvidia espionage allegations and Jensen Huang scandal",
-      "url": "https://english.elpais.com/usa/2026-11-13/congress-demands-answers-over-nvidia-espionage-allegations-and-jensen-huang-scandal.html",
-      "published_at": "2026-11-13T11:34:07Z",
-      "collected_at": "2026-11-13T12:01:02Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "39148374be7a0ab651f420df",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1782,34 +1761,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "8b160514d517fc16e036dd17",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Colombia’s peace tribunal chief warns government cuts could trigger International Criminal Court scrutiny",
-      "url": "https://english.elpais.com/international/2026-11-13/colombias-peace-tribunal-chief-warns-government-cuts-could-trigger-international-criminal-court-scrutiny.html",
-      "published_at": "2026-11-13T10:44:31Z",
-      "collected_at": "2026-11-13T12:01:02Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "1971b176fe2aadc406a5b2ec",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Pope Leo XIV draws more than 50,000 Peruvian youths to a soccer stadium: ‘Be passionate about everything worth fighting for’",
-      "url": "https://english.elpais.com/international/2026-11-13/pope-leo-xiv-draws-more-than-50000-peruvian-youths-to-a-soccer-stadium-be-passionate-about-everything-worth-fighting-for.html",
-      "published_at": "2026-11-13T10:40:11Z",
-      "collected_at": "2026-11-13T12:01:02Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -2135,13 +2086,13 @@
       ]
     },
     {
-      "id": "11345b27718820775b452e58",
+      "id": "40effc4896446d3e1a77c5af",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
-      "title": "Poland and US sign statement of intent on strengthening defence industry cooperation",
-      "url": "https://notesfrompoland.com/2026/11/11/poland-and-us-sign-statement-of-intent-on-strengthening-defence-industry-cooperation",
-      "published_at": "2026-11-11T11:20:52Z",
-      "collected_at": "2026-11-13T12:01:02Z",
+      "title": "“Strong traces of right-wing extremism” in activity of Kraków terrorist, says justice minister",
+      "url": "https://notesfrompoland.com/2026/11/10/strong-traces-of-right-wing-extremism-in-activity-of-krakow-terrorist-says-justice-minister",
+      "published_at": "2026-11-10T11:17:52Z",
+      "collected_at": "2026-11-14T12:01:11Z",
       "topics": [
         "central_europe",
         "politics",
@@ -2314,20 +2265,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "f98423e966d998c8857b4d3e",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Fugitive Polish opposition politician attends gala at Trump’s Mar-a-Lago resort",
-      "url": "https://notesfrompoland.com/2026/11/09/fugitive-polish-opposition-politician-attends-gala-at-trumps-mar-a-lago-resort",
-      "published_at": "2026-11-09T10:58:40Z",
-      "collected_at": "2026-11-13T12:01:02Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
       ]
     },
     {
