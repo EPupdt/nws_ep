@@ -1,7 +1,5 @@
 {
   "seen": {
-    "97b7945edbb1c27dc1b4ef7b": "2026-11-12T07:30:56Z",
-    "ca289aeac279eed7bc5dfc09": "2026-11-12T07:30:56Z",
     "0ddc1f653b4ad6ef373963a0": "2026-11-12T08:01:02Z",
     "f292649d7c65c629ee356796": "2026-11-12T08:01:02Z",
     "b6c86d1ff5da6c31dd7026f9": "2026-11-12T08:01:02Z",
@@ -393,9 +391,26 @@
     "620199bf3b4c6d3c581374ca": "2026-11-14T06:30:51Z",
     "b321ac47d1a555a7143ccbae": "2026-11-14T07:01:15Z",
     "9eded4c5369973a48f0c609d": "2026-11-14T07:01:15Z",
-    "6bd37cf191b1a637aaec6dd2": "2026-11-14T07:01:15Z"
+    "6bd37cf191b1a637aaec6dd2": "2026-11-14T07:01:15Z",
+    "97b7945edbb1c27dc1b4ef7b": "2026-11-14T07:31:03Z",
+    "39ad276106cd6c63d2827e83": "2026-11-14T07:31:03Z",
+    "191b8590c8452e0e9135bb16": "2026-11-14T07:31:03Z"
   },
   "radar": [
+    {
+      "id": "39ad276106cd6c63d2827e83",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: France mobilises in fifth wave of student protests",
+      "url": "https://www.france24.com/en/france/20261114-live-france-mobilises-in-fifth-wave-of-student-protests",
+      "published_at": "2026-11-14T07:09:32Z",
+      "collected_at": "2026-11-14T07:31:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "8c18bd3f7d6d43bec59cadbd",
       "source_id": "dw_europe",
@@ -418,6 +433,20 @@
       "url": "https://www.france24.com/en/technology/20261114-microsoft-says-consumer-products-fully-recovered-business-services-improving",
       "published_at": "2026-11-14T06:07:56Z",
       "collected_at": "2026-11-14T06:30:51Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "191b8590c8452e0e9135bb16",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Microsoft says all services 'fully recovered' after global outage",
+      "url": "https://www.france24.com/en/technology/20261114-microsoft-says-consumer-products-fully-recovered-business-services-improving",
+      "published_at": "2026-11-14T06:07:56Z",
+      "collected_at": "2026-11-14T07:31:03Z",
       "topics": [
         "politics",
         "security",
@@ -2371,6 +2400,20 @@
       ]
     },
     {
+      "id": "97b7945edbb1c27dc1b4ef7b",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "US, Russia, Ukraine wrap up talks with prisoner exchange agreement",
+      "url": "https://www.dw.com/en/us-russia-ukraine-wrap-up-talks-with-prisoner-exchange-agreement/live-79906232?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-10T07:09:00Z",
+      "collected_at": "2026-11-14T07:31:03Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "e957d51b0a8123378d8ace54",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2868,14 +2911,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-11-12T20:30:52Z",
-      "title": "Media Freedom and Legislative Controversies"
-    },
-    {
-      "at": "2026-11-12T21:01:00Z",
-      "title": "Ukraine Conflict and Regional Security Diplomacy"
-    },
-    {
       "at": "2026-11-12T21:01:00Z",
       "title": "EU Policy, Trade Petitions, and Legislative Actions"
     },
@@ -3186,18 +3221,33 @@
     {
       "at": "2026-11-14T07:01:15Z",
       "title": "Technology Infrastructure and Software Recovery"
+    },
+    {
+      "at": "2026-11-14T07:31:03Z",
+      "title": "European Diplomatic Strategy"
+    },
+    {
+      "at": "2026-11-14T07:31:03Z",
+      "title": "Technology and Infrastructure Recovery"
     }
   ],
   "alerts": [],
   "last_selection": {
     "europe_now": [
       {
-        "title": "EU Representation in Ukraine Peace Negotiations",
-        "summary": "European Union leaders have designated a group consisting of France, Germany, the UK, Italy, Poland, and Brussels to represent the bloc in upcoming Ukraine peace talks, moving away from appointing a single envoy.",
+        "title": "EU Approach to Ukraine Peace Negotiations",
+        "summary": "European Union leaders have designated representatives from France, Germany, the United Kingdom, Italy, Poland, and Brussels to manage Ukraine peace discussions rather than appointing a single envoy. Meanwhile, leaders across the continent continue to address regional security and diplomatic strategies surrounding the ongoing conflict.",
         "article_ids": [
+          "3364bea31fc4a9e7e0209695",
           "ec53c8e1bce7390ffdba3100"
         ],
         "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks",
+            "headline": "France among five major powers to represent EU in Ukraine talks",
+            "published_at": "2026-11-13T21:38:52Z"
+          },
           {
             "publisher": "EUobserver",
             "url": "https://euobserver.com/248871/eu-leaders-hand-ukraine-peace-talks-to-france-germany-uk-italy-poland-plus-brussels-instead-of-a-single-envoy",
@@ -3205,15 +3255,22 @@
             "published_at": "2026-11-13T18:54:38Z"
           }
         ],
-        "source_count": 1
+        "source_count": 2
       },
       {
-        "title": "Technology Outage and European Resilience",
-        "summary": "Recent major service disruptions involving Microsoft products have prompted renewed political discussions across Europe regarding digital sovereignty and technological dependence on American infrastructure.",
+        "title": "Microsoft Service Disruption Recovery",
+        "summary": "Microsoft confirmed that all consumer products and business services have fully recovered following a major global outage that impacted digital infrastructure. The technical disruption prompted renewed discussions across European institutions regarding technological dependence on foreign systems.",
         "article_ids": [
+          "191b8590c8452e0e9135bb16",
           "671e435e3fb4b7f9847e24d2"
         ],
         "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/technology/20261114-microsoft-says-consumer-products-fully-recovered-business-services-improving",
+            "headline": "Microsoft says all services 'fully recovered' after global outage",
+            "published_at": "2026-11-14T06:07:56Z"
+          },
           {
             "publisher": "POLITICO Europe",
             "url": "https://www.politico.eu/article/microsoft-outage-renews-european-calls-to-detox-from-us-tech",
@@ -3221,17 +3278,24 @@
             "published_at": "2026-11-13T17:32:11Z"
           }
         ],
-        "source_count": 1
+        "source_count": 2
       }
     ],
     "top_stories": [
       {
-        "title": "Ukraine Peace Diplomacy",
-        "summary": "European Union leaders decided that peace talks regarding the conflict in Ukraine will be handled by a collective of major European powers alongside Brussels institutions rather than a singular representative. Meanwhile, diplomatic strategies continue to evolve as regional security concerns persist.",
+        "title": "European Diplomatic Strategy",
+        "summary": "European Union nations are coordinating their diplomatic approach toward peace talks involving Ukraine through multiple major member states. Discussions at regional summits have focused on balancing security frameworks and addressing broader geopolitical challenges.",
         "article_ids": [
+          "3364bea31fc4a9e7e0209695",
           "ec53c8e1bce7390ffdba3100"
         ],
         "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks",
+            "headline": "France among five major powers to represent EU in Ukraine talks",
+            "published_at": "2026-11-13T21:38:52Z"
+          },
           {
             "publisher": "EUobserver",
             "url": "https://euobserver.com/248871/eu-leaders-hand-ukraine-peace-talks-to-france-germany-uk-italy-poland-plus-brussels-instead-of-a-single-envoy",
@@ -3239,20 +3303,20 @@
             "published_at": "2026-11-13T18:54:38Z"
           }
         ],
-        "source_count": 1
+        "source_count": 2
       },
       {
-        "title": "Technology Infrastructure and Software Recovery",
-        "summary": "Microsoft announced that its consumer products have fully recovered following a widespread technical disruption, while business services continue their ongoing improvement process. The incident has triggered renewed calls within Europe to evaluate dependence on foreign technology providers.",
+        "title": "Technology and Infrastructure Recovery",
+        "summary": "Microsoft reported the full recovery of its consumer and business services after a widespread digital outage. The incident sparked renewed calls within Europe to evaluate reliance on foreign technology infrastructure.",
         "article_ids": [
-          "620199bf3b4c6d3c581374ca",
+          "191b8590c8452e0e9135bb16",
           "671e435e3fb4b7f9847e24d2"
         ],
         "sources": [
           {
             "publisher": "France 24 English",
             "url": "https://www.france24.com/en/technology/20261114-microsoft-says-consumer-products-fully-recovered-business-services-improving",
-            "headline": "Microsoft says consumer products 'fully recovered', business services improving",
+            "headline": "Microsoft says all services 'fully recovered' after global outage",
             "published_at": "2026-11-14T06:07:56Z"
           },
           {
@@ -3266,5 +3330,5 @@
       }
     ]
   },
-  "last_collection_at": "2026-11-14T07:01:15Z"
+  "last_collection_at": "2026-11-14T07:31:03Z"
 }
