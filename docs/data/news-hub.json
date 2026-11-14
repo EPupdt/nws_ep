@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-14T16:31:00Z",
-  "last_successful_collection_at": "2026-11-14T16:31:00Z",
+  "generated_at": "2026-11-14T17:01:11Z",
+  "last_successful_collection_at": "2026-11-14T17:01:11Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-14T16:31:00Z"
+      "at": "2026-11-14T17:01:11Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-11-14T16:31:00Z"
+      "at": "2026-11-14T17:01:11Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-14T16:31:00Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-11-14T17:01:11Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,54 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-14T16:31:00Z"
+      "at": "2026-11-14T17:01:11Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-14T16:31:00Z"
+      "at": "2026-11-14T17:01:11Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "56",
-      "at": "2026-11-14T16:31:00Z"
+      "at": "2026-11-14T17:01:11Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-14T16:31:00Z"
+      "at": "2026-11-14T17:01:11Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-14T16:31:00Z"
+      "at": "2026-11-14T17:01:11Z"
     },
     {
       "id": "bruegel",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-14T16:31:00Z"
+      "status": "ok",
+      "count": "10",
+      "at": "2026-11-14T17:01:11Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Italy fines Meta for privacy violations",
-      "summary": "Italian authorities have imposed an 805 million euro fine on Meta following a privacy law violation. The decision addresses major regulatory and data protection compliance issues within the European Union.",
+      "title": "Italy fines Meta over user photos",
+      "summary": "Italy's regulatory authorities have imposed an €805 million fine on Meta for privacy law violations involving access to user photographs. The penalty highlights ongoing regulatory scrutiny of major technology companies within Europe regarding data handling practices.",
       "article_ids": [
+        "97d1beb6bfb9f2b39bb341b6",
         "978e536823f1e3033200ff8a"
       ],
       "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
+          "headline": "Italy fines Meta €805m over accessing users' photos",
+          "published_at": "2026-11-14T16:29:48Z"
+        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/italy-hits-meta-with-e805m-fine-over-privacy-law-violation",
@@ -77,15 +84,14 @@
           "published_at": "2026-11-14T14:03:27Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Zelenskyy discusses potential security arrangements for Ukraine",
-      "summary": "Ukrainian leadership has addressed potential security deals and territorial negotiations concerning NATO membership. President Zelenskyy noted that any resulting security agreements could ultimately be submitted to a public referendum.",
+      "title": "Ukraine territorial proposals and security discussions",
+      "summary": "President Volodymyr Zelenskyy stated that international negotiators floated a proposal for Ukraine to cede the Donbas region in exchange for NATO membership. Meanwhile, discussions continue regarding potential security arrangements and whether such agreements might be submitted to a national referendum.",
       "article_ids": [
         "c0eebca7b0326ca5c1e1bde6",
         "fad46c0ffbebf7ed9e1d3ee5",
-        "27684fe26a993a9f0b60bfe0",
         "b83c9e4a9fe473f3f614d3fa"
       ],
       "sources": [
@@ -107,19 +113,13 @@
   ],
   "top_stories": [
     {
-      "title": "Hungary corruption investigation uncovers concealed cash",
-      "summary": "Hungarian authorities discovered nearly 20 million euros in hidden cash during an ongoing corruption probe involving an Orbán-era minister. The investigation highlights significant financial discrepancies uncovered by investigators.",
+      "title": "Hungarian Corruption Investigation",
+      "summary": "Hungarian authorities uncovered nearly €20 million in hidden and buried cash during an investigation involving an Orbán-era minister. The discovery marks a significant development in local anti-corruption efforts.",
       "article_ids": [
         "16ea66c0713217c168db0b4d",
         "a29f73005831a0cbd70a33a4"
       ],
       "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/nearly-e20m-in-cash-found-buried-hidden-in-hungary-corruption-case",
-          "headline": "Nearly €20m in cash found buried, hidden in Hungary corruption case",
-          "published_at": "2026-11-14T13:16:27Z"
-        },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo?at_medium=RSS&at_campaign=rss",
@@ -127,60 +127,33 @@
           "published_at": "2026-11-14T10:42:20Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "France faces widespread anti-government demonstrations",
-      "summary": "France has mobilized tens of thousands of security personnel to manage a wave of anti-government protests. Demonstrators have taken to the streets to voice concerns over living costs and policing measures.",
+      "title": "Global Technology Infrastructure Recovery",
+      "summary": "Microsoft confirmed that all consumer products and business services have fully recovered following a widespread global outage. The technical disruption had previously impacted critical sectors, including healthcare and transport networks internationally.",
       "article_ids": [
-        "6f4ec52686634cd5b9ebc00b",
-        "c909c439d27fdda866db744f"
+        "7da3b06cf244a8198e5c9f52",
+        "191b8590c8452e0e9135bb16"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-protests-for-fifth-saturday-against-living-costs-and-heavy-handed-policing",
-          "headline": "France protests for fifth Saturday against living costs and heavy-handed policing",
-          "published_at": "2026-11-14T10:15:42Z"
+          "url": "https://www.france24.com/en/microsoft-s-widespread-outages-caused-global-chaos-including-in-the-healthcasre-industry",
+          "headline": "Microsoft's widespread outages caused global chaos, including in the healthcasre industry",
+          "published_at": "2026-11-14T11:07:33Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261114-live-france-mobilises-in-fifth-wave-of-student-protests",
-          "headline": "Live: France deploys 70,000 police for new wave of anti-government protests",
-          "published_at": "2026-11-14T07:09:32Z"
+          "url": "https://www.france24.com/en/technology/20261114-microsoft-says-consumer-products-fully-recovered-business-services-improving",
+          "headline": "Microsoft says all services 'fully recovered' after global outage",
+          "published_at": "2026-11-14T06:07:56Z"
         }
       ],
       "source_count": 1
     }
   ],
   "developing": [
-    {
-      "label": "Ukraine · peace · talks · EU",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 4,
-      "latest_at": "2026-11-14T10:00:00Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/248713/nuclear-weapons-the-elephant-in-the-room-in-ukraine-peace-talks",
-          "headline": "Nuclear weapons – the elephant in the room in Ukraine peace talks",
-          "published_at": "2026-11-14T10:00:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks",
-          "headline": "France among five major powers to represent EU in Ukraine talks",
-          "published_at": "2026-11-13T21:38:52Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
-          "headline": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
-          "published_at": "2026-11-13T16:40:31Z"
-        }
-      ]
-    },
     {
       "label": "China · meeting · Putin · Trump",
       "origin": "convergence",
@@ -209,49 +182,112 @@
       ]
     },
     {
-      "label": "flight · US · stop · ground",
+      "label": "talks · Ukraine · EU · France",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 11,
-      "latest_at": "2026-11-14T10:14:09Z",
+      "item_count": 3,
+      "latest_at": "2026-11-14T10:00:00Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/us-nationwide-flight-ground-stop-our-routers-got-overloaded-with-data",
-          "headline": "US nationwide flight ground stop: \"Our routers got overloaded with data\"",
-          "published_at": "2026-11-14T10:14:09Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/248713/nuclear-weapons-the-elephant-in-the-room-in-ukraine-peace-talks",
+          "headline": "Nuclear weapons – the elephant in the room in Ukraine peace talks",
+          "published_at": "2026-11-14T10:00:00Z"
         },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks",
+          "headline": "France among five major powers to represent EU in Ukraine talks",
+          "published_at": "2026-11-13T21:38:52Z"
+        }
+      ]
+    },
+    {
+      "label": "flights · US · amid · resume",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-11-14T01:16:51Z",
+      "sources": [
         {
           "publisher": "EL PAÍS English",
           "url": "https://english.elpais.com/usa/2026-11-14/all-flights-grounded-across-the-us-over-extraordinary-circumstances-and-security-concerns.html",
           "headline": "All flights grounded across the US over ‘extraordinary circumstances and security concerns’",
           "published_at": "2026-11-14T01:16:51Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20261113-us-air-travel-resumption-will-take-time-after-hours-long-stop",
+          "headline": "US flights resume amid gradual return to normal operations",
+          "published_at": "2026-11-13T22:43:22Z"
         }
       ]
     },
     {
-      "label": "Microsoft · outages · global",
+      "label": "Donbas · NATO · Ukraine · US",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-14T11:07:33Z",
+      "item_count": 2,
+      "latest_at": "2026-11-14T10:30:38Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/microsoft-s-widespread-outages-caused-global-chaos-including-in-the-healthcasre-industry",
-          "headline": "Microsoft's widespread outages caused global chaos, including in the healthcasre industry",
-          "published_at": "2026-11-14T11:07:33Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+          "headline": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+          "published_at": "2026-11-14T10:30:38Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/microsoft-outage-renews-european-calls-to-detox-from-us-tech",
-          "headline": "Microsoft outage renews European calls to detox from US tech",
-          "published_at": "2026-11-13T17:32:11Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership",
+          "headline": "US proposed Ukraine cedes Donbas in exchange for joining NATO, Zelensky says",
+          "published_at": "2026-11-14T10:30:04Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "b3b09704941634c4628b3fba",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US: What exactly caused the longest nationwide ground stop in 25 years?",
+      "url": "https://www.france24.com/en/us-what-exactly-caused-the-longest-nationwide-ground-stop-in-25-years",
+      "published_at": "2026-11-14T16:35:52Z",
+      "collected_at": "2026-11-14T17:01:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c6afc77dd02102fa63fc673b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US Transport Secretary asks Congress for $30 bn to upgrade aviation infrastructure",
+      "url": "https://www.france24.com/en/us-transport-secretary-asks-congress-for-30-bn-to-upgrade-aviation-infrastructure",
+      "published_at": "2026-11-14T16:32:52Z",
+      "collected_at": "2026-11-14T17:01:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "97d1beb6bfb9f2b39bb341b6",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Italy fines Meta €805m over accessing users' photos",
+      "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-14T16:29:48Z",
+      "collected_at": "2026-11-14T17:01:11Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "4ba5ac772ef0873806d4dcd5",
       "source_id": "politico_europe",
@@ -1345,104 +1381,6 @@
       ]
     },
     {
-      "id": "5fdc00efd93234f902c62060",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "November 13 Paris attacks: Eleven years later, France pays tribute to victims",
-      "url": "https://www.france24.com/en/november-13-paris-attacks-eleven-years-later-france-pays-tribute-to-victims",
-      "published_at": "2026-11-13T16:47:52Z",
-      "collected_at": "2026-11-13T17:01:09Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "fb19088b8e87592c74f524c2",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Crossing Afghanistan along the 'highway of death'",
-      "url": "https://www.france24.com/en/tv-shows/revisited/20261113-crossing-afghanistan-along-the-highway-of-death",
-      "published_at": "2026-11-13T16:47:34Z",
-      "collected_at": "2026-11-13T17:01:09Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "73e6a937f2672c1951e15aca",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Myanmar: Junta carries out double-tap airstrikes targeting civilians",
-      "url": "https://www.france24.com/en/tv-shows/the-observers/20261113-myanmar-junta-airstrikes-civilians",
-      "published_at": "2026-11-13T16:41:45Z",
-      "collected_at": "2026-11-13T17:01:09Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "1a66827e0e27f5099294abd6",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
-      "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-13T16:40:31Z",
-      "collected_at": "2026-11-13T17:01:09Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "af8293d4a25128e17e08cf17",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland research hub launched at Oxford University",
-      "url": "https://notesfrompoland.com/2026/11/13/poland-research-hub-launched-at-oxford-university",
-      "published_at": "2026-11-13T16:38:36Z",
-      "collected_at": "2026-11-13T17:01:09Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "70e5ec333d5ceb5e73ec5e8f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "El Niño fuels climate disasters: The high price of inaction",
-      "url": "https://www.france24.com/en/tv-shows/access-asia/20261113-el-ni%C3%B1o-fuels-climate-disasters-the-high-price-of-inaction",
-      "published_at": "2026-11-13T16:35:47Z",
-      "collected_at": "2026-11-13T17:01:09Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "c91b986c2a580ea136be2614",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "West Bank: ‘Without international trade and financial support, large settlements would not exist’",
-      "url": "https://www.france24.com/en/video/20261113-west-bank-without-international-trade-and-financial-support-large-settlements-would-not-exist-1",
-      "published_at": "2026-11-13T16:15:44Z",
-      "collected_at": "2026-11-13T17:01:09Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "56f1cd1eba06eb9ee8df9a35",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1510,6 +1448,48 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "bc3f7df90b7a086652bba806",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "EU’s Kallas wants next week’s UK‑EU summit to kick‑start ‘small steps’ to rejoin",
+      "url": "https://euobserver.com/248679/eus-kallas-wants-next-weeks-ukeu-summit-to-kickstart-small-steps-to-rejoin",
+      "published_at": "2026-11-12T16:48:48Z",
+      "collected_at": "2026-11-14T17:01:11Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "05b09ce48b064063bc901d93",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "From pin-up calendars to the Istanbul Convention: Magyar’s U-turn, as Operation Purgatory reaches Orbán’s brother (Day 184 of the Tisza government)",
+      "url": "https://euobserver.com/248651/from-pin-up-calendars-to-the-istanbul-convention-magyars-u-turn-as-operation-purgatory-reaches-orbans-brother-day-184-of-the-tisza-government",
+      "published_at": "2026-11-12T16:48:36Z",
+      "collected_at": "2026-11-14T17:01:11Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "c706b2e87c28b9d22c449f5a",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "What have the talks with Russia and the US in Abu Dhabi achieved for Ukraine?",
+      "url": "https://www.dw.com/en/what-have-the-talks-with-russia-and-the-us-in-abu-dhabi-achieved-for-ukraine/a-79930613?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-12T16:44:00Z",
+      "collected_at": "2026-11-14T17:01:11Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -1744,6 +1724,20 @@
       "url": "https://www.dw.com/en/wael-mohya-could-make-german-football-history-at-17/a-79919787?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-11-11T15:00:00Z",
       "collected_at": "2026-11-13T17:30:58Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "8cd75850fc9c8525a21dbcaa",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Iran denies role in fridge hack, France summons ambassador",
+      "url": "https://www.dw.com/en/iran-denies-role-in-fridge-hack-france-summons-ambassador/a-79910206?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-10T15:57:00Z",
+      "collected_at": "2026-11-14T17:01:11Z",
       "topics": [
         "politics",
         "society",
@@ -2129,20 +2123,6 @@
       ]
     },
     {
-      "id": "0b5be26ae116b3d0a9a06448",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Bombings, extraditions, and militarized cities mark De la Espriella’s first 90 days in charge of security",
-      "url": "https://english.elpais.com/international/2026-11-05/bombings-extraditions-and-militarized-cities-mark-de-la-espriellas-first-90-days-in-charge-of-security.html",
-      "published_at": "2026-11-05T13:51:41Z",
-      "collected_at": "2026-11-13T17:01:09Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "7898b3bba4f05cb692d730e9",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2164,6 +2144,20 @@
       "url": "https://english.elpais.com/spain/2026-11-04/spains-transportation-minister-steps-down-over-train-crash-to-try-to-save-the-socialist-campaign-ahead-of-elections.html",
       "published_at": "2026-11-04T11:51:58Z",
       "collected_at": "2026-11-14T13:31:04Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "26c4016b5719e37ec401c1b7",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Goodbye screens, hello rings: The new generation of inconspicuous devices",
+      "url": "https://english.elpais.com/technology/2026-11-02/goodbye-screens-hello-rings-the-new-generation-of-inconspicuous-devices.html",
+      "published_at": "2026-11-02T14:17:56Z",
+      "collected_at": "2026-11-14T17:01:11Z",
       "topics": [
         "politics",
         "society",
@@ -2220,6 +2214,20 @@
       "url": "https://english.elpais.com/international/2026-10-26/an-empty-airport-shuttered-storefronts-and-abandoned-hotels-the-tourism-decline-in-tulum-is-worsening.html",
       "published_at": "2026-10-26T19:27:24Z",
       "collected_at": "2026-11-14T07:01:15Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "7cc923fa4e980bb60e094189",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Scientists alarmed by dozens of whale deaths along Argentina’s coast",
+      "url": "https://english.elpais.com/climate/2026-10-21/scientists-alarmed-by-dozens-of-whale-deaths-along-argentinas-coast.html",
+      "published_at": "2026-10-21T14:37:16Z",
+      "collected_at": "2026-11-14T17:01:11Z",
       "topics": [
         "politics",
         "society",
