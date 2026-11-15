@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-15T13:00:58Z",
-  "last_successful_collection_at": "2026-11-15T13:00:58Z",
+  "generated_at": "2026-11-15T13:31:02Z",
+  "last_successful_collection_at": "2026-11-15T13:31:02Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-15T13:00:58Z"
+      "at": "2026-11-15T13:31:02Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-11-15T13:00:58Z"
+      "at": "2026-11-15T13:31:02Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-15T13:00:58Z"
+      "at": "2026-11-15T13:31:02Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-15T13:00:58Z"
+      "at": "2026-11-15T13:31:02Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-15T13:00:58Z"
+      "at": "2026-11-15T13:31:02Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-11-15T13:00:58Z"
+      "at": "2026-11-15T13:31:02Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-15T13:00:58Z"
+      "at": "2026-11-15T13:31:02Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-15T13:00:58Z"
+      "at": "2026-11-15T13:31:02Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-15T13:00:58Z"
+      "at": "2026-11-15T13:31:02Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Italy fines Meta over user photos",
-      "summary": "Italian regulators have issued a massive €805m fine against Meta due to unauthorized access to user photographs. The enforcement action underscores heightened privacy scrutiny facing major technology conglomerates across Europe.",
+      "title": "Romania condemns Black Sea drone strikes",
+      "summary": "The Romanian prime minister has condemned recent drone strikes targeting ships in the Black Sea. Officials described the maritime attacks as unacceptable amid ongoing regional security tensions.",
+      "article_ids": [
+        "5b578cf0dcd9256bc888f31b"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/romanian-pm-condemns-unacceptable-drone-strikes-black-sea-ships",
+          "headline": "Romania slams ‘unacceptable’ drone strikes on Black Sea ships",
+          "published_at": "2026-11-15T13:16:00Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Italy penalizes Meta over user privacy",
+      "summary": "Italian authorities have issued a substantial financial penalty against Meta regarding data access practices involving user photos. The enforcement action highlights ongoing regulatory scrutiny of major technology platforms in Europe.",
       "article_ids": [
         "97d1beb6bfb9f2b39bb341b6"
       ],
@@ -78,38 +94,22 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Polish president vetoes online content law",
-      "summary": "The Polish president has formally vetoed legislation concerning the removal of harmful internet content. Officials warned that the proposed regulatory framework risked enabling systemic censorship.",
-      "article_ids": [
-        "f1ce493e984542afbdfa4f80"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/14/polish-president-vetoes-law-on-removing-harmful-online-content-warning-of-censorship",
-          "headline": "Polish president vetoes law on removing harmful online content, warning of “censorship”",
-          "published_at": "2026-11-14T16:26:13Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "Ukraine security and territorial discussions",
-      "summary": "European leaders continue debates regarding security guarantees and potential territorial considerations for Ukraine's future. French leadership warned that curtailing financial and military assistance would invite broader geopolitical conflict.",
+      "title": "Ukraine Conflict Developments",
+      "summary": "Ukrainian officials reported thousands of Russian casualties alongside a slowing advance by Kremlin forces. Meanwhile, European leaders continue to discuss military assistance and strategic security frameworks.",
       "article_ids": [
-        "863fbf4cef9b691139aad0a0",
+        "8433a7b7ac3a9605a36fa5cc",
         "c2462db6dcecc2af67f773ee"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/will-ukraine-make-territorial-concessions-for-nato-membership",
-          "headline": "Will Ukraine make territorial concessions for NATO membership?",
-          "published_at": "2026-11-15T12:14:54Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/russian-army-is-slowing-down-as-ukrainian-forces-kill-thousands-of-kremlin-troops",
+          "headline": "Ukraine claims thousands of Russian casualties and a slowing Kremlin advance",
+          "published_at": "2026-11-15T03:00:00Z"
         },
         {
           "publisher": "France 24 English",
@@ -118,11 +118,11 @@
           "published_at": "2026-11-14T20:15:43Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Civil unrest across France",
-      "summary": "Demonstrations and widespread civil unrest have persisted across multiple regions in France. Protesters have staged successive waves of actions voicing deep societal grievances.",
+      "title": "Civil Unrest in France",
+      "summary": "Multiple rounds of demonstrations have swept across France as citizens participate in widespread protests. The ongoing movement has triggered significant political debate and security responses nationwide.",
       "article_ids": [
         "e9802720d7ee6f6139caf254"
       ],
@@ -170,6 +170,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "5b578cf0dcd9256bc888f31b",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Romania slams ‘unacceptable’ drone strikes on Black Sea ships",
+      "url": "https://www.politico.eu/article/romanian-pm-condemns-unacceptable-drone-strikes-black-sea-ships",
+      "published_at": "2026-11-15T13:16:00Z",
+      "collected_at": "2026-11-15T13:31:02Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "322acd7a3c7917451b02aeb2",
       "source_id": "france24",
@@ -857,48 +871,6 @@
       ]
     },
     {
-      "id": "6af76aedb6b2ab80afacab21",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Inside Ethiopia's war: Rare access to a hospital treating victims of renewed fighting",
-      "url": "https://www.france24.com/en/inside-ethiopia-s-war-rare-access-to-a-hospital-treating-victims-of-renewed-fighting",
-      "published_at": "2026-11-14T12:23:32Z",
-      "collected_at": "2026-11-14T13:01:08Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "ccff6b8f19a5592fa369d3d8",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Who are the 'street medics' showing up at protests around the world?",
-      "url": "https://www.france24.com/en/who-are-the-street-medics-showing-up-at-protests-around-the-world",
-      "published_at": "2026-11-14T12:19:19Z",
-      "collected_at": "2026-11-14T13:01:08Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "49b85b53e9c7ab5ffa6e1bc1",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "U2 releases first new studio album in a decade, 'Caranaval de Luz'",
-      "url": "https://www.france24.com/en/u2-releases-first-new-studio-album-in-a-decade-caranaval-de-luz",
-      "published_at": "2026-11-14T12:17:19Z",
-      "collected_at": "2026-11-14T13:01:08Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "14cf8d70ba00225e6d833e38",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -965,6 +937,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "38d33242e3a3a1f85a6d201e",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Temporary no longer: Ukrainian refugees in Poland confront the long term",
+      "url": "https://notesfrompoland.com/2026/11/13/temporary-no-longer-ukrainian-refugees-in-poland-confront-the-long-term",
+      "published_at": "2026-11-13T12:38:06Z",
+      "collected_at": "2026-11-15T13:31:02Z",
+      "topics": [
+        "central_europe",
+        "politics",
         "society"
       ]
     },
