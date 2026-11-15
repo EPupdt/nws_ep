@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-15T17:31:02Z",
-  "last_successful_collection_at": "2026-11-15T17:31:02Z",
+  "generated_at": "2026-11-15T18:01:06Z",
+  "last_successful_collection_at": "2026-11-15T18:01:06Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-15T17:31:02Z"
+      "at": "2026-11-15T18:01:06Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-11-15T17:31:02Z"
+      "at": "2026-11-15T18:01:06Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-15T17:31:02Z"
+      "at": "2026-11-15T18:01:06Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,45 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-15T17:31:02Z"
+      "at": "2026-11-15T18:01:06Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-15T17:31:02Z"
+      "at": "2026-11-15T18:01:06Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-11-15T17:31:02Z"
+      "at": "2026-11-15T18:01:06Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-15T17:31:02Z"
+      "at": "2026-11-15T18:01:06Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-15T17:31:02Z"
+      "at": "2026-11-15T18:01:06Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-15T17:31:02Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-15T18:01:06Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Estonia closes Russian border following sabotage attempt",
-      "summary": "Estonia announced plans to shut its border crossings with Russia after a sabotage and arson attempt targeting a domestic drone manufacturing facility. Officials explicitly attributed the security breach to external interference.",
+      "title": "Estonia closes border following sabotage attempt",
+      "summary": "Estonia is closing its Russian border crossings following an attempted sabotage and arson attack at a local defense and drone manufacturing firm. Officials have accused Russia of orchestrating the incident, prompting immediate national security measures.",
       "article_ids": [
         "b40d516f89063cdfa70663a3",
-        "8739d448c14556db4267e6ec",
-        "afcf8c38efabb50db5971e41",
         "05728568397b7ed6cbdcf9c0"
       ],
       "sources": [
@@ -82,7 +80,7 @@
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker",
-          "headline": "Estonia accuses Russia of attempted arson attack on defense firm",
+          "headline": "Estonia to close border with Russia after ‘sabotage attack’ on defense firm",
           "published_at": "2026-11-15T14:32:13Z"
         }
       ],
@@ -90,7 +88,7 @@
     },
     {
       "title": "Romania condemns Black Sea drone strikes",
-      "summary": "The Romanian government strongly criticized recent drone attacks impacting commercial shipping in the Black Sea. Officials labeled the maritime strikes as entirely unacceptable under regional security standards.",
+      "summary": "The Romanian government has strongly denounced recent drone strikes targeting commercial ships in the Black Sea, labeling the attacks as completely unacceptable. The maritime incidents highlight the escalating regional security risks spilling over into European shipping lanes.",
       "article_ids": [
         "5b578cf0dcd9256bc888f31b"
       ],
@@ -107,14 +105,11 @@
   ],
   "top_stories": [
     {
-      "title": "Regional Security and Cross-Border Incidents",
-      "summary": "Estonia decided to close its border with Russia following an attempted arson attack at a defense manufacturing site. Meanwhile, Romanian leadership condemned recent hostile drone strikes targeting vessels in the Black Sea.",
+      "title": "Cross-Border Security and Sabotage Incidents",
+      "summary": "Estonia announced plans to shut down its Russian border crossings in response to a sabotage attempt directed at a domestic drone facility. Meanwhile, Romanian leadership condemned recent hostile drone strikes impacting maritime shipping vessels in the Black Sea.",
       "article_ids": [
         "b40d516f89063cdfa70663a3",
-        "5b578cf0dcd9256bc888f31b",
-        "8739d448c14556db4267e6ec",
-        "afcf8c38efabb50db5971e41",
-        "05728568397b7ed6cbdcf9c0"
+        "5b578cf0dcd9256bc888f31b"
       ],
       "sources": [
         {
@@ -131,6 +126,23 @@
         }
       ],
       "source_count": 2
+    },
+    {
+      "title": "Ukraine Conflict and Regional Infrastructure",
+      "summary": "Ukrainian forces carried out an overnight drone assault targeting infrastructure within Russia's petrochemical hub. Concurrently, regional leaders engaged in high-level discussions regarding ongoing territorial pressures and satellite communication restrictions.",
+      "article_ids": [
+        "b4b0bb46798be6610ca5075a",
+        "4f6599ab94d5141a4ec9ff8f"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261115-ukrainian-drones-strike-russia-s-petrochemical-capital-in-overnight-assault",
+          "headline": "Ukrainian drones strike Russia's petrochemical capital in overnight assault",
+          "published_at": "2026-11-15T13:36:53Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "developing": [
@@ -192,22 +204,36 @@
       ]
     },
     {
-      "label": "assault · capital · drones · overnight",
+      "label": "communities · forests · French · Guiana",
       "origin": "radar",
       "source_count": 1,
       "item_count": 1,
-      "latest_at": "2026-11-15T13:36:53Z",
+      "latest_at": "2026-11-15T12:04:19Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261115-ukrainian-drones-strike-russia-s-petrochemical-capital-in-overnight-assault",
-          "headline": "Ukrainian drones strike Russia's petrochemical capital in overnight assault",
-          "published_at": "2026-11-15T13:36:53Z"
+          "url": "https://www.france24.com/en/illegal-mining-threatens-french-guiana-forests-and-indigenous-communities",
+          "headline": "Illegal mining threatens French Guiana forests and Indigenous communities",
+          "published_at": "2026-11-15T12:04:19Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "b4b0bb46798be6610ca5075a",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+      "url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-15T17:57:09Z",
+      "collected_at": "2026-11-15T18:01:06Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "f586cb2b9928c5b45d304015",
       "source_id": "bbc_europe",
@@ -993,20 +1019,6 @@
       ]
     },
     {
-      "id": "e84de38377924b58cd94fa17",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Elon Musk's SpaceX aborts booster recovery due to technical issues",
-      "url": "https://www.france24.com/en/elon-musk-s-spacex-aborts-booster-recovery-due-to-technical-issues",
-      "published_at": "2026-11-14T17:33:37Z",
-      "collected_at": "2026-11-14T18:01:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "f1ce493e984542afbdfa4f80",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -1032,20 +1044,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "79ab5859f6ab2f89d61aa678",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Turkey uses espionage accusations to pressure government critics",
-      "url": "https://www.dw.com/en/turkey-uses-espionage-accusations-to-pressure-government-critics/a-79943768?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-14T07:31:00Z",
-      "collected_at": "2026-11-14T18:01:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
@@ -1441,20 +1439,6 @@
       ]
     },
     {
-      "id": "c19bb0897d168e7be6c0b8c1",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Can the EU make it harder to trick consumers online?",
-      "url": "https://www.dw.com/en/can-the-eu-make-it-harder-to-trick-consumers-online/a-79933447?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-12T17:19:00Z",
-      "collected_at": "2026-11-14T18:01:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "6a97a1f9f0e3b5c997798c74",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1606,20 +1590,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "eb86936ffd467334f754a7dd",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Inside devastated front-line city that Russia wants Ukraine to give up",
-      "url": "https://www.bbc.co.uk/news/articles/cq0memrywvzro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-10T17:00:11Z",
-      "collected_at": "2026-11-14T18:01:04Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
@@ -1798,20 +1768,6 @@
       "url": "https://english.elpais.com/usa/2026-10-28/i-watched-up-and-down-and-i-looked-at-his-ass-why-trump-seems-obsessed-with-praising-male-physiques.html",
       "published_at": "2026-10-28T12:45:28Z",
       "collected_at": "2026-11-15T15:01:08Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "42e7b79c219969a5c0750bc1",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Working to change the culture from within in Argentine women’s soccer",
-      "url": "https://english.elpais.com/sports/2026-10-15/working-to-change-the-culture-from-within-in-argentine-womens-soccer.html",
-      "published_at": "2026-10-15T13:07:54Z",
-      "collected_at": "2026-11-14T18:01:04Z",
       "topics": [
         "politics",
         "society",
