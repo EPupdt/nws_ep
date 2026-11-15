@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-15T19:30:59Z",
-  "last_successful_collection_at": "2026-11-15T19:30:59Z",
+  "generated_at": "2026-11-15T20:00:56Z",
+  "last_successful_collection_at": "2026-11-15T20:00:56Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-15T19:30:59Z"
+      "at": "2026-11-15T20:00:56Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-11-15T19:30:59Z"
+      "at": "2026-11-15T20:00:56Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-15T19:30:59Z"
+      "at": "2026-11-15T20:00:56Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-15T19:30:59Z"
+      "at": "2026-11-15T20:00:56Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-15T19:30:59Z"
+      "at": "2026-11-15T20:00:56Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-11-15T19:30:59Z"
+      "at": "2026-11-15T20:00:56Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-15T19:30:59Z"
+      "at": "2026-11-15T20:00:56Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-15T19:30:59Z"
+      "at": "2026-11-15T20:00:56Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-15T19:30:59Z"
+      "at": "2026-11-15T20:00:56Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Estonia Closes Border Following Sabotage Attempt",
-      "summary": "Estonia has announced the closure of its Russian border crossings following an attempted sabotage and arson attack targeting a defense firm manufacturing drones.",
+      "title": "Estonia closes Russian border following sabotage attempt",
+      "summary": "Estonia announced plans to close its border with Russia following an attempted arson and sabotage attack at a defense and drone manufacturing firm. Officials accused Russia of orchestrating the operation, prompting immediate regional security measures.",
       "article_ids": [
         "b40d516f89063cdfa70663a3",
         "8739d448c14556db4267e6ec",
-        "afcf8c38efabb50db5971e41",
         "05728568397b7ed6cbdcf9c0"
       ],
       "sources": [
@@ -89,12 +88,19 @@
       "source_count": 2
     },
     {
-      "title": "Romania Condemns Black Sea Drone Strikes",
-      "summary": "The Romanian government has slammed recent drone strikes targeting shipping vessels in the Black Sea as entirely unacceptable amid regional security concerns.",
+      "title": "EU strengthens sanctions as regional security concerns grow",
+      "summary": "The European Union is flexing its muscle on Russia sanctions amid ongoing international diplomatic discussions regarding Ukraine's future. Meanwhile, regional officials have strongly condemned recent drone strikes targeting Black Sea shipping infrastructure.",
       "article_ids": [
+        "1bd6c349beb0644d805c6ff9",
         "5b578cf0dcd9256bc888f31b"
       ],
       "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/248956/eu-flexes-muscle-on-russia-sanctions-as-trump-and-putin-discuss-ukraines-future-in-china",
+          "headline": "EU flexes muscle on Russia sanctions, as Trump and Putin discuss Ukraine’s future in China",
+          "published_at": "2026-11-15T19:00:00Z"
+        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/romanian-pm-condemns-unacceptable-drone-strikes-black-sea-ships",
@@ -102,13 +108,13 @@
           "published_at": "2026-11-15T13:16:00Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "Estonian Border Closure and Security Measures",
-      "summary": "Estonian authorities are moving to shut down Russian border crossings after confronting an attempted arson incident at a domestic drone manufacturing facility. The security breach has prompted immediate retaliatory border restrictions and heightened protective measures.",
+      "title": "Estonian Border Closure",
+      "summary": "Estonia decided to shut down its border crossings with Russia following an attempted sabotage incident at a local defense firm. The government directly accused Russian actors of carrying out the attempted arson attack against the drone manufacturing facility.",
       "article_ids": [
         "b40d516f89063cdfa70663a3",
         "8739d448c14556db4267e6ec"
@@ -119,35 +125,23 @@
           "url": "https://www.france24.com/en/europe/20261115-estonia-to-close-russian-border-crossings-after-sabotage-attempt-at-drone-factory",
           "headline": "Estonia to close Russian border crossings after 'sabotage' attempt at drone factory",
           "published_at": "2026-11-15T17:05:14Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Regional Security and Maritime Incidents",
-      "summary": "Romanian leadership has strongly condemned recent hostile drone strikes impacting commercial vessels operating within the Black Sea. These cross-border attacks continue to threaten regional stability and critical maritime infrastructure.",
-      "article_ids": [
-        "5b578cf0dcd9256bc888f31b",
-        "4f6599ab94d5141a4ec9ff8f"
-      ],
-      "sources": [
+        },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/romanian-pm-condemns-unacceptable-drone-strikes-black-sea-ships",
-          "headline": "Romania slams ‘unacceptable’ drone strikes on Black Sea ships",
-          "published_at": "2026-11-15T13:16:00Z"
+          "url": "https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker",
+          "headline": "Estonia accuses Russia of attempted arson attack on defense firm",
+          "published_at": "2026-11-15T14:32:13Z"
         }
       ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
+      "source_count": 2
+    },
     {
-      "label": "Czech · public",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-11-15T19:13:35Z",
+      "title": "Public Media Protests",
+      "summary": "Demonstrators in the Czech Republic took to the streets to protest controversial legislative plans that would alter public media funding structures. The proposed reforms have also driven prominent media figures to announce their departures from public television.",
+      "article_ids": [
+        "f5e4ed06bd462984698bcebf",
+        "f586cb2b9928c5b45d304015"
+      ],
       "sources": [
         {
           "publisher": "France 24 English",
@@ -161,8 +155,11 @@
           "headline": "Czechs rally against plan to switch funding of public media",
           "published_at": "2026-11-15T17:23:40Z"
         }
-      ]
-    },
+      ],
+      "source_count": 2
+    }
+  ],
+  "developing": [
     {
       "label": "Gaza · Hamas · Israel · kills",
       "origin": "convergence",
@@ -219,9 +216,38 @@
           "published_at": "2026-11-15T13:59:21Z"
         }
       ]
+    },
+    {
+      "label": "assault · capital · drones · overnight",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-11-15T13:36:53Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261115-ukrainian-drones-strike-russia-s-petrochemical-capital-in-overnight-assault",
+          "headline": "Ukrainian drones strike Russia's petrochemical capital in overnight assault",
+          "published_at": "2026-11-15T13:36:53Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "a78c33acb0b98372ca53318f",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Security Sunday: Der lange Weg zum Frieden in der Ukraine – mit Claudia Major",
+      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-sunday-der-lange-weg-zum-frieden-in-der-ukraine-mit-claudia-major",
+      "published_at": "2026-11-15T19:44:34Z",
+      "collected_at": "2026-11-15T20:00:56Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "325c332644fb99670c8ade20",
       "source_id": "france24",
@@ -230,6 +256,20 @@
       "url": "https://www.france24.com/en/middle-east/20261115-yemen-houthis-advance-to-within-60-kilometres-of-aden-military-sources-say",
       "published_at": "2026-11-15T19:28:54Z",
       "collected_at": "2026-11-15T19:30:59Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "79514a0a8410929e84093b34",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Yemen's Houthis advance on Aden as government forces retreat to defend their capital",
+      "url": "https://www.france24.com/en/middle-east/20261115-yemen-houthis-advance-to-within-60-kilometres-of-aden-military-sources-say",
+      "published_at": "2026-11-15T19:28:54Z",
+      "collected_at": "2026-11-15T20:00:56Z",
       "topics": [
         "politics",
         "security",
@@ -1441,20 +1481,6 @@
       ]
     },
     {
-      "id": "ea9dd72308c15526b70ac0c4",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Europe’s self-styled pacifists are helping Putin freeze Ukrainians in their homes",
-      "url": "https://euobserver.com/248586/europes-self-styled-pacifists-are-helping-putin-freeze-ukrainians-out",
-      "published_at": "2026-11-12T19:00:00Z",
-      "collected_at": "2026-11-14T19:31:01Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "8d44abcfdeddc99baad8d6df",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -1567,34 +1593,6 @@
       ]
     },
     {
-      "id": "3b4101d0bd6cb59056238a45",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "How Ueno, the Paraguayan bank that promised customers 40% cashback, went bust",
-      "url": "https://english.elpais.com/economy-and-business/2026-11-10/how-ueno-the-paraguayan-bank-that-promised-customers-40-cashback-went-bust.html",
-      "published_at": "2026-11-10T16:56:54Z",
-      "collected_at": "2026-11-14T19:31:01Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "8d92758434d9ca8ed97bdc59",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Karl Deisseroth, Nobel Prize in Physiology or Medicine: ‘ Advanced AI models could infer the activity of the brain’",
-      "url": "https://english.elpais.com/science-tech/2026-11-09/karl-deisseroth-nobel-prize-in-physiology-or-medicine-advanced-ai-models-could-infer-the-activity-of-the-brain.html",
-      "published_at": "2026-11-09T12:16:21Z",
-      "collected_at": "2026-11-14T19:31:01Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "2924b165a303d62cf8c774e5",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1679,34 +1677,6 @@
       ]
     },
     {
-      "id": "18b0a97dce975920b442bddb",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Michael C. Hall: ‘Twenty years have passed for Dexter and for me, and with age come struggles, wisdom, battle scars...’",
-      "url": "https://english.elpais.com/culture/2026-11-02/michael-c-hall-twenty-years-have-passed-for-dexter-and-for-me-and-with-age-come-struggles-wisdom-battle-scars.html",
-      "published_at": "2026-11-02T17:19:28Z",
-      "collected_at": "2026-11-14T19:31:01Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "4dfb0ddff0f4284577bdf20b",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Ten European countries share evidence on alleged torture of Gaza flotilla activists",
-      "url": "https://english.elpais.com/international/2026-11-02/ten-european-countries-share-evidence-on-alleged-torture-of-gaza-flotilla-activists.html",
-      "published_at": "2026-11-02T15:29:00Z",
-      "collected_at": "2026-11-14T19:31:01Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "e5575fbd1b6e57e569214c19",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1721,20 +1691,6 @@
       ]
     },
     {
-      "id": "ceb96527394ae3411415e638",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Ugly, unloved and controversial: The real estate fiasco of Paris’s tallest skyscraper",
-      "url": "https://english.elpais.com/international/2026-10-30/ugly-unloved-and-controversial-the-real-estate-fiasco-of-pariss-tallest-skyscraper.html",
-      "published_at": "2026-10-30T20:09:21Z",
-      "collected_at": "2026-11-14T19:31:01Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "42524281b7c1ec7a60e284a5",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1742,20 +1698,6 @@
       "url": "https://english.elpais.com/usa/2026-10-28/i-watched-up-and-down-and-i-looked-at-his-ass-why-trump-seems-obsessed-with-praising-male-physiques.html",
       "published_at": "2026-10-28T12:45:28Z",
       "collected_at": "2026-11-15T15:01:08Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "dffaa72c90845c6e1ec2dd5f",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The Madrid bear sculpture meant for a Miami roundabout that ended up inside a restaurant instead",
-      "url": "https://english.elpais.com/international/2026-10-07/the-madrid-bear-sculpture-meant-for-a-miami-roundabout-that-ended-up-inside-a-restaurant-instead.html",
-      "published_at": "2026-10-07T14:09:26Z",
-      "collected_at": "2026-11-14T19:31:01Z",
       "topics": [
         "politics",
         "society",
