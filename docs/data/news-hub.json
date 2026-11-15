@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-14T20:30:57Z",
-  "last_successful_collection_at": "2026-11-14T20:30:57Z",
+  "generated_at": "2026-11-15T04:30:54Z",
+  "last_successful_collection_at": "2026-11-15T04:30:54Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-14T20:30:57Z"
+      "at": "2026-11-15T04:30:54Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-11-14T20:30:57Z"
+      "at": "2026-11-15T04:30:54Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-14T20:30:57Z"
+      "at": "2026-11-15T04:30:54Z"
     },
     {
       "id": "euractiv",
@@ -29,68 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-14T20:30:57Z"
+      "at": "2026-11-15T04:30:54Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-14T20:30:57Z"
+      "at": "2026-11-15T04:30:54Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
-      "count": "56",
-      "at": "2026-11-14T20:30:57Z"
+      "count": "60",
+      "at": "2026-11-15T04:30:54Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-14T20:30:57Z"
+      "at": "2026-11-15T04:30:54Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-14T20:30:57Z"
+      "at": "2026-11-15T04:30:54Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-14T20:30:57Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-15T04:30:54Z"
     }
   ],
   "europe_now": [
     {
-      "title": "France Mobilizes Security Forces Amid Nationwide Protests",
-      "summary": "France has deployed tens of thousands of police officers as hundreds of thousands of demonstrators take to the streets for a fifth consecutive wave of anti-government protests. The widespread demonstrations have focused on rising living costs and policing tactics, while school principals report escalating threats and violence.",
-      "article_ids": [
-        "6f4ec52686634cd5b9ebc00b",
-        "c909c439d27fdda866db744f",
-        "812b4b82d33516ad9c48e136",
-        "f308bcbfc683457b5c183bef"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-protests-for-fifth-saturday-against-living-costs-and-heavy-handed-policing",
-          "headline": "France protests for fifth Saturday against living costs and heavy-handed policing",
-          "published_at": "2026-11-14T10:15:42Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261114-live-france-mobilises-in-fifth-wave-of-student-protests",
-          "headline": "Live: France deploys 70,000 police for new wave of anti-government protests",
-          "published_at": "2026-11-14T07:09:32Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Italy Fines Meta Over Privacy and User Data Violations",
-      "summary": "Italian authorities have issued an 805 million euro fine against Meta following an investigation into privacy law violations and the unauthorized access of user photographs. The substantial penalty highlights ongoing regulatory scrutiny of major technology platforms within the European Union.",
+      "title": "Italian Privacy Fine on Meta",
+      "summary": "Italian authorities have imposed an 805 million euro fine on Meta regarding privacy violations tied to the access of user photographs.",
       "article_ids": [
         "97d1beb6bfb9f2b39bb341b6",
         "978e536823f1e3033200ff8a"
@@ -110,15 +85,32 @@
         }
       ],
       "source_count": 2
+    },
+    {
+      "title": "Protests and Unrest in France",
+      "summary": "Widespread demonstrations and anti-government actions have continued across France, marking another major wave of public unrest.",
+      "article_ids": [
+        "e9802720d7ee6f6139caf254"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261114-no-justice-no-peace-fifth-round-of-protests-sweep-across-france",
+          "headline": "'No justice, no peace': Fifth round of protests sweep across France",
+          "published_at": "2026-11-14T18:23:25Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "Ukraine Territorial and Security Discussions",
-      "summary": "Ukrainian officials reported that international proposals have suggested territorial adjustments in exchange for security guarantees or alliance membership. President Volodymyr Zelenskyy noted that any resulting security arrangements could potentially be submitted to a public referendum.",
+      "title": "Ukraine Territorial Proposals and Security Discussions",
+      "summary": "President Volodymyr Zelenskyy stated that international partners suggested Ukraine could cede the Donbas region in exchange for NATO membership. He also noted that any final security arrangement resulting from these discussions could potentially be put to a national referendum.",
       "article_ids": [
         "c0eebca7b0326ca5c1e1bde6",
         "fad46c0ffbebf7ed9e1d3ee5",
+        "27684fe26a993a9f0b60bfe0",
         "b83c9e4a9fe473f3f614d3fa"
       ],
       "sources": [
@@ -138,13 +130,19 @@
       "source_count": 2
     },
     {
-      "title": "Hungarian Corruption Investigation Uncovers Millions in Hidden Cash",
-      "summary": "Hungarian authorities conducting an investigation into figures associated with past administrations have uncovered nearly 20 million euros in hidden and buried cash. The significant financial discovery emerged during an ongoing probe into government-linked officials.",
+      "title": "Anti-Corruption Investigation in Hungary",
+      "summary": "Hungarian authorities uncovered nearly 20 million euros in hidden and buried cash during an ongoing corruption probe involving an Orbán-era minister. The discovery highlights significant financial irregularities currently being targeted by investigators in the country.",
       "article_ids": [
         "16ea66c0713217c168db0b4d",
         "a29f73005831a0cbd70a33a4"
       ],
       "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/nearly-e20m-in-cash-found-buried-hidden-in-hungary-corruption-case",
+          "headline": "Nearly €20m in cash found buried, hidden in Hungary corruption case",
+          "published_at": "2026-11-14T13:16:27Z"
+        },
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo?at_medium=RSS&at_campaign=rss",
@@ -152,15 +150,15 @@
           "published_at": "2026-11-14T10:42:20Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
     {
       "label": "China · meeting · Putin · Trump",
       "origin": "convergence",
-      "source_count": 3,
-      "item_count": 4,
+      "source_count": 2,
+      "item_count": 3,
       "latest_at": "2026-11-14T05:52:31Z",
       "sources": [
         {
@@ -174,33 +172,6 @@
           "url": "https://www.france24.com/en/americas/20261114-china-to-host-first-ever-trilateral-meeting-between-trump-xi-and-putin-next-week",
           "headline": "China to host first-ever trilateral meeting between Trump, Xi and Putin next week",
           "published_at": "2026-11-14T05:09:23Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-11-14/eleven-names-to-watch-in-the-race-for-the-white-house-in-2028.html",
-          "headline": "Eleven names to watch in the race for the White House in 2028",
-          "published_at": "2026-11-14T04:00:00Z"
-        }
-      ]
-    },
-    {
-      "label": "flights · US · amid · resume",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-14T01:16:51Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/usa/2026-11-14/all-flights-grounded-across-the-us-over-extraordinary-circumstances-and-security-concerns.html",
-          "headline": "All flights grounded across the US over ‘extraordinary circumstances and security concerns’",
-          "published_at": "2026-11-14T01:16:51Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20261113-us-air-travel-resumption-will-take-time-after-hours-long-stop",
-          "headline": "US flights resume amid gradual return to normal operations",
-          "published_at": "2026-11-13T22:43:22Z"
         }
       ]
     },
@@ -226,10 +197,25 @@
       ]
     },
     {
-      "label": "talks · Ukraine",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
+      "label": "costs · fifth · France · handed",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-11-14T10:15:42Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france-protests-for-fifth-saturday-against-living-costs-and-heavy-handed-policing",
+          "headline": "France protests for fifth Saturday against living costs and heavy-handed policing",
+          "published_at": "2026-11-14T10:15:42Z"
+        }
+      ]
+    },
+    {
+      "label": "elephant · Nuclear · peace · room",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
       "latest_at": "2026-11-14T10:00:00Z",
       "sources": [
         {
@@ -237,17 +223,165 @@
           "url": "https://euobserver.com/248713/nuclear-weapons-the-elephant-in-the-room-in-ukraine-peace-talks",
           "headline": "Nuclear weapons – the elephant in the room in Ukraine peace talks",
           "published_at": "2026-11-14T10:00:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks",
-          "headline": "France among five major powers to represent EU in Ukraine talks",
-          "published_at": "2026-11-13T21:38:52Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "7f7b122182b49faf6140f889",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "How the Democrats’ midterm victory could reshape the rules for electing a US president",
+      "url": "https://english.elpais.com/usa/2026-11-15/how-the-democrats-midterm-victory-could-reshape-the-rules-for-electing-a-us-president.html",
+      "published_at": "2026-11-15T04:00:00Z",
+      "collected_at": "2026-11-15T04:30:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "93d2846d1e56bfb5f68eb331",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "How Colombia is losing the war on drones",
+      "url": "https://english.elpais.com/international/2026-11-15/how-colombia-is-losing-the-war-on-drones.html",
+      "published_at": "2026-11-15T04:00:00Z",
+      "collected_at": "2026-11-15T04:30:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "15ecb77d2b350a29968e0bfd",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "In Ecuador, even the basics of life become a battle",
+      "url": "https://english.elpais.com/international/2026-11-15/in-ecuador-even-the-basics-of-life-become-a-battle.html",
+      "published_at": "2026-11-15T04:00:00Z",
+      "collected_at": "2026-11-15T04:30:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "490881bd6e19923ce21e7f7d",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Narco brokers in Mexico, a booming business thriving alongside Chinese money-laundering networks",
+      "url": "https://english.elpais.com/international/2026-11-15/narco-brokers-in-mexico-a-booming-business-thriving-alongside-chinese-money-laundering-networks.html",
+      "published_at": "2026-11-15T04:00:00Z",
+      "collected_at": "2026-11-15T04:30:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "9421af9840ff202669106ecc",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Patrick Radden Keefe, journalist: ‘We live in very mercenary times. Have money? Welcome’",
+      "url": "https://english.elpais.com/culture/2026-11-15/patrick-radden-keefe-journalist-we-live-in-very-mercenary-times-have-money-welcome.html",
+      "published_at": "2026-11-15T04:00:00Z",
+      "collected_at": "2026-11-15T04:30:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "ec4775a72b6b29275f6efe22",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Sir John Edmunds, British epidemiologist: ‘The dangerous events are the ones that we don’t really know about, like Donald Rumsfeld’s unknown unknowns’",
+      "url": "https://english.elpais.com/health/2026-11-15/sir-john-edmunds-british-epidemiologist-the-dangerous-events-are-the-ones-that-we-dont-really-know-about-like-donald-rumsfelds-unknown-unknowns.html",
+      "published_at": "2026-11-15T04:00:00Z",
+      "collected_at": "2026-11-15T04:30:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "e922c518b0ec54fa83d40cb3",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Celebrities who marry celebrities: From Adam Sandler and Billie Eilish to Jimmy Kimmel, twice over",
+      "url": "https://english.elpais.com/people/2026-11-15/celebrities-who-marry-celebrities-from-adam-sandler-and-billie-eilish-to-jimmy-kimmel-twice-over.html",
+      "published_at": "2026-11-15T04:00:00Z",
+      "collected_at": "2026-11-15T04:30:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "2cfeb46bec03fe166894e58e",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Passion flower perfume and peach palm sunscreen: The industry emerging around Colombia’s 2,500 species of fruits",
+      "url": "https://english.elpais.com/economy-and-business/2026-11-15/passion-flower-perfume-and-peach-palm-sunscreen-the-industry-emerging-around-colombias-2500-species-of-fruits.html",
+      "published_at": "2026-11-15T04:00:00Z",
+      "collected_at": "2026-11-15T04:30:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "1b6143390cabeb57b1728d41",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Grandparents as addicted to phones as their grandchildren: When boomers get hooked on social media",
+      "url": "https://english.elpais.com/health/2026-11-15/grandparents-as-addicted-to-phones-as-their-grandchildren-when-boomers-get-hooked-on-social-media.html",
+      "published_at": "2026-11-15T04:00:00Z",
+      "collected_at": "2026-11-15T04:30:54Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "d9338fd137d55181bd816798",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "SpaceX's Starship completes first-ever mid-air catch after return from orbit",
+      "url": "https://www.france24.com/en/spacex-starship-set-for-return-to-earth-after-failed-booster-catch",
+      "published_at": "2026-11-14T20:51:24Z",
+      "collected_at": "2026-11-15T04:30:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "4b3330d9b8e80cc6f072918e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Netanyahu renews call for Israeli unity government as Eisenkot dismisses 'tricks'",
+      "url": "https://www.france24.com/en/middle-east/20261114-netanyahu-renews-call-for-israeli-government-unity-as-eisenkot-dismisses-tricks",
+      "published_at": "2026-11-14T20:35:22Z",
+      "collected_at": "2026-11-15T04:30:54Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "c2462db6dcecc2af67f773ee",
       "source_id": "france24",
@@ -256,6 +390,20 @@
       "url": "https://www.france24.com/en/europe/20261114-macron-says-limiting-ukraine-aid-would-pave-way-to-another-war",
       "published_at": "2026-11-14T20:15:43Z",
       "collected_at": "2026-11-14T20:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e9802720d7ee6f6139caf254",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'No justice, no peace': Fifth round of protests sweep across France",
+      "url": "https://www.france24.com/en/france/20261114-no-justice-no-peace-fifth-round-of-protests-sweep-across-france",
+      "published_at": "2026-11-14T18:23:25Z",
+      "collected_at": "2026-11-15T04:30:54Z",
       "topics": [
         "politics",
         "security",
@@ -399,6 +547,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f1ce493e984542afbdfa4f80",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Polish president vetoes law on removing harmful online content, warning of “censorship”",
+      "url": "https://notesfrompoland.com/2026/11/14/polish-president-vetoes-law-on-removing-harmful-online-content-warning-of-censorship",
+      "published_at": "2026-11-14T16:26:13Z",
+      "collected_at": "2026-11-15T04:30:54Z",
+      "topics": [
+        "central_europe",
+        "politics",
         "society"
       ]
     },
@@ -1215,90 +1377,6 @@
       ]
     },
     {
-      "id": "86f275740b1faf52fb455aae",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Gambia's Adama Barrow seeks third term",
-      "url": "https://www.france24.com/en/gambia-s-adama-barrow-seeks-third-term",
-      "published_at": "2026-11-13T21:46:32Z",
-      "collected_at": "2026-11-13T22:01:00Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "3364bea31fc4a9e7e0209695",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "France among five major powers to represent EU in Ukraine talks",
-      "url": "https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks",
-      "published_at": "2026-11-13T21:38:52Z",
-      "collected_at": "2026-11-13T22:01:00Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "558890071837d1bf81b7c4a3",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 US flight authority orders national ground stop over air traffic control 'communication issue'",
-      "url": "https://www.france24.com/en/americas/20261113-us-flight-authority-orders-national-ground-stop-over-air-traffic-control-communication-issue",
-      "published_at": "2026-11-13T21:29:31Z",
-      "collected_at": "2026-11-13T22:01:00Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e5a3fc14b5a620591d7377c1",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "US flight authority orders national ground stop over air traffic control 'communication issue'",
-      "url": "https://www.france24.com/en/americas/20261113-us-flight-authority-orders-national-ground-stop-over-air-traffic-control-communication-issue",
-      "published_at": "2026-11-13T21:27:52Z",
-      "collected_at": "2026-11-13T22:01:00Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "2d7887acdcb0a227797fcf27",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Turkey and Qatar pledge unified stance against attacks in mutual defence pact",
-      "url": "https://www.france24.com/en/middle-east/20261113-turkey-and-qatar-pledge-unified-stance-against-attacks-in-mutual-defence-pact",
-      "published_at": "2026-11-13T20:06:40Z",
-      "collected_at": "2026-11-13T20:30:57Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "33cc747e9adf35238a1549df",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "The Downfall of AI’s ‘Rock Star’ Boss, Ukraine: Who speaks for Europe? Protests & Presidents",
-      "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261113-the-downfall-of-ai-s-rock-star-boss-ukraine-who-speak-for-europe-protests-presidents",
-      "published_at": "2026-11-13T19:46:54Z",
-      "collected_at": "2026-11-13T21:31:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "20945acb1b634de4db186aff",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -1691,20 +1769,6 @@
       ]
     },
     {
-      "id": "e67ff0088b82f107c6d9d795",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-      "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-11T22:07:37Z",
-      "collected_at": "2026-11-13T22:31:05Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "319414b0893a0805e081ba46",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1929,34 +1993,6 @@
       ]
     },
     {
-      "id": "bc9222174c5160664723b29c",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Coalition of the Willing military exercises begin in Poland to prepare support for postwar Ukraine",
-      "url": "https://notesfrompoland.com/2026/11/09/coalition-of-the-willing-military-exercises-begin-in-poland-to-prepare-support-for-postwar-ukraine",
-      "published_at": "2026-11-09T20:14:46Z",
-      "collected_at": "2026-11-13T21:01:12Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "09d27b82dcd0eee21cee0bf1",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Russia: Independent Novaya Gazeta shuts its Moscow newsroom",
-      "url": "https://www.dw.com/en/russia-independent-novaya-gazeta-shuts-its-moscow-newsroom/a-79899827?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-09T16:22:00Z",
-      "collected_at": "2026-11-13T21:01:12Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "e8fce8683222dcaab6ee27c5",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2125,34 +2161,6 @@
       ]
     },
     {
-      "id": "b1d6584f8352e1a4a74d99de",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Juan Manuel Santos, former president of Colombia: A man of peace in times of war",
-      "url": "https://english.elpais.com/international/2026-11-07/juan-manuel-santos-former-president-of-colombia-a-man-of-peace-in-times-of-war.html",
-      "published_at": "2026-11-07T04:00:00Z",
-      "collected_at": "2026-11-13T21:31:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "b1177e4563575466fce4ca31",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Narges Mohammadi, 2023 Nobel Peace Prize winner: ‘Iranian society no longer tolerates the Islamic Republic’",
-      "url": "https://english.elpais.com/international/2026-11-07/narges-mohammadi-2023-nobel-peace-prize-winner-iranian-society-no-longer-tolerates-the-islamic-republic.html",
-      "published_at": "2026-11-07T04:00:00Z",
-      "collected_at": "2026-11-13T21:31:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "f7125b63a33a6de3a52d6786",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2230,20 +2238,6 @@
       "url": "https://english.elpais.com/international/2026-10-30/ugly-unloved-and-controversial-the-real-estate-fiasco-of-pariss-tallest-skyscraper.html",
       "published_at": "2026-10-30T20:09:21Z",
       "collected_at": "2026-11-14T19:31:01Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "9ea252bfa1d68d21549af20f",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Small avocado growers’ strike cuts Mexican exports to the United States",
-      "url": "https://english.elpais.com/economy-and-business/2026-10-28/small-avocado-growers-strike-cuts-mexican-exports-to-the-united-states.html",
-      "published_at": "2026-10-28T17:43:50Z",
-      "collected_at": "2026-11-13T21:01:12Z",
       "topics": [
         "politics",
         "society",
