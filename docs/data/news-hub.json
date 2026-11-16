@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-16T18:30:55Z",
-  "last_successful_collection_at": "2026-11-16T18:30:55Z",
+  "generated_at": "2026-11-16T19:01:18Z",
+  "last_successful_collection_at": "2026-11-16T19:01:18Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-16T18:30:55Z"
+      "at": "2026-11-16T19:01:18Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "30",
-      "at": "2026-11-16T18:30:55Z"
+      "at": "2026-11-16T19:01:18Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-16T18:30:55Z"
+      "at": "2026-11-16T19:01:18Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,67 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-16T18:30:55Z"
+      "at": "2026-11-16T19:01:18Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-16T18:30:55Z"
+      "at": "2026-11-16T19:01:18Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-11-16T18:30:55Z"
+      "at": "2026-11-16T19:01:18Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-16T18:30:55Z"
+      "at": "2026-11-16T19:01:18Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-16T18:30:55Z"
+      "at": "2026-11-16T19:01:18Z"
     },
     {
       "id": "bruegel",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-16T18:30:55Z"
+      "status": "ok",
+      "count": "10",
+      "at": "2026-11-16T19:01:18Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Major Drone Strikes and Crimean Bridge Damage",
-      "summary": "Russian officials reported the largest Ukrainian drone attack of the conflict, with authorities claiming thousands of incoming drones were intercepted. Meanwhile, critical infrastructure sustained damage as the landmark Crimea bridge was hit during the escalation.",
+      "title": "Five EU nations pursue Rwanda deportation arrangement",
+      "summary": "Five European Union member states are advancing a partnership to deport failed asylum-seekers to Rwanda. However, officials noted that no formal agreement has been finalized and key details remain undisclosed.",
+      "article_ids": [
+        "a4e6370576e345b2e3664c56",
+        "5b797c84767e8cf6d64ed291",
+        "5a281db9657eabce5e039a7f"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/249298/five-eu-countries-tout-rwanda-deportation-partnership-but-no-formal-deal-as-key-details-remain-secret",
+          "headline": "Five EU countries tout Rwanda deportation partnership but no formal deal as key details remain secret",
+          "published_at": "2026-11-16T17:50:37Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/5-countries-announce-plan-to-deport-failed-asylum-seekers-to-rwanda",
+          "headline": "5 countries announce plan to deport failed asylum-seekers to Rwanda",
+          "published_at": "2026-11-16T16:57:27Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Major drone attack hits Crimean Bridge amid regional conflict",
+      "summary": "Russian authorities reported intercepting a massive wave of Ukrainian drones during one of the largest aerial attacks of the conflict. The operation caused noticeable damage to the strategic Crimean Bridge.",
       "article_ids": [
         "a17458fb1af18a9a9eb35410",
         "dec3177d7b1a9c2193770d4f",
@@ -86,37 +110,12 @@
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "Five EU Nations Plan Rwanda Deportation Partnership",
-      "summary": "Five European Union member states have announced plans to establish a migrant deportation center in Rwanda. However, critics note that no formal deal has been finalized and key operational details remain secret.",
-      "article_ids": [
-        "a4e6370576e345b2e3664c56",
-        "f6bdb1cc28e6d5756fd2c889",
-        "5b797c84767e8cf6d64ed291",
-        "5a281db9657eabce5e039a7f"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/249298/five-eu-countries-tout-rwanda-deportation-partnership-but-no-formal-deal-as-key-details-remain-secret",
-          "headline": "Five EU countries tout Rwanda deportation partnership but no formal deal as key details remain secret",
-          "published_at": "2026-11-16T17:50:37Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/5-countries-announce-plan-to-deport-failed-asylum-seekers-to-rwanda",
-          "headline": "5 countries announce plan to deport failed asylum-seekers to Rwanda",
-          "published_at": "2026-11-16T16:57:27Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "EU Sanctions Russian Hackers and Propagandists",
-      "summary": "The European Union has introduced a new round of sanctions targeting Russian hackers and propagandists. Officials cited thousands of fake online accounts attempting to influence European voters.",
+      "title": "EU Imposes Sanctions Over Disinformation and Cyberattacks",
+      "summary": "The European Union has introduced new restrictive measures targeting Russian hackers and propagandists. The sanctions come as thousands of fake online accounts continue to target European voters.",
       "article_ids": [
         "226b1e48985820e741cc0f60"
       ],
@@ -131,17 +130,17 @@
       "source_count": 1
     },
     {
-      "title": "EU Commission Clears UniCredit Takeover",
-      "summary": "The European Commission has officially cleared UniCredit's takeover of Commerzbank. Brussels also cautioned the German government against attempting to block the financial merger.",
+      "title": "Czech Citizens Rally Against Media Funding Overhaul",
+      "summary": "Thousands of demonstrators gathered in Prague to protest government plans regarding public media funding. Activists and citizens voiced strong opposition to the proposed legislative changes.",
       "article_ids": [
-        "a0bfe669e1005a22afe2e7ba"
+        "bf7708b28f8a74954a96967f"
       ],
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/249074/eu-commission-clears-unicredits-commerzbank-takeover-tells-berlin-not-to-stand-in-the-way",
-          "headline": "EU Commission clears UniCredit’s Commerzbank takeover, tells Berlin not to stand in the way",
-          "published_at": "2026-11-16T13:32:24Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261116-prague-thousands-of-czechs-rally-against-government-media-funding-plan",
+          "headline": "Prague: Thousands of Czechs rally against government media funding plan",
+          "published_at": "2026-11-16T15:49:29Z"
         }
       ],
       "source_count": 1
@@ -149,10 +148,37 @@
   ],
   "developing": [
     {
-      "label": "Putin · Russia · Ukraine · Europe",
+      "label": "Huang · Nvidia · Jensen · Musk",
       "origin": "convergence",
       "source_count": 3,
       "item_count": 6,
+      "latest_at": "2026-11-16T18:24:32Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/usa/2026-11-16/trump-says-he-would-not-mind-if-jensen-huang-returns-to-nvidia.html",
+          "headline": "Trump says he ‘would not mind’ if Jensen Huang returns to Nvidia",
+          "published_at": "2026-11-16T18:24:32Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261116-musk-among-more-than-150-000-calling-for-jensen-huang-s-return-to-nvidia",
+          "headline": "Musk among more than 150,000 calling for Jensen Huang's return to Nvidia",
+          "published_at": "2026-11-16T14:03:14Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/248997/ghost-of-yalta-returns-amid-fears-that-trump-xi-and-putin-will-carve-up-ukraine-and-europe",
+          "headline": "Ghost of Yalta returns, amid fears that Trump, Xi, and Putin will carve up Ukraine and Europe",
+          "published_at": "2026-11-16T11:44:38Z"
+        }
+      ]
+    },
+    {
+      "label": "Putin · Russia · Europe · peace",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 4,
       "latest_at": "2026-11-16T18:01:24Z",
       "sources": [
         {
@@ -197,27 +223,6 @@
       ]
     },
     {
-      "label": "Huang · Nvidia · Jensen · Musk",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-11-16T14:03:14Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261116-musk-among-more-than-150-000-calling-for-jensen-huang-s-return-to-nvidia",
-          "headline": "Musk among more than 150,000 calling for Jensen Huang's return to Nvidia",
-          "published_at": "2026-11-16T14:03:14Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/economy-and-business/2026-11-16/i-wish-upon-you-ample-doses-of-pain-and-suffering-the-rise-and-fall-of-jensen-huang-king-of-nvidia.html",
-          "headline": "‘I wish upon you ample doses of pain and suffering’: The rise and fall of Jensen Huang, king of Nvidia",
-          "published_at": "2026-11-16T09:55:47Z"
-        }
-      ]
-    },
-    {
       "label": "appeal · Depardieu · drops · conviction",
       "origin": "convergence",
       "source_count": 2,
@@ -240,6 +245,48 @@
     }
   ],
   "radar": [
+    {
+      "id": "05d7578fb947bff59c4d6c7f",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Large data centers in the US already consume as much energy as the whole of Chile",
+      "url": "https://english.elpais.com/technology/2026-11-16/large-data-centers-in-the-us-already-consume-as-much-energy-as-the-whole-of-chile.html",
+      "published_at": "2026-11-16T18:47:01Z",
+      "collected_at": "2026-11-16T19:01:18Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "d91033e0d34643c0448faa3d",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Concurrence : l’UEFA et une fédération de grands clubs de football européens visées par une plainte",
+      "url": "https://www.politico.eu/article/concurrence-luefa-et-une-federation-de-grands-clubs-de-football-europeens-vises-par-une-plainte",
+      "published_at": "2026-11-16T18:30:50Z",
+      "collected_at": "2026-11-16T19:01:18Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "646cc74fd7874c5ed052da7a",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trump says he ‘would not mind’ if Jensen Huang returns to Nvidia",
+      "url": "https://english.elpais.com/usa/2026-11-16/trump-says-he-would-not-mind-if-jensen-huang-returns-to-nvidia.html",
+      "published_at": "2026-11-16T18:24:32Z",
+      "collected_at": "2026-11-16T19:01:18Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "a17458fb1af18a9a9eb35410",
       "source_id": "euobserver",
@@ -2033,6 +2080,20 @@
       ]
     },
     {
+      "id": "06275c6a147bc8e7be4c3da4",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Sotheby's auction of $180m Van Gogh challenged over claims it was 'sold under duress'",
+      "url": "https://www.bbc.co.uk/news/articles/cmwy05gg75lvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-14T18:00:10Z",
+      "collected_at": "2026-11-16T19:01:18Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "e8e1bdeb13cd839d14d6d0be",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2243,20 +2304,6 @@
       ]
     },
     {
-      "id": "ec53c8e1bce7390ffdba3100",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "EU leaders hand Ukraine peace talks to France, Germany, UK, Italy, Poland plus Brussels – instead of a single envoy",
-      "url": "https://euobserver.com/248871/eu-leaders-hand-ukraine-peace-talks-to-france-germany-uk-italy-poland-plus-brussels-instead-of-a-single-envoy",
-      "published_at": "2026-11-13T18:54:38Z",
-      "collected_at": "2026-11-15T19:01:14Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "6f64e82d4d8ef2904df3bbd7",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2268,20 +2315,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "9a7365e27dc7a218eb8f5f0f",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "The dangers of revising Europe's security architecture",
-      "url": "https://www.dw.com/en/the-dangers-of-revising-europe-s-security-architecture/a-79943049?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-13T17:30:00Z",
-      "collected_at": "2026-11-15T18:30:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
@@ -2313,6 +2346,20 @@
       ]
     },
     {
+      "id": "63cd7bb7ad3fd80117778140",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Scientists create largest-ever map of brain region tied to Parkinson’s, Alzheimer’s, schizophrenia and autism",
+      "url": "https://english.elpais.com/science-tech/2026-11-12/scientists-create-largest-ever-map-of-brain-region-tied-to-parkinsons-alzheimers-schizophrenia-and-autism.html",
+      "published_at": "2026-11-12T17:50:31Z",
+      "collected_at": "2026-11-16T19:01:18Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "c19bb0897d168e7be6c0b8c1",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2334,6 +2381,34 @@
       "url": "https://www.dw.com/en/what-have-the-talks-with-russia-and-the-us-in-abu-dhabi-achieved-for-ukraine/a-79930613?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-11-12T16:44:00Z",
       "collected_at": "2026-11-16T17:31:02Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "6a97a1f9f0e3b5c997798c74",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The mystery of the Japanese bacteria living on Rembrandt’s ‘The Night Watch’",
+      "url": "https://english.elpais.com/science-tech/2026-11-12/the-mystery-of-the-japanese-bacteria-living-on-rembrandts-the-night-watch.html",
+      "published_at": "2026-11-12T16:33:08Z",
+      "collected_at": "2026-11-16T19:01:18Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "bcc8616f33e5922d0d08beed",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Hungary eases abortion restrictions in women's rights overhaul",
+      "url": "https://www.dw.com/en/hungary-eases-abortion-restrictions-in-women-s-rights-overhaul/a-79931614?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-12T16:13:00Z",
+      "collected_at": "2026-11-16T19:01:18Z",
       "topics": [
         "politics",
         "society",
@@ -2436,6 +2511,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "368ff07e04a238fd340d58ce",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Victims of Nazi war in Poland call on Germany for support",
+      "url": "https://www.dw.com/en/victims-of-nazi-war-in-poland-call-on-germany-for-support/a-79909311?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-10T17:53:00Z",
+      "collected_at": "2026-11-16T19:01:18Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -2670,90 +2759,6 @@
       "url": "https://english.elpais.com/culture/2026-11-08/mary-austin-freddie-mercurys-former-fiancee-who-has-spent-years-safeguarding-his-legacy-our-love-was-much-more-powerful-than-i-ever-realized.html",
       "published_at": "2026-11-08T04:00:00Z",
       "collected_at": "2026-11-16T06:31:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "7b6e26fd8d779e8bcdc1ed3c",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "'I saw ambulances and armed police': BBC correspondent in Krakow",
-      "url": "https://www.bbc.co.uk/news/videos/cwdd8191qz9jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-07T19:20:44Z",
-      "collected_at": "2026-11-16T09:31:18Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "b73f987dbdbee8e0b0c92f05",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Moment police officer appears to shoot Krakow suspect",
-      "url": "https://www.bbc.co.uk/news/videos/cw78p2x38jlmo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-07T19:12:47Z",
-      "collected_at": "2026-11-16T09:31:18Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "b1d6584f8352e1a4a74d99de",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Juan Manuel Santos, former president of Colombia: A man of peace in times of war",
-      "url": "https://english.elpais.com/international/2026-11-07/juan-manuel-santos-former-president-of-colombia-a-man-of-peace-in-times-of-war.html",
-      "published_at": "2026-11-07T04:00:00Z",
-      "collected_at": "2026-11-16T04:31:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "b1177e4563575466fce4ca31",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Narges Mohammadi, 2023 Nobel Peace Prize winner: ‘Iranian society no longer tolerates the Islamic Republic’",
-      "url": "https://english.elpais.com/international/2026-11-07/narges-mohammadi-2023-nobel-peace-prize-winner-iranian-society-no-longer-tolerates-the-islamic-republic.html",
-      "published_at": "2026-11-07T04:00:00Z",
-      "collected_at": "2026-11-16T04:31:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "f7125b63a33a6de3a52d6786",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Spain’s transportation minister steps down over train crash to try to save the Socialist campaign ahead of elections",
-      "url": "https://english.elpais.com/spain/2026-11-04/spains-transportation-minister-steps-down-over-train-crash-to-try-to-save-the-socialist-campaign-ahead-of-elections.html",
-      "published_at": "2026-11-04T11:51:58Z",
-      "collected_at": "2026-11-16T14:01:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "26c4016b5719e37ec401c1b7",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Goodbye screens, hello rings: The new generation of inconspicuous devices",
-      "url": "https://english.elpais.com/technology/2026-11-02/goodbye-screens-hello-rings-the-new-generation-of-inconspicuous-devices.html",
-      "published_at": "2026-11-02T14:17:56Z",
-      "collected_at": "2026-11-16T17:31:02Z",
       "topics": [
         "politics",
         "society",
