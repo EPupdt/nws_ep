@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-16T07:01:12Z",
-  "last_successful_collection_at": "2026-11-16T07:01:12Z",
+  "generated_at": "2026-11-16T07:31:05Z",
+  "last_successful_collection_at": "2026-11-16T07:31:05Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-16T07:01:12Z"
+      "at": "2026-11-16T07:31:05Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "27",
-      "at": "2026-11-16T07:01:12Z"
+      "at": "2026-11-16T07:31:05Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-16T07:01:12Z"
+      "at": "2026-11-16T07:31:05Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-16T07:01:12Z"
+      "at": "2026-11-16T07:31:05Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-16T07:01:12Z"
+      "at": "2026-11-16T07:31:05Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-11-16T07:01:12Z"
+      "at": "2026-11-16T07:31:05Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-16T07:01:12Z"
+      "at": "2026-11-16T07:31:05Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-16T07:01:12Z"
+      "at": "2026-11-16T07:31:05Z"
     },
     {
       "id": "bruegel",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-16T07:01:12Z"
+      "status": "ok",
+      "count": "10",
+      "at": "2026-11-16T07:31:05Z"
     }
   ],
   "europe_now": [
     {
       "title": "Estonia Closes Border Following Sabotage Attempt",
-      "summary": "Estonia has announced the closure of its border crossings with Russia following an attempted sabotage and arson attack at a local defense firm and drone manufacturer.",
+      "summary": "Estonia has announced the closure of its Russian border crossings following an attempted arson and sabotage attack directed at a domestic drone manufacturing facility.",
       "article_ids": [
         "b40d516f89063cdfa70663a3",
-        "8739d448c14556db4267e6ec",
-        "05728568397b7ed6cbdcf9c0"
+        "8739d448c14556db4267e6ec"
       ],
       "sources": [
         {
@@ -88,11 +87,29 @@
       "source_count": 2
     },
     {
-      "title": "Migrant Arrivals Surge in Spain's Canary Islands",
-      "summary": "Nearly 2,200 migrants have reached Spain's Canary Islands over a 48-hour period, prompting local authorities to urgently demand greater government action and support.",
+      "title": "Mass Protests in Prague Over Public Media Reforms",
+      "summary": "Hundreds of thousands of demonstrators gathered in Prague to protest government plans altering the funding structure and administration of public media organizations.",
+      "article_ids": [
+        "167ff57809120e9d5fed597d",
+        "f586cb2b9928c5b45d304015"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261116-czechs-protest-prague-public-media-funding-plan",
+          "headline": "Hundreds of thousands of Czechs protest in Prague over public media funding plan",
+          "published_at": "2026-11-16T02:28:13Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Migrant Influx in Spain",
+      "summary": "Nearly two thousand two hundred migrants arrived in Spain's Canary Islands over a forty-eight hour period. Local authorities have subsequently called for immediate national government intervention.",
       "article_ids": [
         "64e1edae6d4d7a3b8ea6b671",
-        "201bb90be4392a47ace9c5eb",
         "d5ac07a14475571856adabcd"
       ],
       "sources": [
@@ -110,53 +127,26 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Ukraine Conflict and Regional Security",
-      "summary": "Extensive drone activity has been reported targeting regions around Moscow alongside infrastructure strikes. Meanwhile, international discussions and sanctions regarding the ongoing conflict continue to develop.",
-      "article_ids": [
-        "56bf8a9a224223e4798d7d88",
-        "db9d24b827ce69879bccc75a",
-        "8092206d81b96a83793f9999"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261116-live-600-ukrainian-drones-target-moscow-strike-crimea-bridge-halts-traffic",
-          "headline": "🔴 Live: 600 Ukrainian drones target Moscow, Crimea bridge strike halts traffic",
-          "published_at": "2026-11-16T06:59:55Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261116-live-600-ukrainian-drones-target-moscow-strike-crimea-bridge-halts-traffic",
-          "headline": "Live: 600 Ukrainian drones target Moscow, Crimea bridge strike halts traffic",
-          "published_at": "2026-11-16T06:52:27Z"
-        }
-      ],
-      "source_count": 1
     },
     {
-      "title": "Public Media Protests in Czechia",
-      "summary": "Large demonstrations have taken place in Prague involving hundreds of thousands of participants. The crowds gathered to protest against proposed legislative plans regarding public media funding.",
+      "title": "Reproductive Health Access in Poland",
+      "summary": "Polish activists are expanding access to abortion pills through specialized lockers despite existing legal restrictions. These initiatives continue to encounter strong opposition from various political and social groups.",
       "article_ids": [
-        "167ff57809120e9d5fed597d",
-        "f586cb2b9928c5b45d304015",
-        "f5e4ed06bd462984698bcebf"
+        "d3ad22e2eac56eaa4c153428",
+        "79deb6f144650ecc0052d02f"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261116-czechs-protest-prague-public-media-funding-plan",
-          "headline": "Hundreds of thousands of Czechs protest in Prague over public media funding plan",
-          "published_at": "2026-11-16T02:28:13Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/polish-activists-face-opposition-as-they-make-abortion-more-accessible/a-79943914?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Polish activists face opposition as they make abortion more accessible",
+          "published_at": "2026-11-15T14:40:00Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20261115-pragues-s-fight-for-public-tv-why-renowned-presenter-will-leave-czech-tv-over-reforms",
-          "headline": "Pragues's fight for public TV - Why Renowned Presenter Will Leave Czech TV Over Reforms",
-          "published_at": "2026-11-15T19:13:35Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/despite-restrictive-abortion-laws-poland-s-abortomat-a-locker-that-dispenses-abortion-pills-helps-women-who-want-to-end-a-pregnancy/a-79943914?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Despite restrictive abortion laws, Poland's 'Abortomat' — a locker that dispenses abortion pills — helps women who want to end a pregnancy",
+          "published_at": "2026-11-15T14:40:00Z"
         }
       ],
       "source_count": 1
@@ -181,6 +171,21 @@
           "url": "https://www.politico.eu/article/israel-kills-hamas-commander-in-gaza-strike",
           "headline": "Israel kills Hamas commander in Gaza strike",
           "published_at": "2026-11-15T09:43:15Z"
+        }
+      ]
+    },
+    {
+      "label": "Nations · return",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 2,
+      "latest_at": "2026-11-16T06:07:22Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/africa/20261116-eu-nations-to-unveil-rwanda-deal-for-migrant-return-hub",
+          "headline": "EU nations to unveil Rwanda deal for migrant return hub",
+          "published_at": "2026-11-16T06:07:22Z"
         }
       ]
     },
@@ -213,21 +218,6 @@
           "published_at": "2026-11-15T13:59:21Z"
         }
       ]
-    },
-    {
-      "label": "assault · capital · drones · overnight",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-11-15T13:36:53Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261115-ukrainian-drones-strike-russia-s-petrochemical-capital-in-overnight-assault",
-          "headline": "Ukrainian drones strike Russia's petrochemical capital in overnight assault",
-          "published_at": "2026-11-15T13:36:53Z"
-        }
-      ]
     }
   ],
   "radar": [
@@ -253,6 +243,20 @@
       "url": "https://www.france24.com/en/europe/20261116-live-600-ukrainian-drones-target-moscow-strike-crimea-bridge-halts-traffic",
       "published_at": "2026-11-16T06:52:27Z",
       "collected_at": "2026-11-16T07:01:12Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "d0be967b4fbd972544c22ee7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "EU nations to unveil Rwanda deal for migrant return hub",
+      "url": "https://www.france24.com/en/africa/20261116-eu-nations-to-unveil-rwanda-deal-for-migrant-return-hub",
+      "published_at": "2026-11-16T06:07:22Z",
+      "collected_at": "2026-11-16T07:31:05Z",
       "topics": [
         "politics",
         "security",
@@ -1226,20 +1230,6 @@
       ]
     },
     {
-      "id": "2e39e19c31a7f02611d910c3",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Is this a cyberattack?' Grounded flights, a Microsoft outage and AI chaos fuel cybersecurity fears",
-      "url": "https://www.france24.com/en/technology/20261115-is-this-a-cyberattack-grounded-flights-a-microsoft-outage-and-ai-chaos-fuel-cybersecurity-fears",
-      "published_at": "2026-11-15T07:04:31Z",
-      "collected_at": "2026-11-15T07:30:51Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "8c18bd3f7d6d43bec59cadbd",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1772,6 +1762,20 @@
       ]
     },
     {
+      "id": "97b7945edbb1c27dc1b4ef7b",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "US, Russia, Ukraine wrap up talks with prisoner exchange agreement",
+      "url": "https://www.dw.com/en/us-russia-ukraine-wrap-up-talks-with-prisoner-exchange-agreement/live-79906232?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-10T07:09:00Z",
+      "collected_at": "2026-11-16T07:31:05Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "e957d51b0a8123378d8ace54",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1968,6 +1972,20 @@
       ]
     },
     {
+      "id": "6bd37cf191b1a637aaec6dd2",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "How the US midterms could reshape the outlook for the dollar, bonds and Wall Street",
+      "url": "https://english.elpais.com/economy-and-business/2026-10-31/how-the-us-midterms-could-reshape-the-outlook-for-the-dollar-bonds-and-wall-street.html",
+      "published_at": "2026-10-31T04:00:00Z",
+      "collected_at": "2026-11-16T07:31:05Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "9ea252bfa1d68d21549af20f",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1989,6 +2007,20 @@
       "url": "https://english.elpais.com/usa/2026-10-28/i-watched-up-and-down-and-i-looked-at-his-ass-why-trump-seems-obsessed-with-praising-male-physiques.html",
       "published_at": "2026-10-28T12:45:28Z",
       "collected_at": "2026-11-15T15:01:08Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "9eded4c5369973a48f0c609d",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "An empty airport, shuttered storefronts and abandoned hotels: The tourism decline in Tulum is worsening",
+      "url": "https://english.elpais.com/international/2026-10-26/an-empty-airport-shuttered-storefronts-and-abandoned-hotels-the-tourism-decline-in-tulum-is-worsening.html",
+      "published_at": "2026-10-26T19:27:24Z",
+      "collected_at": "2026-11-16T07:31:05Z",
       "topics": [
         "politics",
         "society",
