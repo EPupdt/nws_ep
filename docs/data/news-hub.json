@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-16T16:01:10Z",
-  "last_successful_collection_at": "2026-11-16T16:01:10Z",
+  "generated_at": "2026-11-16T16:31:01Z",
+  "last_successful_collection_at": "2026-11-16T16:31:01Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-16T16:01:10Z"
+      "at": "2026-11-16T16:31:01Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "30",
-      "at": "2026-11-16T16:01:10Z"
+      "at": "2026-11-16T16:31:01Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-16T16:01:10Z"
+      "at": "2026-11-16T16:31:01Z"
     },
     {
       "id": "euractiv",
@@ -29,59 +29,114 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-16T16:01:10Z"
+      "at": "2026-11-16T16:31:01Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-16T16:01:10Z"
+      "at": "2026-11-16T16:31:01Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-11-16T16:01:10Z"
+      "at": "2026-11-16T16:31:01Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-16T16:01:10Z"
+      "at": "2026-11-16T16:31:01Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-16T16:01:10Z"
+      "at": "2026-11-16T16:31:01Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-16T16:01:10Z"
+      "at": "2026-11-16T16:31:01Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Estonia Closes Russian Border After Security Incidents",
-      "summary": "Estonia has announced plans to close its Russian border crossings following an attempted arson attack targeting a local drone maker. The incident highlights rising regional security concerns and the growing frequency of hybrid threats across Europe's eastern border.",
+      "title": "EU Imposes Sanctions on Russian Hackers and Trolls",
+      "summary": "The European Union has formally implemented new sanctions targeting Russian hackers and online trolls. This measures follow heightened concerns over hybrid cyber threats impacting member states.",
       "article_ids": [
-        "3b7b4fc7582acf69f0d8744c"
+        "b332570a12fa485c4a8b2ba0",
+        "031738f233565ecdca31650c"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261116-estonia-to-close-russian-border-crossings-after-attempted-arson-attack-on-drone-maker",
-          "headline": "Estonia to close Russian border crossings after attempted arson attack on drone ‌maker",
-          "published_at": "2026-11-16T11:43:54Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-sanctions-russian-trolls-hackers",
+          "headline": "EU sanctions Russian trolls, hackers",
+          "published_at": "2026-11-16T12:11:02Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-verhaengt-sanktionen-gegen-russische-hacker-und-trolle",
+          "headline": "EU verhängt Sanktionen gegen russische Hacker und Trolle",
+          "published_at": "2026-11-16T13:14:58Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "EU Approves UniCredit Takeover of Commerzbank",
-      "summary": "The European Commission has officially cleared UniCredit's takeover of Commerzbank, advising Berlin against standing in the way of the cross-border banking merger. This decision marks a significant development for European financial integration and institutional banking policy.",
+      "title": "Major Drone Attack Hits Crimea Bridge",
+      "summary": "Russian authorities report intercepting a massive wave of Ukrainian drones during one of the largest aerial assaults of the conflict. The landmark Crimea bridge was reportedly struck during the operation.",
+      "article_ids": [
+        "dec3177d7b1a9c2193770d4f",
+        "c27302aff4ee018cddfa390e"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
+          "headline": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+          "published_at": "2026-11-16T14:58:12Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261116-russia-says-intercepted-over-1-300-ukrainian-drones-in-a-major-attack",
+          "headline": "Russia says intercepted over 1,300 Ukrainian drones in a major attack",
+          "published_at": "2026-11-16T14:00:25Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Czech Protests Over Media Reforms",
+      "summary": "Thousands of demonstrators gathered in Prague to protest government plans regarding public media funding. Activists also mobilized to block controversial political figures from attending related conferences.",
+      "article_ids": [
+        "bf7708b28f8a74954a96967f",
+        "05dbb8c7ee188257a086f2fe"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261116-prague-thousands-of-czechs-rally-against-government-media-funding-plan",
+          "headline": "Prague: Thousands of Czechs rally against government media funding plan",
+          "published_at": "2026-11-16T15:49:29Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261116-hundreds-of-thousands-protest-czech-government-s-media-funding-plan",
+          "headline": "Hundreds of thousands protest Czech government's media funding plan",
+          "published_at": "2026-11-16T13:09:59Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "EU Clears UniCredit Takeover of Commerzbank",
+      "summary": "The European Commission has officially approved UniCredit's acquisition of Commerzbank. Brussels authorities advised German officials not to obstruct the finalized transaction.",
       "article_ids": [
         "a0bfe669e1005a22afe2e7ba"
       ],
@@ -96,100 +151,25 @@
       "source_count": 1
     }
   ],
-  "top_stories": [
+  "developing": [
     {
-      "title": "Migration Pressures and External Hubs",
-      "summary": "Five European Union countries are expected to announce plans for a migrant deportation centre located in Rwanda. Meanwhile, the Canary Islands continue to struggle with reception capacities following a massive influx of migrant arrivals.",
-      "article_ids": [
-        "9e5315039542a170b39b52b2",
-        "067774d7d97db17c8ea63a65"
-      ],
+      "label": "EU · migrant · Rwanda · announce",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 5,
+      "latest_at": "2026-11-16T16:27:24Z",
       "sources": [
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
-          "headline": "Five EU countries expected to announce migrant deportation centre in Rwanda",
-          "published_at": "2026-11-16T12:54:44Z"
+          "headline": "Five EU countries announce migrant deportation centre in Rwanda",
+          "published_at": "2026-11-16T16:27:24Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261116-canary-islands-struggle-to-cope-after-massive-influx-of-migrants",
-          "headline": "Canary Islands struggle to cope after massive influx of migrants",
-          "published_at": "2026-11-16T11:24:10Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Public Demonstrations Over Media Reforms",
-      "summary": "Hundreds of thousands of protesters gathered in Prague to voice their opposition to the Czech government's proposed media funding plans. Activists also intervened to block a Slovak far-right member of the European Parliament from speaking at a contentious conference.",
-      "article_ids": [
-        "05dbb8c7ee188257a086f2fe",
-        "1651d757476c7b952e55205b"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261116-hundreds-of-thousands-protest-czech-government-s-media-funding-plan",
-          "headline": "Hundreds of thousands protest Czech government's media funding plan",
-          "published_at": "2026-11-16T13:09:59Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/249022/prague-doesnt-want-nazis-activists-block-slovak-far-right-mep-from-conference-about-deporting-immigrants",
-          "headline": "‘Prague doesn’t want Nazis’: Activists block Slovak far-right MEP from conference about deporting immigrants",
-          "published_at": "2026-11-16T14:26:54Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
-    {
-      "label": "bridge · Crimea · drone · Ukrainian",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 6,
-      "latest_at": "2026-11-16T14:58:12Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
-          "headline": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
-          "published_at": "2026-11-16T14:58:12Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261116-russia-says-intercepted-over-1-300-ukrainian-drones-in-a-major-attack",
-          "headline": "Russia says intercepted over 1,300 Ukrainian drones in a major attack",
-          "published_at": "2026-11-16T14:00:25Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russia-claims-ukraine-attacked-crimean-bridge-moscow",
-          "headline": "Russia says Ukraine attacked Crimean bridge",
-          "published_at": "2026-11-16T10:36:44Z"
-        }
-      ]
-    },
-    {
-      "label": "Czechs · funding · media · plan",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-11-16T15:49:29Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261116-prague-thousands-of-czechs-rally-against-government-media-funding-plan",
-          "headline": "Prague: Thousands of Czechs rally against government media funding plan",
-          "published_at": "2026-11-16T15:49:29Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
-          "headline": "Czechs rally against plan to switch funding of public media",
-          "published_at": "2026-11-15T17:23:40Z"
+          "url": "https://www.france24.com/en/africa/20261116-eu-nations-to-unveil-rwanda-deal-for-migrant-return-hub",
+          "headline": "EU nations to unveil Rwanda deal for migrant return hub",
+          "published_at": "2026-11-16T06:07:22Z"
         }
       ]
     },
@@ -234,9 +214,58 @@
           "published_at": "2026-11-16T13:40:56Z"
         }
       ]
+    },
+    {
+      "label": "Putin · Trump · China · discuss",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-11-16T11:44:38Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/248997/ghost-of-yalta-returns-amid-fears-that-trump-xi-and-putin-will-carve-up-ukraine-and-europe",
+          "headline": "Ghost of Yalta returns, amid fears that Trump, Xi, and Putin will carve up Ukraine and Europe",
+          "published_at": "2026-11-16T11:44:38Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/asia-pacific/20261116-xi-trump-putin-discuss-world-peace-shenzhen-summit-china-says",
+          "headline": "Xi, Trump and Putin to discuss 'world peace' at Shenzhen summit, China says",
+          "published_at": "2026-11-16T08:40:22Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "5a281db9657eabce5e039a7f",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Five EU countries announce migrant deportation centre in Rwanda",
+      "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-16T16:27:24Z",
+      "collected_at": "2026-11-16T16:31:01Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "f19f3fb2ca7fb56ca04ab8ab",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Robert Pattinson lands role as the next James Bond",
+      "url": "https://english.elpais.com/culture/2026-11-16/robert-pattinson-chosen-be-the-next-james-bond.html",
+      "published_at": "2026-11-16T16:23:58Z",
+      "collected_at": "2026-11-16T16:31:01Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "bd07217282bfb3e27ecc590d",
       "source_id": "france24",
@@ -277,6 +306,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "44bb6e9e6f53b47918c72901",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Google says Russian speakers pulled off first-ever fully automated AI cyberattack",
+      "url": "https://www.politico.eu/article/google-says-russian-speakers-behind-first-ever-fully-automated-ai-cyberattack",
+      "published_at": "2026-11-16T15:43:54Z",
+      "collected_at": "2026-11-16T16:31:01Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
       ]
     },
     {
@@ -1778,20 +1821,6 @@
       ]
     },
     {
-      "id": "a2cf31928caba7cb495e613c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Record number of women elected' to US Congress & governorships across country in midterm elections",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261115-record-number-of-women-elected-to-us-congress-governorships-across-country-in-midterm-elections",
-      "published_at": "2026-11-15T15:40:36Z",
-      "collected_at": "2026-11-15T16:30:54Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "071b2fe75245019fb61022f5",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2128,20 +2157,6 @@
       ]
     },
     {
-      "id": "bec70bc17aca1684bd7659f0",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "‘Very overdue’ – MEPs welcome proxy voting for pregnant members and new mothers",
-      "url": "https://euobserver.com/248856/very-overdue-meps-welcome-proxy-voting-for-pregnant-members-and-new-mothers",
-      "published_at": "2026-11-13T15:39:00Z",
-      "collected_at": "2026-11-15T16:30:54Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "8df88207f97cf9206a930d06",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2282,20 +2297,6 @@
       ]
     },
     {
-      "id": "8d44abcfdeddc99baad8d6df",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Annual Polish Independence March passes through Warsaw",
-      "url": "https://notesfrompoland.com/2026/11/11/annual-polish-independence-march-passes-through-warsaw",
-      "published_at": "2026-11-11T15:34:34Z",
-      "collected_at": "2026-11-15T16:30:54Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "ccdad1892c720de7a7d241b5",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2307,20 +2308,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "282fc68d04c97c4351f87035",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
-      "url": "https://www.bbc.co.uk/news/articles/c933gn6710lyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-11T14:56:11Z",
-      "collected_at": "2026-11-15T16:30:54Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
