@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-16T19:01:18Z",
-  "last_successful_collection_at": "2026-11-16T19:01:18Z",
+  "generated_at": "2026-11-16T19:31:01Z",
+  "last_successful_collection_at": "2026-11-16T19:31:01Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-16T19:01:18Z"
+      "at": "2026-11-16T19:31:01Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "30",
-      "at": "2026-11-16T19:01:18Z"
+      "at": "2026-11-16T19:31:01Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-16T19:01:18Z"
+      "at": "2026-11-16T19:31:01Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-16T19:01:18Z"
+      "at": "2026-11-16T19:31:01Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-16T19:01:18Z"
+      "at": "2026-11-16T19:31:01Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-11-16T19:01:18Z"
+      "at": "2026-11-16T19:31:01Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-16T19:01:18Z"
+      "at": "2026-11-16T19:31:01Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-16T19:01:18Z"
+      "at": "2026-11-16T19:31:01Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-16T19:01:18Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-16T19:31:01Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Five EU nations pursue Rwanda deportation arrangement",
-      "summary": "Five European Union member states are advancing a partnership to deport failed asylum-seekers to Rwanda. However, officials noted that no formal agreement has been finalized and key details remain undisclosed.",
+      "title": "Landmark Bridge Hit in Major Drone Attack",
+      "summary": "Ukrainian drone strikes caused damage to the strategic Crimean Bridge during what reports describe as a major wave of attacks. Russian authorities reported intercepting a large number of drones as regional conflict impacts escalate.",
+      "article_ids": [
+        "a17458fb1af18a9a9eb35410",
+        "dec3177d7b1a9c2193770d4f"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/249139/ukraine-damages-crimean-bridge-drones-likely-hit-arch-ukraine-battlefield-update-day-1726",
+          "headline": "Ukraine damages Crimean Bridge, drones likely hit arch (Ukraine Battlefield update, Day 1,726)",
+          "published_at": "2026-11-16T18:14:05Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
+          "headline": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+          "published_at": "2026-11-16T14:58:12Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Five EU Nations Outline Rwanda Migration Deal Plan",
+      "summary": "Five European Union countries have announced plans to establish a joint migrant deportation center in Rwanda. However, the initiative moves forward without a formal agreement as key details of the partnership remain unreleased.",
       "article_ids": [
         "a4e6370576e345b2e3664c56",
         "5b797c84767e8cf6d64ed291",
@@ -86,36 +109,35 @@
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "Major drone attack hits Crimean Bridge amid regional conflict",
-      "summary": "Russian authorities reported intercepting a massive wave of Ukrainian drones during one of the largest aerial attacks of the conflict. The operation caused noticeable damage to the strategic Crimean Bridge.",
-      "article_ids": [
-        "a17458fb1af18a9a9eb35410",
-        "dec3177d7b1a9c2193770d4f",
-        "c27302aff4ee018cddfa390e"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/249139/ukraine-damages-crimean-bridge-drones-likely-hit-arch-ukraine-battlefield-update-day-1726",
-          "headline": "Ukraine damages Crimean Bridge, drones likely hit arch (Ukraine Battlefield update, Day 1,726)",
-          "published_at": "2026-11-16T18:14:05Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
-          "headline": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
-          "published_at": "2026-11-16T14:58:12Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "EU Imposes Sanctions Over Disinformation and Cyberattacks",
-      "summary": "The European Union has introduced new restrictive measures targeting Russian hackers and propagandists. The sanctions come as thousands of fake online accounts continue to target European voters.",
+      "title": "Mass Demonstrations Over Media Funding",
+      "summary": "Thousands of citizens gathered in Prague to protest government plans regarding media funding and structural overhauls. Demonstrators expressed concern that proposed changes could undermine democratic institutions and freedom of expression.",
+      "article_ids": [
+        "d95cbad85143c30ba8866e41",
+        "bf7708b28f8a74954a96967f"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/czech-mass-protests-media-is-the-first-casualty-when-you-want-to-attack-democracy",
+          "headline": "Czech mass protests: Media is the first casualty 'when you want to attack democracy'",
+          "published_at": "2026-11-16T18:33:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261116-prague-thousands-of-czechs-rally-against-government-media-funding-plan",
+          "headline": "Prague: Thousands of Czechs rally against government media funding plan",
+          "published_at": "2026-11-16T15:49:29Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "EU Imposes Measures Against Disinformation",
+      "summary": "The European Union introduced fresh sanctions targeting individuals and entities involved in Russian hacking operations and propaganda networks. Officials noted that thousands of automated accounts have attempted to interfere with regional democratic processes.",
       "article_ids": [
         "226b1e48985820e741cc0f60"
       ],
@@ -130,20 +152,28 @@
       "source_count": 1
     },
     {
-      "title": "Czech Citizens Rally Against Media Funding Overhaul",
-      "summary": "Thousands of demonstrators gathered in Prague to protest government plans regarding public media funding. Activists and citizens voiced strong opposition to the proposed legislative changes.",
+      "title": "Climate Negotiations and Fossil Fuel Transitions",
+      "summary": "Initial draft texts emerging from the COP31 climate negotiations outline proposals for an immediate shift away from fossil fuels. The language highlights anticipated friction and complex negotiations among participating nations to achieve consensus.",
       "article_ids": [
-        "bf7708b28f8a74954a96967f"
+        "2fad35878c0d029454e502b1",
+        "25ca250f405e0b49cacba66f",
+        "c63a99f24dcb16a54fd5598c"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261116-prague-thousands-of-czechs-rally-against-government-media-funding-plan",
-          "headline": "Prague: Thousands of Czechs rally against government media funding plan",
-          "published_at": "2026-11-16T15:49:29Z"
+          "url": "https://www.france24.com/en/environment/20261116-cop31-deal-draft-foreshadows-difficult-route-to-consensus",
+          "headline": "COP31 deal draft foreshadows difficult route to consensus",
+          "published_at": "2026-11-16T14:56:15Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/draft-cop31-text-suggests-immediate-fossil-fuel-transition",
+          "headline": "Draft COP31 text suggests ‘immediate’ fossil fuel transition",
+          "published_at": "2026-11-16T14:26:35Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
@@ -246,6 +276,34 @@
   ],
   "radar": [
     {
+      "id": "6d0f17c1d0b465196ac2062f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'A futuristic debate now very real': Why the world is struggling to regulate killer robots",
+      "url": "https://www.france24.com/en/technology/20261116-a-futuristic-debate-now-very-real-why-the-world-is-struggling-to-regulate-killer-robots",
+      "published_at": "2026-11-16T19:10:36Z",
+      "collected_at": "2026-11-16T19:31:01Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "42512bb9bbdd15c2d3a51b75",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "‘Emperor’s New Clothes’: Burnham breaks 10-year taboo on Brexit",
+      "url": "https://euobserver.com/249211/andy-burnham-brexit-and-the-obvious-truth",
+      "published_at": "2026-11-16T19:00:00Z",
+      "collected_at": "2026-11-16T19:31:01Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
       "id": "05d7578fb947bff59c4d6c7f",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -257,6 +315,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "d95cbad85143c30ba8866e41",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Czech mass protests: Media is the first casualty 'when you want to attack democracy'",
+      "url": "https://www.france24.com/en/czech-mass-protests-media-is-the-first-casualty-when-you-want-to-attack-democracy",
+      "published_at": "2026-11-16T18:33:00Z",
+      "collected_at": "2026-11-16T19:31:01Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -1926,20 +1998,6 @@
       ]
     },
     {
-      "id": "325c332644fb99670c8ade20",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Yemen's Houthis advance to within 60 kilometres of Aden, military sources say",
-      "url": "https://www.france24.com/en/middle-east/20261115-yemen-houthis-advance-to-within-60-kilometres-of-aden-military-sources-say",
-      "published_at": "2026-11-15T19:28:54Z",
-      "collected_at": "2026-11-15T19:30:59Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "79514a0a8410929e84093b34",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1947,20 +2005,6 @@
       "url": "https://www.france24.com/en/middle-east/20261115-yemen-houthis-advance-to-within-60-kilometres-of-aden-military-sources-say",
       "published_at": "2026-11-15T19:28:54Z",
       "collected_at": "2026-11-15T20:00:56Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "f5e4ed06bd462984698bcebf",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Pragues's fight for public TV - Why Renowned Presenter Will Leave Czech TV Over Reforms",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261115-pragues-s-fight-for-public-tv-why-renowned-presenter-will-leave-czech-tv-over-reforms",
-      "published_at": "2026-11-15T19:13:35Z",
-      "collected_at": "2026-11-15T19:30:59Z",
       "topics": [
         "politics",
         "security",
@@ -1979,20 +2023,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "1bd6c349beb0644d805c6ff9",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "EU flexes muscle on Russia sanctions, as Trump and Putin discuss Ukraine’s future in China",
-      "url": "https://euobserver.com/248956/eu-flexes-muscle-on-russia-sanctions-as-trump-and-putin-discuss-ukraines-future-in-china",
-      "published_at": "2026-11-15T19:00:00Z",
-      "collected_at": "2026-11-15T19:30:59Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
       ]
     },
     {
