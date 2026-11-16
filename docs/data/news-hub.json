@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-16T09:01:16Z",
-  "last_successful_collection_at": "2026-11-16T09:01:16Z",
+  "generated_at": "2026-11-16T09:31:18Z",
+  "last_successful_collection_at": "2026-11-16T09:31:18Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-16T09:01:16Z"
+      "at": "2026-11-16T09:31:18Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "27",
-      "at": "2026-11-16T09:01:16Z"
+      "at": "2026-11-16T09:31:18Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-16T09:01:16Z"
+      "at": "2026-11-16T09:31:18Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-16T09:01:16Z"
+      "at": "2026-11-16T09:31:18Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-16T09:01:16Z"
+      "at": "2026-11-16T09:31:18Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-11-16T09:01:16Z"
+      "at": "2026-11-16T09:31:18Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-16T09:01:16Z"
+      "at": "2026-11-16T09:31:18Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-16T09:01:16Z"
+      "at": "2026-11-16T09:31:18Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-16T09:01:16Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-16T09:31:18Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Estonia Closes Border Crossings Following Security Incident",
-      "summary": "Estonia has announced the closure of its Russian border crossings following a reported sabotage attempt at a domestic drone facility. The measure highlights rising regional security concerns and cross-border tensions in the Baltic region.",
+      "title": "Estonia closes Russian border crossings",
+      "summary": "Estonia announced the closure of its Russian border crossings following a reported sabotage attempt at a local drone factory. The security measure highlights heightened regional tensions and infrastructure vulnerability along the border.",
       "article_ids": [
         "b40d516f89063cdfa70663a3"
       ],
@@ -80,11 +80,11 @@
       "source_count": 1
     },
     {
-      "title": "Mass Migration Surge Reaches Canary Islands",
-      "summary": "Nearly 2,200 migrants have arrived in Spain's Canary Islands over a 48-hour period, prompting renewed focus on maritime migration routes. The rapid influx underscores ongoing challenges for southern European border management and reception facilities.",
+      "title": "Migrant arrivals surge in Spain",
+      "summary": "Nearly 2,200 migrants reached Spain's Canary Islands over a 48-hour period, prompting renewed focus on Mediterranean migration routes. European nations are concurrently addressing external border pressures through proposed regional cooperation hubs.",
       "article_ids": [
         "64e1edae6d4d7a3b8ea6b671",
-        "201bb90be4392a47ace9c5eb"
+        "d0be967b4fbd972544c22ee7"
       ],
       "sources": [
         {
@@ -92,6 +92,12 @@
           "url": "https://www.france24.com/en/europe/20261115-nearly-2200-migrants-reach-spain-canary-islands-in-two-days",
           "headline": "Nearly 2,200 migrants reach Spain's Canary Islands in two days",
           "published_at": "2026-11-15T21:06:01Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/africa/20261116-eu-nations-to-unveil-rwanda-deal-for-migrant-return-hub",
+          "headline": "EU nations to unveil Rwanda deal for migrant return hub",
+          "published_at": "2026-11-16T06:07:22Z"
         }
       ],
       "source_count": 1
@@ -99,34 +105,11 @@
   ],
   "top_stories": [
     {
-      "title": "Czech Public Media Funding Protests",
-      "summary": "Large crowds of demonstrators have gathered in Prague to protest proposed government reforms regarding public media funding. The legislative changes have sparked widespread public opposition and concern over the independence of national broadcasting institutions.",
-      "article_ids": [
-        "167ff57809120e9d5fed597d",
-        "f586cb2b9928c5b45d304015"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261116-czechs-protest-prague-public-media-funding-plan",
-          "headline": "Hundreds of thousands of Czechs protest in Prague over public media funding plan",
-          "published_at": "2026-11-16T02:28:13Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
-          "headline": "Czechs rally against plan to switch funding of public media",
-          "published_at": "2026-11-15T17:23:40Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Escalating Drone Activity and Conflict Impacts",
-      "summary": "Recent military updates report extensive drone activity targeting regional infrastructure, including significant strikes in the vicinity of Moscow and transport disruptions at the Crimea bridge. These developments reflect the continuing expansion and intensity of the ongoing conflict.",
+      "title": "Regional Security and Drone Activity",
+      "summary": "Extensive drone strikes targeted the Moscow region while traffic on the Crimea bridge was halted due to a strike. Meanwhile, Estonia moved to shut down border crossings following a security incident linked to a domestic facility.",
       "article_ids": [
         "56bf8a9a224223e4798d7d88",
-        "db9d24b827ce69879bccc75a"
+        "b40d516f89063cdfa70663a3"
       ],
       "sources": [
         {
@@ -137,9 +120,55 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261116-live-600-ukrainian-drones-target-moscow-strike-crimea-bridge-halts-traffic",
-          "headline": "Live: 600 Ukrainian drones target Moscow, Crimea bridge strike halts traffic",
-          "published_at": "2026-11-16T06:52:27Z"
+          "url": "https://www.france24.com/en/europe/20261115-estonia-to-close-russian-border-crossings-after-sabotage-attempt-at-drone-factory",
+          "headline": "Estonia to close Russian border crossings after 'sabotage' attempt at drone factory",
+          "published_at": "2026-11-15T17:05:14Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Public Demonstrations Over Media Reforms",
+      "summary": "Hundreds of thousands of citizens gathered in Prague to protest government plans altering public media funding. Prominent broadcast figures have voiced opposition by stepping down over the legislative changes.",
+      "article_ids": [
+        "167ff57809120e9d5fed597d",
+        "f5e4ed06bd462984698bcebf"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261116-czechs-protest-prague-public-media-funding-plan",
+          "headline": "Hundreds of thousands of Czechs protest in Prague over public media funding plan",
+          "published_at": "2026-11-16T02:28:13Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20261115-pragues-s-fight-for-public-tv-why-renowned-presenter-will-leave-czech-tv-over-reforms",
+          "headline": "Pragues's fight for public TV - Why Renowned Presenter Will Leave Czech TV Over Reforms",
+          "published_at": "2026-11-15T19:13:35Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Migration Pressures and Policy Responses",
+      "summary": "Unprecedented migrant arrivals across a 48-hour window strained reception capacities in Spain's Canary Islands. In response, multiple EU member states prepared to unveil an external migrant return hub framework.",
+      "article_ids": [
+        "64e1edae6d4d7a3b8ea6b671",
+        "6dc451819977dfd771404834"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261115-nearly-2200-migrants-reach-spain-canary-islands-in-two-days",
+          "headline": "Nearly 2,200 migrants reach Spain's Canary Islands in two days",
+          "published_at": "2026-11-15T21:06:01Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/africa/20261116-eu-nations-to-unveil-rwanda-deal-for-migrant-return-hub",
+          "headline": "Five EU nations to announce migrant deportation centre deal with Rwanda",
+          "published_at": "2026-11-16T06:07:22Z"
         }
       ],
       "source_count": 1
@@ -1311,20 +1340,6 @@
       ]
     },
     {
-      "id": "7d89c483cd1b5700b73a797d",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "‘Not apathy but disconnection’: We asked Europe’s youngest MEPs what they thought of the continent-wide Gen Z protests",
-      "url": "https://euobserver.com/248884/not-apathy-but-disconnection-we-asked-europes-youngest-meps-what-they-thought-of-the-continent-wide-gen-z-protests",
-      "published_at": "2026-11-15T09:00:00Z",
-      "collected_at": "2026-11-15T09:31:02Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "8c18bd3f7d6d43bec59cadbd",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1731,34 +1746,6 @@
       ]
     },
     {
-      "id": "562a6beb2d0b79f70ef3e6de",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Listen: Is the right to protest under threat in Europe?",
-      "url": "https://euobserver.com/248738/listen-is-the-right-to-protest-under-threat-in-europe",
-      "published_at": "2026-11-13T09:11:01Z",
-      "collected_at": "2026-11-15T09:31:02Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "fcba41682b0be5997b97df9e",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "From the refrigerator to tap water and electricity: cyberattacks already affect everyday life",
-      "url": "https://english.elpais.com/technology/2026-11-13/from-the-refrigerator-to-tap-water-and-electricity-cyberattacks-already-affect-everyday-life.html",
-      "published_at": "2026-11-13T08:39:48Z",
-      "collected_at": "2026-11-15T09:31:02Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "34ae0aeb6f6c449eb8c578d1",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1794,6 +1781,20 @@
       "url": "https://www.bbc.co.uk/news/videos/ckedq17174v3o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-12T07:12:19Z",
       "collected_at": "2026-11-16T08:05:34Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "2327efbf239aa421a81d1670",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Office buildings emptied out but are filling up again - as homes",
+      "url": "https://www.bbc.co.uk/news/articles/cm89ze7qepvyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-12T00:05:40Z",
+      "collected_at": "2026-11-16T09:31:18Z",
       "topics": [
         "breaking",
         "politics",
@@ -1885,6 +1886,20 @@
       ]
     },
     {
+      "id": "d146afbec6c6f4bb9e5e919a",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Polish unity on show as thousands join silent march for Krakow shooting victims",
+      "url": "https://www.bbc.co.uk/news/articles/cqkg5gm4nr4no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-10T05:38:53Z",
+      "collected_at": "2026-11-16T09:31:18Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "e957d51b0a8123378d8ace54",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -1896,6 +1911,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "e8fce8683222dcaab6ee27c5",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "What we know so far after Krakow gun attack",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T16:13:00Z",
+      "collected_at": "2026-11-16T09:31:18Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -1980,6 +2009,34 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "7b6e26fd8d779e8bcdc1ed3c",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "'I saw ambulances and armed police': BBC correspondent in Krakow",
+      "url": "https://www.bbc.co.uk/news/videos/cwdd8191qz9jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-07T19:20:44Z",
+      "collected_at": "2026-11-16T09:31:18Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "b73f987dbdbee8e0b0c92f05",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Moment police officer appears to shoot Krakow suspect",
+      "url": "https://www.bbc.co.uk/news/videos/cw78p2x38jlmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-07T19:12:47Z",
+      "collected_at": "2026-11-16T09:31:18Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
