@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-16T13:01:22Z",
-  "last_successful_collection_at": "2026-11-16T13:01:22Z",
+  "generated_at": "2026-11-16T13:30:57Z",
+  "last_successful_collection_at": "2026-11-16T13:30:57Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-16T13:01:22Z"
+      "at": "2026-11-16T13:30:57Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "27",
-      "at": "2026-11-16T13:01:22Z"
+      "at": "2026-11-16T13:30:57Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-16T13:01:22Z"
+      "at": "2026-11-16T13:30:57Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,54 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-16T13:01:22Z"
+      "at": "2026-11-16T13:30:57Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-16T13:01:22Z"
+      "at": "2026-11-16T13:30:57Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-11-16T13:01:22Z"
+      "at": "2026-11-16T13:30:57Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-16T13:01:22Z"
+      "at": "2026-11-16T13:30:57Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-16T13:01:22Z"
+      "at": "2026-11-16T13:30:57Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-16T13:01:22Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-16T13:30:57Z"
     }
   ],
   "europe_now": [
     {
-      "title": "EU Imposes New Sanctions on Russian Trolls and Hackers",
-      "summary": "The European Union has enacted fresh restrictive measures targeting Russian cyber actors and online disinformation operators. This decision forms part of ongoing efforts by member states to counter hybrid threats and malicious digital interference originating from Moscow.",
+      "title": "EU Imposes Sanctions on Russian Hackers and Trolls",
+      "summary": "The European Union has enacted sanctions targeting Russian trolls and hackers. The policy measures are aimed at countering hybrid threats originating from Russia.",
       "article_ids": [
+        "031738f233565ecdca31650c",
         "b332570a12fa485c4a8b2ba0"
       ],
       "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-verhaengt-sanktionen-gegen-russische-hacker-und-trolle",
+          "headline": "EU verhängt Sanktionen gegen russische Hacker und Trolle",
+          "published_at": "2026-11-16T13:14:58Z"
+        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/eu-sanctions-russian-trolls-hackers",
@@ -80,51 +87,8 @@
       "source_count": 1
     },
     {
-      "title": "Estonia Announces Russian Border Closures Following Security Incident",
-      "summary": "Estonian authorities have decided to shut down crossings along the Russian border in response to a recent attempted arson attack targeting a local drone manufacturer. The security measure highlights heightened regional tensions and vulnerabilities across northeastern European borders.",
-      "article_ids": [
-        "3b7b4fc7582acf69f0d8744c"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261116-estonia-to-close-russian-border-crossings-after-attempted-arson-attack-on-drone-maker",
-          "headline": "Estonia to close Russian border crossings after attempted arson attack on drone ‌maker",
-          "published_at": "2026-11-16T11:43:54Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Ukrainian Drone Strikes and Regional Conflict Impacts",
-      "summary": "Extensive drone operations have targeted areas including Moscow while a strike on the Crimea bridge disrupted local traffic. Meanwhile, European officials have strongly criticized external peace conditions while advancing substantial financial support proposals.",
-      "article_ids": [
-        "cc3baf335ee942e1f4aa6204",
-        "7db21a1a01f89a7377941008",
-        "8c4954cd1cca100f5469e5fe",
-        "56bf8a9a224223e4798d7d88"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261116-ukraine-strikes-crimea-bridge-as-zelensky-says-starshield-caps-helping-russian-attacks",
-          "headline": "Ukraine strikes Crimea bridge as Zelensky says Starshield caps helping Russian attacks",
-          "published_at": "2026-11-16T11:18:47Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-chief-diplomat-kallas-blasts-russian-peace-demands-as-absurd",
-          "headline": "EU chief diplomat Kallas blasts Russian peace demands as ‘absurd’",
-          "published_at": "2026-11-16T10:24:07Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "EU Approves UniCredit Takeover of Commerzbank",
-      "summary": "Brussels has officially cleared UniCredit's acquisition of Commerzbank despite objections raised from Berlin. The regulatory decision marks a major development in cross-border European banking consolidation and institutional oversight.",
+      "title": "Brussels Approves UniCredit Takeover of Commerzbank",
+      "summary": "European authorities have cleared the UniCredit acquisition of Commerzbank despite objections from Berlin. The financial decision marks a major development for the European banking sector.",
       "article_ids": [
         "127986fdc782e8220769a3ef",
         "7cd309a5fd45daef99cc8137"
@@ -146,33 +110,76 @@
       "source_count": 1
     }
   ],
-  "developing": [
+  "top_stories": [
     {
-      "label": "public · Czechs · Prague · fight",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-11-16T02:28:13Z",
+      "title": "Conflict Escalation and Regional Security Concerns",
+      "summary": "Recent military developments include Ukrainian strikes targeting the Crimea bridge and extensive drone activity. European diplomats have responded sharply to ongoing security challenges and strategic pressures.",
+      "article_ids": [
+        "7db21a1a01f89a7377941008",
+        "cc9e8aca925ac4cd73d54c76",
+        "8c4954cd1cca100f5469e5fe",
+        "56bf8a9a224223e4798d7d88"
+      ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261116-czechs-protest-prague-public-media-funding-plan",
-          "headline": "Hundreds of thousands of Czechs protest in Prague over public media funding plan",
-          "published_at": "2026-11-16T02:28:13Z"
+          "url": "https://www.france24.com/en/video/20261116-ukraine-strikes-crimea-bridge-as-zelensky-says-starshield-caps-helping-russian-attacks",
+          "headline": "Ukraine strikes Crimea bridge as Zelensky says Starshield caps helping Russian attacks",
+          "published_at": "2026-11-16T11:18:47Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
-          "headline": "Czechs rally against plan to switch funding of public media",
-          "published_at": "2026-11-15T17:23:40Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261116-live-600-ukrainian-drones-target-moscow-strike-crimea-bridge-halts-traffic",
+          "headline": "🔴 Live: 600 Ukrainian drones target Moscow, Crimea bridge strike halts traffic",
+          "published_at": "2026-11-16T06:59:55Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Public Demonstrations Over Media Funding in Czechia",
+      "summary": "Large crowds gathered in Prague as hundreds of thousands protested the government's proposed media funding plans. The demonstrations highlight widespread public dissent regarding national media reforms.",
+      "article_ids": [
+        "05dbb8c7ee188257a086f2fe"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261116-hundreds-of-thousands-protest-czech-government-s-media-funding-plan",
+          "headline": "Hundreds of thousands protest Czech government's media funding plan",
+          "published_at": "2026-11-16T13:09:59Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
+    {
+      "label": "Estonia · attack · border · close",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 7,
+      "latest_at": "2026-11-16T11:43:54Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261116-estonia-to-close-russian-border-crossings-after-attempted-arson-attack-on-drone-maker",
+          "headline": "Estonia to close Russian border crossings after attempted arson attack on drone ‌maker",
+          "published_at": "2026-11-16T11:43:54Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/estonias-digital-preppers-have-a-doomsday-backup-plan",
+          "headline": "Estonia has a plan for Russian occupation: Run its government from the cloud",
+          "published_at": "2026-11-16T03:00:00Z"
         }
       ]
     },
     {
-      "label": "Huang · Jensen · Nvidia",
+      "label": "Huang · Jensen · Nvidia · calls",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
+      "item_count": 4,
       "latest_at": "2026-11-16T09:55:47Z",
       "sources": [
         {
@@ -186,6 +193,27 @@
           "url": "https://www.france24.com/en/technology/20261115-elon-musk-uber-co-founder-jensen-huang-nvidia-reinstate",
           "headline": "Elon Musk, Uber co-founder join calls to reinstate Jensen Huang as Nvidia chief",
           "published_at": "2026-11-15T23:31:15Z"
+        }
+      ]
+    },
+    {
+      "label": "Putin · Trump · China · discuss",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-11-16T11:44:38Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/248997/ghost-of-yalta-returns-amid-fears-that-trump-xi-and-putin-will-carve-up-ukraine-and-europe",
+          "headline": "Ghost of Yalta returns, amid fears that Trump, Xi, and Putin will carve up Ukraine and Europe",
+          "published_at": "2026-11-16T11:44:38Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/asia-pacific/20261116-xi-trump-putin-discuss-world-peace-shenzhen-summit-china-says",
+          "headline": "Xi, Trump and Putin to discuss 'world peace' at Shenzhen summit, China says",
+          "published_at": "2026-11-16T08:40:22Z"
         }
       ]
     },
@@ -209,30 +237,79 @@
           "published_at": "2026-11-15T22:48:31Z"
         }
       ]
-    },
-    {
-      "label": "Putin · Trump",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-11-16T11:44:38Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/248997/ghost-of-yalta-returns-amid-fears-that-trump-xi-and-putin-will-carve-up-ukraine-and-europe",
-          "headline": "Ghost of Yalta returns, amid fears that Trump, Xi, and Putin will carve up Ukraine and Europe",
-          "published_at": "2026-11-16T11:44:38Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/asia-pacific/20261116-xi-trump-putin-discuss-world-peace-shenzhen-summit-china-says",
-          "headline": "Xi, Trump and Putin to discuss 'world peace' at Shenzhen summit, China says",
-          "published_at": "2026-11-16T08:40:22Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "d5a1e43c94bf802aea87c72e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Excitement builds ahead of GTA VI release",
+      "url": "https://www.france24.com/en/video/20261116-excitement-builds-ahead-of-gta-vi-release",
+      "published_at": "2026-11-16T13:25:18Z",
+      "collected_at": "2026-11-16T13:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "031738f233565ecdca31650c",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "EU verhängt Sanktionen gegen russische Hacker und Trolle",
+      "url": "https://www.politico.eu/article/eu-verhaengt-sanktionen-gegen-russische-hacker-und-trolle",
+      "published_at": "2026-11-16T13:14:58Z",
+      "collected_at": "2026-11-16T13:30:57Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "f777a56152071190378e8ad0",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Cape Verde President Neves wins second term",
+      "url": "https://www.france24.com/en/video/20261116-cape-verde-president-neves-wins-second-term",
+      "published_at": "2026-11-16T13:12:22Z",
+      "collected_at": "2026-11-16T13:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "05dbb8c7ee188257a086f2fe",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Hundreds of thousands protest Czech government's media funding plan",
+      "url": "https://www.france24.com/en/video/20261116-hundreds-of-thousands-protest-czech-government-s-media-funding-plan",
+      "published_at": "2026-11-16T13:09:59Z",
+      "collected_at": "2026-11-16T13:30:57Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "58b13f5a0d90621b932c5a32",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Cyberattacks on refrigerators and fake bomb threats: The hybrid war in Europe escalates amid a political storm",
+      "url": "https://english.elpais.com/technology/2026-11-16/cyberattacks-on-refrigerators-and-fake-bomb-threats-the-hybrid-war-in-europe-escalates-amid-a-political-storm.html",
+      "published_at": "2026-11-16T13:06:22Z",
+      "collected_at": "2026-11-16T13:30:57Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "0ad2eab7b99aa97b06387db0",
       "source_id": "politico_europe",
@@ -245,6 +322,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "eb176588d61a14107b9d05cd",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Charli D’Amelio, the TikTok queen who had to break away from her family to take control of her life",
+      "url": "https://english.elpais.com/people/2026-11-16/charli-damelio-the-tiktok-queen-who-had-to-break-away-from-her-family-to-take-control-of-her-life.html",
+      "published_at": "2026-11-16T12:56:15Z",
+      "collected_at": "2026-11-16T13:30:57Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -1025,6 +1116,20 @@
       "url": "https://www.france24.com/en/technology/20261115-elon-musk-uber-co-founder-jensen-huang-nvidia-reinstate",
       "published_at": "2026-11-15T23:31:15Z",
       "collected_at": "2026-11-16T04:31:04Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "42d5b67c4be03884c66b447d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Musk, Uber co-founder join calls to reinstate Huang as Nvidia chief",
+      "url": "https://www.france24.com/en/technology/20261115-elon-musk-uber-co-founder-jensen-huang-nvidia-reinstate",
+      "published_at": "2026-11-15T23:31:15Z",
+      "collected_at": "2026-11-16T13:30:57Z",
       "topics": [
         "politics",
         "security",
