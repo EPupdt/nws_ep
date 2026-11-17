@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-17T10:01:12Z",
-  "last_successful_collection_at": "2026-11-17T10:01:12Z",
+  "generated_at": "2026-11-17T10:31:08Z",
+  "last_successful_collection_at": "2026-11-17T10:31:08Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-17T10:01:12Z"
+      "at": "2026-11-17T10:31:08Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-17T10:01:12Z"
+      "at": "2026-11-17T10:31:08Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-11-17T10:01:12Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-17T10:31:08Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-17T10:01:12Z"
+      "at": "2026-11-17T10:31:08Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-17T10:01:12Z"
+      "at": "2026-11-17T10:31:08Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-11-17T10:01:12Z"
+      "at": "2026-11-17T10:31:08Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-17T10:01:12Z"
+      "at": "2026-11-17T10:31:08Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-17T10:01:12Z"
+      "at": "2026-11-17T10:31:08Z"
     },
     {
       "id": "bruegel",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-17T10:01:12Z"
+      "status": "ok",
+      "count": "10",
+      "at": "2026-11-17T10:31:08Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Crimea Bridge and Kyiv Infrastructure Impacted",
-      "summary": "The Crimea bridge was shut following a Ukrainian drone strike, while separate Russian missile attacks struck major Kyiv bridges and caused local power disruptions. These escalating infrastructural bombardments highlight the intensifying conflict dynamics in the region.",
+      "title": "Crimea Bridge Shut Following Ukrainian Strike",
+      "summary": "The bridge connecting Crimea has been closed following a major Ukrainian strike. Meanwhile, Russian missile attacks targeted crossings in Kyiv.",
       "article_ids": [
         "698fee4abb9ab4310cb110c9",
         "271767f05a2bd4b30e471f84"
@@ -87,12 +87,77 @@
       "source_count": 2
     },
     {
-      "title": "EU Pursuit of External Migration Solutions",
-      "summary": "Several European Union nations are advancing plans to establish a migrant return hub in Rwanda to address ongoing challenges with deportations. This collaborative effort reflects a broader strategy by European governments to seek solutions beyond the bloc's borders.",
+      "title": "Poland Central Bank Freezes Constitutional Court Accounts",
+      "summary": "Poland’s central bank has frozen the accounts of the constitutional court. This action comes amid an ongoing dispute over leadership within the institution.",
       "article_ids": [
-        "b9485f0c9f1eb844d9c1e89e",
-        "e9cf3992a10c1e358080df7a"
+        "ee2b1ac373e38132827470ce"
       ],
+      "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/11/17/polands-central-bank-freezes-constitutional-courts-accounts-amid-leadership-dispute",
+          "headline": "Poland’s central bank freezes constitutional court’s accounts amid leadership dispute",
+          "published_at": "2026-11-17T10:28:35Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Conflict Developments in Ukraine",
+      "summary": "Ukrainian forces launched an operation striking the Crimean bridge, prompting its immediate closure. Concurrently, Russian missile strikes hit major bridges in Kyiv.",
+      "article_ids": [
+        "698fee4abb9ab4310cb110c9",
+        "271767f05a2bd4b30e471f84"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+          "headline": "Crimea bridge shut after Ukrainian strike, as Russia hits Kyiv crossings",
+          "published_at": "2026-11-17T09:27:41Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/russian-missiles-hit-two-major-kyiv-bridges",
+          "headline": "Russia hits 2 major Kyiv bridges in overnight strikes",
+          "published_at": "2026-11-17T08:51:35Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Political Developments in France",
+      "summary": "French presidential candidates recently engaged in a televised debate focusing on political rivals as an election approaches. Additionally, trade unions have called for nationwide strikes and protests.",
+      "article_ids": [
+        "5b91f269645b99e0a6204c5b",
+        "e11dabdf193220294e362df3"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261117-live-france-braces-for-new-day-protests-unions-call-nationwide-strike",
+          "headline": "Live: France braces for new day of protests as unions call for nationwide strike",
+          "published_at": "2026-11-17T07:16:51Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/france-election-2027-presidential-candidates-target-marine-le-pen-tv-debate",
+          "headline": "French presidential rivals take aim at Le Pen in debate",
+          "published_at": "2026-11-16T23:27:47Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "developing": [
+    {
+      "label": "deportations · EU · countries · Five",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 5,
+      "latest_at": "2026-11-17T08:13:09Z",
       "sources": [
         {
           "publisher": "EL PAÍS English",
@@ -101,58 +166,19 @@
           "published_at": "2026-11-17T08:13:09Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/rwanda-to-host-hub-for-rejected-eu-migrants",
-          "headline": "Rwanda to host hub for rejected EU migrants",
-          "published_at": "2026-11-16T21:21:14Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Ukraine Conflict Developments",
-      "summary": "A Ukrainian drone attack led to the closure of the strategic Crimea bridge. Meanwhile, Russian missile strikes targeted essential crossings and infrastructure within Kyiv.",
-      "article_ids": [
-        "698fee4abb9ab4310cb110c9",
-        "271767f05a2bd4b30e471f84"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-          "headline": "Crimea bridge shut after Ukrainian strike, as Russia hits Kyiv crossings",
-          "published_at": "2026-11-17T09:27:41Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/249298/five-eu-countries-tout-rwanda-deportation-partnership-but-no-formal-deal-as-key-details-remain-secret",
+          "headline": "Five EU countries tout Rwanda deportation partnership but no formal deal as key details remain secret",
+          "published_at": "2026-11-16T17:50:37Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russian-missiles-hit-two-major-kyiv-bridges",
-          "headline": "Russia hits 2 major Kyiv bridges in overnight strikes",
-          "published_at": "2026-11-17T08:51:35Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
+          "headline": "Five EU countries announce migrant deportation centre in Rwanda",
+          "published_at": "2026-11-16T16:27:24Z"
         }
-      ],
-      "source_count": 2
+      ]
     },
-    {
-      "title": "European Migration Policy",
-      "summary": "The European Union is exploring external partnerships to manage the complexities of failed deportations. A group of member states is moving forward with arrangements to set up a migrant return facility in Rwanda.",
-      "article_ids": [
-        "b9485f0c9f1eb844d9c1e89e",
-        "e9cf3992a10c1e358080df7a"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/rwanda-to-host-hub-for-rejected-eu-migrants",
-          "headline": "Rwanda to host hub for rejected EU migrants",
-          "published_at": "2026-11-16T21:21:14Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
     {
       "label": "EU · sanctions · hackers · Russian",
       "origin": "convergence",
@@ -215,30 +241,37 @@
           "published_at": "2026-11-17T03:00:00Z"
         }
       ]
-    },
-    {
-      "label": "appeal · Depardieu · drops · conviction",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-16T15:51:39Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261116-french-film-star-depardieu-drops-appeal-against-sexual-conviction",
-          "headline": "French film star Depardieu drops appeal against sexual conviction",
-          "published_at": "2026-11-16T15:51:39Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss",
-          "headline": "Gérard Depardieu drops appeal against sexual assault conviction",
-          "published_at": "2026-11-16T13:40:56Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "ee2b1ac373e38132827470ce",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland’s central bank freezes constitutional court’s accounts amid leadership dispute",
+      "url": "https://notesfrompoland.com/2026/11/17/polands-central-bank-freezes-constitutional-courts-accounts-amid-leadership-dispute",
+      "published_at": "2026-11-17T10:28:35Z",
+      "collected_at": "2026-11-17T10:31:08Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "9fd8bc5ae81092d915c10e62",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Germany poised to nominate Brunnermeier as ECB chief economist",
+      "url": "https://www.politico.eu/article/germany-set-to-nominate-markus-brunnermeier-ecb-chief-economist",
+      "published_at": "2026-11-17T10:15:28Z",
+      "collected_at": "2026-11-17T10:31:08Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "533cedc04c8f7bde6b6e4dfa",
       "source_id": "euobserver",
@@ -345,6 +378,20 @@
       "url": "https://www.politico.eu/article/russian-missiles-hit-two-major-kyiv-bridges",
       "published_at": "2026-11-17T08:51:35Z",
       "collected_at": "2026-11-17T09:01:04Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "40e1c48588b234eef0c556b6",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Ukraine strikes Crimean bridge in ‘unprecedented operation,’ Zelenskyy says",
+      "url": "https://www.politico.eu/article/russian-missiles-hit-two-major-kyiv-bridges",
+      "published_at": "2026-11-17T08:51:35Z",
+      "collected_at": "2026-11-17T10:31:08Z",
       "topics": [
         "institutions",
         "politics",
@@ -2172,20 +2219,6 @@
       ]
     },
     {
-      "id": "8c4954cd1cca100f5469e5fe",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "EU chief diplomat Kallas blasts Russian peace demands as ‘absurd’",
-      "url": "https://www.politico.eu/article/eu-chief-diplomat-kallas-blasts-russian-peace-demands-as-absurd",
-      "published_at": "2026-11-16T10:24:07Z",
-      "collected_at": "2026-11-16T10:31:04Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "b994c09adade93bf2a89aba1",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2197,20 +2230,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "ed0a5f963127d62fa6c232d2",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Verdict week in the Myanmar genocide case",
-      "url": "https://www.france24.com/en/tv-shows/press-review/20261116-verdict-week-in-the-myanmar-genocide-case",
-      "published_at": "2026-11-16T10:01:18Z",
-      "collected_at": "2026-11-16T10:31:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -2242,20 +2261,6 @@
       ]
     },
     {
-      "id": "a8e075b91ecc46f0cc72bc71",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Breaking taboos: Egypt's sexual revolution takes to social media",
-      "url": "https://www.france24.com/en/tv-shows/focus/20261116-breaking-taboos-egypt-s-sexual-revolution-takes-to-social-media",
-      "published_at": "2026-11-16T09:50:45Z",
-      "collected_at": "2026-11-16T10:01:22Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "42d5b67c4be03884c66b447d",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2277,34 +2282,6 @@
       "url": "https://www.france24.com/en/americas/20261115-miguel-angel-felix-gallardo-mexican-drug-lord-dies",
       "published_at": "2026-11-15T22:48:31Z",
       "collected_at": "2026-11-16T11:31:01Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "2903673558762f62859d70b9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Prague's fight for public TV: Why a high-profile presenter is prepared to walk away",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261115-pragues-s-fight-for-public-tv-why-renowned-presenter-will-leave-czech-tv-over-reforms",
-      "published_at": "2026-11-15T19:13:35Z",
-      "collected_at": "2026-11-16T10:01:22Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "071b2fe75245019fb61022f5",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Record number of women elected' to US Congress & governorships in midterm elections",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261115-record-number-of-women-elected-to-us-congress-governorships-across-country-in-midterm-elections",
-      "published_at": "2026-11-15T15:40:36Z",
-      "collected_at": "2026-11-16T10:01:22Z",
       "topics": [
         "politics",
         "security",
@@ -2494,20 +2471,6 @@
       ]
     },
     {
-      "id": "084a575dad079081a0f092d1",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Nuclear weapons – the elephant in the room in Ukraine peace talks",
-      "url": "https://euobserver.com/248713/nuclear-weapons-the-elephant-in-the-room-in-ukraine-peace-talks",
-      "published_at": "2026-11-14T10:00:00Z",
-      "collected_at": "2026-11-16T10:31:04Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "79ab5859f6ab2f89d61aa678",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2529,6 +2492,20 @@
       "url": "https://english.elpais.com/technology/2026-11-13/cringe-has-ruined-the-internet-why-young-people-no-longer-want-to-share-anything-online.html",
       "published_at": "2026-11-13T15:08:58Z",
       "collected_at": "2026-11-16T12:31:02Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "ff3cf68b107dad32b884d9fb",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "U2’s trail in Dublin, 50 years after the band’s formation",
+      "url": "https://english.elpais.com/culture/2026-11-13/u2s-trail-in-dublin-50-years-after-the-bands-formation.html",
+      "published_at": "2026-11-13T10:04:36Z",
+      "collected_at": "2026-11-17T10:31:08Z",
       "topics": [
         "politics",
         "society",
@@ -2729,6 +2706,20 @@
         "central_europe",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "616376615b75f7e987f4f3ee",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Emmanuel Carrère, writer: ‘There is only one rule: do no harm — and I broke it with my mother and girlfriend at the time’",
+      "url": "https://english.elpais.com/culture/2026-11-11/emmanuel-carrere-writer-there-is-only-one-rule-do-no-harm-and-i-broke-it-with-my-mother-and-girlfriend-at-the-time.html",
+      "published_at": "2026-11-11T09:30:00Z",
+      "collected_at": "2026-11-17T10:31:08Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
