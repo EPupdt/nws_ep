@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-17T05:01:02Z",
-  "last_successful_collection_at": "2026-11-17T05:01:02Z",
+  "generated_at": "2026-11-17T05:31:00Z",
+  "last_successful_collection_at": "2026-11-17T05:31:00Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-17T05:01:02Z"
+      "at": "2026-11-17T05:31:00Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "30",
-      "at": "2026-11-17T05:01:02Z"
+      "at": "2026-11-17T05:31:00Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-17T05:01:02Z"
+      "at": "2026-11-17T05:31:00Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,48 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-17T05:01:02Z"
+      "at": "2026-11-17T05:31:00Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-17T05:01:02Z"
+      "at": "2026-11-17T05:31:00Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-11-17T05:01:02Z"
+      "at": "2026-11-17T05:31:00Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-17T05:01:02Z"
+      "at": "2026-11-17T05:31:00Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-17T05:01:02Z"
+      "at": "2026-11-17T05:31:00Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-17T05:01:02Z"
+      "at": "2026-11-17T05:31:00Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian strikes on Kyiv bridges disrupt water and power",
-      "summary": "Russian forces attacked two key bridges in Kyiv, causing widespread disruptions to heating, water, and electricity supplies. The strikes targeted critical civilian infrastructure in the Ukrainian capital.",
+      "title": "Russian Strikes and Bridge Attacks in Ukraine",
+      "summary": "Recent Russian strikes target bridges in Kyiv, causing significant disruptions to water and heating supplies. Meanwhile, Ukrainian drone attacks have impacted the key Crimea bridge in ongoing hostilities.",
       "article_ids": [
         "c743f407984d14fc8a97048f",
-        "1d9504035b2973eda8b6efc3"
+        "1d9504035b2973eda8b6efc3",
+        "873726d71b9df0f8d515c543",
+        "a17458fb1af18a9a9eb35410"
       ],
       "sources": [
         {
@@ -78,29 +80,6 @@
           "published_at": "2026-11-17T01:38:38Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261117-russian-strikes-hit-two-key-bridges-in-kyiv-disrupting-water-and-power-supplies-ukraine",
-          "headline": "Russian strikes hit two key bridges in Kyiv, disrupting water and power supplies",
-          "published_at": "2026-11-17T00:58:33Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Ukrainian drones damage Crimea Bridge in major attack",
-      "summary": "Ukrainian drones struck the strategic Crimea Bridge, a vital supply route for Russian forces in the occupied peninsula. The attack represents a significant escalation in the targeting of key infrastructure.",
-      "article_ids": [
-        "873726d71b9df0f8d515c543",
-        "a17458fb1af18a9a9eb35410"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261116-ukraine-hits-key-crimea-bridge-with-drones",
-          "headline": "Ukraine hits key Crimea bridge with drones",
-          "published_at": "2026-11-16T23:13:06Z"
-        },
-        {
           "publisher": "EUobserver",
           "url": "https://euobserver.com/249139/ukraine-damages-crimean-bridge-drones-likely-hit-arch-ukraine-battlefield-update-day-1726",
           "headline": "Ukraine damages Crimean Bridge, drones likely hit arch (Ukraine Battlefield update, Day 1,726)",
@@ -108,17 +87,15 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "Five EU countries advance Rwanda migrant return plan",
-      "summary": "Five EU member states have announced a partnership with Rwanda to establish a hub for deporting failed asylum seekers. No formal agreement has been reached and key operational details remain undisclosed.",
+      "title": "Five EU Nations Push Rwanda Migrant Return Hub",
+      "summary": "Five European Union countries are advancing a partnership with Rwanda to host a center for rejected migrants. However, critics note that key details remain undisclosed and a formal deal has yet to be finalized.",
       "article_ids": [
+        "43108",
         "e9cf3992a10c1e358080df7a",
         "d54a73312380be61c0d2ce0f",
-        "a4e6370576e345b2e3664c56",
-        "5b797c84767e8cf6d64ed291"
+        "a4e6370576e345b2e3664c56"
       ],
       "sources": [
         {
@@ -135,12 +112,15 @@
         }
       ],
       "source_count": 2
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "EU imposes new sanctions on Russian hackers and propagandists",
-      "summary": "The European Union has sanctioned individuals and entities linked to Russian disinformation campaigns and cyber operations targeting voters. The measures address thousands of fake accounts used to manipulate public opinion.",
+      "title": "European Union Sanctions Russian Disinformation Actors",
+      "summary": "The European Union has imposed new sanctions targeting Russian hackers and propagandists. Officials highlighted that thousands of fake accounts continue to target European voters and digital infrastructure.",
       "article_ids": [
-        "226b1e48985820e741cc0f60"
+        "226b1e48985820e741cc0f60",
+        "43108"
       ],
       "sources": [
         {
@@ -153,9 +133,10 @@
       "source_count": 1
     },
     {
-      "title": "Mass protests in Czech Republic against government media overhaul",
-      "summary": "Large demonstrations have taken place in the Czech Republic opposing a government plan to restructure public media funding. Protesters warn the changes would undermine media independence and democratic safeguards.",
+      "title": "Czech Protests Over Government Media Funding Plan",
+      "summary": "Large mass demonstrations have erupted across the Czech Republic in opposition to government plans for a media funding overhaul. Demonstrators argue that the proposed changes threaten democratic institutions and press freedom.",
       "article_ids": [
+        "43108",
         "d95cbad85143c30ba8866e41"
       ],
       "sources": [
@@ -219,6 +200,27 @@
       ]
     },
     {
+      "label": "EU · Commission · push",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-11-17T05:01:00Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/249008/forever-plastics-lobbyists-met-eu-commission-37-times-in-bid-to-escape-ban",
+          "headline": "‘Forever chemicals’ lobbyists met EU Commission 37 times in push to escape ban ahead of key decision",
+          "published_at": "2026-11-17T05:01:00Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/finnish-arms-company-patria-boss-keen-on-eu-defense-spending-push",
+          "headline": "More than cash: EU defense spending push is ‘game-changer’ for industry, says arms boss",
+          "published_at": "2026-11-17T03:00:00Z"
+        }
+      ]
+    },
+    {
       "label": "China · peace · Putin · Russia",
       "origin": "convergence",
       "source_count": 2,
@@ -238,30 +240,37 @@
           "published_at": "2026-11-16T18:01:24Z"
         }
       ]
-    },
-    {
-      "label": "appeal · Depardieu · drops · conviction",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-16T15:51:39Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261116-french-film-star-depardieu-drops-appeal-against-sexual-conviction",
-          "headline": "French film star Depardieu drops appeal against sexual conviction",
-          "published_at": "2026-11-16T15:51:39Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss",
-          "headline": "Gérard Depardieu drops appeal against sexual assault conviction",
-          "published_at": "2026-11-16T13:40:56Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "c6d4a4176afd697a7264c7cd",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Will the EU’s next Russia sanctions bite?",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/will-the-eus-next-russia-sanctions-bite",
+      "published_at": "2026-11-17T05:05:00Z",
+      "collected_at": "2026-11-17T05:31:00Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "a875ef0407bfe46ad46b53c0",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "‘Forever chemicals’ lobbyists met EU Commission 37 times in push to escape ban ahead of key decision",
+      "url": "https://euobserver.com/249008/forever-plastics-lobbyists-met-eu-commission-37-times-in-bid-to-escape-ban",
+      "published_at": "2026-11-17T05:01:00Z",
+      "collected_at": "2026-11-17T05:31:00Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "3f38d80b3c16f8d2bc49ebce",
       "source_id": "politico_europe",
@@ -2402,118 +2411,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "2244d5df9fadeb4dcdce1cae",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The migrant caravan crossing Mexico that has triggered Trump’s new tariff threat: ‘Our fear is that the Mexican president will send us back’",
-      "url": "https://english.elpais.com/international/2026-11-14/the-migrant-caravan-crossing-mexico-that-has-triggered-trumps-new-tariff-threat-our-fear-is-that-the-mexican-president-will-send-us-back.html",
-      "published_at": "2026-11-14T04:00:00Z",
-      "collected_at": "2026-11-16T05:01:16Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "ddee2be8b3e06c0a84cd984d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Eleven names to watch in the race for the White House in 2028",
-      "url": "https://english.elpais.com/usa/2026-11-14/eleven-names-to-watch-in-the-race-for-the-white-house-in-2028.html",
-      "published_at": "2026-11-14T04:00:00Z",
-      "collected_at": "2026-11-16T05:01:16Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "36397a6de1fdc5fa0e876b29",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Democrats turn to 2028 after midterm gains boost moderates and progressives",
-      "url": "https://english.elpais.com/usa/2026-11-14/democrats-turn-to-2028-after-midterm-gains-boost-moderates-and-progressives.html",
-      "published_at": "2026-11-14T04:00:00Z",
-      "collected_at": "2026-11-16T05:01:16Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "40ce1aafe94dc906eea40c25",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Chimpanzees, monkeys and cockroaches: Animals also vote and their choices can be manipulated",
-      "url": "https://english.elpais.com/science-tech/2026-11-14/chimpanzees-monkeys-and-cockroaches-animals-also-vote-and-their-choices-can-be-manipulated.html",
-      "published_at": "2026-11-14T04:00:00Z",
-      "collected_at": "2026-11-16T05:01:16Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "b3dfe562083b38923c49f9bc",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Maryanne Wolf, neuroscientist: ‘Because of screens, we have learned another way of reading that short-circuits the brain’",
-      "url": "https://english.elpais.com/science-tech/2026-11-14/maryanne-wolf-neuroscientist-because-of-screens-we-have-learned-another-way-of-reading-that-short-circuits-the-brain.html",
-      "published_at": "2026-11-14T04:00:00Z",
-      "collected_at": "2026-11-16T05:01:16Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "aa8a00a3062bf394ffab9946",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Branko Milanovic, economist: ‘This defeat for Trump will not have a major impact on US policy toward Asia or Europe’",
-      "url": "https://english.elpais.com/economy-and-business/2026-11-14/branko-milanovic-economist-this-defeat-for-trump-will-not-have-a-major-impact-on-us-policy-toward-asia-or-europe.html",
-      "published_at": "2026-11-14T04:00:00Z",
-      "collected_at": "2026-11-16T05:01:16Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "ecdd694c5497c5d822b68c35",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "What a treat, comrades: A five-star hotel at the headquarters of the Italian Communist Party",
-      "url": "https://english.elpais.com/international/2026-11-14/what-a-treat-comrades-a-five-star-hotel-at-the-headquarters-of-the-italian-communist-party.html",
-      "published_at": "2026-11-14T04:00:00Z",
-      "collected_at": "2026-11-16T05:01:16Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "f5098e2f0fa57fdfad37986b",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Eating spicy wings and guessing games: When selling the movie becomes the show",
-      "url": "https://english.elpais.com/people/2026-11-14/eating-spicy-wings-and-guessing-games-when-selling-the-movie-becomes-the-show.html",
-      "published_at": "2026-11-14T04:00:00Z",
-      "collected_at": "2026-11-16T05:01:16Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
