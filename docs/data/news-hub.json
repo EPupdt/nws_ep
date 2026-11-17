@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-17T07:01:15Z",
-  "last_successful_collection_at": "2026-11-17T07:01:15Z",
+  "generated_at": "2026-11-17T07:30:56Z",
+  "last_successful_collection_at": "2026-11-17T07:30:56Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-17T07:01:15Z"
+      "at": "2026-11-17T07:30:56Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "30",
-      "at": "2026-11-17T07:01:15Z"
+      "at": "2026-11-17T07:30:56Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-17T07:01:15Z"
+      "at": "2026-11-17T07:30:56Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,47 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-17T07:01:15Z"
+      "at": "2026-11-17T07:30:56Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-17T07:01:15Z"
+      "at": "2026-11-17T07:30:56Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-11-17T07:01:15Z"
+      "at": "2026-11-17T07:30:56Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-17T07:01:15Z"
+      "at": "2026-11-17T07:30:56Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-17T07:01:15Z"
+      "at": "2026-11-17T07:30:56Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-17T07:01:15Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-17T07:30:56Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Strikes Damage Kyiv Infrastructure",
-      "summary": "Recent Russian strikes targeted critical infrastructure in Kyiv, disrupting local water and power supplies. The attacks caused notable damage to bridges and knocked out heating systems across the city.",
+      "title": "Russian Strikes Damage Infrastructure and Disrup Services in Ukraine",
+      "summary": "Recent Russian attacks have targeted key bridges in Kyiv and hit the Crimea bridge using drones, causing significant disruptions to water, heating, and power supplies. These developments highlight the ongoing escalation of infrastructure strikes in the region.",
       "article_ids": [
         "c743f407984d14fc8a97048f",
-        "1d9504035b2973eda8b6efc3"
+        "873726d71b9df0f8d515c543",
+        "a17458fb1af18a9a9eb35410"
       ],
       "sources": [
         {
@@ -78,33 +79,10 @@
           "published_at": "2026-11-17T01:38:38Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261117-russian-strikes-hit-two-key-bridges-in-kyiv-disrupting-water-and-power-supplies-ukraine",
-          "headline": "Russian strikes hit two key bridges in Kyiv, disrupting water and power supplies",
-          "published_at": "2026-11-17T00:58:33Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Five EU Countries Advance Rwanda Migrant Plan",
-      "summary": "Five European Union nations are advancing plans to establish a migration return hub in Rwanda. Although officials have touted the partnership, key details of the arrangement remain unconfirmed.",
-      "article_ids": [
-        "508c95289dd4fcd42e02712c",
-        "d54a73312380be61c0d2ce0f"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/uk-eu-understand-andy-burnham-brexit",
-          "headline": "What Britain and the EU still don’t understand about each other",
-          "published_at": "2026-11-16T21:00:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/eu-nations-unveil-rwanda-deal-for-migrant-return-hub",
-          "headline": "EU nations unveil Rwanda deal for migrant return hub",
-          "published_at": "2026-11-16T20:01:34Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/249139/ukraine-damages-crimean-bridge-drones-likely-hit-arch-ukraine-battlefield-update-day-1726",
+          "headline": "Ukraine damages Crimean Bridge, drones likely hit arch (Ukraine Battlefield update, Day 1,726)",
+          "published_at": "2026-11-16T18:14:05Z"
         }
       ],
       "source_count": 2
@@ -112,13 +90,51 @@
   ],
   "top_stories": [
     {
-      "title": "French Presidential Election Debates",
-      "summary": "French presidential candidates recently participated in televised debates ahead of the upcoming election. Opposing politicians heavily targeted rival Marine Le Pen during the discussions.",
+      "title": "Czech Republic Protests Over Media Funding",
+      "summary": "Citizens in the Czech Republic have organized mass demonstrations opposing government plans regarding media funding overhauls. Protesters argue that these changes pose a threat to democratic institutions and independent journalism.",
       "article_ids": [
-        "e11dabdf193220294e362df3",
-        "e5837ffc5ddea86664d539ad"
+        "d95cbad85143c30ba8866e41"
       ],
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/czech-mass-protests-media-is-the-first-casualty-when-you-want-to-attack-democracy",
+          "headline": "Czech mass protests: Media is the first casualty 'when you want to attack democracy'",
+          "published_at": "2026-11-16T18:33:00Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "European Union Air Pollution Standards",
+      "summary": "Recent analysis indicates that only a few major European cities currently meet established EU air pollution regulations. Stricter enforcement measures are expected as authorities push for improved urban environmental compliance.",
+      "article_ids": [
+        "ea2c80bd25680eb44d66d37e"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/249193/eus-stricter-airpollution-law-looms-but-nearly-all-major-cities-are-still-offtrack",
+          "headline": "Only Stockholm, Helsinki and Copenhagen meet EU air pollution rules, as stricter enforcement looms",
+          "published_at": "2026-11-17T05:30:00Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "French Presidential Election Debates and Protests",
+      "summary": "Political tensions are rising in France as presidential candidates engage in televised debates targeting rival figures. Simultaneously, the country is bracing for nationwide strikes and further mass demonstrations.",
+      "article_ids": [
+        "5b91f269645b99e0a6204c5b",
+        "e11dabdf193220294e362df3"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261117-live-france-braces-for-new-day-protests-unions-call-nationwide-strike",
+          "headline": "Live: France braces for new day of protests as unions call for nationwide strike",
+          "published_at": "2026-11-17T07:16:51Z"
+        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/france-election-2027-presidential-candidates-target-marine-le-pen-tv-debate",
@@ -126,7 +142,7 @@
           "published_at": "2026-11-16T23:27:47Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
@@ -185,33 +201,6 @@
       ]
     },
     {
-      "label": "Bridge · Ukraine · Crimean · drones",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
-      "latest_at": "2026-11-16T23:13:06Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261116-ukraine-hits-key-crimea-bridge-with-drones",
-          "headline": "Ukraine hits key Crimea bridge with drones",
-          "published_at": "2026-11-16T23:13:06Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/249139/ukraine-damages-crimean-bridge-drones-likely-hit-arch-ukraine-battlefield-update-day-1726",
-          "headline": "Ukraine damages Crimean Bridge, drones likely hit arch (Ukraine Battlefield update, Day 1,726)",
-          "published_at": "2026-11-16T18:14:05Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russia-claims-ukraine-attacked-crimean-bridge-moscow",
-          "headline": "Russia says Ukraine attacked Crimean bridge",
-          "published_at": "2026-11-16T10:36:44Z"
-        }
-      ]
-    },
-    {
       "label": "EU · sanctions · hackers · Russian",
       "origin": "convergence",
       "source_count": 2,
@@ -231,9 +220,44 @@
           "published_at": "2026-11-16T17:25:46Z"
         }
       ]
+    },
+    {
+      "label": "Bond · James · Pattinson · Robert",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-11-16T16:39:36Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261116-robert-pattinson-british-actor-will-be-the-next-james-bond",
+          "headline": "Robert Pattinson: British actor will be the next James Bond",
+          "published_at": "2026-11-16T16:39:36Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/culture/2026-11-16/robert-pattinson-chosen-be-the-next-james-bond.html",
+          "headline": "Robert Pattinson lands role as the next James Bond",
+          "published_at": "2026-11-16T16:23:58Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "5b91f269645b99e0a6204c5b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: France braces for new day of protests as unions call for nationwide strike",
+      "url": "https://www.france24.com/en/france/20261117-live-france-braces-for-new-day-protests-unions-call-nationwide-strike",
+      "published_at": "2026-11-17T07:16:51Z",
+      "collected_at": "2026-11-17T07:30:56Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "e5837ffc5ddea86664d539ad",
       "source_id": "france24",
@@ -400,6 +424,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "72bb52468ca9ebebd4cfbf92",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "French cricket 'dying' as funding scandal prompts federation crisis",
+      "url": "https://www.france24.com/en/france/20261117-french-cricket-dying-as-funding-scandal-prompts-federation-crisis",
+      "published_at": "2026-11-17T01:39:23Z",
+      "collected_at": "2026-11-17T07:30:56Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
