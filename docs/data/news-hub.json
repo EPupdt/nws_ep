@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-17T10:31:08Z",
-  "last_successful_collection_at": "2026-11-17T10:31:08Z",
+  "generated_at": "2026-11-17T11:01:03Z",
+  "last_successful_collection_at": "2026-11-17T11:01:03Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-17T10:31:08Z"
+      "at": "2026-11-17T11:01:03Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-17T10:31:08Z"
+      "at": "2026-11-17T11:01:03Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-17T10:31:08Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-11-17T11:01:03Z"
     },
     {
       "id": "euractiv",
@@ -29,53 +29,53 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-17T10:31:08Z"
+      "at": "2026-11-17T11:01:03Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-17T10:31:08Z"
+      "at": "2026-11-17T11:01:03Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "60",
-      "at": "2026-11-17T10:31:08Z"
+      "at": "2026-11-17T11:01:03Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-17T10:31:08Z"
+      "at": "2026-11-17T11:01:03Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-17T10:31:08Z"
+      "at": "2026-11-17T11:01:03Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-17T10:31:08Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-17T11:01:03Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Crimea Bridge Shut Following Ukrainian Strike",
-      "summary": "The bridge connecting Crimea has been closed following a major Ukrainian strike. Meanwhile, Russian missile attacks targeted crossings in Kyiv.",
+      "title": "Crimean Bridge Damaged in Ukrainian Strike",
+      "summary": "Ukrainian forces launched an operation that caused partial collapse and closure of the Crimean Bridge. Meanwhile, Russian missile strikes hit critical crossings and bridges in Kyiv.",
       "article_ids": [
-        "698fee4abb9ab4310cb110c9",
+        "ff478e762a453619258a279c",
         "271767f05a2bd4b30e471f84"
       ],
       "sources": [
         {
           "publisher": "BBC News Europe",
           "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-          "headline": "Crimea bridge shut after Ukrainian strike, as Russia hits Kyiv crossings",
-          "published_at": "2026-11-17T09:27:41Z"
+          "headline": "Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+          "published_at": "2026-11-17T10:45:55Z"
         },
         {
           "publisher": "POLITICO Europe",
@@ -87,8 +87,44 @@
       "source_count": 2
     },
     {
-      "title": "Poland Central Bank Freezes Constitutional Court Accounts",
-      "summary": "Poland’s central bank has frozen the accounts of the constitutional court. This action comes amid an ongoing dispute over leadership within the institution.",
+      "title": "France Faces Nationwide Strikes and Protests",
+      "summary": "Labor unions in France have organized nationwide strikes and demonstrations as the upcoming presidential election approaches. Candidates have been actively debating key issues such as the cost of living and pension reforms.",
+      "article_ids": [
+        "5b91f269645b99e0a6204c5b",
+        "c4396624088431eb88adc0fc"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261117-live-france-braces-for-new-day-protests-unions-call-nationwide-strike",
+          "headline": "Live: France braces for new day of protests as unions call for nationwide strike",
+          "published_at": "2026-11-17T07:16:51Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "European Migration and Asylum Plans",
+      "summary": "Five European nations are advancing a joint initiative to direct rejected asylum seekers toward external facilities in Rwanda. The European Union is increasingly pursuing cross-border partnerships to address ongoing deportations challenges.",
+      "article_ids": [
+        "b9924f6a5957961a3f61c62f",
+        "b9485f0c9f1eb844d9c1e89e"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261117-5-european-countries-aim-to-send-rejected-asylum-seekers-to-rwanda",
+          "headline": "5 European countries aim to send rejected asylum seekers to Rwanda",
+          "published_at": "2026-11-17T10:41:53Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Central Bank and Judicial Dispute in Poland",
+      "summary": "Poland's central bank has moved to freeze the accounts of the constitutional court. This action unfolds amid an ongoing institutional leadership dispute within the country.",
       "article_ids": [
         "ee2b1ac373e38132827470ce"
       ],
@@ -103,79 +139,31 @@
       "source_count": 1
     }
   ],
-  "top_stories": [
+  "developing": [
     {
-      "title": "Conflict Developments in Ukraine",
-      "summary": "Ukrainian forces launched an operation striking the Crimean bridge, prompting its immediate closure. Concurrently, Russian missile strikes hit major bridges in Kyiv.",
-      "article_ids": [
-        "698fee4abb9ab4310cb110c9",
-        "271767f05a2bd4b30e471f84"
-      ],
+      "label": "Russia · Ukraine · Europe · war",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-11-17T05:59:01Z",
       "sources": [
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-          "headline": "Crimea bridge shut after Ukrainian strike, as Russia hits Kyiv crossings",
-          "published_at": "2026-11-17T09:27:41Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russian-missiles-hit-two-major-kyiv-bridges",
-          "headline": "Russia hits 2 major Kyiv bridges in overnight strikes",
-          "published_at": "2026-11-17T08:51:35Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Political Developments in France",
-      "summary": "French presidential candidates recently engaged in a televised debate focusing on political rivals as an election approaches. Additionally, trade unions have called for nationwide strikes and protests.",
-      "article_ids": [
-        "5b91f269645b99e0a6204c5b",
-        "e11dabdf193220294e362df3"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261117-live-france-braces-for-new-day-protests-unions-call-nationwide-strike",
-          "headline": "Live: France braces for new day of protests as unions call for nationwide strike",
-          "published_at": "2026-11-17T07:16:51Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/france-election-2027-presidential-candidates-target-marine-le-pen-tv-debate",
-          "headline": "French presidential rivals take aim at Le Pen in debate",
-          "published_at": "2026-11-16T23:27:47Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
-    {
-      "label": "deportations · EU · countries · Five",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 5,
-      "latest_at": "2026-11-17T08:13:09Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-11-17/the-eu-seeks-a-solution-beyond-its-borders-to-the-failure-of-its-deportations.html",
-          "headline": "The EU seeks a solution beyond its borders to the failure of its deportations",
-          "published_at": "2026-11-17T08:13:09Z"
+          "url": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
+          "headline": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
+          "published_at": "2026-11-17T05:59:01Z"
         },
         {
           "publisher": "EUobserver",
-          "url": "https://euobserver.com/249298/five-eu-countries-tout-rwanda-deportation-partnership-but-no-formal-deal-as-key-details-remain-secret",
-          "headline": "Five EU countries tout Rwanda deportation partnership but no formal deal as key details remain secret",
-          "published_at": "2026-11-16T17:50:37Z"
+          "url": "https://euobserver.com/249307/eus-mandate-on-russia-ukraine-peace-talks-takes-shape-as-putin-escalates-war",
+          "headline": "Europe’s mandate on Russia-Ukraine peace talks takes shape, as Putin escalates war",
+          "published_at": "2026-11-16T18:01:24Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
-          "headline": "Five EU countries announce migrant deportation centre in Rwanda",
-          "published_at": "2026-11-16T16:27:24Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/russia-s-war-on-ukraine-americans-want-to-have-a-deal-whatever-the-cost-for-both-ukraine-europe",
+          "headline": "Russia's war on Ukraine: 'Americans want to have a deal whatever the cost for both Ukraine & Europe'",
+          "published_at": "2026-11-16T16:22:49Z"
         }
       ]
     },
@@ -222,28 +210,126 @@
       ]
     },
     {
-      "label": "EU · Commission · push",
+      "label": "French · presidential · debate",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 3,
-      "latest_at": "2026-11-17T05:01:00Z",
+      "latest_at": "2026-11-17T10:01:59Z",
       "sources": [
         {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/249008/forever-plastics-lobbyists-met-eu-commission-37-times-in-bid-to-escape-ban",
-          "headline": "‘Forever chemicals’ lobbyists met EU Commission 37 times in push to escape ban ahead of key decision",
-          "published_at": "2026-11-17T05:01:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261117-candidates-clash-over-cost-of-living-in-french-presidential-debate",
+          "headline": "Candidates clash over cost of living in French presidential debate",
+          "published_at": "2026-11-17T10:01:59Z"
         },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/finnish-arms-company-patria-boss-keen-on-eu-defense-spending-push",
-          "headline": "More than cash: EU defense spending push is ‘game-changer’ for industry, says arms boss",
-          "published_at": "2026-11-17T03:00:00Z"
+          "url": "https://www.politico.eu/article/france-election-2027-presidential-candidates-target-marine-le-pen-tv-debate",
+          "headline": "French presidential rivals take aim at Le Pen in debate",
+          "published_at": "2026-11-16T23:27:47Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "cbfe029940a861f4bd52274b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Record revenues, over 60 deaths, and little oversight: Democrats target Trump’s immigration jails",
+      "url": "https://english.elpais.com/usa/2026-11-17/record-revenues-over-60-deaths-and-little-oversight-democrats-target-trumps-immigration-jails.html",
+      "published_at": "2026-11-17T10:55:20Z",
+      "collected_at": "2026-11-17T11:01:03Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "33341c54d0fe4e022a72d098",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Worsening public finances overshadow EU growth",
+      "url": "https://www.politico.eu/article/public-finances-eu-growth-eurozone-debt",
+      "published_at": "2026-11-17T10:48:30Z",
+      "collected_at": "2026-11-17T11:01:03Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "c47c00fae9cff103c51e87db",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Third US aircraft carrier arrives in the Middle East as Iran targets Bahrain",
+      "url": "https://www.france24.com/en/video/20261117-third-us-aircraft-carrier-arrives-in-the-middle-east-as-iran-targets-bahrain",
+      "published_at": "2026-11-17T10:46:27Z",
+      "collected_at": "2026-11-17T11:01:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "ff478e762a453619258a279c",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-17T10:45:55Z",
+      "collected_at": "2026-11-17T11:01:03Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "a2b7948b2a14fb19cb82c84b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Saudi Arabia replaces military commander after Yemen setbacks",
+      "url": "https://www.france24.com/en/video/20261117-saudi-arabia-replaces-military-commander-after-yemen-setbacks",
+      "published_at": "2026-11-17T10:44:27Z",
+      "collected_at": "2026-11-17T11:01:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "b9924f6a5957961a3f61c62f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "5 European countries aim to send rejected asylum seekers to Rwanda",
+      "url": "https://www.france24.com/en/video/20261117-5-european-countries-aim-to-send-rejected-asylum-seekers-to-rwanda",
+      "published_at": "2026-11-17T10:41:53Z",
+      "collected_at": "2026-11-17T11:01:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "4dcf9144400278d5f772c4cd",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Emma Watson, 25 years after ‘Harry Potter’: From the girl who conquered the world to the woman who stepped back from Hollywood",
+      "url": "https://english.elpais.com/people/2026-11-17/emma-watson-25-years-after-harry-potter-from-the-girl-who-conquered-the-world-to-the-woman-who-stepped-back-from-hollywood.html",
+      "published_at": "2026-11-17T10:31:28Z",
+      "collected_at": "2026-11-17T11:01:03Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "ee2b1ac373e38132827470ce",
       "source_id": "notes_from_poland",
@@ -255,6 +341,34 @@
       "topics": [
         "central_europe",
         "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "4fe776ed751733889d989568",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "More barriers for migrant minors in the US: a shelter prevents a child from seeking legal help before going to court",
+      "url": "https://english.elpais.com/usa/2026-11-17/more-barriers-for-migrant-minors-in-the-us-a-shelter-prevents-a-child-from-seeking-legal-help-before-going-to-court.html",
+      "published_at": "2026-11-17T10:25:30Z",
+      "collected_at": "2026-11-17T11:01:03Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "e8397450979c8cdcaa99c428",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Trump arrives in Philippines to kick off Asia trip",
+      "url": "https://www.france24.com/en/video/20261117-trump-arrives-in-philippines-to-kick-off-asia-trip",
+      "published_at": "2026-11-17T10:21:23Z",
+      "collected_at": "2026-11-17T11:01:03Z",
+      "topics": [
+        "politics",
+        "security",
         "society"
       ]
     },
@@ -273,6 +387,20 @@
       ]
     },
     {
+      "id": "c4396624088431eb88adc0fc",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Candidates clash over cost of living in French presidential debate",
+      "url": "https://www.france24.com/en/video/20261117-candidates-clash-over-cost-of-living-in-french-presidential-debate",
+      "published_at": "2026-11-17T10:01:59Z",
+      "collected_at": "2026-11-17T11:01:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "533cedc04c8f7bde6b6e4dfa",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -287,6 +415,34 @@
       ]
     },
     {
+      "id": "9bf983b8ba834d2dc4639dd6",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France's far-right presidential candidate Le Pen to set out pension plans",
+      "url": "https://www.france24.com/en/video/20261117-france-s-far-right-presidential-candidate-le-pen-to-set-out-pension-plans",
+      "published_at": "2026-11-17T09:58:43Z",
+      "collected_at": "2026-11-17T11:01:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a0624c31b665daa226670b51",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Russia receiving ‘dozens of missiles per month’ from North Korea, says Kyiv",
+      "url": "https://www.france24.com/en/video/20261117-russia-receiving-dozens-of-missiles-per-month-from-north-korea-says-kyiv",
+      "published_at": "2026-11-17T09:57:14Z",
+      "collected_at": "2026-11-17T11:01:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "9162e424cd6b2de6c1175e20",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -294,6 +450,20 @@
       "url": "https://www.france24.com/en/tv-shows/business/20261117-china-canada-agree-to-further-reduce-tariffs-at-apec-summit-in-shenzhen",
       "published_at": "2026-11-17T09:45:26Z",
       "collected_at": "2026-11-17T10:01:12Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "a36bd6af2a9cd4d1d13ce02d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Data leak exposes Deutsche Bank ties to Russian oligarchs, Epstein and Trump",
+      "url": "https://www.france24.com/en/live-news/20261117-deutsche-bank-shares-drop-after-reports-on-mass-data-leak",
+      "published_at": "2026-11-17T09:45:25Z",
+      "collected_at": "2026-11-17T11:01:03Z",
       "topics": [
         "politics",
         "security",
@@ -609,6 +779,20 @@
       ]
     },
     {
+      "id": "be0909a891bea7a743710699",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France and Malaysia upgrade ties and announce rare earths, defence cooperation deals",
+      "url": "https://www.france24.com/en/asia-pacific/20261117-macron-malaysia-france-defence-rare-earths-trade-energy",
+      "published_at": "2026-11-17T03:40:31Z",
+      "collected_at": "2026-11-17T11:01:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "9326576906d3e3880858a9aa",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -616,6 +800,20 @@
       "url": "https://www.france24.com/en/asia-pacific/20261117-trump-asia-nuclear-talks-china-russia",
       "published_at": "2026-11-17T03:07:59Z",
       "collected_at": "2026-11-17T04:31:08Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "2066f312d0b6aed7fc65ca7d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Trump in Asia for historic nuclear talks with China and Russia",
+      "url": "https://www.france24.com/en/asia-pacific/20261117-trump-asia-nuclear-talks-china-russia",
+      "published_at": "2026-11-17T03:07:59Z",
+      "collected_at": "2026-11-17T11:01:03Z",
       "topics": [
         "politics",
         "security",
@@ -735,6 +933,20 @@
       ]
     },
     {
+      "id": "f7b9c3a9b5993e3992049430",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: Ukraine says Crimea Bridge closed after strikes collapse road section",
+      "url": "https://www.france24.com/en/europe/20261117-live-russian-attacks-target-bridges-in-kyiv-knocking-out-heating-and-water-ukraine",
+      "published_at": "2026-11-17T01:38:38Z",
+      "collected_at": "2026-11-17T11:01:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "1d9504035b2973eda8b6efc3",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -833,6 +1045,20 @@
       ]
     },
     {
+      "id": "c9dee4f7cb71bc93028dd321",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Predictable: DR Congo-Rwanda rivalry spills over to Francophonie summit",
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20261116-la-francophonie-waning-in-global-influence-linguistic-institutions-becoming-less-important",
+      "published_at": "2026-11-16T22:29:45Z",
+      "collected_at": "2026-11-17T11:01:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "9a436e90528f519b6e251245",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -882,6 +1108,20 @@
       "url": "https://www.france24.com/en/tv-shows/business/20261116-rogue-ai-california-sues-openai-over-hugging-face-and-other-cyberattacks",
       "published_at": "2026-11-16T21:27:15Z",
       "collected_at": "2026-11-16T22:00:59Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f4895429eddb0ca647dd38e5",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Rogue AI: California sues OpenAI over Hugging Face and other cyberattacks",
+      "url": "https://www.france24.com/en/tv-shows/business/20261116-rogue-ai-california-sues-openai-over-hugging-face-and-other-cyberattacks",
+      "published_at": "2026-11-16T21:27:15Z",
+      "collected_at": "2026-11-17T11:01:03Z",
       "topics": [
         "politics",
         "security",
@@ -2510,244 +2750,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "2a8bc34eadfe07e27da98221",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Rosalía, queen of the Latin Grammys: ‘Lux’ and ‘La Perla’ take home top prizes",
-      "url": "https://english.elpais.com/culture/2026-11-13/rosalia-queen-of-the-latin-grammys-lux-and-la-perla-take-home-top-prizes.html",
-      "published_at": "2026-11-13T08:03:03Z",
-      "collected_at": "2026-11-17T09:01:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "671a2c2d6187f968c58cc04d",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Will the Eurovision Song Contest succeed in Asia?",
-      "url": "https://www.bbc.co.uk/news/videos/cxvg23n59y1ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-13T02:24:11Z",
-      "collected_at": "2026-11-17T09:01:04Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "1c170aa7511172597e2456e3",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "EU leaders tussle over whom to send to Ukraine, Russia peace talks",
-      "url": "https://www.dw.com/en/eu-leaders-tussle-over-whom-to-send-to-ukraine-russia-peace-talks/a-79935468?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-12T22:00:00Z",
-      "collected_at": "2026-11-17T07:01:15Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "e5c5294c9a1082002804b72c",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
-      "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-12T20:09:16Z",
-      "collected_at": "2026-11-16T21:01:08Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "ce1c360aef0f0159399690a1",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
-      "url": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-12T19:23:02Z",
-      "collected_at": "2026-11-16T14:01:04Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "63cd7bb7ad3fd80117778140",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Scientists create largest-ever map of brain region tied to Parkinson’s, Alzheimer’s, schizophrenia and autism",
-      "url": "https://english.elpais.com/science-tech/2026-11-12/scientists-create-largest-ever-map-of-brain-region-tied-to-parkinsons-alzheimers-schizophrenia-and-autism.html",
-      "published_at": "2026-11-12T17:50:31Z",
-      "collected_at": "2026-11-16T19:01:18Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "c19bb0897d168e7be6c0b8c1",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Can the EU make it harder to trick consumers online?",
-      "url": "https://www.dw.com/en/can-the-eu-make-it-harder-to-trick-consumers-online/a-79933447?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-12T17:19:00Z",
-      "collected_at": "2026-11-16T18:01:10Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "c706b2e87c28b9d22c449f5a",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "What have the talks with Russia and the US in Abu Dhabi achieved for Ukraine?",
-      "url": "https://www.dw.com/en/what-have-the-talks-with-russia-and-the-us-in-abu-dhabi-achieved-for-ukraine/a-79930613?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-12T16:44:00Z",
-      "collected_at": "2026-11-16T17:31:02Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "6a97a1f9f0e3b5c997798c74",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The mystery of the Japanese bacteria living on Rembrandt’s ‘The Night Watch’",
-      "url": "https://english.elpais.com/science-tech/2026-11-12/the-mystery-of-the-japanese-bacteria-living-on-rembrandts-the-night-watch.html",
-      "published_at": "2026-11-12T16:33:08Z",
-      "collected_at": "2026-11-16T19:01:18Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "bcc8616f33e5922d0d08beed",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Hungary eases abortion restrictions in women's rights overhaul",
-      "url": "https://www.dw.com/en/hungary-eases-abortion-restrictions-in-women-s-rights-overhaul/a-79931614?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-12T16:13:00Z",
-      "collected_at": "2026-11-16T19:01:18Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "cf01c5d4fec2ae23c45d0ccf",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "UK court convicts 2 Iranian men of spying on journalists",
-      "url": "https://www.dw.com/en/uk-court-convicts-2-iranian-men-of-spying-on-journalists/a-79931583?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-12T15:23:00Z",
-      "collected_at": "2026-11-16T16:01:10Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "888b36805781388a7321c1ae",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The rise and fall of Russell Brand, symbol of the UK’s ‘lad culture’",
-      "url": "https://english.elpais.com/people/2026-11-12/the-rise-and-fall-of-russell-brand-symbol-of-the-uks-lad-culture.html",
-      "published_at": "2026-11-12T14:30:29Z",
-      "collected_at": "2026-11-16T16:01:10Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "e0e64f0875ff340f37620c3c",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland dismisses Russia’s claim of breaking up Polish spy network as “disinformation”",
-      "url": "https://notesfrompoland.com/2026/11/12/poland-dismisses-russias-claim-of-breaking-up-polish-spy-network-as-disinformation",
-      "published_at": "2026-11-12T12:39:35Z",
-      "collected_at": "2026-11-16T14:01:04Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "7ede5ece83362b71e3beb55b",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland indicts Ukrainian man for assisting in rail sabotage on behalf of Russia",
-      "url": "https://notesfrompoland.com/2026/11/12/poland-indicts-ukrainian-man-for-assisting-in-rail-sabotage-on-behalf-of-russia",
-      "published_at": "2026-11-12T10:48:36Z",
-      "collected_at": "2026-11-16T12:31:02Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "616376615b75f7e987f4f3ee",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Emmanuel Carrère, writer: ‘There is only one rule: do no harm — and I broke it with my mother and girlfriend at the time’",
-      "url": "https://english.elpais.com/culture/2026-11-11/emmanuel-carrere-writer-there-is-only-one-rule-do-no-harm-and-i-broke-it-with-my-mother-and-girlfriend-at-the-time.html",
-      "published_at": "2026-11-11T09:30:00Z",
-      "collected_at": "2026-11-17T10:31:08Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "319414b0893a0805e081ba46",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘Money Heist’ lines up a new score while continuing to strike gold for Netflix nearly a decade after its debut",
-      "url": "https://english.elpais.com/culture/2026-11-10/money-heist-lines-up-a-new-score-while-continuing-to-strike-gold-for-netflix-nearly-a-decade-after-its-debut.html",
-      "published_at": "2026-11-10T19:48:02Z",
-      "collected_at": "2026-11-16T21:01:08Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "2226e54e4328311d1972e719",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "British counterterrorism police arrest US soldier accused of spying on behalf of Russia",
-      "url": "https://www.dw.com/en/british-counterterrorism-police-arrest-us-soldier-accused-of-spying-on-behalf-of-russia/a-79913240?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-10T19:35:00Z",
-      "collected_at": "2026-11-16T21:01:08Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     }
   ]
