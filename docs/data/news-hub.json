@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-18T14:01:17Z",
-  "last_successful_collection_at": "2026-11-18T14:01:17Z",
+  "generated_at": "2026-11-18T14:30:59Z",
+  "last_successful_collection_at": "2026-11-18T14:30:59Z",
   "source_health": [
     {
       "id": "dw_europe",
-      "status": "ok",
-      "count": "20",
-      "at": "2026-11-18T14:01:17Z"
+      "status": "error",
+      "detail": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "at": "2026-11-18T14:30:59Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "22",
-      "at": "2026-11-18T14:01:17Z"
+      "count": "23",
+      "at": "2026-11-18T14:30:59Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-18T14:01:17Z"
+      "at": "2026-11-18T14:30:59Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-18T14:01:17Z"
+      "at": "2026-11-18T14:30:59Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-18T14:01:17Z"
+      "at": "2026-11-18T14:30:59Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-18T14:01:17Z"
+      "at": "2026-11-18T14:30:59Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-18T14:01:17Z"
+      "at": "2026-11-18T14:30:59Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-18T14:01:17Z"
+      "at": "2026-11-18T14:30:59Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-18T14:01:17Z"
+      "at": "2026-11-18T14:30:59Z"
     }
   ],
   "europe_now": [
     {
       "title": "Moldova Summons Russian Envoy Over Drone Incursions",
-      "summary": "Moldova has officially summoned Russia's envoy following multiple drone incursions into its airspace. The diplomatic move highlights escalating regional security tensions on the border of the European Union.",
+      "summary": "Moldova has officially summoned Russia's envoy following multiple drone incursions into its territory, raising regional security concerns.",
       "article_ids": [
         "db38e4f49bdafc75f03a0cd5"
       ],
@@ -80,88 +80,54 @@
       "source_count": 1
     },
     {
-      "title": "EU Proposes New Loan for Ukraine",
-      "summary": "The European Union has proposed a substantial new financial package for Ukraine intended to be supported by Russian assets. Meanwhile, fighting in the eastern region continues to prompt rising civilian evacuations.",
+      "title": "EU Proposes New €45 Billion Ukraine Loan",
+      "summary": "The European Union has proposed a new financial assistance package of €45 billion for Ukraine, intended to be repaid using funds linked to Russia.",
       "article_ids": [
-        "463f1a46d01be3cb56dacd52",
-        "2cecdc442c50f6659b1209dc",
-        "7c2954b8232ee34e28b1021f"
+        "2cecdc442c50f6659b1209dc"
       ],
       "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/249710/eu-commission-confident-that-bulgaria-czech-republic-hungary-and-slovakia-will-join-new-e45bn-ukraine-loan",
-          "headline": "EU Commission ‘confident’ that Bulgaria, Czech Republic, Hungary, and Slovakia will join new €45bn Ukraine loan",
-          "published_at": "2026-11-18T12:50:46Z"
-        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20261118-eu-proposes-new-%E2%82%AC45-billion-ukraine-loan-to-be-repaid-by-russia",
           "headline": "EU proposes new €45 billion Ukraine loan to be repaid by Russia",
           "published_at": "2026-11-18T10:42:58Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Ukraine Financial Support and Security Developments",
-      "summary": "The European Commission has expressed confidence that member states will participate in a new multi-billion euro financial assistance initiative for Ukraine. Concurrently, intensifying combat operations in the eastern territories are driving an increase in local evacuations.",
-      "article_ids": [
-        "463f1a46d01be3cb56dacd52",
-        "2cecdc442c50f6659b1209dc",
-        "7c2954b8232ee34e28b1021f"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/249710/eu-commission-confident-that-bulgaria-czech-republic-hungary-and-slovakia-will-join-new-e45bn-ukraine-loan",
-          "headline": "EU Commission ‘confident’ that Bulgaria, Czech Republic, Hungary, and Slovakia will join new €45bn Ukraine loan",
-          "published_at": "2026-11-18T12:50:46Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261118-eu-proposes-new-%E2%82%AC45-billion-ukraine-loan-to-be-repaid-by-russia",
-          "headline": "EU proposes new €45 billion Ukraine loan to be repaid by Russia",
-          "published_at": "2026-11-18T10:42:58Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "International Diplomacy and Regional Incursions",
-      "summary": "Moldova has summoned the Russian envoy in response to recent airspace violations involving multiple drones. At the same time, high-level international engagements involving global leaders are drawing significant diplomatic attention.",
-      "article_ids": [
-        "db38e4f49bdafc75f03a0cd5",
-        "db5bc709def99c771035908e",
-        "bfbeb28b5d0152d0b85b0e72"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/moldova-summons-russia-envoy-over-drone-incursions",
-          "headline": "Moldova summons Russia’s envoy over multiple drone incursions",
-          "published_at": "2026-11-18T12:57:12Z"
         }
       ],
       "source_count": 1
     }
   ],
-  "developing": [
+  "top_stories": [
     {
-      "label": "Trump · Putin · summit · China",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 13,
-      "latest_at": "2026-11-18T11:46:25Z",
+      "title": "Germany and Austria Call for European TikTok Ownership",
+      "summary": "Germany and Austria are demanding that TikTok's European platform be sold to owners based within the European Union. The proposal aims to address regional policy and regulatory oversight concerns.",
+      "article_ids": [
+        "ba85332a92c07be60d419801",
+        "4db02353ad639bd2545a254a"
+      ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261118-trump-arrives-in-china-ahead-of-trilateral-summit-with-putin-and-xi",
-          "headline": "Trump arrives in China ahead of trilateral summit with Putin and Xi",
-          "published_at": "2026-11-18T11:46:25Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/deutschland-und-oesterreich-fordern-europaeischen-eigentuemer-fuer-tiktok",
+          "headline": "Deutschland und Österreich fordern europäischen Eigentümer für TikTok",
+          "published_at": "2026-11-18T12:54:02Z"
         },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/germany-and-austria-launch-bid-for-eu-tiktok-takeover",
+          "headline": "Germany, Austria demand TikTok’s European platform be sold to owners in EU",
+          "published_at": "2026-11-18T12:27:16Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "High-Level Diplomatic Engagements at APEC Summit",
+      "summary": "Leaders have gathered at the Apec summit for high-stakes international talks. Donald Trump arrived in China where he met with Vladimir Putin and Xi Jinping.",
+      "article_ids": [
+        "bfbeb28b5d0152d0b85b0e72",
+        "db5bc709def99c771035908e"
+      ],
+      "sources": [
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/xi-jinping-donald-trump-china-summit",
@@ -169,10 +135,40 @@
           "published_at": "2026-11-18T10:54:33Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_medium=RSS&at_campaign=rss",
-          "headline": "Steve Rosenberg: Historic talks with Xi and Trump are a coup for Putin",
-          "published_at": "2026-11-18T10:53:21Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261118-trump-arrives-in-china-ahead-of-trilateral-summit-with-putin-and-xi",
+          "headline": "Trump arrives in China ahead of trilateral summit with Putin and Xi",
+          "published_at": "2026-11-18T11:46:25Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "developing": [
+    {
+      "label": "EU · Ukraine · loan · Russia",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 6,
+      "latest_at": "2026-11-18T12:50:46Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/249710/eu-commission-confident-that-bulgaria-czech-republic-hungary-and-slovakia-will-join-new-e45bn-ukraine-loan",
+          "headline": "EU Commission ‘confident’ that Bulgaria, Czech Republic, Hungary, and Slovakia will join new €45bn Ukraine loan",
+          "published_at": "2026-11-18T12:50:46Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261118-us-hits-out-at-ukraine-s-deep-strikes-against-russia-in-rift-with-eu-over-war-tactics",
+          "headline": "US hits out at Ukraine's 'deep strikes' against Russia in rift with EU over war tactics",
+          "published_at": "2026-11-18T10:45:35Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/european-commission-middle-east-kaja-kallas-israel",
+          "headline": "Commission takes EU’s Middle East spotlight as Kallas’ Israel channel stays frozen",
+          "published_at": "2026-11-18T03:00:00Z"
         }
       ]
     },
@@ -396,6 +392,20 @@
       ]
     },
     {
+      "id": "ba85332a92c07be60d419801",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Deutschland und Österreich fordern europäischen Eigentümer für TikTok",
+      "url": "https://www.politico.eu/article/deutschland-und-oesterreich-fordern-europaeischen-eigentuemer-fuer-tiktok",
+      "published_at": "2026-11-18T12:54:02Z",
+      "collected_at": "2026-11-18T14:30:59Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
       "id": "463f1a46d01be3cb56dacd52",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -421,6 +431,34 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "887f4f54070aa7083adc61cf",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+      "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-18T12:39:24Z",
+      "collected_at": "2026-11-18T14:30:59Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "4db02353ad639bd2545a254a",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Germany, Austria demand TikTok’s European platform be sold to owners in EU",
+      "url": "https://www.politico.eu/article/germany-and-austria-launch-bid-for-eu-tiktok-takeover",
+      "published_at": "2026-11-18T12:27:16Z",
+      "collected_at": "2026-11-18T14:30:59Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
       ]
     },
     {
@@ -788,6 +826,20 @@
       ]
     },
     {
+      "id": "760753fd2034379f1d8452d1",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Former Spain midfielder Mata retires aged 38",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8p3vwe1rrzqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-18T10:12:46Z",
+      "collected_at": "2026-11-18T14:30:59Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "306a0160c11f51c862dd9403",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -938,6 +990,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "105120db8a1cf826e5d2a54a",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "From one of Ajax's future stars to quitting football for music",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmly053x643ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-18T07:02:42Z",
+      "collected_at": "2026-11-18T14:30:59Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -2146,48 +2212,6 @@
       ]
     },
     {
-      "id": "621d56aa486ef797228f3d7e",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Polish far-right lawmaker Braun charged over hospital ‘citizen’s arrest’",
-      "url": "https://www.politico.eu/article/poland-grzegorz-braun-charged-over-hospital-citizens-arrest",
-      "published_at": "2026-11-17T14:10:09Z",
-      "collected_at": "2026-11-17T14:30:53Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "7ab2c91a3f89f7ae15a035ea",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French far-right candidate Le Pen vows to end Macron's pension reform if elected",
-      "url": "https://www.france24.com/en/france/20261117-french-far-right-candidate-le-pen-vows-end-macron-s-pension-reform-if-elected",
-      "published_at": "2026-11-17T14:07:18Z",
-      "collected_at": "2026-11-17T14:30:53Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "1b81ae132124db90971a0009",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Zelenskyy gives details on Ukraine’s Crimea bridge operation",
-      "url": "https://www.politico.eu/article/zelenskyy-gives-details-on-ukraine-crimea-bridge-operation",
-      "published_at": "2026-11-17T13:52:18Z",
-      "collected_at": "2026-11-17T14:01:19Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "0fc699d2437ec4dc905e1332",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2195,48 +2219,6 @@
       "url": "https://www.politico.eu/article/zelenskyy-gives-details-on-ukraine-crimea-bridge-operation",
       "published_at": "2026-11-17T13:52:18Z",
       "collected_at": "2026-11-17T15:30:58Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "cc39a77213545dcb66e32132",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Rwanda hits back at asylum-seeker return hub criticism",
-      "url": "https://www.politico.eu/article/rwanda-hit-back-return-hub-criticism",
-      "published_at": "2026-11-17T13:50:47Z",
-      "collected_at": "2026-11-17T14:01:19Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "fdd707d32e543404dc4da508",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The odyssey of ‘Voyager 1’: A chat with the cosmos one light-day from Earth",
-      "url": "https://english.elpais.com/science-tech/2026-11-17/the-odyssey-of-voyager-1-a-chat-with-the-cosmos-one-light-day-from-earth.html",
-      "published_at": "2026-11-17T13:35:14Z",
-      "collected_at": "2026-11-17T14:01:19Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "2da8ea4ae841d35e1c637bf7",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "EU countries postpone vote to lift Brazilian chicken ban",
-      "url": "https://www.politico.eu/article/eu-countries-postpone-vote-to-lift-brazilian-chicken-ban",
-      "published_at": "2026-11-17T12:27:43Z",
-      "collected_at": "2026-11-17T14:01:19Z",
       "topics": [
         "institutions",
         "politics",
