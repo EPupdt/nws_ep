@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-18T08:01:06Z",
-  "last_successful_collection_at": "2026-11-18T08:01:06Z",
+  "generated_at": "2026-11-18T08:31:00Z",
+  "last_successful_collection_at": "2026-11-18T08:31:00Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-18T08:01:06Z"
+      "at": "2026-11-18T08:31:00Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-11-18T08:01:06Z"
+      "at": "2026-11-18T08:31:00Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-18T08:01:06Z"
+      "at": "2026-11-18T08:31:00Z"
     },
     {
       "id": "euractiv",
@@ -29,44 +29,77 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-18T08:01:06Z"
+      "at": "2026-11-18T08:31:00Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-18T08:01:06Z"
+      "at": "2026-11-18T08:31:00Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-18T08:01:06Z"
+      "at": "2026-11-18T08:31:00Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-18T08:01:06Z"
+      "at": "2026-11-18T08:31:00Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-18T08:01:06Z"
+      "at": "2026-11-18T08:31:00Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-18T08:01:06Z"
+      "at": "2026-11-18T08:31:00Z"
     }
   ],
-  "europe_now": [],
+  "europe_now": [
+    {
+      "title": "Italy Approves New Anti-Semitism Legislation",
+      "summary": "Italy has officially approved a new anti-semitism measure amidst ongoing debates regarding potential restrictions on freedom of expression. The legislative action addresses growing societal concerns and security dynamics within the region.",
+      "article_ids": [
+        "92529bf2b642633292dd61e4"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261118-italy-approves-anti-semitism-law-despite-concerns-over-freedom-of-expression",
+          "headline": "Italy approves anti-semitism law despite concerns over freedom of expression",
+          "published_at": "2026-11-18T07:37:42Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Surge of Drug-Resistant Infections in European Hospitals",
+      "summary": "Health authorities have reported a significant increase in deadly drug-resistant bacterial infections across medical facilities throughout Europe. This rising trend poses a critical systemic challenge for public health institutions and patient safety standards.",
+      "article_ids": [
+        "02e3a8fa234a70a8a642cfa3"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/drug-resistant-infections-superbug-europe-hospitals",
+          "headline": "Deadly drug-resistant infections are surging in European hospitals",
+          "published_at": "2026-11-18T05:07:14Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
   "top_stories": [
     {
-      "title": "European Union Financial Assistance for Ukraine",
-      "summary": "Authorities in Brussels are preparing a 45 billion euro credit package intended for Ukraine. EU officials plan for the substantial loan to ultimately be repaid using Russian assets.",
+      "title": "EU Financial Support and Strategic Loans for Ukraine",
+      "summary": "Brussels is currently preparing a substantial financial assistance package consisting of a loan directed toward supporting Ukraine. Officials indicate that the multi-billion-euro funding mechanism is intended to be repaid utilizing frozen Russian assets.",
       "article_ids": [
         "819051829d23e070d447c57a"
       ],
@@ -81,17 +114,17 @@
       "source_count": 1
     },
     {
-      "title": "Transatlantic Semiconductor Export Friction",
-      "summary": "The Netherlands is pushing back against American efforts to impose tighter rules on microchip exports. Dutch officials characterized the proposed restrictions from Washington as unacceptable during discussions over semiconductor regulations.",
+      "title": "Regional Security and International Diplomatic Engagements",
+      "summary": "European leaders are closely monitoring high-level international meetings and diplomatic initiatives concerning regional stability and the ongoing conflict in Ukraine. Concerns persist among officials that key international actors may not be fully committed to substantive peace negotiations.",
       "article_ids": [
-        "43ac1eadf06dba2519ebc24c"
+        "fbe74480538c80fbeba28c23"
       ],
       "sources": [
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/dutch-resist-unacceptable-us-bid-to-tighten-semiconductor-export-controls-asml",
-          "headline": "Dutch resist ‘unacceptable’ US bid to tighten semiconductor export controls",
-          "published_at": "2026-11-17T18:18:50Z"
+          "url": "https://www.politico.eu/article/europe-vladimir-putin-not-serious-about-ukraine-peace-talks",
+          "headline": "Europe fears Putin is stringing Trump along on Ukraine",
+          "published_at": "2026-11-18T03:00:00Z"
         }
       ],
       "source_count": 1
@@ -126,6 +159,33 @@
       ]
     },
     {
+      "label": "East · EU · Middle · Commission",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 7,
+      "latest_at": "2026-11-18T03:00:00Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/european-commission-middle-east-kaja-kallas-israel",
+          "headline": "Commission takes EU’s Middle East spotlight as Kallas’ Israel channel stays frozen",
+          "published_at": "2026-11-18T03:00:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/middle-east/20261118-middle-east-live-kuwait-bahrain-report-drone-and-missile-attacks",
+          "headline": "Middle East live: Kuwait, Bahrain report drone and missile attacks",
+          "published_at": "2026-11-18T02:06:39Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/249585/uk-sanctions-on-israel-leave-eu-unmoved-despite-man-made-catastrophe-in-gaza",
+          "headline": "UK sanctions on Israel leave EU unmoved, despite ‘man-made catastrophe’ in Gaza",
+          "published_at": "2026-11-17T17:58:31Z"
+        }
+      ]
+    },
+    {
       "label": "Putin · Ukraine · Trump · Bridge",
       "origin": "convergence",
       "source_count": 3,
@@ -149,33 +209,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
           "headline": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
           "published_at": "2026-11-17T16:56:38Z"
-        }
-      ]
-    },
-    {
-      "label": "EU · Commission · East · Middle",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 6,
-      "latest_at": "2026-11-18T03:00:00Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/european-commission-middle-east-kaja-kallas-israel",
-          "headline": "Commission takes EU’s Middle East spotlight as Kallas’ Israel channel stays frozen",
-          "published_at": "2026-11-18T03:00:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/middle-east/20261118-middle-east-live-kuwait-bahrain-report-drone-and-missile-attacks",
-          "headline": "Middle East live: Kuwait, Bahrain report drone and missile attacks",
-          "published_at": "2026-11-18T02:06:39Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/249585/uk-sanctions-on-israel-leave-eu-unmoved-despite-man-made-catastrophe-in-gaza",
-          "headline": "UK sanctions on Israel leave EU unmoved, despite ‘man-made catastrophe’ in Gaza",
-          "published_at": "2026-11-17T17:58:31Z"
         }
       ]
     },
@@ -252,6 +285,20 @@
       "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/when-eu-foreign-policy-jobs-collide",
       "published_at": "2026-11-18T05:05:00Z",
       "collected_at": "2026-11-18T05:31:01Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "c545c3cd8ed31d16caa69886",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Procès “femmeblancherie” : quand l’idéologie masculiniste devient une menace sécuritaire",
+      "url": "https://www.politico.eu/article/proces-femmeblancherie-quand-lideologie-masculiniste-devient-une-menace-securitaire",
+      "published_at": "2026-11-18T05:00:00Z",
+      "collected_at": "2026-11-18T08:31:00Z",
       "topics": [
         "institutions",
         "politics",
@@ -420,6 +467,20 @@
       "url": "https://www.france24.com/en/middle-east/20261118-middle-east-live-kuwait-bahrain-report-drone-and-missile-attacks",
       "published_at": "2026-11-18T02:06:39Z",
       "collected_at": "2026-11-18T04:30:50Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "1f38fc9d43d41444849c2f5f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Middle East live: Tehran warns of 'more devastating' response to attacks on Iran",
+      "url": "https://www.france24.com/en/middle-east/20261118-middle-east-live-kuwait-bahrain-report-drone-and-missile-attacks",
+      "published_at": "2026-11-18T02:06:39Z",
+      "collected_at": "2026-11-18T08:31:00Z",
       "topics": [
         "politics",
         "security",
@@ -2065,20 +2126,6 @@
       ]
     },
     {
-      "id": "526f232f59f4e4d64603f2cd",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Vacancy: Senior Editor, EUobserver",
-      "url": "https://euobserver.com/249388/vacancy-senior-editor-euobserver",
-      "published_at": "2026-11-17T08:28:34Z",
-      "collected_at": "2026-11-17T08:30:55Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "b9485f0c9f1eb844d9c1e89e",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2090,20 +2137,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "9cec2ecf75d6a7de89f3e3b0",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Crimea bridge shut after reported Ukrainian strike, as Russia hits Kyiv crossings",
-      "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-17T07:55:32Z",
-      "collected_at": "2026-11-17T08:01:09Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
@@ -2142,20 +2175,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cvgxvg4v981o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-17T06:15:43Z",
       "collected_at": "2026-11-17T13:01:04Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "bd3f72c0e168abc4c888261e",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
-      "url": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-17T05:59:01Z",
-      "collected_at": "2026-11-17T08:01:09Z",
       "topics": [
         "breaking",
         "politics",
@@ -2328,6 +2347,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "b1312b1e13d41337d7298e76",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Drug kingpin Miguel Ángel Félix Gallardo, the ‘boss of bosses,’ dies at 80",
+      "url": "https://english.elpais.com/international/2026-11-16/drug-kingpin-miguel-angel-felix-gallardo-the-boss-of-bosses-dies-at-80.html",
+      "published_at": "2026-11-16T07:35:09Z",
+      "collected_at": "2026-11-18T08:31:00Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2604,6 +2637,20 @@
       "url": "https://english.elpais.com/economy-and-business/2026-10-28/small-avocado-growers-strike-cuts-mexican-exports-to-the-united-states.html",
       "published_at": "2026-10-28T17:43:50Z",
       "collected_at": "2026-11-18T05:01:08Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "433992979e2f8ae7b4798274",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The story of Billy Childish, a tormented British punk icon: ‘Professional art kills art’",
+      "url": "https://english.elpais.com/culture/2026-10-17/the-story-of-billy-childish-a-tormented-british-punk-icon-professional-art-kills-art.html",
+      "published_at": "2026-10-17T04:00:00Z",
+      "collected_at": "2026-11-18T08:31:00Z",
       "topics": [
         "politics",
         "society",
