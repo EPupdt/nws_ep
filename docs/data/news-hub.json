@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-18T18:01:06Z",
-  "last_successful_collection_at": "2026-11-18T18:01:06Z",
+  "generated_at": "2026-11-18T18:31:04Z",
+  "last_successful_collection_at": "2026-11-18T18:31:04Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-18T18:01:06Z"
+      "at": "2026-11-18T18:31:04Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "21",
-      "at": "2026-11-18T18:01:06Z"
+      "count": "22",
+      "at": "2026-11-18T18:31:04Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-18T18:01:06Z"
+      "at": "2026-11-18T18:31:04Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,67 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-18T18:01:06Z"
+      "at": "2026-11-18T18:31:04Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-18T18:01:06Z"
+      "at": "2026-11-18T18:31:04Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-18T18:01:06Z"
+      "at": "2026-11-18T18:31:04Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-18T18:01:06Z"
+      "at": "2026-11-18T18:31:04Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-18T18:01:06Z"
+      "at": "2026-11-18T18:31:04Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-18T18:01:06Z"
+      "at": "2026-11-18T18:31:04Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Polish Constitutional Court Strips Chief Justice of Immunity",
-      "summary": "The Polish constitutional court has stripped its chief justice of immunity so that criminal charges can be pursued. This judicial development marks a significant legal and political event within Poland.",
+      "title": "Crimea Bridge Damaged in Explosions",
+      "summary": "Recent video footage captures explosions occurring moments before a section of the strategically important Crimea Bridge collapsed. The ongoing conflict continues to heavily impact critical regional infrastructure as fighting intensifies.",
+      "article_ids": [
+        "6982fb07ff8c6e6e19694c52",
+        "339de231f63c10cb64caa9a2",
+        "d734ad9f4b7c90f6477cc1d5"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261118-why-ukraine-keeps-trying-to-bring-down-russia-s-bridge-to-crimea",
+          "headline": "Why Ukraine keeps trying to bring down Russia's bridge to Crimea",
+          "published_at": "2026-11-18T18:17:34Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss",
+          "headline": "New video shows explosions moments before part of Crimea Bridge collapses",
+          "published_at": "2026-11-18T17:09:43Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Polish Court Removes Chief Justice Immunity",
+      "summary": "The Polish constitutional court has stripped the country's chief justice of legal immunity to face upcoming criminal charges. This judicial decision marks a significant development within Poland's domestic legal and political landscape.",
       "article_ids": [
         "6f5165f91a99abd56a562d57"
       ],
@@ -78,28 +102,12 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Hungary Corruption Investigation Uncovers Millions in Buried Cash",
-      "summary": "Hungarian authorities uncovered seventeen million euros in buried cash during an investigation into a former Orbán-era minister. The discovery highlights ongoing anti-corruption probes concerning high-ranking officials in the country.",
-      "article_ids": [
-        "4edb123a94185ad435dd65a4"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/249700/hungary-digs-up-e17m-in-buried-cash-during-probe-into-orban-era-minister-sesztak",
-          "headline": "Hungary digs up €17m in buried cash during probe into Orbán-era minister Seszták",
-          "published_at": "2026-11-18T13:16:08Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "French Political Developments and Campaigning",
-      "summary": "Former French Prime Minister Édouard Philippe has pledged to cut government spending and raise the retirement age amidst his presidential bid. Additionally, he has intensified his political attacks on rival figures Marine Le Pen and Jean-Luc Mélenchon.",
+      "title": "French Political Campaigning and Spending Pledges",
+      "summary": "Former French Prime Minister Édouard Philippe has pledged to implement spending cuts and raise the retirement age as his political campaign progresses. Meanwhile, he continues to step up his political attacks against rivals Marine Le Pen and Jean-Luc Mélenchon.",
       "article_ids": [
         "bdb91d188c8f9b77a6fb5538",
         "52c9bebe03f6bde28c77b501"
@@ -121,31 +129,56 @@
       "source_count": 2
     },
     {
-      "title": "Ongoing Conflict and Strategic Pressures in Ukraine",
-      "summary": "Fighting continues across multiple fronts in Ukraine, featuring underground warfare in decommissioned gas pipelines and severe infrastructure damage. Meanwhile, international diplomatic dynamics involve discussions surrounding European support and regional security implications.",
+      "title": "EU Audit Highlights Health Risks from Toxic Chemicals",
+      "summary": "European Union auditors have warned that existing regulatory rules are full of loopholes that leave public health vulnerable. The findings indicate that current measures fail to adequately protect citizens from toxic forever chemicals.",
       "article_ids": [
-        "259d01e49574ea5dd643d9db",
-        "39ab0e8c1fa758d47f0b1bd9",
-        "d734ad9f4b7c90f6477cc1d5"
+        "14c33a922127d5ba1b2a8d22"
       ],
       "sources": [
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
-          "headline": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
-          "published_at": "2026-11-18T17:00:40Z"
-        },
-        {
           "publisher": "EUobserver",
-          "url": "https://euobserver.com/249779/bridge-wars-putins-iconic-crimean-bridge-destroyed-despite-elite-air-defences-but-vital-kyiv-bridge-also-close-to-collapse-ukraine-battlefield-update-day-1728",
-          "headline": "Bridge Wars: Putin’s iconic Crimean Bridge destroyed despite ‘elite’ air-defences, but vital Kyiv bridge also close to collapse (Ukraine Battlefield update, Day 1,728)",
-          "published_at": "2026-11-18T14:54:38Z"
+          "url": "https://euobserver.com/249828/eu-auditors-say-rules-full-of-holes-leave-health-at-risk-from-toxic-forever-chemicals",
+          "headline": "EU auditors say rules ‘full of holes’ leave health at risk from toxic forever chemicals",
+          "published_at": "2026-11-18T16:44:14Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     }
   ],
   "developing": [
+    {
+      "label": "Putin · Trump · China · summit",
+      "origin": "convergence",
+      "source_count": 5,
+      "item_count": 16,
+      "latest_at": "2026-11-18T17:34:00Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/249769/xi-keen-to-look-neutral-on-ukraine-at-shenzhen-summit-as-china-risks-spoling-eu-relations-by-helping-putin-to-wage-war",
+          "headline": "Xi keen to look ‘neutral’ on Ukraine at Shenzhen summit, as China risks spoling EU relations by helping Putin to wage war",
+          "published_at": "2026-11-18T17:34:00Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-11-18/trump-putin-and-xi-jinping-exchange-greetings-in-china-ahead-of-historic-trilateral-summit.html",
+          "headline": "Trump, Putin and Xi Jinping exchange greetings in China ahead of historic trilateral summit",
+          "published_at": "2026-11-18T15:18:33Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261118-xi-welcomes-trump-to-china-ahead-of-high-stakes-putin-meeting",
+          "headline": "Xi welcomes Trump to China ahead of high-stakes Putin meeting",
+          "published_at": "2026-11-18T14:52:39Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+          "published_at": "2026-11-18T12:39:24Z"
+        }
+      ]
+    },
     {
       "label": "Bond · James · Pattinson · Robert",
       "origin": "convergence",
@@ -195,27 +228,6 @@
       ]
     },
     {
-      "label": "Russia · Ukraine · fresh",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-18T16:19:08Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261118-russia-new-low-cost-munitions-threat-ukraine",
-          "headline": "Russia’s new low-cost munitions pose a fresh threat to Ukraine",
-          "published_at": "2026-11-18T16:19:08Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russian-assets-in-play-to-repay-e45b-loan-to-ukraine",
-          "headline": "Brussels prepares €45B loan to Ukraine that it says Russia will repay",
-          "published_at": "2026-11-18T00:05:59Z"
-        }
-      ]
-    },
-    {
       "label": "Putin · Trump · Historic · talks",
       "origin": "convergence",
       "source_count": 2,
@@ -238,6 +250,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "6982fb07ff8c6e6e19694c52",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Why Ukraine keeps trying to bring down Russia's bridge to Crimea",
+      "url": "https://www.france24.com/en/europe/20261118-why-ukraine-keeps-trying-to-bring-down-russia-s-bridge-to-crimea",
+      "published_at": "2026-11-18T18:17:34Z",
+      "collected_at": "2026-11-18T18:31:04Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e0cef9cf67e3654a2c1694ba",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Beijing has supported Moscow but 'China understands that America is way more important than Russia'",
+      "url": "https://www.france24.com/en/beijing-has-supported-moscow-but-china-understands-that-america-is-way-more-important-than-russia",
+      "published_at": "2026-11-18T17:48:38Z",
+      "collected_at": "2026-11-18T18:31:04Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "dc51a9101a7a67d199502b7e",
       "source_id": "euobserver",
@@ -277,6 +317,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "339de231f63c10cb64caa9a2",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "New video shows explosions moments before part of Crimea Bridge collapses",
+      "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-18T17:09:43Z",
+      "collected_at": "2026-11-18T18:31:04Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -456,6 +510,20 @@
       "url": "https://www.france24.com/en/video/20261118-israel-begins-new-military-operation-in-gaza",
       "published_at": "2026-11-18T16:12:30Z",
       "collected_at": "2026-11-18T16:31:00Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "2d81bb290508c6338d19992f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Gazans flee shelters as Israeli army launches ground operation beyond Yellow Line",
+      "url": "https://www.france24.com/en/middle-east/20261118-gazans-flee-shelters-as-israeli-army-launches-ground-operation-beyond-yellow-line",
+      "published_at": "2026-11-18T16:03:21Z",
+      "collected_at": "2026-11-18T18:31:04Z",
       "topics": [
         "politics",
         "security",
@@ -2199,76 +2267,6 @@
       ]
     },
     {
-      "id": "a01161ef490c2dd12a15470b",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Who to watch in Spain's election race",
-      "url": "https://www.bbc.co.uk/news/articles/cxr5g4lyp94no?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-17T18:13:45Z",
-      "collected_at": "2026-11-17T18:31:01Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "6aad1c835f453cf858dafc8f",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "The 5 Labour groups that matter as Burnham shows his hand on welfare",
-      "url": "https://www.politico.eu/article/5-labour-group-matter-andy-burnham-welfare-social-security",
-      "published_at": "2026-11-17T18:04:31Z",
-      "collected_at": "2026-11-17T18:31:01Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "1c94223995dd6ab68ecd6fb0",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "UK sanctions on Israel leave EU unmoved, despite ‘man-made catastrophe’ in Gaza",
-      "url": "https://euobserver.com/249585/uk-sanctions-on-israel-leave-eu-unmoved-despite-man-made-catastrophe-in-gaza",
-      "published_at": "2026-11-17T17:58:31Z",
-      "collected_at": "2026-11-17T18:31:01Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "0501bf4a7f45717fb47afa40",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Jensen Huang breaks his silence after Nvidia exit, says he is open to returning",
-      "url": "https://english.elpais.com/economy-and-business/2026-11-17/jensen-huang-breaks-his-silence-after-nvidia-exit-says-he-is-open-to-returning.html",
-      "published_at": "2026-11-17T17:35:54Z",
-      "collected_at": "2026-11-17T18:01:09Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "2532c3643c0ec91b9942984c",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Uganda in talks to host EU migration hub",
-      "url": "https://www.politico.eu/article/uganda-in-talks-to-host-eu-migration-hub",
-      "published_at": "2026-11-17T17:32:50Z",
-      "collected_at": "2026-11-17T18:01:09Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "324db4b84e9b457a023c609d",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2280,48 +2278,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "8ac9b0824a2b373cffec17e5",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Brussels signals unwillingness to be Burnham’s EU sounding board",
-      "url": "https://www.politico.eu/article/brussels-andy-burnham-eu-options-brexit-reset",
-      "published_at": "2026-11-17T17:05:05Z",
-      "collected_at": "2026-11-17T18:01:09Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "6c75cc47576e3ccbd94696eb",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Georgia O’Keeffe painting hidden in a closet for decades goes up for auction in New York",
-      "url": "https://english.elpais.com/culture/2026-11-17/georgia-okeeffe-painting-hidden-in-a-closet-for-decades-goes-up-for-auction-in-new-york.html",
-      "published_at": "2026-11-17T16:43:56Z",
-      "collected_at": "2026-11-17T18:01:09Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "5d9faae42cb1c6c57a63a1f2",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Elisardo Becoña, clinical psychologist: ‘Hashish and marijuana are more potent today, which raises the risk of addiction and psychotic episodes’",
-      "url": "https://english.elpais.com/health/2026-11-17/elisardo-becona-clinical-psychologist-hashish-and-marijuana-are-more-potent-today-which-raises-the-risk-of-addiction-and-psychotic-episodes.html",
-      "published_at": "2026-11-17T16:42:41Z",
-      "collected_at": "2026-11-17T18:01:09Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -2353,17 +2309,17 @@
       ]
     },
     {
-      "id": "b4b0bb46798be6610ca5075a",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
-      "url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-16T20:16:15Z",
-      "collected_at": "2026-11-17T18:01:09Z",
+      "id": "a4390aba19d6f4dd6c022580",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Kyle Eastwood, son of Clint Eastwood: ‘My father has played many tough guys, but he is not as tough as he seems’",
+      "url": "https://english.elpais.com/culture/2026-11-16/kyle-eastwood-son-of-clint-eastwood-my-father-has-played-many-tough-guys-but-he-is-not-as-tough-as-he-seems.html",
+      "published_at": "2026-11-16T17:16:49Z",
+      "collected_at": "2026-11-18T18:31:04Z",
       "topics": [
-        "breaking",
         "politics",
-        "society"
+        "society",
+        "economy"
       ]
     },
     {
@@ -2376,6 +2332,20 @@
       "collected_at": "2026-11-18T15:01:06Z",
       "topics": [
         "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "824118f38f7d332bf58b02de",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Kraków church holds mass for perpetrator of deadly attack just metres from where he shot victims",
+      "url": "https://notesfrompoland.com/2026/11/16/krakow-church-holds-mass-for-perpetrator-of-deadly-attack-just-metres-from-where-he-shot-victims",
+      "published_at": "2026-11-16T13:23:02Z",
+      "collected_at": "2026-11-18T18:31:04Z",
+      "topics": [
+        "central_europe",
         "politics",
         "society"
       ]
@@ -2434,6 +2404,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "3fb29078acf93c7b629fe84c",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland detains neo-Nazi teens accused of terrorist plot",
+      "url": "https://notesfrompoland.com/2026/11/16/poland-detains-neo-nazi-teens-accused-of-terrorist-plot",
+      "published_at": "2026-11-16T10:43:21Z",
+      "collected_at": "2026-11-18T18:31:04Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
       ]
     },
     {
@@ -2563,6 +2547,20 @@
       ]
     },
     {
+      "id": "79ab5859f6ab2f89d61aa678",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Turkey uses espionage accusations to pressure government critics",
+      "url": "https://www.dw.com/en/turkey-uses-espionage-accusations-to-pressure-government-critics/a-79943768?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-14T07:31:00Z",
+      "collected_at": "2026-11-18T18:31:04Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "8c18bd3f7d6d43bec59cadbd",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2647,20 +2645,6 @@
       ]
     },
     {
-      "id": "9a7365e27dc7a218eb8f5f0f",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "The dangers of revising Europe's security architecture",
-      "url": "https://www.dw.com/en/the-dangers-of-revising-europe-s-security-architecture/a-79943049?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-13T17:30:00Z",
-      "collected_at": "2026-11-17T18:31:01Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "8df88207f97cf9206a930d06",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2672,6 +2656,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "c19bb0897d168e7be6c0b8c1",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Can the EU make it harder to trick consumers online?",
+      "url": "https://www.dw.com/en/can-the-eu-make-it-harder-to-trick-consumers-online/a-79933447?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-12T17:19:00Z",
+      "collected_at": "2026-11-18T18:31:04Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -2752,6 +2750,20 @@
       "url": "https://english.elpais.com/technology/2026-11-02/goodbye-screens-hello-rings-the-new-generation-of-inconspicuous-devices.html",
       "published_at": "2026-11-02T14:17:56Z",
       "collected_at": "2026-11-18T17:31:11Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "42e7b79c219969a5c0750bc1",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Working to change the culture from within in Argentine women’s soccer",
+      "url": "https://english.elpais.com/sports/2026-10-15/working-to-change-the-culture-from-within-in-argentine-womens-soccer.html",
+      "published_at": "2026-10-15T13:07:54Z",
+      "collected_at": "2026-11-18T18:31:04Z",
       "topics": [
         "politics",
         "society",
