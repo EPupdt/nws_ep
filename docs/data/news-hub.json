@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-18T12:31:05Z",
-  "last_successful_collection_at": "2026-11-18T12:31:05Z",
+  "generated_at": "2026-11-18T13:01:10Z",
+  "last_successful_collection_at": "2026-11-18T13:01:10Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-18T12:31:05Z"
+      "at": "2026-11-18T13:01:10Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-11-18T12:31:05Z"
+      "at": "2026-11-18T13:01:10Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-18T12:31:05Z"
+      "at": "2026-11-18T13:01:10Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,109 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-18T12:31:05Z"
+      "at": "2026-11-18T13:01:10Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-18T12:31:05Z"
+      "at": "2026-11-18T13:01:10Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-18T12:31:05Z"
+      "at": "2026-11-18T13:01:10Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-18T12:31:05Z"
+      "at": "2026-11-18T13:01:10Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-18T12:31:05Z"
+      "at": "2026-11-18T13:01:10Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-18T12:31:05Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-18T13:01:10Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Italy Approves Anti-Semitism Legislation",
-      "summary": "Italy's government has formally approved a new anti-semitism law despite ongoing concerns raised regarding potential impacts on freedom of expression. The legislative measure addresses rising societal pressures and aims to strengthen legal protections against hate speech.",
+      "title": "Moldova summons Russia’s envoy over multiple drone incursions",
+      "summary": "Moldova has summoned Russia’s envoy. The action follows multiple drone incursions into Moldovan airspace.",
+      "article_ids": [
+        "db38e4f49bdafc75f03a0cd5"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/moldova-summons-russia-envoy-over-drone-incursions",
+          "headline": "Moldova summons Russia’s envoy over multiple drone incursions",
+          "published_at": "2026-11-18T12:57:12Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "EU Commission confident Bulgaria, Czech Republic, Hungary, and Slovakia will join new €45bn Ukraine loan",
+      "summary": "The EU Commission is confident that four countries will join the new €45 billion Ukraine loan. The countries named are Bulgaria, the Czech Republic, Hungary, and Slovakia.",
+      "article_ids": [
+        "463f1a46d01be3cb56dacd52"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/249710/eu-commission-confident-that-bulgaria-czech-republic-hungary-and-slovakia-will-join-new-e45bn-ukraine-loan",
+          "headline": "EU Commission ‘confident’ that Bulgaria, Czech Republic, Hungary, and Slovakia will join new €45bn Ukraine loan",
+          "published_at": "2026-11-18T12:50:46Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Evacuations rise in eastern Ukraine as fighting intensifies",
+      "summary": "Evacuations are rising in eastern Ukraine. Fighting is intensifying in the region.",
+      "article_ids": [
+        "7c2954b8232ee34e28b1021f"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261118-evacuations-on-the-rise-in-eastern-ukraine-as-fighting-intensifies",
+          "headline": "Evacuations on the rise in eastern Ukraine as fighting intensifies",
+          "published_at": "2026-11-18T10:48:14Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "EU proposes €45 billion Ukraine loan to be repaid by Russia",
+      "summary": "The European Union has proposed a new €45 billion Ukraine loan. The loan is to be repaid by Russia.",
+      "article_ids": [
+        "2cecdc442c50f6659b1209dc"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261118-eu-proposes-new-%E2%82%AC45-billion-ukraine-loan-to-be-repaid-by-russia",
+          "headline": "EU proposes new €45 billion Ukraine loan to be repaid by Russia",
+          "published_at": "2026-11-18T10:42:58Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Italy approves anti-Semitism law despite freedom of expression concerns",
+      "summary": "Italy's parliament has approved an anti-Semitism law. The move comes despite concerns over freedom of expression.",
       "article_ids": [
         "92529bf2b642633292dd61e4"
       ],
@@ -78,54 +144,6 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "European Union Proposes New Ukraine Loan",
-      "summary": "The European Union has proposed a substantial new financial loan for Ukraine intended to be repaid using immobilized Russian assets. Meanwhile, diplomatic tensions persist between Western allies concerning war tactics and strategic deep strikes against Russia.",
-      "article_ids": [
-        "2cecdc442c50f6659b1209dc",
-        "cbed681b85e4efbd3059a006"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261118-eu-proposes-new-%E2%82%AC45-billion-ukraine-loan-to-be-repaid-by-russia",
-          "headline": "EU proposes new €45 billion Ukraine loan to be repaid by Russia",
-          "published_at": "2026-11-18T10:42:58Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261118-us-hits-out-at-ukraine-s-deep-strikes-against-russia-in-rift-with-eu-over-war-tactics",
-          "headline": "US hits out at Ukraine's 'deep strikes' against Russia in rift with EU over war tactics",
-          "published_at": "2026-11-18T10:45:35Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "EU Financial Support and Ukraine Strategy",
-      "summary": "The European Union has put forward a new multi-billion euro loan for Ukraine funded through Russian assets. European policymakers continue to monitor international diplomatic developments surrounding the ongoing conflict.",
-      "article_ids": [
-        "2cecdc442c50f6659b1209dc",
-        "fbe74480538c80fbeba28c23"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261118-eu-proposes-new-%E2%82%AC45-billion-ukraine-loan-to-be-repaid-by-russia",
-          "headline": "EU proposes new €45 billion Ukraine loan to be repaid by Russia",
-          "published_at": "2026-11-18T10:42:58Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/europe-vladimir-putin-not-serious-about-ukraine-peace-talks",
-          "headline": "Europe fears Putin is stringing Trump along on Ukraine",
-          "published_at": "2026-11-18T03:00:00Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "developing": [
@@ -222,6 +240,48 @@
   ],
   "radar": [
     {
+      "id": "db38e4f49bdafc75f03a0cd5",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Moldova summons Russia’s envoy over multiple drone incursions",
+      "url": "https://www.politico.eu/article/moldova-summons-russia-envoy-over-drone-incursions",
+      "published_at": "2026-11-18T12:57:12Z",
+      "collected_at": "2026-11-18T13:01:10Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "463f1a46d01be3cb56dacd52",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "EU Commission ‘confident’ that Bulgaria, Czech Republic, Hungary, and Slovakia will join new €45bn Ukraine loan",
+      "url": "https://euobserver.com/249710/eu-commission-confident-that-bulgaria-czech-republic-hungary-and-slovakia-will-join-new-e45bn-ukraine-loan",
+      "published_at": "2026-11-18T12:50:46Z",
+      "collected_at": "2026-11-18T13:01:10Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "ef12ba6a450dde1879a9cec1",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "A week after the Brooklyn building collapse, one question unites victims and investigators: ‘What exactly happened there?’",
+      "url": "https://english.elpais.com/usa/2026-11-18/a-week-after-the-brooklyn-building-collapse-one-question-unites-victims-and-investigators-what-exactly-happened-there.html",
+      "published_at": "2026-11-18T12:44:38Z",
+      "collected_at": "2026-11-18T13:01:10Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "a43d5aeb5fa6a70883e85000",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -233,6 +293,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "52fed272254e55b129f4a39a",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Genocide: The difficulty of proving the crime of crimes",
+      "url": "https://english.elpais.com/international/2026-11-18/genocide-the-difficulty-of-proving-the-crime-of-crimes.html",
+      "published_at": "2026-11-18T12:13:45Z",
+      "collected_at": "2026-11-18T13:01:10Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -261,6 +335,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "9701af3e75fd3d86aef9bacb",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Immigrants have generated a fiscal surplus in the United States for the past 124 years",
+      "url": "https://english.elpais.com/usa/2026-11-18/immigrants-have-generated-a-fiscal-surplus-in-the-united-states-for-the-past-124-years.html",
+      "published_at": "2026-11-18T11:56:10Z",
+      "collected_at": "2026-11-18T13:01:10Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2014,48 +2102,6 @@
       ]
     },
     {
-      "id": "9eed4152f629b238b5295570",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ukraine: Two bridges in Kyiv heavily damaged by Russian strikes",
-      "url": "https://www.france24.com/en/video/20261117-ukraine-two-bridges-in-kyiv-heavily-damaged-by-russian-strikes",
-      "published_at": "2026-11-17T12:54:27Z",
-      "collected_at": "2026-11-17T13:01:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "23a4abee258a6fb602838afd",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The IDB estimates Latin America can grow 5.1% more over the decade if it manages to ride the AI wave",
-      "url": "https://english.elpais.com/economy-and-business/2026-11-17/the-idb-estimates-latin-america-can-grow-51-more-over-the-decade-if-it-manages-to-ride-the-ai-wave.html",
-      "published_at": "2026-11-17T12:46:44Z",
-      "collected_at": "2026-11-17T13:01:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "cba9ae7e1a0f691a0f1e4de9",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Six studies by Daniel Balsalobre, Spain’s ‘number 1’ emerging scientist, are retracted due to irregularities",
-      "url": "https://english.elpais.com/science-tech/2026-11-17/six-studies-by-daniel-balsalobre-spains-number-1-emerging-scientist-are-retracted-due-to-irregularities.html",
-      "published_at": "2026-11-17T12:34:30Z",
-      "collected_at": "2026-11-17T13:01:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "2da8ea4ae841d35e1c637bf7",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2067,62 +2113,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "5b39e445c84574d7b6f7d750",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Dozens injured after trains collide head-on in Prague",
-      "url": "https://www.bbc.co.uk/news/articles/c6reg7r589nro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-17T11:48:09Z",
-      "collected_at": "2026-11-17T13:01:04Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "845b376564ba4ffe892cc32f",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Will Infantino feel he's already won as Fifa challengers are revealed?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-17T10:32:07Z",
-      "collected_at": "2026-11-17T13:01:04Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "b581e1365e5dfeec1934538f",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Japan sends up jets after alleged Russian incursion of its airspace",
-      "url": "https://www.bbc.co.uk/news/articles/c60evw20qe47o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-17T07:44:17Z",
-      "collected_at": "2026-11-17T13:01:04Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "a679314b72d11fdd86f1fce0",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Why always him? The rise and fall of Balotelli",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvgxvg4v981o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-17T06:15:43Z",
-      "collected_at": "2026-11-17T13:01:04Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
@@ -2175,6 +2165,20 @@
       "url": "https://english.elpais.com/health/2026-11-16/study-reveals-nine-deaths-seven-of-them-british-patients-from-common-painkiller-used-in-spain.html",
       "published_at": "2026-11-16T10:43:41Z",
       "collected_at": "2026-11-18T12:01:09Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "7164a9fa5294667c7a181062",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘I wish upon you ample doses of pain and suffering’: The rise and fall of Jensen Huang, king of Nvidia",
+      "url": "https://english.elpais.com/economy-and-business/2026-11-16/i-wish-upon-you-ample-doses-of-pain-and-suffering-the-rise-and-fall-of-jensen-huang-king-of-nvidia.html",
+      "published_at": "2026-11-16T09:55:47Z",
+      "collected_at": "2026-11-18T13:01:10Z",
       "topics": [
         "politics",
         "society",
