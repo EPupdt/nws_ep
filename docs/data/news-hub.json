@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-19T14:01:12Z",
-  "last_successful_collection_at": "2026-11-19T14:01:12Z",
+  "generated_at": "2026-11-19T14:31:06Z",
+  "last_successful_collection_at": "2026-11-19T14:31:06Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-19T14:01:12Z"
+      "at": "2026-11-19T14:31:06Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-11-19T14:01:12Z"
+      "at": "2026-11-19T14:31:06Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-19T14:01:12Z"
+      "at": "2026-11-19T14:31:06Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-19T14:01:12Z"
+      "at": "2026-11-19T14:31:06Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-19T14:01:12Z"
+      "at": "2026-11-19T14:31:06Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-19T14:01:12Z"
+      "at": "2026-11-19T14:31:06Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-19T14:01:12Z"
+      "at": "2026-11-19T14:31:06Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-19T14:01:12Z"
+      "at": "2026-11-19T14:31:06Z"
     },
     {
       "id": "bruegel",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-19T14:01:12Z"
+      "status": "ok",
+      "count": "10",
+      "at": "2026-11-19T14:31:06Z"
     }
   ],
   "europe_now": [
@@ -132,10 +132,10 @@
   ],
   "developing": [
     {
-      "label": "Putin · Trump · Summit · Historic",
+      "label": "Trump · Putin · Historic · meeting",
       "origin": "convergence",
-      "source_count": 5,
-      "item_count": 25,
+      "source_count": 4,
+      "item_count": 15,
       "latest_at": "2026-11-19T13:11:27Z",
       "sources": [
         {
@@ -165,17 +165,44 @@
       ]
     },
     {
-      "label": "Myanmar · Rohingya · Court · genocide",
+      "label": "Summit · China · Putin · Trump",
       "origin": "convergence",
-      "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-11-19T11:41:40Z",
+      "source_count": 3,
+      "item_count": 15,
+      "latest_at": "2026-11-19T14:04:03Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/asia-pacific/20261119-top-un-court-to-rule-if-myanmar-s-rohingya-crackdown-was-genocide",
-          "headline": "🔴 Myanmar committed genocide against Muslim Rohingya minority, UN court finds",
-          "published_at": "2026-11-19T11:41:40Z"
+          "url": "https://www.france24.com/en/china-summit-ends-with-little-new-europe-backs-ukraine-in-berlin",
+          "headline": "China summit ends with little new, Europe backs Ukraine in Berlin",
+          "published_at": "2026-11-19T14:04:03Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/249769/xi-keen-to-look-neutral-on-ukraine-at-shenzhen-summit-as-china-risks-spoling-eu-relations-by-helping-putin-to-wage-war",
+          "headline": "Xi keen to look ‘neutral’ on Ukraine at Shenzhen summit, as China risks spoling EU relations by helping Putin to wage war",
+          "published_at": "2026-11-18T17:34:00Z"
+        },
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-11-18/trump-putin-and-xi-jinping-exchange-greetings-in-china-ahead-of-historic-trilateral-summit.html",
+          "headline": "Trump, Putin and Xi Jinping exchange greetings in China ahead of historic trilateral summit",
+          "published_at": "2026-11-18T15:18:33Z"
+        }
+      ]
+    },
+    {
+      "label": "Myanmar · Rohingya · genocide · committed",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 6,
+      "latest_at": "2026-11-19T14:07:11Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/icj-rules-myanmar-committed-genocide-against-the-rohingya",
+          "headline": "ICJ rules Myanmar committed genocide against the Rohingya",
+          "published_at": "2026-11-19T14:07:11Z"
         },
         {
           "publisher": "EL PAÍS English",
@@ -186,49 +213,70 @@
       ]
     },
     {
-      "label": "Anthropic · IPO",
+      "label": "EU · Commission · industries",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-11-19T13:23:02Z",
+      "item_count": 3,
+      "latest_at": "2026-11-19T14:00:47Z",
       "sources": [
         {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/people/2026-11-19/ashton-kutcher-on-the-verge-of-becoming-a-billionaire-thanks-to-anthropics-ipo.html",
-          "headline": "Ashton Kutcher on the verge of becoming a billionaire thanks to Anthropic’s IPO",
-          "published_at": "2026-11-19T13:23:02Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/business/20261119-ai-lab-anthropic-sets-stock-market-record-with-81-billion-ipo",
-          "headline": "AI lab Anthropic sets stock market record with $81 billion IPO",
-          "published_at": "2026-11-19T11:02:54Z"
-        }
-      ]
-    },
-    {
-      "label": "Auto · Grand · Theft · VI",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-11-19T12:22:53Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/press-review/20261119-grand-theft-auto-vi-a-masterpiece-13-years-in-the-making",
-          "headline": "'Grand Theft Auto VI', a 'masterpiece' 13 years in the making",
-          "published_at": "2026-11-19T12:22:53Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/249952/meps-gut-eu-commission-plan-for-regulating-space-industries",
+          "headline": "MEPs gut EU Commission plan for regulating space industries",
+          "published_at": "2026-11-19T14:00:47Z"
         },
         {
           "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eurocrats-meet-gamers-six-reasons-brussels-should-care-about-gta-vi",
-          "headline": "Grand Theft Auto VI is here. The EU has 6 reasons to pay attention.",
-          "published_at": "2026-11-18T18:35:37Z"
+          "url": "https://www.politico.eu/article/commission-accused-of-withholding-emails-on-killing-patent-law",
+          "headline": "EU Commission accused of withholding emails on killing patent law",
+          "published_at": "2026-11-18T17:09:15Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "b7741c6fb98a56a075b4604c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "ICJ rules Myanmar committed genocide against the Rohingya",
+      "url": "https://www.france24.com/en/icj-rules-myanmar-committed-genocide-against-the-rohingya",
+      "published_at": "2026-11-19T14:07:11Z",
+      "collected_at": "2026-11-19T14:31:06Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e4580b512aa379b06f5bd0c7",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "China summit ends with little new, Europe backs Ukraine in Berlin",
+      "url": "https://www.france24.com/en/china-summit-ends-with-little-new-europe-backs-ukraine-in-berlin",
+      "published_at": "2026-11-19T14:04:03Z",
+      "collected_at": "2026-11-19T14:31:06Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "ba299b59d1edd782a7890c79",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "MEPs gut EU Commission plan for regulating space industries",
+      "url": "https://euobserver.com/249952/meps-gut-eu-commission-plan-for-regulating-space-industries",
+      "published_at": "2026-11-19T14:00:47Z",
+      "collected_at": "2026-11-19T14:31:06Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "8df20a09a357d0c9345373ed",
       "source_id": "notes_from_poland",
@@ -241,6 +289,20 @@
         "central_europe",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "38a03186330b8cc86a311f40",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Wadephul: 'Coalition of the Willing' talks in Berlin send strong signal to Moscow",
+      "url": "https://www.dw.com/en/wadephul-coalition-of-the-willing-talks-in-berlin-send-strong-signal-to-moscow/a-79990664?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-19T13:56:00Z",
+      "collected_at": "2026-11-19T14:31:06Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
       ]
     },
     {
@@ -395,6 +457,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "dd75e3baaa34c718eb5a4656",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Présidentielle : pourquoi les youtubeurs ne veulent pas être régulés comme les télés",
+      "url": "https://www.politico.eu/article/presidentielle-pourquoi-les-youtubeurs-ne-veulent-pas-etre-regules-comme-la-tele",
+      "published_at": "2026-11-19T12:11:50Z",
+      "collected_at": "2026-11-19T14:31:06Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
       ]
     },
     {
@@ -2288,185 +2364,17 @@
       ]
     },
     {
-      "id": "52c9bebe03f6bde28c77b501",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "France’s Philippe steps up attacks on Le Pen and Mélenchon as his poll numbers slide",
-      "url": "https://www.politico.eu/article/france-edouard-philippe-steps-up-attacks-on-marine-le-pen-and-jean-luc-melenchon-as-his-poll-numbers-slide",
-      "published_at": "2026-11-18T13:52:43Z",
-      "collected_at": "2026-11-18T14:01:17Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "28d2000edc44356bedb8f573",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Wie Björn Höcke die Geschichte umdeutet",
-      "url": "https://www.politico.eu/podcast/inside-afd/wie-bjorn-hocke-die-geschichte-umdeutet",
-      "published_at": "2026-11-18T13:50:58Z",
-      "collected_at": "2026-11-18T14:01:17Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "5f8179aeb6ed0d2af4bc7121",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "North Korea completes external works on enrichment facility extension, says IAEA",
-      "url": "https://www.france24.com/en/asia-pacific/20261118-north-korea-completes-external-works-on-enrichment-facility-extension-says-iaea",
-      "published_at": "2026-11-18T13:46:57Z",
-      "collected_at": "2026-11-18T14:01:17Z",
+      "id": "fdd707d32e543404dc4da508",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The odyssey of ‘Voyager 1’: A chat with the cosmos one light-day from Earth",
+      "url": "https://english.elpais.com/science-tech/2026-11-17/the-odyssey-of-voyager-1-a-chat-with-the-cosmos-one-light-day-from-earth.html",
+      "published_at": "2026-11-17T13:35:14Z",
+      "collected_at": "2026-11-19T14:31:06Z",
       "topics": [
         "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "cfdcc4fd020f44a59d251fb0",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Extreme wealth can become a type of brain damage': Journalist Alexander Hurst",
-      "url": "https://www.france24.com/en/tv-shows/perspective/20261118-extreme-wealth-can-become-a-type-of-brain-damage-journalist-alexander-hurst",
-      "published_at": "2026-11-18T13:18:33Z",
-      "collected_at": "2026-11-18T14:01:17Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "69d8e442ec267e3efe8b8d6a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Athlete support under spotlight as South Africa swimmer switches to Netherlands",
-      "url": "https://www.france24.com/en/video/20261118-athlete-support-under-spotlight-as-south-africa-swimmer-switches-to-netherlands",
-      "published_at": "2026-11-18T13:16:40Z",
-      "collected_at": "2026-11-18T14:01:17Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "78c05808805a7ffacb3ec43c",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French police hold Paris rally after weeks of protests",
-      "url": "https://www.france24.com/en/video/20261118-french-police-hold-paris-rally-after-weeks-of-protests",
-      "published_at": "2026-11-18T13:15:28Z",
-      "collected_at": "2026-11-18T14:01:17Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "248ef99b68738c93c60e9121",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Inside Nigeria's illegal gold mining industry",
-      "url": "https://www.france24.com/en/video/20261118-inside-nigeria-s-illegal-gold-mining-industry",
-      "published_at": "2026-11-18T13:14:28Z",
-      "collected_at": "2026-11-18T14:01:17Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "37c6d26bb29e3850a95112d0",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Is use of AI threatening Nigerian elections?",
-      "url": "https://www.france24.com/en/video/20261118-is-use-of-ai-threatening-nigerian-elections",
-      "published_at": "2026-11-18T13:12:59Z",
-      "collected_at": "2026-11-18T14:01:17Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "ba85332a92c07be60d419801",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Deutschland und Österreich fordern europäischen Eigentümer für TikTok",
-      "url": "https://www.politico.eu/article/deutschland-und-oesterreich-fordern-europaeischen-eigentuemer-fuer-tiktok",
-      "published_at": "2026-11-18T12:54:02Z",
-      "collected_at": "2026-11-18T14:30:59Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "887f4f54070aa7083adc61cf",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
-      "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-18T12:39:24Z",
-      "collected_at": "2026-11-18T14:30:59Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "4db02353ad639bd2545a254a",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Germany, Austria demand TikTok’s European platform be sold to owners in EU",
-      "url": "https://www.politico.eu/article/germany-and-austria-launch-bid-for-eu-tiktok-takeover",
-      "published_at": "2026-11-18T12:27:16Z",
-      "collected_at": "2026-11-18T14:30:59Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "760753fd2034379f1d8452d1",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Former Spain midfielder Mata retires aged 38",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8p3vwe1rrzqo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-18T10:12:46Z",
-      "collected_at": "2026-11-18T14:30:59Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "105120db8a1cf826e5d2a54a",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "From one of Ajax's future stars to quitting football for music",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmly053x643ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-18T07:02:42Z",
-      "collected_at": "2026-11-18T14:30:59Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
+        "society",
+        "economy"
       ]
     },
     {
