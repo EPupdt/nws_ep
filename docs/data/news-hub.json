@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-19T18:01:08Z",
-  "last_successful_collection_at": "2026-11-19T18:01:08Z",
+  "generated_at": "2026-11-19T18:30:58Z",
+  "last_successful_collection_at": "2026-11-19T18:30:58Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-19T18:01:08Z"
+      "at": "2026-11-19T18:30:58Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-11-19T18:01:08Z"
+      "at": "2026-11-19T18:30:58Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-19T18:01:08Z"
+      "at": "2026-11-19T18:30:58Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-19T18:01:08Z"
+      "at": "2026-11-19T18:30:58Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-19T18:01:08Z"
+      "at": "2026-11-19T18:30:58Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-19T18:01:08Z"
+      "at": "2026-11-19T18:30:58Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-19T18:01:08Z"
+      "at": "2026-11-19T18:30:58Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-19T18:01:08Z"
+      "at": "2026-11-19T18:30:58Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-19T18:01:08Z"
+      "at": "2026-11-19T18:30:58Z"
     }
   ],
   "europe_now": [
     {
-      "title": "EU Commission targeted in cyberattack",
-      "summary": "The European Commission has confirmed that it was targeted in a cyberattack utilizing AI tools. The incident highlights ongoing digital security vulnerabilities within major European institutions.",
+      "title": "European Allies Address Security and Support in Berlin",
+      "summary": "European leaders convened in Berlin to discuss continued assistance for Ukraine following recent regional developments. Officials noted that the coalition talks send a firm signal regarding continental security and collective backing.",
+      "article_ids": [
+        "38a03186330b8cc86a311f40",
+        "e4580b512aa379b06f5bd0c7"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/wadephul-coalition-of-the-willing-talks-in-berlin-send-strong-signal-to-moscow/a-79990664?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Wadephul: 'Coalition of the Willing' talks in Berlin send strong signal to Moscow",
+          "published_at": "2026-11-19T13:56:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/china-summit-ends-with-little-new-europe-backs-ukraine-in-berlin",
+          "headline": "China summit ends with little new, Europe backs Ukraine in Berlin",
+          "published_at": "2026-11-19T14:04:03Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "EU Commission Confirms Cyberattack Involving AI Tools",
+      "summary": "The European Commission officially verified that it was the target of a cyberattack utilizing advanced artificial intelligence tools. Institutional representatives are currently evaluating the scope and security implications of the incident.",
       "article_ids": [
         "5ad8376c4875302319f36e6c"
       ],
@@ -78,10 +101,12 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Russian retaliation warnings following Crimean Bridge strikes",
-      "summary": "Following Ukrainian strikes on the Crimean railway bridge using Neptune missiles, Russian leadership has issued warnings of a severe response. Tensions continue to escalate as the regional conflict enters its 1,729th day.",
+      "title": "Crimean Bridge Strikes and Regional Security",
+      "summary": "Ukrainian forces targeted the railway section of the Crimean Bridge using Neptune missiles. Russian leadership subsequently issued warnings of severe retaliation in response to the infrastructure strikes.",
       "article_ids": [
         "fcdd617b45d33b3018ba88e8",
         "7b90e04e8a53e37ed24d76c6"
@@ -101,36 +126,10 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "European Support for Ukraine",
-      "summary": "European allies gathered in Berlin to discuss ongoing support and military aid for Ukraine. Meanwhile, international leaders faced diplomatic discussions regarding regional stability and defense commitments.",
-      "article_ids": [
-        "49575027d93f648e6f8787d1",
-        "e4580b512aa379b06f5bd0c7",
-        "38a03186330b8cc86a311f40"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/donald-trump-presses-european-leaders-about-ukraine-aid-after-vladimir-putin-summit",
-          "headline": "Trump presses European leaders about Ukraine aid in call after Putin summit",
-          "published_at": "2026-11-19T16:38:37Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/china-summit-ends-with-little-new-europe-backs-ukraine-in-berlin",
-          "headline": "China summit ends with little new, Europe backs Ukraine in Berlin",
-          "published_at": "2026-11-19T14:04:03Z"
-        }
-      ],
-      "source_count": 2
     },
     {
-      "title": "New EU Methane Regulations",
-      "summary": "The European Union has established a strict compliance deadline of 2029 for oil and gas importers to conduct methane checks. Officials have ruled out any further extensions for meeting these environmental requirements.",
+      "title": "New EU Methane Regulations and Enforcement",
+      "summary": "The European Union established strict deadlines requiring oil and gas importers to complete methane checks by 2029. Officials confirmed that no further postponements will be granted for compliance with these environmental rules.",
       "article_ids": [
         "cbd622ad903bdb5e3e3a098a"
       ],
@@ -168,6 +167,27 @@
       ]
     },
     {
+      "label": "Anthropic · trillion · debut · IPO",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 7,
+      "latest_at": "2026-11-19T18:19:49Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/economy-and-business/2026-11-19/anthropic-debuts-with-sharp-gains-in-the-largest-ipo-in-history.html",
+          "headline": "Anthropic soars 34% on its stock market debut and nears a valuation of $2 trillion",
+          "published_at": "2026-11-19T18:19:49Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/business/20261119-anthropic-begins-trading-1-5-trillion-company-biggest-ipo-record-ai",
+          "headline": "🔴Anthropic soars more than 30% to $2 trillion valuation on first day of trading",
+          "published_at": "2026-11-19T16:59:21Z"
+        }
+      ]
+    },
+    {
       "label": "Myanmar · Rohingya · genocide · committed",
       "origin": "convergence",
       "source_count": 2,
@@ -185,27 +205,6 @@
           "url": "https://english.elpais.com/international/2026-11-19/the-uns-top-court-finds-myanmars-military-killed-thousands-of-rohingya-and-subjected-them-to-extreme-violence.html",
           "headline": "The International Court of Justice finds Myanmar committed genocide against the Rohingya",
           "published_at": "2026-11-19T11:21:23Z"
-        }
-      ]
-    },
-    {
-      "label": "Anthropic · IPO",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-19T16:45:28Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/economy-and-business/2026-11-19/anthropic-debuts-with-sharp-gains-in-the-largest-ipo-in-history.html",
-          "headline": "Anthropic debuts with sharp gains in the largest IPO in history",
-          "published_at": "2026-11-19T16:45:28Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/business/20261119-ai-lab-anthropic-sets-stock-market-record-with-81-billion-ipo",
-          "headline": "AI lab Anthropic sets stock market record with $81 billion IPO",
-          "published_at": "2026-11-19T11:02:54Z"
         }
       ]
     },
@@ -232,6 +231,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "dfeb348f3bb5c568296ae641",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Anthropic soars 34% on its stock market debut and nears a valuation of $2 trillion",
+      "url": "https://english.elpais.com/economy-and-business/2026-11-19/anthropic-debuts-with-sharp-gains-in-the-largest-ipo-in-history.html",
+      "published_at": "2026-11-19T18:19:49Z",
+      "collected_at": "2026-11-19T18:30:58Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "ebd6855d7f8326551eaaca16",
       "source_id": "france24",
@@ -2344,6 +2357,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "5d9faae42cb1c6c57a63a1f2",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Elisardo Becoña, clinical psychologist: ‘Hashish and marijuana are more potent today, which raises the risk of addiction and psychotic episodes’",
+      "url": "https://english.elpais.com/health/2026-11-17/elisardo-becona-clinical-psychologist-hashish-and-marijuana-are-more-potent-today-which-raises-the-risk-of-addiction-and-psychotic-episodes.html",
+      "published_at": "2026-11-17T16:42:41Z",
+      "collected_at": "2026-11-19T18:30:58Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
