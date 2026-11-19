@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-19T16:30:58Z",
-  "last_successful_collection_at": "2026-11-19T16:30:58Z",
+  "generated_at": "2026-11-19T17:01:11Z",
+  "last_successful_collection_at": "2026-11-19T17:01:11Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-19T16:30:58Z"
+      "at": "2026-11-19T17:01:11Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-11-19T16:30:58Z"
+      "at": "2026-11-19T17:01:11Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-11-19T16:30:58Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-19T17:01:11Z"
     },
     {
       "id": "euractiv",
@@ -29,84 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-19T16:30:58Z"
+      "at": "2026-11-19T17:01:11Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-19T16:30:58Z"
+      "at": "2026-11-19T17:01:11Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
-      "count": "55",
-      "at": "2026-11-19T16:30:58Z"
+      "count": "58",
+      "at": "2026-11-19T17:01:11Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-19T16:30:58Z"
+      "at": "2026-11-19T17:01:11Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-19T16:30:58Z"
+      "at": "2026-11-19T17:01:11Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-19T16:30:58Z"
+      "at": "2026-11-19T17:01:11Z"
     }
   ],
   "europe_now": [
     {
-      "title": "European Allies Align on Ukraine Support in Berlin",
-      "summary": "European leaders gathered in Berlin to discuss regional security and reinforce backing for Ukraine amidst escalating conflict. Officials emphasized that coordinated talks among allies send a resolute message regarding regional stability.",
-      "article_ids": [
-        "e4580b512aa379b06f5bd0c7",
-        "38a03186330b8cc86a311f40"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/china-summit-ends-with-little-new-europe-backs-ukraine-in-berlin",
-          "headline": "China summit ends with little new, Europe backs Ukraine in Berlin",
-          "published_at": "2026-11-19T14:04:03Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/wadephul-coalition-of-the-willing-talks-in-berlin-send-strong-signal-to-moscow/a-79990664?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Wadephul: 'Coalition of the Willing' talks in Berlin send strong signal to Moscow",
-          "published_at": "2026-11-19T13:56:00Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "European Commission Confirms AI-Targeted Cyberattack",
-      "summary": "The European Commission officially acknowledged that it was targeted in a sophisticated cyberattack utilizing artificial intelligence tools. Security investigations are underway to assess the full scope of the breach against institutional networks.",
-      "article_ids": [
-        "5ad8376c4875302319f36e6c"
-      ],
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/eu-commission-confirms-it-was-targeted-in-cyberattack-using-ai-tools/a-79993016?maca=en-rss-en-eu-2092-rdf",
-          "headline": "EU Commission confirms it was targeted in cyberattack using AI tools",
-          "published_at": "2026-11-19T14:58:00Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Crimean Bridge Strikes Draw Russian Retaliation Warnings",
-      "summary": "Ukrainian forces targeted the railway bridge in Crimea using Neptune missiles following ongoing conflict developments. Russian leadership subsequently warned of a significantly harsher response to the infrastructure strikes.",
+      "title": "Crimean Bridge Strikes",
+      "summary": "Ukrainian forces targeted Crimea's railway bridge using Neptune missiles, prompting strong warnings of retaliation from Moscow.",
       "article_ids": [
         "fcdd617b45d33b3018ba88e8",
         "7b90e04e8a53e37ed24d76c6"
@@ -128,8 +87,50 @@
       "source_count": 2
     },
     {
-      "title": "EU Imposes Strict Methane Deadlines for Importers",
-      "summary": "The European Union has mandated that international oil and gas importers comply with new methane check requirements by the year 2029. Regulatory authorities have firmly ruled out any further extensions for implementing these environmental checks.",
+      "title": "EU Commission Cyberattack",
+      "summary": "The European Commission has confirmed that it was targeted in a cyberattack utilizing artificial intelligence tools.",
+      "article_ids": [
+        "5ad8376c4875302319f36e6c"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/eu-commission-confirms-it-was-targeted-in-cyberattack-using-ai-tools/a-79993016?maca=en-rss-en-eu-2092-rdf",
+          "headline": "EU Commission confirms it was targeted in cyberattack using AI tools",
+          "published_at": "2026-11-19T14:58:00Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "European Support for Ukraine",
+      "summary": "European allies gathered in Berlin to discuss ongoing support for Ukraine amid regional security tensions. Meanwhile, discussions continued regarding international financial and diplomatic commitments to the region.",
+      "article_ids": [
+        "49575027d93f648e6f8787d1",
+        "e4580b512aa379b06f5bd0c7",
+        "38a03186330b8cc86a311f40"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/donald-trump-presses-european-leaders-about-ukraine-aid-after-vladimir-putin-summit",
+          "headline": "Trump presses European leaders about Ukraine aid in call after Putin summit",
+          "published_at": "2026-11-19T16:38:37Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/china-summit-ends-with-little-new-europe-backs-ukraine-in-berlin",
+          "headline": "China summit ends with little new, Europe backs Ukraine in Berlin",
+          "published_at": "2026-11-19T14:04:03Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "EU Methane Regulations",
+      "summary": "The European Union has established a deadline of 2029 for oil and gas importers to comply with mandatory methane checks. Officials have firmly ruled out any further extensions to this implementation timeline.",
       "article_ids": [
         "cbd622ad903bdb5e3e3a098a"
       ],
@@ -145,39 +146,6 @@
     }
   ],
   "developing": [
-    {
-      "label": "Putin · Trump · Summit · Historic",
-      "origin": "convergence",
-      "source_count": 5,
-      "item_count": 23,
-      "latest_at": "2026-11-19T15:12:10Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/trump-xi-putin-summit-what-was-it-all-about",
-          "headline": "Trump, Xi, Putin summit: What was it all about?",
-          "published_at": "2026-11-19T15:12:10Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/uk-tory-chief-badenoch-kemi-badenoch-blasts-disturbing-trump-putin-xi-trilateral",
-          "headline": "UK Tory chief Badenoch blasts ‘disturbing’ Trump-Putin-Xi trilateral",
-          "published_at": "2026-11-19T10:07:51Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-11-19/xi-trump-and-putin-begin-historic-trilateral-meeting-in-shenzhen.html",
-          "headline": "Xi, Trump and Putin begin historic trilateral meeting in Shenzhen",
-          "published_at": "2026-11-19T09:11:07Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/cm4gn31yn0x9o?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump says he and Putin have a 'great relationship' at meeting",
-          "published_at": "2026-11-19T06:52:54Z"
-        }
-      ]
-    },
     {
       "label": "Myanmar · Rohingya · genocide · committed",
       "origin": "convergence",
@@ -203,46 +171,103 @@
       "label": "Anthropic · IPO · record · AI",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-11-19T14:31:00Z",
+      "item_count": 5,
+      "latest_at": "2026-11-19T16:45:28Z",
       "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/economy-and-business/2026-11-19/anthropic-debuts-with-sharp-gains-in-the-largest-ipo-in-history.html",
+          "headline": "Anthropic debuts with sharp gains in the largest IPO in history",
+          "published_at": "2026-11-19T16:45:28Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/business/20261119-anthropic-begins-trading-1-5-trillion-company-biggest-ipo-record-ai",
           "headline": "🔴 AI firm Anthropic begins trading on Nasdaq, aiming to raise $81 billion in biggest IPO on record",
           "published_at": "2026-11-19T14:31:00Z"
-        },
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/people/2026-11-19/ashton-kutcher-on-the-verge-of-becoming-a-billionaire-thanks-to-anthropics-ipo.html",
-          "headline": "Ashton Kutcher on the verge of becoming a billionaire thanks to Anthropic’s IPO",
-          "published_at": "2026-11-19T13:23:02Z"
         }
       ]
     },
     {
-      "label": "Inside · Ukraine",
+      "label": "Coalition · Willing",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-11-19T03:00:00Z",
+      "latest_at": "2026-11-19T13:56:00Z",
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/inside-ukraines-coalition-of-the-wobbling",
-          "headline": "Inside Ukraine’s Coalition of the Wobbling",
-          "published_at": "2026-11-19T03:00:00Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/wadephul-coalition-of-the-willing-talks-in-berlin-send-strong-signal-to-moscow/a-79990664?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Wadephul: 'Coalition of the Willing' talks in Berlin send strong signal to Moscow",
+          "published_at": "2026-11-19T13:56:00Z"
         },
         {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
-          "headline": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
-          "published_at": "2026-11-18T17:00:40Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-coalition-of-the-willings-chance-to-deliver",
+          "headline": "The Coalition of the Willing’s chance to deliver",
+          "published_at": "2026-11-19T05:05:00Z"
+        }
+      ]
+    },
+    {
+      "label": "Constitutional · Court · Polish · charges",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 3,
+      "latest_at": "2026-11-19T10:10:15Z",
+      "sources": [
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/11/19/polish-supreme-court-rejects-governments-position-on-constitutional-tribunal",
+          "headline": "Polish Supreme Court rejects government’s position on Constitutional Tribunal",
+          "published_at": "2026-11-19T10:10:15Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "6d8637a203b90e201d7ba95f",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Zucman, le retour",
+      "url": "https://www.politico.eu/podcast/playbook-paris-podcast/zucman-le-retour",
+      "published_at": "2026-11-19T16:53:19Z",
+      "collected_at": "2026-11-19T17:01:11Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "2679a439a44f9beb85d5605e",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Anthropic debuts with sharp gains in the largest IPO in history",
+      "url": "https://english.elpais.com/economy-and-business/2026-11-19/anthropic-debuts-with-sharp-gains-in-the-largest-ipo-in-history.html",
+      "published_at": "2026-11-19T16:45:28Z",
+      "collected_at": "2026-11-19T17:01:11Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "49575027d93f648e6f8787d1",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Trump presses European leaders about Ukraine aid in call after Putin summit",
+      "url": "https://www.politico.eu/article/donald-trump-presses-european-leaders-about-ukraine-aid-after-vladimir-putin-summit",
+      "published_at": "2026-11-19T16:38:37Z",
+      "collected_at": "2026-11-19T17:01:11Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "c1160129179ac43872fb44da",
       "source_id": "politico_europe",
@@ -619,6 +644,20 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "06896ea98dd5e13c27a534d8",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Startups call on Commission to salvage or scrap EU Inc proposal",
+      "url": "https://www.politico.eu/article/eu-startup-lobby-groups-call-upon-commission-to-withdraw-eu-inc-proposal",
+      "published_at": "2026-11-19T13:00:00Z",
+      "collected_at": "2026-11-19T17:01:11Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
       ]
     },
     {
@@ -2176,48 +2215,6 @@
       ]
     },
     {
-      "id": "ba0105db897319f8553c2c69",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "L’après-Macron vu par les espions",
-      "url": "https://www.politico.eu/podcast/playbook-paris-podcast/lapres-macron-vu-par-les-espions",
-      "published_at": "2026-11-18T16:47:58Z",
-      "collected_at": "2026-11-18T17:01:08Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "14c33a922127d5ba1b2a8d22",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "EU auditors say rules ‘full of holes’ leave health at risk from toxic forever chemicals",
-      "url": "https://euobserver.com/249828/eu-auditors-say-rules-full-of-holes-leave-health-at-risk-from-toxic-forever-chemicals",
-      "published_at": "2026-11-18T16:44:14Z",
-      "collected_at": "2026-11-18T17:01:08Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "c4a94e89a608d14a2bafab51",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Senate leadership challenge exposes divisions among Democrat",
-      "url": "https://www.france24.com/en/video/20261118-senate-leadership-challenge-exposes-divisions-among-democrat",
-      "published_at": "2026-11-18T16:39:14Z",
-      "collected_at": "2026-11-18T17:01:08Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "db86d47291c3a81e61c49716",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2242,48 +2239,6 @@
       "topics": [
         "breaking",
         "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "291553de67c04c6fa2bd4fbb",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "German government recruits World Cup hero Philipp Lahm to teach financial literacy",
-      "url": "https://www.politico.eu/article/former-football-world-champion-to-help-germans-get-smarter-about-money",
-      "published_at": "2026-11-18T16:22:42Z",
-      "collected_at": "2026-11-18T16:31:00Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "e2c93aedcb3407f2b0dcda66",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Russia’s new low-cost munitions pose a fresh threat to Ukraine",
-      "url": "https://www.france24.com/en/europe/20261118-russia-new-low-cost-munitions-threat-ukraine",
-      "published_at": "2026-11-18T16:19:08Z",
-      "collected_at": "2026-11-18T16:31:00Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "20cb14bddcca9eacb480c956",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Israel begins new military operation in Gaza",
-      "url": "https://www.france24.com/en/video/20261118-israel-begins-new-military-operation-in-gaza",
-      "published_at": "2026-11-18T16:12:30Z",
-      "collected_at": "2026-11-18T16:31:00Z",
-      "topics": [
-        "politics",
-        "security",
         "society"
       ]
     },
@@ -2593,20 +2548,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "5a281db9657eabce5e039a7f",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Five EU countries announce migrant deportation centre in Rwanda",
-      "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-16T23:20:45Z",
-      "collected_at": "2026-11-18T17:01:08Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
