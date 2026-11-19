@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-19T17:01:11Z",
-  "last_successful_collection_at": "2026-11-19T17:01:11Z",
+  "generated_at": "2026-11-19T17:31:03Z",
+  "last_successful_collection_at": "2026-11-19T17:31:03Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-19T17:01:11Z"
+      "at": "2026-11-19T17:31:03Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-11-19T17:01:11Z"
+      "at": "2026-11-19T17:31:03Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-19T17:01:11Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-11-19T17:31:03Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,84 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-19T17:01:11Z"
+      "at": "2026-11-19T17:31:03Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-19T17:01:11Z"
+      "at": "2026-11-19T17:31:03Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-19T17:01:11Z"
+      "at": "2026-11-19T17:31:03Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-19T17:01:11Z"
+      "at": "2026-11-19T17:31:03Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-19T17:01:11Z"
+      "at": "2026-11-19T17:31:03Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-19T17:01:11Z"
+      "at": "2026-11-19T17:31:03Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Crimean Bridge Strikes",
-      "summary": "Ukrainian forces targeted Crimea's railway bridge using Neptune missiles, prompting strong warnings of retaliation from Moscow.",
+      "title": "European Allies Rally Support for Ukraine in Berlin",
+      "summary": "European leaders met in Berlin to coordinate security backing and send a firm message regarding ongoing regional conflicts. The discussions underscore continuous allied commitments toward assisting Ukraine amidst rising geopolitical pressures.",
+      "article_ids": [
+        "38a03186330b8cc86a311f40",
+        "e4580b512aa379b06f5bd0c7"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/wadephul-coalition-of-the-willing-talks-in-berlin-send-strong-signal-to-moscow/a-79990664?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Wadephul: 'Coalition of the Willing' talks in Berlin send strong signal to Moscow",
+          "published_at": "2026-11-19T13:56:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/china-summit-ends-with-little-new-europe-backs-ukraine-in-berlin",
+          "headline": "China summit ends with little new, Europe backs Ukraine in Berlin",
+          "published_at": "2026-11-19T14:04:03Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "EU Commission Confirms AI-Powered Cyberattack",
+      "summary": "The European Commission officially verified that its systems were targeted by a cyberattack utilizing advanced artificial intelligence tools. Institutional officials are currently managing the security incident and assessing potential vulnerabilities.",
+      "article_ids": [
+        "5ad8376c4875302319f36e6c"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/eu-commission-confirms-it-was-targeted-in-cyberattack-using-ai-tools/a-79993016?maca=en-rss-en-eu-2092-rdf",
+          "headline": "EU Commission confirms it was targeted in cyberattack using AI tools",
+          "published_at": "2026-11-19T14:58:00Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Crimean Bridge Strikes Draw Russian Retaliation Warnings",
+      "summary": "Recent Ukrainian missile strikes targeted the railway bridge in Crimea, prompting strong condemnation from Moscow. Russian leadership has explicitly warned that the attacks will result in significantly harsher responses.",
       "article_ids": [
         "fcdd617b45d33b3018ba88e8",
         "7b90e04e8a53e37ed24d76c6"
@@ -87,50 +128,8 @@
       "source_count": 2
     },
     {
-      "title": "EU Commission Cyberattack",
-      "summary": "The European Commission has confirmed that it was targeted in a cyberattack utilizing artificial intelligence tools.",
-      "article_ids": [
-        "5ad8376c4875302319f36e6c"
-      ],
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/eu-commission-confirms-it-was-targeted-in-cyberattack-using-ai-tools/a-79993016?maca=en-rss-en-eu-2092-rdf",
-          "headline": "EU Commission confirms it was targeted in cyberattack using AI tools",
-          "published_at": "2026-11-19T14:58:00Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "European Support for Ukraine",
-      "summary": "European allies gathered in Berlin to discuss ongoing support for Ukraine amid regional security tensions. Meanwhile, discussions continued regarding international financial and diplomatic commitments to the region.",
-      "article_ids": [
-        "49575027d93f648e6f8787d1",
-        "e4580b512aa379b06f5bd0c7",
-        "38a03186330b8cc86a311f40"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/donald-trump-presses-european-leaders-about-ukraine-aid-after-vladimir-putin-summit",
-          "headline": "Trump presses European leaders about Ukraine aid in call after Putin summit",
-          "published_at": "2026-11-19T16:38:37Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/china-summit-ends-with-little-new-europe-backs-ukraine-in-berlin",
-          "headline": "China summit ends with little new, Europe backs Ukraine in Berlin",
-          "published_at": "2026-11-19T14:04:03Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "EU Methane Regulations",
-      "summary": "The European Union has established a deadline of 2029 for oil and gas importers to comply with mandatory methane checks. Officials have firmly ruled out any further extensions to this implementation timeline.",
+      "title": "EU Imposes Strict Methane Deadlines for Importers",
+      "summary": "The European Union has finalized regulations requiring oil and gas importers to complete methane checks by 2029. Brussels officials have firmly ruled out any further extensions to these environmental compliance deadlines.",
       "article_ids": [
         "cbd622ad903bdb5e3e3a098a"
       ],
@@ -150,14 +149,14 @@
       "label": "Myanmar · Rohingya · genocide · committed",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 6,
-      "latest_at": "2026-11-19T14:07:11Z",
+      "item_count": 7,
+      "latest_at": "2026-11-19T15:54:42Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/icj-rules-myanmar-committed-genocide-against-the-rohingya",
-          "headline": "ICJ rules Myanmar committed genocide against the Rohingya",
-          "published_at": "2026-11-19T14:07:11Z"
+          "url": "https://www.france24.com/en/icj-ruling-on-myanmar-genocide-historic-victory-for-rohingya-landmark-for-international-justice",
+          "headline": "ICJ ruling on Myanmar genocide: ‘Historic victory for Rohingya, landmark for international justice’",
+          "published_at": "2026-11-19T15:54:42Z"
         },
         {
           "publisher": "EL PAÍS English",
@@ -168,10 +167,10 @@
       ]
     },
     {
-      "label": "Anthropic · IPO · record · AI",
+      "label": "Anthropic · IPO",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 5,
+      "item_count": 3,
       "latest_at": "2026-11-19T16:45:28Z",
       "sources": [
         {
@@ -182,50 +181,120 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/business/20261119-anthropic-begins-trading-1-5-trillion-company-biggest-ipo-record-ai",
-          "headline": "🔴 AI firm Anthropic begins trading on Nasdaq, aiming to raise $81 billion in biggest IPO on record",
-          "published_at": "2026-11-19T14:31:00Z"
+          "url": "https://www.france24.com/en/tv-shows/business/20261119-ai-lab-anthropic-sets-stock-market-record-with-81-billion-ipo",
+          "headline": "AI lab Anthropic sets stock market record with $81 billion IPO",
+          "published_at": "2026-11-19T11:02:54Z"
         }
       ]
     },
     {
-      "label": "Coalition · Willing",
+      "label": "foreign · US",
       "origin": "convergence",
       "source_count": 2,
       "item_count": 2,
-      "latest_at": "2026-11-19T13:56:00Z",
+      "latest_at": "2026-11-19T17:07:09Z",
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/wadephul-coalition-of-the-willing-talks-in-berlin-send-strong-signal-to-moscow/a-79990664?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Wadephul: 'Coalition of the Willing' talks in Berlin send strong signal to Moscow",
-          "published_at": "2026-11-19T13:56:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261119-us-has-unbalanced-approach-on-dr-congo-deal-rwanda-s-foreign-minister-says",
+          "headline": "US has 'unbalanced approach' on DR Congo deal, Rwanda's foreign minister says",
+          "published_at": "2026-11-19T17:07:09Z"
         },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-coalition-of-the-willings-chance-to-deliver",
-          "headline": "The Coalition of the Willing’s chance to deliver",
-          "published_at": "2026-11-19T05:05:00Z"
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/international/2026-11-18/us-defense-secretary-announces-agreement-with-venezuela-against-threats-from-foreign-actors.html",
+          "headline": "US defense secretary announces agreement with Venezuela against threats from ‘foreign actors’",
+          "published_at": "2026-11-18T19:10:03Z"
         }
       ]
     },
     {
-      "label": "Constitutional · Court · Polish · charges",
+      "label": "EU · summit · China · helping",
       "origin": "radar",
       "source_count": 1,
       "item_count": 3,
-      "latest_at": "2026-11-19T10:10:15Z",
+      "latest_at": "2026-11-19T17:16:16Z",
       "sources": [
         {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/19/polish-supreme-court-rejects-governments-position-on-constitutional-tribunal",
-          "headline": "Polish Supreme Court rejects government’s position on Constitutional Tribunal",
-          "published_at": "2026-11-19T10:10:15Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/249992/uk-eu-summit-to-see-mutual-love-bombing-but-british-must-decide-what-to-do-next",
+          "headline": "UK-EU summit to see mutual love-bombing, but British must decide what to do next",
+          "published_at": "2026-11-19T17:16:16Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "e79786877fa547828d83c8a8",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "UK-EU summit to see mutual love-bombing, but British must decide what to do next",
+      "url": "https://euobserver.com/249992/uk-eu-summit-to-see-mutual-love-bombing-but-british-must-decide-what-to-do-next",
+      "published_at": "2026-11-19T17:16:16Z",
+      "collected_at": "2026-11-19T17:31:03Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "076b9991d34e9c6a43929d39",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Bangladesh: Hasina supporters vandalise ruling party office",
+      "url": "https://www.france24.com/en/video/20261119-bangladesh-hasina-supporters-vandalise-ruling-party-office",
+      "published_at": "2026-11-19T17:14:23Z",
+      "collected_at": "2026-11-19T17:31:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "eb91a9112269418d6a5e0a26",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US has 'unbalanced approach' on DR Congo deal, Rwanda's foreign minister says",
+      "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261119-us-has-unbalanced-approach-on-dr-congo-deal-rwanda-s-foreign-minister-says",
+      "published_at": "2026-11-19T17:07:09Z",
+      "collected_at": "2026-11-19T17:31:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "52e15e19c8e02dccf837ad85",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Hungary’s new government claws back motorways and tobacco monopoly after years of taxpayer‑funded Orbán luxury travel (Day 191 of the Tisza government)",
+      "url": "https://euobserver.com/250131/hungarys-new-government-claws-back-motorways-and-tobacco-monopoly-after-years-of-taxpayerfunded-orban-luxury-travel-day-191-of-the-tisza-government",
+      "published_at": "2026-11-19T17:04:22Z",
+      "collected_at": "2026-11-19T17:31:03Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "75b42ff902132322f84a81fe",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "🔴Anthropic soars more than 30% to $2 trillion valuation on first day of trading",
+      "url": "https://www.france24.com/en/business/20261119-anthropic-begins-trading-1-5-trillion-company-biggest-ipo-record-ai",
+      "published_at": "2026-11-19T16:59:21Z",
+      "collected_at": "2026-11-19T17:31:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "6d8637a203b90e201d7ba95f",
       "source_id": "politico_europe",
@@ -255,6 +324,20 @@
       ]
     },
     {
+      "id": "95d776632a5bf4581b4a6224",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "How much do businesses want to pay for AI?",
+      "url": "https://www.france24.com/en/tv-shows/people-profit/20261119-how-much-do-businesses-want-to-pay-for-ai",
+      "published_at": "2026-11-19T16:39:57Z",
+      "collected_at": "2026-11-19T17:31:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "49575027d93f648e6f8787d1",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -269,6 +352,34 @@
       ]
     },
     {
+      "id": "da33fc5b847fb6d3a0a8fd0f",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Inside France's mental health crisis: Are the French all right?",
+      "url": "https://www.france24.com/en/tv-shows/french-connections/20261119-inside-france-s-mental-health-crisis-are-the-french-all-right",
+      "published_at": "2026-11-19T16:04:51Z",
+      "collected_at": "2026-11-19T17:31:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "228d6817ecaeaa8ca5323b76",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "ICJ ruling on Myanmar genocide: ‘Historic victory for Rohingya, landmark for international justice’",
+      "url": "https://www.france24.com/en/icj-ruling-on-myanmar-genocide-historic-victory-for-rohingya-landmark-for-international-justice",
+      "published_at": "2026-11-19T15:54:42Z",
+      "collected_at": "2026-11-19T17:31:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "c1160129179ac43872fb44da",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -280,6 +391,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "0771f96263926e565f137aeb",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Xi demonstrating China's 'global status', occupying 'central position' in relation to Trump & Putin",
+      "url": "https://www.france24.com/en/xi-demonstrating-china-s-global-status-occupying-central-position-in-relation-to-trump-putin",
+      "published_at": "2026-11-19T15:40:14Z",
+      "collected_at": "2026-11-19T17:31:03Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -472,6 +597,20 @@
       "url": "https://www.france24.com/en/business/20261119-anthropic-begins-trading-1-5-trillion-company-biggest-ipo-record-ai",
       "published_at": "2026-11-19T14:29:03Z",
       "collected_at": "2026-11-19T15:01:13Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f34868b3cec105bac6544082",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Anthropic soars more than 30% to $2 trillion valuation on first day of trading",
+      "url": "https://www.france24.com/en/business/20261119-anthropic-begins-trading-1-5-trillion-company-biggest-ipo-record-ai",
+      "published_at": "2026-11-19T14:29:03Z",
+      "collected_at": "2026-11-19T17:31:03Z",
       "topics": [
         "politics",
         "security",
@@ -2600,34 +2739,6 @@
       "url": "https://english.elpais.com/sports/2026-11-04/marcelo-lusardi-the-blind-skater-taking-social-media-by-storm.html",
       "published_at": "2026-11-04T13:04:58Z",
       "collected_at": "2026-11-19T13:01:10Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "42524281b7c1ec7a60e284a5",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "‘I watched up and down and I looked at his ass...’: Why Trump seems obsessed with praising male physiques",
-      "url": "https://english.elpais.com/usa/2026-10-28/i-watched-up-and-down-and-i-looked-at-his-ass-why-trump-seems-obsessed-with-praising-male-physiques.html",
-      "published_at": "2026-10-28T12:45:28Z",
-      "collected_at": "2026-11-19T15:31:15Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "9e0a227b9159734c55b28e7c",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "EL PAÍS offers free Spanish lessons with Gymglish",
-      "url": "https://english.elpais.com/economy-and-business/2021-11-15/el-pais-offers-free-spanish-lessons-with-gymglish.html",
-      "published_at": "2021-11-15T14:10:11Z",
-      "collected_at": "2026-11-19T15:31:15Z",
       "topics": [
         "politics",
         "society",
