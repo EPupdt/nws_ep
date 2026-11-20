@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-20T22:01:05Z",
-  "last_successful_collection_at": "2026-11-20T22:01:05Z",
+  "generated_at": "2026-11-20T22:31:08Z",
+  "last_successful_collection_at": "2026-11-20T22:31:08Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-20T22:01:05Z"
+      "at": "2026-11-20T22:31:08Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-11-20T22:01:05Z"
+      "at": "2026-11-20T22:31:08Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-20T22:01:05Z"
+      "at": "2026-11-20T22:31:08Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,45 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-20T22:01:05Z"
+      "at": "2026-11-20T22:31:08Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-20T22:01:05Z"
+      "at": "2026-11-20T22:31:08Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-11-20T22:01:05Z"
+      "at": "2026-11-20T22:31:08Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-20T22:01:05Z"
+      "at": "2026-11-20T22:31:08Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-20T22:01:05Z"
+      "at": "2026-11-20T22:31:08Z"
     },
     {
       "id": "bruegel",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-20T22:01:05Z"
+      "status": "ok",
+      "count": "10",
+      "at": "2026-11-20T22:31:08Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Operations and Border Incidents",
-      "summary": "Authorities report that Polish security prevented a planned Russian false-flag operation at the border amid broader regional security concerns. Meanwhile, reports indicate that Russian cruise missiles have landed in Polish territory.",
+      "title": "Poland Border Security Incident",
+      "summary": "Polish officials stated they successfully prevented a planned Russian false-flag operation at the border. The event underscores heightened regional security concerns amid ongoing cross-border friction.",
       "article_ids": [
-        "343077f13b713a02c6d98d32",
-        "d50dbbfcb1759a1e2a2d7af9"
+        "343077f13b713a02c6d98d32"
       ],
       "sources": [
         {
@@ -76,19 +75,32 @@
           "url": "https://notesfrompoland.com/2026/11/20/poland-prevented-russian-false-flag-operation-at-border-says-advisor-to-defence-minister",
           "headline": "Poland prevented Russian false-flag operation at border, says advisor to defence minister",
           "published_at": "2026-11-20T15:14:51Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/250305/russian-cruise-missiles-land-in-poland-drones-explode-over-eu-diplomats-in-kyiv-ukraine-battlefield-update-day-1730",
-          "headline": "Russian cruise missiles land in Poland, drones explode over EU diplomats in Kyiv (Ukraine Battlefield update, Day 1,730)",
-          "published_at": "2026-11-20T14:44:24Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "New EU-UK Post-Brexit Agreement",
-      "summary": "Leaders from the European Union and the United Kingdom have finalized a landmark agreement aimed at resetting and rebuilding bilateral ties following Brexit. Officials on both sides have described the accord as a significant turning point, though acknowledgement remains that it will not resolve all outstanding challenges.",
+      "title": "Pan-European Cost of Living Protests",
+      "summary": "Mass demonstrations and youth-led rallies regarding the cost of living and economic pressures have swept across multiple European countries. Protesters voiced widespread frustration over economic hardships and the broader impacts of ongoing conflicts.",
+      "article_ids": [
+        "2abf228e6aa2a4349e59d066",
+        "be363ffe74880ee08eb843b5"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261120-gen-z-protests-spread-across-europe-mass-rallies-over-cost-of-living-in-spain",
+          "headline": "Gen Z protests spread across Europe: Mass rallies over cost of living in Spain",
+          "published_at": "2026-11-20T15:41:34Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "EU-UK Diplomatic Reset",
+      "summary": "European and British leaders hailed a landmark agreement aimed at rebuilding ties and reshaping post-Brexit relations. The summit yielded significant new arrangements concerning future bilateral cooperation.",
       "article_ids": [
         "860c3f4a15c89769a3be4c10",
         "531a3851f5d154c6bf1ecb35"
@@ -108,12 +120,10 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
+    },
     {
       "title": "French Legislative and Legal Developments",
-      "summary": "The French parliament has officially adopted new legislation concerning police shootings despite strong condemnation from human rights activists. Additionally, authorities have launched formal investigations involving prominent cultural figures regarding sexual allegations.",
+      "summary": "The French parliament adopted a new piece of legislation concerning police shootings that faced heavy criticism from advocacy groups. Meanwhile, legal authorities initiated investigations involving prominent cultural figures over serious allegations.",
       "article_ids": [
         "ce5a390617da8e38cd1d6a61",
         "38b074eec70f99872a292777"
@@ -124,23 +134,6 @@
           "url": "https://www.france24.com/en/france/20261120-licence-to-kill-french-parliament-adopts-police-shootings-law-slammed-activists",
           "headline": "'Licence to kill': French parliament adopts police shootings law slammed by activists",
           "published_at": "2026-11-20T21:17:59Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Pan-European Protests and Economic Pressures",
-      "summary": "Demonstrations regarding the rising cost of living have spread extensively to multiple countries across Europe. Younger demographics and citizens have organized mass rallies voicing economic grievances and societal anxieties.",
-      "article_ids": [
-        "2abf228e6aa2a4349e59d066",
-        "be363ffe74880ee08eb843b5"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261120-gen-z-protests-spread-across-europe-mass-rallies-over-cost-of-living-in-spain",
-          "headline": "Gen Z protests spread across Europe: Mass rallies over cost of living in Spain",
-          "published_at": "2026-11-20T15:41:34Z"
         }
       ],
       "source_count": 1
@@ -233,6 +226,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "97714574ffaa717b034b464e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Paris police officers sentenced to prison over 2020 beating of Black man",
+      "url": "https://www.france24.com/en/france/20261120-paris-police-officers-sentenced-to-prison-over-2020-beating-of-black-man-michel-zecler",
+      "published_at": "2026-11-20T22:04:45Z",
+      "collected_at": "2026-11-20T22:31:08Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "1433c2436f44ae880be47085",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Guinea bans Burkina Faso broadcaster, escalating diplomatic tensions",
+      "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20261120-guinea-bans-burkina-faso-broadcaster-escalating-diplomatic-tensions",
+      "published_at": "2026-11-20T21:53:35Z",
+      "collected_at": "2026-11-20T22:31:08Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "56e81efe428be9cb90d627f2",
       "source_id": "bbc_europe",
@@ -2208,20 +2229,6 @@
       ]
     },
     {
-      "id": "ee9288e761a341575ad4b2e3",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "French far-left candidate Mélenchon opens door to alliance with rival Greens candidate",
-      "url": "https://www.france24.com/en/france/20261119-melenchon-opens-door-to-alliance-with-french-greens-after-presidential-rival-overture-tondelier",
-      "published_at": "2026-11-19T22:07:44Z",
-      "collected_at": "2026-11-19T22:30:56Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "810bb3c4154efbbf5dee01ab",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2483,20 +2490,6 @@
       "collected_at": "2026-11-20T08:01:10Z",
       "topics": [
         "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "d21dea4022ab4f66cfed967f",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Polish government seeks to introduce maximum gas prices for consumers",
-      "url": "https://notesfrompoland.com/2026/11/17/polish-government-seeks-to-introduce-maximum-gas-prices-for-consumers",
-      "published_at": "2026-11-17T22:15:10Z",
-      "collected_at": "2026-11-19T22:30:56Z",
-      "topics": [
-        "central_europe",
         "politics",
         "society"
       ]
