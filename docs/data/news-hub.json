@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-20T09:31:11Z",
-  "last_successful_collection_at": "2026-11-20T09:31:11Z",
+  "generated_at": "2026-11-20T10:01:04Z",
+  "last_successful_collection_at": "2026-11-20T10:01:04Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-20T09:31:11Z"
+      "at": "2026-11-20T10:01:04Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-20T09:31:11Z"
+      "at": "2026-11-20T10:01:04Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-11-20T09:31:11Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-20T10:01:04Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,88 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-20T09:31:11Z"
+      "at": "2026-11-20T10:01:04Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-20T09:31:11Z"
+      "at": "2026-11-20T10:01:04Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-20T09:31:11Z"
+      "at": "2026-11-20T10:01:04Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-20T09:31:11Z"
+      "at": "2026-11-20T10:01:04Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-20T09:31:11Z"
+      "at": "2026-11-20T10:01:04Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-20T09:31:11Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-20T10:01:04Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Attacks Damage Bridges in Kyiv",
-      "summary": "Major Russian missile and drone attacks have caused severe damage to multiple bridges in Kyiv amid ongoing hostilities. The strikes have resulted in casualties and impacted critical infrastructure in the capital.",
+      "title": "Russian missile strikes target Kyiv bridges",
+      "summary": "Major Russian attacks have resulted in significant damage to multiple bridges in Kyiv alongside casualties. Meanwhile, Polish authorities have reported an airspace violation by an unidentified object amid the ongoing regional escalations.",
       "article_ids": [
         "ad696ff3c137ad39f06976b8",
-        "4343281c64976b278a8a1543",
-        "eab11db3a5441325f7abe952"
+        "b35791f19e8545b7d829b2de"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/russia-hits-3-kyiv-bridges-in-major-attack-while-poland-reports-airspace-violation",
+          "headline": "Russia hits 3 Kyiv bridges in major attack, while Poland reports airspace violation",
+          "published_at": "2026-11-20T08:39:06Z"
+        },
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine",
+          "headline": "Unidentified object hits Poland amid Russian attacks on western Ukraine",
+          "published_at": "2026-11-20T09:30:31Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "EU and UK prepare for Brussels summit",
+      "summary": "European and British leadership are convening in Brussels to negotiate and finalize new bilateral agreements. The discussions are slated to cover cooperation on trade, energy supplies, and youth mobility.",
+      "article_ids": [
+        "6db8e1e5dbb794ae210b71d5",
+        "901"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261120-eu-and-uk-set-to-sign-deals-on-trade-energy-youth-mobility-at-brussels-summit",
+          "headline": "EU and UK set to sign deals on trade, energy, youth mobility at Brussels summit",
+          "published_at": "2026-11-20T02:00:15Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Escalation in Ukraine conflict",
+      "summary": "Recent Russian missile barrages have severely damaged bridges and infrastructure across Kyiv while causing multiple casualties. European allies continue to address security responses and diplomatic positioning in the wake of the attacks.",
+      "article_ids": [
+        "ad696ff3c137ad39f06976b8",
+        "4343281c64976b278a8a1543"
       ],
       "sources": [
         {
@@ -88,36 +129,11 @@
       "source_count": 2
     },
     {
-      "title": "Unidentified Object Hits Polish Airspace",
-      "summary": "Poland has reported an airspace violation and an unidentified object hitting its territory during concurrent Russian attacks on western Ukraine. Authorities are investigating the incident as regional security concerns escalate.",
-      "article_ids": [
-        "b35791f19e8545b7d829b2de",
-        "ad696ff3c137ad39f06976b8"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine",
-          "headline": "Unidentified object hits Poland amid Russian attacks on western Ukraine",
-          "published_at": "2026-11-20T09:30:31Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russia-hits-3-kyiv-bridges-in-major-attack-while-poland-reports-airspace-violation",
-          "headline": "Russia hits 3 Kyiv bridges in major attack, while Poland reports airspace violation",
-          "published_at": "2026-11-20T08:39:06Z"
-        }
-      ],
-      "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "UK-EU Brussels Summit",
-      "summary": "Leaders are gathering in Brussels for a major summit focusing on future relations between the United Kingdom and the European Union. Discussions are expected to cover potential new agreements regarding trade, energy, and youth mobility.",
+      "title": "UK-EU Diplomatic Engagement",
+      "summary": "UK and European Union officials are gathering in Brussels for a high-profile summit to discuss post-Brexit relations. The agenda features potential agreements concerning trade frameworks, energy cooperation, and youth mobility initiatives.",
       "article_ids": [
         "6db8e1e5dbb794ae210b71d5",
-        "25a0a4ed3ba233487c24d7ef"
+        "8c1f4df27a7fc202e32dc2f3"
       ],
       "sources": [
         {
@@ -128,9 +144,9 @@
         },
         {
           "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cm4gn9xw1v99o?at_medium=RSS&at_campaign=rss",
-          "headline": "New EU-UK deal should reduce 'Irish Sea border' impact",
-          "published_at": "2026-11-20T06:26:44Z"
+          "url": "https://www.bbc.co.uk/news/videos/c6lymr5x4ye5o?at_medium=RSS&at_campaign=rss",
+          "headline": "What the Brussels summit could mean for the UK-EU Brexit deal",
+          "published_at": "2026-11-20T08:07:06Z"
         }
       ],
       "source_count": 2
@@ -236,6 +252,20 @@
   ],
   "radar": [
     {
+      "id": "fc2405e1a9fe1e819f49ff56",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Emmanuel Macron hosts Kamala Harris at Elysée",
+      "url": "https://www.politico.eu/article/emmanuel-macron-hosts-kamala-harris-for-dinner",
+      "published_at": "2026-11-20T09:46:45Z",
+      "collected_at": "2026-11-20T10:01:04Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
       "id": "b35791f19e8545b7d829b2de",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -243,6 +273,20 @@
       "url": "https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine",
       "published_at": "2026-11-20T09:30:31Z",
       "collected_at": "2026-11-20T09:31:11Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "bd2f33ffdb74186b83d2cff1",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Unidentified object hits Poland amid Russian attacks on Ukraine",
+      "url": "https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine",
+      "published_at": "2026-11-20T09:30:31Z",
+      "collected_at": "2026-11-20T10:01:04Z",
       "topics": [
         "central_europe",
         "politics",
