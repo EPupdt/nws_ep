@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-20T11:30:54Z",
-  "last_successful_collection_at": "2026-11-20T11:30:54Z",
+  "generated_at": "2026-11-20T12:01:13Z",
+  "last_successful_collection_at": "2026-11-20T12:01:13Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-20T11:30:54Z"
+      "at": "2026-11-20T12:01:13Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-20T11:30:54Z"
+      "at": "2026-11-20T12:01:13Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-20T11:30:54Z"
+      "at": "2026-11-20T12:01:13Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,96 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-20T11:30:54Z"
+      "at": "2026-11-20T12:01:13Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-20T11:30:54Z"
+      "at": "2026-11-20T12:01:13Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
-      "count": "58",
-      "at": "2026-11-20T11:30:54Z"
+      "count": "59",
+      "at": "2026-11-20T12:01:13Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-20T11:30:54Z"
+      "at": "2026-11-20T12:01:13Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-20T11:30:54Z"
+      "at": "2026-11-20T12:01:13Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-20T11:30:54Z"
+      "at": "2026-11-20T12:01:13Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Missile Strike on Kyiv",
-      "summary": "Russian missile attacks struck multiple bridges and infrastructure targets in Kyiv, resulting in casualties and significant damage during a major overnight barrage.",
+      "title": "Russian Missile Strike on Kyiv and Airspace Violation in Poland",
+      "summary": "Major Russian attacks targeted infrastructure in Kyiv, causing significant damage to multiple bridges. Simultaneously, Polish officials reported that a missile and drone violated Polish airspace during the regional escalation.",
+      "article_ids": [
+        "9a05904fa7ac645aa9ccb1fb",
+        "ad696ff3c137ad39f06976b8",
+        "4343281c64976b278a8a1543"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261120-poland-says-russian-missile-hit-its-territory-during-attack-on-ukraine",
+          "headline": "Poland says Russian missile hit its territory during attack on Ukraine",
+          "published_at": "2026-11-20T10:38:51Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/russia-hits-3-kyiv-bridges-in-major-attack-while-poland-reports-airspace-violation",
+          "headline": "Russia hits 3 Kyiv bridges in major attack, while Poland reports airspace violation",
+          "published_at": "2026-11-20T08:39:06Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "UK and EU Hold Rare Brussels Summit",
+      "summary": "European and British leaders convened in Brussels for a rare summit aimed at resetting bilateral relations and addressing post-Brexit ties. Discussions focused on potential cooperation frameworks, trade, and mobility adjustments.",
+      "article_ids": [
+        "04567873f7a563cad674a1de",
+        "4c7149dab4fc01ecbcd73434",
+        "81f70af553ba104191e0036f"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/eu-and-uk-hold-a-rare-summit-in-bid-to-rebuild-ties/a-80001076?maca=en-rss-en-eu-2092-rdf",
+          "headline": "EU and UK hold a rare summit in bid to 'rebuild ties'",
+          "published_at": "2026-11-20T11:30:00Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261120-brussels-london-eye-reset-deal-at-burnham-s-eu-summit",
+          "headline": "Brussels, London eye 'reset' deal at Burnham's EU summit",
+          "published_at": "2026-11-20T10:28:09Z"
+        }
+      ],
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Regional Security and Escalation in Ukraine",
+      "summary": "Recent Russian military strikes severely damaged key bridges across Kyiv during a broad escalation. Polish authorities reported that objects from the attacks entered their airspace, prompting sharp diplomatic rebukes.",
       "article_ids": [
         "4343281c64976b278a8a1543",
-        "eab11db3a5441325f7abe952"
+        "9a05904fa7ac645aa9ccb1fb"
       ],
       "sources": [
         {
@@ -79,83 +129,35 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
-          "headline": "Live: Several killed, dozens wounded in Russian attacks that damaged two Kyiv bridges",
-          "published_at": "2026-11-20T06:32:23Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Poland Airspace Incident",
-      "summary": "Polish authorities reported that Russian missiles and drones entered and hit Polish territory during the extensive military escalation against neighboring Ukraine.",
-      "article_ids": [
-        "9a05904fa7ac645aa9ccb1fb",
-        "91fb221c2ffa27273b2f02cd"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20261120-poland-says-russian-missile-hit-its-territory-during-attack-on-ukraine",
           "headline": "Poland says Russian missile hit its territory during attack on Ukraine",
           "published_at": "2026-11-20T10:38:51Z"
-        },
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine",
-          "headline": "Two Russian missiles and a drone hit Poland, says defence minister",
-          "published_at": "2026-11-20T09:30:31Z"
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "EU-UK Brussels Summit",
-      "summary": "European and British officials are meeting in Brussels for high-level talks aimed at addressing post-Brexit arrangements and fostering renewed diplomatic cooperation. Discussions center on potential reset agreements regarding trade, energy, and regulatory alignment.",
-      "article_ids": [
-        "4bcad28846b6cf32c2657856",
-        "4c7149dab4fc01ecbcd73434"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261120-rare-eu-uk-summit-as-andy-burnham-seeks-to-mend-brexit-damage",
-          "headline": "Rare EU-UK summit as Andy Burnham seeks to mend Brexit damage",
-          "published_at": "2026-11-20T10:42:14Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261120-brussels-london-eye-reset-deal-at-burnham-s-eu-summit",
-          "headline": "Brussels, London eye 'reset' deal at Burnham's EU summit",
-          "published_at": "2026-11-20T10:28:09Z"
-        }
-      ],
-      "source_count": 1
     },
     {
-      "title": "French Presidential Election Dynamics",
-      "summary": "Former French Prime Minister Dominique de Villepin has officially announced his bid for the upcoming presidential election. This political development adds a prominent new contender to the shifting landscape of French national politics.",
+      "title": "UK-EU Diplomatic Engagement",
+      "summary": "The European Union and the United Kingdom initiated a rare summit in Brussels to discuss repairing bilateral ties. Officials are evaluating various policy packages concerning trade, energy, and movement between the regions.",
       "article_ids": [
-        "83f70af553ba104191e0036f",
-        "4cdb1ad82abca99d5ff34ade"
+        "04567873f7a563cad674a1de",
+        "51dcfab857724979255b7745"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261120-former-french-prime-minister-dominique-de-villepin-to-announce-presidential-bid",
-          "headline": "🔴 Former French prime minister Dominique de Villepin announces presidential bid",
-          "published_at": "2026-11-20T10:45:47Z"
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/eu-and-uk-hold-a-rare-summit-in-bid-to-rebuild-ties/a-80001076?maca=en-rss-en-eu-2092-rdf",
+          "headline": "EU and UK hold a rare summit in bid to 'rebuild ties'",
+          "published_at": "2026-11-20T11:30:00Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261120-former-french-prime-minister-dominique-de-villepin-to-announce-presidential-bid",
-          "headline": "Former French prime minister Dominique de Villepin announces presidential bid",
-          "published_at": "2026-11-20T09:31:33Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/brussels-to-link-uk-eu-summit-package-to-tuition-fee-demands",
+          "headline": "Brussels to link UK-EU summit package to tuition fee demands",
+          "published_at": "2026-11-20T10:01:42Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     }
   ],
   "developing": [
@@ -264,6 +266,48 @@
   ],
   "radar": [
     {
+      "id": "0f9c87bb90fc235431cfccd6",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Marine Le Pen’s party faces scrutiny over alleged leaks from interior ministry",
+      "url": "https://www.politico.eu/article/marine-le-pen-national-rally-party-alleged-interior-ministry-leaks",
+      "published_at": "2026-11-20T11:56:27Z",
+      "collected_at": "2026-11-20T12:01:13Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "8cc06d37c1a8a2285a7b4cb3",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Some oil giants will now be labeled ‘sustainable’ under EU finance rules",
+      "url": "https://www.politico.eu/article/some-oil-giants-will-now-be-labeled-sustainable-under-eu-finance-rules",
+      "published_at": "2026-11-20T11:38:49Z",
+      "collected_at": "2026-11-20T12:01:13Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "04567873f7a563cad674a1de",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "EU and UK hold a rare summit in bid to 'rebuild ties'",
+      "url": "https://www.dw.com/en/eu-and-uk-hold-a-rare-summit-in-bid-to-rebuild-ties/a-80001076?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-20T11:30:00Z",
+      "collected_at": "2026-11-20T12:01:13Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "96ea28283d9dd5ec5263c82b",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -320,6 +364,20 @@
       ]
     },
     {
+      "id": "ea04a606a8a96f390af49891",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘Apocalyptic fears’: String of technology failures triggers rush for emergency supplies in the United States",
+      "url": "https://english.elpais.com/usa/2026-11-20/apocalyptic-fears-string-of-technology-failures-triggers-rush-for-emergency-supplies-in-the-united-states.html",
+      "published_at": "2026-11-20T11:19:24Z",
+      "collected_at": "2026-11-20T12:01:13Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "300458c6f9343bd75f4306b0",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -331,6 +389,48 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "30069883a1e237aadcabba2c",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Nationalism and sword duels: The student fraternities that serve as AfD’s recruitment pool",
+      "url": "https://english.elpais.com/international/2026-11-20/nationalism-and-sword-duels-the-student-fraternities-that-serve-as-afds-recruitment-pool.html",
+      "published_at": "2026-11-20T11:18:39Z",
+      "collected_at": "2026-11-20T12:01:13Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "c494fbf22ba6c3aa185b242a",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Inside the world of pick-up coaches: $1,000 courses and dubious scientific claims",
+      "url": "https://english.elpais.com/lifestyle/2026-11-20/inside-the-world-of-pick-up-coaches-1000-courses-and-dubious-scientific-claims.html",
+      "published_at": "2026-11-20T11:17:51Z",
+      "collected_at": "2026-11-20T12:01:13Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "a53a6e9b5ba561a6c7ead66d",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "MAGA turns on Homeland Security Secretary Markwayne Mullin after US systems outages",
+      "url": "https://english.elpais.com/usa/2026-11-20/maga-turns-on-homeland-security-secretary-markwayne-mullin-after-us-systems-outages.html",
+      "published_at": "2026-11-20T11:00:52Z",
+      "collected_at": "2026-11-20T12:01:13Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -425,6 +525,20 @@
       "url": "https://www.france24.com/en/europe/20261120-poland-says-russian-missile-hit-its-territory-during-attack-on-ukraine",
       "published_at": "2026-11-20T10:38:51Z",
       "collected_at": "2026-11-20T11:01:14Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "db41b8f06d525aacf6f191a4",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Poland's Tusk denounces Russian 'provocation' after Warsaw says missile hit territory",
+      "url": "https://www.france24.com/en/europe/20261120-poland-says-russian-missile-hit-its-territory-during-attack-on-ukraine",
+      "published_at": "2026-11-20T10:38:51Z",
+      "collected_at": "2026-11-20T12:01:13Z",
       "topics": [
         "politics",
         "security",
@@ -555,6 +669,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "45eabbde93ecd3185921b346",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Ukraine war spills over into eastern Poland",
+      "url": "https://english.elpais.com/international/2026-11-20/ukraine-war-spills-over-into-eastern-poland.html",
+      "published_at": "2026-11-20T09:38:37Z",
+      "collected_at": "2026-11-20T12:01:13Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -1720,6 +1848,20 @@
       ]
     },
     {
+      "id": "a18f53ae74980c2d25419558",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘GTA VI’ introduces its first Latina protagonist, Lucia Caminos, played by Manni L. Perez",
+      "url": "https://english.elpais.com/technology/2026-11-19/gta-vi-introduces-its-first-latina-protagonist-lucia-caminos-played-by-manni-l-perez.html",
+      "published_at": "2026-11-19T14:50:41Z",
+      "collected_at": "2026-11-20T12:01:13Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "8a4106c93a6c83f3a11ccce5",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2126,146 +2268,6 @@
       ]
     },
     {
-      "id": "23c0d0370a151a2e878f2caa",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 Myanmar committed genocide against Muslim Rohingya minority, UN court finds",
-      "url": "https://www.france24.com/en/asia-pacific/20261119-top-un-court-to-rule-if-myanmar-s-rohingya-crackdown-was-genocide",
-      "published_at": "2026-11-19T11:41:40Z",
-      "collected_at": "2026-11-19T12:01:07Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "1e3830c9da11c121661c15bd",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Watch: EU health chief has ‘ashes’ thrown over him in protest at pesticide rules",
-      "url": "https://www.politico.eu/article/watch-eu-health-chief-has-ashes-thrown-over-him-in-protest-at-pesticide-rules",
-      "published_at": "2026-11-19T11:29:04Z",
-      "collected_at": "2026-11-19T12:01:07Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "d0b700c4d8c8005e8c98990b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Myanmar's Rohingya case: how does the ICJ define genocide?",
-      "url": "https://www.france24.com/en/myanmar-s-rohingya-case-how-does-the-icj-define-genocide",
-      "published_at": "2026-11-19T11:22:31Z",
-      "collected_at": "2026-11-19T11:31:02Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "5084ddadec5e190707e30a77",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The International Court of Justice finds Myanmar committed genocide against the Rohingya",
-      "url": "https://english.elpais.com/international/2026-11-19/the-uns-top-court-finds-myanmars-military-killed-thousands-of-rohingya-and-subjected-them-to-extreme-violence.html",
-      "published_at": "2026-11-19T11:21:23Z",
-      "collected_at": "2026-11-19T12:01:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "d64959a5028aca9f06f7551d",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Show up or risk deportation: The dilemma facing dozens of migrant families summoned to a Texas detention center",
-      "url": "https://english.elpais.com/usa/2026-11-19/show-up-or-risk-deportation-the-dilemma-facing-dozens-of-migrant-families-summoned-to-a-texas-detention-center.html",
-      "published_at": "2026-11-19T11:19:00Z",
-      "collected_at": "2026-11-19T12:01:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "016f16416c0badc186b8be5c",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Worms, fungi and urine to grow potatoes in the Moon’s poor soil",
-      "url": "https://english.elpais.com/science-tech/2026-11-19/worms-fungi-and-urine-to-grow-potatoes-in-the-moons-poor-soil.html",
-      "published_at": "2026-11-19T11:11:24Z",
-      "collected_at": "2026-11-19T12:01:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "28ebe35802b8f2efe0fd7e56",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴 Historic trilateral summit live: Trump, Xi and Putin agree that a nuclear war must never be fought",
-      "url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting",
-      "published_at": "2026-11-19T11:11:03Z",
-      "collected_at": "2026-11-19T11:31:02Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "c1ab0909844e82bd8beb5992",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "AI lab Anthropic sets stock market record with $81 billion IPO",
-      "url": "https://www.france24.com/en/tv-shows/business/20261119-ai-lab-anthropic-sets-stock-market-record-with-81-billion-ipo",
-      "published_at": "2026-11-19T11:02:54Z",
-      "collected_at": "2026-11-19T11:31:02Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "6ac8558244983630211f9007",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'We are making history,' says Trump at historic trilateral with Xi and Putin",
-      "url": "https://www.france24.com/en/video/20261119-we-are-making-history-says-trump-at-historic-trilateral-with-xi-and-putin",
-      "published_at": "2026-11-19T11:02:02Z",
-      "collected_at": "2026-11-19T11:31:02Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "cbeece429afc267e5cb0cd0c",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Ha-Joon Chang: ‘Mexico must redesign its relationship with the US or it will sink with it’",
-      "url": "https://english.elpais.com/economy-and-business/2026-11-19/ha-joon-chang-mexico-must-redesign-its-relationship-with-the-us-or-it-will-sink-with-it.html",
-      "published_at": "2026-11-19T10:42:15Z",
-      "collected_at": "2026-11-19T12:01:07Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "37b3831779d6ef2855e7d1a3",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2308,6 +2310,20 @@
       ]
     },
     {
+      "id": "cb7be392db976d6ff7a1b2bf",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Steve Rosenberg: Historic talks with Xi and Trump are a coup for Putin",
+      "url": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-18T10:53:21Z",
+      "collected_at": "2026-11-20T12:01:13Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "9fdd631d853e6b7e7b406525",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2319,6 +2335,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "165bdf4ce6e40a32a875510b",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "BBC correspondents discuss historic Trump, Xi and Putin meeting",
+      "url": "https://www.bbc.co.uk/news/videos/cqp86k23d84ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-18T08:33:32Z",
+      "collected_at": "2026-11-20T12:01:13Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -2588,6 +2618,20 @@
       ]
     },
     {
+      "id": "556cab91133f0d2083623ca2",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "A $2 million bribe and two mystery accomplices: The FBI’s hunt for Ryan Wedding, the ‘king of cocaine’",
+      "url": "https://english.elpais.com/usa/2026-11-16/a-2-million-bribe-and-two-mystery-accomplices-the-fbis-hunt-for-ryan-wedding-the-king-of-cocaine.html",
+      "published_at": "2026-11-16T10:57:25Z",
+      "collected_at": "2026-11-20T12:01:13Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "b1312b1e13d41337d7298e76",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2735,36 +2779,6 @@
       "title": "Session 2a: Can the EU's better regulation agenda deliver competitiveness?",
       "url": "https://www.bruegel.org/node/12451",
       "published_at": "2026-07-23T09:23:23Z",
-      "collected_at": "2026-11-20T08:31:02Z",
-      "topics": [
-        "analysis",
-        "economy",
-        "energy",
-        "climate"
-      ]
-    },
-    {
-      "id": "d1b8e11cb3441dfa0a9ba6df",
-      "source_id": "bruegel",
-      "source_name": "Bruegel",
-      "title": "Lunch",
-      "url": "https://www.bruegel.org/node/12382",
-      "published_at": "2026-07-03T09:24:08Z",
-      "collected_at": "2026-11-20T08:31:02Z",
-      "topics": [
-        "analysis",
-        "economy",
-        "energy",
-        "climate"
-      ]
-    },
-    {
-      "id": "b885317f8b1de2f3d05260d3",
-      "source_id": "bruegel",
-      "source_name": "Bruegel",
-      "title": "Session 1b: Global monetary issues",
-      "url": "https://www.bruegel.org/node/12381",
-      "published_at": "2026-07-03T09:23:49Z",
       "collected_at": "2026-11-20T08:31:02Z",
       "topics": [
         "analysis",
