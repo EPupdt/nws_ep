@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-20T18:01:13Z",
-  "last_successful_collection_at": "2026-11-20T18:01:13Z",
+  "generated_at": "2026-11-20T18:31:04Z",
+  "last_successful_collection_at": "2026-11-20T18:31:04Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-20T18:01:13Z"
+      "at": "2026-11-20T18:31:04Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "21",
-      "at": "2026-11-20T18:01:13Z"
+      "at": "2026-11-20T18:31:04Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-20T18:01:13Z"
+      "at": "2026-11-20T18:31:04Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-20T18:01:13Z"
+      "at": "2026-11-20T18:31:04Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-20T18:01:13Z"
+      "at": "2026-11-20T18:31:04Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-11-20T18:01:13Z"
+      "at": "2026-11-20T18:31:04Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-20T18:01:13Z"
+      "at": "2026-11-20T18:31:04Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-20T18:01:13Z"
+      "at": "2026-11-20T18:31:04Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-20T18:01:13Z"
+      "at": "2026-11-20T18:31:04Z"
     }
   ],
   "europe_now": [
     {
-      "title": "EU-UK Summit Yields Post-Brexit Reset",
-      "summary": "European and UK leaders have finalized a landmark package of agreements in Brussels covering carbon markets, food standards, and youth mobility. Officials on both sides have hailed the arrangement as a turning point to mend post-Brexit ties after a prolonged period of diplomatic drift.",
+      "title": "Russian Strikes and Cross-Border Incident",
+      "summary": "Russian cruise missiles landed in Polish territory amid massive missile and drone strikes targeting Ukraine. Meanwhile, a defense advisor in Poland stated that authorities successfully prevented a Russian false-flag operation at the border.",
+      "article_ids": [
+        "d50dbbfcb1759a1e2a2d7af9",
+        "343077f13b713a02c6d98d32"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/250305/russian-cruise-missiles-land-in-poland-drones-explode-over-eu-diplomats-in-kyiv-ukraine-battlefield-update-day-1730",
+          "headline": "Russian cruise missiles land in Poland, drones explode over EU diplomats in Kyiv (Ukraine Battlefield update, Day 1,730)",
+          "published_at": "2026-11-20T14:44:24Z"
+        },
+        {
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/11/20/poland-prevented-russian-false-flag-operation-at-border-says-advisor-to-defence-minister",
+          "headline": "Poland prevented Russian false-flag operation at border, says advisor to defence minister",
+          "published_at": "2026-11-20T15:14:51Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Landmark EU-UK Summit Agreement",
+      "summary": "The European Union and the United Kingdom have struck a major deal in Brussels to reset diplomatic relations and rebuild ties following Brexit. Leaders hailed the agreement as a turning point covering areas such as carbon markets, food regulations, and youth mobility.",
       "article_ids": [
         "860c3f4a15c89769a3be4c10",
         "60bf2b1b8f1aa3c86e2e9d32"
@@ -82,29 +105,6 @@
           "url": "https://euobserver.com/250317/burnham-hails-uk-eu-reset-on-food-carbon-markets-and-youth-mobility-after-brexit-decade-of-drift",
           "headline": "Burnham hails UK-EU reset on food, carbon markets and youth mobility, after Brexit ‘decade of drift’",
           "published_at": "2026-11-20T14:37:12Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Regional Security Escalation and Border Incidents",
-      "summary": "Intensified Russian missile and drone strikes targeting Ukraine have expanded into regional security incidents, with reports indicating projectile impacts inside Polish territory. Defense advisors in neighboring nations have also pointed to thwarted cross-border operations and sabotage risks.",
-      "article_ids": [
-        "343077f13b713a02c6d98d32",
-        "d50dbbfcb1759a1e2a2d7af9"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/20/poland-prevented-russian-false-flag-operation-at-border-says-advisor-to-defence-minister",
-          "headline": "Poland prevented Russian false-flag operation at border, says advisor to defence minister",
-          "published_at": "2026-11-20T15:14:51Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/250305/russian-cruise-missiles-land-in-poland-drones-explode-over-eu-diplomats-in-kyiv-ukraine-battlefield-update-day-1730",
-          "headline": "Russian cruise missiles land in Poland, drones explode over EU diplomats in Kyiv (Ukraine Battlefield update, Day 1,730)",
-          "published_at": "2026-11-20T14:44:24Z"
         }
       ],
       "source_count": 2
@@ -112,54 +112,25 @@
   ],
   "top_stories": [
     {
-      "title": "EU-UK Relations",
-      "summary": "The European Union and the United Kingdom have concluded significant negotiations at a Brussels summit to rebuild cooperation. Leaders characterize the agreements as a crucial step forward for cross-channel collaboration on economic and policy matters.",
+      "title": "Cost of Living Protests",
+      "summary": "Youth and cost of living protests have swept across various European countries, including mass rallies held in Spain. Demonstrators voiced widespread discontent over economic pressures and living expenses.",
       "article_ids": [
-        "860c3f4a15c89769a3be4c10",
-        "60bf2b1b8f1aa3c86e2e9d32"
+        "2abf228e6aa2a4349e59d066",
+        "be363ffe74880ee08eb843b5"
       ],
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261120-uk-and-eu-strike-landmark-deal-to-rebuild-ties-after-brexit",
-          "headline": "UK and EU strike ‘landmark’ deal to rebuild ties after Brexit",
-          "published_at": "2026-11-20T17:06:59Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/250317/burnham-hails-uk-eu-reset-on-food-carbon-markets-and-youth-mobility-after-brexit-decade-of-drift",
-          "headline": "Burnham hails UK-EU reset on food, carbon markets and youth mobility, after Brexit ‘decade of drift’",
-          "published_at": "2026-11-20T14:37:12Z"
+          "url": "https://www.france24.com/en/video/20261120-gen-z-protests-spread-across-europe-mass-rallies-over-cost-of-living-in-spain",
+          "headline": "Gen Z protests spread across Europe: Mass rallies over cost of living in Spain",
+          "published_at": "2026-11-20T15:41:34Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
-      "title": "Regional Security and Ukraine Conflict",
-      "summary": "Heavy missile bombardments across Ukrainian infrastructure have heightened security alerts throughout the broader European region. Incidents involving munitions crossing into neighboring states like Poland have further escalated tensions and defensive measures.",
-      "article_ids": [
-        "343077f13b713a02c6d98d32",
-        "d50dbbfcb1759a1e2a2d7af9"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/20/poland-prevented-russian-false-flag-operation-at-border-says-advisor-to-defence-minister",
-          "headline": "Poland prevented Russian false-flag operation at border, says advisor to defence minister",
-          "published_at": "2026-11-20T15:14:51Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/250305/russian-cruise-missiles-land-in-poland-drones-explode-over-eu-diplomats-in-kyiv-ukraine-battlefield-update-day-1730",
-          "headline": "Russian cruise missiles land in Poland, drones explode over EU diplomats in Kyiv (Ukraine Battlefield update, Day 1,730)",
-          "published_at": "2026-11-20T14:44:24Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "French Political Developments",
-      "summary": "French authorities have launched official inquiries into suspected leaks of confidential administrative data concerning political figures. Meanwhile, electoral activity is picking up as former Prime Minister Villepin announces a new presidential run.",
+      "title": "French Political Developments and Inquiries",
+      "summary": "France is experiencing significant political activity as former Prime Minister Villepin announced a presidential run. Simultaneously, authorities launched a probe into the suspected leak of confidential information to Marine Le Pen's political party.",
       "article_ids": [
         "c65fd3b5f6103f6add84180b",
         "3c89c056164afcdf87e380a1"
@@ -170,32 +141,15 @@
           "url": "https://www.france24.com/en/video/20261120-french-ex-pm-villepin-announces-presidential-run",
           "headline": "French ex-PM Villepin announces presidential run",
           "published_at": "2026-11-20T15:40:34Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Cost of Living Protests",
-      "summary": "Youth-led demonstrations and broader public rallies over soaring living costs and economic pressures have broken out across multiple European countries. Participants in nations such as Spain have voiced deep dissatisfaction with prevailing economic conditions despite overall growth.",
-      "article_ids": [
-        "e8e093899ec41918e267c115",
-        "be363ffe74880ee08eb843b5"
-      ],
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-11-20/spains-entrenched-poverty-despite-economic-growth-i-cant-even-afford-a-coke-with-friends.html",
-          "headline": "Spain’s entrenched poverty despite economic growth: ‘I can’t even afford a Coke with friends’",
-          "published_at": "2026-11-20T17:45:30Z"
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261120-gen-z-protests-spread-across-europe-mass-rallies-over-cost-of-living-in-spain",
-          "headline": "Gen Z protests spread across Europe: Mass rallies over cost of living in Spain",
-          "published_at": "2026-11-20T15:41:34Z"
+          "url": "https://www.france24.com/en/france/20261120-france-probes-suspected-leak-confidential-information-le-pen-far-right-party",
+          "headline": "France probes suspected leak of confidential information to candidate Le Pen's party",
+          "published_at": "2026-11-20T14:35:27Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     }
   ],
   "developing": [
@@ -495,6 +449,20 @@
       "url": "https://www.france24.com/en/americas/20261120-watch-live-trump-holds-press-conference-meeting-xi-putin",
       "published_at": "2026-11-20T16:30:04Z",
       "collected_at": "2026-11-20T18:01:13Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "dce8aaa58edcae1ca6beae39",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: Trump hails 'great relationship' with China's Xi after three-way talks with Putin",
+      "url": "https://www.france24.com/en/americas/20261120-watch-live-trump-holds-press-conference-meeting-xi-putin",
+      "published_at": "2026-11-20T16:30:04Z",
+      "collected_at": "2026-11-20T18:31:04Z",
       "topics": [
         "politics",
         "security",
@@ -2364,20 +2332,6 @@
       ]
     },
     {
-      "id": "dfeb348f3bb5c568296ae641",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Anthropic soars 34% on its stock market debut and nears a valuation of $2 trillion",
-      "url": "https://english.elpais.com/economy-and-business/2026-11-19/anthropic-debuts-with-sharp-gains-in-the-largest-ipo-in-history.html",
-      "published_at": "2026-11-19T18:19:49Z",
-      "collected_at": "2026-11-19T18:30:58Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "f935ba4cb144e13114346ace",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2627,20 +2581,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "5d9faae42cb1c6c57a63a1f2",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Elisardo Becoña, clinical psychologist: ‘Hashish and marijuana are more potent today, which raises the risk of addiction and psychotic episodes’",
-      "url": "https://english.elpais.com/health/2026-11-17/elisardo-becona-clinical-psychologist-hashish-and-marijuana-are-more-potent-today-which-raises-the-risk-of-addiction-and-psychotic-episodes.html",
-      "published_at": "2026-11-17T16:42:41Z",
-      "collected_at": "2026-11-19T18:30:58Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
