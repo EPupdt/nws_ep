@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-20T07:30:58Z",
-  "last_successful_collection_at": "2026-11-20T07:30:58Z",
+  "generated_at": "2026-11-20T08:01:10Z",
+  "last_successful_collection_at": "2026-11-20T08:01:10Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-20T07:30:58Z"
+      "at": "2026-11-20T08:01:10Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "22",
-      "at": "2026-11-20T07:30:58Z"
+      "count": "21",
+      "at": "2026-11-20T08:01:10Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-11-20T07:30:58Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-20T08:01:10Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,45 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-20T07:30:58Z"
+      "at": "2026-11-20T08:01:10Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-20T07:30:58Z"
+      "at": "2026-11-20T08:01:10Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-20T07:30:58Z"
+      "at": "2026-11-20T08:01:10Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-20T07:30:58Z"
+      "at": "2026-11-20T08:01:10Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-20T07:30:58Z"
+      "at": "2026-11-20T08:01:10Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-20T07:30:58Z"
+      "at": "2026-11-20T08:01:10Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Attacks Damage Bridges in Kyiv",
-      "summary": "Deadly Russian strikes have caused damage to two bridges in the Ukrainian capital, according to the city's mayor. The bombardment has also resulted in fatalities and impacted diplomatic premises.",
+      "title": "Russian Attacks on Kyiv",
+      "summary": "Deadly Russian attacks have caused damage to two bridges in Kyiv, according to the city's mayor.",
       "article_ids": [
-        "cfa1d77c553832f2b5185ac8",
-        "ad8a1812ec2ace375ee74bfa",
-        "8bb541658ec6c866bae9156e"
+        "cfa1d77c553832f2b5185ac8"
       ],
       "sources": [
         {
@@ -77,22 +75,15 @@
           "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
           "headline": "🔴 Live: Deadly Russian attacks damage two bridges in Kyiv, mayor says",
           "published_at": "2026-11-20T06:50:49Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
-          "headline": "Live: Deadly Russian attacks damage two bridges in Kyiv, mayor says",
-          "published_at": "2026-11-20T06:32:23Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "EU and UK Prepare for Brussels Summit Deals",
-      "summary": "Leaders from the European Union and the United Kingdom are scheduled to sign agreements concerning trade, energy, and youth mobility during an upcoming summit in Brussels.",
+      "title": "EU-UK Brussels Summit",
+      "summary": "The European Union and the United Kingdom are holding a summit in Brussels to sign new agreements covering trade, energy, and youth mobility.",
       "article_ids": [
-        "6db8e1e5dbb794ae210b71d5",
-        "4c85b91bdcd0f379f25b60bf"
+        "6db8e1e5dbb794ae210b71d5"
       ],
       "sources": [
         {
@@ -100,21 +91,15 @@
           "url": "https://www.france24.com/en/europe/20261120-eu-and-uk-set-to-sign-deals-on-trade-energy-youth-mobility-at-brussels-summit",
           "headline": "EU and UK set to sign deals on trade, energy, youth mobility at Brussels summit",
           "published_at": "2026-11-20T02:00:15Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-uk-summit-live-updates",
-          "headline": "EU-UK summit — live updates",
-          "published_at": "2026-11-19T23:05:00Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "Ukraine Security and Regional Strikes",
-      "summary": "Recent military strikes in Kyiv have resulted in casualties and infrastructure damage. International allies continue to debate security strategies and defensive measures in response to the ongoing conflict.",
+      "title": "Kyiv Bridge Damage",
+      "summary": "Russian military strikes have hit the Ukrainian capital city. The attacks caused casualties and inflicted damage on local bridge infrastructure.",
       "article_ids": [
         "cfa1d77c553832f2b5185ac8",
         "8bb541658ec6c866bae9156e"
@@ -136,24 +121,24 @@
       "source_count": 1
     },
     {
-      "title": "EU-UK Diplomatic Engagements",
-      "summary": "The upcoming summit in Brussels is set to feature cooperative agreements between European and British leaders. Discussions focus on areas such as trade, energy policy, and cross-border mobility.",
+      "title": "UK-EU Relations and Deals",
+      "summary": "British and European leaders are meeting in Brussels for a major summit. Negotiators have prepared bilateral deals focusing on trade, energy cooperation, and youth mobility.",
       "article_ids": [
-        "6db8e1e5dbb794ae210b71d5",
-        "e79786877fa547828d83c8a8"
+        "25a0a4ed3ba233487c24d7ef",
+        "6db8e1e5dbb794ae210b71d5"
       ],
       "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cm4gn9xw1v99o?at_medium=RSS&at_campaign=rss",
+          "headline": "New EU-UK deal should reduce 'Irish Sea border' impact",
+          "published_at": "2026-11-20T06:26:44Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20261120-eu-and-uk-set-to-sign-deals-on-trade-energy-youth-mobility-at-brussels-summit",
           "headline": "EU and UK set to sign deals on trade, energy, youth mobility at Brussels summit",
           "published_at": "2026-11-20T02:00:15Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/249992/uk-eu-summit-to-see-mutual-love-bombing-but-british-must-decide-what-to-do-next",
-          "headline": "UK-EU summit to see mutual love-bombing, but British must decide what to do next",
-          "published_at": "2026-11-19T17:16:16Z"
         }
       ],
       "source_count": 2
@@ -164,7 +149,7 @@
       "label": "Putin · Trump · Summit · Historic",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 19,
+      "item_count": 18,
       "latest_at": "2026-11-19T19:33:56Z",
       "sources": [
         {
@@ -184,6 +169,33 @@
           "url": "https://english.elpais.com/international/2026-11-19/xi-trump-and-putin-begin-historic-trilateral-meeting-in-shenzhen.html",
           "headline": "Xi, Trump and Putin begin historic trilateral meeting in Shenzhen",
           "published_at": "2026-11-19T09:11:07Z"
+        }
+      ]
+    },
+    {
+      "label": "Ukraine · Europe · Putin · Trump",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 5,
+      "latest_at": "2026-11-20T00:50:24Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+          "headline": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+          "published_at": "2026-11-20T00:50:24Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/the-debate/20261119-three-of-a-kind-xi-hosts-trump-and-putin-as-ukraine-war-grinds-on",
+          "headline": "Three of a kind? Xi hosts Trump and Putin as Ukraine war grinds on",
+          "published_at": "2026-11-19T19:39:43Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/donald-trump-presses-european-leaders-about-ukraine-aid-after-vladimir-putin-summit",
+          "headline": "Trump presses European leaders about Ukraine aid in call after Putin summit",
+          "published_at": "2026-11-19T16:38:37Z"
         }
       ]
     },
@@ -234,27 +246,6 @@
           "published_at": "2026-11-19T16:45:28Z"
         }
       ]
-    },
-    {
-      "label": "Ukraine · Trump · Putin · NATO",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-11-19T20:41:06Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/kushner-says-trump-open-to-extend-nato-mutual-defense-type-clause-to-ukraine",
-          "headline": "Kushner says Trump 'open' to extend NATO mutual defense-type clause to Ukraine",
-          "published_at": "2026-11-19T20:41:06Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/donald-trump-presses-european-leaders-about-ukraine-aid-after-vladimir-putin-summit",
-          "headline": "Trump presses European leaders about Ukraine aid in call after Putin summit",
-          "published_at": "2026-11-19T16:38:37Z"
-        }
-      ]
     }
   ],
   "radar": [
@@ -297,6 +288,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "25a0a4ed3ba233487c24d7ef",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "New EU-UK deal should reduce 'Irish Sea border' impact",
+      "url": "https://www.bbc.co.uk/news/articles/cm4gn9xw1v99o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-20T06:26:44Z",
+      "collected_at": "2026-11-20T08:01:10Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -451,6 +456,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "231a93604b0d92545ede4310",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-20T00:50:24Z",
+      "collected_at": "2026-11-20T08:01:10Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -787,6 +806,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "f935ba4cb144e13114346ace",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Analysis: Trilateral summit high on spectacle, short on substance",
+      "url": "https://www.bbc.co.uk/news/articles/cwn70vrjlg8ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-19T17:55:15Z",
+      "collected_at": "2026-11-20T08:01:10Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -2093,20 +2126,6 @@
       ]
     },
     {
-      "id": "b5031be8472afd1f094b130b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Gaza: Israel launched new offensive on Nuseirat",
-      "url": "https://www.france24.com/en/gaza-israel-launched-new-offensive-on-nuseirat",
-      "published_at": "2026-11-19T07:50:10Z",
-      "collected_at": "2026-11-19T08:01:08Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "74087cbed4db23b1c4e6d91b",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2118,34 +2137,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "b892eb9840a835eb520622c8",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "APEC summit: Trump seeks nuclear arms cuts, but few concrete results expected",
-      "url": "https://www.france24.com/en/video/20261119-apec-summit-trump-seeks-nuclear-arms-cuts-but-few-concrete-results-expected",
-      "published_at": "2026-11-19T07:47:21Z",
-      "collected_at": "2026-11-19T08:01:08Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "11596ba58c3c1d1e56b7ee1b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Beijing summit: AI and tech competition between US and China",
-      "url": "https://www.france24.com/en/beijing-summit-ai-and-tech-competition-between-us-and-china",
-      "published_at": "2026-11-19T07:45:52Z",
-      "collected_at": "2026-11-19T08:01:08Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -2163,62 +2154,6 @@
       ]
     },
     {
-      "id": "02c7a42bf07f50292a953aba",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Crimean Bridge attacked again, Russia says",
-      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-19T07:32:06Z",
-      "collected_at": "2026-11-19T08:01:08Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "bdca42052d1ac46137ac7a9c",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Why depth beats breadth in Europe’s hunt for an AI edge",
-      "url": "https://www.politico.eu/sponsored-content/why-depth-beats-breadth-in-europes-hunt-for-an-ai-edge",
-      "published_at": "2026-11-19T07:00:00Z",
-      "collected_at": "2026-11-19T07:30:58Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "5fdc7c8fce0df8069962d0b0",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Trump says he and Putin have a 'great relationship' at meeting",
-      "url": "https://www.bbc.co.uk/news/videos/cm4gn31yn0x9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-19T06:52:54Z",
-      "collected_at": "2026-11-19T07:30:58Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "8ed07515411c3ef1b605b00f",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Tennis the saviour for player who tried to take own life before Wimbledon",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cm5y18p5v12yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-19T06:17:35Z",
-      "collected_at": "2026-11-19T07:30:58Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "8a6729468b64256494069cf8",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2229,20 +2164,6 @@
       "topics": [
         "politics",
         "security",
-        "society"
-      ]
-    },
-    {
-      "id": "7d2b8f7507eb060750b98c04",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Crimean Bridge attacked again, Russian official says",
-      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-19T04:37:17Z",
-      "collected_at": "2026-11-19T07:30:58Z",
-      "topics": [
-        "breaking",
-        "politics",
         "society"
       ]
     },
@@ -2331,34 +2252,6 @@
       ]
     },
     {
-      "id": "03b02d323dddb8bc784aadc5",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
-      "url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-19T00:49:19Z",
-      "collected_at": "2026-11-19T07:30:58Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "89962e63328d91ea0df350db",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
-      "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-18T23:28:03Z",
-      "collected_at": "2026-11-19T07:30:58Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "a01161ef490c2dd12a15470b",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2366,6 +2259,20 @@
       "url": "https://www.bbc.co.uk/news/articles/cxr5g4lyp94no?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-18T11:44:25Z",
       "collected_at": "2026-11-19T19:01:01Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "d364e5d53691e86d978996ce",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "The EU that Burnham is eyeing up is very different to the one Britain left",
+      "url": "https://www.bbc.co.uk/news/articles/cq4gn3109pzgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-18T00:39:06Z",
+      "collected_at": "2026-11-20T08:01:10Z",
       "topics": [
         "breaking",
         "politics",
@@ -2772,6 +2679,20 @@
       "url": "https://english.elpais.com/people/2026-11-14/eating-spicy-wings-and-guessing-games-when-selling-the-movie-becomes-the-show.html",
       "published_at": "2026-11-14T04:00:00Z",
       "collected_at": "2026-11-20T06:01:04Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "6bd37cf191b1a637aaec6dd2",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "How the US midterms could reshape the outlook for the dollar, bonds and Wall Street",
+      "url": "https://english.elpais.com/economy-and-business/2026-10-31/how-the-us-midterms-could-reshape-the-outlook-for-the-dollar-bonds-and-wall-street.html",
+      "published_at": "2026-10-31T04:00:00Z",
+      "collected_at": "2026-11-20T08:01:10Z",
       "topics": [
         "politics",
         "society",
