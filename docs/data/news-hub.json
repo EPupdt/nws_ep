@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-20T13:31:01Z",
-  "last_successful_collection_at": "2026-11-20T13:31:01Z",
+  "generated_at": "2026-11-20T14:01:13Z",
+  "last_successful_collection_at": "2026-11-20T14:01:13Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-20T13:31:01Z"
+      "at": "2026-11-20T14:01:13Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-20T13:31:01Z"
+      "at": "2026-11-20T14:01:13Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-20T13:31:01Z"
+      "at": "2026-11-20T14:01:13Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-20T13:31:01Z"
+      "at": "2026-11-20T14:01:13Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-20T13:31:01Z"
+      "at": "2026-11-20T14:01:13Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-11-20T13:31:01Z"
+      "at": "2026-11-20T14:01:13Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-20T13:31:01Z"
+      "at": "2026-11-20T14:01:13Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-20T13:31:01Z"
+      "at": "2026-11-20T14:01:13Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-20T13:31:01Z"
+      "at": "2026-11-20T14:01:13Z"
     }
   ],
   "europe_now": [
@@ -161,10 +161,10 @@
   ],
   "developing": [
     {
-      "label": "Putin · Trump · Ukraine · Berlin",
+      "label": "Putin · Trump · Ukraine · China",
       "origin": "convergence",
-      "source_count": 3,
-      "item_count": 8,
+      "source_count": 2,
+      "item_count": 7,
       "latest_at": "2026-11-20T10:41:25Z",
       "sources": [
         {
@@ -178,12 +178,6 @@
           "url": "https://www.politico.eu/article/donald-trump-presses-european-leaders-about-ukraine-aid-after-vladimir-putin-summit",
           "headline": "After Putin talks, Trump tells Europe it could save lives and cash if Ukraine war ends",
           "published_at": "2026-11-19T16:38:37Z"
-        },
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/wadephul-coalition-of-the-willing-talks-in-berlin-send-strong-signal-to-moscow/a-79990664?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Wadephul: 'Coalition of the Willing' talks in Berlin send strong signal to Moscow",
-          "published_at": "2026-11-19T13:56:00Z"
         }
       ]
     },
@@ -252,6 +246,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "393fc7c214be8020f66c5433",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Estonia’s border closure makes Russia pay a price for alleged arson, as sabotage attacks spread across the EU",
+      "url": "https://euobserver.com/249994/estonias-border-closure-makes-russia-pay-a-price-for-alleged-arson-as-sabotage-attacks-spread-across-the-eu",
+      "published_at": "2026-11-20T13:29:36Z",
+      "collected_at": "2026-11-20T14:01:13Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "95631a5af4d8c6b6dcd12c85",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "At least 10% of the world’s population suffers from problematic internet use",
+      "url": "https://english.elpais.com/health/2026-11-20/at-least-10-of-the-worlds-population-suffers-from-problematic-internet-use.html",
+      "published_at": "2026-11-20T13:29:22Z",
+      "collected_at": "2026-11-20T14:01:13Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "731eb945a5d6651b4fc4eb25",
       "source_id": "el_pais_english",
@@ -442,6 +464,20 @@
       "url": "https://www.dw.com/en/eu-and-uk-hold-a-rare-summit-in-bid-to-rebuild-ties/a-80001076?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-11-20T11:30:00Z",
       "collected_at": "2026-11-20T12:01:13Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "57e6aad030101d0e94a6bae0",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "EU and UK strike 'landmark deal' to strengthen ties after Brexit",
+      "url": "https://www.dw.com/en/eu-and-uk-strike-landmark-deal-to-strengthen-ties-after-brexit/a-80001076?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-20T11:30:00Z",
+      "collected_at": "2026-11-20T14:01:13Z",
       "topics": [
         "politics",
         "society",
@@ -2157,20 +2193,6 @@
       ]
     },
     {
-      "id": "8df20a09a357d0c9345373ed",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland deepens regional gas cooperation Hungary, Czech Republic, Slovakia and Lithuania",
-      "url": "https://notesfrompoland.com/2026/11/19/poland-deepens-regional-gas-cooperation-hungary-czech-republic-slovakia-and-lithuania",
-      "published_at": "2026-11-19T13:59:09Z",
-      "collected_at": "2026-11-19T14:01:12Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "8b04cf115d2716abac7bef22",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -2196,20 +2218,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "e36a5b772139190d2ff416d8",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Ashton Kutcher on the verge of becoming a billionaire thanks to Anthropic’s IPO",
-      "url": "https://english.elpais.com/people/2026-11-19/ashton-kutcher-on-the-verge-of-becoming-a-billionaire-thanks-to-anthropics-ipo.html",
-      "published_at": "2026-11-19T13:23:02Z",
-      "collected_at": "2026-11-19T14:01:12Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -2500,6 +2508,20 @@
       "url": "https://english.elpais.com/science-tech/2026-11-17/the-odyssey-of-voyager-1-a-chat-with-the-cosmos-one-light-day-from-earth.html",
       "published_at": "2026-11-17T13:35:14Z",
       "collected_at": "2026-11-19T14:31:06Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "eb176588d61a14107b9d05cd",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Charli D’Amelio, the TikTok queen who had to break away from her family to take control of her life",
+      "url": "https://english.elpais.com/people/2026-11-16/charli-damelio-the-tiktok-queen-who-had-to-break-away-from-her-family-to-take-control-of-her-life.html",
+      "published_at": "2026-11-16T12:56:15Z",
+      "collected_at": "2026-11-20T14:01:13Z",
       "topics": [
         "politics",
         "society",
