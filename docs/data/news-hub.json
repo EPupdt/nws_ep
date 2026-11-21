@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-21T08:01:00Z",
-  "last_successful_collection_at": "2026-11-21T08:01:00Z",
+  "generated_at": "2026-11-21T08:30:51Z",
+  "last_successful_collection_at": "2026-11-21T08:30:51Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-21T08:01:00Z"
+      "at": "2026-11-21T08:30:51Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-21T08:01:00Z"
+      "at": "2026-11-21T08:30:51Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-21T08:01:00Z"
+      "at": "2026-11-21T08:30:51Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,66 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-21T08:01:00Z"
+      "at": "2026-11-21T08:30:51Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-21T08:01:00Z"
+      "at": "2026-11-21T08:30:51Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-11-21T08:01:00Z"
+      "at": "2026-11-21T08:30:51Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-21T08:01:00Z"
+      "at": "2026-11-21T08:30:51Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-21T08:01:00Z"
+      "at": "2026-11-21T08:30:51Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-21T08:01:00Z"
+      "at": "2026-11-21T08:30:51Z"
     }
   ],
   "europe_now": [
     {
-      "title": "UK and EU Post-Brexit Deal",
-      "summary": "The United Kingdom and the European Union have reached a landmark agreement to rebuild diplomatic and economic ties following Brexit. Officials continue to outline details regarding how this new framework will impact future bilateral relations.",
+      "title": "French Court Sentences Police Officers Over Assault",
+      "summary": "A French court has handed down prison sentences to police officers involved in the 2020 beating of music producer Michel Zecler in Paris. The verdict comes amid ongoing domestic debates regarding law enforcement accountability and new legislative measures concerning police powers.",
+      "article_ids": [
+        "a80d16ed314bb3d354d37331",
+        "97714574ffaa717b034b464e"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
+          "headline": "French police officers sentenced for beating of music producer Michel Zecler",
+          "published_at": "2026-11-20T22:37:09Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261120-paris-police-officers-sentenced-to-prison-over-2020-beating-of-black-man-michel-zecler",
+          "headline": "Paris police officers sentenced to prison over 2020 beating of Black man",
+          "published_at": "2026-11-20T22:04:45Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "EU-UK Landmark Diplomatic Reset",
+      "summary": "The United Kingdom and the European Union have reached a landmark agreement aimed at rebuilding bilateral relations and addressing post-Brexit arrangements. Officials from both sides are continuing to navigate the complex implementation of these new cooperative frameworks.",
       "article_ids": [
         "860c3f4a15c89769a3be4c10",
         "12338734ec0e447edabacf6e"
@@ -85,75 +108,12 @@
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "French Police Sentenced",
-      "summary": "A French court has delivered prison sentences to multiple police officers involved in the 2020 beating of a music producer in Paris. The ruling follows significant public debate surrounding recent legislative changes regarding police conduct and security laws in the country.",
-      "article_ids": [
-        "97714574ffaa717b034b464e",
-        "ce5a390617da8e38cd1d6a61"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261120-paris-police-officers-sentenced-to-prison-over-2020-beating-of-black-man-michel-zecler",
-          "headline": "Paris police officers sentenced to prison over 2020 beating of Black man",
-          "published_at": "2026-11-20T22:04:45Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261120-licence-to-kill-french-parliament-adopts-police-shootings-law-slammed-activists",
-          "headline": "'Licence to kill': French parliament adopts police shootings law slammed by activists",
-          "published_at": "2026-11-20T21:17:59Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "EU-UK Diplomatic Reset",
-      "summary": "The United Kingdom and the European Union have concluded a prominent summit focused on establishing a new framework for post-Brexit relations. Ministers have emphasized that implementing these changes will require a structured timeline.",
-      "article_ids": [
-        "860c3f4a15c89769a3be4c10",
-        "87b42be76f5e1342e7681c6f"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261120-uk-and-eu-strike-landmark-deal-to-rebuild-ties-after-brexit",
-          "headline": "UK and EU strike ‘landmark’ deal to rebuild ties after Brexit",
-          "published_at": "2026-11-20T17:06:59Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/uk-brexit-eu-summit",
-          "headline": "UK will take its time setting out Brexit options, says minister",
-          "published_at": "2026-11-20T17:50:49Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "French Legal and Legislative Actions",
-      "summary": "Parisian courts have handed down prison terms to officers implicated in a high-profile assault case. Concurrently, the French parliament has moved forward with controversial legislation concerning police engagement rules.",
-      "article_ids": [
-        "97714574ffaa717b034b464e",
-        "ce5a390617da8e38cd1d6a61"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261120-licence-to-kill-french-parliament-adopts-police-shootings-law-slammed-activists",
-          "headline": "'Licence to kill': French parliament adopts police shootings law slammed by activists",
-          "published_at": "2026-11-20T21:17:59Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Corporate Acquisition in Poland",
-      "summary": "A consortium led by FedEx has finalized a multi-billion euro acquisition of Poland's major delivery firm, InPost. The transaction marks a significant consolidation within the Central European logistics sector.",
+      "title": "Major Corporate Acquisition Finalized in Poland",
+      "summary": "A consortium led by FedEx has successfully completed a large-scale corporate takeover of Polish delivery giant InPost. The transaction values the regional logistics provider at several billion euros.",
       "article_ids": [
         "be478a1ba09d66de8b997f9b"
       ],
@@ -166,14 +126,37 @@
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "High-Profile Legal Investigations in France",
+      "summary": "French authorities have launched formal investigations involving prominent cultural figures, including actor Gérard Depardieu and a well-known writer, regarding sexual allegations. The inquiries form part of a broader wave of legal scrutiny affecting high-profile personalities in the country.",
+      "article_ids": [
+        "1672b03f493c16099cd8fb98",
+        "38b074eec70f99872a292777"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c9ly43pj10mvo?at_medium=RSS&at_campaign=rss",
+          "headline": "Gérard Depardieu and French author investigated over sexual allegations",
+          "published_at": "2026-11-20T19:45:20Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261120-france-investigates-gerard-depardieu-writer-houellebecq-over-alleged-gang-rape",
+          "headline": "France investigates actor Depardieu, writer Houellebecq over alleged gang rape",
+          "published_at": "2026-11-20T16:27:56Z"
+        }
+      ],
+      "source_count": 2
     }
   ],
   "developing": [
     {
-      "label": "Russian · Poland · missiles · Ukraine",
+      "label": "Poland · Russian · missiles · Ukraine",
       "origin": "convergence",
       "source_count": 6,
-      "item_count": 16,
+      "item_count": 15,
       "latest_at": "2026-11-20T20:33:20Z",
       "sources": [
         {
@@ -203,23 +186,29 @@
       ]
     },
     {
-      "label": "Summit · EU · Historic",
+      "label": "COP31 · Climate · fossil · fuel",
       "origin": "convergence",
-      "source_count": 2,
+      "source_count": 3,
       "item_count": 3,
-      "latest_at": "2026-11-20T19:42:58Z",
+      "latest_at": "2026-11-21T08:12:00Z",
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261120-friends-but-who-benefits-notes-from-an-historic-summit-myanmar-s-genocide-ruling-time-to-bre-join-the-eu",
-          "headline": "'Friends' But Who Benefits? Notes from an Historic Summit, Myanmar's Genocide Ruling, Time to 'Bre-join' the EU?",
-          "published_at": "2026-11-20T19:42:58Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/250385/cop31-in-antalya-five-takeaways-from-the-implementation-climate-summit",
+          "headline": "COP31 in Antalya: five takeaways from the ‘implementation’ climate summit",
+          "published_at": "2026-11-21T08:12:00Z"
         },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/eu-warns-against-cop31-becoming-a-fossil-fuel-summit",
           "headline": "EU warns against COP31 becoming a ‘fossil fuel summit’",
           "published_at": "2026-11-20T16:03:22Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261120-cop31-wrapping-up-in-turkey-climate-deal-elusive-as-fossil-fuels-go-unmentioned",
+          "headline": "COP31 wrapping up in Turkey: Climate deal elusive as fossil fuels go unmentioned",
+          "published_at": "2026-11-20T14:38:56Z"
         }
       ]
     },
@@ -267,6 +256,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "9561fc260f3263c953e8e54c",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "COP31 in Antalya: five takeaways from the ‘implementation’ climate summit",
+      "url": "https://euobserver.com/250385/cop31-in-antalya-five-takeaways-from-the-implementation-climate-summit",
+      "published_at": "2026-11-21T08:12:00Z",
+      "collected_at": "2026-11-21T08:30:51Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "abba0e4c60655d36225c2f22",
       "source_id": "france24",
@@ -2144,20 +2147,6 @@
       ]
     },
     {
-      "id": "25a0a4ed3ba233487c24d7ef",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "New EU-UK deal should reduce 'Irish Sea border' impact",
-      "url": "https://www.bbc.co.uk/news/articles/cm4gn9xw1v99o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-20T06:26:44Z",
-      "collected_at": "2026-11-20T08:01:10Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "5431202711445fa73d05c1c2",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2168,20 +2157,6 @@
       "topics": [
         "politics",
         "security",
-        "society"
-      ]
-    },
-    {
-      "id": "231a93604b0d92545ede4310",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-20T00:50:24Z",
-      "collected_at": "2026-11-20T08:01:10Z",
-      "topics": [
-        "breaking",
-        "politics",
         "society"
       ]
     },
@@ -2211,20 +2186,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "f935ba4cb144e13114346ace",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Analysis: Trilateral summit high on spectacle, short on substance",
-      "url": "https://www.bbc.co.uk/news/articles/cwn70vrjlg8ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-19T17:55:15Z",
-      "collected_at": "2026-11-20T08:01:10Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
@@ -2473,20 +2434,6 @@
       "url": "https://www.bbc.co.uk/news/videos/cqp86k23d84ro?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-18T08:33:32Z",
       "collected_at": "2026-11-20T12:01:13Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "d364e5d53691e86d978996ce",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "The EU that Burnham is eyeing up is very different to the one Britain left",
-      "url": "https://www.bbc.co.uk/news/articles/cq4gn3109pzgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-18T00:39:06Z",
-      "collected_at": "2026-11-20T08:01:10Z",
       "topics": [
         "breaking",
         "politics",
