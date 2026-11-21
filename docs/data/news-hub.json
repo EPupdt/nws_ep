@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-21T07:01:16Z",
-  "last_successful_collection_at": "2026-11-21T07:01:16Z",
+  "generated_at": "2026-11-21T07:30:58Z",
+  "last_successful_collection_at": "2026-11-21T07:30:58Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-21T07:01:16Z"
+      "at": "2026-11-21T07:30:58Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-21T07:01:16Z"
+      "at": "2026-11-21T07:30:58Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-21T07:01:16Z"
+      "at": "2026-11-21T07:30:58Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-21T07:01:16Z"
+      "at": "2026-11-21T07:30:58Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-21T07:01:16Z"
+      "at": "2026-11-21T07:30:58Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-11-21T07:01:16Z"
+      "at": "2026-11-21T07:30:58Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-21T07:01:16Z"
+      "at": "2026-11-21T07:30:58Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-21T07:01:16Z"
+      "at": "2026-11-21T07:30:58Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-21T07:01:16Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-21T07:30:58Z"
     }
   ],
   "europe_now": [
     {
-      "title": "UK and EU Reach Post-Brexit Agreement",
-      "summary": "The United Kingdom and the European Union have concluded a significant agreement aimed at resetting diplomatic and economic ties following Brexit. Leaders and officials are evaluating the broader implications of the deal for future cooperation.",
+      "title": "UK and EU reach agreement to reset post-Brexit relations",
+      "summary": "Leaders from the United Kingdom and the European Union have concluded a landmark diplomatic framework aimed at rebuilding bilateral ties following Brexit. The agreement addresses key areas of cooperation and establishes new mechanisms for ongoing political engagement.",
       "article_ids": [
         "860c3f4a15c89769a3be4c10",
         "12338734ec0e447edabacf6e"
@@ -85,29 +85,12 @@
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "Cost of Living Protests Sweep European Nations",
-      "summary": "Mass demonstrations driven by economic pressures and cost-of-living concerns have spread across multiple European countries. Protesters have organized rallies to demand government action amid ongoing financial strains.",
-      "article_ids": [
-        "2abf228e6aa2a4349e59d066",
-        "be363ffe74880ee08eb843b5"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261120-gen-z-protests-spread-across-europe-mass-rallies-over-cost-of-living-in-spain",
-          "headline": "Gen Z protests spread across Europe: Mass rallies over cost of living in Spain",
-          "published_at": "2026-11-20T15:41:34Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "French Court Sentences Police Officers Over Assault",
-      "summary": "A French court has handed down prison sentences to police officers involved in the 2020 beating of a music producer. The high-profile case has drawn widespread attention regarding police accountability and conduct.",
+      "title": "French court delivers prison sentences in high-profile assault case",
+      "summary": "A French court has sentenced multiple police officers to prison terms following their involvement in the 2020 beating of a music producer. The judicial outcome follows extensive public scrutiny and legal proceedings regarding law enforcement accountability.",
       "article_ids": [
         "a80d16ed314bb3d354d37331",
         "97714574ffaa717b034b464e"
@@ -123,8 +106,8 @@
       "source_count": 1
     },
     {
-      "title": "Major Delivery Acquisition Completed in Poland",
-      "summary": "A consortium led by FedEx has successfully finalized a multibillion-euro takeover of a prominent Polish delivery enterprise. The transaction represents a significant corporate consolidation within the Central European logistics sector.",
+      "title": "Major logistics acquisition finalized in Poland",
+      "summary": "A FedEx-led consortium has successfully completed a multibillion-euro acquisition of Poland's prominent delivery enterprise, InPost. The massive transaction marks a significant consolidation within the European logistics and delivery sector.",
       "article_ids": [
         "be478a1ba09d66de8b997f9b"
       ],
@@ -238,6 +221,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "abba0e4c60655d36225c2f22",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "US Agriculture Department and FBI hit by cyberattacks, media report",
+      "url": "https://www.france24.com/en/americas/20261121-us-agriculture-department-fbi-hit-by-cyberattacks-media-report",
+      "published_at": "2026-11-21T07:01:04Z",
+      "collected_at": "2026-11-21T07:30:58Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "180c7d7dfc272ffd3bb55b53",
       "source_id": "el_pais_english",
@@ -838,6 +835,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "9bedee83f0a2ef7fe602631f",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "French billionaire hunter takes fight global after California tax defeat",
+      "url": "https://www.politico.eu/article/gabriel-zucman-billionaires-california-taxes",
+      "published_at": "2026-11-20T16:15:46Z",
+      "collected_at": "2026-11-21T07:30:58Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
       ]
     },
     {
