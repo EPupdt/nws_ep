@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-21T17:01:11Z",
-  "last_successful_collection_at": "2026-11-21T17:01:11Z",
+  "generated_at": "2026-11-21T17:31:06Z",
+  "last_successful_collection_at": "2026-11-21T17:31:06Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-21T17:01:11Z"
+      "at": "2026-11-21T17:31:06Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-21T17:01:11Z"
+      "at": "2026-11-21T17:31:06Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-21T17:01:11Z"
+      "at": "2026-11-21T17:31:06Z"
     },
     {
       "id": "euractiv",
@@ -29,68 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-21T17:01:11Z"
+      "at": "2026-11-21T17:31:06Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-21T17:01:11Z"
+      "at": "2026-11-21T17:31:06Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-11-21T17:01:11Z"
+      "at": "2026-11-21T17:31:06Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-21T17:01:11Z"
+      "at": "2026-11-21T17:31:06Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-21T17:01:11Z"
+      "at": "2026-11-21T17:31:06Z"
     },
     {
       "id": "bruegel",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-21T17:01:11Z"
+      "status": "ok",
+      "count": "10",
+      "at": "2026-11-21T17:31:06Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Denmark Accuses Russia of Assassination Plot",
-      "summary": "Denmark has accused Russia of orchestrating an assassination plot targeting a US-Ukrainian rapper and expelled a diplomat in response. European Commission President Ursula von der Leyen condemned the incident, highlighting rising security concerns.",
-      "article_ids": [
-        "fb50deea726e3906a092dd3d",
-        "08ca3c7a9b4b07f0e5d420c1",
-        "5e4306cfcf49932d757c9463",
-        "445cb9587d2f3e40cfc348b6"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/denmark-accuses-russia-of-assassination-plot-expels-diplomat",
-          "headline": "Denmark accuses Russia of assassination plot, expels diplomat",
-          "published_at": "2026-11-21T09:51:01Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
-          "headline": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
-          "published_at": "2026-11-21T10:26:36Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "Drone Attack Damages Russian Cargo Ship in Gulf of Finland",
-      "summary": "A Russian cargo ship sustained damage and caught fire following a drone attack in the Gulf of Finland. Both Finnish and Russian authorities acknowledged the maritime security incident.",
+      "title": "Russian cargo ship damaged in Gulf of Finland",
+      "summary": "A Russian cargo ship sustained damage after being targeted by a drone attack in the Gulf of Finland. Both Finnish and Russian authorities acknowledged the incident, which highlights escalating maritime security concerns in the region.",
       "article_ids": [
         "65602c30a038a624a9efd3f9",
         "38a871efab1962b2be394a31"
@@ -110,12 +85,36 @@
         }
       ],
       "source_count": 2
+    },
+    {
+      "title": "Denmark exposes Russian assassination plot",
+      "summary": "Denmark formally accused Russia of orchestrating an assassination plot targeting a US-Ukrainian citizen and subsequently expelled a diplomat. European Union leadership strongly condemned the operation, noting that security threats from Moscow have become increasingly direct.",
+      "article_ids": [
+        "5e4306cfcf49932d757c9463",
+        "445cb9587d2f3e40cfc348b6",
+        "fb50deea726e3906a092dd3d"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/russian-threats-less-hybrid-von-der-leyen-says-assassination-plot-ukrainian-rapper-kyivstoner-denmark",
+          "headline": "Russian threats ‘less and less hybrid,’ Von der Leyen says after assassination plot in Denmark",
+          "published_at": "2026-11-21T11:43:12Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261121-unacceptable-eu-chief-condemns-alleged-russian-plot-to-kill-us-ukrainian-citizen",
+          "headline": "'Unacceptable': EU chief condemns alleged Russian plot to kill US-Ukrainian citizen",
+          "published_at": "2026-11-21T10:32:36Z"
+        }
+      ],
+      "source_count": 2
     }
   ],
   "top_stories": [
     {
-      "title": "EU and UK Conclude Post-Brexit Accord",
-      "summary": "The European Union and the United Kingdom have successfully finalized a new post-Brexit agreement to reset bilateral relations. Officials from both sides announced the diplomatic milestone following extensive negotiations.",
+      "title": "EU and UK Post-Brexit Diplomacy",
+      "summary": "The European Union and the United Kingdom successfully reached a formal reset agreement following years of post-Brexit friction. This new accord is designed to normalize relations and foster closer cooperation between the two sides.",
       "article_ids": [
         "cfbec4172c304c6de4fcead7"
       ],
@@ -130,12 +129,11 @@
       "source_count": 1
     },
     {
-      "title": "Social Unrest and Protests Persist Across France",
-      "summary": "Demonstrations have continued across France as social unrest enters its sixth consecutive week. Citizens have rallied in various regions to voice concerns over economic policies, living costs, and legislative actions.",
+      "title": "Social Unrest and Protests in France",
+      "summary": "Demonstrations across France continued as the social movement entered its sixth consecutive week of protests. Turnout figures varied between interior ministry estimates and numbers provided by participating trade unions.",
       "article_ids": [
         "004fc186c102297e651757cb",
-        "3651a58915465e34bd7fffd1",
-        "4f5a2414d941b0c2780670f1"
+        "04cd443fed4022297f83ae7b"
       ],
       "sources": [
         {
@@ -147,7 +145,7 @@
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/france/20261121-live-france-braces-for-fresh-protests-as-social-unrest-enters-sixth-week",
-          "headline": "Live: France braces for fresh protests as social unrest enters sixth week",
+          "headline": "Live: Interior ministry says 82,500 people protest across France, unions claim 150,000",
           "published_at": "2026-11-21T08:29:53Z"
         }
       ],
@@ -155,6 +153,39 @@
     }
   ],
   "developing": [
+    {
+      "label": "EU · budget · Costa · cuts",
+      "origin": "convergence",
+      "source_count": 4,
+      "item_count": 4,
+      "latest_at": "2026-11-21T17:18:38Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/250481/costas-eu-budget-plan-for-10-percent-cuts-pits-frugals-against-cohesion-group-ahead-of-crunch-summit",
+          "headline": "Costa’s EU budget plan for 10 percent cuts pits ‘frugals’ against ‘cohesion’ group ahead of crunch summit",
+          "published_at": "2026-11-21T17:18:38Z"
+        },
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/new-eu-budget-proposal-aims-at-tax-gobal-tech-giants/a-80009255?maca=en-rss-en-eu-2092-rdf",
+          "headline": "New EU budget proposal aims at tax gobal tech giants",
+          "published_at": "2026-11-21T14:58:00Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/costa-cuts-proposed-eu-budget-by-44billion-euros",
+          "headline": "Costa cuts proposed EU budget by €44B",
+          "published_at": "2026-11-21T10:44:05Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261120-friends-but-who-benefits-notes-from-an-historic-summit-myanmar-s-genocide-ruling-time-to-bre-join-the-eu",
+          "headline": "'Friends' But Who Benefits? Notes from an Historic Summit, Myanmar's Genocide Ruling, Time to 'Bre-join' the EU?",
+          "published_at": "2026-11-20T19:42:58Z"
+        }
+      ]
+    },
     {
       "label": "French · police · officers",
       "origin": "convergence",
@@ -173,48 +204,6 @@
           "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
           "headline": "French police officers sentenced for beating of music producer Michel Zecler",
           "published_at": "2026-11-20T22:37:09Z"
-        }
-      ]
-    },
-    {
-      "label": "plot · assassination · Denmark · Russian",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-21T11:43:12Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/russian-threats-less-hybrid-von-der-leyen-says-assassination-plot-ukrainian-rapper-kyivstoner-denmark",
-          "headline": "Russian threats ‘less and less hybrid,’ Von der Leyen says after assassination plot in Denmark",
-          "published_at": "2026-11-21T11:43:12Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261121-unacceptable-eu-chief-condemns-alleged-russian-plot-to-kill-us-ukrainian-citizen",
-          "headline": "'Unacceptable': EU chief condemns alleged Russian plot to kill US-Ukrainian citizen",
-          "published_at": "2026-11-21T10:32:36Z"
-        }
-      ]
-    },
-    {
-      "label": "budget · EU",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-11-21T14:58:00Z",
-      "sources": [
-        {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/new-eu-budget-proposal-aims-at-tax-gobal-tech-giants/a-80009255?maca=en-rss-en-eu-2092-rdf",
-          "headline": "New EU budget proposal aims at tax gobal tech giants",
-          "published_at": "2026-11-21T14:58:00Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/costa-cuts-proposed-eu-budget-by-44billion-euros",
-          "headline": "Costa cuts proposed EU budget by €44B",
-          "published_at": "2026-11-21T10:44:05Z"
         }
       ]
     },
@@ -238,9 +227,94 @@
           "published_at": "2026-11-20T20:33:20Z"
         }
       ]
+    },
+    {
+      "label": "France · protests · across",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 3,
+      "latest_at": "2026-11-21T15:50:52Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/new-day-of-protests-across-france",
+          "headline": "New day of protests across France",
+          "published_at": "2026-11-21T15:50:52Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "7eedd7ab83bfa3a0a373fd32",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "COP31: Deep divisions persist over energy, finance and science",
+      "url": "https://www.france24.com/en/cop31-deep-divisions-persist-over-energy-finance-and-science",
+      "published_at": "2026-11-21T17:26:47Z",
+      "collected_at": "2026-11-21T17:31:06Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "6441b51440ec7adf3443d92b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "FBI criminal database hacked",
+      "url": "https://www.france24.com/en/fbi-criminal-database-hacked",
+      "published_at": "2026-11-21T17:23:18Z",
+      "collected_at": "2026-11-21T17:31:06Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "ad336a87703da0d6d9a43991",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Man convicted of starting palisades fire",
+      "url": "https://www.france24.com/en/man-convicted-of-starting-palisades-fire",
+      "published_at": "2026-11-21T17:21:55Z",
+      "collected_at": "2026-11-21T17:31:06Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "aa8310f3c31ee2a5b26850ec",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Costa’s EU budget plan for 10 percent cuts pits ‘frugals’ against ‘cohesion’ group ahead of crunch summit",
+      "url": "https://euobserver.com/250481/costas-eu-budget-plan-for-10-percent-cuts-pits-frugals-against-cohesion-group-ahead-of-crunch-summit",
+      "published_at": "2026-11-21T17:18:38Z",
+      "collected_at": "2026-11-21T17:31:06Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "e73a8779574f22e84e84231c",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Russian helicopter suspected of violating Finnish airspace",
+      "url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-21T17:08:00Z",
+      "collected_at": "2026-11-21T17:31:06Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
     {
       "id": "31b28e68d20a785a110ee9bf",
       "source_id": "politico_europe",
@@ -704,6 +778,20 @@
       ]
     },
     {
+      "id": "04cd443fed4022297f83ae7b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Live: Interior ministry says 82,500 people protest across France, unions claim 150,000",
+      "url": "https://www.france24.com/en/france/20261121-live-france-braces-for-fresh-protests-as-social-unrest-enters-sixth-week",
+      "published_at": "2026-11-21T08:29:53Z",
+      "collected_at": "2026-11-21T17:31:06Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "9561fc260f3263c953e8e54c",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1096,118 +1184,6 @@
       ]
     },
     {
-      "id": "bb84c610d657d333d53980e9",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "🔴Watch live: Trump holds press conference after meeting with Xi, Putin",
-      "url": "https://www.france24.com/en/americas/20261120-watch-live-trump-holds-press-conference-meeting-xi-putin",
-      "published_at": "2026-11-20T17:26:57Z",
-      "collected_at": "2026-11-20T17:31:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "12338734ec0e447edabacf6e",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "The biggest winners and losers of the EU-UK summit deals",
-      "url": "https://www.politico.eu/article/the-winners-and-losers-of-the-eu-uk-summit-deals",
-      "published_at": "2026-11-20T17:24:57Z",
-      "collected_at": "2026-11-20T17:31:04Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "7d38891216126177d6b4ef87",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Fake forests hiding locations in Russia",
-      "url": "https://www.bbc.co.uk/news/videos/cm3wg1lzwx84o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-20T17:20:55Z",
-      "collected_at": "2026-11-20T17:31:04Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "860c3f4a15c89769a3be4c10",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "UK and EU strike ‘landmark’ deal to rebuild ties after Brexit",
-      "url": "https://www.france24.com/en/video/20261120-uk-and-eu-strike-landmark-deal-to-rebuild-ties-after-brexit",
-      "published_at": "2026-11-20T17:06:59Z",
-      "collected_at": "2026-11-20T17:31:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "ec0bdc1e95ba69d971a1e291",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "A cultural stroll through Paris with singer-songwriters Mariam Doumbia and Zaho",
-      "url": "https://www.france24.com/en/tv-shows/paris-des-arts/20261120-a-cultural-stroll-through-paris-with-singer-songwriters-mariam-doumbia-and-zaho",
-      "published_at": "2026-11-20T17:04:59Z",
-      "collected_at": "2026-11-20T17:31:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "f9be8a9410a97d08c547fe8a",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Andy Burnham discovers nothing in Brussels is ever easy",
-      "url": "https://www.politico.eu/article/andy-burnham-eu-uk-summit-reset-deals",
-      "published_at": "2026-11-20T17:00:51Z",
-      "collected_at": "2026-11-20T17:31:04Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "2edcba4b2ba9fb7b60eaf534",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "‘A more expensive EU is not a better EU’: Austria's Minister for Europe, Claudia Bauer",
-      "url": "https://www.france24.com/en/tv-shows/talking-europe/20261120-a-more-expensive-eu-is-not-a-better-eu-austria-s-minister-for-europe-claudia-bauer",
-      "published_at": "2026-11-20T16:53:27Z",
-      "collected_at": "2026-11-20T17:31:04Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "0bd8fffbcbce5fff7c952f71",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Spanish court releases pro‑Palestinian billionaire Fergie Chambers from custody over US translation errors in extradition request",
-      "url": "https://english.elpais.com/spain/2026-11-20/spanish-court-releases-propalestinian-billionaire-fergie-chambers-from-custody-over-us-translation-errors-in-extradition-request.html",
-      "published_at": "2026-11-20T16:52:36Z",
-      "collected_at": "2026-11-20T17:31:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "8c24ae66d8080fb027c4b581",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1278,34 +1254,6 @@
       ]
     },
     {
-      "id": "d43259950dd6221957b55ba1",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Turkey: an emerging recycling power or Europe’s dump?",
-      "url": "https://english.elpais.com/international/2026-11-20/turkey-an-emerging-recycling-power-or-europes-dump.html",
-      "published_at": "2026-11-20T15:11:39Z",
-      "collected_at": "2026-11-20T17:31:04Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "bbba3dee5c8fb12b7e2cf1bb",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "What does the new Brexit deal mean for Northern Ireland?",
-      "url": "https://www.bbc.co.uk/news/articles/cm4gn9xw1v99o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-20T14:41:53Z",
-      "collected_at": "2026-11-20T17:31:04Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "6ea412f69364ef55a9064e88",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1317,6 +1265,34 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "e79786877fa547828d83c8a8",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "UK-EU summit to see mutual love-bombing, but British must decide what to do next",
+      "url": "https://euobserver.com/249992/uk-eu-summit-to-see-mutual-love-bombing-but-british-must-decide-what-to-do-next",
+      "published_at": "2026-11-19T17:16:16Z",
+      "collected_at": "2026-11-21T17:31:06Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "52e15e19c8e02dccf837ad85",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Hungary’s new government claws back motorways and tobacco monopoly after years of taxpayer‑funded Orbán luxury travel (Day 191 of the Tisza government)",
+      "url": "https://euobserver.com/250131/hungarys-new-government-claws-back-motorways-and-tobacco-monopoly-after-years-of-taxpayerfunded-orban-luxury-travel-day-191-of-the-tisza-government",
+      "published_at": "2026-11-19T17:04:22Z",
+      "collected_at": "2026-11-21T17:31:06Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
       ]
     },
     {
