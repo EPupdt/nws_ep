@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-21T11:30:58Z",
-  "last_successful_collection_at": "2026-11-21T11:30:58Z",
+  "generated_at": "2026-11-21T12:01:05Z",
+  "last_successful_collection_at": "2026-11-21T12:01:05Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-21T11:30:58Z"
+      "at": "2026-11-21T12:01:05Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "23",
-      "at": "2026-11-21T11:30:58Z"
+      "at": "2026-11-21T12:01:05Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-21T11:30:58Z"
+      "at": "2026-11-21T12:01:05Z"
     },
     {
       "id": "euractiv",
@@ -29,46 +29,71 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-21T11:30:58Z"
+      "at": "2026-11-21T12:01:05Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-21T11:30:58Z"
+      "at": "2026-11-21T12:01:05Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-11-21T11:30:58Z"
+      "at": "2026-11-21T12:01:05Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-21T11:30:58Z"
+      "at": "2026-11-21T12:01:05Z"
     },
     {
       "id": "ecfr",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-21T11:30:58Z"
+      "at": "2026-11-21T12:01:05Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-21T11:30:58Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-21T12:01:05Z"
     }
   ],
   "europe_now": [
     {
+      "title": "Denmark Accuses Russia of Assassination Plot",
+      "summary": "Denmark has accused Russia of orchestrating an assassination plot and has subsequently expelled a Russian diplomat. European Commission President Ursula von der Leyen strongly condemned the alleged plot against a US-Ukrainian citizen, stating that Russian threats are becoming increasingly direct.",
+      "article_ids": [
+        "fb50deea726e3906a092dd3d",
+        "445cb9587d2f3e40cfc348b6",
+        "5e4306cfcf49932d757c9463"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/denmark-accuses-russia-of-assassination-plot-expels-diplomat",
+          "headline": "Denmark accuses Russia of assassination plot, expels diplomat",
+          "published_at": "2026-11-21T09:51:01Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/russian-threats-less-hybrid-von-der-leyen-says-assassination-plot-ukrainian-rapper-kyivstoner-denmark",
+          "headline": "Russian threats ‘less and less hybrid,’ Von der Leyen says after assassination plot in Denmark",
+          "published_at": "2026-11-21T11:43:12Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
       "title": "EU and UK Reach Post-Brexit Reset Deal",
-      "summary": "The European Union and the United Kingdom have successfully concluded a landmark agreement to rebuild diplomatic and economic ties following Brexit. Leaders on both sides announced the accord after extensive high-level talks aimed at fostering closer cooperation.",
+      "summary": "The European Union and the United Kingdom have successfully reached a landmark agreement to rebuild diplomatic ties following Brexit. Officials on both sides are evaluating the outcomes of the summit as they work toward reshaping long-term post-Brexit relations.",
       "article_ids": [
         "cfbec4172c304c6de4fcead7",
-        "860c3f4a15c89769a3be4c10"
+        "860c3f4a15c89769a3be4c10",
+        "12338734ec0e447edabacf6e"
       ],
       "sources": [
         {
@@ -78,17 +103,19 @@
           "published_at": "2026-11-21T09:43:42Z"
         },
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261120-uk-and-eu-strike-landmark-deal-to-rebuild-ties-after-brexit",
-          "headline": "UK and EU strike ‘landmark’ deal to rebuild ties after Brexit",
-          "published_at": "2026-11-20T17:06:59Z"
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/the-winners-and-losers-of-the-eu-uk-summit-deals",
+          "headline": "The biggest winners and losers of the EU-UK summit deals",
+          "published_at": "2026-11-20T17:24:57Z"
         }
       ],
-      "source_count": 1
-    },
+      "source_count": 2
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Denmark Accuses Russia of Assassination Plot",
-      "summary": "Denmark has accused Russia of orchestrating an assassination plot and has subsequently expelled a Russian diplomat in response. European Union officials strongly condemned the alleged security threat as unacceptable.",
+      "title": "Denmark Expels Russian Diplomat Over Alleged Plot",
+      "summary": "Denmark has expelled a Russian diplomat following accusations regarding an active assassination plot. European leadership has condemned the incident as part of an escalating pattern of hostile foreign threats.",
       "article_ids": [
         "fb50deea726e3906a092dd3d",
         "445cb9587d2f3e40cfc348b6"
@@ -108,12 +135,10 @@
         }
       ],
       "source_count": 1
-    }
-  ],
-  "top_stories": [
+    },
     {
-      "title": "EU-UK Post-Brexit Diplomacy",
-      "summary": "The European Union and the United Kingdom reached a landmark agreement to reset their relationship following Brexit. Political leaders participated in high-level discussions in Brussels to finalize the new cooperative framework.",
+      "title": "EU and UK Finalize Post-Brexit Accord",
+      "summary": "The European Union and the United Kingdom have agreed to a landmark deal designed to restore diplomatic cooperation. The arrangement marks a significant shift in bilateral relations years after the UK's departure from the bloc.",
       "article_ids": [
         "cfbec4172c304c6de4fcead7",
         "860c3f4a15c89769a3be4c10"
@@ -133,48 +158,14 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "French Legislative and Legal Actions",
-      "summary": "The French parliament adopted a controversial law concerning police shootings that drew strong criticism from various activists. Meanwhile, a French court delivered prison sentences to officers involved in a high-profile assault case.",
-      "article_ids": [
-        "57fad12f172bdeb502905cf9",
-        "a80d16ed314bb3d354d37331"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
-          "headline": "French police officers sentenced for beating of music producer Michel Zecler",
-          "published_at": "2026-11-20T22:37:09Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Security Concerns and Russian Actions",
-      "summary": "Denmark expelled a Russian diplomat after accusing the nation of an assassination plot. Additionally, reports emerged that Russian digital data collection targeted numerous individuals in Sweden.",
-      "article_ids": [
-        "fb50deea726e3906a092dd3d",
-        "5c6f475c44157a0fca528dd1"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/denmark-accuses-russia-of-assassination-plot-expels-diplomat",
-          "headline": "Denmark accuses Russia of assassination plot, expels diplomat",
-          "published_at": "2026-11-21T09:51:01Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "developing": [
     {
-      "label": "Poland · Russian · missiles · defence",
+      "label": "Poland · Russian · missiles · Ukraine",
       "origin": "convergence",
       "source_count": 5,
-      "item_count": 5,
+      "item_count": 6,
       "latest_at": "2026-11-21T09:47:05Z",
       "sources": [
         {
@@ -258,22 +249,42 @@
       ]
     },
     {
-      "label": "EU · finance · giants · labeled",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 3,
-      "latest_at": "2026-11-20T11:38:49Z",
+      "label": "French · police",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-11-20T22:37:09Z",
       "sources": [
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/some-oil-giants-will-now-be-labeled-sustainable-under-eu-finance-rules",
-          "headline": "Some oil giants will now be labeled ‘sustainable’ under EU finance rules",
-          "published_at": "2026-11-20T11:38:49Z"
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
+          "headline": "French police officers sentenced for beating of music producer Michel Zecler",
+          "published_at": "2026-11-20T22:37:09Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261120-licence-to-kill-french-parliament-adopts-police-shootings-law-slammed-activists",
+          "headline": "'Licence to kill': French parliament adopts police shootings law slammed by activists",
+          "published_at": "2026-11-20T21:17:59Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "5e4306cfcf49932d757c9463",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Russian threats ‘less and less hybrid,’ Von der Leyen says after assassination plot in Denmark",
+      "url": "https://www.politico.eu/article/russian-threats-less-hybrid-von-der-leyen-says-assassination-plot-ukrainian-rapper-kyivstoner-denmark",
+      "published_at": "2026-11-21T11:43:12Z",
+      "collected_at": "2026-11-21T12:01:05Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "5c6f475c44157a0fca528dd1",
       "source_id": "france24",
