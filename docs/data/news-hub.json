@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-22T19:01:08Z",
-  "last_successful_collection_at": "2026-11-22T19:01:08Z",
+  "generated_at": "2026-11-22T19:30:51Z",
+  "last_successful_collection_at": "2026-11-22T19:30:51Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-22T19:01:08Z"
+      "at": "2026-11-22T19:30:51Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "27",
-      "at": "2026-11-22T19:01:08Z"
+      "at": "2026-11-22T19:30:51Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-22T19:01:08Z"
+      "at": "2026-11-22T19:30:51Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,91 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-22T19:01:08Z"
+      "at": "2026-11-22T19:30:51Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-22T19:01:08Z"
+      "at": "2026-11-22T19:30:51Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-22T19:01:08Z"
+      "at": "2026-11-22T19:30:51Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-22T19:01:08Z"
+      "at": "2026-11-22T19:30:51Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-22T19:01:08Z"
+      "at": "2026-11-22T19:30:51Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-22T19:01:08Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-22T19:30:51Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russian Strike on Kyiv",
-      "summary": "A recent Russian military strike in Kyiv has resulted in fatalities and left multiple individuals missing. Ukrainian leadership continues to appeal for advanced defense systems following the attack.",
+      "title": "Maritime Security Incident in Northern Europe",
+      "summary": "A Russia-bound ship was towed away after sustaining damage from an attack in the Gulf of Finland.",
+      "article_ids": [
+        "b61912c449317c0184b7c9d7",
+        "27bf540c760453580a1760b1"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+          "published_at": "2026-11-22T17:18:26Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia-bound ship still on fire after attack in Gulf of Finland",
+          "published_at": "2026-11-22T11:25:14Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Regional Security and Maritime Incidents",
+      "summary": "A Russia-bound cargo vessel was towed away following a drone strike incident in the Baltic Sea. Officials in Finland noted that the regional conflict is increasingly spilling over into maritime routes.",
+      "article_ids": [
+        "b61912c449317c0184b7c9d7",
+        "30bab773441bce921a16a7a3"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+          "published_at": "2026-11-22T17:18:26Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261122-live-finland-says-war-spilling-over-after-baltic-sea-drone-strike-on-russian-cargo-ship",
+          "headline": "Live: Finland says war 'spilling over' after Baltic Sea drone strike on Russian cargo ship",
+          "published_at": "2026-11-22T06:15:38Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Ukrainian Infrastructure Strikes",
+      "summary": "Russian military strikes in the Kyiv region resulted in casualties and extensive structural damage. Ukrainian leadership continues to press international allies for enhanced air defense systems.",
       "article_ids": [
         "5df3e3a106f04fc75badc621",
         "b268c63be6d18ad9988c265f"
@@ -87,50 +135,8 @@
       "source_count": 2
     },
     {
-      "title": "Collapse of COP31 Climate Negotiations",
-      "summary": "Global climate negotiations at COP31 concluded without an agreement after the European Union rejected the final text. The breakdown occurred due to significant disagreements regarding the omission of fossil fuel references.",
-      "article_ids": [
-        "43ce9cb510ee463ae45e1d96",
-        "9c318ebe5e7f1ffd7990f9ff"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/environment/20261121-latest-cop31-deal-sidesteps-fossil-fuels-amid-growing-divisions",
-          "headline": "🔴 COP31 ends without deal as EU rejects text for omitting mention of fossil fuels",
-          "published_at": "2026-11-22T12:22:33Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Maritime Security Incidents",
-      "summary": "A Russia-bound cargo ship was towed away following an attack and fire in the Gulf of Finland. Separately, officials reported an explosion on another Russian vessel at a Libyan port caused by a suspected drone attack.",
-      "article_ids": [
-        "b61912c449317c0184b7c9d7",
-        "4ac28a1bbad80574eb9ce460"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
-          "published_at": "2026-11-22T17:18:26Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-          "headline": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-          "published_at": "2026-11-22T17:16:47Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Diplomatic and Espionage Actions",
-      "summary": "Cyprus has moved to expel several Russian diplomats over suspicions of involvement in espionage activities. This diplomatic action highlights ongoing security concerns regarding foreign influence operations within European member states.",
+      "title": "Diplomatic Expulsions in Cyprus",
+      "summary": "Cyprus has moved to expel several Russian diplomats from the island. The diplomatic measures were taken over growing suspicions of espionage activities.",
       "article_ids": [
         "e04f17835cb6f5fb2a3d625f"
       ],
@@ -174,6 +180,27 @@
       ]
     },
     {
+      "label": "COP31 · deal",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-11-22T18:57:24Z",
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
+          "headline": "What's next after no deal at COP31 climate talks?",
+          "published_at": "2026-11-22T18:57:24Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/environment/20261121-latest-cop31-deal-sidesteps-fossil-fuels-amid-growing-divisions",
+          "headline": "🔴 COP31 ends without deal as EU rejects text for omitting mention of fossil fuels",
+          "published_at": "2026-11-22T12:22:33Z"
+        }
+      ]
+    },
+    {
       "label": "airports · amid · Brussels · Charleroi",
       "origin": "radar",
       "source_count": 1,
@@ -202,24 +229,23 @@
           "published_at": "2026-11-21T20:20:37Z"
         }
       ]
-    },
-    {
-      "label": "Danger · greater · missing · Russian",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-11-22T17:57:43Z",
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&at_campaign=rss",
-          "headline": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
-          "published_at": "2026-11-22T17:57:43Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "4304ec01ed2bb98ebcba07d0",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "What's next after no deal at COP31 climate talks?",
+      "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-22T18:57:24Z",
+      "collected_at": "2026-11-22T19:30:51Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "3a62fd9da1d646d32dd2a5b3",
       "source_id": "bbc_europe",
@@ -1537,6 +1563,20 @@
       ]
     },
     {
+      "id": "9d89733e0c160a6230cdc9fa",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Disputed Polish constitutional court announces chief justice stripped of immunity to face charges",
+      "url": "https://notesfrompoland.com/2026/11/18/polish-constitutional-court-strips-chief-justice-of-immunity-to-face-criminal-charges",
+      "published_at": "2026-11-18T17:31:09Z",
+      "collected_at": "2026-11-22T19:30:51Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "39ab0e8c1fa758d47f0b1bd9",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1691,6 +1731,20 @@
       ]
     },
     {
+      "id": "a4390aba19d6f4dd6c022580",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Kyle Eastwood, son of Clint Eastwood: ‘My father has played many tough guys, but he is not as tough as he seems’",
+      "url": "https://english.elpais.com/culture/2026-11-16/kyle-eastwood-son-of-clint-eastwood-my-father-has-played-many-tough-guys-but-he-is-not-as-tough-as-he-seems.html",
+      "published_at": "2026-11-16T17:16:49Z",
+      "collected_at": "2026-11-22T19:30:51Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "eb176588d61a14107b9d05cd",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1768,6 +1822,20 @@
       "url": "https://www.dw.com/en/ukraine-zelenskyy-says-security-deal-could-go-to-referendum/a-79947535?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-11-14T11:40:00Z",
       "collected_at": "2026-11-22T13:30:55Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "79ab5859f6ab2f89d61aa678",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Turkey uses espionage accusations to pressure government critics",
+      "url": "https://www.dw.com/en/turkey-uses-espionage-accusations-to-pressure-government-critics/a-79943768?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-14T07:31:00Z",
+      "collected_at": "2026-11-22T19:30:51Z",
       "topics": [
         "politics",
         "society",
@@ -2160,6 +2228,20 @@
       "url": "https://english.elpais.com/culture/2026-10-17/the-story-of-billy-childish-a-tormented-british-punk-icon-professional-art-kills-art.html",
       "published_at": "2026-10-17T04:00:00Z",
       "collected_at": "2026-11-22T09:00:59Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "42e7b79c219969a5c0750bc1",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Working to change the culture from within in Argentine women’s soccer",
+      "url": "https://english.elpais.com/sports/2026-10-15/working-to-change-the-culture-from-within-in-argentine-womens-soccer.html",
+      "published_at": "2026-10-15T13:07:54Z",
+      "collected_at": "2026-11-22T19:30:51Z",
       "topics": [
         "politics",
         "society",
