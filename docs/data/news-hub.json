@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-22T12:30:59Z",
-  "last_successful_collection_at": "2026-11-22T12:30:59Z",
+  "generated_at": "2026-11-22T13:01:10Z",
+  "last_successful_collection_at": "2026-11-22T13:01:10Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-22T12:30:59Z"
+      "at": "2026-11-22T13:01:10Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-11-22T12:30:59Z"
+      "at": "2026-11-22T13:01:10Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-22T12:30:59Z"
+      "at": "2026-11-22T13:01:10Z"
     },
     {
       "id": "euractiv",
@@ -29,47 +29,49 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-22T12:30:59Z"
+      "at": "2026-11-22T13:01:10Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-22T12:30:59Z"
+      "at": "2026-11-22T13:01:10Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-22T12:30:59Z"
+      "at": "2026-11-22T13:01:10Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-22T12:30:59Z"
+      "at": "2026-11-22T13:01:10Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-22T12:30:59Z"
+      "at": "2026-11-22T13:01:10Z"
     },
     {
       "id": "bruegel",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-22T12:30:59Z"
+      "status": "ok",
+      "count": "10",
+      "at": "2026-11-22T13:01:10Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Maritime Security Incident in the Baltic Region",
-      "summary": "Finnish officials reported that a Russia-bound cargo ship caught fire following a drone attack in the Gulf of Finland. Helsinki stated that the ongoing war in Ukraine is spilling over into regional maritime security.",
+      "title": "Russian cargo ship ablaze in Gulf of Finland",
+      "summary": "A Russia-bound cargo ship caught fire following a drone attack in the Gulf of Finland, leading Finnish authorities to state that the war is spilling over.",
       "article_ids": [
         "27bf540c760453580a1760b1",
         "30bab773441bce921a16a7a3",
-        "05a71aa13e98892f205316fd"
+        "b132ad38cb82e19560c0b2d2",
+        "05a71aa13e98892f205316fd",
+        "a7b806885c735a227a16eb9d"
       ],
       "sources": [
         {
@@ -88,8 +90,8 @@
       "source_count": 2
     },
     {
-      "title": "Air Traffic Disruptions Due to Belgian Strike",
-      "summary": "Major airports in Belgium, including Brussels and Charleroi, announced the cancellation of most flights ahead of a national strike. The disruptions impact regional mobility and public transport services across the country.",
+      "title": "Brussels airports cancel flights due to strike",
+      "summary": "Brussels and Charleroi airports announced the cancellation of most flights ahead of a scheduled Belgian strike.",
       "article_ids": [
         "09a0fd93169770c631bb15f6",
         "33c83871849a86791f62cf9b"
@@ -113,24 +115,31 @@
   ],
   "top_stories": [
     {
-      "title": "COP31 Concludes Without Final Agreement",
-      "summary": "The COP31 climate summit concluded without a formal deal after the European Union rejected the proposed text. The rejection stemmed from the draft's omission of any explicit mention of fossil fuels.",
+      "title": "Regional Security and Maritime Incidents",
+      "summary": "A cargo ship heading toward Russia caught fire in the Gulf of Finland after an attack. Finnish officials noted that regional security concerns are escalating as the conflict impacts maritime routes.",
       "article_ids": [
-        "9c318ebe5e7f1ffd7990f9ff"
+        "27bf540c760453580a1760b1",
+        "30bab773441bce921a16a7a3"
       ],
       "sources": [
         {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia-bound ship still on fire after attack in Gulf of Finland",
+          "published_at": "2026-11-22T11:25:14Z"
+        },
+        {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/environment/20261121-latest-cop31-deal-sidesteps-fossil-fuels-amid-growing-divisions",
-          "headline": "🔴 COP31 ends without deal as EU rejects text for omitting mention of fossil fuels",
-          "published_at": "2026-11-22T12:22:33Z"
+          "url": "https://www.france24.com/en/europe/20261122-live-finland-says-war-spilling-over-after-baltic-sea-drone-strike-on-russian-cargo-ship",
+          "headline": "Live: Finland says war 'spilling over' after Baltic Sea drone strike on Russian cargo ship",
+          "published_at": "2026-11-22T06:15:38Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
       "title": "European Union Budgetary Debates",
-      "summary": "Proposed budget cuts introduced ahead of an upcoming EU summit have divided member states into opposing factions. The discussions center on balancing fiscal restraint with cohesion funding priorities.",
+      "summary": "Proposed European Union budget plans involving spending cuts have generated considerable friction among member states. The fiscal discussions highlight ongoing divisions ahead of upcoming political summits.",
       "article_ids": [
         "aa8310f3c31ee2a5b26850ec"
       ],
@@ -143,14 +152,37 @@
         }
       ],
       "source_count": 1
+    },
+    {
+      "title": "Climate Summit Stalemate",
+      "summary": "The COP31 summit concluded without achieving a final agreement after the European Union rejected the proposed text. Delegations remained deeply divided over the omission of explicit references to fossil fuels.",
+      "article_ids": [
+        "9c318ebe5e7f1ffd7990f9ff",
+        "7eedd7ab83bfa3a0a373fd32"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/environment/20261121-latest-cop31-deal-sidesteps-fossil-fuels-amid-growing-divisions",
+          "headline": "🔴 COP31 ends without deal as EU rejects text for omitting mention of fossil fuels",
+          "published_at": "2026-11-22T12:22:33Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/cop31-deep-divisions-persist-over-energy-finance-and-science",
+          "headline": "COP31: Deep divisions persist over energy, finance and science",
+          "published_at": "2026-11-21T17:26:47Z"
+        }
+      ],
+      "source_count": 1
     }
   ],
   "developing": [
     {
-      "label": "defence · Russia · security · Ukraine",
+      "label": "security · Ukraine",
       "origin": "convergence",
-      "source_count": 3,
-      "item_count": 3,
+      "source_count": 2,
+      "item_count": 2,
       "latest_at": "2026-11-22T08:29:00Z",
       "sources": [
         {
@@ -164,12 +196,6 @@
           "url": "https://www.politico.eu/article/europeans-dare-to-believe-trump-could-deliver-security-for-ukraine",
           "headline": "Europeans dare to believe Trump could deliver security for Ukraine",
           "published_at": "2026-11-22T07:44:01Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/russia-tests-nato-s-eastern-defences",
-          "headline": "Russia tests NATO’s eastern defences",
-          "published_at": "2026-11-21T12:50:35Z"
         }
       ]
     },
@@ -177,7 +203,7 @@
       "label": "France · protests · sixth",
       "origin": "radar",
       "source_count": 1,
-      "item_count": 4,
+      "item_count": 3,
       "latest_at": "2026-11-21T20:20:37Z",
       "sources": [
         {
@@ -977,118 +1003,6 @@
       ]
     },
     {
-      "id": "9255000b10e5141e738e3bf1",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Cargo ship runs aground off French coast",
-      "url": "https://www.france24.com/en/cargo-ship-runs-aground-off-french-coast",
-      "published_at": "2026-11-21T12:52:27Z",
-      "collected_at": "2026-11-21T13:01:00Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "7a884d9dbd8f39e2f8b474b6",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Russia tests NATO’s eastern defences",
-      "url": "https://www.france24.com/en/russia-tests-nato-s-eastern-defences",
-      "published_at": "2026-11-21T12:50:35Z",
-      "collected_at": "2026-11-21T13:01:00Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "acf0894554c183a45c7b329a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Thousands protest overs prices, education, military spending in France and Europe",
-      "url": "https://www.france24.com/en/thousands-protest-overs-prices-education-military-spending-in-france-and-europe",
-      "published_at": "2026-11-21T12:48:46Z",
-      "collected_at": "2026-11-21T13:01:00Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "65602c30a038a624a9efd3f9",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Russian ship damaged by drone attack in Gulf of Finland, Helsinki and Moscow say",
-      "url": "https://www.politico.eu/article/russian-ship-damaged-drone-attack-gulf-finland-helsinki-moscow-say",
-      "published_at": "2026-11-21T12:36:56Z",
-      "collected_at": "2026-11-21T13:01:00Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "38a871efab1962b2be394a31",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-      "url": "https://www.france24.com/en/europe/20261121-drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
-      "published_at": "2026-11-21T12:35:54Z",
-      "collected_at": "2026-11-21T13:01:00Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "ec473adcbae5b8690d6be6eb",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ethiopia: Tackling period poverty and stigma",
-      "url": "https://www.france24.com/en/ethiopia-tackling-period-poverty-and-stigma",
-      "published_at": "2026-11-21T12:22:44Z",
-      "collected_at": "2026-11-21T13:01:00Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "03cd570490e593ca2788a4a0",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Ethiopia - Eritrea: Troops mobilise along the border",
-      "url": "https://www.france24.com/en/ethiopia-eritrea-troops-mobilise-along-the-border",
-      "published_at": "2026-11-21T12:19:21Z",
-      "collected_at": "2026-11-21T13:01:00Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "916b0334c7f8c369f3ee0e7f",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Music strikes a chord at French protest",
-      "url": "https://www.france24.com/en/music-strikes-a-chord-at-french-protest",
-      "published_at": "2026-11-21T12:17:52Z",
-      "collected_at": "2026-11-21T13:01:00Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "08ca3c7a9b4b07f0e5d420c1",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1127,6 +1041,20 @@
       "topics": [
         "politics",
         "security",
+        "society"
+      ]
+    },
+    {
+      "id": "45f3582eaf7859611f7284c4",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-21T02:09:46Z",
+      "collected_at": "2026-11-22T13:01:10Z",
+      "topics": [
+        "breaking",
+        "politics",
         "society"
       ]
     },
@@ -1506,34 +1434,6 @@
         "institutions",
         "policy",
         "rights"
-      ]
-    },
-    {
-      "id": "d10730ea91c83823ead718ca",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland detains 123 men in operation against online child sexual abuse material",
-      "url": "https://notesfrompoland.com/2026/11/19/poland-detains-123-men-in-operation-against-online-child-sexual-abuse-material",
-      "published_at": "2026-11-19T12:04:12Z",
-      "collected_at": "2026-11-21T12:31:03Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "016f16416c0badc186b8be5c",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Worms, fungi and urine to grow potatoes in the Moon’s poor soil",
-      "url": "https://english.elpais.com/science-tech/2026-11-19/worms-fungi-and-urine-to-grow-potatoes-in-the-moons-poor-soil.html",
-      "published_at": "2026-11-19T11:11:24Z",
-      "collected_at": "2026-11-21T12:31:03Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
