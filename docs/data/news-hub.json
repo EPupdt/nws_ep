@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-22T11:01:02Z",
-  "last_successful_collection_at": "2026-11-22T11:01:02Z",
+  "generated_at": "2026-11-22T11:30:57Z",
+  "last_successful_collection_at": "2026-11-22T11:30:57Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-22T11:01:02Z"
+      "at": "2026-11-22T11:30:57Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-11-22T11:01:02Z"
+      "at": "2026-11-22T11:30:57Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-22T11:01:02Z"
+      "at": "2026-11-22T11:30:57Z"
     },
     {
       "id": "euractiv",
@@ -29,66 +29,107 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-22T11:01:02Z"
+      "at": "2026-11-22T11:30:57Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-22T11:01:02Z"
+      "at": "2026-11-22T11:30:57Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-22T11:01:02Z"
+      "at": "2026-11-22T11:30:57Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-22T11:01:02Z"
+      "at": "2026-11-22T11:30:57Z"
     },
     {
       "id": "ecfr",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-22T11:01:02Z"
+      "status": "ok",
+      "count": "25",
+      "at": "2026-11-22T11:30:57Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-22T11:01:02Z"
+      "at": "2026-11-22T11:30:57Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Baltic Sea Maritime Security Incident",
-      "summary": "Finland reported that the conflict in Ukraine is spilling over following a drone strike on a cargo ship in the Baltic Sea. Authorities are closely monitoring regional stability after the vessel caught fire during the incident.",
+      "title": "Russian Cargo Ship Attacked in Gulf of Finland",
+      "summary": "A Russia-bound ship caught fire following a drone strike in the Gulf of Finland, prompting Finnish officials to state that the war is spilling over.",
       "article_ids": [
-        "30bab773441bce921a16a7a3",
-        "b132ad38cb82e19560c0b2d2"
+        "27bf540c760453580a1760b1",
+        "30bab773441bce921a16a7a3"
       ],
       "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia-bound ship still on fire after attack in Gulf of Finland",
+          "published_at": "2026-11-22T11:25:14Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20261122-live-finland-says-war-spilling-over-after-baltic-sea-drone-strike-on-russian-cargo-ship",
           "headline": "Live: Finland says war 'spilling over' after Baltic Sea drone strike on Russian cargo ship",
           "published_at": "2026-11-22T06:15:38Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Belgian Strike Disrupts Major Airports",
+      "summary": "Brussels and Charleroi airports are set to cancel most flights on Monday due to an ongoing national strike in Belgium.",
+      "article_ids": [
+        "09a0fd93169770c631bb15f6"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/brussels-charleroi-airports-cancel-most-flights-monday-belgian-strike",
+          "headline": "Brussels, Charleroi airports to cancel most flights Monday amid Belgian strike",
+          "published_at": "2026-11-22T10:30:54Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Regional Security and Baltic Incidents",
+      "summary": "A Russia-bound cargo vessel remained on fire in the Gulf of Finland following a drone attack. Finnish authorities described the incident as a spillover from the ongoing conflict.",
+      "article_ids": [
+        "27bf540c760453580a1760b1",
+        "30bab773441bce921a16a7a3"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia-bound ship still on fire after attack in Gulf of Finland",
+          "published_at": "2026-11-22T11:25:14Z"
         },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/europe/20261122-live-finland-says-war-spilling-over-after-baltic-sea-drone-strike-on-russian-cargo-ship",
-          "headline": "Live: Finland says Ukraine war 'spilling over' after Baltic Sea drone strike on Russian ship",
+          "headline": "Live: Finland says war 'spilling over' after Baltic Sea drone strike on Russian cargo ship",
           "published_at": "2026-11-22T06:15:38Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
       "title": "European Union Budgetary Disputes",
-      "summary": "Proposed spending cuts within the upcoming European Union budget have created friction among member states. The fiscal plans have divided national governments ahead of an important upcoming leadership summit.",
+      "summary": "Proposed spending cuts by European Council leadership have created divisions among member states. The fiscal plans have pitted frugal nations against the cohesion group ahead of an upcoming summit.",
       "article_ids": [
         "aa8310f3c31ee2a5b26850ec"
       ],
@@ -103,37 +144,12 @@
       "source_count": 1
     }
   ],
-  "top_stories": [
-    {
-      "title": "Regional Security and Baltic Incidents",
-      "summary": "Finland addressed growing security concerns after a cargo ship was struck by a drone in the Baltic region. The event has heightened fears of the ongoing conflict expanding beyond its immediate borders.",
-      "article_ids": [
-        "30bab773441bce921a16a7a3",
-        "a7b806885c735a227a16eb9d"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261122-live-finland-says-war-spilling-over-after-baltic-sea-drone-strike-on-russian-cargo-ship",
-          "headline": "Live: Finland says war 'spilling over' after Baltic Sea drone strike on Russian cargo ship",
-          "published_at": "2026-11-22T06:15:38Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
-          "headline": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-          "published_at": "2026-11-21T18:02:23Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
   "developing": [
     {
-      "label": "Russia · Ukraine · attacks · defence",
+      "label": "defence · Russia · security · Ukraine",
       "origin": "convergence",
       "source_count": 3,
-      "item_count": 5,
+      "item_count": 3,
       "latest_at": "2026-11-22T08:29:00Z",
       "sources": [
         {
@@ -150,9 +166,9 @@
         },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261121-russia-attacks-zelensky-s-hometown-ukraine-reaffirms-wish-to-join-nato",
-          "headline": "Russia attacks Zelensky's hometown, Ukraine reaffirms wish to join NATO",
-          "published_at": "2026-11-21T19:56:39Z"
+          "url": "https://www.france24.com/en/russia-tests-nato-s-eastern-defences",
+          "headline": "Russia tests NATO’s eastern defences",
+          "published_at": "2026-11-21T12:50:35Z"
         }
       ]
     },
@@ -209,6 +225,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "27bf540c760453580a1760b1",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Russia-bound ship still on fire after attack in Gulf of Finland",
+      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-22T11:25:14Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "09a0fd93169770c631bb15f6",
       "source_id": "politico_europe",
@@ -1022,48 +1052,6 @@
       ]
     },
     {
-      "id": "5c6f475c44157a0fca528dd1",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Accept cookies'? Russia collects data from swaths of unknowing Swedes",
-      "url": "https://www.france24.com/en/europe/20261121-accept-cookies-russia-collected-data-swaths-unknowing-swedes",
-      "published_at": "2026-11-21T10:55:32Z",
-      "collected_at": "2026-11-21T11:01:08Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "bdc9e8e29348482bef97e644",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Costa cuts proposed EU budget by €44B",
-      "url": "https://www.politico.eu/article/costa-cuts-proposed-eu-budget-by-44billion-euros",
-      "published_at": "2026-11-21T10:44:05Z",
-      "collected_at": "2026-11-21T11:01:08Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "445cb9587d2f3e40cfc348b6",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Unacceptable': EU chief condemns alleged Russian plot to kill US-Ukrainian citizen",
-      "url": "https://www.france24.com/en/europe/20261121-unacceptable-eu-chief-condemns-alleged-russian-plot-to-kill-us-ukrainian-citizen",
-      "published_at": "2026-11-21T10:32:36Z",
-      "collected_at": "2026-11-21T11:01:08Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "08ca3c7a9b4b07f0e5d420c1",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -1103,6 +1091,34 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "e5c45d14092d24d603850df4",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Western Balkans: How Serbia’s political tsunami changes the region",
+      "url": "https://ecfr.eu/podcasts/episode/western-balkans-how-serbias-political-tsunami-changes-the-region",
+      "published_at": "2026-11-20T15:44:05Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "e0190fc78e68ceeb0d8b5792",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Investment at home, cooperation in Europe: How Italy can deal with hybrid threats",
+      "url": "https://ecfr.eu/article/investment-at-home-cooperation-in-europe-how-italy-can-deal-with-hybrid-threats",
+      "published_at": "2026-11-20T14:51:18Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
@@ -1190,6 +1206,20 @@
       ]
     },
     {
+      "id": "17f2142e3adf5840b440fe60",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Europe’s security after Abu Dhabi",
+      "url": "https://ecfr.eu/podcasts/episode/europes-security-after-abu-dhabi",
+      "published_at": "2026-11-20T06:15:00Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
       "id": "c365e0854aee61483f2cefb7",
       "source_id": "euobserver",
       "source_name": "EUobserver",
@@ -1271,6 +1301,34 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "22d559a524921911af67f48e",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Choreographing a comeback: What Russia’s Africa policy means for Europe",
+      "url": "https://ecfr.eu/article/choreographing-a-comeback-what-russias-africa-policy-means-for-europe",
+      "published_at": "2026-11-19T16:42:29Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "2738e7bfe4ea193abfcc30d4",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The end of the exception: The future of Spain’s foreign policy",
+      "url": "https://ecfr.eu/article/the-end-of-the-exception-the-future-of-spains-foreign-policy",
+      "published_at": "2026-11-19T16:11:31Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
@@ -1428,13 +1486,13 @@
       ]
     },
     {
-      "id": "4297ba8249e4facb308598da",
+      "id": "eb89e65c9038a64b792571ce",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
-      "title": "Polish Supreme Court rejects government’s position on Constitutional Tribunal",
-      "url": "https://notesfrompoland.com/2026/11/19/polish-supreme-court-rejects-governments-position-on-constitutional-tribunal",
-      "published_at": "2026-11-19T10:10:15Z",
-      "collected_at": "2026-11-21T11:01:08Z",
+      "title": "New Kraków mayor withdraws from metro plans and seeks to shrink clean transport zone",
+      "url": "https://notesfrompoland.com/2026/11/18/new-krakow-mayor-withdraws-from-metro-plans-and-seeks-to-shrink-clean-transport-zone",
+      "published_at": "2026-11-18T10:54:30Z",
+      "collected_at": "2026-11-22T11:30:57Z",
       "topics": [
         "central_europe",
         "politics",
@@ -1442,17 +1500,31 @@
       ]
     },
     {
-      "id": "7157981afcdfddb8de5db1b5",
+      "id": "9fdd631d853e6b7e7b406525",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
-      "title": "Peter Thiel expands investments in Vaca Muerta's largest oil exporter",
-      "url": "https://english.elpais.com/economy-and-business/2026-11-19/peter-thiel-expands-investments-in-vaca-muertas-largest-oil-exporter.html",
-      "published_at": "2026-11-19T10:01:05Z",
-      "collected_at": "2026-11-21T11:01:08Z",
+      "title": "Mexico halts Christie’s auction of Frida Kahlo work",
+      "url": "https://english.elpais.com/culture/2026-11-18/mexico-halts-christies-auction-of-frida-kahlo-work.html",
+      "published_at": "2026-11-18T10:04:14Z",
+      "collected_at": "2026-11-22T11:30:57Z",
       "topics": [
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "9bc4dccfe6434fccc08bb099",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Fridges to fighter bases: The rise in Iranian hybrid attacks in Europe",
+      "url": "https://ecfr.eu/article/fridges-to-fighter-bases-the-rise-in-iranian-hybrid-attacks-in-europe",
+      "published_at": "2026-11-18T09:34:13Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
@@ -1540,6 +1612,20 @@
       ]
     },
     {
+      "id": "a479284ed249ebefca81e45b",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Two prisoners, one rift: South Korea, Europe and Russia’s war on Ukraine",
+      "url": "https://ecfr.eu/article/two-prisoners-one-rift-south-korea-europe-and-russias-war-on-ukraine",
+      "published_at": "2026-11-17T14:17:16Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
       "id": "fdd707d32e543404dc4da508",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1596,31 +1682,17 @@
       ]
     },
     {
-      "id": "4dcf9144400278d5f772c4cd",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Emma Watson, 25 years after ‘Harry Potter’: From the girl who conquered the world to the woman who stepped back from Hollywood",
-      "url": "https://english.elpais.com/people/2026-11-17/emma-watson-25-years-after-harry-potter-from-the-girl-who-conquered-the-world-to-the-woman-who-stepped-back-from-hollywood.html",
-      "published_at": "2026-11-17T10:31:28Z",
-      "collected_at": "2026-11-21T11:01:08Z",
+      "id": "1ed794940c04cfd473b190ee",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Rearming without China: Time to secure Europe’s military supply chains",
+      "url": "https://ecfr.eu/article/rearming-without-china-time-to-secure-europes-military-supply-chains",
+      "published_at": "2026-11-16T11:55:20Z",
+      "collected_at": "2026-11-22T11:30:57Z",
       "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "ee2b1ac373e38132827470ce",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland’s central bank freezes constitutional court’s accounts amid leadership dispute",
-      "url": "https://notesfrompoland.com/2026/11/17/polands-central-bank-freezes-constitutional-courts-accounts-amid-leadership-dispute",
-      "published_at": "2026-11-17T10:28:35Z",
-      "collected_at": "2026-11-21T11:01:08Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
@@ -1722,17 +1794,45 @@
       ]
     },
     {
-      "id": "ff3cf68b107dad32b884d9fb",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "U2’s trail in Dublin, 50 years after the band’s formation",
-      "url": "https://english.elpais.com/culture/2026-11-13/u2s-trail-in-dublin-50-years-after-the-bands-formation.html",
-      "published_at": "2026-11-13T10:04:36Z",
-      "collected_at": "2026-11-21T11:01:08Z",
+      "id": "4bf5882ea19701405acf4ac0",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "After Abu Dhabi: How Europeans must reframe the European security debate",
+      "url": "https://ecfr.eu/article/after-abu-dhabi-how-europeans-must-reframe-the-european-security-debate",
+      "published_at": "2026-11-13T16:01:14Z",
+      "collected_at": "2026-11-22T11:30:57Z",
       "topics": [
-        "politics",
-        "society",
-        "economy"
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "55eaed61dea9e4431e865559",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "More than Ukraine: How the Abu Dhabi talks laid bare Russia’s priorities",
+      "url": "https://ecfr.eu/article/more-than-ukraine-how-the-abu-dhabi-talks-laid-bare-russias-priorities",
+      "published_at": "2026-11-13T13:37:07Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "0b383c450b9c3be606288eb1",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "AfD on the rise",
+      "url": "https://ecfr.eu/podcasts/episode/afd-on-the-rise",
+      "published_at": "2026-11-13T13:27:38Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
@@ -1750,17 +1850,157 @@
       ]
     },
     {
-      "id": "616376615b75f7e987f4f3ee",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Emmanuel Carrère, writer: ‘There is only one rule: do no harm — and I broke it with my mother and girlfriend at the time’",
-      "url": "https://english.elpais.com/culture/2026-11-11/emmanuel-carrere-writer-there-is-only-one-rule-do-no-harm-and-i-broke-it-with-my-mother-and-girlfriend-at-the-time.html",
-      "published_at": "2026-11-11T09:30:00Z",
-      "collected_at": "2026-11-21T11:01:08Z",
+      "id": "0b3d5cbcdf261c1381d17cfc",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Saved by Trump: What Hegseth’s political survival means for Europe",
+      "url": "https://ecfr.eu/article/saved-by-trump-what-hegseths-political-survival-means-for-europe",
+      "published_at": "2026-11-12T17:42:45Z",
+      "collected_at": "2026-11-22T11:30:57Z",
       "topics": [
-        "politics",
-        "society",
-        "economy"
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "cbb7bd9f5009a49758d9f92d",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Pivot (Russia’s to China)",
+      "url": "https://ecfr.eu/special/interdependence-revised/pivot-russias-to-china",
+      "published_at": "2026-11-12T09:32:35Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "191550c0caa68b5de2abf903",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Tech race",
+      "url": "https://ecfr.eu/special/interdependence-revised/tech-race",
+      "published_at": "2026-11-12T09:32:35Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "964c99b91057ec9ef70320d2",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Globalisation",
+      "url": "https://ecfr.eu/special/interdependence-revised/globalisation",
+      "published_at": "2026-11-12T09:32:34Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "51a546073268954bbc69d436",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Middle powers",
+      "url": "https://ecfr.eu/special/interdependence-revised/middle-powers",
+      "published_at": "2026-11-12T09:32:34Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "80426337ea0a3454ccf67fde",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "De-dollarisation",
+      "url": "https://ecfr.eu/special/interdependence-revised/de-dollarisation",
+      "published_at": "2026-11-12T09:32:33Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "cb128032a3f2992913b2d8d9",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Critical raw materials",
+      "url": "https://ecfr.eu/special/interdependence-revised/critical-raw-materials",
+      "published_at": "2026-11-12T09:32:32Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "14e99764b3604869dda3a7c3",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "China shock",
+      "url": "https://ecfr.eu/special/interdependence-revised/china-shock",
+      "published_at": "2026-11-12T09:32:31Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "078fb41a9b469359e0a17161",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Bonus entry: Statistics",
+      "url": "https://ecfr.eu/special/interdependence-revised/statistics",
+      "published_at": "2026-11-12T09:32:30Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "38bad33cd8ff3e272e663c59",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Antibiotics",
+      "url": "https://ecfr.eu/special/interdependence-revised/antibiotics",
+      "published_at": "2026-11-12T09:32:30Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "de87d9a7ecbd9bee1078c7c1",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Interdependence, revised: A new dictionary for the world economy",
+      "url": "https://ecfr.eu/special/interdependence-revised",
+      "published_at": "2026-11-12T09:30:00Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
@@ -1775,6 +2015,48 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "0f28eee9a406851cee3e3588",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Deutschland First: What the rise of the AfD means for Europe",
+      "url": "https://ecfr.eu/publication/deutschland-first-what-the-rise-of-the-afd-means-for-europe",
+      "published_at": "2026-11-09T09:30:00Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "e3398269f45a1fb6908efb79",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Friendlier Congress, restless president: How Europeans should approach America after the midterms",
+      "url": "https://ecfr.eu/article/friendlier-congress-restless-president-how-europeans-should-approach-america-after-the-midterms",
+      "published_at": "2026-11-06T16:45:45Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
+      "id": "5f47eb94278e05e6c4ee79fc",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "The Iran war after the midterms",
+      "url": "https://ecfr.eu/podcasts/episode/the-iran-war-after-the-midterms",
+      "published_at": "2026-11-06T08:46:43Z",
+      "collected_at": "2026-11-22T11:30:57Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
