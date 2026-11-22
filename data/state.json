@@ -1,9 +1,5 @@
 {
   "seen": {
-    "cf01c5d4fec2ae23c45d0ccf": "2026-11-20T17:01:00Z",
-    "2abf228e6aa2a4349e59d066": "2026-11-20T17:01:00Z",
-    "b3ccd2fdf38db0dbc6072663": "2026-11-20T17:01:00Z",
-    "51213d54de74a17b367e87b1": "2026-11-20T17:01:00Z",
     "bbba3dee5c8fb12b7e2cf1bb": "2026-11-20T17:31:04Z",
     "7d38891216126177d6b4ef87": "2026-11-20T17:31:04Z",
     "bb84c610d657d333d53980e9": "2026-11-20T17:31:04Z",
@@ -280,7 +276,9 @@
     "7890974d8825d82dd84fe77b": "2026-11-22T16:01:03Z",
     "0b07e7c52cafdefee7555670": "2026-11-22T16:31:00Z",
     "b60d45390efded70553a7c20": "2026-11-22T16:31:00Z",
-    "2117482b36fd48713597420e": "2026-11-22T16:31:00Z"
+    "2117482b36fd48713597420e": "2026-11-22T16:31:00Z",
+    "2abf228e6aa2a4349e59d066": "2026-11-22T17:01:08Z",
+    "51213d54de74a17b367e87b1": "2026-11-22T17:01:08Z"
   },
   "radar": [
     {
@@ -1117,6 +1115,34 @@
       "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-21T02:09:46Z",
       "collected_at": "2026-11-22T13:01:10Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "51213d54de74a17b367e87b1",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Rwanda return hubs may violate EU human rights law, MEPs warn ahead of 2027 deportations",
+      "url": "https://euobserver.com/250370/meps-invite-legal-challenge-to-rwanda-deportations-as-eu-states-prepare-to-expel-first-people-in-new-year",
+      "published_at": "2026-11-20T16:46:14Z",
+      "collected_at": "2026-11-22T17:01:08Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "2abf228e6aa2a4349e59d066",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Cost of living protests sweep across Europe",
+      "url": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-20T16:45:34Z",
+      "collected_at": "2026-11-22T17:01:08Z",
       "topics": [
         "breaking",
         "politics",
@@ -2368,14 +2394,6 @@
   ],
   "recent_topics": [
     {
-      "at": "2026-11-21T13:01:00Z",
-      "title": "French parliament passes controversial police shootings legislation"
-    },
-    {
-      "at": "2026-11-21T13:31:00Z",
-      "title": "EU and UK Finalize Post-Brexit Accord"
-    },
-    {
       "at": "2026-11-21T13:31:00Z",
       "title": "French Court Sentences Police Officers Over Assault"
     },
@@ -2686,6 +2704,14 @@
     {
       "at": "2026-11-22T16:31:00Z",
       "title": "Diplomatic Expulsions in Cyprus"
+    },
+    {
+      "at": "2026-11-22T17:01:08Z",
+      "title": "Regional Security and Maritime Incidents"
+    },
+    {
+      "at": "2026-11-22T17:01:08Z",
+      "title": "COP31 Climate Negotiations Stalemate"
     }
   ],
   "alerts": [],
@@ -2693,7 +2719,7 @@
     "europe_now": [
       {
         "title": "Baltic Sea Maritime Attack",
-        "summary": "A Russia-bound cargo ship remained on fire following a drone strike in the Gulf of Finland, prompting Finnish authorities to state that the regional conflict is spilling over.",
+        "summary": "A Russia-bound ship remained on fire following a drone strike in the Gulf of Finland, prompting Finnish authorities to state that the war is spilling over. The incident highlights escalating regional security concerns involving maritime infrastructure in Northern Europe.",
         "article_ids": [
           "27bf540c760453580a1760b1",
           "30bab773441bce921a16a7a3"
@@ -2715,8 +2741,56 @@
         "source_count": 2
       },
       {
-        "title": "Collapse of COP31 Climate Negotiations",
-        "summary": "The COP31 climate summit concluded without a final agreement after the European Union rejected the negotiating text due to the omission of fossil fuel references.",
+        "title": "COP31 Climate Summit Collapse",
+        "summary": "The COP31 climate negotiations concluded without a final agreement after the European Union and other delegates rejected the text for omitting mentions of fossil fuels. The breakdown marks a severe stalemate in international climate diplomacy.",
+        "article_ids": [
+          "9c318ebe5e7f1ffd7990f9ff",
+          "d8c43873d58054430b290182"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/environment/20261121-latest-cop31-deal-sidesteps-fossil-fuels-amid-growing-divisions",
+            "headline": "🔴 COP31 ends without deal as EU rejects text for omitting mention of fossil fuels",
+            "published_at": "2026-11-22T12:22:33Z"
+          },
+          {
+            "publisher": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/cop31-laccord-capote-sur-fond-de-desaccord-sur-les-energies-fossiles",
+            "headline": "COP31 : l’accord capote sur fond de désaccord sur les énergies fossiles",
+            "published_at": "2026-11-22T13:54:46Z"
+          }
+        ],
+        "source_count": 2
+      }
+    ],
+    "top_stories": [
+      {
+        "title": "Regional Security and Maritime Incidents",
+        "summary": "A Russia-bound cargo vessel was struck by a drone in the Gulf of Finland, leaving the ship on fire. Finnish officials responded by declaring that the ongoing conflict has begun spilling over into the Baltic region.",
+        "article_ids": [
+          "27bf540c760453580a1760b1",
+          "30bab773441bce921a16a7a3"
+        ],
+        "sources": [
+          {
+            "publisher": "BBC News Europe",
+            "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+            "headline": "Russia-bound ship still on fire after attack in Gulf of Finland",
+            "published_at": "2026-11-22T11:25:14Z"
+          },
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/europe/20261122-live-finland-says-war-spilling-over-after-baltic-sea-drone-strike-on-russian-cargo-ship",
+            "headline": "Live: Finland says war 'spilling over' after Baltic Sea drone strike on Russian cargo ship",
+            "published_at": "2026-11-22T06:15:38Z"
+          }
+        ],
+        "source_count": 2
+      },
+      {
+        "title": "COP31 Climate Negotiations Stalemate",
+        "summary": "The COP31 climate summit ended without securing a final deal due to sharp divisions over fossil fuels. The European Union rejected the draft text because it omitted crucial references to phasing out fossil energy sources.",
         "article_ids": [
           "9c318ebe5e7f1ffd7990f9ff",
           "9cd3d286e892525a5bb2b9dc"
@@ -2737,48 +2811,7 @@
         ],
         "source_count": 2
       }
-    ],
-    "top_stories": [
-      {
-        "title": "Belgian Transport Strikes",
-        "summary": "Major aviation hubs including Brussels and Charleroi airports announced the cancellation of most flights for Monday. The disruptions are directly tied to ongoing labor strikes across Belgium.",
-        "article_ids": [
-          "09a0fd93169770c631bb15f6",
-          "33c83871849a86791f62cf9b"
-        ],
-        "sources": [
-          {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/brussels-charleroi-airports-cancel-most-flights-monday-belgian-strike",
-            "headline": "Brussels, Charleroi airports to cancel most flights Monday amid Belgian strike",
-            "published_at": "2026-11-22T10:30:54Z"
-          },
-          {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/brussels-charleroi-airports-cancel-most-flights-monday-belgian-strike",
-            "headline": "All flights to and from Brussels, Charleroi airports canceled Monday amid strike",
-            "published_at": "2026-11-22T10:30:54Z"
-          }
-        ],
-        "source_count": 1
-      },
-      {
-        "title": "Diplomatic Expulsions in Cyprus",
-        "summary": "Cyprus has moved to expel several Russian diplomats from its territory. The official measure was taken on suspicion of espionage activities.",
-        "article_ids": [
-          "e04f17835cb6f5fb2a3d625f"
-        ],
-        "sources": [
-          {
-            "publisher": "POLITICO Europe",
-            "url": "https://www.politico.eu/article/cyprus-expels-russian-diplomats-on-suspicion-of-espionage",
-            "headline": "Cyprus expels Russian diplomats on suspicion of espionage",
-            "published_at": "2026-11-22T15:56:12Z"
-          }
-        ],
-        "source_count": 1
-      }
     ]
   },
-  "last_collection_at": "2026-11-22T16:31:00Z"
+  "last_collection_at": "2026-11-22T17:01:08Z"
 }
