@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-22T15:31:02Z",
-  "last_successful_collection_at": "2026-11-22T15:31:02Z",
+  "generated_at": "2026-11-22T16:01:03Z",
+  "last_successful_collection_at": "2026-11-22T16:01:03Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-22T15:31:02Z"
+      "at": "2026-11-22T16:01:03Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-11-22T15:31:02Z"
+      "at": "2026-11-22T16:01:03Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-22T15:31:02Z"
+      "at": "2026-11-22T16:01:03Z"
     },
     {
       "id": "euractiv",
@@ -29,42 +29,42 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-22T15:31:02Z"
+      "at": "2026-11-22T16:01:03Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-22T15:31:02Z"
+      "at": "2026-11-22T16:01:03Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-22T15:31:02Z"
+      "at": "2026-11-22T16:01:03Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-22T15:31:02Z"
+      "at": "2026-11-22T16:01:03Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-22T15:31:02Z"
+      "at": "2026-11-22T16:01:03Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-22T15:31:02Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-22T16:01:03Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Baltic Sea Maritime Attack",
+      "title": "Russian cargo ship attacked in Gulf of Finland",
       "summary": "A Russia-bound cargo ship caught fire following a drone strike in the Gulf of Finland, prompting Finnish officials to state that the regional conflict is spilling over.",
       "article_ids": [
         "27bf540c760453580a1760b1",
@@ -87,10 +87,11 @@
       "source_count": 2
     },
     {
-      "title": "COP31 Climate Negotiations Collapse",
-      "summary": "The COP31 climate summit concluded without a final agreement after the European Union rejected the text for failing to mention fossil fuels.",
+      "title": "COP31 climate negotiations collapse",
+      "summary": "The COP31 summit concluded without a final agreement after the European Union and other delegates rejected the text for omitting mentions of fossil fuels.",
       "article_ids": [
         "d8c43873d58054430b290182",
+        "9cd3d286e892525a5bb2b9dc",
         "9c318ebe5e7f1ffd7990f9ff"
       ],
       "sources": [
@@ -112,8 +113,54 @@
   ],
   "top_stories": [
     {
-      "title": "Belgian Transport Strikes",
-      "summary": "Brussels and Charleroi airports announced the cancellation of most flights due to a national strike. The disruptions affect major transport hubs across the country.",
+      "title": "Regional Security Incidents in Northern Europe",
+      "summary": "A Russia-bound vessel suffered a fire after an incident in the Gulf of Finland. Finnish authorities noted that the ongoing war is expanding into surrounding maritime areas.",
+      "article_ids": [
+        "27bf540c760453580a1760b1",
+        "30bab773441bce921a16a7a3"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia-bound ship still on fire after attack in Gulf of Finland",
+          "published_at": "2026-11-22T11:25:14Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261122-live-finland-says-war-spilling-over-after-baltic-sea-drone-strike-on-russian-cargo-ship",
+          "headline": "Live: Finland says war 'spilling over' after Baltic Sea drone strike on Russian cargo ship",
+          "published_at": "2026-11-22T06:15:38Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Breakdown of COP31 Climate Talks",
+      "summary": "The recent international climate conference ended without a formal deal. European delegates refused to sign the draft because it omitted references to phasing out fossil fuels.",
+      "article_ids": [
+        "d8c43873d58054430b290182",
+        "9c318ebe5e7f1ffd7990f9ff"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/cop31-laccord-capote-sur-fond-de-desaccord-sur-les-energies-fossiles",
+          "headline": "COP31 : l’accord capote sur fond de désaccord sur les énergies fossiles",
+          "published_at": "2026-11-22T13:54:46Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/environment/20261121-latest-cop31-deal-sidesteps-fossil-fuels-amid-growing-divisions",
+          "headline": "🔴 COP31 ends without deal as EU rejects text for omitting mention of fossil fuels",
+          "published_at": "2026-11-22T12:22:33Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Transportation Disruptions in Belgium",
+      "summary": "Major airports in Belgium announced extensive cancellations for Monday operations. The schedule changes come in response to an upcoming national strike action.",
       "article_ids": [
         "09a0fd93169770c631bb15f6",
         "33c83871849a86791f62cf9b"
@@ -133,29 +180,6 @@
         }
       ],
       "source_count": 1
-    },
-    {
-      "title": "Regional Security and Missile Attacks",
-      "summary": "Ukrainian officials reported that multiple people are missing following a Russian strike in the Kyiv region. President Volodymyr Zelenskyy subsequently pressed the United States for additional Patriot missile systems.",
-      "article_ids": [
-        "b268c63be6d18ad9988c265f",
-        "6999b5fe7e26c949238044fe"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/14-missing-after-russian-strike-zelenskyy-presses-us-patriot-missiles",
-          "headline": "14 missing after Russian strike as Zelenskyy presses US over Patriot missiles",
-          "published_at": "2026-11-22T09:49:20Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261122-live-finland-says-war-spilling-over-after-baltic-sea-drone-strike-on-russian-cargo-ship",
-          "headline": "Live: At least 14 feared trapped after Russian strike in Kyiv region, Zelensky says",
-          "published_at": "2026-11-22T06:15:38Z"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "developing": [
@@ -181,10 +205,10 @@
       ]
     },
     {
-      "label": "France · protests · sixth · consecutive",
+      "label": "consecutive · draw · France · lower",
       "origin": "radar",
       "source_count": 1,
-      "item_count": 4,
+      "item_count": 2,
       "latest_at": "2026-11-21T20:20:37Z",
       "sources": [
         {
@@ -192,6 +216,21 @@
           "url": "https://www.france24.com/en/france/20261121-france-s-sixth-consecutive-saturday-of-protests-draw-lower-turnout",
           "headline": "France’s sixth consecutive Saturday of protests draw lower turnout",
           "published_at": "2026-11-21T20:20:37Z"
+        }
+      ]
+    },
+    {
+      "label": "missiles · missing · Patriot · presses",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-11-22T09:49:20Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/14-missing-after-russian-strike-zelenskyy-presses-us-patriot-missiles",
+          "headline": "14 missing after Russian strike as Zelenskyy presses US over Patriot missiles",
+          "published_at": "2026-11-22T09:49:20Z"
         }
       ]
     },
@@ -209,24 +248,23 @@
           "published_at": "2026-11-21T18:02:23Z"
         }
       ]
-    },
-    {
-      "label": "COP31 · French · hosts · pictures",
-      "origin": "radar",
-      "source_count": 1,
-      "item_count": 1,
-      "latest_at": "2026-11-22T14:22:56Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/asia-pacific/20261122-the-week-in-pictures-xi-hosts-trump-and-putin-cop31-and-more-french-protests",
-          "headline": "The week in pictures: Xi hosts Trump and Putin, COP31 and new French protests",
-          "published_at": "2026-11-22T14:22:56Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "e04f17835cb6f5fb2a3d625f",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Cyprus expels Russian diplomats on suspicion of espionage",
+      "url": "https://www.politico.eu/article/cyprus-expels-russian-diplomats-on-suspicion-of-espionage",
+      "published_at": "2026-11-22T15:56:12Z",
+      "collected_at": "2026-11-22T16:01:03Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "8650634c36dc93d48f190877",
       "source_id": "france24",
@@ -1124,6 +1162,20 @@
       ]
     },
     {
+      "id": "343077f13b713a02c6d98d32",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland prevented Russian false-flag operation at border, says advisor to defence minister",
+      "url": "https://notesfrompoland.com/2026/11/20/poland-prevented-russian-false-flag-operation-at-border-says-advisor-to-defence-minister",
+      "published_at": "2026-11-20T15:14:51Z",
+      "collected_at": "2026-11-22T16:01:03Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
       "id": "e0190fc78e68ceeb0d8b5792",
       "source_id": "ecfr",
       "source_name": "European Council on Foreign Relations",
@@ -1303,6 +1355,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "7890974d8825d82dd84fe77b",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Two Russian missiles and a drone hit Poland",
+      "url": "https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine",
+      "published_at": "2026-11-20T09:30:31Z",
+      "collected_at": "2026-11-22T16:01:03Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
       ]
     },
     {
