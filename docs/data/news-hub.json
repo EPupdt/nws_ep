@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-22T17:30:59Z",
-  "last_successful_collection_at": "2026-11-22T17:30:59Z",
+  "generated_at": "2026-11-22T18:01:01Z",
+  "last_successful_collection_at": "2026-11-22T18:01:01Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-22T17:30:59Z"
+      "at": "2026-11-22T18:01:01Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "26",
-      "at": "2026-11-22T17:30:59Z"
+      "at": "2026-11-22T18:01:01Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-22T17:30:59Z"
+      "at": "2026-11-22T18:01:01Z"
     },
     {
       "id": "euractiv",
@@ -29,68 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-22T17:30:59Z"
+      "at": "2026-11-22T18:01:01Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-22T17:30:59Z"
+      "at": "2026-11-22T18:01:01Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-22T17:30:59Z"
+      "at": "2026-11-22T18:01:01Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-22T17:30:59Z"
+      "at": "2026-11-22T18:01:01Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-22T17:30:59Z"
+      "at": "2026-11-22T18:01:01Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-22T17:30:59Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-22T18:01:01Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Russia-Bound Vessel Attacked in Gulf of Finland",
-      "summary": "A Russia-bound ship was towed away after experiencing an attack while navigating through the Gulf of Finland. Regional authorities highlighted the incident as an escalation in maritime security concerns.",
-      "article_ids": [
-        "b61912c449317c0184b7c9d7",
-        "27bf540c760453580a1760b1"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
-          "published_at": "2026-11-22T17:18:26Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-          "headline": "Russia-bound ship still on fire after attack in Gulf of Finland",
-          "published_at": "2026-11-22T11:25:14Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Maritime Security Incident in Northern Europe",
-      "summary": "A commercial cargo vessel headed toward Russia was targeted by a drone strike in the Baltic Sea. Finnish officials characterized the event as a spillover effect from ongoing regional conflicts.",
+      "title": "Maritime Security Incident in the Gulf of Finland",
+      "summary": "A Russia-bound cargo ship was towed away after sustaining damage from an attack in the Gulf of Finland. Finnish officials noted concern over the incident as a sign that regional security risks are spilling over.",
       "article_ids": [
         "b61912c449317c0184b7c9d7",
         "30bab773441bce921a16a7a3"
@@ -110,10 +85,35 @@
         }
       ],
       "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Regional Security and Attacks",
+      "summary": "A recent Russian strike in Kyiv resulted in casualties and prompted Ukrainian leadership to press international partners for enhanced defense systems. Concurrently, maritime security incidents in northern waters have drawn heightened attention from regional authorities.",
+      "article_ids": [
+        "5df3e3a106f04fc75badc621",
+        "b268c63be6d18ad9988c265f"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/russian-strike-kills-2-in-kyiv",
+          "headline": "Russian strike kills 2 in Kyiv",
+          "published_at": "2026-11-22T16:23:23Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/14-missing-after-russian-strike-zelenskyy-presses-us-patriot-missiles",
+          "headline": "14 missing after Russian strike as Zelenskyy presses US over Patriot missiles",
+          "published_at": "2026-11-22T09:49:20Z"
+        }
+      ],
+      "source_count": 2
     },
     {
-      "title": "Diplomatic Expulsions in Cyprus",
-      "summary": "Cyprus authorities expelled several Russian diplomatic personnel from the island. The action was taken following formal suspicions of espionage activities.",
+      "title": "Diplomatic Expulsions and Espionage Suspicions",
+      "summary": "Cyprus has taken action to expel Russian diplomats over allegations of involvement in espionage activities. This diplomatic measure reflects ongoing geopolitical tensions and security concerns across European nations.",
       "article_ids": [
         "e04f17835cb6f5fb2a3d625f"
       ],
@@ -157,27 +157,6 @@
       ]
     },
     {
-      "label": "Russian · strike · Kyiv",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-22T16:23:23Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/russian-strike-kills-2-in-kyiv",
-          "headline": "Russian strike kills 2 in Kyiv",
-          "published_at": "2026-11-22T16:23:23Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/14-missing-after-russian-strike-zelenskyy-presses-us-patriot-missiles",
-          "headline": "14 missing after Russian strike as Zelenskyy presses US over Patriot missiles",
-          "published_at": "2026-11-22T09:49:20Z"
-        }
-      ]
-    },
-    {
       "label": "airports · amid · Brussels · Charleroi",
       "origin": "radar",
       "source_count": 1,
@@ -206,9 +185,38 @@
           "published_at": "2026-11-21T20:20:37Z"
         }
       ]
+    },
+    {
+      "label": "ablaze · attack · cargo · Drone",
+      "origin": "radar",
+      "source_count": 1,
+      "item_count": 1,
+      "latest_at": "2026-11-21T18:02:23Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
+          "headline": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
+          "published_at": "2026-11-21T18:02:23Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "6971086ed9e69215c9a50b4e",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Le Pen denies receiving leaked information from French interior ministry official",
+      "url": "https://www.france24.com/en/france/20261122-le-pen-denies-receiving-leaked-information-from-french-interior-ministry-official",
+      "published_at": "2026-11-22T17:47:34Z",
+      "collected_at": "2026-11-22T18:01:01Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "43ce9cb510ee463ae45e1d96",
       "source_id": "politico_europe",
@@ -966,76 +974,6 @@
       ]
     },
     {
-      "id": "7eedd7ab83bfa3a0a373fd32",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "COP31: Deep divisions persist over energy, finance and science",
-      "url": "https://www.france24.com/en/cop31-deep-divisions-persist-over-energy-finance-and-science",
-      "published_at": "2026-11-21T17:26:47Z",
-      "collected_at": "2026-11-21T17:31:06Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "6441b51440ec7adf3443d92b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "FBI criminal database hacked",
-      "url": "https://www.france24.com/en/fbi-criminal-database-hacked",
-      "published_at": "2026-11-21T17:23:18Z",
-      "collected_at": "2026-11-21T17:31:06Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "ad336a87703da0d6d9a43991",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Man convicted of starting palisades fire",
-      "url": "https://www.france24.com/en/man-convicted-of-starting-palisades-fire",
-      "published_at": "2026-11-21T17:21:55Z",
-      "collected_at": "2026-11-21T17:31:06Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "aa8310f3c31ee2a5b26850ec",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Costa’s EU budget plan for 10 percent cuts pits ‘frugals’ against ‘cohesion’ group ahead of crunch summit",
-      "url": "https://euobserver.com/250481/costas-eu-budget-plan-for-10-percent-cuts-pits-frugals-against-cohesion-group-ahead-of-crunch-summit",
-      "published_at": "2026-11-21T17:18:38Z",
-      "collected_at": "2026-11-21T17:31:06Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "e73a8779574f22e84e84231c",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Russian helicopter suspected of violating Finnish airspace",
-      "url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-21T17:08:00Z",
-      "collected_at": "2026-11-21T17:31:06Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
       "id": "ab2502fd3c75ab5e07735aff",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1043,20 +981,6 @@
       "url": "https://www.france24.com/en/americas/20261121-mexico-captures-drug-cartel-boss-el-chapo-isidro-after-deadly-firefight",
       "published_at": "2026-11-21T15:00:15Z",
       "collected_at": "2026-11-22T04:31:02Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "04cd443fed4022297f83ae7b",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: Interior ministry says 82,500 people protest across France, unions claim 150,000",
-      "url": "https://www.france24.com/en/france/20261121-live-france-braces-for-fresh-protests-as-social-unrest-enters-sixth-week",
-      "published_at": "2026-11-21T08:29:53Z",
-      "collected_at": "2026-11-21T17:31:06Z",
       "topics": [
         "politics",
         "security",
@@ -1075,6 +999,34 @@
         "breaking",
         "politics",
         "society"
+      ]
+    },
+    {
+      "id": "7d38891216126177d6b4ef87",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Fake forests hiding locations in Russia",
+      "url": "https://www.bbc.co.uk/news/videos/cm3wg1lzwx84o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-20T17:20:55Z",
+      "collected_at": "2026-11-22T18:01:01Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "0bd8fffbcbce5fff7c952f71",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Spanish court releases pro‑Palestinian billionaire Fergie Chambers from custody over US translation errors in extradition request",
+      "url": "https://english.elpais.com/spain/2026-11-20/spanish-court-releases-propalestinian-billionaire-fergie-chambers-from-custody-over-us-translation-errors-in-extradition-request.html",
+      "published_at": "2026-11-20T16:52:36Z",
+      "collected_at": "2026-11-22T18:01:01Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -1148,6 +1100,20 @@
       ]
     },
     {
+      "id": "d43259950dd6221957b55ba1",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Turkey: an emerging recycling power or Europe’s dump?",
+      "url": "https://english.elpais.com/international/2026-11-20/turkey-an-emerging-recycling-power-or-europes-dump.html",
+      "published_at": "2026-11-20T15:11:39Z",
+      "collected_at": "2026-11-22T18:01:01Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "e0190fc78e68ceeb0d8b5792",
       "source_id": "ecfr",
       "source_name": "European Council on Foreign Relations",
@@ -1187,6 +1153,20 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "bbba3dee5c8fb12b7e2cf1bb",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "What does the new Brexit deal mean for Northern Ireland?",
+      "url": "https://www.bbc.co.uk/news/articles/cm4gn9xw1v99o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-20T14:41:53Z",
+      "collected_at": "2026-11-22T18:01:01Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -1481,34 +1461,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "e79786877fa547828d83c8a8",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "UK-EU summit to see mutual love-bombing, but British must decide what to do next",
-      "url": "https://euobserver.com/249992/uk-eu-summit-to-see-mutual-love-bombing-but-british-must-decide-what-to-do-next",
-      "published_at": "2026-11-19T17:16:16Z",
-      "collected_at": "2026-11-21T17:31:06Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "52e15e19c8e02dccf837ad85",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Hungary’s new government claws back motorways and tobacco monopoly after years of taxpayer‑funded Orbán luxury travel (Day 191 of the Tisza government)",
-      "url": "https://euobserver.com/250131/hungarys-new-government-claws-back-motorways-and-tobacco-monopoly-after-years-of-taxpayerfunded-orban-luxury-travel-day-191-of-the-tisza-government",
-      "published_at": "2026-11-19T17:04:22Z",
-      "collected_at": "2026-11-21T17:31:06Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
       ]
     },
     {
