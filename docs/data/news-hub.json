@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-23T16:30:59Z",
-  "last_successful_collection_at": "2026-11-23T16:30:59Z",
+  "generated_at": "2026-11-23T17:01:19Z",
+  "last_successful_collection_at": "2026-11-23T17:01:19Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-23T16:30:59Z"
+      "at": "2026-11-23T17:01:19Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "29",
-      "at": "2026-11-23T16:30:59Z"
+      "at": "2026-11-23T17:01:19Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-23T16:30:59Z"
+      "at": "2026-11-23T17:01:19Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,100 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-23T16:30:59Z"
+      "at": "2026-11-23T17:01:19Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-23T16:30:59Z"
+      "at": "2026-11-23T17:01:19Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-11-23T16:30:59Z"
+      "at": "2026-11-23T17:01:19Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-23T16:30:59Z"
+      "at": "2026-11-23T17:01:19Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-23T16:30:59Z"
+      "at": "2026-11-23T17:01:19Z"
     },
     {
       "id": "bruegel",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-23T16:30:59Z"
+      "status": "ok",
+      "count": "10",
+      "at": "2026-11-23T17:01:19Z"
     }
   ],
   "europe_now": [
     {
-      "title": "EU Commission confirms data leak after cyberattack",
-      "summary": "The European Commission acknowledged a personal data breach resulting from a cyberattack and warned of further operational disruption. The incident underscores vulnerabilities in the bloc's digital infrastructure.",
+      "title": "Finland summons Russian ambassador over suspected airspace violation",
+      "summary": "Finland summoned Russia's ambassador after a suspected violation of Finnish airspace.",
+      "article_ids": [
+        "f02852fee62d02f1fdb16459"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261123-finland-summons-russian-ambassador-after-suspected-airspace-violation",
+          "headline": "Finland summons Russian ambassador after suspected airspace violation",
+          "published_at": "2026-11-23T16:50:41Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "European Commission confirms data leak after cyberattack",
+      "summary": "The European Commission confirmed a personal data leak after a cyberattack and warned of further disruption.",
+      "article_ids": [
+        "22cec83416d1bd33198f4dfb"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/european-commission-personal-data-leak-cyberattack-disruption",
+          "headline": "EU Commission confirms personal data leak after cyberattack, warns of further disruption",
+          "published_at": "2026-11-23T13:08:15Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Russian airspace and sanctions pressure",
+      "summary": "Finland summoned Russia's ambassador after a suspected violation of Finnish airspace. The EU is separately preparing sanctions targeting Russian former soldiers, banks and sports.",
+      "article_ids": [
+        "f02852fee62d02f1fdb16459",
+        "f74ca4ae29ce2bebcd3754ef"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261123-finland-summons-russian-ambassador-after-suspected-airspace-violation",
+          "headline": "Finland summons Russian ambassador after suspected airspace violation",
+          "published_at": "2026-11-23T16:50:41Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-to-target-russian-ex-soldiers-banks-and-sports-in-new-sanctions-push",
+          "headline": "EU to target Russian ex-soldiers, banks and sports in new sanctions push",
+          "published_at": "2026-11-23T16:15:10Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Cyberattack exposes European Commission data",
+      "summary": "The European Commission confirmed that personal data leaked after a cyberattack. It warned that further disruption was possible.",
       "article_ids": [
         "22cec83416d1bd33198f4dfb"
       ],
@@ -80,28 +137,12 @@
       "source_count": 1
     },
     {
-      "title": "Sharp escalation in maritime confrontations involving Russian vessels",
-      "summary": "Russian ships have been reported burning in the Baltic Sea and Mediterranean Sea, indicating a significant increase in naval hostilities. The development raises security concerns for European maritime borders.",
+      "title": "Belgian national strike disrupts transport and draws protests",
+      "summary": "A national strike shut down airports and public transport in Belgium. Tens of thousands of people also took to the streets in anti-austerity protests.",
       "article_ids": [
-        "2e5d483aae178c36bbf411e8"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/250801/fighting-at-sea-escalates-sharply-russian-ships-are-burning-in-the-baltic-and-mediterranean-ukraine-battlefield-update-day-1733",
-          "headline": "Fighting at sea escalates sharply: Russian ships are burning in the Baltic and Mediterranean (Ukraine Battlefield update, Day 1,733)",
-          "published_at": "2026-11-23T15:20:17Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "National strike paralyzes Belgian transport",
-      "summary": "A nationwide strike in Belgium has forced the closure of airports and halted public transport services. The industrial action is causing extensive disruption to travel and logistics across the country.",
-      "article_ids": [
-        "954818a9692994472ef4062b"
+        "954818a9692994472ef4062b",
+        "c61e53c2db9ce52be05264c4",
+        "032a9a63d5de2bcc9d358593"
       ],
       "sources": [
         {
@@ -109,45 +150,35 @@
           "url": "https://www.france24.com/en/video/20261123-airports-public-transport-shut-down-amid-national-strike-in-belgium",
           "headline": "Airports, public transport shut down amid national strike in Belgium",
           "published_at": "2026-11-23T16:10:30Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
+          "headline": "Flights cancelled in Belgium due to cost-of-living strike",
+          "published_at": "2026-11-23T13:34:02Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "COP31 climate talks collapse amid fossil fuel dispute",
-      "summary": "The COP31 climate summit ended without agreement after negotiations broke down over fossil fuel interests. The failure highlights persistent divisions among nations on energy transition commitments.",
+      "title": "Eight EU states oppose delay to emissions trading expansion",
+      "summary": "A group of eight EU governments opposed postponing the addition of transport and heating to the emissions trading system. They said the expansion should not be delayed further.",
       "article_ids": [
-        "24ab89d78f2c18017d310e19"
+        "591b93e1bf58a95bebd0f265"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/down-to-earth/20261123-behind-cop31-failure-a-showdown-over-fossil-fuel-interests",
-          "headline": "Behind COP31 failure: A showdown over fossil fuel interests",
-          "published_at": "2026-11-23T15:40:01Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/250867/eight-eu-states-reject-any-further-delay-to-transport-and-heating-being-included-in-emissions-trading",
+          "headline": "Eight EU states reject any further delay to transport and heating being included in emissions trading",
+          "published_at": "2026-11-23T16:38:34Z"
         }
       ],
       "source_count": 1
     },
     {
-      "title": "EU prepares new sanctions targeting Russian individuals and sectors",
-      "summary": "The European Union is drafting a sanctions package aimed at Russian former soldiers, banks, and sports organizations. The measures are intended to intensify pressure on Moscow over the war in Ukraine.",
-      "article_ids": [
-        "f74ca4ae29ce2bebcd3754ef"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-to-target-russian-ex-soldiers-banks-and-sports-in-new-sanctions-push",
-          "headline": "EU to target Russian ex-soldiers, banks and sports in new sanctions push",
-          "published_at": "2026-11-23T16:15:10Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Serbian student movement shifts from protests to political challenge",
-      "summary": "A student-led movement in Serbia is attempting to translate mass demonstrations into a direct challenge to President Vučić's rule. The movement's stated goal is to dismantle the current administration.",
+      "title": "Serbia's student movement shifts toward political challenge",
+      "summary": "Serbia's student movement is preparing to turn its protest activity into a political challenge to the government. Its stated aim is to remove Vučić's regime.",
       "article_ids": [
         "1a4f812abcf65df2ca07d3b7"
       ],
@@ -163,6 +194,39 @@
     }
   ],
   "developing": [
+    {
+      "label": "Russian · Ukraine · ships · Libya",
+      "origin": "convergence",
+      "source_count": 4,
+      "item_count": 10,
+      "latest_at": "2026-11-23T15:20:17Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/250801/fighting-at-sea-escalates-sharply-russian-ships-are-burning-in-the-baltic-and-mediterranean-ukraine-battlefield-update-day-1733",
+          "headline": "Fighting at sea escalates sharply: Russian ships are burning in the Baltic and Mediterranean (Ukraine Battlefield update, Day 1,733)",
+          "published_at": "2026-11-23T15:20:17Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261123-ukraine-claims-strikes-on-russian-ships-off-libyan-coast",
+          "headline": "Ukraine claims strikes on Russian ships off Libyan coast",
+          "published_at": "2026-11-23T14:36:26Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/volodymyr-zelenskyy-claims-ukraine-sank-russia-warship-benghazi-libya",
+          "headline": "Ukraine sank Russian warship off Libya, Zelenskyy says",
+          "published_at": "2026-11-23T08:45:24Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+          "headline": "Russian ships hit by Ukrainian drones off Libya coast, Zelensky says",
+          "published_at": "2026-11-23T08:36:57Z"
+        }
+      ]
+    },
     {
       "label": "Climate · talks · collapse · COP31",
       "origin": "convergence",
@@ -194,14 +258,14 @@
       "label": "Huang · Nvidia · CEO · Jensen",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 7,
-      "latest_at": "2026-11-23T15:29:07Z",
+      "item_count": 9,
+      "latest_at": "2026-11-23T16:37:04Z",
       "sources": [
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261123-nvidia-reinstates-jensen-huang-as-ceo",
-          "headline": "Nvidia reinstates Jensen Huang as CEO",
-          "published_at": "2026-11-23T15:29:07Z"
+          "url": "https://www.france24.com/en/americas/20261123-nvidia-board-reinstates-disgraced-jensen-huang-as-ceo-president-says",
+          "headline": "🔴Democrats vow probe after Trump admits role in Huang's return as Nvidia CEO",
+          "published_at": "2026-11-23T16:37:04Z"
         },
         {
           "publisher": "EL PAÍS English",
@@ -215,7 +279,7 @@
       "label": "Russian · Ukrainian · drones · warship",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 5,
+      "item_count": 4,
       "latest_at": "2026-11-23T10:53:00Z",
       "sources": [
         {
@@ -231,30 +295,65 @@
           "published_at": "2026-11-23T08:36:57Z"
         }
       ]
-    },
-    {
-      "label": "EU · budget · wants",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-11-23T05:05:00Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/france-gets-an-eu-budget-win-but-wants-more",
-          "headline": "France gets an EU budget win — but wants more",
-          "published_at": "2026-11-23T05:05:00Z"
-        },
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/250316/this-week-trillion-euro-budget-scrap-spains-sanchez-on-the-ropes-and-putin-invites-eu-to-dinner",
-          "headline": "THIS WEEK: EU leaders clash over budget cuts, Sánchez risks losing power, and Putin invites EU to dinner",
-          "published_at": "2026-11-23T05:00:00Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "f02852fee62d02f1fdb16459",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Finland summons Russian ambassador after suspected airspace violation",
+      "url": "https://www.france24.com/en/europe/20261123-finland-summons-russian-ambassador-after-suspected-airspace-violation",
+      "published_at": "2026-11-23T16:50:41Z",
+      "collected_at": "2026-11-23T17:01:19Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "591b93e1bf58a95bebd0f265",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Eight EU states reject any further delay to transport and heating being included in emissions trading",
+      "url": "https://euobserver.com/250867/eight-eu-states-reject-any-further-delay-to-transport-and-heating-being-included-in-emissions-trading",
+      "published_at": "2026-11-23T16:38:34Z",
+      "collected_at": "2026-11-23T17:01:19Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "9b6ad183fdd6d2fd1410427a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "🔴Democrats vow probe after Trump admits role in Huang's return as Nvidia CEO",
+      "url": "https://www.france24.com/en/americas/20261123-nvidia-board-reinstates-disgraced-jensen-huang-as-ceo-president-says",
+      "published_at": "2026-11-23T16:37:04Z",
+      "collected_at": "2026-11-23T17:01:19Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "1974857a77f55ef9acc906c9",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Lib Dem leader claims he could negotiate EU single market access ‘within a year’",
+      "url": "https://www.politico.eu/article/lib-dem-leader-ed-davey-claims-he-could-negotiate-eu-single-market-access-within-a-year",
+      "published_at": "2026-11-23T16:35:36Z",
+      "collected_at": "2026-11-23T17:01:19Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "f74ca4ae29ce2bebcd3754ef",
       "source_id": "politico_europe",
@@ -592,6 +691,20 @@
       ]
     },
     {
+      "id": "006f168356954576104ac5ae",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Democrats vow probe after Trump admits role in Huang's return as Nvidia CEO",
+      "url": "https://www.france24.com/en/americas/20261123-nvidia-board-reinstates-disgraced-jensen-huang-as-ceo-president-says",
+      "published_at": "2026-11-23T14:06:17Z",
+      "collected_at": "2026-11-23T17:01:19Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "f430752fff6593742bd16f1f",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -655,6 +768,20 @@
       "url": "https://www.dw.com/en/north-macedonia-remains-stalled-on-its-eu-path-after-21-years-as-a-candidate-while-montenegro-and-albania-move-closer-to-membership/a-80020841?maca=en-rss-en-eu-2092-rdf",
       "published_at": "2026-11-23T13:46:00Z",
       "collected_at": "2026-11-23T14:01:05Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "488744773bd332a7bc129ae2",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "North Macedonia remains stalled on its EU path after 21 years as a candidate",
+      "url": "https://www.dw.com/en/north-macedonia-remains-stalled-on-its-eu-path-after-21-years-as-a-candidate/a-80020841?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-23T13:46:00Z",
+      "collected_at": "2026-11-23T17:01:19Z",
       "topics": [
         "politics",
         "society",
@@ -1880,20 +2007,6 @@
       ]
     },
     {
-      "id": "b60d45390efded70553a7c20",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Global left rallies in Paris to make ‘not so radical’ case for taxing billionaires",
-      "url": "https://www.politico.eu/article/global-left-rallies-paris-make-not-so-radical-case-taxing-billionaires",
-      "published_at": "2026-11-22T16:21:57Z",
-      "collected_at": "2026-11-22T16:31:00Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "37ff2fde405c95141eecb981",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2272,48 +2385,6 @@
       ]
     },
     {
-      "id": "51213d54de74a17b367e87b1",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Rwanda return hubs may violate EU human rights law, MEPs warn ahead of 2027 deportations",
-      "url": "https://euobserver.com/250370/meps-invite-legal-challenge-to-rwanda-deportations-as-eu-states-prepare-to-expel-first-people-in-new-year",
-      "published_at": "2026-11-20T16:46:14Z",
-      "collected_at": "2026-11-22T17:01:08Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
-      "id": "2abf228e6aa2a4349e59d066",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Cost of living protests sweep across Europe",
-      "url": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-20T16:45:34Z",
-      "collected_at": "2026-11-22T17:01:08Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "2117482b36fd48713597420e",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "‘Fight for our future, not their wars’: youth protests sweep across Europe",
-      "url": "https://euobserver.com/250280/fight-for-our-future-not-their-wars-youth-protests-sweep-across-europe",
-      "published_at": "2026-11-20T15:39:38Z",
-      "collected_at": "2026-11-22T16:31:00Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "53b48cf9b5437707448e1741",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2367,20 +2438,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "0b07e7c52cafdefee7555670",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Putin proposes second humanitarian ceasefire — is it a trap?",
-      "url": "https://www.dw.com/en/putin-proposes-second-humanitarian-ceasefire-is-it-a-trap/a-79996772?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-19T20:53:00Z",
-      "collected_at": "2026-11-22T16:31:00Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     },
     {
@@ -2650,6 +2707,34 @@
       ]
     },
     {
+      "id": "dd30307ced9a62efa10bed59",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Back to 1997: Russia wants NATO to roll back its eastern expansion",
+      "url": "https://www.dw.com/en/back-to-1997-russia-wants-nato-to-roll-back-its-eastern-expansion/a-79970289?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-17T16:20:00Z",
+      "collected_at": "2026-11-23T17:01:19Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "ea9f4eda5cb0e2abc768b0c3",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Rights court rules Turkey must release jailed lawmaker Atalay",
+      "url": "https://www.dw.com/en/rights-court-rules-turkey-must-release-jailed-lawmaker-atalay/a-79972462?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-17T15:47:00Z",
+      "collected_at": "2026-11-23T17:01:19Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
       "id": "e5d13f8078c5cd55404131eb",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -2731,48 +2816,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "7f7b122182b49faf6140f889",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "How the Democrats’ midterm victory could reshape the rules for electing a US president",
-      "url": "https://english.elpais.com/usa/2026-11-15/how-the-democrats-midterm-victory-could-reshape-the-rules-for-electing-a-us-president.html",
-      "published_at": "2026-11-15T04:00:00Z",
-      "collected_at": "2026-11-23T05:30:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "2cfeb46bec03fe166894e58e",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Passion flower perfume and peach palm sunscreen: The industry emerging around Colombia’s 2,500 species of fruits",
-      "url": "https://english.elpais.com/economy-and-business/2026-11-15/passion-flower-perfume-and-peach-palm-sunscreen-the-industry-emerging-around-colombias-2500-species-of-fruits.html",
-      "published_at": "2026-11-15T04:00:00Z",
-      "collected_at": "2026-11-23T05:30:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "79ab5859f6ab2f89d61aa678",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Turkey uses espionage accusations to pressure government critics",
-      "url": "https://www.dw.com/en/turkey-uses-espionage-accusations-to-pressure-government-critics/a-79943768?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-14T07:31:00Z",
-      "collected_at": "2026-11-22T19:30:51Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
       ]
     }
   ]
