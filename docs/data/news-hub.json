@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-23T14:01:05Z",
-  "last_successful_collection_at": "2026-11-23T14:01:05Z",
+  "generated_at": "2026-11-23T14:30:57Z",
+  "last_successful_collection_at": "2026-11-23T14:30:57Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-23T14:01:05Z"
+      "at": "2026-11-23T14:30:57Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "29",
-      "at": "2026-11-23T14:01:05Z"
+      "at": "2026-11-23T14:30:57Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-11-23T14:01:05Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-23T14:30:57Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-23T14:01:05Z"
+      "at": "2026-11-23T14:30:57Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-23T14:01:05Z"
+      "at": "2026-11-23T14:30:57Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "58",
-      "at": "2026-11-23T14:01:05Z"
+      "at": "2026-11-23T14:30:57Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-23T14:01:05Z"
+      "at": "2026-11-23T14:30:57Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-23T14:01:05Z"
+      "at": "2026-11-23T14:30:57Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-23T14:01:05Z"
+      "at": "2026-11-23T14:30:57Z"
     }
   ],
   "europe_now": [
@@ -234,6 +234,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "5c944357207a5fcd2d350760",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Netherlands to buy Piorun air-defence systems from Poland under EU SAFE programme",
+      "url": "https://notesfrompoland.com/2026/11/23/netherlands-to-buy-piorun-air-defence-systems-from-poland-under-eu-safe-programme",
+      "published_at": "2026-11-23T14:24:12Z",
+      "collected_at": "2026-11-23T14:30:57Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "dc69c17b4bc8f5b341c01d39",
       "source_id": "politico_europe",
@@ -2090,20 +2104,6 @@
       "url": "https://english.elpais.com/health/2026-11-20/at-least-10-of-the-worlds-population-suffers-from-problematic-internet-use.html",
       "published_at": "2026-11-20T13:29:22Z",
       "collected_at": "2026-11-22T14:30:57Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "731eb945a5d6651b4fc4eb25",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The collapse of building 1321, the tragedy that exposed New York’s cracks",
-      "url": "https://english.elpais.com/usa/2026-11-20/the-collapse-of-building-1321-the-tragedy-that-exposed-new-yorks-cracks.html",
-      "published_at": "2026-11-20T13:01:54Z",
-      "collected_at": "2026-11-22T14:01:06Z",
       "topics": [
         "politics",
         "society",
