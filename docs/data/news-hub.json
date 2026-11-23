@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-23T18:01:08Z",
-  "last_successful_collection_at": "2026-11-23T18:01:08Z",
+  "generated_at": "2026-11-23T18:31:02Z",
+  "last_successful_collection_at": "2026-11-23T18:31:02Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-23T18:01:08Z"
+      "at": "2026-11-23T18:31:02Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "29",
-      "at": "2026-11-23T18:01:08Z"
+      "at": "2026-11-23T18:31:02Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-23T18:01:08Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-11-23T18:31:02Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-23T18:01:08Z"
+      "at": "2026-11-23T18:31:02Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-23T18:01:08Z"
+      "at": "2026-11-23T18:31:02Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-11-23T18:01:08Z"
+      "at": "2026-11-23T18:31:02Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-23T18:01:08Z"
+      "at": "2026-11-23T18:31:02Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-23T18:01:08Z"
+      "at": "2026-11-23T18:31:02Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-23T18:01:08Z"
+      "at": "2026-11-23T18:31:02Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Finland summons Russian ambassador over airspace violation",
-      "summary": "Finland has officially summoned the Russian ambassador following a suspected violation of its airspace. The incident has heightened security concerns in the region.",
+      "title": "Finland summons Russian ambassador",
+      "summary": "Finland has officially summoned the Russian ambassador following a suspected airspace violation. The diplomatic move comes amid heightened regional tensions and scrutiny over security in European airspace.",
       "article_ids": [
         "f02852fee62d02f1fdb16459"
       ],
@@ -80,26 +80,8 @@
       "source_count": 1
     },
     {
-      "title": "European Commission confirms data leak from cyberattack",
-      "summary": "The European Commission has confirmed a personal data leak resulting from a recent cyberattack. Officials have warned that further disruptions may occur as a consequence.",
-      "article_ids": [
-        "22cec83416d1bd33198f4dfb"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/european-commission-personal-data-leak-cyberattack-disruption",
-          "headline": "EU Commission confirms personal data leak after cyberattack, warns of further disruption",
-          "published_at": "2026-11-23T13:08:15Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "National Strike Paralyzes Belgian Transport",
-      "summary": "Airports and public transport networks across Belgium have been shut down amid a large national strike. Tens of thousands of demonstrators have taken to the streets to protest against austerity measures and the rising cost of living.",
+      "title": "National strike paralyzes Belgian transport",
+      "summary": "A widespread national strike in Belgium has led to the cancellation of flights and the shutdown of major public transport systems. Tens of thousands of demonstrators have taken to the streets amid ongoing budgetary disputes and anti-austerity protests.",
       "article_ids": [
         "954818a9692994472ef4062b",
         "032a9a63d5de2bcc9d358593",
@@ -120,32 +102,83 @@
         }
       ],
       "source_count": 2
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "New EU Sanctions Push Targets Russia",
-      "summary": "The European Union is preparing a new sanctions package aimed at Russian former soldiers, financial institutions, and sporting sectors. Meanwhile, reports indicate escalating maritime confrontations involving Russian vessels.",
+      "title": "New EU Sanctions Push",
+      "summary": "The European Union is preparing a fresh round of sanctions targeting Russian individuals, financial institutions, and sports entities. Measures under consideration include bans on Russian flags and teams at European sporting competitions.",
       "article_ids": [
-        "f74ca4ae29ce2bebcd3754ef",
-        "2e5d483aae178c36bbf411e8"
+        "ac739defb26273624522bef2",
+        "f74ca4ae29ce2bebcd3754ef"
       ],
       "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/250900/eu-to-ban-russian-flags-and-teams-at-european-sports-events-in-new-sanctions-round",
+          "headline": "EU to ban Russian flags and teams at European sports events in new sanctions round",
+          "published_at": "2026-11-23T18:01:26Z"
+        },
         {
           "publisher": "POLITICO Europe",
           "url": "https://www.politico.eu/article/eu-to-target-russian-ex-soldiers-banks-and-sports-in-new-sanctions-push",
           "headline": "EU to target Russian ex-soldiers, banks and sports in new sanctions push",
           "published_at": "2026-11-23T16:15:10Z"
-        },
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Emissions Trading Policy Debate",
+      "summary": "A group of eight EU member states has firmly rejected any additional delays to incorporating transport and heating into the bloc's emissions trading system. This development highlights ongoing domestic and institutional pressures regarding European climate policy implementation.",
+      "article_ids": [
+        "591b93e1bf58a95bebd0f265"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/250867/eight-eu-states-reject-any-further-delay-to-transport-and-heating-being-included-in-emissions-trading",
+          "headline": "Eight EU states reject any further delay to transport and heating being included in emissions trading",
+          "published_at": "2026-11-23T16:38:34Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "developing": [
+    {
+      "label": "Russian · Ukraine · ships · Libya",
+      "origin": "convergence",
+      "source_count": 4,
+      "item_count": 10,
+      "latest_at": "2026-11-23T15:20:17Z",
+      "sources": [
         {
           "publisher": "EUobserver",
           "url": "https://euobserver.com/250801/fighting-at-sea-escalates-sharply-russian-ships-are-burning-in-the-baltic-and-mediterranean-ukraine-battlefield-update-day-1733",
           "headline": "Fighting at sea escalates sharply: Russian ships are burning in the Baltic and Mediterranean (Ukraine Battlefield update, Day 1,733)",
           "published_at": "2026-11-23T15:20:17Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261123-ukraine-claims-strikes-on-russian-ships-off-libyan-coast",
+          "headline": "Ukraine claims strikes on Russian ships off Libyan coast",
+          "published_at": "2026-11-23T14:36:26Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/volodymyr-zelenskyy-claims-ukraine-sank-russia-warship-benghazi-libya",
+          "headline": "Ukraine sank Russian warship off Libya, Zelenskyy says",
+          "published_at": "2026-11-23T08:45:24Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+          "headline": "Russian ships hit by Ukrainian drones off Libya coast, Zelensky says",
+          "published_at": "2026-11-23T08:36:57Z"
         }
-      ],
-      "source_count": 2
-    }
-  ],
-  "developing": [
+      ]
+    },
     {
       "label": "Huang · Nvidia · CEO · Jensen",
       "origin": "convergence",
@@ -164,6 +197,27 @@
           "url": "https://english.elpais.com/economy-and-business/2026-11-23/nvidia-reinstates-jensen-huang-as-ceo.html",
           "headline": "Nvidia reinstates Jensen Huang as CEO",
           "published_at": "2026-11-23T14:35:55Z"
+        }
+      ]
+    },
+    {
+      "label": "EU · warn",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-11-23T17:13:27Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/250838/auditors-warn-of-self-monitoring-problem-in-eu-aid-cash-spent-by-un-amid-growing-funding-row",
+          "headline": "Auditors warn of ‘self-monitoring’ problem in EU aid cash spent by UN, amid growing funding row",
+          "published_at": "2026-11-23T17:13:27Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/european-commission-personal-data-leak-cyberattack-disruption",
+          "headline": "EU Commission confirms personal data leak after cyberattack, warns of further disruption",
+          "published_at": "2026-11-23T13:08:15Z"
         }
       ]
     },
@@ -187,51 +241,23 @@
           "published_at": "2026-11-23T10:20:05Z"
         }
       ]
-    },
-    {
-      "label": "drones · Russian · Ukrainian · warship",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-23T10:53:00Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261123-ukrainian-drones-sink-russian-warship-at-naval-base-in-libya",
-          "headline": "Ukrainian drones sink Russian warship at naval base in Libya",
-          "published_at": "2026-11-23T10:53:00Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-          "headline": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
-          "published_at": "2026-11-23T08:36:57Z"
-        }
-      ]
-    },
-    {
-      "label": "Climate · talks · collapse · COP31",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-23T10:24:34Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261123-the-worst-cop-ever-climate-talks-collapse-in-chaos",
-          "headline": "The worst COP ever? Climate talks collapse in chaos",
-          "published_at": "2026-11-23T10:24:34Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
-          "headline": "What's next after no deal at COP31 climate talks?",
-          "published_at": "2026-11-22T18:57:24Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "ac739defb26273624522bef2",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "EU to ban Russian flags and teams at European sports events in new sanctions round",
+      "url": "https://euobserver.com/250900/eu-to-ban-russian-flags-and-teams-at-european-sports-events-in-new-sanctions-round",
+      "published_at": "2026-11-23T18:01:26Z",
+      "collected_at": "2026-11-23T18:31:02Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "c9b5d7c36437d865390bcd80",
       "source_id": "politico_europe",
@@ -244,6 +270,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "525ef89935f1bd3cf393c3a3",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'Deeply shocked': Gisèle Pelicot to sue publisher after nude photos used in book campaign",
+      "url": "https://www.france24.com/en/france/20261123-deeply-shocked-gis%C3%A8le-pelicot-sue-publisher-nude-photos-used-book-campaign",
+      "published_at": "2026-11-23T17:52:50Z",
+      "collected_at": "2026-11-23T18:31:02Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -2652,6 +2692,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "0b5be26ae116b3d0a9a06448",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Bombings, extraditions, and militarized cities mark De la Espriella’s first 90 days in charge of security",
+      "url": "https://english.elpais.com/international/2026-11-05/bombings-extraditions-and-militarized-cities-mark-de-la-espriellas-first-90-days-in-charge-of-security.html",
+      "published_at": "2026-11-05T13:51:41Z",
+      "collected_at": "2026-11-23T18:31:02Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     }
   ]
