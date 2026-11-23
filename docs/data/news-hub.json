@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-23T17:01:19Z",
-  "last_successful_collection_at": "2026-11-23T17:01:19Z",
+  "generated_at": "2026-11-23T17:30:56Z",
+  "last_successful_collection_at": "2026-11-23T17:30:56Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-23T17:01:19Z"
+      "at": "2026-11-23T17:30:56Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "29",
-      "at": "2026-11-23T17:01:19Z"
+      "at": "2026-11-23T17:30:56Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-23T17:01:19Z"
+      "at": "2026-11-23T17:30:56Z"
     },
     {
       "id": "euractiv",
@@ -29,37 +29,37 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-23T17:01:19Z"
+      "at": "2026-11-23T17:30:56Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-23T17:01:19Z"
+      "at": "2026-11-23T17:30:56Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-11-23T17:01:19Z"
+      "at": "2026-11-23T17:30:56Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-23T17:01:19Z"
+      "at": "2026-11-23T17:30:56Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-23T17:01:19Z"
+      "at": "2026-11-23T17:30:56Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-23T17:01:19Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-23T17:30:56Z"
     }
   ],
   "europe_now": [
@@ -228,33 +228,6 @@
       ]
     },
     {
-      "label": "Climate · talks · collapse · COP31",
-      "origin": "convergence",
-      "source_count": 3,
-      "item_count": 4,
-      "latest_at": "2026-11-23T10:24:34Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261123-the-worst-cop-ever-climate-talks-collapse-in-chaos",
-          "headline": "The worst COP ever? Climate talks collapse in chaos",
-          "published_at": "2026-11-23T10:24:34Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
-          "headline": "What's next after no deal at COP31 climate talks?",
-          "published_at": "2026-11-22T18:57:24Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/global-climate-talks-have-collapsed-here-is-what-just-happened",
-          "headline": "Global climate talks have collapsed. Here’s what just happened.",
-          "published_at": "2026-11-22T17:21:50Z"
-        }
-      ]
-    },
-    {
       "label": "Huang · Nvidia · CEO · Jensen",
       "origin": "convergence",
       "source_count": 2,
@@ -295,9 +268,86 @@
           "published_at": "2026-11-23T08:36:57Z"
         }
       ]
+    },
+    {
+      "label": "Russia · Ukraine",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-11-23T16:14:02Z",
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/ukraine-takes-war-russia-far-from-borders",
+          "headline": "Ukraine takes the war against Russia far from its borders",
+          "published_at": "2026-11-23T16:14:02Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261123-ukraine-russia-peace-talks-row-over-who-will-represent-the-eu",
+          "headline": "Ukraine-Russia peace talks: Row over who will represent the EU",
+          "published_at": "2026-11-23T10:20:05Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "37e2821104181d5bc2cc9d59",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Rejoining EU without referendum is ‘unthinkable,’ says Andy Burnham",
+      "url": "https://www.politico.eu/article/rejoining-eu-without-referendum-unthinkable-andy-burnham",
+      "published_at": "2026-11-23T17:26:34Z",
+      "collected_at": "2026-11-23T17:30:56Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "a6fe245427b7ace443c5126e",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Auditors warn of ‘self-monitoring’ problem in EU aid cash spent by UN, amid growing funding row",
+      "url": "https://euobserver.com/250838/auditors-warn-of-self-monitoring-problem-in-eu-aid-cash-spent-by-un-amid-growing-funding-row",
+      "published_at": "2026-11-23T17:13:27Z",
+      "collected_at": "2026-11-23T17:30:56Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "6fac3d70c50f315c55d582f3",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "A descent from oblivion for the first all-female climbing party to Lenin Peak",
+      "url": "https://english.elpais.com/culture/2026-11-23/a-descent-from-oblivion-for-the-first-all-female-climbing-party-to-lenin-peak.html",
+      "published_at": "2026-11-23T16:56:42Z",
+      "collected_at": "2026-11-23T17:30:56Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "4c94453047330f661822cc27",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Hailey Bieber at 30: The founder of a billion-dollar beauty empire who became a star in her own right",
+      "url": "https://english.elpais.com/people/2026-11-23/hailey-bieber-at-30-the-founder-of-a-billion-dollar-beauty-empire-who-became-a-star-in-her-own-right.html",
+      "published_at": "2026-11-23T16:50:59Z",
+      "collected_at": "2026-11-23T17:30:56Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "f02852fee62d02f1fdb16459",
       "source_id": "france24",
@@ -310,6 +360,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "d150d1fbacf4a6164c803cfb",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "Emergency Room: Inside the EU-UK reset deal",
+      "url": "https://ecfr.eu/podcasts/episode/emergency-room-inside-the-eu-uk-reset-deal",
+      "published_at": "2026-11-23T16:40:25Z",
+      "collected_at": "2026-11-23T17:30:56Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
       ]
     },
     {
@@ -362,6 +426,20 @@
       "url": "https://www.politico.eu/article/eu-to-target-russian-ex-soldiers-banks-and-sports-in-new-sanctions-push",
       "published_at": "2026-11-23T16:15:10Z",
       "collected_at": "2026-11-23T16:30:59Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "a668270a6661dc5bd6352cbb",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "EU targets Russian ex-soldiers, banks and sports in new sanctions push",
+      "url": "https://www.politico.eu/article/eu-to-target-russian-ex-soldiers-banks-and-sports-in-new-sanctions-push",
+      "published_at": "2026-11-23T16:15:10Z",
+      "collected_at": "2026-11-23T17:30:56Z",
       "topics": [
         "institutions",
         "politics",
@@ -2732,90 +2810,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "e5d13f8078c5cd55404131eb",
-      "source_id": "dw_europe",
-      "source_name": "Deutsche Welle",
-      "title": "Students' List candidates take seats as Serbian parliament opens",
-      "url": "https://www.dw.com/en/students-list-candidates-take-seats-as-serbian-parliament-opens/a-79969166?maca=en-rss-en-eu-2092-rdf",
-      "published_at": "2026-11-17T12:09:00Z",
-      "collected_at": "2026-11-23T13:31:02Z",
-      "topics": [
-        "politics",
-        "society",
-        "security"
-      ]
-    },
-    {
-      "id": "4dcf9144400278d5f772c4cd",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Emma Watson, 25 years after ‘Harry Potter’: From the girl who conquered the world to the woman who stepped back from Hollywood",
-      "url": "https://english.elpais.com/people/2026-11-17/emma-watson-25-years-after-harry-potter-from-the-girl-who-conquered-the-world-to-the-woman-who-stepped-back-from-hollywood.html",
-      "published_at": "2026-11-17T10:31:28Z",
-      "collected_at": "2026-11-23T11:01:09Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "05d7578fb947bff59c4d6c7f",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Large data centers in the US already consume as much energy as the whole of Chile",
-      "url": "https://english.elpais.com/technology/2026-11-16/large-data-centers-in-the-us-already-consume-as-much-energy-as-the-whole-of-chile.html",
-      "published_at": "2026-11-16T18:47:01Z",
-      "collected_at": "2026-11-22T20:30:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "a4390aba19d6f4dd6c022580",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Kyle Eastwood, son of Clint Eastwood: ‘My father has played many tough guys, but he is not as tough as he seems’",
-      "url": "https://english.elpais.com/culture/2026-11-16/kyle-eastwood-son-of-clint-eastwood-my-father-has-played-many-tough-guys-but-he-is-not-as-tough-as-he-seems.html",
-      "published_at": "2026-11-16T17:16:49Z",
-      "collected_at": "2026-11-22T19:30:51Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "9421af9840ff202669106ecc",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Patrick Radden Keefe, journalist: ‘We live in very mercenary times. Have money? Welcome’",
-      "url": "https://english.elpais.com/culture/2026-11-15/patrick-radden-keefe-journalist-we-live-in-very-mercenary-times-have-money-welcome.html",
-      "published_at": "2026-11-15T04:00:00Z",
-      "collected_at": "2026-11-23T05:30:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "1b6143390cabeb57b1728d41",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Grandparents as addicted to phones as their grandchildren: When boomers get hooked on social media",
-      "url": "https://english.elpais.com/health/2026-11-15/grandparents-as-addicted-to-phones-as-their-grandchildren-when-boomers-get-hooked-on-social-media.html",
-      "published_at": "2026-11-15T04:00:00Z",
-      "collected_at": "2026-11-23T05:30:56Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     }
   ]
