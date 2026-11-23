@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-23T15:31:01Z",
-  "last_successful_collection_at": "2026-11-23T15:31:01Z",
+  "generated_at": "2026-11-23T16:01:13Z",
+  "last_successful_collection_at": "2026-11-23T16:01:13Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-23T15:31:01Z"
+      "at": "2026-11-23T16:01:13Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "29",
-      "at": "2026-11-23T15:31:01Z"
+      "at": "2026-11-23T16:01:13Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-23T15:31:01Z"
+      "at": "2026-11-23T16:01:13Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-23T15:31:01Z"
+      "at": "2026-11-23T16:01:13Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-23T15:31:01Z"
+      "at": "2026-11-23T16:01:13Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-11-23T15:31:01Z"
+      "at": "2026-11-23T16:01:13Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-23T15:31:01Z"
+      "at": "2026-11-23T16:01:13Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-23T15:31:01Z"
+      "at": "2026-11-23T16:01:13Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-23T15:31:01Z"
+      "at": "2026-11-23T16:01:13Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Fighting at sea escalates sharply: Russian ships are burning in the Baltic and Mediterranean",
-      "summary": "Russian ships have been reported burning in the Baltic and Mediterranean seas, indicating an escalation of maritime confrontations. The escalation involves multiple locations across European waters.",
+      "title": "European Commission reports data leak and warns of more disruption",
+      "summary": "The European Commission confirmed a personal data leak after a cyberattack. It warned that further disruption could occur.",
+      "article_ids": [
+        "22cec83416d1bd33198f4dfb"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/european-commission-personal-data-leak-cyberattack-disruption",
+          "headline": "EU Commission confirms personal data leak after cyberattack, warns of further disruption",
+          "published_at": "2026-11-23T13:08:15Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Sea fighting intensifies as Russian ships burn in Baltic and Mediterranean",
+      "summary": "Fighting at sea escalated sharply involving Russian ships. The clashes occurred in the Baltic and Mediterranean, an EU observer update noted.",
       "article_ids": [
         "2e5d483aae178c36bbf411e8"
       ],
@@ -82,11 +98,49 @@
   ],
   "top_stories": [
     {
-      "title": "Escalating maritime confrontations involving Russian vessels in European waters",
-      "summary": "Russian ships have been reported burning in the Baltic and Mediterranean seas, indicating an escalation of maritime confrontations. Additional maritime incidents involving Russian vessels have been documented, underscoring ongoing security concerns in European waters.",
+      "title": "European Commission warns of more disruption after cyberattack",
+      "summary": "The European Commission confirmed a personal data leak following a cyberattack. It warned that further disruption could occur.",
       "article_ids": [
-        "2e5d483aae178c36bbf411e8",
-        "10:01:06"
+        "22cec83416d1bd33198f4dfb"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/european-commission-personal-data-leak-cyberattack-disruption",
+          "headline": "EU Commission confirms personal data leak after cyberattack, warns of further disruption",
+          "published_at": "2026-11-23T13:08:15Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Belgium faces budget deadlock and anti-austerity protests",
+      "summary": "Belgium's budget negotiations remained deadlocked. Tens of thousands protested in anti-austerity demonstrations, and De Wever set a year-end deadline.",
+      "article_ids": [
+        "91235c3dc0bc90a5d5e4e9b6",
+        "032a9a63d5de2bcc9d358593"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/belgium-bart-de-wever-heads-to-king-with-no-budget-deal-in-sight",
+          "headline": "Belgium’s De Wever visits the king (again) with no budget deal in sight",
+          "published_at": "2026-11-23T11:11:49Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261123-tens-of-thousands-take-to-streets-in-belgium-in-anti-austerity-protests",
+          "headline": "Tens of thousands take to streets in Belgium in anti-austerity protests",
+          "published_at": "2026-11-23T15:19:44Z"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "title": "Maritime clashes escalate involving Russian ships",
+      "summary": "Fighting at sea escalated sharply involving Russian ships. The clashes occurred in the Baltic and Mediterranean, according to an EU observer update.",
+      "article_ids": [
+        "2e5d483aae178c36bbf411e8"
       ],
       "sources": [
         {
@@ -97,84 +151,54 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "developing": [
     {
-      "title": "EU antitrust investigation targets Coca-Cola bottler",
-      "summary": "The European Commission has opened an antitrust investigation into a Coca-Cola bottling company. A separate investigation was launched into another Coca-Cola bottler, indicating broader scrutiny of the sector.",
-      "article_ids": [
-        "0c993e54e8b49edfa7fcd77e",
-        "14:01:05"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-opens-antitrust-probe-into-coca-cola-bottler",
-          "headline": "EU opens antitrust probe into Coca-Cola bottler",
-          "published_at": "2026-11-23T11:05:12Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Belgium faces budget deadlock as De Wever sets year‑end deadline",
-      "summary": "Belgium’s prime minister Bart De Wever has again met with the king amid ongoing budget deadlock. De Wever has set a year‑end deadline for reaching a budget agreement, highlighting the urgency of the situation.",
-      "article_ids": [
-        "91235c3dc0bc90a5d5e4e9b6",
-        "f019ff24d3e44cee5c315276"
-      ],
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/belgium-bart-de-wever-heads-to-king-with-no-budget-deal-in-sight",
-          "headline": "Belgium’s De Wever visits the king (again) with no budget deal in sight",
-          "published_at": "2026-11-23T11:11:49Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/belgium-bart-de-wever-heads-to-king-with-no-budget-deal-in-sight",
-          "headline": "De Wever sets year-end deadline for Belgian budget deal",
-          "published_at": "2026-11-23T11:11:49Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "COP31 climate talks collapse amid chaotic negotiations",
-      "summary": "Climate talks at the COP31 summit collapsed amid chaotic negotiations. The failure was described as the worst COP ever, signaling a major setback for global climate policy.",
-      "article_ids": [
-        "11:01:09",
-        "2135fb4e47d33167b0c8df8d"
-      ],
+      "label": "Climate · talks · collapse · COP31",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 4,
+      "latest_at": "2026-11-23T10:24:34Z",
       "sources": [
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/video/20261123-the-worst-cop-ever-climate-talks-collapse-in-chaos",
           "headline": "The worst COP ever? Climate talks collapse in chaos",
           "published_at": "2026-11-23T10:24:34Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
+          "headline": "What's next after no deal at COP31 climate talks?",
+          "published_at": "2026-11-22T18:57:24Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/global-climate-talks-have-collapsed-here-is-what-just-happened",
+          "headline": "Global climate talks have collapsed. Here’s what just happened.",
+          "published_at": "2026-11-22T17:21:50Z"
         }
-      ],
-      "source_count": 1
-    }
-  ],
-  "developing": [
+      ]
+    },
     {
       "label": "Huang · Nvidia · CEO · reinstates",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-11-23T14:35:55Z",
+      "item_count": 6,
+      "latest_at": "2026-11-23T15:29:07Z",
       "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261123-nvidia-reinstates-jensen-huang-as-ceo",
+          "headline": "Nvidia reinstates Jensen Huang as CEO",
+          "published_at": "2026-11-23T15:29:07Z"
+        },
         {
           "publisher": "EL PAÍS English",
           "url": "https://english.elpais.com/economy-and-business/2026-11-23/nvidia-reinstates-jensen-huang-as-ceo.html",
           "headline": "Nvidia reinstates Jensen Huang as CEO",
           "published_at": "2026-11-23T14:35:55Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20261123-nvidia-board-reinstates-disgraced-jensen-huang-as-ceo-president-says",
-          "headline": "🔴 Nvidia board reinstates Jensen Huang as CEO",
-          "published_at": "2026-11-23T14:11:16Z"
         }
       ]
     },
@@ -219,30 +243,93 @@
           "published_at": "2026-11-23T05:00:00Z"
         }
       ]
-    },
-    {
-      "label": "Macron · successor",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-11-23T15:15:37Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-s-socioeconomic-crisis-macron-trying-to-impose-fiscal-discipline-on-his-successor",
-          "headline": "France's socioeconomic crisis: Macron 'trying to impose fiscal discipline on his successor'",
-          "published_at": "2026-11-23T15:15:37Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/emmanuel-macron-trap-successors-budget-rule-france",
-          "headline": "Macron moves to ‘trap’ successors with new budget rule",
-          "published_at": "2026-11-23T13:53:21Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "fd513e6c1ffad4a6e012d286",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Iran's courts order US to pay $290 billion in damages",
+      "url": "https://www.france24.com/en/iran-s-courts-order-us-to-pay-290-billion-in-damages",
+      "published_at": "2026-11-23T15:50:11Z",
+      "collected_at": "2026-11-23T16:01:13Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "580a37f4565da963ac8114cd",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "12,000 evacuated from Don Toliver concert after unknown substance sickens fans",
+      "url": "https://www.france24.com/en/video/20261123-12-000-evacuated-from-don-toliver-concert-after-unknown-substance-sickens-fans",
+      "published_at": "2026-11-23T15:46:48Z",
+      "collected_at": "2026-11-23T16:01:13Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "24ab89d78f2c18017d310e19",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Behind COP31 failure: A showdown over fossil fuel interests",
+      "url": "https://www.france24.com/en/tv-shows/down-to-earth/20261123-behind-cop31-failure-a-showdown-over-fossil-fuel-interests",
+      "published_at": "2026-11-23T15:40:01Z",
+      "collected_at": "2026-11-23T16:01:13Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "0e8adcae3cb5df811d759103",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Les Écologistes en voie de dislocation",
+      "url": "https://www.politico.eu/podcast/playbook-paris-podcast/les-ecologistes-en-voie-de-dislocation",
+      "published_at": "2026-11-23T15:34:34Z",
+      "collected_at": "2026-11-23T16:01:13Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "59f8d1013311140bb17becbf",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Nvidia reinstates Jensen Huang as CEO",
+      "url": "https://www.france24.com/en/video/20261123-nvidia-reinstates-jensen-huang-as-ceo",
+      "published_at": "2026-11-23T15:29:07Z",
+      "collected_at": "2026-11-23T16:01:13Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "1a4f812abcf65df2ca07d3b7",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "From protest to power: Serbia’s student movement prepares to dismantle Vučić’s regime",
+      "url": "https://euobserver.com/250655/from-protest-to-power-serbias-student-movement-prepares-to-dismantle-vucics-regime",
+      "published_at": "2026-11-23T15:28:45Z",
+      "collected_at": "2026-11-23T16:01:13Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
     {
       "id": "0e843d5b55f12cf2a88eeefe",
       "source_id": "france24",
@@ -507,6 +594,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "c61e53c2db9ce52be05264c4",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Flights cancelled in Belgium due to cost-of-living strike",
+      "url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-23T13:34:02Z",
+      "collected_at": "2026-11-23T16:01:13Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -1728,20 +1829,6 @@
       ]
     },
     {
-      "id": "e04f17835cb6f5fb2a3d625f",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Cyprus expels Russian diplomats on suspicion of espionage",
-      "url": "https://www.politico.eu/article/cyprus-expels-russian-diplomats-on-suspicion-of-espionage",
-      "published_at": "2026-11-22T15:56:12Z",
-      "collected_at": "2026-11-22T16:01:03Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "37ff2fde405c95141eecb981",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1767,20 +1854,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "6d56a1b5d41f6353cea51e12",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "South Korean education minister resigns over AI-driven exam cheating scandal",
-      "url": "https://www.france24.com/en/asia-pacific/20261122-south-korea-education-chief-resigns-amid-ai-cheating-scandal",
-      "published_at": "2026-11-22T03:46:14Z",
-      "collected_at": "2026-11-22T15:31:02Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -1823,6 +1896,34 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "359ffe5051407d599204376c",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-21T13:17:38Z",
+      "collected_at": "2026-11-23T16:01:13Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "08ca3c7a9b4b07f0e5d420c1",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+      "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-21T10:26:36Z",
+      "collected_at": "2026-11-23T16:01:13Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
       ]
     },
     {
@@ -2134,20 +2235,6 @@
       ]
     },
     {
-      "id": "343077f13b713a02c6d98d32",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland prevented Russian false-flag operation at border, says advisor to defence minister",
-      "url": "https://notesfrompoland.com/2026/11/20/poland-prevented-russian-false-flag-operation-at-border-says-advisor-to-defence-minister",
-      "published_at": "2026-11-20T15:14:51Z",
-      "collected_at": "2026-11-22T16:01:03Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "id": "53b48cf9b5437707448e1741",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2176,34 +2263,6 @@
       ]
     },
     {
-      "id": "3b98dac2ab1d451195b24eea",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "If it vibrates, go now: The app that tells you when to leave a movie for a bathroom break",
-      "url": "https://english.elpais.com/lifestyle/2026-11-20/if-it-vibrates-go-now-the-app-that-tells-you-when-to-leave-a-movie-for-a-bathroom-break.html",
-      "published_at": "2026-11-20T14:46:47Z",
-      "collected_at": "2026-11-22T15:31:02Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "d50dbbfcb1759a1e2a2d7af9",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Russian cruise missiles land in Poland, drones explode over EU diplomats in Kyiv (Ukraine Battlefield update, Day 1,730)",
-      "url": "https://euobserver.com/250305/russian-cruise-missiles-land-in-poland-drones-explode-over-eu-diplomats-in-kyiv-ukraine-battlefield-update-day-1730",
-      "published_at": "2026-11-20T14:44:24Z",
-      "collected_at": "2026-11-22T15:31:02Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "bbba3dee5c8fb12b7e2cf1bb",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2218,20 +2277,6 @@
       ]
     },
     {
-      "id": "60bf2b1b8f1aa3c86e2e9d32",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Burnham hails UK-EU reset on food, carbon markets and youth mobility, after Brexit ‘decade of drift’",
-      "url": "https://euobserver.com/250317/burnham-hails-uk-eu-reset-on-food-carbon-markets-and-youth-mobility-after-brexit-decade-of-drift",
-      "published_at": "2026-11-20T14:37:12Z",
-      "collected_at": "2026-11-22T15:31:02Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "6ea412f69364ef55a9064e88",
       "source_id": "bbc_europe",
       "source_name": "BBC News Europe",
@@ -2241,20 +2286,6 @@
       "collected_at": "2026-11-22T18:31:05Z",
       "topics": [
         "breaking",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "7890974d8825d82dd84fe77b",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Two Russian missiles and a drone hit Poland",
-      "url": "https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine",
-      "published_at": "2026-11-20T09:30:31Z",
-      "collected_at": "2026-11-22T16:01:03Z",
-      "topics": [
-        "central_europe",
         "politics",
         "society"
       ]
@@ -2281,6 +2312,34 @@
       "url": "https://notesfrompoland.com/2026/11/19/poland-hands-e-commerce-giant-allegro-greenwashing-fine-for-misleading-tree-planting-campaign",
       "published_at": "2026-11-19T14:58:10Z",
       "collected_at": "2026-11-23T15:31:01Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "5ad8376c4875302319f36e6c",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "EU Commission confirms it was targeted in cyberattack using AI tools",
+      "url": "https://www.dw.com/en/eu-commission-confirms-it-was-targeted-in-cyberattack-using-ai-tools/a-79993016?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-19T14:58:00Z",
+      "collected_at": "2026-11-23T16:01:13Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "8b04cf115d2716abac7bef22",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Poland deepens regional gas cooperation with Hungary, Czech Republic, Slovakia and Lithuania",
+      "url": "https://notesfrompoland.com/2026/11/19/poland-deepens-regional-gas-cooperation-hungary-czech-republic-slovakia-and-lithuania",
+      "published_at": "2026-11-19T13:59:09Z",
+      "collected_at": "2026-11-23T16:01:13Z",
       "topics": [
         "central_europe",
         "politics",
@@ -2701,62 +2760,6 @@
       "url": "https://english.elpais.com/technology/2026-11-02/goodbye-screens-hello-rings-the-new-generation-of-inconspicuous-devices.html",
       "published_at": "2026-11-02T14:17:56Z",
       "collected_at": "2026-11-22T18:31:05Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "7cc923fa4e980bb60e094189",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Scientists alarmed by dozens of whale deaths along Argentina’s coast",
-      "url": "https://english.elpais.com/climate/2026-10-21/scientists-alarmed-by-dozens-of-whale-deaths-along-argentinas-coast.html",
-      "published_at": "2026-10-21T14:37:16Z",
-      "collected_at": "2026-11-22T18:31:05Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "42e7b79c219969a5c0750bc1",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Working to change the culture from within in Argentine women’s soccer",
-      "url": "https://english.elpais.com/sports/2026-10-15/working-to-change-the-culture-from-within-in-argentine-womens-soccer.html",
-      "published_at": "2026-10-15T13:07:54Z",
-      "collected_at": "2026-11-22T19:30:51Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "dffaa72c90845c6e1ec2dd5f",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "The Madrid bear sculpture meant for a Miami roundabout that ended up inside a restaurant instead",
-      "url": "https://english.elpais.com/international/2026-10-07/the-madrid-bear-sculpture-meant-for-a-miami-roundabout-that-ended-up-inside-a-restaurant-instead.html",
-      "published_at": "2026-10-07T14:09:26Z",
-      "collected_at": "2026-11-23T04:31:01Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "7efa220b5e933242e3c5f85f",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Héctor Socas, astrophysicist: ‘If a more advanced civilization contacted us, they should be more afraid of us than we are of them’",
-      "url": "https://english.elpais.com/science-tech/2026-09-09/hector-socas-astrophysicist-if-a-more-advanced-civilization-contacted-us-they-should-be-more-afraid-of-us-than-we-are-of-them.html",
-      "published_at": "2026-09-09T18:32:09Z",
-      "collected_at": "2026-11-23T07:01:04Z",
       "topics": [
         "politics",
         "society",
