@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-24T12:31:10Z",
-  "last_successful_collection_at": "2026-11-24T12:31:10Z",
+  "generated_at": "2026-11-24T13:01:04Z",
+  "last_successful_collection_at": "2026-11-24T13:01:04Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-24T12:31:10Z"
+      "at": "2026-11-24T13:01:04Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-24T12:31:10Z"
+      "at": "2026-11-24T13:01:04Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-11-24T12:31:10Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-24T13:01:04Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,93 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-24T12:31:10Z"
+      "at": "2026-11-24T13:01:04Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-24T12:31:10Z"
+      "at": "2026-11-24T13:01:04Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-11-24T12:31:10Z"
+      "at": "2026-11-24T13:01:04Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-24T12:31:10Z"
+      "at": "2026-11-24T13:01:04Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-24T12:31:10Z"
+      "at": "2026-11-24T13:01:04Z"
     },
     {
       "id": "bruegel",
-      "status": "ok",
-      "count": "10",
-      "at": "2026-11-24T12:31:10Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-24T13:01:04Z"
     }
   ],
   "europe_now": [
     {
-      "title": "NATO surveillance deployment to Poland",
-      "summary": "NATO is sending surveillance aircraft to Poland following recent Russian missile strikes, reinforcing regional security. The deployment highlights the alliance's ongoing response to spillover threats from the conflict in Ukraine.",
+      "title": "7 EU countries push for ‘urgent’ visa ban on Russian and Belarusian athletes",
+      "summary": "Seven EU countries have called for an urgent visa ban on Russian and Belarusian athletes. The ban targets travel for athletes from Russia and Belarus.",
+      "article_ids": [
+        "e21f5df4ac9dc75687fc4dd6"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/7-eu-countries-visa-ban-russia-belarus-athletes",
+          "headline": "7 EU countries push for ‘urgent’ visa ban on Russian and Belarusian athletes",
+          "published_at": "2026-11-24T12:46:08Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Right-wing revolt threatens to bog down EU budget",
+      "summary": "A right-wing revolt is threatening to bog down the EU budget. The revolt highlights political tensions within the union.",
+      "article_ids": [
+        "28ae2491929ae561045fb42e"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/right-wing-revolt-threatens-to-bog-down-eu-budget",
+          "headline": "Right-wing revolt threatens to bog down EU budget",
+          "published_at": "2026-11-24T11:41:01Z"
+        }
+      ],
+      "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "EU mining plans in the Western Balkans face local resistance",
+      "summary": "The European Union has mining plans in the Western Balkans. Local resistance has emerged against these plans.",
+      "article_ids": [
+        "05a5376637b8fa33246980ae"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/249959/eu-mining-plans-in-the-western-balkans-face-local-resistance",
+          "headline": "EU mining plans in the Western Balkans face local resistance",
+          "published_at": "2026-11-24T12:41:59Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "NATO to send surveillance aircraft to Poland after Russian missile strikes",
+      "summary": "NATO is sending surveillance aircraft to Poland. The deployment follows Russian missile strikes.",
       "article_ids": [
         "2ec4476acbb39b92fc78fa97"
       ],
@@ -80,71 +130,56 @@
       "source_count": 1
     },
     {
-      "title": "Spanish snap election preparations",
-      "summary": "Spain is preparing for a snap general election as political dynamics shift across the country. Observers note that the upcoming poll could significantly impact national political leadership and broader European policies.",
+      "title": "Size of Brussels’ legal rulebook doubles, despite EU push to cut red tape",
+      "summary": "The legal rulebook of Brussels has doubled in size. This growth occurs despite the EU's push to cut red tape.",
       "article_ids": [
-        "5cdd8338302c8c9ec2fda7a3"
+        "9851d633e70374abf08c5aff"
       ],
       "sources": [
         {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261124-spain-set-to-head-to-polls-in-snap-election-that-could-boost-far-right",
-          "headline": "Spain set to head to polls in snap election that could boost far right",
-          "published_at": "2026-11-24T10:46:02Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Regional Security and Conflict Spillovers",
-      "summary": "NATO is deploying surveillance aircraft to Poland following recent Russian missile strikes near the alliance's borders. Meanwhile, diplomatic tensions have emerged after Ukrainian actions affected Russian naval assets in Libyan waters.",
-      "article_ids": [
-        "2ec4476acbb39b92fc78fa97",
-        "cd5c9e5f775fa9815d6db915"
-      ],
-      "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/24/nato-to-send-surveillance-aircraft-to-poland-after-russian-missile-strikes",
-          "headline": "NATO to send surveillance aircraft to Poland after Russian missile strikes",
-          "published_at": "2026-11-24T09:59:24Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261124-live-tripoli-demands-explanation-from-kyiv-for-striking-russian-ships-in-libyan-waters",
-          "headline": "Live: Tripoli demands explanation from Kyiv for striking Russian ships in Libyan waters",
-          "published_at": "2026-11-24T05:50:16Z"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "title": "European Political and Fiscal Developments",
-      "summary": "Spain is heading toward a snap general election that could potentially empower right-wing political factions. In France, President Emmanuel Macron is considering measures to enshrine strict fiscal rules and spending caps within the national constitution.",
-      "article_ids": [
-        "5cdd8338302c8c9ec2fda7a3",
-        "4bf060cc80e16c78ec8431b7"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261124-spain-set-to-head-to-polls-in-snap-election-that-could-boost-far-right",
-          "headline": "Spain set to head to polls in snap election that could boost far right",
-          "published_at": "2026-11-24T10:46:02Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261124-macron-mulls-enshrining-fiscal-rules-in-french-constitution",
-          "headline": "Macron mulls enshrining fiscal rules in French constitution",
-          "published_at": "2026-11-24T11:53:44Z"
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/250869/size-of-brussels-legal-rulebook-doubles-despite-eu-push-to-cut-red-tape",
+          "headline": "Size of Brussels’ legal rulebook doubles, despite EU push to cut red tape",
+          "published_at": "2026-11-24T06:00:00Z"
         }
       ],
       "source_count": 1
     }
   ],
   "developing": [
+    {
+      "label": "Spain · election · polls · snap",
+      "origin": "convergence",
+      "source_count": 4,
+      "item_count": 5,
+      "latest_at": "2026-11-24T12:39:36Z",
+      "sources": [
+        {
+          "publisher": "EL PAÍS English",
+          "url": "https://english.elpais.com/spain/2026-11-24/what-do-the-latest-polls-show-ahead-of-spains-general-election.html",
+          "headline": "What do the latest polls show ahead of Spain’s general election?",
+          "published_at": "2026-11-24T12:39:36Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261124-spain-set-to-head-to-polls-in-snap-election-that-could-boost-far-right",
+          "headline": "Spain set to head to polls in snap election that could boost far right",
+          "published_at": "2026-11-24T10:46:02Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/250954/sanchezs-snap-election-and-what-his-likely-defeat-means-forspains-nato-spending",
+          "headline": "Sanchez’s snap election, and what his (likely) defeat means for Spain’s Nato spending",
+          "published_at": "2026-11-24T10:22:33Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/spain-pedro-sanchez-politico-poll-election",
+          "headline": "Spain turns against Sánchez, POLITICO poll finds",
+          "published_at": "2026-11-23T18:00:14Z"
+        }
+      ]
+    },
     {
       "label": "Huang · Nvidia · CEO · Jensen",
       "origin": "convergence",
@@ -173,70 +208,119 @@
       ]
     },
     {
-      "label": "countries · EU · rules · Brussels",
+      "label": "Macron · fiscal · French · mulls",
       "origin": "convergence",
       "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-24T09:21:33Z",
+      "item_count": 4,
+      "latest_at": "2026-11-24T11:53:44Z",
       "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/250951/listen-which-eu-countries-are-actually-respecting-the-eu-budgetary-rules",
-          "headline": "Listen: Which EU countries are actually respecting the EU budgetary rules?",
-          "published_at": "2026-11-24T09:21:33Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/governments-pile-pressure-on-brussels-to-simplify-fishing-sector-rules",
-          "headline": "EU countries pile pressure on Brussels to simplify fishing sector rules",
-          "published_at": "2026-11-23T13:47:41Z"
-        }
-      ]
-    },
-    {
-      "label": "EU · push · banks · Russian",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-24T06:00:00Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/250869/size-of-brussels-legal-rulebook-doubles-despite-eu-push-to-cut-red-tape",
-          "headline": "Size of Brussels’ legal rulebook doubles, despite EU push to cut red tape",
-          "published_at": "2026-11-24T06:00:00Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-to-target-russian-ex-soldiers-banks-and-sports-in-new-sanctions-push",
-          "headline": "EU to target Russian ex-soldiers, banks and sports in new sanctions push",
-          "published_at": "2026-11-23T16:15:10Z"
-        }
-      ]
-    },
-    {
-      "label": "drug · US",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-11-24T12:07:03Z",
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/international/2026-11-24/us-visa-sanctions-trigger-investigation-into-alleged-drug-trafficking-network-in-bolivia.html",
-          "headline": "US visa sanctions trigger investigation into alleged drug trafficking network in Bolivia",
-          "published_at": "2026-11-24T12:07:03Z"
-        },
         {
           "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20261124-us-flew-surveillance-drone-over-mexico-to-help-capture-top-drug-lord",
-          "headline": "US flew surveillance drone over Mexico to help capture top drug lord",
-          "published_at": "2026-11-24T02:09:11Z"
+          "url": "https://www.france24.com/en/video/20261124-macron-mulls-enshrining-fiscal-rules-in-french-constitution",
+          "headline": "Macron mulls enshrining fiscal rules in French constitution",
+          "published_at": "2026-11-24T11:53:44Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/emmanuel-macron-trap-successors-budget-rule-france",
+          "headline": "Macron moves to ‘trap’ successors with new budget rule",
+          "published_at": "2026-11-23T13:53:21Z"
+        }
+      ]
+    },
+    {
+      "label": "Russian · Kyiv · ships · Ukraine",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 3,
+      "latest_at": "2026-11-24T05:50:16Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261124-live-tripoli-demands-explanation-from-kyiv-for-striking-russian-ships-in-libyan-waters",
+          "headline": "Live: Tripoli demands explanation from Kyiv for striking Russian ships in Libyan waters",
+          "published_at": "2026-11-24T05:50:16Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/250801/fighting-at-sea-escalates-sharply-russian-ships-are-burning-in-the-baltic-and-mediterranean-ukraine-battlefield-update-day-1733",
+          "headline": "Fighting at sea escalates sharply: Russian ships are burning in the Baltic and Mediterranean (Ukraine Battlefield update, Day 1,733)",
+          "published_at": "2026-11-23T15:20:17Z"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "id": "e21f5df4ac9dc75687fc4dd6",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "7 EU countries push for ‘urgent’ visa ban on Russian and Belarusian athletes",
+      "url": "https://www.politico.eu/article/7-eu-countries-visa-ban-russia-belarus-athletes",
+      "published_at": "2026-11-24T12:46:08Z",
+      "collected_at": "2026-11-24T13:01:04Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
+      "id": "791cfdb235ec9944b8a43092",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Russian governor detained in rare criminal case against regional leader",
+      "url": "https://www.bbc.co.uk/news/articles/cmwy868v3nneo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-24T12:45:43Z",
+      "collected_at": "2026-11-24T13:01:04Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "05a5376637b8fa33246980ae",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "EU mining plans in the Western Balkans face local resistance",
+      "url": "https://euobserver.com/249959/eu-mining-plans-in-the-western-balkans-face-local-resistance",
+      "published_at": "2026-11-24T12:41:59Z",
+      "collected_at": "2026-11-24T13:01:04Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "05be723a82d891947b72be6b",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "What do the latest polls show ahead of Spain’s general election?",
+      "url": "https://english.elpais.com/spain/2026-11-24/what-do-the-latest-polls-show-ahead-of-spains-general-election.html",
+      "published_at": "2026-11-24T12:39:36Z",
+      "collected_at": "2026-11-24T13:01:04Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "8eec0ebb76bce808dd646699",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Palestinian ambulances become ‘direct targets’ in the West Bank",
+      "url": "https://english.elpais.com/international/2026-11-24/palestinian-ambulances-become-direct-targets-in-the-west-bank.html",
+      "published_at": "2026-11-24T12:28:19Z",
+      "collected_at": "2026-11-24T13:01:04Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "a0d21615b65728569d5996da",
       "source_id": "el_pais_english",
@@ -525,6 +609,20 @@
       "url": "https://euobserver.com/250954/sanchezs-snap-election-and-what-his-likely-defeat-means-forspains-nato-spending",
       "published_at": "2026-11-24T10:22:33Z",
       "collected_at": "2026-11-24T10:30:59Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "61b62691db126902c83e7559",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Sanchez’s snap election, and what his defeat would mean for Spain’s Nato spending",
+      "url": "https://euobserver.com/250954/sanchezs-snap-election-and-what-his-likely-defeat-means-forspains-nato-spending",
+      "published_at": "2026-11-24T10:22:33Z",
+      "collected_at": "2026-11-24T13:01:04Z",
       "topics": [
         "institutions",
         "policy",
@@ -1988,20 +2086,6 @@
       ]
     },
     {
-      "id": "f019ff24d3e44cee5c315276",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "De Wever sets year-end deadline for Belgian budget deal",
-      "url": "https://www.politico.eu/article/belgium-bart-de-wever-heads-to-king-with-no-budget-deal-in-sight",
-      "published_at": "2026-11-23T11:11:49Z",
-      "collected_at": "2026-11-23T13:01:03Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "0c36ff569a36e99f09382ac0",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -2013,34 +2097,6 @@
         "politics",
         "security",
         "society"
-      ]
-    },
-    {
-      "id": "f97b06357f7bd362ab177f01",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Emmy Rossum, actress: ‘When art is entertaining and meaningful, it can shape conversation in society and make us feel less alone’",
-      "url": "https://english.elpais.com/culture/2026-11-23/emmy-rossum-actress-when-art-is-entertaining-and-meaningful-it-can-shape-conversation-in-society-and-make-us-feel-less-alone.html",
-      "published_at": "2026-11-23T10:39:19Z",
-      "collected_at": "2026-11-23T13:01:03Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
-      "id": "27ab606b7f94d617239662fd",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Can bad memories be erased? This is the most effective technique experts recommend",
-      "url": "https://english.elpais.com/health/2026-11-23/can-bad-memories-be-erased-this-is-the-most-effective-technique-experts-recommend.html",
-      "published_at": "2026-11-23T10:33:18Z",
-      "collected_at": "2026-11-23T13:01:03Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
@@ -2265,20 +2321,6 @@
         "breaking",
         "politics",
         "society"
-      ]
-    },
-    {
-      "id": "e8e093899ec41918e267c115",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Spain’s entrenched poverty despite economic growth: ‘I can’t even afford a Coke with friends’",
-      "url": "https://english.elpais.com/international/2026-11-20/spains-entrenched-poverty-despite-economic-growth-i-cant-even-afford-a-coke-with-friends.html",
-      "published_at": "2026-11-20T17:45:30Z",
-      "collected_at": "2026-11-23T13:01:03Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
       ]
     },
     {
