@@ -359,9 +359,24 @@
     "3b6f8867aed9c59686e03818": "2026-11-24T04:30:58Z",
     "f8d1907cc1b55d920050309b": "2026-11-24T04:30:58Z",
     "ee2aa18bca98962059137651": "2026-11-24T05:01:06Z",
-    "527178e205996eb2b611e9d1": "2026-11-24T05:01:06Z"
+    "527178e205996eb2b611e9d1": "2026-11-24T05:01:06Z",
+    "d2e6b429ca17fbad4b6e3a49": "2026-11-24T05:30:56Z"
   },
   "radar": [
+    {
+      "id": "d2e6b429ca17fbad4b6e3a49",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Can Europe stop Trump putting world leaders above the law?",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/can-europe-stop-trump-putting-world-leaders-above-the-law",
+      "published_at": "2026-11-24T05:05:00Z",
+      "collected_at": "2026-11-24T05:30:56Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "527178e205996eb2b611e9d1",
       "source_id": "politico_europe",
@@ -2379,20 +2394,6 @@
       ]
     },
     {
-      "id": "12164aff3fb6b6e2a9884df3",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "Chaos among the five armed forces operating in Haiti increases risk to the civilian population: ‘It’s an orchestra without a conductor’",
-      "url": "https://english.elpais.com/international/2026-11-21/chaos-among-the-five-armed-forces-operating-in-haiti-increases-risk-to-the-civilian-population-its-an-orchestra-without-a-conductor.html",
-      "published_at": "2026-11-21T04:00:00Z",
-      "collected_at": "2026-11-23T05:01:06Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "90f6b80a2eefae7f7641ea04",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2474,20 +2475,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "a80d16ed314bb3d354d37331",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "French police officers sentenced for beating of music producer Michel Zecler",
-      "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-20T22:37:09Z",
-      "collected_at": "2026-11-23T05:01:06Z",
-      "topics": [
-        "breaking",
-        "politics",
-        "society"
       ]
     },
     {
@@ -2604,14 +2591,6 @@
     }
   ],
   "recent_topics": [
-    {
-      "at": "2026-11-23T04:31:01Z",
-      "title": "Transport Disruptions in Belgium"
-    },
-    {
-      "at": "2026-11-23T05:01:06Z",
-      "title": "Climate Summit Collapse"
-    },
     {
       "at": "2026-11-23T05:01:06Z",
       "title": "Attacks on Russian Vessels"
@@ -2923,6 +2902,14 @@
     {
       "at": "2026-11-24T05:01:06Z",
       "title": "Emissions trading expansion debate"
+    },
+    {
+      "at": "2026-11-24T05:30:56Z",
+      "title": "New EU sanctions targeting Russia"
+    },
+    {
+      "at": "2026-11-24T05:30:56Z",
+      "title": "Emissions trading expansion debate"
     }
   ],
   "alerts": [],
@@ -2930,7 +2917,7 @@
     "europe_now": [
       {
         "title": "Finland summons Russian ambassador over airspace violation",
-        "summary": "Finland has summoned the Russian ambassador following a suspected helicopter incursion and airspace violation. The diplomatic move underscores heightened regional security concerns along European borders.",
+        "summary": "Finland summoned the Russian ambassador following a suspected airspace violation by a helicopter. The incident highlights ongoing regional tensions along European borders with Russia.",
         "article_ids": [
           "d99b2013f8e604c1b71b8c46",
           "f02852fee62d02f1fdb16459"
@@ -2952,8 +2939,26 @@
         "source_count": 2
       },
       {
-        "title": "EU prepares new sanctions package against Russia",
-        "summary": "The European Union is preparing a new sanctions package targeting Russian individuals, former soldiers, banks, and sports. The measures also aim to ban Russian flags and teams from European sporting events.",
+        "title": "National strike paralyzes transport in Belgium",
+        "summary": "A national strike in Belgium led to widespread shutdowns of airports and public transport as mounting protests disrupted the country. Labor demonstrations caused significant logistical halts across major transport networks.",
+        "article_ids": [
+          "954818a9692994472ef4062b"
+        ],
+        "sources": [
+          {
+            "publisher": "France 24 English",
+            "url": "https://www.france24.com/en/video/20261123-airports-public-transport-shut-down-amid-national-strike-in-belgium",
+            "headline": "Airports, public transport shut down amid national strike in Belgium",
+            "published_at": "2026-11-23T16:10:30Z"
+          }
+        ],
+        "source_count": 1
+      }
+    ],
+    "top_stories": [
+      {
+        "title": "New EU sanctions targeting Russia",
+        "summary": "The European Union is advancing a new sanctions package aimed at Russian banks, ex-soldiers, and sports organizations. Officials intend to implement bans on Russian flags and teams at European sporting events.",
         "article_ids": [
           "ac739defb26273624522bef2",
           "f74ca4ae29ce2bebcd3754ef"
@@ -2973,28 +2978,10 @@
           }
         ],
         "source_count": 2
-      }
-    ],
-    "top_stories": [
-      {
-        "title": "National strike paralyzes Belgium",
-        "summary": "A national strike in Belgium has led to the shutdown of airports and public transport systems. Widespread protests have also mounted across the country as workers voice various grievances.",
-        "article_ids": [
-          "954818a9692994472ef4062b"
-        ],
-        "sources": [
-          {
-            "publisher": "France 24 English",
-            "url": "https://www.france24.com/en/video/20261123-airports-public-transport-shut-down-amid-national-strike-in-belgium",
-            "headline": "Airports, public transport shut down amid national strike in Belgium",
-            "published_at": "2026-11-23T16:10:30Z"
-          }
-        ],
-        "source_count": 1
       },
       {
         "title": "Emissions trading expansion debate",
-        "summary": "Eight European Union member states have expressed strong opposition to any further delays regarding emissions trading. The disputed policy involves the inclusion of transport and heating sectors within the framework.",
+        "summary": "Eight European Union member states have formally rejected any further delays to including transport and heating in emissions trading. The policy discussion centers on maintaining strict timelines for climate measures.",
         "article_ids": [
           "591b93e1bf58a95bebd0f265"
         ],
@@ -3010,5 +2997,5 @@
       }
     ]
   },
-  "last_collection_at": "2026-11-24T05:01:06Z"
+  "last_collection_at": "2026-11-24T05:30:56Z"
 }
