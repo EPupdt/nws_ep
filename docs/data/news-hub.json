@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-24T10:01:00Z",
-  "last_successful_collection_at": "2026-11-24T10:01:00Z",
+  "generated_at": "2026-11-24T10:30:59Z",
+  "last_successful_collection_at": "2026-11-24T10:30:59Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-24T10:01:00Z"
+      "at": "2026-11-24T10:30:59Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-24T10:01:00Z"
+      "at": "2026-11-24T10:30:59Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-24T10:01:00Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-11-24T10:30:59Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-24T10:01:00Z"
+      "at": "2026-11-24T10:30:59Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-24T10:01:00Z"
+      "at": "2026-11-24T10:30:59Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-11-24T10:01:00Z"
+      "at": "2026-11-24T10:30:59Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-24T10:01:00Z"
+      "at": "2026-11-24T10:30:59Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-24T10:01:00Z"
+      "at": "2026-11-24T10:30:59Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-24T10:01:00Z"
+      "at": "2026-11-24T10:30:59Z"
     }
   ],
   "europe_now": [
     {
-      "title": "NATO surveillance mission to Poland",
-      "summary": "NATO is deploying surveillance aircraft to Polish airspace following recent missile strikes. The move comes as regional security measures are heightened across eastern member states.",
+      "title": "NATO Surveillance Deployment to Poland",
+      "summary": "NATO is dispatching surveillance aircraft to Poland following recent Russian missile strikes. The measure aims to bolster regional security along the alliance's eastern flank.",
       "article_ids": [
         "2ec4476acbb39b92fc78fa97"
       ],
@@ -80,11 +80,10 @@
       "source_count": 1
     },
     {
-      "title": "Regional airspace and security incidents",
-      "summary": "Finland has officially summoned the Russian ambassador to address a suspected helicopter border incursion. Meanwhile, NATO officials are emphasizing reinforced space defense capabilities following reports of nuclear satellite deployments.",
+      "title": "Finland Summons Russian Ambassador",
+      "summary": "Finland has officially summoned the Russian ambassador following a suspected helicopter incursion into Finnish airspace. The diplomatic move highlights ongoing regional tensions involving Scandinavian and Baltic security.",
       "article_ids": [
-        "d99b2013f8e604c1b71b8c46",
-        "a6c87167bc97e18c2af1d56b"
+        "d99b2013f8e604c1b71b8c46"
       ],
       "sources": [
         {
@@ -92,39 +91,18 @@
           "url": "https://www.politico.eu/article/finland-summons-russian-ambassador-over-suspected-helicopter-incursion",
           "headline": "Finland summons Russian ambassador over suspected helicopter incursion",
           "published_at": "2026-11-23T21:02:55Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
-          "headline": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
-          "published_at": "2026-11-24T02:15:59Z"
         }
       ],
-      "source_count": 2
+      "source_count": 1
     }
   ],
   "top_stories": [
     {
-      "title": "Expanded Sanctions Against Russia",
-      "summary": "The European Union is preparing a new sanctions package focused on Russian targets. Measures include restrictions on former soldiers, financial institutions, and prohibitions on Russian flags and teams at sports events.",
+      "title": "Ukraine War Spillovers in Libya",
+      "summary": "Ukrainian forces reportedly targeted Russian naval assets located off the coast of Libya. Tripoli has subsequently demanded an official explanation from Kyiv regarding the operation.",
       "article_ids": [
-        "ac739defb26273624522bef2"
-      ],
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/250900/eu-to-ban-russian-flags-and-teams-at-european-sports-events-in-new-sanctions-round",
-          "headline": "EU to ban Russian flags and teams at European sports events in new sanctions round",
-          "published_at": "2026-11-23T18:01:26Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Wider Regional Spillovers of the Conflict",
-      "summary": "Official bodies in Tripoli have demanded explanations from Kyiv following reported Ukrainian strikes on vessels off the coast of Libya. International observers are closely monitoring whether regional tensions will draw in other diplomatic actors.",
-      "article_ids": [
-        "cd5c9e5f775fa9815d6db915"
+        "cd5c9e5f775fa9815d6db915",
+        "7a089b2233126a0398a2da50"
       ],
       "sources": [
         {
@@ -132,6 +110,35 @@
           "url": "https://www.france24.com/en/europe/20261124-live-tripoli-demands-explanation-from-kyiv-for-striking-russian-ships-in-libyan-waters",
           "headline": "Live: Tripoli demands explanation from Kyiv for striking Russian ships in Libyan waters",
           "published_at": "2026-11-24T05:50:16Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/ukraine-claims-it-sank-russian-warship-off-libya",
+          "headline": "Ukraine claims it sank Russian warship off Libya",
+          "published_at": "2026-11-23T19:39:00Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "French Political and Judicial Developments",
+      "summary": "French President Emmanuel Macron is reportedly considering future government spending caps amid ongoing fiscal scrutiny. Meanwhile, a French police officer involved in the fatal shooting of a teenager is set to stand trial for murder.",
+      "article_ids": [
+        "4b4dc1a97a8c42ca1eda703c",
+        "94c9c93c81e1562d4d5fd056"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261124-accused-emptying-coffers-macron-mulls-spending-caps-future-french-governments-golden-rule",
+          "headline": "Accused of ‘emptying the coffers’, Macron mulls spending caps for future French governments",
+          "published_at": "2026-11-24T10:25:23Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261124-death-of-nahel-french-police-officer-who-shot-dead-a-teenage-boy-to-stand-trial-for-murder",
+          "headline": "Death of Nahel: French police officer who shot dead a teenage boy to stand trial for murder",
+          "published_at": "2026-11-24T09:54:58Z"
         }
       ],
       "source_count": 1
@@ -141,10 +148,16 @@
     {
       "label": "Huang · Nvidia · CEO · Jensen",
       "origin": "convergence",
-      "source_count": 2,
-      "item_count": 11,
-      "latest_at": "2026-11-24T07:15:21Z",
+      "source_count": 3,
+      "item_count": 14,
+      "latest_at": "2026-11-24T10:10:37Z",
       "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.com/news/magazine/2026/11/24/donald-trump-jensen-huang-column-01180964?c=1795514431568",
+          "headline": "Donald Trump still thinks the rules don’t apply to him — or Jensen Huang",
+          "published_at": "2026-11-24T10:10:37Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/americas/20261124-jensen-huang-s-return-has-calmed-markets-but-fears-of-an-ai-bubble-still-run-deep",
@@ -225,6 +238,48 @@
   ],
   "radar": [
     {
+      "id": "4b4dc1a97a8c42ca1eda703c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Accused of ‘emptying the coffers’, Macron mulls spending caps for future French governments",
+      "url": "https://www.france24.com/en/france/20261124-accused-emptying-coffers-macron-mulls-spending-caps-future-french-governments-golden-rule",
+      "published_at": "2026-11-24T10:25:23Z",
+      "collected_at": "2026-11-24T10:30:59Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "0d192275a9870f5b6199da4e",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "Sanchez’s snap election, and what his (likely) defeat means for Spain’s Nato spending",
+      "url": "https://euobserver.com/250954/sanchezs-snap-election-and-what-his-likely-defeat-means-forspains-nato-spending",
+      "published_at": "2026-11-24T10:22:33Z",
+      "collected_at": "2026-11-24T10:30:59Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "90d33cc1f55e62a0daed267a",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Donald Trump still thinks the rules don’t apply to him — or Jensen Huang",
+      "url": "https://www.politico.com/news/magazine/2026/11/24/donald-trump-jensen-huang-column-01180964?c=1795514431568",
+      "published_at": "2026-11-24T10:10:37Z",
+      "collected_at": "2026-11-24T10:30:59Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
+    {
       "id": "2ec4476acbb39b92fc78fa97",
       "source_id": "notes_from_poland",
       "source_name": "Notes from Poland",
@@ -235,6 +290,20 @@
       "topics": [
         "central_europe",
         "politics",
+        "society"
+      ]
+    },
+    {
+      "id": "94c9c93c81e1562d4d5fd056",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Death of Nahel: French police officer who shot dead a teenage boy to stand trial for murder",
+      "url": "https://www.france24.com/en/france/20261124-death-of-nahel-french-police-officer-who-shot-dead-a-teenage-boy-to-stand-trial-for-murder",
+      "published_at": "2026-11-24T09:54:58Z",
+      "collected_at": "2026-11-24T10:30:59Z",
+      "topics": [
+        "politics",
+        "security",
         "society"
       ]
     },
@@ -316,6 +385,20 @@
       "url": "https://www.france24.com/en/tv-shows/sports/20261124-2025-afcon-cas-set-to-hand-down-ruling-on-controversial-final",
       "published_at": "2026-11-24T06:35:07Z",
       "collected_at": "2026-11-24T07:30:59Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "847edef5878d4c1176df2dd6",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "AFCON 2025: CAS set to hand down ruling on controversial final",
+      "url": "https://www.france24.com/en/tv-shows/sports/20261124-2025-afcon-cas-set-to-hand-down-ruling-on-controversial-final",
+      "published_at": "2026-11-24T06:35:07Z",
+      "collected_at": "2026-11-24T10:30:59Z",
       "topics": [
         "politics",
         "security",
@@ -1919,34 +2002,6 @@
       ]
     },
     {
-      "id": "e4833122d9645708a5953028",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland confirms three objects that struck its territory were all Russian missiles",
-      "url": "https://notesfrompoland.com/2026/11/23/poland-confirms-three-objects-that-struck-its-territory-were-all-russian-missiles",
-      "published_at": "2026-11-23T10:04:57Z",
-      "collected_at": "2026-11-23T10:30:52Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "bdf8aafc671b5226f432ff0e",
-      "source_id": "euobserver",
-      "source_name": "EUobserver",
-      "title": "Kaliningrad is the Achilles’ heel of Putin in the Baltic Sea",
-      "url": "https://euobserver.com/250582/kaliningrad-is-the-achilles-heel-of-putin-in-the-baltic-sea",
-      "published_at": "2026-11-23T10:02:03Z",
-      "collected_at": "2026-11-23T10:30:52Z",
-      "topics": [
-        "institutions",
-        "policy",
-        "rights"
-      ]
-    },
-    {
       "id": "25fe8fa8d9d8ae25f1aaf50b",
       "source_id": "france24",
       "source_name": "France 24 English",
@@ -1971,34 +2026,6 @@
       "topics": [
         "politics",
         "security",
-        "society"
-      ]
-    },
-    {
-      "id": "1b109c0702430a82671df7f6",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Let down on all sides': Pacific island nations express despair over COP31 failure",
-      "url": "https://www.france24.com/en/environment/20261123-let-down-on-all-sides-pacific-island-nations-express-despair-over-cop31-failure",
-      "published_at": "2026-11-23T09:35:45Z",
-      "collected_at": "2026-11-23T10:01:06Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "11e9c3d9f4b1560865052620",
-      "source_id": "bbc_europe",
-      "source_name": "BBC News Europe",
-      "title": "Who is taking part in France's recent street protests?",
-      "url": "https://www.bbc.co.uk/news/videos/cw5y188vzxn8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-23T09:25:52Z",
-      "collected_at": "2026-11-23T10:30:52Z",
-      "topics": [
-        "breaking",
-        "politics",
         "society"
       ]
     },
