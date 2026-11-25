@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-25T20:31:00Z",
-  "last_successful_collection_at": "2026-11-25T20:31:00Z",
+  "generated_at": "2026-11-25T21:01:07Z",
+  "last_successful_collection_at": "2026-11-25T21:01:07Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-25T20:31:00Z"
+      "at": "2026-11-25T21:01:07Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-11-25T20:31:00Z"
+      "at": "2026-11-25T21:01:07Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-11-25T20:31:00Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-25T21:01:07Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-25T20:31:00Z"
+      "at": "2026-11-25T21:01:07Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-25T20:31:00Z"
+      "at": "2026-11-25T21:01:07Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-11-25T20:31:00Z"
+      "at": "2026-11-25T21:01:07Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-25T20:31:00Z"
+      "at": "2026-11-25T21:01:07Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-25T20:31:00Z"
+      "at": "2026-11-25T21:01:07Z"
     },
     {
       "id": "bruegel",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-25T20:31:00Z"
+      "status": "ok",
+      "count": "10",
+      "at": "2026-11-25T21:01:07Z"
     }
   ],
   "europe_now": [
     {
       "title": "Poland plans eastern border no-fly zone",
-      "summary": "Poland is planning to establish a no-fly zone along its eastern border to assist in intercepting and downing Russian missiles. The measure follows ongoing security concerns and regional airspace incursions linked to the conflict in Ukraine.",
+      "summary": "Poland is planning to establish a no-fly zone along its eastern border to assist in intercepting and downing Russian missiles.",
       "article_ids": [
         "b675d8b0be45412c9eeef192"
       ],
@@ -80,8 +80,8 @@
       "source_count": 1
     },
     {
-      "title": "Moldova launches national preparedness campaign",
-      "summary": "Moldova has issued an emergency kit guide and launched a national preparedness campaign to ready citizens for potential security risks. The initiative comes in response to recent drone incursions and regional tensions stemming from the war in Ukraine.",
+      "title": "Moldova issues national emergency preparedness guide",
+      "summary": "Moldova has launched a national campaign and distributed emergency kit guides to prepare its citizens for potential security spillover from the ongoing conflict in Ukraine.",
       "article_ids": [
         "464d92a0df59079ba4606594",
         "1b72f2c01e90b135d8d42751"
@@ -105,8 +105,25 @@
   ],
   "top_stories": [
     {
-      "title": "EU Budget Negotiations and Regional Priorities",
-      "summary": "European leaders are meeting at a special summit to address major budgetary disagreements and funding distribution. French President Emmanuel Macron has warned that negotiations should not extend past December.",
+      "title": "Transatlantic trade tensions rise over US tariff proposals",
+      "summary": "The United States has unveiled proposed tariffs affecting major partners including the European Union and China. European officials have formally rejected the arguments presented by Washington for the new trade restrictions.",
+      "article_ids": [
+        "1bd42699d437938ac88735cf",
+        "6ee4e8b67d124520b933f521"
+      ],
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261125-us-unveils-proposed-tariffs-on-major-partners-including-eu-and-china",
+          "headline": "US unveils proposed tariffs on major partners, including EU and China",
+          "published_at": "2026-11-25T16:21:55Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "EU budget and regional funding negotiations face friction",
+      "summary": "European leaders and institutions are currently engaged in tense negotiations regarding the upcoming multi-year financial framework and budget priorities. French President Emmanuel Macron has warned that negotiations could stall if no agreement is reached by December.",
       "article_ids": [
         "6b3af65ec67fe50f78dc2497",
         "724a51ce6c2dda358692e0f1"
@@ -126,23 +143,6 @@
         }
       ],
       "source_count": 2
-    },
-    {
-      "title": "Transatlantic Trade Tensions Over US Tariffs",
-      "summary": "The European Union has formally rejected arguments presented by the United States regarding newly proposed trade tariffs. Washington has unveiled these proposed levies on major international partners, prompting a strong diplomatic response from Brussels.",
-      "article_ids": [
-        "1bd42699d437938ac88735cf",
-        "6ee4e8b67d124520b933f521"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261125-us-unveils-proposed-tariffs-on-major-partners-including-eu-and-china",
-          "headline": "US unveils proposed tariffs on major partners, including EU and China",
-          "published_at": "2026-11-25T16:21:55Z"
-        }
-      ],
-      "source_count": 1
     }
   ],
   "developing": [
@@ -176,6 +176,33 @@
           "url": "https://www.politico.eu/article/ukraine-russia-warship-attack-libya-international-law-neutral-waters",
           "headline": "Ukraine’s raid in Libya damaged more than a Russian warship",
           "published_at": "2026-11-25T11:49:29Z"
+        }
+      ]
+    },
+    {
+      "label": "Spain · Catalan · election · Puigdemont",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 3,
+      "latest_at": "2026-11-25T14:49:23Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261125-exiled-catalan-separatist-puigdemont-to-return-to-spain-after-election",
+          "headline": "Exiled Catalan separatist Puigdemont to return to Spain after election",
+          "published_at": "2026-11-25T14:49:23Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/hes-coming-home-separatist-leader-puigdemont-to-return-to-spain",
+          "headline": "He’s coming home: Catalan leader Puigdemont plans return to Spain",
+          "published_at": "2026-11-25T12:13:46Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cq5y1212y4pwo?at_medium=RSS&at_campaign=rss",
+          "headline": "Clashing political visions reflect a divided Spain ahead of election",
+          "published_at": "2026-11-25T00:58:34Z"
         }
       ]
     },
@@ -220,30 +247,23 @@
           "published_at": "2026-11-25T11:13:10Z"
         }
       ]
-    },
-    {
-      "label": "French · hopeful · Lisnard · Presidential",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-11-25T18:59:26Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france/20261125-french-milei-presidential-candidate-david-lisnard-aims-reshape-france-right-wing",
-          "headline": "The ‘French Milei’? Presidential candidate David Lisnard aims to reshape France’s right wing",
-          "published_at": "2026-11-25T18:59:26Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/french-presidential-hopeful-teddy-riner-says-ukraine-is-not-our-war",
-          "headline": "French presidential hopeful Teddy Riner says Ukraine is ‘not our war’",
-          "published_at": "2026-11-25T16:51:22Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "0aa1f302d47fc6cf0f6c1a1d",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "Tusk government ‘facing armageddon’ as European court resumes cases against Poland",
+      "url": "https://www.politico.eu/article/donald-tusk-government-facing-armageddon-as-european-court-resumes-cases-against-poland",
+      "published_at": "2026-11-25T20:45:59Z",
+      "collected_at": "2026-11-25T21:01:07Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "3e3503d0983a2ad8e4f9eb0e",
       "source_id": "politico_europe",
@@ -2065,20 +2085,6 @@
       ]
     },
     {
-      "id": "0bb1f2259035bcc5e517ce2b",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Efforts to free caged rabbits, calves wait on top EU court ruling",
-      "url": "https://www.politico.eu/article/eu-court-ruling-commission-cage-ban-farmed-animals",
-      "published_at": "2026-11-24T20:17:01Z",
-      "collected_at": "2026-11-24T20:31:01Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
       "id": "f69780438cea39a3a239d97b",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2090,34 +2096,6 @@
         "institutions",
         "politics",
         "policy"
-      ]
-    },
-    {
-      "id": "4aad219997b17696397958f8",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "Poland and US sign defence technology cooperation agreement",
-      "url": "https://notesfrompoland.com/2026/11/24/poland-and-us-sign-defence-technology-cooperation-agreement",
-      "published_at": "2026-11-24T20:15:01Z",
-      "collected_at": "2026-11-24T20:31:01Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "id": "c38fc438f355bc217757cf37",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "The Bukele method: will Salvadoran leader's strong-arm tactics work for Haiti?",
-      "url": "https://www.france24.com/en/tv-shows/the-debate/20261124-the-bukele-method-will-salvadoran-leader-s-strong-arm-tactics-work-for-haiti",
-      "published_at": "2026-11-24T19:59:35Z",
-      "collected_at": "2026-11-24T20:31:01Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
       ]
     },
     {
@@ -2230,6 +2208,20 @@
         "institutions",
         "politics",
         "policy"
+      ]
+    },
+    {
+      "id": "fcef0b5d86130113f590fae0",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "Trump’s Great Persecution: Carlos Joaquín and Balin, life in the eye of the deportation storm",
+      "url": "https://english.elpais.com/usa/2026-11-23/trumps-great-persecution-carlos-joaquin-and-balin-life-in-the-eye-of-the-deportation-storm.html",
+      "published_at": "2026-11-23T20:12:07Z",
+      "collected_at": "2026-11-25T21:01:07Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2566,20 +2558,6 @@
         "politics",
         "society",
         "security"
-      ]
-    },
-    {
-      "id": "be478a1ba09d66de8b997f9b",
-      "source_id": "notes_from_poland",
-      "source_name": "Notes from Poland",
-      "title": "FedEx-led consortium completes €7.8bn takeover of Polish delivery giant InPost",
-      "url": "https://notesfrompoland.com/2026/11/20/fedex-led-consortium-completes-e7-8bn-takeover-of-polish-delivery-giant-inpost",
-      "published_at": "2026-11-20T19:44:15Z",
-      "collected_at": "2026-11-24T20:31:01Z",
-      "topics": [
-        "central_europe",
-        "politics",
-        "society"
       ]
     },
     {
