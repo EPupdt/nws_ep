@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-26T20:01:07Z",
-  "last_successful_collection_at": "2026-11-26T20:01:07Z",
+  "generated_at": "2026-11-26T20:30:57Z",
+  "last_successful_collection_at": "2026-11-26T20:30:57Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-26T20:01:07Z"
+      "at": "2026-11-26T20:30:57Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-11-26T20:01:07Z"
+      "at": "2026-11-26T20:30:57Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-26T20:01:07Z"
+      "at": "2026-11-26T20:30:57Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,59 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-26T20:01:07Z"
+      "at": "2026-11-26T20:30:57Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-26T20:01:07Z"
+      "at": "2026-11-26T20:30:57Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-11-26T20:01:07Z"
+      "at": "2026-11-26T20:30:57Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-26T20:01:07Z"
+      "at": "2026-11-26T20:30:57Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-26T20:01:07Z"
+      "at": "2026-11-26T20:30:57Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-26T20:01:07Z"
+      "at": "2026-11-26T20:30:57Z"
     }
   ],
   "europe_now": [
     {
-      "title": "ECB Leadership Transition",
-      "summary": "EU leaders have cleared the path for Spanish economist Pablo Hernández de Cos to succeed Christine Lagarde as head of the European Central Bank.",
+      "title": "UK to get Swiss-style consultative rights under new EU deals",
+      "summary": "The United Kingdom is set to receive consultative rights similar to Switzerland's under new arrangements being developed with the European Union.",
+      "article_ids": [
+        "0568a2677ad5c01f8780bbd5"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/uk-to-get-swiss-style-consultative-rights-under-new-eu-deals",
+          "headline": "UK to get ‘Swiss-style’ consultative rights under new EU deals",
+          "published_at": "2026-11-26T17:06:36Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Spanish economist Pablo Hernández de Cos to succeed Lagarde as head of ECB",
+      "summary": "EU leaders have cleared the path for Spain's Pablo Hernández de Cos to take over the presidency of the European Central Bank from Christine Lagarde.",
       "article_ids": [
         "03bc4b6936909d037c04ff8c",
         "f7940b0714cc69833536347a",
@@ -86,12 +102,38 @@
         }
       ],
       "source_count": 2
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "French legal proceedings",
+      "summary": "Actor Gérard Depardieu is scheduled to stand trial following court rulings regarding allegations of rape. Meanwhile, another French court is hearing a case involving propaganda charges against a woman linked to the Islamic State group.",
+      "article_ids": [
+        "c40a40501b5494ea4a5ed116",
+        "50e8272d1086bb1478262cb8"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&at_campaign=rss",
+          "headline": "Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
+          "published_at": "2026-11-26T14:44:26Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/france/20261126-french-woman-trial-is-group-propaganda-tells-court-she-ashamed",
+          "headline": "French woman on trial for IS group propaganda tells court she’s ‘ashamed’",
+          "published_at": "2026-11-26T14:48:32Z"
+        }
+      ],
+      "source_count": 2
     },
     {
-      "title": "Polish Institutional Funding Friction",
-      "summary": "The Polish prime minister ordered an alternative financing channel for the constitutional court after the central bank froze its accounts.",
+      "title": "Polish institutional developments",
+      "summary": "The Polish prime minister has ordered an alternative financing channel for the constitutional court after the central bank froze accounts. Separately, Warsaw authorities imposed a significant fine on a hospital accused of offering VIP access to politicians.",
       "article_ids": [
-        "5baf383742604fa2da7d89d8"
+        "5baf383742604fa2da7d89d8",
+        "789fc8a4b95be7971fc0a7fc"
       ],
       "sources": [
         {
@@ -99,40 +141,12 @@
           "url": "https://notesfrompoland.com/2026/11/26/polish-pm-orders-alternative-financing-channel-for-constitutional-court-after-central-bank-freezes-accounts",
           "headline": "Polish PM orders alternative financing channel for constitutional court after central bank freezes accounts",
           "published_at": "2026-11-26T15:29:25Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "UK-EU Consultative Arrangements",
-      "summary": "New agreements indicate that the United Kingdom is set to receive Swiss-style consultative rights under forthcoming EU deals. The arrangements reflect ongoing adjustments in post-Brexit diplomatic frameworks.",
-      "article_ids": [
-        "0568a2677ad5c01f8780bbd5"
-      ],
-      "sources": [
+        },
         {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/uk-to-get-swiss-style-consultative-rights-under-new-eu-deals",
-          "headline": "UK to get ‘Swiss-style’ consultative rights under new EU deals",
-          "published_at": "2026-11-26T17:06:36Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Maritime Incident Near Ibiza",
-      "summary": "A diesel tanker carrying up to 7,000 tonnes capsized near Ibiza, resulting in one fatality. Emergency responses and investigations into the maritime accident are currently ongoing.",
-      "article_ids": [
-        "460bdd4cf0b2e0fd89ea5b70"
-      ],
-      "sources": [
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
-          "headline": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
-          "published_at": "2026-11-26T15:17:18Z"
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/11/26/warsaw-hospital-accused-of-offering-vip-access-for-politicians-fined-2-3-million-zloty",
+          "headline": "Warsaw hospital accused of offering “VIP access” for politicians fined 2.3 million zloty",
+          "published_at": "2026-11-26T13:33:33Z"
         }
       ],
       "source_count": 1
@@ -249,6 +263,20 @@
     }
   ],
   "radar": [
+    {
+      "id": "3cc6a412c1882944fe8f46cb",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "The climate crisis is forcing thousands of Europeans from their homes",
+      "url": "https://english.elpais.com/climate/2026-11-26/the-climate-crisis-is-forcing-thousands-of-europeans-from-their-homes.html",
+      "published_at": "2026-11-26T20:00:04Z",
+      "collected_at": "2026-11-26T20:30:57Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
     {
       "id": "5c766901c0e6323c82ed20ea",
       "source_id": "france24",
