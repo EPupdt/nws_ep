@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-26T12:31:04Z",
-  "last_successful_collection_at": "2026-11-26T12:31:04Z",
+  "generated_at": "2026-11-26T13:01:04Z",
+  "last_successful_collection_at": "2026-11-26T13:01:04Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-26T12:31:04Z"
+      "at": "2026-11-26T13:01:04Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-11-26T12:31:04Z"
+      "at": "2026-11-26T13:01:04Z"
     },
     {
       "id": "france24",
       "status": "ok",
       "count": "24",
-      "at": "2026-11-26T12:31:04Z"
+      "at": "2026-11-26T13:01:04Z"
     },
     {
       "id": "euractiv",
@@ -29,65 +29,46 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-26T12:31:04Z"
+      "at": "2026-11-26T13:01:04Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-26T12:31:04Z"
+      "at": "2026-11-26T13:01:04Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "59",
-      "at": "2026-11-26T12:31:04Z"
+      "at": "2026-11-26T13:01:04Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-26T12:31:04Z"
+      "at": "2026-11-26T13:01:04Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-26T12:31:04Z"
+      "at": "2026-11-26T13:01:04Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-26T12:31:04Z"
+      "at": "2026-11-26T13:01:04Z"
     }
   ],
   "europe_now": [
     {
-      "title": "Transatlantic Trade Tensions",
-      "summary": "United States officials have warned European Union leadership regarding upcoming plans to impose taxes on major technology companies. Meanwhile, major global economies have strongly criticized newly unveiled U.S. tariffs targeting fourteen trade partners.",
-      "article_ids": [
-        "913dab2c1ed71309c107d73d",
-        "f325c33331a7f09e95229941",
-        "bf9899e65fdcd811a3177ab6"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/americas/20261126-unacceptable-major-economies-push-back-against-new-us-tariffs",
-          "headline": "'Unacceptable': China, EU among major economies against new US tariffs",
-          "published_at": "2026-11-26T07:16:41Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "EU Budget and Funding Divisions",
-      "summary": "European Union leaders are experiencing deep internal divisions and facing challenging negotiations regarding upcoming budget allocations and financial support for Ukraine. Regional officials have expressed concern that proposed restructuring could negatively impact cohesion funding for poorer areas.",
+      "title": "EU budget and funding divisions",
+      "summary": "EU leaders remain deeply divided over the size and new revenue resources of the upcoming budget. The Dutch government has dismissed any firm deadlines for reaching a final agreement.",
       "article_ids": [
         "04141b096984ecc5bc1e9331",
-        "800d6f4004ed657cd76bca8f",
-        "fc29745e01296e1c587bf36b"
+        "800d6f4004ed657cd76bca8f"
       ],
       "sources": [
         {
@@ -104,15 +85,12 @@
         }
       ],
       "source_count": 2
-    }
-  ],
-  "top_stories": [
+    },
     {
       "title": "New UK-EU Treaty Terms",
-      "summary": "British and European authorities have confirmed that the newly agreed UK-EU treaty features a ten-year termination clause. The agreement sets specific structural frameworks for future bilateral relations.",
+      "summary": "A newly structured agreement between the United Kingdom and the European Union includes a specific ten-year termination clause. Observers are evaluating how this provision will shape long-term bilateral relations.",
       "article_ids": [
-        "4ce1dc95eec2b551c0078fc1",
-        "a49d6e99fa65a4ee0014bee5"
+        "4ce1dc95eec2b551c0078fc1"
       ],
       "sources": [
         {
@@ -120,31 +98,43 @@
           "url": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss",
           "headline": "New UK-EU treaty has 10-year termination clause",
           "published_at": "2026-11-26T09:59:14Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss",
-          "headline": "New UK-EU treaty has 10-year termination clause, BBC understands",
-          "published_at": "2026-11-26T07:40:04Z"
         }
       ],
       "source_count": 1
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Transatlantic Trade Tensions",
+      "summary": "Major global economies, including the European Union and China, have strongly pushed back against newly announced tariffs from the United States. US officials have also warned European leaders against implementing independent taxes on major technology companies.",
+      "article_ids": [
+        "f325c33331a7f09e95229941",
+        "bf9899e65fdcd811a3177ab6"
+      ],
+      "sources": [
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/us-fires-warning-shot-ahead-of-eu-leaders-big-tech-tax-talks",
+          "headline": "US warns EU leaders against Big Tech tax",
+          "published_at": "2026-11-26T11:21:36Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/americas/20261126-unacceptable-major-economies-push-back-against-new-us-tariffs",
+          "headline": "'Unacceptable': China, EU among major economies against new US tariffs",
+          "published_at": "2026-11-26T07:16:41Z"
+        }
+      ],
+      "source_count": 2
     },
     {
-      "title": "French Political Developments",
-      "summary": "French far-right figure Jordan Bardella is facing fresh media scrutiny and accusations concerning alleged antisemitic comments. Additionally, senior French officials are currently under investigation regarding suspected unauthorized leaks to the National Rally party.",
+      "title": "French Political and Security Scrutiny",
+      "summary": "Senior French officials face ongoing investigations regarding suspected leaks of sensitive information to the far-right National Rally. Simultaneously, prominent political figures are confronting renewed public scrutiny over historical and recent controversies.",
       "article_ids": [
-        "8ba6010109dab21a4056a4d8",
         "802127512eda83c50a98a7f3",
         "243554dd4f6f8779f8f3e62a"
       ],
       "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261126-french-far-right-leader-bardella-faces-fresh-anti-semitism-accusations-in-media-reports",
-          "headline": "French far-right leader Bardella faces fresh anti-Semitism accusations in media reports",
-          "published_at": "2026-11-26T11:47:52Z"
-        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/video/20261126-france-senior-officials-investigated-over-suspected-leaks-to-far-right-national-rally",
@@ -190,6 +180,27 @@
       ]
     },
     {
+      "label": "Bardella · fresh · anti · faces",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 5,
+      "latest_at": "2026-11-26T11:47:52Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261126-french-far-right-leader-bardella-faces-fresh-anti-semitism-accusations-in-media-reports",
+          "headline": "French far-right leader Bardella faces fresh anti-Semitism accusations in media reports",
+          "published_at": "2026-11-26T11:47:52Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/france-jordan-bardella-faces-fresh-antisemitism-accusations",
+          "headline": "France’s Jordan Bardella faces fresh antisemitism accusations",
+          "published_at": "2026-11-26T11:03:17Z"
+        }
+      ]
+    },
+    {
       "label": "tariffs · Trump · US · EU",
       "origin": "convergence",
       "source_count": 2,
@@ -230,30 +241,37 @@
           "published_at": "2026-11-25T14:15:02Z"
         }
       ]
-    },
-    {
-      "label": "EU · plan · Russian · Trump",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-25T17:11:25Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/251647/exclusive-details-leaked-of-eu-plan-to-cancel-russian-sports-in-europe-including-trump-jr-s-boxing-pal",
-          "headline": "[Exclusive] Details leaked of EU plan to cancel Russian sports in Europe, including Trump Jr.’s boxing pal",
-          "published_at": "2026-11-25T17:11:25Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/eu-weist-trumps-argumente-fuer-neue-zoelle-zurueck",
-          "headline": "EU weist Trumps Argumente für neue Zölle zurück",
-          "published_at": "2026-11-25T16:17:15Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "7168b9f6f6689bec1a0074ac",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "'As humans we feel spiritually homeless': Turkish author Ece Temelkuran on belonging",
+      "url": "https://www.france24.com/en/tv-shows/perspective/20261126-as-humans-we-feel-spiritually-homeless-turkish-author-ece-temelkuran-on-belonging",
+      "published_at": "2026-11-26T12:48:46Z",
+      "collected_at": "2026-11-26T13:01:04Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "49d9c0c493a46de650fbbb17",
+      "source_id": "politico_europe",
+      "source_name": "POLITICO Europe",
+      "title": "10 key faces of Spain’s next (likely) right-wing government",
+      "url": "https://www.politico.eu/article/10-key-faces-of-spains-next-likely-right-wing-government",
+      "published_at": "2026-11-26T12:48:32Z",
+      "collected_at": "2026-11-26T13:01:04Z",
+      "topics": [
+        "institutions",
+        "politics",
+        "policy"
+      ]
+    },
     {
       "id": "5b588a02c331452e1f737575",
       "source_id": "france24",
@@ -266,6 +284,20 @@
         "politics",
         "security",
         "society"
+      ]
+    },
+    {
+      "id": "45e8e97b5b24ee2e4a9d917e",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "In Miami, food banks are overflowing ahead of Thanksgiving",
+      "url": "https://english.elpais.com/usa/2026-11-26/in-miami-food-banks-are-overflowing-ahead-of-thanksgiving.html",
+      "published_at": "2026-11-26T12:26:48Z",
+      "collected_at": "2026-11-26T13:01:04Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
       ]
     },
     {
@@ -2285,6 +2317,20 @@
       ]
     },
     {
+      "id": "8405bccc0c3a5bc9ef06d84f",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "COP31 failed, but the green transition has not",
+      "url": "https://ecfr.eu/article/cop31-failed-but-the-green-transition-has-not",
+      "published_at": "2026-11-24T11:19:59Z",
+      "collected_at": "2026-11-26T13:01:04Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
+    {
       "id": "4447d79ecbae5b96097c0e67",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2705,59 +2751,17 @@
       ]
     },
     {
-      "id": "4bf5882ea19701405acf4ac0",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "After Abu Dhabi: How Europeans must reframe the European security debate",
-      "url": "https://ecfr.eu/article/after-abu-dhabi-how-europeans-must-reframe-the-european-security-debate",
-      "published_at": "2026-11-13T16:01:14Z",
-      "collected_at": "2026-11-26T12:01:05Z",
+      "id": "556cab91133f0d2083623ca2",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "A $2 million bribe and two mystery accomplices: The FBI’s hunt for Ryan Wedding, the ‘king of cocaine’",
+      "url": "https://english.elpais.com/usa/2026-11-16/a-2-million-bribe-and-two-mystery-accomplices-the-fbis-hunt-for-ryan-wedding-the-king-of-cocaine.html",
+      "published_at": "2026-11-16T10:57:25Z",
+      "collected_at": "2026-11-26T13:01:04Z",
       "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "55eaed61dea9e4431e865559",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "More than Ukraine: How the Abu Dhabi talks laid bare Russia’s priorities",
-      "url": "https://ecfr.eu/article/more-than-ukraine-how-the-abu-dhabi-talks-laid-bare-russias-priorities",
-      "published_at": "2026-11-13T13:37:07Z",
-      "collected_at": "2026-11-26T12:01:05Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "0b383c450b9c3be606288eb1",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "AfD on the rise",
-      "url": "https://ecfr.eu/podcasts/episode/afd-on-the-rise",
-      "published_at": "2026-11-13T13:27:38Z",
-      "collected_at": "2026-11-26T12:01:05Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
-      ]
-    },
-    {
-      "id": "0b3d5cbcdf261c1381d17cfc",
-      "source_id": "ecfr",
-      "source_name": "European Council on Foreign Relations",
-      "title": "Saved by Trump: What Hegseth’s political survival means for Europe",
-      "url": "https://ecfr.eu/article/saved-by-trump-what-hegseths-political-survival-means-for-europe",
-      "published_at": "2026-11-12T17:42:45Z",
-      "collected_at": "2026-11-26T12:01:05Z",
-      "topics": [
-        "analysis",
-        "foreign_policy",
-        "security"
+        "politics",
+        "society",
+        "economy"
       ]
     }
   ]
