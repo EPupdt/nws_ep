@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-27T11:01:04Z",
-  "last_successful_collection_at": "2026-11-27T11:01:04Z",
+  "generated_at": "2026-11-27T11:30:56Z",
+  "last_successful_collection_at": "2026-11-27T11:30:56Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-27T11:01:04Z"
+      "at": "2026-11-27T11:30:56Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-27T11:01:04Z"
+      "at": "2026-11-27T11:30:56Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-11-27T11:01:04Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-27T11:30:56Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-27T11:01:04Z"
+      "at": "2026-11-27T11:30:56Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-27T11:01:04Z"
+      "at": "2026-11-27T11:30:56Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-11-27T11:01:04Z"
+      "at": "2026-11-27T11:30:56Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-27T11:01:04Z"
+      "at": "2026-11-27T11:30:56Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-27T11:01:04Z"
+      "at": "2026-11-27T11:30:56Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-27T11:01:04Z"
+      "at": "2026-11-27T11:30:56Z"
     }
   ],
   "europe_now": [
     {
-      "title": "EU Budget Deadlock",
-      "summary": "European Union leaders failed to reach an agreement during budget negotiations in Brussels, leaving officials with a month to salvage a deal before the upcoming summit. France and Germany are actively pushing for a resolution by the end of the year as growing political friction threatens financial support for Ukraine.",
+      "title": "EU budget talks stall after summit walkout",
+      "summary": "European Union leaders failed to reach a budget agreement following a summit walkout, leaving officials with a one-month window to salvage a deal before the upcoming Christmas meeting.",
       "article_ids": [
         "2696b0261d915db6515d8a11",
         "7acf8f9c8bfe4394bcc6a668",
@@ -90,8 +90,8 @@
       "source_count": 2
     },
     {
-      "title": "Spanish Election Dynamics",
-      "summary": "Spain is heading toward a general election dominated by fierce debates over housing and potential right-wing political shifts. Political leaders clashed in their final televised debate while young voters voiced widespread frustration regarding housing accessibility.",
+      "title": "Spain prepares for general election dominated by housing and political shifts",
+      "summary": "Spanish voters head to the polls amidst intense debates over housing pressures and potential shifts in political leadership as major parties clash in final electoral campaigns.",
       "article_ids": [
         "5cd5ccae577329ec15603192",
         "cd183bc127a17679fa20beb2",
@@ -118,8 +118,8 @@
   ],
   "top_stories": [
     {
-      "title": "European Central Bank Leadership Transition",
-      "summary": "Hernández de Cos has been tapped to head the European Central Bank. He assumes the role to navigate the upcoming economic challenges facing the continent.",
+      "title": "European Central Bank Leadership",
+      "summary": "Pragmatic liberal figure Hernández de Cos has been tapped to head the European Central Bank. He is expected to take on the upcoming economic challenges facing the region.",
       "article_ids": [
         "e1ba2e751b5dd42004c987db"
       ],
@@ -135,7 +135,7 @@
     },
     {
       "title": "UK-EU Relations and Frameworks",
-      "summary": "The United Kingdom is set to pay a participation fee to implement specific European Union deals. Meanwhile, the political architect who originally coined the term Brexit has expressed support for potential new cooperative arrangements.",
+      "summary": "The United Kingdom is set to pay a participation fee under new consultative arrangements with the European Union. Meanwhile, discussions continue regarding post-Brexit institutional ties and frameworks.",
       "article_ids": [
         "33084c94682c9505d0b20c01",
         "504411e6339462754a6a9910"
@@ -180,27 +180,6 @@
       ]
     },
     {
-      "label": "Bardella · anti · faces · fresh",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 5,
-      "latest_at": "2026-11-26T20:05:55Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/france-s-bardella-faces-new-allegations-of-antisemitic-comments",
-          "headline": "France's Bardella faces new allegations of anti-Semitic comments",
-          "published_at": "2026-11-26T20:05:55Z"
-        },
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/france-jordan-bardella-faces-fresh-antisemitism-accusations",
-          "headline": "France’s Jordan Bardella faces fresh antisemitism accusations",
-          "published_at": "2026-11-26T11:03:17Z"
-        }
-      ]
-    },
-    {
       "label": "Putin · Trump · aggression · BBC",
       "origin": "convergence",
       "source_count": 2,
@@ -218,6 +197,27 @@
           "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
           "headline": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
           "published_at": "2026-11-26T22:49:27Z"
+        }
+      ]
+    },
+    {
+      "label": "EU · US",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-11-27T11:14:45Z",
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/251968/eu-takes-action-on-us-tariff-treat-to-critical-medicines",
+          "headline": "EU takes action on US tariff treat to critical medicines",
+          "published_at": "2026-11-27T11:14:45Z"
+        },
+        {
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-commission-offers-little-in-response-to-us-drug-pricing-pressures",
+          "headline": "EU Commission offers little in response to US drug pricing pressures",
+          "published_at": "2026-11-26T14:58:49Z"
         }
       ]
     },
@@ -244,6 +244,34 @@
     }
   ],
   "radar": [
+    {
+      "id": "8f55002e68ea713b101f81cb",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "EU takes action on US tariff treat to critical medicines",
+      "url": "https://euobserver.com/251968/eu-takes-action-on-us-tariff-treat-to-critical-medicines",
+      "published_at": "2026-11-27T11:14:45Z",
+      "collected_at": "2026-11-27T11:30:56Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "857c80df1f303b252c64c294",
+      "source_id": "ecfr",
+      "source_name": "European Council on Foreign Relations",
+      "title": "From photo-ops to feasibility: America, China, Russia and the future of nuclear talks",
+      "url": "https://ecfr.eu/article/from-photo-ops-to-feasibility-america-china-russia-and-the-future-of-nuclear-talks",
+      "published_at": "2026-11-27T11:12:02Z",
+      "collected_at": "2026-11-27T11:30:56Z",
+      "topics": [
+        "analysis",
+        "foreign_policy",
+        "security"
+      ]
+    },
     {
       "id": "e3db7a239e49351f234047de",
       "source_id": "france24",
@@ -2079,20 +2107,6 @@
       ]
     },
     {
-      "id": "ec735b7612b24ee700c37225",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "'Sacré sel': France's love of salt",
-      "url": "https://www.france24.com/en/tv-shows/entre-nous/20261126-sacr%C3%A9-sel-france-s-love-of-salt",
-      "published_at": "2026-11-26T10:22:53Z",
-      "collected_at": "2026-11-26T11:01:11Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "3f9dbbdd6fa61cb7c3eb1828",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2149,20 +2163,6 @@
       ]
     },
     {
-      "id": "4a56aecd82f8d56f5f084b94",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Live: EU leaders meet in Brussels amid division over Ukraine funding",
-      "url": "https://www.france24.com/en/europe/20261126-live-eu-leaders-face-showdown-over-ukraine-funding-as-divisions-deepen",
-      "published_at": "2026-11-26T05:44:57Z",
-      "collected_at": "2026-11-26T11:01:11Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "5de4c4c7c1e26b65e58cbc81",
       "source_id": "politico_europe",
       "source_name": "POLITICO Europe",
@@ -2188,6 +2188,20 @@
         "politics",
         "society",
         "economy"
+      ]
+    },
+    {
+      "id": "1f455d1a7eff9c7dcfcd0d0b",
+      "source_id": "notes_from_poland",
+      "source_name": "Notes from Poland",
+      "title": "Russia denies its missiles hit Poland and accuses Warsaw of “stoking anti-Russian sentiment”",
+      "url": "https://notesfrompoland.com/2026/11/25/russia-denies-its-missiles-hit-poland-and-accuses-warsaw-of-stoking-anti-russian-sentiment",
+      "published_at": "2026-11-25T10:37:33Z",
+      "collected_at": "2026-11-27T11:30:56Z",
+      "topics": [
+        "central_europe",
+        "politics",
+        "society"
       ]
     },
     {
