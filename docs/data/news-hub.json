@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-27T16:31:05Z",
-  "last_successful_collection_at": "2026-11-27T16:31:05Z",
+  "generated_at": "2026-11-27T17:01:11Z",
+  "last_successful_collection_at": "2026-11-27T17:01:11Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-27T16:31:05Z"
+      "at": "2026-11-27T17:01:11Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
       "count": "22",
-      "at": "2026-11-27T16:31:05Z"
+      "at": "2026-11-27T17:01:11Z"
     },
     {
       "id": "france24",
-      "status": "error",
-      "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-27T16:31:05Z"
+      "status": "ok",
+      "count": "24",
+      "at": "2026-11-27T17:01:11Z"
     },
     {
       "id": "euractiv",
@@ -29,102 +29,70 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-27T16:31:05Z"
+      "at": "2026-11-27T17:01:11Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-27T16:31:05Z"
+      "at": "2026-11-27T17:01:11Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-11-27T16:31:05Z"
+      "at": "2026-11-27T17:01:11Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-27T16:31:05Z"
+      "at": "2026-11-27T17:01:11Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-27T16:31:05Z"
+      "at": "2026-11-27T17:01:11Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-27T16:31:05Z"
+      "at": "2026-11-27T17:01:11Z"
     }
   ],
   "europe_now": [
     {
-      "title": "EU budget deadlock at summit",
-      "summary": "European Union leaders failed to reach an agreement on the next multi-year budget following a tense summit meeting. Disagreements among member states focused heavily on budget spending allocations and a proposed multibillion-euro loan for Ukraine.",
+      "title": "EU Leaders Fail to Reach Budget Agreement",
+      "summary": "European Union member states have deepened divisions following a tense summit where leaders failed to reach an agreement on the next budget. Negotiations collapsed after intense debates among representatives regarding future financial allocations.",
       "article_ids": [
-        "81267eefa464ffe817c1f2dd",
-        "2696b0261d915db6515d8a11"
+        "314cd634585aa3e7f4126dc6",
+        "81267eefa464ffe817c1f2dd"
       ],
       "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/divisions-deepen-between-eu-member-states-after-tense-budget-summit/a-80078599?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Divisions deepen between EU member states after tense budget summit",
+          "published_at": "2026-11-27T16:51:00Z"
+        },
         {
           "publisher": "France 24 English",
           "url": "https://www.france24.com/en/video/20261127-eu-leaders-fail-to-reach-agreement-on-next-budget-after-tense-summit",
           "headline": "EU: Leaders fail to reach agreement on next budget after tense summit",
           "published_at": "2026-11-27T11:42:43Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261127-eu-leaders-split-over-budget-spending-and-a-49-billion-loan-to-ukraine",
-          "headline": "EU leaders split over budget spending and a $49 billion loan to Ukraine",
-          "published_at": "2026-11-27T10:45:18Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
-      "title": "Spanish general election final stretch",
-      "summary": "Spain's general election campaign concluded with debates heavily centered on the ongoing housing crisis and immigration issues. Prime Minister Pedro Sánchez made a final push ahead of the crunch vote to maintain power against surging right-wing opposition.",
+      "title": "Disputed Polish Constitutional Court Suspends Chief Justice",
+      "summary": "The disputed Polish constitutional court has announced a twelve-month suspension of its chief justice. The development marks another major institutional friction point within the country's legal landscape.",
       "article_ids": [
-        "556c5e0f67a3138e6e40609a",
-        "7ac4c894b05b8b92e6778df9"
-      ],
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261127-spain-election-housing-crisis-and-immigration-dominate-final-campaign-debate",
-          "headline": "Spain election: Housing crisis and immigration dominate final campaign debate",
-          "published_at": "2026-11-27T11:51:07Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/europe/20261127-sanchez-makes-last-bid-to-beat-the-right-ahead-of-spanish-vote",
-          "headline": "Spain’s Pedro makes final campaign push to beat the right ahead of crunch vote",
-          "published_at": "2026-11-27T10:57:18Z"
-        }
-      ],
-      "source_count": 1
-    }
-  ],
-  "top_stories": [
-    {
-      "title": "Poland institutional developments",
-      "summary": "Poland released international expert findings confirming that the Smolensk air disaster was an accident. Separately, the disputed Polish constitutional court announced a twelve-month suspension of its chief justice.",
-      "article_ids": [
-        "f72a3989fa9d8bca8fdbcc31",
         "7ad88d0723280e4de580c14e"
       ],
       "sources": [
-        {
-          "publisher": "Notes from Poland",
-          "url": "https://notesfrompoland.com/2026/11/27/poland-releases-international-expert-findings-confirming-smolensk-air-disaster-was-an-accident",
-          "headline": "Poland releases international expert findings that Smolensk air disaster was an accident",
-          "published_at": "2026-11-27T14:45:24Z"
-        },
         {
           "publisher": "Notes from Poland",
           "url": "https://notesfrompoland.com/2026/11/27/disputed-polish-constitutional-court-announces-12-month-suspension-of-chief-justice",
@@ -133,26 +101,106 @@
         }
       ],
       "source_count": 1
-    },
+    }
+  ],
+  "top_stories": [
     {
-      "title": "Wildlife trafficking intervention",
-      "summary": "Dutch authorities at an airport seized twenty-six critically endangered turtles from the luggage of a passenger. The passenger was booked on a flight bound for Hong Kong.",
+      "title": "Spanish General Election Campaign Dominates Focus",
+      "summary": "Spain's upcoming general election has brought issues like the housing crisis and immigration to the forefront of the final campaign debates. Observers are closely watching the political dynamics as right-wing groups contest the polls.",
       "article_ids": [
-        "99ca60315bf8972b132ca70e",
-        "82536b348a06405db0bef626"
+        "14479a21ef93cb8c1b6fe8b8",
+        "44a832e7ead2aed48cd2d081",
+        "556c5e0f67a3138e6e40609a"
       ],
       "sources": [
         {
-          "publisher": "Deutsche Welle",
-          "url": "https://www.dw.com/en/dutch-authorities-seize-26-critically-endangered-turtles-from-luggage-of-passenger-bound-for-hong-kong/a-80077824?maca=en-rss-en-eu-2092-rdf",
-          "headline": "Dutch authorities seize 26 critically endangered turtles from luggage of passenger bound for Hong Kong",
-          "published_at": "2026-11-27T15:48:00Z"
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/europe/20261127-spain-far-right-vox-at-the-gates-can-women-bail-out-sanchez-once-again",
+          "headline": "With Spain’s far right on the cusp of power, can women bail Sanchez out once again?",
+          "published_at": "2026-11-27T16:27:41Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/252246/from-housing-to-migration-gaza-renewables-and-the-far-right-the-bigger-picture-behind-spains-sunday-election",
+          "headline": "From housing, to migration, Gaza, renewables and the far-right: the bigger picture behind Spain’s Sunday election",
+          "published_at": "2026-11-27T16:09:55Z"
         }
       ],
-      "source_count": 1
+      "source_count": 2
+    },
+    {
+      "title": "Military and Security Updates Concerning Ukraine",
+      "summary": "Swedish Gripen fighter jets equipped with advanced missiles are scheduled to arrive in Ukraine in January, creating a new challenge for Russian aviation. Meanwhile, residents across the country continue to brace themselves for another difficult winter amid freezing temperatures.",
+      "article_ids": [
+        "353ce4325b8d2c3b70b87e2c",
+        "8323ca8ba2cb7e7320e53d53"
+      ],
+      "sources": [
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/252231/swedish-gripen-jets-with-meteor-missiles-will-arrive-in-ukraine-in-january-posing-the-first-serious-threat-to-russian-aviation-ukraine-battlefield-update-day-1737",
+          "headline": "Swedish Gripen jets with Meteor missiles will arrive in Ukraine in January, posing the first serious threat to Russian aviation (Ukraine Battlefield update, Day 1,737)",
+          "published_at": "2026-11-27T14:18:25Z"
+        },
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261127-ukraine-residents-brace-for-another-difficult-winter",
+          "headline": "Ukraine: Residents brace for another difficult winter",
+          "published_at": "2026-11-27T11:54:15Z"
+        }
+      ],
+      "source_count": 2
     }
   ],
   "developing": [
+    {
+      "label": "election · Spain · Housing · debate",
+      "origin": "convergence",
+      "source_count": 3,
+      "item_count": 6,
+      "latest_at": "2026-11-27T11:51:07Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261127-spain-election-housing-crisis-and-immigration-dominate-final-campaign-debate",
+          "headline": "Spain election: Housing crisis and immigration dominate final campaign debate",
+          "published_at": "2026-11-27T11:51:07Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/251979/listen-why-is-morocco-looming-over-spains-elections",
+          "headline": "Listen: Why is Morocco looming over Spain’s elections?",
+          "published_at": "2026-11-27T10:04:36Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/videos/cm9w9y8947xqo?at_medium=RSS&at_campaign=rss",
+          "headline": "Could housing decide Spain's general election?",
+          "published_at": "2026-11-27T06:09:31Z"
+        }
+      ]
+    },
+    {
+      "label": "Black · Friday",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 4,
+      "latest_at": "2026-11-27T15:53:10Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261127-black-friday-how-the-global-shopping-phenomenon-is-evolving-amid-the-cost-of-living-crisis",
+          "headline": "Back to Black Friday: 'We are now bombarded with offers throughout the year'",
+          "published_at": "2026-11-27T15:53:10Z"
+        },
+        {
+          "publisher": "EUobserver",
+          "url": "https://euobserver.com/252295/amazon-workers-mobilise-on-black-friday-to-demand-better-pay-and-conditions",
+          "headline": "Amazon workers mobilise on Black Friday to demand better pay and conditions",
+          "published_at": "2026-11-27T15:40:57Z"
+        }
+      ]
+    },
     {
       "label": "Putin · Trump · aggression · BBC",
       "origin": "convergence",
@@ -171,27 +219,6 @@
           "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
           "headline": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
           "published_at": "2026-11-26T22:49:27Z"
-        }
-      ]
-    },
-    {
-      "label": "Black · Friday",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 3,
-      "latest_at": "2026-11-27T15:40:57Z",
-      "sources": [
-        {
-          "publisher": "EUobserver",
-          "url": "https://euobserver.com/252295/amazon-workers-mobilise-on-black-friday-to-demand-better-pay-and-conditions",
-          "headline": "Amazon workers mobilise on Black Friday to demand better pay and conditions",
-          "published_at": "2026-11-27T15:40:57Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261127-black-friday-the-evolution-of-a-shopping-phenomenon",
-          "headline": "Black Friday: The evolution of a shopping phenomenon",
-          "published_at": "2026-11-27T12:01:43Z"
         }
       ]
     },
@@ -215,30 +242,121 @@
           "published_at": "2026-11-27T08:51:57Z"
         }
       ]
-    },
-    {
-      "label": "Italians · killed · Kuwait",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 2,
-      "latest_at": "2026-11-27T11:45:48Z",
-      "sources": [
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/video/20261127-kuwait-two-italians-killed-in-drone-attack",
-          "headline": "Kuwait: Two Italians killed in drone attack",
-          "published_at": "2026-11-27T11:45:48Z"
-        },
-        {
-          "publisher": "BBC News Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-          "headline": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-          "published_at": "2026-11-26T21:17:53Z"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "id": "314cd634585aa3e7f4126dc6",
+      "source_id": "dw_europe",
+      "source_name": "Deutsche Welle",
+      "title": "Divisions deepen between EU member states after tense budget summit",
+      "url": "https://www.dw.com/en/divisions-deepen-between-eu-member-states-after-tense-budget-summit/a-80078599?maca=en-rss-en-eu-2092-rdf",
+      "published_at": "2026-11-27T16:51:00Z",
+      "collected_at": "2026-11-27T17:01:11Z",
+      "topics": [
+        "politics",
+        "society",
+        "security"
+      ]
+    },
+    {
+      "id": "a3601f42a3424aa18dba3cc2",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Asia and Europe stocks rally after volatile week",
+      "url": "https://www.france24.com/en/video/20261127-asia-and-europe-stocks-rally-after-volatile-week",
+      "published_at": "2026-11-27T16:43:55Z",
+      "collected_at": "2026-11-27T17:01:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "4ce6507034d5ecb8343a97d9",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Turkey summons Georgian envoy after football fans' pro-Palestine protest sparks clashes",
+      "url": "https://www.france24.com/en/sport/20261127-turkey-summons-georgian-envoy-after-football-fans-pro-palestine-protest-sparks-clashes",
+      "published_at": "2026-11-27T16:37:29Z",
+      "collected_at": "2026-11-27T17:01:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "0bf06d57a30470b2058c8e5b",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Sierra Leone: Maternal deaths fall as healthcare improves, but challenges remain",
+      "url": "https://www.france24.com/en/video/20261127-sierra-leone-maternal-deaths-fall-as-healthcare-improves-but-challenges-remain",
+      "published_at": "2026-11-27T16:37:04Z",
+      "collected_at": "2026-11-27T17:01:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "291a328ebfc71a927f31ec3a",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France: Macron lashes out at Le Pen’s ‘arrogance’",
+      "url": "https://www.france24.com/en/video/20261127-france-macron-lashes-out-at-le-pen-s-arrogance",
+      "published_at": "2026-11-27T16:35:11Z",
+      "collected_at": "2026-11-27T17:01:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e45049e7b004cf916fd292c9",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "DR Congo: Copper reserves put Africa at the centre of the global race for critical minerals",
+      "url": "https://www.france24.com/en/video/20261127-dr-congo-copper-reserves-put-africa-at-the-centre-of-the-global-race-for-critical-minerals",
+      "published_at": "2026-11-27T16:30:37Z",
+      "collected_at": "2026-11-27T17:01:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "14479a21ef93cb8c1b6fe8b8",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "With Spain’s far right on the cusp of power, can women bail Sanchez out once again?",
+      "url": "https://www.france24.com/en/europe/20261127-spain-far-right-vox-at-the-gates-can-women-bail-out-sanchez-once-again",
+      "published_at": "2026-11-27T16:27:41Z",
+      "collected_at": "2026-11-27T17:01:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "428afb8ac536b34abd881e67",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Nigeria: Political violence and attacks on candidates raise fears ahead of January elections",
+      "url": "https://www.france24.com/en/video/20261127-nigeria-political-violence-and-attacks-on-candidates-raise-fears-ahead-of-january-elections",
+      "published_at": "2026-11-27T16:25:05Z",
+      "collected_at": "2026-11-27T17:01:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
     {
       "id": "44a832e7ead2aed48cd2d081",
       "source_id": "euobserver",
@@ -251,6 +369,34 @@
         "institutions",
         "policy",
         "rights"
+      ]
+    },
+    {
+      "id": "182de6599cf39d41babda039",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Student movement in France: \"The situation has varied greatly from one school to another\"",
+      "url": "https://www.france24.com/en/video/20261127-student-movement-in-france-the-situation-has-varied-greatly-from-one-school-to-another",
+      "published_at": "2026-11-27T16:04:13Z",
+      "collected_at": "2026-11-27T17:01:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "9d6fcabaf05dc9bdfe522943",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Bulgarian fans injured after clashes between supporters at Marseille-Levski game in Europa League",
+      "url": "https://www.france24.com/en/video/20261127-bulgarian-fans-injured-after-clashes-between-supporters-at-marseille-levski-game-in-europa-league",
+      "published_at": "2026-11-27T15:58:54Z",
+      "collected_at": "2026-11-27T17:01:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
@@ -268,6 +414,48 @@
       ]
     },
     {
+      "id": "bf15321961f237fe3ab4d62d",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Back to Black Friday: 'We are now bombarded with offers throughout the year'",
+      "url": "https://www.france24.com/en/video/20261127-black-friday-how-the-global-shopping-phenomenon-is-evolving-amid-the-cost-of-living-crisis",
+      "published_at": "2026-11-27T15:53:10Z",
+      "collected_at": "2026-11-27T17:01:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "c8c0785ec991d5639e82797c",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Under a new flag, North Korea carves out identity as fully fledged nuclear state",
+      "url": "https://www.france24.com/en/tv-shows/access-asia/20261127-under-a-new-flag-north-korea-carves-out-identity-as-fully-fledged-nuclear-state",
+      "published_at": "2026-11-27T15:51:30Z",
+      "collected_at": "2026-11-27T17:01:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
+      "id": "e112423af5f575e0118bd4d9",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "France: David Lisnard shakes up presidential race",
+      "url": "https://www.france24.com/en/video/20261127-france-david-lisnard-shakes-up-presidential-race",
+      "published_at": "2026-11-27T15:51:27Z",
+      "collected_at": "2026-11-27T17:01:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
+      ]
+    },
+    {
       "id": "99ca60315bf8972b132ca70e",
       "source_id": "dw_europe",
       "source_name": "Deutsche Welle",
@@ -279,6 +467,20 @@
         "politics",
         "society",
         "security"
+      ]
+    },
+    {
+      "id": "145eda79bc709b967a68f562",
+      "source_id": "france24",
+      "source_name": "France 24 English",
+      "title": "Ukraine: How much have Europeans spent on aid?",
+      "url": "https://www.france24.com/en/video/20261127-ukraine-how-much-have-europeans-spent-on-aid",
+      "published_at": "2026-11-27T15:41:19Z",
+      "collected_at": "2026-11-27T17:01:11Z",
+      "topics": [
+        "politics",
+        "security",
+        "society"
       ]
     },
     {
