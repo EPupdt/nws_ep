@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-27T16:01:09Z",
-  "last_successful_collection_at": "2026-11-27T16:01:09Z",
+  "generated_at": "2026-11-27T16:31:05Z",
+  "last_successful_collection_at": "2026-11-27T16:31:05Z",
   "source_health": [
     {
       "id": "dw_europe",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-27T16:01:09Z"
+      "at": "2026-11-27T16:31:05Z"
     },
     {
       "id": "bbc_europe",
       "status": "ok",
-      "count": "23",
-      "at": "2026-11-27T16:01:09Z"
+      "count": "22",
+      "at": "2026-11-27T16:31:05Z"
     },
     {
       "id": "france24",
-      "status": "ok",
-      "count": "24",
-      "at": "2026-11-27T16:01:09Z"
+      "status": "error",
+      "detail": "HTTP Error 403: Forbidden",
+      "at": "2026-11-27T16:31:05Z"
     },
     {
       "id": "euractiv",
@@ -29,43 +29,43 @@
       "id": "politico_europe",
       "status": "ok",
       "count": "10",
-      "at": "2026-11-27T16:01:09Z"
+      "at": "2026-11-27T16:31:05Z"
     },
     {
       "id": "euobserver",
       "status": "ok",
       "count": "20",
-      "at": "2026-11-27T16:01:09Z"
+      "at": "2026-11-27T16:31:05Z"
     },
     {
       "id": "el_pais_english",
       "status": "ok",
       "count": "57",
-      "at": "2026-11-27T16:01:09Z"
+      "at": "2026-11-27T16:31:05Z"
     },
     {
       "id": "notes_from_poland",
       "status": "ok",
       "count": "12",
-      "at": "2026-11-27T16:01:09Z"
+      "at": "2026-11-27T16:31:05Z"
     },
     {
       "id": "ecfr",
       "status": "ok",
       "count": "25",
-      "at": "2026-11-27T16:01:09Z"
+      "at": "2026-11-27T16:31:05Z"
     },
     {
       "id": "bruegel",
       "status": "error",
       "detail": "HTTP Error 403: Forbidden",
-      "at": "2026-11-27T16:01:09Z"
+      "at": "2026-11-27T16:31:05Z"
     }
   ],
   "europe_now": [
     {
-      "title": "EU Budget Deadlock",
-      "summary": "European Union leaders failed to reach an agreement on the upcoming budget during a recent tense summit. The discussions also highlighted deep divisions regarding proposed spending measures and significant financial support packages.",
+      "title": "EU budget deadlock at summit",
+      "summary": "European Union leaders failed to reach an agreement on the next multi-year budget following a tense summit meeting. Disagreements among member states focused heavily on budget spending allocations and a proposed multibillion-euro loan for Ukraine.",
       "article_ids": [
         "81267eefa464ffe817c1f2dd",
         "2696b0261d915db6515d8a11"
@@ -87,8 +87,8 @@
       "source_count": 1
     },
     {
-      "title": "Spanish General Election",
-      "summary": "Spain's general election is approaching with key campaigns centering heavily on the housing crisis and immigration debates. Political leaders made final pushes ahead of the vote as polls indicate a closely contested political landscape.",
+      "title": "Spanish general election final stretch",
+      "summary": "Spain's general election campaign concluded with debates heavily centered on the ongoing housing crisis and immigration issues. Prime Minister Pedro Sánchez made a final push ahead of the crunch vote to maintain power against surging right-wing opposition.",
       "article_ids": [
         "556c5e0f67a3138e6e40609a",
         "7ac4c894b05b8b92e6778df9"
@@ -112,24 +112,8 @@
   ],
   "top_stories": [
     {
-      "title": "European Central Bank Leadership",
-      "summary": "Hernández de Cos has been tapped to lead the European Central Bank as it prepares for forthcoming economic challenges. Observers describe the appointment as a pragmatic liberal choice for steering monetary policy.",
-      "article_ids": [
-        "e1ba2e751b5dd42004c987db"
-      ],
-      "sources": [
-        {
-          "publisher": "EL PAÍS English",
-          "url": "https://english.elpais.com/economy-and-business/2026-11-27/hernandez-de-cos-the-pragmatic-liberal-tapped-to-head-the-ecb-and-take-on-europes-upcoming-challenges.html",
-          "headline": "Hernández de Cos, the pragmatic liberal tapped to head the ECB and take on Europe’s upcoming challenges",
-          "published_at": "2026-11-27T10:13:19Z"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "title": "Polish Constitutional Controversy",
-      "summary": "The disputed Polish constitutional court announced a twelve-month suspension of its chief justice. Meanwhile, international expert findings regarding the Smolensk air disaster were officially released.",
+      "title": "Poland institutional developments",
+      "summary": "Poland released international expert findings confirming that the Smolensk air disaster was an accident. Separately, the disputed Polish constitutional court announced a twelve-month suspension of its chief justice.",
       "article_ids": [
         "f72a3989fa9d8bca8fdbcc31",
         "7ad88d0723280e4de580c14e"
@@ -146,6 +130,23 @@
           "url": "https://notesfrompoland.com/2026/11/27/disputed-polish-constitutional-court-announces-12-month-suspension-of-chief-justice",
           "headline": "Disputed Polish constitutional court announces 12-month suspension of chief justice",
           "published_at": "2026-11-27T11:37:14Z"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "title": "Wildlife trafficking intervention",
+      "summary": "Dutch authorities at an airport seized twenty-six critically endangered turtles from the luggage of a passenger. The passenger was booked on a flight bound for Hong Kong.",
+      "article_ids": [
+        "99ca60315bf8972b132ca70e",
+        "82536b348a06405db0bef626"
+      ],
+      "sources": [
+        {
+          "publisher": "Deutsche Welle",
+          "url": "https://www.dw.com/en/dutch-authorities-seize-26-critically-endangered-turtles-from-luggage-of-passenger-bound-for-hong-kong/a-80077824?maca=en-rss-en-eu-2092-rdf",
+          "headline": "Dutch authorities seize 26 critically endangered turtles from luggage of passenger bound for Hong Kong",
+          "published_at": "2026-11-27T15:48:00Z"
         }
       ],
       "source_count": 1
@@ -170,27 +171,6 @@
           "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
           "headline": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
           "published_at": "2026-11-26T22:49:27Z"
-        }
-      ]
-    },
-    {
-      "label": "right · Spain · wing",
-      "origin": "convergence",
-      "source_count": 2,
-      "item_count": 4,
-      "latest_at": "2026-11-27T03:00:00Z",
-      "sources": [
-        {
-          "publisher": "POLITICO Europe",
-          "url": "https://www.politico.eu/article/spain-looming-right-wing-pivot-on-climate-is-already-playing-out-in-valencia",
-          "headline": "Spain’s looming right-wing pivot on climate is already playing out in Valencia",
-          "published_at": "2026-11-27T03:00:00Z"
-        },
-        {
-          "publisher": "France 24 English",
-          "url": "https://www.france24.com/en/tv-shows/the-debate/20261126-sanchez-s-big-gamble-will-spain-swing-from-socialists-to-hard-right",
-          "headline": "Sanchez's big gamble: Will Spain swing from Socialists to hard right?",
-          "published_at": "2026-11-26T20:53:56Z"
         }
       ]
     },
@@ -235,9 +215,58 @@
           "published_at": "2026-11-27T08:51:57Z"
         }
       ]
+    },
+    {
+      "label": "Italians · killed · Kuwait",
+      "origin": "convergence",
+      "source_count": 2,
+      "item_count": 2,
+      "latest_at": "2026-11-27T11:45:48Z",
+      "sources": [
+        {
+          "publisher": "France 24 English",
+          "url": "https://www.france24.com/en/video/20261127-kuwait-two-italians-killed-in-drone-attack",
+          "headline": "Kuwait: Two Italians killed in drone attack",
+          "published_at": "2026-11-27T11:45:48Z"
+        },
+        {
+          "publisher": "BBC News Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+          "headline": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+          "published_at": "2026-11-26T21:17:53Z"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "id": "44a832e7ead2aed48cd2d081",
+      "source_id": "euobserver",
+      "source_name": "EUobserver",
+      "title": "From housing, to migration, Gaza, renewables and the far-right: the bigger picture behind Spain’s Sunday election",
+      "url": "https://euobserver.com/252246/from-housing-to-migration-gaza-renewables-and-the-far-right-the-bigger-picture-behind-spains-sunday-election",
+      "published_at": "2026-11-27T16:09:55Z",
+      "collected_at": "2026-11-27T16:31:05Z",
+      "topics": [
+        "institutions",
+        "policy",
+        "rights"
+      ]
+    },
+    {
+      "id": "10ee505790fb8faccec10d3b",
+      "source_id": "bbc_europe",
+      "source_name": "BBC News Europe",
+      "title": "Brazil pushes back on Macron calling its meat 'doped'",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-27T15:54:15Z",
+      "collected_at": "2026-11-27T16:31:05Z",
+      "topics": [
+        "breaking",
+        "politics",
+        "society"
+      ]
+    },
     {
       "id": "99ca60315bf8972b132ca70e",
       "source_id": "dw_europe",
@@ -1863,48 +1892,6 @@
       ]
     },
     {
-      "id": "55fd6cd742258b55f6ee97b0",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "Sweden’s Kristersson edges closer to new term as prime minister",
-      "url": "https://www.politico.eu/article/sweden-kristersson-edges-closer-new-term-prime-minister",
-      "published_at": "2026-11-26T16:11:18Z",
-      "collected_at": "2026-11-26T16:31:02Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "6ff3fcfa3f00730438eddb42",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "In California, exceptional tides and nearly 9m-high waves batter the coast",
-      "url": "https://www.france24.com/en/video/20261126-in-california-exceptional-tides-and-nearly-9m-high-waves-batter-the-coast",
-      "published_at": "2026-11-26T16:01:44Z",
-      "collected_at": "2026-11-26T16:31:02Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "f7940b0714cc69833536347a",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Spanish economist de Cos to succeed Lagarde as head of ECB",
-      "url": "https://www.france24.com/en/europe/20261126-spanish-economist-de-cos-succeed-lagarde-head-ecb",
-      "published_at": "2026-11-26T15:55:45Z",
-      "collected_at": "2026-11-26T16:01:12Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
       "id": "8a5915e96be58d1f411b84e6",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -1916,76 +1903,6 @@
         "politics",
         "society",
         "economy"
-      ]
-    },
-    {
-      "id": "014f6e5189a10b60afd21b99",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Lost homes, stolen freedom: National Book Award winners on exile and imprisonment",
-      "url": "https://www.france24.com/en/tv-shows/arts24/20261126-lost-homes-stolen-freedom-national-book-award-winners-on-exile-and-imprisonment",
-      "published_at": "2026-11-26T15:41:38Z",
-      "collected_at": "2026-11-26T16:01:12Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "fa8bac92856fe365f8b196f6",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "How far-right Vox is winning over young voters ahead of Spain's snap election",
-      "url": "https://www.france24.com/en/europe/20261126-how-far-right-vox-winning-over-young-voters-ahead-spain-snap-election",
-      "published_at": "2026-11-26T15:37:58Z",
-      "collected_at": "2026-11-26T16:01:12Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "c3c949d8dc0484156b39d770",
-      "source_id": "france24",
-      "source_name": "France 24 English",
-      "title": "Across Africa: The Scars of South Africa's Soweto Uprising",
-      "url": "https://www.france24.com/en/across-africa-the-scars-of-south-africa-s-soweto-uprising-1",
-      "published_at": "2026-11-26T15:28:19Z",
-      "collected_at": "2026-11-26T16:01:12Z",
-      "topics": [
-        "politics",
-        "security",
-        "society"
-      ]
-    },
-    {
-      "id": "e884a31aa74dedac89d8c408",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "EU Commission offers little in response to US drug pricing pressures",
-      "url": "https://www.politico.eu/article/eu-commission-offers-little-in-response-to-us-drug-pricing-pressures",
-      "published_at": "2026-11-26T14:58:49Z",
-      "collected_at": "2026-11-26T16:01:12Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
-      ]
-    },
-    {
-      "id": "788197b135557f8ebfdad8f1",
-      "source_id": "politico_europe",
-      "source_name": "POLITICO Europe",
-      "title": "US to delay overhaul of military presence in Europe",
-      "url": "https://www.politico.eu/article/us-to-delay-overhaul-of-military-presence-in-europe",
-      "published_at": "2026-11-26T14:53:22Z",
-      "collected_at": "2026-11-26T16:01:12Z",
-      "topics": [
-        "institutions",
-        "politics",
-        "policy"
       ]
     },
     {
@@ -2479,20 +2396,6 @@
       ]
     },
     {
-      "id": "3b98dac2ab1d451195b24eea",
-      "source_id": "el_pais_english",
-      "source_name": "EL PAÍS English",
-      "title": "If it vibrates, go now: The app that tells you when to leave a movie for a bathroom break",
-      "url": "https://english.elpais.com/lifestyle/2026-11-20/if-it-vibrates-go-now-the-app-that-tells-you-when-to-leave-a-movie-for-a-bathroom-break.html",
-      "published_at": "2026-11-20T14:46:47Z",
-      "collected_at": "2026-11-26T16:01:12Z",
-      "topics": [
-        "politics",
-        "society",
-        "economy"
-      ]
-    },
-    {
       "id": "cbeece429afc267e5cb0cd0c",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2577,6 +2480,20 @@
       ]
     },
     {
+      "id": "42524281b7c1ec7a60e284a5",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "‘I watched up and down and I looked at his ass...’: Why Trump seems obsessed with praising male physiques",
+      "url": "https://english.elpais.com/usa/2026-10-28/i-watched-up-and-down-and-i-looked-at-his-ass-why-trump-seems-obsessed-with-praising-male-physiques.html",
+      "published_at": "2026-10-28T12:45:28Z",
+      "collected_at": "2026-11-27T16:31:05Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
       "id": "dffaa72c90845c6e1ec2dd5f",
       "source_id": "el_pais_english",
       "source_name": "EL PAÍS English",
@@ -2584,6 +2501,20 @@
       "url": "https://english.elpais.com/international/2026-10-07/the-madrid-bear-sculpture-meant-for-a-miami-roundabout-that-ended-up-inside-a-restaurant-instead.html",
       "published_at": "2026-10-07T14:09:26Z",
       "collected_at": "2026-11-27T05:31:01Z",
+      "topics": [
+        "politics",
+        "society",
+        "economy"
+      ]
+    },
+    {
+      "id": "9e0a227b9159734c55b28e7c",
+      "source_id": "el_pais_english",
+      "source_name": "EL PAÍS English",
+      "title": "EL PAÍS offers free Spanish lessons with Gymglish",
+      "url": "https://english.elpais.com/economy-and-business/2021-11-15/el-pais-offers-free-spanish-lessons-with-gymglish.html",
+      "published_at": "2021-11-15T14:10:11Z",
+      "collected_at": "2026-11-27T16:31:05Z",
       "topics": [
         "politics",
         "society",
